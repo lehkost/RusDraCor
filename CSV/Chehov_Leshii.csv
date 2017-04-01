@@ -1,0 +1,92 @@
+Source,Type,Target,Weight
+Дядин,Undirected,Орловский,105.0
+Хрущов,Undirected,Орловский,72.0
+Хрущов,Undirected,Дядин,86.0
+Федор Иванович,Undirected,Орловский,120.0
+Федор Иванович,Undirected,Дядин,77.0
+Федор Иванович,Undirected,Хрущов,64.0
+Семен,Undirected,Орловский,9.0
+Семен,Undirected,Дядин,16.0
+Семен,Undirected,Хрущов,16.0
+Семен,Undirected,Федор Иванович,8.0
+Серебряков,Undirected,Орловский,93.0
+Серебряков,Undirected,Дядин,77.0
+Серебряков,Undirected,Хрущов,79.0
+Серебряков,Undirected,Федор Иванович,61.0
+Серебряков,Undirected,Семен,10.0
+Марья Васильевна,Undirected,Орловский,36.0
+Марья Васильевна,Undirected,Дядин,28.0
+Марья Васильевна,Undirected,Хрущов,29.0
+Марья Васильевна,Undirected,Федор Иванович,31.0
+Марья Васильевна,Undirected,Семен,0.0
+Марья Васильевна,Undirected,Серебряков,50.0
+Соня,Undirected,Орловский,88.0
+Соня,Undirected,Дядин,69.0
+Соня,Undirected,Хрущов,116.0
+Соня,Undirected,Федор Иванович,81.0
+Соня,Undirected,Семен,5.0
+Соня,Undirected,Серебряков,74.0
+Соня,Undirected,Марья Васильевна,29.0
+Юля,Undirected,Орловский,96.0
+Юля,Undirected,Дядин,101.0
+Юля,Undirected,Хрущов,70.0
+Юля,Undirected,Федор Иванович,90.0
+Юля,Undirected,Семен,11.0
+Юля,Undirected,Серебряков,48.0
+Юля,Undirected,Марья Васильевна,16.0
+Юля,Undirected,Соня,74.0
+Все,Undirected,Орловский,5.0
+Все,Undirected,Дядин,0.0
+Все,Undirected,Хрущов,0.0
+Все,Undirected,Федор Иванович,8.0
+Все,Undirected,Семен,0.0
+Все,Undirected,Серебряков,0.0
+Все,Undirected,Марья Васильевна,0.0
+Все,Undirected,Соня,6.0
+Все,Undirected,Юля,0.0
+Желтухин,Undirected,Орловский,78.0
+Желтухин,Undirected,Дядин,58.0
+Желтухин,Undirected,Хрущов,58.0
+Желтухин,Undirected,Федор Иванович,58.0
+Желтухин,Undirected,Семен,7.0
+Желтухин,Undirected,Серебряков,56.0
+Желтухин,Undirected,Марья Васильевна,18.0
+Желтухин,Undirected,Соня,44.0
+Желтухин,Undirected,Юля,75.0
+Желтухин,Undirected,Все,0.0
+Василий,Undirected,Орловский,2.0
+Василий,Undirected,Дядин,2.0
+Василий,Undirected,Хрущов,0.0
+Василий,Undirected,Федор Иванович,9.0
+Василий,Undirected,Семен,0.0
+Василий,Undirected,Серебряков,0.0
+Василий,Undirected,Марья Васильевна,0.0
+Василий,Undirected,Соня,0.0
+Василий,Undirected,Юля,7.0
+Василий,Undirected,Все,0.0
+Василий,Undirected,Желтухин,5.0
+Елена Андреевна,Undirected,Орловский,45.0
+Елена Андреевна,Undirected,Дядин,50.0
+Елена Андреевна,Undirected,Хрущов,57.0
+Елена Андреевна,Undirected,Федор Иванович,54.0
+Елена Андреевна,Undirected,Семен,11.0
+Елена Андреевна,Undirected,Серебряков,105.0
+Елена Андреевна,Undirected,Марья Васильевна,20.0
+Елена Андреевна,Undirected,Соня,77.0
+Елена Андреевна,Undirected,Юля,20.0
+Елена Андреевна,Undirected,Все,0.0
+Елена Андреевна,Undirected,Желтухин,26.0
+Елена Андреевна,Undirected,Василий,0.0
+Войницкий,Undirected,Орловский,111.0
+Войницкий,Undirected,Дядин,65.0
+Войницкий,Undirected,Хрущов,37.0
+Войницкий,Undirected,Федор Иванович,98.0
+Войницкий,Undirected,Семен,0.0
+Войницкий,Undirected,Серебряков,81.0
+Войницкий,Undirected,Марья Васильевна,50.0
+Войницкий,Undirected,Соня,49.0
+Войницкий,Undirected,Юля,62.0
+Войницкий,Undirected,Все,2.0
+Войницкий,Undirected,Желтухин,69.0
+Войницкий,Undirected,Василий,3.0
+Войницкий,Undirected,Елена Андреевна,89.0

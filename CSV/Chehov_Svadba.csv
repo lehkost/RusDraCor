@@ -1,0 +1,92 @@
+Source,Type,Target,Weight
+Дашенька,Undirected,Кавалеры,4.0
+Мозговой,Undirected,Кавалеры,6.0
+Мозговой,Undirected,Дашенька,6.0
+Апломбов,Undirected,Кавалеры,19.0
+Апломбов,Undirected,Дашенька,19.0
+Апломбов,Undirected,Мозговой,21.0
+Настасья Тимофеевна,Undirected,Кавалеры,25.0
+Настасья Тимофеевна,Undirected,Дашенька,25.0
+Настасья Тимофеевна,Undirected,Мозговой,27.0
+Настасья Тимофеевна,Undirected,Апломбов,40.0
+Жигалов,Undirected,Кавалеры,16.0
+Жигалов,Undirected,Дашенька,16.0
+Жигалов,Undirected,Мозговой,18.0
+Жигалов,Undirected,Апломбов,31.0
+Жигалов,Undirected,Настасья Тимофеевна,37.0
+Лакей,Undirected,Кавалеры,4.0
+Лакей,Undirected,Дашенька,4.0
+Лакей,Undirected,Мозговой,6.0
+Лакей,Undirected,Апломбов,19.0
+Лакей,Undirected,Настасья Тимофеевна,25.0
+Лакей,Undirected,Жигалов,16.0
+Дымба,Undirected,Кавалеры,10.0
+Дымба,Undirected,Дашенька,10.0
+Дымба,Undirected,Мозговой,12.0
+Дымба,Undirected,Апломбов,25.0
+Дымба,Undirected,Настасья Тимофеевна,31.0
+Дымба,Undirected,Жигалов,22.0
+Дымба,Undirected,Лакей,10.0
+Нюнин,Undirected,Кавалеры,16.0
+Нюнин,Undirected,Дашенька,16.0
+Нюнин,Undirected,Мозговой,18.0
+Нюнин,Undirected,Апломбов,31.0
+Нюнин,Undirected,Настасья Тимофеевна,37.0
+Нюнин,Undirected,Жигалов,28.0
+Нюнин,Undirected,Лакей,16.0
+Нюнин,Undirected,Дымба,22.0
+Все,Undirected,Кавалеры,4.0
+Все,Undirected,Дашенька,4.0
+Все,Undirected,Мозговой,6.0
+Все,Undirected,Апломбов,19.0
+Все,Undirected,Настасья Тимофеевна,25.0
+Все,Undirected,Жигалов,16.0
+Все,Undirected,Лакей,4.0
+Все,Undirected,Дымба,10.0
+Все,Undirected,Нюнин,16.0
+Змеюкина,Undirected,Кавалеры,17.0
+Змеюкина,Undirected,Дашенька,17.0
+Змеюкина,Undirected,Мозговой,19.0
+Змеюкина,Undirected,Апломбов,32.0
+Змеюкина,Undirected,Настасья Тимофеевна,38.0
+Змеюкина,Undirected,Жигалов,29.0
+Змеюкина,Undirected,Лакей,17.0
+Змеюкина,Undirected,Дымба,23.0
+Змеюкина,Undirected,Нюнин,29.0
+Змеюкина,Undirected,Все,17.0
+Ять,Undirected,Кавалеры,23.0
+Ять,Undirected,Дашенька,23.0
+Ять,Undirected,Мозговой,25.0
+Ять,Undirected,Апломбов,38.0
+Ять,Undirected,Настасья Тимофеевна,44.0
+Ять,Undirected,Жигалов,35.0
+Ять,Undirected,Лакей,23.0
+Ять,Undirected,Дымба,29.0
+Ять,Undirected,Нюнин,35.0
+Ять,Undirected,Все,23.0
+Ять,Undirected,Змеюкина,36.0
+Шафер,Undirected,Кавалеры,9.0
+Шафер,Undirected,Дашенька,9.0
+Шафер,Undirected,Мозговой,11.0
+Шафер,Undirected,Апломбов,24.0
+Шафер,Undirected,Настасья Тимофеевна,30.0
+Шафер,Undirected,Жигалов,21.0
+Шафер,Undirected,Лакей,9.0
+Шафер,Undirected,Дымба,15.0
+Шафер,Undirected,Нюнин,21.0
+Шафер,Undirected,Все,9.0
+Шафер,Undirected,Змеюкина,22.0
+Шафер,Undirected,Ять,28.0
+Ревунов,Undirected,Кавалеры,25.0
+Ревунов,Undirected,Дашенька,25.0
+Ревунов,Undirected,Мозговой,27.0
+Ревунов,Undirected,Апломбов,40.0
+Ревунов,Undirected,Настасья Тимофеевна,46.0
+Ревунов,Undirected,Жигалов,37.0
+Ревунов,Undirected,Лакей,25.0
+Ревунов,Undirected,Дымба,31.0
+Ревунов,Undirected,Нюнин,37.0
+Ревунов,Undirected,Все,25.0
+Ревунов,Undirected,Змеюкина,38.0
+Ревунов,Undirected,Ять,44.0
+Ревунов,Undirected,Шафер,30.0
