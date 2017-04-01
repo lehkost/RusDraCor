@@ -1,0 +1,7 @@
+Source,Type,Target,Weight
+Марья Александровна,Undirected,Миша,64.0
+Собачкин,Undirected,Миша,0.0
+Собачкин,Undirected,Марья Александровна,55.0
+Лакей,Undirected,Миша,32.0
+Лакей,Undirected,Марья Александровна,34.0
+Лакей,Undirected,Собачкин,0.0

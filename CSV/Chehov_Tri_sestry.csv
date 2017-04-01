@@ -1,0 +1,106 @@
+Source,Type,Target,Weight
+Ферапонт,Undirected,Чебутыкин,94.0
+Ирина,Undirected,Чебутыкин,192.0
+Ирина,Undirected,Ферапонт,140.0
+Тузенбах,Undirected,Чебутыкин,144.0
+Тузенбах,Undirected,Ферапонт,92.0
+Тузенбах,Undirected,Ирина,190.0
+Андрей,Undirected,Чебутыкин,128.0
+Андрей,Undirected,Ферапонт,76.0
+Андрей,Undirected,Ирина,174.0
+Андрей,Undirected,Тузенбах,126.0
+Анфиса,Undirected,Чебутыкин,89.0
+Анфиса,Undirected,Ферапонт,37.0
+Анфиса,Undirected,Ирина,135.0
+Анфиса,Undirected,Тузенбах,87.0
+Анфиса,Undirected,Андрей,71.0
+Ольга,Undirected,Чебутыкин,155.0
+Ольга,Undirected,Ферапонт,103.0
+Ольга,Undirected,Ирина,201.0
+Ольга,Undirected,Тузенбах,153.0
+Ольга,Undirected,Андрей,137.0
+Ольга,Undirected,Анфиса,98.0
+Наташа,Undirected,Чебутыкин,113.0
+Наташа,Undirected,Ферапонт,61.0
+Наташа,Undirected,Ирина,159.0
+Наташа,Undirected,Тузенбах,111.0
+Наташа,Undirected,Андрей,95.0
+Наташа,Undirected,Анфиса,56.0
+Наташа,Undirected,Ольга,122.0
+Родэ,Undirected,Чебутыкин,83.0
+Родэ,Undirected,Ферапонт,31.0
+Родэ,Undirected,Ирина,129.0
+Родэ,Undirected,Тузенбах,81.0
+Родэ,Undirected,Андрей,65.0
+Родэ,Undirected,Анфиса,26.0
+Родэ,Undirected,Ольга,92.0
+Родэ,Undirected,Наташа,50.0
+Федотик,Undirected,Чебутыкин,89.0
+Федотик,Undirected,Ферапонт,37.0
+Федотик,Undirected,Ирина,135.0
+Федотик,Undirected,Тузенбах,87.0
+Федотик,Undirected,Андрей,71.0
+Федотик,Undirected,Анфиса,32.0
+Федотик,Undirected,Ольга,98.0
+Федотик,Undirected,Наташа,56.0
+Федотик,Undirected,Родэ,26.0
+Маша,Undirected,Чебутыкин,166.0
+Маша,Undirected,Ферапонт,114.0
+Маша,Undirected,Ирина,212.0
+Маша,Undirected,Тузенбах,164.0
+Маша,Undirected,Андрей,148.0
+Маша,Undirected,Анфиса,109.0
+Маша,Undirected,Ольга,175.0
+Маша,Undirected,Наташа,133.0
+Маша,Undirected,Родэ,103.0
+Маша,Undirected,Федотик,109.0
+Голос Андрея,Undirected,Чебутыкин,74.0
+Голос Андрея,Undirected,Ферапонт,22.0
+Голос Андрея,Undirected,Ирина,120.0
+Голос Андрея,Undirected,Тузенбах,72.0
+Голос Андрея,Undirected,Андрей,56.0
+Голос Андрея,Undirected,Анфиса,17.0
+Голос Андрея,Undirected,Ольга,83.0
+Голос Андрея,Undirected,Наташа,41.0
+Голос Андрея,Undirected,Родэ,11.0
+Голос Андрея,Undirected,Федотик,17.0
+Голос Андрея,Undirected,Маша,94.0
+Соленый,Undirected,Чебутыкин,109.0
+Соленый,Undirected,Ферапонт,57.0
+Соленый,Undirected,Ирина,155.0
+Соленый,Undirected,Тузенбах,107.0
+Соленый,Undirected,Андрей,91.0
+Соленый,Undirected,Анфиса,52.0
+Соленый,Undirected,Ольга,118.0
+Соленый,Undirected,Наташа,76.0
+Соленый,Undirected,Родэ,46.0
+Соленый,Undirected,Федотик,52.0
+Соленый,Undirected,Маша,129.0
+Соленый,Undirected,Голос Андрея,37.0
+Кулыгин,Undirected,Чебутыкин,129.0
+Кулыгин,Undirected,Ферапонт,77.0
+Кулыгин,Undirected,Ирина,175.0
+Кулыгин,Undirected,Тузенбах,127.0
+Кулыгин,Undirected,Андрей,111.0
+Кулыгин,Undirected,Анфиса,72.0
+Кулыгин,Undirected,Ольга,138.0
+Кулыгин,Undirected,Наташа,96.0
+Кулыгин,Undirected,Родэ,66.0
+Кулыгин,Undirected,Федотик,72.0
+Кулыгин,Undirected,Маша,149.0
+Кулыгин,Undirected,Голос Андрея,57.0
+Кулыгин,Undirected,Соленый,92.0
+Вершинин,Undirected,Чебутыкин,139.0
+Вершинин,Undirected,Ферапонт,87.0
+Вершинин,Undirected,Ирина,185.0
+Вершинин,Undirected,Тузенбах,137.0
+Вершинин,Undirected,Андрей,121.0
+Вершинин,Undirected,Анфиса,82.0
+Вершинин,Undirected,Ольга,148.0
+Вершинин,Undirected,Наташа,106.0
+Вершинин,Undirected,Родэ,76.0
+Вершинин,Undirected,Федотик,82.0
+Вершинин,Undirected,Маша,159.0
+Вершинин,Undirected,Голос Андрея,67.0
+Вершинин,Undirected,Соленый,102.0
+Вершинин,Undirected,Кулыгин,122.0

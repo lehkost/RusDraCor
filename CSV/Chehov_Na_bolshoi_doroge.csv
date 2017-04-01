@@ -1,0 +1,67 @@
+Source,Type,Target,Weight
+Назаровна,Undirected,Борцов,36.0
+Мерик,Undirected,Борцов,83.0
+Мерик,Undirected,Назаровна,43.0
+Кузьма,Undirected,Борцов,28.0
+Кузьма,Undirected,Назаровна,0.0
+Кузьма,Undirected,Мерик,34.0
+Ефимовна,Undirected,Борцов,47.0
+Ефимовна,Undirected,Назаровна,17.0
+Ефимовна,Undirected,Мерик,59.0
+Ефимовна,Undirected,Кузьма,19.0
+Савва,Undirected,Борцов,53.0
+Савва,Undirected,Назаровна,24.0
+Савва,Undirected,Мерик,56.0
+Савва,Undirected,Кузьма,18.0
+Савва,Undirected,Ефимовна,30.0
+Голос из угла,Undirected,Борцов,40.0
+Голос из угла,Undirected,Назаровна,10.0
+Голос из угла,Undirected,Мерик,55.0
+Голос из угла,Undirected,Кузьма,19.0
+Голос из угла,Undirected,Ефимовна,17.0
+Голос из угла,Undirected,Савва,23.0
+Кучер,Undirected,Борцов,0.0
+Кучер,Undirected,Назаровна,0.0
+Кучер,Undirected,Мерик,0.0
+Кучер,Undirected,Кузьма,0.0
+Кучер,Undirected,Ефимовна,0.0
+Кучер,Undirected,Савва,0.0
+Кучер,Undirected,Голос из угла,0.0
+Марья Егоровна,Undirected,Борцов,13.0
+Марья Егоровна,Undirected,Назаровна,10.0
+Марья Егоровна,Undirected,Мерик,16.0
+Марья Егоровна,Undirected,Кузьма,0.0
+Марья Егоровна,Undirected,Ефимовна,0.0
+Марья Егоровна,Undirected,Савва,0.0
+Марья Егоровна,Undirected,Голос из угла,0.0
+Марья Егоровна,Undirected,Кучер,0.0
+Голос за дверью,Undirected,Борцов,15.0
+Голос за дверью,Undirected,Назаровна,0.0
+Голос за дверью,Undirected,Мерик,21.0
+Голос за дверью,Undirected,Кузьма,21.0
+Голос за дверью,Undirected,Ефимовна,6.0
+Голос за дверью,Undirected,Савва,5.0
+Голос за дверью,Undirected,Голос из угла,6.0
+Голос за дверью,Undirected,Кучер,0.0
+Голос за дверью,Undirected,Марья Егоровна,0.0
+Федя,Undirected,Борцов,69.0
+Федя,Undirected,Назаровна,34.0
+Федя,Undirected,Мерик,70.0
+Федя,Undirected,Кузьма,24.0
+Федя,Undirected,Ефимовна,46.0
+Федя,Undirected,Савва,52.0
+Федя,Undirected,Голос из угла,39.0
+Федя,Undirected,Кучер,3.0
+Федя,Undirected,Марья Егоровна,0.0
+Федя,Undirected,Голос за дверью,11.0
+Тихон,Undirected,Борцов,93.0
+Тихон,Undirected,Назаровна,45.0
+Тихон,Undirected,Мерик,102.0
+Тихон,Undirected,Кузьма,34.0
+Тихон,Undirected,Ефимовна,60.0
+Тихон,Undirected,Савва,66.0
+Тихон,Undirected,Голос из угла,53.0
+Тихон,Undirected,Кучер,5.0
+Тихон,Undirected,Марья Егоровна,15.0
+Тихон,Undirected,Голос за дверью,21.0
+Тихон,Undirected,Федя,86.0
