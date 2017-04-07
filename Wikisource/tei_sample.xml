@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">НазваниеПьесы</title>
+                <title type="sub">Совершенно невероятное событие в двух действиях</title>
+                <title type="sub">Писано в 1833 году</title>
+                <author>Имя автора</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dlina">DLINA</publisher>
+                <idno type="URL">https://dlina.github.io</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/legalcode"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Название вашего ресурса </name>
+                    <idno type="URL">юрл</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC BY-SA 3.0</ab>
+                            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru"
+                                >Licence</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <title>Название печатного издания</title>
+                        <date type="print">1994</date>
+                        <date type="premiere"/>
+                        <date type="written" notBefore="1833" notAfter="1841">1833 — 1841</date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="Petya">
+                        <persName>Петя</persName>
+                    </person>
+                    <person xml:id="Vasya">
+                        <persName>Вася</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#ds">converted from source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <castList>
+                <head>Действующие лица</head>
+                <castItem>Вася, персонаж.</castItem>
+                <castItem>Петя, персонаж.</castItem>
+            </castList>
+            <div type="act">
+                <head>Действие первое</head>
+                <div type="scene">
+                    <head>Явление I</head>
+                    <stage>Комната холостяка.</stage>
+                    <stage>Петя один, лежит на диване с трубкой.</stage>
+                    <sp>
+                    	<speaker>Петя</speaker> <stage type="delivery">в сторону</stage>
+                        <p>Вот как начнешь эдак один на досуге подумывать, так видишь, что наконец
+                            точно нужно жениться. Что, в самом деле? Живешь, живешь, да такая
+                            наконец скверность становится. Вот опять пропустил мясоед. А ведь,
+                            кажется, все готово, и сваха вот уж три месяца ходит. Право, самому
+                            как-то становится совестно. Эй, Степан!</p>
+                    </sp>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
