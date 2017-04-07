@@ -9,7 +9,7 @@ author = re.findall('АВТОР = (.*?)\n', text_read)[0]
 text = open('./wikisource_raws/41. Don-Zhuan v Egipte.txt', 'r', encoding='utf-8')
 
 tei_header = open('tei_header.xml', 'r', encoding='utf-8').read()
-text_tei = open('41. Don-Zhuan v Egipte.xml', 'w', encoding='utf-8')
+text_tei = open('/wikisource_tei/Don-Zhuan v Egipte_v2.xml', 'w', encoding='utf-8')
 text_tei.write(tei_header)
 
 poem = False
@@ -25,7 +25,7 @@ for line in text:
     if line.startswith('{{rem|') or line.startswith('{{Rem|'):
         stage = re.findall('\{\{[Rr]em\|(.*?)\}\}', line)[0]
         text_tei.write('<stage>' + stage + '</stage>\n')
-    if line == '\n' or line =='----\n':
+    if line == '\n' or line == '----\n':
         pass
     if line == '<poem>\n':
         poem = True
@@ -48,7 +48,7 @@ for line in text:
                 stage_del = stage_del[0]
                 text_tei.write('<stage>' + stage_del + '</stage>\n')
         else:
-            if line == '\n' or line =='----\n' or line == '<poem>\n':
+            if line == '\n' or line == '----\n' or line == '<poem>\n':
                 pass
             else:
                 if 'indent' in line:
