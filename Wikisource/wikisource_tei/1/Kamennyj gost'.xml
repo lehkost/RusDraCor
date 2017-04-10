@@ -54,12 +54,12 @@
     </teiHeader>
     <text>
         <body>
-<p>== Каменный гость ==</p>
 <p>{{эпиграф2|</p>
 <p>{{razr|Leporello}}. O statua gentilissima <br /></p>
 <p>{{indent|6}}Del gran’ Commendatore!.. <br /></p>
 <p>{{indent|6}}…Ah, Padrone!</p>
-<p>=== Сцена I ===</p>
+<div type="scene">
+<head>Сцена I</head>
 <stage>Дон Гуан и Лепорелло.</stage>
 </sp>
 <sp who="#Don Guan">
@@ -370,7 +370,10 @@
 <l>Ждет ночи и луны боится — боже!</l>
 <l>Проклятое житье. Да долго ль будет</l>
 <l>Мне с ним возиться? Право, сил уж нет.</l>
-<p>=== Сцена II ===</p>
+</sp>
+</div>
+<div type="scene">
+<head>Сцена II</head>
 <stage>Комната. Ужин у Лауры. </stage>
 </sp>
 <sp who="#Pervyj gost'">
@@ -754,7 +757,10 @@
 <sp who="#Don Guan">
 <speaker>Дон Гуан</speaker>
 <l>Скажи… Нет, после переговорим.</l>
-<p>=== Сцена III ===</p>
+</sp>
+</div>
+<div type="scene">
+<head>Сцена III</head>
 <stage>Памятник командора. </stage>
 </sp>
 <sp who="#Don Guan">
@@ -1180,7 +1186,10 @@
 <sp who="#Don Guan">
 <speaker>Дон Гуан</speaker>
 <l part="F"> Уйдем.</l>
-<p>=== Сцена IV ===</p>
+</sp>
+</div>
+<div type="scene">
+<head>Сцена IV</head>
 <stage>Комната Доны Анны.</stage>
 <stage>Дон Гуан и Дона Анна.</stage>
 </sp>
@@ -1576,7 +1585,6 @@
 <stage>Проваливаются. </stage>
 <l>{{right|''1830''}}</l>
 <p></poem></div></p>
-<p>== Примечания ==</p>
 <p>{{примечания}}</p>
 <p>{{PD-simple}}</p>
 <p>[[Категория:Драматургия Александра Сергеевича Пушкина]]</p>

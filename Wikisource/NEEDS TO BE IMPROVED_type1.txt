@@ -6,9 +6,5 @@
 - Handling «идет к выходу вслед за {{Razr|Пьеро}}}}» - NEED to do this BEFORE handling «{{Реплика|Председатель}}»
 - Adding «{{rem2|»
 - Handling «{{right»
-- Adding === ЯВЛЕНИЕ I ===
-- Adding ==== Сцена первая ====
-- Adding == ДЕЙСТВИЕ I ==
-- Adding === Сцена I ===
-- Adding ==== ЯВЛЕНИЕ ВТОРОЕ ====
+- Adding intelligent <div> closing
 - Handling «{{rem|Те же» и «{{razr|Трумф}}, вбегая в бешенстве.}}»

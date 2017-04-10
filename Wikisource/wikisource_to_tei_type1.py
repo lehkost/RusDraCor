@@ -76,11 +76,22 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                     if line.startswith('<center>'):
                         stage_text = re.findall('<center>(.*?)</center>', line)[0]
                         text_tei.write('<stage>' + stage_text + '</stage>\n')
+                    if line.startswith('=='):
+                        if 'действие' in line.lower():
+                            act = re.findall('\=\= (.*?) \=\=', line)[0]
+                            text_tei.write('<div type="act">\n<head>' + act + '</head>\n')
+                        if 'явление' in line.lower():
+                            scene = re.findall('\=\=\= (.*?) \=\=\=', line)[0]
+                            text_tei.write('<div type="scene">\n<head>' + scene + '</head>\n')
+                        if 'сцена' in line.lower():
+                            scene = re.findall('\=\=\= (.*?) \=\=\=', line)[0]
+                            text_tei.write('<div type="scene">\n<head>' + scene + '</head>\n')
                     else:
                         if poem:
                             if not line.startswith('{{Re|') and not line.startswith('{{re|')\
                                     and not line.startswith('{{rem|') and not line.startswith('{{Rem|')\
-                                    and not line.startswith('<h4>') and not line == '<poem>\n':
+                                    and not line.startswith('<h4>') and not line == '<poem>\n'\
+                                    and not line.startswith('=='):
                                 if line == '----\n' or line == '<poem>\n':
                                     pass
                                 if line == '\n':
