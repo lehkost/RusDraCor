@@ -1,5 +1,4 @@
 - More intelligent <sp> closing
-- Adding ParticDesc (generating automatically, removing duplicates)
 - Fixing random lines like </poem><poem> and </poem><poem class=p00> and <p><poem class=p1></p>
 - Handling «{{Реплика|Председатель}}»
 - Handling «идет к выходу вслед за {{Razr|Пьеро}}}}» - NEED to do this BEFORE handling «{{Реплика|Председатель}}»
