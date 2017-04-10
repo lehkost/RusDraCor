@@ -47,17 +47,32 @@ for line in text:
             text_tei.write('<stage>' + stage_del + '</stage>\n')
     if line == '\n':
         text_tei.write('</sp>\n')
-    if poem:
-        if not line.startswith('{{Re|') and not line.startswith('{{re|')\
-                and not line.startswith('{{rem|') and not line.startswith('{{Rem|'):
-            if line == '----\n' or line == '<poem>\n':
-                pass
-            else:
-                if 'indent' in line:
-                    line = line.split('}}')[1]
-                    text_tei.write('<l part="F">' + line.split('\n')[0] + '</l>\n')
+    if line.startswith('<h4>'):
+        scene_title = re.findall('<h4>(.*?)</h4>', line)[0]
+        text_tei.write('<div type="scene">\n<head>' + scene_title + '</head>\n')
+    else:
+        if poem:
+            if not line.startswith('{{Re|') and not line.startswith('{{re|')\
+                    and not line.startswith('{{rem|') and not line.startswith('{{Rem|'):
+                if line == '----\n' or line == '<poem>\n':
+                    pass
+                if line == '\n':
+                    pass
                 else:
-                    text_tei.write('<l>' + line.split('\n')[0] + '</l>\n')
+                    if 'indent' in line:
+                        line = line.split('}}')[1]
+                        text_tei.write('<l part="F">' + line.split('\n')[0] + '</l>\n')
+                    else:
+                        text_tei.write('<l>' + line.split('\n')[0] + '</l>\n')
+        if not poem:
+            if not line.startswith('{{Re|') and not line.startswith('{{re|')\
+                    and not line.startswith('{{rem|') and not line.startswith('{{Rem|'):
+                if line == '\n':
+                    pass
+                else:
+                    text_tei.write('<p>' + line.split('\n')[0] + '</p>\n')
+
+
 
 text_tei.write('</body>\n</text>\n</TEI>')
 
