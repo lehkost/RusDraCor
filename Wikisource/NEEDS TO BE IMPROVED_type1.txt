@@ -1,0 +1,3 @@
+- More intelligent <sp> closing
+- Adding CastList from Действубщие лица list
+- Adding ParticDesc (generating automatically, removing duplicates)

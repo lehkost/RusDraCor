@@ -42,9 +42,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                     if line.startswith('</poem>'):
                         poem = False
                     if line.lower().startswith('{{re|'):
-                        print(line)
                         speaker = re.findall('\{\{[Rr]e\|(.*?)\|', line)
-                        print(speaker)
                         if len(speaker) == 0:
                             speaker = re.findall('\{\{[Rr]e\|(.*?)\}\}', line)
                             speaker = speaker[0]
