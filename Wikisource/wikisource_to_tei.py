@@ -1,7 +1,10 @@
 import re
 import transliterate
 
-text = open('./wikisource_raws/Fantazija (Prutkov).txt', 'r', encoding='utf-8')
+text = open('./wikisource_raws/Fantazija (Prutkov).txt', 'w', encoding='utf-8')
+remarks = re.findall('\{\{Ремарка\|Гладит моську.\}\}', text)
+
+
 text_read = text.read()
 text.close()
 title = re.findall('НАЗВАНИЕ = (.*?)\n', text_read)[0]
@@ -37,8 +40,7 @@ for line in text:
         if line.startswith('</poem>'):
             poem = False
         if line.lower().startswith('{{re|') or line.lower().startswith('{{реплика'):
-            sp = True
-            speaker = re.findall('\{\{([Rr]e)|([Рр]еплика)\|(.*?)\|', line)[1]
+            speaker = re.findall('\{\{([Rr]e)|([Рр]еплика)\|(.*?)\|', line)[0][2]
             print(re.findall('\{\{([Rr]e)|([Рр]еплика)\|(.*?)\|', line))
             speaker_id = transliterate.translit(speaker, 'ru', reversed=True)
             stage_del = re.findall('\{\{[Rr]e\|' + speaker + '\|\((.*?)\)\}\}', line)

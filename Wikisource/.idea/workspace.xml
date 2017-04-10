@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_to_tei.py" afterPath="$PROJECT_DIR$/wikisource_to_tei.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Wikisource.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="wikisource_to_tei.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikisource_to_tei.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58246344" vertical-offset="456" max-vertical-offset="1770">
-              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.782881" vertical-offset="0" max-vertical-offset="1800">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -39,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fantazija (Prutkov).xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_tei/Fantazija (Prutkov).xml">
+      <file leaf-file-name="Fantazija (Prutkov).txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wikisource_raws/Fantazija (Prutkov).txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1965">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.5555553" vertical-offset="3795" max-vertical-offset="16335">
+              <caret line="263" column="209" selection-start-line="263" selection-start-column="209" selection-end-line="263" selection-end-column="235" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fantazija (Prutkov).txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_raws/Fantazija (Prutkov).txt">
+      <file leaf-file-name="Fantazija (Prutkov).xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wikisource_tei/Fantazija (Prutkov).xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5555553" vertical-offset="1695" max-vertical-offset="16335">
-              <caret line="123" column="30" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="30" />
+            <state vertical-scroll-proportion="-6.740741" vertical-offset="1798" max-vertical-offset="2430">
+              <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -342,7 +341,13 @@
       <option name="project" value="LOCAL" />
       <updated>1491826178671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="parsing">
+      <created>1491827606988</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491827606988</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,24 +609,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_tei/Fantazija (Prutkov).xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11295">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.740741" vertical-offset="1798" max-vertical-offset="2430">
+          <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_raws/Fantazija (Prutkov).txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5555553" vertical-offset="1695" max-vertical-offset="16335">
-          <caret line="123" column="30" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="30" />
+        <state vertical-scroll-proportion="-5.5555553" vertical-offset="3795" max-vertical-offset="16335">
+          <caret line="263" column="209" selection-start-line="263" selection-start-column="209" selection-end-line="263" selection-end-column="235" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_to_tei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58246344" vertical-offset="456" max-vertical-offset="1770">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.782881" vertical-offset="0" max-vertical-offset="1800">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
