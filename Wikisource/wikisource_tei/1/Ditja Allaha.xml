@@ -40,6 +40,70 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Ptitsy">
+<persName>Птицы</persName>
+</person>
+<person xml:id="Glashataj">
+<persName>Глашатай</persName>
+</person>
+<person xml:id="Gafiz">
+<persName>Гафиз</persName>
+</person>
+<person xml:id="Beduin">
+<persName>Бедуин</persName>
+</person>
+<person xml:id="Peri">
+<persName>Пери</persName>
+</person>
+<person xml:id="Kadi">
+<persName>Кади</persName>
+</person>
+<person xml:id="Pirat">
+<persName>Пират</persName>
+</person>
+<person xml:id="Iskander">
+<persName>Искандер</persName>
+</person>
+<person xml:id="Rab">
+<persName>Раб</persName>
+</person>
+<person xml:id="Angel">
+<persName>Ангел</persName>
+</person>
+<person xml:id="Staruha">
+<persName>Старуха</persName>
+</person>
+<person xml:id="1-j evnuh">
+<persName>1-й евнух</persName>
+</person>
+<person xml:id="Shejh">
+<persName>Шейх</persName>
+</person>
+<person xml:id="Astrolog">
+<persName>Астролог</persName>
+</person>
+<person xml:id="Syn Kalifa">
+<persName>Сын Калифа</persName>
+</person>
+<person xml:id="Dervish">
+<persName>Дервиш</persName>
+</person>
+<person xml:id="Kalif">
+<persName>Калиф</persName>
+</person>
+<person xml:id="Sindbad">
+<persName>Синдбад</persName>
+</person>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
+</person>
+<person xml:id="2-j evnuh">
+<persName>2-й евнух</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>

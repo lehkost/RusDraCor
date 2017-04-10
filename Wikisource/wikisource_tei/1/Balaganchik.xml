@@ -40,6 +40,34 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Arlekin">
+<persName>Арлекин</persName>
+</person>
+<person xml:id="On">
+<persName>Он</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
+</person>
+<person xml:id="Pervyj mistik">
+<persName>Первый мистик</persName>
+</person>
+<person xml:id="Tretij mistik">
+<persName>Третий мистик</persName>
+</person>
+<person xml:id="P'ero">
+<persName>Пьеро</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
+</person>
+<person xml:id="Vtoroj mistik">
+<persName>Второй мистик</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>

@@ -40,6 +40,61 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Ranis i Krokale">
+<persName>Ранис и Крокале</persName>
+</person>
+<person xml:id="Hiale">
+<persName>Хиале</persName>
+</person>
+<person xml:id="Akteon">
+<persName>Актеон</persName>
+</person>
+<person xml:id="Agava">
+<persName>Агава</persName>
+</person>
+<person xml:id="Vtoroj junosha">
+<persName>Второй юноша</persName>
+</person>
+<person xml:id="Kadm">
+<persName>Кадм</persName>
+</person>
+<person xml:id="Tretij junosha">
+<persName>Третий юноша</persName>
+</person>
+<person xml:id="Krokale">
+<persName>Крокале</persName>
+</person>
+<person xml:id="Diana">
+<persName>Диана</persName>
+</person>
+<person xml:id="Pervyj junosha">
+<persName>Первый юноша</persName>
+</person>
+<person xml:id="Ranis">
+<persName>Ранис</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="Vse troe">
+<persName>Все трое</persName>
+</person>
+<person xml:id="Golosa ohotnits">
+<persName>Голоса охотниц</persName>
+</person>
+<person xml:id="Ehion">
+<persName>Эхион</persName>
+</person>
+<person xml:id="Tretij">
+<persName>Третий</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>

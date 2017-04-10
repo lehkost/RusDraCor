@@ -40,6 +40,16 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Stif">
+<persName>Стиф</persName>
+</person>
+<person xml:id="Klefiston">
+<persName>Клефистон</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>
@@ -54,6 +64,11 @@
     </teiHeader>
     <text>
         <body>
+<castList>
+<head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+<castItem>Клефистон</castItem>
+<castItem>Стиф</castItem>
+</castList>
 <stage>Действие происходит в окрестностях Древних Афин.</stage>
 <p>{| class=personae</p>
 <p>----</p>

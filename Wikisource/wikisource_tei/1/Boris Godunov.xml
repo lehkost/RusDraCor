@@ -40,6 +40,241 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Poljak">
+<persName>Поляк</persName>
+</person>
+<person xml:id="Pjatyj">
+<persName>Пятый</persName>
+</person>
+<person xml:id="Odin bojarin">
+<persName>Один боярин</persName>
+</person>
+<person xml:id="Nischij">
+<persName>Нищий</persName>
+</person>
+<person xml:id="Basmanov">
+<persName>Басманов</persName>
+</person>
+<person xml:id="Misail">
+<persName>Мисаил</persName>
+</person>
+<person xml:id="Pervyj bojarin">
+<persName>Первый боярин</persName>
+</person>
+<person xml:id="Pristav">
+<persName>Пристав</persName>
+</person>
+<person xml:id="Pervyj pristav">
+<persName>Первый пристав</persName>
+</person>
+<person xml:id="Ksenija">
+<persName>Ксения</persName>
+</person>
+<person xml:id="Marina">
+<persName>Марина</persName>
+</person>
+<person xml:id="V. Rozen">
+<persName>В. Розен</persName>
+</person>
+<person xml:id="Bojarin">
+<persName>Боярин</persName>
+</person>
+<person xml:id="Mamka">
+<persName>Мамка</persName>
+</person>
+<person xml:id="Gavrila Pushkin">
+<persName>Гаврила Пушкин</persName>
+</person>
+<person xml:id="Ljahi">
+<persName>Ляхи</persName>
+</person>
+<person xml:id="Schelkalov">
+<persName>Щелкалов</persName>
+</person>
+<person xml:id="Hozjajka">
+<persName>Хозяйка</persName>
+</person>
+<person xml:id="Feodor">
+<persName>Феодор</persName>
+</person>
+<person xml:id="Lzhedimitrij">
+<persName>Лжедимитрий</persName>
+</person>
+<person xml:id="Mnishek">
+<persName>Мнишек</persName>
+</person>
+<person xml:id="Kurbskij">
+<persName>Курбский</persName>
+</person>
+<person xml:id="Dimitrij">
+<persName>Димитрий</persName>
+</person>
+<person xml:id="Mosal'skij">
+<persName>Мосальский</persName>
+</person>
+<person xml:id="Pater">
+<persName>Pater</persName>
+</person>
+<person xml:id="Varlaam">
+<persName>Варлаам</persName>
+</person>
+<person xml:id="Mal'chik">
+<persName>Мальчик</persName>
+</person>
+<person xml:id="Odin iz begletsov">
+<persName>Один из беглецов</persName>
+</person>
+<person xml:id="Drugoj">
+<persName>Другой</persName>
+</person>
+<person xml:id="Boris">
+<persName>Борис</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="Staruha">
+<persName>Старуха</persName>
+</person>
+<person xml:id="Strazha">
+<persName>Стража</persName>
+</person>
+<person xml:id="Tsar'">
+<persName>Царь</persName>
+</person>
+<person xml:id="Muzhik na amvone">
+<persName>Мужик на амвоне</persName>
+</person>
+<person xml:id="Pristavy">
+<persName>Приставы</persName>
+</person>
+<person xml:id="Odin">
+<persName>Один</persName>
+</person>
+<person xml:id="Voiny">
+<persName>Воины</persName>
+</person>
+<person xml:id="Vorotynskij">
+<persName>Воротынский</persName>
+</person>
+<person xml:id="Drugoj pristav">
+<persName>Другой пристав</persName>
+</person>
+<person xml:id="Nemtsy">
+<persName>Немцы</persName>
+</person>
+<person xml:id="Odin iz naroda">
+<persName>Один из народа</persName>
+</person>
+<person xml:id="Pimen">
+<persName>Пимен</persName>
+</person>
+<person xml:id="Jurodivyj">
+<persName>Юродивый</persName>
+</person>
+<person xml:id="Odin ">
+<persName>Один </persName>
+</person>
+<person xml:id="Odin pristav">
+<persName>Один пристав</persName>
+</person>
+<person xml:id="<Pervyj pristav>">
+<persName><Первый пристав></persName>
+</person>
+<person xml:id="Vtoroj pristav">
+<persName>Второй пристав</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="Dama">
+<persName>Дама</persName>
+</person>
+<person xml:id="Vse">
+<persName>Все</persName>
+</person>
+<person xml:id="Mal'chishki">
+<persName>Мальчишки</persName>
+</person>
+<person xml:id="Shestoj">
+<persName>Шестой</persName>
+</person>
+<person xml:id="Marzheret">
+<persName>Маржерет</persName>
+</person>
+<person xml:id="Ljah">
+<persName>Лях</persName>
+</person>
+<person xml:id="Bojare">
+<persName>Бояре</persName>
+</person>
+<person xml:id="Tretij">
+<persName>Третий</persName>
+</person>
+<person xml:id="Knjaz' Vorotynskij">
+<persName>Князь Воротынский</persName>
+</person>
+<person xml:id="Mal'chishka">
+<persName>Мальчишка</persName>
+</person>
+<person xml:id="Baba">
+<persName>Баба</persName>
+</person>
+<person xml:id="Hruschov">
+<persName>Хрущов</persName>
+</person>
+<person xml:id="Shujskij">
+<persName>Шуйский</persName>
+</person>
+<person xml:id="Kavaler">
+<persName>Кавалер</persName>
+</person>
+<person xml:id="Pushkin">
+<persName>Пушкин</persName>
+</person>
+<person xml:id="Odin iz nih">
+<persName>Один из них</persName>
+</person>
+<person xml:id="Karela">
+<persName>Карела</persName>
+</person>
+<person xml:id="Grigorij">
+<persName>Григорий</persName>
+</person>
+<person xml:id="Patriarh">
+<persName>Патриарх</persName>
+</person>
+<person xml:id="Chetvertyj">
+<persName>Четвертый</persName>
+</person>
+<person xml:id="Knjaz' Shujskij">
+<persName>Князь Шуйский</persName>
+</person>
+<person xml:id="Plennik">
+<persName>Пленник</persName>
+</person>
+<person xml:id="Narod">
+<persName>Народ</persName>
+</person>
+<person xml:id="Semen Godunov">
+<persName>Семен Годунов</persName>
+</person>
+<person xml:id="Samozvanets">
+<persName>Самозванец</persName>
+</person>
+<person xml:id="Vishnevetskij">
+<persName>Вишневецкий</persName>
+</person>
+<person xml:id="Igumen">
+<persName>Игумен</persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>

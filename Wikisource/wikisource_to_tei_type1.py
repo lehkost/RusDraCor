@@ -9,6 +9,12 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text = open('./wikisource_raws/1/' + file, 'r', encoding='utf-8')
             text_read = text.read()
             text.close()
+            cast = re.findall('\{\| class=personae(.*?)\|\}', text_read, re.DOTALL)
+            castListLine = ''
+            if len(cast) != 0:
+                castItems = re.findall('\{\{razr2?\|(.*?)\}\}', cast[0])
+                for person in castItems:
+                    castListLine += '<castItem>' + person + '</castItem>\n'
             title = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text_read)[0]
             author = re.findall('АВТОР *?= ?\[?\[?(.*?)\]?\]?', text_read)[0]
             '''
@@ -34,12 +40,13 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                 if line == "<div class='drama text'>\n":
                     start = True
                 if start:
+                    '''
                     if 'действующие лица' in line.lower():
                         cast = True
                     if cast:
                         if len(re.findall('\{\{razr2?\|(.*?)\}\}', line)) != 0:
                             castList.append(re.findall('\{\{razr2?\|(.*?)\}\}', line)[0])
-
+                    '''
                     if line.startswith('{{rem|') or line.startswith('{{Rem|'):
                         stage = re.findall('\{\{[Rr]em\|(.*?)\}\}', line)[0]
                         text_tei.write('<stage>' + stage + '</stage>\n')
@@ -152,9 +159,16 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text_tei_read = re.sub('<ref.*?>.*?</ref>', '', text_tei_read)
             text_tei_read = re.sub('<author></author>', '<author>' + author + '</author>', text_tei_read)
             text_tei_read = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', text_tei_read)
+            participants = set(re.findall('<speaker>(.*?)</speaker>', text_tei_read))
+            particDescLine = '<particDesc>\n<listPerson>\n'
+            for participant in participants:
+                participant_tr = transliterate.translit(participant, 'ru', reversed=True)
+                particDescLine += '<person xml:id="' + participant_tr + '">\n' +\
+                                  '<persName>' + participant + '</persName>\n' + '</person>\n'
+            text_tei_read = re.sub('<profileDesc>\n', '<profileDesc>\n' + particDescLine +
+                                   '</listPerson>\n</particDesc>\n', text_tei_read)
+            if castListLine is not '':
+                text_tei_read = re.sub('<body>\n', '<body>\n<castList>\n<head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>\n' +
+                                       castListLine + '</castList>\n', text_tei_read)
             text_tei = open('./wikisource_tei/1/' + file.split('.txt')[0] + '.xml', 'w', encoding='utf-8')
             text_tei.write(text_tei_read)
-
-            castListLine = ''
-            for person in castList:
-                castListLine += '<castItem>' + person + '</castItem>\n'

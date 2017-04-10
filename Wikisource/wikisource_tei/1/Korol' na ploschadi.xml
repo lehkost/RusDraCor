@@ -40,6 +40,100 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="Vtoroj i golos Tret'ego">
+<persName>Второй и голос Третьего</persName>
+</person>
+<person xml:id="Chej-to golos">
+<persName>Чей-то голос</persName>
+</person>
+<person xml:id="Otdel'nye pomerkshie golosa">
+<persName>Отдельные померкшие голоса</persName>
+</person>
+<person xml:id="Tot zhe obydennyj golos">
+<persName>Тот же обыденный голос</persName>
+</person>
+<person xml:id="Rabochij">
+<persName>Рабочий</persName>
+</person>
+<person xml:id="Tretij rabochij">
+<persName>Третий рабочий</persName>
+</person>
+<person xml:id="Pervyj rabochij">
+<persName>Первый рабочий</persName>
+</person>
+<person xml:id="Nischaja">
+<persName>Нищая</persName>
+</person>
+<person xml:id="Mnogie golosa">
+<persName>Многие голоса</persName>
+</person>
+<person xml:id="Prodavschitsa roz">
+<persName>Продавщица роз</persName>
+</person>
+<person xml:id="Doch' Zodchego">
+<persName>Дочь Зодчего</persName>
+</person>
+<person xml:id="Drugie golosa">
+<persName>Другие голоса</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
+</person>
+<person xml:id="Golos Tret'ego">
+<persName>Голос Третьего</persName>
+</person>
+<person xml:id="Shut">
+<persName>Шут</persName>
+</person>
+<person xml:id="Zodchij">
+<persName>Зодчий</persName>
+</person>
+<person xml:id="Golosa">
+<persName>Голоса</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="Chelovek s fakelom">
+<persName>Человек с факелом</persName>
+</person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
+</person>
+<person xml:id="Drugoj rabochij">
+<persName>Другой рабочий</persName>
+</person>
+<person xml:id="Chernyj">
+<persName>Черный</persName>
+</person>
+<person xml:id="Chelovek v chernom">
+<persName>Человек в черном</persName>
+</person>
+<person xml:id="Zolotoj">
+<persName>Золотой</persName>
+</person>
+<person xml:id="Vtoroj rabochij">
+<persName>Второй рабочий</persName>
+</person>
+<person xml:id="Golos nischego">
+<persName>Голос нищего</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
+</person>
+<person xml:id="Golosa v tolpe">
+<persName>Голоса в толпе</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>

@@ -40,6 +40,46 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Strazh gradskih vorot">
+<persName>Страж градских ворот</persName>
+</person>
+<person xml:id="Strazh temnits">
+<persName>Страж темниц</persName>
+</person>
+<person xml:id="Nevol'nik">
+<persName>Невольник</persName>
+</person>
+<person xml:id="Stalverh">
+<persName>Сталверх</persName>
+</person>
+<person xml:id="Astrada">
+<persName>Астрада</persName>
+</person>
+<person xml:id="Kij">
+<persName>Кий</persName>
+</person>
+<person xml:id="Vel'kar">
+<persName>Велькар</persName>
+</person>
+<person xml:id="Poslannyj">
+<persName>Посланный</persName>
+</person>
+<person xml:id="Osnel'da">
+<persName>Оснельда</persName>
+</person>
+<person xml:id="Zavloh">
+<persName>Завлох</persName>
+</person>
+<person xml:id="Edinyj voin">
+<persName>Единый воин</persName>
+</person>
+<person xml:id="Horev">
+<persName>Хорев</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>

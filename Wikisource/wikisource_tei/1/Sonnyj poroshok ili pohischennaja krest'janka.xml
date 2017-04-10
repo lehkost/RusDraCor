@@ -40,6 +40,73 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="Filipp">
+<persName>Филипп</persName>
+</person>
+<person xml:id="Graf">
+<persName>Граф</persName>
+</person>
+<person xml:id="Blez">
+<persName>Блез</persName>
+</person>
+<person xml:id="Zhul'eta i Zhaneta">
+<persName>Жульета и Жанета</persName>
+</person>
+<person xml:id="Zhaneta i Nineta">
+<persName>Жанета и Нинета</persName>
+</person>
+<person xml:id="Zhul'eta, Zhaneta i Nineta">
+<persName>Жульета, Жанета и Нинета</persName>
+</person>
+<person xml:id="Paulin">
+<persName>Паулин</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
+</person>
+<person xml:id="Zhul'eta">
+<persName>Жульета</persName>
+</person>
+<person xml:id="Zhul'eta i Nineta">
+<persName>Жульета и Нинета</persName>
+</person>
+<person xml:id="Nineta">
+<persName>Нинета</persName>
+</person>
+<person xml:id="Nineta, graf">
+<persName>Нинета, граф</persName>
+</person>
+<person xml:id="Oba">
+<persName>Оба</persName>
+</person>
+<person xml:id="Vse">
+<persName>Все</persName>
+</person>
+<person xml:id="Zhaneta">
+<persName>Жанета</persName>
+</person>
+<person xml:id="Zhaneta i Paulin">
+<persName>Жанета и Паулин</persName>
+</person>
+<person xml:id="Vmeste">
+<persName>Вместе</persName>
+</person>
+<person xml:id="Rabotniki i docheri Bleza">
+<persName>Работники и дочери Блеза</persName>
+</person>
+<person xml:id="Muzhiki">
+<persName>Мужики</persName>
+</person>
+<person xml:id="Blez i Filipp">
+<persName>Блез и Филипп</persName>
+</person>
+<person xml:id="Filipp i Blez">
+<persName>Филипп и Блез</persName>
+</person>
+</listPerson>
+</particDesc>
             <textClass>
                 <keywords>
                     <term type="genreTitle"/>
@@ -54,6 +121,14 @@
     </teiHeader>
     <text>
         <body>
+<castList>
+<head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+<castItem>Дон Граф</castItem>
+<castItem>Паулин</castItem>
+<castItem>Блез</castItem>
+<castItem>Жульета</castItem>
+<castItem>Филипп</castItem>
+</castList>
 <stage>''Опера в трех действиях''</stage>
 <p><center>''Опера в трех действиях''</center></p>
 <p>{| class=personae</p>
