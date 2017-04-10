@@ -16,6 +16,7 @@ poem = False
 cast = False
 castList = []
 start = False
+sp = False
 for line in text:
     if line == "<div class='drama text'>\n":
         start = True
@@ -36,6 +37,7 @@ for line in text:
         if line.startswith('</poem>'):
             poem = False
         if line.startswith('{{Re|') or line.startswith('{{re|'):
+            sp = True
             speaker = re.findall('\{\{[Rr]e\|(.*?)\|', line)[0]
             speaker_id = transliterate.translit(speaker, 'ru', reversed=True)
             stage_del = re.findall('\{\{[Rr]e\|' + speaker + '\|\((.*?)\)\}\}', line)
@@ -46,11 +48,12 @@ for line in text:
                                 + '</stage>\n')
             if len(stage_del) == 0 and len(speaker) != 0:
                 text_tei.write('<sp who="#' + speaker_id + '">\n<speaker>' + speaker + '</speaker>\n')
+                sp = False
             if len(stage_del) != 0 and len(speaker) == 0:
                 stage_del = stage_del[0]
                 text_tei.write('<stage>' + stage_del + '</stage>\n')
-        if line == '\n':
-            text_tei.write('</sp>\n')
+        #if line == '\n':
+            #text_tei.write('</sp>\n')
         if line.startswith('<h4>'):
             scene_title = re.findall('<h4>(.*?)</h4>', line)[0]
             text_tei.write('<div type="scene">\n<head>' + scene_title + '</head>\n')
@@ -92,10 +95,11 @@ text_tei.close()
 text_tei = open('./wikisource_tei/Boris_Godunov.xml', 'r', encoding='utf-8')
 text_tei_read = text_tei.read()
 text_tei.close()
-#text_tei_read = re.sub('<sp>', '</sp>\n<sp>', text_tei_read)
-#text_tei_read = re.sub('<sp who', '</sp>\n<sp who', text_tei_read)
+text_tei_read = re.sub('<sp>', '</sp>\n<sp>', text_tei_read)
+text_tei_read = re.sub('<sp who', '</sp>\n<sp who', text_tei_read)
 text_tei_read = re.sub('<l></l>\n', '', text_tei_read)
 text_tei_read = re.sub('<p></p>\n', '', text_tei_read)
+text_tei_read = re.sub('</l>\n<div', '</l>\n</sp>\n<div', text_tei_read)
 text_tei_read = re.sub('</sp>\n<div', '</sp>\n</div>\n<div', text_tei_read)
 text_tei_read = re.sub('<ref.*?>.*?</ref>', '', text_tei_read)
 text_tei_read = re.sub('<author></author>', '<author>' + author + '</author>', text_tei_read)
