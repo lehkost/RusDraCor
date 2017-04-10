@@ -2550,14 +2550,14 @@
 <sp who="#Staruha">
 <speaker>Старуха</speaker>
 <p>Вот тебе копеечка; помяни же меня.</p>
-<p><poem class=p2></p>
+<l><poem class=p2></l>
 </sp>
 <sp who="#Jurodivyj">
 <speaker>Юродивый</speaker><stage type="delivery">садится на землю и поет</stage>
-<p>Месяц едет,</p>
-<p>Котенок плачет,</p>
-<p>Юродивый, вставай,</p>
-<p>Богу помолися!</p>
+<l>Месяц едет,</l>
+<l>Котенок плачет,</l>
+<l>Юродивый, вставай,</l>
+<l>Богу помолися!</l>
 <stage>Мальчишки окружают его снова.</stage>
 </sp>
 <sp who="#Odin iz nih">

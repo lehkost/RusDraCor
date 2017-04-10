@@ -37,7 +37,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                         text_tei.write('<stage>' + stage + '</stage>\n')
                     if line == '\n' or line == '----\n':
                         pass
-                    if line == '<poem>\n':
+                    if line.startswith('<poem'):
                         poem = True
                     if line.startswith('</poem>'):
                         poem = False
