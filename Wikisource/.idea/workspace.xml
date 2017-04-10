@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/Boris_Godunov.xml" afterPath="$PROJECT_DIR$/wikisource_tei/Boris_Godunov.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_to_tei.py" afterPath="$PROJECT_DIR$/wikisource_to_tei.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Wikisource.iws" />
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wikisource_to_tei.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wikisource_to_tei.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikisource_to_tei.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49895614" vertical-offset="481" max-vertical-offset="1245">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="856" max-vertical-offset="1695">
+              <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -38,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boris_Godunov.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Boris_Godunov.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikisource_tei/Boris_Godunov.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4410" max-vertical-offset="55320">
-              <caret line="318" column="32" selection-start-line="318" selection-start-column="32" selection-end-line="318" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.79646015" vertical-offset="0" max-vertical-offset="53535">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -51,28 +53,8 @@
       <file leaf-file-name="Boris Godunov.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikisource_raws/Boris Godunov.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665" vertical-offset="3660" max-vertical-offset="45600">
-              <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Don-Zhuan v Egipte_v2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_tei/Don-Zhuan v Egipte_v2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5595" max-vertical-offset="10170">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="41. Don-Zhuan v Egipte.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_raws/41. Don-Zhuan v Egipte.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.222221" vertical-offset="810" max-vertical-offset="7680">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.7777777" vertical-offset="12945" max-vertical-offset="45600">
+              <caret line="877" column="15" selection-start-line="877" selection-start-column="15" selection-end-line="877" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -343,7 +325,13 @@
       <option name="project" value="LOCAL" />
       <updated>1491812728369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="parsing">
+      <created>1491821134011</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491821134011</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -514,14 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tei_sample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_tei/Don-Zhuan v Egipte.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6818182" vertical-offset="0" max-vertical-offset="9375">
@@ -546,22 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/41. Don-Zhuan v Egipte.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.222221" vertical-offset="810" max-vertical-offset="7680">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/Don-Zhuan v Egipte_v2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11685">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates_used.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
@@ -570,29 +534,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/Boris Godunov.txt">
+    <entry file="file://$PROJECT_DIR$/tei_sample.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="3660" max-vertical-offset="45600">
-          <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+        <state vertical-scroll-proportion="-1.9749478" vertical-offset="946" max-vertical-offset="1425">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/Boris_Godunov.xml">
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/Don-Zhuan v Egipte_v2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4410" max-vertical-offset="55320">
-          <caret line="318" column="32" selection-start-line="318" selection-start-column="32" selection-end-line="318" selection-end-column="32" />
+        <state vertical-scroll-proportion="-2.5052192" vertical-offset="1200" max-vertical-offset="10170">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/41. Don-Zhuan v Egipte.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7632743" vertical-offset="0" max-vertical-offset="7680">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/Boris Godunov.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777" vertical-offset="12945" max-vertical-offset="45600">
+          <caret line="877" column="15" selection-start-line="877" selection-start-column="15" selection-end-line="877" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_to_tei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49895614" vertical-offset="481" max-vertical-offset="1245">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="856" max-vertical-offset="1695">
+          <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/Boris_Godunov.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79646015" vertical-offset="0" max-vertical-offset="53535">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
