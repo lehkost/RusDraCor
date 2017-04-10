@@ -1,14 +1,14 @@
 - More intelligent <sp> closing
-- Adding CastList from Действубщие лица list
+- Adding CastList from Действующие лица list
 - Adding ParticDesc (generating automatically, removing duplicates)
 - Fixing random lines like </poem><poem> and </poem><poem class=p00> and <p><poem class=p1></p>
-- Handling {{Реплика|Председатель}}
-- Handling «идет к выходу вслед за {{Razr|Пьеро}}}}»
-- Adding {{rem2|
-- Handling {{right
+- Handling «{{Реплика|Председатель}}»
+- Handling «идет к выходу вслед за {{Razr|Пьеро}}}}» - NEED to do this BEFORE handling «{{Реплика|Председатель}}»
+- Adding «{{rem2|»
+- Handling «{{right»
 - Adding === ЯВЛЕНИЕ I ===
 - Adding ==== Сцена первая ====
 - Adding == ДЕЙСТВИЕ I ==
 - Adding === Сцена I ===
 - Adding ==== ЯВЛЕНИЕ ВТОРОЕ ====
-- Handling {{rem|Те же и {{razr|Трумф}}, вбегая в бешенстве.}}
+- Handling «{{rem|Те же» и «{{razr|Трумф}}, вбегая в бешенстве.}}»

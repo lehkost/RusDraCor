@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Chereposlov, sirech' Frenolog.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Chereposlov, sirech' Frenolog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Korol' na ploschadi.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Korol' na ploschadi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_raws/1/Balaganchik.txt" afterPath="$PROJECT_DIR$/wikisource_raws/1/Balaganchik.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NEEDS TO BE IMPROVED_type1.txt" afterPath="$PROJECT_DIR$/NEEDS TO BE IMPROVED_type1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Podschipa ili Trumf.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Podschipa ili Trumf.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Sonnyj poroshok ili pohischennaja krest'janka.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Sonnyj poroshok ili pohischennaja krest'janka.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_to_tei_type1.py" afterPath="$PROJECT_DIR$/wikisource_to_tei_type1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -36,8 +33,8 @@
       <file leaf-file-name="wikisource_to_tei_type1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4321503" vertical-offset="678" max-vertical-offset="1920">
-              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.6263048" vertical-offset="600" max-vertical-offset="2310">
+              <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -62,6 +59,9 @@
         <option value="$PROJECT_DIR$/wikisource_tei/1/Podschipa ili Trumf.xml" />
         <option value="$PROJECT_DIR$/wikisource_raws/1/Podschipa ili Trumf.txt" />
         <option value="$PROJECT_DIR$/wikisource_to_tei.py" />
+        <option value="$PROJECT_DIR$/wikisource_tei/1/Horev.xml" />
+        <option value="$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml" />
+        <option value="$PROJECT_DIR$/wikisource_raws/1/Balaganchik.txt" />
         <option value="$PROJECT_DIR$/wikisource_to_tei_type1.py" />
       </list>
     </option>
@@ -494,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Balaganchik.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="27.222221" vertical-offset="1305" max-vertical-offset="6720">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Chereposlov, sirech' Frenolog.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46460176" vertical-offset="4995" max-vertical-offset="9750">
@@ -532,57 +525,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Akteon.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.948718" vertical-offset="8133" max-vertical-offset="9405">
-          <caret line="451" column="0" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.9786325" vertical-offset="0" max-vertical-offset="6990">
-          <caret line="233" column="62" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Blondy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5445">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Blondy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2991453" vertical-offset="675" max-vertical-offset="6960">
-          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8475" max-vertical-offset="52290">
-          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Chereposlov, sirech' Frenolog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.363256" vertical-offset="10711" max-vertical-offset="11190">
-          <caret line="447" column="22" selection-start-line="447" selection-start-column="22" selection-end-line="447" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Dimitrij Samozvanets.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-61.661797" vertical-offset="29536" max-vertical-offset="30015">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -596,54 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Ditja Allaha.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09394572" vertical-offset="2595" max-vertical-offset="23985">
-          <caret line="176" column="34" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Gondla.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.070981" vertical-offset="16320" max-vertical-offset="29505">
-          <caret line="958" column="3" selection-start-line="958" selection-start-column="3" selection-end-line="958" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Horev.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37578288" vertical-offset="690" max-vertical-offset="29775">
-          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Kamennyj gost'.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37578288" vertical-offset="735" max-vertical-offset="23880">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Korol' na ploschadi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346556" vertical-offset="7830" max-vertical-offset="21975">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Neznakomka.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.010437" vertical-offset="16291" max-vertical-offset="16770">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Podschipa ili Trumf.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36504424" vertical-offset="11850" max-vertical-offset="21165">
@@ -652,50 +549,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Podschipa ili Trumf.xml">
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Blondy.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50104386" vertical-offset="3525" max-vertical-offset="26490">
-          <caret line="251" column="25" selection-start-line="251" selection-start-column="25" selection-end-line="251" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="735" max-vertical-offset="6960">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Semira.xml">
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.51357" vertical-offset="3120" max-vertical-offset="38445">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Skupoj rytsar'.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.524009" vertical-offset="5041" max-vertical-offset="12705">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Sonnyj poroshok ili pohischennaja krest'janka.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4697286" vertical-offset="2280" max-vertical-offset="38490">
-          <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="8475" max-vertical-offset="52290">
+          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Spor drevnih grecheskih filosofov ob izjaschnom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.826722" vertical-offset="2791" max-vertical-offset="3270">
+        <state vertical-scroll-proportion="0.20353982" vertical-offset="2818" max-vertical-offset="3270">
+          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Sonnyj poroshok ili pohischennaja krest'janka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="3630" max-vertical-offset="38490">
+          <caret line="252" column="197" selection-start-line="252" selection-start-column="194" selection-end-line="252" selection-end-column="197" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Skupoj rytsar'.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3761062" vertical-offset="5095" max-vertical-offset="12705">
+          <caret line="351" column="21" selection-start-line="351" selection-start-column="21" selection-end-line="351" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Semira.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41150442" vertical-offset="3174" max-vertical-offset="38445">
+          <caret line="224" column="27" selection-start-line="224" selection-start-column="27" selection-end-line="224" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Podschipa ili Trumf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34513274" vertical-offset="3579" max-vertical-offset="26490">
+          <caret line="249" column="6" selection-start-line="249" selection-start-column="6" selection-end-line="249" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Neznakomka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36283186" vertical-offset="16291" max-vertical-offset="16770">
+          <caret line="1097" column="38" selection-start-line="1097" selection-start-column="38" selection-end-line="1097" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Korol' na ploschadi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.442478" vertical-offset="7884" max-vertical-offset="21975">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Kamennyj gost'.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="765" max-vertical-offset="23880">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Horev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="720" max-vertical-offset="29775">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Gondla.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="14220" max-vertical-offset="29505">
+          <caret line="958" column="25" selection-start-line="958" selection-start-column="3" selection-end-line="958" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Ditja Allaha.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.019911505" vertical-offset="2649" max-vertical-offset="23985">
+          <caret line="176" column="34" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Dimitrij Samozvanets.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-65.34513" vertical-offset="29536" max-vertical-offset="30015">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Chereposlov, sirech' Frenolog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.862832" vertical-offset="10711" max-vertical-offset="11190">
+          <caret line="447" column="22" selection-start-line="447" selection-start-column="22" selection-end-line="447" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Akteon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.524009" vertical-offset="766" max-vertical-offset="9405">
+          <caret line="451" column="0" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Balaganchik.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4358407" vertical-offset="6268" max-vertical-offset="6720">
+          <caret line="431" column="7" selection-start-line="158" selection-start-column="6" selection-end-line="158" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="825" max-vertical-offset="1305">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4321503" vertical-offset="678" max-vertical-offset="1920">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.6263048" vertical-offset="600" max-vertical-offset="2310">
+          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

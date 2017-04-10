@@ -11,8 +11,16 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text.close()
             title = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text_read)[0]
             author = re.findall('АВТОР *?= ?\[?\[?(.*?)\]?\]?', text_read)[0]
+            '''
+            razrs = re.findall('\{\{Razr\|.*?\}\}', text_read)
+            for el in razrs:
+                e = re.findall('\{\{Razr\|(.*?)\}\}', el)[0]
+                text_read = re.sub(el, '<actor>' + e + '</actor>', text_read)
+            text = open('./wikisource_raws/1/' + file, 'w', encoding='utf-8')
+            text.write(text_read)
+            text.close()
+            '''
             text = open('./wikisource_raws/1/' + file, 'r', encoding='utf-8')
-
             tei_header = open('tei_header.xml', 'r', encoding='utf-8').read()
             text_tei = open('./wikisource_tei/1/' + file.split('.txt')[0] + '.xml', 'w', encoding='utf-8')
             text_tei.write(tei_header)
@@ -57,7 +65,6 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                                             + '</stage>\n')
                         if len(stage_del) == 0 and len(speaker) != 0:
                             text_tei.write('<sp who="#' + speaker_id + '">\n<speaker>' + speaker + '</speaker>\n')
-                            sp = False
                         if len(stage_del) != 0 and len(speaker) == 0:
                             stage_del = stage_del[0]
                             text_tei.write('<stage>' + stage_del + '</stage>\n')
@@ -89,6 +96,25 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                                     and not line.startswith('{{rem|') and not line.startswith('{{Rem|')\
                                     and not line.startswith('<h4>') and not line.startswith('|')\
                                     and not line == '</poem>\n':
+                                '''
+                                if line.lower().startswith('{{реплика|'):
+                                    print(line)
+                                    speaker = re.findall('\{\{Реплика\|(.*?)\|', line)
+                                    if len(speaker) == 0:
+                                        speaker = re.findall('\{\{Реплика\|(.*?)\}\}', line)[0]
+                                    else:
+                                        speaker = speaker[0]
+                                    speaker_id = transliterate.translit(speaker, 'ru', reversed=True)
+                                    stage_del = re.findall('\{\{Реплика\|' + speaker + '\|(.*?)\}\}', line)
+                                    if len(stage_del) != 0 and len(speaker) != 0:
+                                        stage_del = stage_del[0]
+                                        text_tei.write('<sp who="#' + speaker_id + '">\n<speaker>' + speaker + '</speaker>'
+                                                        + '<stage type="delivery">' + stage_del
+                                                        + '</stage>\n')
+                                    if len(stage_del) == 0 and len(speaker) != 0:
+                                        text_tei.write('<sp who="#' + speaker_id + '">\n<speaker>' + speaker + '</speaker>\n')
+                                '''
+
                                 if line == '\n':
                                     pass
                                 if line == "<div class='drama text'>\n":
