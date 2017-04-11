@@ -42,26 +42,29 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="NevolNik">
-<persName>Невольник</persName>
+<person xml:id="Stalverh">
+<persName>Сталверх</persName>
 </person>
 <person xml:id="Zavloh">
 <persName>Завлох</persName>
 </person>
+<person xml:id="Horev">
+<persName>Хорев</persName>
+</person>
 <person xml:id="VelKar">
 <persName>Велькар</persName>
+</person>
+<person xml:id="StrazhGradskihVorot">
+<persName>Страж градских ворот</persName>
 </person>
 <person xml:id="Poslannyj">
 <persName>Посланный</persName>
 </person>
-<person xml:id="Kij">
-<persName>Кий</persName>
-</person>
-<person xml:id="Stalverh">
-<persName>Сталверх</persName>
-</person>
 <person xml:id="EdinyjVoin">
 <persName>Единый воин</persName>
+</person>
+<person xml:id="OsnelDa">
+<persName>Оснельда</persName>
 </person>
 <person xml:id="StrazhTemnits">
 <persName>Страж темниц</persName>
@@ -69,14 +72,11 @@
 <person xml:id="Astrada">
 <persName>Астрада</persName>
 </person>
-<person xml:id="StrazhGradskihVorot">
-<persName>Страж градских ворот</persName>
+<person xml:id="NevolNik">
+<persName>Невольник</persName>
 </person>
-<person xml:id="OsnelDa">
-<persName>Оснельда</persName>
-</person>
-<person xml:id="Horev">
-<persName>Хорев</persName>
+<person xml:id="Kij">
+<persName>Кий</persName>
 </person>
 </listPerson>
 </particDesc>

@@ -45,8 +45,11 @@
 <person xml:id="Ona">
 <persName>Она</persName>
 </person>
-<person xml:id="On">
-<persName>Он</persName>
+<person xml:id="Arlekin">
+<persName>Арлекин</persName>
+</person>
+<person xml:id="VtorojMistik">
+<persName>Второй мистик</persName>
 </person>
 <person xml:id="PEro">
 <persName>Пьеро</persName>
@@ -54,17 +57,14 @@
 <person xml:id="TretijMistik">
 <persName>Третий мистик</persName>
 </person>
-<person xml:id="Arlekin">
-<persName>Арлекин</persName>
-</person>
-<person xml:id="VtorojMistik">
-<persName>Второй мистик</persName>
-</person>
-<person xml:id="Hor">
-<persName>Хор</persName>
+<person xml:id="On">
+<persName>Он</persName>
 </person>
 <person xml:id="PervyjMistik">
 <persName>Первый мистик</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
 </person>
 </listPerson>
 </particDesc>

@@ -52,7 +52,6 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                         text_tei.write('<stage>' + stage + '</stage>\n')
                     if line == '\n' or line == '----\n':
                         pass
-                    #if "''":
 
                     if line.startswith('<poem'):
                         poem = True
@@ -168,7 +167,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             for participant in participants:
                 participant_tr = transliterate.translit(participant, 'ru', reversed=True)
                 participant_tr = participant_tr.title()
-                participant_tr = re.sub("[ .']", '', participant_tr)
+                participant_tr = re.sub("[ \.'<>]", '', participant_tr)
                 particDescLine += '<person xml:id="' + participant_tr + '">\n' +\
                                   '<persName>' + participant + '</persName>\n' + '</person>\n'
             text_tei_read = re.sub('<profileDesc>\n', '<profileDesc>\n' + particDescLine +

@@ -42,20 +42,20 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="Gertsog">
+<persName>Герцог</persName>
+</person>
 <person xml:id="Ivan">
 <persName>Иван</persName>
-</person>
-<person xml:id="AlBer">
-<persName>Альбер</persName>
 </person>
 <person xml:id="Zhid">
 <persName>Жид</persName>
 </person>
+<person xml:id="AlBer">
+<persName>Альбер</persName>
+</person>
 <person xml:id="Baron">
 <persName>Барон</persName>
-</person>
-<person xml:id="Gertsog">
-<persName>Герцог</persName>
 </person>
 </listPerson>
 </particDesc>
