@@ -42,11 +42,11 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Klefiston">
-<persName>Клефистон</persName>
-</person>
 <person xml:id="Stif">
 <persName>Стиф</persName>
+</person>
+<person xml:id="Klefiston">
+<persName>Клефистон</persName>
 </person>
 </listPerson>
 </particDesc>

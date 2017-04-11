@@ -52,6 +52,8 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                         text_tei.write('<stage>' + stage + '</stage>\n')
                     if line == '\n' or line == '----\n':
                         pass
+                    #if "''":
+
                     if line.startswith('<poem'):
                         poem = True
                     if line.startswith('</poem>'):
@@ -65,7 +67,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                             speaker = re.findall('\{\{[Rr]e\|(.*?)\|', line)[0]
                         speaker_id = transliterate.translit(speaker, 'ru', reversed=True)
                         speaker_id = speaker_id.title()
-                        speaker_id = re.sub("[ .']", '', speaker_id)
+                        speaker_id = re.sub("[ \.'<>]", '', speaker_id)
                         stage_del = re.findall('\{\{[Rr]e\|' + speaker + '\|\((.*?)\)\}\}', line)
                         if len(stage_del) != 0 and len(speaker) != 0:
                             stage_del = stage_del[0]

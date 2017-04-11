@@ -42,17 +42,29 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Hor">
-<persName>Хор</persName>
-</person>
-<person xml:id="Oba">
-<persName>Оба</persName>
-</person>
 <person xml:id="Blez">
 <persName>Блез</persName>
 </person>
-<person xml:id="Muzhiki">
-<persName>Мужики</persName>
+<person xml:id="ZhanetaIPaulin">
+<persName>Жанета и Паулин</persName>
+</person>
+<person xml:id="ZhulEta,ZhanetaINineta">
+<persName>Жульета, Жанета и Нинета</persName>
+</person>
+<person xml:id="Paulin">
+<persName>Паулин</persName>
+</person>
+<person xml:id="BlezIFilipp">
+<persName>Блез и Филипп</persName>
+</person>
+<person xml:id="Nineta">
+<persName>Нинета</persName>
+</person>
+<person xml:id="ZhulEta">
+<persName>Жульета</persName>
+</person>
+<person xml:id="Zhaneta">
+<persName>Жанета</persName>
 </person>
 <person xml:id="Graf">
 <persName>Граф</persName>
@@ -60,50 +72,38 @@
 <person xml:id="Filipp">
 <persName>Филипп</persName>
 </person>
-<person xml:id="FilippIBlez">
-<persName>Филипп и Блез</persName>
-</person>
 <person xml:id="Vmeste">
 <persName>Вместе</persName>
-</person>
-<person xml:id="RabotnikiIDocheriBleza">
-<persName>Работники и дочери Блеза</persName>
-</person>
-<person xml:id="ZhulEtaINineta">
-<persName>Жульета и Нинета</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="ZhanetaINineta">
-<persName>Жанета и Нинета</persName>
-</person>
-<person xml:id="BlezIFilipp">
-<persName>Блез и Филипп</persName>
-</person>
-<person xml:id="ZhulEta,ZhanetaINineta">
-<persName>Жульета, Жанета и Нинета</persName>
-</person>
-<person xml:id="Zhaneta">
-<persName>Жанета</persName>
 </person>
 <person xml:id="Nineta,Graf">
 <persName>Нинета, граф</persName>
 </person>
-<person xml:id="Nineta">
-<persName>Нинета</persName>
-</person>
-<person xml:id="Paulin">
-<persName>Паулин</persName>
-</person>
-<person xml:id="ZhulEta">
-<persName>Жульета</persName>
-</person>
-<person xml:id="ZhanetaIPaulin">
-<persName>Жанета и Паулин</persName>
+<person xml:id="FilippIBlez">
+<persName>Филипп и Блез</persName>
 </person>
 <person xml:id="ZhulEtaIZhaneta">
 <persName>Жульета и Жанета</persName>
+</person>
+<person xml:id="RabotnikiIDocheriBleza">
+<persName>Работники и дочери Блеза</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
+</person>
+<person xml:id="ZhanetaINineta">
+<persName>Жанета и Нинета</persName>
+</person>
+<person xml:id="Vse">
+<persName>Все</persName>
+</person>
+<person xml:id="ZhulEtaINineta">
+<persName>Жульета и Нинета</persName>
+</person>
+<person xml:id="Muzhiki">
+<persName>Мужики</persName>
+</person>
+<person xml:id="Oba">
+<persName>Оба</persName>
 </person>
 </listPerson>
 </particDesc>
