@@ -42,32 +42,32 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="Snorre,GrubbeIAhti">
+<persName>Снорре, Груббе и Ахти</persName>
+</person>
+<person xml:id="Snorre">
+<persName>Снорре</persName>
+</person>
+<person xml:id="Konung">
+<persName>Конунг</persName>
+</person>
 <person xml:id="Gondla">
 <persName>Гондла</persName>
 </person>
 <person xml:id="Lage">
 <persName>Лаге</persName>
 </person>
-<person xml:id="Snorre, Grubbe i Ahti">
-<persName>Снорре, Груббе и Ахти</persName>
-</person>
-<person xml:id="Vozhd'">
-<persName>Вождь</persName>
+<person xml:id="Grubbe">
+<persName>Груббе</persName>
 </person>
 <person xml:id="Ahti">
 <persName>Ахти</persName>
 </person>
-<person xml:id="Konung">
-<persName>Конунг</persName>
+<person xml:id="Vozhd">
+<persName>Вождь</persName>
 </person>
 <person xml:id="Lera">
 <persName>Лера</persName>
-</person>
-<person xml:id="Snorre">
-<persName>Снорре</persName>
-</person>
-<person xml:id="Grubbe">
-<persName>Груббе</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -1482,7 +1482,7 @@
 <l>Гондла, живо костёр! Поднимаю</l>
 <l>Первый кубок за Леру мою.</l>
 </sp>
-<sp who="#Snorre, Grubbe i Ahti">
+<sp who="#Snorre,GrubbeIAhti">
 <speaker>Снорре, Груббе и Ахти</speaker>
 <l>Пьём за Леру мы все!</l>
 </sp>
@@ -1519,7 +1519,7 @@
 <speaker>Лаге</speaker><stage type="delivery">обнимая ее</stage>
 <l part="F"> Гондла, вина!</l>
 </sp>
-<sp who="#Snorre, Grubbe i Ahti">
+<sp who="#Snorre,GrubbeIAhti">
 <speaker>Снорре, Груббе и Ахти</speaker>
 <l>Гондла, музыки! Лютня такая</l>
 <l>Для чего у тебя, нелюдим?</l>
@@ -1567,7 +1567,7 @@
 <l>И с проколотым сердцем притом?</l>
 <stage>Входят ирландцы</stage>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Словно место недавних пожарищ,</l>
 <l>Этот лес иль убийств потайных…</l>
@@ -1581,7 +1581,7 @@
 <l>Там живут беспощадные волки,</l>
 <l>Осквернители милой любви.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Он безумный, не будем смеяться</l>
 <l>И с собою его уведём.</l>
@@ -1593,7 +1593,7 @@
 <speaker>Гондла</speaker>
 <l>Я король ваш.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l part="F"> Он вовсе безумный.</l>
 </sp>
@@ -1611,7 +1611,7 @@
 <l>Брат Христов Иоанн? Он, конечно,</l>
 <l>Апокалипсис пишет второй.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Бедный ум, возалкавший о чуде,</l>
 <l>Все мы молимся этим святым,</l>
@@ -1643,7 +1643,7 @@
 <l>Не допрыгнуть вам к этому раю,</l>
 <l>Только лютню возьмите свою.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker><stage type="delivery">ирландцам</stage>
 <l>Братья, вступимся, он христианин</l>
 <l>И наверно из нашей страны.</l>
@@ -1665,7 +1665,7 @@
 <speaker>Ахти</speaker>
 <l>Лебединые клювы сильны.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Вы хорьки, вы трусливые души,</l>
 <l>На безумного бросились вы:</l>
@@ -1679,7 +1679,7 @@
 <l>И был изгнан. Назвался обманно</l>
 <l>Он Ирландии всей королём.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Как, не он ли к исландским равнинам</l>
 <l>Был когда-то от нас увезён,</l>
@@ -1693,7 +1693,7 @@
 <l>Королевич погиб, и в насмешку</l>
 <l>Королевичем назван был пёс.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker><stage type="delivery">к Гондле</stage>
 <l>Государь, мы тебя не узнали,</l>
 <l>Не суди же покорных рабов,</l>
@@ -1707,7 +1707,7 @@
 <l>Но вам истину Груббе поведал,</l>
 <l>Что в Ирландии я не король.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Наступили тяжёлые годы,</l>
 <l>Как утратили мы короля,</l>
@@ -1818,7 +1818,7 @@
 <l>Наша злоба вас двух сохраняла</l>
 <l>От богам нестерпимого зла.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Поднимается ветер вечерний,</l>
 <l>За утёсами видно луну,</l>
@@ -1852,7 +1852,7 @@
 <head>Сцена четвертая</head>
 <stage>Те же и {{razr2|Лера</stage>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Странный лес, всюду шорохи, стоны,</l>
 <l>Словно духи в нём бродят всегда;</l>
@@ -1917,7 +1917,7 @@
 <speaker>Конунг</speaker><stage type="delivery">отступая</stage>
 <l>Нет, нам нового бога не надо!</l>
 </sp>
-<sp who="#Snorre, Grubbe i Ahti">
+<sp who="#Snorre,GrubbeIAhti">
 <speaker>Снорре, Груббе и Ахти</speaker>
 <l>Мы не выдадим старых богов.</l>
 </sp>
@@ -1953,7 +1953,7 @@
 <head>Сцена пятая</head>
 <stage>Те же перед трупом Гондлы.</stage>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker><stage type="delivery">склоняясь над трупом</stage>
 <l>Меч пришёлся по жизненной жиле,</l>
 <l>И ему не поднять головы!</l>
@@ -1993,7 +1993,7 @@
 <l>Я пожалуй десяток столетий</l>
 <l>Проживу и земным колдовством.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker><stage type="delivery">к Лере</stage>
 <l>Что же, девушка? Ты отступила?</l>
 <l>Ты не хочешь Нетленного Дня?</l>
@@ -2003,7 +2003,7 @@
 <l>Только Гондлу я в жизни любила,</l>
 <l>Только Гондла окрестит меня.</l>
 </sp>
-<sp who="#Vozhd'">
+<sp who="#Vozhd">
 <speaker>Вождь</speaker>
 <l>Гондла умер.</l>
 </sp>

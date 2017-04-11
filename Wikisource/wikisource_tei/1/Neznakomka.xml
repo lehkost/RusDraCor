@@ -42,122 +42,122 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Gauptman">
-<persName>Гауптман</persName>
+<person xml:id="VtorojSobutylNik">
+<persName>Второй собутыльник</persName>
 </person>
-<person xml:id="Tretij usatyj">
-<persName>Третий усатый</persName>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
 </person>
-<person xml:id="Kto-to">
-<persName>Кто-то</persName>
-</person>
-<person xml:id="Goluboj">
-<persName>Голубой</persName>
-</person>
-<person xml:id="Starik">
-<persName>Старик</persName>
-</person>
-<person xml:id="Neznakomka">
-<persName>Незнакомка</persName>
-</person>
-<person xml:id="Raz'jarennye dvorniki">
-<persName>Разъяренные дворники</persName>
-</person>
-<person xml:id="Sobesednik">
-<persName>Собеседник</persName>
+<person xml:id="SobutylNik">
+<persName>Собутыльник</persName>
 </person>
 <person xml:id="Hozjain">
 <persName>Хозяин</persName>
 </person>
-<person xml:id="Seminarist">
-<persName>Семинарист</persName>
-</person>
-<person xml:id="Molodoj chelovek ">
-<persName>Молодой человек </persName>
-</person>
-<person xml:id="Ego sobesednik">
-<persName>Его собеседник</persName>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
 </person>
 <person xml:id="Misha">
 <persName>Миша</persName>
 </person>
-<person xml:id="Vtoroj sobutyl'nik">
-<persName>Второй собутыльник</persName>
+<person xml:id="Starik">
+<persName>Старик</persName>
 </person>
-<person xml:id="Hozjajka">
-<persName>Хозяйка</persName>
+<person xml:id="GolosHozjaina">
+<persName>Голос хозяина</persName>
 </person>
-<person xml:id="Gost'">
+<person xml:id="Seminarist">
+<persName>Семинарист</persName>
+</person>
+<person xml:id="RyzhijGospodin">
+<persName>Рыжий господин</persName>
+</person>
+<person xml:id="MolodojChelovekMisha">
+<persName>Молодой человек Миша</persName>
+</person>
+<person xml:id="TretijUsatyj">
+<persName>Третий усатый</persName>
+</person>
+<person xml:id="Verlen">
+<persName>Верлэн</persName>
+</person>
+<person xml:id="Gospodin">
+<persName>Господин</persName>
+</person>
+<person xml:id="Muzhchina">
+<persName>Мужчина</persName>
+</person>
+<person xml:id="MolodojChelovek">
+<persName>Молодой человек </persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="Gost">
 <persName>Гость</persName>
 </person>
 <person xml:id="Zhorzh">
 <persName>Жорж</persName>
 </person>
-<person xml:id="Drugoj">
-<persName>Другой</persName>
-</person>
-<person xml:id="Golos gostja">
-<persName>Голос гостя</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="Hozjain doma">
-<persName>Хозяин дома</persName>
-</person>
-<person xml:id="Molodoj chelovek Misha">
-<persName>Молодой человек Миша</persName>
-</person>
-<person xml:id="Odin">
-<persName>Один</persName>
-</person>
-<person xml:id="Golos hozjaina">
-<persName>Голос хозяина</persName>
-</person>
-<person xml:id="Pervyj sobutyl'nik">
-<persName>Первый собутыльник</persName>
-</person>
 <person xml:id="Dama">
 <persName>Дама</persName>
-</person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
-</person>
-<person xml:id="Gospodin">
-<persName>Господин</persName>
-</person>
-<person xml:id="Molodoj chelovek Zhorzh">
-<persName>Молодой человек Жорж</persName>
-</person>
-<person xml:id="Devushka">
-<persName>Девушка</persName>
-</person>
-<person xml:id="Molodoj chelovek">
-<persName>Молодой человек</persName>
-</person>
-<person xml:id="Sobutyl'nik">
-<persName>Собутыльник</persName>
-</person>
-<person xml:id="Zvezdochet">
-<persName>Звездочет</persName>
-</person>
-<person xml:id="Chelovek v pal'to">
-<persName>Человек в пальто</persName>
-</person>
-<person xml:id="Ryzhij gospodin">
-<persName>Рыжий господин</persName>
-</person>
-<person xml:id="Muzhchina">
-<persName>Мужчина</persName>
-</person>
-<person xml:id="Verlen">
-<persName>Верлэн</persName>
 </person>
 <person xml:id="Polovoj">
 <persName>Половой</persName>
 </person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
+<person xml:id="Kto-To">
+<persName>Кто-то</persName>
+</person>
+<person xml:id="Gauptman">
+<persName>Гауптман</persName>
+</person>
+<person xml:id="Goluboj">
+<persName>Голубой</persName>
+</person>
+<person xml:id="Sobesednik">
+<persName>Собеседник</persName>
+</person>
+<person xml:id="Neznakomka">
+<persName>Незнакомка</persName>
+</person>
+<person xml:id="Zvezdochet">
+<persName>Звездочет</persName>
+</person>
+<person xml:id="Hozjajka">
+<persName>Хозяйка</persName>
+</person>
+<person xml:id="PervyjSobutylNik">
+<persName>Первый собутыльник</persName>
+</person>
+<person xml:id="ChelovekVPalTo">
+<persName>Человек в пальто</persName>
+</person>
+<person xml:id="Odin">
+<persName>Один</persName>
+</person>
+<person xml:id="RazJarennyeDvorniki">
+<persName>Разъяренные дворники</persName>
+</person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
+</person>
+<person xml:id="MolodojChelovek">
+<persName>Молодой человек</persName>
+</person>
+<person xml:id="HozjainDoma">
+<persName>Хозяин дома</persName>
+</person>
+<person xml:id="GolosGostja">
+<persName>Голос гостя</persName>
+</person>
+<person xml:id="Drugoj">
+<persName>Другой</persName>
+</person>
+<person xml:id="EgoSobesednik">
+<persName>Его собеседник</persName>
+</person>
+<person xml:id="MolodojChelovekZhorzh">
+<persName>Молодой человек Жорж</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -194,7 +194,7 @@
 <speaker>Другой</speaker>
 <p>Да врешь ты!.. Да вот поди ж ты… Я тебе…</p>
 </sp>
-<sp who="#Tretij usatyj">
+<sp who="#TretijUsatyj">
 <speaker>Третий усатый</speaker>
 <p>Молчать! Не ругаться! Еще бутылочку, любезный.</p>
 <stage>Половой подбегает. Слышно, как булькает пиво. Молчание. Одинокий посетитель поднимается из угла и неверной походкой идет к прилавку. Начинает шарить в блестящей посудине с вареными раками.</stage>
@@ -209,7 +209,7 @@
 <speaker>Семинарист</speaker>
 <p>И танцовала она, милый друг ты мой, скажу я тебе, как небесное создание. Просто взял бы ее за белые ручки и прямо в губки, скажу тебе, поцеловал…</p>
 </sp>
-<sp who="#Sobutyl'nik">
+<sp who="#SobutylNik">
 <speaker>Собутыльник</speaker>
 <p>Эка, эка, Васинька-то наш, размечтался, заалел, как маков цвет! А что она тебе за любовь-то? За любовь-то что?.. А?..</p>
 <stage>Все визгливо хохочут.</stage>
@@ -219,15 +219,15 @@
 <p>И, милый друг ты мой, скажу тебе, нехорошо смеяться. Так бы вот взял её, и унес бы от нескромных взоров, и на улице плясала бы она передо мной на белом снегу… как птица, летала бы. И откуда мои крылья взялись, — сам полетел бы за ней, над белыми снегами…</p>
 <stage>Все хохочут.</stage>
 </sp>
-<sp who="#Vtoroj sobutyl'nik">
+<sp who="#VtorojSobutylNik">
 <speaker>Второй собутыльник</speaker>
 <p>Ты, Васька, смотри, того, по первопутку-то не очень полетишь…</p>
 </sp>
-<sp who="#Pervyj sobutyl'nik">
+<sp who="#PervyjSobutylNik">
 <speaker>Первый собутыльник</speaker>
 <p>Тебе бы по морозцу-то легче, а то с твоей милой как раз в грязь угодишь…</p>
 </sp>
-<sp who="#Vtoroj sobutyl'nik">
+<sp who="#VtorojSobutylNik">
 <speaker>Второй собутыльник</speaker>
 <p>Мечтатель.</p>
 </sp>
@@ -254,7 +254,7 @@
 <p>Пей, да помалкивай.</p>
 <stage>Молчат. Пьют. Вбегает молодой человек и радостно бросается к Гауптману.</stage>
 </sp>
-<sp who="#Molodoj chelovek">
+<sp who="#MolodojChelovek">
 <speaker>Молодой человек</speaker>
 <p>Костя, друг, она у дверей дожидает!..</p>
 </sp>
@@ -312,7 +312,7 @@
 <speaker>Семинарист</speaker>
 <p>Танцевала она, как небесный, скажу вам, ангел, а вы, черти и разбойники, не стоите ее мизинца. А впрочем, выпьем.</p>
 </sp>
-<sp who="#Sobutyl'nik">
+<sp who="#SobutylNik">
 <speaker>Собутыльник</speaker>
 <p>Мечтатель. Оттого и пьешь. И все мы — мечтатели. Поцелуй меня, дружок.</p>
 <stage>Обнимаются.</stage>
@@ -322,11 +322,11 @@
 <p>И никто ее так не полюбит, как я. И будем мы на белом снегу свою грустную жизнь доживать. Она — плясать, а я — на шарманке играть. И полетим. И под самый серебряный месяц залетим. И туда, черт возьми, скажу я вам, дурацким вашим грязным носам, милые други, не соваться. И все-таки я очень вас люблю и высоко ставлю. Кто из одной бутылки не пивал, тот и дружбы не видал.</p>
 <stage>Все хохочут.</stage>
 </sp>
-<sp who="#Sobutyl'nik">
+<sp who="#SobutylNik">
 <speaker>Собутыльник</speaker>
 <p>Ай да Васька! Уж очень складно! Поцелуемся, дружок.</p>
 </sp>
-<sp who="#Molodoj chelovek">
+<sp who="#MolodojChelovek">
 <speaker>Молодой человек</speaker>
 <p>Однако ж будет. Что ей столько на морозе дожидать? Замерзнет совсем. Пойдем, брат Костя.</p>
 </sp>
@@ -335,7 +335,7 @@
 <p>Брось. Если женскому нраву потакать, так от мужчины ничего не останется — только ему в рожу плюнуть. Пусть пошляется, а мы еще посидим.</p>
 <stage>Молодой человек послушался. Все посетители пьют и хмелеют. Человек в желтом трепаном пальто, сидевший отдельно, встает и обращается к честно́й компании с речью.</stage>
 </sp>
-<sp who="#Chelovek v pal'to">
+<sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
 <p>Государи мои! Есть у меня небольшая вещица — весьма ценная миниатюра. ''(Вытаскивает из кармана камею.)'' Вот-с, не угодно ли: с одной стороны — изображение эмблемы, а с другой — приятная дама в тюнике на земном шаре сидит и над этим шаром держит скипетр: подчиняйтесь, мол, повинуйтесь — и больше ничего!</p>
 <stage>Все одобрительно смеются. Некоторые подходят и рассматривают камею.</stage>
@@ -344,7 +344,7 @@
 <speaker>Поэт</speaker>
 <p>Вечная сказка. Это — Она — Мироправительница. Она держит жезл и повелевает миром. Все мы очарованы Ею.</p>
 </sp>
-<sp who="#Chelovek v pal'to">
+<sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
 <p>Рад служить русской интеллигенции. Дешево продам, хотя досталось не дешево, но уж, как говорится, только по дружбе. Вижу, что любитель. Ну, так по рукам.</p>
 <stage>Поэт дает ему монету. Берет камею, рассматривает ее. Человек в пальто садится на свое место. Разговор продолжается только между двумя, сидящими за отдельным столиком.</stage>
@@ -390,15 +390,15 @@
 <p>Танцует… Танцует… Я на шарманке, а она под шарманку. ''(Делает пьяные жесты, как будто что-то ловит.)'' Вот, не поймал… опять не поймал… но и вам, черти, не поймать, если уж мне не поймать…</p>
 <stage>Медленно, медленно начинают кружиться стены кабачка. Потолок наклоняется, один конец его протягивается вверх бесконечно. Корабли на обоях, кажется, плывут близко, а все не могут доплыть. Сквозь смутный общий говор человек в пальто, уже присоединившийся к кому-то, кричит.</stage>
 </sp>
-<sp who="#Chelovek v pal'to">
+<sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
 <p>Нет-с, я любитель! Люблю острый сыр, знаете, такой круглый! (Делает кругообразные жесты.) Забыл название.</p>
 </sp>
-<sp who="#Ego sobesednik">
+<sp who="#EgoSobesednik">
 <speaker>Его собеседник</speaker>
 <p>А вы… пробовали?</p>
 </sp>
-<sp who="#Chelovek v pal'to">
+<sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
 <p>Что пробовал? Вы думаете, нет? Я рошефор кушал!</p>
 </sp>
@@ -406,7 +406,7 @@
 <speaker>Собеседник</speaker>
 <p>А знаете… люксем-бургский… так пахнет нехорошо… и шевелится, шевелится… (Чмокает губами, шевелит пальцами.)</p>
 </sp>
-<sp who="#Chelovek v pal'to">
+<sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
 <p>Швейцарский!.. Вот что-с! ''(Щелкает пальцами.)''</p>
 </sp>
@@ -414,7 +414,7 @@
 <speaker>Собеседник</speaker>
 <p>Ну, этим не удивите…</p>
 </sp>
-<sp who="#Chelovek v pal'to">
+<sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
 <p>Бри!</p>
 </sp>
@@ -422,7 +422,7 @@
 <speaker>Собеседник</speaker>
 <p>Ну это… это… знаете…</p>
 </sp>
-<sp who="#Chelovek v pal'to">
+<sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
 <p>Что знаете?</p>
 </sp>
@@ -462,7 +462,7 @@
 <l>Кто этот пьяница?</l>
 <stage>Два дворника волокут под руки пьяного Поэта.</stage>
 </sp>
-<sp who="#Raz'jarennye dvorniki">
+<sp who="#RazJarennyeDvorniki">
 <speaker>Разъяренные дворники</speaker>
 <l>Он — посетитель кабачка,</l>
 <l>И с ним расправа коротка!</l>
@@ -913,11 +913,11 @@
 <stage>Оба грустят под голубым снегом. Пропадают в  нем. И  снег грустит. Он запорошил уже и мост, и корабли. Он построил белые стены на канве деревьев, вдоль стен домов, на телеграфных проволоках. И даль земная и даль речная поднялись белыми стенами, так что все бело, кроме сигнальных огней на кораблях и  освещенных окон домов. Снежные стены уплотняются. Они кажутся близкими одна к другой. Понемногу открывается —</stage>
 <stage>Большая гостиная комната с  белыми стенами, на которых ярко горят электрические лампы. Дверь в  переднюю открыта. Тоненький звонок часто извещает о приходе гостей. На диванах, креслах и стульях уже сидят хозяева и гости; хозяйка дома — пожилая дама, как бы проглотившая аршин; перед нею — корзинка с бисквитами, ваза с фруктами и чашка дымящегося чаю; против нее — глухой старик с глупым лицом жует и хлебает. Молодые люди, в безукоризненных смокингах, частью разговаривают с другими дамами, частью толпятся стадами в углах. Общий гул бессмысленных разговоров. Хозяин дома встречает гостей в передней и  каждому сначала деревянным голосом кричит: «А-а-а!», а потом говорит пошлость. В настоящий момент он занят тем же.</stage>
 </sp>
-<sp who="#Hozjain doma">
+<sp who="#HozjainDoma">
 <speaker>Хозяин дома</speaker>
 <p>А-а-а! Ну и закутались же вы, батюшка!</p>
 </sp>
-<sp who="#Golos gostja">
+<sp who="#GolosGostja">
 <speaker>Голос гостя</speaker>
 <p>И холод же, доложу я вам! В шубе — и то замерз.</p>
 <stage>Гость сморкается. Так как разговор в гостиной почему-то исчерпался, слышно, как хозяин конфиденциально говорит гостю:</stage>
@@ -926,7 +926,7 @@
 <speaker>Хозяин</speaker>
 <p>А где шили?</p>
 </sp>
-<sp who="#Gost'">
+<sp who="#Gost">
 <speaker>Гость</speaker>
 <p>У Шевалье.</p>
 <stage>Из двери торчат фалды хозяйского сюртука. Хозяин рассматривает шубу.</stage>
@@ -935,7 +935,7 @@
 <speaker>Хозяин</speaker>
 <p>А сколько платили?</p>
 </sp>
-<sp who="#Gost'">
+<sp who="#Gost">
 <speaker>Гость</speaker>
 <p>Тысячу.</p>
 <stage>Хозяйка, стараясь замять разговор, кричит:</stage>
@@ -945,11 +945,11 @@
 <p>Cher Иван Павлович! Идите скорее! Только вас и ждали! Вот, Аркадий Романович обещался нам сегодня спеть!</p>
 <stage>Аркадий Романович, подходя к хозяйке, делает различные жесты, долженствующие показать, что он невысокого о  себе мнения. Хозяйка жестами же старается показать ему обратное.</stage>
 </sp>
-<sp who="#Molodoj chelovek Zhorzh">
+<sp who="#MolodojChelovekZhorzh">
 <speaker>Молодой человек Жорж</speaker>
 <p>Совершенная дура твоя Серпантини, Миша. Так танцевать, как она вчера, значит — не иметь никакого стыда.</p>
 </sp>
-<sp who="#Molodoj chelovek Misha">
+<sp who="#MolodojChelovekMisha">
 <speaker>Молодой человек Миша</speaker>
 <p>Ты, Жорж, ровно ничего не понимаешь! Я совершенно влюблен. Это — для немногих. Вспомни, у нее совсем классическая фигура — руки, ноги…</p>
 </sp>
@@ -997,7 +997,7 @@
 <speaker>Дама</speaker>
 <p>Ах, здравствуйте, здравствуйте! Вот, позвольте вас познакомить: мой жених.</p>
 </sp>
-<sp who="#Ryzhij gospodin">
+<sp who="#RyzhijGospodin">
 <speaker>Рыжий господин</speaker>
 <p>Очень приятно.</p>
 <stage>Угрюмо удаляется в угол.</stage>
@@ -1016,12 +1016,12 @@
 <speaker>Дама</speaker>
 <p>Тебе жалко, что ли?</p>
 </sp>
-<sp who="#Ryzhij gospodin">
+<sp who="#RyzhijGospodin">
 <speaker>Рыжий господин</speaker>
 <p>Пей, да помалкивай.</p>
 <stage>Молчат. Пьют. Вбегает молодой человек и радостно бросается к другому. В последнем легко узнать того, кто увел незнакомку.</stage>
 </sp>
-<sp who="#Molodoj chelovek">
+<sp who="#MolodojChelovek">
 <speaker>Молодой человек</speaker>
 <p>Костя, друг, да она у дверей дожида…</p>
 <stage>Запинается на полуслове. Все становится необычайно странным. Как будто все внезапно вспомнили, что где-то произносились те же слова и в том же порядке. Михаил Иванович смотрит странными глазами на Поэта, который входит в эту минуту. Поэт, бледный, делает общий поклон на пороге притихшей гостиной.</stage>
@@ -1062,7 +1062,7 @@
 <p>Сию минуту. Прошу извинения.</p>
 <stage>Выходит в переднюю, но не кричит там: «А-а-а!» Молчание.</stage>
 </sp>
-<sp who="#Golos hozjaina">
+<sp who="#GolosHozjaina">
 <speaker>Голос хозяина</speaker>
 <p>Чем могу служить?</p>
 <stage>Женский голос отвечает что-то. Хозяин появляется на пороге.</stage>
@@ -1072,7 +1072,7 @@
 <p>Ниночка, какая-то дама. Ничего не могу разобрать. Вероятно, к тебе. Извините, господа, извините…</p>
 <stage>Сконфуженно улыбается во все стороны. Хозяйка идет в переднюю и запирает за собой дверь. Гости шепчутся.</stage>
 </sp>
-<sp who="#Molodoj chelovek ">
+<sp who="#MolodojChelovek">
 <speaker>Молодой человек </speaker>
 <p>Да не может быть…</p>
 </sp>
@@ -1112,7 +1112,7 @@
 <stage>Никто не выражает неудовольствия. Поэт подходит к хозяйке, которая некоторое время делает умоляющие жесты, но скоро перестает. Поэт спокойно садится в дальний угол. Задумчиво смотрит на Незнакомку. Горничная разносит, что полагается. Из общего бессмысленного говора вырывается хохот, отдельные слова и целые фразы:</stage>
 <p>Нет, как она танцевала! Да ты послушай! Русская интеллигенция…</p>
 </sp>
-<sp who="#Kto-to">
+<sp who="#Kto-To">
 <speaker>Кто-то</speaker>
 <p>Да и вам не поймать! Да и вам не поймать!</p>
 <stage>Все забыли о  Поэте. Он медленно поднимается со своего места. Он проводит рукою по лбу. Делает несколько шагов взад и вперед по комнате. По лицу его заметно, что он с  мучительным усилием припоминает что-то. В это время из общего говора доносятся слова: «рокфор», «камамбер». Вдруг толстый человек, в страшном увлечении, делая кругообразные жесты, выскакивает на середину комнаты с криком:</stage>

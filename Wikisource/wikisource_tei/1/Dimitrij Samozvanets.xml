@@ -42,9 +42,6 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Georgij">
-<persName>Георгий</persName>
-</person>
 <person xml:id="Dimitrij">
 <persName>Димитрий</persName>
 </person>
@@ -54,14 +51,17 @@
 <person xml:id="Ksenija">
 <persName>Ксения</persName>
 </person>
-<person xml:id="Parmen.">
-<persName>Пармен.</persName>
-</person>
-<person xml:id="Nachal'nik">
-<persName>Начальник</persName>
-</person>
 <person xml:id="Parmen">
 <persName>Пармен</persName>
+</person>
+<person xml:id="Parmen">
+<persName>Пармен.</persName>
+</person>
+<person xml:id="NachalNik">
+<persName>Начальник</persName>
+</person>
+<person xml:id="Georgij">
+<persName>Георгий</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -294,7 +294,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Димитрий, Пармен и страженачальник.</stage>
 </sp>
-<sp who="#Nachal'nik">
+<sp who="#NachalNik">
 <speaker>Начальник</speaker>
 <l>Великий государь, смущается народ,</l>
 <l>И все волнуются, как бурей токи вод.</l>
@@ -306,7 +306,7 @@
 <l>Какой на площади плетется ими вред?</l>
 <l>Я скоро прекрачу сей мерзкой черни бред.</l>
 </sp>
-<sp who="#Nachal'nik">
+<sp who="#NachalNik">
 <speaker>Начальник</speaker>
 <l>Не смею, государь, то точно повторяти.</l>
 </sp>
@@ -314,7 +314,7 @@
 <speaker>Димитрий</speaker>
 <l>Вещай! А россов я умею усмиряти.</l>
 </sp>
-<sp who="#Nachal'nik">
+<sp who="#NachalNik">
 <speaker>Начальник</speaker>
 <l>Что ты не царский сын, которым ты явлен,</l>
 <l>Что он во Угличе неложно умерщвлен.</l>
@@ -860,7 +860,7 @@
 <head>ЯВЛЕНИЕ 6</head>
 <stage>Димитрий, Шуйский и Пармен.</stage>
 </sp>
-<sp who="#Parmen.">
+<sp who="#Parmen">
 <speaker>Пармен.</speaker>
 <l>Сугубится так шум, как буря восстает,</l>
 <l>Когда от северной страны борей ревет.</l>
@@ -939,7 +939,7 @@
 <head>ЯВЛЕНИЕ 1</head>
 <stage>Шуйский и Пармен.</stage>
 </sp>
-<sp who="#Parmen.">
+<sp who="#Parmen">
 <speaker>Пармен.</speaker>
 <l>Я мысли мрачные злодею просветил</l>
 <l>И новы ярости сколь можно укротил.</l>
@@ -953,7 +953,7 @@
 <speaker>Шуйский</speaker>
 <l>Димитрия на трон взвела его порода.</l>
 </sp>
-<sp who="#Parmen.">
+<sp who="#Parmen">
 <speaker>Пармен.</speaker>
 <l>Когда владети нет достоинства его,</l>
 <l>Во случае таком порода ничего.</l>
@@ -1511,7 +1511,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Димитрий, Ксения и Начальник стражи.</stage>
 </sp>
-<sp who="#Nachal'nik">
+<sp who="#NachalNik">
 <speaker>Начальник</speaker>
 <l>Во граде радостной нет вести никакой:</l>
 <l>Как сядет солнце, с ним исчезнет твой покой.</l>
@@ -1530,7 +1530,7 @@
 <speaker>Димитрий</speaker>
 <l>И всех бояр она с собою повалит.</l>
 </sp>
-<sp who="#Nachal'nik">
+<sp who="#NachalNik">
 <speaker>Начальник</speaker>
 <l>Ждет стража, что творить Димитрий повелит.</l>
 </sp>
@@ -1942,7 +1942,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Димитрий, стражи и страженачальник.</stage>
 </sp>
-<sp who="#Nachal'nik">
+<sp who="#NachalNik">
 <speaker>Начальник</speaker>
 <l>Весь Кремль народом полн, дом царский окружен,</l>
 <l>И гнев во всех сердцах против тебя зажжен.</l>

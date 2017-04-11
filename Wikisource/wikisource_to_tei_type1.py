@@ -64,6 +64,8 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                         else:
                             speaker = re.findall('\{\{[Rr]e\|(.*?)\|', line)[0]
                         speaker_id = transliterate.translit(speaker, 'ru', reversed=True)
+                        speaker_id = speaker_id.title()
+                        speaker_id = re.sub("[ .']", '', speaker_id)
                         stage_del = re.findall('\{\{[Rr]e\|' + speaker + '\|\((.*?)\)\}\}', line)
                         if len(stage_del) != 0 and len(speaker) != 0:
                             stage_del = stage_del[0]
@@ -163,6 +165,8 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             particDescLine = '<particDesc>\n<listPerson>\n'
             for participant in participants:
                 participant_tr = transliterate.translit(participant, 'ru', reversed=True)
+                participant_tr = participant_tr.title()
+                participant_tr = re.sub("[ .']", '', participant_tr)
                 particDescLine += '<person xml:id="' + participant_tr + '">\n' +\
                                   '<persName>' + participant + '</persName>\n' + '</person>\n'
             text_tei_read = re.sub('<profileDesc>\n', '<profileDesc>\n' + particDescLine +
