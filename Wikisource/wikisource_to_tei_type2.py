@@ -17,7 +17,7 @@ def opening(play):
 
 
 def get_metadata(play):
-    """This function returns the metadata of a play in a following order:
+    """This function returns the metadata of a play in the following order:
     title, subtitle, author, creation_date, print_date.
     If some of these are missing it returns and empty line instead of the missing value."""
     text = opening(play)[0]
