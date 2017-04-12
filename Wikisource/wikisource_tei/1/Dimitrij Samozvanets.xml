@@ -41,12 +41,6 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="NachalNik">
-<persName>Начальник</persName>
-</person>
-<person xml:id="Georgij">
-<persName>Георгий</persName>
-</person>
 <person xml:id="Ksenija">
 <persName>Ксения</persName>
 </person>
@@ -56,11 +50,17 @@
 <person xml:id="Parmen">
 <persName>Пармен.</persName>
 </person>
-<person xml:id="Shujskij">
-<persName>Шуйский</persName>
+<person xml:id="Georgij">
+<persName>Георгий</persName>
 </person>
 <person xml:id="Dimitrij">
 <persName>Димитрий</persName>
+</person>
+<person xml:id="NachalNik">
+<persName>Начальник</persName>
+</person>
+<person xml:id="Shujskij">
+<persName>Шуйский</persName>
 </person>
 </listPerson>
 </particDesc>

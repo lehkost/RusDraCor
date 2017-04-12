@@ -9,7 +9,10 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text = open('./wikisource_raws/1/' + file, 'r', encoding='utf-8')
             text_read = text.read()
             text.close()
-            cast = re.findall('\{\| class=personae(.*?)\|\}', text_read, re.DOTALL)
+            text_read = text_read.split('</div>')[0]
+            print(text_read)
+            cast = re.findall('\{\| class=personae(.*?)'
+                              '\|\}', text_read, re.DOTALL)
             castListLine = ''
             if len(cast) != 0:
                 castItems = re.findall('\{\{razr2?\|(.*?)\}\}', cast[0])

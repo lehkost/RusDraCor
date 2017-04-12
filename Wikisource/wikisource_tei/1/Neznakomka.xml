@@ -41,29 +41,74 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Misha">
-<persName>Миша</persName>
+<person xml:id="MolodojChelovek">
+<persName>Молодой человек</persName>
 </person>
-<person xml:id="RazJarennyeDvorniki">
-<persName>Разъяренные дворники</persName>
+<person xml:id="GolosGostja">
+<persName>Голос гостя</persName>
 </person>
-<person xml:id="EgoSobesednik">
-<persName>Его собеседник</persName>
+<person xml:id="SobutylNik">
+<persName>Собутыльник</persName>
 </person>
-<person xml:id="VtorojSobutylNik">
-<persName>Второй собутыльник</persName>
+<person xml:id="Drugoj">
+<persName>Другой</persName>
+</person>
+<person xml:id="RyzhijGospodin">
+<persName>Рыжий господин</persName>
+</person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
+</person>
+<person xml:id="Seminarist">
+<persName>Семинарист</persName>
+</person>
+<person xml:id="Neznakomka">
+<persName>Незнакомка</persName>
+</person>
+<person xml:id="Zhorzh">
+<persName>Жорж</persName>
 </person>
 <person xml:id="Hozjajka">
 <persName>Хозяйка</persName>
 </person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
+<person xml:id="HozjainDoma">
+<persName>Хозяин дома</persName>
 </person>
-<person xml:id="Starik">
-<persName>Старик</persName>
+<person xml:id="Gost">
+<persName>Гость</persName>
 </person>
-<person xml:id="Sobesednik">
-<persName>Собеседник</persName>
+<person xml:id="PervyjSobutylNik">
+<persName>Первый собутыльник</persName>
+</person>
+<person xml:id="Gauptman">
+<persName>Гауптман</persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="Gospodin">
+<persName>Господин</persName>
+</person>
+<person xml:id="EgoSobesednik">
+<persName>Его собеседник</persName>
+</person>
+<person xml:id="MolodojChelovekMisha">
+<persName>Молодой человек Миша</persName>
+</person>
+<person xml:id="MolodojChelovek">
+<persName>Молодой человек </persName>
+</person>
+<person xml:id="Verlen">
+<persName>Верлэн</persName>
+</person>
+<person xml:id="Misha">
+<persName>Миша</persName>
+</person>
+<person xml:id="Kto-To">
+<persName>Кто-то</persName>
+</person>
+<person xml:id="Muzhchina">
+<persName>Мужчина</persName>
 </person>
 <person xml:id="Hozjain">
 <persName>Хозяин</persName>
@@ -71,92 +116,47 @@
 <person xml:id="MolodojChelovekZhorzh">
 <persName>Молодой человек Жорж</persName>
 </person>
-<person xml:id="TretijUsatyj">
-<persName>Третий усатый</persName>
-</person>
-<person xml:id="Devushka">
-<persName>Девушка</persName>
-</person>
-<person xml:id="Gost">
-<persName>Гость</persName>
-</person>
-<person xml:id="MolodojChelovekMisha">
-<persName>Молодой человек Миша</persName>
-</person>
-<person xml:id="PervyjSobutylNik">
-<persName>Первый собутыльник</persName>
-</person>
-<person xml:id="Goluboj">
-<persName>Голубой</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
-</person>
-<person xml:id="SobutylNik">
-<persName>Собутыльник</persName>
-</person>
-<person xml:id="Zvezdochet">
-<persName>Звездочет</persName>
-</person>
-<person xml:id="Muzhchina">
-<persName>Мужчина</persName>
-</person>
-<person xml:id="Gospodin">
-<persName>Господин</persName>
-</person>
-<person xml:id="Verlen">
-<persName>Верлэн</persName>
-</person>
 <person xml:id="Polovoj">
 <persName>Половой</persName>
-</person>
-<person xml:id="Neznakomka">
-<persName>Незнакомка</persName>
-</person>
-<person xml:id="Kto-To">
-<persName>Кто-то</persName>
-</person>
-<person xml:id="GolosGostja">
-<persName>Голос гостя</persName>
-</person>
-<person xml:id="Odin">
-<persName>Один</persName>
 </person>
 <person xml:id="GolosHozjaina">
 <persName>Голос хозяина</persName>
 </person>
-<person xml:id="Drugoj">
-<persName>Другой</persName>
+<person xml:id="Starik">
+<persName>Старик</persName>
 </person>
-<person xml:id="HozjainDoma">
-<persName>Хозяин дома</persName>
+<person xml:id="VtorojSobutylNik">
+<persName>Второй собутыльник</persName>
 </person>
-<person xml:id="RyzhijGospodin">
-<persName>Рыжий господин</persName>
-</person>
-<person xml:id="Zhorzh">
-<persName>Жорж</persName>
+<person xml:id="RazJarennyeDvorniki">
+<persName>Разъяренные дворники</persName>
 </person>
 <person xml:id="Dama">
 <persName>Дама</persName>
 </person>
-<person xml:id="MolodojChelovek">
-<persName>Молодой человек </persName>
-</person>
 <person xml:id="ChelovekVPalTo">
 <persName>Человек в пальто</persName>
 </person>
-<person xml:id="MolodojChelovek">
-<persName>Молодой человек</persName>
+<person xml:id="Sobesednik">
+<persName>Собеседник</persName>
 </person>
-<person xml:id="Gauptman">
-<persName>Гауптман</persName>
+<person xml:id="Zvezdochet">
+<persName>Звездочет</persName>
 </person>
-<person xml:id="Seminarist">
-<persName>Семинарист</persName>
+<person xml:id="TretijUsatyj">
+<persName>Третий усатый</persName>
+</person>
+<person xml:id="Odin">
+<persName>Один</persName>
+</person>
+<person xml:id="Goluboj">
+<persName>Голубой</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
 </person>
 </listPerson>
 </particDesc>

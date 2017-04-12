@@ -44,14 +44,14 @@
 <person xml:id="Knjaginja">
 <persName>Княгиня</persName>
 </person>
-<person xml:id="Baron">
-<persName>Барон</persName>
+<person xml:id="Knjaz">
+<persName>Князь</persName>
 </person>
 <person xml:id="KnjazIKnjaginja">
 <persName>Князь и княгиня</persName>
 </person>
-<person xml:id="Knjaz">
-<persName>Князь</persName>
+<person xml:id="Baron">
+<persName>Барон</persName>
 </person>
 </listPerson>
 </particDesc>

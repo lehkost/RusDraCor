@@ -41,11 +41,35 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="VihorinIKasimov">
-<persName>Вихорин и Касимов</persName>
+<person xml:id="Ivanov">
+<persName>Иванов</persName>
+</person>
+<person xml:id="Liza">
+<persName>Лиза</persName>
+</person>
+<person xml:id="ShishkengolM">
+<persName>Шишкенгольм</persName>
+</person>
+<person xml:id="ShishkengolM,MinaHristianovnaILiza">
+<persName>Шишкенгольм, Мина Христиановна и Лиза</persName>
+</person>
+<person xml:id="Kasimov">
+<persName>Касимов</persName>
+</person>
+<person xml:id="MinaHristianovna">
+<persName>Мина Христиановна</persName>
 </person>
 <person xml:id="ShishkengolMIProchie">
 <persName>Шишкенгольм и прочие</persName>
+</person>
+<person xml:id="VihorinIKasimov">
+<persName>Вихорин и Касимов</persName>
+</person>
+<person xml:id="ShishkengolymIMinaHristianovna">
+<persName>Шишкенголым и Мина Христиановна</persName>
+</person>
+<person xml:id="ShishkengolMIMinaHristianovna">
+<persName>Шишкенгольм и Мина Христиановна</persName>
 </person>
 <person xml:id="KasimovIVihorin">
 <persName>Касимов и Вихорин</persName>
@@ -56,35 +80,11 @@
 <person xml:id="Kurtsgalop">
 <persName>Курцгалоп</persName>
 </person>
-<person xml:id="ShishkengolM">
-<persName>Шишкенгольм</persName>
-</person>
-<person xml:id="MinaHristianovna">
-<persName>Мина Христиановна</persName>
-</person>
-<person xml:id="ShishkengolMIMinaHristianovna">
-<persName>Шишкенгольм и Мина Христиановна</persName>
-</person>
-<person xml:id="Kasimov">
-<persName>Касимов</persName>
-</person>
 <person xml:id="Vse">
 <persName>Все</persName>
 </person>
-<person xml:id="ShishkengolymIMinaHristianovna">
-<persName>Шишкенголым и Мина Христиановна</persName>
-</person>
-<person xml:id="Liza">
-<persName>Лиза</persName>
-</person>
 <person xml:id="Hor">
 <persName>Хор</persName>
-</person>
-<person xml:id="Ivanov">
-<persName>Иванов</persName>
-</person>
-<person xml:id="ShishkengolM,MinaHristianovnaILiza">
-<persName>Шишкенгольм, Мина Христиановна и Лиза</persName>
 </person>
 </listPerson>
 </particDesc>
