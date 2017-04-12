@@ -46,8 +46,11 @@
           <person xml:id="Razljuljaev">
             <persName> Разлюляев </persName>
           </person>
-          <person xml:id="jagostja">
+          <person xml:id="pervajagostja">
             <persName> 1-я гостья </persName>
+          </person>
+          <person xml:id="vtorajagostja">
+            <persName> 2-я гостья </persName>
           </person>
           <person xml:id="Starik">
             <persName> Старик </persName>
@@ -102,6 +105,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#sveta" when="2017-04-12">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1707,12 +1711,12 @@
               попотчевать, да чтоб мне песни пели... да, в родню в свою: у нас весь род веселый...
               песельники. </p>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#pervajagostja">
             <speaker> 1-я гостья </speaker>
             <p> . Как я посмотрю, матушка Пелагея Егоровна, нет того веселья, как прежде, как мы-то
               были молоды. </p>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#vtorajagostja">
             <speaker> 2-я гостья </speaker>
             <p> . Нету, нету. </p>
           </sp>
@@ -1721,11 +1725,11 @@
             <p> . Я молодая-то была первая затейница — и попеть, и поплясать — уж меня взять...
               да... что песен знала! Уж теперь таких и не поют. </p>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#pervajagostja">
             <speaker> 1-я гостья </speaker>
             <p> . Нет, не поют, все новые пошли. </p>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#vtorajagostja">
             <speaker> 2-я гостья </speaker>
             <p> . Да, да, вспомянешь старину-то. </p>
           </sp>
@@ -1854,7 +1858,7 @@
             <p> . Ну, давай! Играй, Яша! </p>
           </sp>
           <stage> Яша играет, они пляшут. </stage>
-          <sp who="#jagostja">
+          <sp who="#pervajagostja">
             <speaker> 1-я гостья </speaker>
             <p> . Веселая бабочка-то. </p>
           </sp>
@@ -1984,7 +1988,7 @@
               <l> Хорошо гуляет. </l>
             </lg>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#pervajagostja">
             <speaker> 1-я гостья </speaker>
             <p> . Ишь ты какой молодец!.. а! </p>
           </sp>
@@ -2162,15 +2166,15 @@
             <stage type="delivery"> (Встает) </stage>
             <p> . Аринушка, пойдем. Извините, соседушки. </p>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#pervajagostja">
             <speaker> 1-я гостья </speaker>
             <p> . Э, матушка, и мы с тобой пойдем. Уж нам и ко дворам пора. </p>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#vtorajagostja">
             <speaker> 2-я гостья </speaker>
             <p> . Пора, пора! Ночи темные, собаки по переулкам лихие. </p>
           </sp>
-          <sp who="#jagostja">
+          <sp who="#pervajagostja">
             <speaker> 1-я гостья </speaker>
             <p> . О, лихи, лихи!.. </p>
             <stage type="delivery"> (Раскланиваются и уходят.) </stage>
