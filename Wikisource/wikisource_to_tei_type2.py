@@ -2,19 +2,20 @@ import re
 import os
 import transliterate
 
-play = 'Snegurochka'
+play = 'Volki i ovtsy'
 
-o = open('./wikisource_raws/2/' + play + '.txt', 'r', encoding='utf-8')
-text_text = o.read()
-o.close()
 
-o = open('./wikisource_raws/2/' + play + '.txt', 'r', encoding='utf-8')
-text_lines = o
-o.close()
-
-header = open('./tei_header.xml', 'r', encoding='utf-8').read()
-
-tei = open('./wikisource_tei/2/' + play + '.xml', 'w', encoding='utf-8')
+def opening(play):
+    """This function opens necessary files and reads them as it's required for the processing."""
+    o = open('./wikisource_raws/2/' + play + '.txt', 'r', encoding='utf-8')
+    text_text = o.read()
+    o.close()
+    o = open('./wikisource_raws/2/' + play + '.txt', 'r', encoding='utf-8')
+    text_lines = o
+    o.close()
+    header = open('./tei_header.xml', 'r', encoding='utf-8').read()
+    tei = open('./wikisource_tei/2/' + play + '.xml', 'w', encoding='utf-8')
+    return text_text, text_lines, header, tei
 
 
 def get_metadata(text):
@@ -42,8 +43,9 @@ def get_metadata(text):
     return title, subtitle, author, creation_date, print_date
 
 
-def write_metadata(text, tei_file, tei_header):
-    """This function writes the header filled with metadata to a new file with TEI-version of a play."""
+def write_metadata(play, text=opening(play)[0], tei_file=opening(play)[3], tei_header=opening(play)[2]):
+    """This function writes the header filled with metadata to a new file with TEI-version of a play.
+    Note that it gets the needed files directly from the opening() function."""
     title = get_metadata(text)[0]
     subtitle = get_metadata(text)[1]
     author = get_metadata(text)[2]
@@ -57,11 +59,14 @@ def write_metadata(text, tei_file, tei_header):
     tei_file.write(tei_header)
 
 
-def get_castlist(text):
-    castlist_part = re.search('== ?действующие лица ?==.*?=', text.lower(), re.DOTALL)
-    if castlist_part is None:
-        castlist_part = re.search("'''лица.*?=", text.lower(), re.DOTALL)
-    return castlist_part.group(0)
-
-
-write_metadata(text_text, tei, header)
+def get_castList(text):
+    castList_part = re.search('== ?Действующие лица.*?==.*?=', text, re.DOTALL)
+    if castList_part is None:
+        castList_part = re.search('== ?(ДЕЙСТВУЮЩИЕ)? ЛИЦА.*?==.*?=', text, re.DOTALL)
+        if castList_part is None:
+            castList_part = re.search("'''ЛИЦА.*?=", text, re.DOTALL)
+            castList_part = castList_part.group(0)
+        else: castList_part = castList_part.group(0)
+    else: castList_part = castList_part.group(0)
+    castItems = re.findall('\{\{[Rr]azr\|(.*?)\}\}', castList_part)
+    return castItems
