@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/41. Don-Zhuan v Egipte.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/41. Don-Zhuan v Egipte.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Akteon.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Akteon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Blondy.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Blondy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Chereposlov, sirech' Frenolog.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Chereposlov, sirech' Frenolog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Dimitrij Samozvanets.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Dimitrij Samozvanets.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Ditja Allaha.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Ditja Allaha.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Gondla.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Gondla.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Horev.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Horev.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Kamennyj gost'.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Kamennyj gost'.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Korol' na ploschadi.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Korol' na ploschadi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Neznakomka.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Neznakomka.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Podschipa ili Trumf.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Podschipa ili Trumf.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Semira.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Semira.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Skupoj rytsar'.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Skupoj rytsar'.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Sonnyj poroshok ili pohischennaja krest'janka.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Sonnyj poroshok ili pohischennaja krest'janka.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Spor drevnih grecheskih filosofov ob izjaschnom.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Spor drevnih grecheskih filosofov ob izjaschnom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_to_tei_type1.py" afterPath="$PROJECT_DIR$/wikisource_to_tei_type1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wikisource_to_tei_type2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Wikisource.iws" />
@@ -45,14 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wikisource_to_tei_type1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
+      <file leaf-file-name="wikisource_to_tei_type2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65762" vertical-offset="0" max-vertical-offset="3360">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="479">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,6 +62,7 @@
         <option value="$PROJECT_DIR$/tei_header.xml" />
         <option value="$PROJECT_DIR$/wikisource_tei/1/41. Don-Zhuan v Egipte.xml" />
         <option value="$PROJECT_DIR$/wikisource_to_tei_type1.py" />
+        <option value="$PROJECT_DIR$/wikisource_to_tei_type2.py" />
       </list>
     </option>
   </component>
@@ -440,7 +421,13 @@
       <option name="project" value="LOCAL" />
       <updated>1492013937843</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added subtitle, creation and print date, the print date should be reviewed, maybe changed (as firth four numbers from the whole line but it won't work for all the cases)">
+      <created>1492017626774</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1492017626774</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -497,16 +484,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2685">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Chereposlov, sirech' Frenolog.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="12015">
@@ -895,11 +872,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65762" vertical-offset="0" max-vertical-offset="3360">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="479">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
