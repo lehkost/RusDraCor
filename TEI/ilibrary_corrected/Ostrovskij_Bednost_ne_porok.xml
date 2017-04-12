@@ -82,9 +82,6 @@
           <person xml:id="Guslin">
             <persName> Гуслин </persName>
           </person>
-          <person xml:id="GusliniMitja">
-            <persName> Гуслин и Митя </persName>
-          </person>
           <person xml:id="Korshunov">
             <persName> Коршунов </persName>
           </person>
@@ -331,7 +328,7 @@
             <speaker> Пелагея Егоровна </speaker>
             <p> . Ну, прощайте. Пойти соснуть полчасика. </p>
           </sp>
-          <sp who="#GusliniMitja">
+          <sp who="#Guslin #Mitja">
             <speaker> Гуслин и Митя </speaker>
             <p> . Прощайте-с. </p>
           </sp>
