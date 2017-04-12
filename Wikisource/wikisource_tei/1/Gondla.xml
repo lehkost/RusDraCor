@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">Гондла</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -32,7 +31,7 @@
                     </availability>
                     <bibl type="originalSource">
                         <title></title>
-                        <date type="print"></date>
+                        <date type="print">1917</date>
                         <date type="premiere"/>
                         <date type="written"></date>
                     </bibl>
@@ -42,32 +41,32 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Vozhd">
-<persName>Вождь</persName>
-</person>
-<person xml:id="Lera">
-<persName>Лера</persName>
-</person>
-<person xml:id="Gondla">
-<persName>Гондла</persName>
+<person xml:id="Grubbe">
+<persName>Груббе</persName>
 </person>
 <person xml:id="Ahti">
 <persName>Ахти</persName>
 </person>
+<person xml:id="Snorre,GrubbeIAhti">
+<persName>Снорре, Груббе и Ахти</persName>
+</person>
 <person xml:id="Konung">
 <persName>Конунг</persName>
+</person>
+<person xml:id="Vozhd">
+<persName>Вождь</persName>
 </person>
 <person xml:id="Lage">
 <persName>Лаге</persName>
 </person>
-<person xml:id="Snorre,GrubbeIAhti">
-<persName>Снорре, Груббе и Ахти</persName>
-</person>
-<person xml:id="Grubbe">
-<persName>Груббе</persName>
-</person>
 <person xml:id="Snorre">
 <persName>Снорре</persName>
+</person>
+<person xml:id="Gondla">
+<persName>Гондла</persName>
+</person>
+<person xml:id="Lera">
+<persName>Лера</persName>
 </person>
 </listPerson>
 </particDesc>

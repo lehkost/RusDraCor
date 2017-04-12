@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">Актеон</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -32,9 +31,9 @@
                     </availability>
                     <bibl type="originalSource">
                         <title></title>
-                        <date type="print"></date>
+                        <date type="print">1913 («Гиперборей», 1913, № 7)</date>
                         <date type="premiere"/>
-                        <date type="written"></date>
+                        <date type="written">1913</date>
                     </bibl>
                 </bibl>
             </sourceDesc>
@@ -42,56 +41,56 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="TretijJunosha">
-<persName>Третий юноша</persName>
-</person>
-<person xml:id="Tretij">
-<persName>Третий</persName>
-</person>
-<person xml:id="Kadm">
-<persName>Кадм</persName>
-</person>
-<person xml:id="RanisIKrokale">
-<persName>Ранис и Крокале</persName>
-</person>
 <person xml:id="VtorojJunosha">
 <persName>Второй юноша</persName>
-</person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
-</person>
-<person xml:id="Ehion">
-<persName>Эхион</persName>
-</person>
-<person xml:id="PervyjJunosha">
-<persName>Первый юноша</persName>
-</person>
-<person xml:id="Agava">
-<persName>Агава</persName>
-</person>
-<person xml:id="Hiale">
-<persName>Хиале</persName>
 </person>
 <person xml:id="Krokale">
 <persName>Крокале</persName>
 </person>
+<person xml:id="Hiale">
+<persName>Хиале</persName>
+</person>
+<person xml:id="Akteon">
+<persName>Актеон</persName>
+</person>
+<person xml:id="TretijJunosha">
+<persName>Третий юноша</persName>
+</person>
+<person xml:id="Agava">
+<persName>Агава</persName>
+</person>
+<person xml:id="VseTroe">
+<persName>Все трое</persName>
+</person>
+<person xml:id="Kadm">
+<persName>Кадм</persName>
+</person>
+<person xml:id="PervyjJunosha">
+<persName>Первый юноша</persName>
+</person>
+<person xml:id="Tretij">
+<persName>Третий</persName>
+</person>
+<person xml:id="Ehion">
+<persName>Эхион</persName>
+</person>
+<person xml:id="RanisIKrokale">
+<persName>Ранис и Крокале</persName>
+</person>
 <person xml:id="GolosaOhotnits">
 <persName>Голоса охотниц</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="Ranis">
+<persName>Ранис</persName>
 </person>
 <person xml:id="Diana">
 <persName>Диана</persName>
 </person>
 <person xml:id="Pervyj">
 <persName>Первый</persName>
-</person>
-<person xml:id="VseTroe">
-<persName>Все трое</persName>
-</person>
-<person xml:id="Akteon">
-<persName>Актеон</persName>
-</person>
-<person xml:id="Ranis">
-<persName>Ранис</persName>
 </person>
 </listPerson>
 </particDesc>

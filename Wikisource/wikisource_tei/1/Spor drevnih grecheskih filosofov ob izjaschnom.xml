@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">Спор древних греческих философов об изящном</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -42,11 +41,11 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Klefiston">
-<persName>Клефистон</persName>
-</person>
 <person xml:id="Stif">
 <persName>Стиф</persName>
+</person>
+<person xml:id="Klefiston">
+<persName>Клефистон</persName>
 </person>
 </listPerson>
 </particDesc>

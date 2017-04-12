@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">Каменный гость</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -42,50 +41,50 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="Statuja">
+<persName>Статуя</persName>
+</person>
+<person xml:id="PervyjGost">
+<persName>Первый гость</persName>
+</person>
+<person xml:id="Leporello">
+<persName>Лепорелло</persName>
+</person>
 <person xml:id="Tretij">
 <persName>Третий</persName>
+</person>
+<person xml:id="Laura">
+<persName>Лаура</persName>
+</person>
+<person xml:id="DonaAnna">
+<persName>Дона Анна</persName>
+</person>
+<person xml:id="Monah">
+<persName>Монах</persName>
+</person>
+<person xml:id="Vse">
+<persName>Все</persName>
+</person>
+<person xml:id="Gost">
+<persName>Гость</persName>
+</person>
+<person xml:id="Gosti">
+<persName>Гости</persName>
 </person>
 <person xml:id="Vtoroj">
 <persName>Второй</persName>
 </person>
 <person xml:id="DonGuan">
-<persName>Дон Гуан </persName>
-</person>
-<person xml:id="Gosti">
-<persName>Гости</persName>
-</person>
-<person xml:id="Monah">
-<persName>Монах</persName>
-</person>
-<person xml:id="Statuja">
-<persName>Статуя</persName>
-</person>
-<person xml:id="DonGuan">
 <persName>Дон Гуан</persName>
 </person>
-<person xml:id="PervyjGost">
-<persName>Первый гость</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
-</person>
-<person xml:id="DonaAnna">
-<persName>Дона Анна</persName>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
 </person>
 <person xml:id="DonKarlos">
 <persName>Дон Карлос</persName>
 </person>
-<person xml:id="Gost">
-<persName>Гость</persName>
-</person>
-<person xml:id="Laura">
-<persName>Лаура</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
+<person xml:id="DonGuan">
+<persName>Дон Гуан </persName>
 </person>
 </listPerson>
 </particDesc>

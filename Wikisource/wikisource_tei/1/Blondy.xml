@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">Блонды</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -32,7 +31,7 @@
                     </availability>
                     <bibl type="originalSource">
                         <title></title>
-                        <date type="print"></date>
+                        <date type="print">1854<ref>Впервые&nbsp;— в&nbsp;журнале {{Современник|год=1854|номер=10}}.</ref></date>
                         <date type="premiere"/>
                         <date type="written"></date>
                     </bibl>
@@ -45,14 +44,14 @@
 <person xml:id="Knjaginja">
 <persName>Княгиня</persName>
 </person>
-<person xml:id="Knjaz">
-<persName>Князь</persName>
-</person>
 <person xml:id="Baron">
 <persName>Барон</persName>
 </person>
 <person xml:id="KnjazIKnjaginja">
 <persName>Князь и княгиня</persName>
+</person>
+<person xml:id="Knjaz">
+<persName>Князь</persName>
 </person>
 </listPerson>
 </particDesc>

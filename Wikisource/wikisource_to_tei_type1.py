@@ -15,8 +15,26 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                 castItems = re.findall('\{\{razr2?\|(.*?)\}\}', cast[0])
                 for person in castItems:
                     castListLine += '<castItem>' + person + '</castItem>\n'
-            title = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text_read)[0]
-            author = re.findall('АВТОР *?= ?\[?\[?(.*?)\]?\]?', text_read)[0]
+            title = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text_read)
+            if len(title) != 0:
+                title = title[0]
+            else: title = ''
+            subtitle = re.findall('ПОДЗАГОЛОВОК *?= ?(.*?)\n', text_read)
+            if len(subtitle) != 0:
+                subtitle = subtitle[0]
+            else: subtitle = ''
+            author = re.findall('АВТОР *?= ?\[?\[?(.*?)\]?\]?', text_read)
+            if len(author) != 0:
+                author = author[0]
+            else: author = ''
+            creation_date = re.findall('ДАТАСОЗДАНИЯ *?= ?(.*?)\n', text_read)
+            if len(creation_date) != 0:
+                creation_date = creation_date[0]
+            else: creation_date = ''
+            print_date = re.findall('ДАТАПУБЛИКАЦИИ *?= ?(.*?)\n', text_read)
+            if len(print_date) != 0:
+                print_date = print_date[0]
+            else: print_date = ''
             '''
             razrs = re.findall('\{\{Razr\|.*?\}\}', text_read)
             for el in razrs:
@@ -163,8 +181,20 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text_tei_read = re.sub('</l>\n<div', '</l>\n</sp>\n<div', text_tei_read)
             text_tei_read = re.sub('</sp>\n<div', '</sp>\n</div>\n<div', text_tei_read)
             text_tei_read = re.sub('<ref.*?>.*?</ref>', '', text_tei_read)
+            digital_source = re.search('(<bibl type="digitalSource">\n *)(<name>.*?</name>)(\n *<idno type="URL">.*?</idno>)',
+                                       text_tei_read)
+            # print(digital_source.group(0))
+            text_tei_read = re.sub(digital_source.group(0), digital_source.group(1) + '<name>Wikisource</name>'
+                                   + digital_source.group(3), text_tei_read)
+            digital_source = re.search('(<bibl type="digitalSource">\n *)(<name>.*?</name>)(\n *<idno type="URL">.*?</idno>)',
+                                       text_tei_read)
+            text_tei_read = re.sub(digital_source.group(0), digital_source.group(1) + digital_source.group(2)
+                                   + '\n<idno type="URL">https://ru.wikisource.org</idno>', text_tei_read)
             text_tei_read = re.sub('<author></author>', '<author>' + author + '</author>', text_tei_read)
             text_tei_read = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', text_tei_read)
+            text_tei_read = re.sub('<title type="sub"></title>', '<title type="sub">' + subtitle + '</title>', text_tei_read)
+            text_tei_read = re.sub('<date type="written"></date>', '<date type="written">' + creation_date + '</date>', text_tei_read)
+            text_tei_read = re.sub('<date type="print"></date>', '<date type="print">' + print_date + '</date>', text_tei_read)
             cursive_stages = re.findall("''.*?''", text_tei_read)
             for el in cursive_stages:
                 e = re.findall("''(.*?)''", el)[0]

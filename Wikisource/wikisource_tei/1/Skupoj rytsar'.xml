@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">Скупой рыцарь</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -32,9 +31,9 @@
                     </availability>
                     <bibl type="originalSource">
                         <title></title>
-                        <date type="print"></date>
+                        <date type="print">1836<ref>Впервые (?) — в&nbsp;журнале {{Современник|год=1836|том=I|номер=1|страницы=[http://books.google.ru/books?id=Xs4GAAAAQAAJ&pg=PA111 111—130]}} с подписью «Р.»</ref></date>
                         <date type="premiere"/>
-                        <date type="written"></date>
+                        <date type="written">1830</date>
                     </bibl>
                 </bibl>
             </sourceDesc>
@@ -42,20 +41,20 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="Ivan">
+<persName>Иван</persName>
+</person>
+<person xml:id="Baron">
+<persName>Барон</persName>
+</person>
+<person xml:id="Gertsog">
+<persName>Герцог</persName>
+</person>
 <person xml:id="AlBer">
 <persName>Альбер</persName>
 </person>
 <person xml:id="Zhid">
 <persName>Жид</persName>
-</person>
-<person xml:id="Baron">
-<persName>Барон</persName>
-</person>
-<person xml:id="Ivan">
-<persName>Иван</persName>
-</person>
-<person xml:id="Gertsog">
-<persName>Герцог</persName>
 </person>
 </listPerson>
 </particDesc>

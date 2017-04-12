@@ -4,8 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">Король на площади</title>
-                <title type="sub"></title>
-                <title type="sub"></title>
+                <title type="sub">драма</title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -42,77 +41,17 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="DrugojRabochij">
-<persName>Другой рабочий</persName>
-</person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
-</person>
-<person xml:id="TotZheObydennyjGolos">
-<persName>Тот же обыденный голос</persName>
-</person>
-<person xml:id="GolosTretEgo">
-<persName>Голос Третьего</persName>
-</person>
-<person xml:id="Junosha">
-<persName>Юноша</persName>
-</person>
-<person xml:id="GolosNischego">
-<persName>Голос нищего</persName>
-</person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
-</person>
-<person xml:id="OtdelNyePomerkshieGolosa">
-<persName>Отдельные померкшие голоса</persName>
+<person xml:id="ChelovekVChernom">
+<persName>Человек в черном</persName>
 </person>
 <person xml:id="MnogieGolosa">
 <persName>Многие голоса</persName>
 </person>
-<person xml:id="ChelovekSFakelom">
-<persName>Человек с факелом</persName>
-</person>
-<person xml:id="ChelovekVChernom">
-<persName>Человек в черном</persName>
-</person>
-<person xml:id="Rabochij">
-<persName>Рабочий</persName>
-</person>
-<person xml:id="Chernyj">
-<persName>Черный</persName>
-</person>
-<person xml:id="Devushka">
-<persName>Девушка</persName>
-</person>
-<person xml:id="Zodchij">
-<persName>Зодчий</persName>
-</person>
-<person xml:id="GolosaVTolpe">
-<persName>Голоса в толпе</persName>
-</person>
-<person xml:id="Chej-ToGolos">
-<persName>Чей-то голос</persName>
-</person>
-<person xml:id="VtorojIGolosTretEgo">
-<persName>Второй и голос Третьего</persName>
-</person>
-<person xml:id="Ona">
-<persName>Она</persName>
-</person>
 <person xml:id="Nischaja">
 <persName>Нищая</persName>
 </person>
-<person xml:id="DrugieGolosa">
-<persName>Другие голоса</persName>
-</person>
-<person xml:id="DochZodchego">
-<persName>Дочь Зодчего</persName>
-</person>
-<person xml:id="ProdavschitsaRoz">
-<persName>Продавщица роз</persName>
-</person>
-<person xml:id="Golosa">
-<persName>Голоса</persName>
+<person xml:id="DrugojRabochij">
+<persName>Другой рабочий</persName>
 </person>
 <person xml:id="VtorojRabochij">
 <persName>Второй рабочий</persName>
@@ -120,17 +59,77 @@
 <person xml:id="Zolotoj">
 <persName>Золотой</persName>
 </person>
-<person xml:id="TretijRabochij">
-<persName>Третий рабочий</persName>
+<person xml:id="Ona">
+<persName>Она</persName>
 </person>
-<person xml:id="Shut">
-<persName>Шут</persName>
+<person xml:id="Rabochij">
+<persName>Рабочий</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="ProdavschitsaRoz">
+<persName>Продавщица роз</persName>
+</person>
+<person xml:id="Zodchij">
+<persName>Зодчий</persName>
+</person>
+<person xml:id="VtorojIGolosTretEgo">
+<persName>Второй и голос Третьего</persName>
+</person>
+<person xml:id="OtdelNyePomerkshieGolosa">
+<persName>Отдельные померкшие голоса</persName>
 </person>
 <person xml:id="PervyjRabochij">
 <persName>Первый рабочий</persName>
 </person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
+</person>
+<person xml:id="GolosaVTolpe">
+<persName>Голоса в толпе</persName>
+</person>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
+</person>
+<person xml:id="TretijRabochij">
+<persName>Третий рабочий</persName>
+</person>
 <person xml:id="Pervyj">
 <persName>Первый</persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="Golosa">
+<persName>Голоса</persName>
+</person>
+<person xml:id="Chernyj">
+<persName>Черный</persName>
+</person>
+<person xml:id="DrugieGolosa">
+<persName>Другие голоса</persName>
+</person>
+<person xml:id="Shut">
+<persName>Шут</persName>
+</person>
+<person xml:id="DochZodchego">
+<persName>Дочь Зодчего</persName>
+</person>
+<person xml:id="ChelovekSFakelom">
+<persName>Человек с факелом</persName>
+</person>
+<person xml:id="GolosNischego">
+<persName>Голос нищего</persName>
+</person>
+<person xml:id="TotZheObydennyjGolos">
+<persName>Тот же обыденный голос</persName>
+</person>
+<person xml:id="GolosTretEgo">
+<persName>Голос Третьего</persName>
+</person>
+<person xml:id="Chej-ToGolos">
+<persName>Чей-то голос</persName>
 </person>
 </listPerson>
 </particDesc>

@@ -4,8 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">Балаганчик</title>
-                <title type="sub"></title>
-                <title type="sub"></title>
+                <title type="sub">драма</title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -34,7 +33,7 @@
                         <title></title>
                         <date type="print"></date>
                         <date type="premiere"/>
-                        <date type="written"></date>
+                        <date type="written">1906</date>
                     </bibl>
                 </bibl>
             </sourceDesc>
@@ -42,14 +41,17 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="TretijMistik">
-<persName>Третий мистик</persName>
+<person xml:id="PEro">
+<persName>Пьеро</persName>
 </person>
 <person xml:id="VtorojMistik">
 <persName>Второй мистик</persName>
 </person>
-<person xml:id="On">
-<persName>Он</persName>
+<person xml:id="Arlekin">
+<persName>Арлекин</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
 </person>
 <person xml:id="Hor">
 <persName>Хор</persName>
@@ -57,14 +59,11 @@
 <person xml:id="PervyjMistik">
 <persName>Первый мистик</persName>
 </person>
-<person xml:id="PEro">
-<persName>Пьеро</persName>
+<person xml:id="On">
+<persName>Он</persName>
 </person>
-<person xml:id="Arlekin">
-<persName>Арлекин</persName>
-</person>
-<person xml:id="Ona">
-<persName>Она</persName>
+<person xml:id="TretijMistik">
+<persName>Третий мистик</persName>
 </person>
 </listPerson>
 </particDesc>

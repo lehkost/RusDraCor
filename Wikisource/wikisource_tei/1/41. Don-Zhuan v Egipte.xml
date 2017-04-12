@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">41. Дон-Жуан в Египте</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -42,23 +41,23 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="DonZhuan">
-<persName>Дон Жуан</persName>
-</person>
 <person xml:id="Amerikanets">
 <persName>Американец </persName>
 </person>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
+<person xml:id="Amerikanka">
+<persName>Американка</persName>
 </person>
 <person xml:id="Amerikanets">
 <persName>Американец</persName>
 </person>
 <person xml:id="Leporello">
+<persName>Лепорелло</persName>
+</person>
+<person xml:id="Leporello">
 <persName>Лепорелло </persName>
 </person>
-<person xml:id="Amerikanka">
-<persName>Американка</persName>
+<person xml:id="DonZhuan">
+<persName>Дон Жуан</persName>
 </person>
 </listPerson>
 </particDesc>

@@ -4,8 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">Семира</title>
-                <title type="sub"></title>
-                <title type="sub"></title>
+                <title type="sub">Трагедия</title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -32,9 +31,9 @@
                     </availability>
                     <bibl type="originalSource">
                         <title></title>
-                        <date type="print"></date>
+                        <date type="print">1751<ref>Резолюция Академической комиссии о напечатании—10 ноября 1768 г.; расписка Сумарокова в получении отпечатанных экземпляров трагедии — 20 декабря того же года.</ref></date>
                         <date type="premiere"/>
-                        <date type="written"></date>
+                        <date type="written">1751</date>
                     </bibl>
                 </bibl>
             </sourceDesc>
@@ -42,35 +41,35 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Voin">
-<persName>Воин</persName>
-</person>
-<person xml:id="Izbrana">
-<persName>Избрана</persName>
-</person>
-<person xml:id="OskolD">
-<persName>Оскольд</persName>
+<person xml:id="Semira">
+<persName>Семира</persName>
 </person>
 <person xml:id="Rostislav">
 <persName>Ростислав</persName>
 </person>
+<person xml:id="Vozved">
+<persName>Возвед</persName>
+</person>
+<person xml:id="Izbrana">
+<persName>Избрана</persName>
+</person>
+<person xml:id="Oleg">
+<persName>Олег</persName>
+</person>
 <person xml:id="Vitozar">
 <persName>Витозар</persName>
+</person>
+<person xml:id="Voin">
+<persName>Воин</persName>
 </person>
 <person xml:id="DrugojVoin">
 <persName>Другой воин</persName>
 </person>
-<person xml:id="Vozved">
-<persName>Возвед</persName>
-</person>
-<person xml:id="Semira">
-<persName>Семира</persName>
-</person>
 <person xml:id="PervyjVoin">
 <persName>Первый воин</persName>
 </person>
-<person xml:id="Oleg">
-<persName>Олег</persName>
+<person xml:id="OskolD">
+<persName>Оскольд</persName>
 </person>
 </listPerson>
 </particDesc>

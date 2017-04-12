@@ -5,7 +5,6 @@
             <titleStmt>
                 <title type="main">Дитя Аллаха</title>
                 <title type="sub"></title>
-                <title type="sub"></title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -32,7 +31,7 @@
                     </availability>
                     <bibl type="originalSource">
                         <title></title>
-                        <date type="print"></date>
+                        <date type="print">1917</date>
                         <date type="premiere"/>
                         <date type="written"></date>
                     </bibl>
@@ -42,29 +41,47 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Rab">
-<persName>Раб</persName>
+<person xml:id="Kalif">
+<persName>Калиф</persName>
 </person>
 <person xml:id="Staruha">
 <persName>Старуха</persName>
 </person>
-<person xml:id="Kalif">
-<persName>Калиф</persName>
+<person xml:id="1-JEvnuh">
+<persName>1-й евнух</persName>
 </person>
-<person xml:id="Dervish">
-<persName>Дервиш</persName>
-</person>
-<person xml:id="Junosha">
-<persName>Юноша</persName>
+<person xml:id="Angel">
+<persName>Ангел</persName>
 </person>
 <person xml:id="Iskander">
 <persName>Искандер</persName>
 </person>
-<person xml:id="Astrolog">
-<persName>Астролог</persName>
-</person>
 <person xml:id="Pirat">
 <persName>Пират</persName>
+</person>
+<person xml:id="Glashataj">
+<persName>Глашатай</persName>
+</person>
+<person xml:id="SynKalifa">
+<persName>Сын Калифа</persName>
+</person>
+<person xml:id="Sindbad">
+<persName>Синдбад</persName>
+</person>
+<person xml:id="Dervish">
+<persName>Дервиш</persName>
+</person>
+<person xml:id="Peri">
+<persName>Пери</persName>
+</person>
+<person xml:id="Kadi">
+<persName>Кади</persName>
+</person>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
+</person>
+<person xml:id="Ptitsy">
+<persName>Птицы</persName>
 </person>
 <person xml:id="Shejh">
 <persName>Шейх</persName>
@@ -72,35 +89,17 @@
 <person xml:id="Beduin">
 <persName>Бедуин</persName>
 </person>
-<person xml:id="Glashataj">
-<persName>Глашатай</persName>
+<person xml:id="Rab">
+<persName>Раб</persName>
 </person>
-<person xml:id="Gafiz">
-<persName>Гафиз</persName>
-</person>
-<person xml:id="SynKalifa">
-<persName>Сын Калифа</persName>
-</person>
-<person xml:id="Angel">
-<persName>Ангел</persName>
-</person>
-<person xml:id="Sindbad">
-<persName>Синдбад</persName>
-</person>
-<person xml:id="1-JEvnuh">
-<persName>1-й евнух</persName>
+<person xml:id="Astrolog">
+<persName>Астролог</persName>
 </person>
 <person xml:id="2-JEvnuh">
 <persName>2-й евнух</persName>
 </person>
-<person xml:id="Kadi">
-<persName>Кади</persName>
-</person>
-<person xml:id="Peri">
-<persName>Пери</persName>
-</person>
-<person xml:id="Ptitsy">
-<persName>Птицы</persName>
+<person xml:id="Gafiz">
+<persName>Гафиз</persName>
 </person>
 </listPerson>
 </particDesc>

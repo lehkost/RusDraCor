@@ -4,8 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">Димитрий Самозванец</title>
-                <title type="sub"></title>
-                <title type="sub"></title>
+                <title type="sub">Трагедия</title>
                 <author></author>
             </titleStmt>
             <publicationStmt>
@@ -21,8 +20,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name></name>
-                    <idno type="URL"></idno>
+                    <name>Wikisource</name>
+<idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -32,9 +31,9 @@
                     </availability>
                     <bibl type="originalSource">
                         <title></title>
-                        <date type="print"></date>
+                        <date type="print">1771<ref>Впервые — отдельным изданием под таким же заглавием (СПб., 1771)</ref></date>
                         <date type="premiere"/>
-                        <date type="written"></date>
+                        <date type="written">1770?</date>
                     </bibl>
                 </bibl>
             </sourceDesc>
@@ -42,26 +41,26 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Parmen">
-<persName>Пармен.</persName>
+<person xml:id="NachalNik">
+<persName>Начальник</persName>
 </person>
 <person xml:id="Georgij">
 <persName>Георгий</persName>
 </person>
-<person xml:id="Shujskij">
-<persName>Шуйский</persName>
+<person xml:id="Ksenija">
+<persName>Ксения</persName>
 </person>
 <person xml:id="Parmen">
 <persName>Пармен</persName>
 </person>
+<person xml:id="Parmen">
+<persName>Пармен.</persName>
+</person>
+<person xml:id="Shujskij">
+<persName>Шуйский</persName>
+</person>
 <person xml:id="Dimitrij">
 <persName>Димитрий</persName>
-</person>
-<person xml:id="Ksenija">
-<persName>Ксения</persName>
-</person>
-<person xml:id="NachalNik">
-<persName>Начальник</persName>
 </person>
 </listPerson>
 </particDesc>
