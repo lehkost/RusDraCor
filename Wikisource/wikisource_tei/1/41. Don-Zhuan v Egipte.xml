@@ -42,8 +42,8 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
+<person xml:id="Amerikanka">
+<persName>Американка</persName>
 </person>
 <person xml:id="Amerikanets">
 <persName>Американец </persName>
@@ -51,14 +51,14 @@
 <person xml:id="Amerikanets">
 <persName>Американец</persName>
 </person>
-<person xml:id="Amerikanka">
-<persName>Американка</persName>
+<person xml:id="Leporello">
+<persName>Лепорелло </persName>
+</person>
+<person xml:id="Leporello">
+<persName>Лепорелло</persName>
 </person>
 <person xml:id="DonZhuan">
 <persName>Дон Жуан</persName>
-</person>
-<person xml:id="Leporello">
-<persName>Лепорелло </persName>
 </person>
 </listPerson>
 </particDesc>
@@ -76,8 +76,8 @@
     </teiHeader>
     <text>
         <body>
-<stage><big>'''ДЕЙСТВУЮЩИЕ ЛИЦА:'''</big></stage>
-<p><center><big>'''ДЕЙСТВУЮЩИЕ ЛИЦА:'''</big></center></p>
+<stage><big><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</big></stage>
+<p><center><big><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</big></center></p>
 <p>* {{razr2|Дон Жуан}}.</p>
 <p>* {{razr2|Лепорелло}}.</p>
 <p>* {{razr2|Американец}}.</p>

@@ -42,122 +42,122 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="PervyjSobutylNik">
-<persName>Первый собутыльник</persName>
-</person>
-<person xml:id="MolodojChelovekZhorzh">
-<persName>Молодой человек Жорж</persName>
-</person>
-<person xml:id="Goluboj">
-<persName>Голубой</persName>
-</person>
-<person xml:id="GolosGostja">
-<persName>Голос гостя</persName>
-</person>
-<person xml:id="Hozjain">
-<persName>Хозяин</persName>
-</person>
-<person xml:id="Gauptman">
-<persName>Гауптман</persName>
-</person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="HozjainDoma">
-<persName>Хозяин дома</persName>
+<person xml:id="VtorojSobutylNik">
+<persName>Второй собутыльник</persName>
 </person>
 <person xml:id="Zvezdochet">
 <persName>Звездочет</persName>
 </person>
-<person xml:id="MolodojChelovekMisha">
-<persName>Молодой человек Миша</persName>
-</person>
-<person xml:id="ChelovekVPalTo">
-<persName>Человек в пальто</persName>
-</person>
-<person xml:id="EgoSobesednik">
-<persName>Его собеседник</persName>
-</person>
-<person xml:id="SobutylNik">
-<persName>Собутыльник</persName>
-</person>
-<person xml:id="MolodojChelovek">
-<persName>Молодой человек</persName>
-</person>
-<person xml:id="Verlen">
-<persName>Верлэн</persName>
-</person>
-<person xml:id="Kto-To">
-<persName>Кто-то</persName>
-</person>
-<person xml:id="RyzhijGospodin">
-<persName>Рыжий господин</persName>
-</person>
-<person xml:id="Devushka">
-<persName>Девушка</persName>
+<person xml:id="Sobesednik">
+<persName>Собеседник</persName>
 </person>
 <person xml:id="TretijUsatyj">
 <persName>Третий усатый</persName>
 </person>
-<person xml:id="Neznakomka">
-<persName>Незнакомка</persName>
-</person>
-<person xml:id="MolodojChelovek">
-<persName>Молодой человек </persName>
-</person>
-<person xml:id="Drugoj">
-<persName>Другой</persName>
-</person>
-<person xml:id="Muzhchina">
-<persName>Мужчина</persName>
-</person>
-<person xml:id="Polovoj">
-<persName>Половой</persName>
-</person>
-<person xml:id="GolosHozjaina">
-<persName>Голос хозяина</persName>
+<person xml:id="Poet">
+<persName>Поэт</persName>
 </person>
 <person xml:id="Vtoroj">
 <persName>Второй</persName>
 </person>
-<person xml:id="Gospodin">
-<persName>Господин</persName>
+<person xml:id="Muzhchina">
+<persName>Мужчина</persName>
 </person>
-<person xml:id="Starik">
-<persName>Старик</persName>
+<person xml:id="MolodojChelovek">
+<persName>Молодой человек</persName>
 </person>
-<person xml:id="Misha">
-<persName>Миша</persName>
+<person xml:id="HozjainDoma">
+<persName>Хозяин дома</persName>
 </person>
-<person xml:id="Seminarist">
-<persName>Семинарист</persName>
+<person xml:id="EgoSobesednik">
+<persName>Его собеседник</persName>
 </person>
-<person xml:id="Sobesednik">
-<persName>Собеседник</persName>
-</person>
-<person xml:id="Gost">
-<persName>Гость</persName>
+<person xml:id="Goluboj">
+<persName>Голубой</persName>
 </person>
 <person xml:id="Hozjajka">
 <persName>Хозяйка</persName>
 </person>
+<person xml:id="Polovoj">
+<persName>Половой</persName>
+</person>
+<person xml:id="GolosGostja">
+<persName>Голос гостя</persName>
+</person>
+<person xml:id="Verlen">
+<persName>Верлэн</persName>
+</person>
+<person xml:id="ChelovekVPalTo">
+<persName>Человек в пальто</persName>
+</person>
+<person xml:id="Starik">
+<persName>Старик</persName>
+</person>
+<person xml:id="RyzhijGospodin">
+<persName>Рыжий господин</persName>
+</person>
+<person xml:id="MolodojChelovekZhorzh">
+<persName>Молодой человек Жорж</persName>
+</person>
+<person xml:id="Drugoj">
+<persName>Другой</persName>
+</person>
+<person xml:id="Gost">
+<persName>Гость</persName>
+</person>
+<person xml:id="MolodojChelovek">
+<persName>Молодой человек </persName>
+</person>
+<person xml:id="Hozjain">
+<persName>Хозяин</persName>
+</person>
+<person xml:id="Gospodin">
+<persName>Господин</persName>
+</person>
 <person xml:id="Odin">
 <persName>Один</persName>
-</person>
-<person xml:id="Zhorzh">
-<persName>Жорж</persName>
 </person>
 <person xml:id="RazJarennyeDvorniki">
 <persName>Разъяренные дворники</persName>
 </person>
+<person xml:id="Seminarist">
+<persName>Семинарист</persName>
+</person>
+<person xml:id="Neznakomka">
+<persName>Незнакомка</persName>
+</person>
+<person xml:id="PervyjSobutylNik">
+<persName>Первый собутыльник</persName>
+</person>
+<person xml:id="Zhorzh">
+<persName>Жорж</persName>
+</person>
+<person xml:id="MolodojChelovekMisha">
+<persName>Молодой человек Миша</persName>
+</person>
 <person xml:id="Dama">
 <persName>Дама</persName>
 </person>
-<person xml:id="VtorojSobutylNik">
-<persName>Второй собутыльник</persName>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="GolosHozjaina">
+<persName>Голос хозяина</persName>
+</person>
+<person xml:id="Kto-To">
+<persName>Кто-то</persName>
+</person>
+<person xml:id="Misha">
+<persName>Миша</persName>
+</person>
+<person xml:id="Gauptman">
+<persName>Гауптман</persName>
+</person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
+</person>
+<person xml:id="SobutylNik">
+<persName>Собутыльник</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -242,7 +242,7 @@
 </sp>
 <sp who="#Devushka">
 <speaker>Девушка</speaker>
-<p>Бутылку портеру, Миша. ''(Продолжает быстро рассказывать мужчине.)'' …только она, милый мой, вышла, хвать — забыла хозяйку пивом угостить. Сейчас — назад, а уж он комод открыл, да и роется, все перерыл, все перерыл, думал — не скоро вернется… Она, милый мой, кричать, а он, милый мой, ей рот зажимать. Ну, все-таки хозяйка прибежала, да сама кричать, да дворника позвала; так его, милый мой, сейчас в участок… (Быстро прерывает.) Дай двугривенный.</p>
+<p>Бутылку портеру, Миша. <stage>(Продолжает быстро рассказывать мужчине.)</stage> …только она, милый мой, вышла, хвать — забыла хозяйку пивом угостить. Сейчас — назад, а уж он комод открыл, да и роется, все перерыл, все перерыл, думал — не скоро вернется… Она, милый мой, кричать, а он, милый мой, ей рот зажимать. Ну, все-таки хозяйка прибежала, да сама кричать, да дворника позвала; так его, милый мой, сейчас в участок… (Быстро прерывает.) Дай двугривенный.</p>
 <stage>Мужчина хмуро вынимает двугривенный.</stage>
 </sp>
 <sp who="#Devushka">
@@ -337,7 +337,7 @@
 </sp>
 <sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
-<p>Государи мои! Есть у меня небольшая вещица — весьма ценная миниатюра. ''(Вытаскивает из кармана камею.)'' Вот-с, не угодно ли: с одной стороны — изображение эмблемы, а с другой — приятная дама в тюнике на земном шаре сидит и над этим шаром держит скипетр: подчиняйтесь, мол, повинуйтесь — и больше ничего!</p>
+<p>Государи мои! Есть у меня небольшая вещица — весьма ценная миниатюра. <stage>(Вытаскивает из кармана камею.)</stage> Вот-с, не угодно ли: с одной стороны — изображение эмблемы, а с другой — приятная дама в тюнике на земном шаре сидит и над этим шаром держит скипетр: подчиняйтесь, мол, повинуйтесь — и больше ничего!</p>
 <stage>Все одобрительно смеются. Некоторые подходят и рассматривают камею.</stage>
 </sp>
 <sp who="#Poet">
@@ -387,7 +387,7 @@
 </sp>
 <sp who="#Seminarist">
 <speaker>Семинарист</speaker>
-<p>Танцует… Танцует… Я на шарманке, а она под шарманку. ''(Делает пьяные жесты, как будто что-то ловит.)'' Вот, не поймал… опять не поймал… но и вам, черти, не поймать, если уж мне не поймать…</p>
+<p>Танцует… Танцует… Я на шарманке, а она под шарманку. <stage>(Делает пьяные жесты, как будто что-то ловит.)</stage> Вот, не поймал… опять не поймал… но и вам, черти, не поймать, если уж мне не поймать…</p>
 <stage>Медленно, медленно начинают кружиться стены кабачка. Потолок наклоняется, один конец его протягивается вверх бесконечно. Корабли на обоях, кажется, плывут близко, а все не могут доплыть. Сквозь смутный общий говор человек в пальто, уже присоединившийся к кому-то, кричит.</stage>
 </sp>
 <sp who="#ChelovekVPalTo">
@@ -408,7 +408,7 @@
 </sp>
 <sp who="#ChelovekVPalTo">
 <speaker>Человек в пальто</speaker>
-<p>Швейцарский!.. Вот что-с! ''(Щелкает пальцами.)''</p>
+<p>Швейцарский!.. Вот что-с! <stage>(Щелкает пальцами.)</stage></p>
 </sp>
 <sp who="#Sobesednik">
 <speaker>Собеседник</speaker>
@@ -1036,7 +1036,7 @@
 </sp>
 <sp who="#Hozjajka">
 <speaker>Хозяйка</speaker>
-<p>Ах, дядя, перестаньте! Вы всех окончательно спугнете… Господа! Обновим наш разговор… ''(Поэту.)'' Вы прочтете нам что-нибудь, не правда ли?</p>
+<p>Ах, дядя, перестаньте! Вы всех окончательно спугнете… Господа! Обновим наш разговор… <stage>(Поэту.)</stage> Вы прочтете нам что-нибудь, не правда ли?</p>
 </sp>
 <sp who="#Poet">
 <speaker>Поэт</speaker>
@@ -1166,7 +1166,7 @@
 <stage>Всматривается в глубь комнаты.</stage>
 <p>Где же Мэри? Да где же Мэри?</p>
 <stage>У темной занавеси уже нет никого. За окном горит яркая звезда. Падает голубой снег, такой же голубой, как вицмундир исчезнувшего Звездочета.</stage>
-<p>{{right|''<1906>''}}</p>
+<p>{{right|<stage><1906></stage>}}</p>
 <p></div></p>
 <p><!--</p>
 <p>Сборники своих пьес Блок издавал трижды — в 1908, 1916 и 1918 годах. В</p>

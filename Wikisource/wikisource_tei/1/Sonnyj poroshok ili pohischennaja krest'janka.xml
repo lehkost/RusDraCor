@@ -42,47 +42,26 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="ZhulEtaINineta">
+<persName>Жульета и Нинета</persName>
+</person>
+<person xml:id="Nineta,Graf">
+<persName>Нинета, граф</persName>
+</person>
 <person xml:id="Nineta">
 <persName>Нинета</persName>
+</person>
+<person xml:id="RabotnikiIDocheriBleza">
+<persName>Работники и дочери Блеза</persName>
+</person>
+<person xml:id="Oba">
+<persName>Оба</persName>
 </person>
 <person xml:id="FilippIBlez">
 <persName>Филипп и Блез</persName>
 </person>
 <person xml:id="Vse">
 <persName>Все</persName>
-</person>
-<person xml:id="Filipp">
-<persName>Филипп</persName>
-</person>
-<person xml:id="ZhanetaINineta">
-<persName>Жанета и Нинета</persName>
-</person>
-<person xml:id="BlezIFilipp">
-<persName>Блез и Филипп</persName>
-</person>
-<person xml:id="ZhulEtaINineta">
-<persName>Жульета и Нинета</persName>
-</person>
-<person xml:id="Paulin">
-<persName>Паулин</persName>
-</person>
-<person xml:id="Muzhiki">
-<persName>Мужики</persName>
-</person>
-<person xml:id="Nineta,Graf">
-<persName>Нинета, граф</persName>
-</person>
-<person xml:id="Graf">
-<persName>Граф</persName>
-</person>
-<person xml:id="Blez">
-<persName>Блез</persName>
-</person>
-<person xml:id="ZhanetaIPaulin">
-<persName>Жанета и Паулин</persName>
-</person>
-<person xml:id="Oba">
-<persName>Оба</persName>
 </person>
 <person xml:id="Vmeste">
 <persName>Вместе</persName>
@@ -93,17 +72,38 @@
 <person xml:id="Hor">
 <persName>Хор</persName>
 </person>
-<person xml:id="ZhulEta">
-<persName>Жульета</persName>
-</person>
-<person xml:id="RabotnikiIDocheriBleza">
-<persName>Работники и дочери Блеза</persName>
-</person>
 <person xml:id="ZhulEta,ZhanetaINineta">
 <persName>Жульета, Жанета и Нинета</persName>
 </person>
+<person xml:id="BlezIFilipp">
+<persName>Блез и Филипп</persName>
+</person>
+<person xml:id="ZhanetaIPaulin">
+<persName>Жанета и Паулин</persName>
+</person>
+<person xml:id="Paulin">
+<persName>Паулин</persName>
+</person>
+<person xml:id="Filipp">
+<persName>Филипп</persName>
+</person>
+<person xml:id="Graf">
+<persName>Граф</persName>
+</person>
+<person xml:id="ZhanetaINineta">
+<persName>Жанета и Нинета</persName>
+</person>
 <person xml:id="Zhaneta">
 <persName>Жанета</persName>
+</person>
+<person xml:id="Blez">
+<persName>Блез</persName>
+</person>
+<person xml:id="Muzhiki">
+<persName>Мужики</persName>
+</person>
+<person xml:id="ZhulEta">
+<persName>Жульета</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -129,8 +129,8 @@
 <castItem>Жульета</castItem>
 <castItem>Филипп</castItem>
 </castList>
-<stage>''Опера в трех действиях''</stage>
-<p><center>''Опера в трех действиях''</center></p>
+<stage><stage>Опера в трех действиях</stage></stage>
+<p><center><stage>Опера в трех действиях</stage></center></p>
 <p>{| class=personae</p>
 <p>{| class=personae style="width:auto"</p>
 <p>{| class=personae</p>
@@ -860,7 +860,7 @@
 <speaker>Граф</speaker>
 <l>Мучит тайно подозренье,</l>
 <l>Но не надобно казать.</l>
-<stage>'''''Конец первого акта'''''</stage>
+<stage><stage></stage>'Конец первого акта<stage></stage>'</stage>
 <div type="act">
 <head>ДЕЙСТВИЕ ВТОРОЕ</head>
 <div type="scene">
@@ -1706,7 +1706,7 @@
 <p>{{noindent|Можем нос себе разбить,}}</p>
 <p>{{noindent|Нос себе разбить,}}</p>
 <p>{{noindent|Скорее в дом, скорей уйтить.}}</p>
-<stage>'''''Конец второго акта.'''''</stage>
+<stage><stage></stage>'Конец второго акта.<stage></stage>'</stage>
 <div type="act">
 <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
 <div type="scene">
@@ -2684,7 +2684,7 @@
 <l>За двери пора, считаю, нам уйтить,</l>
 <l>Нечего нам время длить.</l>
 <l>За двери пора иттить.</l>
-<stage>'''''Конец оперы'''''</stage>
+<stage><stage></stage>'Конец оперы<stage></stage>'</stage>
 <p>{{примечания}}</p>
 <p></div></p>
 <p>[[Категория:Литература 1798 года]]</p>

@@ -42,29 +42,29 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Ona">
-<persName>Она</persName>
-</person>
-<person xml:id="Arlekin">
-<persName>Арлекин</persName>
-</person>
-<person xml:id="VtorojMistik">
-<persName>Второй мистик</persName>
+<person xml:id="TretijMistik">
+<persName>Третий мистик</persName>
 </person>
 <person xml:id="PEro">
 <persName>Пьеро</persName>
 </person>
-<person xml:id="TretijMistik">
-<persName>Третий мистик</persName>
+<person xml:id="Ona">
+<persName>Она</persName>
 </person>
 <person xml:id="On">
 <persName>Он</persName>
+</person>
+<person xml:id="Arlekin">
+<persName>Арлекин</persName>
 </person>
 <person xml:id="PervyjMistik">
 <persName>Первый мистик</persName>
 </person>
 <person xml:id="Hor">
 <persName>Хор</persName>
+</person>
+<person xml:id="VtorojMistik">
+<persName>Второй мистик</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -471,7 +471,7 @@
 <l>Что делать! Она упала ничком…</l>
 <l>Мне очень грустно. А вам смешно?</l>
 <stage>{{Razr|Пьеро</stage>
-<p>{{right|''1906''}}</p>
+<p>{{right|<stage>1906</stage>}}</p>
 <p></div></p>
 <p>{{PD-simple}}</p>
 <p>[[Категория:Драматургия Александра Александровича Блока]]</p>

@@ -45,8 +45,8 @@
 <person xml:id="PervyjVoin">
 <persName>Первый воин</persName>
 </person>
-<person xml:id="Semira">
-<persName>Семира</persName>
+<person xml:id="Vozved">
+<persName>Возвед</persName>
 </person>
 <person xml:id="DrugojVoin">
 <persName>Другой воин</persName>
@@ -63,8 +63,8 @@
 <person xml:id="OskolD">
 <persName>Оскольд</persName>
 </person>
-<person xml:id="Vozved">
-<persName>Возвед</persName>
+<person xml:id="Semira">
+<persName>Семира</persName>
 </person>
 <person xml:id="Oleg">
 <persName>Олег</persName>
@@ -351,7 +351,7 @@
 <l>Бессильствует любовь, ей сердце покоренно,</l>
 <l>Но сил лишилося своих не совершенно,</l>
 <l>И столько я еще во оном сил брегу,</l>
-<l>Что ''я'' противиться любви легко могу.</l>
+<l>Что <stage>я</stage> противиться любви легко могу.</l>
 </sp>
 <sp who="#OskolD">
 <speaker>Оскольд</speaker>

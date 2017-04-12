@@ -162,6 +162,11 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text_tei_read = re.sub('<ref.*?>.*?</ref>', '', text_tei_read)
             text_tei_read = re.sub('<author></author>', '<author>' + author + '</author>', text_tei_read)
             text_tei_read = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', text_tei_read)
+            cursive_stages = re.findall("''.*?''", text_tei_read)
+            for el in cursive_stages:
+                e = re.findall("''(.*?)''", el)[0]
+                print(e)
+                text_tei_read = re.sub(re.escape(el), '<stage>' + e + '</stage>', text_tei_read)
             participants = set(re.findall('<speaker>(.*?)</speaker>', text_tei_read))
             particDescLine = '<particDesc>\n<listPerson>\n'
             for participant in participants:

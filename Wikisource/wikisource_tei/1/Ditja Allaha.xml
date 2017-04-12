@@ -42,65 +42,65 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Staruha">
-<persName>Старуха</persName>
-</person>
-<person xml:id="2-JEvnuh">
-<persName>2-й евнух</persName>
-</person>
-<person xml:id="1-JEvnuh">
-<persName>1-й евнух</persName>
-</person>
-<person xml:id="Ptitsy">
-<persName>Птицы</persName>
-</person>
-<person xml:id="SynKalifa">
-<persName>Сын Калифа</persName>
-</person>
-<person xml:id="Glashataj">
-<persName>Глашатай</persName>
-</person>
-<person xml:id="Shejh">
-<persName>Шейх</persName>
-</person>
-<person xml:id="Dervish">
-<persName>Дервиш</persName>
-</person>
-<person xml:id="Kadi">
-<persName>Кади</persName>
-</person>
-<person xml:id="Kalif">
-<persName>Калиф</persName>
-</person>
 <person xml:id="Gafiz">
 <persName>Гафиз</persName>
-</person>
-<person xml:id="Angel">
-<persName>Ангел</persName>
-</person>
-<person xml:id="Junosha">
-<persName>Юноша</persName>
 </person>
 <person xml:id="Beduin">
 <persName>Бедуин</persName>
 </person>
-<person xml:id="Pirat">
-<persName>Пират</persName>
+<person xml:id="Kadi">
+<persName>Кади</persName>
 </person>
-<person xml:id="Peri">
-<persName>Пери</persName>
+<person xml:id="Staruha">
+<persName>Старуха</persName>
+</person>
+<person xml:id="Dervish">
+<persName>Дервиш</persName>
+</person>
+<person xml:id="SynKalifa">
+<persName>Сын Калифа</persName>
+</person>
+<person xml:id="1-JEvnuh">
+<persName>1-й евнух</persName>
+</person>
+<person xml:id="Kalif">
+<persName>Калиф</persName>
+</person>
+<person xml:id="2-JEvnuh">
+<persName>2-й евнух</persName>
 </person>
 <person xml:id="Iskander">
 <persName>Искандер</persName>
 </person>
-<person xml:id="Astrolog">
-<persName>Астролог</persName>
+<person xml:id="Shejh">
+<persName>Шейх</persName>
 </person>
 <person xml:id="Sindbad">
 <persName>Синдбад</persName>
 </person>
+<person xml:id="Glashataj">
+<persName>Глашатай</persName>
+</person>
+<person xml:id="Angel">
+<persName>Ангел</persName>
+</person>
 <person xml:id="Rab">
 <persName>Раб</persName>
+</person>
+<person xml:id="Astrolog">
+<persName>Астролог</persName>
+</person>
+<person xml:id="Peri">
+<persName>Пери</persName>
+</person>
+<person xml:id="Pirat">
+<persName>Пират</persName>
+</person>
+<person xml:id="Ptitsy">
+<persName>Птицы</persName>
+</person>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -1644,8 +1644,8 @@
 <l>Ты весь, как меч, разящий с силой,</l>
 <l>Ты пламя, жгущее цветы,</l>
 <l>И ты возьмёшь меня, о милый!</l>
-<stage>''Занавес''</stage>
-<l><center>''Занавес''</center></l>
+<stage><stage>Занавес</stage></stage>
+<l><center><stage>Занавес</stage></center></l>
 <p></poem></div></p>
 <p>[[Категория:Драматургия Николая Степановича Гумилёва]]</p>
 <p>[[Категория:Русская драматургия]]</p>

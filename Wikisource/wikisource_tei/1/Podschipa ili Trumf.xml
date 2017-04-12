@@ -42,20 +42,20 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Sljunjaj">
-<persName>Слюняй</persName>
+<person xml:id="Pazh">
+<persName>Паж</persName>
 </person>
-<person xml:id="Vakula">
-<persName>Вакула</persName>
+<person xml:id="Trumf">
+<persName>Трумф</persName>
+</person>
+<person xml:id="Durduran">
+<persName>Дурдуран</persName>
 </person>
 <person xml:id="Chernavka">
 <persName>Чернавка</persName>
 </person>
-<person xml:id="Pazh">
-<persName>Паж</persName>
-</person>
-<person xml:id="Durduran">
-<persName>Дурдуран</persName>
+<person xml:id="Sljunjaj">
+<persName>Слюняй</persName>
 </person>
 <person xml:id="Tsyganka">
 <persName>Цыганка</persName>
@@ -63,8 +63,8 @@
 <person xml:id="Podschipa">
 <persName>Подщипа</persName>
 </person>
-<person xml:id="Trumf">
-<persName>Трумф</persName>
+<person xml:id="Vakula">
+<persName>Вакула</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -94,8 +94,8 @@
 <castItem>Цыганка</castItem>
 <castItem>Бояре</castItem>
 </castList>
-<stage>''Шуто-трагедия в двух действиях, в стихах''</stage>
-<p><center>''Шуто-трагедия в двух действиях, в стихах''</center></p>
+<stage><stage>Шуто-трагедия в двух действиях, в стихах</stage></stage>
+<p><center><stage>Шуто-трагедия в двух действиях, в стихах</stage></center></p>
 <p>{| class=personae</p>
 <l><poem class=p0></l>
 <stage>Действие происходит в палатах царя Вакулы.</stage>
@@ -676,7 +676,7 @@
 <sp who="#Vakula">
 <speaker>Вакула</speaker><stage type="delivery">встает и подходит к одному из вельмож</stage>
 <l>Ну, что ж придумал ты, мой дорогой совет?</l>
-<l>А, слышь, и в помощи нам недостатка нет! <small>''(Подает бумагу).''</small></l>
+<l>А, слышь, и в помощи нам недостатка нет! <small><stage>(Подает бумагу).</stage></small></l>
 <l>Прочти, какую нам сосед дает помогу!</l>
 <l>Не без кумов-то вить и я здесь, слава богу!</l>
 <l>Ну что ж? прочел ли ты?</l>

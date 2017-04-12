@@ -42,41 +42,17 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="Gost">
-<persName>Гость</persName>
+<person xml:id="Statuja">
+<persName>Статуя</persName>
 </person>
 <person xml:id="DonGuan">
 <persName>Дон Гуан</persName>
 </person>
-<person xml:id="Monah">
-<persName>Монах</persName>
+<person xml:id="Gost">
+<persName>Гость</persName>
 </person>
-<person xml:id="PervyjGost">
-<persName>Первый гость</persName>
-</person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
-</person>
-<person xml:id="Laura">
-<persName>Лаура</persName>
-</person>
-<person xml:id="Tretij">
-<persName>Третий</persName>
-</person>
-<person xml:id="DonKarlos">
-<persName>Дон Карлос</persName>
-</person>
-<person xml:id="DonGuan">
-<persName>Дон Гуан </persName>
+<person xml:id="Vse">
+<persName>Все</persName>
 </person>
 <person xml:id="Gosti">
 <persName>Гости</persName>
@@ -84,8 +60,32 @@
 <person xml:id="DonaAnna">
 <persName>Дона Анна</persName>
 </person>
-<person xml:id="Statuja">
-<persName>Статуя</persName>
+<person xml:id="Laura">
+<persName>Лаура</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="Leporello">
+<persName>Лепорелло</persName>
+</person>
+<person xml:id="Monah">
+<persName>Монах</persName>
+</person>
+<person xml:id="Tretij">
+<persName>Третий</persName>
+</person>
+<person xml:id="DonGuan">
+<persName>Дон Гуан </persName>
+</person>
+<person xml:id="DonKarlos">
+<persName>Дон Карлос</persName>
+</person>
+<person xml:id="PervyjGost">
+<persName>Первый гость</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -1632,7 +1632,7 @@
 <l>Оставь меня, пусти — пусти мне руку…</l>
 <l>Я гибну — кончено — о Дона Анна!</l>
 <stage>Проваливаются. </stage>
-<l>{{right|''1830''}}</l>
+<l>{{right|<stage>1830</stage>}}</l>
 <p></poem></div></p>
 <p>{{примечания}}</p>
 <p>{{PD-simple}}</p>

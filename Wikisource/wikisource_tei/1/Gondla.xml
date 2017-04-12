@@ -42,32 +42,32 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Ahti">
-<persName>Ахти</persName>
-</person>
-<person xml:id="Snorre,GrubbeIAhti">
-<persName>Снорре, Груббе и Ахти</persName>
-</person>
-<person xml:id="Lage">
-<persName>Лаге</persName>
+<person xml:id="Snorre">
+<persName>Снорре</persName>
 </person>
 <person xml:id="Konung">
 <persName>Конунг</persName>
 </person>
-<person xml:id="Vozhd">
-<persName>Вождь</persName>
+<person xml:id="Snorre,GrubbeIAhti">
+<persName>Снорре, Груббе и Ахти</persName>
 </person>
 <person xml:id="Lera">
 <persName>Лера</persName>
 </person>
-<person xml:id="Snorre">
-<persName>Снорре</persName>
+<person xml:id="Vozhd">
+<persName>Вождь</persName>
+</person>
+<person xml:id="Gondla">
+<persName>Гондла</persName>
 </person>
 <person xml:id="Grubbe">
 <persName>Груббе</persName>
 </person>
-<person xml:id="Gondla">
-<persName>Гондла</persName>
+<person xml:id="Lage">
+<persName>Лаге</persName>
+</person>
+<person xml:id="Ahti">
+<persName>Ахти</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -95,24 +95,24 @@
 <p>историю острова: историю духовной борьбы меча с Евангелием, которое</p>
 <p>переродило мощных морских королей IX века в мирных собирателей</p>
 <p>гагачьего пуха, рыболовов и пастухов наших дней.</p>
-<p>{{right|''С. Н. Сыромятников''}}</p>
+<p>{{right|<stage>С. Н. Сыромятников</stage>}}</p>
 <p>Первобытный германец возмущает нас своей беспредметной грубостью,</p>
 <p>этой любовью ко злу, которая делает его умным и сильным только для</p>
 <p>ненависти и вреда. Богатырь кельтский, напротив, в своих странных</p>
 <p>уклонениях всегда руководился привычками благоволения и живого</p>
 <p>сочувствия к слабым. Это чувство — одно из самых глубоких народов</p>
 <p>кельтских, они имели жалость даже к самому Иуде…</p>
-<p>{{right|''Ренан''}}</p>
+<p>{{right|<stage>Ренан</stage>}}</p>
 <p>{| style="margin-left:0px"</p>
-<p>{{tr||5}} ''Старый Конунг,'' один из исландских властителей.</p>
-<p>{{tr|||||8}} ''Снорре'' {{td|2|||1}} <span style="font-size:200%">}</span> {{td|2|3}} его ярлы.</p>
-<p>{{tr}} ''Груббе''</p>
-<p>{{tr||3|||18}} {{nobr|1=''Лаге'' (сын Гер-Педера)}} {{td|2|||1}} <span style="font-size:200%">}</span> {{td|2}} молодые исландцы.</p>
-<p>{{tr}} ''Ахти''</p>
-<p>{{tr||5}} ''Гондла'', ирландский королевич на воспитании у Конунга.</p>
-<p>{{tr||5}} ''Лера'', она же ''Лаик'', знатная исландская девушка.</p>
-<p>{{tr||5}} ''Ирландские воины.''</p>
-<p>{{tr}} ''Рабы.'' {{td0|4}}</p>
+<p>{{tr||5}} <stage>Старый Конунг,</stage> один из исландских властителей.</p>
+<p>{{tr|||||8}} <stage>Снорре</stage> {{td|2|||1}} <span style="font-size:200%">}</span> {{td|2|3}} его ярлы.</p>
+<p>{{tr}} <stage>Груббе</stage></p>
+<p>{{tr||3|||18}} {{nobr|1=<stage>Лаге</stage> (сын Гер-Педера)}} {{td|2|||1}} <span style="font-size:200%">}</span> {{td|2}} молодые исландцы.</p>
+<p>{{tr}} <stage>Ахти</stage></p>
+<p>{{tr||5}} <stage>Гондла</stage>, ирландский королевич на воспитании у Конунга.</p>
+<p>{{tr||5}} <stage>Лера</stage>, она же <stage>Лаик</stage>, знатная исландская девушка.</p>
+<p>{{tr||5}} <stage>Ирландские воины.</stage></p>
+<p>{{tr}} <stage>Рабы.</stage> {{td0|4}}</p>
 <div type="act">
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <stage>Широкий полутемный коридор рядом с пиршественной залой; несколько окон и дверь в спальню Леры. Поздно.</stage>
