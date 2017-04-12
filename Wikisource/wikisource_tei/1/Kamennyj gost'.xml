@@ -42,50 +42,50 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="Tretij">
+<persName>Третий</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="DonGuan">
+<persName>Дон Гуан </persName>
+</person>
+<person xml:id="Gosti">
+<persName>Гости</persName>
+</person>
+<person xml:id="Monah">
+<persName>Монах</persName>
+</person>
 <person xml:id="Statuja">
 <persName>Статуя</persName>
 </person>
 <person xml:id="DonGuan">
 <persName>Дон Гуан</persName>
 </person>
-<person xml:id="Gost">
-<persName>Гость</persName>
+<person xml:id="PervyjGost">
+<persName>Первый гость</persName>
 </person>
 <person xml:id="Vse">
 <persName>Все</persName>
 </person>
-<person xml:id="Gosti">
-<persName>Гости</persName>
+<person xml:id="Leporello">
+<persName>Лепорелло</persName>
 </person>
 <person xml:id="DonaAnna">
 <persName>Дона Анна</persName>
+</person>
+<person xml:id="DonKarlos">
+<persName>Дон Карлос</persName>
+</person>
+<person xml:id="Gost">
+<persName>Гость</persName>
 </person>
 <person xml:id="Laura">
 <persName>Лаура</persName>
 </person>
 <person xml:id="Pervyj">
 <persName>Первый</persName>
-</person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
-</person>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
-</person>
-<person xml:id="Monah">
-<persName>Монах</persName>
-</person>
-<person xml:id="Tretij">
-<persName>Третий</persName>
-</person>
-<person xml:id="DonGuan">
-<persName>Дон Гуан </persName>
-</person>
-<person xml:id="DonKarlos">
-<persName>Дон Карлос</persName>
-</person>
-<person xml:id="PervyjGost">
-<persName>Первый гость</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -103,6 +103,8 @@
     </teiHeader>
     <text>
         <body>
+<div type="other">
+<head>Каменный гость</head>
 <p>{{эпиграф2|</p>
 <p>{{razr|Leporello}}. O statua gentilissima <br /></p>
 <p>{{indent|6}}Del gran’ Commendatore!.. <br /></p>
@@ -1634,6 +1636,8 @@
 <stage>Проваливаются. </stage>
 <l>{{right|<stage>1830</stage>}}</l>
 <p></poem></div></p>
+<div type="other">
+<head>Примечания</head>
 <p>{{примечания}}</p>
 <p>{{PD-simple}}</p>
 <p>[[Категория:Драматургия Александра Сергеевича Пушкина]]</p>

@@ -45,29 +45,20 @@
 <person xml:id="Stalverh">
 <persName>Сталверх</persName>
 </person>
-<person xml:id="EdinyjVoin">
-<persName>Единый воин</persName>
-</person>
-<person xml:id="VelKar">
-<persName>Велькар</persName>
-</person>
-<person xml:id="Horev">
-<persName>Хорев</persName>
+<person xml:id="Zavloh">
+<persName>Завлох</persName>
 </person>
 <person xml:id="StrazhTemnits">
 <persName>Страж темниц</persName>
 </person>
-<person xml:id="Zavloh">
-<persName>Завлох</persName>
-</person>
-<person xml:id="StrazhGradskihVorot">
-<persName>Страж градских ворот</persName>
-</person>
-<person xml:id="NevolNik">
-<persName>Невольник</persName>
-</person>
 <person xml:id="OsnelDa">
 <persName>Оснельда</persName>
+</person>
+<person xml:id="Poslannyj">
+<persName>Посланный</persName>
+</person>
+<person xml:id="Horev">
+<persName>Хорев</persName>
 </person>
 <person xml:id="Astrada">
 <persName>Астрада</persName>
@@ -75,8 +66,17 @@
 <person xml:id="Kij">
 <persName>Кий</persName>
 </person>
-<person xml:id="Poslannyj">
-<persName>Посланный</persName>
+<person xml:id="VelKar">
+<persName>Велькар</persName>
+</person>
+<person xml:id="NevolNik">
+<persName>Невольник</persName>
+</person>
+<person xml:id="EdinyjVoin">
+<persName>Единый воин</persName>
+</person>
+<person xml:id="StrazhGradskihVorot">
+<persName>Страж градских ворот</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -98,7 +98,11 @@
 <stage>Действие в Киеве, в княжеском доме</stage>
 <div type="act">
 <head>ДЕЙСТВИЕ I</head>
+<div type="other">
+<head>ДЕЙСТВИЕ I</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 <stage>Оснельда и Астрада</stage>
 </sp>
@@ -244,6 +248,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 2</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 2</head>
 </sp>
 <sp who="#OsnelDa">
 <speaker>Оснельда</speaker><stage type="delivery">одна</stage>
@@ -268,6 +274,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 3</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 3</head>
 <stage>Оснельда и Хорев.</stage>
 </sp>
@@ -485,7 +493,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ II</head>
+<div type="other">
+<head>ДЕЙСТВИЕ II</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 <stage>Кий и Сталверх.</stage>
 </sp>
@@ -597,6 +609,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 2</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 2</head>
 <stage>Кий и Хорев.</stage>
 </sp>
 <sp who="#Kij">
@@ -690,6 +704,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 3</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 3</head>
 </sp>
 <sp who="#Kij">
 <speaker>Кий</speaker><stage type="delivery">один</stage>
@@ -700,6 +716,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 4</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 4</head>
 <stage>Кий и Астрада.</stage>
 </sp>
@@ -741,6 +759,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 5</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 5</head>
 <stage>Оснельда и Астрада</stage>
 </sp>
 <sp who="#Astrada">
@@ -763,6 +783,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 6</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 6</head>
 <stage>Хорев, Оснельда и Астрада.</stage>
 </sp>
@@ -872,7 +894,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ III</head>
+<div type="other">
+<head>ДЕЙСТВИЕ III</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 </sp>
 <sp who="#OsnelDa">
@@ -906,6 +932,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 2</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Оснельда и Астрада.</stage>
 </sp>
@@ -990,6 +1018,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 3</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 3</head>
 <stage>Хорев, Оснельда и Астрада.</stage>
 </sp>
@@ -1164,6 +1194,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 4</head>
 <stage>Хорев, Оснельда и Велькар.</stage>
 </sp>
 <sp who="#VelKar">
@@ -1211,7 +1243,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ IV</head>
+<div type="other">
+<head>ДЕЙСТВИЕ IV</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 <stage>Кий и Сталверх.</stage>
 </sp>
@@ -1301,6 +1337,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 2</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 2</head>
 </sp>
 <sp who="#Kij">
 <speaker>Кий</speaker><stage type="delivery">один</stage>
@@ -1334,6 +1372,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 3</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 3</head>
 <stage>Кий, Сталверх и два стража.</stage>
 </sp>
@@ -1390,6 +1430,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 4</head>
 <stage>Те же и невольник.</stage>
 </sp>
 <sp who="#NevolNik">
@@ -1442,6 +1484,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 5</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 5</head>
 <stage>Кий и Сталверх.</stage>
 </sp>
 <sp who="#Kij">
@@ -1466,6 +1510,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 6</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 6</head>
 </sp>
 <sp who="#Kij">
 <speaker>Кий</speaker><stage type="delivery">один</stage>
@@ -1476,6 +1522,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 7</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 7</head>
 <stage>Кий, Сталверх и Оснельда</stage>
 </sp>
@@ -1669,6 +1717,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 8</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 8</head>
 </sp>
 <sp who="#Kij">
 <speaker>Кий</speaker><stage type="delivery">один</stage>
@@ -1682,6 +1732,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 9</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 9</head>
 <stage>Кий и Сталверх с кубком.</stage>
 </sp>
@@ -1701,7 +1753,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ V</head>
+<div type="other">
+<head>ДЕЙСТВИЕ V</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 </sp>
 <sp who="#Kij">
@@ -1725,6 +1781,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 2</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Кий, Велькар с Завлоховым мечем и несколько воинов с ним.</stage>
 </sp>
@@ -1823,6 +1881,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 3</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 3</head>
 <stage>Те же и посланный к княжне.</stage>
 </sp>
 <sp who="#Poslannyj">
@@ -1905,6 +1965,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 4</head>
 <stage>Те же, Хорев и Завлох.</stage>
 </sp>
 <sp who="#Horev">
@@ -1937,6 +1999,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ ПОСЛЕДНЕЕ</head>
+<div type="other">
 <head>ЯВЛЕНИЕ ПОСЛЕДНЕЕ</head>
 <stage>Кий, Хорев, Завлох, Велькар и воины.</stage>
 </sp>
@@ -2092,6 +2156,8 @@
 <l>Которого она любила в жизни сей, —</l>
 <l>Хорев, ея лишась, последовал за ней!»</l>
 <stage>{{Razr|Конец трагедии</stage>
+<div type="other">
+<head>Примечания</head>
 <p>{{Примечания}}</p>
 <p></div></p>
 <p>{{PD-simple}}</p>

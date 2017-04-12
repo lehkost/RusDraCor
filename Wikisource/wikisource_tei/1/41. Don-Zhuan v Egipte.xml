@@ -42,11 +42,14 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Amerikanka">
-<persName>Американка</persName>
+<person xml:id="DonZhuan">
+<persName>Дон Жуан</persName>
 </person>
 <person xml:id="Amerikanets">
 <persName>Американец </persName>
+</person>
+<person xml:id="Leporello">
+<persName>Лепорелло</persName>
 </person>
 <person xml:id="Amerikanets">
 <persName>Американец</persName>
@@ -54,11 +57,8 @@
 <person xml:id="Leporello">
 <persName>Лепорелло </persName>
 </person>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
-</person>
-<person xml:id="DonZhuan">
-<persName>Дон Жуан</persName>
+<person xml:id="Amerikanka">
+<persName>Американка</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -76,6 +76,8 @@
     </teiHeader>
     <text>
         <body>
+<div type="other">
+<head>Дон-Жуан в Египте</head>
 <stage><big><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</big></stage>
 <p><center><big><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</big></center></p>
 <p>* {{razr2|Дон Жуан}}.</p>

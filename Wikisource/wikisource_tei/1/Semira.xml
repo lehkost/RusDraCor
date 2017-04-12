@@ -42,35 +42,35 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="PervyjVoin">
-<persName>Первый воин</persName>
-</person>
-<person xml:id="Vozved">
-<persName>Возвед</persName>
-</person>
-<person xml:id="DrugojVoin">
-<persName>Другой воин</persName>
-</person>
-<person xml:id="Vitozar">
-<persName>Витозар</persName>
+<person xml:id="Voin">
+<persName>Воин</persName>
 </person>
 <person xml:id="Izbrana">
 <persName>Избрана</persName>
 </person>
+<person xml:id="OskolD">
+<persName>Оскольд</persName>
+</person>
 <person xml:id="Rostislav">
 <persName>Ростислав</persName>
 </person>
-<person xml:id="OskolD">
-<persName>Оскольд</persName>
+<person xml:id="Vitozar">
+<persName>Витозар</persName>
+</person>
+<person xml:id="DrugojVoin">
+<persName>Другой воин</persName>
+</person>
+<person xml:id="Vozved">
+<persName>Возвед</persName>
 </person>
 <person xml:id="Semira">
 <persName>Семира</persName>
 </person>
+<person xml:id="PervyjVoin">
+<persName>Первый воин</persName>
+</person>
 <person xml:id="Oleg">
 <persName>Олег</persName>
-</person>
-<person xml:id="Voin">
-<persName>Воин</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -92,7 +92,11 @@
 <stage>Действие в Киеве, в княжеском доме</stage>
 <div type="act">
 <head>ДЕЙСТВИЕ I</head>
+<div type="other">
+<head>ДЕЙСТВИЕ I</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 <stage>Семира и Избрана.</stage>
 </sp>
@@ -223,6 +227,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 2</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 2</head>
 <stage>Оскольд, Семира, Избрана, Возвед и воины.</stage>
 </sp>
 <sp who="#OskolD">
@@ -319,6 +325,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 3</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 3</head>
 <stage>Оскольд, Семира и Избрана</stage>
 </sp>
@@ -449,6 +457,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 4</head>
 <stage>Оскольд  и Ростислав.</stage>
 </sp>
 <sp who="#Rostislav">
@@ -564,7 +574,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ II</head>
+<div type="other">
+<head>ДЕЙСТВИЕ II</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 <stage>Олег и Семира.</stage>
 </sp>
@@ -642,6 +656,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 2</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Олег, Семира и Ростислав</stage>
 <stage>Ростислав всходит на театр, когда Семира последние полтора стиха говорити стала.</stage>
@@ -741,6 +757,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 3</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 3</head>
 <stage>Олег и Ростислав</stage>
 </sp>
 <sp who="#Rostislav">
@@ -785,6 +803,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 4</head>
 <stage>Олег, Ростислав и Витозар.</stage>
 </sp>
 <sp who="#Vitozar">
@@ -801,6 +821,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 5</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 5</head>
 <stage>Олег, Ростислав, Витозар и Возвед.</stage>
 </sp>
@@ -855,6 +877,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 6</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 6</head>
 <stage>Олег и Ростислав.</stage>
 </sp>
 <sp who="#Oleg">
@@ -869,6 +893,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 7</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 7</head>
 </sp>
 <sp who="#Oleg">
@@ -888,6 +914,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 8</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 8</head>
 <stage>Олег, Ростислав, Оскольд и воины.</stage>
 </sp>
@@ -958,6 +986,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 9</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 9</head>
 <stage>Оскольд, Ростислав и воины.</stage>
 </sp>
@@ -1051,6 +1081,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 10</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 10</head>
 <stage>Олег, имея в руках бумагу, Оскольд и Ростислав.</stage>
 </sp>
 <sp who="#Oleg">
@@ -1088,6 +1120,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 11</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 11</head>
 <stage>Олег и Ростислав.</stage>
 </sp>
 <sp who="#Rostislav">
@@ -1120,6 +1154,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 12</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 12</head>
 </sp>
 <sp who="#Oleg">
@@ -1159,7 +1195,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ III</head>
+<div type="other">
+<head>ДЕЙСТВИЕ III</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 </sp>
 <sp who="#OskolD">
@@ -1192,6 +1232,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 2</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 2</head>
 <stage>Оскольд и Избрана.</stage>
 </sp>
 <sp who="#OskolD">
@@ -1209,6 +1251,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>Явление 3</head>
+<div type="other">
 <head>Явление 3</head>
 <stage>Оскольд, Семира и Избрана.</stage>
 </sp>
@@ -1398,6 +1442,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 4</head>
 <stage>Семира и Избрана.</stage>
 </sp>
 <sp who="#Semira">
@@ -1408,6 +1454,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 5</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 5</head>
 </sp>
 <sp who="#Semira">
@@ -1430,6 +1478,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 6</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 6</head>
 <stage>Семира и Ростислав.</stage>
 </sp>
@@ -1669,6 +1719,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 7</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 7</head>
 </sp>
 <sp who="#Rostislav">
 <speaker>Ростислав</speaker><stage type="delivery">один</stage>
@@ -1702,7 +1754,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ IV</head>
+<div type="other">
+<head>ДЕЙСТВИЕ IV</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ I</head>
+<div type="other">
 <head>ЯВЛЕНИЕ I</head>
 <stage>Семира и Избрана.</stage>
 </sp>
@@ -1715,6 +1771,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 2</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Оскольд, Семира и Избрана.</stage>
 </sp>
@@ -1773,6 +1831,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 3</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 3</head>
 <stage>Семира и Избрана.</stage>
 </sp>
@@ -1836,6 +1896,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 4</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 4</head>
 <stage>Олег, Семира и Избрана.</stage>
 </sp>
@@ -1944,6 +2006,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 5</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 5</head>
 <stage>Олег, Ростислав и Семира.</stage>
 </sp>
@@ -2159,6 +2223,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 6</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 6</head>
 <stage>Олег, Семира и Избрана.</stage>
 </sp>
 <sp who="#Semira">
@@ -2224,6 +2290,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 7</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 7</head>
 <stage>Семира и Избрана.</stage>
 </sp>
 <sp who="#Semira">
@@ -2258,7 +2326,11 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ V</head>
+<div type="other">
+<head>ДЕЙСТВИЕ V</head>
 <div type="scene">
+<head>ЯВЛЕНИЕ 1</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 1</head>
 <stage>Семира и Избрана.</stage>
 </sp>
@@ -2290,6 +2362,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 2</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Семира, Ростислав и Избрана.</stage>
 </sp>
@@ -2384,6 +2458,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 3</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 3</head>
 <stage>Те же и воин с Ростиславовым мечем.</stage>
 </sp>
 <sp who="#Voin">
@@ -2405,6 +2481,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 4</head>
 <stage>Семира и Избрана.</stage>
 </sp>
 <sp who="#Semira">
@@ -2418,6 +2496,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 5</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 5</head>
 </sp>
 <sp who="#Semira">
@@ -2462,6 +2542,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 6</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 6</head>
 <stage>Семира и Избрана.</stage>
 </sp>
 <sp who="#Semira">
@@ -2486,6 +2568,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ 7</head>
+<div type="other">
 <head>ЯВЛЕНИЕ 7</head>
 <stage>Семира, Избрана и Витозар.</stage>
 </sp>
@@ -2547,6 +2631,8 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 8</head>
+<div type="other">
+<head>ЯВЛЕНИЕ 8</head>
 <stage>Те ж и Ростислав.</stage>
 </sp>
 <sp who="#Semira">
@@ -2579,6 +2665,8 @@
 </sp>
 </div>
 <div type="scene">
+<head>ЯВЛЕНИЕ ПОСЛЕДНЕЕ</head>
+<div type="other">
 <head>ЯВЛЕНИЕ ПОСЛЕДНЕЕ</head>
 <stage>Олег, Ростислав, Семира, Оскольд, которого ведут два из его воинов, Витозар, Избрана и Олеговы воины.</stage>
 </sp>
@@ -2700,6 +2788,8 @@
 <l>Скончай печальны дни, в которы мы терпели,</l>
 <l>И сделай, чтоб сердца в любви без слез кипели!</l>
 <stage>Конец трагедии</stage>
+<div type="other">
+<head>Примечания</head>
 <p>{{Примечания}}</p>
 <p></div></p>
 <p>{{PD-simple}}</p>

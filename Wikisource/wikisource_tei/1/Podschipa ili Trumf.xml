@@ -42,29 +42,29 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Pazh">
-<persName>Паж</persName>
-</person>
-<person xml:id="Trumf">
-<persName>Трумф</persName>
-</person>
-<person xml:id="Durduran">
-<persName>Дурдуран</persName>
-</person>
-<person xml:id="Chernavka">
-<persName>Чернавка</persName>
-</person>
-<person xml:id="Sljunjaj">
-<persName>Слюняй</persName>
-</person>
-<person xml:id="Tsyganka">
-<persName>Цыганка</persName>
+<person xml:id="Vakula">
+<persName>Вакула</persName>
 </person>
 <person xml:id="Podschipa">
 <persName>Подщипа</persName>
 </person>
-<person xml:id="Vakula">
-<persName>Вакула</persName>
+<person xml:id="Durduran">
+<persName>Дурдуран</persName>
+</person>
+<person xml:id="Pazh">
+<persName>Паж</persName>
+</person>
+<person xml:id="Sljunjaj">
+<persName>Слюняй</persName>
+</person>
+<person xml:id="Trumf">
+<persName>Трумф</persName>
+</person>
+<person xml:id="Tsyganka">
+<persName>Цыганка</persName>
+</person>
+<person xml:id="Chernavka">
+<persName>Чернавка</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -94,6 +94,8 @@
 <castItem>Цыганка</castItem>
 <castItem>Бояре</castItem>
 </castList>
+<div type="other">
+<head>Подщипа или Трумф</head>
 <stage><stage>Шуто-трагедия в двух действиях, в стихах</stage></stage>
 <p><center><stage>Шуто-трагедия в двух действиях, в стихах</stage></center></p>
 <p>{| class=personae</p>
@@ -1790,6 +1792,8 @@
 <l>И в цейковь я тотцас вас всех пеегоню,</l>
 <l>Да тойко напеёд кой-сто пееменю!</l>
 <stage>Конец</stage>
+<div type="other">
+<head>Примечания</head>
 <p>{{примечания}}</p>
 <p></div></p>
 <p>[[Категория:Русская драматургия]]</p>

@@ -42,9 +42,6 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Gertsog">
-<persName>Герцог</persName>
-</person>
 <person xml:id="AlBer">
 <persName>Альбер</persName>
 </person>
@@ -56,6 +53,9 @@
 </person>
 <person xml:id="Ivan">
 <persName>Иван</persName>
+</person>
+<person xml:id="Gertsog">
+<persName>Герцог</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -73,6 +73,8 @@
     </teiHeader>
     <text>
         <body>
+<div type="other">
+<head>Скупой рыцарь</head>
 <stage>Сцены из Ченстоновой трагикомедии: The covetous Knight</stage>
 <div type="scene">
 <head>Сцена I</head>
@@ -855,6 +857,8 @@
 <l part="F"> Он умер. Боже!</l>
 <l>Ужасный век, ужасные сердца!</l>
 <p></poem></div></p>
+<div type="other">
+<head>Примечания</head>
 <p>{{примечания}}</p>
 <p>{{PD-simple}}</p>
 <p>[[Категория:Драматургия Александра Сергеевича Пушкина]]</p>

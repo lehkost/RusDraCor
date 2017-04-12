@@ -42,32 +42,32 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Snorre">
-<persName>Снорре</persName>
-</person>
-<person xml:id="Konung">
-<persName>Конунг</persName>
-</person>
-<person xml:id="Snorre,GrubbeIAhti">
-<persName>Снорре, Груббе и Ахти</persName>
+<person xml:id="Vozhd">
+<persName>Вождь</persName>
 </person>
 <person xml:id="Lera">
 <persName>Лера</persName>
 </person>
-<person xml:id="Vozhd">
-<persName>Вождь</persName>
-</person>
 <person xml:id="Gondla">
 <persName>Гондла</persName>
 </person>
-<person xml:id="Grubbe">
-<persName>Груббе</persName>
+<person xml:id="Ahti">
+<persName>Ахти</persName>
+</person>
+<person xml:id="Konung">
+<persName>Конунг</persName>
 </person>
 <person xml:id="Lage">
 <persName>Лаге</persName>
 </person>
-<person xml:id="Ahti">
-<persName>Ахти</persName>
+<person xml:id="Snorre,GrubbeIAhti">
+<persName>Снорре, Груббе и Ахти</persName>
+</person>
+<person xml:id="Grubbe">
+<persName>Груббе</persName>
+</person>
+<person xml:id="Snorre">
+<persName>Снорре</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -85,6 +85,12 @@
     </teiHeader>
     <text>
         <body>
+<div type="other">
+<head>ГОНДЛА</head>
+<div type="other">
+<head>ВМЕСТО ПРЕДИСЛОВИЯ</head>
+<div type="other">
+<head>1</head>
 <p>В Исландии, на этом далеком северном острове, принадлежащем скорее</p>
 <p>Новому, чем Старому, свету, столкнулись в IX веке две оригинальные,</p>
 <p>нам одинаково-чуждые культуры — норманнская и кельтская. Там, почти</p>
@@ -96,6 +102,8 @@
 <p>переродило мощных морских королей IX века в мирных собирателей</p>
 <p>гагачьего пуха, рыболовов и пастухов наших дней.</p>
 <p>{{right|<stage>С. Н. Сыромятников</stage>}}</p>
+<div type="other">
+<head>2</head>
 <p>Первобытный германец возмущает нас своей беспредметной грубостью,</p>
 <p>этой любовью ко злу, которая делает его умным и сильным только для</p>
 <p>ненависти и вреда. Богатырь кельтский, напротив, в своих странных</p>
@@ -103,6 +111,8 @@
 <p>сочувствия к слабым. Это чувство — одно из самых глубоких народов</p>
 <p>кельтских, они имели жалость даже к самому Иуде…</p>
 <p>{{right|<stage>Ренан</stage>}}</p>
+<div type="other">
+<head>ДЕЙСТВУЮЩИЕ ЛИЦА:</head>
 <p>{| style="margin-left:0px"</p>
 <p>{{tr||5}} <stage>Старый Конунг,</stage> один из исландских властителей.</p>
 <p>{{tr|||||8}} <stage>Снорре</stage> {{td|2|||1}} <span style="font-size:200%">}</span> {{td|2|3}} его ярлы.</p>
@@ -114,6 +124,8 @@
 <p>{{tr||5}} <stage>Ирландские воины.</stage></p>
 <p>{{tr}} <stage>Рабы.</stage> {{td0|4}}</p>
 <div type="act">
+<head>ДЕЙСТВИЕ ПЕРВОЕ</head>
+<div type="other">
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <stage>Широкий полутемный коридор рядом с пиршественной залой; несколько окон и дверь в спальню Леры. Поздно.</stage>
 <div type="scene">
@@ -609,6 +621,8 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ ВТОРОЕ</head>
+<div type="other">
+<head>ДЕЙСТВИЕ ВТОРОЕ</head>
 <stage>Двор замка, освещённый воткнутыми в стену факелами. Ночь ещё продолжается.</stage>
 <div type="scene">
 <head>Сцена первая</head>
@@ -1011,6 +1025,8 @@
 </sp>
 </div>
 <div type="act">
+<head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
+<div type="other">
 <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
 <stage>Глухой лес. Июльский полдень.</stage>
 <div type="scene">
@@ -1541,6 +1557,8 @@
 </sp>
 </div>
 <div type="act">
+<head>ДЕЙСТВИЕ ЧЕТВЕРТОЕ</head>
+<div type="other">
 <head>ДЕЙСТВИЕ ЧЕТВЕРТОЕ</head>
 <stage>Лес на берегу моря. Большие утёсы. Вечер.</stage>
 <div type="scene">

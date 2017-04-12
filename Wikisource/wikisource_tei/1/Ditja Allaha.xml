@@ -42,65 +42,65 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Gafiz">
-<persName>Гафиз</persName>
-</person>
-<person xml:id="Beduin">
-<persName>Бедуин</persName>
-</person>
-<person xml:id="Kadi">
-<persName>Кади</persName>
+<person xml:id="Rab">
+<persName>Раб</persName>
 </person>
 <person xml:id="Staruha">
 <persName>Старуха</persName>
 </person>
-<person xml:id="Dervish">
-<persName>Дервиш</persName>
-</person>
-<person xml:id="SynKalifa">
-<persName>Сын Калифа</persName>
-</person>
-<person xml:id="1-JEvnuh">
-<persName>1-й евнух</persName>
-</person>
 <person xml:id="Kalif">
 <persName>Калиф</persName>
 </person>
-<person xml:id="2-JEvnuh">
-<persName>2-й евнух</persName>
+<person xml:id="Dervish">
+<persName>Дервиш</persName>
+</person>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
 </person>
 <person xml:id="Iskander">
 <persName>Искандер</persName>
 </person>
-<person xml:id="Shejh">
-<persName>Шейх</persName>
-</person>
-<person xml:id="Sindbad">
-<persName>Синдбад</persName>
-</person>
-<person xml:id="Glashataj">
-<persName>Глашатай</persName>
-</person>
-<person xml:id="Angel">
-<persName>Ангел</persName>
-</person>
-<person xml:id="Rab">
-<persName>Раб</persName>
-</person>
 <person xml:id="Astrolog">
 <persName>Астролог</persName>
-</person>
-<person xml:id="Peri">
-<persName>Пери</persName>
 </person>
 <person xml:id="Pirat">
 <persName>Пират</persName>
 </person>
+<person xml:id="Shejh">
+<persName>Шейх</persName>
+</person>
+<person xml:id="Beduin">
+<persName>Бедуин</persName>
+</person>
+<person xml:id="Glashataj">
+<persName>Глашатай</persName>
+</person>
+<person xml:id="Gafiz">
+<persName>Гафиз</persName>
+</person>
+<person xml:id="SynKalifa">
+<persName>Сын Калифа</persName>
+</person>
+<person xml:id="Angel">
+<persName>Ангел</persName>
+</person>
+<person xml:id="Sindbad">
+<persName>Синдбад</persName>
+</person>
+<person xml:id="1-JEvnuh">
+<persName>1-й евнух</persName>
+</person>
+<person xml:id="2-JEvnuh">
+<persName>2-й евнух</persName>
+</person>
+<person xml:id="Kadi">
+<persName>Кади</persName>
+</person>
+<person xml:id="Peri">
+<persName>Пери</persName>
+</person>
 <person xml:id="Ptitsy">
 <persName>Птицы</persName>
-</person>
-<person xml:id="Junosha">
-<persName>Юноша</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -118,6 +118,10 @@
     </teiHeader>
     <text>
         <body>
+<div type="other">
+<head>Дитя Аллаха</head>
+<div type="other">
+<head>Картина первая</head>
 <stage>Пустыня. Закат солнца.</stage>
 </sp>
 <sp who="#Dervish">
@@ -597,6 +601,10 @@
 <speaker>Дервиш</speaker><stage type="delivery">входя</stage>
 <l>Вставай, иди за мной без страна,</l>
 <l>Ты всё поймёшь и всё найдёшь.</l>
+</sp>
+</div>
+<div type="other">
+<head>Картина вторая</head>
 <stage>Улица Багдада. На заднем плане терраса дворца. Входят Пери и дервиш.</stage>
 </sp>
 <sp who="#Peri">
@@ -1164,6 +1172,10 @@
 <l>И улетает словно дым,</l>
 <l>Но мертвецы томятся вечно</l>
 <l>Под тяжким сводом гробовым.</l>
+</sp>
+</div>
+<div type="other">
+<head>Картина третья</head>
 <stage>Сад Гафиза. Утро. Купы роз и жасминов. Большие птицы.</stage>
 </sp>
 <sp who="#Gafiz">

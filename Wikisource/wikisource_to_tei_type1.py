@@ -91,11 +91,14 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                             act = re.findall('\=\= (.*?) \=\=', line)[0]
                             text_tei.write('<div type="act">\n<head>' + act + '</head>\n')
                         if 'явление' in line.lower():
-                            scene = re.findall('\=\=\= (.*?) \=\=\=', line)[0]
+                            scene = re.findall('\=\= (.*?) \=\=', line)[0]
                             text_tei.write('<div type="scene">\n<head>' + scene + '</head>\n')
                         if 'сцена' in line.lower():
-                            scene = re.findall('\=\=\= (.*?) \=\=\=', line)[0]
+                            scene = re.findall('\=\= (.*?) \=\=', line)[0]
                             text_tei.write('<div type="scene">\n<head>' + scene + '</head>\n')
+                        else:
+                            other = re.findall('\=\= (.*?) \=\=', line)[0]
+                            text_tei.write('<div type="other">\n<head>' + other + '</head>\n')
                     else:
                         if poem:
                             if not line.startswith('{{Re|') and not line.startswith('{{re|')\
@@ -165,7 +168,6 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             cursive_stages = re.findall("''.*?''", text_tei_read)
             for el in cursive_stages:
                 e = re.findall("''(.*?)''", el)[0]
-                print(e)
                 text_tei_read = re.sub(re.escape(el), '<stage>' + e + '</stage>', text_tei_read)
             participants = set(re.findall('<speaker>(.*?)</speaker>', text_tei_read))
             particDescLine = '<particDesc>\n<listPerson>\n'

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="">
+    <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="added &lt;div type=&quot;other&quot;&gt; for smth with == .*? == but if it's not Действие, Явление or Сцена">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/41. Don-Zhuan v Egipte.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/41. Don-Zhuan v Egipte.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Akteon.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Akteon.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml" afterPath="$PROJECT_DIR$/wikisource_tei/1/Balaganchik.xml" />
@@ -48,61 +48,11 @@
       <file leaf-file-name="wikisource_to_tei_type1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4358407" vertical-offset="2323" max-vertical-offset="2835">
-              <caret line="168" column="39" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="39" />
+            <state vertical-scroll-proportion="-2.2234514" vertical-offset="1320" max-vertical-offset="2865">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boris Godunov.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5555553" vertical-offset="15780" max-vertical-offset="55875">
-              <caret line="1062" column="46" selection-start-line="1062" selection-start-column="46" selection-end-line="1062" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boris Godunov.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Boris Godunov.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5555553" vertical-offset="20235" max-vertical-offset="45600">
-              <caret line="1359" column="8" selection-start-line="1359" selection-start-column="6" selection-end-line="1359" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="41. Don-Zhuan v Egipte.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_tei/1/41. Don-Zhuan v Egipte.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="9540">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Svoi ljudi — sochtemsja.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_raws/3/Svoi ljudi — sochtemsja.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31095">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Volki i ovtsy.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikisource_raws/2/Volki i ovtsy.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="13110" max-vertical-offset="57750">
-              <caret line="357" column="0" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -506,7 +456,13 @@
       <option name="project" value="LOCAL" />
       <updated>1491940331462</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changing ' ' to &lt;stage&gt;">
+      <created>1492010625351</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1492010625351</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -553,7 +509,8 @@
     <MESSAGE value="parsing" />
     <MESSAGE value="parsing plays of type-1" />
     <MESSAGE value="camel case for person ids" />
-    <option name="LAST_COMMIT_MESSAGE" value="camel case for person ids" />
+    <MESSAGE value="changing ' ' to &lt;stage&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing ' ' to &lt;stage&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -748,20 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Podschipa ili Trumf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="21165">
-          <caret line="801" column="12" selection-start-line="801" selection-start-column="12" selection-end-line="801" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Gondla.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27075">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Ditja Allaha.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.1336117" vertical-offset="0" max-vertical-offset="20565">
@@ -799,34 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Kamennyj gost'.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.666666" vertical-offset="19080" max-vertical-offset="19755">
-          <caret line="1302" column="13" selection-start-line="1302" selection-start-column="7" selection-end-line="1302" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Neznakomka.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.333333" vertical-offset="13590" max-vertical-offset="14925">
           <caret line="921" column="6" selection-start-line="921" selection-start-column="0" selection-end-line="921" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Semira.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.333334" vertical-offset="34875" max-vertical-offset="35550">
-          <caret line="2358" column="6" selection-start-line="2358" selection-start-column="0" selection-end-line="2358" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Skupoj rytsar'.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-132.77777" vertical-offset="7035" max-vertical-offset="10875">
-          <caret line="708" column="13" selection-start-line="708" selection-start-column="7" selection-end-line="708" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -899,7 +818,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="9540">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492010773000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -913,24 +834,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Boris Godunov.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5555553" vertical-offset="20235" max-vertical-offset="45600">
+        <state vertical-scroll-proportion="917.14813" vertical-offset="45148" max-vertical-offset="45600">
           <caret line="1359" column="8" selection-start-line="1359" selection-start-column="6" selection-end-line="1359" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Semira.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35071" max-vertical-offset="35550">
+          <caret line="2358" column="6" selection-start-line="2358" selection-start-column="0" selection-end-line="2358" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Kamennyj gost'.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19276" max-vertical-offset="19755">
+          <caret line="1303" column="0" selection-start-line="1303" selection-start-column="0" selection-end-line="1303" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Podschipa ili Trumf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="21165">
+          <caret line="801" column="12" selection-start-line="801" selection-start-column="12" selection-end-line="801" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Skupoj rytsar'.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10396" max-vertical-offset="10875">
+          <caret line="708" column="13" selection-start-line="708" selection-start-column="7" selection-end-line="708" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_raws/1/Gondla.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-55.52401" vertical-offset="26596" max-vertical-offset="27075">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5555553" vertical-offset="15780" max-vertical-offset="55875">
-          <caret line="1062" column="46" selection-start-line="1062" selection-start-column="46" selection-end-line="1062" selection-end-column="46" />
+        <state vertical-scroll-proportion="-447.85184" vertical-offset="43588" max-vertical-offset="55935">
+          <caret line="3712" column="21" selection-start-line="3712" selection-start-column="21" selection-end-line="3712" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4358407" vertical-offset="2323" max-vertical-offset="2835">
-          <caret line="168" column="39" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="39" />
+        <state vertical-scroll-proportion="-2.2234514" vertical-offset="1320" max-vertical-offset="2865">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

@@ -45,26 +45,26 @@
 <person xml:id="TretijMistik">
 <persName>Третий мистик</persName>
 </person>
-<person xml:id="PEro">
-<persName>Пьеро</persName>
-</person>
-<person xml:id="Ona">
-<persName>Она</persName>
+<person xml:id="VtorojMistik">
+<persName>Второй мистик</persName>
 </person>
 <person xml:id="On">
 <persName>Он</persName>
 </person>
-<person xml:id="Arlekin">
-<persName>Арлекин</persName>
+<person xml:id="Hor">
+<persName>Хор</persName>
 </person>
 <person xml:id="PervyjMistik">
 <persName>Первый мистик</persName>
 </person>
-<person xml:id="Hor">
-<persName>Хор</persName>
+<person xml:id="PEro">
+<persName>Пьеро</persName>
 </person>
-<person xml:id="VtorojMistik">
-<persName>Второй мистик</persName>
+<person xml:id="Arlekin">
+<persName>Арлекин</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -82,7 +82,11 @@
     </teiHeader>
     <text>
         <body>
+<div type="other">
+<head>Балаганчик</head>
 <p>{{Эпиграф2|Посвящается [[Всеволод Эмильевич Мейерхольд|Всеволоду Эмильевичу Мейерхольду]]}}</p>
+<div type="other">
+<head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
 <p>* {{Razr|Коломбина}}.</p>
 <p>* {{Razr|Пьеро}}.</p>
 <p>* {{Razr|Арлекин}}.</p>

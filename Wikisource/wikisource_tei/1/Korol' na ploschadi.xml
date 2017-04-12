@@ -42,95 +42,95 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="DochZodchego">
-<persName>Дочь Зодчего</persName>
-</person>
-<person xml:id="DrugieGolosa">
-<persName>Другие голоса</persName>
-</person>
-<person xml:id="Chej-ToGolos">
-<persName>Чей-то голос</persName>
-</person>
-<person xml:id="GolosTretEgo">
-<persName>Голос Третьего</persName>
+<person xml:id="DrugojRabochij">
+<persName>Другой рабочий</persName>
 </person>
 <person xml:id="Vtoroj">
 <persName>Второй</persName>
 </person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
-</person>
 <person xml:id="TotZheObydennyjGolos">
 <persName>Тот же обыденный голос</persName>
 </person>
-<person xml:id="Golosa">
-<persName>Голоса</persName>
-</person>
-<person xml:id="OtdelNyePomerkshieGolosa">
-<persName>Отдельные померкшие голоса</persName>
-</person>
-<person xml:id="DrugojRabochij">
-<persName>Другой рабочий</persName>
-</person>
-<person xml:id="GolosNischego">
-<persName>Голос нищего</persName>
-</person>
-<person xml:id="Nischaja">
-<persName>Нищая</persName>
-</person>
-<person xml:id="Ona">
-<persName>Она</persName>
-</person>
-<person xml:id="Shut">
-<persName>Шут</persName>
-</person>
-<person xml:id="TretijRabochij">
-<persName>Третий рабочий</persName>
-</person>
-<person xml:id="ProdavschitsaRoz">
-<persName>Продавщица роз</persName>
-</person>
-<person xml:id="ChelovekVChernom">
-<persName>Человек в черном</persName>
+<person xml:id="GolosTretEgo">
+<persName>Голос Третьего</persName>
 </person>
 <person xml:id="Junosha">
 <persName>Юноша</persName>
 </person>
-<person xml:id="VtorojIGolosTretEgo">
-<persName>Второй и голос Третьего</persName>
+<person xml:id="GolosNischego">
+<persName>Голос нищего</persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="OtdelNyePomerkshieGolosa">
+<persName>Отдельные померкшие голоса</persName>
+</person>
+<person xml:id="MnogieGolosa">
+<persName>Многие голоса</persName>
+</person>
+<person xml:id="ChelovekSFakelom">
+<persName>Человек с факелом</persName>
+</person>
+<person xml:id="ChelovekVChernom">
+<persName>Человек в черном</persName>
+</person>
+<person xml:id="Rabochij">
+<persName>Рабочий</persName>
+</person>
+<person xml:id="Chernyj">
+<persName>Черный</persName>
+</person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
 </person>
 <person xml:id="Zodchij">
 <persName>Зодчий</persName>
 </person>
+<person xml:id="GolosaVTolpe">
+<persName>Голоса в толпе</persName>
+</person>
+<person xml:id="Chej-ToGolos">
+<persName>Чей-то голос</persName>
+</person>
+<person xml:id="VtorojIGolosTretEgo">
+<persName>Второй и голос Третьего</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
+</person>
+<person xml:id="Nischaja">
+<persName>Нищая</persName>
+</person>
+<person xml:id="DrugieGolosa">
+<persName>Другие голоса</persName>
+</person>
+<person xml:id="DochZodchego">
+<persName>Дочь Зодчего</persName>
+</person>
+<person xml:id="ProdavschitsaRoz">
+<persName>Продавщица роз</persName>
+</person>
+<person xml:id="Golosa">
+<persName>Голоса</persName>
+</person>
 <person xml:id="VtorojRabochij">
 <persName>Второй рабочий</persName>
+</person>
+<person xml:id="Zolotoj">
+<persName>Золотой</persName>
+</person>
+<person xml:id="TretijRabochij">
+<persName>Третий рабочий</persName>
+</person>
+<person xml:id="Shut">
+<persName>Шут</persName>
 </person>
 <person xml:id="PervyjRabochij">
 <persName>Первый рабочий</persName>
 </person>
 <person xml:id="Pervyj">
 <persName>Первый</persName>
-</person>
-<person xml:id="Rabochij">
-<persName>Рабочий</persName>
-</person>
-<person xml:id="GolosaVTolpe">
-<persName>Голоса в толпе</persName>
-</person>
-<person xml:id="Zolotoj">
-<persName>Золотой</persName>
-</person>
-<person xml:id="ChelovekSFakelom">
-<persName>Человек с факелом</persName>
-</person>
-<person xml:id="MnogieGolosa">
-<persName>Многие голоса</persName>
-</person>
-<person xml:id="Devushka">
-<persName>Девушка</persName>
-</person>
-<person xml:id="Chernyj">
-<persName>Черный</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -148,6 +148,10 @@
     </teiHeader>
     <text>
         <body>
+<div type="other">
+<head>Король на площади</head>
+<div type="other">
+<head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
 <p>* {{razr|Король}} — на террасе дворца.</p>
 <p>* {{razr|Зодчий}} — старик в широких и темных одеждах. Чертами лица и сединами напоминает Короля.</p>
 <p>* {{razr|Дочь Зодчего}} — высокая красавица в черных шелках.</p>
@@ -155,6 +159,8 @@
 <p>* {{razr|Шут}} — прихлебатель сцены и представитель здравого смысла. Иногда он прикрывает свое расшитое золотом брюхо священнической рясой.</p>
 <p>* {{razr2|Влюбленные, Заговорщики, Придворный, Продавщица роз, Рабочие, Франты, Нищие, Лица и Голоса в толпе}}.</p>
 <p>* {{razr|Слухи}} — маленькие, красные, шныряют в городской пыли.</p>
+<div type="other">
+<head>ПРОЛОГ</head>
 <stage>Городская площадь. Задний план занят белым фасадом дворца с высокой и широкой террасой; на массивном троне — гигантский Король. Корона покрывает зеленые, древние кудри, струящиеся над спокойным лицом, изборожденным глубокими морщинами. Тонкие руки лежат на ручках трона. Вся поза — величавая. В самом низу — у рампы — под высоким парапетом набережной — скамья; к ней с двух сторон спускаются лестницы. Скамья на берегу моря, которое узкой полосой подходит издали, слева огибая мыс с площадью и дворцом, и сливается с оркестром и театром, так что сцена представляет из себя только остров — случайный приют для действующих лиц.</stage>
 <stage>Солнце не взошло еще. Почти в полном мраке Шут, в качестве Пролога, подплывает с моря, привязывает свою лодку у берега, вынимает из нее удочку и узелок и садится на скамью.</stage>
 </sp>
@@ -190,6 +196,8 @@
 <l part="F"> Мне здравый смысл велит.</l>
 <stage>Шут садится верхом на рампу и закидывает удочку в оркестр. Во время действия его большею частью не видно за боковой занавесью — он появляется только в отдельных сценах.</stage>
 <div type="act">
+<head>ПЕРВОЕ ДЕЙСТВИЕ</head>
+<div type="other">
 <head>ПЕРВОЕ ДЕЙСТВИЕ</head>
 <stage>УТРО</stage>
 <stage>Ночь борется с утром. Над берегом чуть видны в сумерках двое неизвестных. Первый — в черном — прислонился к белому камню дворца. Другой сидит на берегу. Третьего не видно: он где-то близко, и слышен только его голос — прерывистый и зловещий.</stage>
@@ -595,6 +603,8 @@
 <l>Плывите, плывите, плывите, цветы.</l>
 <stage>Она бросает розы в воду. Юноша грустным взором следит за легкими движениями возлюбленной.</stage>
 <div type="act">
+<head>ВТОРОЕ ДЕЙСТВИЕ</head>
+<div type="other">
 <head>ВТОРОЕ ДЕЙСТВИЕ</head>
 <stage>СРЕДИНА ДНЯ</stage>
 <stage>Та же декорация — только краски потускнели и линии сожжены зноем. Море неподвижно. Горизонт в пар_а_х. На площади немного гуляющих. Иногда проходят сторонкой рабочие и оборванцы.</stage>
@@ -1016,6 +1026,8 @@
 <p>Всё как во сне.</p>
 <stage>Обращается лицом к толпе. Она безмолвна и готова внимать его песням.</stage>
 <div type="act">
+<head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
+<div type="other">
 <head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
 <stage>НОЧЬ</stage>
 <stage>Та же декорация. Вечереет. Свинцовые тучи бегут по небу. Издали доносится усиленный стук топоров. Через сцену, не переставая, идут люди к морю, огибая дворец. Жесты оживленные, глаза блестят; волнение достигло крайней степени. На всех лицах тревога и жадная надежда. Один из толпы останавливается и опирается на перила набережной. К нему присоединяется второй.</stage>
