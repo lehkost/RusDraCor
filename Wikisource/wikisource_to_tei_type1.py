@@ -183,15 +183,6 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text_tei_read = re.sub('</l>\n<div', '</l>\n</sp>\n<div', text_tei_read)
             text_tei_read = re.sub('</sp>\n<div', '</sp>\n</div>\n<div', text_tei_read)
             text_tei_read = re.sub('<ref.*?>.*?</ref>', '', text_tei_read)
-            digital_source = re.search('(<bibl type="digitalSource">\n *)(<name>.*?</name>)(\n *<idno type="URL">.*?</idno>)',
-                                       text_tei_read)
-            # print(digital_source.group(0))
-            text_tei_read = re.sub(digital_source.group(0), digital_source.group(1) + '<name>Wikisource</name>'
-                                   + digital_source.group(3), text_tei_read)
-            digital_source = re.search('(<bibl type="digitalSource">\n *)(<name>.*?</name>)(\n *<idno type="URL">.*?</idno>)',
-                                       text_tei_read)
-            text_tei_read = re.sub(digital_source.group(0), digital_source.group(1) + digital_source.group(2)
-                                   + '\n<idno type="URL">https://ru.wikisource.org</idno>', text_tei_read)
             text_tei_read = re.sub('<author></author>', '<author>' + author + '</author>', text_tei_read)
             text_tei_read = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', text_tei_read)
             text_tei_read = re.sub('<title type="sub"></title>', '<title type="sub">' + subtitle + '</title>', text_tei_read)

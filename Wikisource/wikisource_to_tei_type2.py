@@ -10,5 +10,37 @@ o = open('./wikisource_raws/2/Sgovor Kutejkina.txt', 'r', encoding='utf-8')
 text_lines = o
 o.close()
 
+header = open('./tei_heaader.xml', 'r', encoding='utf-8').read()
+
+tei = open('./wikisource_tei/2/Sgovor Kutejkina.txt', 'w', encoding='utf-8')
+
 
 def get_metadata(text):
+    title = subtitle = author = creation_date = print_date = ''
+    title_s = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text)
+    if len(title) != 0:
+        title = title_s[0]
+    subtitle_s = re.findall('ПОДЗАГОЛОВОК *?= ?(.*?)\n', text)
+    if len(subtitle) != 0:
+        subtitle = subtitle_s[0]
+    author_s = re.findall('АВТОР *?= ?\[?\[?(.*?)\]?\]?', text)
+    if len(author) != 0:
+        author = author_s[0]
+    creation_date_s = re.findall('ДАТАСОЗДАНИЯ *?= ?(.*?)\n', text)
+    if len(creation_date) != 0:
+        creation_date = creation_date_s[0]
+    print_date_s = re.findall('ДАТАПУБЛИКАЦИИ *?= ?(.*?)\n', text)
+    if len(print_date) != 0:
+        print_date = print_date_s[0]
+    return title, subtitle, author, creation_date, print_date
+
+
+def write_metadata(text, tei_file, tei_header):
+    title = get_metadata(text)[0]
+    subtitle = get_metadata(text)[1]
+    author = get_metadata(text)[2]
+    creation_date = get_metadata(text)[3]
+    print_date = get_metadata(text)[4]
+    tei_header = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', tei_header)
+    tei_header = re.sub('<title type="sub"></title>', '<title type="sub">' + subtitle + '</title>', tei_header)
+
