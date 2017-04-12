@@ -10,7 +10,6 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text_read = text.read()
             text.close()
             text_read = text_read.split('</div>')[0]
-            print(text_read)
             cast = re.findall('\{\| class=personae(.*?)'
                               '\|\}', text_read, re.DOTALL)
             castListLine = ''
