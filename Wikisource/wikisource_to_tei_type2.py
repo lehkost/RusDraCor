@@ -52,3 +52,9 @@ def write_metadata(text, tei_file, tei_header):
     tei_header = re.sub('<date type="print"></date>', '<date type="print">' + print_date + '</date>', tei_header)
     tei_file.write(tei_header)
 
+
+def get_castlist(text):
+    castlist_part = re.search()
+
+
+
