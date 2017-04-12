@@ -39,10 +39,7 @@
     </fileDesc>
     <profileDesc>
       <particDesc>
-        <listPerson>
-          <person xml:id="Nikolaj">
-            <persName> Николай </persName>
-          </person>
+        <listPerson>                  
           <person xml:id="Lariosik">
             <persName> Лариосик </persName>
           </person>
@@ -141,6 +138,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to">eliminated id Nikolaj</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -4508,7 +4506,7 @@
             <speaker> Алексей </speaker>
             <p> . Болван! </p>
           </sp>
-          <sp who="#Nikolaj">
+          <sp who="#Nikolka">
             <speaker> Николай </speaker>
             <p> . Ругай, ругай родного брата. Я знаю, чего ты сидишь! Знаю, ты командир, смерти от
               позора ждешь, вот что! Ну, так я тебя буду караулить. Ленка меня убьет. </p>
