@@ -2,8 +2,6 @@ import re
 import os
 import transliterate
 
-play = 'Volki i ovtsy'
-
 
 def opening(play):
     """This function opens necessary files and reads them as it's required for the processing."""
@@ -29,9 +27,11 @@ def get_metadata(text):
     subtitle_s = re.findall('ПОДЗАГОЛОВОК *?= ?(.*?)\n', text)
     if len(subtitle_s) != 0:
         subtitle = subtitle_s[0]
-    author_s = re.findall('АВТОР *?= ?\[?\[?(.*?)\]?\]?', text)
+    author_s = re.findall('АВТОР *?= ?\[\[(.*?)\]\]', text)
     if len(author_s) != 0:
-        author_s = re.findall('АВТОР *?= (.*?)\n', text)
+        author = author_s[0]
+    else:
+        author_s = re.findall('АВТОР *?= ?(.*?)\n', text)
         if len(author_s) != 0:
             author = author_s[0]
     creation_date_s = re.findall('ДАТАСОЗДАНИЯ *?= ?(.*?)\n', text)
@@ -43,9 +43,11 @@ def get_metadata(text):
     return title, subtitle, author, creation_date, print_date
 
 
-def write_metadata(play, text=opening(play)[0], tei_file=opening(play)[3], tei_header=opening(play)[2]):
-    """This function writes the header filled with metadata to a new file with TEI-version of a play.
-    Note that it gets the needed files directly from the opening() function."""
+def write_metadata(play):
+    """This function writes the header filled with metadata to a new file with TEI-version of a play."""
+    text = opening(play)[0]
+    tei_file = opening(play)[3]
+    tei_header = opening(play)[2]
     title = get_metadata(text)[0]
     subtitle = get_metadata(text)[1]
     author = get_metadata(text)[2]
@@ -70,3 +72,11 @@ def get_castList(text):
     else: castList_part = castList_part.group(0)
     castItems = re.findall('\{\{[Rr]azr\|(.*?)\}\}', castList_part)
     return castItems
+
+
+for files in os.walk('./wikisource_raws/2/'):
+    for file in files[2]:
+        if file.endswith('.txt'):
+            print(file)
+            play_title = file.split('.txt')[0]
+            write_metadata(play_title)
