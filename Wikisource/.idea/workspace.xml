@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tei_header.xml" afterPath="$PROJECT_DIR$/tei_header.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_to_tei_type1.py" afterPath="$PROJECT_DIR$/wikisource_to_tei_type1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_to_tei_type2.py" afterPath="$PROJECT_DIR$/wikisource_to_tei_type2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wikisource_to_tei_type1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wikisource_to_tei_type1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71816283" vertical-offset="2521" max-vertical-offset="3210">
-              <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2521" max-vertical-offset="3210">
+              <caret line="189" column="127" selection-start-line="188" selection-start-column="12" selection-end-line="189" selection-end-column="127" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wikisource_to_tei_type2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wikisource_to_tei_type2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="780">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8768267" vertical-offset="390" max-vertical-offset="900">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -56,8 +54,8 @@
       <file leaf-file-name="tei_header.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tei_header.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="915">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="915">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -106,9 +104,9 @@
         <option value="$PROJECT_DIR$/wikisource_raws/1/Neznakomka.txt" />
         <option value="$PROJECT_DIR$/wikisource_tei/1/Boris Godunov.xml" />
         <option value="$PROJECT_DIR$/wikisource_tei/1/41. Don-Zhuan v Egipte.xml" />
-        <option value="$PROJECT_DIR$/wikisource_to_tei_type2.py" />
         <option value="$PROJECT_DIR$/tei_header.xml" />
         <option value="$PROJECT_DIR$/wikisource_to_tei_type1.py" />
+        <option value="$PROJECT_DIR$/wikisource_to_tei_type2.py" />
       </list>
     </option>
   </component>
@@ -491,7 +489,13 @@
       <option name="project" value="LOCAL" />
       <updated>1492018257177</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="parsing type-2">
+      <created>1492019046437</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1492019046437</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -932,28 +936,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="780">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tei_header.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="915">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="915">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71816283" vertical-offset="2521" max-vertical-offset="3210">
-          <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2521" max-vertical-offset="3210">
+          <caret line="189" column="127" selection-start-line="188" selection-start-column="12" selection-end-line="189" selection-end-column="127" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikisource_to_tei_type2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8768267" vertical-offset="390" max-vertical-offset="900">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

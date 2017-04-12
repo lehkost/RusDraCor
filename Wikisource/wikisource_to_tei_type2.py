@@ -16,6 +16,9 @@ tei = open('./wikisource_tei/2/Sgovor Kutejkina.txt', 'w', encoding='utf-8')
 
 
 def get_metadata(text):
+    """This function returns the metadata of a play in a following order:
+    title, subtitle, author, creation_date, print_date.
+    If some of these are missing it returns and empty line instead of the missing value."""
     title = subtitle = author = creation_date = print_date = ''
     title_s = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text)
     if len(title) != 0:
@@ -36,6 +39,7 @@ def get_metadata(text):
 
 
 def write_metadata(text, tei_file, tei_header):
+    """This function writes the header filled with metadata to a new file with TEI-version of a play."""
     title = get_metadata(text)[0]
     subtitle = get_metadata(text)[1]
     author = get_metadata(text)[2]
@@ -43,4 +47,8 @@ def write_metadata(text, tei_file, tei_header):
     print_date = get_metadata(text)[4]
     tei_header = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', tei_header)
     tei_header = re.sub('<title type="sub"></title>', '<title type="sub">' + subtitle + '</title>', tei_header)
+    tei_header = re.sub('<author></author>', '<author>' + author + '</author>', tei_header)
+    tei_header = re.sub('<date type="written"></date>', '<date type="written">' + creation_date + '</date>', tei_header)
+    tei_header = re.sub('<date type="print"></date>', '<date type="print">' + print_date + '</date>', tei_header)
+    tei_file.write(tei_header)
 
