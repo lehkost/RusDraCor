@@ -16,10 +16,11 @@ def opening(play):
     return text_text, text_lines, header, tei
 
 
-def get_metadata(text):
+def get_metadata(play):
     """This function returns the metadata of a play in a following order:
     title, subtitle, author, creation_date, print_date.
     If some of these are missing it returns and empty line instead of the missing value."""
+    text = opening(play)[0]
     title = subtitle = author = creation_date = print_date = ''
     title_s = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text)
     if len(title_s) != 0:
@@ -61,7 +62,10 @@ def write_metadata(play):
     tei_file.write(tei_header)
 
 
-def get_castList(text):
+# BAD - some files have completely different format
+def get_castList(play):
+    """This function finds a piece of text with castList description and returns list of castItems = castList"""
+    text = opening(play)[0]
     castList_part = re.search('== ?Действующие лица.*?==.*?=', text, re.DOTALL)
     if castList_part is None:
         castList_part = re.search('== ?(ДЕЙСТВУЮЩИЕ)? ЛИЦА.*?==.*?=', text, re.DOTALL)
@@ -79,4 +83,4 @@ for files in os.walk('./wikisource_raws/2/'):
         if file.endswith('.txt'):
             print(file)
             play_title = file.split('.txt')[0]
-            write_metadata(play_title)
+            print(get_castList(play_title))
