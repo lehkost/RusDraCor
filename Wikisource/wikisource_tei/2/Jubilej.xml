@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Юбилей</title>
+                <title type="sub">шутка в одном действии</title>
+                <author>Антон Павлович Чехов</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="RusDraCor">RusDraCor</publisher>
+                <idno type="URL"></idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/legalcode"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Wikisource</name>
+                    <idno type="URL">https://ru.wikisource.org</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC BY-SA 3.0</ab>
+                            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru"
+                                >Licence</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <title></title>
+                        <date type="print">1892<ref>Впервые — в&nbsp;отдельном литографированном издании: {{книга|заглавие=Юбилей. Шутка в&nbsp;1-м действии А.&nbsp;Чехова. Литография комиссионера Общества русских драматических писателей С.&nbsp;Ф.&nbsp;Рассохина|место=Москва|год=1892}} (цензурное разрешение февраль 1892 года; вышло в&nbsp;свет с&nbsp;1 по 8&nbsp;мая 1892&nbsp;года; отпечатано 110 экземпляров). Пьеса также включена в VII<sub>2</sub> том издания А.&nbsp;Ф.&nbsp;Маркса (1902, c. 277—294).</ref></date>
+                        <date type="premiere"/>
+                        <date type="written">декабрь 1891</date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#IrinaPavlova">Converted from Source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>

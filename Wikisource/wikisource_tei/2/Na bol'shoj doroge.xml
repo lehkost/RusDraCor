@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">На большой дороге</title>
+                <title type="sub">драматический этюд в одном действии </title>
+                <author>Антон Павлович Чехов</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="RusDraCor">RusDraCor</publisher>
+                <idno type="URL"></idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/legalcode"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Wikisource</name>
+                    <idno type="URL">https://ru.wikisource.org</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC BY-SA 3.0</ab>
+                            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru"
+                                >Licence</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <title></title>
+                        <date type="print">1914<ref>Впервые — в книге: {{книга|заглавие=«Слово». Сборник второй. К десятилетию смерти А.&nbsp;П.&nbsp;Чехова. Под редакцией М.&nbsp;П.&nbsp;Чеховой|место=М.|издательство=Книгоиздательство писателей в&nbsp;Москве|год=1914|страницы={{РГБ|01006679114|5|8—36}}|часть=На&nbsp;большой дороге. Драматический этюд в&nbsp;одном действии. А.&nbsp;Чехонте.}}</ref></date>
+                        <date type="premiere"/>
+                        <date type="written">осень 1884</date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#IrinaPavlova">Converted from Source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>

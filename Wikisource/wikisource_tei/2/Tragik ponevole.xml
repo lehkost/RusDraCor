@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Трагик поневоле</title>
+                <title type="sub">Из дачной жизни. Шутка в одном действии</title>
+                <author>Антон Павлович Чехов</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="RusDraCor">RusDraCor</publisher>
+                <idno type="URL"></idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/legalcode"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Wikisource</name>
+                    <idno type="URL">https://ru.wikisource.org</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC BY-SA 3.0</ab>
+                            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru"
+                                >Licence</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <title></title>
+                        <date type="print">1889<ref>Впервые — в&nbsp;отдельном печатном издании: {{книга|заглавие=Трагик поневоле (Из&nbsp;дачной жизни). Шутка в&nbsp;одном действии А.&nbsp;Чехова|место=СПб.|издательство=Издание Театральной библиотеки В.&nbsp;А.&nbsp;Базарова|год=1889}} (цензурное разрешение 1&nbsp;июня 1889&nbsp;года; вышло в&nbsp;свет с&nbsp;24 по&nbsp;30&nbsp;июня 1889&nbsp;года; напечатано 600&nbsp;экземпляров). Перепечатано без изменений в&nbsp;литографированном издании: {{книга|заглавие=Трагик поневоле (Из&nbsp;дачной жизни). Шутка в&nbsp;одном действии А.&nbsp;Чехова. 2-ое исправленное издание. Литография Московской театральной библиотеки Е.&nbsp;Н.&nbsp;Рассохиной}} (цензурное разрешение 22&nbsp;ноября 1889&nbsp;года; вышло в&nbsp;свет с&nbsp;1 по&nbsp;8 января 1890&nbsp;года; напечатано 110&nbsp;экземпляров). С&nbsp;небольшими изменениями напечатано в&nbsp;журнале «Артист», 1890, кн.&nbsp;7, апрель (цензурное разрешение май 1890&nbsp;года). Пьеса также включена в&nbsp;сборник «Пьесы» (1897) и в издание А.&nbsp;Ф.&nbsp;Маркса (1901).</ref></date>
+                        <date type="premiere"/>
+                        <date type="written"></date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#IrinaPavlova">Converted from Source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>

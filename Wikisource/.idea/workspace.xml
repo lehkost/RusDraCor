@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10509039-bc67-4638-a704-fdefe53f5d63" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wikisource_tei/2/Sgovor Kutejkina.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/2/Snegurochka.xml" afterPath="$PROJECT_DIR$/wikisource_tei/2/Snegurochka.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_tei/2/Volki i ovtsy.xml" afterPath="$PROJECT_DIR$/wikisource_tei/2/Volki i ovtsy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikisource_to_tei_type2.py" afterPath="$PROJECT_DIR$/wikisource_to_tei_type2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Wikisource.iws" />
@@ -523,7 +519,13 @@
       <option name="project" value="LOCAL" />
       <updated>1492030062996</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="parsing type-2">
+      <created>1492030904134</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1492030904134</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">

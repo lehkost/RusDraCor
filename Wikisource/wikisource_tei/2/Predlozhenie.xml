@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Предложение</title>
+                <title type="sub">Шутка в одном действии</title>
+                <author>Антон Павлович Чехов</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="RusDraCor">RusDraCor</publisher>
+                <idno type="URL"></idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/legalcode"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Wikisource</name>
+                    <idno type="URL">https://ru.wikisource.org</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC BY-SA 3.0</ab>
+                            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru"
+                                >Licence</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <title></title>
+                        <date type="print">1888<ref>Впервые — в литографированном издании: {{книга|заглавие=Предложение. Шутка в одном действии А.&nbsp;Чехова. Литография Московской театральной библиотеки Е.&nbsp;Н.&nbsp;Рассохиной}} (цензурное разрешение 27 декабря 1888 года). Затем — в [[:w:Новое время (газета)|газете «Новое время»]], 1889, 3 мая, № 4732 с подписью «А.&nbsp;П.» Перепечатано в журнале «Артист», 1889, кн. III, ноябрь. Пьеса также включена в сборник «Пьесы» (1897) и в VII том издания А.&nbsp;Ф.&nbsp;Маркса.</ref></date>
+                        <date type="premiere"/>
+                        <date type="written">1888</date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#IrinaPavlova">Converted from Source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Медведь</title>
+                <title type="sub">шутка в одном действии</title>
+                <author>Антон Павлович Чехов</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="RusDraCor">RusDraCor</publisher>
+                <idno type="URL"></idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/legalcode"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Wikisource</name>
+                    <idno type="URL">https://ru.wikisource.org</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC BY-SA 3.0</ab>
+                            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru"
+                                >Licence</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <title></title>
+                        <date type="print">1888<ref>Впервые — в [[:w:Новое время (газета)|газете «Новое время»]], 1888, 30 августа, № 4491, стр. 2—3 под заглавием «Медведь. Шутка в одном действии» с подписью «А.&nbsp;П.» В том же году вышло в свет литографированное издание: {{книга|заглавие=Медведь. Шутка в одном действии Ан.&nbsp;Чехова. Посвящается Н.&nbsp;Н.&nbsp;Соловцову. Литография Московской театральной библиотеки Е.&nbsp;Н.&nbsp;Рассохиной}} (цензурное разрешение 4 октября 1888 года). Перепечатано в журнале «Артист», 1890, кн. 6, февраль, и в приложении к журналу «Будильник», 1893, №№ 40—42 от 10, 17 и 24 октября. Пьеса также включена в сборник «Пьесы» (1897) и в VII том издания А.&nbsp;Ф.&nbsp;Маркса (стр. 5—23).</ref></date>
+                        <date type="premiere"/>
+                        <date type="written">февраль 1888</date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#IrinaPavlova">Converted from Source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>

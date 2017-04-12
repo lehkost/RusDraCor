@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Татьяна Репина</title>
+                <title type="sub">Драма в&nbsp;одном действии</title>
+                <author>Антон Павлович Чехов</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="RusDraCor">RusDraCor</publisher>
+                <idno type="URL"></idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by/4.0/legalcode"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Wikisource</name>
+                    <idno type="URL">https://ru.wikisource.org</idno>
+                    <availability>
+                        <licence>
+                            <ab>CC BY-SA 3.0</ab>
+                            <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru"
+                                >Licence</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <title></title>
+                        <date type="print">1889<ref>Впервые — в&nbsp;отдельном типографском оттиске: {{книга|заглавие=Татьяна Репина. Драма в&nbsp;1 действии Антона Чехова (Посвящается А.&nbsp;С.&nbsp;Суворину)|место=СПб.|год=1889}}. С&nbsp;сокращением ряда мест из&nbsp;богослужения перепечатано в&nbsp;книге: {{книга|автор=М.&nbsp;Чехов|заглавие=Антон Чехов. Театр, актеры и «Татьяна Репина»|место=Пг.|год=1924}}. В&nbsp;полном виде — в&nbsp;сборнике: {{книга|автор=А. П. Чехов|заглавие=Затерянные произведения. Неизданные письма. Воспоминании. Библиография|ответственный=Под ред. М.&nbsp;Д.&nbsp;Беляева и А.&nbsp;С.&nbsp;Долинина|место=Л.|издательство=«Атеней»|год=1925}}.</ref></date>
+                        <date type="premiere"/>
+                        <date type="written">март 1889</date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#IrinaPavlova">Converted from Source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
