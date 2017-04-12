@@ -2,17 +2,19 @@ import re
 import os
 import transliterate
 
-o = open('./wikisource_raws/2/Sgovor Kutejkina.txt', 'r', encoding='utf-8')
+play = 'Snegurochka'
+
+o = open('./wikisource_raws/2/' + play + '.txt', 'r', encoding='utf-8')
 text_text = o.read()
 o.close()
 
-o = open('./wikisource_raws/2/Sgovor Kutejkina.txt', 'r', encoding='utf-8')
+o = open('./wikisource_raws/2/' + play + '.txt', 'r', encoding='utf-8')
 text_lines = o
 o.close()
 
-header = open('./tei_heaader.xml', 'r', encoding='utf-8').read()
+header = open('./tei_header.xml', 'r', encoding='utf-8').read()
 
-tei = open('./wikisource_tei/2/Sgovor Kutejkina.txt', 'w', encoding='utf-8')
+tei = open('./wikisource_tei/2/' + play + '.xml', 'w', encoding='utf-8')
 
 
 def get_metadata(text):
@@ -21,19 +23,21 @@ def get_metadata(text):
     If some of these are missing it returns and empty line instead of the missing value."""
     title = subtitle = author = creation_date = print_date = ''
     title_s = re.findall('НАЗВАНИЕ *?= ?(.*?)\n', text)
-    if len(title) != 0:
+    if len(title_s) != 0:
         title = title_s[0]
     subtitle_s = re.findall('ПОДЗАГОЛОВОК *?= ?(.*?)\n', text)
-    if len(subtitle) != 0:
+    if len(subtitle_s) != 0:
         subtitle = subtitle_s[0]
     author_s = re.findall('АВТОР *?= ?\[?\[?(.*?)\]?\]?', text)
-    if len(author) != 0:
-        author = author_s[0]
+    if len(author_s) != 0:
+        author_s = re.findall('АВТОР *?= (.*?)\n', text)
+        if len(author_s) != 0:
+            author = author_s[0]
     creation_date_s = re.findall('ДАТАСОЗДАНИЯ *?= ?(.*?)\n', text)
-    if len(creation_date) != 0:
+    if len(creation_date_s) != 0:
         creation_date = creation_date_s[0]
     print_date_s = re.findall('ДАТАПУБЛИКАЦИИ *?= ?(.*?)\n', text)
-    if len(print_date) != 0:
+    if len(print_date_s) != 0:
         print_date = print_date_s[0]
     return title, subtitle, author, creation_date, print_date
 
@@ -54,7 +58,10 @@ def write_metadata(text, tei_file, tei_header):
 
 
 def get_castlist(text):
-    castlist_part = re.search()
+    castlist_part = re.search('== ?действующие лица ?==.*?=', text.lower(), re.DOTALL)
+    if castlist_part is None:
+        castlist_part = re.search("'''лица.*?=", text.lower(), re.DOTALL)
+    return castlist_part.group(0)
 
 
-
+write_metadata(text_text, tei, header)
