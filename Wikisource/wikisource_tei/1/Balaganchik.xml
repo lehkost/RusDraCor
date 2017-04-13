@@ -41,41 +41,41 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="PEro">
-<persName>Пьеро</persName>
-</person>
-<person xml:id="Arlekin">
-<persName>Арлекин</persName>
-</person>
-<person xml:id="Kolombina">
-<persName>Коломбина</persName>
-</person>
 <person xml:id="VtorojMistik">
 <persName>Второй мистик</persName>
-</person>
-<person xml:id="Avtor">
-<persName>Автор</persName>
-</person>
-<person xml:id="On">
-<persName>Он</persName>
-</person>
-<person xml:id="PervyjMistik">
-<persName>Первый мистик</persName>
 </person>
 <person xml:id="Pajats">
 <persName>Паяц</persName>
 </person>
-<person xml:id="Ona">
-<persName>Она</persName>
+<person xml:id="Avtor">
+<persName>Автор</persName>
 </person>
-<person xml:id="Hor">
-<persName>Хор</persName>
+<person xml:id="TretijMistik">
+<persName>Третий мистик</persName>
+</person>
+<person xml:id="PEro">
+<persName>Пьеро</persName>
+</person>
+<person xml:id="Kolombina">
+<persName>Коломбина</persName>
+</person>
+<person xml:id="On">
+<persName>Он</persName>
+</person>
+<person xml:id="Arlekin">
+<persName>Арлекин</persName>
 </person>
 <person xml:id="Predsedatel">
 <persName>Председатель</persName>
 </person>
-<person xml:id="TretijMistik">
-<persName>Третий мистик</persName>
+<person xml:id="PervyjMistik">
+<persName>Первый мистик</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -113,36 +113,36 @@
 <stage>У освещенного стола с сосредоточенным видом сидят <actor>мистики</actor> обоего пола — в сюртуках и модных платьях. Несколько поодаль, у окна сидит <actor>Пьеро</actor> в белом балахоне, мечтательный, расстроенный, бледный, безусый и безбровый, как все Пьеро.</stage>
 <stage><actor>Мистики</actor> некоторое время молчат.</stage>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l>Ты слушаешь?</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l part="F"> Да.</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l part="F"> Наступит событие.</l>
 </sp>
-<sp who="#PEro">
+<sp who="#Pero">
 <speaker>Пьеро</speaker>
 <l>О, вечный ужас, вечный мрак!</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l>Ты ждешь?</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l part="F"> Я жду.</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l part="F"> Уж близко прибытие:</l>
 <l>За окном нам ветер подал знак.</l>
 </sp>
-<sp who="#PEro">
+<sp who="#Pero">
 <speaker>Пьеро</speaker>
 <l>Неверная! Где ты? Сквозь улицы сонные</l>
 <l>Протянулась длинная цепь фонарей,</l>
@@ -164,101 +164,101 @@
 </p>
 <stage>Внезапно застыдившись своего неожиданного появления, прячется обратно за занавес.</stage>
 </sp>
-<sp who="#PEro">
+<sp who="#Pero">
 <speaker>Пьеро</speaker><stage type="delivery">Он не обратил внимания на автора. Сидит и мечтательно вздыхает</stage>
 <l>Коломбина!</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l part="F"> Ты слушаешь?</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l part="F"> Да.</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l>Приближается дева из дальней страны.</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l>О, как мрамор — черты!</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l part="F"> О, в очах — пустота!</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l>О, какой чистоты и какой белизны!</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l>Подойдет — и мгновенно замрут голоса.</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l>Да. Молчанье наступит.</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l part="F"> Надолго ли?</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l part="F"> Да.</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l>Вся бела, как снега.</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l part="F"> За плечами — коса.</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l>Кто ж она?</l>
 <stage>Второй наклоняется и что-то шепчет на ухо первому.</stage>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l part="F"> Ты не выдашь меня?</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker><stage type="delivery">в неподдельном ужасе</stage>
 <l part="F"> Никогда!</l>
 <stage>Автор опять испуганно высовывается, но быстро исчезает, как будто его оттянул кто-то за фалды.</stage>
 </sp>
-<sp who="#PEro">
+<sp who="#Pero">
 <speaker>Пьеро</speaker><stage type="delivery">по-прежнему, мечтательно</stage>
 <l>Коломбина! Приди!</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l part="F"> Тише! Слышишь шаги!</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l>Слышу шелест и вздохи.</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l part="F"> О, кто среди нас?</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l>Кто в окне?</l>
 </sp>
-<sp who="#VtorojMistik">
+<sp who="#Vtorojmistik">
 <speaker>Второй мистик</speaker>
 <l part="F"> Кто за дверью?</l>
 </sp>
-<sp who="#TretijMistik">
+<sp who="#Tretijmistik">
 <speaker>Третий мистик</speaker>
 <l part="F"> Не видно ни зги.</l>
 </sp>
-<sp who="#PervyjMistik">
+<sp who="#Pervyjmistik">
 <speaker>Первый мистик</speaker>
 <l>Посвети. Не она ли пришла в этот час?</l>
 <stage><actor>Второй мистик</actor> поднимает свечу. Совершенно неожиданно и непонятно откуда, появляется у стола необыкновенно красивая девушка с простым и тихим лицом матовой белизны. Она в белом. Равнодушен взор спокойных глаз. За плечами лежит заплетенная коса. Девушка стоит неподвижно. Восторженный <actor>Пьеро</actor> молитвенно опускается на колени. Заметно, что слезы душат его. Все для него — неизреченно. Мистики в ужасе откинулись на спинки стульев. У одного беспомощно болтается нога. Другой производит странные движения рукой. Третий выкатил глаза. Через некоторое время очнувшись, громко шепчут:</stage>
@@ -323,7 +323,7 @@
 </p>
 <stage>Высунувшаяся из-за занавеса рука хватает автора за шиворот. Он с криком исчезает за кулисой. Занавес быстро раздергивается. Бал. Маски кружатся под тихие звуки танца. Среди них прогуливаются другие маски, рыцари, дамы, паяцы. Грустный <actor>Пьеро</actor> сидит среди сцены на той скамье, где обыкновенно целуются Венера и Тангейзер.</stage>
 </sp>
-<sp who="#PEro">
+<sp who="#Pero">
 <speaker>Пьеро</speaker>
 <l>Я стоял меж двумя фонарями</l>
 <l>И слушал их голоса,</l>
@@ -568,7 +568,7 @@
 </p>
 <stage>Автор хочет соединить руки <actor>Коломбины</actor> и <actor>Пьеро</actor>. Но внезапно все декорации взвиваются и улетают вверх. Маски разбегаются. Автор оказывается склоненным над одним только <actor>Пьеро</actor>, который беспомощно лежит на пустой сцене в белом балахоне своем с красными пуговицами. Заметив свое положение, автор убегает стремительно.</stage>
 </sp>
-<sp who="#PEro">
+<sp who="#Pero">
 <speaker>Пьеро</speaker><stage type="delivery">приподнимается и говорит жалобно и мечтательно</stage>
 <l>Куда ты завел? Как угадать?</l>
 <l>Ты предал меня коварной судьбе.</l>

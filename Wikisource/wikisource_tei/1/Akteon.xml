@@ -41,56 +41,56 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Akteon">
-<persName>Актеон</persName>
-</person>
-<person xml:id="TretijJunosha">
-<persName>Третий юноша</persName>
-</person>
-<person xml:id="VtorojJunosha">
-<persName>Второй юноша</persName>
-</person>
-<person xml:id="PervyjJunosha">
-<persName>Первый юноша</persName>
-</person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
-</person>
-<person xml:id="GolosaOhotnits">
-<persName>Голоса охотниц</persName>
-</person>
 <person xml:id="Krokale">
 <persName>Крокале</persName>
 </person>
 <person xml:id="Ranis">
 <persName>Ранис</persName>
 </person>
+<person xml:id="TretijJunosha">
+<persName>Третий юноша</persName>
+</person>
 <person xml:id="VseTroe">
 <persName>Все трое</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="Ehion">
-<persName>Эхион</persName>
-</person>
-<person xml:id="Agava">
-<persName>Агава</persName>
-</person>
-<person xml:id="Hiale">
-<persName>Хиале</persName>
-</person>
-<person xml:id="Kadm">
-<persName>Кадм</persName>
 </person>
 <person xml:id="Diana">
 <persName>Диана</persName>
 </person>
+<person xml:id="Kadm">
+<persName>Кадм</persName>
+</person>
+<person xml:id="GolosaOhotnits">
+<persName>Голоса охотниц</persName>
+</person>
 <person xml:id="RanisIKrokale">
 <persName>Ранис и Крокале</persName>
 </person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="PervyjJunosha">
+<persName>Первый юноша</persName>
+</person>
+<person xml:id="Ehion">
+<persName>Эхион</persName>
+</person>
+<person xml:id="Akteon">
+<persName>Актеон</persName>
+</person>
+<person xml:id="Agava">
+<persName>Агава</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
 <person xml:id="Tretij">
 <persName>Третий</persName>
+</person>
+<person xml:id="Hiale">
+<persName>Хиале</persName>
+</person>
+<person xml:id="VtorojJunosha">
+<persName>Второй юноша</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -395,15 +395,15 @@
 <l>В твои безрадостные Фивы.</l>
 <stage>Кадм, Эхион и Агава с трудом выносят камень.</stage>
 </sp>
-<sp who="#PervyjJunosha">
+<sp who="#Pervyjjunosha">
 <speaker>Первый юноша</speaker>
 <l>Вот здорово.</l>
 </sp>
-<sp who="#VtorojJunosha">
+<sp who="#Vtorojjunosha">
 <speaker>Второй юноша</speaker>
 <l part="F"> Им так и надо.</l>
 </sp>
-<sp who="#TretijJunosha">
+<sp who="#Tretijjunosha">
 <speaker>Третий юноша</speaker>
 <l>Какой ты умный, Актеон!</l>
 <l>Так говорить — одна отрада.</l>
@@ -416,15 +416,15 @@
 <l>Мы славно охотились; до новой встречи!</l>
 <l>Постойте, я вас обниму.</l>
 </sp>
-<sp who="#PervyjJunosha">
+<sp who="#Pervyjjunosha">
 <speaker>Первый юноша</speaker>
 <l>Спать завалюсь.</l>
 </sp>
-<sp who="#VtorojJunosha">
+<sp who="#Vtorojjunosha">
 <speaker>Второй юноша</speaker>
 <l part="F"> Напьюсь.</l>
 </sp>
-<sp who="#TretijJunosha">
+<sp who="#Tretijjunosha">
 <speaker>Третий юноша</speaker>
 <l part="F"> Вот ловко:</l>
 <l>И спать и пить — равно уныло.</l>
@@ -457,7 +457,7 @@
 <l>И, может быть, проснусь на утро богом.</l>
 <p></poem><poem class=p2></p>
 </sp>
-<sp who="#GolosaOhotnits">
+<sp who="#Golosaohotnits">
 <speaker>Голоса охотниц</speaker>
 <p>Аллали.</p>
 <p>Аллали.</p>
@@ -538,7 +538,7 @@
 <p>{{indent|Как, Марс тебя любит?}} В трущобы</p>
 <p>За мной он зашёл далеко.</p>
 </sp>
-<sp who="#RanisIKrokale">
+<sp who="#Ranisikrokale">
 <speaker>Ранис и Крокале</speaker><stage type="delivery">с интересом</stage>
 <p>Настиг?</p>
 </sp>
@@ -652,7 +652,7 @@
 <speaker>Актеон</speaker>
 <p>О, пощади, о, пощади!</p>
 </sp>
-<sp who="#VseTroe">
+<sp who="#Vsetroe">
 <speaker>Все трое</speaker><stage type="delivery">вместе</stage>
 <p>Беги, сок жил твоих отравлен,</p>
 <p>Но ты склоняешься, дрожишь,</p>

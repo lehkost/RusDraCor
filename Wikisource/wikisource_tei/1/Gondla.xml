@@ -41,32 +41,32 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Ahti">
-<persName>Ахти</persName>
+<person xml:id="Snorre">
+<persName>Снорре</persName>
 </person>
 <person xml:id="Grubbe">
 <persName>Груббе</persName>
 </person>
-<person xml:id="Snorre">
-<persName>Снорре</persName>
-</person>
-<person xml:id="Gondla">
-<persName>Гондла</persName>
-</person>
 <person xml:id="Snorre,GrubbeIAhti">
 <persName>Снорре, Груббе и Ахти</persName>
-</person>
-<person xml:id="Vozhd">
-<persName>Вождь</persName>
 </person>
 <person xml:id="Konung">
 <persName>Конунг</persName>
 </person>
+<person xml:id="Lera">
+<persName>Лера</persName>
+</person>
+<person xml:id="Gondla">
+<persName>Гондла</persName>
+</person>
 <person xml:id="Lage">
 <persName>Лаге</persName>
 </person>
-<person xml:id="Lera">
-<persName>Лера</persName>
+<person xml:id="Ahti">
+<persName>Ахти</persName>
+</person>
+<person xml:id="Vozhd">
+<persName>Вождь</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -1500,7 +1500,7 @@
 <l>Гондла, живо костёр! Поднимаю</l>
 <l>Первый кубок за Леру мою.</l>
 </sp>
-<sp who="#Snorre,GrubbeIAhti">
+<sp who="#Snorre,Grubbeiahti">
 <speaker>Снорре, Груббе и Ахти</speaker>
 <l>Пьём за Леру мы все!</l>
 </sp>
@@ -1537,7 +1537,7 @@
 <speaker>Лаге</speaker><stage type="delivery">обнимая ее</stage>
 <l part="F"> Гондла, вина!</l>
 </sp>
-<sp who="#Snorre,GrubbeIAhti">
+<sp who="#Snorre,Grubbeiahti">
 <speaker>Снорре, Груббе и Ахти</speaker>
 <l>Гондла, музыки! Лютня такая</l>
 <l>Для чего у тебя, нелюдим?</l>
@@ -1938,7 +1938,7 @@
 <speaker>Конунг</speaker><stage type="delivery">отступая</stage>
 <l>Нет, нам нового бога не надо!</l>
 </sp>
-<sp who="#Snorre,GrubbeIAhti">
+<sp who="#Snorre,Grubbeiahti">
 <speaker>Снорре, Груббе и Ахти</speaker>
 <l>Мы не выдадим старых богов.</l>
 </sp>

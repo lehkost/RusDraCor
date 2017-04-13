@@ -41,17 +41,17 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="KnjazIKnjaginja">
-<persName>Князь и княгиня</persName>
-</person>
 <person xml:id="Knjaz">
 <persName>Князь</persName>
+</person>
+<person xml:id="Baron">
+<persName>Барон</persName>
 </person>
 <person xml:id="Knjaginja">
 <persName>Княгиня</persName>
 </person>
-<person xml:id="Baron">
-<persName>Барон</persName>
+<person xml:id="KnjazIKnjaginja">
+<persName>Князь и княгиня</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -464,7 +464,7 @@
 <speaker>Барон</speaker>
 <p>Любезные мои, лучше пусть остынут эти блюда, чем сердца ваши!</p>
 </sp>
-<sp who="#KnjazIKnjaginja">
+<sp who="#Knjaziknjaginja">
 <speaker>Князь и княгиня</speaker><stage type="delivery">бросаются ему на шею</stage>
 <p>Merci, mon oncle!..</p>
 <stage>Целуют его.</stage>

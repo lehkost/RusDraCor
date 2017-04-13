@@ -41,23 +41,17 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="BlezIFilipp">
-<persName>Блез и Филипп</persName>
-</person>
-<person xml:id="ZhulEta,ZhanetaINineta">
-<persName>Жульета, Жанета и Нинета</persName>
+<person xml:id="RabotnikiIDocheriBleza">
+<persName>Работники и дочери Блеза</persName>
 </person>
 <person xml:id="ZhulEtaINineta">
 <persName>Жульета и Нинета</persName>
 </person>
-<person xml:id="ZhanetaIPaulin">
-<persName>Жанета и Паулин</persName>
+<person xml:id="Nineta,Graf">
+<persName>Нинета, граф</persName>
 </person>
-<person xml:id="RabotnikiIDocheriBleza">
-<persName>Работники и дочери Блеза</persName>
-</person>
-<person xml:id="Vmeste">
-<persName>Вместе</persName>
+<person xml:id="Muzhiki">
+<persName>Мужики</persName>
 </person>
 <person xml:id="Zhaneta">
 <persName>Жанета</persName>
@@ -65,14 +59,20 @@
 <person xml:id="Nineta">
 <persName>Нинета</persName>
 </person>
-<person xml:id="Paulin">
-<persName>Паулин</persName>
+<person xml:id="Filipp">
+<persName>Филипп</persName>
+</person>
+<person xml:id="ZhulEta,ZhanetaINineta">
+<persName>Жульета, Жанета и Нинета</persName>
+</person>
+<person xml:id="BlezIFilipp">
+<persName>Блез и Филипп</persName>
+</person>
+<person xml:id="Oba">
+<persName>Оба</persName>
 </person>
 <person xml:id="Graf">
 <persName>Граф</persName>
-</person>
-<person xml:id="Filipp">
-<persName>Филипп</persName>
 </person>
 <person xml:id="FilippIBlez">
 <persName>Филипп и Блез</persName>
@@ -80,29 +80,29 @@
 <person xml:id="ZhanetaINineta">
 <persName>Жанета и Нинета</persName>
 </person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="Muzhiki">
-<persName>Мужики</persName>
-</person>
-<person xml:id="Nineta,Graf">
-<persName>Нинета, граф</persName>
-</person>
-<person xml:id="Hor">
-<persName>Хор</persName>
-</person>
-<person xml:id="Blez">
-<persName>Блез</persName>
-</person>
-<person xml:id="Oba">
-<persName>Оба</persName>
+<person xml:id="ZhulEtaIZhaneta">
+<persName>Жульета и Жанета</persName>
 </person>
 <person xml:id="ZhulEta">
 <persName>Жульета</persName>
 </person>
-<person xml:id="ZhulEtaIZhaneta">
-<persName>Жульета и Жанета</persName>
+<person xml:id="Vse">
+<persName>Все</persName>
+</person>
+<person xml:id="ZhanetaIPaulin">
+<persName>Жанета и Паулин</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
+</person>
+<person xml:id="Paulin">
+<persName>Паулин</persName>
+</person>
+<person xml:id="Vmeste">
+<persName>Вместе</persName>
+</person>
+<person xml:id="Blez">
+<persName>Блез</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -217,7 +217,7 @@
 <l>то-то будет пированье.</l>
 <l>Пунфе дан, дан, труднее же перец толочь?</l>
 </sp>
-<sp who="#RabotnikiIDocheriBleza">
+<sp who="#Rabotnikiidocheribleza">
 <speaker>Работники и дочери Блеза</speaker>
 <l>То-то будет пированье,</l>
 <l>Свадьба, радость и ликованье,</l>
@@ -441,7 +441,7 @@
 <div type="scene">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Граф, увидев меня, отселе ушел. Он остановился там; покажу, что будто я его не приметила, и стану петь, как будто ничего не бывало: может быть, он подойдет ко мне.</p>
 <l><poem class=p1></l>
@@ -465,7 +465,7 @@
 <speaker>Граф</speaker>
 <p>Здравствуй, любезная Жульета!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ваша покорная услужница милостивого государя!</p>
 </sp>
@@ -473,7 +473,7 @@
 <speaker>Граф</speaker>
 <p>Я слышал, ты выходишь замуж, прекрасная Жульета!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>С позволения вашего сиятельства.</p>
 </sp>
@@ -481,7 +481,7 @@
 <speaker>Граф</speaker>
 <p>Ах, если б я тебе это позволил, ты поверь, что это будет против моего сердца.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Да неужели мое замужество может вам нанести печаль?</p>
 </sp>
@@ -529,7 +529,7 @@
 <l>Ревностью я стал объят вокруг.</l>
 <l>Показать мне не должно то вдруг!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Барин наш, вижу я, огорчился,</l>
 <l>Что б могло его так раздражать?</l>
@@ -541,7 +541,7 @@
 <l>Вобразив, для тебя что родился,</l>
 <l>Песни петь я хочу лишь, плясать!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Барин наш, вижу я, огорчился,</l>
 <l>Что б могло его так раздражать?</l>
@@ -612,7 +612,7 @@
 <speaker>Граф</speaker>
 <p>Теперь, как мы одни, то отвечай мне, и чистосердечно, смелее, любишь ты того, за кого хочет отдать тебя твой отец?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Люблю ли я его?</p>
 </sp>
@@ -620,7 +620,7 @@
 <speaker>Граф</speaker>
 <p>Да скажите мне правду.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>О, всю правду — люблю, сударь!</p>
 </sp>
@@ -628,7 +628,7 @@
 <speaker>Граф</speaker>
 <p>Люблю, сударь!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ах, как он меня испугал! Я, видно, дурно сделала... что сказала. {{ремарка|Вслух.}} Нет, сударь!</p>
 </sp>
@@ -636,7 +636,7 @@
 <speaker>Граф</speaker>
 <p>Да, сударь, нет, сударь! Да любишь ли ты его, или не любишь?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Все, что вам угодно! {{ремарка|В сторону.}} Правду сказать, я его очень люблю, да надобно притворяться, для того, что, кажется, это ему не нравится, а мне бы хотелось сорвать с него подарок, который он обещал на свадьбу.</p>
 </sp>
@@ -644,7 +644,7 @@
 <speaker>Граф</speaker>
 <p>Послушай, любезная Жульета, неужли ты никакой дружбы ко мне не чувствуешь?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>О, очень я бы, сударь, была неблагодарна, если бы иначе думала после всех милостей, которые ваше сиятельство мне оказываете.</p>
 </sp>
@@ -652,7 +652,7 @@
 <speaker>Граф</speaker>
 <p>Ну, а была ли б ты рада жить со мною в городе?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Я, с вами?.. Да, сударь!</p>
 </sp>
@@ -660,7 +660,7 @@
 <speaker>Граф</speaker>
 <p>Прекрасно.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Поговорите об этом Филиппу, и как скоро он на мне женится, то вместо того, чтобы увести меня в свою деревню, повезет в ваш дом, где вы, как знатный и щедрый барин, будете иметь об обоих нас попечение.</p>
 </sp>
@@ -668,7 +668,7 @@
 <speaker>Граф</speaker>
 <p>Ты не совсем еще меня поняла.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Или когда вы изволите, так пойдемте, тотчас об этом поговорим батюшке.</p>
 </sp>
@@ -676,7 +676,7 @@
 <speaker>Граф</speaker>
 <p>О, нет, не говори никому — я тебе это запрещаю; впрочем, я все так распоряжу, что ты будешь довольна, а между тем возьми этот небольшой подарок {{ремарка|вынимает кошелек}}, как образчик всего добра, которое я хочу тебе сделать.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>О, сударь!</p>
 <l><poem class=p1></l>
@@ -688,7 +688,7 @@
 <p>Бери, драгая, не рассуждая, кошелек полон, ну бери, что дарю тебе одной, тебе одной.</p>
 <l><poem class=p1></l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Сколь вы учтивы,</l>
 <l>Так милостивы!</l>
@@ -702,7 +702,7 @@
 <speaker>Граф</speaker>
 <l>То все тебе.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>И все-то мне?</l>
 </sp>
@@ -710,7 +710,7 @@
 <speaker>Граф</speaker>
 <l>То все тебе.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>И все-то мне?</l>
 </sp>
@@ -718,7 +718,7 @@
 <speaker>Граф</speaker>
 <l>То все тебе.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Как мне?</l>
 </sp>
@@ -726,7 +726,7 @@
 <speaker>Граф</speaker>
 <l>Тебе.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Все мне?</l>
 </sp>
@@ -734,7 +734,7 @@
 <speaker>Граф</speaker>
 <l>Тебе.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Все мне?</l>
 </sp>
@@ -742,7 +742,7 @@
 <speaker>Граф</speaker>
 <l>Тебе... но с позволеньем тебя обнять.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Он просит мало, лишь поцеловать,</l>
 <l>Мне не пристало в том отказать!</l>
@@ -751,7 +751,7 @@
 <speaker>Граф</speaker>
 <l>Рад я стократно.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>И мне стократно.</l>
 </sp>
@@ -759,7 +759,7 @@
 <speaker>Граф</speaker>
 <l>И как вам приятно.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Ах, как он рад! Я стократно...</l>
 </sp>
@@ -770,7 +770,7 @@
 <l>Вот счастье станет</l>
 <l>Мне от него.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Тянет, и счастье станет,</l>
 <l>Нет, мне от него.</l>
@@ -789,7 +789,7 @@
 <l>Будь с своею ты драгою,</l>
 <l>Я пойду здесь погулять.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Мой Филипп лишен покою,</l>
 <l>Что б могло его смущать?</l>
@@ -799,7 +799,7 @@
 <l>Ну, прощайте! Тайно подозренье,</l>
 <l>Но не надобно казать.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Отчего в нем огорченье,</l>
 <l>Как бы это отгадать?</l>
@@ -822,7 +822,7 @@
 <l>Мучит тайно подозренье,</l>
 <l>Но не надобно казать.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Нельзя то отгадать.</l>
 </sp>
@@ -840,7 +840,7 @@
 <l>Отчего в нем огорченье,</l>
 <l>Как бы это отгадать?</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Что б могло его смущать,</l>
 <l>Отчего в нем огорченье,</l>
@@ -856,7 +856,7 @@
 <speaker>Оба</speaker>
 <l>Ну, прощайте, ну, прощайте!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Я пойду здесь погулять.</l>
 </sp>
@@ -1008,7 +1008,7 @@
 <speaker>Блез</speaker><stage type="delivery">дочери</stage>
 <p>Поди же, уговори его. Я примечаю графа там вон между деревьями, так я пойду к нему.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Как, любезный Филипп; ты все-таки за безделицу огорчаешься?</p>
 </sp>
@@ -1016,14 +1016,14 @@
 <speaker>Филипп</speaker>
 <p>За безделицу! о, нет, право за дело! Я не знаю, у меня что-то такое тут есть, что меня коробит; я боюсь, чтоб все эти барские поступки не понравились тебе больше, нежели это прилично: у молодых девок очень скоро кружится голова от боярской волокиты.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ты очень несправедливо думаешь.</p>
 <l><poem class=p1></l>
 <stage>№ 10</stage>
 <l><center>№ 10</center></l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>К подозренью тебе нет и виду,</l>
 <l>Мне велику творишь тем обиду,</l>
@@ -1038,7 +1038,7 @@
 <speaker>Филипп</speaker>
 <p>Все это ладно и хорошо, только я тебе сказываю, что как скоро ты войдешь в мой дом, то надобно, чтобы ты выбила совсем из головы этого графа, как будто бы его не было и на свете.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Как, ты не хочешь, чтобы я его видела?</p>
 </sp>
@@ -1046,7 +1046,7 @@
 <speaker>Филипп</speaker>
 <p>Нет, конечно, не хочу и не желаю.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Не брала б от него и подарков?</p>
 </sp>
@@ -1054,7 +1054,7 @@
 <speaker>Филипп</speaker>
 <p>Я тебе надарил столько, что тебе ни в чем уж нет нужды.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ну, а как он сам ко мне придет?</p>
 </sp>
@@ -1062,7 +1062,7 @@
 <speaker>Филипп</speaker>
 <p>Так ты спрячься.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>А если он со мной встретится?</p>
 </sp>
@@ -1070,7 +1070,7 @@
 <speaker>Филипп</speaker>
 <p>Убеги от него.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Да как он меня остановит?</p>
 </sp>
@@ -1078,7 +1078,7 @@
 <speaker>Филипп</speaker>
 <p>Так отделайся кулаками.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>А, бить его сиятельство! нет, этого нельзя сделать! и как он мне добро делал, то и я ему хочу добра же.</p>
 </sp>
@@ -1086,7 +1086,7 @@
 <speaker>Филипп</speaker>
 <p>Ну, так я для этого и хочу, чтоб ты так поступала!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Я этого не сделаю!</p>
 </sp>
@@ -1094,7 +1094,7 @@
 <speaker>Филипп</speaker>
 <p>Ан сделаешь!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ан нет!</p>
 </sp>
@@ -1102,7 +1102,7 @@
 <speaker>Филипп</speaker>
 <p>Ан да!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ан нет!</p>
 </sp>
@@ -1110,7 +1110,7 @@
 <speaker>Филипп</speaker>
 <p>Да, да!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Нет, нет!</p>
 </sp>
@@ -1118,7 +1118,7 @@
 <speaker>Филипп</speaker>
 <p>Знаешь ли ты, что мой батюшка делал с матушкой, как она упрямилась? раз, два, да и в потасовку!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>А знаешь ли, что матушка делала с батюшкою, когда он поднимал только руку на нее? так она хвать по щеке! {{ремарка|Дает ему пощечину и потом бежит и кричит: «помогите, помогите» — Филипп хочет бежать за нею, а она затворяет дверь.}} </p>
 </sp>
@@ -1278,7 +1278,7 @@
 <stage>Жульета отворяет дверь и, видя, что Филипп один, выходит тихонько из дому.</stage>
 <l><poem class=p1></l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>В бедство я могу предаться,</l>
 <l>Коль Филипп мной насмехаться</l>
@@ -1294,7 +1294,7 @@
 <l>Надобно ей отплатить,</l>
 <l>Не хочу ей мужем быть!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Нет, не смею,</l>
 <l>На меня и не глядит!</l>
@@ -1314,7 +1314,7 @@
 <l>Вот подходит, притвориться надлежит,</l>
 <l>Будто очень я сердит.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>На меня и не глядит,</l>
 <l>Помириться надлежит!</l>
@@ -1324,7 +1324,7 @@
 <speaker>Филипп</speaker>
 <l>Труд бесполезный!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Филипп, мой любезный!</l>
 </sp>
@@ -1333,7 +1333,7 @@
 <l>Притворюсь, что стал иной,</l>
 <l>Пусть походит и за мной.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Очень так уж унижать,</l>
 <l>Отойду я и опять.</l>
@@ -1342,7 +1342,7 @@
 <speaker>Филипп</speaker>
 <l>Удалилась, то досадно.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Ладно.</l>
 </sp>
@@ -1351,7 +1351,7 @@
 <l>Я принужден, вот изрядно,</l>
 <l>Сам я к ней теперь иттить.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Он подходит, притворюся,</l>
 <l>Что я сержуся.</l>
@@ -1362,7 +1362,7 @@
 <l>И не хочет говорить,</l>
 <l>Не стану говорить. Нет ответу!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Он уйдет, то как мне быть,</l>
 <l>Надобно с ним говорить,</l>
@@ -1376,7 +1376,7 @@
 <l>И вовек не примириться,</l>
 <l>Так сердиться и ко мне не подойтить!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Сердце так во мне незлобно,</l>
 <l>Как во голубе подобно,</l>
@@ -1439,7 +1439,7 @@
 <l>Прислал барин это в корзине вино.</l>
 <l>Вино для вас-то приспето.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Давай пить нам!</l>
 </sp>
@@ -1447,7 +1447,7 @@
 <speaker>Нинета</speaker>
 <l>Выпьем, выпьем теперь же его!</l>
 </sp>
-<sp who="#ZhanetaIPaulin">
+<sp who="#Zhanetaipaulin">
 <speaker>Жанета и Паулин</speaker>
 <l>Так, так, давай выпьем,</l>
 <l>Выпьем теперь же его!</l>
@@ -1456,7 +1456,7 @@
 <speaker>Все</speaker>
 <l>Так, так, изволь, выпьем, выпьем!</l>
 </sp>
-<sp who="#FilippIBlez">
+<sp who="#Filippiblez">
 <speaker>Филипп и Блез</speaker>
 <l>Красно оно, красно оно.</l>
 </sp>
@@ -1473,7 +1473,7 @@
 <l>Готов помириться,</l>
 <l>А ты тож готова?</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Мне ты вечно, мне мил.</l>
 </sp>
@@ -1500,7 +1500,7 @@
 <l>Не пей, а ожидай!</l>
 <l>Теперь выпейте, смотрите ж!</l>
 </sp>
-<sp who="#ZhulEtaIZhaneta">
+<sp who="#Zhuletaizhaneta">
 <speaker>Жульета и Жанета</speaker>
 <l>Прежде пейте вы сами, прежде пейте!</l>
 </sp>
@@ -1527,7 +1527,7 @@
 <l>Ну, сват, ты начинай!</l>
 <stage>Берет рюмку у ней.</stage>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Нет, больше пить не стану.</l>
 </sp>
@@ -1539,12 +1539,12 @@
 <speaker>Паулин</speaker>
 <l>Ну вы, братья, начинай.</l>
 </sp>
-<sp who="#ZhanetaINineta">
+<sp who="#Zhanetainineta">
 <speaker>Жанета и Нинета</speaker>
 <l>Я больше пить не стану, я не стану,</l>
 <l>А я не отстану.</l>
 </sp>
-<sp who="#FilippIBlez">
+<sp who="#Filippiblez">
 <speaker>Филипп и Блез</speaker>
 <l>Давай хоть по стакану.</l>
 </sp>
@@ -1552,13 +1552,13 @@
 <speaker>Паулин</speaker>
 <l>Друзья, давайте пить.</l>
 </sp>
-<sp who="#ZhulEtaINineta">
+<sp who="#Zhuletainineta">
 <speaker>Жульета и Нинета</speaker>
 <l>Я больше пить не стану,</l>
 <l>Я не стану, чтоб пьяной мне не быть,</l>
 <l>Я больше пить не стану.</l>
 </sp>
-<sp who="#FilippIBlez">
+<sp who="#Filippiblez">
 <speaker>Филипп и Блез</speaker>
 <l>Давай хоть по стакану, мы можем осушить,</l>
 <l>А что стало, что стало,</l>
@@ -1574,7 +1574,7 @@
 <l>Исполним все мы смело,</l>
 <l>Не трать поры, имей поспех. </l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Ноги подо мною гнутся.</l>
 </sp>
@@ -1595,7 +1595,7 @@
 <speaker>Филипп</speaker>
 <l>Голова кругом идет.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Слышу я, тянут рукою.</l>
 </sp>
@@ -1609,7 +1609,7 @@
 <speaker>Паулин</speaker>
 <l>Надобно в том пособить.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Я обоих вас не знаю.</l>
 </sp>
@@ -1621,7 +1621,7 @@
 <speaker>Паулин</speaker>
 <l>С графом я здесь пособляю.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Я шатаюсь, как дойтить?</l>
 </sp>
@@ -1629,7 +1629,7 @@
 <speaker>Блез</speaker>
 <l>Не могу ногой ступить.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>В обморок почти впадаю,</l>
 <l>Где Филипп, не понимаю.</l>
@@ -1642,7 +1642,7 @@
 <l>Вот свою я подставляю,</l>
 <l>Может так же поддержать.</l>
 </sp>
-<sp who="#ZhulEta,ZhanetaINineta">
+<sp who="#Zhuleta,Zhanetainineta">
 <speaker>Жульета, Жанета и Нинета</speaker>
 <l>Ночь с какою темнотою,</l>
 <l>Память вся покрыта мглою.</l>
@@ -1664,7 +1664,7 @@
 <l>Как мы уберемся прочь с тобою.</l>
 <l>Ночь с какою темнотою, ах, темнотою!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Я не ведаю, где я,</l>
 <l>Зги не зрю, не сбить бы ногу,</l>
@@ -1680,7 +1680,7 @@
 <l>На меня все полагая,</l>
 <l>Знаю, весть куда, я ж, я.</l>
 </sp>
-<sp who="#ZhulEta,ZhanetaINineta">
+<sp who="#Zhuleta,Zhanetainineta">
 <speaker>Жульета, Жанета и Нинета</speaker>
 <l>{|</l>
 <l>|-</l>
@@ -1693,7 +1693,7 @@
 <l>Кто идет?</l>
 <l>|}</l>
 </sp>
-<sp who="#BlezIFilipp">
+<sp who="#Blezifilipp">
 <speaker>Блез и Филипп</speaker>
 <l>Вот кто-то идет,</l>
 <l>Кто там идет,</l>
@@ -1701,7 +1701,7 @@
 <l>Молчите, не шумите,</l>
 <l>Да помолчите, не шумите, не шумите!</l>
 </sp>
-<sp who="#BlezIFilipp">
+<sp who="#Blezifilipp">
 <speaker>Блез и Филипп</speaker>
 <l>Кто цепляет, кто толкает,</l>
 <l>Кто хватает, берегитесь,</l>
@@ -1730,7 +1730,7 @@
 <stage>№ 13</stage>
 <l><center>№ 13</center></l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Ах, что зрю! где я? ах, все ужасает!</l>
 <l>Какой блеск окружает, —</l>
@@ -1778,7 +1778,7 @@
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
 <stage><actor>Жульета</actor> и <actor>Граф</actor>.</stage>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ах, сударь, это вы?</p>
 </sp>
@@ -1786,7 +1786,7 @@
 <speaker>Граф</speaker>
 <p>Так, любезная моя, так, это я, ты в моем доме.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Я в вашем доме? {{ремарка|Особо.}} А, теперь-то я начинаю догадываться.</p>
 </sp>
@@ -1794,7 +1794,7 @@
 <speaker>Граф</speaker>
 <p>Видишь ли, как ты прелестна в этом платье?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Да, да, сударь... но мне как будто кажется... а Филипп?.. а свадьба? а батюшка?.. да как же мне появиться в этом платье в деревню — мне все смеяться станут.</p>
 </sp>
@@ -1802,7 +1802,7 @@
 <speaker>Граф</speaker>
 <p>Да я и не хочу, чтоб ты когда-нибудь туда возвратилась, — мы должны всегда жить неразлучно.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>А батюшка, а жених мой?</p>
 </sp>
@@ -1810,7 +1810,7 @@
 <speaker>Граф</speaker>
 <p>Об отце твоем я уже буду иметь попечение; что ж касается до жениха, то ему ж никогда тебя не видать.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Как? так я не, выйду замуж? да почему же — за что же?</p>
 </sp>
@@ -1818,7 +1818,7 @@
 <speaker>Граф</speaker>
 <p>Не говори об этом ни слова, надобно забыть Филиппа.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ах, боже мой, что мне делать? скажите, сударь, скажите, да зачем меня сюда привезли?</p>
 </sp>
@@ -1826,7 +1826,7 @@
 <speaker>Граф</speaker>
 <p>Если б ты меня любила, то бы об этом не спрашивала.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Я вас почитаю как моего господина, как моего благодетеля. Но Филиппа я люблю как мужа, и если он не будет здесь тотчас, то я сказываю вам, что я не хочу у вас более ни минуты остаться.</p>
 </sp>
@@ -1837,7 +1837,7 @@
 <stage>№ 14</stage>
 <l><center>№ 14</center></l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Коль не варвар ты родился,</l>
 <l>Тот приказ твой, чем разлучился,</l>
@@ -1872,7 +1872,7 @@
 <speaker>Граф</speaker>
 <p>Любезная Жульета, войди в эту комнату; надобно, чтоб тебя не видали.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Нет, отпустите меня лучше домой.</p>
 </sp>
@@ -2050,12 +2050,12 @@
 <speaker>Филипп</speaker>
 <p>Я нашел способ в этом платье войти к графу; но это еще не все, надобно мне отыскать Жульету, она у него, верно, где-нибудь спрятана. Я не знаю никого в этом доме, мне и в голову сначала этого не вошло. Но вот двери, постучусь иль постараюсь ее отворить: может быть, я найду что-нибудь. {{ремарка|Стучится сначала в той комнате, против которой Жульета.}} Посмотрим здесь. {{ремарка|Стучится у той комнаты, где Жульета, которая тотчас и выходит.}} </p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Чего вы еще хотите, сударь?</p>
 <stage>Филипп снимает парик и кладет в карман.</stage>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ах, это ты, любезный Филипп!</p>
 </sp>
@@ -2063,7 +2063,7 @@
 <speaker>Филипп</speaker>
 <p>Любезного Филиппа больше уж нет, ты ушла с мужчиною; а это никуды больше не годится.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Да они вить, друг мой, увезли меня насильно!</p>
 </sp>
@@ -2071,7 +2071,7 @@
 <speaker>Филипп</speaker>
 <p>А эти боярские уборы? Смотрите, какова она стала! Поди же, пожалуй, прочь, мне уж все теперь ясно!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ясного нет ничего; я уверяю тебя...</p>
 </div>
@@ -2111,7 +2111,7 @@
 <l>Я в шею протолкаю,</l>
 <l>Когда нейдешь ты вон.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Смягчись, я умоляю,</l>
 <l>Иль мой невнятен стон?</l>
@@ -2150,7 +2150,7 @@
 <l>Напрасно труд теряешь,</l>
 <l>Полезней вон иттить.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>О страх, как ты терзаешь,</l>
 <l>Грудь начало щемить!</l>
@@ -2193,7 +2193,7 @@
 <speaker>Граф</speaker>
 <p>Ступай за мною, твой отец там внизу и хочет тебя видеть.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ах, я лечу туда.</p>
 </sp>
@@ -2273,7 +2273,7 @@
 <head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
 <stage><actor>Жульета</actor> и <actor>Филипп</actor>.</stage>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Между тем, как граф — со своим дядею, я убежала к тебе от женщин, которые меня стерегли, и решилась с тобой более не разлучаться, чтоб граф ни делал.</p>
 </sp>
@@ -2281,7 +2281,7 @@
 <speaker>Филипп</speaker>
 <p>А если он меня посадит в тюрьму?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Я решилась и туда итти с тобою.</p>
 </sp>
@@ -2289,7 +2289,7 @@
 <speaker>Филипп</speaker>
 <p>Правду ль ты говоришь?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Правду.</p>
 </sp>
@@ -2297,7 +2297,7 @@
 <speaker>Филипп</speaker>
 <p>Только у меня скребет по сердцу, что ты так разряжена, и мне казалось, что тебе это очень нравится; так что я не хотел более на тебе жениться, но по теперешнему доказательству я вижу твою любовь; может быть, и простил бы тебя в том, что ты была у графа, если бы я уверен, что это сделалось не по твоей охоте... но...</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ах, боже мой, конечно, нет, я тебя уверяю!</p>
 </sp>
@@ -2305,7 +2305,7 @@
 <speaker>Филипп</speaker>
 <p>Расскажи мне чистосердечно, как все это было.</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>О, я сама хорошенько о том ничего не знаю.</p>
 </sp>
@@ -2313,7 +2313,7 @@
 <speaker>Филипп</speaker>
 <p>Ой!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Я только могу вспомнить, что он ухватил меня в свои руки.</p>
 </sp>
@@ -2321,7 +2321,7 @@
 <speaker>Филипп</speaker>
 <p>Ги!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Что отнес меня в коляску, в которой были женщины.</p>
 </sp>
@@ -2329,7 +2329,7 @@
 <speaker>Филипп</speaker>
 <p>Ах, женушка, ах, я отдыхаю!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Потом я заснула.</p>
 </sp>
@@ -2337,7 +2337,7 @@
 <speaker>Филипп</speaker>
 <p>Ай!</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>А когда я проснулась, то увидела, что я в этой комнате лежу переодетая, как теперь.</p>
 </sp>
@@ -2345,7 +2345,7 @@
 <speaker>Филипп</speaker>
 <p>А граф, что он тебе говорил, что делал?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Он меня бранил за то, что я ему говорила, что я тебя больше люблю, нежели его.</p>
 </sp>
@@ -2353,7 +2353,7 @@
 <speaker>Филипп</speaker>
 <p>Он тебя бранил? Ну это-таки ничего! А после?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>После? ничего, сказали, что приехал барон, и он услал меня в кабинет, где ты меня нашел.</p>
 </sp>
@@ -2361,7 +2361,7 @@
 <speaker>Филипп</speaker>
 <p>И все тут?</p>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Право, все!</p>
 </sp>
@@ -2372,7 +2372,7 @@
 <stage>№ 18</stage>
 <l><center>№ 18</center></l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Ты зря усмехнулся,</l>
 <l>Насилу очнулся,</l>
@@ -2384,7 +2384,7 @@
 <l>Могла ты всечасно</l>
 <l>Меня понимать.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Я страстно всечасно...</l>
 </sp>
@@ -2393,7 +2393,7 @@
 <l>Могу понимать,</l>
 <l>Но что б ты желала?</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Чтоб ссора престала,</l>
 </sp>
@@ -2401,7 +2401,7 @@
 <speaker>Филипп</speaker>
 <l>А потом чтоб настала.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Нежность, любовь наша вечна,</l>
 <l>И нежность сердечна.</l>
@@ -2411,7 +2411,7 @@
 <l>Ты разумеешь,</l>
 <l>Но только не смеешь,</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Того мне сказати,</l>
 <l>Того мне сказать, сказать.</l>
@@ -2427,7 +2427,7 @@
 <l>Еще раз позвольте</l>
 <l>Мне поцеловать.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Извольте, извольте, поцеловать,</l>
 <l>Лишь тем мне ты плотишь!</l>
@@ -2494,7 +2494,7 @@
 <l>Мой друг, Филипп, тебе,</l>
 <l>Тебе житье тюрьма.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Ах, насилие такое, Филипп!</l>
 </sp>
@@ -2506,7 +2506,7 @@
 <speaker>Блез</speaker>
 <l>Какая жестокость наказанье такое!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Лишь за то, что милый мой</l>
 <l>Возлюблен пред ним так мной,</l>
@@ -2525,7 +2525,7 @@
 <speaker>Все</speaker>
 <l>Да за что так наказати?</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Мог что он меня пленяти...</l>
 </sp>
@@ -2537,7 +2537,7 @@
 <l>Я согласен, это знайте,</l>
 <l>За несчастье то считать.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Лишь за то, что милый мой</l>
 <l>Возлюблен пред ним столь мной. </l>
@@ -2550,7 +2550,7 @@
 <l>Что больше мил, чем, чем</l>
 <l>Барин твой, барином(?) ему быть должно.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>С ним и я хочу иттить,</l>
 <l>Не хотев разлучна быть.</l>
@@ -2583,7 +2583,7 @@
 <l>Как вам (можно) то мнится,</l>
 <l>Иль во мне и сердца нет?</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Иль во мне и сердца нет,</l>
 <l>Иль во мне и сердца нет? </l>
@@ -2637,7 +2637,7 @@
 <speaker>Граф</speaker>
 <l>Бедняка предпочитаешь...</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Так, его я предпочту!</l>
 </sp>
@@ -2649,7 +2649,7 @@
 <speaker>Блез</speaker>
 <l>Льзя то счесть все за мечту!</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Нет, нет, сударь, так, сударь, так, сударь, так, сударь!</l>
 </sp>
@@ -2679,7 +2679,7 @@
 <l>Придем же с благодареньем,</l>
 <l>Веселы пойдем от вас.</l>
 </sp>
-<sp who="#ZhulEta">
+<sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <l>Что сказать вам, не умею,</l>
 <l>С благодарности не смею.</l>

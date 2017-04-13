@@ -41,26 +41,26 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Parmen">
-<persName>Пармен.</persName>
+<person xml:id="Ksenija">
+<persName>Ксения</persName>
+</person>
+<person xml:id="Georgij">
+<persName>Георгий</persName>
 </person>
 <person xml:id="NachalNik">
 <persName>Начальник</persName>
 </person>
 <person xml:id="Parmen">
-<persName>Пармен</persName>
-</person>
-<person xml:id="Ksenija">
-<persName>Ксения</persName>
-</person>
-<person xml:id="Dimitrij">
-<persName>Димитрий</persName>
-</person>
-<person xml:id="Georgij">
-<persName>Георгий</persName>
+<persName>Пармен.</persName>
 </person>
 <person xml:id="Shujskij">
 <persName>Шуйский</persName>
+</person>
+<person xml:id="Parmen">
+<persName>Пармен</persName>
+</person>
+<person xml:id="Dimitrij">
+<persName>Димитрий</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -294,7 +294,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Димитрий, Пармен и страженачальник.</stage>
 </sp>
-<sp who="#NachalNik">
+<sp who="#Nachalnik">
 <speaker>Начальник</speaker>
 <l>Великий государь, смущается народ,</l>
 <l>И все волнуются, как бурей токи вод.</l>
@@ -306,7 +306,7 @@
 <l>Какой на площади плетется ими вред?</l>
 <l>Я скоро прекрачу сей мерзкой черни бред.</l>
 </sp>
-<sp who="#NachalNik">
+<sp who="#Nachalnik">
 <speaker>Начальник</speaker>
 <l>Не смею, государь, то точно повторяти.</l>
 </sp>
@@ -314,7 +314,7 @@
 <speaker>Димитрий</speaker>
 <l>Вещай! А россов я умею усмиряти.</l>
 </sp>
-<sp who="#NachalNik">
+<sp who="#Nachalnik">
 <speaker>Начальник</speaker>
 <l>Что ты не царский сын, которым ты явлен,</l>
 <l>Что он во Угличе неложно умерщвлен.</l>
@@ -1512,7 +1512,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Димитрий, Ксения и Начальник стражи.</stage>
 </sp>
-<sp who="#NachalNik">
+<sp who="#Nachalnik">
 <speaker>Начальник</speaker>
 <l>Во граде радостной нет вести никакой:</l>
 <l>Как сядет солнце, с ним исчезнет твой покой.</l>
@@ -1531,7 +1531,7 @@
 <speaker>Димитрий</speaker>
 <l>И всех бояр она с собою повалит.</l>
 </sp>
-<sp who="#NachalNik">
+<sp who="#Nachalnik">
 <speaker>Начальник</speaker>
 <l>Ждет стража, что творить Димитрий повелит.</l>
 </sp>
@@ -1945,7 +1945,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 <stage>Димитрий, стражи и страженачальник.</stage>
 </sp>
-<sp who="#NachalNik">
+<sp who="#Nachalnik">
 <speaker>Начальник</speaker>
 <l>Весь Кремль народом полн, дом царский окружен,</l>
 <l>И гнев во всех сердцах против тебя зажжен.</l>

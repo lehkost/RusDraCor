@@ -41,17 +41,17 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Vakula">
-<persName>Вакула</persName>
-</person>
 <person xml:id="Tsyganka">
 <persName>Цыганка</persName>
 </person>
-<person xml:id="Sljunjaj">
-<persName>Слюняй</persName>
-</person>
 <person xml:id="Pazh">
 <persName>Паж</persName>
+</person>
+<person xml:id="Vakula">
+<persName>Вакула</persName>
+</person>
+<person xml:id="Trumf">
+<persName>Трумф</persName>
 </person>
 <person xml:id="Podschipa">
 <persName>Подщипа</persName>
@@ -59,11 +59,11 @@
 <person xml:id="Durduran">
 <persName>Дурдуран</persName>
 </person>
+<person xml:id="Sljunjaj">
+<persName>Слюняй</persName>
+</person>
 <person xml:id="Chernavka">
 <persName>Чернавка</persName>
-</person>
-<person xml:id="Trumf">
-<persName>Трумф</persName>
 </person>
 </listPerson>
 </particDesc>
