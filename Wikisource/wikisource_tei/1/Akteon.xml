@@ -41,56 +41,56 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Hiale">
-<persName>Хиале</persName>
-</person>
-<person xml:id="Agava">
-<persName>Агава</persName>
-</person>
-<person xml:id="Tretij">
-<persName>Третий</persName>
-</person>
-<person xml:id="Ranis">
-<persName>Ранис</persName>
-</person>
-<person xml:id="GolosaOhotnits">
-<persName>Голоса охотниц</persName>
-</person>
-<person xml:id="Kadm">
-<persName>Кадм</persName>
-</person>
-<person xml:id="PervyjJunosha">
-<persName>Первый юноша</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="RanisIKrokale">
-<persName>Ранис и Крокале</persName>
-</person>
-<person xml:id="Ehion">
-<persName>Эхион</persName>
-</person>
 <person xml:id="Akteon">
 <persName>Актеон</persName>
 </person>
 <person xml:id="TretijJunosha">
 <persName>Третий юноша</persName>
 </person>
-<person xml:id="Diana">
-<persName>Диана</persName>
-</person>
-<person xml:id="VseTroe">
-<persName>Все трое</persName>
-</person>
 <person xml:id="VtorojJunosha">
 <persName>Второй юноша</persName>
+</person>
+<person xml:id="PervyjJunosha">
+<persName>Первый юноша</persName>
 </person>
 <person xml:id="Vtoroj">
 <persName>Второй</persName>
 </person>
+<person xml:id="GolosaOhotnits">
+<persName>Голоса охотниц</persName>
+</person>
 <person xml:id="Krokale">
 <persName>Крокале</persName>
+</person>
+<person xml:id="Ranis">
+<persName>Ранис</persName>
+</person>
+<person xml:id="VseTroe">
+<persName>Все трое</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="Ehion">
+<persName>Эхион</persName>
+</person>
+<person xml:id="Agava">
+<persName>Агава</persName>
+</person>
+<person xml:id="Hiale">
+<persName>Хиале</persName>
+</person>
+<person xml:id="Kadm">
+<persName>Кадм</persName>
+</person>
+<person xml:id="Diana">
+<persName>Диана</persName>
+</person>
+<person xml:id="RanisIKrokale">
+<persName>Ранис и Крокале</persName>
+</person>
+<person xml:id="Tretij">
+<persName>Третий</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -108,7 +108,6 @@
     </teiHeader>
     <text>
         <body>
-<p><div class='drama text'></p>
 </div>
 <div type="other">
 <head>Актеон</head>

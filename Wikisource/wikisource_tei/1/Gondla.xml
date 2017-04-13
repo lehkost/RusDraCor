@@ -41,32 +41,32 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Lera">
-<persName>Лера</persName>
-</person>
-<person xml:id="Snorre,GrubbeIAhti">
-<persName>Снорре, Груббе и Ахти</persName>
-</person>
-<person xml:id="Gondla">
-<persName>Гондла</persName>
-</person>
-<person xml:id="Konung">
-<persName>Конунг</persName>
+<person xml:id="Ahti">
+<persName>Ахти</persName>
 </person>
 <person xml:id="Grubbe">
 <persName>Груббе</persName>
 </person>
-<person xml:id="Ahti">
-<persName>Ахти</persName>
+<person xml:id="Snorre">
+<persName>Снорре</persName>
+</person>
+<person xml:id="Gondla">
+<persName>Гондла</persName>
+</person>
+<person xml:id="Snorre,GrubbeIAhti">
+<persName>Снорре, Груббе и Ахти</persName>
 </person>
 <person xml:id="Vozhd">
 <persName>Вождь</persName>
 </person>
-<person xml:id="Snorre">
-<persName>Снорре</persName>
+<person xml:id="Konung">
+<persName>Конунг</persName>
 </person>
 <person xml:id="Lage">
 <persName>Лаге</persName>
+</person>
+<person xml:id="Lera">
+<persName>Лера</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -84,7 +84,6 @@
     </teiHeader>
     <text>
         <body>
-<p><div class='drama text'></p>
 </div>
 <div type="other">
 <head>ГОНДЛА</head>
@@ -128,8 +127,6 @@
 <p>{{tr}} <stage>Рабы.</stage> {{td0|4}}</p>
 </div>
 <div type="act">
-<head>ДЕЙСТВИЕ ПЕРВОЕ</head>
-<div type="other">
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <stage>Широкий полутемный коридор рядом с пиршественной залой; несколько окон и дверь в спальню Леры. Поздно.</stage>
 </div>
@@ -626,8 +623,6 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ ВТОРОЕ</head>
-<div type="other">
-<head>ДЕЙСТВИЕ ВТОРОЕ</head>
 <stage>Двор замка, освещённый воткнутыми в стену факелами. Ночь ещё продолжается.</stage>
 </div>
 <div type="scene">
@@ -1032,8 +1027,6 @@
 </sp>
 </div>
 <div type="act">
-<head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
-<div type="other">
 <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
 <stage>Глухой лес. Июльский полдень.</stage>
 </div>
@@ -1566,8 +1559,6 @@
 </sp>
 </div>
 <div type="act">
-<head>ДЕЙСТВИЕ ЧЕТВЕРТОЕ</head>
-<div type="other">
 <head>ДЕЙСТВИЕ ЧЕТВЕРТОЕ</head>
 <stage>Лес на берегу моря. Большие утёсы. Вечер.</stage>
 </div>

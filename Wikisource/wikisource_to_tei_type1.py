@@ -67,8 +67,8 @@ for root, dirs, files in os.walk('./wikisource_raws/1_preprocessed/'):
                         if len(re.findall('\{\{razr2?\|(.*?)\}\}', line)) != 0:
                             castList.append(re.findall('\{\{razr2?\|(.*?)\}\}', line)[0])
                     '''
-                    if line.startswith('{{rem|') or line.startswith('{{Rem|'):
-                        stage = re.findall('\{\{[Rr]em\|(.*?)\}\} *\n', line)[0]
+                    if line.startswith('{{rem') or line.startswith('{{Rem'):
+                        stage = re.findall('\{\{[Rr]em2?\|(.*?)\}\} *\n', line)[0]
                         text_tei.write('<stage>' + stage + '</stage>\n')
                     if line == '\n' or line == '----\n':
                         pass
@@ -138,10 +138,10 @@ for root, dirs, files in os.walk('./wikisource_raws/1_preprocessed/'):
                         if 'действие' in line.lower():
                             act = re.findall('\=\= (.*?) \=\=', line)[0]
                             text_tei.write('<div type="act">\n<head>' + act + '</head>\n')
-                        if 'явление' in line.lower():
+                        elif 'явление' in line.lower():
                             scene = re.findall('\=\= (.*?) \=\=', line)[0]
                             text_tei.write('<div type="scene">\n<head>' + scene + '</head>\n')
-                        if 'сцена' in line.lower():
+                        elif 'сцена' in line.lower():
                             scene = re.findall('\=\= (.*?) \=\=', line)[0]
                             text_tei.write('<div type="scene">\n<head>' + scene + '</head>\n')
                         else:
@@ -151,6 +151,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1_preprocessed/'):
                         if poem:
                             if not line.startswith('{{Re|') and not line.startswith('{{re|')\
                                     and not line.startswith('{{rem|') and not line.startswith('{{Rem|')\
+                                    and not line.startswith('{{rem2|') and not line.startswith('{{Rem2|')\
                                     and not line.startswith('<h4>') and not line == '<poem>\n'\
                                     and not line.startswith('=='):
                                 if line == '----\n' or line == '<poem>\n':
@@ -166,6 +167,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1_preprocessed/'):
                         if not poem:
                             if not line.startswith('{{Re|') and not line.startswith('{{re|')\
                                     and not line.startswith('{{rem|') and not line.startswith('{{Rem|')\
+                                    and not line.startswith('{{rem2|') and not line.startswith('{{Rem2|')\
                                     and not line.startswith('<h4>') and not line.startswith('|')\
                                     and not line == '</poem>\n' and not line.lower().startswith('{{реплика'):
                                 '''
@@ -214,6 +216,8 @@ for root, dirs, files in os.walk('./wikisource_raws/1_preprocessed/'):
             text_tei_read = re.sub('</sp>\n<div', '</sp>\n</div>\n<div', text_tei_read)
             text_tei_read = re.sub('</stage>\n<div', '</stage>\n</div>\n<div', text_tei_read)
             text_tei_read = re.sub('</p>\n<div', '</p>\n</div>\n<div', text_tei_read)
+            text_tei_read = re.sub("<p><div class='drama text'></p>\n", '', text_tei_read)
+            text_tei_read = re.sub("<p>{\| class=personae</p>\n", '', text_tei_read)
             text_tei_read = re.sub('<ref.*?>.*?</ref>', '', text_tei_read)
             text_tei_read = re.sub('<author></author>', '<author>' + author + '</author>', text_tei_read)
             text_tei_read = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', text_tei_read)

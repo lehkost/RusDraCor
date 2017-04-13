@@ -41,95 +41,95 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="ChelovekSFakelom">
-<persName>Человек с факелом</persName>
-</person>
-<person xml:id="DochZodchego">
-<persName>Дочь Зодчего</persName>
-</person>
-<person xml:id="GolosNischego">
-<persName>Голос нищего</persName>
-</person>
-<person xml:id="Chernyj">
-<persName>Черный</persName>
-</person>
-<person xml:id="PervyjRabochij">
-<persName>Первый рабочий</persName>
-</person>
-<person xml:id="VtorojRabochij">
-<persName>Второй рабочий</persName>
-</person>
-<person xml:id="DrugieGolosa">
-<persName>Другие голоса</persName>
-</person>
-<person xml:id="GolosTretEgo">
-<persName>Голос Третьего</persName>
-</person>
-<person xml:id="DrugojRabochij">
-<persName>Другой рабочий</persName>
-</person>
-<person xml:id="TretijRabochij">
-<persName>Третий рабочий</persName>
-</person>
-<person xml:id="Junosha">
-<persName>Юноша</persName>
-</person>
-<person xml:id="ProdavschitsaRoz">
-<persName>Продавщица роз</persName>
+<person xml:id="Zolotoj">
+<persName>Золотой</persName>
 </person>
 <person xml:id="Rabochij">
 <persName>Рабочий</persName>
 </person>
-<person xml:id="VtorojIGolosTretEgo">
-<persName>Второй и голос Третьего</persName>
-</person>
-<person xml:id="GolosaVTolpe">
-<persName>Голоса в толпе</persName>
-</person>
-<person xml:id="Chej-ToGolos">
-<persName>Чей-то голос</persName>
-</person>
-<person xml:id="Zolotoj">
-<persName>Золотой</persName>
-</person>
-<person xml:id="Ona">
-<persName>Она</persName>
-</person>
-<person xml:id="Devushka">
-<persName>Девушка</persName>
-</person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
-</person>
-<person xml:id="ChelovekVChernom">
-<persName>Человек в черном</persName>
-</person>
 <person xml:id="Vtoroj">
 <persName>Второй</persName>
 </person>
-<person xml:id="OtdelNyePomerkshieGolosa">
-<persName>Отдельные померкшие голоса</persName>
-</person>
-<person xml:id="Shut">
-<persName>Шут</persName>
-</person>
-<person xml:id="Golosa">
-<persName>Голоса</persName>
-</person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="Nischaja">
-<persName>Нищая</persName>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
 </person>
 <person xml:id="MnogieGolosa">
 <persName>Многие голоса</persName>
 </person>
-<person xml:id="Zodchij">
-<persName>Зодчий</persName>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
+</person>
+<person xml:id="GolosTretEgo">
+<persName>Голос Третьего</persName>
+</person>
+<person xml:id="Nischaja">
+<persName>Нищая</persName>
 </person>
 <person xml:id="TotZheObydennyjGolos">
 <persName>Тот же обыденный голос</persName>
+</person>
+<person xml:id="GolosNischego">
+<persName>Голос нищего</persName>
+</person>
+<person xml:id="PervyjRabochij">
+<persName>Первый рабочий</persName>
+</person>
+<person xml:id="DrugieGolosa">
+<persName>Другие голоса</persName>
+</person>
+<person xml:id="DochZodchego">
+<persName>Дочь Зодчего</persName>
+</person>
+<person xml:id="Golosa">
+<persName>Голоса</persName>
+</person>
+<person xml:id="VtorojRabochij">
+<persName>Второй рабочий</persName>
+</person>
+<person xml:id="ChelovekSFakelom">
+<persName>Человек с факелом</persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="Zodchij">
+<persName>Зодчий</persName>
+</person>
+<person xml:id="TretijRabochij">
+<persName>Третий рабочий</persName>
+</person>
+<person xml:id="Chernyj">
+<persName>Черный</persName>
+</person>
+<person xml:id="Chej-ToGolos">
+<persName>Чей-то голос</persName>
+</person>
+<person xml:id="OtdelNyePomerkshieGolosa">
+<persName>Отдельные померкшие голоса</persName>
+</person>
+<person xml:id="VtorojIGolosTretEgo">
+<persName>Второй и голос Третьего</persName>
+</person>
+<person xml:id="ChelovekVChernom">
+<persName>Человек в черном</persName>
+</person>
+<person xml:id="Shut">
+<persName>Шут</persName>
+</person>
+<person xml:id="ProdavschitsaRoz">
+<persName>Продавщица роз</persName>
+</person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
+</person>
+<person xml:id="DrugojRabochij">
+<persName>Другой рабочий</persName>
+</person>
+<person xml:id="GolosaVTolpe">
+<persName>Голоса в толпе</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -147,7 +147,6 @@
     </teiHeader>
     <text>
         <body>
-<p><div class='drama text'></p>
 </div>
 <div type="other">
 <head>Король на площади</head>
@@ -199,8 +198,6 @@
 <stage>Шут садится верхом на рампу и закидывает удочку в оркестр. Во время действия его большею частью не видно за боковой занавесью — он появляется только в отдельных сценах.</stage>
 </div>
 <div type="act">
-<head>ПЕРВОЕ ДЕЙСТВИЕ</head>
-<div type="other">
 <head>ПЕРВОЕ ДЕЙСТВИЕ</head>
 <stage>УТРО</stage>
 <stage>Ночь борется с утром. Над берегом чуть видны в сумерках двое неизвестных. Первый — в черном — прислонился к белому камню дворца. Другой сидит на берегу. Третьего не видно: он где-то близко, и слышен только его голос — прерывистый и зловещий.</stage>
@@ -607,8 +604,6 @@
 <stage>Она бросает розы в воду. Юноша грустным взором следит за легкими движениями возлюбленной.</stage>
 </div>
 <div type="act">
-<head>ВТОРОЕ ДЕЙСТВИЕ</head>
-<div type="other">
 <head>ВТОРОЕ ДЕЙСТВИЕ</head>
 <stage>СРЕДИНА ДНЯ</stage>
 <stage>Та же декорация — только краски потускнели и линии сожжены зноем. Море неподвижно. Горизонт в пар_а_х. На площади немного гуляющих. Иногда проходят сторонкой рабочие и оборванцы.</stage>
@@ -1031,8 +1026,6 @@
 <stage>Обращается лицом к толпе. Она безмолвна и готова внимать его песням.</stage>
 </div>
 <div type="act">
-<head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
-<div type="other">
 <head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
 <stage>НОЧЬ</stage>
 <stage>Та же декорация. Вечереет. Свинцовые тучи бегут по небу. Издали доносится усиленный стук топоров. Через сцену, не переставая, идут люди к морю, огибая дворец. Жесты оживленные, глаза блестят; волнение достигло крайней степени. На всех лицах тревога и жадная надежда. Один из толпы останавливается и опирается на перила набережной. К нему присоединяется второй.</stage>

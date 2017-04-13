@@ -41,35 +41,38 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Oba">
-<persName>Оба</persName>
+<person xml:id="BlezIFilipp">
+<persName>Блез и Филипп</persName>
 </person>
-<person xml:id="Blez">
-<persName>Блез</persName>
+<person xml:id="ZhulEta,ZhanetaINineta">
+<persName>Жульета, Жанета и Нинета</persName>
 </person>
-<person xml:id="Graf">
-<persName>Граф</persName>
+<person xml:id="ZhulEtaINineta">
+<persName>Жульета и Нинета</persName>
 </person>
-<person xml:id="Muzhiki">
-<persName>Мужики</persName>
+<person xml:id="ZhanetaIPaulin">
+<persName>Жанета и Паулин</persName>
 </person>
-<person xml:id="Vse">
-<persName>Все</persName>
+<person xml:id="RabotnikiIDocheriBleza">
+<persName>Работники и дочери Блеза</persName>
+</person>
+<person xml:id="Vmeste">
+<persName>Вместе</persName>
 </person>
 <person xml:id="Zhaneta">
 <persName>Жанета</persName>
 </person>
-<person xml:id="BlezIFilipp">
-<persName>Блез и Филипп</persName>
+<person xml:id="Nineta">
+<persName>Нинета</persName>
 </person>
-<person xml:id="ZhulEta">
-<persName>Жульета</persName>
+<person xml:id="Paulin">
+<persName>Паулин</persName>
 </person>
-<person xml:id="ZhulEtaIZhaneta">
-<persName>Жульета и Жанета</persName>
+<person xml:id="Graf">
+<persName>Граф</persName>
 </person>
-<person xml:id="ZhulEtaINineta">
-<persName>Жульета и Нинета</persName>
+<person xml:id="Filipp">
+<persName>Филипп</persName>
 </person>
 <person xml:id="FilippIBlez">
 <persName>Филипп и Блез</persName>
@@ -77,32 +80,29 @@
 <person xml:id="ZhanetaINineta">
 <persName>Жанета и Нинета</persName>
 </person>
-<person xml:id="Paulin">
-<persName>Паулин</persName>
+<person xml:id="Vse">
+<persName>Все</persName>
 </person>
-<person xml:id="ZhulEta,ZhanetaINineta">
-<persName>Жульета, Жанета и Нинета</persName>
-</person>
-<person xml:id="Vmeste">
-<persName>Вместе</persName>
-</person>
-<person xml:id="Hor">
-<persName>Хор</persName>
-</person>
-<person xml:id="ZhanetaIPaulin">
-<persName>Жанета и Паулин</persName>
+<person xml:id="Muzhiki">
+<persName>Мужики</persName>
 </person>
 <person xml:id="Nineta,Graf">
 <persName>Нинета, граф</persName>
 </person>
-<person xml:id="RabotnikiIDocheriBleza">
-<persName>Работники и дочери Блеза</persName>
+<person xml:id="Hor">
+<persName>Хор</persName>
 </person>
-<person xml:id="Filipp">
-<persName>Филипп</persName>
+<person xml:id="Blez">
+<persName>Блез</persName>
 </person>
-<person xml:id="Nineta">
-<persName>Нинета</persName>
+<person xml:id="Oba">
+<persName>Оба</persName>
+</person>
+<person xml:id="ZhulEta">
+<persName>Жульета</persName>
+</person>
+<person xml:id="ZhulEtaIZhaneta">
+<persName>Жульета и Жанета</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -128,22 +128,15 @@
 <castItem>Жульета</castItem>
 <castItem>Филипп</castItem>
 </castList>
-<p><div class='drama text'></p>
 </div>
 <div type="other">
 <head>Сонный порошок или похищенная крестьянка</head>
 <stage><stage>Опера в трех действиях</stage></stage>
-<p>{| class=personae</p>
 <p>{| class=personae style="width:auto"</p>
-<p>{| class=personae</p>
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
-<div type="other">
-<head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <div type="scene">
-<head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
 <l><poem class=p1></l>
 <stage>Театр представляет деревню; на одной стороне дом Блеза, у дверей из дерев сделанная беседка, в которой стоит стол.</stage>
@@ -253,8 +246,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ВТОРОЕ</head>
 <stage>Прежние, <actor>Граф</actor> и <actor>Паулин</actor>, <actor>Блез</actor> и его дочери (говорят вместе).</stage>
 </sp>
 <sp who="#Blez">
@@ -330,8 +321,6 @@
 </sp>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
 <stage><actor>Граф</actor> и <actor>Паулин</actor>.</stage>
 </sp>
@@ -451,8 +440,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
 </sp>
 <sp who="#ZhulEta">
 <speaker>Жульета</speaker>
@@ -471,8 +458,6 @@
 </sp>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
 <stage><actor>Граф</actor>, <actor>Жульета</actor> и <actor>Паулин</actor>.</stage>
 </sp>
@@ -505,8 +490,6 @@
 <p>Так ты еще не догадываешься... ты еще не примечаешь, что...</p>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ШЕСТОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
 <stage>Прежние и <actor>Блез</actor>, а потом <actor>Филипп</actor>.</stage>
 </sp>
@@ -622,8 +605,6 @@
 <p>А я еще там его подщекочу! {{ремарка|Паулин идет к Блезу.}} </p>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
 <stage><actor>Граф</actor> и <actor>Жульета</actor>.</stage>
 </sp>
@@ -887,11 +868,7 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ ВТОРОЕ</head>
-<div type="other">
-<head>ДЕЙСТВИЕ ВТОРОЕ</head>
 <div type="scene">
-<head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
 <stage><actor>Паулин</actor>, <actor>Жанета</actor> (выходят из дома Блеза).</stage>
 </sp>
@@ -922,8 +899,6 @@
 <p>Вам не трудно его сыскать… он... вон сам идет. {{ремарка|Она входит к Блезу.}} </p>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
 <stage><actor>Граф</actor> и <actor>Паулин</actor>.</stage>
 </sp>
@@ -979,8 +954,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
 <stage><actor>Блез</actor>, <actor>Филипп</actor> (из дома).</stage>
 </sp>
 <sp who="#Filipp">
@@ -1028,8 +1001,6 @@
 </sp>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
 <stage><actor>Жульета</actor>, <actor>Филипп</actor> и <actor>Блез</actor>.</stage>
 </sp>
@@ -1157,8 +1128,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ПЯТОЕ</head>
 <stage><actor>Граф</actor>, <actor>Блез</actor> и <actor>Филипп</actor>.</stage>
 </sp>
 <sp who="#Blez">
@@ -1268,8 +1237,6 @@
 <p>Я запрещаю тебе, чтоб ты никак не смел грубить Жульете.</p>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ШЕСТОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
 <stage>Прежние и <actor>Паулин</actor> (тянет графа в сторону).</stage>
 </sp>
@@ -1752,11 +1719,7 @@
 </div>
 <div type="act">
 <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
-<div type="other">
-<head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
 <div type="scene">
-<head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
 <stage>Театр представляет залу в доме графа. <actor>Жульета</actor> сидит на софе и спит, в углу стоит туалет. И две женщины.</stage>
 </sp>
@@ -1812,8 +1775,6 @@
 </sp>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
 <stage><actor>Жульета</actor> и <actor>Граф</actor>.</stage>
 </sp>
@@ -1901,8 +1862,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
 <stage><actor>Паулин</actor>, <actor>Граф</actor> и <actor>Жульета</actor>.</stage>
 </sp>
 <sp who="#Paulin">
@@ -1922,8 +1881,6 @@
 <p>Войди, войди сюда, после этого несносного посещенья я тотчас к тебе приду.</p>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
 <stage><actor>Филипп</actor>, <actor>Граф</actor> и <actor>Паулин</actor>.</stage>
 <stage>Филипп одет деревенским бароном, смешным образом, в большом парике; входя в комнату, делает смешные поклоны и хочет казаться петиметром.</stage>
@@ -2013,8 +1970,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ПЯТОЕ</head>
 <stage><actor>Паулин</actor>, <actor>Граф</actor> и <actor>Филипп</actor>.</stage>
 </sp>
 <sp who="#Paulin">
@@ -2089,8 +2044,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ШЕСТОЕ</head>
 <stage><actor>Филипп</actor> и <actor>Жульета</actor>.</stage>
 </sp>
 <sp who="#Filipp">
@@ -2123,8 +2076,6 @@
 <p>Ясного нет ничего; я уверяю тебя...</p>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
 <stage><actor>Граф</actor>, <actor>Паулин</actor>, <actor>Жульета</actor> и <actor>Филипп</actor>.</stage>
 </sp>
@@ -2264,8 +2215,6 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВОСЬМОЕ</head>
-<div type="other">
-<head>ЯВЛЕНИЕ ВОСЬМОЕ</head>
 </sp>
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
@@ -2321,8 +2270,6 @@
 </sp>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
 <stage><actor>Жульета</actor> и <actor>Филипп</actor>.</stage>
 </sp>
@@ -2517,8 +2464,6 @@
 </sp>
 </div>
 <div type="scene">
-<head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
-<div type="other">
 <head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
 <stage><actor>Блез</actor>, <actor>Филипп</actor>, <actor>Жульета</actor>.</stage>
 </sp>
