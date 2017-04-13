@@ -79,9 +79,6 @@
           <person xml:id="Tsyfirkin">
             <persName> Цыфиркин </persName>
           </person>
-          <person xml:id="SkotininiobaProstakovy">
-            <persName> Скотинин и оба Простаковы </persName>
-          </person>
           <person xml:id="Kutejkin">
             <persName> Кутейкин </persName>
           </person>
@@ -651,7 +648,7 @@
               честностию состояние свое сделать можно. Сими средствами, с помощию счастия, нажил я
               десять тысяч рублей доходу...» </p>
           </sp>
-          <sp who="#SkotininiobaProstakovy">
+          <sp who="#Skotinin #G-zhaProstakova #Prostakov">
             <speaker> Скотинин и оба Простаковы </speaker>
             <p> . Десять тысяч! </p>
           </sp>
