@@ -3,8 +3,8 @@ import xml.etree.ElementTree as ET
 from os import walk
 
 
-infolder = '../ilibrary/TEI_OrdinaryV1' ##'../feb-web'
-outfolder =  '../ilibrary/CSV_OrdinaryV1/'## '../feb-web_csv'
+infolder = '../TEI/ilibrary/' 
+outfolder =  '../CSV/ilibrary_csv/'
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -29,37 +29,21 @@ def nodestoedges (nodeset, edgeslist):
                     tempedgeset.add (edgeasstring)
 
 
-## parse a list of speeches (<sp>) and add all values of @who to 
+## parse a list of speeches (<sp>) and add all values of @who to the set of nodes to be connected
 def getnodes (speeches):
     
     nodes_to_connect = set()
     for sp in speeches:
-        #print (sp.tag)
-        #print (sp.attrib)
-        #print (sp.attrib['who'])
+
         if 'who' in sp.attrib:
-            speaker = re.sub ('\#','',sp.attrib['who'])
-            nodes_to_connect.add(speaker)
+            #speaker = re.sub ('\#','',sp.attrib['who'])
+            speakers = re.sub ('\#','',sp.attrib['who'])
+            splitspeakers = speakers.split(' ')
+            for speaker in splitspeakers:
+                nodes_to_connect.add(speaker)
     
-    #print ('nodes_to_connect in getnodes')
-    #print (nodes_to_connect)
+
     return nodes_to_connect
-            
-        
-##def parsediv(div):
-##    speeches = div.findall ('tei:sp', ns)
-##    if len (speeches) > 0:
-##        #print (len(speeches))
-##        #print ('launch get nodes')
-##        nodes_in_this_div = getnodes(speeches)
-##        #print ('nodes_to_connect in parsediv')
-##        #print (nodes_in_this_div)
-##        return nodes_in_this_div
-##    else:
-##        subdivs = div.findall ('tei:div', ns)
-##        if len (subdivs) >0:
-##            for subdiv in subdivs:
-##                parsediv(subdiv)
 
 
 def parsedivs (divs, allfilelinks):
