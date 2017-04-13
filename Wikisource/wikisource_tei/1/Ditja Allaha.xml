@@ -5,7 +5,7 @@
             <titleStmt>
                 <title type="main">Дитя Аллаха</title>
                 <title type="sub"></title>
-                <author></author>
+                <author>Николай Степанович Гумилёв</author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="RusDraCor">RusDraCor</publisher>
@@ -41,26 +41,23 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="2-JEvnuh">
-<persName>2-й евнух</persName>
+<person xml:id="Beduin">
+<persName>Бедуин</persName>
+</person>
+<person xml:id="Sindbad">
+<persName>Синдбад</persName>
+</person>
+<person xml:id="Rab">
+<persName>Раб</persName>
+</person>
+<person xml:id="Staruha">
+<persName>Старуха</persName>
 </person>
 <person xml:id="Glashataj">
 <persName>Глашатай</persName>
 </person>
-<person xml:id="Beduin">
-<persName>Бедуин</persName>
-</person>
-<person xml:id="SynKalifa">
-<persName>Сын Калифа</persName>
-</person>
-<person xml:id="Peri">
-<persName>Пери</persName>
-</person>
-<person xml:id="Shejh">
-<persName>Шейх</persName>
-</person>
-<person xml:id="Sindbad">
-<persName>Синдбад</persName>
+<person xml:id="Kadi">
+<persName>Кади</persName>
 </person>
 <person xml:id="Iskander">
 <persName>Искандер</persName>
@@ -68,8 +65,11 @@
 <person xml:id="Kalif">
 <persName>Калиф</persName>
 </person>
-<person xml:id="Pirat">
-<persName>Пират</persName>
+<person xml:id="Angel">
+<persName>Ангел</persName>
+</person>
+<person xml:id="Peri">
+<persName>Пери</persName>
 </person>
 <person xml:id="1-JEvnuh">
 <persName>1-й евнух</persName>
@@ -77,29 +77,29 @@
 <person xml:id="Ptitsy">
 <persName>Птицы</persName>
 </person>
+<person xml:id="Astrolog">
+<persName>Астролог</persName>
+</person>
+<person xml:id="2-JEvnuh">
+<persName>2-й евнух</persName>
+</person>
+<person xml:id="Pirat">
+<persName>Пират</persName>
+</person>
 <person xml:id="Dervish">
 <persName>Дервиш</persName>
 </person>
-<person xml:id="Rab">
-<persName>Раб</persName>
+<person xml:id="Shejh">
+<persName>Шейх</persName>
 </person>
 <person xml:id="Junosha">
 <persName>Юноша</persName>
 </person>
-<person xml:id="Astrolog">
-<persName>Астролог</persName>
-</person>
-<person xml:id="Staruha">
-<persName>Старуха</persName>
-</person>
-<person xml:id="Angel">
-<persName>Ангел</persName>
+<person xml:id="SynKalifa">
+<persName>Сын Калифа</persName>
 </person>
 <person xml:id="Gafiz">
 <persName>Гафиз</persName>
-</person>
-<person xml:id="Kadi">
-<persName>Кади</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -125,7 +125,7 @@
 <stage>Пустыня. Закат солнца.</stage>
 </sp>
 <sp who="#Dervish">
-<speaker>Дервиш</speaker><stage type="delivery">молится</stage>
+<speaker>Дервиш</speaker> <stage type="delivery">(молится)</stage>
 <l>Благословен Аллах, создавший</l>
 <l>Солнцеворот с зимой и летом</l>
 <l>И в мраке ночи указавший</l>
@@ -144,7 +144,7 @@
 <l>Мир, утопающий в грехах.</l>
 </sp>
 <sp who="#Peri">
-<speaker>Пери</speaker><stage type="delivery">входит</stage>
+<speaker>Пери</speaker> <stage type="delivery">(входит)</stage>
 <l>Ты — дервиш, первый в нашей вере?</l>
 <l>Ты сыплешь мудрость, как цветы?</l>
 </sp>
@@ -218,7 +218,7 @@
 <speaker>Пери</speaker>
 <l>Твоих щедрот я не забуду,</l>
 <l>Благодарю тебя, отец.</l>
-<stage>Дервиш передаёт единорога и кольцо, сам удаляется; проходят верблюды, на одном сидит юноша, рядом идет раб</stage>
+<stage>(Дервиш передаёт единорога и кольцо, сам удаляется; проходят верблюды, на одном сидит юноша, рядом идет раб)</stage>
 </sp>
 <sp who="#Junosha">
 <speaker>Юноша</speaker>
@@ -304,7 +304,7 @@
 <sp who="#Junosha">
 <speaker>Юноша</speaker>
 <l>Ответь мне, милая, ну, что же?</l>
-<stage>Рабу</stage>
+<stage>(Рабу)</stage>
 <l>Дурак, конечно приготовь!</l>
 </sp>
 <sp who="#Peri">
@@ -313,10 +313,10 @@
 <l>Мне кажется, что я люблю…</l>
 <l>Я белому единорогу</l>
 <l>Передаю судьбу мою.</l>
-<stage>Единорог убивает юношу</stage>
+<stage>(Единорог убивает юношу)</stage>
 </sp>
 <sp who="#Junosha">
-<speaker>Юноша</speaker><stage type="delivery">умирая</stage>
+<speaker>Юноша</speaker> <stage type="delivery">(умирая)</stage>
 <l>Жестокая, я умираю!</l>
 <l>И странный звон, и всё в огне…</l>
 <l>Уйди, тебя я проклинаю!</l>
@@ -328,7 +328,7 @@
 <l>Глаза погасли, кровь течёт…</l>
 <l>Ах, этого ли я хотела?</l>
 <l>Я думала ль, что он умрёт?</l>
-<stage>Раб уносит труп; появляется бедуин на коне</stage>
+<stage>(Раб уносит труп; появляется бедуин на коне)</stage>
 </sp>
 <sp who="#Beduin">
 <speaker>Бедуин</speaker>
@@ -347,7 +347,7 @@
 <l>Война — единый мой закон.</l>
 </sp>
 <sp who="#Peri">
-<speaker>Пери</speaker><stage type="delivery">про себя</stage>
+<speaker>Пери</speaker> <stage type="delivery">(про себя)</stage>
 <l>Быть может, он меня достоин:</l>
 <l>Он горд, отважен и силён.</l>
 </sp>
@@ -394,7 +394,7 @@
 <speaker>Бедуин</speaker>
 <l part="F"> Он тоже</l>
 <l>Окровавленный упадёт.</l>
-<stage>Появляется Искандер</stage>
+<stage>(Появляется Искандер)</stage>
 </sp>
 <sp who="#Iskander">
 <speaker>Искандер</speaker>
@@ -428,7 +428,7 @@
 <speaker>Бедуин</speaker>
 <l>Я посмотрю, как умирают</l>
 <l>Второю смертью мертвецы.</l>
-<stage>Бьются. Бедуин падает</stage>
+<stage>(Бьются. Бедуин падает)</stage>
 </sp>
 <sp who="#Peri">
 <speaker>Пери</speaker>
@@ -440,7 +440,7 @@
 <l>Последний я, как он теперь.</l>
 <l>В грязи живущая собака</l>
 <l>Нас двух достойнее, поверь.</l>
-<stage>Уходит, унося труп</stage>
+<stage>(Уходит, унося труп)</stage>
 </sp>
 <sp who="#Peri">
 <speaker>Пери</speaker>
@@ -448,7 +448,7 @@
 <l>И вот его уносят тело…</l>
 <l>Ужели вестницей несчастий</l>
 <l>Я в этот странный мир слетела?..</l>
-<stage>Появляется охота; пролетают сокола, пробегают гепарды, выезжают халиф и астролог</stage>
+<stage>(Появляется охота; пролетают сокола, пробегают гепарды, выезжают халиф и астролог)</stage>
 </sp>
 <sp who="#Kalif">
 <speaker>Калиф</speaker>
@@ -513,7 +513,7 @@
 <sp who="#Peri">
 <speaker>Пери</speaker>
 <l>Я повинуюсь и люблю.</l>
-<stage>Появляется единорог</stage>
+<stage>(Появляется единорог)</stage>
 </sp>
 <sp who="#Astrolog">
 <speaker>Астролог</speaker>
@@ -526,7 +526,7 @@
 <sp who="#Peri">
 <speaker>Пери</speaker>
 <l>Уйди, ужасный зверь, не тронь!</l>
-<stage>Единорог склоняется перед конём калифа</stage>
+<stage>(Единорог склоняется перед конём калифа)</stage>
 </sp>
 <sp who="#Astrolog">
 <speaker>Астролог</speaker>
@@ -571,7 +571,7 @@
 <sp who="#Peri">
 <speaker>Пери</speaker>
 <l>Старик, быть может, молвил ложь…</l>
-<stage>Передаёт кольцо калифу; тот падает</stage>
+<stage>(Передаёт кольцо калифу; тот падает)</stage>
 </sp>
 <sp who="#Peri">
 <speaker>Пери</speaker>
@@ -582,7 +582,7 @@
 <speaker>Астролог</speaker>
 <l>Я от наследника, наверно,</l>
 <l>Подарок новый получу.</l>
-<stage>Уносит труп</stage>
+<stage>(Уносит труп)</stage>
 </sp>
 <sp who="#Peri">
 <speaker>Пери</speaker>
@@ -598,7 +598,7 @@
 <l>Не говорить, краснея, ложь…</l>
 </sp>
 <sp who="#Dervish">
-<speaker>Дервиш</speaker><stage type="delivery">входя</stage>
+<speaker>Дервиш</speaker> <stage type="delivery">(входя)</stage>
 <l>Вставай, иди за мной без страна,</l>
 <l>Ты всё поймёшь и всё найдёшь.</l>
 </sp>
@@ -624,7 +624,7 @@
 <l>Твоим безжалостным врагам,</l>
 <l>Их оскорбленьям, их обидам,</l>
 <l>На муку горькую и срам.</l>
-<stage>Проходят старуха и кади</stage>
+<stage>(Проходят старуха и кади)</stage>
 </sp>
 <sp who="#Staruha">
 <speaker>Старуха</speaker>
@@ -651,7 +651,7 @@
 <l>А я пойду к нему на пир.</l>
 </sp>
 <sp who="#Dervish">
-<speaker>Дервиш</speaker><stage type="delivery">старухе</stage>
+<speaker>Дервиш</speaker> <stage type="delivery">(старухе)</stage>
 <l>О, госпожа моя, слетела</l>
 <l>Печаль на блеск твоих седин,</l>
 <l>Как птица хищная.</l>
@@ -730,7 +730,7 @@
 <l>Ты крепок, как орешек твёрдый…</l>
 </sp>
 <sp who="#Kadi">
-<speaker>Кади</speaker><stage type="delivery">отступая</stage>
+<speaker>Кади</speaker> <stage type="delivery">(отступая)</stage>
 <l>О нет! Я много перенёс.</l>
 </sp>
 <sp who="#Staruha">
@@ -738,7 +738,7 @@
 <l>Как роза, пышет нос твой гордый…</l>
 </sp>
 <sp who="#Kadi">
-<speaker>Кади</speaker><stage type="delivery">отступая</stage>
+<speaker>Кади</speaker> <stage type="delivery">(отступая)</stage>
 <l>Мой нос — обыкновенный нос.</l>
 </sp>
 <sp who="#Staruha">
@@ -746,7 +746,7 @@
 <l>Я хороша?</l>
 </sp>
 <sp who="#Kadi">
-<speaker>Кади</speaker><stage type="delivery">отступая</stage>
+<speaker>Кади</speaker> <stage type="delivery">(отступая)</stage>
 <l part="F"> Была когда-то.</l>
 </sp>
 <sp who="#Staruha">
@@ -754,7 +754,7 @@
 <l>И взор мой светится.</l>
 </sp>
 <sp who="#Kadi">
-<speaker>Кади</speaker><stage type="delivery">отступая</stage>
+<speaker>Кади</speaker> <stage type="delivery">(отступая)</stage>
 <l part="F"> Бог с ним!</l>
 </sp>
 <sp who="#Staruha">
@@ -762,14 +762,14 @@
 <l>О кади, кади, я богата…</l>
 </sp>
 <sp who="#Kadi">
-<speaker>Кади</speaker><stage type="delivery">останавливается</stage>
+<speaker>Кади</speaker> <stage type="delivery">(останавливается)</stage>
 <l>Мы после переговорим.</l>
 </sp>
 <sp who="#Dervish">
 <speaker>Дервиш</speaker>
 <l>О мёртвом вспомни, дочь позора!</l>
 <l>Святая месть зовёт теперь.</l>
-<stage>Указывая на пери</stage>
+<stage>(Указывая на пери)</stage>
 <l>Ты видишь девушку, которой</l>
 <l>Повиновался дикий зверь.</l>
 </sp>
@@ -785,9 +785,9 @@
 <l>Страшна злодейке будет кара,</l>
 <l>Клянусь моею бородой:</l>
 <l>Пятьсот три палочных удара,</l>
-<stage>В сторону</stage>
+<stage>(В сторону)</stage>
 <l>А перед казнью ночь со мной.</l>
-<stage>Появляется шейх</stage>
+<stage>(Появляется шейх)</stage>
 </sp>
 <sp who="#Dervish">
 <speaker>Дервиш</speaker>
@@ -851,7 +851,7 @@
 <speaker>Шейх</speaker>
 <l>Я — шейх пустыни и не смею</l>
 <l>С тобою, жирным, говорить!</l>
-<stage>Бьёт его. Кади и старуха убегают</stage>
+<stage>(Бьёт его. Кади и старуха убегают)</stage>
 <l>Но что я буду делать с нею?</l>
 <l>Я не могу её убить.</l>
 <l>На шею девушек прекрасных</l>
@@ -875,7 +875,7 @@
 <sp who="#Dervish">
 <speaker>Дервиш</speaker>
 <l>О, господин мой!</l>
-<stage>Появляется пират</stage>
+<stage>(Появляется пират)</stage>
 </sp>
 <sp who="#Shejh">
 <speaker>Шейх</speaker>
@@ -935,7 +935,7 @@
 <speaker>Шейх</speaker>
 <l part="F"> Духи мрака!</l>
 <l>Бери за двести, всё равно.</l>
-<stage>Сын калифа появляется на террасе</stage>
+<stage>(Сын калифа появляется на террасе)</stage>
 </sp>
 <sp who="#Dervish">
 <speaker>Дервиш</speaker>
@@ -1030,7 +1030,7 @@
 <l>Ведите девушку сюда,</l>
 <l>Кто с ней, тех на кол, да смотрите,</l>
 <l>Вы ей не сделайте вреда.</l>
-<stage>Два евнуха сбегают с террасы</stage>
+<stage>(Два евнуха сбегают с террасы)</stage>
 </sp>
 <sp who="#Pirat">
 <speaker>Пират</speaker>
@@ -1042,7 +1042,7 @@
 <speaker>Шейх</speaker>
 <l part="F"> Товарищ, руку!</l>
 <l>И я вчера убил купца.</l>
-<stage>Убегают. Стража уводит Пери</stage>
+<stage>(Убегают. Стража уводит Пери)</stage>
 </sp>
 <sp who="#Dervish">
 <speaker>Дервиш</speaker>
@@ -1050,7 +1050,7 @@
 <l>И что скажу Царю Высот,</l>
 <l>Когда мне вверенная Пери</l>
 <l>Позорной смертию умрёт?</l>
-<stage>К сыну калифа</stage>
+<stage>(К сыну калифа)</stage>
 <l>Скажи, что сделаешь ты с нею,</l>
 <l>Не слишком будешь ли суров?</l>
 </sp>
@@ -1073,7 +1073,7 @@
 <l>Мой суд и благ и справедлив:</l>
 <l>Её тотчас же бросят в воду,</l>
 <l>И будет отомщён калиф.</l>
-<stage>Скрывается. Появляется Синдбад</stage>
+<stage>(Скрывается. Появляется Синдбад)</stage>
 </sp>
 <sp who="#Sindbad">
 <speaker>Синдбад</speaker>
@@ -1097,7 +1097,7 @@
 <l>О, сладкий запах чеснока!</l>
 <l>Смеются губы, сердце радо,</l>
 <l>Для всех щедра моя рука.</l>
-<stage>Евнухи выводят Пери; появляется глашатай</stage>
+<stage>(Евнухи выводят Пери; появляется глашатай)</stage>
 </sp>
 <sp who="#Glashataj">
 <speaker>Глашатай</speaker>
@@ -1105,7 +1105,7 @@
 <l>Синдбад вернулся наконец!</l>
 <l>Идите все на пир Синдбада,</l>
 <l>Во вновь отстроенный дворец!</l>
-<stage>Уходит</stage>
+<stage>(Уходит)</stage>
 </sp>
 <sp who="#1-Jevnuh">
 <speaker>1-й евнух</speaker>
@@ -1119,7 +1119,7 @@
 <speaker>1-й евнух</speaker>
 <l>А птичьи головы в томате!</l>
 <l>А бадиджаны, рис в меду!</l>
-<stage>Убегает; пробегают Кади и старуха</stage>
+<stage>(Убегает; пробегают Кади и старуха)</stage>
 </sp>
 <sp who="#Kadi">
 <speaker>Кади</speaker>
@@ -1130,7 +1130,7 @@
 <speaker>Старуха</speaker>
 <l>С собой привёз он исполинов,</l>
 <l>Один особенно урод.</l>
-<stage>Пробегают; появляются шейх и пират</stage>
+<stage>(Пробегают; появляются шейх и пират)</stage>
 </sp>
 <sp who="#Pirat">
 <speaker>Пират</speaker>
@@ -1142,7 +1142,7 @@
 <l part="F"> Всё равно!</l>
 <l>Скорей! Там всех рабынь поделят</l>
 <l>И выпьют лучшее вино.</l>
-<stage>Уходят; появляются сын калифа и астролог</stage>
+<stage>(Уходят; появляются сын калифа и астролог)</stage>
 </sp>
 <sp who="#Synkalifa">
 <speaker>Сын Калифа</speaker>
@@ -1152,12 +1152,12 @@
 <sp who="#Astrolog">
 <speaker>Астролог</speaker>
 <l>Я просветлю вином мой разум.</l>
-<stage>Проходят</stage>
+<stage>(Проходят)</stage>
 </sp>
 <sp who="#2-Jevnuh">
 <speaker>2-й евнух</speaker>
 <l>Пожалуй, побегу и я.</l>
-<stage>Убегает</stage>
+<stage>(Убегает)</stage>
 </sp>
 <sp who="#Dervish">
 <speaker>Дервиш</speaker>
@@ -1192,7 +1192,7 @@
 <l>Цветок Граната, Блеск Зарницы,</l>
 <l>Дух Мускуса, я буду петь,</l>
 <l>А вы мне отвечайте, птицы.</l>
-<stage>Поёт</stage>
+<stage>(Поёт)</stage>
 <l>Фазанокрылый, знойный шар</l>
 <l>Зажёг пожар в небесных долах.</l>
 </sp>
@@ -1270,7 +1270,7 @@
 <speaker>Птицы</speaker>
 <l>Его обрадовано сердце,</l>
 <l>Фазанокрылый знойный шар.</l>
-<stage>Входят Пери и дервиш</stage>
+<stage>(Входят Пери и дервиш)</stage>
 </sp>
 <sp who="#Peri">
 <speaker>Пери</speaker>
@@ -1300,7 +1300,7 @@
 <l>Аллах — защитник пришлеца.</l>
 </sp>
 <sp who="#Gafiz">
-<speaker>Гафиз</speaker><stage type="delivery">оборачивается</stage>
+<speaker>Гафиз</speaker> <stage type="delivery">(оборачивается)</stage>
 <l>Входите и садитесь оба.</l>
 <l>Ты плачешь, девушка? О чём?</l>
 <l>В саду Гафиза слёз не надо,</l>
@@ -1337,7 +1337,7 @@
 <l>С лицом нежнее гиацинта.</l>
 </sp>
 <sp who="#Gafiz">
-<speaker>Гафиз</speaker><stage type="delivery">читает заклинание</stage>
+<speaker>Гафиз</speaker> <stage type="delivery">(читает заклинание)</stage>
 <l>Крыло лучей, в стекло ночей</l>
 <l>Ударь, ударь, стекло, разбейся!</l>
 <l>Алмазный свет, сапфирный свет</l>
@@ -1346,13 +1346,13 @@
 <l>Я алконостом вещим кличу:</l>
 <l>Отдай мне юношу-цветок,</l>
 <l>О ночь, отдай свою добычу!</l>
-<stage>Появляется юноша с крылатой девушкой Эль-Анка</stage>
+<stage>(Появляется юноша с крылатой девушкой Эль-Анка)</stage>
 </sp>
 <sp who="#Junosha">
 <speaker>Юноша</speaker>
 <l>Никто не разлучит нас двух,</l>
 <l>Эль-Анка, дева-совершенство!</l>
-<stage>К Гафизу</stage>
+<stage>(К Гафизу)</stage>
 <l>Напрасно ты мой вырвал дух</l>
 <l>Из белоснежных рук блаженства.</l>
 </sp>
@@ -1377,7 +1377,7 @@
 <l>Восторги дальних преисподних.</l>
 </sp>
 <sp who="#Gafiz">
-<speaker>Гафиз</speaker><stage type="delivery">указывая на пери</stage>
+<speaker>Гафиз</speaker> <stage type="delivery">(указывая на пери)</stage>
 <l>Скажи, о ней жалеешь ты?</l>
 </sp>
 <sp who="#Junosha">
@@ -1389,7 +1389,7 @@
 <l>Пускай увидят чужестранцы</l>
 <l>В лучах сверкающий рубин,</l>
 <l>Твои пленительные танцы.</l>
-<stage>Эль-Анка танцует</stage>
+<stage>(Эль-Анка танцует)</stage>
 </sp>
 <sp who="#Peri">
 <speaker>Пери</speaker>
@@ -1413,7 +1413,7 @@
 <sp who="#Gafiz">
 <speaker>Гафиз</speaker>
 <l part="F"> Иди.</l>
-<stage>Юноша и Эль-Анка уходят</stage>
+<stage>(Юноша и Эль-Анка уходят)</stage>
 <l part="F"> Один,</l>
 <l>Сама ты видела, доволен.</l>
 </sp>
@@ -1423,7 +1423,7 @@
 <l>В аду и мукой ада болен.</l>
 </sp>
 <sp who="#Gafiz">
-<speaker>Гафиз</speaker><stage type="delivery">читает заклинание</stage>
+<speaker>Гафиз</speaker> <stage type="delivery">(читает заклинание)</stage>
 <l>Пади расплавленным свинцом,</l>
 <l>Моя отточенная воля,</l>
 <l>В страну, забытую Творцом,</l>
@@ -1432,7 +1432,7 @@
 <l>Где опрокинулась долина,</l>
 <l>Иди и приведи сюда</l>
 <l>Неистового бедуина!</l>
-<stage>Появляется бедуин</stage>
+<stage>(Появляется бедуин)</stage>
 </sp>
 <sp who="#Beduin">
 <speaker>Бедуин</speaker>
@@ -1486,7 +1486,7 @@
 <l>А смерть светла и величава,</l>
 <l>Чтобы моя везде прошла,</l>
 <l>Как знамена Омара, слава.</l>
-<stage>Скрывается</stage>
+<stage>(Скрывается)</stage>
 </sp>
 <sp who="#Gafiz">
 <speaker>Гафиз</speaker>
@@ -1499,7 +1499,7 @@
 <l>Лишённый царства с жизнью милой?</l>
 </sp>
 <sp who="#Gafiz">
-<speaker>Гафиз</speaker><stage type="delivery">читает заклинание</stage>
+<speaker>Гафиз</speaker> <stage type="delivery">(читает заклинание)</stage>
 <l>Живое слово, устремись</l>
 <l>Туда, где зарожденье слова,</l>
 <l>Ни внутрь, ни вглубь, ни вширь, а ввысь,</l>
@@ -1508,7 +1508,7 @@
 <l>Как гриф бросается на грифа,</l>
 <l>Пускай из звёздно-синих недр</l>
 <l>Сойдет на землю дух калифа!</l>
-<stage>Появляется ангел</stage>
+<stage>(Появляется ангел)</stage>
 <l>Как! Ангел смерти!</l>
 </sp>
 <sp who="#Peri">
@@ -1543,7 +1543,7 @@
 <l>Их распевать заставь поэта,</l>
 <l>Чтоб знали люди, как Господь</l>
 <l>Взыскал потомка Магомета.</l>
-<stage>Скрывается</stage>
+<stage>(Скрывается)</stage>
 </sp>
 <sp who="#Peri">
 <speaker>Пери</speaker>
@@ -1562,7 +1562,7 @@
 <l>Я в сердце сладостно ужален.</l>
 <l>О пери, пожалей меня,</l>
 <l>Я счастлив был, а стал печален.</l>
-<stage>Поет</stage>
+<stage>(Поет)</stage>
 <l>Твои глаза как два агата, пери!</l>
 <l>Твои уста красней граната, пери!</l>
 <l>Прекрасней нет от древнего Китая</l>
@@ -1579,7 +1579,7 @@
 <l>Что скажешь, то исполню свято, пери.</l>
 </sp>
 <sp who="#Peri">
-<speaker>Пери</speaker><stage type="delivery">поет</stage>
+<speaker>Пери</speaker> <stage type="delivery">(поет)</stage>
 <l>Зачем печально так поёт Гафиз?</l>
 <l>Иль даром мудрецом слывёт Гафиз?</l>
 <l>Какую девушку не опьянит</l>
@@ -1609,7 +1609,7 @@
 <speaker>Гафиз</speaker>
 <l part="F"> Какой ужасный гам</l>
 <l>Вдруг подняли смешные птицы!</l>
-<stage>Подлетает птица</stage>
+<stage>(Подлетает птица)</stage>
 <l>Ты что, Гранатовый Цветок?</l>
 </sp>
 <sp who="#Ptitsy">
@@ -1629,7 +1629,7 @@
 <l>К тому же он кольцо достал,</l>
 <l>Потерянное мной когда-то.</l>
 <l>Но тише, будет торжества!</l>
-<stage>К дервишу</stage>
+<stage>(К дервишу)</stage>
 <l>Ты говорил об испытаньи,</l>
 <l>Отец?</l>
 </sp>
@@ -1637,10 +1637,10 @@
 <speaker>Дервиш</speaker>
 <l part="F"> Забудь мои слова,</l>
 <l>Целую след твой на прощанье.</l>
-<stage>Уходит</stage>
+<stage>(Уходит)</stage>
 </sp>
 <sp who="#Gafiz">
-<speaker>Гафиз</speaker><stage type="delivery">к Пери</stage>
+<speaker>Гафиз</speaker> <stage type="delivery">(к Пери)</stage>
 <l>Ты словно слиток золотой,</l>
 <l>Расплавленный в шумящих горнах,</l>
 <l>И грудь под лёгкой пеленой</l>
@@ -1657,8 +1657,6 @@
 <l>Ты пламя, жгущее цветы,</l>
 <l>И ты возьмёшь меня, о милый!</l>
 <stage><stage>Занавес</stage></stage>
-<l><center><stage>Занавес</stage></center></l>
-<p></poem></p>
 </body>
 </text>
 </TEI>

@@ -5,7 +5,7 @@
             <titleStmt>
                 <title type="main">Гондла</title>
                 <title type="sub"></title>
-                <author></author>
+                <author>Николай Степанович Гумилёв</author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="RusDraCor">RusDraCor</publisher>
@@ -41,32 +41,32 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Snorre">
-<persName>Снорре</persName>
-</person>
-<person xml:id="Grubbe">
-<persName>Груббе</persName>
-</person>
-<person xml:id="Snorre,GrubbeIAhti">
-<persName>Снорре, Груббе и Ахти</persName>
-</person>
 <person xml:id="Konung">
 <persName>Конунг</persName>
-</person>
-<person xml:id="Lera">
-<persName>Лера</persName>
 </person>
 <person xml:id="Gondla">
 <persName>Гондла</persName>
 </person>
+<person xml:id="Lera">
+<persName>Лера</persName>
+</person>
 <person xml:id="Lage">
 <persName>Лаге</persName>
+</person>
+<person xml:id="Vozhd">
+<persName>Вождь</persName>
 </person>
 <person xml:id="Ahti">
 <persName>Ахти</persName>
 </person>
-<person xml:id="Vozhd">
-<persName>Вождь</persName>
+<person xml:id="Snorre">
+<persName>Снорре</persName>
+</person>
+<person xml:id="Snorre,GrubbeIAhti">
+<persName>Снорре, Груббе и Ахти</persName>
+</person>
+<person xml:id="Grubbe">
+<persName>Груббе</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -342,7 +342,7 @@
 </div>
 <div type="scene">
 <head>Сцена третья</head>
-<stage>Входят {{razr2|Гондла и Лера}}.</stage>
+<stage>Входят <actor>Гондла и Лера</actor>.</stage>
 </sp>
 <sp who="#Gondla">
 <speaker>Гондла</speaker>
@@ -475,7 +475,7 @@
 </div>
 <div type="scene">
 <head>Сцена четвертая</head>
-<stage>{{razr2|Гондла и Ахти}}</stage>
+<stage><actor>Гондла и Ахти</actor></stage>
 </sp>
 <sp who="#Ahti">
 <speaker>Ахти</speaker>
@@ -492,7 +492,7 @@
 <l>Я срывался, а ты хохотал.</l>
 </sp>
 <sp who="#Ahti">
-<speaker>Ахти</speaker><stage type="delivery">смеётся</stage>
+<speaker>Ахти</speaker> <stage type="delivery">(смеётся)</stage>
 <l>Это Лаге.</l>
 </sp>
 <sp who="#Gondla">
@@ -563,7 +563,7 @@
 <l>Что земля хороша и свята,</l>
 <l>Что она — золотое преддверье</l>
 <l>Огнезарного Дома Христа.</l>
-<stage>Как бы очнувшись</stage>
+<stage>(Как бы очнувшись)</stage>
 <l>Ты просил о какой-то услуге?</l>
 </sp>
 <sp who="#Ahti">
@@ -575,7 +575,7 @@
 </div>
 <div type="scene">
 <head>Сцена пятая</head>
-<stage>{{razr2|Гондла, Лера, Снорре, Груббе, Лаге, Ахти}}.</stage>
+<stage><actor>Гондла, Лера, Снорре, Груббе, Лаге, Ахти</actor>.</stage>
 </sp>
 <sp who="#Lage">
 <speaker>Лаге</speaker>
@@ -627,7 +627,7 @@
 </div>
 <div type="scene">
 <head>Сцена первая</head>
-<stage><actor>Конунг</actor> сидит в креслах; по обе стороны от него {{razr2|Снорре и Груббе}}; напротив {{razr2|Лаге и Ахти}}, и отдельно от них {{razr2|Гондла}}.</stage>
+<stage><actor>Конунг</actor> сидит в креслах; по обе стороны от него <actor>Снорре и Груббе</actor>; напротив <actor>Лаге и Ахти</actor>, и отдельно от них <actor>Гондла</actor>.</stage>
 </sp>
 <sp who="#Konung">
 <speaker>Конунг</speaker>
@@ -664,7 +664,7 @@
 <l>Друг на друга посмели взирать.</l>
 </sp>
 <sp who="#Konung">
-<speaker>Конунг</speaker><stage type="delivery">к Лаге</stage>
+<speaker>Конунг</speaker> <stage type="delivery">(к Лаге)</stage>
 <l>Что ты скажешь в своё оправданье,</l>
 <l>Человек неправдивый и злой,</l>
 <l>И какого ты ждёшь наказанья</l>
@@ -686,7 +686,7 @@
 <l>Этот волчий доставил закон.</l>
 </sp>
 <sp who="#Konung">
-<speaker>Конунг</speaker><stage type="delivery">к Снорре и Груббе</stage>
+<speaker>Конунг</speaker> <stage type="delivery">(к Снорре и Груббе)</stage>
 <l>Ярлы, ум ваш и ясен и зорок,</l>
 <l>Так судите ж обиду и боль,</l>
 <l>Позабыв, и что Лаге вам дорог</l>
@@ -769,7 +769,7 @@
 <l>Мы тебя не хотим. Уходи.</l>
 </sp>
 <sp who="#Gondla">
-<speaker>Гондла</speaker><stage type="delivery">ему вслед</stage>
+<speaker>Гондла</speaker> <stage type="delivery">(ему вслед)</stage>
 <l>Волк, и с поступью лёгкою, волчьей!</l>
 <l>Я воды у него попросил,</l>
 <l>Он же уксусом, смертною жёлчью,</l>
@@ -824,14 +824,14 @@
 <l>Лебединые песни мои.</l>
 </sp>
 <sp who="#Ahti">
-<speaker>Ахти</speaker><stage type="delivery">протягивая лютню</stage>
+<speaker>Ахти</speaker> <stage type="delivery">(протягивая лютню)</stage>
 <l>Эта лютня всегда приносила</l>
 <l>Славу самым плохим игрокам,</l>
 <l>В ней сокрыта волшебная сила</l>
 <l>Сердце радовать даже волкам.</l>
 </sp>
 <sp who="#Gondla">
-<speaker>Гондла</speaker><stage type="delivery">играет и пробует петь</stage>
+<speaker>Гондла</speaker> <stage type="delivery">(играет и пробует петь)</stage>
 <l>Разгорается звёздное пламя…</l>
 <l>Нет, не то! На морском берегу…</l>
 <l>Ах, слова не идут мне на память,</l>
@@ -939,7 +939,7 @@
 <speaker>Ахти</speaker>
 <l>Но не прежде чем лютню уронит,</l>
 <l>Гондла лютню уронит из рук.</l>
-<stage>Убегают, входит {{razr2|Гондла}}, играя</stage>
+<stage>(Убегают, входит {{razr2|Гондла}}, играя)</stage>
 </div>
 <div type="scene">
 <head>Сцена четвёртая</head>
@@ -975,7 +975,7 @@
 </div>
 <div type="scene">
 <head>Сцена пятая</head>
-<stage>{{razr2|Гондла и Лера}}</stage>
+<stage><actor>Гондла и Лера</actor></stage>
 </sp>
 <sp who="#Lera">
 <speaker>Лера</speaker>
@@ -1001,7 +1001,7 @@
 <l>Защити от меня же самой,</l>
 <l>Не возлюбленной, только сестрою,</l>
 <l>Я ведь смею идти за тобой.</l>
-<stage>Опускается перед ним на колени. Гондла поднимает её</stage>
+<stage>(Опускается перед ним на колени. Гондла поднимает её)</stage>
 </sp>
 <sp who="#Gondla">
 <speaker>Гондла</speaker>
@@ -1130,7 +1130,7 @@
 </div>
 <div type="scene">
 <head>Сцена вторая</head>
-<stage>{{razr2|Лера и Лаге}}, который входит.</stage>
+<stage><actor>Лера и Лаге</actor>, который входит.</stage>
 </sp>
 <sp who="#Lage">
 <speaker>Лаге</speaker>
@@ -1270,13 +1270,13 @@
 <l>Лера, помнишь ли прошлое?</l>
 </sp>
 <sp who="#Lera">
-<speaker>Лера</speaker><stage type="delivery">целуя его</stage>
+<speaker>Лера</speaker> <stage type="delivery">(целуя его)</stage>
 <l part="F"> Да.</l>
-<stage>Входит Гондла</stage>
+<stage>(Входит Гондла)</stage>
 </div>
 <div type="scene">
 <head>Сцена третья</head>
-<stage>{{razr2|Лера, Лаге, Гондла}}, потом {{razr2|Груббе}}.</stage>
+<stage><actor>Лера, Лаге, Гондла</actor>, потом <actor>Груббе</actor>.</stage>
 </sp>
 <sp who="#Gondla">
 <speaker>Гондла</speaker>
@@ -1289,7 +1289,7 @@
 <l>Ведь корона моя не твоя.</l>
 </sp>
 <sp who="#Gondla">
-<speaker>Гондла</speaker><stage type="delivery">не слушая</stage>
+<speaker>Гондла</speaker> <stage type="delivery">(не слушая)</stage>
 <l>Вот теперь-то добьюсь я ответа</l>
 <l>От тебя, возмутившийся раб!</l>
 </sp>
@@ -1306,7 +1306,7 @@
 <l>Королевская кровь на тебя.</l>
 </sp>
 <sp who="#Lera">
-<speaker>Лера</speaker><stage type="delivery">к Лаге</stage>
+<speaker>Лера</speaker> <stage type="delivery">(к Лаге)</stage>
 <l>Уходи же!</l>
 </sp>
 <sp who="#Lage">
@@ -1325,7 +1325,7 @@
 <l part="F"> Я понять бы хотела…</l>
 </sp>
 <sp who="#Lage">
-<speaker>Лаге</speaker><stage type="delivery">указывая на входящего Груббе</stage>
+<speaker>Лаге</speaker> <stage type="delivery">(указывая на входящего Груббе)</stage>
 <l>Груббе всё рассказать вам готов,</l>
 <l>Очевидец нелепого дела</l>
 <l>На одном из старинных судов.</l>
@@ -1378,7 +1378,7 @@
 <l>Мы жестоко за всё отомстим.</l>
 </sp>
 <sp who="#Gondla">
-<speaker>Гондла</speaker><stage type="delivery">быстро</stage>
+<speaker>Гондла</speaker> <stage type="delivery">(быстро)</stage>
 <l>Кто отец мой?</l>
 </sp>
 <sp who="#Grubbe">
@@ -1394,7 +1394,7 @@
 <speaker>Груббе</speaker>
 <l part="F"> Нет, осторожно,</l>
 <l>Больше я не скажу ничего.</l>
-<stage>к Лере</stage>
+<stage>(к Лере)</stage>
 <l>Вот, короной венчан шутовскою,</l>
 <l>Он поднять не осмелится глаз.</l>
 </sp>
@@ -1406,7 +1406,7 @@
 </div>
 <div type="scene">
 <head>Сцена четвертая</head>
-<stage>{{razr2|Лера и Гондла}}</stage>
+<stage><actor>Лера и Гондла</actor></stage>
 </sp>
 <sp who="#Lera">
 <speaker>Лера</speaker>
@@ -1456,7 +1456,7 @@
 <l>Будет Лера и ночью и днём,</l>
 <l>Неустанно тебя проклиная,</l>
 <l>Называя трусливым щенком.</l>
-<stage>Кричит</stage>
+<stage>(Кричит)</stage>
 <l>Где вы, сильные, волки, не люди?</l>
 <l>Пусть же когти пустынных владык</l>
 <l>Вырвут низкое сердце из груди,</l>
@@ -1472,7 +1472,7 @@
 </div>
 <div type="scene">
 <head>Сцена пятая</head>
-<stage>{{razr2|Лера, Гондла, Снорре, Груббе, Лаге, Ахти}}.</stage>
+<stage><actor>Лера, Гондла, Снорре, Груббе, Лаге, Ахти</actor>.</stage>
 </sp>
 <sp who="#Lera">
 <speaker>Лера</speaker>
@@ -1493,7 +1493,7 @@
 <speaker>Ахти</speaker>
 <l>Я же браги хмельной и весёлой</l>
 <l>Захватил полувёдерный мех.</l>
-<stage>Все, кроме Гондлы, садятся</stage>
+<stage>(Все, кроме Гондлы, садятся)</stage>
 </sp>
 <sp who="#Lage">
 <speaker>Лаге</speaker>
@@ -1510,7 +1510,7 @@
 <l>И за Лаге могучего пью.</l>
 </sp>
 <sp who="#Ahti">
-<speaker>Ахти</speaker><stage type="delivery">втаскивая оленью тушу</stage>
+<speaker>Ахти</speaker> <stage type="delivery">(втаскивая оленью тушу)</stage>
 <l>Вот олень. Жира, жира-то сколько!</l>
 <l>Ну, волкам не пропасть без еды.</l>
 </sp>
@@ -1534,7 +1534,7 @@
 <l>Ты придёшь ко мне?</l>
 </sp>
 <sp who="#Lage">
-<speaker>Лаге</speaker><stage type="delivery">обнимая ее</stage>
+<speaker>Лаге</speaker> <stage type="delivery">(обнимая ее)</stage>
 <l part="F"> Гондла, вина!</l>
 </sp>
 <sp who="#Snorre,Grubbeiahti">
@@ -1545,7 +1545,7 @@
 <l>А под вечер тебя мы съедим.</l>
 </sp>
 <sp who="#Lage">
-<speaker>Лаге</speaker><stage type="delivery">наклоняясь к Лере</stage>
+<speaker>Лаге</speaker> <stage type="delivery">(наклоняясь к Лере)</stage>
 <l>Как мучительно рот мой находит</l>
 <l>Твой кровавый, смеющийся рот!</l>
 </sp>
@@ -1584,7 +1584,7 @@
 <l>То они ли поспорят о том,</l>
 <l>О царе лебединого рода</l>
 <l>И с проколотым сердцем притом?</l>
-<stage>Входят ирландцы</stage>
+<stage>(Входят ирландцы)</stage>
 </sp>
 <sp who="#Vozhd">
 <speaker>Вождь</speaker>
@@ -1604,7 +1604,7 @@
 <speaker>Вождь</speaker>
 <l>Он безумный, не будем смеяться</l>
 <l>И с собою его уведём.</l>
-<stage>К Гондле</stage>
+<stage>(К Гондле)</stage>
 <l>Знай, нам нужно в посёлок пробраться</l>
 <l>За своим молодым королём.</l>
 </sp>
@@ -1640,7 +1640,7 @@
 </div>
 <div type="scene">
 <head>Сцена вторая</head>
-<stage>{{razr2|Гондла, Вождь}}, ирландские воины, {{razr2|Снорре, Груббе, Лаге, Ахти}}.</stage>
+<stage><actor>Гондла, Вождь</actor>, ирландские воины, <actor>Снорре, Груббе, Лаге, Ахти</actor>.</stage>
 </sp>
 <sp who="#Ahti">
 <speaker>Ахти</speaker>
@@ -1663,10 +1663,10 @@
 <l>Только лютню возьмите свою.</l>
 </sp>
 <sp who="#Vozhd">
-<speaker>Вождь</speaker><stage type="delivery">ирландцам</stage>
+<speaker>Вождь</speaker> <stage type="delivery">(ирландцам)</stage>
 <l>Братья, вступимся, он христианин</l>
 <l>И наверно из нашей страны.</l>
-<stage>Ирландцы отбрасывают исландцев</stage>
+<stage>(Ирландцы отбрасывают исландцев)</stage>
 </sp>
 <sp who="#Snorre">
 <speaker>Снорре</speaker>
@@ -1713,7 +1713,7 @@
 <l>Королевичем назван был пёс.</l>
 </sp>
 <sp who="#Vozhd">
-<speaker>Вождь</speaker><stage type="delivery">к Гондле</stage>
+<speaker>Вождь</speaker> <stage type="delivery">(к Гондле)</stage>
 <l>Государь, мы тебя не узнали,</l>
 <l>Не суди же покорных рабов,</l>
 <l>Но скажи, чтобы мы разметали</l>
@@ -1740,7 +1740,7 @@
 <l>И, когда наконец опочил,</l>
 <l>Пурпур мантии, скипетр, державу</l>
 <l>Он тебе передать поручил.</l>
-<stage>Надевает на Гондлу мантию, передаёт ему скипетр и державу</stage>
+<stage>(Надевает на Гондлу мантию, передаёт ему скипетр и державу)</stage>
 </sp>
 <sp who="#Grubbe">
 <speaker>Груббе</speaker>
@@ -1758,11 +1758,11 @@
 <l>Музыкальный магический ход</l>
 <l>Или к гибели страшной и чёрной</l>
 <l>Или к славе звенящей ведёт.</l>
-<stage>Входит {{razr2|Конунг}}</stage>
+<stage>(Входит {{razr2|Конунг}})</stage>
 </div>
 <div type="scene">
 <head>Сцена третья</head>
-<stage>Те же и {{razr2|Конунг}}.</stage>
+<stage>Те же и <actor>Конунг</actor>.</stage>
 </sp>
 <sp who="#Konung">
 <speaker>Конунг</speaker>
@@ -1867,11 +1867,11 @@
 <l>Я о чём-то великом забыл,</l>
 <l>И, как чёрная птица, забота</l>
 <l>Грусть навеяла взмахами крыл.</l>
-<stage>Показывается {{razr2|Лера}}, прячущаяся за деревьями</stage>
+<stage>(Показывается {{razr2|Лера}}, прячущаяся за деревьями)</stage>
 </div>
 <div type="scene">
 <head>Сцена четвертая</head>
-<stage>Те же и {{razr2|Лера}}</stage>
+<stage>Те же и <actor>Лера</actor></stage>
 </sp>
 <sp who="#Vozhd">
 <speaker>Вождь</speaker>
@@ -1879,7 +1879,7 @@
 <l>Словно духи в нём бродят всегда;</l>
 <l>Вон в траве промелькнуло зелёной…</l>
 <l>Это женщина… женщина, да!</l>
-<stage>Выводит Леру за руку</stage>
+<stage>(Выводит Леру за руку)</stage>
 </sp>
 <sp who="#Konung">
 <speaker>Конунг</speaker>
@@ -1903,7 +1903,7 @@
 <l>Только… Гондлу бы надо спросить.</l>
 </sp>
 <sp who="#Lera">
-<speaker>Лера</speaker><stage type="delivery">простирая руки к Гондле</stage>
+<speaker>Лера</speaker> <stage type="delivery">(простирая руки к Гондле)</stage>
 <l>Брат, жених, я тебя умоляю,</l>
 <l>Отправляйся с твоими людьми</l>
 <l>К лебединому, к белому раю</l>
@@ -1935,7 +1935,7 @@
 <l>Будет странно увидеть волков…</l>
 </sp>
 <sp who="#Konung">
-<speaker>Конунг</speaker><stage type="delivery">отступая</stage>
+<speaker>Конунг</speaker> <stage type="delivery">(отступая)</stage>
 <l>Нет, нам нового бога не надо!</l>
 </sp>
 <sp who="#Snorre,Grubbeiahti">
@@ -1958,12 +1958,12 @@
 <l>Вы любить отказались Христа,</l>
 <l>Да, я знаю, вам нужно подножье</l>
 <l>Для его пресвятого креста.</l>
-<stage>Ставит меч себе на грудь</stage>
+<stage>(Ставит меч себе на грудь)</stage>
 <l>Вот оно. Я вином благодати</l>
 <l>Опьянился и к смерти готов,</l>
 <l>Я монета, которой Создатель</l>
 <l>Покупает спасенье волков.</l>
-<stage>Закалывается</stage>
+<stage>(Закалывается)</stage>
 <l>Лаик, Лаик, какое бессилье!</l>
 <l>Я одну тебя, Лаик, любил…</l>
 <l>Надо мною шумящие крылья</l>
@@ -1975,13 +1975,13 @@
 <stage>Те же перед трупом Гондлы.</stage>
 </sp>
 <sp who="#Vozhd">
-<speaker>Вождь</speaker><stage type="delivery">склоняясь над трупом</stage>
+<speaker>Вождь</speaker> <stage type="delivery">(склоняясь над трупом)</stage>
 <l>Меч пришёлся по жизненной жиле,</l>
 <l>И ему не поднять головы!</l>
-<stage>К исландцам</stage>
+<stage>(К исландцам)</stage>
 <l>Одного лебедёнка убили,</l>
 <l>А другого замучили вы.</l>
-<stage>Поднимая меч рукоятью вверх</stage>
+<stage>(Поднимая меч рукоятью вверх)</stage>
 <l>Подходите, Христовой любовью</l>
 <l>Я крещу, ненавидящих, вас,</l>
 <l>Ведь недаром невинною кровью</l>
@@ -2015,7 +2015,7 @@
 <l>Проживу и земным колдовством.</l>
 </sp>
 <sp who="#Vozhd">
-<speaker>Вождь</speaker><stage type="delivery">к Лере</stage>
+<speaker>Вождь</speaker> <stage type="delivery">(к Лере)</stage>
 <l>Что же, девушка? Ты отступила?</l>
 <l>Ты не хочешь Нетленного Дня?</l>
 </sp>

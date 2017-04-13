@@ -44,14 +44,26 @@
 <person xml:id="VelKar">
 <persName>Велькар</persName>
 </person>
-<person xml:id="NevolNik">
-<persName>Невольник</persName>
-</person>
 <person xml:id="Horev">
 <persName>Хорев</persName>
 </person>
 <person xml:id="Zavloh">
 <persName>Завлох</persName>
+</person>
+<person xml:id="StrazhGradskihVorot">
+<persName>Страж градских ворот</persName>
+</person>
+<person xml:id="OsnelDa">
+<persName>Оснельда</persName>
+</person>
+<person xml:id="Astrada">
+<persName>Астрада</persName>
+</person>
+<person xml:id="EdinyjVoin">
+<persName>Единый воин</persName>
+</person>
+<person xml:id="NevolNik">
+<persName>Невольник</persName>
 </person>
 <person xml:id="StrazhTemnits">
 <persName>Страж темниц</persName>
@@ -59,23 +71,11 @@
 <person xml:id="Kij">
 <persName>Кий</persName>
 </person>
-<person xml:id="Poslannyj">
-<persName>Посланный</persName>
-</person>
-<person xml:id="OsnelDa">
-<persName>Оснельда</persName>
-</person>
-<person xml:id="EdinyjVoin">
-<persName>Единый воин</persName>
-</person>
-<person xml:id="StrazhGradskihVorot">
-<persName>Страж градских ворот</persName>
-</person>
-<person xml:id="Astrada">
-<persName>Астрада</persName>
-</person>
 <person xml:id="Stalverh">
 <persName>Сталверх</persName>
+</person>
+<person xml:id="Poslannyj">
+<persName>Посланный</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -245,7 +245,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 </sp>
 <sp who="#Osnelda">
-<speaker>Оснельда</speaker><stage type="delivery">одна</stage>
+<speaker>Оснельда</speaker> <stage type="delivery">(одна)</stage>
 <l>К чему ведет меня моя судьбина зла?!</l>
 <l>К таким ли дням, любовь, во мне ты кровь зажгла!</l>
 <l>Несчастливым времен жестоки все премены.</l>
@@ -691,7 +691,7 @@
 <head>ЯВЛЕНИЕ 3</head>
 </sp>
 <sp who="#Kij">
-<speaker>Кий</speaker><stage type="delivery">один</stage>
+<speaker>Кий</speaker> <stage type="delivery">(один)</stage>
 <l>Нельзя поверити, чтоб он изменник был</l>
 <l>И чтобы милости родительски забыл.</l>
 <l>Против у честности всегда любовь безмочна:</l>
@@ -875,7 +875,7 @@
 <head>ЯВЛЕНИЕ 1</head>
 </sp>
 <sp who="#Osnelda">
-<speaker>Оснельда</speaker><stage type="delivery">одна</stage>
+<speaker>Оснельда</speaker> <stage type="delivery">(одна)</stage>
 <l>Скрывай свою печаль, скрывай и утоляй</l>
 <l>И воздыхание, как можешь, удаляй.</l>
 <l>Се предсказание сердечно совершилось,</l>
@@ -950,7 +950,7 @@
 <l>А ты родителю дай знать…</l>
 </sp>
 <sp who="#Astrada">
-<speaker>Астрада</speaker><stage type="delivery">отъемлет кинжал из рук ея</stage>
+<speaker>Астрада</speaker> <stage type="delivery">(отъемлет кинжал из рук ея)</stage>
 <l part="F"> Дай смерть себе,</l>
 <l>Коль хочешь, чтоб Хорев последовал тебе.</l>
 </sp>
@@ -1006,7 +1006,7 @@
 <l part="F"> Того ль я, боги, ждал!</l>
 </sp>
 <sp who="#Astrada">
-<speaker>Астрада</speaker><stage type="delivery">во время чтения</stage>
+<speaker>Астрада</speaker> <stage type="delivery">(во время чтения)</stage>
 <l>Кого любовный жар толико повреждал?!</l>
 <l>Надежду окончав в минуты жизни слезной,</l>
 <l>Едва не скрылась ты в отчаянии бездной,</l>
@@ -1302,7 +1302,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 </sp>
 <sp who="#Kij">
-<speaker>Кий</speaker><stage type="delivery">один</stage>
+<speaker>Кий</speaker> <stage type="delivery">(один)</stage>
 <l part="F"> Когда Сталверх сказал сие не ложно,</l>
 <l>Так трона удержать уж больше невозможно.</l>
 <l>Меч росский на себя я ныне изострил,</l>
@@ -1383,7 +1383,7 @@
 <l>Но, где невольник сей, мне должно известиться.</l>
 </sp>
 <sp who="#Stalverh">
-<speaker>Сталверх</speaker><stage type="delivery">немного отошел</stage>
+<speaker>Сталверх</speaker> <stage type="delivery">(немного отошел)</stage>
 <l>Войди в чертог сюда пред князем обличиться.</l>
 </sp>
 </div>
@@ -1467,7 +1467,7 @@
 <head>ЯВЛЕНИЕ 6</head>
 </sp>
 <sp who="#Kij">
-<speaker>Кий</speaker><stage type="delivery">один</stage>
+<speaker>Кий</speaker> <stage type="delivery">(один)</stage>
 <l>Какую чувствую я в сердце жалость боле!</l>
 <l>Или ее хочу оставить на престоле,</l>
 <l>Чтоб, область восприяв с Хоревом в сей стране,</l>
@@ -1626,7 +1626,7 @@
 <l>И нечто мой язык в забвении являл.</l>
 </sp>
 <sp who="#Kij">
-<speaker>Кий</speaker><stage type="delivery">говорит Сталверху нечто на ухо, Сталверх выходит, а Кий потом</stage>
+<speaker>Кий</speaker> <stage type="delivery">(говорит Сталверху нечто на ухо, Сталверх выходит, а Кий потом)</stage>
 <l>Не жди, лукавая, в обманах сих успеха!</l>
 <l>Погибла вся твоя надежда и утеха,</l>
 <l>И смерть твоя близка.</l>
@@ -1670,7 +1670,7 @@
 <head>ЯВЛЕНИЕ 8</head>
 </sp>
 <sp who="#Kij">
-<speaker>Кий</speaker><stage type="delivery">один</stage>
+<speaker>Кий</speaker> <stage type="delivery">(один)</stage>
 <l part="F"> Вы хотя теперь душе моей,</l>
 <l>В глубоких пропастях стенящие тираны</l>
 <l>И моющие слез потоком оны раны,</l>
@@ -1737,7 +1737,7 @@
 <l>Отдаться пленником Хореву принужденна.</l>
 </sp>
 <sp who="#Kij">
-<speaker>Кий</speaker><stage type="delivery">единому из воинов</stage>
+<speaker>Кий</speaker> <stage type="delivery">(единому из воинов)</stage>
 <l>Беги скорей к княжне, к владычице своей,</l>
 <l>К невесте княжеской, скажи свободу ей</l>
 <l>И чтоб Сталверх пришел.</l>
@@ -1940,7 +1940,7 @@
 <stage>Кий, Хорев, Завлох, Велькар и воины.</stage>
 </sp>
 <sp who="#Edinyjvoin">
-<speaker>Единый воин</speaker><stage type="delivery">вошед</stage>
+<speaker>Единый воин</speaker> <stage type="delivery">(вошед)</stage>
 <l part="F"> Сталверх скончал живот,</l>
 <l>Низвергшись в глубину Днепровых быстрых вод,</l>
 <l>Отчаян, горестно терзаясь и стоная,</l>
@@ -2092,9 +2092,6 @@
 <l>Хорев, ея лишась, последовал за ней!»</l>
 <stage><actor>Конец трагедии</actor></stage>
 </div>
-<div type="other">
-<head>Примечания</head>
-<p>{{Примечания}}</p>
 </body>
 </text>
 </TEI>

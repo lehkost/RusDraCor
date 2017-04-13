@@ -5,7 +5,7 @@
             <titleStmt>
                 <title type="main">Балаганчик</title>
                 <title type="sub">драма</title>
-                <author></author>
+                <author>Александр Александрович Блок</author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="RusDraCor">RusDraCor</publisher>
@@ -44,17 +44,11 @@
 <person xml:id="VtorojMistik">
 <persName>Второй мистик</persName>
 </person>
-<person xml:id="Pajats">
-<persName>Паяц</persName>
+<person xml:id="Predsedatel">
+<persName>Председатель</persName>
 </person>
-<person xml:id="Avtor">
-<persName>Автор</persName>
-</person>
-<person xml:id="TretijMistik">
-<persName>Третий мистик</persName>
-</person>
-<person xml:id="PEro">
-<persName>Пьеро</persName>
+<person xml:id="Arlekin">
+<persName>Арлекин</persName>
 </person>
 <person xml:id="Kolombina">
 <persName>Коломбина</persName>
@@ -62,20 +56,26 @@
 <person xml:id="On">
 <persName>Он</persName>
 </person>
-<person xml:id="Arlekin">
-<persName>Арлекин</persName>
-</person>
-<person xml:id="Predsedatel">
-<persName>Председатель</persName>
-</person>
 <person xml:id="PervyjMistik">
 <persName>Первый мистик</persName>
+</person>
+<person xml:id="Pajats">
+<persName>Паяц</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
 </person>
 <person xml:id="Hor">
 <persName>Хор</persName>
 </person>
-<person xml:id="Ona">
-<persName>Она</persName>
+<person xml:id="PEro">
+<persName>Пьеро</persName>
+</person>
+<person xml:id="Avtor">
+<persName>Автор</persName>
+</person>
+<person xml:id="TretijMistik">
+<persName>Третий мистик</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -165,7 +165,7 @@
 <stage>Внезапно застыдившись своего неожиданного появления, прячется обратно за занавес.</stage>
 </sp>
 <sp who="#Pero">
-<speaker>Пьеро</speaker><stage type="delivery">Он не обратил внимания на автора. Сидит и мечтательно вздыхает</stage>
+<speaker>Пьеро</speaker> <stage type="delivery">(Он не обратил внимания на автора. Сидит и мечтательно вздыхает)</stage>
 <l>Коломбина!</l>
 </sp>
 <sp who="#Pervyjmistik">
@@ -226,12 +226,12 @@
 <l part="F"> Ты не выдашь меня?</l>
 </sp>
 <sp who="#Pervyjmistik">
-<speaker>Первый мистик</speaker><stage type="delivery">в неподдельном ужасе</stage>
+<speaker>Первый мистик</speaker> <stage type="delivery">(в неподдельном ужасе)</stage>
 <l part="F"> Никогда!</l>
 <stage>Автор опять испуганно высовывается, но быстро исчезает, как будто его оттянул кто-то за фалды.</stage>
 </sp>
 <sp who="#Pero">
-<speaker>Пьеро</speaker><stage type="delivery">по-прежнему, мечтательно</stage>
+<speaker>Пьеро</speaker> <stage type="delivery">(по-прежнему, мечтательно)</stage>
 <l>Коломбина! Приди!</l>
 </sp>
 <sp who="#Pervyjmistik">
@@ -310,7 +310,7 @@
 <stage>Появляется стройный юноша в платье <actor>Арлекина</actor>. На нем серебристыми голосами поют бубенцы.</stage>
 </sp>
 <sp who="#Arlekin">
-<speaker>Арлекин</speaker><stage type="delivery">подходит к Коломбине</stage>
+<speaker>Арлекин</speaker> <stage type="delivery">(подходит к Коломбине)</stage>
 <l>Жду тебя на распятьях, подруга,</l>
 <l>В серых сумерках зимнего дня!</l>
 <l>Над тобою поет моя вьюга,</l>
@@ -569,7 +569,7 @@
 <stage>Автор хочет соединить руки <actor>Коломбины</actor> и <actor>Пьеро</actor>. Но внезапно все декорации взвиваются и улетают вверх. Маски разбегаются. Автор оказывается склоненным над одним только <actor>Пьеро</actor>, который беспомощно лежит на пустой сцене в белом балахоне своем с красными пуговицами. Заметив свое положение, автор убегает стремительно.</stage>
 </sp>
 <sp who="#Pero">
-<speaker>Пьеро</speaker><stage type="delivery">приподнимается и говорит жалобно и мечтательно</stage>
+<speaker>Пьеро</speaker> <stage type="delivery">(приподнимается и говорит жалобно и мечтательно)</stage>
 <l>Куда ты завел? Как угадать?</l>
 <l>Ты предал меня коварной судьбе.</l>
 <l>Бедняжка Пьеро, довольно лежать,</l>

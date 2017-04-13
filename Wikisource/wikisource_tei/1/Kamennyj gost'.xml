@@ -5,7 +5,7 @@
             <titleStmt>
                 <title type="main">Каменный гость</title>
                 <title type="sub"></title>
-                <author></author>
+                <author>Александр Сергеевич Пушкин</author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="RusDraCor">RusDraCor</publisher>
@@ -41,32 +41,35 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="DonGuan">
+<persName>Дон Гуан</persName>
+</person>
 <person xml:id="Leporello">
 <persName>Лепорелло</persName>
 </person>
-<person xml:id="Laura">
-<persName>Лаура</persName>
-</person>
-<person xml:id="DonKarlos">
-<persName>Дон Карлос</persName>
-</person>
-<person xml:id="Statuja">
-<persName>Статуя</persName>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
 </person>
 <person xml:id="Gost">
 <persName>Гость</persName>
 </person>
-<person xml:id="Monah">
-<persName>Монах</persName>
+<person xml:id="Statuja">
+<persName>Статуя</persName>
 </person>
 <person xml:id="DonaAnna">
 <persName>Дона Анна</persName>
 </person>
-<person xml:id="Gosti">
-<persName>Гости</persName>
+<person xml:id="Monah">
+<persName>Монах</persName>
+</person>
+<person xml:id="DonKarlos">
+<persName>Дон Карлос</persName>
 </person>
 <person xml:id="Vtoroj">
 <persName>Второй</persName>
+</person>
+<person xml:id="Tretij">
+<persName>Третий</persName>
 </person>
 <person xml:id="DonGuan">
 <persName>Дон Гуан </persName>
@@ -74,17 +77,14 @@
 <person xml:id="Vse">
 <persName>Все</persName>
 </person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="Tretij">
-<persName>Третий</persName>
-</person>
-<person xml:id="DonGuan">
-<persName>Дон Гуан</persName>
-</person>
 <person xml:id="PervyjGost">
 <persName>Первый гость</persName>
+</person>
+<person xml:id="Gosti">
+<persName>Гости</persName>
+</person>
+<person xml:id="Laura">
+<persName>Лаура</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -194,7 +194,7 @@
 <l>Чем я, поверьте.</l>
 </sp>
 <sp who="#Donguan">
-<speaker>Дон Гуан</speaker><stage type="delivery">задумчиво</stage>
+<speaker>Дон Гуан</speaker> <stage type="delivery">(задумчиво)</stage>
 <l part="F"> Бедная Инеза!</l>
 <l>Ее уж нет! как я любил ее!</l>
 </sp>
@@ -414,7 +414,7 @@
 <l>Пока луна над нами не взошла</l>
 <l>И в светлый сумрак тьмы не обратила,</l>
 <l>Взойдем в Мадрит.</l>
-<stage>Уходит.</stage>
+<stage>(Уходит.)</stage>
 </sp>
 <sp who="#Leporello">
 <speaker>Лепорелло</speaker>
@@ -462,7 +462,7 @@
 <sp who="#Laura">
 <speaker>Лаура</speaker>
 <l part="F"> Подайте мне гитару.</l>
-<stage>Поет.</stage>
+<stage>(Поет.)</stage>
 </sp>
 <sp who="#Vse">
 <speaker>Все</speaker>
@@ -506,7 +506,7 @@
 <l>Моим слугам, хоть ты испанский гранд.</l>
 </sp>
 <sp who="#Donkarlos">
-<speaker>Дон Карлос</speaker><stage type="delivery">встает</stage>
+<speaker>Дон Карлос</speaker> <stage type="delivery">(встает)</stage>
 <l>Зови же их.</l>
 </sp>
 <sp who="#Pervyj">
@@ -550,7 +550,7 @@
 <l part="F"> Да, на прощанье,</l>
 <l>Пора, уж ночь. Но что же я спою?</l>
 <l>А, слушайте.</l>
-<stage>Поет.</stage>
+<stage>(Поет.)</stage>
 </sp>
 <sp who="#Vse">
 <speaker>Все</speaker>
@@ -654,7 +654,7 @@
 <sp who="#Laura">
 <speaker>Лаура</speaker>
 <l>Ужели!.. Боже!..</l>
-<stage>Отпирает двери, входит Дон Гуан.</stage>
+<stage>(Отпирает двери, входит Дон Гуан.)</stage>
 </sp>
 <sp who="#Donguan">
 <speaker>Дон Гуан</speaker>
@@ -663,7 +663,7 @@
 <sp who="#Laura">
 <speaker>Лаура</speaker>
 <l part="F"> Дон Гуан!..</l>
-<stage>Лаура кидается ему на шею.</stage>
+<stage>(Лаура кидается ему на шею.)</stage>
 </sp>
 <sp who="#Donkarlos">
 <speaker>Дон Карлос</speaker>
@@ -672,7 +672,7 @@
 <sp who="#Donguan">
 <speaker>Дон Гуан</speaker>
 <l part="F"> Лаура, милый друг!..</l>
-<stage>Целует ее.</stage>
+<stage>(Целует ее.)</stage>
 <l>Кто у тебя, моя Лаура?</l>
 </sp>
 <sp who="#Donkarlos">
@@ -697,7 +697,7 @@
 <l>Извольте выйти вон.</l>
 </sp>
 <sp who="#Donkarlos">
-<speaker>Дон Карлос</speaker><stage type="delivery">ее не слушая</stage>
+<speaker>Дон Карлос</speaker> <stage type="delivery">(ее не слушая)</stage>
 <l part="F"> Я жду. Ну что ж,</l>
 <l>Ведь ты при шпаге.</l>
 </sp>
@@ -710,7 +710,7 @@
 <sp who="#Laura">
 <speaker>Лаура</speaker>
 <l part="F"> Ай! Ай! Гуан!..</l>
-<stage>Кидается на постелю.</stage>
+<stage>(Кидается на постелю.)</stage>
 <stage>Дон Карлос падает. </stage>
 </sp>
 <sp who="#Donguan">
@@ -730,7 +730,7 @@
 <l>Он жив еще.</l>
 </sp>
 <sp who="#Laura">
-<speaker>Лаура</speaker><stage type="delivery">осматривает тело</stage>
+<speaker>Лаура</speaker> <stage type="delivery">(осматривает тело)</stage>
 <l part="F"> Да! жив! гляди, проклятый,</l>
 <l>Ты прямо в сердце ткнул — небось не мимо,</l>
 <l>И кровь нейдет из треугольной ранки,</l>
@@ -766,7 +766,7 @@
 <l>Спроси у Лепорелло. Я стою</l>
 <l>За городом, в проклятой венте. Я Лауры</l>
 <l>Пришел искать в Мадрите.</l>
-<stage>Целует ее.</stage>
+<stage>(Целует ее.)</stage>
 </sp>
 <sp who="#Laura">
 <speaker>Лаура</speaker>
@@ -1069,7 +1069,7 @@
 <sp who="#Donaanna">
 <speaker>Дона Анна</speaker>
 <l>Прощайте, Дон Диего.</l>
-<stage>Уходит.</stage>
+<stage>(Уходит.)</stage>
 </sp>
 <sp who="#Donguan">
 <speaker>Дон Гуан</speaker>
@@ -1201,7 +1201,7 @@
 <l part="F"> Что сделалось с тобою?</l>
 </sp>
 <sp who="#Leporello">
-<speaker>Лепорелло</speaker><stage type="delivery">кивая головой</stage>
+<speaker>Лепорелло</speaker> <stage type="delivery">(кивая головой)</stage>
 <l>Статуя… ай!..</l>
 </sp>
 <sp who="#Donguan">
@@ -1224,7 +1224,7 @@
 <sp who="#Donguan">
 <speaker>Дон Гуан</speaker>
 <l part="F"> Ну смотри ж, бездельник.</l>
-<stage>Статуе.</stage>
+<stage>(Статуе.)</stage>
 <l>Я, командор, прошу тебя прийти</l>
 <l>К твоей вдове, где завтра буду я,</l>
 <l>И стать на стороже в дверях. Что? будешь?</l>
@@ -1384,7 +1384,7 @@
 <l>Один и есть.</l>
 </sp>
 <sp who="#Donguan">
-<speaker>Дон Гуан </speaker><stage type="delivery">про себя</stage>
+<speaker>Дон Гуан </speaker> <stage type="delivery">(про себя)</stage>
 <l part="F"> Идет к развязке дело!</l>
 <l>Скажите мне, несчастный Дон Гуан</l>
 <l>Вам незнаком?</l>
@@ -1457,7 +1457,7 @@
 <l>Я Дон Гуан, и я тебя люблю.</l>
 </sp>
 <sp who="#Donaanna">
-<speaker>Дона Анна</speaker><stage type="delivery">падая</stage>
+<speaker>Дона Анна</speaker> <stage type="delivery">(падая)</stage>
 <l>Где я?.. где я? мне дурно, дурно.</l>
 </sp>
 <sp who="#Donguan">
@@ -1470,7 +1470,7 @@
 <sp who="#Donaanna">
 <speaker>Дона Анна</speaker>
 <l part="F"> Оставь меня!</l>
-<stage>Слабо.</stage>
+<stage>(Слабо.)</stage>
 <l>О, ты мне враг — ты отнял у меня</l>
 <l>Все, что я в жизни…</l>
 </sp>
@@ -1543,7 +1543,7 @@
 <l>Отсюда выйти вам, неосторожный!</l>
 </sp>
 <sp who="#Donguan">
-<speaker>Дон Гуан</speaker><stage type="delivery">целуя ей руки</stage>
+<speaker>Дон Гуан</speaker> <stage type="delivery">(целуя ей руки)</stage>
 <l>И вы о жизни бедного Гуана</l>
 <l>Заботитесь! Так ненависти нет</l>
 <l>В душе твоей небесной, Дона Анна?</l>
@@ -1598,7 +1598,7 @@
 <sp who="#Donguan">
 <speaker>Дон Гуан</speaker>
 <l>Прощай же, до свиданья, друг мой милый.</l>
-<stage>Уходит и вбегает опять.</stage>
+<stage>(Уходит и вбегает опять.)</stage>
 <l>А!..</l>
 </sp>
 <sp who="#Donaanna">
@@ -1636,7 +1636,6 @@
 <l>Я гибну — кончено — о Дона Анна!</l>
 <stage>Проваливаются. </stage>
 <l>{{right|<stage>1830</stage>}}</l>
-<p></poem></p>
 </body>
 </text>
 </TEI>

@@ -5,7 +5,7 @@
             <titleStmt>
                 <title type="main">Сонный порошок или похищенная крестьянка</title>
                 <title type="sub">Опера в трех действиях</title>
-                <author></author>
+                <author>Иван Андреевич Крылов</author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="RusDraCor">RusDraCor</publisher>
@@ -41,23 +41,59 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="RabotnikiIDocheriBleza">
-<persName>Работники и дочери Блеза</persName>
+<person xml:id="Oba">
+<persName>Оба</persName>
 </person>
-<person xml:id="ZhulEtaINineta">
-<persName>Жульета и Нинета</persName>
+<person xml:id="Blez">
+<persName>Блез</persName>
+</person>
+<person xml:id="Graf">
+<persName>Граф</persName>
 </person>
 <person xml:id="Nineta,Graf">
 <persName>Нинета, граф</persName>
 </person>
+<person xml:id="ZhulEtaIZhaneta">
+<persName>Жульета и Жанета</persName>
+</person>
+<person xml:id="ZhulEtaINineta">
+<persName>Жульета и Нинета</persName>
+</person>
 <person xml:id="Muzhiki">
 <persName>Мужики</persName>
+</person>
+<person xml:id="Paulin">
+<persName>Паулин</persName>
+</person>
+<person xml:id="Nineta">
+<persName>Нинета</persName>
+</person>
+<person xml:id="ZhulEta">
+<persName>Жульета</persName>
+</person>
+<person xml:id="FilippIBlez">
+<persName>Филипп и Блез</persName>
+</person>
+<person xml:id="BlezIFilipp">
+<persName>Блез и Филипп</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
 </person>
 <person xml:id="Zhaneta">
 <persName>Жанета</persName>
 </person>
-<person xml:id="Nineta">
-<persName>Нинета</persName>
+<person xml:id="Vse">
+<persName>Все</persName>
+</person>
+<person xml:id="RabotnikiIDocheriBleza">
+<persName>Работники и дочери Блеза</persName>
+</person>
+<person xml:id="ZhanetaIPaulin">
+<persName>Жанета и Паулин</persName>
+</person>
+<person xml:id="ZhanetaINineta">
+<persName>Жанета и Нинета</persName>
 </person>
 <person xml:id="Filipp">
 <persName>Филипп</persName>
@@ -65,44 +101,8 @@
 <person xml:id="ZhulEta,ZhanetaINineta">
 <persName>Жульета, Жанета и Нинета</persName>
 </person>
-<person xml:id="BlezIFilipp">
-<persName>Блез и Филипп</persName>
-</person>
-<person xml:id="Oba">
-<persName>Оба</persName>
-</person>
-<person xml:id="Graf">
-<persName>Граф</persName>
-</person>
-<person xml:id="FilippIBlez">
-<persName>Филипп и Блез</persName>
-</person>
-<person xml:id="ZhanetaINineta">
-<persName>Жанета и Нинета</persName>
-</person>
-<person xml:id="ZhulEtaIZhaneta">
-<persName>Жульета и Жанета</persName>
-</person>
-<person xml:id="ZhulEta">
-<persName>Жульета</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="ZhanetaIPaulin">
-<persName>Жанета и Паулин</persName>
-</person>
-<person xml:id="Hor">
-<persName>Хор</persName>
-</person>
-<person xml:id="Paulin">
-<persName>Паулин</persName>
-</person>
 <person xml:id="Vmeste">
 <persName>Вместе</persName>
-</person>
-<person xml:id="Blez">
-<persName>Блез</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -138,7 +138,6 @@
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<l><poem class=p1></l>
 <stage>Театр представляет деревню; на одной стороне дом Блеза, у дверей из дерев сделанная беседка, в которой стоит стол.</stage>
 <stage><actor>Нинета</actor>, <actor>Жанета</actor> и два крестьянина, работники Блеза, сидят и готовят кушанье. <actor>Блез</actor> выходит из своего дома и начинает интродуксион.</stage>
 </sp>
@@ -146,7 +145,6 @@
 <speaker>Блез</speaker>
 <l>Отнесите все это на кухню.</l>
 <stage>№ 1</stage>
-<l><center>№ 1</center></l>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker>
@@ -295,9 +293,7 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>О, пожалуй!</p>
-<l><poem class=p1></l>
 <stage>№ 2</stage>
-<l><center>№ 2</center></l>
 <l>Во лугах, садах летая,</l>
 <l>Бабочка, кружась, порхая,</l>
 <l>Радости находит в том, —</l>
@@ -347,9 +343,7 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Выслушай, я тотчас все тебе растолкую.</p>
-<l><poem class=p1></l>
 <stage>№ 2</stage>
-<l><center>№ 2</center></l>
 <l>Во лугах, садах летая,</l>
 <l>Бабочка, кружась, порхая,</l>
 <l>Радости находит в том, —</l>
@@ -406,9 +400,7 @@
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
 <p>О, да я и далек от этого. Как, чтоб я стал любви нашей перечить, — боже меня сохрани от этого!</p>
-<l><poem class=p1></l>
 <stage>№ 3</stage>
-<l><center>№ 3</center></l>
 <l>Вы нежной страсти предайтесь власти,</l>
 <l>Чтоб в этой части покой найтить,</l>
 <l>Чтоб в этой части, в нежной страсти!</l>
@@ -444,9 +436,7 @@
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Граф, увидев меня, отселе ушел. Он остановился там; покажу, что будто я его не приметила, и стану петь, как будто ничего не бывало: может быть, он подойдет ко мне.</p>
-<l><poem class=p1></l>
 <stage>№ 4</stage>
-<l><center>№ 4</center></l>
 <l>Несравненной розой румяной</l>
 <l>Грудь украшу я тобой,</l>
 <l>Цвет листов твоих багряной,</l>
@@ -504,9 +494,7 @@
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
 <p>Жаль, право, разговор пошел было на лад.</p>
-<l><poem class=p1></l>
 <stage>№ 5</stage>
-<l><center>№ 5</center></l>
 </sp>
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
@@ -679,14 +667,11 @@
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>О, сударь!</p>
-<l><poem class=p1></l>
 <stage>№ 6</stage>
-<l><center>№ 6</center></l>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Бери, драгая, не рассуждая, кошелек полон, ну бери, что дарю тебе одной, тебе одной.</p>
-<l><poem class=p1></l>
 </sp>
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
@@ -809,7 +794,6 @@
 <l>Мучит тайно подозренье!</l>
 <p>	</p>
 <p>{{bracetext|Вместе|p1|13}}</p>
-<l><poem class=p1></l>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
@@ -832,7 +816,6 @@
 <l>Здесь погулять!</l>
 <l>Надобно казать.</l>
 <p>{{bracetext|Вместе|p1|10}}</p>
-<l><poem class=p1></l>
 </sp>
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
@@ -850,7 +833,6 @@
 <speaker>Граф</speaker>
 <l>Отчего его смятенье,</l>
 <l>То нетрудно отгадать.</l>
-<l><poem class=p1></l>
 </sp>
 <sp who="#Oba">
 <speaker>Оба</speaker>
@@ -879,9 +861,7 @@
 <sp who="#Zhaneta">
 <speaker>Жанета</speaker>
 <p>О, я не так глупа, сударь! мы, деревенские девушки, не пускаемся по рощам с незнакомыми мужиками.</p>
-<l><poem class=p1></l>
 <stage>№ 7</stage>
-<l><center>№ 7</center></l>
 <l>Я девчоночка простая,</l>
 <l>Не малютка уж какая, простая,</l>
 <l>Не малютка, мужчин я боюся.</l>
@@ -921,9 +901,7 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>И я не придумаю, только неотменно надобно ее увезти; от этого зависит мое благополучие.</p>
-<l><poem class=p1></l>
 <stage>№ 8</stage>
-<l><center>№ 8</center></l>
 <l>Мне без Жульеты, признаюся,</l>
 <l>Не можно жить и счастья нет,</l>
 <l>В надежде коей, признаюся,</l>
@@ -971,9 +949,7 @@
 <sp who="#Blez">
 <speaker>Блез</speaker>
 <p>А я уверяю тебя, что это неправда. Я был довольно долго садовником в городе и знаю все эти обычая. Чтобы успокоить тебя, так послушай, я расскажу тебе, как все это там делается.</p>
-<l><poem class=p1></l>
 <stage>№ 9</stage>
-<l><center>№ 9</center></l>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker>
@@ -1005,7 +981,7 @@
 <stage><actor>Жульета</actor>, <actor>Филипп</actor> и <actor>Блез</actor>.</stage>
 </sp>
 <sp who="#Blez">
-<speaker>Блез</speaker><stage type="delivery">дочери</stage>
+<speaker>Блез</speaker> <stage type="delivery">(дочери)</stage>
 <p>Поди же, уговори его. Я примечаю графа там вон между деревьями, так я пойду к нему.</p>
 </sp>
 <sp who="#Zhuleta">
@@ -1019,9 +995,7 @@
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
 <p>Ты очень несправедливо думаешь.</p>
-<l><poem class=p1></l>
 <stage>№ 10</stage>
-<l><center>№ 10</center></l>
 </sp>
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
@@ -1173,9 +1147,7 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Надобно его теперь же поучить.</p>
-<l><poem class=p1></l>
 <stage>№ 11</stage>
-<l><center>№ 11</center></l>
 </sp>
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
@@ -1276,7 +1248,6 @@
 <speaker>Филипп</speaker>
 <p>Только хоть и пройдет, да не очень скоро. Я, как чорт, зол на эту Жульету! Смотрите-ка, какие она отвешивает пощечины! О! Если б я ее не любил!.. надобно немного подумать, что мне делать! {{ремарка|Садится на дерновую лавку, на правой стороне.}} Простить ли мне тебя или нет?</p>
 <stage>Жульета отворяет дверь и, видя, что Филипп один, выходит тихонько из дому.</stage>
-<l><poem class=p1></l>
 </sp>
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
@@ -1525,7 +1496,7 @@
 <speaker>Филипп</speaker>
 <l>Ну тяпнем же мы двое.</l>
 <l>Ну, сват, ты начинай!</l>
-<stage>Берет рюмку у ней.</stage>
+<stage>(Берет рюмку у ней.)</stage>
 </sp>
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
@@ -1726,9 +1697,7 @@
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
 <p>Она совсем убрана, пойду сказать графу, что теперь он сам может притти к Жульете. Ладно, уж она просыпается.</p>
-<l><poem class=p1></l>
 <stage>№ 13</stage>
-<l><center>№ 13</center></l>
 </sp>
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
@@ -1751,7 +1720,7 @@
 <l>Причесана забавно, весьма исправно,</l>
 <l>Меня кто мог бы в дуру превратить,</l>
 <l>То, знать, колдунья хотела подшутить.</l>
-<stage>Садится за туалетом.</stage>
+<stage>(Садится за туалетом.)</stage>
 <l>В себе я зрю прекрасность,</l>
 <l>Румяность, свежий цвет,</l>
 <l>В глазах отменну ясность,</l>
@@ -1833,9 +1802,7 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Выбрось это из головы! я уж приказал, чтоб его даже, и к дому близко не подпускали.</p>
-<l><poem class=p1></l>
 <stage>№ 14</stage>
-<l><center>№ 14</center></l>
 </sp>
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
@@ -1984,9 +1951,7 @@
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
 <p>Ваш дядюшка внизу с отцом Жульеты, который ему жаловался, что вы похитили его дочь, и дядюшка клянется, что он лишит вас наследства, если вы не возвратите Жульету ее родственникам.</p>
-<l><poem class=p1></l>
 <stage>№ 15</stage>
-<l><center>№ 15</center></l>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
@@ -1999,7 +1964,7 @@
 <l>Опасность, страсти,</l>
 <l>У вас я во власти,</l>
 <l>Вы казнь сердца моего.</l>
-<stage>Паулину.</stage>
+<stage>(Паулину.)</stage>
 <l>Послушай, поскорей, не трать ты время,</l>
 <l>Беги из мук извлечь, вниз беги,</l>
 <l>Так, так! нет, стой...</l>
@@ -2090,9 +2055,7 @@
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
 <p>Да, это я, я, — я — пришел сюда за моею женою, какое в том худо?</p>
-<l><poem class=p1></l>
 <stage>№ 16</stage>
-<l><center>№ 16</center></l>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
@@ -2219,9 +2182,7 @@
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
 <p>Что он говорит? меня в тюрьму, в тюрьму за то, что я пришел сюда за моею женою! О, это станется, это знатные бояре таковы, когда чуть с ними пойдешь поперек, то они, не говоря ни слова, тотчас тебя упрячут... да эта Жульета с своим хорошим нарядом, я чай, теперь не захочет и воротиться в свою деревню — видно по всему, что она променяла меня на этого собаку графа; а со всем тем я еще-таки ее против воли моей люблю. Но нет, мне надобно убить себя до смерти, я в отчаянии — невеста мне изменяет, любовник ее хочет посадить меня в тюрьму. Убиться, убиться, чем скорее, тем лучше! Так, это решено, но подумаем же, как бы за это взяться. Дело, правда, мне еще не очень знакомое, посудим, посмотрим.</p>
-<l><poem class=p1></l>
 <stage>№ 17</stage>
-<l><center>№ 17</center></l>
 <l>Чтобы себя убить,</l>
 <l>Потребны тут притравы,</l>
 <l>И нож в себя всадить,</l>
@@ -2244,10 +2205,10 @@
 <l>Я умираю, не плачьте вы,</l>
 <l>Друзья, прощайте,</l>
 <l>Я жизнь кончаю.</l>
-<stage>Чужим голосом.</stage>
+<stage>(Чужим голосом.)</stage>
 <l>Прощай, Филипп, мой друг!</l>
 <l>Кто говорит вокруг?</l>
-<stage>Своим голосом.</stage>
+<stage>(Своим голосом.)</stage>
 <l>Прощай, Филипп любезный,</l>
 <l>Друзья мои, простите,</l>
 <l>Друзья мои, прощайте,</l>
@@ -2368,9 +2329,7 @@
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
 <p>Уф, как гора с плеч свалилась! Ну, Жульета, помиримся, дай мне руку. {{ремарка|Жмет у ней.}} </p>
-<l><poem class=p1></l>
 <stage>№ 18</stage>
-<l><center>№ 18</center></l>
 </sp>
 <sp who="#Zhuleta">
 <speaker>Жульета</speaker>
@@ -2445,10 +2404,10 @@
 <l>Что ты объявляешь,</l>
 <l>Что ты не желаешь,</l>
 <l>А потом забываешь</l>
-<stage>вздыхает</stage>
+<stage>(вздыхает)</stage>
 <l>А потом что по мне не вздыхаешь,</l>
 <l>Вздыхает, не забывает</l>
-<stage>и воздыхает</stage>
+<stage>(и воздыхает)</stage>
 <l>Милена твоя,</l>
 <l>Мы благополучны</l>
 <l>И век неразлучны.</l>
@@ -2479,9 +2438,7 @@
 <speaker>Блез</speaker>
 <p>И подумать нельзя, такая вышина, что сердце замирает.</p>
 <stage>{{razr|{{loop|98|.}}}}</stage>
-<l><poem class=p1></l>
 <stage>№ 19 {{ремарка|речитатив}}</stage>
-<l><center>№ 19 {{ремарка|речитатив}}</center></l>
 </sp>
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
@@ -2700,9 +2657,6 @@
 <l>За двери пора иттить.</l>
 <stage><stage></stage>'Конец оперы<stage></stage>'</stage>
 </div>
-<div type="other">
-<head>Примечания</head>
-<p>{{примечания}}</p>
 </body>
 </text>
 </TEI>

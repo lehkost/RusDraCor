@@ -41,26 +41,26 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Ksenija">
-<persName>Ксения</persName>
-</person>
-<person xml:id="Georgij">
-<persName>Георгий</persName>
-</person>
-<person xml:id="NachalNik">
-<persName>Начальник</persName>
-</person>
 <person xml:id="Parmen">
 <persName>Пармен.</persName>
+</person>
+<person xml:id="Dimitrij">
+<persName>Димитрий</persName>
+</person>
+<person xml:id="Ksenija">
+<persName>Ксения</persName>
 </person>
 <person xml:id="Shujskij">
 <persName>Шуйский</persName>
 </person>
+<person xml:id="Georgij">
+<persName>Георгий</persName>
+</person>
 <person xml:id="Parmen">
 <persName>Пармен</persName>
 </person>
-<person xml:id="Dimitrij">
-<persName>Димитрий</persName>
+<person xml:id="NachalNik">
+<persName>Начальник</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -279,7 +279,7 @@
 <l>Когда б, как подданный, он истиной судился.</l>
 </sp>
 <sp who="#Parmen">
-<speaker>Пармен</speaker><stage type="delivery">особливо</stage>
+<speaker>Пармен</speaker> <stage type="delivery">(особливо)</stage>
 <l>Потчусь от варварства супругу обрегать.</l>
 <stage>(Димитрию.)</stage>
 <l>В геенну ты себя стараешься ввергать.</l>
@@ -895,7 +895,7 @@
 <head>ЯВЛЕНИЕ 7</head>
 </sp>
 <sp who="#Dimitrij">
-<speaker>Димитрий</speaker><stage type="delivery">один</stage>
+<speaker>Димитрий</speaker> <stage type="delivery">(один)</stage>
 <l>Нетвердо на главе моей лежит венец,</l>
 <l>И близок моего величия конец.</l>
 <l>Повсеминутно жду незапныя премены.</l>
@@ -994,7 +994,7 @@
 <head>ЯВЛЕНИЕ 2</head>
 </sp>
 <sp who="#Shujskij">
-<speaker>Шуйский</speaker><stage type="delivery">один</stage>
+<speaker>Шуйский</speaker> <stage type="delivery">(один)</stage>
 <l>Лукавствуй ты иль нет, Димитрий мной увянет,</l>
 <l>Низвержется, падет, падет и не восстанет.</l>
 <l>Когда умрети рок велит, умреть хощу,</l>
@@ -1375,7 +1375,7 @@
 <head>ЯВЛЕНИЕ 7</head>
 </sp>
 <sp who="#Georgij">
-<speaker>Георгий</speaker><stage type="delivery">один</stage>
+<speaker>Георгий</speaker> <stage type="delivery">(один)</stage>
 <l>Не чтя бессмертного и смертных ненавидя,</l>
 <l>Довольствуйся, тиран, мое мученье видя.</l>
 <l>Тревожа весь мой ум и грудь мою разя,</l>
@@ -1614,11 +1614,11 @@
 <l>Конечно, истина твой разум побеждает?</l>
 </sp>
 <sp who="#Dimitrij">
-<speaker>Димитрий</speaker><stage type="delivery">вручая ему хартию).</stage>
+<speaker>Димитрий</speaker> <stage type="delivery">(вручая ему хартию).)</stage>
 <l>Что тут написано, исполни всё сие!</l>
 </sp>
 <sp who="#Parmen">
-<speaker>Пармен</speaker><stage type="delivery">(прочет надпись</stage>
+<speaker>Пармен</speaker> <stage type="delivery">((прочет надпись)</stage>
 <l>Ко нову варварству стремление твое!</l>
 </sp>
 <sp who="#Dimitrij">
@@ -1639,7 +1639,7 @@
 <head>ЯВЛЕНИЕ 5</head>
 </sp>
 <sp who="#Dimitrij">
-<speaker>Димитрий</speaker><stage type="delivery">один</stage>
+<speaker>Димитрий</speaker> <stage type="delivery">(один)</stage>
 <l>Блаженная душа идет в объятье бога,</l>
 <l>А мне показана с престола в ад дорога.</l>
 <l>Сия последня ночь — ночь вечна будет мне;</l>
@@ -1718,7 +1718,7 @@
 <l>Сим образом монарх на трон тебя венчает</l>
 </sp>
 <sp who="#Georgij">
-<speaker>Георгий</speaker><stage type="delivery">Ксении</stage>
+<speaker>Георгий</speaker> <stage type="delivery">(Ксении)</stage>
 <l>Сим образом мою к тебе любовь кончает.</l>
 </sp>
 <sp who="#Ksenija">
@@ -1909,7 +1909,7 @@
 <head>ЯВЛЕНИЕ 1</head>
 </sp>
 <sp who="#Dimitrij">
-<speaker>Димитрий</speaker><stage type="delivery">один</stage>
+<speaker>Димитрий</speaker> <stage type="delivery">(один)</stage>
 <stage>Занавес подымается: Димитрий спящий сидит на креслах, возле него стол, на котором царские утвари, и, проснувся, говорит:</stage>
 <l>Довольно я терплю душевных огорчений,</l>
 <l>Не умножайте вы, мечты, моих мучений!</l>
@@ -1967,7 +1967,7 @@
 <head>ЯВЛЕНИЕ 3</head>
 </sp>
 <sp who="#Dimitrij">
-<speaker>Димитрий</speaker><stage type="delivery">один</stage>
+<speaker>Димитрий</speaker> <stage type="delivery">(один)</stage>
 <l part="F"> Не трона отлученье —</l>
 <l>Важнейшее мое, тягчайшее мученье,</l>
 <l>Но то, что в ярости лютейшей я горю</l>
@@ -2058,7 +2058,7 @@
 <l>Лишайтеся ее, престола мя лиша!</l>
 </sp>
 <sp who="#Georgij">
-<speaker>Георгий</speaker><stage type="delivery">несколько приближаяся к нему</stage>
+<speaker>Георгий</speaker> <stage type="delivery">(несколько приближаяся к нему)</stage>
 <l>Когда ты чьей-нибудь погибели желаешь,</l>
 <l>Смягчи суровство мной, в котором ты пылаешь!</l>
 <l>Георгий — твой злодей.</l>
@@ -2092,7 +2092,7 @@
 <l>Мне жертва та мала к отмщенью моему.</l>
 </sp>
 <sp who="#Georgij">
-<speaker>Георгий</speaker><stage type="delivery">отступив и обратився к народу</stage>
+<speaker>Георгий</speaker> <stage type="delivery">(отступив и обратився к народу)</stage>
 <l>Спасения лишен, на смерть лечу к нему.</l>
 <stage>(Бросаяся на него.)</stage>
 <l>Прости, любезная!</l>
@@ -2102,11 +2102,11 @@
 <l part="F"> Прости!</l>
 </sp>
 <sp who="#Dimitrij">
-<speaker>Димитрий</speaker><stage type="delivery">устремився Ксению заколоть</stage>
+<speaker>Димитрий</speaker> <stage type="delivery">(устремився Ксению заколоть)</stage>
 <l part="F"> Увяньте, розы!</l>
 </sp>
 <sp who="#Parmen">
-<speaker>Пармен</speaker><stage type="delivery">с обнаженным мечем, вырывая Ксению из рук его</stage>
+<speaker>Пармен</speaker> <stage type="delivery">(с обнаженным мечем, вырывая Ксению из рук его)</stage>
 <l>Прошли уже твои жестокости и грозы!</l>
 <l>Избавлен наш народ смертей, гонений, ран,</l>
 <l>Не страшен никому в бессилии тиран.</l>
@@ -2118,9 +2118,6 @@
 <l>Ах, если бы со мной погибла вся вселенна!</l>
 <stage>Конец трагедии</stage>
 </div>
-<div type="other">
-<head>Примечания</head>
-<p>{{Примечания}}</p>
 </body>
 </text>
 </TEI>

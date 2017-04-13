@@ -5,7 +5,7 @@
             <titleStmt>
                 <title type="main">Скупой рыцарь</title>
                 <title type="sub"></title>
-                <author></author>
+                <author>Александр Сергеевич Пушкин</author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="RusDraCor">RusDraCor</publisher>
@@ -41,20 +41,20 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Baron">
-<persName>Барон</persName>
+<person xml:id="Ivan">
+<persName>Иван</persName>
 </person>
 <person xml:id="Zhid">
 <persName>Жид</persName>
 </person>
-<person xml:id="Ivan">
-<persName>Иван</persName>
-</person>
-<person xml:id="AlBer">
-<persName>Альбер</persName>
+<person xml:id="Baron">
+<persName>Барон</persName>
 </person>
 <person xml:id="Gertsog">
 <persName>Герцог</persName>
+</person>
+<person xml:id="AlBer">
+<persName>Альбер</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -75,7 +75,7 @@
 </div>
 <div type="other">
 <head>Скупой рыцарь</head>
-<stage>Сцены из Ченстоновой трагикомедии: The covetous Knight</stage>
+<stage>(Сцены из Ченстоновой трагикомедии: The covetous Knight)</stage>
 </div>
 <div type="scene">
 <head>Сцена I</head>
@@ -492,7 +492,7 @@
 <l>Я выше всех желаний; я спокоен;</l>
 <l>Я знаю мощь мою: с меня довольно</l>
 <l>Сего сознанья…</l>
-<stage>Смотрит на свое золото.</stage>
+<stage>(Смотрит на свое золото.)</stage>
 <l part="F"> Кажется, не много,</l>
 <l>А скольких человеческих забот,</l>
 <l>Обманов, слез, молений и проклятий</l>
@@ -515,7 +515,7 @@
 <l>Из недр земных все выступили вдруг,</l>
 <l>То был бы вновь потоп — я захлебнулся б</l>
 <l>В моих подвалах верных. Но пора.</l>
-<stage>Хочет отпереть сундук.</stage>
+<stage>(Хочет отпереть сундук.)</stage>
 <l>Я каждый раз, когда хочу сундук</l>
 <l>Мой отпереть, впадаю в жар и трепет.</l>
 <l>Не страх (о нет! кого бояться мне?</l>
@@ -528,9 +528,9 @@
 <l>Я чувствую, что чувствовать должны</l>
 <l>Они, вонзая в жертву нож: приятно</l>
 <l>И страшно вместе.</l>
-<stage>Отпирает сундук.</stage>
+<stage>(Отпирает сундук.)</stage>
 <l part="F"> Вот мое блаженство!</l>
-<stage>Всыпает деньги.</stage>
+<stage>(Всыпает деньги.)</stage>
 <l>Ступайте, полно вам по свету рыскать,</l>
 <l>Служа страстям и нуждам человека.</l>
 <l>Усните здесь сном силы и покоя,</l>
@@ -539,7 +539,7 @@
 <l>Зажгу свечу пред каждым сундуком,</l>
 <l>И все их отопру, и стану сам</l>
 <l>Средь них глядеть на блещущие груды.</l>
-<stage>Зажигает свечи и отпирает сундуки один за другим.</stage>
+<stage>(Зажигает свечи и отпирает сундуки один за другим.)</stage>
 <l>Я царствую!.. Какой волшебный блеск!</l>
 <l>Послушна мне, сильна моя держава;</l>
 <l>В ней счастие, в ней честь моя и слава!</l>
@@ -606,7 +606,7 @@
 <l>Меня сажал на своего коня</l>
 <l>И покрывал своим тяжелым шлемом,</l>
 <l>Как будто колоколом.</l>
-<stage>Смотрит в окно.</stage>
+<stage>(Смотрит в окно.)</stage>
 <l part="F"> Это кто?</l>
 <l>Не он ли?</l>
 </sp>
@@ -796,7 +796,7 @@
 <l part="F"> Барон, вы лжете.</l>
 </sp>
 <sp who="#Gertsog">
-<speaker>Герцог</speaker><stage type="delivery">сыну</stage>
+<speaker>Герцог</speaker> <stage type="delivery">(сыну)</stage>
 <l>Как смели вы?..</l>
 </sp>
 <sp who="#Baron">
@@ -814,7 +814,7 @@
 <speaker>Барон</speaker>
 <l>И гром еще не грянул, боже правый!</l>
 <l>Так подыми ж, и меч нас рассуди!</l>
-<stage>Бросает перчатку, сын поспешно ее подымает.</stage>
+<stage>(Бросает перчатку, сын поспешно ее подымает.)</stage>
 </sp>
 <sp who="#Alber">
 <speaker>Альбер</speaker>
@@ -827,13 +827,13 @@
 <l>В какие дни надел я на себя</l>
 <l>Цепь герцогов! Молчите: ты, безумец,</l>
 <l>И ты, тигренок! полно.</l>
-<stage>Сыну.</stage>
+<stage>(Сыну.)</stage>
 <l part="F"> Бросьте это;</l>
 <l>Отдайте мне перчатку эту.</l>
-<stage>отымает ее</stage>
+<stage>(отымает ее)</stage>
 </sp>
 <sp who="#Alber">
-<speaker>Альбер</speaker><stage type="delivery">a parte</stage>
+<speaker>Альбер</speaker> <stage type="delivery">(a parte)</stage>
 <l part="F"> Жаль.</l>
 </sp>
 <sp who="#Gertsog">
@@ -842,7 +842,7 @@
 <l>Подите: на глаза мои не смейте</l>
 <l>Являться до тех пор, пока я сам</l>
 <l>Не призову вас.</l>
-<stage>Альбер выходит.</stage>
+<stage>(Альбер выходит.)</stage>
 <l part="F"> Вы, старик несчастный,</l>
 <l>Не стыдно ль вам…</l>
 </sp>
@@ -857,7 +857,6 @@
 <speaker>Герцог</speaker>
 <l part="F"> Он умер. Боже!</l>
 <l>Ужасный век, ужасные сердца!</l>
-<p></poem></p>
 </body>
 </text>
 </TEI>

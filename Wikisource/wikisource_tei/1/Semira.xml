@@ -41,8 +41,26 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="Rostislav">
+<persName>Ростислав</persName>
+</person>
+<person xml:id="DrugojVoin">
+<persName>Другой воин</persName>
+</person>
+<person xml:id="OskolD">
+<persName>Оскольд</persName>
+</person>
 <person xml:id="Semira">
 <persName>Семира</persName>
+</person>
+<person xml:id="PervyjVoin">
+<persName>Первый воин</persName>
+</person>
+<person xml:id="Izbrana">
+<persName>Избрана</persName>
+</person>
+<person xml:id="Voin">
+<persName>Воин</persName>
 </person>
 <person xml:id="Vitozar">
 <persName>Витозар</persName>
@@ -50,26 +68,8 @@
 <person xml:id="Oleg">
 <persName>Олег</persName>
 </person>
-<person xml:id="DrugojVoin">
-<persName>Другой воин</persName>
-</person>
-<person xml:id="PervyjVoin">
-<persName>Первый воин</persName>
-</person>
-<person xml:id="Rostislav">
-<persName>Ростислав</persName>
-</person>
-<person xml:id="Voin">
-<persName>Воин</persName>
-</person>
-<person xml:id="OskolD">
-<persName>Оскольд</persName>
-</person>
 <person xml:id="Vozved">
 <persName>Возвед</persName>
-</person>
-<person xml:id="Izbrana">
-<persName>Избрана</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -787,7 +787,7 @@
 <stage>Олег, Ростислав и Витозар.</stage>
 </sp>
 <sp who="#Vitozar">
-<speaker>Витозар</speaker><stage type="delivery">Олегу</stage>
+<speaker>Витозар</speaker> <stage type="delivery">(Олегу)</stage>
 <l>Перед глаза твои Возвед предстать желает.</l>
 </sp>
 <sp who="#Oleg">
@@ -795,7 +795,7 @@
 <l>Представь его!</l>
 </sp>
 <sp who="#Vitozar">
-<speaker>Витозар</speaker><stage type="delivery">немного отошед</stage>
+<speaker>Витозар</speaker> <stage type="delivery">(немного отошед)</stage>
 <l part="F"> Войди! Олег повелевает.</l>
 </sp>
 </div>
@@ -804,7 +804,7 @@
 <stage>Олег, Ростислав, Витозар и Возвед.</stage>
 </sp>
 <sp who="#Oleg">
-<speaker>Олег</speaker><stage type="delivery">Возведу</stage>
+<speaker>Олег</speaker> <stage type="delivery">(Возведу)</stage>
 <l>Что хочешь мне сказать?</l>
 </sp>
 <sp who="#Vozved">
@@ -820,7 +820,7 @@
 <l>И предприял тебе усердие явить.</l>
 </sp>
 <sp who="#Oleg">
-<speaker>Олег</speaker><stage type="delivery">Витозару, указывая на Возведа</stage>
+<speaker>Олег</speaker> <stage type="delivery">(Витозару, указывая на Возведа)</stage>
 <l>В сей час вели сего злодея ты казнить!</l>
 </sp>
 <sp who="#Vozved">
@@ -871,7 +871,7 @@
 <head>ЯВЛЕНИЕ 7</head>
 </sp>
 <sp who="#Oleg">
-<speaker>Олег</speaker><stage type="delivery">один</stage>
+<speaker>Олег</speaker> <stage type="delivery">(один)</stage>
 <l>Вот воздаяние за милости к нему!</l>
 <l>Ты сам причина днесь несчастью своему.</l>
 <l>Доколе гордый враг совсем не истребится,</l>
@@ -1122,7 +1122,7 @@
 <head>ЯВЛЕНИЕ 12</head>
 </sp>
 <sp who="#Oleg">
-<speaker>Олег</speaker><stage type="delivery">один</stage>
+<speaker>Олег</speaker> <stage type="delivery">(один)</stage>
 <l>Престанешь приводить Олега ты на гнев.</l>
 <l>Смерть косу вознесла, разверзся адский зев.</l>
 <l>Я милости казал тебе в своей досаде,</l>
@@ -1162,7 +1162,7 @@
 <head>ЯВЛЕНИЕ 1</head>
 </sp>
 <sp who="#Oskold">
-<speaker>Оскольд</speaker><stage type="delivery">в цепях</stage>
+<speaker>Оскольд</speaker> <stage type="delivery">(в цепях)</stage>
 <l>Вот для ради чего я мужеством кипел!</l>
 <l>Кто столько горестей и в долгий век терпел?!</l>
 <l>Оковы я ношу в том доме, где родился,</l>
@@ -1410,7 +1410,7 @@
 <head>ЯВЛЕНИЕ 5</head>
 </sp>
 <sp who="#Semira">
-<speaker>Семира</speaker><stage type="delivery">одна</stage>
+<speaker>Семира</speaker> <stage type="delivery">(одна)</stage>
 <l>Еще ли ты, мой дух, не много претерпел?!</l>
 <l>Во всех странах моя надежда скончалась.</l>
 <l>В тебе, любовь, тебе одной она осталась!</l>
@@ -1622,11 +1622,11 @@
 <l part="F"> Княжна!..</l>
 </sp>
 <sp who="#Semira">
-<speaker>Семира</speaker><stage type="delivery">выхватив меч из ножен его</stage>
+<speaker>Семира</speaker> <stage type="delivery">(выхватив меч из ножен его)</stage>
 <l part="F"> Зри мертву пред собой...</l>
 </sp>
 <sp who="#Rostislav">
-<speaker>Ростислав</speaker><stage type="delivery">бросясь к ней и став на колени</stage>
+<speaker>Ростислав</speaker> <stage type="delivery">(бросясь к ней и став на колени)</stage>
 <l>В меня сей меч вонзи, конец соделай страсти!</l>
 <l>Мне он победу дал, лишил Оскольда власти,</l>
 <l>Он кровью обагрен народа твоего,</l>
@@ -1638,12 +1638,12 @@
 <stage>Возносит руку, чтоб заколоться.</stage>
 </sp>
 <sp who="#Rostislav">
-<speaker>Ростислав</speaker><stage type="delivery">в самой скорости восстав с коленей и удержав руку ея</stage>
+<speaker>Ростислав</speaker> <stage type="delivery">(в самой скорости восстав с коленей и удержав руку ея)</stage>
 <l>Не спорю больше я с своею лютой частью:</l>
 <l>Твой брат освобожден.</l>
 </sp>
 <sp who="#Semira">
-<speaker>Семира</speaker><stage type="delivery">отдав ему меч</stage>
+<speaker>Семира</speaker> <stage type="delivery">(отдав ему меч)</stage>
 <l part="F"> Мой князь, отныне я,</l>
 <l>Как брань ни кончится, по самый гроб твоя.</l>
 </sp>
@@ -1670,7 +1670,7 @@
 <head>ЯВЛЕНИЕ 7</head>
 </sp>
 <sp who="#Rostislav">
-<speaker>Ростислав</speaker><stage type="delivery">один</stage>
+<speaker>Ростислав</speaker> <stage type="delivery">(один)</stage>
 <l>Что сделать, Ростислав, ты ныне предприемлешь?</l>
 <l>Ни рассуждения, ни мужества не внемлешь.</l>
 <l>Ты, страсти следуя, противишься уму</l>
@@ -2065,7 +2065,7 @@
 <l>Будь милостив и мне, и сыну, и себе!</l>
 </sp>
 <sp who="#Rostislav">
-<speaker>Ростислав</speaker><stage type="delivery">Семире</stage>
+<speaker>Ростислав</speaker> <stage type="delivery">(Семире)</stage>
 <l>Коль честию своей я жертвовал тебе,</l>
 <l>Охотно за тебя я жизнь мою теряю:</l>
 <l>Одним несчастием другое умеряю.</l>
@@ -2112,7 +2112,7 @@
 <l>Отдай свой меч. Поди отсель во мглу темницы!</l>
 </sp>
 <sp who="#Rostislav">
-<speaker>Ростислав</speaker><stage type="delivery">отдавая меч Олегу, который меч его отдает потом воинам</stage>
+<speaker>Ростислав</speaker> <stage type="delivery">(отдавая меч Олегу, который меч его отдает потом воинам)</stage>
 <l>Се меч, расширивший отечества границы,</l>
 <l>Поящий кровию стран Киевых пески.</l>
 </sp>
@@ -2161,7 +2161,7 @@
 <stage>Олег, Семира и Избрана.</stage>
 </sp>
 <sp who="#Semira">
-<speaker>Семира</speaker><stage type="delivery">в самое то время, в которое Ростислав отходит, пред Олегом становяся на колени</stage>
+<speaker>Семира</speaker> <stage type="delivery">(в самое то время, в которое Ростислав отходит, пред Олегом становяся на колени)</stage>
 <l>Зри гордости теперь Семириной конец!</l>
 <l>Любовник мой — герой, Олег — ему отец,</l>
 <l>Им град сей дан тебе, им я живу в неволе,</l>
@@ -2184,7 +2184,7 @@
 <l>Прости, о государь! Вины сей я причина.</l>
 </sp>
 <sp who="#Oleg">
-<speaker>Олег</speaker><stage type="delivery">ее подымая</stage>
+<speaker>Олег</speaker> <stage type="delivery">(ее подымая)</stage>
 <l>Мое несчастие причиною тому.</l>
 <l>Невинна в этом ты, что ты мила ему</l>
 <l>И брата своего от смерти избавляла,</l>
@@ -2394,7 +2394,7 @@
 <l>Спаси его и нас!</l>
 </sp>
 <sp who="#Rostislav">
-<speaker>Ростислав</speaker><stage type="delivery">отходя</stage>
+<speaker>Ростислав</speaker> <stage type="delivery">(отходя)</stage>
 <l part="F"> Или погибну сам.</l>
 </sp>
 <sp who="#Semira">
@@ -2420,7 +2420,7 @@
 <head>ЯВЛЕНИЕ 5</head>
 </sp>
 <sp who="#Semira">
-<speaker>Семира</speaker><stage type="delivery">одна</stage>
+<speaker>Семира</speaker> <stage type="delivery">(одна)</stage>
 <l>Нежалостливый рок с обеих стран шумит,</l>
 <l>С обеих стран на мя ужасный гром гремит.</l>
 <l>Где скроюсь, бедная?! Несчастливой Семире</l>
@@ -2598,7 +2598,7 @@
 <l part="F"> Могу ль не плакать я?!</l>
 </sp>
 <sp who="#Oskold">
-<speaker>Оскольд</speaker><stage type="delivery">Олегу</stage>
+<speaker>Оскольд</speaker> <stage type="delivery">(Олегу)</stage>
 <l>Тебе дала, Олег, победу часть твоя,</l>
 <l>А мне моя судьба отверзла двери гроба,</l>
 <l>Должна прекращена теперь быть наша злоба.</l>
@@ -2650,7 +2650,7 @@
 <l>Прости, любезный друг, прости, мой друг, навеки!</l>
 </sp>
 <sp who="#Oskold">
-<speaker>Оскольд</speaker><stage type="delivery">Семире</stage>
+<speaker>Оскольд</speaker> <stage type="delivery">(Семире)</stage>
 <l>А ты, сестра моя, не плачь, не плачь о мне,</l>
 <l>Но защищай людей в родительской стране,</l>
 <l>Которы с таковой нам верностью служили</l>
@@ -2689,7 +2689,7 @@
 <l part="F"> Вся кровь во мне хладеет.</l>
 </sp>
 <sp who="#Oleg">
-<speaker>Олег</speaker><stage type="delivery">Семире</stage>
+<speaker>Олег</speaker> <stage type="delivery">(Семире)</stage>
 <l>Великодушие тобой да овладеет!</l>
 </sp>
 <sp who="#Rostislav">
@@ -2700,9 +2700,6 @@
 <l>И сделай, чтоб сердца в любви без слез кипели!</l>
 <stage>Конец трагедии</stage>
 </div>
-<div type="other">
-<head>Примечания</head>
-<p>{{Примечания}}</p>
 </body>
 </text>
 </TEI>
