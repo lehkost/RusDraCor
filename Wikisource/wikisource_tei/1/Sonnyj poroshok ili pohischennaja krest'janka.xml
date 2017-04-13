@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,32 +41,26 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="ZhulEta,ZhanetaINineta">
-<persName>Жульета, Жанета и Нинета</persName>
-</person>
-<person xml:id="Nineta,Graf">
-<persName>Нинета, граф</persName>
-</person>
-<person xml:id="BlezIFilipp">
-<persName>Блез и Филипп</persName>
-</person>
 <person xml:id="Oba">
 <persName>Оба</persName>
 </person>
-<person xml:id="ZhanetaINineta">
-<persName>Жанета и Нинета</persName>
+<person xml:id="Blez">
+<persName>Блез</persName>
+</person>
+<person xml:id="Graf">
+<persName>Граф</persName>
+</person>
+<person xml:id="Muzhiki">
+<persName>Мужики</persName>
+</person>
+<person xml:id="Vse">
+<persName>Все</persName>
 </person>
 <person xml:id="Zhaneta">
 <persName>Жанета</persName>
 </person>
-<person xml:id="ZhanetaIPaulin">
-<persName>Жанета и Паулин</persName>
-</person>
-<person xml:id="ZhulEtaINineta">
-<persName>Жульета и Нинета</persName>
-</person>
-<person xml:id="Filipp">
-<persName>Филипп</persName>
+<person xml:id="BlezIFilipp">
+<persName>Блез и Филипп</persName>
 </person>
 <person xml:id="ZhulEta">
 <persName>Жульета</persName>
@@ -74,35 +68,41 @@
 <person xml:id="ZhulEtaIZhaneta">
 <persName>Жульета и Жанета</persName>
 </person>
-<person xml:id="Nineta">
-<persName>Нинета</persName>
-</person>
-<person xml:id="RabotnikiIDocheriBleza">
-<persName>Работники и дочери Блеза</persName>
+<person xml:id="ZhulEtaINineta">
+<persName>Жульета и Нинета</persName>
 </person>
 <person xml:id="FilippIBlez">
 <persName>Филипп и Блез</persName>
 </person>
+<person xml:id="ZhanetaINineta">
+<persName>Жанета и Нинета</persName>
+</person>
+<person xml:id="Paulin">
+<persName>Паулин</persName>
+</person>
+<person xml:id="ZhulEta,ZhanetaINineta">
+<persName>Жульета, Жанета и Нинета</persName>
+</person>
 <person xml:id="Vmeste">
 <persName>Вместе</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="Blez">
-<persName>Блез</persName>
-</person>
-<person xml:id="Muzhiki">
-<persName>Мужики</persName>
 </person>
 <person xml:id="Hor">
 <persName>Хор</persName>
 </person>
-<person xml:id="Graf">
-<persName>Граф</persName>
+<person xml:id="ZhanetaIPaulin">
+<persName>Жанета и Паулин</persName>
 </person>
-<person xml:id="Paulin">
-<persName>Паулин</persName>
+<person xml:id="Nineta,Graf">
+<persName>Нинета, граф</persName>
+</person>
+<person xml:id="RabotnikiIDocheriBleza">
+<persName>Работники и дочери Блеза</persName>
+</person>
+<person xml:id="Filipp">
+<persName>Филипп</persName>
+</person>
+<person xml:id="Nineta">
+<persName>Нинета</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -128,13 +128,15 @@
 <castItem>Жульета</castItem>
 <castItem>Филипп</castItem>
 </castList>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Сонный порошок или похищенная крестьянка</head>
 <stage><stage>Опера в трех действиях</stage></stage>
-<p><center><stage>Опера в трех действиях</stage></center></p>
 <p>{| class=personae</p>
 <p>{| class=personae style="width:auto"</p>
 <p>{| class=personae</p>
+</div>
 <div type="act">
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <div type="other">
@@ -145,7 +147,7 @@
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
 <l><poem class=p1></l>
 <stage>Театр представляет деревню; на одной стороне дом Блеза, у дверей из дерев сделанная беседка, в которой стоит стол.</stage>
-<stage>{{razr|Нинета</stage>
+<stage><actor>Нинета</actor>, <actor>Жанета</actor> и два крестьянина, работники Блеза, сидят и готовят кушанье. <actor>Блез</actor> выходит из своего дома и начинает интродуксион.</stage>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker>
@@ -248,11 +250,12 @@
 <sp who="#Blez">
 <speaker>Блез</speaker>
 <p>Это для того, что вы еще очень малы, а сестра ваша... О, Жульета, это совсем другое дело! Молчите, да вот-вот и барин идет сюда! Ну же, ну же скорей, поклонитесь ему чинненько!</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<stage>Прежние, {{razr|Граф</stage>
+<stage>Прежние, <actor>Граф</actor> и <actor>Паулин</actor>, <actor>Блез</actor> и его дочери (говорят вместе).</stage>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker>
@@ -330,7 +333,7 @@
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<stage>{{razr|Граф</stage>
+<stage><actor>Граф</actor> и <actor>Паулин</actor>.</stage>
 </sp>
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
@@ -445,6 +448,7 @@
 <speaker>Граф</speaker>
 <p>Вот и она выходит! Отойдем к стороне. Прежде нежели с ней увижусь, я хочу поговорить с тобою, каким образом нам все это распорядить.</p>
 <stage>Оба уходят.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
 <div type="other">
@@ -470,7 +474,7 @@
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<stage>{{razr|Граф</stage>
+<stage><actor>Граф</actor>, <actor>Жульета</actor> и <actor>Паулин</actor>.</stage>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
@@ -499,11 +503,12 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Так ты еще не догадываешься... ты еще не примечаешь, что...</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
-<stage>Прежние и {{razr|Блез</stage>
+<stage>Прежние и <actor>Блез</actor>, а потом <actor>Филипп</actor>.</stage>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker>
@@ -615,11 +620,12 @@
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
 <p>А я еще там его подщекочу! {{ремарка|Паулин идет к Блезу.}} </p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
-<stage>{{razr|Граф</stage>
+<stage><actor>Граф</actor> и <actor>Жульета</actor>.</stage>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
@@ -878,6 +884,7 @@
 <l>Мучит тайно подозренье,</l>
 <l>Но не надобно казать.</l>
 <stage><stage></stage>'Конец первого акта<stage></stage>'</stage>
+</div>
 <div type="act">
 <head>ДЕЙСТВИЕ ВТОРОЕ</head>
 <div type="other">
@@ -886,7 +893,7 @@
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<stage>{{razr|Паулин</stage>
+<stage><actor>Паулин</actor>, <actor>Жанета</actor> (выходят из дома Блеза).</stage>
 </sp>
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
@@ -913,11 +920,12 @@
 <sp who="#Zhaneta">
 <speaker>Жанета</speaker>
 <p>Вам не трудно его сыскать… он... вон сам идет. {{ремарка|Она входит к Блезу.}} </p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<stage>{{razr|Граф</stage>
+<stage><actor>Граф</actor> и <actor>Паулин</actor>.</stage>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
@@ -968,11 +976,12 @@
 <speaker>Граф</speaker>
 <p>Хорошо, очень хорошо; славно, бесподобно! А вот Блез и Филипп. Ступай, мы там посоветуем хорошенько.</p>
 <stage>Уходит направо.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<stage>{{razr|Блез</stage>
+<stage><actor>Блез</actor>, <actor>Филипп</actor> (из дома).</stage>
 </sp>
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
@@ -1022,7 +1031,7 @@
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
-<stage>{{razr|Жульета</stage>
+<stage><actor>Жульета</actor>, <actor>Филипп</actor> и <actor>Блез</actor>.</stage>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker><stage type="delivery">дочери</stage>
@@ -1145,11 +1154,12 @@
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
 <p>Добро, злодейка, ты это мне заплатишь!</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<stage>{{razr|Граф</stage>
+<stage><actor>Граф</actor>, <actor>Блез</actor> и <actor>Филипп</actor>.</stage>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker>
@@ -1256,11 +1266,12 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Я запрещаю тебе, чтоб ты никак не смел грубить Жульете.</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
-<stage>Прежние и {{razr|Паулин</stage>
+<stage>Прежние и <actor>Паулин</actor> (тянет графа в сторону).</stage>
 </sp>
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
@@ -1738,6 +1749,7 @@
 <p>{{noindent|Нос себе разбить,}}</p>
 <p>{{noindent|Скорее в дом, скорей уйтить.}}</p>
 <stage><stage></stage>'Конец второго акта.<stage></stage>'</stage>
+</div>
 <div type="act">
 <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
 <div type="other">
@@ -1746,7 +1758,7 @@
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<stage>Театр представляет залу в доме графа. {{razr|Жульета</stage>
+<stage>Театр представляет залу в доме графа. <actor>Жульета</actor> сидит на софе и спит, в углу стоит туалет. И две женщины.</stage>
 </sp>
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
@@ -1803,7 +1815,7 @@
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<stage>{{razr|Жульета</stage>
+<stage><actor>Жульета</actor> и <actor>Граф</actor>.</stage>
 </sp>
 <sp who="#ZhulEta">
 <speaker>Жульета</speaker>
@@ -1891,7 +1903,7 @@
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<stage>{{razr|Паулин</stage>
+<stage><actor>Паулин</actor>, <actor>Граф</actor> и <actor>Жульета</actor>.</stage>
 </sp>
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
@@ -1908,11 +1920,12 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Войди, войди сюда, после этого несносного посещенья я тотчас к тебе приду.</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
-<stage>{{razr|Филипп</stage>
+<stage><actor>Филипп</actor>, <actor>Граф</actor> и <actor>Паулин</actor>.</stage>
 <stage>Филипп одет деревенским бароном, смешным образом, в большом парике; входя в комнату, делает смешные поклоны и хочет казаться петиметром.</stage>
 </sp>
 <sp who="#Filipp">
@@ -1997,11 +2010,12 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>О, вы имеете вид большого волокиты!</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<stage>{{razr|Паулин</stage>
+<stage><actor>Паулин</actor>, <actor>Граф</actor> и <actor>Филипп</actor>.</stage>
 </sp>
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
@@ -2072,11 +2086,12 @@
 <sp who="#Graf">
 <speaker>Граф</speaker>
 <p>Охотно.</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
-<stage>{{razr|Филипп</stage>
+<stage><actor>Филипп</actor> и <actor>Жульета</actor>.</stage>
 </sp>
 <sp who="#Filipp">
 <speaker>Филипп</speaker>
@@ -2106,11 +2121,12 @@
 <sp who="#ZhulEta">
 <speaker>Жульета</speaker>
 <p>Ясного нет ничего; я уверяю тебя...</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
-<stage>{{razr|Граф</stage>
+<stage><actor>Граф</actor>, <actor>Паулин</actor>, <actor>Жульета</actor> и <actor>Филипп</actor>.</stage>
 </sp>
 <sp who="#Graf">
 <speaker>Граф</speaker>
@@ -2245,6 +2261,7 @@
 <sp who="#Paulin">
 <speaker>Паулин</speaker>
 <p>О, я это сверчу в четверть часа!</p>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВОСЬМОЕ</head>
 <div type="other">
@@ -2307,7 +2324,7 @@
 <head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
-<stage>{{razr|Жульета</stage>
+<stage><actor>Жульета</actor> и <actor>Филипп</actor>.</stage>
 </sp>
 <sp who="#ZhulEta">
 <speaker>Жульета</speaker>
@@ -2503,7 +2520,7 @@
 <head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
 <div type="other">
 <head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
-<stage>{{razr|Блез</stage>
+<stage><actor>Блез</actor>, <actor>Филипп</actor>, <actor>Жульета</actor>.</stage>
 </sp>
 <sp who="#Blez">
 <speaker>Блез</speaker>
@@ -2517,7 +2534,6 @@
 <speaker>Блез</speaker>
 <p>И подумать нельзя, такая вышина, что сердце замирает.</p>
 <stage>{{razr|{{loop|98|.}}}}</stage>
-<p><center>{{razr|{{loop|98|.}}}}</center></p>
 <l><poem class=p1></l>
 <stage>№ 19 {{ремарка|речитатив}}</stage>
 <l><center>№ 19 {{ремарка|речитатив}}</center></l>
@@ -2738,13 +2754,10 @@
 <l>Нечего нам время длить.</l>
 <l>За двери пора иттить.</l>
 <stage><stage></stage>'Конец оперы<stage></stage>'</stage>
+</div>
 <div type="other">
 <head>Примечания</head>
 <p>{{примечания}}</p>
-<p></div></p>
-<p>[[Категория:Литература 1798 года]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Драматургия Ивана Андреевича Крылова]]</p>
 </body>
 </text>
 </TEI>

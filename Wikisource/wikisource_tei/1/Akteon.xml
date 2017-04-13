@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,23 +41,41 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="RanisIKrokale">
-<persName>Ранис и Крокале</persName>
+<person xml:id="Hiale">
+<persName>Хиале</persName>
 </person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
+<person xml:id="Agava">
+<persName>Агава</persName>
 </person>
-<person xml:id="Ehion">
-<persName>Эхион</persName>
+<person xml:id="Tretij">
+<persName>Третий</persName>
 </person>
 <person xml:id="Ranis">
 <persName>Ранис</persName>
 </person>
-<person xml:id="VtorojJunosha">
-<persName>Второй юноша</persName>
+<person xml:id="GolosaOhotnits">
+<persName>Голоса охотниц</persName>
 </person>
-<person xml:id="Krokale">
-<persName>Крокале</persName>
+<person xml:id="Kadm">
+<persName>Кадм</persName>
+</person>
+<person xml:id="PervyjJunosha">
+<persName>Первый юноша</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="RanisIKrokale">
+<persName>Ранис и Крокале</persName>
+</person>
+<person xml:id="Ehion">
+<persName>Эхион</persName>
+</person>
+<person xml:id="Akteon">
+<persName>Актеон</persName>
+</person>
+<person xml:id="TretijJunosha">
+<persName>Третий юноша</persName>
 </person>
 <person xml:id="Diana">
 <persName>Диана</persName>
@@ -65,32 +83,14 @@
 <person xml:id="VseTroe">
 <persName>Все трое</persName>
 </person>
-<person xml:id="TretijJunosha">
-<persName>Третий юноша</persName>
-</person>
-<person xml:id="Kadm">
-<persName>Кадм</persName>
-</person>
-<person xml:id="Agava">
-<persName>Агава</persName>
+<person xml:id="VtorojJunosha">
+<persName>Второй юноша</persName>
 </person>
 <person xml:id="Vtoroj">
 <persName>Второй</persName>
 </person>
-<person xml:id="Tretij">
-<persName>Третий</persName>
-</person>
-<person xml:id="Hiale">
-<persName>Хиале</persName>
-</person>
-<person xml:id="Akteon">
-<persName>Актеон</persName>
-</person>
-<person xml:id="PervyjJunosha">
-<persName>Первый юноша</persName>
-</person>
-<person xml:id="GolosaOhotnits">
-<persName>Голоса охотниц</persName>
+<person xml:id="Krokale">
+<persName>Крокале</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -108,10 +108,11 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Актеон</head>
 <stage><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</stage>
-<p><center><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</center></p>
 <p>* {{razr2|Кадм}}, царь, строитель Фив.</p>
 <p>* {{razr2|Эхион}}, его слуга и друг.</p>
 <p>* {{razr2|Актеон}}, сын Кадма.</p>
@@ -550,7 +551,7 @@
 <speaker>Крокале</speaker>
 <p>{{indent|Настиг? Нет, конечно.}} Ещё бы,</p>
 <p>Сознаться всем не легко.</p>
-<stage>В это время {{razr|Актеон</stage>
+<stage>В это время <actor>Актеон</actor> поднимается, протягивает руки к Диане и говорит, восторженно, как в бреду.</stage>
 </sp>
 <sp who="#Akteon">
 <speaker>Актеон</speaker>
@@ -658,7 +659,7 @@
 <p>Но ты склоняешься, дрожишь,</p>
 <p>Ты нашей воле предоставлен</p>
 <p>И никуда не убежишь.</p>
-<stage>Актеон мечется ещё немного, потом падает, остальные разбегаются. Немного погодя входят {{razr2|Эхион и Агава</stage>
+<stage>Актеон мечется ещё немного, потом падает, остальные разбегаются. Немного погодя входят {{razr2|Эхион и Агава}}.</stage>
 </sp>
 <sp who="#Agava">
 <speaker>Агава</speaker><stage type="delivery">зовёт</stage>
@@ -669,10 +670,6 @@
 <p>Хуже самого последнего сатира.</p>
 <p><br /></p>
 <p>{{right|<stage>1913</stage>}}</p>
-<p></div></p>
-<p>[[Категория:Драматургия Николая Степановича Гумилёва]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1913 года]]</p>
 </body>
 </text>
 </TEI>

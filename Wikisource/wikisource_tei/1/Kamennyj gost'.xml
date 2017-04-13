@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,50 +41,50 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Gost">
-<persName>Гость</persName>
-</person>
 <person xml:id="PervyjGost">
 <persName>Первый гость</persName>
-</person>
-<person xml:id="DonGuan">
-<persName>Дон Гуан </persName>
 </person>
 <person xml:id="DonaAnna">
 <persName>Дона Анна</persName>
 </person>
-<person xml:id="DonKarlos">
-<persName>Дон Карлос</persName>
-</person>
-<person xml:id="Monah">
-<persName>Монах</persName>
+<person xml:id="Gost">
+<persName>Гость</persName>
 </person>
 <person xml:id="Gosti">
 <persName>Гости</persName>
 </person>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
+<person xml:id="Vse">
+<persName>Все</persName>
 </person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
-</person>
-<person xml:id="Laura">
-<persName>Лаура</persName>
+<person xml:id="Monah">
+<persName>Монах</persName>
 </person>
 <person xml:id="Tretij">
 <persName>Третий</persName>
 </person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
 <person xml:id="DonGuan">
 <persName>Дон Гуан</persName>
 </person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="Laura">
+<persName>Лаура</persName>
+</person>
 <person xml:id="Statuja">
 <persName>Статуя</persName>
+</person>
+<person xml:id="Leporello">
+<persName>Лепорелло</persName>
+</person>
+<person xml:id="DonKarlos">
+<persName>Дон Карлос</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="DonGuan">
+<persName>Дон Гуан </persName>
 </person>
 </listPerson>
 </particDesc>
@@ -102,12 +102,15 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Каменный гость</head>
 <p>{{эпиграф2|</p>
 <p>{{razr|Leporello}}. O statua gentilissima <br /></p>
 <p>{{indent|6}}Del gran’ Commendatore!.. <br /></p>
 <p>{{indent|6}}…Ah, Padrone!</p>
+</div>
 <div type="scene">
 <head>Сцена I</head>
 <stage>Дон Гуан и Лепорелло.</stage>
@@ -1634,14 +1637,7 @@
 <l>Я гибну — кончено — о Дона Анна!</l>
 <stage>Проваливаются. </stage>
 <l>{{right|<stage>1830</stage>}}</l>
-<p></poem></div></p>
-<div type="other">
-<head>Примечания</head>
-<p>{{примечания}}</p>
-<p>{{PD-simple}}</p>
-<p>[[Категория:Драматургия Александра Сергеевича Пушкина]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1830 года]]</p>
+<p></poem></p>
 </body>
 </text>
 </TEI>

@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -44,20 +44,20 @@
 <person xml:id="DonZhuan">
 <persName>Дон Жуан</persName>
 </person>
-<person xml:id="Leporello">
-<persName>Лепорелло </persName>
-</person>
-<person xml:id="Amerikanka">
-<persName>Американка</persName>
-</person>
-<person xml:id="Leporello">
-<persName>Лепорелло</persName>
-</person>
 <person xml:id="Amerikanets">
 <persName>Американец </persName>
 </person>
 <person xml:id="Amerikanets">
 <persName>Американец</persName>
+</person>
+<person xml:id="Amerikanka">
+<persName>Американка</persName>
+</person>
+<person xml:id="Leporello">
+<persName>Лепорелло </persName>
+</person>
+<person xml:id="Leporello">
+<persName>Лепорелло</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -75,10 +75,11 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Дон-Жуан в Египте</head>
 <stage><big><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</big></stage>
-<p><center><big><stage>'ДЕЙСТВУЮЩИЕ ЛИЦА:</stage>'</big></center></p>
 <p>* {{razr2|Дон Жуан}}.</p>
 <p>* {{razr2|Лепорелло}}.</p>
 <p>* {{razr2|Американец}}.</p>
@@ -622,11 +623,7 @@
 <l>Опять служить у Дон Жуана!</l>
 <l>----</l>
 <l><references /></l>
-<p></poem></div></p>
-<p>[[Категория:Драматургия Николая Степановича Гумилёва]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1910-х годов]]</p>
-<p>[[Категория:Чужое небо (Гумилёв)]]</p>
+<p></poem></p>
 </body>
 </text>
 </TEI>

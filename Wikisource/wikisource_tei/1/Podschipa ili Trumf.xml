@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,29 +41,29 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Podschipa">
-<persName>Подщипа</persName>
-</person>
-<person xml:id="Tsyganka">
-<persName>Цыганка</persName>
+<person xml:id="Chernavka">
+<persName>Чернавка</persName>
 </person>
 <person xml:id="Durduran">
 <persName>Дурдуран</persName>
 </person>
+<person xml:id="Sljunjaj">
+<persName>Слюняй</persName>
+</person>
 <person xml:id="Pazh">
 <persName>Паж</persName>
 </person>
-<person xml:id="Vakula">
-<persName>Вакула</persName>
+<person xml:id="Podschipa">
+<persName>Подщипа</persName>
 </person>
 <person xml:id="Trumf">
 <persName>Трумф</persName>
 </person>
-<person xml:id="Sljunjaj">
-<persName>Слюняй</persName>
+<person xml:id="Tsyganka">
+<persName>Цыганка</persName>
 </person>
-<person xml:id="Chernavka">
-<persName>Чернавка</persName>
+<person xml:id="Vakula">
+<persName>Вакула</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -93,10 +93,11 @@
 <castItem>Цыганка</castItem>
 <castItem>Бояре</castItem>
 </castList>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Подщипа или Трумф</head>
 <stage><stage>Шуто-трагедия в двух действиях, в стихах</stage></stage>
-<p><center><stage>Шуто-трагедия в двух действиях, в стихах</stage></center></p>
 <p>{| class=personae</p>
 <l><poem class=p0></l>
 <stage>Действие происходит в палатах царя Вакулы.</stage>
@@ -105,7 +106,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<stage>{{razr|Подщипа</stage>
+<stage><actor>Подщипа</actor> и <actor>Чернавка</actor>.</stage>
 </sp>
 <sp who="#Chernavka">
 <speaker>Чернавка</speaker>
@@ -199,7 +200,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<stage>Те же и {{razr|Дурдуран</stage>
+<stage>Те же и <actor>Дурдуран</actor> каплуном в руках.</stage>
 </sp>
 <sp who="#Durduran">
 <speaker>Дурдуран</speaker><stage type="delivery">кланяясь низко</stage>
@@ -291,7 +292,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<stage>Те же и {{razr|Трумф</stage>
+<stage>Те же и <actor>Трумф</actor>.</stage>
 </sp>
 <sp who="#Trumf">
 <speaker>Трумф</speaker>
@@ -415,7 +416,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
-<stage>{{razr|Подщипа</stage>
+<stage><actor>Подщипа</actor>, <actor>Чернавка</actor> и <actor>Слюняй</actor>.</stage>
 </sp>
 <sp who="#Sljunjaj">
 <speaker>Слюняй</speaker><stage type="delivery">крадется тихонько из-за кулис</stage>
@@ -496,9 +497,10 @@
 <speaker>Чернавка</speaker>
 <l part="F"> Бегу, но все напрасно!</l>
 <stage>Уходит.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<stage>Те же, кроме {{razr|Чернавка</stage>
+<stage>Те же, кроме <actor>Чернавка</actor>.</stage>
 </sp>
 <sp who="#Podschipa">
 <speaker>Подщипа</speaker>
@@ -580,9 +582,10 @@
 <l>Прощай... быть нежным ввек ты счастия не вкусишь!</l>
 <l>Прямой Слюняй, когда зарезаться ты трусишь.</l>
 <stage>Уходит</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
-<stage>{{razr|Слюняй</stage>
+<stage><actor>Слюняй</actor> один</stage>
 </sp>
 <sp who="#Sljunjaj">
 <speaker>Слюняй</speaker>
@@ -600,7 +603,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
-<stage>{{razr|Слюняй</stage>
+<stage><actor>Слюняй</actor>, <actor>Вакула</actor>, <actor>Дурдуран</actor>, <actor>Паж</actor> с кубарем и вельможи.</stage>
 </sp>
 <sp who="#Vakula">
 <speaker>Вакула</speaker>
@@ -670,9 +673,10 @@
 <speaker>Слюняй</speaker>
 <l>Езон! Так я пойду на гоюбятню сьязю!</l>
 <stage>Уходит.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВОСЬМОЕ</head>
-<stage>Те же, кроме {{razr|Слюняя</stage>
+<stage>Те же, кроме <actor>Слюняя</actor>.</stage>
 </sp>
 <sp who="#Vakula">
 <speaker>Вакула</speaker><stage type="delivery">встает и подходит к одному из вельмож</stage>
@@ -757,7 +761,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
-<stage>{{razr|Вакула</stage>
+<stage><actor>Вакула</actor> и <actor>Подщипа</actor>.</stage>
 </sp>
 <sp who="#Vakula">
 <speaker>Вакула</speaker>
@@ -838,7 +842,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВТОРОЕ</head>
-<stage>Те же и {{razr|Дурдуран</stage>
+<stage>Те же и <actor>Дурдуран</actor>.</stage>
 </sp>
 <sp who="#Vakula">
 <speaker>Вакула</speaker>
@@ -886,7 +890,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
-<stage>Те же и {{razr|Цыганка</stage>
+<stage>Те же и <actor>Цыганка</actor> (вбегая).</stage>
 </sp>
 <sp who="#Tsyganka">
 <speaker>Цыганка</speaker>
@@ -1030,7 +1034,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
-<stage>Те же и {{razr|Трумф</stage>
+<stage>Те же и <actor>Трумф</actor>, вбегая в бешенстве.</stage>
 </sp>
 <sp who="#Trumf">
 <speaker>Трумф</speaker>
@@ -1078,7 +1082,7 @@
 <sp who="#Trumf">
 <speaker>Трумф</speaker>
 <l part="F"> Фон, стара пес, отсюда!</l>
-<stage>{{razr|Вакула</stage>
+<stage><actor>Вакула</actor> уходит.</stage>
 </sp>
 <sp who="#Podschipa">
 <speaker>Подщипа</speaker>
@@ -1088,7 +1092,7 @@
 <speaker>Трумф</speaker>
 <l>О, хитра польно тфой! Мольши, красафис мой!</l>
 <l>Пошоль, пошоль! теперь мой даст на фсе указа.</l>
-<stage>{{razr|Подщипа</stage>
+<stage><actor>Подщипа</actor> уходит.</stage>
 </sp>
 <sp who="#Durduran">
 <speaker>Дурдуран</speaker>
@@ -1108,10 +1112,11 @@
 <speaker>Трумф</speaker>
 <l part="F"> Пашоль, пашоль, сапака!</l>
 <l>На фешер путу тал вам топра перетряка.</l>
-<stage>{{razr|Дурдуран</stage>
+<stage><actor>Дурдуран</actor> уходит.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ПЯТОЕ</head>
-<stage>{{razr|Трумф</stage>
+<stage><actor>Трумф</actor> и <actor>Цыганка</actor>.</stage>
 </sp>
 <sp who="#Tsyganka">
 <speaker>Цыганка</speaker>
@@ -1210,7 +1215,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
-<stage>{{razr|Трумф</stage>
+<stage><actor>Трумф</actor> и <actor>Слюняй</actor>.</stage>
 </sp>
 <sp who="#Sljunjaj">
 <speaker>Слюняй</speaker><stage type="delivery">вбегая и не видя Трумфа</stage>
@@ -1398,9 +1403,10 @@
 <l>Но фот идет княшон, красафис мила мой!</l>
 <l>Смотри тотшас феншать, иль прочь калофка тфой!</l>
 <stage>Уходит.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ВОСЬМОЕ</head>
-<stage>{{razr|Слюняй</stage>
+<stage><actor>Слюняй</actor> один.</stage>
 </sp>
 <sp who="#Sljunjaj">
 <speaker>Слюняй</speaker>
@@ -1411,7 +1417,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
-<stage>{{razr|Слюняй</stage>
+<stage><actor>Слюняй</actor> и <actor>Подщипа</actor>.</stage>
 </sp>
 <sp who="#Podschipa">
 <speaker>Подщипа</speaker><stage type="delivery">вбегая</stage>
@@ -1545,7 +1551,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
-<stage>Те же и {{razr|Паж</stage>
+<stage>Те же и <actor>Паж</actor>.</stage>
 </sp>
 <sp who="#Pazh">
 <speaker>Паж</speaker>
@@ -1597,7 +1603,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ОДИННАДЦАТОЕ</head>
-<stage>Те же и {{razr|Трумф</stage>
+<stage>Те же и <actor>Трумф</actor>.</stage>
 </sp>
 <sp who="#Trumf">
 <speaker>Трумф</speaker><stage type="delivery">вбегая в бешенстве</stage>
@@ -1637,7 +1643,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ДВЕНАДЦАТОЕ</head>
-<stage>Те же и {{razr|Вакула</stage>
+<stage>Те же и <actor>Вакула</actor>.</stage>
 </sp>
 <sp who="#Vakula">
 <speaker>Вакула</speaker><stage type="delivery">вбегая</stage>
@@ -1713,7 +1719,7 @@
 </div>
 <div type="scene">
 <head>ЯВЛЕНИЕ ТРИНАДЦАТОЕ</head>
-<stage>Те же, {{razr|Чернавка</stage>
+<stage>Те же, <actor>Чернавка</actor>, <actor>Цыганка</actor> и <actor>Дурдуран</actor>.</stage>
 </sp>
 <sp who="#Tsyganka">
 <speaker>Цыганка</speaker>
@@ -1791,13 +1797,10 @@
 <l>И в цейковь я тотцас вас всех пеегоню,</l>
 <l>Да тойко напеёд кой-сто пееменю!</l>
 <stage>Конец</stage>
+</div>
 <div type="other">
 <head>Примечания</head>
 <p>{{примечания}}</p>
-<p></div></p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1800 года]]</p>
-<p>[[Категория:Драматургия Ивана Андреевича Крылова]]</p>
 </body>
 </text>
 </TEI>

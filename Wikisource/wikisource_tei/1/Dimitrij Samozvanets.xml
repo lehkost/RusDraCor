@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,26 +41,26 @@
         <profileDesc>
 <particDesc>
 <listPerson>
+<person xml:id="Shujskij">
+<persName>Шуйский</persName>
+</person>
+<person xml:id="Dimitrij">
+<persName>Димитрий</persName>
+</person>
+<person xml:id="Parmen">
+<persName>Пармен.</persName>
+</person>
 <person xml:id="Ksenija">
 <persName>Ксения</persName>
 </person>
 <person xml:id="Parmen">
 <persName>Пармен</persName>
 </person>
-<person xml:id="Parmen">
-<persName>Пармен.</persName>
-</person>
 <person xml:id="Georgij">
 <persName>Георгий</persName>
 </person>
-<person xml:id="Dimitrij">
-<persName>Димитрий</persName>
-</person>
 <person xml:id="NachalNik">
 <persName>Начальник</persName>
-</person>
-<person xml:id="Shujskij">
-<persName>Шуйский</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -78,6 +78,8 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="act">
 <head>ДЕЙСТВИЕ I</head>
 <div type="other">
@@ -812,6 +814,7 @@
 <l>Не страшны казни мне, угрозы все вотще.</l>
 <l>Сражай меня, тиран! Чего ты ждешь еще?!</l>
 <stage>Шуйский пред последним стихом приходит.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
 <div type="other">
@@ -1611,6 +1614,7 @@
 <speaker>Димитрий</speaker>
 <l>Я знаю их давно... А ты отсель пойди!</l>
 <stage>Пармен приходит.</stage>
+</div>
 <div type="scene">
 <head>ЯВЛЕНИЕ 4</head>
 <div type="other">
@@ -1969,6 +1973,7 @@
 <l>Куда, стрегущие, велите мне идти?</l>
 <l>Везде равно; нигде отрады не найти.</l>
 <stage>Занавес опускается.</stage>
+</div>
 <div type="act">
 <head>ДЕЙСТВИЕ V</head>
 <div type="other">
@@ -2195,14 +2200,10 @@
 <stage>Ударяет себя во грудь кинжалом и, издыхая, падущий в руки стражей.</stage>
 <l>Ах, если бы со мной погибла вся вселенна!</l>
 <stage>Конец трагедии</stage>
+</div>
 <div type="other">
 <head>Примечания</head>
 <p>{{Примечания}}</p>
-<p></div></p>
-<p>{{PD-simple}}</p>
-<p>[[Категория:Литература 1770-х годов]]</p>
-<p>[[Категория:Драматургия Александра Петровича Сумарокова]]</p>
-<p>[[Категория:Русская драматургия]]</p>
 </body>
 </text>
 </TEI>

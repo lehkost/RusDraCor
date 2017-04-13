@@ -9,7 +9,7 @@ def opening(play):
     text_text = o.read()
     o.close()
     o = open('./wikisource_raws/2/' + play + '.txt', 'r', encoding='utf-8')
-    text_lines = o
+    text_lines = o.readlines()
     o.close()
     header = open('./tei_header.xml', 'r', encoding='utf-8').read()
     tei = open('./wikisource_tei/2/' + play + '.xml', 'w', encoding='utf-8')
@@ -76,6 +76,14 @@ def get_castList(play):
     else: castList_part = castList_part.group(0)
     castItems = re.findall('\{\{[Rr]azr\|(.*?)\}\}', castList_part)
     return castItems
+
+
+def start_act(line):
+    if '==' in line:
+        if 'действие' in line.lower():
+            line = '<div type="act">' + re.search('= (.*?) =', line).group(1)
+            return
+
 
 
 for files in os.walk('./wikisource_raws/2/'):

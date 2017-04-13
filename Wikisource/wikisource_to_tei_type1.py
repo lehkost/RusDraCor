@@ -2,11 +2,11 @@ import re
 import transliterate
 import os
 
-for root, dirs, files in os.walk('./wikisource_raws/1/'):
+for root, dirs, files in os.walk('./wikisource_raws/1_preprocessed/'):
     for file in files:
         if file.endswith('.txt'):
             print(file)
-            text = open('./wikisource_raws/1/' + file, 'r', encoding='utf-8')
+            text = open('./wikisource_raws/1_preprocessed/' + file, 'r', encoding='utf-8')
             text_read = text.read()
             text.close()
             text_read = text_read.split('</div>')[0]
@@ -46,7 +46,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text.write(text_read)
             text.close()
             '''
-            text = open('./wikisource_raws/1/' + file, 'r', encoding='utf-8')
+            text = open('./wikisource_raws/1_preprocessed/' + file, 'r', encoding='utf-8')
             tei_header = open('tei_header.xml', 'r', encoding='utf-8').read()
             text_tei = open('./wikisource_tei/1/' + file.split('.txt')[0] + '.xml', 'w', encoding='utf-8')
             text_tei.write(tei_header)
@@ -68,7 +68,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                             castList.append(re.findall('\{\{razr2?\|(.*?)\}\}', line)[0])
                     '''
                     if line.startswith('{{rem|') or line.startswith('{{Rem|'):
-                        stage = re.findall('\{\{[Rr]em\|(.*?)\}\}', line)[0]
+                        stage = re.findall('\{\{[Rr]em\|(.*?)\}\} *\n', line)[0]
                         text_tei.write('<stage>' + stage + '</stage>\n')
                     if line == '\n' or line == '----\n':
                         pass
@@ -100,6 +100,34 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                             text_tei.write('<stage>' + stage_del + '</stage>\n')
                     #if line == '\n':
                         #text_tei.write('</sp>\n')
+                    if line.lower().startswith('{{реплика'):
+                        # print(line)
+                        speaker = re.findall('\{\{[Рр]еплика\|(.*?)\|', line)
+                        if len(speaker) == 0:
+                            speaker = re.findall('\{\{[Рр]еплика\|(.*?)\}\}', line)
+                            speaker = speaker[0]
+                        else:
+                            speaker = re.findall('\{\{[Рр]еплика\|(.*?)\|', line)[0]
+                        speaker_id = transliterate.translit(speaker, 'ru', reversed=True)
+                        speaker_id = speaker_id.title()
+                        speaker_id = re.sub("[ \.'<>]", '', speaker_id)
+                        # print('\{\{[Рр]еплика\|' + speaker + '\|(.*?)\}\}')
+                        stage_del = re.findall('\{\{[Рр]еплика\|' + speaker + '\|(.*?)\}\}', line)
+                        if len(stage_del) != 0 and len(speaker) != 0:
+                            stage_del = stage_del[0]
+                            # print(line)
+                            # print(speaker)
+                            # print(stage_del)
+                            text_of_line = line.split(speaker + '|' + stage_del + '}} ')[1]
+                            # print(text_of_line)
+                            text_tei.write('<sp who="#' + speaker_id + '">\n<speaker>' + speaker + '</speaker>'
+                                            + ' <stage type="delivery">' + stage_del
+                                            + '</stage>\n' + '<p>' + text_of_line + '</p>' + '\n')
+                        if len(stage_del) == 0 and len(speaker) != 0:
+                            text_of_line = line.split(speaker + '}} ')[1]
+                            text_tei.write('<sp who="#' + speaker_id + '">\n<speaker>' + speaker + '</speaker>\n'
+                                            + '<p>' + text_of_line + '</p>' + '\n')
+
                     if line.startswith('<h4>'):
                         scene_title = re.findall('<h4>(.*?)</h4>', line)[0]
                         text_tei.write('<div type="scene">\n<head>' + scene_title + '</head>\n')
@@ -139,7 +167,7 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                             if not line.startswith('{{Re|') and not line.startswith('{{re|')\
                                     and not line.startswith('{{rem|') and not line.startswith('{{Rem|')\
                                     and not line.startswith('<h4>') and not line.startswith('|')\
-                                    and not line == '</poem>\n':
+                                    and not line == '</poem>\n' and not line.lower().startswith('{{реплика'):
                                 '''
                                 if line.lower().startswith('{{реплика|'):
                                     print(line)
@@ -163,6 +191,8 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
                                     pass
                                 if line == "<div class='drama text'>\n":
                                     pass
+                                if line.startswith('<center>'):
+                                    pass
                                 else:
                                     text_tei.write('<p>' + line.split('\n')[0] + '</p>\n')
 
@@ -182,6 +212,8 @@ for root, dirs, files in os.walk('./wikisource_raws/1/'):
             text_tei_read = re.sub('<p></p>\n', '', text_tei_read)
             text_tei_read = re.sub('</l>\n<div', '</l>\n</sp>\n<div', text_tei_read)
             text_tei_read = re.sub('</sp>\n<div', '</sp>\n</div>\n<div', text_tei_read)
+            text_tei_read = re.sub('</stage>\n<div', '</stage>\n</div>\n<div', text_tei_read)
+            text_tei_read = re.sub('</p>\n<div', '</p>\n</div>\n<div', text_tei_read)
             text_tei_read = re.sub('<ref.*?>.*?</ref>', '', text_tei_read)
             text_tei_read = re.sub('<author></author>', '<author>' + author + '</author>', text_tei_read)
             text_tei_read = re.sub('<title type="main"></title>', '<title type="main">' + title + '</title>', text_tei_read)

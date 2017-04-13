@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -44,17 +44,17 @@
 <person xml:id="Zhid">
 <persName>Жид</persName>
 </person>
-<person xml:id="Ivan">
-<persName>Иван</persName>
-</person>
 <person xml:id="Gertsog">
 <persName>Герцог</persName>
+</person>
+<person xml:id="Baron">
+<persName>Барон</persName>
 </person>
 <person xml:id="AlBer">
 <persName>Альбер</persName>
 </person>
-<person xml:id="Baron">
-<persName>Барон</persName>
+<person xml:id="Ivan">
+<persName>Иван</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -72,9 +72,12 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Скупой рыцарь</head>
 <stage>Сцены из Ченстоновой трагикомедии: The covetous Knight</stage>
+</div>
 <div type="scene">
 <head>Сцена I</head>
 <stage>В башне. </stage>
@@ -855,15 +858,7 @@
 <speaker>Герцог</speaker>
 <l part="F"> Он умер. Боже!</l>
 <l>Ужасный век, ужасные сердца!</l>
-<p></poem></div></p>
-<div type="other">
-<head>Примечания</head>
-<p>{{примечания}}</p>
-<p>{{PD-simple}}</p>
-<p>[[Категория:Драматургия Александра Сергеевича Пушкина]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1830 года]]</p>
-<p>[[fr:Le Baron avare]]</p>
+<p></poem></p>
 </body>
 </text>
 </TEI>

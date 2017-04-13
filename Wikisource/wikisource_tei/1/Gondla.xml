@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,20 +41,14 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Snorre">
-<persName>Снорре</persName>
-</person>
-<person xml:id="Lage">
-<persName>Лаге</persName>
-</person>
-<person xml:id="Vozhd">
-<persName>Вождь</persName>
+<person xml:id="Lera">
+<persName>Лера</persName>
 </person>
 <person xml:id="Snorre,GrubbeIAhti">
 <persName>Снорре, Груббе и Ахти</persName>
 </person>
-<person xml:id="Ahti">
-<persName>Ахти</persName>
+<person xml:id="Gondla">
+<persName>Гондла</persName>
 </person>
 <person xml:id="Konung">
 <persName>Конунг</persName>
@@ -62,11 +56,17 @@
 <person xml:id="Grubbe">
 <persName>Груббе</persName>
 </person>
-<person xml:id="Lera">
-<persName>Лера</persName>
+<person xml:id="Ahti">
+<persName>Ахти</persName>
 </person>
-<person xml:id="Gondla">
-<persName>Гондла</persName>
+<person xml:id="Vozhd">
+<persName>Вождь</persName>
+</person>
+<person xml:id="Snorre">
+<persName>Снорре</persName>
+</person>
+<person xml:id="Lage">
+<persName>Лаге</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -84,6 +84,8 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>ГОНДЛА</head>
 <div type="other">
@@ -101,6 +103,7 @@
 <p>переродило мощных морских королей IX века в мирных собирателей</p>
 <p>гагачьего пуха, рыболовов и пастухов наших дней.</p>
 <p>{{right|<stage>С. Н. Сыромятников</stage>}}</p>
+</div>
 <div type="other">
 <head>2</head>
 <p>Первобытный германец возмущает нас своей беспредметной грубостью,</p>
@@ -110,6 +113,7 @@
 <p>сочувствия к слабым. Это чувство — одно из самых глубоких народов</p>
 <p>кельтских, они имели жалость даже к самому Иуде…</p>
 <p>{{right|<stage>Ренан</stage>}}</p>
+</div>
 <div type="other">
 <head>ДЕЙСТВУЮЩИЕ ЛИЦА:</head>
 <p>{| style="margin-left:0px"</p>
@@ -122,14 +126,16 @@
 <p>{{tr||5}} <stage>Лера</stage>, она же <stage>Лаик</stage>, знатная исландская девушка.</p>
 <p>{{tr||5}} <stage>Ирландские воины.</stage></p>
 <p>{{tr}} <stage>Рабы.</stage> {{td0|4}}</p>
+</div>
 <div type="act">
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <div type="other">
 <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
 <stage>Широкий полутемный коридор рядом с пиршественной залой; несколько окон и дверь в спальню Леры. Поздно.</stage>
+</div>
 <div type="scene">
 <head>Сцена первая</head>
-<stage>{{razr|Конунг, Снорре, Груббе, Лаге, Ахти</stage>
+<stage><actor>Конунг, Снорре, Груббе, Лаге, Ахти</actor> выходят из пиршественной залы.</stage>
 </sp>
 <sp who="#Konung">
 <speaker>Конунг</speaker>
@@ -222,7 +228,7 @@
 </div>
 <div type="scene">
 <head>Сцена вторая</head>
-<stage>{{razr|Снорре, Груббе, Лаге, Ахти</stage>
+<stage><actor>Снорре, Груббе, Лаге, Ахти</actor></stage>
 </sp>
 <sp who="#Lage">
 <speaker>Лаге</speaker>
@@ -339,7 +345,7 @@
 </div>
 <div type="scene">
 <head>Сцена третья</head>
-<stage>Входят {{razr2|Гондла и Лера</stage>
+<stage>Входят {{razr2|Гондла и Лера}}.</stage>
 </sp>
 <sp who="#Gondla">
 <speaker>Гондла</speaker>
@@ -472,7 +478,7 @@
 </div>
 <div type="scene">
 <head>Сцена четвертая</head>
-<stage>{{razr2|Гондла и Ахти</stage>
+<stage>{{razr2|Гондла и Ахти}}</stage>
 </sp>
 <sp who="#Ahti">
 <speaker>Ахти</speaker>
@@ -572,7 +578,7 @@
 </div>
 <div type="scene">
 <head>Сцена пятая</head>
-<stage>{{razr2|Гондла, Лера, Снорре, Груббе, Лаге, Ахти</stage>
+<stage>{{razr2|Гондла, Лера, Снорре, Груббе, Лаге, Ахти}}.</stage>
 </sp>
 <sp who="#Lage">
 <speaker>Лаге</speaker>
@@ -623,9 +629,10 @@
 <div type="other">
 <head>ДЕЙСТВИЕ ВТОРОЕ</head>
 <stage>Двор замка, освещённый воткнутыми в стену факелами. Ночь ещё продолжается.</stage>
+</div>
 <div type="scene">
 <head>Сцена первая</head>
-<stage>{{razr|Конунг</stage>
+<stage><actor>Конунг</actor> сидит в креслах; по обе стороны от него {{razr2|Снорре и Груббе}}; напротив {{razr2|Лаге и Ахти}}, и отдельно от них {{razr2|Гондла}}.</stage>
 </sp>
 <sp who="#Konung">
 <speaker>Конунг</speaker>
@@ -938,9 +945,10 @@
 <l>Но не прежде чем лютню уронит,</l>
 <l>Гондла лютню уронит из рук.</l>
 <stage>Убегают, входит {{razr2|Гондла}}, играя</stage>
+</div>
 <div type="scene">
 <head>Сцена четвёртая</head>
-<stage>{{razr|Гондла</stage>
+<stage><actor>Гондла</actor> один.</stage>
 </sp>
 <sp who="#Gondla">
 <speaker>Гондла</speaker>
@@ -972,7 +980,7 @@
 </div>
 <div type="scene">
 <head>Сцена пятая</head>
-<stage>{{razr2|Гондла и Лера</stage>
+<stage>{{razr2|Гондла и Лера}}</stage>
 </sp>
 <sp who="#Lera">
 <speaker>Лера</speaker>
@@ -1028,9 +1036,10 @@
 <div type="other">
 <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
 <stage>Глухой лес. Июльский полдень.</stage>
+</div>
 <div type="scene">
 <head>Сцена первая</head>
-<stage>Входят {{razr|Лера и Гондла</stage>
+<stage>Входят <actor>Лера и Гондла</actor> с лютней.<br />По-прежнему в отдалении слышен волчий вой.</stage>
 </sp>
 <sp who="#Lera">
 <speaker>Лера</speaker>
@@ -1128,7 +1137,7 @@
 </div>
 <div type="scene">
 <head>Сцена вторая</head>
-<stage>{{razr2|Лера и Лаге</stage>
+<stage>{{razr2|Лера и Лаге}}, который входит.</stage>
 </sp>
 <sp who="#Lage">
 <speaker>Лаге</speaker>
@@ -1271,9 +1280,10 @@
 <speaker>Лера</speaker><stage type="delivery">целуя его</stage>
 <l part="F"> Да.</l>
 <stage>Входит Гондла</stage>
+</div>
 <div type="scene">
 <head>Сцена третья</head>
-<stage>{{razr2|Лера, Лаге, Гондла</stage>
+<stage>{{razr2|Лера, Лаге, Гондла}}, потом {{razr2|Груббе}}.</stage>
 </sp>
 <sp who="#Gondla">
 <speaker>Гондла</speaker>
@@ -1403,7 +1413,7 @@
 </div>
 <div type="scene">
 <head>Сцена четвертая</head>
-<stage>{{razr2|Лера и Гондла</stage>
+<stage>{{razr2|Лера и Гондла}}</stage>
 </sp>
 <sp who="#Lera">
 <speaker>Лера</speaker>
@@ -1469,7 +1479,7 @@
 </div>
 <div type="scene">
 <head>Сцена пятая</head>
-<stage>{{razr2|Лера, Гондла, Снорре, Груббе, Лаге, Ахти</stage>
+<stage>{{razr2|Лера, Гондла, Снорре, Груббе, Лаге, Ахти}}.</stage>
 </sp>
 <sp who="#Lera">
 <speaker>Лера</speaker>
@@ -1560,9 +1570,10 @@
 <div type="other">
 <head>ДЕЙСТВИЕ ЧЕТВЕРТОЕ</head>
 <stage>Лес на берегу моря. Большие утёсы. Вечер.</stage>
+</div>
 <div type="scene">
 <head>Сцена первая</head>
-<stage>{{razr|Гондла</stage>
+<stage><actor>Гондла</actor> один, потом отряд ирландцев с <actor>Вождём</actor> во главе.</stage>
 </sp>
 <sp who="#Gondla">
 <speaker>Гондла</speaker>
@@ -1638,7 +1649,7 @@
 </div>
 <div type="scene">
 <head>Сцена вторая</head>
-<stage>{{razr2|Гондла, Вождь</stage>
+<stage>{{razr2|Гондла, Вождь}}, ирландские воины, {{razr2|Снорре, Груббе, Лаге, Ахти}}.</stage>
 </sp>
 <sp who="#Ahti">
 <speaker>Ахти</speaker>
@@ -1757,9 +1768,10 @@
 <l>Или к гибели страшной и чёрной</l>
 <l>Или к славе звенящей ведёт.</l>
 <stage>Входит {{razr2|Конунг}}</stage>
+</div>
 <div type="scene">
 <head>Сцена третья</head>
-<stage>Те же и {{razr2|Конунг</stage>
+<stage>Те же и {{razr2|Конунг}}.</stage>
 </sp>
 <sp who="#Konung">
 <speaker>Конунг</speaker>
@@ -1865,9 +1877,10 @@
 <l>И, как чёрная птица, забота</l>
 <l>Грусть навеяла взмахами крыл.</l>
 <stage>Показывается {{razr2|Лера}}, прячущаяся за деревьями</stage>
+</div>
 <div type="scene">
 <head>Сцена четвертая</head>
-<stage>Те же и {{razr2|Лера</stage>
+<stage>Те же и {{razr2|Лера}}</stage>
 </sp>
 <sp who="#Vozhd">
 <speaker>Вождь</speaker>
@@ -2050,10 +2063,6 @@
 <l>— Брат мой, слышишь ли речи мои? —</l>
 <l>К неземной, к лебединой отчизне</l>
 <l>По свободному морю любви.</l>
-<p></div></p>
-<p>[[Категория:Драматургия Николая Степановича Гумилёва]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1910-х годов]]</p>
 </body>
 </text>
 </TEI>

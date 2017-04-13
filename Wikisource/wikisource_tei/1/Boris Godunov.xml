@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,236 +41,236 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="OdinIzBegletsov">
-<persName>Один из беглецов</persName>
-</person>
-<person xml:id="Mamka">
-<persName>Мамка</persName>
-</person>
-<person xml:id="PervyjPristav">
-<persName><Первый пристав></persName>
-</person>
-<person xml:id="Ksenija">
-<persName>Ксения</persName>
-</person>
-<person xml:id="Drugoj">
-<persName>Другой</persName>
-</person>
-<person xml:id="Bojare">
-<persName>Бояре</persName>
-</person>
-<person xml:id="Misail">
-<persName>Мисаил</persName>
-</person>
-<person xml:id="DrugojPristav">
-<persName>Другой пристав</persName>
-</person>
-<person xml:id="Pushkin">
-<persName>Пушкин</persName>
-</person>
-<person xml:id="Grigorij">
-<persName>Григорий</persName>
-</person>
-<person xml:id="Voiny">
-<persName>Воины</persName>
-</person>
-<person xml:id="Tsar">
-<persName>Царь</persName>
-</person>
-<person xml:id="Ljah">
-<persName>Лях</persName>
-</person>
-<person xml:id="Nemtsy">
-<persName>Немцы</persName>
-</person>
-<person xml:id="Pristav">
-<persName>Пристав</persName>
-</person>
-<person xml:id="KnjazVorotynskij">
-<persName>Князь Воротынский</persName>
-</person>
-<person xml:id="Pimen">
-<persName>Пимен</persName>
-</person>
-<person xml:id="Hozjajka">
-<persName>Хозяйка</persName>
-</person>
-<person xml:id="MuzhikNaAmvone">
-<persName>Мужик на амвоне</persName>
-</person>
-<person xml:id="Vorotynskij">
-<persName>Воротынский</persName>
-</person>
-<person xml:id="OdinIzNaroda">
-<persName>Один из народа</persName>
-</person>
-<person xml:id="Marzheret">
-<persName>Маржерет</persName>
-</person>
-<person xml:id="Feodor">
-<persName>Феодор</persName>
-</person>
-<person xml:id="Poljak">
-<persName>Поляк</persName>
-</person>
-<person xml:id="Karela">
-<persName>Карела</persName>
-</person>
-<person xml:id="Boris">
-<persName>Борис</persName>
-</person>
-<person xml:id="OdinBojarin">
-<persName>Один боярин</persName>
-</person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
-</person>
-<person xml:id="PervyjPristav">
-<persName>Первый пристав</persName>
-</person>
-<person xml:id="Kurbskij">
-<persName>Курбский</persName>
-</person>
-<person xml:id="MalChik">
-<persName>Мальчик</persName>
-</person>
-<person xml:id="VtorojPristav">
-<persName>Второй пристав</persName>
-</person>
-<person xml:id="Hruschov">
-<persName>Хрущов</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="Tretij">
-<persName>Третий</persName>
-</person>
-<person xml:id="Basmanov">
-<persName>Басманов</persName>
-</person>
-<person xml:id="Pristavy">
-<persName>Приставы</persName>
-</person>
-<person xml:id="KnjazShujskij">
-<persName>Князь Шуйский</persName>
-</person>
-<person xml:id="VRozen">
-<persName>В. Розен</persName>
-</person>
-<person xml:id="Narod">
-<persName>Народ</persName>
-</person>
-<person xml:id="Nischij">
-<persName>Нищий</persName>
-</person>
 <person xml:id="Chetvertyj">
 <persName>Четвертый</persName>
-</person>
-<person xml:id="Strazha">
-<persName>Стража</persName>
-</person>
-<person xml:id="Vishnevetskij">
-<persName>Вишневецкий</persName>
-</person>
-<person xml:id="MalChishki">
-<persName>Мальчишки</persName>
-</person>
-<person xml:id="Schelkalov">
-<persName>Щелкалов</persName>
-</person>
-<person xml:id="Varlaam">
-<persName>Варлаам</persName>
-</person>
-<person xml:id="Shestoj">
-<persName>Шестой</persName>
-</person>
-<person xml:id="Pjatyj">
-<persName>Пятый</persName>
-</person>
-<person xml:id="MosalSkij">
-<persName>Мосальский</persName>
-</person>
-<person xml:id="Staruha">
-<persName>Старуха</persName>
-</person>
-<person xml:id="Baba">
-<persName>Баба</persName>
-</person>
-<person xml:id="Mnishek">
-<persName>Мнишек</persName>
-</person>
-<person xml:id="Lzhedimitrij">
-<persName>Лжедимитрий</persName>
-</person>
-<person xml:id="Patriarh">
-<persName>Патриарх</persName>
-</person>
-<person xml:id="Shujskij">
-<persName>Шуйский</persName>
-</person>
-<person xml:id="MalChishka">
-<persName>Мальчишка</persName>
-</person>
-<person xml:id="Samozvanets">
-<persName>Самозванец</persName>
-</person>
-<person xml:id="Plennik">
-<persName>Пленник</persName>
-</person>
-<person xml:id="PervyjBojarin">
-<persName>Первый боярин</persName>
-</person>
-<person xml:id="Dama">
-<persName>Дама</persName>
-</person>
-<person xml:id="Bojarin">
-<persName>Боярин</persName>
-</person>
-<person xml:id="GavrilaPushkin">
-<persName>Гаврила Пушкин</persName>
-</person>
-<person xml:id="Odin">
-<persName>Один </persName>
-</person>
-<person xml:id="OdinIzNih">
-<persName>Один из них</persName>
-</person>
-<person xml:id="Dimitrij">
-<persName>Димитрий</persName>
-</person>
-<person xml:id="Ljahi">
-<persName>Ляхи</persName>
-</person>
-<person xml:id="Odin">
-<persName>Один</persName>
-</person>
-<person xml:id="Pater">
-<persName>Pater</persName>
-</person>
-<person xml:id="Marina">
-<persName>Марина</persName>
 </person>
 <person xml:id="SemenGodunov">
 <persName>Семен Годунов</persName>
 </person>
-<person xml:id="Kavaler">
-<persName>Кавалер</persName>
+<person xml:id="PervyjBojarin">
+<persName>Первый боярин</persName>
 </person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
+<person xml:id="Vse">
+<persName>Все</persName>
 </person>
-<person xml:id="OdinPristav">
-<persName>Один пристав</persName>
+<person xml:id="Tsar">
+<persName>Царь</persName>
 </person>
-<person xml:id="Pervyj">
-<persName>Первый</persName>
+<person xml:id="MuzhikNaAmvone">
+<persName>Мужик на амвоне</persName>
+</person>
+<person xml:id="Drugoj">
+<persName>Другой</persName>
+</person>
+<person xml:id="PervyjPristav">
+<persName>Первый пристав</persName>
+</person>
+<person xml:id="Vishnevetskij">
+<persName>Вишневецкий</persName>
+</person>
+<person xml:id="Nemtsy">
+<persName>Немцы</persName>
+</person>
+<person xml:id="Lzhedimitrij">
+<persName>Лжедимитрий</persName>
+</person>
+<person xml:id="Hozjajka">
+<persName>Хозяйка</persName>
+</person>
+<person xml:id="Kurbskij">
+<persName>Курбский</persName>
+</person>
+<person xml:id="Pristavy">
+<persName>Приставы</persName>
+</person>
+<person xml:id="Dama">
+<persName>Дама</persName>
+</person>
+<person xml:id="Marzheret">
+<persName>Маржерет</persName>
+</person>
+<person xml:id="Mnishek">
+<persName>Мнишек</persName>
+</person>
+<person xml:id="Poljak">
+<persName>Поляк</persName>
+</person>
+<person xml:id="Schelkalov">
+<persName>Щелкалов</persName>
+</person>
+<person xml:id="Pimen">
+<persName>Пимен</persName>
+</person>
+<person xml:id="Pristav">
+<persName>Пристав</persName>
+</person>
+<person xml:id="GavrilaPushkin">
+<persName>Гаврила Пушкин</persName>
+</person>
+<person xml:id="Marina">
+<persName>Марина</persName>
+</person>
+<person xml:id="Narod">
+<persName>Народ</persName>
+</person>
+<person xml:id="Karela">
+<persName>Карела</persName>
+</person>
+<person xml:id="MalChishki">
+<persName>Мальчишки</persName>
+</person>
+<person xml:id="Voiny">
+<persName>Воины</persName>
+</person>
+<person xml:id="Staruha">
+<persName>Старуха</persName>
+</person>
+<person xml:id="OdinIzBegletsov">
+<persName>Один из беглецов</persName>
 </person>
 <person xml:id="Jurodivyj">
 <persName>Юродивый</persName>
 </person>
+<person xml:id="Vorotynskij">
+<persName>Воротынский</persName>
+</person>
+<person xml:id="Dimitrij">
+<persName>Димитрий</persName>
+</person>
+<person xml:id="Pushkin">
+<persName>Пушкин</persName>
+</person>
+<person xml:id="Ljah">
+<persName>Лях</persName>
+</person>
+<person xml:id="Pjatyj">
+<persName>Пятый</persName>
+</person>
+<person xml:id="VtorojPristav">
+<persName>Второй пристав</persName>
+</person>
+<person xml:id="Mamka">
+<persName>Мамка</persName>
+</person>
+<person xml:id="Ksenija">
+<persName>Ксения</persName>
+</person>
+<person xml:id="Hruschov">
+<persName>Хрущов</persName>
+</person>
+<person xml:id="OdinIzNih">
+<persName>Один из них</persName>
+</person>
+<person xml:id="Patriarh">
+<persName>Патриарх</persName>
+</person>
+<person xml:id="Strazha">
+<persName>Стража</persName>
+</person>
+<person xml:id="MosalSkij">
+<persName>Мосальский</persName>
+</person>
+<person xml:id="OdinIzNaroda">
+<persName>Один из народа</persName>
+</person>
+<person xml:id="DrugojPristav">
+<persName>Другой пристав</persName>
+</person>
+<person xml:id="Basmanov">
+<persName>Басманов</persName>
+</person>
+<person xml:id="Feodor">
+<persName>Феодор</persName>
+</person>
+<person xml:id="MalChik">
+<persName>Мальчик</persName>
+</person>
+<person xml:id="KnjazShujskij">
+<persName>Князь Шуйский</persName>
+</person>
+<person xml:id="Bojarin">
+<persName>Боярин</persName>
+</person>
+<person xml:id="Pater">
+<persName>Pater</persName>
+</person>
+<person xml:id="Grigorij">
+<persName>Григорий</persName>
+</person>
+<person xml:id="Misail">
+<persName>Мисаил</persName>
+</person>
+<person xml:id="Ljahi">
+<persName>Ляхи</persName>
+</person>
+<person xml:id="Baba">
+<persName>Баба</persName>
+</person>
+<person xml:id="VRozen">
+<persName>В. Розен</persName>
+</person>
+<person xml:id="Shestoj">
+<persName>Шестой</persName>
+</person>
+<person xml:id="Odin">
+<persName>Один</persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="OdinBojarin">
+<persName>Один боярин</persName>
+</person>
+<person xml:id="Samozvanets">
+<persName>Самозванец</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="Plennik">
+<persName>Пленник</persName>
+</person>
+<person xml:id="Varlaam">
+<persName>Варлаам</persName>
+</person>
+<person xml:id="Bojare">
+<persName>Бояре</persName>
+</person>
+<person xml:id="Shujskij">
+<persName>Шуйский</persName>
+</person>
+<person xml:id="Kavaler">
+<persName>Кавалер</persName>
+</person>
+<person xml:id="Tretij">
+<persName>Третий</persName>
+</person>
+<person xml:id="Pervyj">
+<persName>Первый</persName>
+</person>
+<person xml:id="PervyjPristav">
+<persName><Первый пристав></persName>
+</person>
+<person xml:id="Nischij">
+<persName>Нищий</persName>
+</person>
+<person xml:id="KnjazVorotynskij">
+<persName>Князь Воротынский</persName>
+</person>
 <person xml:id="Igumen">
 <persName>Игумен</persName>
+</person>
+<person xml:id="Odin">
+<persName>Один </persName>
+</person>
+<person xml:id="MalChishka">
+<persName>Мальчишка</persName>
+</person>
+<person xml:id="OdinPristav">
+<persName>Один пристав</persName>
+</person>
+<person xml:id="Boris">
+<persName>Борис</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -288,11 +288,13 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Борис Годунов</head>
 <stage><stage>Драгоценной для россиян памяти [[Николай Михайлович Карамзин|Николая Михайловича Карамзина]] сей труд, гением его вдохновенный, с благоговением и благодарностию посвящает</stage></stage>
-<p><center><stage>Драгоценной для россиян памяти [[Николай Михайлович Карамзин|Николая Михайловича Карамзина]] сей труд, гением его вдохновенный, с благоговением и благодарностию посвящает</stage></center></p>
 <p>{{right|<stage>Александр Пушкин</stage>}}</p>
+</div>
 <div type="scene">
 <head>КРЕМЛЕВСКИЕ ПАЛАТЫ</head>
 <stage>(1598 года, 20 февраля)</stage>
@@ -513,6 +515,7 @@
 <l>Молитеся, да взыдет к небесам</l>
 <l>Усердная молитва православных.</l>
 <stage>Народ расходится.</stage>
+</div>
 <div type="scene">
 <head>КРЕМЛЕВСКИЕ ПАЛАТЫ</head>
 <stage>Борис, патриарх, бояре.</stage>
@@ -875,6 +878,7 @@
 <sp who="#Igumen">
 <speaker>Игумен</speaker>
 <p>Ересь, святый владыка, сущая ересь.</p>
+</div>
 <div type="scene">
 <head>ЦАРСКИЕ ПАЛАТЫ</head>
 <stage>Два стольника. </stage>
@@ -1282,6 +1286,7 @@
 <speaker>Приставы</speaker>
 <p>Держи! держи!</p>
 <stage>Все бегут в беспорядке.</stage>
+</div>
 <div type="scene">
 <head>МОСКВА. ДОМ ШУЙСКОГО</head>
 <stage>Шуйский, множество гостей. Ужин. </stage>
@@ -1475,6 +1480,7 @@
 <speaker>Шуйский</speaker>
 <l part="F"> Прощай, брат, до свиданья.</l>
 <stage>Провожает Пушкина.</stage>
+</div>
 <div type="scene">
 <head>ЦАРСКИЕ ПАЛАТЫ</head>
 <stage>Царевич, чертит географическую карту. Царевна, мамка царевны. </stage>
@@ -2474,6 +2480,7 @@
 <speaker>Курбский</speaker>
 <l part="F"> Вперед! и горе Годунову!</l>
 <stage>Скачут. Полки переходят через границу.</stage>
+</div>
 <div type="scene">
 <head>ЦАРСКАЯ ДУМА</head>
 <stage>Царь, патриарх и бояре. </stage>
@@ -2654,7 +2661,6 @@
 <div type="scene">
 <head>РАВНИНА БЛИЗ НОВГОРОДА-СЕВЕРСКОГО</head>
 <stage>(1604 года, 21 декабря)</stage>
-<p><center>(1604 года, 21 декабря)</center></p>
 <stage>Битва.</stage>
 </sp>
 <sp who="#Voiny">
@@ -2734,6 +2740,7 @@
 <speaker>Димитрий</speaker><stage type="delivery">верхом</stage>
 <p>Ударить отбой! Мы победили. Довольно; щадите русскую кровь. Отбой!</p>
 <stage>Трубят; бьют барабаны.</stage>
+</div>
 <div type="scene">
 <head>ПЛОЩАДЬ ПЕРЕД СОБОРОМ В МОСКВЕ</head>
 <stage>Народ.</stage>
@@ -2846,6 +2853,7 @@
 <sp who="#Jurodivyj">
 <speaker>Юродивый</speaker><stage type="delivery">ему вслед</stage>
 <p>Нет, нет! нельзя молиться за царя Ирода — Богородица не велит.</p>
+</div>
 <div type="scene">
 <head>СЕВСК</head>
 <stage>Самозванец, окруженный своими. </stage>
@@ -3022,6 +3030,7 @@
 <l part="F"> безмозглый!</l>
 <stage>Лях гордо смотрит на него и молча отходит.</stage>
 <stage>Все смеются.</stage>
+</div>
 <div type="scene">
 <head>ЛЕС</head>
 <stage>Лжедимитрий, Пушкин.</stage>
@@ -3340,6 +3349,7 @@
 <l>Святый отец, приближься, я готов.</l>
 <stage>Начинается обряд пострижения.</stage>
 <stage>Женщин в обмороке выносят.</stage>
+</div>
 <div type="scene">
 <head>СТАВКА</head>
 <stage>Басманов вводит Пушкина.</stage>
@@ -3603,7 +3613,7 @@
 <p>Что ж вы молчите? Кричите: да здравствует царь Димитрий Иванович!</p>
 <stage>Народ безмолвствует.</stage>
 <stage><big>Конец</big></stage>
-<p><center><big>Конец</big></center></p>
+</div>
 <div type="other">
 <head>Сцены, исключённые из окончательной редакции</head>
 <div type="scene">
@@ -3710,14 +3720,6 @@
 <l>Борис наш царь! да здравствует Борис!</l>
 <p><h2>Пояснения:</h2></p>
 <p>{{примечания}}</p>
-<p></div></p>
-<p>{{PD-simple}}</p>
-<p>[[Категория:Драматургия Александра Сергеевича Пушкина]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1825 года]]</p>
-<p>[[Категория:Пятистопный ямб]]</p>
-<p>[[en:Boris Godunov]]</p>
-<p>[[hr:Boris Godunov (drama)]]</p>
 </body>
 </text>
 </TEI>

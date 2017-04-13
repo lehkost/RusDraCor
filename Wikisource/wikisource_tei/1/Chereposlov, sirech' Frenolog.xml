@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,50 +41,50 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="Ivanov">
-<persName>Иванов</persName>
-</person>
-<person xml:id="Liza">
-<persName>Лиза</persName>
-</person>
-<person xml:id="ShishkengolM">
-<persName>Шишкенгольм</persName>
-</person>
-<person xml:id="ShishkengolM,MinaHristianovnaILiza">
-<persName>Шишкенгольм, Мина Христиановна и Лиза</persName>
-</person>
-<person xml:id="Kasimov">
-<persName>Касимов</persName>
+<person xml:id="VihorinIKasimov">
+<persName>Вихорин и Касимов</persName>
 </person>
 <person xml:id="MinaHristianovna">
 <persName>Мина Христиановна</persName>
 </person>
+<person xml:id="ShishkengolymIMinaHristianovna">
+<persName>Шишкенголым и Мина Христиановна</persName>
+</person>
+<person xml:id="Vse">
+<persName>Все</persName>
+</person>
+<person xml:id="Vihorin">
+<persName>Вихорин</persName>
+</person>
+<person xml:id="ShishkengolM,MinaHristianovnaILiza">
+<persName>Шишкенгольм, Мина Христиановна и Лиза</persName>
+</person>
+<person xml:id="Ivanov">
+<persName>Иванов</persName>
+</person>
+<person xml:id="Hor">
+<persName>Хор</persName>
+</person>
+<person xml:id="Kasimov">
+<persName>Касимов</persName>
+</person>
+<person xml:id="Liza">
+<persName>Лиза</persName>
+</person>
 <person xml:id="ShishkengolMIProchie">
 <persName>Шишкенгольм и прочие</persName>
 </person>
-<person xml:id="VihorinIKasimov">
-<persName>Вихорин и Касимов</persName>
+<person xml:id="ShishkengolM">
+<persName>Шишкенгольм</persName>
 </person>
-<person xml:id="ShishkengolymIMinaHristianovna">
-<persName>Шишкенголым и Мина Христиановна</persName>
+<person xml:id="Kurtsgalop">
+<persName>Курцгалоп</persName>
 </person>
 <person xml:id="ShishkengolMIMinaHristianovna">
 <persName>Шишкенгольм и Мина Христиановна</persName>
 </person>
 <person xml:id="KasimovIVihorin">
 <persName>Касимов и Вихорин</persName>
-</person>
-<person xml:id="Vihorin">
-<persName>Вихорин</persName>
-</person>
-<person xml:id="Kurtsgalop">
-<persName>Курцгалоп</persName>
-</person>
-<person xml:id="Vse">
-<persName>Все</persName>
-</person>
-<person xml:id="Hor">
-<persName>Хор</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -109,10 +109,11 @@
 <castItem>Лиза</castItem>
 <castItem>Иванов</castItem>
 </castList>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Черепослов, сиречь Френолог</head>
 <stage><stage>Оперетта в трех картинах.<br /><small>Сочинение Петра Федотыча Пруткова (отца)</small></stage></stage>
-<p><center><stage>Оперетта в трех картинах.<br /><small>Сочинение Петра Федотыча Пруткова (отца)</small></stage></center></p>
 <p>* Картина I: Череп жениха.</p>
 <p>* Картина II: Пытка.</p>
 <p>* Картина III: Суженый.</p>
@@ -785,15 +786,10 @@
 <speaker>Все</speaker><stage type="delivery">к ней, торопливо</stage>
 <p>Подожди, Лиза, бесстыдница!.. Дай спустить занавес!</p>
 <p>{{rem2|Занавес опускается. Из-за него раздаются крики, сдобным голосом: «А! А-ах! Ax!» — происходящие, вероятно, от слишком холодной воды.}}</p>
+</div>
 <div type="other">
 <head>Примечания</head>
 <p>{{примечания}}</p>
-<p></div></p>
-<p>[[Категория:Драматургия Козьмы Пруткова]]</p>
-<p>[[Категория:Драматургия Владимира Михайловича Жемчужникова]]</p>
-<p>[[Категория:Драматургия Алексея Михайловича Жемчужникова]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Пародии]]</p>
 </body>
 </text>
 </TEI>

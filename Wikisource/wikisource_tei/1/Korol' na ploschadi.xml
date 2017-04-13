@@ -21,7 +21,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>Wikisource</name>
-<idno type="URL">https://ru.wikisource.org</idno>
+                    <idno type="URL">https://ru.wikisource.org</idno>
                     <availability>
                         <licence>
                             <ab>CC BY-SA 3.0</ab>
@@ -41,95 +41,95 @@
         <profileDesc>
 <particDesc>
 <listPerson>
-<person xml:id="GolosNischego">
-<persName>Голос нищего</persName>
-</person>
-<person xml:id="ProdavschitsaRoz">
-<persName>Продавщица роз</persName>
-</person>
-<person xml:id="Devushka">
-<persName>Девушка</persName>
-</person>
-<person xml:id="Chernyj">
-<persName>Черный</persName>
-</person>
-<person xml:id="Golosa">
-<persName>Голоса</persName>
-</person>
 <person xml:id="ChelovekSFakelom">
 <persName>Человек с факелом</persName>
-</person>
-<person xml:id="Zodchij">
-<persName>Зодчий</persName>
-</person>
-<person xml:id="DrugieGolosa">
-<persName>Другие голоса</persName>
-</person>
-<person xml:id="Rabochij">
-<persName>Рабочий</persName>
-</person>
-<person xml:id="DrugojRabochij">
-<persName>Другой рабочий</persName>
-</person>
-<person xml:id="PervyjRabochij">
-<persName>Первый рабочий</persName>
-</person>
-<person xml:id="Poet">
-<persName>Поэт</persName>
-</person>
-<person xml:id="Ona">
-<persName>Она</persName>
-</person>
-<person xml:id="ChelovekVChernom">
-<persName>Человек в черном</persName>
-</person>
-<person xml:id="OtdelNyePomerkshieGolosa">
-<persName>Отдельные померкшие голоса</persName>
-</person>
-<person xml:id="GolosaVTolpe">
-<persName>Голоса в толпе</persName>
-</person>
-<person xml:id="Zolotoj">
-<persName>Золотой</persName>
-</person>
-<person xml:id="Chej-ToGolos">
-<persName>Чей-то голос</persName>
-</person>
-<person xml:id="TotZheObydennyjGolos">
-<persName>Тот же обыденный голос</persName>
 </person>
 <person xml:id="DochZodchego">
 <persName>Дочь Зодчего</persName>
 </person>
-<person xml:id="Junosha">
-<persName>Юноша</persName>
+<person xml:id="GolosNischego">
+<persName>Голос нищего</persName>
 </person>
-<person xml:id="GolosTretEgo">
-<persName>Голос Третьего</persName>
+<person xml:id="Chernyj">
+<persName>Черный</persName>
 </person>
-<person xml:id="TretijRabochij">
-<persName>Третий рабочий</persName>
-</person>
-<person xml:id="Shut">
-<persName>Шут</persName>
-</person>
-<person xml:id="MnogieGolosa">
-<persName>Многие голоса</persName>
-</person>
-<person xml:id="VtorojIGolosTretEgo">
-<persName>Второй и голос Третьего</persName>
-</person>
-<person xml:id="Nischaja">
-<persName>Нищая</persName>
-</person>
-<person xml:id="Vtoroj">
-<persName>Второй</persName>
+<person xml:id="PervyjRabochij">
+<persName>Первый рабочий</persName>
 </person>
 <person xml:id="VtorojRabochij">
 <persName>Второй рабочий</persName>
 </person>
+<person xml:id="DrugieGolosa">
+<persName>Другие голоса</persName>
+</person>
+<person xml:id="GolosTretEgo">
+<persName>Голос Третьего</persName>
+</person>
+<person xml:id="DrugojRabochij">
+<persName>Другой рабочий</persName>
+</person>
+<person xml:id="TretijRabochij">
+<persName>Третий рабочий</persName>
+</person>
+<person xml:id="Junosha">
+<persName>Юноша</persName>
+</person>
+<person xml:id="ProdavschitsaRoz">
+<persName>Продавщица роз</persName>
+</person>
+<person xml:id="Rabochij">
+<persName>Рабочий</persName>
+</person>
+<person xml:id="VtorojIGolosTretEgo">
+<persName>Второй и голос Третьего</persName>
+</person>
+<person xml:id="GolosaVTolpe">
+<persName>Голоса в толпе</persName>
+</person>
+<person xml:id="Chej-ToGolos">
+<persName>Чей-то голос</persName>
+</person>
+<person xml:id="Zolotoj">
+<persName>Золотой</persName>
+</person>
+<person xml:id="Ona">
+<persName>Она</persName>
+</person>
+<person xml:id="Devushka">
+<persName>Девушка</persName>
+</person>
+<person xml:id="Poet">
+<persName>Поэт</persName>
+</person>
+<person xml:id="ChelovekVChernom">
+<persName>Человек в черном</persName>
+</person>
+<person xml:id="Vtoroj">
+<persName>Второй</persName>
+</person>
+<person xml:id="OtdelNyePomerkshieGolosa">
+<persName>Отдельные померкшие голоса</persName>
+</person>
+<person xml:id="Shut">
+<persName>Шут</persName>
+</person>
+<person xml:id="Golosa">
+<persName>Голоса</persName>
+</person>
 <person xml:id="Pervyj">
 <persName>Первый</persName>
+</person>
+<person xml:id="Nischaja">
+<persName>Нищая</persName>
+</person>
+<person xml:id="MnogieGolosa">
+<persName>Многие голоса</persName>
+</person>
+<person xml:id="Zodchij">
+<persName>Зодчий</persName>
+</person>
+<person xml:id="TotZheObydennyjGolos">
+<persName>Тот же обыденный голос</persName>
 </person>
 </listPerson>
 </particDesc>
@@ -147,6 +147,8 @@
     </teiHeader>
     <text>
         <body>
+<p><div class='drama text'></p>
+</div>
 <div type="other">
 <head>Король на площади</head>
 <div type="other">
@@ -158,6 +160,7 @@
 <p>* {{razr|Шут}} — прихлебатель сцены и представитель здравого смысла. Иногда он прикрывает свое расшитое золотом брюхо священнической рясой.</p>
 <p>* {{razr2|Влюбленные, Заговорщики, Придворный, Продавщица роз, Рабочие, Франты, Нищие, Лица и Голоса в толпе}}.</p>
 <p>* {{razr|Слухи}} — маленькие, красные, шныряют в городской пыли.</p>
+</div>
 <div type="other">
 <head>ПРОЛОГ</head>
 <stage>Городская площадь. Задний план занят белым фасадом дворца с высокой и широкой террасой; на массивном троне — гигантский Король. Корона покрывает зеленые, древние кудри, струящиеся над спокойным лицом, изборожденным глубокими морщинами. Тонкие руки лежат на ручках трона. Вся поза — величавая. В самом низу — у рампы — под высоким парапетом набережной — скамья; к ней с двух сторон спускаются лестницы. Скамья на берегу моря, которое узкой полосой подходит издали, слева огибая мыс с площадью и дворцом, и сливается с оркестром и театром, так что сцена представляет из себя только остров — случайный приют для действующих лиц.</stage>
@@ -194,6 +197,7 @@
 <l>А рыбу в мутных водах у́дить</l>
 <l part="F"> Мне здравый смысл велит.</l>
 <stage>Шут садится верхом на рампу и закидывает удочку в оркестр. Во время действия его большею частью не видно за боковой занавесью — он появляется только в отдельных сценах.</stage>
+</div>
 <div type="act">
 <head>ПЕРВОЕ ДЕЙСТВИЕ</head>
 <div type="other">
@@ -601,6 +605,7 @@
 <l>Запомним, что любим.</l>
 <l>Плывите, плывите, плывите, цветы.</l>
 <stage>Она бросает розы в воду. Юноша грустным взором следит за легкими движениями возлюбленной.</stage>
+</div>
 <div type="act">
 <head>ВТОРОЕ ДЕЙСТВИЕ</head>
 <div type="other">
@@ -1024,6 +1029,7 @@
 <speaker>Поэт</speaker>
 <p>Всё как во сне.</p>
 <stage>Обращается лицом к толпе. Она безмолвна и готова внимать его песням.</stage>
+</div>
 <div type="act">
 <head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
 <div type="other">
@@ -1504,62 +1510,6 @@
 <stage>Он медленно спускается с обломка дворца и пропадает во мраке. За картиной разрушения нет больше ни одного огня. Над мысом господствует бледный мрак.</stage>
 <stage>Ропот толпы усиливается и сливается с ропотом моря.</stage>
 <p>{{right|<stage>1906</stage>}}</p>
-<p></div></p>
-<p><!--</p>
-<p> КОММЕНТАРИИ </p>
-<p> </p>
-<p> Сборники своих пьес Блок издавал трижды — в 1908, 1916 и 1918 годах. В</p>
-<p>последние годы жизни Блок планировал наиболее полное издание своего</p>
-<p>«Театра», которое, однако, при жизни поэта осуществлено не было.</p>
-<p>Драматические произведения Блока печатаются в настоящем издании по т. 4</p>
-<p>Собрания сочинений А. Блока в 8 томах с проверкой и правкой по сборнику</p>
-<p>«Театр» 1918 года (и правленной Блоком корректуре этого издания, Институт</p>
-<p>русской литературы АН СССР, Ленинград) и ряду разрозненных публикаций</p>
-<p>1918—1921 годов.</p>
-<p> </p>
-<p> </p>
-<p> Король на площади </p>
-<p> </p>
-<p> Печатается по тексту сборника «Театр» (1918). По сравнению с</p>
-<p>«Балаганчиком» автобиографизм «Короля на площади» (главный компонент пьесы,</p>
-<p>как лирической драмы) необычайно емок. Это и интимно-лирические мотивы</p>
-<p>исповедального характера, и чисто художественное развитие тем более ранней</p>
-<p>лирики, и отзвуки историко-философских раздумий Блока. Так, Поэт в его</p>
-<p>отношении к Зодчему и Дочери Зодчего — в известном смысле автопортрет самого</p>
-<p>художника в его духовных связях с Д. И. Менделеевым и Л. Д.</p>
-<p>Менделеевой-Блок. Образ Дочери Зодчего, в финале получающей</p>
-<p>многозначительное имя «Она», тесно связан с мотивами, идущими от культа</p>
-<p>Прекрасной Дамы. В социальном мышлении поэта в «Короле на площади» нашли</p>
-<p>отклик библейские учения о «конце света» и жестоком суде над греховным</p>
-<p>человечеством. Это особенно заметно в финале драмы, где сосредоточены</p>
-<p>образы, явно связанные с такими стихотворениями Блока (из первого тома</p>
-<p>лирики), как «Все ли спокойно в народе? — Нет. Император убит…» и "Плачет</p>
-<p>ребенок. Под лунным серпом…": угрозы Шута толпе "буду пасти вас, стада</p>
-<p>мои, жезлом железным", зловещий хохот Шута, многозначительная ремарка</p>
-<p>«Плачет ребенок» и, наконец, сама гибель Короля. При этом ирония, с которой</p>
-<p>Блок преподносит «апокалиптическую» тему читателю через образ Шута,</p>
-<p>характеризует отношение художника именно к «публике», а не к этой теме. В</p>
-<p>свою очередь, в позднейшей лирике Блока были использованы и художественные</p>
-<p>решения самой драмы. Так, оптимистическая нота в эпизоде, где «Она» говорит</p>
-<p>Королю о вверенной ей власти над народом, повторена, при сходной образности,</p>
-<p>в стихотворении 1914 года:</p>
-<l><poem> </l>
-<l>Он занесен — сей жезл железный — </l>
-<l>Над нашей головой. И мы </l>
-<l>Летим, летим над грозной бездной </l>
-<l>Среди сгущающейся тьмы. </l>
-<l>Но чем полет неукротимей. </l>
-<l>Чем ближе веянье конца, </l>
-<l>Тем лучезарнее, тем зримей </l>
-<l>Сияние Её лица… </l>
-<p>Заключительные слова Зодчего («Вас накормит Тот…») не менее отчетливо ассоциируются с финалом блоковской поэмы «Двенадцать».</p>
-<p>Мотивы же «разрушения истории» со временем сменяются у Блока более</p>
-<p>трезвой и гуманной идеей власти человека над историей (см. предисловие к</p>
-<p>поэме «Возмездие» в т. 3 наст. издания).</p>
-<p>--></p>
-<p>[[Категория:Драматургия Александра Александровича Блока]]</p>
-<p>[[Категория:Русская драматургия]]</p>
-<p>[[Категория:Литература 1906 года]]</p>
 </body>
 </text>
 </TEI>
