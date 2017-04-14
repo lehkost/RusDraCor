@@ -125,8 +125,11 @@ cell[role='label'] {
 }
 change {
   display: block;
-  margin-bottom: 1em;
-  margin-left: 2em;
+  font-size: smaller;
+}
+change:before {
+    background-color: grey;
+    content: attr(when) " – ";
 }
 cit {
   display: inline;
@@ -161,9 +164,16 @@ creation {
   display: block;
 }
 date {
-  display: inline;
+  display: block;
+  content: attr(type) ": ";
 }
-    
+date:after {
+    background-color: blue;
+    content: "(" attr(when) ")";
+    margin-left: 0.5em;
+}
+
+
 change > date, publicationStmt > date {
   display: block;
   font-weight: bold;
@@ -501,11 +511,13 @@ ident {
 }
 idno {
   display: block;
-  margin-bottom: 1em;
+}
+idno:empty {
+  display:none;
 }
     
 bibl idno {
-  display: inline;
+  display: block;
 }
         
 imprint {
@@ -904,6 +916,10 @@ term {
   background-color: inherit;
   display: inline;
 }
+term:before {
+    background-color: orange;
+    content: attr(type) " ";
+}
 textClass {
   display: block;
   margin-bottom: 0.5em;
@@ -914,7 +930,10 @@ time {
 title {
   display: inline;
 }
-    
+title:empty {
+  display:none;
+}
+
 seriesStmt > title, titleStmt > title {
 }
 titlePage {
@@ -979,7 +998,6 @@ sourceDesc {
   border: thin silver solid;
   margin-bottom: 1em;
   padding-top: 1em;
-  padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
 }
@@ -1098,3 +1116,22 @@ Screen {
   color: inherit;
   background-color: #FFCC99;
    }
+
+/* added by FF, 14.04.2017 */
+particDesc {
+  margin-bottom: 2em;
+}
+castItem {
+	  display: block;
+}
+castList {
+  margin-bottom: 2em;
+}
+person {
+	display: block;
+    content: "  ";
+}
+person:before {
+    background-color: black;
+    content: "id:" attr(xml|id) " ";
+}
