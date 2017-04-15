@@ -46,9 +46,6 @@
           <person xml:id="Dymba">
             <persName>Дымба</persName>
           </person>
-          <person xml:id="Vse">
-            <persName>Все</persName>
-          </person>
           <person xml:id="Njunin">
             <persName>Нюнин</persName>
           </person>
@@ -563,7 +560,7 @@
           <speaker>Мозговой</speaker>
           <p>. Харлампий Спиридоныч, ваша очередь читать речь! Господа, пусть говорит речь!</p>
         </sp>
-        <sp who="#Vse">
+        <sp who="#Mozgovoj #NastasjaTimofeevna #Dashenka #Dymba #Jat #Kavalery #Zmejukina #Zhigalov #Shafer #Aplombov #Revunov">
           <speaker>Все</speaker>
           <stage type="delivery">(Дымбе)</stage>
           <p>. Речь! речь! Ваша очередь!</p>
@@ -740,7 +737,7 @@
           <p>. А? Да, да... так... Это верно. Да-с... Но позвольте, что же это, однако? Селедка
             горькая... и хлеб горький. Невозможно есть!</p>
         </sp>
-        <sp who="#Vse">
+        <sp who="#Mozgovoj #NastasjaTimofeevna #Dashenka #Dymba #Jat #Kavalery #Zmejukina #Zhigalov #Shafer #Aplombov #Revunov ">
           <speaker>Все</speaker>
           <p>. Горько! Горько!</p>
         </sp>
