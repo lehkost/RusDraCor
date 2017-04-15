@@ -64,9 +64,6 @@
           <person xml:id="PolinaAndreevna">
             <persName> Полина Андреевна </persName>
           </person>
-          <person xml:id="GolosArkadinoj">
-            <persName> Голос Аркадиной </persName>
-          </person>
           <person xml:id="Dorn">
             <persName> Дорн </persName>
           </person>
@@ -90,6 +87,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to">removed the wrong id "#GolosArkadinoj", changed it for "#Arkadina" </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1850,7 +1848,7 @@
           <stage type="delivery"> (Закрывает лицо руками.) </stage>
           <p> Голова кружится... Уф!.. </p>
         </sp>
-        <sp who="#GolosArkadinoj">
+        <sp who="#Arkadina">
           <speaker> Голос Аркадиной </speaker>
           <stage type="delivery"> (из дому) </stage>
           <p> : «Борис Алексеевич!» </p>
