@@ -1,0 +1,5 @@
+"";"name";"betweenness";"closeness";"strength";"degree";"average_distance";"graph_density"
+"1";"MarjaAleksandrovna";2;0,333333333333333;3;3;3;0,666666666666667
+"2";"Lakej";0;0,25;2;2;4;0,666666666666667
+"3";"Sobachkin";0;0,2;1;1;5;0,666666666666667
+"4";"Misha";0;0,25;2;2;4;0,666666666666667
