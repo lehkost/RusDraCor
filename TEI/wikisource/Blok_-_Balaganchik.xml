@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written" when="1906">1906</date>
+            <date type="print" when="1906">апрель 1906, альманах "Факелы"</date>
+            <date type="premiere" when="1906">30 декабря 1906, Драматический театр В. Ф. Комиссаржевской</date>
+            <date type="written" when="1906">январь 1906</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -52,7 +52,13 @@
           <person xml:id="Kolombina">
             <persName>Коломбина</persName>
           </person>
-          <person xml:id="On">
+          <person xml:id="On_1">
+            <persName>Он</persName>
+          </person>
+          <person xml:id="On_2">
+            <persName>Он</persName>
+          </person>
+          <person xml:id="On_3">
             <persName>Он</persName>
           </person>
           <person xml:id="PervyjMistik">
@@ -61,7 +67,13 @@
           <person xml:id="Pajats">
             <persName>Паяц</persName>
           </person>
-          <person xml:id="Ona">
+          <person xml:id="Ona_1">
+            <persName>Она</persName>
+          </person>
+          <person xml:id="Ona_2">
+            <persName>Она</persName>
+          </person>
+          <person xml:id="Ona_3">
             <persName>Она</persName>
           </person>
           <person xml:id="Hor">
@@ -88,6 +100,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="sveta" when="2017-04-14">corrected IDs, added print and premiere dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -408,28 +421,28 @@
           влюбленных. Он в голубом, она в розовом, маски — цвета одежд. Они вообразили себя в церкви
           и смотрят вверх, в купола.</stage>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_1">
         <speaker>Она</speaker>
         <l>Милый, ты шепчешь — «склонись…»</l>
         <l>Я, лицом опрокинута, в купол смотрю.</l>
       </sp>
-      <sp who="#On">
+      <sp who="#On_1">
         <speaker>Он</speaker>
         <l>Я смотрю в непомерную высь —</l>
         <l>Там, где купол вечернюю принял зарю.</l>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_1">
         <speaker>Она</speaker>
         <l>Как вверху позолота ветха.</l>
         <l>Как мерцают вверху образа.</l>
       </sp>
-      <sp who="#On">
+      <sp who="#On_1">
         <speaker>Он</speaker>
         <l>Наша сонная повесть тиха.</l>
         <l>Ты безгрешно закрыла глаза.</l>
         <stage>Поцелуй.</stage>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_1">
         <speaker>Она</speaker>
         <l>…Кто-то темный стоит у колонны</l>
         <l>И мигает лукавым зрачком!</l>
@@ -437,12 +450,12 @@
         <l>Дай закрыться твоим плащом!</l>
         <stage>Молчание.</stage>
       </sp>
-      <sp who="#On">
+      <sp who="#On_1">
         <speaker>Он</speaker>
         <l>Посмотри, как тихи свечи,</l>
         <l>Как заря в куполах занялась.</l>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_1">
         <speaker>Она</speaker>
         <l>Да. С тобою сладки нам встречи.</l>
         <l>Пусть я сама тебе предалась.</l>
@@ -452,49 +465,49 @@
           Движения стремительны. Он гонится за ней, то настигая, то обгоняя ее. Вихрь
           плащей.</stage>
       </sp>
-      <sp who="#On">
+      <sp who="#On_2">
         <speaker>Он</speaker>
         <l>Оставь меня! Не мучь, не преследуй!</l>
         <l>Участи темной мне не пророчь!</l>
         <l>Ты торжествуешь свою победу!</l>
         <l>Снимешь ли маску? Канешь ли в ночь?</l>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_2">
         <speaker>Она</speaker>
         <l>Иди за мной! Настигни меня!</l>
         <l>Я страстней и грустней невесты твоей!</l>
         <l>Гибкой рукой обними меня!</l>
         <l>Кубок мой темный до дна испей!</l>
       </sp>
-      <sp who="#On">
+      <sp who="#On_2">
         <speaker>Он</speaker>
         <l>Я клялся в страстной любви — другой!</l>
         <l>Ты мне сверкнула огненным взглядом,</l>
         <l>Ты завела в переулок глухой,</l>
         <l>Ты отравила смертельным ядом!</l>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_2">
         <speaker>Она</speaker>
         <l>Не я манила,- плащ мой летел</l>
         <l>Вихрем за мной — мой огненный друг!</l>
         <l>Ты сам вступить захотел</l>
         <l>В мой очарованный круг!</l>
       </sp>
-      <sp who="#On">
+      <sp who="#On_2">
         <speaker>Он</speaker>
         <l>Смотри, колдунья! Я маску сниму!</l>
         <l>И ты узнаешь, что я безлик!</l>
         <l>Ты смела мне черты, завела во тьму,</l>
         <l>Где кивал, кивал мне — черный двойник!</l>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_2">
         <speaker>Она</speaker>
         <l>Я — вольная дева! Путь мой — к победам!</l>
         <l>Иди за мной, куда я веду!</l>
         <l>О, ты пойдешь за огненным следом</l>
         <l>И будешь со мной в бреду!</l>
       </sp>
-      <sp who="#On">
+      <sp who="#On_2">
         <speaker>Он</speaker>
         <l>Иду, покорен участи строгой,</l>
         <l>О, вейся, плащ, огневой проводник!</l>
@@ -507,62 +520,62 @@
           задумчивый, в картонном шлеме,- чертит перед ней на полу круг огромным деревянным
           мечом.</stage>
       </sp>
-      <sp who="#On">
+      <sp who="#On_3">
         <speaker>Он</speaker>
         <p>Вы понимаете пьесу, в которой мы играем не последнюю роль? </p>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_3">
         <speaker>Она</speaker>
         <stage type="delivery">как тихое и внятное эхо</stage>
         <p>Роль. </p>
       </sp>
-      <sp who="#On">
+      <sp who="#On_3">
         <speaker>Он</speaker>
         <p>Вы знаете, что маски сделали нашу сегодняшнюю встречу чудесной? </p>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_3">
         <speaker>Она</speaker>
         <p>Чудесной. </p>
       </sp>
-      <sp who="#On">
+      <sp who="#On_3">
         <speaker>Он</speaker>
         <p>Так вы верите мне? О, сегодня вы прекрасней, чем всегда. </p>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_3">
         <speaker>Она</speaker>
         <p>Всегда. </p>
       </sp>
-      <sp who="#On">
+      <sp who="#On_3">
         <speaker>Он</speaker>
         <p>Вы знаете все, что было и что будет. Вы поняли значение начертанного здесь круга. </p>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_3">
         <speaker>Она</speaker>
         <p>Круга. </p>
       </sp>
-      <sp who="#On">
+      <sp who="#On_3">
         <speaker>Он</speaker>
         <p>О, как пленительны ваши речи! Разгадчица души моей! Как много ваши слова говорят моему
           сердцу! </p>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_3">
         <speaker>Она</speaker>
         <p>Сердцу. </p>
       </sp>
-      <sp who="#On">
+      <sp who="#On_3">
         <speaker>Он</speaker>
         <p>О, Вечное Счастье! Вечное Счастье! </p>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_3">
         <speaker>Она</speaker>
         <p>Счастье. </p>
       </sp>
-      <sp who="#On">
+      <sp who="#On_3">
         <speaker>Он</speaker>
         <stage type="delivery">со вздохом облегчения и торжества</stage>
         <p>Близок день. На исходе — эта зловещая ночь. </p>
       </sp>
-      <sp who="#Ona">
+      <sp who="#Ona_3">
         <speaker>Она</speaker>
         <p>Ночь. </p>
         <stage>В эту минуту одному из паяцов пришло в голову выкинуть штуку Он подбегает к
