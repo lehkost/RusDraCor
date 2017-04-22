@@ -32,7 +32,7 @@
             <title/>
             <date type="print"/>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1906">10 октября 1906</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -40,62 +40,50 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Rabochij">
-            <persName>Рабочий</persName>
-          </person>
-          <person xml:id="Chernyj">
-            <persName>Черный</persName>
-          </person>
-          <person xml:id="GolosaVTolpe">
-            <persName>Голоса в толпе</persName>
-          </person>
-          <person xml:id="Golosa">
-            <persName>Голоса</persName>
-          </person>
-          <person xml:id="Chej-ToGolos">
-            <persName>Чей-то голос</persName>
-          </person>
-          <person xml:id="Ona">
-            <persName>Она</persName>
-          </person>
-          <person xml:id="DrugojRabochij">
-            <persName>Другой рабочий</persName>
-          </person>
-          <person xml:id="PervyjRabochij">
-            <persName>Первый рабочий</persName>
-          </person>
-          <person xml:id="OtdelNyePomerkshieGolosa">
-            <persName>Отдельные померкшие голоса</persName>
-          </person>
-          <person xml:id="Shut">
-            <persName>Шут</persName>
-          </person>
-          <person xml:id="MnogieGolosa">
-            <persName>Многие голоса</persName>
-          </person>
-          <person xml:id="DrugieGolosa">
-            <persName>Другие голоса</persName>
-          </person>
-          <person xml:id="VtorojIGolosTretEgo">
-            <persName>Второй и голос Третьего</persName>
-          </person>
-          <person xml:id="Nischaja">
-            <persName>Нищая</persName>
-          </person>
-          <person xml:id="TretijRabochij">
-            <persName>Третий рабочий</persName>
-          </person>
           <person xml:id="Zodchij">
             <persName>Зодчий</persName>
           </person>
           <person xml:id="DochZodchego">
-            <persName>Дочь Зодчего</persName>
+            <persName>Дочь Зодчего, Она</persName>
           </person>
-          <person xml:id="VtorojRabochij">
+          <person xml:id="Poet">
+            <persName>Поэт</persName>
+          </person>
+          <person xml:id="Shut">
+            <persName>Шут</persName>
+          </person>
+          <person xml:id="GolosaVTolpe">
+            <persName>Голоса, Голоса в толпе, Отдельные померкшие голоса, Многие голоса, Другие голоса</persName>
+          </person>
+          <person xml:id="ObydennyjGolos">
+            <persName>Чей-то голос, Тот же обыденный голос</persName>
+          </person>
+          <person xml:id="PervyjRabochij_1">
+            <persName>Первый рабочий</persName>
+          </person>
+          <person xml:id="VtorojRabochij_1">
             <persName>Второй рабочий</persName>
           </person>
-          <person xml:id="Devushka">
-            <persName>Девушка</persName>
+          <person xml:id="PervyjRabochij_2">
+            <persName>Первый рабочий</persName>
+          </person>
+          <person xml:id="VtorojRabochij_2">
+            <persName>Второй рабочий</persName>
+          </person>
+          <person xml:id="Rabochij_3">
+            <persName>Рабочий</persName>
+          </person>
+          <person xml:id="DrugojRabochij_3">
+            <persName>Другой рабочий</persName>
+          </person>
+          <person xml:id="TretijRabochij_3">
+            <persName>Третий рабочий</persName>
+          </person>
+          <person xml:id="Nischaja">
+            <persName>Нищая</persName>
+          </person>
+          <person xml:id="GolosNischego">
+            <persName>Голос нищего</persName>
           </person>
           <person xml:id="ChelovekVChernom">
             <persName>Человек в черном</persName>
@@ -103,29 +91,38 @@
           <person xml:id="ChelovekSFakelom">
             <persName>Человек с факелом</persName>
           </person>
-          <person xml:id="Pervyj">
+          <person xml:id="PervyjNeizvestnyj">
             <persName>Первый</persName>
           </person>
-          <person xml:id="ProdavschitsaRoz">
-            <persName>Продавщица роз</persName>
-          </person>
-          <person xml:id="TotZheObydennyjGolos">
-            <persName>Тот же обыденный голос</persName>
-          </person>
-          <person xml:id="Vtoroj">
+          <person xml:id="VtorojNeizvestnyj">
             <persName>Второй</persName>
-          </person>
-          <person xml:id="GolosNischego">
-            <persName>Голос нищего</persName>
           </person>
           <person xml:id="GolosTretEgo">
             <persName>Голос Третьего</persName>
           </person>
+          <person xml:id="PervyjFrant">
+            <persName>Первый</persName>
+          </person>
+          <person xml:id="VtorojFrant">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="PervyjIzTolpy">
+            <persName>Первый</persName>
+          </person>
+          <person xml:id="VtorojIzTolpy">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="ProdavschitsaRoz">
+            <persName>Продавщица роз</persName>
+          </person>
+          <person xml:id="Devushka">
+            <persName>Девушка</persName>
+          </person>
           <person xml:id="Junosha">
             <persName>Юноша</persName>
           </person>
-          <person xml:id="Poet">
-            <persName>Поэт</persName>
+          <person xml:id="Chernyj">
+            <persName>Черный</persName>
           </person>
           <person xml:id="Zolotoj">
             <persName>Золотой</persName>
@@ -142,6 +139,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="sveta" when="2017-04-22">corrected IDs, added the "written" date, established more comprehensible order of IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -219,11 +217,11 @@
         <stage>Ночь борется с утром. Над берегом чуть видны в сумерках двое неизвестных. Первый — в
           черном — прислонился к белому камню дворца. Другой сидит на берегу. Третьего не видно: он
           где-то близко, и слышен только его голос — прерывистый и зловещий.</stage>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Вот и день забелел.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Тяжко, когда просыпается день.</p>
         </sp>
@@ -231,32 +229,32 @@
           <speaker>Голос Третьего</speaker>
           <p>Отчаянья не предавайте. Смерти не предавайте.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Мне нечего предавать, товарищ, я больше ни во что не верю. Но я боюсь за других.</p>
         </sp>
-        <sp who="#Vtorojigolostretego">
+        <sp who="#VtorojNeizvestnyj #GolosTretEgo">
           <speaker>Второй и голос Третьего</speaker>
           <stage>(вместе)</stage>
           <p>За нас не бойся.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>За вас я не боюсь. Город страшит меня. Все жители сошли с ума. Они строят свое счастье
             на какой-то сумасшедшей мечте. Они ждут чего-то от кораблей, которые придут сегодня.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <stage>(хватаясь за голову)</stage>
           <p>Боже мой, боже мой! Корабли с моря! Да ведь это безумие! Если они верят в это, значит
             уж больше не во что верить! — Страшное время!</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Смешно говорить: страшное время. Если дать себе волю — всякий сойдет с ума. Найдем в
             себе силу дожить этот день до конца, чтобы потом — умереть.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Какое счастье — умереть.</p>
         </sp>
@@ -264,20 +262,20 @@
           <speaker>Голос Третьего</speaker>
           <p>Он говорит о счастьи. Пойдем одни — жечь и разрушать.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Пусть говорит. Это ничего. Его отчаянье также безмерно.</p>
           <stage>Молчат.</stage>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Ни крова, ни семьи. Негде приклонить голову. Страшно.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Чего бояться тому, кому ничего не жаль?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Утренних сумерек. Смертной тоски.</p>
         </sp>
@@ -285,7 +283,7 @@
           <speaker>Голос Третьего</speaker>
           <p>Жечь. Жечь.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Страшно. Жалко.</p>
         </sp>
@@ -294,77 +292,77 @@
           <p>Умирай, если жалко.</p>
           <stage>Молчат. Медленно светает.</stage>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Скажи мне, товарищ, ведь и ты когда-то верил в добродетель?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Вот тебе моя рука. И я искал благополучия. И я любил уюты, где пахнет духами, где
             женщина ставит на стол хлеб и цветы.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Ты любил детей?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Оставим это. Я любил детей. Но больше не жаль и детей.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Скажи мне последнее: веришь ли ты, что разрушение освободительно?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Не верю.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Спасибо. И я не верю.</p>
           <stage>Молчат.</stage>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <stage>(смотрит на короля)</stage>
           <p>Вот он дремлет над нами. Красота его древних кудрей правит миром. Ибо могут ли править
             миром такие дряхлые руки?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>И ты боишься чего-то. Мы сильны только твоей силой. Но если и ты только призрак, — то
             мы растаем в этом бродячем утреннем свете. Люди не пойдут за нами. Люди боятся
             обмана.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Все пойдут за нами. Настанет час — и все пойдут за нами.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>У них — семьи, дома.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Их семьи растленны. Дома пошатнулись.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>В них нет места огню.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Все равно — все сгорит. Тяжелое и легкое, сухое и сырое. От сырого больше дыму.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>И старик сгорит?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>В нем нечему гореть. Все окаменело.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Так он останется цел!</p>
         </sp>
@@ -372,95 +370,95 @@
           <speaker>Голос Третьего</speaker>
           <p>Развеем по ветру. Бросим в море.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>И никто не вспомнит о нем?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Вспомнит тот, кто любит.</p>
           <stage>Молчат. День разгорается.</stage>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Во всем городе я знаю двух живых. Все боятся старого Зодчего.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>И ты боишься?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Нет, он не помешает нам. Толпа слишком мелка для того, чтобы слушаться воли титана.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Кто же другой?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Другой? — Его Дочь.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Смешно! Ты боишься женщины! Твой голос дрогнул!</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Не смейтесь. Я не боюсь ни здравости, ни воли, ни труда, ни грубой мужской силы. Я
             боюсь безумной фантазии, нелепости — того, что звали когда-то высокой мечтой.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Ты боишься религии, поэзии? Мир давно перешагнул через них. Мир забыл о пророках и
             поэтах.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Так было. Но в смертный час всем вспоминается прекрасное, что было забыто. — Она
             заразит их своей безумной красотой. Незримо и таинственно — теперь она правит городом.
             Она хочет вдохнуть новую жизнь в короля.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Разве это возможно? — Разве это остановит разрушение?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Да. Они припадут к стопам ее. Они сделают ее королевой. Они станут поклоняться ей в
             храмах.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Старые мечты не возрождаются.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Но к безумствам все готовы вернуться. Они способны венчать свое безумие, когда утрачены
             все надежды и все добродетели.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Ты бредишь. Ты сошел с ума.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Пусть так. Без меня вы бессильны. Верьте мне, в ней творческий хмель ее отца и гнев
             последних поколений!</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Что же нам делать?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Переждать этот день. Сегодня вечером она будет говорить с народом и королем.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Еще целый день! Пустой и светлый! Лучше умереть!</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Клянусь вам: мы все умрем к ночи!</p>
         </sp>
@@ -471,19 +469,19 @@
           <stage>Совсем рассвело. Город просыпается — все слышнее музыка утренних шумов. Издали, со
             стороны моря, ветер доносит стук топоров.</stage>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Слышишь? Они еще не потеряли надежды. Топорики стучат.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Стучат и строят. Будут строить до последней минуты.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojNeizvestnyj">
           <speaker>Второй</speaker>
           <p>Они украшают мол. Воздвигают какие-то сооружения для встречи кораблей.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Пусть надеются. Мы погибнем одни, если придут корабли, или осуществится ее высокая
             мечта.</p>
@@ -496,11 +494,11 @@
           <stage>На площади перед дворцом начинается гулянье. Проходят взад и вперед несколько
             франтов. Идут двое запоздалых рабочих.</stage>
         </sp>
-        <sp who="#Pervyjrabochij">
+        <sp who="#PervyjRabochij_1">
           <speaker>Первый рабочий</speaker>
           <p>Работа началась. Иди скорей.</p>
         </sp>
-        <sp who="#Vtorojrabochij">
+        <sp who="#VtorojRabochij_1">
           <speaker>Второй рабочий</speaker>
           <p>Вчера один из них приходил говорить с нами. Он запрещает строить. Говорит, что буря
             разнесет все.</p>
@@ -587,28 +585,28 @@
           <p>Голодная! — Утро погибло.</p>
           <stage>Наверху встречаются два франта.</stage>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjFrant">
           <speaker>Первый</speaker>
           <p>Скажите, отчего, в самом деле, так ждут этих кораблей?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojFrant">
           <speaker>Второй</speaker>
           <p>Право, я сам не знаю. Да не все ли равно?</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjFrant">
           <speaker>Первый</speaker>
           <p>Я рад встретиться со здравым человеком. Все так возбуждены, только и говорят, что о
             кораблях. И знаете, сам начинаешь верить.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojFrant">
           <speaker>Второй</speaker>
           <p>Да, что ни говорите, влияния толпы отрицать нельзя. Это заразительно.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjFrant">
           <speaker>Первый</speaker>
           <p>Чем нелепей, тем заразительней.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojFrant">
           <speaker>Второй</speaker>
           <p>Пора бы рассеять все эти толки энергичными мерами. Правительство…</p>
           <stage>Проходят.</stage>
@@ -654,29 +652,29 @@
           Горизонт в пар_а_х. На площади немного гуляющих. Иногда проходят сторонкой рабочие и
           оборванцы.</stage>
         <stage>Топоры слабо, но непрерывно стучат вдали.</stage>
-        <sp who="#Pervyjrabochij">
+        <sp who="#PervyjRabochij_2">
           <speaker>Первый рабочий</speaker>
           <p>С часу на час дожидаются кораблей.</p>
         </sp>
-        <sp who="#Vtorojrabochij">
+        <sp who="#VtorojRabochij_2">
           <speaker>Второй рабочий</speaker>
           <p>Спросить бы, чего ждут от них. Торопят строить, заставляют петь песни, чтобы веселее
             работали.</p>
         </sp>
-        <sp who="#Pervyjrabochij">
+        <sp who="#PervyjRabochij_2">
           <speaker>Первый рабочий</speaker>
           <p>Строят, строят, а все еще не достроили.</p>
           <stage>Проходят. Издали доносится заунывная песня рабочих. Идут два франта.</stage>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjFrant">
           <speaker>Первый</speaker>
           <p>Кто-то сказал, что корабли уже видны с мола.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojFrant">
           <speaker>Второй</speaker>
           <p>Ложный слух! Это рыбачьи суда огибали мыс.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjFrant">
           <speaker>Первый</speaker>
           <p>Ах, да не все ли равно! Дались им эти корабли. Кто придумал всю эту глупость, хотел бы
             я знать?</p>
@@ -732,15 +730,15 @@
           <stage>Отдаленный грохот и крики, как будто что-то тяжелое упало в воду. Через площадь
             бегут рабочие.</stage>
         </sp>
-        <sp who="#Rabochij">
+        <sp who="#Rabochij_3">
           <speaker>Рабочий</speaker>
           <p>Леса сорвались! Десять человек упали в море!</p>
         </sp>
-        <sp who="#Drugojrabochij">
+        <sp who="#DrugojRabochij_3">
           <speaker>Другой рабочий</speaker>
           <p>А семья без хлеба!</p>
         </sp>
-        <sp who="#Tretijrabochij">
+        <sp who="#TretijRabochij_3">
           <speaker>Третий рабочий</speaker>
           <p>Скажи его жене, чтобы бежала к морю; может быть, еще можно спасти.</p>
         </sp>
@@ -800,7 +798,7 @@
             Они прыгают и рассыпаются во все стороны. Кажется, что ветер свистит, когда они
             заливаются смехом. Сию же минуту в толпе гуляющих раздаются тревожные голоса.</stage>
         </sp>
-        <sp who="#Golosavtolpe">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <p>Король болен! При смерти!</p>
           <p>Заговорщики хотят сжечь дворец!</p>
@@ -1002,7 +1000,7 @@
           <stage>Она поднимается наверх и смешивается с толпой, которая все время глухо ропщет в
             клубах пыли. Поэт, задумчивый, остается внизу.</stage>
         </sp>
-        <sp who="#Golosavtolpe">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <l>Ты слышал, ночью пришли корабли!</l>
           <l>Король кивал сегодня головой…</l>
@@ -1132,63 +1130,63 @@
           оживленные, глаза блестят; волнение достигло крайней степени. На всех лицах тревога и
           жадная надежда. Один из толпы останавливается и опирается на перила набережной. К нему
           присоединяется второй.</stage>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Ты совсем ослабел.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjIzTolpy">
           <speaker>Первый</speaker>
           <p>Да, сумасшедшая тревога сказалась. Сердце не выдержит, если это продлится еще хоть один
             день. Неужели корабли не придут и сегодня?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Сегодня они должны быть здесь. Иначе — мы погибли. Народ уверен, что корабли принесут
             спасение. Если они не придут и сегодня — терпенье лопнет.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjIzTolpy">
           <speaker>Первый</speaker>
           <p>Последние, последние часы! — Смотри, они все идут к молу и будут ждать до ночи. Что,
             если не дождутся?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Буря загонит их в дома.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjIzTolpy">
           <speaker>Первый</speaker>
           <p>Буря только раззадорит их. Всю ночь будут жечь и грабить. Тогда — всему конец.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Кто поселил в нас надежду? — Только приготовления торжественной встречи, обещания
             вечного счастья.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjIzTolpy">
           <speaker>Первый</speaker>
           <stage>(низко склоняется к перилам)</stage>
           <p>У меня бывают минуты просветления. Как перед смертью. Куда нас несет? Что нас заставило
             поверить?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Только хватание за жизнь. Верить в это — значит хвататься за соломинку.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjIzTolpy">
           <speaker>Первый</speaker>
           <p>Топоры, топоры стучат. Стучат без отдыха. Куда деваться от стука топоров?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>С утра и до вечера стучат. Строят башню, чтобы пустить ракету, когда появится в море
             первый корабль.</p>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjIzTolpy">
           <speaker>Первый</speaker>
           <stage>(плачет)</stage>
           <p>Гнутся колени. Я не спал столько ночей! Отдыха! Отдыха!</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Потерпи. Может быть, ждать недолго.</p>
           <stage>Ответа нет. Первый низко склонился на перила. В эту минуту подходит нищая с
@@ -1212,7 +1210,7 @@
             охватывает руками Первого, склонившегося на перила. Тело падает на колени. На чугунной
             перекладине лежит мертвая голова.</stage>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <stage>(опускаясь над трупом, тихо говорит нищей)</stage>
           <p>Он умер. Слышите. Мертвые не подают.</p>
@@ -1225,7 +1223,7 @@
           <stage>(строго)</stage>
           <p>Пьяный?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <stage>(серьезно)</stage>
           <p>Мертвый.</p>
@@ -1234,7 +1232,7 @@
           <speaker>Шут</speaker>
           <p>Причина смерти?</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Разрыв сердца. Тревожные события этих дней.</p>
         </sp>
@@ -1243,7 +1241,7 @@
           <stage>(качая головой)</stage>
           <p>Все обошлось бы благополучно, если б он обратился ко мне.</p>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Кто же вы такой?</p>
         </sp>
@@ -1252,7 +1250,7 @@
           <p>Врач духовный.</p>
           <stage>Порыв ветра распахивает рясу и срывает капюшон с головы Шута.</stage>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <stage>(сомнительно качает головой)</stage>
           <p>Врач духовный не носит красного колпака. Врач духовный не нашивает золотых позументов
@@ -1266,7 +1264,7 @@
           <stage>Вокруг них собирается кучка людей из проходящей толпы. Все с любопытством стараются
             взглянуть поближе.</stage>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <stage>(с изумлением смотрит на Шута)</stage>
           <p>Я где-то видел твою ханжескую рожу. Не помню где, — я много видел на своем веку: в
@@ -1279,7 +1277,7 @@
           <p>Братья, скорбные дела творятся здесь. Идите своим путем. Успокойтесь. Именем
             божиим…</p>
         </sp>
-        <sp who="#Golosavtolpe">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <p>Новая ложь! Не поминай напрасно имени божьего! Истины! Истины! Под рясой скрывается
             лукавое сердце!</p>
@@ -1293,7 +1291,7 @@
           <stage>Страшное волнение среди прибывающей толпы. Шут потряхивает колпаком, бубенцы
             звенят.</stage>
         </sp>
-        <sp who="#Golosavtolpe">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <p>В такую ночь маски на улицах! — Где мы? Где мы? — Ночь близка!</p>
         </sp>
@@ -1302,7 +1300,7 @@
           <p>Вам надо истины? Она пред вами, люди! Смотрите на меня! Я — сама Истина — в красной и
             золотой наготе! Убирайте трупы с ваших улиц!</p>
         </sp>
-        <sp who="#Golosavtolpe">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <p>Страшно! — Это призрак над мертвецом! Ветер насылает привидения! — Слухи весь день
             носились в пыли! — Маленькие вертелись под ногами, красные кричали в уши, пыльные
@@ -1315,7 +1313,7 @@
           <p>Я — голос молвы! Я многолик, но во всей вселенной ношу одно имя! Здравый Смысл — имя
             мое!</p>
         </sp>
-        <sp who="#Golosa">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса</speaker>
           <p>Слушайте! Здравый Смысл говорит с нами!</p>
         </sp>
@@ -1325,7 +1323,7 @@
             над местом, где веет скорбь! Минует эта тревожная ночь! Не медлите — возвращайтесь к
             вашим оставленным семьям!</p>
         </sp>
-        <sp who="#Golosa">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса</speaker>
           <p>Верим тебе! Сердца открыты! Говори!</p>
         </sp>
@@ -1337,7 +1335,7 @@
             поет пред вами! Но веселое красное золото принесет вам смерть и пожары, если вы будете
             испытывать Здравый Смысл!</p>
         </sp>
-        <sp who="#Golosa">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса</speaker>
           <p>Тише! Успокойтесь! Страшно! Горе безумным! В путь! К морю! К морю! Навстречу
             кораблям!</p>
@@ -1551,13 +1549,13 @@
             рядом с черной фигурой появляется Дочь Зодчего. Она стоит молча и неподвижно смотрит на
             толпу.</stage>
         </sp>
-        <sp who="#Golosavtolpe">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <p>Колдунья! Зачем она пришла?</p>
           <stage>Вдруг прорывается женский вопль:</stage>
           <p>Святая!</p>
         </sp>
-        <sp who="#Drugiegolosa">
+        <sp who="#GolosaVTolpe">
           <speaker>Другие голоса</speaker>
           <stage>(подхватывая, раскатываются по площади)</stage>
           <p>В тебе защита! Исцели наши раны!</p>
@@ -1565,7 +1563,7 @@
           <stage>Черная фигура заговорщика исчезает. Дочь Зодчего медленно поднимается по ступеням
             на террасу. Толпа затихает.</stage>
         </sp>
-        <sp who="#Chej-Togolos">
+        <sp who="#ObydennyjGolos">
           <speaker>Чей-то голос</speaker>
           <stage>(слишком обыденный, чтобы ясно слышать его, говорит)</stage>
           <p>В истории известны примеры, когда женщины… И я не удивлюсь…</p>
@@ -1574,7 +1572,7 @@
             шагах от Короля. Толпа совершенно безмолвна. Над городом, как бы умершим от восторга
             ожидания, возвышаются только двое: Она и Король.</stage>
         </sp>
-        <sp who="#Ona">
+        <sp who="#DochZodchego">
           <speaker>Она</speaker>
           <stage>(прерывает молчание низким и грудным голосом, который медленно несется сверху, как
             вздох благовеста)</stage>
@@ -1622,11 +1620,11 @@
           <stage>(присоединяется)</stage>
           <p>Помогите! Умираю…</p>
         </sp>
-        <sp who="#Mnogiegolosa">
+        <sp who="#GolosaVTolpe">
           <speaker>Многие голоса</speaker>
           <p>Хлеба! Нас обманули! Долой Короля! Долой Дворец!</p>
         </sp>
-        <sp who="#Totzheobydennyjgolos">
+        <sp who="#ObydennyjGolos">
           <speaker>Тот же обыденный голос</speaker>
           <p>Фантазиями людей не накормишь. Пора самим дело делать, когда власти бездействуют.</p>
           <stage>Смятение. На сцену, со стороны моря, бегут люди, впереди стремительно бежит
@@ -1638,7 +1636,7 @@
           <p>Корабли пришли! Счастье! Счастье!</p>
           <stage>Вдали взвивается ракета, за ней другая, — ракеты летят все чаще.</stage>
         </sp>
-        <sp who="#Golosavtolpe">
+        <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <p>Поздно! Поздно!</p>
           <stage>На ступени террасы выскакивает Черный — костлявый, как птица.</stage>
@@ -1709,7 +1707,7 @@
             мое создание, и вот остается дом ваш пустым. Но завтра мир будет по-прежнему зелен, и
             море будет так же спокойно.</p>
         </sp>
-        <sp who="#Otdelnyepomerkshiegolosa">
+        <sp who="#GolosaVTolpe">
           <speaker>Отдельные померкшие голоса</speaker>
           <p>Кто же накормит нас? Кто вернет нам мужей и детей? Кто утишит нашу боль?</p>
         </sp>
