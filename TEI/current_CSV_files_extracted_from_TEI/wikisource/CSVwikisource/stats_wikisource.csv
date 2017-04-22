@@ -1,0 +1,16 @@
+"";"author";"file";"max_degree";"average_degree";"density";"average_path_length";"max_path_length"
+"1";"Blok";"Blok_-_Korol_na_ploschadi.csv";29;18,3333333333333;0,632183908045977;39,6666666666667;50
+"2";"Blok";"Blok_-_Neznakomka.csv";37;19,3157894736842;0,522048364153627;54,6842105263158;69
+"3";"Gumilyov";"Gumilyov_-_Ditja_Allaha.csv";19;10,6;0,557894736842105;27,4;32
+"4";"Gumilyov";"Gumilyov_-_Gondla.csv";8;8;1;8;8
+"5";"Krylov";"Krylov_-_Podschipa_ili_Trumf.csv";7;6,25;0,892857142857143;7,75;10
+"6";"Krylov";"Krylov_-_Sonnyj_poroshok_ili_pohischennaja_krestjanka.csv";20;16;0,8;24;34
+"7";"Prutkov";"Prutkov_-_Chereposlov_sirech_Frenolog.csv";14;12;0,857142857142857;16;19
+"8";"Prutkov";"Prutkov_-_Spor_drevnih_grecheskih_filosofov_ob_izjaschnom.csv";1;1;1;1;1
+"9";"Pushkin";"Pushkin_-_Boris_Godunov.csv";40;10,2666666666667;0,138738738738739;183,76;279
+"10";"Pushkin";"Pushkin_-_Kamennyj_gost.csv";13;7,57142857142857;0,582417582417582;18,4285714285714;24
+"11";"Pushkin";"Pushkin_-_Skupoj_rytsar.csv";4;2,4;0,6;5,6;6
+"12";"Sumarokov";"Sumarokov_-_Dimitrij_Samozvanets.csv";5;3,66666666666667;0,733333333333333;6,33333333333333;9
+"13";"Sumarokov";"Sumarokov_-_Horev.csv";11;4,16666666666667;0,378787878787879;17,8333333333333;21
+"14";"Sumarokov";"Sumarokov_-_Semira.csv";8;4,2;0,466666666666667;14,6;21
+"15";"Tolstoy";"Tolstoy_A_-_Blondy.csv";3;3;1;3;3

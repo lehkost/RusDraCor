@@ -1,0 +1,166 @@
+---
+title: "dh_edges2nodes"
+author: "Pozdniakov"
+date: '22.04.2017'
+output: html_document
+---
+
+#Libraries  
+
+```{r libs}
+library("data.table") #rather popular "R dialect" for easy and efficient data wrapping. Alternative to dplyr package
+library("igraph") #the most popular package for working with graphs
+#library("networkD3") #graph visualisation using D3.js library for JavaScript
+```
+
+#Introduction  
+
+We calculate [betweeness centrality]()(BC), [closeness centrality](https://en.wikipedia.org/wiki/Closeness_centrality)(CC), [strength(=weighted degree)](https://arxiv.org/pdf/cond-mat/0311416.pdf)(S), [degree](https://en.wikipedia.org/wiki/Degree_(graph_theory))(D), and average distance (as 1/CC). All these measurements (except for strength) ignore weights.  
+
+For statistics we calculate max and average degree, graph density, mean and max path length (based on average distance) for every file.  
+
+#Preparation  
+
+You need to set some parameters first:  
+
++ You need to specify `path` variable - full path to folder with csvs  
+
++ project name (it will be used for names of output files `full` and `stats`); by default, it is the input folder name  
+
++ `output` folder (by default is `path/CSVproject`)  
+
+Please, check that your csvs have these columns (order is important!):  
+
+1. Source  
+2. Type  
+3. Source
+4. Weight  
+
+All other columns will be ignored.
+
+```{r path}
+path <-  "C:/Users/BucHe/Documents/GitHub/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/ilibrary"
+project <- NA
+output <- NA
+```
+
+```{r some stuff}
+project <- ifelse(is.na(project), project <- gsub(".*/([^/\\])/?", "\\1", path), project)
+output <- ifelse(is.na(output), file.path(path, paste0("CSV",project)), output)
+dir.create(output)
+big <- data.table() #creating empty variable for binding
+files <- list.files(path = path, pattern = ".*\\.csv")
+```
+
+#Your files  
+
+There are `r length(files)` .csv files in `r path` folder. 
+
+Ok, let's start `r project`. 
+
+#Main script
+
+```{r csv to data.table}
+csv2d <- function(file){
+d <- fread(file, encoding = "UTF-8")
+d <- d[,c(1,3,2,4)] #changing columns order
+colnames(d) <- tolower(colnames(d))
+d <- d[weight>0,]
+d}
+```
+
+```{r data.table to igraph}
+d2ig <- function(d){
+x <- graph_from_data_frame(d, directed = F)
+V(x)$betweenness <- betweenness(x, v = V(x), directed = F, weights = NA)
+V(x)$closeness <- closeness(x, weights = NA)
+V(x)$strength <- strength(x)
+V(x)$degree <- degree(x)
+V(x)$average_distance <- 1/closeness(x, weights = NA)
+V(x)$graph_density <- edge_density(x)
+x
+}
+```
+
+```{r write new vertices csv}
+ig2csv <- function (x, file){
+  xdf <- as.data.table(as_data_frame(x, "vertices"))
+  write.csv2(xdf, file = file.path(output,file))
+  xdf
+}
+```
+
+
+```{r main}
+convert <- function(filename){
+  tryCatch({
+ig <- d2ig(csv2d(file = file.path(path, filename)))
+if (length(ig[]) == 0) return(sprintf("Empty file: %s; the file is skipped", filename))
+namenew <- gsub("(.*)(\\.csv)", "\\1_vertices\\2", filename)
+big <<- rbind(big, ig2csv(ig, namenew)[,file:=filename][,author:=gsub("([^_]*)_(.*)", "\\1", filename)])
+#print(plotnet(ig2d3(ig)))
+sprintf("Processed successfully: %s",filename)
+}, error = function(e)  sprintf("Error!!! with: %s; the file is skipped", filename)
+  )
+}
+```
+
+```{r batch converting}
+lapply(files, convert)
+```
+
+```{r statistics table}
+stats <- big[, .(max_degree = max(degree), 
+                average_degree = mean(degree), 
+                density = mean(graph_density),
+                average_path_length = mean(average_distance), 
+                max_path_length = max(average_distance)),
+             by = .(author,file)]
+```
+
+
+```{r writing summary tables}
+write.csv2(big, file = file.path(output, paste0("full_", project,".csv")))
+write.csv2(stats, file = file.path(output, paste0("stats_",project,".csv")))
+```
+
+
+
+```{r visualization, eval=FALSE, include=FALSE}
+ig2d3 <- function(x, cluster = cluster_label_prop, edgesize = 0.05, nodesize = 0.01){
+members <- membership(cluster(x))
+x_d3 <- igraph_to_networkD3(x, group = members)
+x_d3$links$value = E(x)$weight*edgesize
+x_d3$nodes$nodesize = V(x)$strength*nodesize
+x_d3
+}
+
+plotnet <- function(x_d3, charge = -1000){forceNetwork(Links = x_d3$links, Nodes = x_d3$nodes, charge = -1000, Source = 'source', Target = 'target', NodeID = 'name', Group = "group", Value = "value", Nodesize = "nodesize", opacityNoHover = 0.8)}
+```
+
+
+```{r plotting, eval=FALSE, include=FALSE}
+
+#for (i in files){
+
+  #print(i)
+  #print(plotnet(ig2d3(d2ig(csv2d(file.path(path, i))))))
+
+  #}
+```
+
+```{r, eval=FALSE, include=FALSE}
+
+#for (i in files){
+#print(plotnet(ig2d3(d2ig(csv2d(file.path(path, i))))))
+#}
+#lapply(files, function (x) print(plotnet(ig2d3(d2ig(csv2d(file.path(path, x)))))))
+```
+
+```{r, eval=FALSE, include=FALSE}
+
+
+#b <- ig2csv(d2ig(csv2d(file.path(path, "Ostrovskij_Groza.csv"))), "mjfjf.csv")
+#convert(files[2])
+```
+
