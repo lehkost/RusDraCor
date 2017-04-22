@@ -956,9 +956,15 @@ speaker{
   display: inline;
   font-weight: bold;
 }
+<<<<<<< Updated upstream
 sp:before{
   background-color: orange;
   content: "id:" attr(who) " ";
+=======
+sp:before {
+    background-color: red;
+    content: "id:" attr(who) " ";
+>>>>>>> Stashed changes
 }
 sponsor{
   display: block;
