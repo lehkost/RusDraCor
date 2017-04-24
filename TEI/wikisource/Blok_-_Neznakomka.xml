@@ -32,8 +32,8 @@
             <title/>
             <date type="print" when="1907">Впервые — в журнале «Весы», 1907, № 5, с. 21—28 с
               подзаголовком «Пьеса в трёх видениях».</date>
-            <date type="premiere"/>
-            <date type="written" when="1906">1906</date>
+            <date type="premiere" when="1913">февраль 1913 в Московском литературно-художественном кружке</date>
+            <date type="written" when="1906">11 ноября 1906</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -50,46 +50,25 @@
           <person xml:id="Sobesednik">
             <persName>Собеседник</persName>
           </person>
-          <person xml:id="MolodojChelovekMisha">
-            <persName>Молодой человек Миша</persName>
-          </person>
-          <person xml:id="SobutylNik">
-            <persName>Собутыльник</persName>
-          </person>
           <person xml:id="RazJarennyeDvorniki">
             <persName>Разъяренные дворники</persName>
           </person>
-          <person xml:id="MolodojChelovekZhorzh">
-            <persName>Молодой человек Жорж</persName>
-          </person>
-          <person xml:id="GolosGostja">
-            <persName>Голос гостя</persName>
-          </person>
           <person xml:id="Muzhchina">
-            <persName>Мужчина</persName>
+            <persName>Мужчина, Рыжий господин</persName>
           </person>
           <person xml:id="Zvezdochet">
             <persName>Звездочет</persName>
           </person>
-          <person xml:id="RyzhijGospodin">
-            <persName>Рыжий господин</persName>
-          </person>
           <person xml:id="Neznakomka">
             <persName>Незнакомка</persName>
-          </person>
-          <person xml:id="Dama">
-            <persName>Дама</persName>
-          </person>
-          <person xml:id="HozjainDoma">
-            <persName>Хозяин дома</persName>
-          </person>
-          <person xml:id="EgoSobesednik">
-            <persName>Его собеседник</persName>
           </person>
           <person xml:id="Hozjajka">
             <persName>Хозяйка</persName>
           </person>
           <person xml:id="Drugoj">
+            <persName>Другой</persName>
+          </person>
+          <person xml:id="Drugoj_2">
             <persName>Другой</persName>
           </person>
           <person xml:id="Odin">
@@ -99,16 +78,13 @@
             <persName>Гауптман</persName>
           </person>
           <person xml:id="PervyjSobutylNik">
-            <persName>Первый собутыльник</persName>
+            <persName>Первый собутыльник, Собутыльник</persName>
           </person>
           <person xml:id="MolodojChelovek">
             <persName>Молодой человек</persName>
           </person>
           <person xml:id="Polovoj">
             <persName>Половой</persName>
-          </person>
-          <person xml:id="GolosHozjaina">
-            <persName>Голос хозяина</persName>
           </person>
           <person xml:id="TretijUsatyj">
             <persName>Третий усатый</persName>
@@ -117,13 +93,13 @@
             <persName>Семинарист</persName>
           </person>
           <person xml:id="Devushka">
-            <persName>Девушка</persName>
+            <persName>Девушка, Дама</persName>
           </person>
           <person xml:id="Goluboj">
             <persName>Голубой</persName>
           </person>
           <person xml:id="Zhorzh">
-            <persName>Жорж</persName>
+            <persName>Жорж, Молодой человек Жорж</persName>
           </person>
           <person xml:id="VtorojSobutylNik">
             <persName>Второй собутыльник</persName>
@@ -138,7 +114,7 @@
             <persName>Человек в пальто</persName>
           </person>
           <person xml:id="Hozjain">
-            <persName>Хозяин</persName>
+            <persName>Хозяин, Хозяин дома</persName>
           </person>
           <person xml:id="Vtoroj">
             <persName>Второй</persName>
@@ -150,7 +126,7 @@
             <persName>Кто-то</persName>
           </person>
           <person xml:id="Misha">
-            <persName>Миша</persName>
+            <persName>Миша, Молодой человек Миша</persName>
           </person>
           <person xml:id="Poet">
             <persName>Поэт</persName>
@@ -167,6 +143,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
+        <change who="sveta" when="2017-04-24">corrected IDs, added the dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -245,7 +222,7 @@
           <p>И танцовала она, милый друг ты мой, скажу я тебе, как небесное создание. Просто взял бы
             ее за белые ручки и прямо в губки, скажу тебе, поцеловал…</p>
         </sp>
-        <sp who="#Sobutylnik">
+        <sp who="#PervyjSobutylNik">
           <speaker>Собутыльник</speaker>
           <p>Эка, эка, Васинька-то наш, размечтался, заалел, как маков цвет! А что она тебе за
             любовь-то? За любовь-то что?.. А?..</p>
@@ -367,7 +344,7 @@
           <p>Танцевала она, как небесный, скажу вам, ангел, а вы, черти и разбойники, не стоите ее
             мизинца. А впрочем, выпьем.</p>
         </sp>
-        <sp who="#Sobutylnik">
+        <sp who="#PervyjSobutylNik">
           <speaker>Собутыльник</speaker>
           <p>Мечтатель. Оттого и пьешь. И все мы — мечтатели. Поцелуй меня, дружок.</p>
           <stage>Обнимаются.</stage>
@@ -381,7 +358,7 @@
             не пивал, тот и дружбы не видал.</p>
           <stage>Все хохочут.</stage>
         </sp>
-        <sp who="#Sobutylnik">
+        <sp who="#PervyjSobutylNik">
           <speaker>Собутыльник</speaker>
           <p>Ай да Васька! Уж очень складно! Поцелуемся, дружок.</p>
         </sp>
@@ -476,7 +453,7 @@
           <p>Нет-с, я любитель! Люблю острый сыр, знаете, такой круглый! (Делает кругообразные
             жесты.) Забыл название.</p>
         </sp>
-        <sp who="#Egosobesednik">
+        <sp who="#Sobesednik">
           <speaker>Его собеседник</speaker>
           <p>А вы… пробовали?</p>
         </sp>
@@ -1031,11 +1008,11 @@
           в углах. Общий гул бессмысленных разговоров. Хозяин дома встречает гостей в передней и
           каждому сначала деревянным голосом кричит: «А-а-а!», а потом говорит пошлость. В настоящий
           момент он занят тем же.</stage>
-        <sp who="#Hozjaindoma">
+        <sp who="#Hozjain">
           <speaker>Хозяин дома</speaker>
           <p>А-а-а! Ну и закутались же вы, батюшка!</p>
         </sp>
-        <sp who="#Golosgostja">
+        <sp who="#Gost">
           <speaker>Голос гостя</speaker>
           <p>И холод же, доложу я вам! В шубе — и то замерз.</p>
           <stage>Гость сморкается. Так как разговор в гостиной почему-то исчерпался, слышно, как
@@ -1067,12 +1044,12 @@
             показать, что он невысокого о себе мнения. Хозяйка жестами же старается показать ему
             обратное.</stage>
         </sp>
-        <sp who="#Molodojchelovekzhorzh">
+        <sp who="#Zhorzh">
           <speaker>Молодой человек Жорж</speaker>
           <p>Совершенная дура твоя Серпантини, Миша. Так танцевать, как она вчера, значит — не иметь
             никакого стыда.</p>
         </sp>
-        <sp who="#Molodojchelovekmisha">
+        <sp who="#Misha">
           <speaker>Молодой человек Миша</speaker>
           <p>Ты, Жорж, ровно ничего не понимаешь! Я совершенно влюблен. Это — для немногих. Вспомни,
             у нее совсем классическая фигура — руки, ноги…</p>
@@ -1135,32 +1112,32 @@
           <stage>Старается незаметно застегнуть платье. В комнату впархивает молодая дама, за ней
             идет огромный рыжий господин.</stage>
         </sp>
-        <sp who="#Dama">
+        <sp who="#Devushka">
           <speaker>Дама</speaker>
           <p>Ах, здравствуйте, здравствуйте! Вот, позвольте вас познакомить: мой жених.</p>
         </sp>
-        <sp who="#Ryzhijgospodin">
+        <sp who="#Muzhchina">
           <speaker>Рыжий господин</speaker>
           <p>Очень приятно.</p>
           <stage>Угрюмо удаляется в угол.</stage>
         </sp>
-        <sp who="#Dama">
+        <sp who="#Devushka">
           <speaker>Дама</speaker>
           <p>Пожалуйста, не обращайте на него внимания. Он очень застенчив. Ах, представьте, какой
             случай!..</p>
           <stage>Торопливо пьет чай и шопотом рассказывает хозяйке что-то пикантное, судя по тому,
             что обе ерзают по дивану и хихикают.</stage>
         </sp>
-        <sp who="#Dama">
+        <sp who="#Devushka">
           <speaker>Дама</speaker>
           <p>У тебя мой платок?</p>
           <stage>Жених угрюмо вытаскивает платок.</stage>
         </sp>
-        <sp who="#Dama">
+        <sp who="#Devushka">
           <speaker>Дама</speaker>
           <p>Тебе жалко, что ли?</p>
         </sp>
-        <sp who="#Ryzhijgospodin">
+        <sp who="#Muzhchina">
           <speaker>Рыжий господин</speaker>
           <p>Пей, да помалкивай.</p>
           <stage>Молчат. Пьют. Вбегает молодой человек и радостно бросается к другому. В последнем
@@ -1215,7 +1192,7 @@
           <p>Сию минуту. Прошу извинения.</p>
           <stage>Выходит в переднюю, но не кричит там: «А-а-а!» Молчание.</stage>
         </sp>
-        <sp who="#Goloshozjaina">
+        <sp who="#Hozjain">
           <speaker>Голос хозяина</speaker>
           <p>Чем могу служить?</p>
           <stage>Женский голос отвечает что-то. Хозяин появляется на пороге.</stage>
@@ -1231,7 +1208,7 @@
           <speaker>Молодой человек </speaker>
           <p>Да не может быть…</p>
         </sp>
-        <sp who="#Drugoj">
+        <sp who="#Drugoj__2">
           <speaker>Другой</speaker>
           <p>Да уверяю тебя… вот скандал!.. Я слышал ее голос…</p>
           <stage>Поэт стоит неподвижно против дверей. Двери открываются. Хозяйка вводит
