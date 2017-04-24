@@ -32,7 +32,7 @@
             <title/>
             <date type="print" when="1771">Впервые — отдельным изданием под таким же заглавием
               (СПб., 1771)</date>
-            <date type="premiere"/>
+            <date type="premiere" when="1771">1 февраля 1771 на Императорской сцене</date>
             <date type="written" when="1770">1770?</date>
           </bibl>
         </bibl>
@@ -71,6 +71,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="sveta" when="2017-04-14">added the premiere date, checked IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
