@@ -86,6 +86,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
+        <change who="sveta" when="2017-04-24">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -271,7 +272,7 @@
             <l>Намеряся свой долг исполнить непреступно,</l>
             <l>Спасем отечество или погибнем купно.</l>
           </sp>
-          <sp who="#Voin">
+          <sp who="#PervyjVoin">
             <speaker>Воин</speaker>
             <l>Не пощадим себя, куда велишь, пойдем</l>
             <l>И за отечество всю кровь свою прольем.</l>
