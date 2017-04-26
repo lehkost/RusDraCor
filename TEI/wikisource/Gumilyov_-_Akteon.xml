@@ -43,22 +43,16 @@
           <person xml:id="VtorojJunosha">
             <persName>Второй юноша</persName>
           </person>
-          <person xml:id="RanisIKrokale">
-            <persName>Ранис и Крокале</persName>
-          </person>
           <person xml:id="Agava">
             <persName>Агава</persName>
           </person>
           <person xml:id="Hiale">
             <persName>Хиале</persName>
           </person>
-          <person xml:id="VseTroe">
-            <persName>Все трое</persName>
-          </person>
           <person xml:id="Ehion">
             <persName>Эхион</persName>
           </person>
-          <person xml:id="Pervyj">
+          <person xml:id="PervyjPes">
             <persName>Первый</persName>
           </person>
           <person xml:id="Diana">
@@ -67,10 +61,10 @@
           <person xml:id="Kadm">
             <persName>Кадм</persName>
           </person>
-          <person xml:id="Vtoroj">
+          <person xml:id="VtorojPes">
             <persName>Второй</persName>
           </person>
-          <person xml:id="Tretij">
+          <person xml:id="TretijPes">
             <persName>Третий</persName>
           </person>
           <person xml:id="TretijJunosha">
@@ -82,7 +76,7 @@
           <person xml:id="Krokale">
             <persName>Крокале</persName>
           </person>
-          <person xml:id="GolosaOhotnits">
+          <person xml:id="Ohotnitsy">
             <persName>Голоса охотниц</persName>
           </person>
           <person xml:id="Akteon">
@@ -103,6 +97,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#to" when="2017-04-26">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -477,7 +472,7 @@
         <l>Я буду спать, не закрывая глаз,</l>
         <l>И, может быть, проснусь на утро богом.</l>
       </sp>
-      <sp who="#Golosaohotnits">
+      <sp who="#Ohotnitsy">
         <speaker>Голоса охотниц</speaker>
         <l>Аллали.</l>
         <l>Аллали.</l>
@@ -560,7 +555,7 @@
         <l part="F"> В трущобы</l>
         <l>За мной он зашёл далеко.</l>
       </sp>
-      <sp who="#Ranisikrokale">
+      <sp who="#Ranis #Krokale">
         <speaker>Ранис и Крокале</speaker>
         <stage type="delivery">(с интересом)</stage>
         <l>Настиг?</l>
@@ -648,7 +643,7 @@
         <stage>Появляются странные существа с собачьими головами. Актеон мечется в ужасе, они
           набегают на него.</stage>
       </sp>
-      <sp who="#Pervyj">
+      <sp who="#PervyjPes">
         <speaker>Первый</speaker>
         <stage type="delivery">(вкрадчиво и зловеще)</stage>
         <l>Ты помнишь пламенные губы,</l>
@@ -659,7 +654,7 @@
         <speaker>Актеон</speaker>
         <l>О, пощади, о, пощади!</l>
       </sp>
-      <sp who="#Vtoroj">
+      <sp who="#VtorojPes">
         <speaker>Второй</speaker>
         <stage type="delivery">(так же)</stage>
         <l>Ты помнишь грудь, как плод созрелый,</l>
@@ -670,7 +665,7 @@
         <speaker>Актеон</speaker>
         <l>О, пощади, о, пощади!</l>
       </sp>
-      <sp who="#Tretij">
+      <sp who="#TretijPes">
         <speaker>Третий</speaker>
         <stage type="delivery">(так же)</stage>
         <l>Ты помнишь ослабевший пояс,</l>
@@ -681,7 +676,7 @@
         <speaker>Актеон</speaker>
         <l>О, пощади, о, пощади!</l>
       </sp>
-      <sp who="#Vsetroe">
+      <sp who="#PervyjPes #VtorojPes #TretijPes">
         <speaker>Все трое</speaker>
         <stage type="delivery">(вместе)</stage>
         <l>Беги, сок жил твоих отравлен,</l>
