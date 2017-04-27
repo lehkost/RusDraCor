@@ -63,6 +63,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to">checked the IDs, all seem correct</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

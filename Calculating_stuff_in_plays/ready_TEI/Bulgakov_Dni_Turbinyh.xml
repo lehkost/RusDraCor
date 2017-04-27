@@ -39,10 +39,7 @@
     </fileDesc>
     <profileDesc>
       <particDesc>
-        <listPerson>
-          <person xml:id="Nikolaj">
-            <persName> Николай </persName>
-          </person>
+        <listPerson>                  
           <person xml:id="Lariosik">
             <persName> Лариосик </persName>
           </person>
@@ -76,9 +73,6 @@
           <person xml:id="Dezertir">
             <persName> Дезертир </persName>
           </person>
-          <person xml:id="GolosNikolki">
-            <persName> Голос Николки </persName>
-          </person>
           <person xml:id="Chelovekskorzinoj">
             <persName> Человек с корзиной </persName>
           </person>
@@ -94,9 +88,6 @@
           <person xml:id="Vtorojofitser">
             <persName> Второй офицер </persName>
           </person>
-          <person xml:id="GolosTalberga">
-            <persName> Голос Тальберга </persName>
-          </person>
           <person xml:id="Studzinskij">
             <persName> Студзинский </persName>
           </person>
@@ -105,9 +96,6 @@
           </person>
           <person xml:id="Uragan">
             <persName> Ураган </persName>
-          </person>
-          <person xml:id="Vse">
-            <persName> Все </persName>
           </person>
           <person xml:id="Getman">
             <persName> Гетман </persName>
@@ -130,14 +118,8 @@
           <person xml:id="Tretijjunker">
             <persName> Третий юнкер </persName>
           </person>
-          <person xml:id="GolosMyshlaevskogo">
-            <persName> Голос Мышлаевского </persName>
-          </person>
           <person xml:id="Galanba">
             <persName> Галаньба </persName>
-          </person>
-          <person xml:id="GolosShervinskogo">
-            <persName> Голос Шервинского </persName>
           </person>
           <person xml:id="Elena">
             <persName> Елена </persName>
@@ -156,6 +138,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to">eliminated id Nikolaj</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -384,7 +367,7 @@
             <stage type="delivery"> (Бежит открывать дверь.) </stage>
             <p> Кто там? </p>
           </sp>
-          <sp who="#GolosMyshlaevskogo">
+          <sp who="#Myshlaevskij">
             <speaker> Голос Мышлаевского </speaker>
             <p> . Открой, ради Бога, скорей! </p>
           </sp>
@@ -823,7 +806,7 @@
             <speaker> Елена </speaker>
             <p> . Кто там? </p>
           </sp>
-          <sp who="#GolosTalberga">
+          <sp who="#Talberg">
             <speaker> Голос Тальберга </speaker>
             <p> . Я, я. Открой, пожалуйста. </p>
           </sp>
@@ -1416,7 +1399,7 @@
             <speaker> Шервинский </speaker>
             <p> . Я, можно сказать, подавлен... Боже мой, да тут все! Ура! Ура! </p>
           </sp>
-          <sp who="#GolosNikolki">
+          <sp who="#Nikolka">
             <speaker> Голос Николки </speaker>
             <p> . Шервинский! Демона! </p>
           </sp>
@@ -1728,7 +1711,7 @@
             <stage type="delivery"> (берет гитару, поет) </stage>
             <p> . Кому чару пить, кому здраву быть... пить чару... </p>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Nikolka #Aleksej #Myshlaevskij #Lariosik #Shervinskij #Studzinskij">
             <speaker> Все </speaker>
             <stage type="delivery"> (поют) </stage>
             <p> . Свет Елене Васильевне! </p>
@@ -1882,7 +1865,7 @@
               <l> Так громче, музыка, играй победу. </l>
             </lg>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Nikolka #Aleksej #Myshlaevskij #Lariosik #Shervinskij #Studzinskij #Elena">
             <speaker> Все </speaker>
             <stage type="delivery"> (поют) </stage>
             <p> . </p>
@@ -1898,7 +1881,7 @@
             <speaker> Алексей </speaker>
             <p> . Что вы, что вы! </p>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Nikolka #Aleksej #Myshlaevskij #Lariosik #Shervinskij #Studzinskij #Elena">
             <speaker> Все </speaker>
             <stage type="delivery"> (поют фразу без слов) </stage>
             <p> . </p>
@@ -3722,7 +3705,7 @@
             <p> . Геть отсюда! </p>
           </sp>
           <stage> Человек с корзиной бросается к двери. </stage>
-          <sp who="#Vse">
+          <sp who="#Telefonist #Uragan #Kirpatyj #Galanba #Dezertir">
             <speaker> Все </speaker>
             <p> . Покорно благодарим, пан полковник! </p>
           </sp>
@@ -4523,7 +4506,7 @@
             <speaker> Алексей </speaker>
             <p> . Болван! </p>
           </sp>
-          <sp who="#Nikolaj">
+          <sp who="#Nikolka">
             <speaker> Николай </speaker>
             <p> . Ругай, ругай родного брата. Я знаю, чего ты сидишь! Знаю, ты командир, смерти от
               позора ждешь, вот что! Ну, так я тебя буду караулить. Ленка меня убьет. </p>
@@ -4762,7 +4745,7 @@
             <speaker> Лариосик </speaker>
             <p> . Кто там? </p>
           </sp>
-          <sp who="#GolosMyshlaevskogo">
+          <sp who="#Myshlaevskij">
             <speaker> Голос Мышлаевского </speaker>
             <p> . Свои, свои... </p>
           </sp>
@@ -5745,7 +5728,7 @@
             снег лепит в самое лицо. Но бутылочку достал!.. Пусть знает Мышлаевский, на что я
             способен. Два раза упал, затылком трахнулся, но бутылку держал в руках. </p>
         </sp>
-        <sp who="#GolosShervinskogo">
+        <sp who="#Shervinskij">
           <speaker> Голос Шервинского </speaker>
           <p> . «Ты любовь благословляешь...» </p>
         </sp>

@@ -85,9 +85,6 @@
           <person xml:id="Akter">
             <persName> Актер </persName>
           </person>
-          <person xml:id="BubnoviKrivojZob">
-            <persName> Бубнов и Кривой Зоб </persName>
-          </person>
           <person xml:id="Pepel">
             <persName> Пепел </persName>
           </person>
@@ -477,7 +474,7 @@
           <stage type="delivery"> (Сатину). </stage>
           <p> Мешай карта! Хорошо мешай! Знаем мы, какой-такой ты... </p>
         </sp>
-        <sp who="#BubnoviKrivojZob">
+        <sp who="#Bubnov #KrivojZob">
           <speaker> Бубнов и Кривой Зоб </speaker>
           <stage type="delivery"> (вместе). </stage>
           <lg>

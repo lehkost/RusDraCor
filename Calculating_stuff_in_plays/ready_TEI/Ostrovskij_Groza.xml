@@ -40,8 +40,17 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="j">
+          <person xml:id="pervyj_dejstvije_4">
             <persName> 1-й </persName>
+          </person>
+          <person xml:id="vtoroj_dejstvije_4">
+            <persName> 2-й </persName>
+          </person>
+          <person xml:id="pervyj_dejstvije_5">
+            <persName> 1-й </persName>
+          </person>
+          <person xml:id="vtoroj_dejstvije_5">
+            <persName> 2-й </persName>
           </person>
           <person xml:id="Glasha">
             <persName> Глаша </persName>
@@ -79,7 +88,10 @@
           <person xml:id="Boris">
             <persName> Борис </persName>
           </person>
-          <person xml:id="Drugoj">
+          <person xml:id="Drugoj_1">
+            <persName> Другой </persName>
+          </person>
+          <person xml:id="Drugoj_2">
             <persName> Другой </persName>
           </person>
           <person xml:id="Feklusha">
@@ -108,6 +120,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="sveta" when="2017-04-13">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -3018,15 +3031,15 @@
         <stage> На первом плане узкая галерея со сводами старинной, начинающей разрушаться
           постройки; кой-где трава и кусты; за арками берег и вид на Волгу. </stage>
         <stage> Несколько гуляющих обоего пола проходят за арками. </stage>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Дождь накрапывает, как бы гроза не собралась? </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . Гляди, сберется. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Еще хорошо, что есть где схорониться. </p>
         </sp>
@@ -3036,85 +3049,85 @@
           <p> . А что народу-то гуляет на бульваре! День праздничный, все повышли. Купчихи такие
             разряженные. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Попрячутся куда-нибудь. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . Гляди, что теперь народу сюда набьется! </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <stage type="delivery"> (осматривая стены). </stage>
           <p> А ведь тут, братец ты мой, когда-нибудь, значит, расписано было. И теперь еще местами
             означает. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . Ну да, как же! Само собой, что расписано было. Теперь, ишь ты, все впусте оставлено,
             развалилось, заросло. После пожару так и не поправляли. Да ты и пожару-то этого не
             помнишь, этому лет сорок будет. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Что бы это такое, братец ты мой, тут нарисовано было; довольно затруднительно это
             понимать. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . Это геенна огненная. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Так, братец ты мой! </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . И едут туда всякого звания люди. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Так, так, понял теперь. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . И всякого чину. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . И арапы? </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . И арапы. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . А это, братец ты мой, что такое? </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . А это Литовское разорение. Битва! видишь? Как наши с Литвой бились. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Что ж это такое Литва? </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . Так она Литва и есть. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . А говорят, братец ты мой, она на нас с неба упала. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . Не умею тебе сказать. С неба так с неба. Женщина. Толкуй еще! Все знают, что с неба;
             и где был какой бой с ней, там для памяти курганы насыпаны. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . А что, братец ты мой! Ведь это так точно. </p>
         </sp>
@@ -3283,7 +3296,7 @@
           <stage type="delivery"> (Сердито.) </stage>
           <p> Перестал, что ль, дождик-то? </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Кажется, перестал. </p>
         </sp>
@@ -3291,7 +3304,7 @@
           <speaker> Дикой </speaker>
           <p> . Кажется! А ты, дурак, сходи да посмотри. А то: кажется! </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . </p>
           <stage type="delivery"> (выйдя из-под сводов). </stage>
@@ -3395,7 +3408,7 @@
         </sp>
         <stage> Входят несколько лиц разного звания и пола. </stage>
         <stage> Разные лица и потом Кабанова , Кабанов , Катерина и Кулигин . </stage>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Должно быть, бабочка-то очень боится, что так торопится спрятаться. </p>
         </sp>
@@ -3518,12 +3531,12 @@
           <speaker> Женщина </speaker>
           <p> . Ну, все небо обложило. Ровно шапкой, так и накрыло. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_4">
           <speaker> 1-й </speaker>
           <p> . Эко, братец ты мой, точно клубком туча-то вьется, ровно что в ней там живое
             ворочается. А так на нас и ползет, так и ползет, как живая! </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_4">
           <speaker> 2-й </speaker>
           <p> . Уж ты помяни мое слово, что эта гроза даром не пройдет. Верно тебе говорю: потому
             знаю. Либо уж убьет кого-нибудь, либо дом сгорит; вот увидишь: потому, смотри! какой
@@ -4107,7 +4120,7 @@
           <speaker> Один из народа </speaker>
           <p> . Да найдется! </p>
         </sp>
-        <sp who="#Drugoj">
+        <sp who="#Drugoj_1">
           <speaker> Другой </speaker>
           <p> . Как не найтись! </p>
         </sp>
@@ -4155,24 +4168,24 @@
           <stage type="delivery"> (встает, к народу). </stage>
           <p> Что, голубчики, не видать ли чего? </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_5">
           <speaker> 1-й </speaker>
           <p> . Темно внизу-то, не видать ничего. </p>
         </sp>
         <stage> Шум за сценой. </stage>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_5">
           <speaker> 2-й </speaker>
           <p> . Словно кричат что-то, да ничего не разберешь. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_5">
           <speaker> 1-й </speaker>
           <p> . Да это Кулигина голос. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#vtoroj_dejstvije_5">
           <speaker> 2-й </speaker>
           <p> . Вон с фонарем по берегу ходят. </p>
         </sp>
-        <sp who="#j">
+        <sp who="#pervyj_dejstvije_5">
           <speaker> 1-й </speaker>
           <p> . Сюда идут. Вон и ее несут. </p>
         </sp>
@@ -4186,7 +4199,7 @@
           <speaker> Кабанов </speaker>
           <p> . Жива? </p>
         </sp>
-        <sp who="#Drugoj">
+        <sp who="#Drugoj_2">
           <speaker> Другой </speaker>
           <p> . Где уж жива! Высоко бросилась-то: тут обрыв, да, должно быть, на якорь попала,
             ушиблась, бедная! А точно, ребяты, как живая! Только на виске маленькая ранка, и одна

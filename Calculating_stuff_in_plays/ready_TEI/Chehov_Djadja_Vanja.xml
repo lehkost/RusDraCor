@@ -46,7 +46,7 @@
           <person xml:id="Telegin">
             <persName> Телегин </persName>
           </person>
-          <person xml:id="Golosstorozha">
+          <person xml:id="Efim">
             <persName> Голос сторожа </persName>
           </person>
           <person xml:id="Rabotnik">
@@ -81,6 +81,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to"> replaced id "#Golosstorozha"  with id "#Efim", which is the name of this storozh</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1664,7 +1665,7 @@
           <stage type="delivery"> (В окно.) </stage>
           <p> Это ты стучишь, Ефим? </p>
         </sp>
-        <sp who="#Golosstorozha">
+        <sp who="#Efim">
           <speaker> Голос сторожа </speaker>
           <p> . Я! </p>
         </sp>
@@ -1672,7 +1673,7 @@
           <speaker> Елена Андреевна </speaker>
           <p> . Не стучи, барин нездоров. </p>
         </sp>
-        <sp who="#Golosstorozha">
+        <sp who="#Efim">
           <speaker> Голос сторожа </speaker>
           <p> . Сейчас уйду! </p>
           <stage type="delivery"> (Подсвистывает.) </stage>

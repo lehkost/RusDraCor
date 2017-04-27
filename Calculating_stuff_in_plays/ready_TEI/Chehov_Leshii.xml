@@ -64,9 +64,6 @@
           <person xml:id="FedorIvanovich">
             <persName> Федор Иванович </persName>
           </person>
-          <person xml:id="Vse">
-            <persName> Все </persName>
-          </person>
           <person xml:id="MarjaVasilevna">
             <persName> Марья Васильевна </persName>
           </person>
@@ -93,6 +90,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to">corrected id Vse</change>        
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -2607,7 +2605,7 @@
             <speaker> Федор Иванович </speaker>
             <p> . Покраснела! Стыдно! Господа, Соня влюблена! </p>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Orlovskij #Vojnitskij">
             <speaker> Все </speaker>
             <p> . Стыдно! Стыдно! </p>
           </sp>

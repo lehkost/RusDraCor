@@ -70,9 +70,6 @@
           <person xml:id="Chebutykin">
             <persName> Чебутыкин </persName>
           </person>
-          <person xml:id="GolosAndreja">
-            <persName> Голос Андрея </persName>
-          </person>
           <person xml:id="Olga">
             <persName> Ольга </persName>
           </person>
@@ -2119,7 +2116,7 @@
           <speaker> Анфиса </speaker>
           <p> . Что ж ты обижаешься? Милая! </p>
         </sp>
-        <sp who="#GolosAndreja">
+        <sp who="#Andrej">
           <speaker> Голос Андрея </speaker>
           <p> . Анфиса! </p>
         </sp>

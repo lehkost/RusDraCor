@@ -73,9 +73,6 @@
           <person xml:id="Kuzma">
             <persName>Кузьма</persName>
           </person>
-          <person xml:id="Goloszadverju">
-            <persName>Голос за дверью</persName>
-          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -87,6 +84,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to">replaced id "Goloszadverju" with the id "Kucher"</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1423,7 +1421,7 @@
           <stage type="delivery">(Встает и подходит к двери.)</stage>
           <p> Кто стучит? Проходи, заперто!</p>
         </sp>
-        <sp who="#Goloszadverju">
+        <sp who="#Kucher">
           <speaker>Голос за дверью</speaker>
           <p>. Впусти, Тихон, сделай милость! Рессора в карете лопнула! Помоги, будь отцом родным!
             Веревочкой бы только обвязать, а потом уж как-нибудь доехали бы...</p>
@@ -1432,7 +1430,7 @@
           <speaker>Тихон</speaker>
           <p>. Кто едет?</p>
         </sp>
-        <sp who="#Goloszadverju">
+        <sp who="#Kucher">
           <speaker>Голос за дверью</speaker>
           <p>. Барыня едет из города в Варсонофьево... Пять верст только осталось... Помоги, сделай
             милость!</p>
@@ -1442,7 +1440,7 @@
           <p>. Поди, скажи барыне, коли даст десять рублей, так и веревка будет и рессору
             починим...</p>
         </sp>
-        <sp who="#Goloszadverju">
+        <sp who="#Kucher">
           <speaker>Голос за дверью</speaker>
           <p>. Взбесился ты, что ли? Десять рублей! Собака ты бешеная! Рад людскому горю!</p>
         </sp>
@@ -1450,7 +1448,7 @@
           <speaker>Тихон</speaker>
           <p>. Как знаешь... Не хочешь и не нужно...</p>
         </sp>
-        <sp who="#Goloszadverju">
+        <sp who="#Kucher">
           <speaker>Голос за дверью</speaker>
           <p>. Ну, да ладно, погоди... </p>
           <stage>Пауза. </stage>
