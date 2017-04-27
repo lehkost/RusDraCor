@@ -60,6 +60,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#GG">checked</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
