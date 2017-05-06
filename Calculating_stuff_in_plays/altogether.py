@@ -9,7 +9,7 @@ tei_path = './ready_TEI/'
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play;Num_of_scenes;Num_of_char;Max_degree;\n')
+table.write('Play,Num_of_scenes,Num_of_char,Max_degree,\n')
 
 
 def write_filename(file):
@@ -100,7 +100,7 @@ for file in os.listdir(tei_path):
 
 for d in data:
     for el in d:
-        table.write(str(el) + ';')
+        table.write(str(el) + ',')
     table.write('\n')
 
 
