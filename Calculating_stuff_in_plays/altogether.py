@@ -6,10 +6,14 @@ import csv
 csv_path = './ready_CSV/'
 tei_path = './ready_TEI/'
 
+years = open('./years_of_creation.csv')
+years = csv.DictReader(years, delimiter=',')
+
+
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play,Num_of_scenes,Num_of_char,Max_degree,\n')
+table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_degree,\n')
 
 
 def write_filename(file):
@@ -17,6 +21,12 @@ def write_filename(file):
     = the drama title"""
     file_name0 = file.split('/')[2]
     return file_name0.split('.xml')[0]
+
+
+def write_year(years_data, play_title):
+    for row in years_data:
+        if row['Play'] == play_title:
+            return row['Year_of_creation']
 
 
 def get_body(file):
@@ -93,6 +103,7 @@ for file in os.listdir(tei_path):
         file_name = write_filename(tei_path + file)
         print(file_name)
         data_f.append(file_name)
+        data_f.append(write_year(years, file_name))
         data_f.append(num_of_scenes(tei_path + file))
         data_f.append(num_of_char(tei_path + file))
         data_f.append(max_degree(csv_path + file_name + '.csv'))
