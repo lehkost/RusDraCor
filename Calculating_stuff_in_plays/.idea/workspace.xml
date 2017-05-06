@@ -27,8 +27,8 @@
       <file leaf-file-name="altogether.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/altogether.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64285713" vertical-offset="1248" max-vertical-offset="1710">
-              <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="1710">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
       <file leaf-file-name="calculations.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculations.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6666666" vertical-offset="390" max-vertical-offset="840">
-              <caret line="23" column="17" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="17" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="405" max-vertical-offset="840">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -408,7 +408,13 @@
       <option name="project" value="LOCAL" />
       <updated>1494085472157</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="calculating">
+      <created>1494085534484</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1494085534485</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -427,7 +433,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -846,16 +852,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculations.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6666666" vertical-offset="390" max-vertical-offset="840">
-          <caret line="23" column="17" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="840">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/altogether.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713" vertical-offset="1248" max-vertical-offset="1710">
-          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
