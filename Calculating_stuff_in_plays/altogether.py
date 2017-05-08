@@ -13,7 +13,7 @@ years = csv.DictReader(years, delimiter=',')
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_degree,\n')
+table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,\n')
 
 
 def write_filename(file):
@@ -84,14 +84,37 @@ def num_of_char(file):
     return str(len(characters))
 
 
-def max_degree(file):
+def max_weight(file):
     weights = []
-    degrees = open(file)
-    degrees = csv.DictReader(degrees, delimiter=';')
-    for row in degrees:
+    table = open(file)
+    table = csv.DictReader(table, delimiter=';')
+    for row in table:
         weights.append(int(row['Weight']))
     try:
         return max(weights)
+    except:
+        return 'empty weights'
+
+
+def max_degree(file):
+    degrees = {}
+    table = open(file)
+    table = csv.DictReader(table, delimiter=';')
+    for row in table:
+        source = row['Source']
+        target = row['Target']
+        if source in degrees:
+            degrees[source].append(target)
+        else:
+            degrees[source] = [target]
+        if target in degrees:
+            degrees[target].append(source)
+        else:
+            degrees[target] = [source]
+    for el in degrees:
+        degrees[el] = len(set(degrees[el]))
+    try:
+        return max(degrees.values())
     except:
         return 'empty weights'
 
@@ -106,6 +129,7 @@ for file in os.listdir(tei_path):
         data_f.append(write_year(years, file_name))
         data_f.append(num_of_scenes(tei_path + file))
         data_f.append(num_of_char(tei_path + file))
+        data_f.append(max_weight(csv_path + file_name + '.csv'))
         data_f.append(max_degree(csv_path + file_name + '.csv'))
         data.append(data_f)
 
