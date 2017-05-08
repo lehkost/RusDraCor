@@ -30,8 +30,8 @@
       <file leaf-file-name="altogether.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/altogether.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.032467533" vertical-offset="1530" max-vertical-offset="2295">
-              <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.7077922" vertical-offset="1803" max-vertical-offset="2265">
+              <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -434,7 +434,13 @@
       <option name="project" value="LOCAL" />
       <updated>1494263048238</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="calculating">
+      <created>1494263094364</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1494263094364</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -844,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/altogether.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032467533" vertical-offset="1530" max-vertical-offset="2295">
-          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.7077922" vertical-offset="1803" max-vertical-offset="2265">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

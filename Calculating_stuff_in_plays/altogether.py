@@ -143,5 +143,3 @@ for d in data:
     table.write('\n')
 
 
-
-
