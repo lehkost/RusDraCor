@@ -89,7 +89,7 @@ def max_degree(file):
     degrees = open(file)
     degrees = csv.DictReader(degrees, delimiter=';')
     for row in degrees:
-        weights.append(row['Weight'])
+        weights.append(int(row['Weight']))
     try:
         return max(weights)
     except:
