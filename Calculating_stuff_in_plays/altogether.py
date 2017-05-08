@@ -85,6 +85,7 @@ def num_of_char(file):
 
 
 def max_weight(file):
+    """This function returns the max weight of characters connection in the play"""
     weights = []
     table = open(file)
     table = csv.DictReader(table, delimiter=';')
@@ -97,6 +98,9 @@ def max_weight(file):
 
 
 def max_degree(file):
+    """This function returns the max degree of some character in the play =
+    how many of the other characters does a character
+    ‘meet’/’speak to’ throughout the whole play"""
     degrees = {}
     table = open(file)
     table = csv.DictReader(table, delimiter=';')
