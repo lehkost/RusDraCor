@@ -101,7 +101,7 @@ def max_degree(file):
     """This function returns the max degree of some character in the play =
     how many of the other characters does a character
     ‘meet’/’speak to’ throughout the whole play"""
-    degrees = {}
+    degrees = dict()
     table = open(file)
     table = csv.DictReader(table, delimiter=';')
     for row in table:
