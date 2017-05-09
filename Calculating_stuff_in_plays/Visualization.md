@@ -37,7 +37,6 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
 
 ``` r
 scenes_data <- aggregate(data[, 3], list(Year_of_creation=data$Year_of_creation), mean)
-BG <- subset(char_data, Year_of_creation == "1825")
 
 scenes_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
@@ -52,12 +51,13 @@ scenes_data %>% ggplot(aes(Year_of_creation, x)) +
 
 ``` r
 degree_data <- aggregate(data[, 6], list(Year_of_creation=data$Year_of_creation), mean)
+BG <- subset(char_data, Year_of_creation == "1825")
 
 degree_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   geom_text(data=BG, label="Boris Godunov", vjust=1) +
-  labs(title='Max degree in Russian drama',
+  labs(title='Max character degree in Russian drama',
        x='Max degree', y='Year of creation')
 ```
 

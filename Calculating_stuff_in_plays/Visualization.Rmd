@@ -36,7 +36,6 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
 ### This graph shows how the number of scenes/acts in plays was changing from 1750 to 1950. The observations are the mean number of scenes/acts in plays of a particular year.
 ```{r}
 scenes_data <- aggregate(data[, 3], list(Year_of_creation=data$Year_of_creation), mean)
-BG <- subset(char_data, Year_of_creation == "1825")
 
 scenes_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
@@ -48,11 +47,12 @@ scenes_data %>% ggplot(aes(Year_of_creation, x)) +
 ### This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
 ```{r}
 degree_data <- aggregate(data[, 6], list(Year_of_creation=data$Year_of_creation), mean)
+BG <- subset(char_data, Year_of_creation == "1825")
 
 degree_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   geom_text(data=BG, label="Boris Godunov", vjust=1) +
-  labs(title='Max degree in Russian drama',
+  labs(title='Max character degree in Russian drama',
        x='Max degree', y='Year of creation')
 ```
