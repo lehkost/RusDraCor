@@ -1,4 +1,4 @@
-Dramas Analysis
+Drama Analysis
 ================
 Ira Pavlova
 08.05.2017
@@ -18,9 +18,13 @@ data
 ### This graph shows how the number of characters in plays was changing from 1750 to 1950. The observations are the mean number of characters in plays of a particular year.
 
 ``` r
-aggregate(data[, 4], list(Year_of_creation=data$Year_of_creation), mean) %>%
-ggplot(aes(Year_of_creation, x)) +
-  geom_point() + geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+char_data <- aggregate(data[, 4], list(Year_of_creation=data$Year_of_creation), mean)
+BG <- subset(char_data, Year_of_creation == "1825")
+
+char_data %>% ggplot(aes(Year_of_creation, x)) +
+  geom_point() +
+  geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(data=BG, label="Boris Godunov", vjust=1) +
   labs(title='Number of characters in Russian drama',
        x='Number of characters', y='Year of creation')
 ```
