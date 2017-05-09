@@ -1,13 +1,9 @@
-Dramas\_Analysis
+Dramas Analysis
 ================
 Ira Pavlova
 08.05.2017
 
-------------------------------------------------------------------------
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### This project is devoted to studying the evolution of Russian drama. The study is based in the Russian Drama Corpus which now contains 49 Russian plays encoded in TEI. The creation time of plays ranges from 1747 to 1925.
 
 ``` r
 library(tidyverse)
@@ -19,16 +15,14 @@ data = data.frame(data)
 data
 ```
 
+### This graph shows how the number of characters in plays was changing from 1750 to 1950. The observations are the mean number of characters in plays of a particular year.
+
 ``` r
-plot <- ggplot(data, aes(Year_of_creation, Num_of_char))
-plot <- plot + geom_point() + geom_line()
-plot <- plot + scale_x_continuous(breaks=seq(1700, 1950, 50))
-plot <- plot + labs(title='Number of characters in Russian drama', x='Number of characters', y='Year of creation')
-plot
+aggregate(data[, 4], list(Year_of_creation=data$Year_of_creation), mean) %>%
+ggplot(aes(Year_of_creation, x)) +
+  geom_point() + geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  labs(title='Number of characters in Russian drama',
+       x='Number of characters', y='Year of creation')
 ```
 
-    ## Warning: Removed 1 rows containing missing values (geom_point).
-
-    ## Warning: Removed 1 rows containing missing values (geom_path).
-
-![](Untitled_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](Visualization_files/figure-markdown_github/unnamed-chunk-2-1.png)
