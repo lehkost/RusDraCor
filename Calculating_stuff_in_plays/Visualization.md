@@ -3,7 +3,7 @@ Dramas Analysis
 Ira Pavlova
 08.05.2017
 
-### This project is devoted to studying the evolution of Russian drama. The study is based in the Russian Drama Corpus which now contains 49 Russian plays encoded in TEI. The creation time of plays ranges from 1747 to 1925.
+### This project is devoted to studying the evolution of Russian drama. The study is based on the Russian Drama Corpus which now contains 49 Russian plays encoded in TEI. The creation time of plays ranges from 1747 to 1925.
 
 ``` r
 library(tidyverse)
