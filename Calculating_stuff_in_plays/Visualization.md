@@ -37,6 +37,7 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
 
 ``` r
 scenes_data <- aggregate(data[, 3], list(Year_of_creation=data$Year_of_creation), mean)
+BG <- subset(char_data, Year_of_creation == "1825")
 
 scenes_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
@@ -50,19 +51,12 @@ scenes_data %>% ggplot(aes(Year_of_creation, x)) +
 ### This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
 
 ``` r
-data[, 6]
-```
-
-    ##  [1]  0 29 37 24 11  9 13 12  2 11  3  2 13 27  1 13 13  7 12 10  3 35 87
-    ## [24]  2  4 13 21 17  0 19  0  8  7 20 17 10 22  0  7  9 14  1 40 13  4  5
-    ## [47] 11  8  3
-
-``` r
 degree_data <- aggregate(data[, 6], list(Year_of_creation=data$Year_of_creation), mean)
 
 degree_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(data=BG, label="Boris Godunov", vjust=1) +
   labs(title='Max degree in Russian drama',
        x='Max degree', y='Year of creation')
 ```
