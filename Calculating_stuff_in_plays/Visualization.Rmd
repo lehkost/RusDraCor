@@ -13,8 +13,10 @@ library(tidyverse)
 library(plotly)
 library(plotrix) 
 setwd('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays')
-data = read.csv('calculations.csv')
+data = read.csv('calculations.csv', stringsAsFactors=FALSE)
 data = data.frame(data)
+data[data=="empty weights"] <- 0
+data[, 5:6] <- sapply(data[, 5:6], as.numeric)
 data
 ```
 
@@ -40,4 +42,16 @@ scenes_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   labs(title='Number of scenes/acts in Russian drama',
        x='Number of scenes/acts', y='Year of creation')
+```
+
+### This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
+```{r}
+data[, 6]
+degree_data <- aggregate(data[, 6], list(Year_of_creation=data$Year_of_creation), mean)
+
+degree_data %>% ggplot(aes(Year_of_creation, x)) +
+  geom_point() +
+  geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  labs(title='Max degree in Russian drama',
+       x='Max degree', y='Year of creation')
 ```
