@@ -79,7 +79,7 @@ boris_godunov <- boris_godunov[, c(1, 3, 4)]
 head(boris_godunov)
 ```
 
-    ##           Source        Target weight
+    ##           Source        Target Weight
     ## 1         Bojare    Malchishka      1
     ## 2        Plennik   Samozvanets      1
     ## 3     Malchishki          Odin      1
@@ -95,25 +95,31 @@ class(net)
     ## [1] "igraph"
 
 ``` r
-E(net)$weight = boris_godunov$weight
-E(net)
+E(net)$weight <- boris_godunov$Weight
+clust <- cluster_optimal(net)
+clust
 ```
 
-    ## + 385/385 edges (vertex names):
-    ##  [1] Bojare        --Malchishka       Plennik       --Samozvanets     
-    ##  [3] Malchishki    --Odin             Muzhiknaamvone--Pushkin         
-    ##  [5] Grigorij      --Pervyjpristav    Nischij       --Odiniznaroda    
-    ##  [7] Schelkalov    --Tretij           Ljah          --Vse             
-    ##  [9] Kurbskij      --Pushkin          Feodor        --Tretij          
-    ## [11] Boris         --Knjazvorotynskij Malchishki    --Drugoj          
-    ## [13] Poet          --Vse              Samozvanets   --Vse             
-    ## [15] Staruha       --Tretij           Jurodivyj     --Tretij          
-    ## [17] Jurodivyj     --Chetvertyj       Semengodunov  --Tsar            
-    ## [19] Gavrilapushkin--Vse              Poet          --Gavrilapushkin  
-    ## + ... omitted several edges
+    ## IGRAPH clustering optimal, groups: 6, mod: 0.52
+    ## + groups:
+    ##   $`1`
+    ##    [1] "Bojare"        "Malchishki"    "Schelkalov"    "Drugoj"       
+    ##    [5] "Staruha"       "Jurodivyj"     "Chetvertyj"    "Basmanov"     
+    ##    [9] "Malchishka"    "Odiniznih"     "Odin"          "Igumen"       
+    ##   [13] "Bojarin"       "Narod"         "Baba"          "Knjazshujskij"
+    ##   [17] "Pervyjbojarin" "Patriarh"      "Pjatyj"        "Tretij"       
+    ##   [21] "Tsar"          "Odinbojarin"   "Shestoj"      
+    ##   
+    ##   $`2`
+    ##    [1] "Plennik"        "Muzhiknaamvone" "Ljah"           "Kurbskij"      
+    ##   + ... omitted several groups/vertices
 
 ``` r
-plot(net, edge.arrow.size=.4,vertex.label=NA)
+plot(net,
+     vertex.size=3,
+     edge.arrow.size=.6,
+     vertex.label=V(net)$name,
+     edge.width=E(net)$weight)
 ```
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-5-1.png)
