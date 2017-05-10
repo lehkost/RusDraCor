@@ -72,10 +72,15 @@ boris_godunov <- boris_godunov[, c(1, 3, 4)]
 head(boris_godunov)
 net <- graph_from_data_frame(d=boris_godunov, directed=F)
 class(net)
-E(net)$weight = boris_godunov$weight
-E(net)
+E(net)$weight <- boris_godunov$Weight
+clust <- cluster_optimal(net)
+clust
 
-plot(net, edge.arrow.size=.4,vertex.label=NA)
+plot(net,
+     vertex.size=3,
+     edge.arrow.size=.6,
+     vertex.label=V(net)$name,
+     edge.width=E(net)$weight)
 
 
 
