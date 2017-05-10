@@ -11,7 +11,15 @@ output:
 ```{r results='hide', warning=FALSE, message=FALSE}
 library(tidyverse)
 library(plotly)
-library(plotrix) 
+library(plotrix)
+library(network)
+library(sna)
+library(GGally)
+library(geomnet)
+library(ggnetwork)
+library(igraph)
+
+
 setwd('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays')
 data = read.csv('calculations.csv', stringsAsFactors=FALSE)
 data = data.frame(data)
@@ -55,4 +63,28 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_text(data=BG, label="Boris Godunov") +
   labs(title='Max character degree in Russian drama',
        x='Max degree', y='Year of creation')
+```
+
+### Making network visualization
+```{r}
+boris_godunov <- read.csv('ready_CSV/Pushkin_-_Boris_Godunov.csv', sep = ";")
+boris_godunov <- boris_godunov[, c(1, 3, 4)]
+head(boris_godunov)
+net <- graph_from_data_frame(d=boris_godunov, directed=F)
+class(net)
+E(net)$weight = boris_godunov$weight
+E(net)
+
+plot(net, edge.arrow.size=.4,vertex.label=NA)
+
+
+
+
+# net = network(boris_godunov, directed=FALSE)
+# ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layout.alg = "kamadakawai", 
+           # size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
+           # directed =FALSE, fontsize = 3, ealpha = 0.5)
+
+
+
 ```

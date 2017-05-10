@@ -8,7 +8,15 @@ Ira Pavlova
 ``` r
 library(tidyverse)
 library(plotly)
-library(plotrix) 
+library(plotrix)
+library(network)
+library(sna)
+library(GGally)
+library(geomnet)
+library(ggnetwork)
+library(igraph)
+
+
 setwd('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays')
 data = read.csv('calculations.csv', stringsAsFactors=FALSE)
 data = data.frame(data)
@@ -62,3 +70,57 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
 ```
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-4-1.png)
+
+### Making network visualization
+
+``` r
+boris_godunov <- read.csv('ready_CSV/Pushkin_-_Boris_Godunov.csv', sep = ";")
+boris_godunov <- boris_godunov[, c(1, 3, 4)]
+head(boris_godunov)
+```
+
+    ##           Source        Target weight
+    ## 1         Bojare    Malchishka      1
+    ## 2        Plennik   Samozvanets      1
+    ## 3     Malchishki          Odin      1
+    ## 4 Muzhiknaamvone       Pushkin      1
+    ## 5       Grigorij Pervyjpristav      1
+    ## 6        Nischij  Odiniznaroda      1
+
+``` r
+net <- graph_from_data_frame(d=boris_godunov, directed=F)
+class(net)
+```
+
+    ## [1] "igraph"
+
+``` r
+E(net)$weight = boris_godunov$weight
+E(net)
+```
+
+    ## + 385/385 edges (vertex names):
+    ##  [1] Bojare        --Malchishka       Plennik       --Samozvanets     
+    ##  [3] Malchishki    --Odin             Muzhiknaamvone--Pushkin         
+    ##  [5] Grigorij      --Pervyjpristav    Nischij       --Odiniznaroda    
+    ##  [7] Schelkalov    --Tretij           Ljah          --Vse             
+    ##  [9] Kurbskij      --Pushkin          Feodor        --Tretij          
+    ## [11] Boris         --Knjazvorotynskij Malchishki    --Drugoj          
+    ## [13] Poet          --Vse              Samozvanets   --Vse             
+    ## [15] Staruha       --Tretij           Jurodivyj     --Tretij          
+    ## [17] Jurodivyj     --Chetvertyj       Semengodunov  --Tsar            
+    ## [19] Gavrilapushkin--Vse              Poet          --Gavrilapushkin  
+    ## + ... omitted several edges
+
+``` r
+plot(net, edge.arrow.size=.4,vertex.label=NA)
+```
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-5-1.png)
+
+``` r
+# net = network(boris_godunov, directed=FALSE)
+# ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layout.alg = "kamadakawai", 
+           # size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
+           # directed =FALSE, fontsize = 3, ealpha = 0.5)
+```

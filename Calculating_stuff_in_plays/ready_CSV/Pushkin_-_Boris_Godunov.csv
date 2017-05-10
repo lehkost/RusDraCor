@@ -1,4 +1,4 @@
-Source;Type;Target;Weight
+Source;Type;Target;weight
 Bojare;Undirected;Malchishka;1
 Plennik;Undirected;Samozvanets;1
 Malchishki;Undirected;Odin;1
