@@ -132,3 +132,14 @@ ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layou
 ```
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-5-2.png)
+
+### Notes
+
+1. Keep CamelCase when tranforming TEI to CSV
+=============================================
+
+2. Use clustering in igraph
+===========================
+
+3. Add degree tables (as vertices to net)
+=========================================

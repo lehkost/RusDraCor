@@ -82,14 +82,13 @@ plot(net,
      vertex.label=V(net)$name,
      edge.width=E(net)$weight)
 
-
-
-
 net <- network(boris_godunov, directed=FALSE)
 ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layout.alg = "kamadakawai", 
            size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
            directed =FALSE, fontsize = 3, ealpha = 0.5)
-
-
-
 ```
+
+### Notes
+# 1. Keep CamelCase when tranforming TEI to CSV
+# 2. Use clustering in igraph
+# 3. Add degree tables (as vertices to net)
