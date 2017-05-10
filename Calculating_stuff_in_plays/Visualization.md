@@ -119,8 +119,10 @@ plot(net, edge.arrow.size=.4,vertex.label=NA)
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 ``` r
-# net = network(boris_godunov, directed=FALSE)
-# ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layout.alg = "kamadakawai", 
-           # size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
-           # directed =FALSE, fontsize = 3, ealpha = 0.5)
+net <- network(boris_godunov, directed=FALSE)
+ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layout.alg = "kamadakawai", 
+           size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
+           directed =FALSE, fontsize = 3, ealpha = 0.5)
 ```
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-5-2.png)
