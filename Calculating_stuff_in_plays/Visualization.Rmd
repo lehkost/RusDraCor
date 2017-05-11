@@ -1,7 +1,7 @@
 ---
 title: "Drama Analysis"
 author: "Ira Pavlova"
-date: "08.05.2017"
+date: "May 2017"
 output:
   github_document:
     html_preview: false
