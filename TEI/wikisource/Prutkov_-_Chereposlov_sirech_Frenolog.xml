@@ -53,9 +53,6 @@
           <person xml:id="Liza">
             <persName>Лиза</persName>
           </person>
-          <person xml:id="ShishkengolymIMinaHristianovna">
-            <persName>Шишкенголым и Мина Христиановна</persName>
-          </person>
           <person xml:id="ShishkengolM">
             <persName>Шишкенгольм</persName>
           </person>
@@ -186,7 +183,7 @@
           <stage type="delivery">(сдобным голосом, презрительно)</stage>
           <p>Русский мужик!</p>
         </sp>
-        <sp who="#ShishkengolmMinahristianovnailiza">
+        <sp who="#ShishkengolMMinaHristianovnaILiza">
           <speaker>Шишкенгольм, Мина Христиановна и Лиза</speaker>
           <stage type="delivery">(поют хором, обратившись к Иванову)</stage>
           <l>Спокойствие занятий</l>
@@ -211,7 +208,7 @@
           <stage>Уходит, захлопнув дверь. Все уселись заниматься. Тишина. Вдруг раздается торопливый
             стук в дверь.</stage>
         </sp>
-        <sp who="#Kasimovivihorin">
+        <sp who="#KasimovIVihorin">
           <speaker>Касимов и Вихорин</speaker>
           <stage type="delivery">(за дверью)</stage>
           <p>Дома почтеннейший профессор Шишкенгольм и милое его семейство?</p>
@@ -243,7 +240,7 @@
           <l part="F">Судьбины гнет</l>
           <l>Мышленья срезал колос.</l>
         </sp>
-        <sp who="#Kasimovivihorin">
+        <sp who="#KasimovIVihorin">
           <speaker>Касимов и Вихорин</speaker>
           <stage type="delivery">(в восторге фальшивят)</stage>
           <l part="F">Она поет!..</l>
@@ -257,12 +254,12 @@
           <l>Зачем вы здесь, скажите,</l>
           <l part="F">А не в сенях?!</l>
         </sp>
-        <sp who="#Kasimovivihorin">
+        <sp who="#KasimovIVihorin">
           <speaker>Касимов и Вихорин</speaker>
           <stage type="delivery">(прозою, перебивая друг друга)</stage>
           <p>Мы… мы… мы опять… хотели просить руки вашей дочери…</p>
         </sp>
-        <sp who="#Shishkengolmiminahristianovna">
+        <sp who="#ShishkengolMIMinaHristianovna">
           <speaker>Шишкенгольм и Мина Христиановна</speaker>
           <stage type="delivery">(гневно)</stage>
           <p>Руки?!</p>
@@ -311,17 +308,17 @@
             что!.. <stage>(Уходит большими шагами в правую боковую дверь. Фриц и Густав за
               ним.)</stage></p>
         </sp>
-        <sp who="#Minahristianovna">
+        <sp who="#MinaHristianovna">
           <speaker>Мина Христиановна</speaker>
           <stage type="delivery">(к Касимову и Вихорину)</stage>
           <p>Вы слышали? Ступайте же вон!</p>
         </sp>
-        <sp who="#Kasimovivihorin">
+        <sp who="#KasimovIVihorin">
           <speaker>Касимов и Вихорин</speaker>
           <stage type="delivery">(становясь по обе стороны ее)</stage>
           <p>Мина Христиановна, матушка!.. Клянусь, он ошибается!</p>
         </sp>
-        <sp who="#Minahristianovna">
+        <sp who="#MinaHristianovna">
           <speaker>Мина Христиановна</speaker>
           <stage type="delivery">(гордо и строго)</stage>
           <p>Он ошибается?! <stage>(Ощупывает одновременно, обеими руками, их затылки.)</stage> Ни
@@ -665,7 +662,7 @@
             голосом)</stage>
           <p>Господи, какие бесстыдники!</p>
         </sp>
-        <sp who="#Kasimovivihorin">
+        <sp who="#KasimovIVihorin">
           <speaker>Касимов и Вихорин</speaker>
           <stage type="delivery">(поют, обращаясь к Шишкенгольму)</stage>
           <l>Ну, не верьте нашим шишкам!</l>
@@ -681,7 +678,7 @@
           <l>Вас сумею выгнать я!</l>
           <stage>(Идет к ним.)</stage>
         </sp>
-        <sp who="#Kasimovivihorin">
+        <sp who="#KasimovIVihorin">
           <speaker>Касимов и Вихорин</speaker>
           <stage type="delivery">(отступая от него, поют)</stage>
           <l>Обругать вас стоит колко.</l>
@@ -693,7 +690,7 @@
           <l>С вас — парик!.. а с вас — ермолку!..</l>
           <l>Подымайте их.</l>
         </sp>
-        <sp who="#Kasimovivihorin">
+        <sp who="#KasimovIVihorin">
           <speaker>Касимов и Вихорин</speaker>
           <stage type="delivery">(подбегая к окну и посмотрев за окно с любопытством, оканчивают
             мотив)</stage>
@@ -708,7 +705,7 @@
           <p>Тьфу!.. черти плешивые!.. Чуть с ног не сбили!.. <stage>(Обращается к
               солдатам.)</stage> Сюда вот, сюда, ставьте сюда, так.</p>
         </sp>
-        <sp who="#Shishkengolmiprochie">
+        <sp who="#ShishkengolMIProchie">
           <speaker>Шишкенгольм и прочие</speaker>
           <stage type="delivery">(с удивлением)</stage>
           <p>Это что? Кто это?</p>
@@ -929,7 +926,7 @@
           <p>Ну, так и всем воды, только в бокалах. Оно и подешевле.</p>
           <stage>Иванов бросается в средние двери.</stage>
         </sp>
-        <sp who="#Shishkengolmiminahristianovna">
+        <sp who="#ShishkengolMIMinaHristianovna">
           <speaker>Шишкенгольм и Мина Христиановна</speaker>
           <stage type="delivery">(к Курцгалопу)</stage>
           <p>Подите же сюда, наш сын! Дайте обнять вас…</p>
