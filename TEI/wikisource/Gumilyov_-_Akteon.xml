@@ -410,15 +410,15 @@
         <l>В твои безрадостные Фивы.</l>
         <stage>Кадм, Эхион и Агава с трудом выносят камень.</stage>
       </sp>
-      <sp who="#Pervyjjunosha">
+      <sp who="#PervyjJunosha">
         <speaker>Первый юноша</speaker>
         <l>Вот здорово.</l>
       </sp>
-      <sp who="#Vtorojjunosha">
+      <sp who="#VtorojJunosha">
         <speaker>Второй юноша</speaker>
         <l part="F"> Им так и надо.</l>
       </sp>
-      <sp who="#Tretijjunosha">
+      <sp who="#TretijJunosha">
         <speaker>Третий юноша</speaker>
         <l>Какой ты умный, Актеон!</l>
         <l>Так говорить — одна отрада.</l>
@@ -431,15 +431,15 @@
         <l>Мы славно охотились; до новой встречи!</l>
         <l>Постойте, я вас обниму.</l>
       </sp>
-      <sp who="#Pervyjjunosha">
+      <sp who="#PervyjJunosha">
         <speaker>Первый юноша</speaker>
         <l>Спать завалюсь.</l>
       </sp>
-      <sp who="#Vtorojjunosha">
+      <sp who="#VtorojJunosha">
         <speaker>Второй юноша</speaker>
         <l part="F"> Напьюсь.</l>
       </sp>
-      <sp who="#Tretijjunosha">
+      <sp who="#TretijJunosha">
         <speaker>Третий юноша</speaker>
         <l part="F"> Вот ловко:</l>
         <l>И спать и пить — равно уныло.</l>

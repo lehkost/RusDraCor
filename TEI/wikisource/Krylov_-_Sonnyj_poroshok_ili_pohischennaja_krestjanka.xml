@@ -228,7 +228,7 @@
             <l>то-то будет пированье.</l>
             <l>Пунфе дан, дан, труднее же перец толочь?</l>
           </sp>
-          <sp who="#Rabotnikiidocheribleza">
+          <sp who="#RabotnikiIDocheriBleza">
             <speaker>Работники и дочери Блеза</speaker>
             <l>То-то будет пированье,</l>
             <l>Свадьба, радость и ликованье,</l>
@@ -1520,7 +1520,7 @@
             <speaker>Нинета</speaker>
             <l>Выпьем, выпьем теперь же его!</l>
           </sp>
-          <sp who="#Zhanetaipaulin">
+          <sp who="#ZhanetaIPaulin">
             <speaker>Жанета и Паулин</speaker>
             <l>Так, так, давай выпьем,</l>
             <l>Выпьем теперь же его!</l>
@@ -1529,7 +1529,7 @@
             <speaker>Все</speaker>
             <l>Так, так, изволь, выпьем, выпьем!</l>
           </sp>
-          <sp who="#Filippiblez">
+          <sp who="#FilippIBlez">
             <speaker>Филипп и Блез</speaker>
             <l>Красно оно, красно оно.</l>
           </sp>
@@ -1573,7 +1573,7 @@
             <l>Не пей, а ожидай!</l>
             <l>Теперь выпейте, смотрите ж!</l>
           </sp>
-          <sp who="#Zhuletaizhaneta">
+          <sp who="#ZhulEtaIZhaneta">
             <speaker>Жульета и Жанета</speaker>
             <l>Прежде пейте вы сами, прежде пейте!</l>
           </sp>
@@ -1612,12 +1612,12 @@
             <speaker>Паулин</speaker>
             <l>Ну вы, братья, начинай.</l>
           </sp>
-          <sp who="#Zhanetainineta">
+          <sp who="#ZhanetaINineta">
             <speaker>Жанета и Нинета</speaker>
             <l>Я больше пить не стану, я не стану,</l>
             <l>А я не отстану.</l>
           </sp>
-          <sp who="#Filippiblez">
+          <sp who="#FilippIBlez">
             <speaker>Филипп и Блез</speaker>
             <l>Давай хоть по стакану.</l>
           </sp>
@@ -1625,13 +1625,13 @@
             <speaker>Паулин</speaker>
             <l>Друзья, давайте пить.</l>
           </sp>
-          <sp who="#Zhuletainineta">
+          <sp who="#ZhulEtaINineta">
             <speaker>Жульета и Нинета</speaker>
             <l>Я больше пить не стану,</l>
             <l>Я не стану, чтоб пьяной мне не быть,</l>
             <l>Я больше пить не стану.</l>
           </sp>
-          <sp who="#Filippiblez">
+          <sp who="#FilippIBlez">
             <speaker>Филипп и Блез</speaker>
             <l>Давай хоть по стакану, мы можем осушить,</l>
             <l>А что стало, что стало,</l>
@@ -1715,7 +1715,7 @@
             <l>Вот свою я подставляю,</l>
             <l>Может так же поддержать.</l>
           </sp>
-          <sp who="#ZhuletaZhanetainineta">
+          <sp who="#ZhulEtaZhanetaINineta">
             <speaker>Жульета, Жанета и Нинета</speaker>
             <l>Ночь с какою темнотою,</l>
             <l>Память вся покрыта мглою.</l>
@@ -1753,7 +1753,7 @@
             <l>На меня все полагая,</l>
             <l>Знаю, весть куда, я ж, я.</l>
           </sp>
-          <sp who="#ZhuletaZhanetainineta">
+          <sp who="#ZhulEtaZhanetaINineta">
             <speaker>Жульета, Жанета и Нинета</speaker>
             <l>{|</l>
             <l>|-</l>
@@ -1766,7 +1766,7 @@
             <l>Кто идет?</l>
             <l>|}</l>
           </sp>
-          <sp who="#Blezifilipp">
+          <sp who="#BlezIFilipp">
             <speaker>Блез и Филипп</speaker>
             <l>Вот кто-то идет,</l>
             <l>Кто там идет,</l>
@@ -1774,7 +1774,7 @@
             <l>Молчите, не шумите,</l>
             <l>Да помолчите, не шумите, не шумите!</l>
           </sp>
-          <sp who="#Blezifilipp">
+          <sp who="#BlezIFilipp">
             <speaker>Блез и Филипп</speaker>
             <l>Кто цепляет, кто толкает,</l>
             <l>Кто хватает, берегитесь,</l>

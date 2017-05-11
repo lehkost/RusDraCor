@@ -131,15 +131,15 @@
         модных платьях. Несколько поодаль, у окна сидит Пьеро в белом балахоне, мечтательный,
         расстроенный, бледный, безусый и безбровый, как все Пьеро.</stage>
       <stage>Мистики некоторое время молчат.</stage>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l>Ты слушаешь?</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l part="F"> Да.</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l part="F"> Наступит событие.</l>
       </sp>
@@ -147,15 +147,15 @@
         <speaker>Пьеро</speaker>
         <l>О, вечный ужас, вечный мрак!</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l>Ты ждешь?</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l part="F"> Я жду.</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l part="F"> Уж близко прибытие:</l>
         <l>За окном нам ветер подал знак.</l>
@@ -191,64 +191,64 @@
           вздыхает)</stage>
         <l>Коломбина!</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l part="F"> Ты слушаешь?</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l part="F"> Да.</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l>Приближается дева из дальней страны.</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l>О, как мрамор — черты!</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l part="F"> О, в очах — пустота!</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l>О, какой чистоты и какой белизны!</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l>Подойдет — и мгновенно замрут голоса.</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l>Да. Молчанье наступит.</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l part="F"> Надолго ли?</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l part="F"> Да.</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l>Вся бела, как снега.</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l part="F"> За плечами — коса.</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l>Кто ж она?</l>
         <stage>Второй наклоняется и что-то шепчет на ухо первому.</stage>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l part="F"> Ты не выдашь меня?</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <stage type="delivery">(в неподдельном ужасе)</stage>
         <l part="F"> Никогда!</l>
@@ -260,31 +260,31 @@
         <stage type="delivery">(по-прежнему, мечтательно)</stage>
         <l>Коломбина! Приди!</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l part="F"> Тише! Слышишь шаги!</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l>Слышу шелест и вздохи.</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l part="F"> О, кто среди нас?</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l>Кто в окне?</l>
       </sp>
-      <sp who="#Vtorojmistik">
+      <sp who="#VtorojMistik">
         <speaker>Второй мистик</speaker>
         <l part="F"> Кто за дверью?</l>
       </sp>
-      <sp who="#Tretijmistik">
+      <sp who="#TretijMistik">
         <speaker>Третий мистик</speaker>
         <l part="F"> Не видно ни зги.</l>
       </sp>
-      <sp who="#Pervyjmistik">
+      <sp who="#PervyjMistik">
         <speaker>Первый мистик</speaker>
         <l>Посвети. Не она ли пришла в этот час?</l>
         <stage>Второй мистик поднимает свечу. Совершенно неожиданно и непонятно откуда, появляется у

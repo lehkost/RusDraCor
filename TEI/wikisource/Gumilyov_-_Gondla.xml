@@ -1508,7 +1508,7 @@
           <l>Гондла, живо костёр! Поднимаю</l>
           <l>Первый кубок за Леру мою.</l>
         </sp>
-        <sp who="#SnorreGrubbeiahti">
+        <sp who="#SnorreGrubbeIAhti">
           <speaker>Снорре, Груббе и Ахти</speaker>
           <l>Пьём за Леру мы все!</l>
         </sp>
@@ -1547,7 +1547,7 @@
           <stage type="delivery">(обнимая ее)</stage>
           <l part="F"> Гондла, вина!</l>
         </sp>
-        <sp who="#SnorreGrubbeiahti">
+        <sp who="#SnorreGrubbeIAhti">
           <speaker>Снорре, Груббе и Ахти</speaker>
           <l>Гондла, музыки! Лютня такая</l>
           <l>Для чего у тебя, нелюдим?</l>
@@ -1951,7 +1951,7 @@
           <stage type="delivery">(отступая)</stage>
           <l>Нет, нам нового бога не надо!</l>
         </sp>
-        <sp who="#SnorreGrubbeiahti">
+        <sp who="#SnorreGrubbeIAhti">
           <speaker>Снорре, Груббе и Ахти</speaker>
           <l>Мы не выдадим старых богов.</l>
         </sp>
