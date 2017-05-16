@@ -76,6 +76,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
+        <change who="#zhenya" when="2017-05-16">checked ids</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

@@ -41,23 +41,11 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Oba">
-            <persName>Оба</persName>
-          </person>
           <person xml:id="Blez">
             <persName>Блез</persName>
           </person>
           <person xml:id="Graf">
             <persName>Граф</persName>
-          </person>
-          <person xml:id="NinetaGraf">
-            <persName>Нинета, граф</persName>
-          </person>
-          <person xml:id="ZhulEtaIZhaneta">
-            <persName>Жульета и Жанета</persName>
-          </person>
-          <person xml:id="ZhulEtaINineta">
-            <persName>Жульета и Нинета</persName>
           </person>
           <person xml:id="Muzhiki">
             <persName>Мужики</persName>
@@ -71,12 +59,6 @@
           <person xml:id="ZhulEta">
             <persName>Жульета</persName>
           </person>
-          <person xml:id="FilippIBlez">
-            <persName>Филипп и Блез</persName>
-          </person>
-          <person xml:id="BlezIFilipp">
-            <persName>Блез и Филипп</persName>
-          </person>
           <person xml:id="Hor">
             <persName>Хор</persName>
           </person>
@@ -86,23 +68,11 @@
           <person xml:id="Vse">
             <persName>Все</persName>
           </person>
-          <person xml:id="RabotnikiIDocheriBleza">
+          <person xml:id="Rabotniki">
             <persName>Работники и дочери Блеза</persName>
-          </person>
-          <person xml:id="ZhanetaIPaulin">
-            <persName>Жанета и Паулин</persName>
-          </person>
-          <person xml:id="ZhanetaINineta">
-            <persName>Жанета и Нинета</persName>
           </person>
           <person xml:id="Filipp">
             <persName>Филипп</persName>
-          </person>
-          <person xml:id="ZhulEtaZhanetaINineta">
-            <persName>Жульета, Жанета и Нинета</persName>
-          </person>
-          <person xml:id="Vmeste">
-            <persName>Вместе</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -114,8 +84,9 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
+        <change who="#zhenya" when="2017-05-16">Changed IDs</change>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
-        <change who="#ff" when="2017-04-19">establish well-formedness (to do: dotted lines + "Вместе" parts, see source document)</change>
+        <change who="#ff" when="2017-04-19">establish well-formedness (to do: dotted lines + "Вместе" parts, see source document)</change>      
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -228,7 +199,7 @@
             <l>то-то будет пированье.</l>
             <l>Пунфе дан, дан, труднее же перец толочь?</l>
           </sp>
-          <sp who="#RabotnikiIDocheriBleza">
+          <sp who="#Rabotniki #Zhaneta #ZhulEta #Nineta">
             <speaker>Работники и дочери Блеза</speaker>
             <l>То-то будет пированье,</l>
             <l>Свадьба, радость и ликованье,</l>
@@ -893,7 +864,7 @@
             <l>Отчего его смятенье,</l>
             <l>То нетрудно отгадать.</l>
           </sp>
-          <sp who="#Oba">
+          <sp who="#Graf #ZhulEta">
             <speaker>Оба</speaker>
             <l>Ну, прощайте, ну, прощайте!</l>
           </sp>
@@ -1456,7 +1427,7 @@
             <l>Не могу сердита быть</l>
             <l>Так сердита, как во голубе подобно.</l>
           </sp>
-          <sp who="#Oba">
+          <sp who="#ZhulEta #Filipp">
             <speaker>Оба</speaker>
             <l>Сердце так во мне незлобно,</l>
             <l>Как бы в голубе подобно,</l>
@@ -1520,7 +1491,7 @@
             <speaker>Нинета</speaker>
             <l>Выпьем, выпьем теперь же его!</l>
           </sp>
-          <sp who="#ZhanetaIPaulin">
+          <sp who="#Zhaneta #Paulin">
             <speaker>Жанета и Паулин</speaker>
             <l>Так, так, давай выпьем,</l>
             <l>Выпьем теперь же его!</l>
@@ -1529,7 +1500,7 @@
             <speaker>Все</speaker>
             <l>Так, так, изволь, выпьем, выпьем!</l>
           </sp>
-          <sp who="#FilippIBlez">
+          <sp who="#Filipp #Blez">
             <speaker>Филипп и Блез</speaker>
             <l>Красно оно, красно оно.</l>
           </sp>
@@ -1550,7 +1521,7 @@
             <speaker>Жульета</speaker>
             <l>Мне ты вечно, мне мил.</l>
           </sp>
-          <sp who="#Oba">
+          <sp who="#ZhulEta #Filipp">
             <speaker>Оба</speaker>
             <l>Согласна, согласна,</l>
             <l>Знак любви,</l>
@@ -1573,7 +1544,7 @@
             <l>Не пей, а ожидай!</l>
             <l>Теперь выпейте, смотрите ж!</l>
           </sp>
-          <sp who="#ZhulEtaIZhaneta">
+          <sp who="#ZhulEta #Zhaneta">
             <speaker>Жульета и Жанета</speaker>
             <l>Прежде пейте вы сами, прежде пейте!</l>
           </sp>
@@ -1612,12 +1583,12 @@
             <speaker>Паулин</speaker>
             <l>Ну вы, братья, начинай.</l>
           </sp>
-          <sp who="#ZhanetaINineta">
+          <sp who="#Zhaneta #Nineta">
             <speaker>Жанета и Нинета</speaker>
             <l>Я больше пить не стану, я не стану,</l>
             <l>А я не отстану.</l>
           </sp>
-          <sp who="#FilippIBlez">
+          <sp who="#Filipp #Blez">
             <speaker>Филипп и Блез</speaker>
             <l>Давай хоть по стакану.</l>
           </sp>
@@ -1625,13 +1596,13 @@
             <speaker>Паулин</speaker>
             <l>Друзья, давайте пить.</l>
           </sp>
-          <sp who="#ZhulEtaINineta">
+          <sp who="#ZhulEta #Nineta">
             <speaker>Жульета и Нинета</speaker>
             <l>Я больше пить не стану,</l>
             <l>Я не стану, чтоб пьяной мне не быть,</l>
             <l>Я больше пить не стану.</l>
           </sp>
-          <sp who="#FilippIBlez">
+          <sp who="#Filipp #Blez">
             <speaker>Филипп и Блез</speaker>
             <l>Давай хоть по стакану, мы можем осушить,</l>
             <l>А что стало, что стало,</l>
@@ -1715,7 +1686,7 @@
             <l>Вот свою я подставляю,</l>
             <l>Может так же поддержать.</l>
           </sp>
-          <sp who="#ZhulEtaZhanetaINineta">
+          <sp who="#ZhulEta #Zhaneta #Nineta">
             <speaker>Жульета, Жанета и Нинета</speaker>
             <l>Ночь с какою темнотою,</l>
             <l>Память вся покрыта мглою.</l>
@@ -1747,13 +1718,13 @@
             <speaker>Жанета</speaker>
             <l>И я не ведаю, где я!</l>
           </sp>
-          <sp who="#NinetaGraf">
+          <sp who="#Nineta #Graf">
             <speaker>Нинета, граф</speaker>
             <l>Подь, не бойся, дорогая,</l>
             <l>На меня все полагая,</l>
             <l>Знаю, весть куда, я ж, я.</l>
           </sp>
-          <sp who="#ZhulEtaZhanetaINineta">
+          <sp who="#ZhulEta #Zhaneta #Nineta">
             <speaker>Жульета, Жанета и Нинета</speaker>
             <l>{|</l>
             <l>|-</l>
@@ -1766,7 +1737,7 @@
             <l>Кто идет?</l>
             <l>|}</l>
           </sp>
-          <sp who="#BlezIFilipp">
+          <sp who="#Blez #Filipp">
             <speaker>Блез и Филипп</speaker>
             <l>Вот кто-то идет,</l>
             <l>Кто там идет,</l>
@@ -1774,7 +1745,7 @@
             <l>Молчите, не шумите,</l>
             <l>Да помолчите, не шумите, не шумите!</l>
           </sp>
-          <sp who="#BlezIFilipp">
+          <sp who="#Blez #Filipp">
             <speaker>Блез и Филипп</speaker>
             <l>Кто цепляет, кто толкает,</l>
             <l>Кто хватает, берегитесь,</l>
@@ -1784,7 +1755,7 @@
             <p>{{noindent|Ночь с какою темнотою, так, так, стойте, все... можем нос себе разбить,
               ночь опасна нам грозит.}}</p>
           </sp>
-          <sp who="#Vmeste">
+          <sp who="#Blez #Filipp">
             <speaker>Вместе</speaker>
             <p>{{noindent|Стойте, с места, так, так, так, стойте, так, так, можем нос себе разбить,
               всякий шаг грозит бедою.}}</p>
@@ -2564,7 +2535,7 @@
             <l>Мы благополучны</l>
             <l>И век неразлучны.</l>
           </sp>
-          <sp who="#Oba">
+          <sp who="#Filipp #ZhulEta">
             <speaker>Оба</speaker>
             <l>Я твоя, ты мой,</l>
             <l>Равно тобою, как я по мне,</l>
@@ -2710,7 +2681,7 @@
             <l>Это правда говорится,</l>
             <l>Барам скажешь что в ответ?</l>
           </sp>
-          <sp who="#Oba">
+          <sp who="#ZhulEta #Filipp">
             <speaker>Оба</speaker>
             <l>Преступленье, чтоб влюбиться...</l>
           </sp>

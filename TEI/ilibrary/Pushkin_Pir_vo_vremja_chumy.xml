@@ -31,7 +31,7 @@
         <bibl type="originalSource">
           <title>А.С. Пушкин. Собрание сочинений в 10 томах. Том 4. Государственное издательство
             художественной литературы. М. 1960.</title>
-          <date type="print"/>
+          <date type="print" when="1832">Альманах на 1832 год. Издан Бароном Розеном.</date>
           <date type="premiere"/>
           <date type="written">1830</date>
         </bibl>
@@ -55,9 +55,6 @@
           </person>
           <person xml:id="Zhenskijgolos">
             <persName>Женский голос</persName>
-          </person>
-          <person xml:id="Neskolkogolosov">
-            <persName>Несколько голосов</persName>
           </person>
           <person xml:id="Meri">
             <persName>Мери</persName>
@@ -381,7 +378,7 @@
           <l>И в тьму кромешную тащат со смехом.</l>
         </lg>
       </sp>
-      <sp who="#Neskolkogolosov">
+      <sp who="#Mnogie">
         <speaker>Несколько голосов</speaker>
         <lg>
           <l>Он мастерски об аде говорит!</l>

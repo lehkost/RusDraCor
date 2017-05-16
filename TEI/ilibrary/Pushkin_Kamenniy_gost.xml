@@ -63,9 +63,6 @@
           <person xml:id="DonGuan">
             <persName>Дон Гуан</persName>
           </person>
-          <person xml:id="Vse">
-            <persName>Все</persName>
-          </person>
           <person xml:id="Vtoroj">
             <persName>Второй</persName>
           </person>
@@ -572,7 +569,7 @@
             <l>                                Подайте мне гитару.</l>
           </lg>
         </sp>
-        <sp who="#Vse">
+        <sp who="#Gosti">
           <speaker>Все</speaker>
           <stage type="delivery">(Поет.)</stage>
           <lg>
@@ -695,7 +692,7 @@
             <l>А, слушайте.</l>
           </lg>
         </sp>
-        <sp who="#Vse">
+        <sp who="#Gosti">
           <speaker>Все</speaker>
           <stage type="delivery">(Поет.)</stage>
           <lg>
