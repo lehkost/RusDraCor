@@ -29,7 +29,7 @@
           <bibl type="originalSource">
             <title>А.С. Пушкин. Собрание сочинений в 10 томах. Том 4. Государственное издательство
               художественной литературы. М. 1960.</title>
-            <date type="print"/>
+            <date type="print" when="1935"/>
             <date type="premiere"/>
             <date type="written" when="1830">1830 г.</date>
           </bibl>
@@ -94,7 +94,7 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change who="#ds">converted from source</change>
+        <change who="zhenya" when="2017-05-16">changed IDs and date</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -731,7 +731,7 @@
             <l>Так ты его любила.</l>
           </lg>
         </sp>
-        <sp who="#unknown_speaker">
+        <sp who="#DonKarlos">
           <speaker>unknown_speaker</speaker>
           <stage>Лаура делает утвердительно знак.</stage>
           <lg>
@@ -864,7 +864,7 @@
             <l>                        Лаура, милый друг!..</l>
           </lg>
         </sp>
-        <sp who="#unknown_speaker">
+        <sp who="#DonGuan">
           <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Целует ее.)</stage>
           <lg>
@@ -1552,7 +1552,7 @@
             <l>И стать у двери...</l>
           </lg>
         </sp>
-        <sp who="#unknown_speaker">
+        <sp who="#Leporello">
           <speaker>unknown_speaker</speaker>
           <stage>Статуя кивает головой в знак согласия.</stage>
           <lg>
@@ -1616,7 +1616,7 @@
             <l>                        Ну смотри ж, бездельник.</l>
           </lg>
         </sp>
-        <sp who="#unknown_speaker">
+        <sp who="#DonGuan">
           <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Статуе.)</stage>
           <lg>
@@ -1625,7 +1625,7 @@
             <l>И стать на стороже в дверях. Что? будешь?</l>
           </lg>
         </sp>
-        <sp who="#unknown_speaker">
+        <sp who="#DonGuan">
           <speaker>unknown_speaker</speaker>
           <stage>Статуя кивает опять.</stage>
           <lg>
@@ -1954,7 +1954,7 @@
             <l>                                     Оставь меня!</l>
           </lg>
         </sp>
-        <sp who="#unknown_speaker">
+        <sp who="#DonaAnna">
           <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Слабо.)</stage>
           <lg>
@@ -2134,7 +2134,7 @@
             <l>Прощай же, до свиданья, друг мой милый.</l>
           </lg>
         </sp>
-        <sp who="#unknown_speaker">
+        <sp who="#DonGuan">
           <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Уходит и вбегает опять.)</stage>
           <lg>
