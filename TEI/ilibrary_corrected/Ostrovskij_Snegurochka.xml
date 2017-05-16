@@ -30,9 +30,9 @@
      </availability>
      <bibl type="originalSource">
       <title>INSERTORIGSOURCE</title>
-      <date type="print"/>
+      <date type="print" when="1873">1873 в "Русском Вестнике"</date>
       <date type="premiere"/>
-      <date type="written"/>
+      <date type="written" when="1873">1873</date>
      </bibl>
     </bibl>
    </sourceDesc>
