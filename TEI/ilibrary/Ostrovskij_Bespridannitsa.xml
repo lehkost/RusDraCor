@@ -55,14 +55,8 @@
           <person xml:id="Larisa">
             <persName> Лариса </persName>
           </person>
-          <person xml:id="Vse">
-            <persName> Все </persName>
-          </person>
           <person xml:id="Ilja">
             <persName> Илья </persName>
-          </person>
-          <person xml:id="VozhevatoviRobinzon">
-            <persName> Вожеватов и Робинзон </persName>
           </person>
           <person xml:id="Ogudalova">
             <persName> Огудалова </persName>
@@ -75,9 +69,6 @@
           </person>
           <person xml:id="Gavrilo">
             <persName> Гаврило </persName>
-          </person>
-          <person xml:id="ParatovVozhevatoviRobinzon">
-            <persName> Паратов, Вожеватов и Робинзон </persName>
           </person>
           <person xml:id="Robinzon">
             <persName> Робинзон </persName>
@@ -93,6 +84,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="sveta" when="2017-04-13">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -4814,7 +4806,7 @@
             <speaker> Паратов </speaker>
             <p> . Вас! Браво! браво! </p>
           </sp>
-          <sp who="#VozhevatoviRobinzon">
+          <sp who="#Vozhevatov #Robinzon">
             <speaker> Вожеватов и Робинзон </speaker>
             <p> . Браво, браво! </p>
           </sp>
@@ -4826,7 +4818,7 @@
               меня предпочтение. Господа, я сам пью и предлагаю выпить за здоровье моей невесты!
             </p>
           </sp>
-          <sp who="#Paratov,VozhevatoviRobinzon">
+          <sp who="#Paratov #Vozhevatov #Robinzon">
             <speaker> Паратов, Вожеватов и Робинзон </speaker>
             <p> . Ура! </p>
           </sp>
@@ -6254,7 +6246,7 @@
         <div type="scene">
           <head> Явление двенадцатое </head>
           <stage> Лариса , Карандышев , Паратов , Кнуров , Вожеватов , Робинзон , Гаврило и Иван . </stage>
-          <sp who="#Vse">
+          <sp who="#Paratov #Knurov #Vozhevatov #Robinzon #Gavrilo #Ivan">
             <speaker> Все </speaker>
             <p> . Что такое, что такое? </p>
           </sp>

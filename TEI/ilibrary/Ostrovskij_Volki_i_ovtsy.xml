@@ -46,9 +46,6 @@
           <person xml:id="Chugunov">
             <persName> Чугунов </persName>
           </person>
-          <person xml:id="Golosa">
-            <persName> Голоса </persName>
-          </person>
           <person xml:id="Murzavetskaja">
             <persName> Мурзавецкая </persName>
           </person>
@@ -64,7 +61,10 @@
           <person xml:id="Vlas">
             <persName> Влас </persName>
           </person>
-          <person xml:id="-jkrestjanin">
+          <person xml:id="pervyjkrestjanin">
+            <persName> 1-й крестьянин </persName>
+          </person>
+          <person xml:id="vtorojkrestjanin">
             <persName> 2-й крестьянин </persName>
           </person>
           <person xml:id="Glafira">
@@ -105,6 +105,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="sveta" when="2017-04-13">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -178,11 +179,11 @@
             <speaker> Павлин </speaker>
             <p> . Стало быть, вы барышню дожидаться хотите? </p>
           </sp>
-          <sp who="#-jkrestjanin">
+          <sp who="#pervyjkrestjanin">
             <speaker> 1-й крестьянин </speaker>
             <p> . Да уж подождем; наше дело такое, что дожидаться. </p>
           </sp>
-          <sp who="#-jkrestjanin">
+          <sp who="#vtorojkrestjanin">
             <speaker> 2-й крестьянин </speaker>
             <p> . И подождешь, ничего не поделаешь. Мы еще позапрошлую осень лес возили на баньку. </p>
             <stage type="delivery"> (Указывая на подрядчика.) </stage>
@@ -219,7 +220,7 @@
             <speaker> Подрядчик </speaker>
             <p> . Нет, уж меня-то вы до барышни допустите, Павлин Савельич. </p>
           </sp>
-          <sp who="#Golosa">
+          <sp who="#Maljar #Starosta #Stoljar #pervyjkrestjanin #vtorojkrestjanin">
             <speaker> Голоса </speaker>
             <p> . Допущай до самой! Всех допущай до самой! </p>
           </sp>

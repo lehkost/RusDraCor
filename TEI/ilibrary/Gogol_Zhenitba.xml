@@ -43,18 +43,14 @@
           <person xml:id="Kochkarev">
             <persName> Кочкарев </persName>
           </person>
-          <person xml:id="GolosKochkareva">
-            <persName> Голос Кочкарева </persName>
-          </person>
+         
           <person xml:id="IvanPavlovich">
             <persName> Иван Павлович </persName>
           </person>
           <person xml:id="Podkolesin">
             <persName> Подколесин </persName>
           </person>
-          <person xml:id="GolosFekly">
-            <persName> Голос Феклы </persName>
-          </person>
+          
           <person xml:id="Anuchkin">
             <persName> Анучкин </persName>
           </person>
@@ -64,19 +60,15 @@
           <person xml:id="Starikov">
             <persName> Стариков </persName>
           </person>
-          <person xml:id="GolosPodkolesina">
-            <persName> Голос Подколесина </persName>
-          </person>
+          
           <person xml:id="AgafjaTihonovna">
             <persName> Агафья Тихоновна </persName>
           </person>
           <person xml:id="Stepan">
             <persName> Степан </persName>
           </person>
-          <person xml:id="Vsetroe">
-            <persName> Все трое </persName>
-          </person>
-          <person xml:id="Golosizvozchika">
+       
+          <person xml:id="izvozchik">
             <persName> Голос извозчика </persName>
           </person>
           <person xml:id="Jaichnitsa">
@@ -105,6 +97,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#GG"> corrected vsetroya = #Fekla #Kochkarev #AgafjaTihonovna, Golosizvozchika = izvozchik, golosKochkareva = Kochkarev, golosPodkolesina = Podkolesin </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -2125,7 +2118,6 @@
             <p> . Ну, этого только мне и нужно. </p>
           </sp>
           <stage> Оба уходят. </stage>
-          <sp/>
         </div>
       </div>
       <div type="act">
@@ -2458,19 +2450,19 @@
             <p> . Что за притча такая! Вот, право, история! </p>
           </sp>
           <stage> В дверях звенит звонок и слышны голоса. </stage>
-          <sp who="#GolosKochkareva">
+          <sp who="#Kochkarev">
             <speaker> Голос Кочкарева </speaker>
             <p> . Да входи, входи, что ж ты остановился? </p>
           </sp>
-          <sp who="#GolosPodkolesina">
+          <sp who="#Podkolesin">
             <speaker> Голос Подколесина </speaker>
             <p> . Да ступай ты вперед. Я только на минуту: оправлюсь, расстегнулась стремешка. </p>
           </sp>
-          <sp who="#GolosKochkareva">
+          <sp who="#Kochkarev">
             <speaker> Голос Кочкарева </speaker>
             <p> . Да ты улизнешь опять. </p>
           </sp>
-          <sp who="#GolosPodkolesina">
+          <sp who="#Podkolesin">
             <speaker> Голос Подколесина </speaker>
             <p> . Нет, не улизну! ей-Богу, не улизну! </p>
           </sp>
@@ -3704,19 +3696,19 @@
             <p> — </p>
             <p> Ох! однако ж высоко! Эй, извозчик! </p>
           </sp>
-          <sp who="#Golosizvozchika">
+          <sp who="#izvozchik">
             <speaker> Голос извозчика </speaker>
             <p> . Подавать, что ли? </p>
           </sp>
-          <sp who="#GolosPodkolesina">
+          <sp who="#Podkolesin">
             <speaker> Голос Подколесина </speaker>
             <p> . На Канавку, возле Семеновского мосту. </p>
           </sp>
-          <sp who="#Golosizvozchika">
+          <sp who="#izvozchik">
             <speaker> Голос извозчика </speaker>
             <p> . Да гривенник, без лишнего. </p>
           </sp>
-          <sp who="#GolosPodkolesina">
+          <sp who="#Podkolesin">
             <speaker> Голос Подколесина </speaker>
             <p> . Давай! пошел! </p>
           </sp>
@@ -3733,7 +3725,7 @@
             <stage type="delivery"> (Отворяет дверь в прихожую и говорит туда.) </stage>
             <p> Фекла, куда ушел Иван Кузьмич? </p>
           </sp>
-          <sp who="#GolosFekly">
+          <sp who="#Fekla">
             <speaker> Голос Феклы </speaker>
             <p> . Да он там. </p>
           </sp>
@@ -3852,7 +3844,7 @@
             <p> . Да оне-с выпрыгнули в окошко. </p>
           </sp>
           <stage> Агафья Тихоновна вскрикивает, всплеснувши руками. </stage>
-          <sp who="#Vsetroe">
+          <sp who="#Fekla #Kochkarev #AgafjaTihonovna">
             <speaker> Все трое </speaker>
             <p> . В окошко? </p>
           </sp>

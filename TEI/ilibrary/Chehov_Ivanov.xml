@@ -58,14 +58,17 @@
      <person xml:id="Sasha">
       <persName> Саша </persName>
      </person>
-     <person xml:id="Vse">
-      <persName> Все </persName>
-     </person>
      <person xml:id="AvdotjaNazarovna">
       <persName> Авдотья Назаровна </persName>
      </person>
      <person xml:id="PerviyGost">
       <persName> 1-й гость </persName>
+     </person>
+     <person xml:id="VtorojGost">
+      <persName> 2-й гость </persName>
+     </person>
+     <person xml:id="TretijGost">
+      <persName> 3-й гость </persName>
      </person>
      <person xml:id="AnnaPetrovna">
       <persName> Анна Петровна </persName>
@@ -73,7 +76,7 @@
      <person xml:id="Kosyh">
       <persName> Косых </persName>
      </person>
-     <person xml:id="Golosavzale">
+     <person xml:id="Gosti">
       <persName> Голоса в зале </persName>
      </person>
      <person xml:id="Lebedev">
@@ -99,6 +102,7 @@
   <revisionDesc>
    <listChange>
     <change who="#ds">converted from source</change>
+    <change who="#to">changed id</change>
    </listChange>
   </revisionDesc>
  </teiHeader>
@@ -1127,7 +1131,7 @@
       <speaker> Авдотья Назаровна </speaker>
       <p> . Пас. </p>
      </sp>
-     <sp who="#PerviyGost">
+     <sp who="#VtorojGost">
       <speaker> 2-й гость </speaker>
       <p> . Пас. </p>
      </sp>
@@ -1153,7 +1157,7 @@
       <stage type="delivery"> (Вздыхает.) </stage>
       <p> Бог милостив... </p>
      </sp>
-     <sp who="#PerviyGost">
+     <sp who="#TretijGost">
       <speaker> 3-й гость </speaker>
       <p> . С моей точки зрения, mesdames, я так рассуждаю, что в настоящее время иметь капитал
        очень невыгодно. Процентные бумаги дают весьма немного дивиденда, а пускать деньги в оборот
@@ -1180,7 +1184,7 @@
       <speaker> Авдотья Назаровна </speaker>
       <p> . Пас. </p>
      </sp>
-     <sp who="#PerviyGost">
+     <sp who="#VtorojGost">
       <speaker> 2-й гость </speaker>
       <p> . Пас. </p>
      </sp>
@@ -1310,7 +1314,7 @@
       <p> Только вот, где их найдешь нынче, женихов-то? Вон они, наши женихи-то, сидят нахохлившись,
        словно петухи мокрые!.. </p>
      </sp>
-     <sp who="#PerviyGost">
+     <sp who="#TretijGost">
       <speaker> 3-й гость </speaker>
       <p> . Весьма неудачное сравнение. С моей точки зрения, mesdames, если теперешние молодые люди
        предпочитают холостую жизнь, то в этом виноваты, так сказать, социальные условия... </p>
@@ -1459,7 +1463,7 @@
       <p> Но как у вас хватает духа говорить все это про человека, который не сделал вам никакого
        зла? Ну, что он вам сделал? </p>
      </sp>
-     <sp who="#PerviyGost">
+     <sp who="#TretijGost">
       <speaker> 3-й гость </speaker>
       <p> . Александра Павловна, позвольте мне сказать два слова! Я уважаю Николая Алексеича и
        всегда считал за честь, но, говоря entre nous </p>
@@ -1469,7 +1473,7 @@
       <speaker> Саша </speaker>
       <p> . И поздравляю, если вам так кажется. </p>
      </sp>
-     <sp who="#PerviyGost">
+     <sp who="#TretijGost">
       <speaker> 3-й гость </speaker>
       <p> . В доказательство приведу вам следующий факт, который передавал мне его атташе, или, так
        сказать, чичероне Боркин. Два года тому назад, во время скотской эпизоотии, он накупил скота,
@@ -1479,7 +1483,7 @@
       <speaker> Зинаида Савишна </speaker>
       <p> . Да, да, да! Я помню этот случай. Мне тоже говорили. </p>
      </sp>
-     <sp who="#PerviyGost">
+     <sp who="#TretijGost">
       <speaker> 3-й гость </speaker>
       <p> . Застраховал его, можете иметь в виду, потом заразил чумой и взял страховую премию. </p>
      </sp>
@@ -2567,7 +2571,7 @@
       <stage type="delivery"> (вскрикивает). </stage>
       <p> Чтоб тебе пусто было, с ног сшиб! </p>
      </sp>
-     <sp who="#Vse">
+     <sp who="#Lebedev #Borkin #Shabelskij">
       <speaker> Все </speaker>
       <p> . А-а-а!.. вездесущая!.. </p>
      </sp>
@@ -4083,7 +4087,7 @@
       <p> Эка, как я уходил себя! Даже шатаюсь... Ослабел я. Где Матвей? Пусть он свезет меня домой.
       </p>
      </sp>
-     <sp who="#Golosavzale">
+     <sp who="#Gosti">
       <speaker> Голоса в зале </speaker>
       <p> . Женихов шафер приехал! </p>
      </sp>
