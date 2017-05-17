@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Леший</title>
-        <title type="sub"> Комедия в 4-х действиях </title>
-        <author> Антон Чехов </author>
+        <title type="sub">Комедия в 4-х действиях</title>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -83,7 +83,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle" subtype="comedy">Комедия в 4-х действиях</term>
         </keywords>
       </textClass>
     </profileDesc>

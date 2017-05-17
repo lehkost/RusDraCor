@@ -6,7 +6,7 @@
       <titleStmt>
         <title>Скупой рыцарь</title>
         <title type="sub">(Сцены из Ченстоновой трагикомедии: The covetous Knight)</title>
-        <author>Александр Пушкин</author>
+        <author key="Wikidata:Q7200">Александр Пушкин</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -63,7 +63,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Сцены из Ченстоновой трагикомедии: The covetous Knight</term>
         </keywords>
       </textClass>
     </profileDesc>

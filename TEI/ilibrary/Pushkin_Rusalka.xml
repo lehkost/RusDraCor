@@ -5,7 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Русалка</title>
-        <author>Александр Пушкин</author>
+        <title type="sub"/>
+        <author key="Wikidata:Q7200">Александр Пушкин</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>

@@ -72,7 +72,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Оперетта в трех картинах</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -80,7 +80,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
-        <change who="sveta" when="2017-05-01">corrected IDs, added dates</change>
+        <change who="#sveta" when="2017-05-01">corrected IDs, added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

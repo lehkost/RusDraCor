@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Незнакомка</title>
-        <title type="sub">драма</title>
+        <title type="sub">Драма</title>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
       </titleStmt>
       <publicationStmt>
@@ -135,7 +135,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драма</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -143,7 +143,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
-        <change who="sveta" when="2017-04-24">corrected IDs, added the dates</change>
+        <change who="#sveta" when="2017-04-24">corrected IDs, added the dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

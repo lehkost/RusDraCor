@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Король на площади</title>
-        <title type="sub">драма</title>
+        <title type="sub">Драма</title>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
       </titleStmt>
       <publicationStmt>
@@ -131,7 +131,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драма</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -139,7 +139,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
-        <change who="sveta" when="2017-04-22">corrected IDs, added the "written" date, established more comprehensible order of IDs</change>
+        <change who="#sveta" when="2017-04-22">corrected IDs, added the "written" date, established more comprehensible order of IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

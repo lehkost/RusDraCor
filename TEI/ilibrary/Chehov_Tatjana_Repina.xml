@@ -6,7 +6,7 @@
       <titleStmt>
         <title>Татьяна Репина</title>
         <title type="sub">Драма в 1 действии</title>
-        <author>Антон Чехов</author>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -128,7 +128,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драма в 1 действии</term>
         </keywords>
       </textClass>
     </profileDesc>

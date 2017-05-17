@@ -4,8 +4,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Каменный гость</title>
-        <author>Александр Пушкин</author>
+        <title>Каменный гость</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q7200">Александр Пушкин</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>

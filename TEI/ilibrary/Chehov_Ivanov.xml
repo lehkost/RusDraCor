@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Иванов</title>
-        <title type="sub"> Драма в четырех действиях </title>
-        <author> Антон Чехов </author>
+        <title type="sub">Драма в четырех действиях</title>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -95,7 +95,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драма в четырех действиях</term>
         </keywords>
       </textClass>
     </profileDesc>

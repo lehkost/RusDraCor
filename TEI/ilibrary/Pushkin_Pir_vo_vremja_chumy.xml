@@ -6,7 +6,7 @@
       <titleStmt>
         <title>Пир во время чумы</title>
         <title type="sub">(Из вильсоновой трагедии: The city of the plague)</title>
-        <author>Александр Пушкин</author>
+        <author key="Wikidata:Q7200">Александр Пушкин</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -27,8 +27,7 @@
               <ab>CC BY-SA 3.0</ab>
               <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
             </licence>
-          </availability>
-        
+          </availability>        
         <bibl type="originalSource">
           <title>А.С. Пушкин. Собрание сочинений в 10 томах. Том 4. Государственное издательство
             художественной литературы. М. 1960.</title>
@@ -67,7 +66,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Из вильсоновой трагедии: The city of the plague</term>
         </keywords>
       </textClass>
     </profileDesc>

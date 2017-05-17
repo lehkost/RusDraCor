@@ -6,7 +6,7 @@
       <titleStmt>
         <title>На большой дороге</title>
         <title type="sub">Драматический этюд в одном действии</title>
-        <author>Антон Чехов</author>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -77,7 +77,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драматический этюд в одном действии</term>
         </keywords>
       </textClass>
     </profileDesc>

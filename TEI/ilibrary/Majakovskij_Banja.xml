@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+ajakowski
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>Баня</title>
-    <title type="sub"> Драма в шести действиях с цирком и фейерверком </title>
-    <author> Владимир Маяковский </author>
+    <title type="sub">Драма в шести действиях с цирком и фейерверком</title>
+     <author key="Wikidata:Q132964">Владимир Маяковский</author>
    </titleStmt>
    <publicationStmt>
     <publisher xml:id="dlina">DLINA</publisher>
@@ -116,7 +117,7 @@
    </particDesc>
    <textClass>
     <keywords>
-     <term type="genreTitle"/>
+      <term type="genreTitle">Драма в шести действиях с цирком и фейерверком</term>
     </keywords>
    </textClass>
   </profileDesc>

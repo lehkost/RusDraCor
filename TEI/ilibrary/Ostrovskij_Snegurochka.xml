@@ -6,7 +6,7 @@
       <titleStmt>
         <title>Снегурочка</title>
         <title type="sub"> Весенняя сказка. </title>
-        <author>Александр Островский</author>
+        <author key="Wikidata:Q171976">Александр Островский</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -186,7 +186,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Весенняя сказка</term>
         </keywords>
       </textClass>
     </profileDesc>

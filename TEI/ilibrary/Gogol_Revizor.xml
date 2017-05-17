@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Ревизор</title>
-        <title type="sub"> Комедия в пяти действиях </title>
-        <author> Николай Гоголь </author>
+        <title type="sub">Комедия в пяти действиях</title>
+        <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -42,8 +42,7 @@
         <listPerson>
           <person xml:id="Lekar">
             <persName> Лекарь Христофор Иванович </persName>
-          </person>
-         
+          </person>         
           <person xml:id="Chastnyjpristav">
             <persName> Частный пристав </persName>
           </person>
@@ -115,8 +114,7 @@
           </person>
           <person xml:id="Ljuljukov">
             <persName> Люлюков </persName>
-          </person>
-         
+          </person>         
           <person xml:id="ZhenaKorobkina">
             <persName> Жена Коробкина </persName>
           </person>
@@ -142,7 +140,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle" subtype="comedy">Комедия в пяти действиях</term>
         </keywords>
       </textClass>
     </profileDesc>

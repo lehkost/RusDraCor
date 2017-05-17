@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Недоросль</title>
-        <title type="sub"> Комедия в пяти действиях </title>
-        <author>Денис Фонвизин</author>
+        <title type="sub">Комедия в пяти действиях</title>
+        <author key="Wikidata:Q315885">Денис Фонвизин</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -89,7 +89,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle" subtype="comedy">Комедия в пяти действиях</term>
         </keywords>
       </textClass>
     </profileDesc>

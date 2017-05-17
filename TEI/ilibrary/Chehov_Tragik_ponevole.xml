@@ -6,7 +6,8 @@
       <titleStmt>
         <title>Трагик поневоле</title>
         <title type="sub">(Из дачной жизни)</title>
-        <author>Антон Чехов</author>
+        <title type="sub">Шутка в одном действии</title>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -50,7 +51,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Шутка в одном действии</term>
         </keywords>
       </textClass>
     </profileDesc>

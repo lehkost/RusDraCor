@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Женитьба</title>
-        <title type="sub"> Совершенно невероятное событие в двух действиях </title>
-        <author>Николай Гоголь</author>
+        <title type="sub">Совершенно невероятное событие в двух действиях</title>
+        <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -86,7 +86,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Совершенно невероятное событие в двух действиях</term>
         </keywords>
       </textClass>
     </profileDesc>
