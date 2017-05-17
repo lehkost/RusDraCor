@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1875">Напечатана в журнале "Отечественные записки", №11, 1875 г. (Википедия)</date>
+            <date type="premiere" when="1875">Впервые поставлена в Петербурге 8 декабря 1875 года в Александринском театре. (Википедия)</date>
+            <date type="written" when="1875">Пьеса написана в 1875 году. (Википедия)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -61,10 +61,10 @@
           <person xml:id="Vlas">
             <persName> Влас </persName>
           </person>
-          <person xml:id="pervyjkrestjanin">
+          <person xml:id="PervyjKrestjanin">
             <persName> 1-й крестьянин </persName>
           </person>
-          <person xml:id="vtorojkrestjanin">
+          <person xml:id="VtorojKrestjanin">
             <persName> 2-й крестьянин </persName>
           </person>
           <person xml:id="Glafira">
@@ -106,6 +106,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#sveta" when="2017-04-13">corrected IDs</change>
+        <change who="#ff" when="2017-05-17">established well-formedness; added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -179,11 +180,11 @@
             <speaker> Павлин </speaker>
             <p> . Стало быть, вы барышню дожидаться хотите? </p>
           </sp>
-          <sp who="#pervyjkrestjanin">
+          <sp who="#PervyjKrestjanin">
             <speaker> 1-й крестьянин </speaker>
             <p> . Да уж подождем; наше дело такое, что дожидаться. </p>
           </sp>
-          <sp who="#vtorojkrestjanin">
+          <sp who="#VtorojKrestjanin">
             <speaker> 2-й крестьянин </speaker>
             <p> . И подождешь, ничего не поделаешь. Мы еще позапрошлую осень лес возили на баньку. </p>
             <stage type="delivery"> (Указывая на подрядчика.) </stage>
@@ -220,7 +221,7 @@
             <speaker> Подрядчик </speaker>
             <p> . Нет, уж меня-то вы до барышни допустите, Павлин Савельич. </p>
           </sp>
-          <sp who="#Maljar #Starosta #Stoljar #pervyjkrestjanin #vtorojkrestjanin">
+          <sp who="#Maljar #Starosta #Stoljar #PervyjKrestjanin #VtorojKrestjanin">
             <speaker> Голоса </speaker>
             <p> . Допущай до самой! Всех допущай до самой! </p>
           </sp>
@@ -1139,7 +1140,6 @@
             <p> . У разных господ-с, которые знакомые, вот у господина Лыняева и у прочих.
               Осмеливаюсь доложить, сударыня, ни одного гостя не пропущают, чтоб не попросить. </p>
           </sp>
-          <sp/>
           <sp who="#Murzavetskaja">
             <speaker> Мурзавецкая </speaker>
             <p> . Нет, уж терпенья моего не хватает!.. Женю я его... Уж суди меня бог, а я его женю!
@@ -3061,9 +3061,11 @@
             <speaker> Купавина </speaker>
             <p> . Сделайте одолжение! </p>
           </sp>
-          <sp who="#Kupavina">
+          <sp who="#Murzavetskij">
             <speaker> Мурзавецкий </speaker>
             <p> . Вы не увидите меня на коленях перед собой. Нет, уж это атанде. Я горд. </p>
+          </sp>
+          <sp who="#Kupavina">
             <speaker> Купавина </speaker>
             <p> . Ах, очень рада. </p>
           </sp>
@@ -4062,7 +4064,6 @@
             <speaker> Анфуса </speaker>
             <p> . Я что ж... я, пожалуй... </p>
           </sp>
-          <sp/>
           <sp who="#Kupavina">
             <speaker> Купавина </speaker>
             <stage type="delivery"> (Глафире) </stage>
@@ -4717,9 +4718,11 @@
             <speaker> Лыняев </speaker>
             <p> . Наденьте, пожалуйста! </p>
           </sp>
-          <sp who="#Lynjaev">
+          <sp who="#Goretskij">
             <speaker> Горецкий </speaker>
             <p> . Ничего-с. Глафира Алексеевна, позвольте для вас какую-нибудь подлость сделать. </p>
+          </sp>
+          <sp who="#Lynjaev">
             <speaker> Лыняев </speaker>
             <p> . Вот странная просьба. </p>
           </sp>
@@ -5533,14 +5536,7 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-          <sp who="#Berkutov">
-            <speaker> Анфуса </speaker>
-            <p> , </p>
-            <speaker> Лыняев </speaker>
-            <p> , </p>
-            <speaker> Беркутов </speaker>
-            <p> . </p>
-          </sp>
+          <stage>Анфуса, Лыняев, Беркутов.</stage>
           <sp who="#Lynjaev">
             <speaker> Лыняев </speaker>
             <p> . Вот, Анфуса Тихоновна, рекомендую вам друга. Василий Иваныч Беркутов. </p>
@@ -5798,14 +5794,7 @@
         </div>
         <div type="scene">
           <head> Явление четвертое </head>
-          <sp who="#Kupavina">
-            <speaker> Лыняев </speaker>
-            <p> , </p>
-            <speaker> Беркутов </speaker>
-            <p> , </p>
-            <speaker> Купавина </speaker>
-            <p> . </p>
-          </sp>
+          <stage>Лыняев, Беркутов, Купавина.</stage>
           <sp who="#Kupavina">
             <speaker> Купавина </speaker>
             <p> . Извините, господа! </p>
@@ -5857,10 +5846,12 @@
             <speaker> Беркутов </speaker>
             <p> . По крайней мере не трачу даром, и то хорошо. </p>
           </sp>
-          <sp who="#Kupavina">
+          <sp who="#Lynjaev">
             <speaker> Лыняев </speaker>
             <p> . Не позволите ли вы мне погулять по саду? А то, если я после обеда долго в
               комнате... </p>
+          </sp>
+          <sp who="#Kupavina">
             <speaker> Купавина </speaker>
             <p> . Так сон клонит? </p>
           </sp>
@@ -6126,14 +6117,7 @@
         </div>
         <div type="scene">
           <head> Явление шестое </head>
-          <sp who="#Goretskij">
-            <speaker> Беркутов </speaker>
-            <p> , </p>
-            <speaker> Купавина </speaker>
-            <p> , </p>
-            <speaker> Горецкий </speaker>
-            <p> . </p>
-          </sp>
+          <stage>Беркутов, Купавина, Горецкий.</stage>
           <sp who="#Berkutov">
             <speaker> Беркутов </speaker>
             <stage type="delivery"> (Горецкому) </stage>
@@ -7401,12 +7385,7 @@
         </div>
         <div type="scene">
           <head> Явление шестое </head>
-          <sp who="#Chugunov">
-            <speaker> Беркутов </speaker>
-            <p> , </p>
-            <speaker> Чугунов </speaker>
-            <p> . </p>
-          </sp>
+          <stage>Беркутов, Чугунов.</stage>
           <sp who="#Berkutov">
             <speaker> Беркутов </speaker>
             <p> . Здравствуйте, Вукол Наумыч! </p>
@@ -8107,9 +8086,11 @@
             <stage type="delivery"> (Беркутову) </stage>
             <p> . Зиму-то здесь будете жить? </p>
           </sp>
-          <sp who="#Kupavina">
+          <sp who="#Berkutov">
             <speaker> Беркутов </speaker>
             <p> . Я думаю, что Евлампии Николаевне приятнее будет эту зиму провести в Петербурге. </p>
+          </sp>
+          <sp who="#Kupavina">
             <speaker> Купавина </speaker>
             <p> . Да, конечно. </p>
           </sp>
@@ -8134,9 +8115,11 @@
             <speaker> Лыняев </speaker>
             <p> . И я тоже. </p>
           </sp>
-          <sp who="#Lynjaev">
+          <sp who="#Glafira">
             <speaker> Глафира </speaker>
             <p> . Ах, нет, Мишель, ведь мы еще не решили. Я думаю провести лето в Швейцарии. </p>
+          </sp>
+          <sp who="#Lynjaev">
             <speaker> Лыняев </speaker>
             <p> . Да, мы еще не решили. </p>
           </sp>
