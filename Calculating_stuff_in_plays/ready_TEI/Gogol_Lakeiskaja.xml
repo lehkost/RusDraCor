@@ -46,9 +46,7 @@
           <person xml:id="Grigorij">
             <persName>Григорий</persName>
           </person>
-          <person xml:id="Gospodinvshube">
-            <persName>Господин в шубе</persName>
-          </person>
+          
           <person xml:id="Gospodin">
             <persName>Господин</persName>
           </person>
@@ -87,6 +85,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#GG">changed Gospodinvshube to Gospodin</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -312,7 +311,7 @@
       </div>
       <div type="scene">
         <head>IV</head>
-        <sp who="#Gospodinvshube">
+        <sp who="#Gospodin">
           <speaker>Господин в шубе</speaker>
           <p>. Федор Федорович дома?</p>
         </sp>
