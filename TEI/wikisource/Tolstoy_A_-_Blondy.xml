@@ -43,9 +43,6 @@
           <person xml:id="Knjaginja">
             <persName>Княгиня</persName>
           </person>
-          <person xml:id="KnjazIKnjaginja">
-            <persName>Князь и княгиня</persName>
-          </person>
           <person xml:id="Knjaz">
             <persName>Князь</persName>
           </person>
@@ -64,6 +61,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#to #ff" when="2017-05-17">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -607,7 +605,7 @@
           <speaker>Барон</speaker>
           <p>Любезные мои, лучше пусть остынут эти блюда, чем сердца ваши!</p>
         </sp>
-        <sp who="#Knjaziknjaginja">
+        <sp who="#Knjaz #Knjaginja">
           <speaker>Князь и княгиня</speaker>
           <stage type="delivery">(бросаются ему на шею)</stage>
           <p>Merci, mon oncle!..</p>
