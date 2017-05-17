@@ -61,9 +61,6 @@
           <person xml:id="Snorre">
             <persName>Снорре</persName>
           </person>
-          <person xml:id="SnorreGrubbeIAhti">
-            <persName>Снорре, Груббе и Ахти</persName>
-          </person>
           <person xml:id="Grubbe">
             <persName>Груббе</persName>
           </person>
@@ -79,6 +76,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#to" when="2017-05-02">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1508,7 +1506,7 @@
           <l>Гондла, живо костёр! Поднимаю</l>
           <l>Первый кубок за Леру мою.</l>
         </sp>
-        <sp who="#SnorreGrubbeIAhti">
+        <sp who="#Snorre #Grubbe #Ahti">
           <speaker>Снорре, Груббе и Ахти</speaker>
           <l>Пьём за Леру мы все!</l>
         </sp>
@@ -1547,7 +1545,7 @@
           <stage type="delivery">(обнимая ее)</stage>
           <l part="F"> Гондла, вина!</l>
         </sp>
-        <sp who="#SnorreGrubbeIAhti">
+        <sp who="#Snorre #Grubbe #Ahti">
           <speaker>Снорре, Груббе и Ахти</speaker>
           <l>Гондла, музыки! Лютня такая</l>
           <l>Для чего у тебя, нелюдим?</l>
@@ -1951,7 +1949,7 @@
           <stage type="delivery">(отступая)</stage>
           <l>Нет, нам нового бога не надо!</l>
         </sp>
-        <sp who="#SnorreGrubbeIAhti">
+        <sp who="#Snorre #Grubbe #Ahti">
           <speaker>Снорре, Груббе и Ахти</speaker>
           <l>Мы не выдадим старых богов.</l>
         </sp>
