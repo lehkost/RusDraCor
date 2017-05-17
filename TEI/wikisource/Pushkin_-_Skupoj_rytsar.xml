@@ -33,7 +33,7 @@
             <date type="print" when="1836">Впервые (?) — в журнале «Современник», 1836, том I, № 1,
               с. 111—130 с подписью «Р.»</date>
             <date type="premiere"/>
-            <date type="written" when="1830">1830</date>
+            <date type="written" when="1830">Болдинская рукопись имеет дату «23 октября 1830 г.»</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -68,6 +68,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
+        <change who="#sveta" when="2017-05-01">checked IDs, put additional info about the written date</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
