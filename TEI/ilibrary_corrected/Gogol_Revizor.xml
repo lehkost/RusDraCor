@@ -43,9 +43,7 @@
           <person xml:id="Lekar">
             <persName> Лекарь Христофор Иванович </persName>
           </person>
-          <person xml:id="Ljapkin-Tjapkin">
-            <persName> Ляпкин-Тяпкин </persName>
-          </person>
+         
           <person xml:id="Chastnyjpristav">
             <persName> Частный пристав </persName>
           </person>
@@ -85,7 +83,7 @@
           <person xml:id="Dobchinskij">
             <persName> Добчинский </persName>
           </person>
-          <person xml:id="AmmosFedorovich">
+          <person xml:id="AmmosFedorovichLjapkin-Tjapkin">
             <persName> Аммос Федорович </persName>
           </person>
           <person xml:id="Svistunov">
@@ -103,7 +101,7 @@
           <person xml:id="Osip">
             <persName> Осип </persName>
           </person>
-          <person xml:id="ArtemijFilippovich">
+          <person xml:id="ArtemijFilippovichZemljanika">
             <persName> Артемий Филиппович </persName>
           </person>
           <person xml:id="LukaLukich">
@@ -118,9 +116,7 @@
           <person xml:id="Ljuljukov">
             <persName> Люлюков </persName>
           </person>
-          <person xml:id="Zemljanika">
-            <persName> Земляника </persName>
-          </person>
+         
           <person xml:id="ZhenaKorobkina">
             <persName> Жена Коробкина </persName>
           </person>
@@ -153,6 +149,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#GG">changed Zemljanika and ArtemijFilippovich to ArtemijFilippovichZemljanika, Ljapkin-Tjapkin and AmmosFedorovich to AmmosFedorovichLjapkin-Tjapkin</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -228,7 +225,7 @@
             руками. Добчинский немножко выше и сурьезнее Бобчинского, но Бобчинский развязнее и
             живее Добчинского. </p>
         </sp>
-        <sp who="#Ljapkin-Tjapkin">
+        <sp who="#AmmosFedorovichLjapkin-Tjapkin">
           <speaker> Ляпкин-Тяпкин </speaker>
           <p> , судья, человек, прочитавший пять или шесть книг, и потому несколько вольнодумен.
             Охотник большой на догадки, и потому каждому слову своему дает вес. Представляющий его
@@ -236,7 +233,7 @@
             растяжкой, хрипом и сапом  как старинные часы, которые прежде шипят, а потом уже бьют.
           </p>
         </sp>
-        <sp who="#Zemljanika">
+        <sp who="#ArtemijFilippovichZemljanika">
           <speaker> Земляника </speaker>
           <p> , попечитель богоугодных заведений, очень толстый, неповоротливый и неуклюжий человек,
             но при всем том проныра и плут. Очень услужлив и суетлив. </p>
@@ -270,11 +267,11 @@
             <p> . Я пригласил вас, господа, с тем чтобы сообщить вам пренеприятное известие: к нам
               едет ревизор. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Как ревизор? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Как ревизор? </p>
           </sp>
@@ -282,11 +279,11 @@
             <speaker> Городничий </speaker>
             <p> . Ревизор из Петербурга, инкогнито. И еще с секретным предписаньем. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Вот те на! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Вот не было заботы, так подай! </p>
           </sp>
@@ -315,7 +312,7 @@
               приехала к нам с своим мужем; Иван Кирилович очень потолстел и все играет на
               скрыпке...»  и прочее, и прочее. Так вот какое обстоятельство! </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Да, обстоятельство такое... необыкновенно, просто необыкновенно. Что-нибудь
               недаром. </p>
@@ -331,7 +328,7 @@
             <p> До сих пор, благодарение Богу, подбирались к другим городам; теперь пришла очередь к
               нашему. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Я думаю, Антон Антонович, что здесь тонкая и больше политическая причина. Это
               значит вот что: Россия... да... хочет вести войну, и министерия-то, вот видите, и
@@ -342,7 +339,7 @@
             <p> . Эк куда хватили! Еще умный человек! В уездном городе измена! Что он, пограничный,
               что ли? Да отсюда, хоть три года скачи, ни до какого государства не доедешь. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Нет, я вам скажу, вы не того... вы не... Начальство имеет тонкие виды: даром что
               далеко, а оно себе мотает на ус. </p>
@@ -356,7 +353,7 @@
               были бы чистые, и больные не походили бы на кузнецов, как обыкновенно они ходят
               по-домашнему. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Ну, это еще ничего. Колпаки, пожалуй, можно надеть и чистые. </p>
           </sp>
@@ -368,7 +365,7 @@
               всегда расчихаешься, когда войдешь. Да и лучше, если б их было меньше: тотчас отнесут
               к дурному смотрению или к неискусству врача. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . О! насчет врачеванья мы с Христианом Ивановичем взяли свои меры: чем ближе к
               натуре, тем лучше,  лекарств дорогих мы не употребляем. Человек простой: если умрет,
@@ -385,7 +382,7 @@
               только, знаете, в таком месте неприлично... Я и прежде хотел вам это заметить, но все
               как-то позабывал. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . А вот я их сегодня же велю всех забрать на кухню. Хотите, приходите обедать. </p>
           </sp>
@@ -402,7 +399,7 @@
               разными медикаментами Христиан Иванович. </p>
           </sp>
           <stage> Христиан Иванович издает тот же звук. </stage>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Нет, этого уже невозможно выгнать: он говорит, что в детстве мамка его ушибла, и с
               тех пор от него отдает немного водкою. </p>
@@ -414,7 +411,7 @@
               говорить: нет человека, который бы за собою не имел каких-нибудь грехов. Это уже так
               Самим Богом устроено, и волтерианцы напрасно против этого говорят. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Что ж вы полагаете, Антон Антонович, грешками? Грешки грешкам  рознь. Я говорю
               всем открыто, что беру взятки, но чем взятки? Борзыми щенками. Это совсем иное дело.
@@ -424,7 +421,7 @@
             <speaker> Городничий </speaker>
             <p> . Ну, щенками или чем другим  всё взятки. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Ну нет, Антон Антонович. А вот, например, если у кого-нибудь шуба стоит пятьсот
               рублей, да супруге шаль... </p>
@@ -436,7 +433,7 @@
               воскресенье бываю в церкви. А вы... О, я знаю вас: вы если начнете говорить о
               сотворении мира, просто волосы дыбом поднимаются. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Да ведь сам собою дошел, собственным умом. </p>
           </sp>
@@ -521,7 +518,7 @@
             <speaker> Почтмейстер </speaker>
             <p> . А что думаю? война с турками будет. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . В одно слово! я сам то же думал. </p>
           </sp>
@@ -593,7 +590,7 @@
             <speaker> Почтмейстер </speaker>
             <p> . С большим удовольствием. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Смотрите, достанется вам когда-нибудь за это. </p>
           </sp>
@@ -606,7 +603,7 @@
             <p> . Ничего, ничего. Другое дело, если бы вы из этого публичное что-нибудь сделали, но
               ведь это дело семейственное. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Да, нехорошее дело заварилось! А я, признаюсь, шел было к вам, Антон Антонович, с
               тем чтобы попотчевать вас собачонкою. Родная сестра тому кобелю, которого вы знаете.
@@ -631,7 +628,7 @@
             <p> . Неожиданное известие! </p>
           </sp>
           <sp
-            who="#Gorodnichij #AmmosFedorovich #Pochtmejster #LukaLukich #ArtemijFilippovich #Ljapkin-Tjapkin #Zemljanika #Chastnyjpristav #Lekar #Kvartalnyj">
+            who="#Gorodnichij #AmmosFedorovichLjapkin-Tjapkin #Pochtmejster #LukaLukich #ArtemijFilippovichZemljanika #AmmosFedorovichLjapkin-Tjapkin #ArtemijFilippovichZemljanika #Chastnyjpristav #Lekar #Kvartalnyj">
             <speaker> Все </speaker>
             <p> . Что, что такое? </p>
           </sp>
@@ -795,11 +792,11 @@
               Позор! поношенье! </p>
             <stage type="delivery"> (Хватается за голову.) </stage>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Что ж, Антон Антонович?  ехать парадом в гостиницу. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Нет, нет! Вперед пустить голову, духовенство, купечество; вот и в книге «Деяния
               Иоанна Масона»... </p>
@@ -832,20 +829,20 @@
               чтобы как можно поскорее ко мне частного пристава, и приходи сюда. </p>
           </sp>
           <stage> Квартальный бежит впопыхах. </stage>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Идем, идем, Аммос Федорович! В самом деле может случиться беда. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Да вам чего бояться? Колпаки чистые надел на больных, да и концы в воду. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Какое колпаки! Больным велено габерсуп давать, а у меня по всем коридорам несет
               такая капуста, что береги только нос. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . А я на этот счет покоен. В самом деле, кто зайдет в уездный суд? А если и заглянет
               в какую-нибудь бумагу, так он жизни не будет рад. Я вот уж пятнадцать лет сижу на
@@ -2268,7 +2265,7 @@
             <p> . Я люблю поесть. Ведь на то живешь, чтобы срывать цветы удовольствия. Как
               называлась эта рыба? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (подбегая) </stage>
             <p> . Лабардан-с. </p>
@@ -2277,7 +2274,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Очень вкусная. Где это мы завтракали? в больнице, что ли? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Так точно-с, в богоугодном заведении. </p>
           </sp>
@@ -2286,7 +2283,7 @@
             <p> . Помню, помню, там стояли кровати. А больные выздоровели? там их, кажется, немного.
             </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Человек десять осталось, не больше; а прочие все выздоровели. Это уж так устроено,
               такой порядок. С тех пор как я принял начальство,  может быть, вам покажется даже
@@ -2306,7 +2303,7 @@
               почестей никаких не хочу. Оно, конечно, заманчиво, но пред добродетелью всё прах и
               суета. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (в сторону) </stage>
             <p> . Эка, бездельник, как расписывает! Дал же Бог такой дар! </p>
@@ -2603,7 +2600,7 @@
             <p> . Прощайте, кумушка! </p>
           </sp>
           <stage> Оба уходят. </stage>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (Луке Лукичу) </stage>
             <p> . Страшно просто. А отчего, и сам не знаешь. А мы даже и не в мундирах. Ну что, как
@@ -2928,7 +2925,7 @@
           <stage> Входят осторожно, почти на цыпочках: Аммос Федорович , Артемий Филиппович ,
             почтмейстер , Лука Лукич , Добчинский и Бобчинский , в полном параде и мундирах. </stage>
           <stage> Вся сцена происходит вполголоса. </stage>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (строит всех полукружием) </stage>
             <p> . Ради Бога, господа, скорее в кружок, да побольше порядку! Бог с ним: и во дворец
@@ -2937,27 +2934,27 @@
               вот тут. </p>
           </sp>
           <stage> Оба Петра Ивановича забегают на цыпочках. </stage>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Воля ваша, Аммос Федорович, нам нужно бы кое-что предпринять. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . А что именно? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Ну, известно что. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Подсунуть? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Ну да, хоть и подсунуть. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Опасно, черт возьми! раскричится: государственный человек. А разве в виде
               приношенья со стороны дворянства на какой-нибудь памятник? </p>
@@ -2966,7 +2963,7 @@
             <speaker> Почтмейстер </speaker>
             <p> . Или же: «вот, мол, пришли по почте деньги, неизвестно кому принадлежащие». </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Смотрите, чтоб он вас по почте не отправил куды-нибудь подальше. Слушайте: эти
               дела не так делаются в благоустроенном государстве. Зачем нас здесь целый эскадрон?
@@ -2974,11 +2971,11 @@
               чтобы и уши не слыхали. Вот как в обществе благоустроенном делается! Ну, вот вы, Аммос
               Федорович, первый и начните. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Так лучше ж вы: в вашем заведении высокий посетитель вкусил хлеба. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Так уж лучше Луке Лукичу, как просветителю юношества. </p>
           </sp>
@@ -2988,12 +2985,12 @@
               чином кто-нибудь повыше, у меня просто и души нет, и язык как в грязь завязнул. Нет,
               господа, увольте, право, увольте! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Да, Аммос Федорович, кроме вас, некому. У вас что ни слово, то Цицерон с языка
               слетел. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Что вы! что вы: Цицерон! Смотрите, что выдумали! Что иной раз увлечешься говоря о
               домашней своре или гончей ищейке... </p>
@@ -3004,7 +3001,7 @@
             <p> . Нет, вы не только о собаках, вы и о столпотворении... Нет, Аммос Федорович, не
               оставляйте нас, будьте отцом нашим!.. Нет, Аммос Федорович! </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Отвяжитесь, господа! </p>
           </sp>
@@ -3016,7 +3013,7 @@
             <speaker> Голос Бобчинского </speaker>
             <p> . Ой, Петр Иванович, Петр Иванович! наступили на ногу! </p>
           </sp>
-          <sp who="#Zemljanika">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Голос Земляники </speaker>
             <p> . Отпустите, господа, хоть душу на покаяние  совсем прижали! </p>
           </sp>
@@ -3038,7 +3035,7 @@
         <div type="scene">
           <head> Явление III </head>
           <stage> Хлестаков и Аммос Федорович . </stage>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (входя и останавливаясь, про себя) </stage>
             <p> . Боже, Боже! вынеси благополучно; так вот коленки и ломает. </p>
@@ -3050,7 +3047,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Прошу садиться. Так вы здесь судья? </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . С восемьсот шестнадцатого был избран на трехлетие по воле дворянства и продолжал
               должность до сего времени. </p>
@@ -3059,7 +3056,7 @@
             <speaker> Хлестаков </speaker>
             <p> . А выгодно, однако же, быть судьею? </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . За три трехлетия представлен к Владимиру четвертой степени с одобрения со стороны
               начальства. </p>
@@ -3070,7 +3067,7 @@
             <speaker> Хлестаков </speaker>
             <p> . А мне нравится Владимир. Вот Анна третьей степени уже не так. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (высовывая понемногу вперед сжатый кулак. В сторону) </stage>
             <p> . Господи Боже! не знаю, где сижу. Точно горячие угли под тобою. </p>
@@ -3079,7 +3076,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Что это у вас в руке? </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (потерявшись и роняя на пол ассигнации) </stage>
             <p> . Ничего-с. </p>
@@ -3088,7 +3085,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Как ничего? Я вижу, деньги упали. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (дрожа всем телом) </stage>
             <p> . Никак нет-с. </p>
@@ -3100,7 +3097,7 @@
             <stage type="delivery"> (подымая) </stage>
             <p> . Да, это деньги. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (в сторону) </stage>
             <p> . Ну, все кончено  пропал! пропал! </p>
@@ -3109,7 +3106,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Знаете ли что? дайте их мне взаймы. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (поспешно) </stage>
             <p> . Как же-с, как же-с... с большим удовольствием. </p>
@@ -3121,7 +3118,7 @@
             <p> . Я, знаете, в дороге издержался: то да се... Впрочем, я вам из деревни сейчас их
               пришлю. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Помилуйте, как можно! и без того это такая честь... Конечно, слабыми моими силами,
               рвением и усердием к начальству... постараюсь заслужить... </p>
@@ -3132,7 +3129,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Какого приказанья? </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Я разумею, не дадите ли какого приказанья здешнему уездному суду? </p>
           </sp>
@@ -3140,7 +3137,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Зачем же? Ведь мне никакой нет теперь в нем надобности. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (раскланиваясь и уходя, в сторону) </stage>
             <p> . Ну, город наш! </p>
@@ -3351,7 +3348,7 @@
         <div type="scene">
           <head> Явление VI </head>
           <stage> Хлестаков и Артемий Филиппович , вытянувшись и придерживая шпагу. </stage>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Имею честь представиться: попечитель богоугодных заведений, надворный советник
               Земляника. </p>
@@ -3360,7 +3357,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Здравствуйте, прошу покорно садиться. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Имел честь сопровождать вас и принимать лично во вверенных моему смотрению
               богоугодных заведениях. </p>
@@ -3369,7 +3366,7 @@
             <speaker> Хлестаков </speaker>
             <p> . А, да! помню. Вы очень хорошо угостили завтраком. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Рад стараться на службу отечеству. </p>
           </sp>
@@ -3378,7 +3375,7 @@
             <p> . Я  признаюсь, это моя слабость,  люблю хорошую кухню. Скажите, пожалуйста, мне
               кажется, как будто бы вчера вы были немножко ниже ростом, не правда ли? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Очень может быть. </p>
             <stage type="delivery"> (Помолчав.) </stage>
@@ -3398,7 +3395,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Скажите пожалуйста! а я никак этого не думал. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Вот и смотритель здешнего училища... Я не знаю, как могло начальство поверить ему
               такую должность: он хуже, чем якобинец, и такие внушает юношеству неблагонамеренные
@@ -3410,7 +3407,7 @@
             <p> . Хорошо, хоть на бумаге. Мне очень будет приятно. Я, знаете, этак люблю в скучное
               время прочесть что-нибудь забавное... Как ваша фамилия? я все позабываю. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Земляника. </p>
           </sp>
@@ -3418,7 +3415,7 @@
             <speaker> Хлестаков </speaker>
             <p> . А, да! Земляника. И что ж, скажите, пожалуйста, есть у вас детки? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Как же-с, пятеро; двое уже взрослых. </p>
           </sp>
@@ -3426,7 +3423,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Скажите, взрослых! А как они... как они того?.. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . То есть, не изволите ли вы спрашивать, как их зовут? </p>
           </sp>
@@ -3434,7 +3431,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Да, как их зовут? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Николай, Иван, Елизавета, Марья и Перепетуя. </p>
           </sp>
@@ -3442,7 +3439,7 @@
             <speaker> Хлестаков </speaker>
             <p> . Это хорошо. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Не смея беспокоить своим присутствием, отнимать времени, определенного на
               священные обязанности... </p>
@@ -3456,7 +3453,7 @@
             <stage type="delivery"> (Возвращается и, отворивши дверь, кричит вслед ему.) </stage>
             <p> Эй вы! как вас? я все позабываю, как ваше имя и отчество. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Артемий Филиппович. </p>
           </sp>
@@ -3465,7 +3462,7 @@
             <p> . Сделайте милость, Артемий Филиппович, со мной странный случай: в дороге совершенно
               издержался. Нет ли у вас денег взаймы  рублей четыреста? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Есть. </p>
           </sp>
@@ -4788,12 +4785,12 @@
         <div type="scene">
           <head> Явление III </head>
           <stage> Те же , Аммос Федорович , Артемий Филиппович , потом Растаковский . </stage>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (еще в дверях) </stage>
             <p> . Верить ли слухам, Антон Антонович? к вам привалило необыкновенное счастие? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Имею честь поздравить с необыкновенным счастием. Я душевно обрадовался, когда
               услышал. </p>
@@ -4909,7 +4906,7 @@
             <p> . Спасибо, спасибо! Прошу садиться, господа! </p>
           </sp>
           <stage> Гости усаживаются. </stage>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Но скажите, пожалуйста, Антон Антонович, каким образом все это началось,
               постепенный ход всего, то есть дела. </p>
@@ -4955,7 +4952,7 @@
             <speaker> Многие из гостей </speaker>
             <p> . Скажите пожалуйста! </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Экая штука! </p>
           </sp>
@@ -4963,13 +4960,13 @@
             <speaker> Лука Лукич </speaker>
             <p> . Вот подлинно, судьба уж так вела. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Не судьба, батюшка, судьба  индейка: заслуги привели к тому. </p>
             <stage type="delivery"> (В сторону.) </stage>
             <p> Этакой свинье лезет всегда в рот счастье! </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Я, пожалуй, Антон Антонович, продам вам того кобелька, которого торговали. </p>
           </sp>
@@ -4977,7 +4974,7 @@
             <speaker> Городничий </speaker>
             <p> . Нет, мне теперь не до кобельков. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Ну, не хотите, на другой собаке сойдемся. </p>
           </sp>
@@ -5020,7 +5017,7 @@
             <speaker> Добчинского </speaker>
             <p> . Продли Бог на сорок сороков! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемия Филипповича </speaker>
             <p> . Чтоб ты пропал! </p>
           </sp>
@@ -5050,22 +5047,22 @@
             <speaker> Растаковский </speaker>
             <p> . От человека невозможно, а от Бога все возможно. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Большому кораблю  большое плаванье. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . По заслугам и честь. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (в сторону) </stage>
             <p> . Вот выкинет штуку, когда в самом деле сделается генералом! Вот уж кому пристало
               генеральство, как корове седло! Ну, брат, нет, до этого еще далека песня. Тут и почище
               тебя есть, а до сих пор еще не генералы. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (в сторону) </stage>
             <p> . Эка, черт возьми, уж и в генералы лезет! Чего доброго, может, и будет генералом.
@@ -5073,7 +5070,7 @@
             <stage type="delivery"> (Обращаясь к нему.) </stage>
             <p> Тогда, Антон Антонович, и нас не позабудьте. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . И если что случится, например какая-нибудь надобность по делам, не оставьте
               покровительством! </p>
@@ -5118,7 +5115,7 @@
               ревизор. </p>
           </sp>
           <sp
-            who="#Gorodnichij #AnnaAndreevna #MarjaAntonovna #Kuptsy #AmmosFedorovich #ArtemijFilippovich #Rastakovskij #Korobkin #ZhenaKorobkina #Lulukov #Bobchinskij #Dobchinskij #LukaLukich #ZhenaLukiLukicha #Chastnyjpristav #Mnogieizgostej #Gostja">
+            who="#Gorodnichij #AnnaAndreevna #MarjaAntonovna #Kuptsy #AmmosFedorovichLjapkin-Tjapkin #ArtemijFilippovichZemljanika #Rastakovskij #Korobkin #ZhenaKorobkina #Lulukov #Bobchinskij #Dobchinskij #LukaLukich #ZhenaLukiLukicha #Chastnyjpristav #Mnogieizgostej #Gostja">
             <speaker> Все </speaker>
             <p> . Как не ревизор? </p>
           </sp>
@@ -5194,7 +5191,7 @@
               позвольте прочитать письмо! </p>
           </sp>
           <sp
-            who="#Gorodnichij #AnnaAndreevna #MarjaAntonovna #Kuptsy #AmmosFedorovich #ArtemijFilippovich #Rastakovskij #Korobkin #ZhenaKorobkina #Lulukov #Bobchinskij #Dobchinskij #LukaLukich #ZhenaLukiLukicha #Chastnyjpristav #Mnogieizgostej #Gostja">
+            who="#Gorodnichij #AnnaAndreevna #MarjaAntonovna #Kuptsy #AmmosFedorovichLjapkin-Tjapkin #ArtemijFilippovichZemljanika #Rastakovskij #Korobkin #ZhenaKorobkina #Lulukov #Bobchinskij #Dobchinskij #LukaLukich #ZhenaLukiLukicha #Chastnyjpristav #Mnogieizgostej #Gostja">
             <speaker> Все </speaker>
             <p> . Читайте, читайте! </p>
           </sp>
@@ -5231,7 +5228,7 @@
             <speaker> Почтмейстер </speaker>
             <p> . Как же бы я стал писать? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Читайте! </p>
           </sp>
@@ -5267,7 +5264,7 @@
             <speaker> Городничий </speaker>
             <p> . Нет, черт возьми, когда уж читать, так читать! Читайте всё! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Позвольте, я прочитаю. </p>
             <stage type="delivery"> (Надевает очки и читает.) </stage>
@@ -5279,7 +5276,7 @@
             <stage type="delivery"> (к зрителям) </stage>
             <p> . Ну, скверный мальчишка, которого надо высечь; больше ничего! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (продолжая читать) </stage>
             <p> . «Надзиратель над богоугодным заведе...и...и...и...» </p>
@@ -5289,7 +5286,7 @@
             <speaker> Коробкин </speaker>
             <p> . А что ж вы остановились? </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Да нечеткое перо... впрочем, видно, что негодяй. </p>
           </sp>
@@ -5298,7 +5295,7 @@
             <p> . Дайте мне! Вот у меня, я думаю, получше глаза. </p>
             <stage type="delivery"> (Берет письмо.) </stage>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (не давая письма) </stage>
             <p> . Нет, это место можно пропустить, а там дальше разборчиво. </p>
@@ -5307,7 +5304,7 @@
             <speaker> Коробкин </speaker>
             <p> . Да позвольте, уж я знаю. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Прочитать я и сам прочитаю; далее, право, все разборчиво. </p>
           </sp>
@@ -5316,13 +5313,13 @@
             <p> . Нет, всё читайте! ведь прежде все читано. </p>
           </sp>
           <sp
-            who="#Gorodnichij #AnnaAndreevna #MarjaAntonovna #Kuptsy #AmmosFedorovich #Pochtmejster #Rastakovskij #Korobkin #ZhenaKorobkina #Lulukov #Bobchinskij #Dobchinskij #LukaLukich #ZhenaLukiLukicha #Chastnyjpristav #Mnogieizgostej #Gostja">
+            who="#Gorodnichij #AnnaAndreevna #MarjaAntonovna #Kuptsy #AmmosFedorovichLjapkin-Tjapkin #Pochtmejster #Rastakovskij #Korobkin #ZhenaKorobkina #Lulukov #Bobchinskij #Dobchinskij #LukaLukich #ZhenaLukiLukicha #Chastnyjpristav #Mnogieizgostej #Gostja">
             <speaker> Все </speaker>
             <p> . Отдайте, Артемий Филиппович, отдайте письмо! </p>
             <stage type="delivery"> (Коробкину.) </stage>
             <p> Читайте! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Сейчас. </p>
             <stage type="delivery"> (Отдает письмо.) </stage>
@@ -5341,7 +5338,7 @@
             <p> . «Надзиратель за богоугодным заведением Земляника  совершенная свинья в ермолке».
             </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (к зрителям) </stage>
             <p> . И неостроумно! Свинья в ермолке! где ж свинья бывает в ермолке? </p>
@@ -5356,7 +5353,7 @@
             <stage type="delivery"> (к зрителям) </stage>
             <p> . Ей-Богу, и в рот никогда не брал луку. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (в сторону) </stage>
             <p> . Славу Богу, хоть, по крайней мере, обо мне нет! </p>
@@ -5366,7 +5363,7 @@
             <stage type="delivery"> (читает) </stage>
             <p> . «Судья...» </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Вот тебе на! </p>
             <stage type="delivery"> (Вслух.) </stage>
@@ -5380,7 +5377,7 @@
             <speaker> Почтмейстер </speaker>
             <p> . Нет, читайте! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Нет уж, читайте! </p>
           </sp>
@@ -5391,7 +5388,7 @@
             <stage type="delivery"> (Останавливается.) </stage>
             <p> Должно быть, французское слово. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . А черт его знает, что оно значит! Еще хорошо, если только мошенник, а может быть,
               и того еще хуже. </p>
@@ -5427,11 +5424,11 @@
             <speaker> Жена Коробкина </speaker>
             <p> . Вот уж точно, вот беспримерная конфузия! </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Однако ж, черт возьми, господа! он у меня взял триста рублей взаймы. </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . У меня тоже триста рублей. </p>
           </sp>
@@ -5444,7 +5441,7 @@
             <speaker> Бобчинский </speaker>
             <p> . У нас с Петром Ивановичем шестьдесят пять-с на ассигнации-с, да-с. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <stage type="delivery"> (в недоумении расставляет руки). </stage>
             <p> Как же это, господа? Как это, в самом деле, мы так оплошали? </p>
@@ -5485,13 +5482,13 @@
               было! Вот просто ни на полмизинца не было похожего  и вдруг все: ревизор! ревизор! Ну
               кто первый выпустил, что он ревизор? Отвечайте! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <stage type="delivery"> (расставляя руки) </stage>
             <p> . Уж как это случилось, хоть убей, не могу объяснить. Точно туман какой-то ошеломил,
               черт попутал. </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Да кто выпустил  вот кто выпустил: эти молодцы! </p>
             <stage type="delivery"> (Показывает на Добчинского и Бобчинского.) </stage>
@@ -5504,7 +5501,7 @@
             <speaker> Добчинский </speaker>
             <p> . Я ничего, совсем ничего... </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Конечно, вы. </p>
           </sp>
@@ -5517,7 +5514,7 @@
             <speaker> Городничий </speaker>
             <p> . Натурально, вы! сплетники городские, лгуны проклятые! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Чтоб вас черт побрал с вашим ревизором и рассказами! </p>
           </sp>
@@ -5526,11 +5523,11 @@
             <p> . Только рыскаете по городу да смущаете всех, трещотки проклятые! Сплетни сеете,
               сороки короткохвостые! </p>
           </sp>
-          <sp who="#AmmosFedorovich">
+          <sp who="#AmmosFedorovichLjapkin-Tjapkin">
             <speaker> Аммос Федорович </speaker>
             <p> . Пачкуны проклятые! </p>
           </sp>
-          <sp who="#ArtemijFilippovich">
+          <sp who="#ArtemijFilippovichZemljanika">
             <speaker> Артемий Филиппович </speaker>
             <p> . Сморчки короткобрюхие! </p>
           </sp>

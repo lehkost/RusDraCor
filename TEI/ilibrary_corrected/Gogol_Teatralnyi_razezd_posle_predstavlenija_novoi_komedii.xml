@@ -85,7 +85,7 @@
           <person xml:id="MolodenkijChinovnik">
             <persName>Молоденький чиновник</persName>
           </person>
-          <person xml:id="Dvebekeshi">
+          <person xml:id="odnabekesha">
             <persName>Две бекеши</persName>
           </person>
           <person xml:id="Voennyj">
@@ -431,7 +431,7 @@
           <stage type="delivery">(тоже выходящих вон)</stage>
           <p>. Теперь еще ничего нельзя знать. Погоди, что скажут в журналах, тогда и узнаешь.</p>
         </sp>
-        <sp who="#Dvebekeshi">
+        <sp who="#odnabekesha">
           <speaker>Две бекеши</speaker>
           <stage type="delivery">(одна другой)</stage>
           <p>. Ну, как вы? Я бы желал знать ваше мнение о комедии.</p>
