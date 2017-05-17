@@ -92,7 +92,7 @@
           <person xml:id="Odinizkuptsov">
             <persName> Один из купцов </persName>
           </person>
-          <person xml:id="Jamschik">
+          <person xml:id="GolosGolosJamschikaa">
             <persName> Голос ямщика </persName>
           </person>
           <person xml:id="Sluga">
@@ -4527,7 +4527,7 @@
             <speaker> Голос Хлестакова </speaker>
             <p> . Да, я привык уж так. У меня голова болит от рессор. </p>
           </sp>
-          <sp who="#Jamschik">
+          <sp who="#GolosJamschika">
             <speaker> Голос ямщика </speaker>
             <p> . Тпр... </p>
           </sp>
@@ -4545,7 +4545,7 @@
             <p> . Эй, Авдотья! ступай в кладовую, вынь ковер самый лучший  что по голубому полю,
               персидский. Скорей! </p>
           </sp>
-          <sp who="#Jamschik">
+          <sp who="#GolosJamschika">
             <speaker> Голос ямщика </speaker>
             <p> . Тпр... </p>
           </sp>
@@ -4562,7 +4562,7 @@
             <p> . А, это ковер? давай его сюда, клади вот так! Теперь давай-ка с этой стороны сена.
             </p>
           </sp>
-          <sp who="#Jamschik">
+          <sp who="#GolosJamschika">
             <speaker> Голос ямщика </speaker>
             <p> . Тпр... </p>
           </sp>
@@ -4588,7 +4588,7 @@
             <speaker> Голос Хлестакова </speaker>
             <p> . Прощайте, маменька! </p>
           </sp>
-          <sp who="#Jamschik">
+          <sp who="#GolosJamschika">
             <speaker> Голос ямщика </speaker>
             <p> . Эй вы, залетные! </p>
           </sp>
