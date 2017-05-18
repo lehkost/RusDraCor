@@ -38,7 +38,7 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   geom_text(data=BG, label="Boris Godunov", vjust=1) +
   labs(title='Number of characters in Russian drama',
-       x='Number of characters', y='Year of creation')
+       y='Number of characters', x='Year of creation')
 ```
 
 ### This graph shows how the number of scenes/acts in plays was changing from 1750 to 1950. The observations are the mean number of scenes/acts in plays of a particular year.
@@ -49,7 +49,7 @@ scenes_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   labs(title='Number of scenes/acts in Russian drama',
-       x='Number of scenes/acts', y='Year of creation')
+       y='Number of scenes/acts', x='Year of creation')
 ```
 
 ### This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
@@ -62,7 +62,7 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   geom_text(data=BG, label="Boris Godunov") +
   labs(title='Max character degree in Russian drama',
-       x='Max degree', y='Year of creation')
+       y='Max degree', x='Year of creation')
 ```
 
 ### Making network visualization
@@ -71,16 +71,33 @@ boris_godunov <- read.csv('ready_CSV/Pushkin_-_Boris_Godunov.csv', sep = ";")
 boris_godunov <- boris_godunov[, c(1, 3, 4)]
 head(boris_godunov)
 net <- graph_from_data_frame(d=boris_godunov, directed=F)
-class(net)
+net
 E(net)$weight <- boris_godunov$Weight
 clust <- cluster_optimal(net)
-clust
+modularity(clust)
+membership(clust)
+
+E(net)$weight > 1
+
+# prettyColors <- c("turquoise4", "azure4", "olivedrab","deeppink4")
+# communityColors <- prettyColors[membership(clust)]
+
+layout = layout.fruchterman.reingold(net)
+
+layout=layout.kamada.kawai(net, kkconst=50)
+
+# vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
 
 plot(net,
      vertex.size=3,
      edge.arrow.size=.6,
      vertex.label=V(net)$name,
-     edge.width=E(net)$weight)
+     edge.width=E(net)$weight*0.5,
+     layout=layout.graphopt,
+     vertex.label.color = "black",
+     vertex.label.cex = 0.5,
+     vertex.color = membership(clust))
+
 
 net <- network(boris_godunov, directed=FALSE)
 ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layout.alg = "kamadakawai", 
