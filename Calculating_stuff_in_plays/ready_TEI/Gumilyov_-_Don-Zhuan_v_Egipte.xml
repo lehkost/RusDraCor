@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Дон-Жуан в Египте</title>
-        <title type="sub"/>
+        <title type="sub">Одноактная пьеса в стихах</title>
         <author key="Wikidata:Q311033">Николай Степанович Гумилёв</author>
       </titleStmt>
       <publicationStmt>
@@ -56,7 +56,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Одноактная пьеса в стихах</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -84,7 +84,7 @@
       </castList>
       <stage>Место действия — внутренность древнего храма на берегу Нила. <lb/>Время действия — наши
         дни.</stage>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(выходя из глубокой расселины между плит)</stage>
         <l>Как странно! Где я? Что за бред?</l>
@@ -133,7 +133,7 @@
         <l>Вы здесь! Какая цепь событий!</l>
         <l>Как счастлив я!..</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l part="F"> Ты не один?</l>
       </sp>
@@ -142,7 +142,7 @@
         <stage type="delivery">(тихо)</stage>
         <l>Ах да, пожалуйста, молчите.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Молчать? Зачем?</l>
       </sp>
@@ -154,7 +154,7 @@
         <stage>(обнимая его, громко)</stage>
         <l part="F"> Ах, друг мой!</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l part="F"> Прочь, невежа!</l>
       </sp>
@@ -162,7 +162,7 @@
         <speaker>Лепорелло</speaker>
         <l>Ты гонишь?</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l part="F"> Ясно, что гоню.</l>
       </sp>
@@ -171,7 +171,7 @@
         <stage type="delivery">(Американцу и Американке)</stage>
         <l>Всё тот же он, манеры те же.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Манеры? Хам!</l>
       </sp>
@@ -191,7 +191,7 @@
         <stage type="delivery">(тихо Лепорелло)</stage>
         <l>Но кто он? Как его зовут?</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Скажи, они дружны с тобою?</l>
       </sp>
@@ -214,7 +214,7 @@
         <l>Так, гаснут вечером огни</l>
         <l>В окне приветливой таверны.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Ну не для всех.</l>
       </sp>
@@ -251,7 +251,7 @@
         <l>Так говорилось на балах</l>
         <l>В Чикаго.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l part="F"> Стоило трудиться!</l>
       </sp>
@@ -286,7 +286,7 @@
         <l>Скажите мне, мой юный друг,</l>
         <l>Ужель ещё вы не женаты?</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(подходя к Американке)</stage>
         <l>Сеньора!</l>
@@ -296,7 +296,7 @@
         <stage type="delivery">(поправляя его)</stage>
         <l part="F"> Мисс.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(настаивая)</stage>
         <l part="F"> Сеньора!</l>
@@ -307,7 +307,7 @@
         <l part="F"> Мисс!</l>
         <l>Я не желаю быть сеньорой!</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Сойдёмте три ступеньки вниз.</l>
       </sp>
@@ -315,7 +315,7 @@
         <speaker>Американка</speaker>
         <l>Вы дон Жуан? Ну, тот, который?..</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Да, тот, который!</l>
       </sp>
@@ -324,7 +324,7 @@
         <l part="F"> И с тех пор</l>
         <l>Вы в мире в первый раз явились?</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Да, в первый… старый командор</l>
         <l>Вцепился крепко… Вы мне снились.</l>
@@ -333,7 +333,7 @@
         <speaker>Американка</speaker>
         <l>Не верю вам.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(мечтательно)</stage>
         <l part="F"> Земля во мгле;</l>
@@ -350,7 +350,7 @@
         <stage type="delivery">(подозрительно)</stage>
         <l>О чём здесь речь?</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l part="F"> О том, что ты</l>
         <l>Давно оставил.</l>
@@ -369,7 +369,7 @@
         <speaker>Американка</speaker>
         <l>Как верить вам? Но продолжайте.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Я лгу? Не верите вы мне?</l>
         <l>Но знаю я, что ваши плечи,</l>
@@ -448,7 +448,7 @@
         <l>А вот ещё…</l>
         <stage>(отходит с Американцем)</stage>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(Американке)</stage>
         <l part="F"> Он ваш жених?</l>
@@ -457,7 +457,7 @@
         <speaker>Американка</speaker>
         <l>Кто?</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l part="F"> Лепорелло.</l>
       </sp>
@@ -473,7 +473,7 @@
         <l>Не посещают никогда</l>
         <l>Салонов нашего Чикаго.</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Но он лакей, всегда лакей,</l>
         <l>В сукне ливрейного кафтана</l>
@@ -494,7 +494,7 @@
         <speaker>Американка</speaker>
         <l>Не говорите о любви!</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <l>Не говорить? Нет, буду, буду!</l>
         <l>Таких, как вы, на свете нет,</l>
@@ -506,7 +506,7 @@
         <stage>(Пауза)</stage>
         <l>Ну вот, уж вы и замолчали?</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(схватывая ее за руку)</stage>
         <l>Я вас люблю!</l>
@@ -536,7 +536,7 @@
         <l>И как прямое предложенье.</l>
         <stage>(Американец бормочет что-то несвязное)</stage>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(Американке)</stage>
         <l>Я вас люблю! Уйдём! Уйдём!</l>
@@ -574,7 +574,7 @@
         <l part="F"> Я не хочу…</l>
         <l>Нет, я хочу! О, милый, милый!</l>
       </sp>
-      <sp who="#Donzhuan">
+      <sp who="#DonZhuan">
         <speaker>Дон Жуан</speaker>
         <stage type="delivery">(обнимая ее)</stage>
         <l>Тебя я счастью научу</l>

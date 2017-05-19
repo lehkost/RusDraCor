@@ -550,7 +550,7 @@
           <l>Всем вольный вход, все гости дорогие.</l>
           <stage>(Уходит, за ним и бояре.)</stage>
         </sp>
-        <sp who="#Knjazvorotynskij">
+        <sp who="#KnjazVorotynskij">
           <speaker>Князь Воротынский</speaker>
           <stage type="delivery">(останавливая Шуйского)</stage>
           <l>Ты угадал.</l>
@@ -1112,7 +1112,7 @@
           <speaker>Хозяйка</speaker>
           <p>Добро пожаловать, гости дорогие, милости просим.</p>
         </sp>
-        <sp who="#Odinpristav">
+        <sp who="#OdinPristav">
           <speaker>Один пристав</speaker>
           <stage type="delivery">(другому)</stage>
           <p>Ба! да здесь попойка идет; будет чем поживиться. <stage>(Монахам.)</stage> Вы что за
@@ -1149,7 +1149,7 @@
           <speaker>Пристав</speaker>
           <p>Хозяйка, выставь-ка еще вина — а мы здесь со старцами попьем да побеседуем.</p>
         </sp>
-        <sp who="#Drugojpristav">
+        <sp who="#DrugojPristav">
           <speaker>Другой пристав</speaker>
           <stage type="delivery">(тихо)</stage>
           <p>Парень-то, кажется, гол; с него взять нечего; зато старцы…</p>
@@ -1174,7 +1174,7 @@
           <stage>В продолжение Варлаамовой речи первый пристав значительно всматривается в
             Мисаила.</stage>
         </sp>
-        <sp who="#Pervyjpristav">
+        <sp who="#PervyjPristav">
           <speaker>Первый пристав</speaker>
           <p>Алеха! при тебе ли царский указ?</p>
         </sp>
@@ -1190,7 +1190,7 @@
           <speaker>Мисаил</speaker>
           <p>Что ты на меня так пристально смотришь?</p>
         </sp>
-        <sp who="#Pervyjpristav">
+        <sp who="#PervyjPristav">
           <speaker>Первый пристав</speaker>
           <p>А вот что: из Москвы бежал некоторый злой еретик, Гришка Отрепьев, слыхал ли ты
             это?</p>
@@ -1306,7 +1306,7 @@
             50, а росту он среднего, лоб имеет плешивый, бороду седую, брюхо толстое».</p>
           <stage>Все глядят на Варлаама.</stage>
         </sp>
-        <sp who="#Pervyjpristav">
+        <sp who="#PervyjPristav">
           <speaker>&lt;Первый пристав&gt;</speaker>
           <p>Ребята! здесь Гришка! Держите, вяжите его! Вот уж не думал, не гадал!</p>
         </sp>
@@ -1318,11 +1318,11 @@
             разберу, как дело до петли доходит. <stage>(Читает по складам.)</stage> «А лет е-му от
             ро-ду… 20». — Что, брат, где тут 50? Видишь, 20?</p>
         </sp>
-        <sp who="#Vtorojpristav">
+        <sp who="#VtorojPristav">
           <speaker>Второй пристав</speaker>
           <p>Да, помнится, 20; так и нам было сказано.</p>
         </sp>
-        <sp who="#Pervyjpristav">
+        <sp who="#PervyjPristav">
           <speaker>Первый пристав</speaker>
           <stage type="delivery">(Григорию)</stage>
           <p>Да ты, брат, видно, забавник.</p>
@@ -1352,7 +1352,7 @@
           <l part="F"> Ну, гости дорогие,</l>
           <l>Последний ковш! Читай молитву, мальчик.</l>
         </sp>
-        <sp who="#Malchik">
+        <sp who="#MalChik">
           <speaker>Мальчик</speaker>
           <l>Царю небес, везде и присно сущий,</l>
           <l>Своих рабов молению внемли:</l>
@@ -1610,7 +1610,7 @@
           <stage>Ксения с мамкою уходит.</stage>
           <l>Что скажешь мне, Семен Никитич?</l>
         </sp>
-        <sp who="#Semengodunov">
+        <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
           <l part="F"> Нынче</l>
           <l>Ко мне, чем свет, дворецкий князь-Василья</l>
@@ -1620,7 +1620,7 @@
           <speaker>Царь</speaker>
           <l>Ну.</l>
         </sp>
-        <sp who="#Semengodunov">
+        <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
           <l part="F"> Пушкина слуга донес сперва,</l>
           <l>Что поутру вчера к ним в дом приехал</l>
@@ -1631,7 +1631,7 @@
           <speaker>Царь</speaker>
           <l>Гонца схватить.</l>
         </sp>
-        <sp who="#Semengodunov">
+        <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
           <l part="F"> Уж послано в догоню.</l>
         </sp>
@@ -1639,7 +1639,7 @@
           <speaker>Царь</speaker>
           <l>О Шуйском что?</l>
         </sp>
-        <sp who="#Semengodunov">
+        <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
           <l part="F"> Вечор он угощал</l>
           <l>Своих друзей, обоих Милославских,</l>
@@ -1653,7 +1653,7 @@
           <speaker>Царь</speaker>
           <l>Сейчас послать за Шуйским.</l>
         </sp>
-        <sp who="#Semengodunov">
+        <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
           <l part="F"> Государь!</l>
           <l>Он здесь уже.</l>
@@ -1919,7 +1919,7 @@
           <l>В желанный бой дружины ваши грозны.</l>
           <l>Но между вас я вижу новы лица.</l>
         </sp>
-        <sp who="#Gavrilapushkin">
+        <sp who="#GavrilaPushkin">
           <speaker>Гаврила Пушкин</speaker>
           <l>Они пришли у милости твоей</l>
           <l>Просить меча и службы.</l>
@@ -2683,7 +2683,7 @@
           <l>И мощь бесов исчезнет яко прах.</l>
           <stage>Молчание.</stage>
         </sp>
-        <sp who="#Knjazshujskij">
+        <sp who="#KnjazShujskij">
           <speaker>Князь Шуйский</speaker>
           <l>Святый отец, кто ведает пути</l>
           <l>Всевышнего? Не мне его судить.</l>
@@ -2714,7 +2714,7 @@
           <l>Сегодня мне нужна твоя беседа.</l>
           <stage>Уходит; за ним и все бояре.</stage>
         </sp>
-        <sp who="#Odinbojarin">
+        <sp who="#OdinBojarin">
           <speaker>Один боярин</speaker>
           <stage type="delivery">(тихо другому)</stage>
           <l>Заметил ты, как государь бледнел</l>
@@ -2725,7 +2725,7 @@
           <l>Я — признаюсь — не смел поднять очей,</l>
           <l>Не смел вздохнуть, не только шевельнуться.</l>
         </sp>
-        <sp who="#Pervyjbojarin">
+        <sp who="#PervyjBojarin">
           <speaker>Первый боярин</speaker>
           <l>А выручил князь Шуйский. Молодец!</l>
         </sp>
@@ -2744,7 +2744,7 @@
           <speaker>Маржерет</speaker>
           <p>Куда, куда? Allons… пошоль назад!</p>
         </sp>
-        <sp who="#Odinizbegletsov">
+        <sp who="#OdinIzBegletsov">
           <speaker>Один из беглецов</speaker>
           <p>Сам <stage>пошоль</stage>, коли есть охота, проклятый басурман.</p>
         </sp>
@@ -2763,7 +2763,7 @@
             j’enrage: on dirait que ça n’a pas des bras pour frapper, ça n’a que des jambes pour
             fuir.</p>
         </sp>
-        <sp who="#Vrozen">
+        <sp who="#VRozen">
           <speaker>В. Розен</speaker>
           <p>Es ist Schande.</p>
         </sp>
@@ -2772,7 +2772,7 @@
           <p>Ventre-saint-gris! Je ne bouge plus d’un pas; puisque le vin est tiré, il faut le
             boire. Qu’en dites-vous, mein herr?</p>
         </sp>
-        <sp who="#Vrozen">
+        <sp who="#VRozen">
           <speaker>В. Розен</speaker>
           <p>Sie haben Recht.</p>
         </sp>
@@ -2781,7 +2781,7 @@
           <p>Diable, il y fait chaud! Ce diable de Samozvanetz, comme il s’appelle, est un brave à
             trois poils.</p>
         </sp>
-        <sp who="#Vrozen">
+        <sp who="#VRozen">
           <speaker>В. Розен</speaker>
           <p>Ja.</p>
         </sp>
@@ -2790,7 +2790,7 @@
           <p>Hé! voyez donc, voyez donc! L’action s’engage sur les derrières de l’ennemi. Ce doit
             être le brave Basmanoff, qui aurait fait une sortie.</p>
         </sp>
-        <sp who="#Vrozen">
+        <sp who="#VRozen">
           <speaker>В. Розен</speaker>
           <p>Ich glaube das.</p>
           <stage>Входят немцы.</stage>
@@ -2800,7 +2800,7 @@
           <p>На, ha! voici nos Allemands. Messieurs! Mein Herr, dites-leur donc de se rallier et,
             sacrebleu, chargeons!</p>
         </sp>
-        <sp who="#Vrozen">
+        <sp who="#VRozen">
           <speaker>В. Розен</speaker>
           <p>Sehr gut. Halt!</p>
           <stage>Немцы строятся.</stage>
@@ -2864,7 +2864,7 @@
           <stage>Входит Юродивый в железной шапке, обвешенный веригами, окруженный
             мальчишками.</stage>
         </sp>
-        <sp who="#Malchishki">
+        <sp who="#MalChishki">
           <speaker>Мальчишки</speaker>
           <p>Железный колпак! железный колпак!.. тр р р р…</p>
         </sp>
@@ -2889,7 +2889,7 @@
           <l>Богу помолися!</l>
           <stage>Мальчишки окружают его снова.</stage>
         </sp>
-        <sp who="#Odiniznih">
+        <sp who="#OdinIzNih">
           <speaker>Один из них</speaker>
           <p>Здравствуй, юродивый; что же ты шапки не снимаешь? <stage>(Щелкает его по железной
               шапке.)</stage> Эк она звонит!</p>
@@ -2898,7 +2898,7 @@
           <speaker>Юродивый</speaker>
           <p>А у меня копеечка есть.</p>
         </sp>
-        <sp who="#Malchishka">
+        <sp who="#MalChishka">
           <speaker>Мальчишка</speaker>
           <p>Неправда, ну, покажи.</p>
           <stage>(Вырывает копеечку и убегает.)</stage>
@@ -3617,7 +3617,7 @@
           <l>Что толковать? Боярин правду молвил.</l>
           <l>Да здравствует Димитрий, наш отец!</l>
         </sp>
-        <sp who="#Muzhiknaamvone">
+        <sp who="#MuzhikNaAmvone">
           <speaker>Мужик на амвоне</speaker>
           <l>Народ! народ! в Кремль! в царские палаты!</l>
           <l>Ступай! вязать Борисова щенка!</l>
@@ -3645,7 +3645,7 @@
           <p>Поди, старик, я беднее тебя, ты на воле.</p>
           <stage>Ксения под покрывалом подходит также к окну.</stage>
         </sp>
-        <sp who="#Odiniznaroda">
+        <sp who="#OdinIzNaroda">
           <speaker>Один из народа</speaker>
           <p>Брат да сестра! бедные дети, что пташки в клетке.</p>
         </sp>
@@ -3679,7 +3679,7 @@
           <p>Расступитесь, расступитесь: бояре идут.</p>
           <stage>Они входят в дом.</stage>
         </sp>
-        <sp who="#Odiniznaroda">
+        <sp who="#OdinIzNaroda">
           <speaker>Один из народа</speaker>
           <p>Зачем они пришли?</p>
         </sp>
@@ -3697,7 +3697,7 @@
             продолжается.</p>
           <stage>Отворяются двери. Мосальский является на крыльце. </stage>
         </sp>
-        <sp who="#Mosalskij">
+        <sp who="#MosalSkij">
           <speaker>Мосальский</speaker>
           <p>Народ! Мария Годунова и сын ее Феодор отравили себя ядом. Мы видели их мертвые
             трупы.</p>

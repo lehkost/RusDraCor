@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Король на площади</title>
-        <title type="sub">драма</title>
+        <title type="sub">Драма</title>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
       </titleStmt>
       <publicationStmt>
@@ -97,7 +97,7 @@
           <person xml:id="VtorojNeizvestnyj">
             <persName>Второй</persName>
           </person>
-          <person xml:id="GolosTretEgo">
+          <person xml:id="GolosTretego">
             <persName>Голос Третьего</persName>
           </person>
           <person xml:id="PervyjFrant">
@@ -131,7 +131,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драма</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -139,7 +139,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
-        <change who="sveta" when="2017-04-22">corrected IDs, added the "written" date, established more comprehensible order of IDs</change>
+        <change who="#sveta" when="2017-04-22">corrected IDs, added the "written" date, established more comprehensible order of IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -225,7 +225,7 @@
           <speaker>Второй</speaker>
           <p>Тяжко, когда просыпается день.</p>
         </sp>
-        <sp who="#Golostretego">
+        <sp who="#GolosTretego">
           <speaker>Голос Третьего</speaker>
           <p>Отчаянья не предавайте. Смерти не предавайте.</p>
         </sp>
@@ -258,7 +258,7 @@
           <speaker>Второй</speaker>
           <p>Какое счастье — умереть.</p>
         </sp>
-        <sp who="#Golostretego">
+        <sp who="#GolosTretego">
           <speaker>Голос Третьего</speaker>
           <p>Он говорит о счастьи. Пойдем одни — жечь и разрушать.</p>
         </sp>
@@ -279,7 +279,7 @@
           <speaker>Второй</speaker>
           <p>Утренних сумерек. Смертной тоски.</p>
         </sp>
-        <sp who="#Golostretego">
+        <sp who="#GolosTretego">
           <speaker>Голос Третьего</speaker>
           <p>Жечь. Жечь.</p>
         </sp>
@@ -287,7 +287,7 @@
           <speaker>Второй</speaker>
           <p>Страшно. Жалко.</p>
         </sp>
-        <sp who="#Golostretego">
+        <sp who="#GolosTretego">
           <speaker>Голос Третьего</speaker>
           <p>Умирай, если жалко.</p>
           <stage>Молчат. Медленно светает.</stage>
@@ -366,7 +366,7 @@
           <speaker>Второй</speaker>
           <p>Так он останется цел!</p>
         </sp>
-        <sp who="#Golostretego">
+        <sp who="#GolosTretego">
           <speaker>Голос Третьего</speaker>
           <p>Развеем по ветру. Бросим в море.</p>
         </sp>
@@ -462,7 +462,7 @@
           <speaker>Первый</speaker>
           <p>Клянусь вам: мы все умрем к ночи!</p>
         </sp>
-        <sp who="#Golostretego">
+        <sp who="#GolosTretego">
           <speaker>Голос Третьего</speaker>
           <stage>(как эхо)</stage>
           <p>Умрем.</p>
@@ -486,7 +486,7 @@
           <p>Пусть надеются. Мы погибнем одни, если придут корабли, или осуществится ее высокая
             мечта.</p>
         </sp>
-        <sp who="#Golostretego">
+        <sp who="#GolosTretego">
           <speaker>Голос Третьего</speaker>
           <p>Корабли не придут. Их уничтожит буря. Горячий ветер разносит смерть.</p>
           <stage>Они расходятся. Третий вынырнул из-за камня. Сухими чертами лица и костлявым телом
@@ -565,7 +565,7 @@
           <speaker>Девушка</speaker>
           <p>Отчего ты бледна? Отчего ты шатаешься?</p>
         </sp>
-        <sp who="#Prodavschitsaroz">
+        <sp who="#ProdavschitsaRoz">
           <speaker>Продавщица роз</speaker>
           <p>Я умираю от горячего солнца, от пыли, от усталости, от голода.</p>
         </sp>
@@ -573,7 +573,7 @@
           <speaker>Девушка</speaker>
           <p>Ты умираешь?</p>
         </sp>
-        <sp who="#Prodavschitsaroz">
+        <sp who="#ProdavschitsaRoz">
           <speaker>Продавщица роз</speaker>
           <p>Я задушу тебя цветами, если ты не дашь мне хлеба.</p>
         </sp>
@@ -810,7 +810,7 @@
             красавица в черных тугих шелках. Она останавливается на краю, прямо над скамьей, где
             сидит убитый тоскою Поэт, — и смотрит на него сверху.</stage>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <p>Слышишь ты меня?</p>
         </sp>
@@ -829,7 +829,7 @@
             туманом, который оставляет видимым только островок скамьи, где находятся Дочь Зодчего и
             Поэт.</stage>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Когда опускается пыль,</l>
           <l>И прячутся красные Слухи</l>
@@ -845,7 +845,7 @@
           <l>Напевом своим заглушить</l>
           <l>Пронзительный голос Шута.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Ты говоришь как во сне,</l>
           <l>Певучую душу твою узнаю</l>
@@ -861,7 +861,7 @@
           <speaker>Поэт</speaker>
           <l>Парус белый тает вдали.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Моим виденьем полон ты.</l>
         </sp>
@@ -869,7 +869,7 @@
           <speaker>Поэт</speaker>
           <l>Вижу вдали корабли, корабли…</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Кладу заклятье — будь верен ты.</l>
         </sp>
@@ -877,7 +877,7 @@
           <speaker>Поэт</speaker>
           <l>Я вижу берег новой земли…</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Снимаю чары. Свободен ты.</l>
           <stage>Как будто подул ветер и подвинулся туман — уже нет больше молочной белизны.</stage>
@@ -889,7 +889,7 @@
           <l>Над морем движешься ты,</l>
           <l>И тень кораблей за тобою встает.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Ты всех верней мне детской душой.</l>
           <l>Ты будешь петь, когда я с тобой,</l>
@@ -916,7 +916,7 @@
           <speaker>Поэт</speaker>
           <l>В серебристые ризы тумана оделась тоска.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Сердце тумана пронзили дневные лучи.</l>
         </sp>
@@ -924,7 +924,7 @@
           <speaker>Поэт</speaker>
           <l>Голос тоски прозвенел.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Это волны хрипели у берега.</l>
         </sp>
@@ -932,7 +932,7 @@
           <speaker>Поэт</speaker>
           <l>Как зво́нок пронзительный голос тоски.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Солнце пронзит ее ризу и сердце —</l>
           <l part="F"> ты будешь свободен.</l>
@@ -941,7 +941,7 @@
           <speaker>Поэт</speaker>
           <l>Солнце закатится скоро.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>На закате ты будешь свободен.</l>
         </sp>
@@ -949,7 +949,7 @@
           <speaker>Поэт</speaker>
           <l>Сказки твои о свободе пленяют меня.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Сказка — вся жизнь для тебя.</l>
           <l>Слушай же сонной душой</l>
@@ -962,7 +962,7 @@
           <l>Так, чтобы яркие сны предо мною текли,</l>
           <l>Яркие сны небывалой страны.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Знаю великую книгу о светлой стране,</l>
           <l>Где прекрасная дева взошла</l>
@@ -976,7 +976,7 @@
             возрастающий гул толпы, собирающейся у дворца, снова явственно доносится стук
             топоров.</stage>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Жизнь уходила на миг,</l>
           <l>Снова вернулась она!</l>
@@ -990,7 +990,7 @@
           <l>Сказкой твоею дышу —</l>
           <l>Не уходи от меня.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Нет, не могу оставаться с тобой!</l>
           <l>Сказку мою я должна воплотить.</l>
@@ -1407,7 +1407,7 @@
           <l>В новой пыли ты исчезнешь,</l>
           <l>Новый ветер тебя унесет.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>В последний раз схожу я к тебе.</l>
           <l>Недобрые вести дошли до меня.</l>
@@ -1421,7 +1421,7 @@
           <l>Свинцовые тучи несутся.</l>
           <l>Спящая юность проснулась во мне!</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Стекло морей разбито ветром!</l>
           <l>В твоей душе расплеснулось море!</l>
@@ -1435,7 +1435,7 @@
           <l>Дай прильнуть устами к руке,</l>
           <l>Под черной тучей белеет она!</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>В последний раз к руке прикоснись.</l>
         </sp>
@@ -1443,7 +1443,7 @@
           <speaker>Поэт</speaker>
           <l>В эту ночь впервые тебя узнаю.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>В последний раз ты видишь меня.</l>
         </sp>
@@ -1453,7 +1453,7 @@
           <l>Разве скоро жизнь догорит?</l>
           <l>Разве юность прошла, королевна?</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Я над жизнью твоей властна.</l>
           <l>Кто со мною — будет свободен.</l>
@@ -1467,7 +1467,7 @@
           <l>Когда я увидел впервые</l>
           <l>Твой легкий, твой странный образ!</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Я искала в тебе героя.</l>
           <l>Я грядущему в очи смотрю.</l>
@@ -1477,7 +1477,7 @@
           <l>Ты сходила ко мне из высоких покоев.</l>
           <l>Ты смотрела, как смотришь теперь, на зарю!</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Прошедшего нет.</l>
           <stage>Бледная молния.</stage>
@@ -1490,7 +1490,7 @@
           <l>И в глазах твоих склоненных</l>
           <l>Я прочел, что тобою любим.</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Забудь о прошедшем. Прошедшего нет.</l>
         </sp>
@@ -1501,7 +1501,7 @@
           <l>И в темных твоих волосах</l>
           <l>Королевский вспыхнул венец!</l>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Я никогда не была королевной!</l>
           <l>И как мне пышность узнать?</l>
@@ -1520,7 +1520,7 @@
             захлебнулась этим воем, этим свистом бури, всхлипываньем волн, бьющих в берег, в
             дрожащем, матовом, пресыщенном грозою блеске.</stage>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <stage>(внезапно выпрямляясь, отталкивает его от себя)</stage>
           <l>Видишь, море швыряется в берег?</l>
@@ -1530,14 +1530,14 @@
             площадь толпы.</stage>
           <stage>Она поднимается по ступеням и вступает на площадь. Дикий вой.</stage>
         </sp>
-        <sp who="#Cheloveksfakelom">
+        <sp who="#ChelovekSFakelom">
           <speaker>Человек с факелом</speaker>
           <stage>(несется в толпе и кричит на бегу, как бы подхваченный ветром)</stage>
           <p>С мола дали знак! Кто-то видел корабль с башни!</p>
           <stage>Появляются новые факелы, распространяя дымный красноватый свет. Высокая фигура в
             черном на одной из ступеней террасы.</stage>
         </sp>
-        <sp who="#Chelovekvchernom">
+        <sp who="#ChelovekVChernom">
           <speaker>Человек в черном</speaker>
           <p>Вы собрались здесь все. Ночь наступает. Истекли последние сроки, которые вам назначены
             для прихода этих несчастных кораблей.</p>
@@ -1615,7 +1615,7 @@
           <speaker>Нищая</speaker>
           <p>Ребенок умирает!</p>
         </sp>
-        <sp who="#Golosnischego">
+        <sp who="#GolosNischego">
           <speaker>Голос нищего</speaker>
           <stage>(присоединяется)</stage>
           <p>Помогите! Умираю…</p>
@@ -1661,7 +1661,7 @@
           <stage>(восходя)</stage>
           <p>Роза небесная! Иду к тебе!</p>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <stage>(у ног Короля)</stage>
           <p>Ты идешь к Отцу.</p>
@@ -1671,7 +1671,7 @@
           <stage>(выше)</stage>
           <p>Смотри, осыпаются дождем ракеты — лепестки небесных роз!</p>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <p>Ты свободен.</p>
         </sp>
@@ -1680,7 +1680,7 @@
           <stage>(еще выше)</stage>
           <p>Твое лицо озарено!</p>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <p>Ближе! Ближе!</p>
         </sp>
@@ -1689,7 +1689,7 @@
           <stage>(на последней ступени)</stage>
           <p>Здравствуй, небо!</p>
         </sp>
-        <sp who="#Dochzodchego">
+        <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <p>Выше! Выше! Минуя меня, ты идешь к Отцу!</p>
           <stage>В тот же миг разъяренная толпа хлынула на ступени за Поэтом. Снизу расшатываются

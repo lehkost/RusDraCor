@@ -955,7 +955,7 @@
           <l>О, повелитель правоверных,</l>
           <l>Я падаю к твоим ногам.</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l>Да ты святой не из примерных,</l>
           <l>Коль странствуешь по городам.</l>
@@ -964,7 +964,7 @@
           <speaker>Дервиш</speaker>
           <l>О, горе!</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l part="F"> Где? Скажи мне прямо!</l>
           <l>Мука на рынке дорога?</l>
@@ -975,7 +975,7 @@
           <speaker>Дервиш</speaker>
           <l>Ты шутишь, светлый?</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l part="F"> Иль жениться</l>
           <l>На склоне лет задумал ты</l>
@@ -986,7 +986,7 @@
           <speaker>Дервиш</speaker>
           <l>Калиф, отец твой…</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l part="F"> Знаю, знаю!</l>
           <l>Я роздал треть моей казны</l>
@@ -997,7 +997,7 @@
           <l part="F"> Я продолжаю,</l>
           <l>Внимать и сильные должны.</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l>Как алчны эти астрологи,</l>
           <l>Шуты, монахи, мудрецы!</l>
@@ -1008,7 +1008,7 @@
           <speaker>Дервиш</speaker>
           <l>Убийца кто?</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l part="F"> Не всё равно ли?</l>
           <l>Кольцо.</l>
@@ -1019,7 +1019,7 @@
           <l>Кольцо — пособник и не боле,</l>
           <l>Кольцом владела вот она.</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l>С ней важный шейх, моряк почтенный,</l>
           <l>Она — их, кажется, раба.</l>
@@ -1033,7 +1033,7 @@
           <l>А власть и право на расплату,</l>
           <l>Калиф, имеешь ты один.</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l>Ну, хорошо, я рассердился.</l>
           <l>Хотя в Багдаде говорят,</l>
@@ -1067,7 +1067,7 @@
           <l>Скажи, что сделаешь ты с нею,</l>
           <l>Не слишком будешь ли суров?</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l>Дам ожерелье ей на шею</l>
           <l>Из розоватых жемчугов.</l>
@@ -1080,7 +1080,7 @@
           <speaker>Дервиш</speaker>
           <l>Как добр ты!</l>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l part="F"> Но, в пример народу,</l>
           <l>Мой суд и благ и справедлив:</l>
@@ -1157,7 +1157,7 @@
           <l>И выпьют лучшее вино.</l>
           <stage>(Уходят; появляются сын калифа и астролог)</stage>
         </sp>
-        <sp who="#Synkalifa">
+        <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
           <l>К Синдбаду! Ах, с его рассказом</l>
           <l>Сравнится ль болтовня твоя?!</l>

@@ -71,162 +71,53 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
-### Making network visualization
+### Making network visualization (ggplot)
 
 ``` r
-boris_godunov <- read.csv('ready_CSV/Pushkin_-_Boris_Godunov.csv', sep = ";")
-boris_godunov <- boris_godunov[, c(1, 3, 4)]
-head(boris_godunov)
+csv_list<-list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/ready_CSV',full.names=T)
+
+for(input in csv_list){
+            output <- basename(file.path(input,fsep=".csv"))
+            
+            play <- read.csv(input, sep = ";")
+            play <- play[, c(1, 3, 4)]
+            play
+            
+            # pdf(paste0("output for ", output,".pdf"))
+            
+            ggplot(data = play, aes(from_id=Source, to_id=Target)) +
+              geom_net(layout.alg ="kamadakawai", 
+              size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
+              directed =FALSE, fontsize = 3, ealpha = 0.5)
+            
+            # dev.off()
+                            }
 ```
 
-    ##           Source        Target Weight
-    ## 1         Bojare    Malchishka      1
-    ## 2        Plennik   Samozvanets      1
-    ## 3     Malchishki          Odin      1
-    ## 4 Muzhiknaamvone       Pushkin      1
-    ## 5       Grigorij Pervyjpristav      1
-    ## 6        Nischij  Odiniznaroda      1
+### Making network visualization (igraph)
 
-``` r
-net <- graph_from_data_frame(d=boris_godunov, directed=F)
-net
-```
+"\`\`\`{r} net &lt;- graph\_from\_data\_frame(d=play, directed=F) E(net)*w**e**i**g**h**t* &lt; −*p**l**a**y*Weight net &lt;- network(play, directed=FALSE)
 
-    ## IGRAPH UN-- 75 385 -- 
-    ## + attr: name (v/c), Weight (e/n)
-    ## + edges (vertex names):
-    ##  [1] Bojare        --Malchishka       Plennik       --Samozvanets     
-    ##  [3] Malchishki    --Odin             Muzhiknaamvone--Pushkin         
-    ##  [5] Grigorij      --Pervyjpristav    Nischij       --Odiniznaroda    
-    ##  [7] Schelkalov    --Tretij           Ljah          --Vse             
-    ##  [9] Kurbskij      --Pushkin          Feodor        --Tretij          
-    ## [11] Boris         --Knjazvorotynskij Malchishki    --Drugoj          
-    ## [13] Poet          --Vse              Samozvanets   --Vse             
-    ## [15] Staruha       --Tretij           Jurodivyj     --Tretij          
-    ## + ... omitted several edges
+clust &lt;- cluster\_optimal(net) modularity(clust) membership(clust)
 
-``` r
-E(net)$weight <- boris_godunov$Weight
-clust <- cluster_optimal(net)
-modularity(clust)
-```
+E(net)$weight &gt; 1
 
-    ## [1] 0.5169897
+prettyColors &lt;- c("turquoise4", "azure4", "olivedrab","deeppink4")
+=====================================================================
 
-``` r
-membership(clust)
-```
-
-    ##           Bojare          Plennik       Malchishki   Muzhiknaamvone 
-    ##                1                2                1                2 
-    ##         Grigorij          Nischij       Schelkalov             Ljah 
-    ##                3                4                1                2 
-    ##         Kurbskij           Feodor            Boris           Drugoj 
-    ##                2                4                4                1 
-    ##             Poet      Samozvanets          Staruha        Jurodivyj 
-    ##                2                2                1                1 
-    ##       Chetvertyj     Semengodunov   Gavrilapushkin         Basmanov 
-    ##                1                4                2                1 
-    ##        Marzheret        Mosalskij         Shujskij            Mamka 
-    ##                5                4                4                4 
-    ##         Hozjajka  Odinizbegletsov       Malchishka        Odiniznih 
-    ##                3                5                1                1 
-    ##          Pristav             Odin          Ksenija     Lzhedimitrij 
-    ##                3                1                4                2 
-    ##           Karela         Hruschov            Voiny           Igumen 
-    ##                2                2                5                1 
-    ##          Bojarin           Pervyj           Marina           Misail 
-    ##                1                3                6                3 
-    ##            Narod      Odinpristav         Dimitrij    Drugojpristav 
-    ##                1                3                5                3 
-    ##             Baba           Poljak          Varlaam    Knjazshujskij 
-    ##                1                2                3                1 
-    ##             Dama          Strazha    Pervyjbojarin            Ljahi 
-    ##                6                4                1                5 
-    ##           Nemtsy          Malchik          Kavaler         Pristavy 
-    ##                5                4                6                3 
-    ##         Patriarh           Pjatyj    Pervyjpristav          Pushkin 
-    ##                1                1                3                2 
-    ##           Tretij          Mnishek             Tsar            Pater 
-    ##                1                6                1                2 
-    ##      Odinbojarin     Odiniznaroda           Vtoroj Knjazvorotynskij 
-    ##                1                4                3                4 
-    ##          Shestoj              Vse           Vrozen    Vtorojpristav 
-    ##                1                2                5                3 
-    ##      Vorotynskij    Vishnevetskij            Pimen 
-    ##                4                6                3
-
-``` r
-E(net)$weight > 1
-```
-
-    ##   [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE
-    ##  [12] FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ##  [23] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE
-    ##  [34] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ##  [45] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ##  [56] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ##  [67] FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE
-    ##  [78] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE
-    ##  [89] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE FALSE  TRUE FALSE
-    ## [100] FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [111] FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
-    ## [122] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [133] FALSE FALSE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [144] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE
-    ## [155]  TRUE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
-    ## [166] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [177] FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
-    ## [188] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [199]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
-    ## [210] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
-    ## [221] FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [232] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [243] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [254] FALSE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [265] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE
-    ## [276] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE
-    ## [287] FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
-    ## [298] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [309] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
-    ## [320] FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [331] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [342] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [353] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [364] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-    ## [375] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE
-
-``` r
-# prettyColors <- c("turquoise4", "azure4", "olivedrab","deeppink4")
-# communityColors <- prettyColors[membership(clust)]
+communityColors &lt;- prettyColors\[membership(clust)\]
+=======================================================
 
 layout = layout.fruchterman.reingold(net)
 
 layout=layout.kamada.kawai(net, kkconst=50)
 
-# vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
+vertex.label= ifelse(V(net)*n**a**m**e*name, NA)
+================================================
 
-plot(net,
-     vertex.size=3,
-     edge.arrow.size=.6,
-     vertex.label=V(net)$name,
-     edge.width=E(net)$weight*0.5,
-     layout=layout.graphopt,
-     vertex.label.color = "black",
-     vertex.label.cex = 0.5,
-     vertex.color = membership(clust))
-```
+plot(net, vertex.size=3, edge.arrow.size=.6, vertex.label=V(net)*n**a**m**e*, *e**d**g**e*.*w**i**d**t**h* = *E*(*n**e**t*)weight\*0.5, layout=layout.graphopt, vertex.label.color = "black", vertex.label.cex = 0.5, vertex.color = membership(clust))
 
-![](Visualization_files/figure-markdown_github/unnamed-chunk-5-1.png)
-
-``` r
-net <- network(boris_godunov, directed=FALSE)
-ggplot(data = boris_godunov, aes(from_id=Source, to_id=Target)) + geom_net(layout.alg = "kamadakawai", 
-           size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
-           directed =FALSE, fontsize = 3, ealpha = 0.5)
-```
-
-![](Visualization_files/figure-markdown_github/unnamed-chunk-5-2.png)
+\`\`\`"
 
 ### Notes
 

@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>На дне</title>
-        <title type="sub">PLAYHASNOSUBTITLE</title>
-        <author> Максим Горький </author>
+        <title type="sub"/>
+        <author key="Wikidata:Q12706">Максим Горький</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>

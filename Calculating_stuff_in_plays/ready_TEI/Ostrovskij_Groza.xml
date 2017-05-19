@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Гроза</title>
-        <title type="sub"> Драма в пяти действиях </title>
-        <author> Александр Островский </author>
+        <title type="sub">Драма в пяти действиях</title>
+        <author key="Wikidata:Q171976">Александр Островский</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -113,14 +113,14 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драма в пяти действиях</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who="sveta" when="2017-04-13">corrected IDs</change>
+        <change who="#sveta" when="2017-04-13">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

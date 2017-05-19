@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Женитьба</title>
-        <title type="sub"> Совершенно невероятное событие в двух действиях </title>
-        <author>Николай Гоголь</author>
+        <title type="sub">Совершенно невероятное событие в двух действиях</title>
+        <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -42,15 +42,13 @@
         <listPerson>
           <person xml:id="Kochkarev">
             <persName> Кочкарев </persName>
-          </person>
-         
+          </person>         
           <person xml:id="IvanPavlovich">
             <persName> Иван Павлович </persName>
           </person>
           <person xml:id="Podkolesin">
             <persName> Подколесин </persName>
-          </person>
-          
+          </person>          
           <person xml:id="Anuchkin">
             <persName> Анучкин </persName>
           </person>
@@ -59,16 +57,14 @@
           </person>
           <person xml:id="Starikov">
             <persName> Стариков </persName>
-          </person>
-          
+          </person>          
           <person xml:id="AgafjaTihonovna">
             <persName> Агафья Тихоновна </persName>
           </person>
           <person xml:id="Stepan">
             <persName> Степан </persName>
-          </person>
-       
-          <person xml:id="izvozchik">
+          </person>       
+          <person xml:id="GolosIzvozchika">
             <persName> Голос извозчика </persName>
           </person>
           <person xml:id="Jaichnitsa">
@@ -90,7 +86,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Совершенно невероятное событие в двух действиях</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -98,6 +94,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#GG"> corrected vsetroya = #Fekla #Kochkarev #AgafjaTihonovna, Golosizvozchika = izvozchik, golosKochkareva = Kochkarev, golosPodkolesina = Podkolesin </change>
+        <change who="#to #ff">changed ID to GolosIzvozchika</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -3696,7 +3693,7 @@
             <p> — </p>
             <p> Ох! однако ж высоко! Эй, извозчик! </p>
           </sp>
-          <sp who="#izvozchik">
+          <sp who="#GolosIzvozchika">
             <speaker> Голос извозчика </speaker>
             <p> . Подавать, что ли? </p>
           </sp>
@@ -3704,7 +3701,7 @@
             <speaker> Голос Подколесина </speaker>
             <p> . На Канавку, возле Семеновского мосту. </p>
           </sp>
-          <sp who="#izvozchik">
+          <sp who="#GolosIzvozchika">
             <speaker> Голос извозчика </speaker>
             <p> . Да гривенник, без лишнего. </p>
           </sp>

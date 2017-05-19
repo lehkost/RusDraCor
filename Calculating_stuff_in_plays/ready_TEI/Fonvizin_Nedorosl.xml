@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Недоросль</title>
-        <title type="sub"> Комедия в пяти действиях </title>
-        <author>Денис Фонвизин</author>
+        <title type="sub">Комедия в пяти действиях</title>
+        <author key="Wikidata:Q315885">Денис Фонвизин</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -40,7 +40,7 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="G-zhaProstakova">
+          <person xml:id="GospozhaProstakova">
             <persName> Г-жа Простакова </persName>
           </person>
           <person xml:id="Skotinin">
@@ -89,7 +89,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle" subtype="comedy">Комедия в пяти действиях</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -124,7 +124,7 @@
         <div type="scene">
           <head> Явление I </head>
           <stage> Г-жа Простакова , Митрофан , Еремеевна . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (осматривая кафтан на Митрофане). </stage>
             <p> Кафтан весь испорчен. Еремеевна, введи сюда мошенника Тришку. </p>
@@ -137,7 +137,7 @@
         <div type="scene">
           <head> Явление II </head>
           <stage> Г-жа Простакова , Еремеевна , Тришка . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Тришке). </stage>
             <p> А ты, скот, подойди поближе. Не говорила ль я тебе, воровская харя, чтоб ты кафтан
@@ -149,7 +149,7 @@
             <p> . Да ведь я, сударыня, учился самоучкой. Я тогда же вам докладывал: ну, да извольте
               отдавать портному. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Так разве необходимо надобно быть портным, чтобы уметь сшить кафтан хорошенько.
               Экое скотское рассуждение! </p>
@@ -158,7 +158,7 @@
             <speaker> Тришка </speaker>
             <p> . Да вить портной-то учился, сударыня, а я нет. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ища он же и спорит. Портной учился у другого, другой у третьего, да первоет
               портной у кого же учился? Говори, скот. </p>
@@ -172,7 +172,7 @@
             <stage type="delivery"> (вбегает). </stage>
             <p> Звал батюшку. Изволил сказать: тотчас. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Так поди же вытащи его, коли добром не дозовешься. </p>
           </sp>
@@ -184,7 +184,7 @@
         <div type="scene">
           <head> Явление III </head>
           <stage> Те же и Простаков . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Что, что ты от меня прятаться изволишь? Вот, сударь, до чего я дожила с твоим
               потворством. Какова сыну обновка к дядину сговору? Каков кафтанец Тришка сшить
@@ -195,7 +195,7 @@
             <stage type="delivery"> (от робости запинаясь). </stage>
             <p> Ме... мешковат немного. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Сам ты мешковат, умная голова. </p>
           </sp>
@@ -203,7 +203,7 @@
             <speaker> Простаков </speaker>
             <p> . Да я думал, матушка, что тебе так кажется. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А ты сам разве ослеп? </p>
           </sp>
@@ -211,7 +211,7 @@
             <speaker> Простаков </speaker>
             <p> . При твоих глазах мои ничего не видят. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Вот каким муженьком наградил меня господь: не смыслит сам разобрать, что широко,
               что узко. </p>
@@ -220,7 +220,7 @@
             <speaker> Простаков </speaker>
             <p> . В этом я тебе, матушка, и верил и верю. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Так верь же и тому, что я холопям потакать не намерена. Поди, сударь, и теперь же
               накажи... </p>
@@ -236,7 +236,7 @@
               будь я Тарас Скотинин, если у теня не всякая вина виновата. У меня в этом, сестрица,
               один обычай с тобою. Да за что ж ты так прогневалась? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Да вот, братец, на твои глаза пошлюсь. Митрофанушка, подойди сюда. Мешковат ли
               этот кафтан? </p>
@@ -253,7 +253,7 @@
             <speaker> Скотинин </speaker>
             <p> . Я и этого не вижу. Кафтанец, брат, сшит изряднехонько. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Тришке). </stage>
             <p> Выйди вон, скот. </p>
@@ -265,7 +265,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Он уже и так, матушка, пять булочек скушать изволил. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Так тебе жаль шестой, бестия? Вот какое усердие! Изволь смотреть. </p>
           </sp>
@@ -274,7 +274,7 @@
             <p> . Да во здравие, матушка. Я вить сказала это для Митрофана же Терентьевича.
               Протосковал до самого утра. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, мати божия! Что с тобою сделалось, Митрофанушка? </p>
           </sp>
@@ -306,7 +306,7 @@
             <speaker> Митрофан </speaker>
             <p> . И теперь как шальной хожу. Ночь всю така дрянь в глаза лезла. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Какая ж дрянь, Митрофанушка? </p>
           </sp>
@@ -314,7 +314,7 @@
             <speaker> Митрофан </speaker>
             <p> . Да то ты, матушка, то батюшка. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Как же это? </p>
           </sp>
@@ -332,7 +332,7 @@
             <stage type="delivery"> (разнежасъ). </stage>
             <p> Так мне и жаль стало. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (с досадою). </stage>
             <p> Кого, Митрофанушка? </p>
@@ -341,7 +341,7 @@
             <speaker> Митрофан </speaker>
             <p> . Тебя, матушка: ты так устала, колотя батюшку. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Обойми меня, друг мой сердечный! Вот сынок, одно мое утешение. </p>
           </sp>
@@ -359,7 +359,7 @@
             <speaker> Скотинин </speaker>
             <p> . Только теперь забавник наш стоит что-то нахмурясь. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Уж не послать ли за доктором в город? </p>
           </sp>
@@ -368,7 +368,7 @@
             <p> . Нет, нет, матушка. Я уж лучше сам выздоровлю. Побегу-тка теперь на голубятню, так
               авось-либо... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Так авось-либо господь милостив. Поди, порезвись, Митрофанушка. </p>
           </sp>
@@ -382,7 +382,7 @@
             <p> . Что ж я не вижу моей невесты? Где она? Ввечеру быть уже сговору, так не пора ли ей
               сказать, что выдают ее замуж? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Успеем, братец. Если ей это сказать прежде времени, то она может еще подумать, что
               мы ей докладываемся. Хотя по муже, однако я ей свойственница; а я люблю, чтоб и чужие
@@ -394,7 +394,7 @@
             <p> Правду сказать, мы поступили с Софьюшкой, как с сущею сироткой. После отца осталась
               она младенцем. Тому с полгода, как ее матушке, а моей сватьюшке, сделался удар... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (показывая, будто крестит сердце). </stage>
             <p> С нами сила крестная. </p>
@@ -406,7 +406,7 @@
               покойником. Мы, видя, что она осталась одна, взяли ее в нашу деревеньку и надзираем
               над ее имением, как над своим. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Что, что ты сегодня так разоврался, мой батюшка? Ища братец может подумать, что мы
               для интересу ее к себе взяли. </p>
@@ -426,7 +426,7 @@
             <speaker> Простаков </speaker>
             <p> . То правда, братец: весь околоток говорит, что ты мастерски оброк собираешь. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Хотя бы ты нас поучил, братец батюшка; а мы никак не умеем. С тех пор как все, что
               у крестьян ни было, мы отобрали, ничего уже содрать не можем. Такая беда! </p>
@@ -435,7 +435,7 @@
             <speaker> Скотинин </speaker>
             <p> . Изволь, сестрица, поучу вас, поучу, лишь жените меня на Софьюшке. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Неужели тебе эта девчонка так понравилась? </p>
           </sp>
@@ -452,7 +452,7 @@
             <p> . И не деревеньки, а то, что в деревеньках-то ее водится и до чего моя смертная
               охота. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . До чего же, братец? </p>
           </sp>
@@ -482,7 +482,7 @@
           <head> Явление VI </head>
           <stage> Те же и Софья . </stage>
           <stage> Софья вошла, держа письмо в руке и имея веселый вид. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Софье). </stage>
             <p> Что так весела, матушка? Чему обрадовалась? </p>
@@ -493,7 +493,7 @@
               знали, которого я люблю и почитаю, как отца моего, на сих днях в Москву приехал. Вот
               письмо, которое я от него теперь получила. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (испугавшись, с злобою). </stage>
             <p> Как! Стародум, твой дядюшка, жив! И ты изволишь затевать, что он воскрес! Вот
@@ -503,7 +503,7 @@
             <speaker> Софья </speaker>
             <p> . Да он никогда не умирал. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Не умирал! А разве ему и умереть нельзя? Нет, сударыня, это твои вымыслы, чтоб
               дядюшкою споим нас застращать, чтоб мы дали тебе волю. Дядюшка-до человек умный; он,
@@ -518,7 +518,7 @@
             <speaker> Простаков </speaker>
             <p> . Избави боже, коли он не умирал! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к мужу). </stage>
             <p> Как не умирал! Что ты бабушку путаешь? Разве ты не знаешь, что уж несколько лет от
@@ -536,7 +536,7 @@
             <speaker> Софья </speaker>
             <p> . Прочтите его сами, сударыня. Вы увидите, что ничего невиннее быть не может. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Прочтите его сами! Нет, сударыня, я, благодаря бога, не так воспитана. Я могу
               письма получать, а читать их всегда велю другому. </p>
@@ -548,7 +548,7 @@
             <stage type="delivery"> (долго смотря). </stage>
             <p> Мудрено. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . И тебя, мой батюшка, видно, воспитывали, как красную девицу. Братец, прочти,
               потрудись. </p>
@@ -561,7 +561,7 @@
             <speaker> Софья </speaker>
             <p> . Позвольте мне прочесть. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . О матушка! Знаю, что ты мастерица, да лих не очень тебе верю. Вот, я чаю, учитель
               Митрофанушкин скоро придет. Ему велю... </p>
@@ -570,7 +570,7 @@
             <speaker> Скотинин </speaker>
             <p> . А уж зачали молодца учить грамоте? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, батюшка братец! Уж года четыре как учится. Нечего, грех сказать, чтоб мы не
               старались воспитывать Митрофанушку. Троим учителям денежки платим. Для грамоты ходит к
@@ -590,7 +590,7 @@
         <div type="scene">
           <head> Явление VII </head>
           <stage> Те же и Правдин . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Братец, друг мой! Рекомендую вам дорогого гостя нашего, господина Правдина; а вам,
               государь мой, рекомендую брата моего. </p>
@@ -621,7 +621,7 @@
             <p> . А смею ли спросить, государь мой, — имени и отчества не знаю, — в деревеньках
               ваших водятся ли свинки? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Полно, братец, о свиньях-то начинать. Поговорим-ка лучше о нашем горе. </p>
             <stage type="delivery"> (К Правдину.) </stage>
@@ -648,7 +648,7 @@
               честностию состояние свое сделать можно. Сими средствами, с помощию счастия, нажил я
               десять тысяч рублей доходу...» </p>
           </sp>
-          <sp who="#Skotinin #G-zhaProstakova #Prostakov">
+          <sp who="#Skotinin #GospozhaProstakova #Prostakov">
             <speaker> Скотинин и оба Простаковы </speaker>
             <p> . Десять тысяч! </p>
           </sp>
@@ -657,7 +657,7 @@
             <stage type="delivery"> (читает). </stage>
             <p> «...которым тебя, моя любезная племянница, тебя делаю наследницею...» </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Тебя наследницею! </p>
           </sp>
@@ -670,7 +670,7 @@
             <speaker> Скотинин </speaker>
             <p> . Ее наследницею! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (бросаясь обнимать Софью). </stage>
             <p> Поздравляю, Софьюшка! Поздравляю, душа моя! Я вне себя от радости! Теперь тебе
@@ -682,7 +682,7 @@
             <stage type="delivery"> (протянув руку). </stage>
             <p> Ну, сестрица, скоряй же по рукам. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (тихо Скотинину). </stage>
             <p> Постой, братец. Сперва надобно спросить ее, хочет ли еще она за тебя вытти? </p>
@@ -699,7 +699,7 @@
             <speaker> Скотинин </speaker>
             <p> . А на что? Да хоть пять лет читай, лучше десяти тысяч не дочитаешься. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к Софье). </stage>
             <p> Софьюшка, душа моя! пойдем ко мне в спальню. Мне крайняя нужда с тобой поговорить. </p>
@@ -1192,7 +1192,7 @@
         <div type="scene">
           <head> Явление V </head>
           <stage> Те же и оба Простаковы . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (мужу, идучи). </stage>
             <p> Тут перевирать нечего. Весь век, сударь, ходишь, развеся уши. </p>
@@ -1201,7 +1201,7 @@
             <speaker> Простаков </speaker>
             <p> . Да он сам с Правдиным из глаз у меня сгиб да пропал. Я чем виноват? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к Милону). </stage>
             <p> А, мой батюшка! Господин офицер! Я вас теперь искала по всей деревне; мужа с ног
@@ -1211,7 +1211,7 @@
             <speaker> Милон </speaker>
             <p> . За что, сударыня? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Как за что, мой батюшка! Солдаты такие добрые. До сих пор волоска никто не тронул.
               Не прогневайся, мой батюшка, что урод мой вас прозевал. Отроду никого угостить не
@@ -1221,7 +1221,7 @@
             <speaker> Милон </speaker>
             <p> . Я нимало не пеняю, сударыня. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . На него, мой батюшка, находит такой, по-здешнему сказать, столбняк. Иногда, выпуча
               глаза, стоит битый час как вкопанный. Уж чего-то я с ним не делала; чего только он у
@@ -1233,7 +1233,7 @@
             <p> . По крайней мере, сударыня, вы не можете жаловаться на злой его нрав. Он смирен...
             </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Как теленок, мой батюшка; оттого-то у нас в доме все и избаловано. Вить у него нет
               того смыслу, чтоб в доме была строгость, чтоб наказать путем виноватого. Все сама
@@ -1249,7 +1249,7 @@
             <speaker> Митрофан </speaker>
             <p> . И сегодня матушка все утро изволила провозиться с холопями. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к Софье). </stage>
             <p> Убирала покои для твоего любезного дядюшки. Умираю, хочу видеть этого почтенного
@@ -1269,13 +1269,13 @@
             <speaker> Софья </speaker>
             <p> . Зато и счастье свое должен он был доставать трудами. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Милость божия к нам, что удалось. Ничего так не желаю, как отеческой его милости к
               Митрофанушке. Софьюшка, душа моя! не изволишь ли посмотреть дядюшкиной комнаты? </p>
           </sp>
           <stage> Софья отходит. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к Простакову). </stage>
             <p> Опять зазевался, мой батюшка; да изволь, сударь, проводить ее. Ноги-то не отнялись.
@@ -1286,7 +1286,7 @@
             <stage type="delivery"> (отходя). </stage>
             <p> Не отнялись, да подкосились. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к гостям). </stage>
             <p> Одна моя забота, одна моя отрада — Митрофанушка. Мой век проходит. Его готовлю в
@@ -1294,7 +1294,7 @@
           </sp>
           <stage> Здесь появляются Кутейкин с часословом, а Цыфиркин с аспидной доскою и грифелем.
             Оба они знаками спрашивают Еремеевну: входить ли? Она их манит, а Митрофан отмахивает. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (не видя их, продолжает). </stage>
             <p> Авось-либо господь милостив, и счастье на роду ему написано. </p>
@@ -1303,7 +1303,7 @@
             <speaker> Правдин </speaker>
             <p> . Оглянитесь, сударыня, что за вами делается? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А! Это, батюшка, Митрофанушкины учители, Сидорыч Кутейкин... </p>
           </sp>
@@ -1346,7 +1346,7 @@
               год над ломаными бьемся, да что-то плохо клеятся; ну, и то правда, человек на человека
               не приходит. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Что? Что ты это, Пафнутьич, врешь? Я не вслушалась. </p>
           </sp>
@@ -1369,7 +1369,7 @@
               «Такого-то-де семинариста от всякого учения уволить: писано бо есть, не мечите бисера
               пред свиниями, да не попрут его ногами». </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Да где наш Адам Адамыч? </p>
           </sp>
@@ -1410,7 +1410,7 @@
             <speaker> Милон </speaker>
             <p> . Ни я, сударыня. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Куда ж вы, государи мои?.. </p>
           </sp>
@@ -1419,7 +1419,7 @@
             <p> . Я поведу его в мою комнату. Друзья, давно не видавшись, о многом говорить имеют.
             </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А кушать где изволите, с нами или в своей комнате? У нас за столом только что своя
               семья, с Софьюшкой... </p>
@@ -1436,7 +1436,7 @@
         <div type="scene">
           <head> Явление VI </head>
           <stage> Г-жа Простакова , Еремеевна , Митрофан , Кутейкин и Цыфиркин . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ну, так теперь хотя по-русски прочти зады, Митрофанушка. </p>
           </sp>
@@ -1444,7 +1444,7 @@
             <speaker> Митрофан </speaker>
             <p> . Да, зады, как не так. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Век живи, век учись, друг мой сердешный! Такое дело. </p>
           </sp>
@@ -1452,7 +1452,7 @@
             <speaker> Митрофан </speaker>
             <p> . Как не такое! Пойдет на ум ученье. Ты б еще навезла сюда дядюшек! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Что? Что такое? </p>
           </sp>
@@ -1461,7 +1461,7 @@
             <p> . Да! того и смотри, что от дядюшки таска; а там с его кулаков да за часослов. Нет,
               так я, спасибо, уж один конец с собою! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (испугавшись). </stage>
             <p> Что, что ты хочешь делать? Опомнись, душенька! </p>
@@ -1470,7 +1470,7 @@
             <speaker> Митрофан </speaker>
             <p> . Вить здесь и река близко. Нырну, так поминай как звали. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (вне себя). </stage>
             <p> Уморил! Уморил! Бог с тобой! </p>
@@ -1480,7 +1480,7 @@
             <p> . Все дядюшка напугал. Чуть было в волоски ему не вцепился. А ни за что... ни про
               что... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (в злобе). </stage>
             <p> Ну... </p>
@@ -1489,7 +1489,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Пристал к нему: хочешь ли жениться?.. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ну... </p>
           </sp>
@@ -1498,7 +1498,7 @@
             <p> . Дитя не потаил, уж давно-де, дядюшка, охота берет. Как он остервенится, моя
               матушка, как вскинется!.. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (дрожа). </stage>
             <p> Ну... а ты, бестия, остолбенела, а ты не впилась братцу в харю, а ты не раздернула
@@ -1508,7 +1508,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Приняла было! Ох, приняла, да... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Да... да что... не твое дитя, бестия! По тебе ребенка хоть убей до смерти. </p>
           </sp>
@@ -1519,7 +1519,7 @@
             <stage type="delivery"> (указывая на ногти), </stage>
             <p> я б и клыков беречь не стала. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Все вы, бестии, усердны на одних словах, а не на деле... </p>
           </sp>
@@ -1538,7 +1538,7 @@
             <p> . Нам куда поход, ваше благородие? </p>
             <stage type="delivery"> (Вместе.) </stage>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ты ж еще, старая ведьма, и разревелась. Поди, накорми их с собою, а после обеда
               тотчас опять сюда. </p>
@@ -1957,7 +1957,7 @@
           <head> Явление III </head>
           <stage> Те же, г-жа Простакова , Скотинин , Милон . </stage>
           <stage> Милон разнимает г-жу Простакову со Скотининым. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Пусти! Пусти, батюшка! Дай мне до рожи, до рожи... </p>
           </sp>
@@ -1975,7 +1975,7 @@
             <stage type="delivery"> (г-же Простаковой). </stage>
             <p> И вы забыли, что он вам брат! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, батюшка! Сердце взяло, дай додраться! </p>
           </sp>
@@ -1993,7 +1993,7 @@
             <stage type="delivery"> (не могши удержаться от смеха, к Правдину). </stage>
             <p> Я боялся рассердиться. Теперь смех меня берет. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Кого-то, над кем-то? Это что за выезжий? </p>
           </sp>
@@ -2024,7 +2024,7 @@
           </sp>
           <stage> В следующую речь г-жи Простаковой Софья сказывает взорами Милону, что перед ним
             Стародум. Милон ее понимает. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Пронозила!.. Нет, братец, ты должен образ выменить господина офицера; а кабы не
               он, то б ты от меня не заслонился. За сына вступлюсь. Не спущу отцу родному. </p>
@@ -2037,7 +2037,7 @@
             <stage type="delivery"> (указывая на Софью). </stage>
             <p> Приехал к ней, ее дядя, Стародум. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (обробев и иструсясъ). </stage>
             <p> Как! Это ты! Ты, батюшка! Гость наш бесценный! Ах, я дура бессчетная! Да так ли бы
@@ -2059,7 +2059,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Чего изволишь? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А ты разве девка, собачья ты дочь? Разве у меня в доме, кроме твоей скверной хари,
               и служанок нет? Палашка где? </p>
@@ -2068,7 +2068,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Захворала, матушка, лежит с утра. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Лежит! Ах, она бестия! Лежит! Как будто благородная! </p>
           </sp>
@@ -2076,7 +2076,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Такой жар рознял, матушка, без умолку бредит... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Бредит, бестия! Как будто благородная! Зови же ты мужа, сына. Скажи им, что, по
               милости божией, дождались мы дядюшку любезной нашей Софьюшки; что второй наш родитель
@@ -2087,7 +2087,7 @@
             <p> . К чему так суетиться, сударыня? По милости божией, я ваш не родитель; по милости
               же божией, я вам и незнаком. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Нечаянный твой приезд, батюшка, ум у меня отнял; да дай хотя обнять тебя
               хорошенько, благодетель наш!.. </p>
@@ -2143,7 +2143,7 @@
             <stage type="delivery"> (не давая руки Митрофану). </stage>
             <p> Этот ловит целовать руку. Видно, что готовят в него большую Душу. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Говори, Митрофанушка. Как-де, сударь, мне не целовать твоей ручки? Ты мой второй
               отец. </p>
@@ -2154,7 +2154,7 @@
             <stage type="delivery"> (К матери.) </stage>
             <p> Который бишь? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Второй. </p>
           </sp>
@@ -2166,7 +2166,7 @@
             <speaker> Стародум </speaker>
             <p> . Я, сударь, тебе ни отец, ни дядюшка. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Батюшка, вить робенок, может быть, свое счастье прорекает: авось-либо сподобит бог
               быть ему и впрямь твоим племянничком. </p>
@@ -2175,7 +2175,7 @@
             <speaker> Скотинин </speaker>
             <p> . Право! А я чем не племянник? Ай, сестра! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Я, братец, с тобою лаяться не стану. </p>
             <stage type="delivery"> (К Стародуму.) </stage>
@@ -2196,7 +2196,7 @@
             <p> . Этой забавы я так долго иметь не могу. Софьюшка, друг мой, завтра же поутру еду с
               тобой в Москву. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, батюшка! За что такой гнев? </p>
           </sp>
@@ -2204,7 +2204,7 @@
             <speaker> Простаков </speaker>
             <p> . За что немилость? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Как! Нам расстаться с Софьюшкой! С сердечным нашим другом! Я с одной тоски хлеба
               отстану. </p>
@@ -2240,7 +2240,7 @@
             <stage type="delivery"> (в сторону). </stage>
             <p> Почтенный человек! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (с веселым видом). </stage>
             <p> Вот отец! Вот послушать! Поди за кого хочешь, лишь бы человек ее стоил. Так, мой
@@ -2251,7 +2251,7 @@
             <speaker> Скотинин </speaker>
             <p> . Из ребят давно уж вышел... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . У кого достаточек, хоть и небольшой... </p>
           </sp>
@@ -2274,7 +2274,7 @@
             <speaker> Стародум </speaker>
             <p> . Это всего вероятнее. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ты, мой батюшка, не диви на братца... </p>
           </sp>
@@ -2282,7 +2282,7 @@
             <speaker> Стародум </speaker>
             <p> . А он ваш братец? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Родной, батюшка. Вить и я по отце Скотининых. Покойник батюшка женился на
               покойнице матушке. Она была по прозванию Приплодиных. Нас, детей, было с них
@@ -2295,7 +2295,7 @@
             <speaker> Стародум </speaker>
             <p> . Вижу, каковы были и родители ваши. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Старинные люди, мой отец! Не нынешний был век. Нас ничему не учили. Бывало, добры
               люди приступят к батюшке, ублажают, ублажают, чтоб хоть братца отдать в школу. К
@@ -2307,7 +2307,7 @@
             <speaker> Правдин </speaker>
             <p> . Вы, однако ж, своего сынка кое-чему обучаете. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к Правдину). </stage>
             <p> Да ныне век другой, батюшка! </p>
@@ -2328,7 +2328,7 @@
             <speaker> Стародум </speaker>
             <p> . Я худой тому судья, сударыня. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (увидя Кутейкина и Цыфиркина). </stage>
             <p> Вот и учители! Митрофанушка мой ни днем, ни ночью покою не имеет. Свое дитя хвалить
@@ -2344,7 +2344,7 @@
             <p> . Признаюсь, что я рад бы отдохнуть и от дороги и от всего того, что слышал и что
               видел. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, мой батюшка! Все готово. Сама для тебя комнату убирала. </p>
           </sp>
@@ -2352,7 +2352,7 @@
             <speaker> Стародум </speaker>
             <p> . Благодарен. Софьюшка, проводи же меня. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А мы-то что? Позволь, мой батюшка, проводить себя и мне, и сыну, и мужу. Мы все за
               твое здоровье в Киев пешком обещаемся, лишь бы дельце наше сладить. </p>
@@ -2372,7 +2372,7 @@
             <stage type="delivery"> (Увидя Милона, который ему с почтением поклонился, откланивается
               и ему учтиво.) </stage>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Так милости просим. </p>
           </sp>
@@ -2459,7 +2459,7 @@
         <div type="scene">
           <head> Явление VII </head>
           <stage> Те же, г-жа Простакова и Митрофан . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Пока он отдыхает, друг мой, ты хоть для виду поучись, чтоб дошло до ушей его, как
               ты трудишься, Митрофанушка. </p>
@@ -2468,7 +2468,7 @@
             <speaker> Митрофан </speaker>
             <p> . Ну! А там что? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А там и женисся. </p>
           </sp>
@@ -2477,7 +2477,7 @@
             <p> . Слушай, матушка. Я те потешу. Поучусь; только чтоб это был последний раз и чтоб
               сегодни ж быть сговору. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Придет час воли божией! </p>
           </sp>
@@ -2487,7 +2487,7 @@
               себя. Вот я сел. </p>
           </sp>
           <stage> Цыфиркин очинивает грифель. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А я тут же присяду. Кошелек повяжу для тебя, друг мой! Софьюшкины денежки было б
               куды класть. </p>
@@ -2500,7 +2500,7 @@
             <speaker> Цыфиркин </speaker>
             <p> . Ваше благородие, завсегда без дела лаяться изволите. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (работая). </stage>
             <p> Ах, господи боже мой! Уж робенок не смей и избранить Пафнутьича! Уж и разгневался!
@@ -2519,7 +2519,7 @@
             <speaker> Цыфиркин </speaker>
             <p> . Всё зады, ваше благородие. Вить с задами-то век назади останесся. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Не твое дело, Пафнутьич. Мне очень мило, что Митрофанушка вперед шагать не любит.
               С его умом, да залететь далеко, да и боже избави! </p>
@@ -2552,7 +2552,7 @@
             <stage type="delivery"> (вычисляя, шепчет). </stage>
             <p> Единожды три — три. Единожды ноль — ноль. Единожды ноль — ноль. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Что, что до дележа? </p>
           </sp>
@@ -2560,7 +2560,7 @@
             <speaker> Митрофан </speaker>
             <p> . Вишь, триста рублев, что нашли, троим разделить. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Врет он, друг мой сердечный! Нашел деньги, ни с кем не делись. Все себе возьми,
               Митрофанушка. Не учись этой дурацкой науке. </p>
@@ -2597,7 +2597,7 @@
             <p> Нуль да нуль — нуль. Один да один... </p>
             <stage type="delivery"> (Задумался.) </stage>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Не трудись по-пустому, друг мой! Гроша не прибавлю; да и не за что. Наука не
               такая. Лишь тебе мученье, а все, вижу, пустота. Денег нет — что считать? Деньги есть —
@@ -2664,7 +2664,7 @@
               диспозисион, </p>
             <p> уш фсё есть. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Правда. Правда твоя, Адам Адамыч! Митрофанушка, друг мой, коли ученье так опасно
               для твоей головушки, так по мне перестань. </p>
@@ -2683,7 +2683,7 @@
             <p> . Матушка мая! Што тепе надопно? Што? Сынок, какоф ест, да тал бог старовье, или
               сынок премудрый, так скасать, Аристогелис, да в могилу. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, какая страсть, Адам Адамыч! Он же и так вчера небережно поужинал. </p>
           </sp>
@@ -2692,7 +2692,7 @@
             <p> . Рассути ш, мать мая, напил прюхо лишне: пода. А фить калоушка-то у нефо караздо
               слапо прюха; напить ее лишне да и захрани поже! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Правда твоя, Адам Адамыч; да что ты станешь делать? Робенок, не выучась,
               поезжай-ка в тот же Петербург; скажут, дурак. Умниц-то ныне завелось мною. Их-то я
@@ -2703,7 +2703,7 @@
             <p> . Чефо паяться, мая матушка? Расумнай шеловек никахта ефо не сатерет, никахта з ним
               не саспорит; а он с умными лютьмн не сфясыфайся, так и пудет плаготенствие пожие! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Вот как надобно тебе на свете жить, Митрофанушка! </p>
           </sp>
@@ -2715,7 +2715,7 @@
             <speaker> Вральман </speaker>
             <p> . Сфая кампания то ли тело! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Адам Адамыч! Да из кого ж ты ее выберешь? </p>
           </sp>
@@ -2724,7 +2724,7 @@
             <p> . Не крушинься, мая матушка, не крушинься; какоф тфой тражайший сын, таких на сфете
               миллионы, миллионы. Как ему не фыпрать сепе кампаний? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . То даром, что мой сын. Малый острый, проворный. </p>
           </sp>
@@ -2753,7 +2753,7 @@
             <p> . Ему потрепно спать, как шить ф сфете. Я снаю сфет наизусть. Я сам терта калашь.
             </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Как тебе не знать большого свету, Адам Адамыч? Я чай, и в одном Петербурге ты
               всего нагляделся. </p>
@@ -2764,7 +2764,7 @@
               праснике съетутца в Катрингоф кареты с хоспотам. Я фсё на них сматру. Пыфало, не сойту
               ни на минуту с косел. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . С каких козел? </p>
           </sp>
@@ -2776,7 +2776,7 @@
             <p> Ты, матушка, снаешь, што сматреть фсегта лофче зповыши. Так я, пыфало, на снакому
               карету и сасел, та и сматру польшой сфет с косел. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Конечно, виднее. Умный человек знает, куда взлезть. </p>
           </sp>
@@ -2791,7 +2791,7 @@
             <p> . Уталец! Не постоит на месте, как тикой конь пез усды. Ступай! Форт! </p>
           </sp>
           <stage> Митрофан убегает. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (усмехаясь радостно). </stage>
             <p> Робенок, право, хоть и жених. Пойти за ним, однако ж, чтоб он с резвости без умыслу
@@ -2801,7 +2801,7 @@
             <speaker> Вральман </speaker>
             <p> . Поти, мая матушка! Салётна птиса! С ним тфои гласа иатопно. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Прощай же, Адам Адамыч! </p>
             <stage type="delivery"> (Отходит.) </stage>
@@ -3582,7 +3582,7 @@
         <div type="scene">
           <head> Явление VIII </head>
           <stage> Те же, г-жа Простакова , Простаков , Митрофан и Еремеевна . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (входя). </stage>
             <p> Всё ль с тобою, друг мой? </p>
@@ -3591,7 +3591,7 @@
             <speaker> Митрофан </speaker>
             <p> . Ну, да уж не заботься. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Стародуму). </stage>
             <p> Хорошо ли отдохнуть изволил, батюшка? Мы все в четвертой комнате на цыпочках ходили,
@@ -3606,7 +3606,7 @@
             <speaker> Скотинин </speaker>
             <p> . Ты, сестра, как на смех, все за мною по пятам. Я пришел сюда за своею нуждою. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А я так за своею. </p>
             <stage type="delivery"> (Стародуму.) </stage>
@@ -3618,7 +3618,7 @@
             <speaker> Стародум </speaker>
             <p> . Какою, сударыня? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Во-первых, прошу милости всех садиться. </p>
             <p> Вот в чем дело, батюшка. За молитвы родителей наших, — нам, грешным, где б и
@@ -3634,7 +3634,7 @@
             <stage type="delivery"> (К Правдину.) </stage>
             <p> Любопытен бы я был послушать, чему немец-то его выучил. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Всем наукам, батюшка. </p>
             <stage type="delivery"> (Вместе.) </stage>
@@ -3696,7 +3696,7 @@
             <speaker> Митрофан </speaker>
             <p> . И ведомо. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Что, каково, мой батюшка? </p>
           </sp>
@@ -3712,7 +3712,7 @@
             <speaker> Милон </speaker>
             <p> . Я думаю, не меньше и в истории. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . То, мой батюшка, он еще сызмала к историям охотник. </p>
           </sp>
@@ -3721,7 +3721,7 @@
             <p> . Митрофан по мне. Я сам без того глаз не сведу, чтоб выборный не рассказывал мне
               историй. Мастер, собачий сын, откуда что берется! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Однако все-таки не придет против Адама Адамыча. </p>
           </sp>
@@ -3748,7 +3748,7 @@
             <p> . Нет, наш Адам Адамыч истории не рассказывает; он, что я же, сам охотник слушать.
             </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Они оба заставляют себе рассказывать истории скотницу Хавронью. </p>
           </sp>
@@ -3756,7 +3756,7 @@
             <speaker> Правдин </speaker>
             <p> . Да не у ней ли оба вы учились и географии? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (сыну). </stage>
             <p> Слышишь, друг мой сердечный? Это что за наука? </p>
@@ -3766,7 +3766,7 @@
             <stage type="delivery"> (тихо матери). </stage>
             <p> А я почем знаю. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (тихо Митрофану). </stage>
             <p> Не упрямься, душенька. Теперь-то себя и показать. </p>
@@ -3776,7 +3776,7 @@
             <stage type="delivery"> (тихо матери). </stage>
             <p> Да я не возьму в толк, о чем спрашивают. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Правдину). </stage>
             <p> Как, батюшка, назвал ты науку-то? </p>
@@ -3785,7 +3785,7 @@
             <speaker> Правдин </speaker>
             <p> . География. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Митрофану). </stage>
             <p> Слышишь, еоргафия. </p>
@@ -3794,7 +3794,7 @@
             <speaker> Митрофан </speaker>
             <p> . Да что такое! Господи боже мой! Пристали с ножом к горлу. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Правдину). </stage>
             <p> И ведомо, батюшка. Да скажи ему, сделай милость, какая это наука-то, он ее и
@@ -3804,7 +3804,7 @@
             <speaker> Правдин </speaker>
             <p> . Описание земли. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Стародуму). </stage>
             <p> А к чему бы это служило на первый случай? </p>
@@ -3814,7 +3814,7 @@
             <p> . На первый случай сгодилось бы и к тому, что ежели б случилось ехать, так знаешь,
               куда едешь. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, мой батюшка! Да извозчики-то на что ж? Это их дело. Это таки и наука-то не
               дворянская. Дворянин только скажи: повези меня туда, — свезут, куда изволишь. Мне
@@ -3825,7 +3825,7 @@
             <p> . О, конечно, сударыня. В человеческом невежестве весьма утешительно считать все то
               за вздор, чего не знаешь. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Без наук люди живут и жили. Покойник батюшка воеводою был пятнадцать лет, а с тем
               и скончаться изволил, что не умел грамоте, а умел достаточек нажить и сохранить.
@@ -3867,7 +3867,7 @@
             <stage type="delivery"> (Милону). </stage>
             <p> Об заклад не бейся. Я думаю, что Скотинины все родом крепколобы. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Батюшка мой! Да что за радость и выучиться? Мы это видим своими глазами и в нашем
               краю. Кто посмышленее, того свои же братья тотчас выберут еще в какую-нибудь
@@ -3877,7 +3877,7 @@
             <speaker> Стародум </speaker>
             <p> . А кто посмышленее, тот и не откажет быть полезным своим согражданам. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Бог вас знает, как вы нынче судите. У нас, бывало, всякий того и смотрит, что на
               покой. </p>
@@ -3916,7 +3916,7 @@
         <div type="scene">
           <head> Явление IX </head>
           <stage> Г-жа Простакова , Митрофан , Простаков , Скотинин , Еремеевна , Стародум , Софья . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Стародуму). </stage>
             <p> Ну, мой батюшка! Ты довольно видел, каков Митрофанушка? </p>
@@ -3937,7 +3937,7 @@
             <speaker> Стародум </speaker>
             <p> . Не бывать. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Жених ли ей Митрофанушка? </p>
           </sp>
@@ -3945,7 +3945,7 @@
             <speaker> Стародум </speaker>
             <p> . Не жених. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А что б помешало? </p>
             <stage type="delivery"> (Вместе.) </stage>
@@ -3960,7 +3960,7 @@
             <p> Вам одним за секрет сказать можно. Она сговорена. </p>
             <stage type="delivery"> (Отходит и дает знак Софье, чтоб шла за ним.) </stage>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, злодей! </p>
           </sp>
@@ -3968,7 +3968,7 @@
             <speaker> Скотинин </speaker>
             <p> . Да он рехнулся. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (с нетерпением). </stage>
             <p> Когда они выедут? </p>
@@ -3977,7 +3977,7 @@
             <speaker> Скотинин </speaker>
             <p> . Вить ты слышала, поутру в семь часов. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . В семь часов. </p>
           </sp>
@@ -3987,14 +3987,14 @@
               развяжешься не скоро. </p>
             <stage type="delivery"> (Отходит.) </stage>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (бегая по театру в злобе и в мыслях). </stage>
             <p> В семь часов!.. Мы встанем поране... Что захотела, поставлю на своем... Все ко мне.
             </p>
           </sp>
           <stage> Все подбегают. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к мужу). </stage>
             <p> Завтре в шесть часов, чтоб карета подвезена была к заднему крыльцу. Слышишь ли ты?
@@ -4004,7 +4004,7 @@
             <speaker> Простаков </speaker>
             <p> . Слушаю, мать моя. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (к Еремеевне). </stage>
             <p> Ты во всю ночь не смей вздремать у Софьиных дверей. Лишь она проснется, беги ко мне.
@@ -4014,7 +4014,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Не промигну, моя матушка. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (сыну). </stage>
             <p> Ты, мой друг сердечный, сам в шесть часов будь совсем готов и поставь троих слуг в
@@ -4024,7 +4024,7 @@
             <speaker> Митрофан </speaker>
             <p> . Все будет сделано. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Подите ж с богом. </p>
             <stage type="delivery"> (Все отходят.) </stage>
@@ -4193,7 +4193,7 @@
             <speaker> Еремеевна </speaker>
             <p> . Венчаться, мой батюшка, венчаться! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (за кулисами). </stage>
             <p> Плуты! Воры! Мошенники! Всех прибить велю до смерти! </p>
@@ -4202,7 +4202,7 @@
         <div type="scene">
           <head> Явление III </head>
           <stage> Те же, г-жа Простакова , Простаков , Митрофан . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Какая я госпожа в доме! </p>
             <stage type="delivery"> (Указывая на Милона). </stage>
@@ -4219,7 +4219,7 @@
               законов. Сейчас представлю ее перед суд, как нарушительницу гражданского спокойства.
             </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (бросаясь на колени). </stage>
             <p> Батюшки, виновата! </p>
@@ -4228,7 +4228,7 @@
             <speaker> Правдин </speaker>
             <p> . Муж и сын не могли не иметь участия в злодеянии... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах я, собачья дочь! Что я наделала! </p>
           </sp>
@@ -4240,7 +4240,7 @@
             <speaker> Скотинин </speaker>
             <p> . Ну, сестра, хорошу было шутку... Ба! Что это? Все наши на коленях! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (стоя на коленях). </stage>
             <p> Ах, мои батюшки, повинную голову меч не сечет. Мой грех! Не губите меня. </p>
@@ -4257,7 +4257,7 @@
             <speaker> Правдин </speaker>
             <p> . Молчи, Скотинин. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Бог даст тебе благополучие и с дорогим женихом твоим, что тебе в голове моей? </p>
           </sp>
@@ -4266,7 +4266,7 @@
             <stage type="delivery"> (Стародуму). </stage>
             <p> Дядюшка! Я мое оскорбление забываю. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (подняв руки к Стародуму). </stage>
             <p> Батюшка! Прости и ты меня, грешную. Вить я человек, не ангел. </p>
@@ -4290,7 +4290,7 @@
             <p> . Не хочу ничьей погибели. Я ее прощаю. </p>
           </sp>
           <stage> Все вскочили с коленей. </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Простил! Ах, батюшка!.. Ну! Теперь-то дам я зорю канальям своим людям. Теперь-то я
               всех переберу поодиночке. Теперь-то допытаюсь, кто из рук ее выпустил. Нет, мошенники!
@@ -4300,7 +4300,7 @@
             <speaker> Правдин </speaker>
             <p> . А за что вы хотите наказывать людей ваших? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ах, батюшка, это что за вопрос? Разве я не властна и в своих людях? </p>
           </sp>
@@ -4317,7 +4317,7 @@
             <p> . Когда захочет! Да что за охота? Прямой ты Скотинин. Нет, сударыня, тиранствовать
               никто не волен. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Не волен! Дворянин, когда захочет, и слуги высечь не волен; да на что ж дан нам
               указ-от о вольности дворянства? </p>
@@ -4326,7 +4326,7 @@
             <speaker> Стародум </speaker>
             <p> . Мастерица толковать указы! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Извольте насмехаться, а я теперь же всех с головы на голову... </p>
             <stage type="delivery"> (Порывается идти.) </stage>
@@ -4345,7 +4345,7 @@
             <speaker> Простаков </speaker>
             <p> . А! До чего мы дожили! </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Как! Новая беда! За что? За что, батюшка? Что я в своем доме госпожа... </p>
           </sp>
@@ -4361,7 +4361,7 @@
             <stage type="delivery"> (отходит, всплеснув руками). </stage>
             <p> От кого это, матушка? </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (тоскуя). </stage>
             <p> О, горе взяло! О, грустно! </p>
@@ -4371,7 +4371,7 @@
             <p> . Ба! ба! ба! Да эдак и до меня доберутся. Да эдак и всякий Скотинин может попасть
               под опеку... Уберусь же я отсюда подобру-поздорову. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Все теряю! Совсем погибаю! </p>
           </sp>
@@ -4419,7 +4419,7 @@
         <div type="scene">
           <head> Явление V </head>
           <stage> Г-жа Простакова , Стародум , Правдин , Митрофан , Софья , Еремеевна . </stage>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (Правдину). </stage>
             <p> Батюшка, не погуби ты меня, что тебе прибыли? Не возможно ль как-нибудь указ
@@ -4429,7 +4429,7 @@
             <speaker> Правдин </speaker>
             <p> . Я от должности никак не отступлю. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Дай мне сроку хотя на три дни. </p>
             <stage type="delivery"> (В сторону.) </stage>
@@ -4444,7 +4444,7 @@
             <p> . Да, друг мой! Она и в три часа напроказить может столько, что веком не пособишь.
             </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Да как вам, батюшка, самому входить в мелочи? </p>
           </sp>
@@ -4452,7 +4452,7 @@
             <speaker> Правдин </speaker>
             <p> . Это мое дело. Чужое возвращено будет хозяевам, а... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . А с долгами-то разделаться?.. Недоплачено учителям... </p>
           </sp>
@@ -4480,7 +4480,7 @@
             <stage type="delivery"> (видя в тоске г-жу Простакову). </stage>
             <p> Сударыня! Ты сама себя почувствуешь лучше, потеряв силу делать другим дурно. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Благодарна за милость! Куда я гожусь, когда в моем доме моим же рукам и воли нет!
             </p>
@@ -4568,7 +4568,7 @@
               что истаскал в три года, за простой, что сюда прибредешь, бывало, по-пустому, за...
             </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ненасытная душа! Кутейкин! За что это? </p>
           </sp>
@@ -4576,7 +4576,7 @@
             <speaker> Правдин </speaker>
             <p> . Не мешайтесь, сударыня, я вас прошу. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Да коль пошло на правду, чему ты выучил Митрофанушку? </p>
           </sp>
@@ -4595,7 +4595,7 @@
             <speaker> Цыфиркин </speaker>
             <p> . Мне? Ничего. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . Ему, батюшка, за один год дано десять рублей, а еще за год ни полушки не
               заплачено. </p>
@@ -4736,7 +4736,7 @@
             <speaker> Правдин </speaker>
             <p> . Всего счастья, на которое имеют право честные сердца. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (бросаясь обнимать сына). </stage>
             <p> Один ты остался у меня, мой сердечный друг, Митрофанушка! </p>
@@ -4745,7 +4745,7 @@
             <speaker> Митрофан </speaker>
             <p> . Да отвяжись, матушка, как навязалась... </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <p> . И ты! И ты меня бросаешь! А! неблагодарный! </p>
             <stage type="delivery"> (Упала в обморок.) </stage>
@@ -4795,7 +4795,7 @@
             <stage type="delivery"> (махнув рукою). </stage>
             <p> По мне, куда велят. </p>
           </sp>
-          <sp who="#G-zhaProstakova">
+          <sp who="#GospozhaProstakova">
             <speaker> Г-жа Простакова </speaker>
             <stage type="delivery"> (очнувшись в отчаянии). </stage>
             <p> Погибла я совсем! Отнята у меня власть! От стыда никуды глаз показать нельзя! Нет у

@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Незнакомка</title>
-        <title type="sub">драма</title>
+        <title type="sub">Драма</title>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
       </titleStmt>
       <publicationStmt>
@@ -135,7 +135,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Драма</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -143,7 +143,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
-        <change who="sveta" when="2017-04-24">corrected IDs, added the dates</change>
+        <change who="#sveta" when="2017-04-24">corrected IDs, added the dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -203,7 +203,7 @@
           <speaker>Другой</speaker>
           <p>Да врешь ты!.. Да вот поди ж ты… Я тебе…</p>
         </sp>
-        <sp who="#Tretijusatyj">
+        <sp who="#TretijUsatyj">
           <speaker>Третий усатый</speaker>
           <p>Молчать! Не ругаться! Еще бутылочку, любезный.</p>
           <stage>Половой подбегает. Слышно, как булькает пиво. Молчание. Одинокий посетитель
@@ -235,15 +235,15 @@
             летала бы. И откуда мои крылья взялись, — сам полетел бы за ней, над белыми снегами…</p>
           <stage>Все хохочут.</stage>
         </sp>
-        <sp who="#Vtorojsobutylnik">
+        <sp who="#VtorojSobutylNik">
           <speaker>Второй собутыльник</speaker>
           <p>Ты, Васька, смотри, того, по первопутку-то не очень полетишь…</p>
         </sp>
-        <sp who="#Pervyjsobutylnik">
+        <sp who="#PervyjSobutylNik">
           <speaker>Первый собутыльник</speaker>
           <p>Тебе бы по морозцу-то легче, а то с твоей милой как раз в грязь угодишь…</p>
         </sp>
-        <sp who="#Vtorojsobutylnik">
+        <sp who="#VtorojSobutylNik">
           <speaker>Второй собутыльник</speaker>
           <p>Мечтатель.</p>
         </sp>
@@ -277,7 +277,7 @@
           <p>Пей, да помалкивай.</p>
           <stage>Молчат. Пьют. Вбегает молодой человек и радостно бросается к Гауптману.</stage>
         </sp>
-        <sp who="#Molodojchelovek">
+        <sp who="#MolodojChelovek">
           <speaker>Молодой человек</speaker>
           <p>Костя, друг, она у дверей дожидает!..</p>
         </sp>
@@ -362,7 +362,7 @@
           <speaker>Собутыльник</speaker>
           <p>Ай да Васька! Уж очень складно! Поцелуемся, дружок.</p>
         </sp>
-        <sp who="#Molodojchelovek">
+        <sp who="#MolodojChelovek">
           <speaker>Молодой человек</speaker>
           <p>Однако ж будет. Что ей столько на морозе дожидать? Замерзнет совсем. Пойдем, брат
             Костя.</p>
@@ -375,7 +375,7 @@
             трепаном пальто, сидевший отдельно, встает и обращается к честно́й компании с
             речью.</stage>
         </sp>
-        <sp who="#Chelovekvpalto">
+        <sp who="#ChelovekVPalTo">
           <speaker>Человек в пальто</speaker>
           <p>Государи мои! Есть у меня небольшая вещица — весьма ценная миниатюра.
               <stage>(Вытаскивает из кармана камею.)</stage> Вот-с, не угодно ли: с одной стороны —
@@ -388,7 +388,7 @@
           <p>Вечная сказка. Это — Она — Мироправительница. Она держит жезл и повелевает миром. Все
             мы очарованы Ею.</p>
         </sp>
-        <sp who="#Chelovekvpalto">
+        <sp who="#ChelovekVPalTo">
           <speaker>Человек в пальто</speaker>
           <p>Рад служить русской интеллигенции. Дешево продам, хотя досталось не дешево, но уж, как
             говорится, только по дружбе. Вижу, что любитель. Ну, так по рукам.</p>
@@ -448,7 +448,7 @@
             все не могут доплыть. Сквозь смутный общий говор человек в пальто, уже присоединившийся
             к кому-то, кричит.</stage>
         </sp>
-        <sp who="#Chelovekvpalto">
+        <sp who="#ChelovekVPalTo">
           <speaker>Человек в пальто</speaker>
           <p>Нет-с, я любитель! Люблю острый сыр, знаете, такой круглый! (Делает кругообразные
             жесты.) Забыл название.</p>
@@ -457,7 +457,7 @@
           <speaker>Его собеседник</speaker>
           <p>А вы… пробовали?</p>
         </sp>
-        <sp who="#Chelovekvpalto">
+        <sp who="#ChelovekVPalTo">
           <speaker>Человек в пальто</speaker>
           <p>Что пробовал? Вы думаете, нет? Я рошефор кушал!</p>
         </sp>
@@ -466,7 +466,7 @@
           <p>А знаете… люксем-бургский… так пахнет нехорошо… и шевелится, шевелится… (Чмокает
             губами, шевелит пальцами.)</p>
         </sp>
-        <sp who="#Chelovekvpalto">
+        <sp who="#ChelovekVPalTo">
           <speaker>Человек в пальто</speaker>
           <p>Швейцарский!.. Вот что-с! <stage>(Щелкает пальцами.)</stage></p>
         </sp>
@@ -474,7 +474,7 @@
           <speaker>Собеседник</speaker>
           <p>Ну, этим не удивите…</p>
         </sp>
-        <sp who="#Chelovekvpalto">
+        <sp who="#ChelovekVPalTo">
           <speaker>Человек в пальто</speaker>
           <p>Бри!</p>
         </sp>
@@ -482,7 +482,7 @@
           <speaker>Собеседник</speaker>
           <p>Ну это… это… знаете…</p>
         </sp>
-        <sp who="#Chelovekvpalto">
+        <sp who="#ChelovekVPalTo">
           <speaker>Человек в пальто</speaker>
           <p>Что знаете?</p>
         </sp>
@@ -1143,7 +1143,7 @@
           <stage>Молчат. Пьют. Вбегает молодой человек и радостно бросается к другому. В последнем
             легко узнать того, кто увел незнакомку.</stage>
         </sp>
-        <sp who="#Molodojchelovek">
+        <sp who="#MolodojChelovek">
           <speaker>Молодой человек</speaker>
           <p>Костя, друг, да она у дверей дожида…</p>
           <stage>Запинается на полуслове. Все становится необычайно странным. Как будто все внезапно
@@ -1204,7 +1204,7 @@
           <stage>Сконфуженно улыбается во все стороны. Хозяйка идет в переднюю и запирает за собой
             дверь. Гости шепчутся.</stage>
         </sp>
-        <sp who="#Molodojchelovek">
+        <sp who="#MolodojChelovek">
           <speaker>Молодой человек </speaker>
           <p>Да не может быть…</p>
         </sp>

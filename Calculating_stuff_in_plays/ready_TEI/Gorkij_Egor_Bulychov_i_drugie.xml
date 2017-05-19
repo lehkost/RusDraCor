@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Егор Булычов и другие</title>
-        <title type="sub"> Сцены </title>
-        <author> Максим Горький </author>
+        <title type="sub">Сцены</title>
+        <author key="Wikidata:Q12706">Максим Горький</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -110,7 +110,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Сцены</term>
         </keywords>
       </textClass>
     </profileDesc>

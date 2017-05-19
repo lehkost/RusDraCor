@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Лакейская</title>
-        <title type="sub">PLAYHASNOSUBTITLE</title>
-        <author>Николай Гоголь</author>
+        <title type="sub"/>
+        <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -40,13 +40,15 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Chuzhojlakej">
+          <person xml:id="ChuzhojLakej">
             <persName>Чужой лакей</persName>
           </person>
           <person xml:id="Grigorij">
             <persName>Григорий</persName>
           </person>
-          
+          <person xml:id="GospodinVShube">
+            <persName>Господин в шубе</persName>
+          </person>
           <person xml:id="Gospodin">
             <persName>Господин</persName>
           </person>
@@ -59,10 +61,10 @@
           <person xml:id="Devushka">
             <persName>Девушка</persName>
           </person>
-          <person xml:id="Chuzhojsluga">
+          <person xml:id="ChuzhojSluga">
             <persName>Чужой слуга</persName>
           </person>
-          <person xml:id="Puzatyjdvoretskij">
+          <person xml:id="PuzatyjDvoretskij">
             <persName>Пузатый дворецкий</persName>
           </person>
           <person xml:id="Ivan">
@@ -85,7 +87,6 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who="#GG">changed Gospodinvshube to Gospodin</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -117,7 +118,7 @@
           <speaker>Григорий</speaker>
           <p>. А, московская ворона! Откуда тебя принесло?</p>
         </sp>
-        <sp who="#Chuzhojsluga">
+        <sp who="#ChuzhojSluga">
           <speaker>Чужой слуга</speaker>
           <p>. Ах ты, чухонский сын! Побегал бы ты с мое. Вот </p>
           <stage type="delivery">(подымая узелок) </stage>
@@ -137,7 +138,7 @@
           <speaker>Григорий</speaker>
           <p>. Ну, уж ты, брат, будь теперь штопальница. Уж мы так и звать тебя будем.</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Врешь, а вот же и не штопал никогда.</p>
         </sp>
@@ -146,7 +147,7 @@
           <p>. Да ведь у вас известно: дворовый человек до обеда повар, а после обеда уж он кучер,
             или лакей, или башмаки шьет.</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Ну так что ж, ремесло другому не помешает. Не сидеть же без дела. Конечно, я и лакей,
             да и женский портной вместе. И на барыню шью, и на других тоже — копейку добываю. А вы
@@ -162,7 +163,7 @@
             позавязаны.</p>
         </sp>
         <stage>Смеются.</stage>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Ну ты, смехун, смехун! Что ж из того, что лежишь весь день? Ведь за то ж ни копейки
             за душой у тебя нет.</p>
@@ -173,7 +174,7 @@
             хоть я работай или не работай. А копить мне на старость зачем? Что ж за барин, коли уж
             пенсиона слуге не выдаст за службу?</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Что? говорят, ребята бал затеяли?</p>
         </sp>
@@ -181,7 +182,7 @@
           <speaker>Петр</speaker>
           <p>. Да. А ты будешь?</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Да ведь что ж этот бал! только, чай, слава, что бал.</p>
         </sp>
@@ -192,7 +193,7 @@
             конфект купили, мороженого тоже...</p>
         </sp>
         <stage>Слышен тоненький звонок из барского кабинета.</stage>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Ступай, звонит барин.</p>
         </sp>
@@ -202,7 +203,7 @@
             то уж было...</p>
         </sp>
         <stage>Слышен звонок из кабинета громче прежнего.</stage>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Ступай! ступай! звонит.</p>
         </sp>
@@ -210,7 +211,7 @@
           <speaker>Григорий</speaker>
           <p>. Подождет. Ну, ты сколько даешь?</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Да ведь что ж этот бал, ведь это всё так.</p>
         </sp>
@@ -263,7 +264,7 @@
           <speaker>Барин</speaker>
           <p>. Что скажешь, брат?</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Барыня приказала кланяться и доложить, что будут сегодня к вам.</p>
         </sp>
@@ -271,7 +272,7 @@
           <speaker>Барин</speaker>
           <p>. Зачем, не знаешь?</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Не могу знать. Они только сказали: «Скажи Федору Федоровичу, что я приказала
             кланяться и буду к ним».</p>
@@ -280,7 +281,7 @@
           <speaker>Барин</speaker>
           <p>. Да когда, в котором часу?</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Не могу знать, в котором часу. Они сказали только, что доложи-де, говорит, Федору
             Федоровичу, что я, говорит, к ним сама-де буду у них-с...</p>
@@ -294,7 +295,7 @@
       </div>
       <div type="scene">
         <head>III</head>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <stage type="delivery">(Григорию)</stage>
           <p>. Ну видишь, ведь вот и досталось.</p>
@@ -311,7 +312,7 @@
       </div>
       <div type="scene">
         <head>IV</head>
-        <sp who="#Gospodin">
+        <sp who="#GospodinVShube">
           <speaker>Господин в шубе</speaker>
           <p>. Федор Федорович дома?</p>
         </sp>
@@ -357,7 +358,7 @@
       </div>
       <div type="scene">
         <head>V</head>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Прощайте, братцы, пора уж и мне.</p>
         </sp>
@@ -365,7 +366,7 @@
           <speaker>Григорий</speaker>
           <p>. Да что ж — на бал будешь, что ли?</p>
         </sp>
-        <sp who="#Chuzhojlakej">
+        <sp who="#ChuzhojLakej">
           <speaker>Чужой лакей</speaker>
           <p>. Ну, да уж там посмотрю после. Прощай, Иван!</p>
         </sp>
@@ -412,7 +413,7 @@
       </div>
       <div type="scene">
         <head>VII</head>
-        <sp who="#Puzatyjdvoretskij">
+        <sp who="#PuzatyjDvoretskij">
           <speaker>Пузатый дворецкий</speaker>
           <stage type="delivery">(входит с сильными движениями и размахами рук)</stage>
           <p>. Побоялись бы хоть совести своей, коли Бога не боитесь. Ведь ковры до сих пор не

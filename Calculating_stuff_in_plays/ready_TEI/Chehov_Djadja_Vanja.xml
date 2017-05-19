@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Дядя Ваня</title>
-        <title type="sub"> Сцены из деревенской жизни в четырех действиях </title>
-        <author> Антон Чехов </author>
+        <title type="sub">Сцены из деревенской жизни в четырех действиях</title>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -46,8 +46,8 @@
           <person xml:id="Telegin">
             <persName> Телегин </persName>
           </person>
-          <person xml:id="Efim">
-            <persName> Голос сторожа </persName>
+          <person xml:id="GolosStorozha">
+            <persName> Голос сторожа (Ефим) </persName>
           </person>
           <person xml:id="Rabotnik">
             <persName> Работник </persName>
@@ -74,14 +74,15 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Сцены из деревенской жизни в четырех действиях</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who="#to"> replaced id "#Golosstorozha"  with id "#Efim", which is the name of this storozh</change>
+        <change who="#to">replaced id "#Golosstorozha" with id "#Efim", which is the name of this storozh</change>
+        <change who="#to #ff">reverted id to "#GolosStorozha"</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1665,7 +1666,7 @@
           <stage type="delivery"> (В окно.) </stage>
           <p> Это ты стучишь, Ефим? </p>
         </sp>
-        <sp who="#Efim">
+        <sp who="#GolosStorozha">
           <speaker> Голос сторожа </speaker>
           <p> . Я! </p>
         </sp>
@@ -1673,7 +1674,7 @@
           <speaker> Елена Андреевна </speaker>
           <p> . Не стучи, барин нездоров. </p>
         </sp>
-        <sp who="#Efim">
+        <sp who="#GolosStorozha">
           <speaker> Голос сторожа </speaker>
           <p> . Сейчас уйду! </p>
           <stage type="delivery"> (Подсвистывает.) </stage>

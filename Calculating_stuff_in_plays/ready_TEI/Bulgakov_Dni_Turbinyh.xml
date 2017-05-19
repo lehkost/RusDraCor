@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Дни Турбиных</title>
-        <title type="sub"> Пьеса в четырех действиях </title>
-        <author>Михаил Булгаков</author>
+        <title type="sub">Пьеса в четырех действиях</title>
+        <author key="Wikidata:Q835">Михаил Булгаков</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
@@ -131,7 +131,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Пьеса в четырех действиях</term>
         </keywords>
       </textClass>
     </profileDesc>

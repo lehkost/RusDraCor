@@ -78,7 +78,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle" subtype="tragedy">Трагедия</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -86,7 +86,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
-        <change who="sveta" when="2017-04-24">corrected IDs</change>
+        <change who="#sveta" when="2017-04-24">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

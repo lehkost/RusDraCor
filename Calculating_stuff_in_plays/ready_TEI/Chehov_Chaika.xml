@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Чайка</title>
-        <title type="sub"> Комедия в четырех действиях </title>
-        <author> Антон Чехов </author>
+        <title type="sub">Комедия в четырех действиях</title>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>

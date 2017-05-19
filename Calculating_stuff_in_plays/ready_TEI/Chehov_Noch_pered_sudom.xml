@@ -5,8 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Ночь перед судом</title>
-        <title type="sub">PLAYHASNOSUBTITLE</title>
-        <author>Антон Чехов</author>
+        <title type="sub"/>
+        <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dlina">DLINA</publisher>
