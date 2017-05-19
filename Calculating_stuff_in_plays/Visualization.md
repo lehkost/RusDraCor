@@ -1,7 +1,7 @@
 Drama Analysis
 ================
 Ira Pavlova
-08.05.2017
+May 2017
 
 ### This project is devoted to studying the evolution of Russian drama. The study is based on the Russian Drama Corpus which now contains 49 Russian plays encoded in TEI. The creation time of plays ranges from 1747 to 1925.
 
@@ -36,7 +36,7 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   geom_text(data=BG, label="Boris Godunov", vjust=1) +
   labs(title='Number of characters in Russian drama',
-       x='Number of characters', y='Year of creation')
+       y='Number of characters', x='Year of creation')
 ```
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-2-1.png)
@@ -50,7 +50,7 @@ scenes_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_point() +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   labs(title='Number of scenes/acts in Russian drama',
-       x='Number of scenes/acts', y='Year of creation')
+       y='Number of scenes/acts', x='Year of creation')
 ```
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-3-1.png)
@@ -66,7 +66,7 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
   geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   geom_text(data=BG, label="Boris Godunov") +
   labs(title='Max character degree in Russian drama',
-       x='Max degree', y='Year of creation')
+       y='Max degree', x='Year of creation')
 ```
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-4-1.png)
@@ -89,37 +89,132 @@ head(boris_godunov)
 
 ``` r
 net <- graph_from_data_frame(d=boris_godunov, directed=F)
-class(net)
+net
 ```
 
-    ## [1] "igraph"
+    ## IGRAPH UN-- 75 385 -- 
+    ## + attr: name (v/c), Weight (e/n)
+    ## + edges (vertex names):
+    ##  [1] Bojare        --Malchishka       Plennik       --Samozvanets     
+    ##  [3] Malchishki    --Odin             Muzhiknaamvone--Pushkin         
+    ##  [5] Grigorij      --Pervyjpristav    Nischij       --Odiniznaroda    
+    ##  [7] Schelkalov    --Tretij           Ljah          --Vse             
+    ##  [9] Kurbskij      --Pushkin          Feodor        --Tretij          
+    ## [11] Boris         --Knjazvorotynskij Malchishki    --Drugoj          
+    ## [13] Poet          --Vse              Samozvanets   --Vse             
+    ## [15] Staruha       --Tretij           Jurodivyj     --Tretij          
+    ## + ... omitted several edges
 
 ``` r
 E(net)$weight <- boris_godunov$Weight
 clust <- cluster_optimal(net)
-clust
+modularity(clust)
 ```
 
-    ## IGRAPH clustering optimal, groups: 6, mod: 0.52
-    ## + groups:
-    ##   $`1`
-    ##    [1] "Bojare"        "Malchishki"    "Schelkalov"    "Drugoj"       
-    ##    [5] "Staruha"       "Jurodivyj"     "Chetvertyj"    "Basmanov"     
-    ##    [9] "Malchishka"    "Odiniznih"     "Odin"          "Igumen"       
-    ##   [13] "Bojarin"       "Narod"         "Baba"          "Knjazshujskij"
-    ##   [17] "Pervyjbojarin" "Patriarh"      "Pjatyj"        "Tretij"       
-    ##   [21] "Tsar"          "Odinbojarin"   "Shestoj"      
-    ##   
-    ##   $`2`
-    ##    [1] "Plennik"        "Muzhiknaamvone" "Ljah"           "Kurbskij"      
-    ##   + ... omitted several groups/vertices
+    ## [1] 0.5169897
 
 ``` r
+membership(clust)
+```
+
+    ##           Bojare          Plennik       Malchishki   Muzhiknaamvone 
+    ##                1                2                1                2 
+    ##         Grigorij          Nischij       Schelkalov             Ljah 
+    ##                3                4                1                2 
+    ##         Kurbskij           Feodor            Boris           Drugoj 
+    ##                2                4                4                1 
+    ##             Poet      Samozvanets          Staruha        Jurodivyj 
+    ##                2                2                1                1 
+    ##       Chetvertyj     Semengodunov   Gavrilapushkin         Basmanov 
+    ##                1                4                2                1 
+    ##        Marzheret        Mosalskij         Shujskij            Mamka 
+    ##                5                4                4                4 
+    ##         Hozjajka  Odinizbegletsov       Malchishka        Odiniznih 
+    ##                3                5                1                1 
+    ##          Pristav             Odin          Ksenija     Lzhedimitrij 
+    ##                3                1                4                2 
+    ##           Karela         Hruschov            Voiny           Igumen 
+    ##                2                2                5                1 
+    ##          Bojarin           Pervyj           Marina           Misail 
+    ##                1                3                6                3 
+    ##            Narod      Odinpristav         Dimitrij    Drugojpristav 
+    ##                1                3                5                3 
+    ##             Baba           Poljak          Varlaam    Knjazshujskij 
+    ##                1                2                3                1 
+    ##             Dama          Strazha    Pervyjbojarin            Ljahi 
+    ##                6                4                1                5 
+    ##           Nemtsy          Malchik          Kavaler         Pristavy 
+    ##                5                4                6                3 
+    ##         Patriarh           Pjatyj    Pervyjpristav          Pushkin 
+    ##                1                1                3                2 
+    ##           Tretij          Mnishek             Tsar            Pater 
+    ##                1                6                1                2 
+    ##      Odinbojarin     Odiniznaroda           Vtoroj Knjazvorotynskij 
+    ##                1                4                3                4 
+    ##          Shestoj              Vse           Vrozen    Vtorojpristav 
+    ##                1                2                5                3 
+    ##      Vorotynskij    Vishnevetskij            Pimen 
+    ##                4                6                3
+
+``` r
+E(net)$weight > 1
+```
+
+    ##   [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE
+    ##  [12] FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ##  [23] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE
+    ##  [34] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ##  [45] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ##  [56] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ##  [67] FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE
+    ##  [78] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE
+    ##  [89] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE FALSE  TRUE FALSE
+    ## [100] FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [111] FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
+    ## [122] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [133] FALSE FALSE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [144] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE
+    ## [155]  TRUE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
+    ## [166] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [177] FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
+    ## [188] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [199]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
+    ## [210] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
+    ## [221] FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [232] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [243] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [254] FALSE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [265] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE
+    ## [276] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE
+    ## [287] FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
+    ## [298] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [309] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
+    ## [320] FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [331] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [342] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [353] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [364] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [375] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE
+
+``` r
+# prettyColors <- c("turquoise4", "azure4", "olivedrab","deeppink4")
+# communityColors <- prettyColors[membership(clust)]
+
+layout = layout.fruchterman.reingold(net)
+
+layout=layout.kamada.kawai(net, kkconst=50)
+
+# vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
+
 plot(net,
      vertex.size=3,
      edge.arrow.size=.6,
      vertex.label=V(net)$name,
-     edge.width=E(net)$weight)
+     edge.width=E(net)$weight*0.5,
+     layout=layout.graphopt,
+     vertex.label.color = "black",
+     vertex.label.cex = 0.5,
+     vertex.color = membership(clust))
 ```
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-5-1.png)

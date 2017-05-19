@@ -50,6 +50,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#GG">checked, it ok, but looks strange, lines are not separated</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
