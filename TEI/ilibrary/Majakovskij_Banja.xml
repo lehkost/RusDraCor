@@ -32,7 +32,7 @@
       <title>В. В. Маяковский. Полное собрание сочинений. В 13-ти тт. Т. 11. М.: Гослитиздат,
        1958.</title>
       <date type="print">1958</date>
-      <date type="premiere"/>
+      <date type="premiere" when="1930">30 января 1930 года в Драматическом театре Государственного народного дома в Ленинграде, постановка - Владимир Люце (Театральная энциклопедия (под ред. С. С. Мокульского))</date>
       <date type="written" notBefore="1929" notAfter="1930">1929 – 1930</date>
      </bibl>
     </bibl>
@@ -71,9 +71,6 @@
      <person xml:id="Pobedonosikov">
       <persName> Победоносиков </persName>
      </person>
-     <person xml:id="unknown_speaker">
-      <persName>unknown_speaker</persName>
-     </person>
      <person xml:id="Mezaljansova">
       <persName> Мезальянсова </persName>
      </person>
@@ -103,9 +100,6 @@
      </person>
      <person xml:id="Kapeldiner">
       <persName> Капельдинер </persName>
-     </person>
-     <person xml:id="MashinistkaUnderton">
-      <persName> Машинистка Ундертон </persName>
      </person>
      <person xml:id="Momentalnikov">
       <persName> Моментальников </persName>
@@ -540,7 +534,7 @@
      </p>
     </sp>
     <stage> Входят Фоскин , Двойкин и Тройкин . </stage>
-    <sp who="#unknown_speaker">
+    <sp who="#Velosipedkin">
      <speaker>unknown_speaker</speaker>
      <p> Готово? </p>
     </sp>
@@ -584,9 +578,6 @@
       не убить идущее оттуда, нужны люди и деньги... Много! Надо немедля вынести опыт возможно выше,
       на самый пустой простор. Если мне не помогут, я на собственной спине выжму эту махину. Но
       завтра всё будет решено. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Товарищи, вы со мной! </p>
     </sp>
     <stage> Бросаются к двери. </stage>
@@ -684,7 +675,7 @@
       то, сё... </p>
     </sp>
     <stage> Вбегают Чудаков и Велосипедкин . </stage>
-    <sp who="#unknown_speaker">
+    <sp who="#Optimistenko">
      <speaker>unknown_speaker</speaker>
      <p> О! А вы ж куда ж? </p>
     </sp>
@@ -737,7 +728,7 @@
       ваше дело. Раз — в руках полная резолюция — вот, вот! </p>
     </sp>
     <stage> Все втыкаются. </stage>
-    <sp who="#unknown_speaker">
+    <sp who="#Optimistenko">
      <speaker>unknown_speaker</speaker>
      <p> Я ж говорил — полное решение. Вот! От-ка-зать. </p>
     </sp>
@@ -759,7 +750,7 @@
      <stage type="delivery"> (Звонок по телефону. В телефон.) </stage>
      <p> Да, да, да. Нету? На чем мы остановились? </p>
     </sp>
-    <sp who="#MashinistkaUnderton">
+    <sp who="#Underton">
      <speaker> Машинистка Ундертон </speaker>
      <p> На «Итак, товарищи...» </p>
     </sp>
@@ -832,11 +823,7 @@
      <p> Ночкина — к товарищу Победоносикову! </p>
     </sp>
     <stage> Отстраняясь от бросившихся к нему Чудакова и Велосипедкина, к дверям Победоносикова
-     трусит рысцой Hочкин . </stage>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
-     <p> Кабинет Победоносикова. </p>
-    </sp>
+     трусит рысцой Hочкин. Кабинет Победоносикова. </stage>
     <stage> (крутя и дуя в вертушку) </stage>
     <sp who="#Pobedonosikov">
      <speaker> Победоносиков </speaker>
@@ -872,7 +859,7 @@
       Попрошу-с сегодня же... </p>
     </sp>
     <stage> Входит Бельведонский </stage>
-    <sp who="#unknown_speaker">
+    <sp who="#Pobedonosikov">
      <speaker>unknown_speaker</speaker>
      <p> Здравствуйте, здравствуйте, товарищ Бельведонский! Задание выполнено? В ударном порядке?
      </p>
@@ -1107,7 +1094,7 @@
       персонала. </p>
     </sp>
     <stage> Входит Мезальянсова . Снова рванулись Чудаков и Велосипедкин. </stage>
-    <sp who="#unknown_speaker">
+    <sp who="#Optimistenko">
      <speaker>unknown_speaker</speaker>
      <p> Нет, нет... Вне очереди, согласно телефонограмме... </p>
      <stage type="delivery"> (Проводит под ручку, выговаривая.) </stage>
@@ -1343,99 +1330,42 @@
      <p> Ну, если вам это нравится, здесь горизонты фантазии необъятны. Мы можем дать прямо
       символистическую картину из всех наличных актерских кадров. </p>
      <stage type="delivery"> (Хлопает в ладоши.) </stage>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Свободный мужской персонал — на сцену! Станьте на одно колено и согнитесь с порабощенным
       видом. Сбивайте невидимой киркой видимой рукой невидимый уголь. Лица, лица мрачнее... Темные
       силы вас злобно гнетут. Хорошо! Пошло́!.. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Вы будете капитал. Станьте сюда, товарищ капитал. Танцуйте над всеми с видом классового
       господства. Воображаемую даму обнимайте невидимой рукой и пейте воображаемое шампанское.
       Пошло́! Хорошо! Продолжайте! Свободный женский состав — на сцену! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Вы будете — свобода, у вас обращение подходящее. Вы будете — равенство, значит, всё равно,
       кому играть. А вы — братство, — другие чувства вы всё равно не вызовете. Приготовились! Пошли!
       Подымайте воображаемым призывом воображаемые массы. Заражайте, заражайте всех энтузиазмом! Что
       вы делаете? ! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Выше вздымайте ногу, симулируя воображаемый подъем. Капитал, подтанцовывайте налево с видом
       Второго интернационала. Чего руками размахались! Протягивайте щупальцы империализма... Нет
       щупальцев? Тогда нечего лезть в актеры. Протягивайте что хотите. Соблазняйте воображаемым
       богатством танцующих дам. Дамы, отказывайтесь резким движением левой руки. Так, так, так!
       Воображаемые рабочие массы, восстаньте символистически! Капитал, красиво падайте! Хорошо! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Капитал, издыхайте эффектно! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Дайте красочные судороги! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Превосходно! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Мужской свободный состав, сбрасывайте воображаемые оковы, вздымайтесь к символу солнца.
       Размахивайте победоносно руками. Свобода, равенство и братство, симулируйте железную поступь
       рабочих когорт. Ставьте якобы рабочие ноги на якобы свергнутый якобы капитал. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Свобода, равенство и братство, делайте улыбку, как будто радуетесь. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Свободный мужской состав, притворитесь, что вы — «кто был ничем», и вообразите, что вы —
       «тот станет всем». Взбирайтесь на плечи друг друга, отображая рост социалистического
       соревнования. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Хорошо! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Постройте башню из якобы могучих тел, олицетворяя в пластическом образе символ коммунизма.
      </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Размахивайте свободной рукой с воображаемым молотом в такт свободной стране, давая
       почувствовать пафос борьбы. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Оркестр, подбавьте в музыку индустриального грохота. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Так! Хорошо! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Свободный женский состав — на сцену! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Увивайте воображаемыми гирляндами работников вселенной великой армии труда, символизируя
       цветы счастья, расцветшие при социализме. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Хорошо! Извольте! Готово! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Отдохновенная пантомима на тему — </p>
     </sp>
     <sp who="#Pobedonosikov">
@@ -1543,9 +1473,6 @@
      <speaker> Победоносиков </speaker>
      <p> Пускай заходит кто угодно, и не ко мне, а к моему заместителю. Если в приказе объявлено о
       моем отпуске, значит меня нет. Надо понимать конструкцию нашей конституции. </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Это безобразие! </p>
     </sp>
     <stage> (к Ивану Ивановичу) </stage>
@@ -1582,9 +1509,6 @@
     <sp who="#Rezhisser">
      <speaker> Режиссер </speaker>
      <p> Что вы наделали? Вы чуть не сорвали весь спектакль. Пожалте на сцену! </p>
-    </sp>
-    <sp who="#unknown_speaker">
-     <speaker>unknown_speaker</speaker>
      <p> Пьеса продолжается! </p>
     </sp>
    </div>
