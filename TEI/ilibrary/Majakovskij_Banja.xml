@@ -535,7 +535,6 @@
     </sp>
     <stage> Входят Фоскин , Двойкин и Тройкин . </stage>
     <sp who="#Velosipedkin">
-     <speaker>unknown_speaker</speaker>
      <p> Готово? </p>
     </sp>
     <sp who="#Foskin">
@@ -676,7 +675,6 @@
     </sp>
     <stage> Вбегают Чудаков и Велосипедкин . </stage>
     <sp who="#Optimistenko">
-     <speaker>unknown_speaker</speaker>
      <p> О! А вы ж куда ж? </p>
     </sp>
     <stage> (пытаясь отстранить Оптимистенко) </stage>
@@ -729,7 +727,6 @@
     </sp>
     <stage> Все втыкаются. </stage>
     <sp who="#Optimistenko">
-     <speaker>unknown_speaker</speaker>
      <p> Я ж говорил — полное решение. Вот! От-ка-зать. </p>
     </sp>
     <stage> Первый план тухнет. Внутренность кабинета. </stage>
@@ -860,7 +857,6 @@
     </sp>
     <stage> Входит Бельведонский </stage>
     <sp who="#Pobedonosikov">
-     <speaker>unknown_speaker</speaker>
      <p> Здравствуйте, здравствуйте, товарищ Бельведонский! Задание выполнено? В ударном порядке?
      </p>
     </sp>
@@ -1095,7 +1091,6 @@
     </sp>
     <stage> Входит Мезальянсова . Снова рванулись Чудаков и Велосипедкин. </stage>
     <sp who="#Optimistenko">
-     <speaker>unknown_speaker</speaker>
      <p> Нет, нет... Вне очереди, согласно телефонограмме... </p>
      <stage type="delivery"> (Проводит под ручку, выговаривая.) </stage>
      <p> Всё готово... А як же ж. Я ему рассказал со значением, что супруга его по комсомольцам
