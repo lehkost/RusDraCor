@@ -135,6 +135,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#ff #to"> camel case, checked IDs </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
