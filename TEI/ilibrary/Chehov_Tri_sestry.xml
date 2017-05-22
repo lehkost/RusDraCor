@@ -93,6 +93,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who = "#to"> checked IDs, corrected errors in tags</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -825,10 +826,12 @@
           <p> . И вот ту рамочку, что над пианино, он тоже сделал. </p>
         </sp>
         <stage> Андрей машет рукой и отходит. </stage>
-        <sp who="#Andrej">
+        <sp who="#Olga">
           <speaker> Ольга </speaker>
           <p> . Он у нас и ученый, и на скрипке играет, и выпиливает разные штучки, одним словом,
             мастер на все руки. </p>
+        </sp>
+        <sp who="#Andrej">
           <speaker> Андрей </speaker>
           <p> , не уходи! У него манера  всегда уходить. Поди сюда! </p>
         </sp>
