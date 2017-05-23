@@ -53,9 +53,6 @@
           <person xml:id="Zhid">
             <persName>Жид</persName>
           </person>
-          <person xml:id="unknown_speaker">
-            <persName>unknown_speaker</persName>
-          </person>
           <person xml:id="Ivan">
             <persName>Иван</persName>
           </person>
@@ -70,6 +67,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="ds" when="2017-05-23">removed 'unknown speaker'</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

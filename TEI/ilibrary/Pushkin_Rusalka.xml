@@ -106,6 +106,7 @@
     <revisionDesc>
       <listChange>
         <change who="zhenya" when="2017-05-16">corrected IDs and added dates</change>
+        <change who="ds" when="2017-05-23">removed 'unknown speaker'</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -378,10 +379,7 @@
             <l>Постой, теперь я понимаю все...</l>
             <l>Ты женишься.</l>
           </lg>
-        </sp>
-        <stage>Князь молчит.</stage>
-        <sp who="#Doch-rusalka">
-          <speaker>unknown_speaker</speaker>
+          <stage>Князь молчит.</stage>
           <lg>
             <l>                        Ты женишься!..</l>
           </lg>
@@ -401,10 +399,7 @@
             <l>Возьми его. Да вот еще: отцу</l>
             <l>Я это посулил. Отдай ему.</l>
           </lg>
-        </sp>
-        <stage type="delivery"> (Дает ей в руки мешок с золотом.)</stage>
-        <sp who="#Knjaz">
-          <speaker>unknown_speaker</speaker>
+          <stage type="delivery"> (Дает ей в руки мешок с золотом.)</stage>
           <lg>
             <l>Прощай.</l>
           </lg>
@@ -443,10 +438,7 @@
             <l>Вас навестить. Утешься, не крушися.</l>
             <l>Дай обниму тебя в последний раз.</l>
           </lg>
-        </sp>
-        <stage type="delivery">(Уходя.)</stage>
-        <sp who="#Knjaz">
-          <speaker>unknown_speaker</speaker>
+          <stage type="delivery">(Уходя.)</stage>
           <lg>
             <l>Ух! кончено — душе как будто легче.</l>
             <l>Я бури ждал, но дело обошлось</l>
@@ -637,10 +629,7 @@
             <l>Ото всего, чем прежде дорожила.</l>
             <l>Мы развенчались. — Сгинь ты, мой венец!</l>
           </lg>
-        </sp>
-        <stage type="delivery">(Бросает повязку в Днепр.)</stage>
-        <sp who="#Doch-rusalka">
-          <speaker>unknown_speaker</speaker>
+          <stage type="delivery">(Бросает повязку в Днепр.)</stage>
           <lg>
             <l>Теперь все кончено.</l>
           </lg>
@@ -738,10 +727,7 @@
           <lg>
             <l>Я знаю кто.</l>
           </lg>
-        </sp>
-        <stage type="delivery">(Встает из-за стола и говорит тихо конюшему.)</stage>
-        <sp who="#Knjaz">
-          <speaker>unknown_speaker</speaker>
+          <stage type="delivery">(Встает из-за стола и говорит тихо конюшему.)</stage>
           <lg>
             <l>                        Она сюда прокралась.</l>
             <l>Скорее выведи ее. Да сведай,</l>
@@ -786,10 +772,7 @@
           <lg>
             <l>Она! вот крик ее ревнивый.</l>
           </lg>
-        </sp>
-        <stage type="delivery">(Конюшему.)</stage>
-        <sp who="#Knjaz">
-          <speaker>unknown_speaker</speaker>
+          <stage type="delivery">(Конюшему.)</stage>
           <lg>
             <l>                                                Что?</l>
           </lg>
@@ -954,10 +937,7 @@
             <l>A! полон двор охотниками. Муж</l>
             <l>Домой приехал. Что ж его не видно?</l>
           </lg>
-        </sp>
-        <stage>Входит ловчий.</stage>
-        <sp who="#Knjaginja">
-          <speaker>unknown_speaker</speaker>
+          <stage>Входит ловчий.</stage>
           <lg>
             <l>Что князь, где он?</l>
           </lg>
@@ -990,10 +970,7 @@
             <l>Сейчас назад, сейчас к нему скачите!</l>
             <l>Сказать ему, что я прислала вас.</l>
           </lg>
-        </sp>
-        <stage>Ловчий уходит.</stage>
-        <sp who="#Knjaginja">
-          <speaker>unknown_speaker</speaker>
+          <stage>Ловчий уходит.</stage>
           <lg>
             <l>Ах боже мой! в лесу ночной порою</l>
             <l>И дикий зверь, и лютый человек,</l>
@@ -1059,10 +1036,7 @@
             <l>Обняв меня, поникла и умолкла...</l>
             <l>Возможно ли?..</l>
           </lg>
-        </sp>
-        <stage>Идет к деревьям, листья сыплются.</stage>
-        <sp who="#Knjaz">
-          <speaker>unknown_speaker</speaker>
+          <stage>Идет к деревьям, листья сыплются.</stage>
           <lg>
             <l>                        Что это значит? листья,</l>
             <l>Поблекнув, вдруг свернулися и с шумом</l>
@@ -1299,10 +1273,7 @@
             <l>Травой и тиной, ни ребенка в воду</l>
             <l>Заманивать рассказами о рыбках.</l>
           </lg>
-        </sp>
-        <stage>Входит русалочка.</stage>
-        <sp who="#Doch-rusalka">
-          <speaker>unknown_speaker</speaker>
+          <stage>Входит русалочка.</stage>
           <lg>
             <l>Где ты была?</l>
           </lg>
@@ -1362,10 +1333,7 @@
           <lg>
             <l>                    Ступай же.</l>
           </lg>
-        </sp>
-        <stage type="delivery">(Одна.)</stage>
-        <sp who="#Doch-rusalka">
-          <speaker>unknown_speaker</speaker>
+          <stage type="delivery">(Одна.)</stage>
           <lg>
             <l>                                        С той поры,</l>
             <l>Как бросилась без памяти я в воду</l>
@@ -1396,10 +1364,7 @@
             <l>И согласится он оставить лес</l>
             <l>И к нам переселиться...</l>
           </lg>
-        </sp>
-        <stage> Русалочка выходит на берег.</stage>
-        <sp who="#Knjaz">
-          <speaker>unknown_speaker</speaker>
+          <stage> Русалочка выходит на берег.</stage>
           <lg>
             <l>                                        Что я вижу!</l>
             <l>Откуда ты, прекрасное дитя?</l>
