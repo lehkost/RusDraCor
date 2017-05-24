@@ -30,9 +30,12 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
+            <date type="print" when="1914">"Впервые — в книге: На большой дороге. Драматический этюд
+              в одном действии. А. Чехонте. // «Слово». Сборник второй. К десятилетию смерти А. П.
+              Чехова. Под редакцией М. П. Чеховой. — М.: Книгоиздательство писателей в Москве, 1914.
+              — С. 8—36" (Wikisource)</date>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1884">"осень 1884" (Wikisource)</date>
           </bibl>
         </bibl>
       </sourceDesc>
