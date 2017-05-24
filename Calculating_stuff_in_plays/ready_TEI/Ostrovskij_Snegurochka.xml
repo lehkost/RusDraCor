@@ -193,6 +193,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="ds" when="2017-05-23">removed 'unknown speaker'</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1664,7 +1665,6 @@
               <l> Откуда взял, скажу, что ты дала. </l>
             </lg>
             <stage type="delivery"> (Поет.) </stage>
-            <speaker>unknown_speaker</speaker>
             <lg>
               <l> Земляничка-ягодка </l>
               <l> Под кусточком выросла; </l>
@@ -2072,9 +2072,7 @@
               <l> Не жаль для вас ни гривны, ни полтины, </l>
               <l> Не жаль рубля девицам подарить. </l>
             </lg>
-
             <stage type="delivery"> (Берет у слуги из мешка деньги и раздает девушкам.) </stage>
-            <speaker>unknown_speaker</speaker>
             <lg>
               <l> Орехов вам и пряников печатных </l>
               <l> Корабль пришел. </l>
@@ -4075,10 +4073,7 @@
               <l> Игру свою, что два года учили </l>
               <l> Тишком от всех, в овинах хоронясь. </l>
             </lg>
-          </sp>
-          <sp who="#unknown_speaker">
             <stage type="delivery"> (Поет песню, а Курилка представляет бобра.) </stage>
-            <speaker>unknown_speaker</speaker>
             <lg>
               <l> Купался бобер, </l>
               <l> Купался черно́й, </l>
@@ -4109,10 +4104,7 @@
               <l> Опушки бобровы. </l>
               <l> Ай, лели-лели! </l>
             </lg>
-          </sp>
-          <sp who="#unknown_speaker">
             <stage type="delivery"> (Перестает петь.) </stage>
-            <speaker>unknown_speaker</speaker>
             <lg>
               <l> Не ладно, что ль, пропето? </l>
             </lg>
@@ -4169,10 +4161,7 @@
               <l> Куда она девалась-запропала? </l>
               <l> Купавушка! Да не она ли? </l>
             </lg>
-          </sp>
-          <sp who="#unknown_speaker">
             <stage type="delivery"> (Подходит к Снегурочке.) </stage>
-            <speaker>unknown_speaker</speaker>
             <lg>
               <l> Нет, </l>
               <l> Снегурочка, одна, в слезах. О чем </l>
@@ -4419,10 +4408,9 @@
               <l> Сплести себе из тонких гибких веток; </l>
               <l> Вплету туда цветочки-василечки. </l>
             </lg>
-          </sp>
-          <sp who="#unknown_speaker">
+
             <stage type="delivery"> (В задумчивости запевает.) </stage>
-            <speaker>unknown_speaker</speaker>
+
             <lg>
               <l> Ах, цветочки-василечки! </l>
             </lg>
@@ -4700,10 +4688,7 @@
               <l> Пригожему, закрыв глаза, без страха </l>
               <l> Холодного, себя вверяю. </l>
             </lg>
-          </sp>
-          <sp who="#unknown_speaker">
             <stage type="delivery"> (Зажмурясь, ложится на грудь Лелю.) </stage>
-            <speaker>unknown_speaker</speaker>
             <lg>
               <l> Сладко </l>
               <l> В объятиях твоих лежать и млеть. </l>
@@ -4848,10 +4833,7 @@
               <l> С рассветом дня вступает бог-Ярило </l>
               <l> В свои права и начинает лето. </l>
             </lg>
-          </sp>
-          <sp who="#unknown_speaker">
             <stage type="delivery"> (Подходит к Снегурочке.) </stage>
-            <speaker>unknown_speaker</speaker>
             <lg>
               <l> Чего тебе недостает? </l>
             </lg>

@@ -80,9 +80,6 @@
           <person xml:id="DonaAnna">
             <persName>Дона Анна</persName>
           </person>
-          <person xml:id="unknown_speaker">
-            <persName>unknown_speaker</persName>
-          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -94,6 +91,7 @@
     <revisionDesc>
       <listChange>
         <change who="zhenya" when="2017-05-16">changed IDs and date</change>
+        <change who="ds" when="2017-05-23">removed 'unknown speaker'</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -729,9 +727,6 @@
             <l>                                                Счастливец!</l>
             <l>Так ты его любила.</l>
           </lg>
-        </sp>
-        <sp who="#DonKarlos">
-          <speaker>unknown_speaker</speaker>
           <stage>Лаура делает утвердительно знак.</stage>
           <lg>
             <l>                                Очень?</l>
@@ -862,9 +857,6 @@
           <lg>
             <l>                        Лаура, милый друг!..</l>
           </lg>
-        </sp>
-        <sp who="#DonGuan">
-          <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Целует ее.)</stage>
           <lg>
             <l>Кто у тебя, моя Лаура?</l>
@@ -1550,9 +1542,6 @@
             <l>Прийти попозже в дом супруги вашей</l>
             <l>И стать у двери...</l>
           </lg>
-        </sp>
-        <sp who="#Leporello">
-          <speaker>unknown_speaker</speaker>
           <stage>Статуя кивает головой в знак согласия.</stage>
           <lg>
             <l>                            Ай!</l>
@@ -1614,18 +1603,12 @@
           <lg>
             <l>                        Ну смотри ж, бездельник.</l>
           </lg>
-        </sp>
-        <sp who="#DonGuan">
-          <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Статуе.)</stage>
           <lg>
             <l>Я, командор, прошу тебя прийти</l>
             <l>К твоей вдове, где завтра буду я,</l>
             <l>И стать на стороже в дверях. Что? будешь?</l>
           </lg>
-        </sp>
-        <sp who="#DonGuan">
-          <speaker>unknown_speaker</speaker>
           <stage>Статуя кивает опять.</stage>
           <lg>
             <l>О боже!</l>
@@ -1952,9 +1935,6 @@
           <lg>
             <l>                                     Оставь меня!</l>
           </lg>
-        </sp>
-        <sp who="#DonaAnna">
-          <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Слабо.)</stage>
           <lg>
             <l>О, ты мне враг — ты отнял у меня</l>
@@ -2132,9 +2112,6 @@
           <lg>
             <l>Прощай же, до свиданья, друг мой милый.</l>
           </lg>
-        </sp>
-        <sp who="#DonGuan">
-          <speaker>unknown_speaker</speaker>
           <stage type="delivery">(Уходит и вбегает опять.)</stage>
           <lg>
             <l>А!..</l>

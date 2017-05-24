@@ -1,4 +1,4 @@
 Source;Type;Target;Weight
-Popova;Undirected;Smirnov;4
 Luka;Undirected;Popova;5
+Popova;Undirected;Smirnov;4
 Luka;Undirected;Smirnov;4
