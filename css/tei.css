@@ -958,7 +958,7 @@ speaker{
 }
 sp:before{
   background-color: orange;
-  content: "id:" attr(who) " ";
+  content: attr(who) " ";
 }
 sponsor{
   display: block;
