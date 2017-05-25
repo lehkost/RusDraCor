@@ -72,7 +72,7 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change who="#ds">converted from source</change>
+        <change who="#zhenya">changed ids, added date</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
