@@ -83,20 +83,30 @@ for(input in csv_list){
               directed =FALSE, fontsize = 3, ealpha = 0.5)
             
             ggsave(paste(output,".png"),
-                   path= '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs')
+                   path= '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/ggplot')
             
                             }
 ```
 
 ### Making network visualization (igraph)
-"```{r}
+```{r}
+csv_list<-list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/ready_CSV',full.names=T)
+
+for(input in csv_list){
+            output <- file_path_sans_ext(basename(file.path(input)))
+            print(output)
+            play <- read.csv(input, sep = ";")
+            play <- play[, c(1, 3, 4)]
+            play
 net <- graph_from_data_frame(d=play, directed=F)
 E(net)$weight <- play$Weight
-net <- network(play, directed=FALSE)
+# net <- network(play, directed=FALSE)
 
 clust <- cluster_optimal(net)
 modularity(clust)
 membership(clust)
+
+net
 
 E(net)$weight > 1
 
@@ -109,6 +119,8 @@ layout=layout.kamada.kawai(net, kkconst=50)
 
 # vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
 
+png(paste('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/igraph/', output, '.png', sep=''))
+
 plot(net,
      vertex.size=3,
      edge.arrow.size=.6,
@@ -118,8 +130,11 @@ plot(net,
      vertex.label.color = "black",
      vertex.label.cex = 0.5,
      vertex.color = membership(clust))
+     
+dev.off()
+}
 
-```"
+```
 
 ### Notes
 # 1. Keep CamelCase when tranforming TEI to CSV

@@ -13,7 +13,7 @@ years = csv.DictReader(years, delimiter=',')
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,\n')
+table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,Genre,\n')
 
 
 def write_filename(file):
@@ -123,6 +123,15 @@ def max_degree(file):
         return 'empty weights'
 
 
+def genre(file):
+    tei = open(file).read()
+    genre = re.findall('<term type="genreTitle">(.*?)</term>', tei)
+    if len(genre) != 0:
+        return genre[0]
+    else:
+        return 'NONE'
+
+
 data = list()
 for file in os.listdir(tei_path):
     if file.endswith('.xml'):
@@ -135,6 +144,7 @@ for file in os.listdir(tei_path):
         data_f.append(num_of_char(tei_path + file))
         data_f.append(max_weight(csv_path + file_name + '.csv'))
         data_f.append(max_degree(csv_path + file_name + '.csv'))
+        data_f.append(genre(tei_path + file))
         data.append(data_f)
 
 for d in data:
