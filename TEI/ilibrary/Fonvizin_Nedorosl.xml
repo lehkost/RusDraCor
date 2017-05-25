@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1783">Напечатана в Санкт-Петербургской вольной типографии у г. Шнора 1783 г. ("Драматический словарь", 1787 г.) (http://www.literaturus.ru/2016/06/istorija-sozdanija-nedorosl-fonvizin.html)</date>
+            <date type="premiere" when="1782">24 сентября 1782 года в Вольном российском театре на Цырицыном лугу (http://www.literaturus.ru/2016/06/istorija-sozdanija-nedorosl-fonvizin.html)</date>
+            <date type="written" when="1781">Источник: История русской драматургии. Т. 1. С. 140</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -96,6 +96,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#sveta">checked IDs, added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

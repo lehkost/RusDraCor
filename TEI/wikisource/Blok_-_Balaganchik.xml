@@ -30,10 +30,10 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1906">апрель 1906, альманах "Факелы"</date>
+            <date type="print" when="1906">апрель 1906, альманах "Факелы" (Библиотека всемирной литературы. Т. 138. М., 1968) </date>
             <date type="premiere" when="1906">30 декабря 1906, Драматический театр В. Ф.
-              Комиссаржевской</date>
-            <date type="written" when="1906">январь 1906</date>
+              Комиссаржевской (Библиотека всемирной литературы. Т. 138. М., 1968)</date>
+            <date type="written" when="1906">январь 1906 (Библиотека всемирной литературы. Т. 138. М., 1968)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -101,8 +101,8 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
-        <change who="#sveta" when="2017-04-14">corrected IDs, added print and premiere
-          dates</change>
+        <change who="#sveta" when="2017-04-14">corrected IDs, added print and premiere dates</change>
+        <change who="#sveta" when="2017-05-25">added segmentation, added sources for the dates</change>      
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -180,6 +180,8 @@
           <stage>Пьеро размечтался и оживился. Но из-за занавеса сбоку вылезает обеспокоенный
             автор.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#Avtor">
           <speaker>Автор</speaker>
           <p>Что он говорит? Почтеннейшая публика! Спешу уверить, что этот актер жестоко насмеялся
@@ -188,6 +190,8 @@
           <stage>Внезапно застыдившись своего неожиданного появления, прячется обратно за
             занавес.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#Pero">
           <speaker>Пьеро</speaker>
           <stage type="delivery">(Он не обратил внимания на автора. Сидит и мечтательно
@@ -367,6 +371,8 @@
             пустые сюртуки. Вдруг Пьеро вскочил и убежал. Занавес сдвигается. В ту же минуту на
             подмостки перед занавесом выскакивает взъерошенный и взволнованный автор.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#Avtor">
           <speaker>Автор</speaker>
           <p>Милостивые государи и государыни! Я глубоко извиняюсь перед вами, но снимаю с себя
@@ -382,6 +388,8 @@
             них прогуливаются другие маски, рыцари, дамы, паяцы. Грустный Пьеро сидит среди сцены на
             той скамье, где обыкновенно целуются Венера и Тангейзер.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#Pero">
           <speaker>Пьеро</speaker>
           <l>Я стоял меж двумя фонарями</l>
@@ -424,6 +432,8 @@
             влюбленных. Он в голубом, она в розовом, маски — цвета одежд. Они вообразили себя в
             церкви и смотрят вверх, в купола.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#Ona_1">
           <speaker>Она</speaker>
           <l>Милый, ты шепчешь — «склонись…»</l>
@@ -468,6 +478,8 @@
             Движения стремительны. Он гонится за ней, то настигая, то обгоняя ее. Вихрь
             плащей.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#On_2">
           <speaker>Он</speaker>
           <l>Оставь меня! Не мучь, не преследуй!</l>
@@ -523,6 +535,8 @@
             большой и задумчивый, в картонном шлеме,- чертит перед ней на полу круг огромным
             деревянным мечом.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#On_3">
           <speaker>Он</speaker>
           <p>Вы понимаете пьесу, в которой мы играем не последнюю роль? </p>
@@ -651,6 +665,8 @@
             который беспомощно лежит на пустой сцене в белом балахоне своем с красными пуговицами.
             Заметив свое положение, автор убегает стремительно.</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#Pero">
           <speaker>Пьеро</speaker>
           <stage type="delivery">(приподнимается и говорит жалобно и мечтательно)</stage>

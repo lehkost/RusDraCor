@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print"/>
+            <date type="print" when="1907">в апреле 1907 напечатана в №4 московского журнала "Золотое Руно" (teatr-lib.ru/Library/Volkov/Blok/)</date>
             <date type="premiere"/>
-            <date type="written" when="1906">10 октября 1906</date>
+            <date type="written" when="1906">летом 1906 (teatr-lib.ru/Library/Volkov/Blok/)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -44,7 +44,7 @@
             <persName>Зодчий</persName>
           </person>
           <person xml:id="DochZodchego">
-            <persName>Дочь Зодчего, Она</persName>
+            <persName>Дочь Зодчего</persName>
           </person>
           <person xml:id="Poet">
             <persName>Поэт</persName>
@@ -53,10 +53,10 @@
             <persName>Шут</persName>
           </person>
           <person xml:id="GolosaVTolpe">
-            <persName>Голоса, Голоса в толпе, Отдельные померкшие голоса, Многие голоса, Другие голоса</persName>
+            <persName>Голоса в толпе</persName>
           </person>
           <person xml:id="ObydennyjGolos">
-            <persName>Чей-то голос, Тот же обыденный голос</persName>
+            <persName>Тот же обыденный голос</persName>
           </person>
           <person xml:id="PervyjRabochij_1">
             <persName>Первый рабочий</persName>
@@ -140,6 +140,7 @@
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
         <change who="#sveta" when="2017-04-22">corrected IDs, added the "written" date, established more comprehensible order of IDs</change>
+        <change who="#sveta" when="2017-05-26">added segmentation, dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -217,6 +218,7 @@
         <stage>Ночь борется с утром. Над берегом чуть видны в сумерках двое неизвестных. Первый — в
           черном — прислонился к белому камню дворца. Другой сидит на берегу. Третьего не видно: он
           где-то близко, и слышен только его голос — прерывистый и зловещий.</stage>
+        <div type="configuration">
         <sp who="#PervyjNeizvestnyj">
           <speaker>Первый</speaker>
           <p>Вот и день забелел.</p>
@@ -494,6 +496,8 @@
           <stage>На площади перед дворцом начинается гулянье. Проходят взад и вперед несколько
             франтов. Идут двое запоздалых рабочих.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#PervyjRabochij_1">
           <speaker>Первый рабочий</speaker>
           <p>Работа началась. Иди скорей.</p>
@@ -505,6 +509,8 @@
           <stage>Торопливо проходят. Ветер гонит струйки пыли. Бледная женщина продает розы.</stage>
           <stage>Невдалеке от нее останавливаются Юноша и Девушка.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Devushka">
           <speaker>Девушка</speaker>
           <l>Взоры свои к небесам подними.</l>
@@ -585,6 +591,8 @@
           <p>Голодная! — Утро погибло.</p>
           <stage>Наверху встречаются два франта.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#PervyjFrant">
           <speaker>Первый</speaker>
           <p>Скажите, отчего, в самом деле, так ждут этих кораблей?</p>
@@ -611,6 +619,8 @@
           <p>Пора бы рассеять все эти толки энергичными мерами. Правительство…</p>
           <stage>Проходят.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Devushka">
           <speaker>Девушка</speaker>
           <l>Как жалки отрывки сытых речей!</l>
@@ -644,6 +654,7 @@
         </sp>
         <stage>Она бросает розы в воду. Юноша грустным взором следит за легкими движениями
           возлюбленной.</stage>
+        </div>    
       </div>
       <div type="act">
         <head>ВТОРОЕ ДЕЙСТВИЕ</head>
@@ -652,6 +663,7 @@
           Горизонт в пар_а_х. На площади немного гуляющих. Иногда проходят сторонкой рабочие и
           оборванцы.</stage>
         <stage>Топоры слабо, но непрерывно стучат вдали.</stage>
+        <div type="configuration">
         <sp who="#PervyjRabochij_2">
           <speaker>Первый рабочий</speaker>
           <p>С часу на час дожидаются кораблей.</p>
@@ -666,6 +678,8 @@
           <p>Строят, строят, а все еще не достроили.</p>
           <stage>Проходят. Издали доносится заунывная песня рабочих. Идут два франта.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#PervyjFrant">
           <speaker>Первый</speaker>
           <p>Кто-то сказал, что корабли уже видны с мола.</p>
@@ -680,12 +694,16 @@
             я знать?</p>
           <stage>Проходят. Шут бредет с удочкой в руках.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Shut">
           <speaker>Шут</speaker>
           <p>Скверная погода. Даже рыба не клюет. Никто не хочет идти на удочку здравого смысла. Все
             сошли с ума. Вот наконец идут самые сумасшедшие, — авось клюнет.</p>
           <stage>Уходит за занавес. На скамью садятся Зодчий и Поэт.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Poet">
           <speaker>Поэт</speaker>
           <p>Больше никто не спит ночей. На всех лицах тревога, все ждут чего-то. Научи меня
@@ -798,6 +816,8 @@
             Они прыгают и рассыпаются во все стороны. Кажется, что ветер свистит, когда они
             заливаются смехом. Сию же минуту в толпе гуляющих раздаются тревожные голоса.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <p>Король болен! При смерти!</p>
@@ -829,6 +849,8 @@
             туманом, который оставляет видимым только островок скамьи, где находятся Дочь Зодчего и
             Поэт.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#DochZodchego">
           <speaker>Дочь Зодчего</speaker>
           <l>Когда опускается пыль,</l>
@@ -1000,6 +1022,8 @@
           <stage>Она поднимается наверх и смешивается с толпой, которая все время глухо ропщет в
             клубах пыли. Поэт, задумчивый, остается внизу.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#GolosaVTolpe">
           <speaker>Голоса в толпе</speaker>
           <l>Ты слышал, ночью пришли корабли!</l>
@@ -1052,6 +1076,8 @@
           <stage>Из-за спины Шута высовываются с обеих сторон двое похожих на птиц: один в черном,
             другой в золотом. Они сбегают к Поэту.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Chernyj">
           <speaker>Черный</speaker>
           <p>Пора! Иди за нами! Пой нам песни! Город стосковался без песен!</p>
@@ -1077,6 +1103,8 @@
           <p>Оставь меня. Она не позволит тебе коснуться святыни.</p>
           <stage>Черный убегает с проклятиями.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Shut">
           <speaker>Шут</speaker>
           <stage>(кричит)</stage>
@@ -1122,6 +1150,7 @@
         </sp>
         <stage>Обращается лицом к толпе. Она безмолвна и готова внимать его песням.</stage>
       </div>
+      </div>
       <div type="act">
         <head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
         <stage>НОЧЬ</stage>
@@ -1130,6 +1159,7 @@
           оживленные, глаза блестят; волнение достигло крайней степени. На всех лицах тревога и
           жадная надежда. Один из толпы останавливается и опирается на перила набережной. К нему
           присоединяется второй.</stage>
+        <div type="configuration">
         <sp who="#VtorojIzTolpy">
           <speaker>Второй</speaker>
           <p>Ты совсем ослабел.</p>
@@ -1192,6 +1222,8 @@
           <stage>Ответа нет. Первый низко склонился на перила. В эту минуту подходит нищая с
             ребенком на руках.</stage>
         </sp>
+      </div>
+        <div type="configuration">
         <sp who="#Nischaja">
           <speaker>Нищая</speaker>
           <p>Помогите ради бога. Мой муж утонул в море. Подайте на хлеб.</p>
@@ -1218,6 +1250,8 @@
             рясе и капюшоне. Он с любопытством приближается к трупу, над которым беспомощно
             склонился Второй.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Shut">
           <speaker>Шут</speaker>
           <stage>(строго)</stage>
@@ -1344,6 +1378,8 @@
             Отсталые торопливо проходят к молу, где смолкает стук топоров.</stage>
           <stage>На площади появляется Зодчий.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Zodchij">
           <speaker>Зодчий</speaker>
           <p>Они кончают свое строительство.</p>
@@ -1399,6 +1435,8 @@
             Зодчего. Ветер играет в ее черных волосах, среди которых светлый лик ее — как
             день.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Poet">
           <speaker>Поэт</speaker>
           <l>Слышу, слышу твое приближение.</l>
@@ -1530,6 +1568,8 @@
             площадь толпы.</stage>
           <stage>Она поднимается по ступеням и вступает на площадь. Дикий вой.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#ChelovekSFakelom">
           <speaker>Человек с факелом</speaker>
           <stage>(несется в толпе и кричит на бегу, как бы подхваченный ветром)</stage>
@@ -1630,6 +1670,8 @@
           <stage>Смятение. На сцену, со стороны моря, бегут люди, впереди стремительно бежит
             Золотой.</stage>
         </sp>
+        </div>
+        <div type="configuration">
         <sp who="#Zolotoj">
           <speaker>Золотой</speaker>
           <stage>(кричит)</stage>
@@ -1720,6 +1762,7 @@
           нет больше ни одного огня. Над мысом господствует бледный мрак.</stage>
         <stage>Ропот толпы усиливается и сливается с ропотом моря.</stage>
         <p>1906</p>
+      </div>
       </div>
     </body>
   </text>

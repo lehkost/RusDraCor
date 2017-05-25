@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1903">1903 (Википедия со ссылкой на: История создания пьесы «На дне». Собрание сочинений в 30 томах. ГИХЛ, 1949-1956)</date>
+            <date type="premiere" when="1902">18 декабря 1902, МХТ, режиссер - К. С. Станиславский (Википедия со ссылкой на: История создания пьесы «На дне». Собрание сочинений в 30 томах. ГИХЛ, 1949-1956)</date>
+            <date type="written" when="1902">1901-1902 (Википедия со ссылкой на: История создания пьесы «На дне». Собрание сочинений в 30 томах. ГИХЛ, 1949-1956)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -102,6 +102,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#sveta">checked IDs, added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
