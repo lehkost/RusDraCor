@@ -30,9 +30,12 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print">1914<ref>Впервые — в книге: {{книга|заглавие=«Слово». Сборник второй. К десятилетию смерти А. П. Чехова. Под редакцией М. П. Чеховой|место=М.|издательство=Книгоиздательство писателей в Москве|год=1914|страницы={{РГБ|01006679114|5|8—36}}|часть=На большой дороге. Драматический этюд в одном действии. А. Чехонте.}}</ref></date>
-            <date type="premiere">###date_pp###</date>
-            <date type="written">осень 1884</date>
+            <date type="print" when="1914">"Впервые — в книге: На большой дороге. Драматический этюд
+              в одном действии. А. Чехонте. // «Слово». Сборник второй. К десятилетию смерти А. П.
+              Чехова. Под редакцией М. П. Чеховой. — М.: Книгоиздательство писателей в Москве, 1914.
+              — С. 8—36" (Wikisource)</date>
+            <date type="premiere"/>
+            <date type="written" when="1884">"осень 1884" (Wikisource)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -72,6 +75,7 @@
     <revisionDesc>
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
+        <change who="#sveta" when="2017-05-27">added dates, changed "GolosZaDverju" to "Kucher"</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -378,13 +382,13 @@
 <sp who="#Tihon"><speaker>Тихон</speaker><p>. Кого-то черти принесли… Кто там?
 <stage type="delivery">Стук.</stage>
   Кто стучит? <stage type="delivery">(Встает и подходит к двери.)</stage> Кто стучит? Проходи, заперто!</p></sp>
-<sp who="#GolosZaDverju"><speaker>Голос за дверью</speaker><p>. Впусти, Тихон, сделай милость! Рессора в карете лопнула! Помоги, будь отцом родным! Веревочкой бы только обвязать, а потом уж как-нибудь доехали бы…</p></sp>
+<sp who="#Kucher"><speaker>Голос за дверью</speaker><p>. Впусти, Тихон, сделай милость! Рессора в карете лопнула! Помоги, будь отцом родным! Веревочкой бы только обвязать, а потом уж как-нибудь доехали бы…</p></sp>
 <sp who="#Tihon"><speaker>Тихон</speaker><p>. Кто едет?</p></sp>
-<sp who="#GolosZaDverju"><speaker>Голос за дверью</speaker><p>. Барыня едет из города в Варсонофьево… Пять верст только осталось… Помоги, сделай милость!</p></sp>
+<sp who="#Kucher"><speaker>Голос за дверью</speaker><p>. Барыня едет из города в Варсонофьево… Пять верст только осталось… Помоги, сделай милость!</p></sp>
 <sp who="#Tihon"><speaker>Тихон</speaker><p>. Поди, скажи барыне, коли даст десять рублей, так и веревка будет и рессору починим…</p></sp>
-<sp who="#GolosZaDverju"><speaker>Голос за дверью</speaker><p>. Взбесился ты, что ли? Десять рублей! Собака ты бешеная! Рад людскому горю!</p></sp>
+<sp who="#Kucher"><speaker>Голос за дверью</speaker><p>. Взбесился ты, что ли? Десять рублей! Собака ты бешеная! Рад людскому горю!</p></sp>
 <sp who="#Tihon"><speaker>Тихон</speaker><p>. Как знаешь… Не хочешь и не нужно…</p></sp>
-<sp who="#GolosZaDverju"><speaker>Голос за дверью</speaker><p>. Ну, да ладно, погоди…
+<sp who="#Kucher"><speaker>Голос за дверью</speaker><p>. Ну, да ладно, погоди…
 <stage type="delivery">Пауза.</stage>
   Барыня сказала: хорошо.</p></sp>
 <sp who="#Tihon"><speaker>Тихон</speaker><p>. Милости просим! <stage type="delivery">(Отворяет дверь и впускает кучера.)</stage></p></sp>

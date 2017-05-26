@@ -78,7 +78,7 @@
             <persName>Гауптман</persName>
           </person>
           <person xml:id="PervyjSobutylNik">
-            <persName>Первый собутыльник, Собутыльник</persName>
+            <persName>Собутыльник</persName>
           </person>
           <person xml:id="MolodojChelovek">
             <persName>Молодой человек</persName>
@@ -99,7 +99,7 @@
             <persName>Голубой</persName>
           </person>
           <person xml:id="Zhorzh">
-            <persName>Жорж, Молодой человек Жорж</persName>
+            <persName>Молодой человек Жорж</persName>
           </person>
           <person xml:id="VtorojSobutylNik">
             <persName>Второй собутыльник</persName>
@@ -114,7 +114,7 @@
             <persName>Человек в пальто</persName>
           </person>
           <person xml:id="Hozjain">
-            <persName>Хозяин, Хозяин дома</persName>
+            <persName>Хозяин дома</persName>
           </person>
           <person xml:id="Vtoroj">
             <persName>Второй</persName>
@@ -126,7 +126,7 @@
             <persName>Кто-то</persName>
           </person>
           <person xml:id="Misha">
-            <persName>Миша, Молодой человек Миша</persName>
+            <persName>Молодой человек Миша</persName>
           </person>
           <person xml:id="Poet">
             <persName>Поэт</persName>
