@@ -1,5 +1,5 @@
 Source;Type;Target;Weight
-MarjaAleksandrovna;Undirected;Sobachkin;1
-Lakej;Undirected;Misha;1
-Lakej;Undirected;MarjaAleksandrovna;1
 MarjaAleksandrovna;Undirected;Misha;1
+MarjaAleksandrovna;Undirected;Sobachkin;1
+Lakej;Undirected;MarjaAleksandrovna;1
+Lakej;Undirected;Misha;1

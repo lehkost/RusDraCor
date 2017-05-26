@@ -3,8 +3,8 @@ import xml.etree.ElementTree as ET
 from os import walk
 
 
-infolder = 'ready_TEI/'
-outfolder = 'ready_CSV/'
+infolder = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/TEI/wikisource/'
+outfolder = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/wikisource/'
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 

@@ -66,11 +66,17 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
        y='Max degree', x='Year of creation')
 ```
 
+### Setting directories for CSV files to generate network graphs
+```{r}
+csv_list_ilibrary <- list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/ilibrary', full.names=T, pattern = "\\.csv$")
+
+csv_list_wikisource <- list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/wikisource', full.names=T, pattern = "\\.csv$")
+```
+
 ### Making network visualization (ggplot)
 ```{r}
-csv_list<-list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/ready_CSV',full.names=T)
-
-for(input in csv_list){
+for(input in csv_list)
+  make_ggplot_graphs <- function(input){
             output <- file_path_sans_ext(basename(file.path(input)))
             print(output)
             play <- read.csv(input, sep = ";")
@@ -85,14 +91,16 @@ for(input in csv_list){
             ggsave(paste(output,".png"),
                    path= '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/ggplot')
             
-                            }
+  }
+
+for(file in csv_list_ilibrary) make_ggplot_graphs(file)
+for(file in csv_list_wikisource) make_gglpot_graphs(file)
+
 ```
 
 ### Making network visualization (igraph)
 ```{r}
-csv_list<-list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/ready_CSV',full.names=T)
-
-for(input in csv_list){
+make_igraph_graphs <- function(input){
             output <- file_path_sans_ext(basename(file.path(input)))
             print(output)
             play <- read.csv(input, sep = ";")
@@ -137,6 +145,9 @@ plot(net,
      
 dev.off()
 }
+
+for(file in csv_list_ilibrary) make_igraph_graphs(file)
+for(file in csv_list_wikisource) make_igraph_graphs(file)
 
 ```
 

@@ -1,6 +1,6 @@
 Source;Type;Target;Weight
 IvanPetrovich;Undirected;Shrejder;1
-IvanPetrovich;Undirected;Lakej;1
 AleksandrIvanovich;Undirected;KaterinaAleksandrovna;1
-IvanPetrovich;Undirected;KaterinaAleksandrovna;1
 AleksandrIvanovich;Undirected;IvanPetrovich;3
+IvanPetrovich;Undirected;KaterinaAleksandrovna;1
+IvanPetrovich;Undirected;Lakej;1
