@@ -1,31 +1,21 @@
 import os
 import re
-import xml.etree.ElementTree as ET
+import glob
 import csv
-
-csv_path = './ready_CSV/'
-tei_path = './ready_TEI/'
-
-years = open('./years_of_creation.csv')
-years = csv.DictReader(years, delimiter=',')
-
-
-ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
-
-table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,Genre,\n')
+import xml.etree.ElementTree as ET
 
 
 def write_filename(file):
     """This function returns the filename without extension
     = the drama title"""
-    file_name0 = file.split('/')[2]
+    file_name0 = file.split('/')[-1]
     return file_name0.split('.xml')[0]
 
 
 def write_year(years_data, play_title):
     for row in years_data:
         if row['Play'] == play_title:
+            print('got_year')
             return row['Year_of_creation']
 
 
@@ -131,21 +121,43 @@ def genre(file):
     else:
         return 'NONE'
 
+years = open('./years_of_creation.csv')
+years = csv.DictReader(years, delimiter=',')
+
+ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
+
+table = open('calculations.csv', 'w', encoding='utf-8')
+table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,Genre,\n')
+
+
+ilibrary_tei_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
+                      'github desktop/RusDraCor/TEI/ilibrary/'
+ilibrary_csv_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
+                    'github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/ilibrary/'
+wikisource_csv_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
+                     'github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/wikisource/'
+wikisource_tei_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
+                      'github desktop/RusDraCor/TEI/wikisource/'
+
+all_tei = glob.glob(ilibrary_tei_path+'*.xml') + glob.glob(wikisource_tei_path+'*.xml')
+all_csv = glob.glob(ilibrary_csv_path+'*.csv') + glob.glob(wikisource_csv_path+'*.csv')
+
 
 data = list()
-for file in os.listdir(tei_path):
-    if file.endswith('.xml'):
-        data_f = list()
-        file_name = write_filename(tei_path + file)
-        print(file_name)
-        data_f.append(file_name)
-        data_f.append(write_year(years, file_name))
-        data_f.append(num_of_scenes(tei_path + file))
-        data_f.append(num_of_char(tei_path + file))
-        data_f.append(max_weight(csv_path + file_name + '.csv'))
-        data_f.append(max_degree(csv_path + file_name + '.csv'))
-        data_f.append(genre(tei_path + file))
-        data.append(data_f)
+for file in all_tei:
+    data_f = list()
+    file_name = write_filename(file)
+    print(file_name)
+    data_f.append(file_name)
+    data_f.append(write_year(years, file_name))
+    data_f.append(num_of_scenes(file))
+    data_f.append(num_of_char(file))
+    for el in all_csv:
+        if file_name in el:
+            data_f.append(max_weight(el))
+            data_f.append(max_degree(el))
+    data_f.append(genre(file))
+    data.append(data_f)
 
 for d in data:
     for el in d:
