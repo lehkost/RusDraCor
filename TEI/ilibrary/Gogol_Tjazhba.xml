@@ -29,10 +29,10 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <title>Н. В. Гоголь. Собрание сочинений в 9 т. Т. 4 Повести. М.: Русская книга, 1994.</title>
+            <date type="print" when="1842">1842 год (wikipedia)</date>
+            <date type="premiere" when="1844">1844 (wikipedia)</date>
+            <date type="written" when="1836">1832—1836 (wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>

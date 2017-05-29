@@ -29,10 +29,10 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <title>М. Горький. Рассказы. Очерки. Воспоминания. Пьесы. "Библиотека Всемирной литературы", М.: Художественная литература, 1975.</title>
+            <date type="print" when="1932">1932 (wikipedia)</date>
+            <date type="premiere" when="1932">1932 (wikipedia)</date>
+            <date type="written" when="1931">1931 г. (ilibrary)</date>
           </bibl>
         </bibl>
       </sourceDesc>
