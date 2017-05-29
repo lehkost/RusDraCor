@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Неосторожность</title>
-        <title type="sub">Драма</title>
+        <title type="sub"/>
         <author>Иван Сергеевич Тургенев</author>
       </titleStmt>
       <publicationStmt>
@@ -21,7 +21,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Wikisource</name>
-          <idno type="URL">###url###</idno>
+          <idno type="URL">https://ru.wikisource.org/wiki/Неосторожность_(Тургенев)</idno>
           <availability>
             <licence>
               <ab>CC BY-SA 3.0</ab>
@@ -56,7 +56,7 @@
 </listPerson></particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">Драма</term>
+          <term type="genreTitle"/>
         </keywords>
       </textClass>
     </profileDesc>

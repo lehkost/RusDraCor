@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Американцы</title>
-        <title type="sub">Драма</title>
+        <title type="sub">Опера комическая в двух действиях</title>
         <author>Иван Андреевич Крылов</author>
       </titleStmt>
       <publicationStmt>
@@ -21,7 +21,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Wikisource</name>
-          <idno type="URL">###url###</idno>
+          <idno type="URL">https://ru.wikisource.org/wiki/Американцы_(Крылов)</idno>
           <availability>
             <licence>
               <ab>CC BY-SA 3.0</ab>
@@ -94,7 +94,7 @@
 </listPerson></particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">Драма</term>
+          <term type="genreTitle">Опера комическая в двух действиях</term>
         </keywords>
       </textClass>
     </profileDesc>

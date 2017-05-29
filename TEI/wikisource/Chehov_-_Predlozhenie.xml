@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Предложение</title>
-        <title type="sub">Драма</title>
+        <title type="sub">Шутка в одном действии</title>
         <author>Антон Павлович Чехов</author>
       </titleStmt>
       <publicationStmt>
@@ -21,7 +21,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Wikisource</name>
-          <idno type="URL">###url###</idno>
+          <idno type="URL">https://ru.wikisource.org/wiki/Предложение_(пьеса,_Чехов)</idno>
           <availability>
             <licence>
               <ab>CC BY-SA 3.0</ab>
@@ -50,7 +50,7 @@
 </listPerson></particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">Драма</term>
+          <term type="genreTitle" subtype="comedy">Шутка в одном действии</term>
         </keywords>
       </textClass>
     </profileDesc>

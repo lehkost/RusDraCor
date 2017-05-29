@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Где тонко, там и рвётся</title>
-        <title type="sub">Драма</title>
+        <title type="sub">Комедия в одном действии</title>
         <author>Иван Сергеевич Тургенев</author>
       </titleStmt>
       <publicationStmt>
@@ -62,7 +62,7 @@
 </listPerson></particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">Драма</term>
+          <term type="genreTitle" subtype="comedy">Комедия в одном действии</term>
         </keywords>
       </textClass>
     </profileDesc>

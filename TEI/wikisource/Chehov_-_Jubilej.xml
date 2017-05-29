@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Юбилей</title>
-        <title type="sub">Драма</title>
+        <title type="sub">Шутка в одном действии</title>
         <author>Антон Павлович Чехов</author>
       </titleStmt>
       <publicationStmt>
@@ -52,7 +52,7 @@
 </listPerson></particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">Драма</term>
+          <term type="genreTitle" subtype="comedy">Шутка в одном действии</term>
         </keywords>
       </textClass>
     </profileDesc>

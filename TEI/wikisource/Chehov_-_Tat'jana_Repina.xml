@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Татьяна Репина</title>
-        <title type="sub">Драма</title>
+        <title type="sub">Драма в 1 действии</title>
         <author>Антон Павлович Чехов</author>
       </titleStmt>
       <publicationStmt>
@@ -98,7 +98,7 @@
 </listPerson></particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">Драма</term>
+          <term type="genreTitle" subtype="drama">Драма в 1 действии</term>
         </keywords>
       </textClass>
     </profileDesc>
