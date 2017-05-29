@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Гроза</title>
-        <title type="sub">Драма в пяти действиях</title>
+        <title xml:lang="ru">Гроза</title>
+        <title xml:lang="en">The Storm</title>
+        <title type="sub" xml:lang="ru">Драма в пяти действиях</title>
+        <title type="sub" xml:lang="en">A Drama in Five Acts</title>
         <author key="Wikidata:Q171976">Александр Островский</author>
       </titleStmt>
       <publicationStmt>

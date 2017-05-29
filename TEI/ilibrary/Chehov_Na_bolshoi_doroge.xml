@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>На большой дороге</title>
-        <title type="sub">Драматический этюд в одном действии</title>
+        <title xml:lang="ru">На большой дороге</title>
+        <title xml:lang="en">On the High Road</title>
+        <title type="sub" xml:lang="ru">Драматический этюд в одном действии</title>
+        <title type="sub" xml:lang="en">A Dramatic Study in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
@@ -29,7 +31,8 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 11.
+              М., "Наука", 1986.</title>
             <date type="print" when="1914">"Впервые — в книге: На большой дороге. Драматический этюд
               в одном действии. А. Чехонте. // «Слово». Сборник второй. К десятилетию смерти А. П.
               Чехова. Под редакцией М. П. Чеховой. — М.: Книгоиздательство писателей в Москве, 1914.
