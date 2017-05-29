@@ -14,6 +14,7 @@ def write_filename(file):
 
 def write_year(years_data, play_title):
     for row in years_data:
+        print(row['Play'], play_title)
         if row['Play'] == play_title:
             print('got_year')
             return row['Year_of_creation']
@@ -145,6 +146,8 @@ all_csv = glob.glob(ilibrary_csv_path+'*.csv') + glob.glob(wikisource_csv_path+'
 
 data = list()
 for file in all_tei:
+    years = open('./years_of_creation.csv')
+    years = csv.DictReader(years, delimiter=',')
     data_f = list()
     file_name = write_filename(file)
     print(file_name)
