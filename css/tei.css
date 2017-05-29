@@ -66,6 +66,14 @@ back{
 bibl{
   display: inline;
 }
+bibl[type="originalSource"] > title:before{
+  font-weight: bold;
+  content: "Original Source: ";
+}
+bibl[type="originalSource"] > title:after{
+  content: "\a";
+}
+
 
 argument > bibl,
 body > bibl,

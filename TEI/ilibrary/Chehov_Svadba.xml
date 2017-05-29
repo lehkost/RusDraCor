@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Свадьба</title>
-        <title type="sub">Сцена в одном действии</title>
+        <title xml:lang="ru">Свадьба</title>
+        <title xml:lang="en">The Wedding</title>
+        <title type="sub" xml:lang="ru">Сцена в одном действии</title>
+        <title type="sub" xml:lang="en">A Scene in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>

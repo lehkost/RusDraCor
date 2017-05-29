@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Леший</title>
-        <title type="sub">Комедия в 4-х действиях</title>
+        <title xml:lang="ru">Леший</title>
+        <title xml:lang="en">The Wood Demon</title>
+        <title type="sub" xml:lang="ru">Комедия в 4-х действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Four Acts</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>

@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Предложение</title>
-        <title type="sub">Шутка в одном действии</title>
+        <title xml:lang="ru">Предложение</title>
+        <title xml:lang="en">A Marriage Proposal</title>
+        <title type="sub" xml:lang="ru">Шутка в одном действии</title>
+        <title type="sub" xml:lang="en">A Joke in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
@@ -29,7 +31,7 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 11. М., "Наука", 1986.</title>
             <date type="print"/>
             <date type="premiere"/>
             <date type="written"/>

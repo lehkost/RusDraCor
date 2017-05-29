@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Ночь перед судом</title>
+        <title xml:lang="ru">Ночь перед судом</title>
+        <title xml:lang="en">The Night Before The Trial</title>
         <title type="sub"/>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
@@ -29,7 +30,7 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 12. М., "Наука", 1986.</title>
             <date type="print"/>
             <date type="premiere"/>
             <date type="written"/>

@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Лакейская</title>
+        <title xml:lang="ru">Лакейская</title>
+        <title xml:lang="en">The Servants' Hall</title>
         <title type="sub"/>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>

@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Три сестры</title>
-        <title type="sub">Драма в четырех действиях</title>
+        <title xml:lang="ru">Три сестры</title>
+        <title xml:lang="en">Three Sisters</title>
+        <title type="sub" xml:lang="ru">Драма в четырех действиях</title>
+        <title type="sub" xml:lang="en">A Drama in Four Acts</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
