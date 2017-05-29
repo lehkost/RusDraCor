@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Ревизор</title>
-        <title type="sub">Комедия в пяти действиях</title>
+        <title xml:lang="ru">Ревизор</title>
+        <title xml:lang="en">The Government Inspector</title>
+        <title type="sub" xml:lang="ru">Комедия в пяти действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Five Acts</title>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>
       <publicationStmt>

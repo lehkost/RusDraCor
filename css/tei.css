@@ -1021,6 +1021,13 @@ title{
 title:empty{
   display: none;
 }
+title[xml|lang="en"]:before{
+  content: " (";
+}
+title[xml|lang="en"]:after{
+  content: ")\a";
+}
+
 
 seriesStmt > title,
 titleStmt > title{

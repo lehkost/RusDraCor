@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Женитьба</title>
-        <title type="sub">Совершенно невероятное событие в двух действиях</title>
+        <title xml:lang="ru">Женитьба</title>
+        <title xml:lang="en">Marriage</title>
+        <title type="sub" xml:lang="ru">Совершенно невероятное событие в двух действиях</title>
+        <title type="sub" xml:lang="en">A Completely Improbable Event in Two Acts</title>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>
       <publicationStmt>

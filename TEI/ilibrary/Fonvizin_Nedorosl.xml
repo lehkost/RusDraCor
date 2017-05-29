@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Недоросль</title>
-        <title type="sub">Комедия в пяти действиях</title>
+        <title xml:lang="ru">Недоросль</title>
+        <title xml:lang="en">The Minor</title>
+        <title type="sub" xml:lang="ru">Комедия в пяти действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Five Acts</title>
         <author key="Wikidata:Q315885">Денис Фонвизин</author>
       </titleStmt>
       <publicationStmt>

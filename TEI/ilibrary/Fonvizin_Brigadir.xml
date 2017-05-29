@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Бригадир</title>
-        <title type="sub">Комедия в пяти действиях</title>
+        <title xml:lang="ru">Бригадир</title>
+        <title xml:lang="en">The Brigadier-General</title>
+        <title type="sub" xml:lang="ru">Комедия в пяти действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Five Acts</title>
         <author key="Wikidata:Q315885">Денис Фонвизин</author>
       </titleStmt>
       <publicationStmt>
@@ -29,10 +31,13 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
-            <date type="print" when="1786">источник: Коровин В. Л., Денис Иванович Фонвизин 1745-1792</date>
-            <date type="premiere" when="1772">источник: Коровин В. Л., Денис Иванович Фонвизин 1745-1792</date>
-            <date type="written" when="1769">1765-1769(http://lib.pushkinskijdom.ru/Portals/3/PDF/XVIII/14_tom_XVIII/Gorbacheva/Gorbacheva.pdf)</date>
+            <title>Д. И. Фонвизин. Собрание сочинений в двух томах. Т. 1. М.: "Гослитиздат", 1959.</title>
+            <date type="print" when="1786">источник: Коровин В. Л., Денис Иванович Фонвизин
+              1745–1792</date>
+            <date type="premiere" when="1772">источник: Коровин В. Л., Денис Иванович Фонвизин
+              1745–1792</date>
+            <date type="written" when="1769">1765–1769
+              (http://lib.pushkinskijdom.ru/Portals/3/PDF/XVIII/14_tom_XVIII/Gorbacheva/Gorbacheva.pdf)</date>
           </bibl>
         </bibl>
       </sourceDesc>
