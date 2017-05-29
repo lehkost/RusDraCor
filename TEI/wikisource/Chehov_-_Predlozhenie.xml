@@ -38,15 +38,16 @@
       </sourceDesc>
     </fileDesc>
 	<profileDesc>
-      <particDesc>
-        <listPerson><person xml:id="StepanStepanovichChubukov">
-                <persName>Степан Степанович Чубуков</persName>
-              </person><person xml:id="NataljaStepanovna">
-                <persName>Наталья Степановна</persName>
-              </person><person xml:id="IvanVasilevichLomov">
-                <persName>Иван Васильевич Ломов</persName>
-              </person></listPerson>
-      </particDesc>
+      <particDesc><listPerson>
+<person xml:id="NataljaStepanovna">
+<persName>Наталья Степановна</persName></person>
+<person xml:id="Lomov">
+<persName>Ломов</persName></person>
+<person xml:id="NataljaStepanovnaILomov">
+<persName>Наталья Степановна и Ломов</persName></person>
+<person xml:id="Chubukov">
+<persName>Чубуков</persName></person>
+</listPerson></particDesc>
       <textClass>
         <keywords>
           <term type="genreTitle">Драма</term>
@@ -73,11 +74,11 @@
 <castItem>Иван Васильевич Ломов, сосед Чубукова, здоровый, упитанный, но очень мнительный помещик.</castItem>
 </castList>
 <div><head>== Предложение ==</head>
-<stage type="delivery">Шутка в одном действии</stage>
-<stage type="delivery">Действие происходит в усадьбе Чубукова.</stage>
+<stage type="delivery">(Шутка в одном действии)</stage>
+<stage type="delivery">(Действие происходит в усадьбе Чубукова.)</stage>
 </div>
 <div><head>=== I ===</head>
-<stage type="delivery">Чубуков и Ломов (входит во фраке и белых перчатках).</stage>
+<stage type="delivery">(Чубуков и Ломов (входит во фраке и белых перчатках).)</stage>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p> <stage type="delivery">(идя к нему навстречу)</stage>. Голубушка, кого вижу! Иван Васильевич! Весьма рад! <stage type="delivery">(Пожимает руку.)</stage> Вот именно сюрприз, мамочка… Как поживаете?</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Благодарю вас. А вы как изволите поживать?</p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. Живем помаленьку, ангел мой, вашими молитвами и прочее. Садитесь, покорнейше прошу… Вот именно, нехорошо соседей забывать, мамочка моя. Голубушка, но что же вы это так официально? Во фраке, в перчатках и прочее. Разве куда едете, драгоценный мой?</p></sp>
@@ -95,21 +96,21 @@
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. Такой, вот именно, красавец и… и вдруг она не согласится! Влюблена, небось, как кошка и прочее… Сейчас! <stage type="delivery">(Уходит.)</stage></p></sp>
 </div>
 <div><head>=== II ===</head>
-<stage type="delivery">Ломов (один).</stage>
+<stage type="delivery">(Ломов (один).)</stage>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Холодно… Я весь дрожу, как перед экзаменом. Главное — нужно решиться. Если же долго думать, колебаться, много разговаривать да ждать идеала или настоящей любви, то этак никогда не женишься… Брр!.. Холодно! Наталья Степановна отличная хозяйка, недурна, образованна… чего ж мне еще нужно? Однако у меня уж начинается от волнения шум в ушах. <stage type="delivery">(Пьет воду.)</stage> А не жениться мне нельзя… Во-первых, мне уже 35 лет — возраст, так сказать, критический. Во-вторых, мне нужна правильная, регулярная жизнь… У меня порок сердца, постоянные сердцебиения, я вспыльчив и всегда ужасно волнуюсь… Сейчас вот у меня губы дрожат и на правом веке живчик прыгает… Но самое ужасное у меня — это сон. Едва только лягу в постель и только что начну засыпать, как вдруг в левом боку что-то — дерг! и бьет прямо в плечо и в голову… Вскакиваю как сумасшедший, похожу немного и опять ложусь, но только что начну засыпать, как у меня в боку опять — дерг! И этак раз двадцать…</p></sp>
 </div>
 <div><head>=== III ===</head>
-<sp who="#NataljaStepanovna_i_Lomov"><speaker>Наталья Степановна и Ломов</speaker><p>.</p></sp>
+<sp who="#NataljaStepanovnaILomov"><speaker>Наталья Степановна и Ломов</speaker><p>.</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p> <stage type="delivery">(входит)</stage>. Ну вот, ей-богу! Это вы, а папа говорит: поди, там купец за товаром пришел. Здравствуйте, Иван Васильевич!</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Здравствуйте, уважаемая Наталья Степановна!</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Извините, я в фартуке и неглиже… Мы горошек чистим для сушки. Отчего вы у нас так долго не были? Садитесь…
-<stage type="delivery">Садятся.</stage>
+<stage type="delivery">(Садятся.)</stage>
 Хотите завтракать?</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Нет, благодарю вас, я уже кушал.</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Курите… Вот спички… Погода великолепная, а вчера такой дождь был, что рабочие весь день ничего не делали. Вы сколько копен накосили? Я, представьте, сжадничала и скосила весь луг, а теперь сама не рада, боюсь, как бы мое сено не сгнило. Лучше было бы подождать. Но что это? Вы, кажется, во фраке! Вот новость! На бал едете, что ли? Между прочим, вы похорошели… Вправду, зачем вы таким франтом?</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p> <stage type="delivery">(волнуясь)</stage>. Видите ли, уважаемая Наталья Степановна… Дело в том, что я решился просить вас выслушать меня… Конечно, вы удивитесь и даже рассердитесь, но я… <stage type="delivery">(В сторону.)</stage> Ужасно холодно!</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. В чем дело?
-<stage type="delivery">Пауза.</stage>
+<stage type="delivery">(Пауза.)</stage>
 Ну?</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Я постараюсь быть краток. Вам, уважаемая Наталья Степановна, известно, что я давно уже, с самого детства, имею честь знать ваше семейство. Моя покойная тетушка и ее супруг, от которых я, как вы изволите знать, получил в наследство землю, всегда относились с глубоким уважением к вашему батюшке и к покойной матушке. Род Ломовых и род Чубуковых всегда находились в самых дружественных и, можно даже сказать, родственных отношениях. К тому же, как вы изволите знать, моя земля тесно соприкасается с вашею. Если вы изволите припомнить, мои Воловьи Лужки граничат с вашим березняком.</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Виновата, я вас перебью. Вы говорите «мои Воловьи Лужки»… Да разве они ваши?</p></sp>
@@ -150,7 +151,7 @@
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Мои!</p></sp>
 </div>
 <div><head>=== IV ===</head>
-<stage type="delivery">Те же и Чубуков.</stage>
+<stage type="delivery">(Те же и Чубуков.)</stage>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p> <stage type="delivery">(входя)</stage>. Что такое? О чем кричите?</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Папа, объясни, пожалуйста, этому господину, кому принадлежат Воловьи Лужки: нам или ему?</p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p> <stage type="delivery">(ему)</stage>. Цыпочка, Лужки наши!</p></sp>
@@ -182,10 +183,10 @@
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Вот она, шляпа… Сердце… Куда идти? Где дверь? Ох!.. Умираю, кажется… Нога волочится… <stage type="delivery">(Идет к двери.)</stage></p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p> <stage type="delivery">(ему вслед)</stage>. И чтоб ноги вашей больше не было у меня в доме!</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Подавайте в суд! Мы увидим!</p></sp>
-<stage type="delivery">Ломов уходит пошатываясь.</stage>
+<stage type="delivery">(Ломов уходит пошатываясь.)</stage>
 </div>
 <div><head>=== V ===</head>
-<stage type="delivery">Чубуков и Наталья Степановна.</stage>
+<stage type="delivery">(Чубуков и Наталья Степановна.)</stage>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. К черту! <stage type="delivery">(Ходит в волнении.)</stage></p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Каков негодяй? Вот и верь после этого добрым соседям!</p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. Мерзавец! Чучело гороховое!</p></sp>
@@ -207,16 +208,16 @@
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p> <stage type="delivery">(кричит)</stage>. Идет он, тебе говорят. О, что за комиссия, создатель, быть взрослой дочери отцом! Зарежусь! Обязательно зарежусь! Выругали человека, осрамили, выгнали, а всё это ты… ты!</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Нет, ты!</p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. Я же виноват, вот именно!
-<stage type="delivery">В дверях показывается Ломов.</stage>
+<stage type="delivery">(В дверях показывается Ломов.)</stage>
 Ну, разговаривай сама с ним! <stage type="delivery">(Уходит.)</stage></p></sp>
 </div>
 <div><head>=== VI ===</head>
-<stage type="delivery">Наталья Степановна и Ломов.</stage>
+<stage type="delivery">(Наталья Степановна и Ломов.)</stage>
 <sp who="#Lomov"><speaker>Ломов</speaker><p> <stage type="delivery">(входит, изнеможенный)</stage>. Страшное сердцебиение… Нога онемела… в боку дергает…</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Простите, мы погорячились, Иван Васильевич… Я теперь припоминаю: Воловьи Лужки в самом деле ваши.</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Страшно сердце бьется… Мои Лужки… На обоих глазах живчики прыгают…</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Ваши, ваши Лужки… Садитесь…
-<stage type="delivery">Садятся.</stage>
+<stage type="delivery">(Садятся.)</stage>
 Мы были неправы…</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Я из принципа… Мне не дорога земля, но дорог принцип…</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Именно принцип… Давайте поговорим о чем-нибудь другом.</p></sp>
@@ -254,7 +255,7 @@
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Не замолчу!</p></sp>
 </div>
 <div><head>=== VII ===</head>
-<stage type="delivery">Те же и Чубуков.</stage>
+<stage type="delivery">(Те же и Чубуков.)</stage>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p> <stage type="delivery">(входит)</stage>. Что еще?</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Папа, скажи искренно, по чистой совести: какая собака лучше — наш Откатай или его Угадай?</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Степан Степанович, умоляю вас, скажите вы только одно: подуздоват ваш Откатай или нет? Да или нет?</p></sp>
@@ -286,7 +287,7 @@
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. Ох!.. Что такое? Что тебе?</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p> <stage type="delivery">(стонет)</stage>. Он умер!.. умер!</p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. Кто умер? <stage type="delivery">(Поглядев на Ломова.)</stage> В самом деле помер! Батюшки! Воды! Доктора! <stage type="delivery">(Подносит ко рту Ломова стакан.)</stage> Выпейте!.. Нет, не пьет… Значит, умер и тому подобное… Несчастнейший я человек! Отчего я не пускаю себе пулю в лоб? Отчего я еще до сих пор не зарезался? Чего я жду? Дайте мне нож! Дайте мне пистолет!
-<stage type="delivery">Ломов шевелится.</stage>
+<stage type="delivery">(Ломов шевелится.)</stage>
 Оживает, кажется… Выпейте воды!.. Вот так…</p></sp>
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Искры… туман… Где я?</p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p>. Женитесь вы поскорей и — ну вас к лешему! Она согласна! <stage type="delivery">(Соединяет руки Ломова и дочери.)</stage> Она согласна и тому подобное. Благословляю вас и прочее. Только оставьте вы меня в покое!</p></sp>
@@ -304,7 +305,7 @@
 <sp who="#Lomov"><speaker>Ломов</speaker><p>. Лучше!</p></sp>
 <sp who="#NataljaStepanovna"><speaker>Наталья Степановна</speaker><p>. Хуже! Хуже! Хуже!</p></sp>
 <sp who="#Chubukov"><speaker>Чубуков</speaker><p> <stage type="delivery">(стараясь перекричать)</stage>. Шампанского! Шампанского!</p></sp>
-<stage type="delivery">Занавес</stage>
+<stage type="delivery">(Занавес)</stage>
 </div>
 </body>
   </text>
