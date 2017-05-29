@@ -1229,3 +1229,7 @@ person:before{
   background-color: black;
   content: "id:" attr(xml|id) " ";
 }
+person:after{
+  background-color: brown;
+  content: attr(sex) " ";
+}
