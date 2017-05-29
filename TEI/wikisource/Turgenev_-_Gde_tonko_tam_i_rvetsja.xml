@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Где тонко, там и рвётся</title>
-        <title type="sub">Драма</title>
+        <title type="sub">Комедия в одном действии</title>
         <author>Иван Сергеевич Тургенев</author>
       </titleStmt>
       <publicationStmt>
@@ -21,7 +21,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Wikisource</name>
-          <idno type="URL">###url###</idno>
+          <idno type="URL">https://ru.wikisource.org/wiki/Где_тонко,_там_и_рвётся_(Тургенев)</idno>
           <availability>
             <licence>
               <ab>CC BY-SA 3.0</ab>
@@ -63,7 +63,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">Драма</term>
+          <term type="genreTitle" subtype="comedy">Комедия в одном действии</term>
         </keywords>
       </textClass>
     </profileDesc>
