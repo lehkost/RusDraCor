@@ -3,6 +3,7 @@ import re
 import glob
 import csv
 import xml.etree.ElementTree as ET
+import networkx
 
 
 def write_filename(file):

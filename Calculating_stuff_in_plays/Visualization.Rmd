@@ -19,9 +19,8 @@ library(geomnet)
 library(ggnetwork)
 library(igraph)
 library(tools)
-library(svglite)
+library(gridExtra)
 
-setwd('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays')
 data = read.csv('calculations.csv', stringsAsFactors=FALSE)
 data = data.frame(data)
 data[data=="empty weights"] <- 0
@@ -41,6 +40,52 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
   labs(title='Number of characters in Russian drama',
        y='Number of characters', x='Year of creation')
 ```
+
+### This graph shows how the number of characters in plays was changing from 1750 to 1950 for the plays with 4/10/20/30 or more segments.
+```{r}
+
+char_data_4 <- subset(data, Num_of_scenes >= 4)
+
+char_data_4 <- ggplot(char_data_4, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 4 and more segments',
+       y='Number of characters', x='Year of creation')
+
+char_data_10 <- subset(data, Num_of_scenes >= 10)
+
+char_data_10 <- ggplot(char_data_10, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 10 and more segments',
+       y='Number of characters', x='Year of creation')
+
+char_data_20 <- subset(data, Num_of_scenes >= 20)
+
+char_data_20 <- ggplot(char_data_20, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 20 and more segments',
+       y='Number of characters', x='Year of creation')
+
+char_data_30 <- subset(data, Num_of_scenes >= 30)
+
+char_data_30 <- ggplot(char_data_30, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 30 and more segments',
+       y='Number of characters', x='Year of creation')
+
+grid.arrange(char_data_4,
+              char_data_10,
+              char_data_20,
+              char_data_30,
+              nrow=2, ncol=2,
+             top="Number of charaters in Russian drama")
+
+
+```
+
 
 ### This graph shows how the number of scenes/acts in plays was changing from 1750 to 1950. The observations are the mean number of scenes/acts in plays of a particular year.
 ```{r}
@@ -68,15 +113,14 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
 
 ### Setting directories for CSV files to generate network graphs
 ```{r}
-csv_list_ilibrary <- list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/ilibrary', full.names=T, pattern = "\\.csv$")
+csv_list_ilibrary <- list.files('../TEI/current_CSV_files_extracted_from_TEI/ilibrary', full.names=T, pattern = "\\.csv$")
 
-csv_list_wikisource <- list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/wikisource', full.names=T, pattern = "\\.csv$")
+csv_list_wikisource <- list.files('../TEI/current_CSV_files_extracted_from_TEI/wikisource', full.names=T, pattern = "\\.csv$")
 ```
 
 ### Making network visualization (ggplot)
 ```{r}
-for(input in csv_list)
-  make_ggplot_graphs <- function(input){
+make_ggplot_graphs <- function(input){
             output <- file_path_sans_ext(basename(file.path(input)))
             print(output)
             play <- read.csv(input, sep = ";")
@@ -94,7 +138,7 @@ for(input in csv_list)
   }
 
 for(file in csv_list_ilibrary) make_ggplot_graphs(file)
-for(file in csv_list_wikisource) make_gglpot_graphs(file)
+for(file in csv_list_wikisource) make_ggplot_graphs(file)
 
 ```
 
