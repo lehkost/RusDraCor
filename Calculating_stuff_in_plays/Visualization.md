@@ -149,207 +149,172 @@ csv_list_test <- list.files('../Calculating_stuff_in_plays/test_csvs', full.name
 Making network visualization (ggplot) -- basic "easy" graphs
 ------------------------------------------------------------
 
-    ## [1] "Bulgakov_Dni_Turbinyh"
+``` r
+make_ggplot_graphs <- function(input){
+  
+            output <- file_path_sans_ext(basename(file.path(input)))
+            print(output)
+            play <- read.csv(input, sep = ";")
+            num_of_rows <- nrow(play)
+            if(num_of_rows != 0)
+            {
+            play <- play[, c(1, 3, 4)]
+            play
+            
+            ggplot(data = play, aes(from_id=Source, to_id=Target)) +
+              geom_net(layout.alg ="kamadakawai", 
+              size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
+              directed =FALSE, fontsize = 3, ealpha = 0.5) +
+              labs(title=output)
+            
+            print(ggplot(data = play, aes(from_id=Source, to_id=Target)) +
+              geom_net(layout.alg ="kamadakawai", 
+              size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
+              directed =FALSE, fontsize = 3, ealpha = 0.5) +
+              labs(title=output))
 
-    ## Saving 7 x 5 in image
+            ggsave(paste(output,".png"),
+                   path= '../Calculating_stuff_in_plays/network_graphs/ggplot')
+            
+  } else {print('empty graph')}}
+
+par(mfrow = c(7, 10)) 
+for(file in csv_list_ilibrary) make_ggplot_graphs(file)
+```
+
+    ## [1] "Bulgakov_Dni_Turbinyh"
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
     ## [1] "Chehov_Chaika"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-2.png)
 
     ## [1] "Chehov_Djadja_Vanja"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-3.png)
 
     ## [1] "Chehov_Ivanov"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-4.png)
 
     ## [1] "Chehov_Leshii"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-5.png)
 
     ## [1] "Chehov_Medved"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-6.png)
 
     ## [1] "Chehov_Na_bolshoi_doroge"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-7.png)
 
     ## [1] "Chehov_Noch_pered_sudom"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-8.png)
 
     ## [1] "Chehov_Predlozhenie"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-9.png)
 
     ## [1] "Chehov_Svadba"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-10.png)
 
     ## [1] "Chehov_Tatjana_Repina"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-11.png)
 
     ## [1] "Chehov_Tragik_ponevole"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-12.png)
 
     ## [1] "Chehov_Tri_sestry"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-13.png)
 
     ## [1] "Chehov_Vishnevyi_sad"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-14.png)
 
     ## [1] "Fonvizin_Brigadir"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-15.png)
 
     ## [1] "Fonvizin_Nedorosl"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-16.png)
 
     ## [1] "Gogol_Lakeiskaja"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-17.png)
 
     ## [1] "Gogol_Otryvok"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-18.png)
 
     ## [1] "Gogol_Revizor"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-19.png)
 
     ## [1] "Gogol_Teatralnyi_razezd_posle_predstavlenija_novoi_komedii"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-20.png)
 
     ## [1] "Gogol_Tjazhba"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-21.png)
 
     ## [1] "Gogol_Utro_delovogo_cheloveka"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-22.png)
 
     ## [1] "Gogol_Zhenitba"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-23.png)
 
     ## [1] "Gorkij_Egor_Bulychov_i_drugie"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-24.png)
 
     ## [1] "Gorkij_Na_dne"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-25.png)
 
     ## [1] "Majakovskij_Banja"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-26.png)
 
     ## [1] "Ostrovskij_Bednost_ne_porok"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-27.png)
 
     ## [1] "Ostrovskij_Bespridannitsa"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-28.png)
 
     ## [1] "Ostrovskij_Groza"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-29.png)
 
     ## [1] "Ostrovskij_Snegurochka"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-30.png)
 
     ## [1] "Ostrovskij_Svoi_ljudi_-_sochtemsja"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-31.png)
 
     ## [1] "Ostrovskij_Svoi_ljudi_—_sochtemsja"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-32.png)
 
     ## [1] "Ostrovskij_Volki_i_ovtsy"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-33.png)
 
     ## [1] "Pushkin_Kamenniy_gost"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-34.png)
 
@@ -357,75 +322,55 @@ Making network visualization (ggplot) -- basic "easy" graphs
     ## [1] "empty graph"
     ## [1] "Pushkin_Rusalka"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-35.png)
 
     ## [1] "Pushkin_Skupoj_rytsar"
     ## [1] "empty graph"
     ## [1] "Pushkin_Stseny_iz_rytsarskih_vremen"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-36.png)
 
-    ## [1] "Blok_-_Balaganchik"
+``` r
+for(file in csv_list_wikisource) make_ggplot_graphs(file)
+```
 
-    ## Saving 7 x 5 in image
+    ## [1] "Blok_-_Balaganchik"
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-37.png)
 
     ## [1] "Blok_-_Korol_na_ploschadi"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-38.png)
 
     ## [1] "Blok_-_Neznakomka"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-39.png)
 
     ## [1] "Chehov_-_Jubilej"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-40.png)
 
     ## [1] "Chehov_-_Medved'"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-41.png)
 
     ## [1] "Chehov_-_Na_bol'shoj_doroge"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-42.png)
 
     ## [1] "Chehov_-_Predlozhenie"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-43.png)
 
     ## [1] "Chehov_-_Svad'ba"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-44.png)
 
     ## [1] "Chehov_-_Tat'jana_Repina"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-45.png)
 
     ## [1] "Gogol'_-_Teatral'nyj_raz'ezd_posle_predstavlenija_novoj_komedii"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-46.png)
 
@@ -433,122 +378,163 @@ Making network visualization (ggplot) -- basic "easy" graphs
     ## [1] "empty graph"
     ## [1] "Gumilyov_-_Ditja_Allaha"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-47.png)
 
     ## [1] "Gumilyov_-_Don-Zhuan_v_Egipte"
     ## [1] "empty graph"
     ## [1] "Gumilyov_-_Gondla"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-48.png)
 
     ## [1] "Krylov_-_Amerikantsy"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-49.png)
 
     ## [1] "Krylov_-_Podschipa_ili_Trumf"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-50.png)
 
     ## [1] "Krylov_-_Sonnyj_poroshok_ili_pohischennaja_krestjanka"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-51.png)
 
     ## [1] "Plavil'schikov_-_Sgovor_Kutejkina"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-52.png)
 
     ## [1] "Prutkov_-_Chereposlov_sirech_Frenolog"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-53.png)
 
     ## [1] "Prutkov_-_Spor_drevnih_grecheskih_filosofov_ob_izjaschnom"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-54.png)
 
     ## [1] "Pushkin_-_Boris_Godunov"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-55.png)
 
     ## [1] "Pushkin_-_Kamennyj_gost"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-56.png)
 
     ## [1] "Pushkin_-_Skupoj_rytsar"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-57.png)
 
     ## [1] "Sumarokov_-_Dimitrij_Samozvanets"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-58.png)
 
     ## [1] "Sumarokov_-_Horev"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-59.png)
 
     ## [1] "Sumarokov_-_Semira"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-60.png)
 
     ## [1] "Tolstoy_A_-_Blondy"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-61.png)
 
     ## [1] "Turgenev_-_Gde_tonko,_tam_i_rvetsja"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-62.png)
 
     ## [1] "Turgenev_-_Nahlebnik"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-63.png)
 
     ## [1] "Turgenev_-_Neostorozhnost'"
 
-    ## Saving 7 x 5 in image
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-64.png)
 
     ## [1] "Turgenev_-_Provintsialka"
-
-    ## Saving 7 x 5 in image
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-9-65.png)
 
 Making network visualization (igraph) with characters clustering
 ----------------------------------------------------------------
+
+``` r
+make_igraph_graphs <- function(input)
+  {
+            output <- file_path_sans_ext(basename(file.path(input)))
+            print(output)
+            play <- read.csv(input, sep=";")
+            num_of_rows <- nrow(play)
+            if(num_of_rows != 0)
+            {
+              play <- play[, c(1, 3, 4)]
+            play
+net <- graph_from_data_frame(d=play, directed=F)
+E(net)$weight <- play$Weight
+# net <- network(play, directed=FALSE)
+
+clust <- cluster_optimal(net)
+
+V(net)$community <- membership(clust)
+
+prettyColors <- c("slategray2", "rosybrown1", "palevioletred2","plum", "seagreen3", "mistyrose1", "lightsalmon1")
+communityColors <- prettyColors[membership(clust)]
+V(net)$color <- prettyColors[membership(clust)]
+
+#layout=layout.fruchterman.reingold(net)
+
+layout=layout.kamada.kawai(net, kkconst=50)
+
+
+E(net)$color <- apply(as.data.frame(get.edgelist(net)), 1,
+                      function(x) ifelse(V(net)$community[x[1]] == V(net)$community[x[2]], 
+                                   V(net)$community[x[1]], '#00000000'))
+# print(V(net)$community)
+# print(E(net)$color)
+
+# vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
+
+filename= paste('../Calculating_stuff_in_plays/network_graphs/igraph/', output, '.png', sep='')
+
+print(plot(net,
+     vertex.size=10,
+     edge.arrow.size=.6,
+     edge.color='lightsteelblue',
+     vertex.label=V(net)$name,
+     edge.width=E(net)$weight*0.3,
+     layout=layout.graphopt,
+     vertex.label.color="black",
+     vertex.label.cex=0.3,
+     vertex.label.dist=0.8,
+     vertex.label.family="Helvetica",
+     vertex.label.font=2
+     ))
+title(output, cex.main=0.7)
+
+png(filename, width=3.25,height=3.25, units='in', res=600)
+
+plot(net,
+     vertex.size=10,
+     edge.arrow.size=.6,
+     edge.color='lightsteelblue',
+     vertex.label=V(net)$name,
+     edge.width=E(net)$weight*0.3,
+     layout=layout.graphopt,
+     vertex.label.color="black",
+     vertex.label.cex=0.3,
+     vertex.label.dist=0.8,
+     vertex.label.family="Helvetica",
+     vertex.label.font=2
+     )
+title(output, cex.main=0.7)
+     
+dev.off() }
+            else {print('empty graph')
+}}
+
+#for(file in csv_list_test) make_igraph_graphs(file)
+
+for(file in csv_list_ilibrary) make_igraph_graphs(file)
+```
 
     ## [1] "Bulgakov_Dni_Turbinyh"
 
@@ -770,6 +756,10 @@ Making network visualization (igraph) with characters clustering
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-10-36.png)
 
+``` r
+for(file in csv_list_wikisource) make_igraph_graphs(file)
+```
+
     ## [1] "Blok_-_Balaganchik"
 
     ## NULL
@@ -951,14 +941,12 @@ Making network visualization (igraph) with characters clustering
 In progress:
 ------------
 
-Calculating degree for every charecter and plotting vertex size by degree.
-==========================================================================
+### Calculating degree for every charecter and plotting vertex size by degree.
 
-Improving graph appearance.
-===========================
+### Improving graph appearance.
 
-Figuring out how to plot all the networks graphs on a single plot.
-==================================================================
+### Figuring out how to plot all the networks graphs on a single plot.
 
-Introducing more detailed analysis for authors and genres differencies.
-=======================================================================
+### Introducing more detailed analysis for authors and genres differencies.
+
+### Introducing netwroks metrics (density, centrality and etc.) for analysing and comparing plays, authors and genres.

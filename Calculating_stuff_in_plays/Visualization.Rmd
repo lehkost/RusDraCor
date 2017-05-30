@@ -168,7 +168,7 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 ```
 
 ## Making network visualization (ggplot) -- basic "easy" graphs
-```{r echo=FALSE}
+```{r warning=FALSE, message=FALSE}
 make_ggplot_graphs <- function(input){
   
             output <- file_path_sans_ext(basename(file.path(input)))
@@ -204,7 +204,7 @@ for(file in csv_list_wikisource) make_ggplot_graphs(file)
 ```
 
 ## Making network visualization (igraph) with characters clustering
-```{r echo=FALSE}
+```{r warning=FALSE, message=FALSE}
 make_igraph_graphs <- function(input)
   {
             output <- file_path_sans_ext(basename(file.path(input)))
@@ -286,7 +286,8 @@ for(file in csv_list_wikisource) make_igraph_graphs(file)
 ```
 
 ## In progress:
-# Calculating degree for every charecter and plotting vertex size by degree.
-# Improving graph appearance.
-# Figuring out how to plot all the networks graphs on a single plot.
-# Introducing more detailed analysis for authors and genres differencies.
+### Calculating degree for every charecter and plotting vertex size by degree.
+### Improving graph appearance.
+### Figuring out how to plot all the networks graphs on a single plot.
+### Introducing more detailed analysis for authors and genres differencies.
+### Introducing netwroks metrics (density, centrality and etc.) for analysing and comparing plays, authors and genres.
