@@ -3,7 +3,8 @@ Drama Analysis
 Ira Pavlova
 May 2017
 
-### This project is devoted to studying the evolution of Russian drama. The study is based on the Russian Drama Corpus which now contains 49 Russian plays encoded in TEI. The creation time of plays ranges from 1747 to 1925.
+This project is devoted to studying the evolution of Russian drama. The study is based on the Russian Drama Corpus which now contains 49 Russian plays encoded in TEI. The creation time of plays ranges from 1747 to 1925.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ``` r
 library(tidyverse)
@@ -25,7 +26,21 @@ data[, 5:6] <- sapply(data[, 5:6], as.numeric)
 data
 ```
 
-### This graph shows how the number of characters in plays was changing from 1750 to 1950. The observations are the mean number of characters in plays of a particular year.
+This graph shows how the distribution of number of segments (act/scenes) in plays from 1750 to 1950.
+----------------------------------------------------------------------------------------------------
+
+``` r
+data %>% ggplot(aes(Year_of_creation, Num_of_scenes)) +
+  geom_point(size=0.2) +geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  labs(title='Number of scenes/acts in Russian drama',
+       y='Number of segments', x='Year of creation')
+```
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-2-1.png)
+
+This graph shows how the number of characters in plays was changing from 1750 to 1950. The observations are the mean number of characters in plays of a particular year.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ``` r
 char_data <- aggregate(data[, 4], list(Year_of_creation=data$Year_of_creation), mean)
@@ -39,9 +54,10 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
        y='Number of characters', x='Year of creation')
 ```
 
-![](Visualization_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](Visualization_files/figure-markdown_github/unnamed-chunk-3-1.png) \# However, this graph does not show us much except the variaty of plays and absolute outliers. Maybe if we had around 300 plays we would see some stable development. As collecting the bigger corpus is work in progress, let's take a closer look at plays with more than 4 segments (act/scenes), exploring the distribution of number of characters for different groups of plays depending on the number of segments in these plays.
 
-### This graph shows how the number of characters in plays was changing from 1750 to 1950 for the plays with 4/10/20/30 or more segments.
+This graph shows how the number of characters in plays was changing from 1750 to 1950 for the plays with 4/10/20/30 or more segments.
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ``` r
 char_data_4 <- subset(data, Num_of_scenes >= 4)
@@ -84,23 +100,10 @@ grid.arrange(char_data_4,
              top="Number of charaters in Russian drama")
 ```
 
-![](Visualization_files/figure-markdown_github/unnamed-chunk-3-1.png)
-
-### This graph shows how the number of scenes/acts in plays was changing from 1750 to 1950. The observations are the mean number of scenes/acts in plays of a particular year.
-
-``` r
-scenes_data <- aggregate(data[, 3], list(Year_of_creation=data$Year_of_creation), mean)
-
-scenes_data %>% ggplot(aes(Year_of_creation, x)) +
-  geom_point() +
-  geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
-  labs(title='Number of scenes/acts in Russian drama',
-       y='Number of scenes/acts', x='Year of creation')
-```
-
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
-### This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
+This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ``` r
 degree_data <- aggregate(data[, 6], list(Year_of_creation=data$Year_of_creation), mean)
@@ -118,7 +121,8 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
-### Setting directories for CSV files to generate network graphs
+Setting directories for CSV files to generate network graphs
+------------------------------------------------------------
 
 ``` r
 csv_list_ilibrary <- list.files('../TEI/current_CSV_files_extracted_from_TEI/ilibrary', full.names=T, pattern = "\\.csv$")
@@ -126,7 +130,8 @@ csv_list_ilibrary <- list.files('../TEI/current_CSV_files_extracted_from_TEI/ili
 csv_list_wikisource <- list.files('../TEI/current_CSV_files_extracted_from_TEI/wikisource', full.names=T, pattern = "\\.csv$")
 ```
 
-### Making network visualization (ggplot)
+Making network visualization (ggplot)
+-------------------------------------
 
 ``` r
 make_ggplot_graphs <- function(input){
@@ -143,13 +148,21 @@ make_ggplot_graphs <- function(input){
             ggplot(data = play, aes(from_id=Source, to_id=Target)) +
               geom_net(layout.alg ="kamadakawai", 
               size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
-              directed =FALSE, fontsize = 3, ealpha = 0.5)
+              directed =FALSE, fontsize = 3, ealpha = 0.5) +
+              labs(title=output)
             
+            print(ggplot(data = play, aes(from_id=Source, to_id=Target)) +
+              geom_net(layout.alg ="kamadakawai", 
+              size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
+              directed =FALSE, fontsize = 3, ealpha = 0.5) +
+              labs(title=output))
+
             ggsave(paste(output,".png"),
-                   path= '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/ggplot')
+                   path= '../Calculating_stuff_in_plays/network_graphs/ggplot')
             
   } else {print('empty graph')}}
 
+par(mfrow = c(7, 10)) 
 for(file in csv_list_ilibrary) make_ggplot_graphs(file)
 ```
 
@@ -157,137 +170,205 @@ for(file in csv_list_ilibrary) make_ggplot_graphs(file)
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-1.png)
+
     ## [1] "Chehov_Chaika"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-2.png)
 
     ## [1] "Chehov_Djadja_Vanja"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-3.png)
+
     ## [1] "Chehov_Ivanov"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-4.png)
 
     ## [1] "Chehov_Leshii"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-5.png)
+
     ## [1] "Chehov_Medved"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-6.png)
 
     ## [1] "Chehov_Na_bolshoi_doroge"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-7.png)
+
     ## [1] "Chehov_Noch_pered_sudom"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-8.png)
 
     ## [1] "Chehov_Predlozhenie"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-9.png)
+
     ## [1] "Chehov_Svadba"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-10.png)
 
     ## [1] "Chehov_Tatjana_Repina"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-11.png)
+
     ## [1] "Chehov_Tragik_ponevole"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-12.png)
 
     ## [1] "Chehov_Tri_sestry"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-13.png)
+
     ## [1] "Chehov_Vishnevyi_sad"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-14.png)
 
     ## [1] "Fonvizin_Brigadir"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-15.png)
+
     ## [1] "Fonvizin_Nedorosl"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-16.png)
 
     ## [1] "Gogol_Lakeiskaja"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-17.png)
+
     ## [1] "Gogol_Otryvok"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-18.png)
 
     ## [1] "Gogol_Revizor"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-19.png)
+
     ## [1] "Gogol_Teatralnyi_razezd_posle_predstavlenija_novoi_komedii"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-20.png)
 
     ## [1] "Gogol_Tjazhba"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-21.png)
+
     ## [1] "Gogol_Utro_delovogo_cheloveka"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-22.png)
 
     ## [1] "Gogol_Zhenitba"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-23.png)
+
     ## [1] "Gorkij_Egor_Bulychov_i_drugie"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-24.png)
 
     ## [1] "Gorkij_Na_dne"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-25.png)
+
     ## [1] "Majakovskij_Banja"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-26.png)
 
     ## [1] "Ostrovskij_Bednost_ne_porok"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-27.png)
+
     ## [1] "Ostrovskij_Bespridannitsa"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-28.png)
 
     ## [1] "Ostrovskij_Groza"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-29.png)
+
     ## [1] "Ostrovskij_Snegurochka"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-30.png)
 
     ## [1] "Ostrovskij_Svoi_ljudi_-_sochtemsja"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-31.png)
+
     ## [1] "Ostrovskij_Svoi_ljudi_—_sochtemsja"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-32.png)
 
     ## [1] "Ostrovskij_Volki_i_ovtsy"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-33.png)
+
     ## [1] "Pushkin_Kamenniy_gost"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-34.png)
 
     ## [1] "Pushkin_Pir_vo_vremja_chumy"
     ## [1] "empty graph"
@@ -295,11 +376,15 @@ for(file in csv_list_ilibrary) make_ggplot_graphs(file)
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-35.png)
+
     ## [1] "Pushkin_Skupoj_rytsar"
     ## [1] "empty graph"
     ## [1] "Pushkin_Stseny_iz_rytsarskih_vremen"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-36.png)
 
 ``` r
 for(file in csv_list_wikisource) make_ggplot_graphs(file)
@@ -309,41 +394,61 @@ for(file in csv_list_wikisource) make_ggplot_graphs(file)
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-37.png)
+
     ## [1] "Blok_-_Korol_na_ploschadi"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-38.png)
 
     ## [1] "Blok_-_Neznakomka"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-39.png)
+
     ## [1] "Chehov_-_Jubilej"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-40.png)
 
     ## [1] "Chehov_-_Medved'"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-41.png)
+
     ## [1] "Chehov_-_Na_bol'shoj_doroge"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-42.png)
 
     ## [1] "Chehov_-_Predlozhenie"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-43.png)
+
     ## [1] "Chehov_-_Svad'ba"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-44.png)
 
     ## [1] "Chehov_-_Tat'jana_Repina"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-45.png)
+
     ## [1] "Gogol'_-_Teatral'nyj_raz'ezd_posle_predstavlenija_novoj_komedii"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-46.png)
 
     ## [1] "Gumilyov_-_Akteon"
     ## [1] "empty graph"
@@ -351,81 +456,120 @@ for(file in csv_list_wikisource) make_ggplot_graphs(file)
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-47.png)
+
     ## [1] "Gumilyov_-_Don-Zhuan_v_Egipte"
     ## [1] "empty graph"
     ## [1] "Gumilyov_-_Gondla"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-48.png)
+
     ## [1] "Krylov_-_Amerikantsy"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-49.png)
 
     ## [1] "Krylov_-_Podschipa_ili_Trumf"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-50.png)
+
     ## [1] "Krylov_-_Sonnyj_poroshok_ili_pohischennaja_krestjanka"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-51.png)
 
     ## [1] "Plavil'schikov_-_Sgovor_Kutejkina"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-52.png)
+
     ## [1] "Prutkov_-_Chereposlov_sirech_Frenolog"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-53.png)
 
     ## [1] "Prutkov_-_Spor_drevnih_grecheskih_filosofov_ob_izjaschnom"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-54.png)
+
     ## [1] "Pushkin_-_Boris_Godunov"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-55.png)
 
     ## [1] "Pushkin_-_Kamennyj_gost"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-56.png)
+
     ## [1] "Pushkin_-_Skupoj_rytsar"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-57.png)
 
     ## [1] "Sumarokov_-_Dimitrij_Samozvanets"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-58.png)
+
     ## [1] "Sumarokov_-_Horev"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-59.png)
 
     ## [1] "Sumarokov_-_Semira"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-60.png)
+
     ## [1] "Tolstoy_A_-_Blondy"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-61.png)
 
     ## [1] "Turgenev_-_Gde_tonko,_tam_i_rvetsja"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-62.png)
+
     ## [1] "Turgenev_-_Nahlebnik"
 
     ## Saving 7 x 5 in image
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-63.png)
 
     ## [1] "Turgenev_-_Neostorozhnost'"
 
     ## Saving 7 x 5 in image
 
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-64.png)
+
     ## [1] "Turgenev_-_Provintsialka"
 
     ## Saving 7 x 5 in image
 
-### Making network visualization (igraph)
+![](Visualization_files/figure-markdown_github/unnamed-chunk-8-65.png)
+
+Making network visualization (igraph)
+-------------------------------------
 
 ``` r
 make_igraph_graphs <- function(input)
@@ -459,7 +603,7 @@ layout=layout.kamada.kawai(net, kkconst=50)
 
 # vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
 
-filename= paste('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/igraph/', output, '.png', sep='')
+filename= paste('../Calculating_stuff_in_plays/network_graphs/igraph/', output, '.png', sep='')
 
 png(filename, width=3.25,height=3.25, units='in', res=600)
 
@@ -623,14 +767,3 @@ for(file in csv_list_wikisource) make_igraph_graphs(file)
     ## [1] "Turgenev_-_Neostorozhnost'"
 
     ## [1] "Turgenev_-_Provintsialka"
-
-### Notes
-
-1. Keep CamelCase when tranforming TEI to CSV
-=============================================
-
-2. Use clustering in igraph
-===========================
-
-3. Add degree tables (as vertices to net)
-=========================================
