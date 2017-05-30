@@ -121,9 +121,13 @@ csv_list_wikisource <- list.files('../TEI/current_CSV_files_extracted_from_TEI/w
 ### Making network visualization (ggplot)
 ```{r}
 make_ggplot_graphs <- function(input){
+  
             output <- file_path_sans_ext(basename(file.path(input)))
             print(output)
             play <- read.csv(input, sep = ";")
+            num_of_rows <- nrow(play)
+            if(num_of_rows != 0)
+            {
             play <- play[, c(1, 3, 4)]
             play
             
@@ -135,7 +139,7 @@ make_ggplot_graphs <- function(input){
             ggsave(paste(output,".png"),
                    path= '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/ggplot')
             
-  }
+  } else {print('empty graph')}}
 
 for(file in csv_list_ilibrary) make_ggplot_graphs(file)
 for(file in csv_list_wikisource) make_ggplot_graphs(file)
@@ -144,11 +148,15 @@ for(file in csv_list_wikisource) make_ggplot_graphs(file)
 
 ### Making network visualization (igraph)
 ```{r}
-make_igraph_graphs <- function(input){
+make_igraph_graphs <- function(input)
+  {
             output <- file_path_sans_ext(basename(file.path(input)))
             print(output)
             play <- read.csv(input, sep = ";")
-            play <- play[, c(1, 3, 4)]
+            num_of_rows <- nrow(play)
+            if(num_of_rows != 0)
+            {
+              play <- play[, c(1, 3, 4)]
             play
 net <- graph_from_data_frame(d=play, directed=F)
 E(net)$weight <- play$Weight
@@ -187,8 +195,9 @@ plot(net,
      vertex.label.dist=0.5,
      )
      
-dev.off()
-}
+dev.off() }
+            else {print('empty graph')
+}}
 
 for(file in csv_list_ilibrary) make_igraph_graphs(file)
 for(file in csv_list_wikisource) make_igraph_graphs(file)
