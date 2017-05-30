@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>А. Грибоедов. Горе от ума. А. Сухово-Кобылин. Пьесы. А. Островский. Пьесы. "Библиотека Всемирной литературы", М.: Художественная литература, 1974.</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1860">1860 год (wikipedia)</date>
+            <date type="premiere" when="1859">1859 год (wikipedia)</date>
+            <date type="written" when="1859">1859 год (wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>
