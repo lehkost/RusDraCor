@@ -33,9 +33,9 @@
           <bibl type="originalSource">
             <title>А. Н. Островский. Полное собрание сочинений. Том 7. — М.: Гослитиздат,
               1950.</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written" when="1873">1873</date>
+            <date type="print" when="1873">1873 год (wikipedia)</date>
+            <date type="premiere" when="1873">1873 год (wikipedia)</date>
+            <date type="written" when="1873">1873 год (wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>
