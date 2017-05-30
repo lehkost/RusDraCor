@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1853">1853 год (wikipedia)</date>
+            <date type="premiere" when="1854">1854 год (wikipedia)</date>
+            <date type="written" when="1854">1854 год (wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>
