@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1850">1850 год (wikipedia)</date>
+            <date type="premiere" when="1881">сокращенная цензурой версия - 1861, полная - 1881 год (wikipedia)</date>
+            <date type="written" when="1849">1849 год (wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>
