@@ -15,9 +15,9 @@ library(GGally)
 library(geomnet)
 library(ggnetwork)
 library(igraph)
+library(tools)
+library(gridExtra)
 
-
-setwd('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays')
 data = read.csv('calculations.csv', stringsAsFactors=FALSE)
 data = data.frame(data)
 data[data=="empty weights"] <- 0
@@ -41,6 +41,51 @@ char_data %>% ggplot(aes(Year_of_creation, x)) +
 
 ![](Visualization_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
+### This graph shows how the number of characters in plays was changing from 1750 to 1950 for the plays with 4/10/20/30 or more segments.
+
+``` r
+char_data_4 <- subset(data, Num_of_scenes >= 4)
+
+char_data_4 <- ggplot(char_data_4, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 4 and more segments',
+       y='Number of characters', x='Year of creation')
+
+char_data_10 <- subset(data, Num_of_scenes >= 10)
+
+char_data_10 <- ggplot(char_data_10, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 10 and more segments',
+       y='Number of characters', x='Year of creation')
+
+char_data_20 <- subset(data, Num_of_scenes >= 20)
+
+char_data_20 <- ggplot(char_data_20, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 20 and more segments',
+       y='Number of characters', x='Year of creation')
+
+char_data_30 <- subset(data, Num_of_scenes >= 30)
+
+char_data_30 <- ggplot(char_data_30, aes(Year_of_creation, Num_of_char, label=Play)) +
+  geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
+  labs(title='in plays of 30 and more segments',
+       y='Number of characters', x='Year of creation')
+
+grid.arrange(char_data_4,
+              char_data_10,
+              char_data_20,
+              char_data_30,
+              nrow=2, ncol=2,
+             top="Number of charaters in Russian drama")
+```
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-3-1.png)
+
 ### This graph shows how the number of scenes/acts in plays was changing from 1750 to 1950. The observations are the mean number of scenes/acts in plays of a particular year.
 
 ``` r
@@ -53,7 +98,7 @@ scenes_data %>% ggplot(aes(Year_of_creation, x)) +
        y='Number of scenes/acts', x='Year of creation')
 ```
 
-![](Visualization_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](Visualization_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
 ### This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
 
@@ -69,55 +114,515 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
        y='Max degree', x='Year of creation')
 ```
 
-![](Visualization_files/figure-markdown_github/unnamed-chunk-4-1.png)
+    ## Warning: Removed 1 rows containing missing values (geom_point).
+
+![](Visualization_files/figure-markdown_github/unnamed-chunk-5-1.png)
+
+### Setting directories for CSV files to generate network graphs
+
+``` r
+csv_list_ilibrary <- list.files('../TEI/current_CSV_files_extracted_from_TEI/ilibrary', full.names=T, pattern = "\\.csv$")
+
+csv_list_wikisource <- list.files('../TEI/current_CSV_files_extracted_from_TEI/wikisource', full.names=T, pattern = "\\.csv$")
+```
 
 ### Making network visualization (ggplot)
 
 ``` r
-csv_list<-list.files('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/ready_CSV',full.names=T)
-
-for(input in csv_list){
-            output <- basename(file.path(input,fsep=".csv"))
-            
+make_ggplot_graphs <- function(input){
+  
+            output <- file_path_sans_ext(basename(file.path(input)))
+            print(output)
             play <- read.csv(input, sep = ";")
+            num_of_rows <- nrow(play)
+            if(num_of_rows != 0)
+            {
             play <- play[, c(1, 3, 4)]
             play
-            
-            # pdf(paste0("output for ", output,".pdf"))
             
             ggplot(data = play, aes(from_id=Source, to_id=Target)) +
               geom_net(layout.alg ="kamadakawai", 
               size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
               directed =FALSE, fontsize = 3, ealpha = 0.5)
             
-            # dev.off()
-                            }
+            ggsave(paste(output,".png"),
+                   path= '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/ggplot')
+            
+  } else {print('empty graph')}}
+
+for(file in csv_list_ilibrary) make_ggplot_graphs(file)
 ```
+
+    ## [1] "Bulgakov_Dni_Turbinyh"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Chaika"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Djadja_Vanja"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Ivanov"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Leshii"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Medved"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Na_bolshoi_doroge"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Noch_pered_sudom"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Predlozhenie"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Svadba"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Tatjana_Repina"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Tragik_ponevole"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Tri_sestry"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_Vishnevyi_sad"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Fonvizin_Brigadir"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Fonvizin_Nedorosl"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol_Lakeiskaja"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol_Otryvok"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol_Revizor"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol_Teatralnyi_razezd_posle_predstavlenija_novoi_komedii"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol_Tjazhba"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol_Utro_delovogo_cheloveka"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol_Zhenitba"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gorkij_Egor_Bulychov_i_drugie"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gorkij_Na_dne"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Majakovskij_Banja"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Ostrovskij_Bednost_ne_porok"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Ostrovskij_Bespridannitsa"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Ostrovskij_Groza"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Ostrovskij_Snegurochka"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Ostrovskij_Svoi_ljudi_-_sochtemsja"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Ostrovskij_Svoi_ljudi_—_sochtemsja"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Ostrovskij_Volki_i_ovtsy"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Pushkin_Kamenniy_gost"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Pushkin_Pir_vo_vremja_chumy"
+    ## [1] "empty graph"
+    ## [1] "Pushkin_Rusalka"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Pushkin_Skupoj_rytsar"
+    ## [1] "empty graph"
+    ## [1] "Pushkin_Stseny_iz_rytsarskih_vremen"
+
+    ## Saving 7 x 5 in image
+
+``` r
+for(file in csv_list_wikisource) make_ggplot_graphs(file)
+```
+
+    ## [1] "Blok_-_Balaganchik"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Blok_-_Korol_na_ploschadi"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Blok_-_Neznakomka"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_-_Jubilej"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_-_Medved'"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_-_Na_bol'shoj_doroge"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_-_Predlozhenie"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_-_Svad'ba"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Chehov_-_Tat'jana_Repina"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gogol'_-_Teatral'nyj_raz'ezd_posle_predstavlenija_novoj_komedii"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gumilyov_-_Akteon"
+    ## [1] "empty graph"
+    ## [1] "Gumilyov_-_Ditja_Allaha"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Gumilyov_-_Don-Zhuan_v_Egipte"
+    ## [1] "empty graph"
+    ## [1] "Gumilyov_-_Gondla"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Krylov_-_Amerikantsy"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Krylov_-_Podschipa_ili_Trumf"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Krylov_-_Sonnyj_poroshok_ili_pohischennaja_krestjanka"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Plavil'schikov_-_Sgovor_Kutejkina"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Prutkov_-_Chereposlov_sirech_Frenolog"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Prutkov_-_Spor_drevnih_grecheskih_filosofov_ob_izjaschnom"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Pushkin_-_Boris_Godunov"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Pushkin_-_Kamennyj_gost"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Pushkin_-_Skupoj_rytsar"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Sumarokov_-_Dimitrij_Samozvanets"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Sumarokov_-_Horev"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Sumarokov_-_Semira"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Tolstoy_A_-_Blondy"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Turgenev_-_Gde_tonko,_tam_i_rvetsja"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Turgenev_-_Nahlebnik"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Turgenev_-_Neostorozhnost'"
+
+    ## Saving 7 x 5 in image
+
+    ## [1] "Turgenev_-_Provintsialka"
+
+    ## Saving 7 x 5 in image
 
 ### Making network visualization (igraph)
 
-"\`\`\`{r} net &lt;- graph\_from\_data\_frame(d=play, directed=F) E(net)*w**e**i**g**h**t* &lt; −*p**l**a**y*Weight net &lt;- network(play, directed=FALSE)
+``` r
+make_igraph_graphs <- function(input)
+  {
+            output <- file_path_sans_ext(basename(file.path(input)))
+            print(output)
+            play <- read.csv(input, sep = ";")
+            num_of_rows <- nrow(play)
+            if(num_of_rows != 0)
+            {
+              play <- play[, c(1, 3, 4)]
+            play
+net <- graph_from_data_frame(d=play, directed=F)
+E(net)$weight <- play$Weight
+# net <- network(play, directed=FALSE)
 
-clust &lt;- cluster\_optimal(net) modularity(clust) membership(clust)
+clust <- cluster_optimal(net)
+modularity(clust)
+membership(clust)
 
-E(net)$weight &gt; 1
+net
 
-prettyColors &lt;- c("turquoise4", "azure4", "olivedrab","deeppink4")
-=====================================================================
+E(net)$weight > 1
 
-communityColors &lt;- prettyColors\[membership(clust)\]
-=======================================================
+# prettyColors <- c("turquoise4", "azure4", "olivedrab","deeppink4")
+# communityColors <- prettyColors[membership(clust)]
 
 layout = layout.fruchterman.reingold(net)
 
 layout=layout.kamada.kawai(net, kkconst=50)
 
-vertex.label= ifelse(V(net)*n**a**m**e*name, NA)
-================================================
+# vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
 
-plot(net, vertex.size=3, edge.arrow.size=.6, vertex.label=V(net)*n**a**m**e*, *e**d**g**e*.*w**i**d**t**h* = *E*(*n**e**t*)weight\*0.5, layout=layout.graphopt, vertex.label.color = "black", vertex.label.cex = 0.5, vertex.color = membership(clust))
+filename= paste('/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/github desktop/RusDraCor/Calculating_stuff_in_plays/network_graphs/igraph/', output, '.png', sep='')
 
-\`\`\`"
+png(filename, width=3.25,height=3.25, units='in', res=600)
+
+plot(net,
+     vertex.size=3,
+     edge.arrow.size=.6,
+     vertex.label=V(net)$name,
+     edge.width=E(net)$weight*0.5,
+     layout=layout.graphopt,
+     vertex.label.color = "black",
+     vertex.label.cex = 0.5,
+     vertex.color = membership(clust),
+     vertex.label.dist=0.5,
+     )
+     
+dev.off() }
+            else {print('empty graph')
+}}
+
+for(file in csv_list_ilibrary) make_igraph_graphs(file)
+```
+
+    ## [1] "Bulgakov_Dni_Turbinyh"
+
+    ## [1] "Chehov_Chaika"
+
+    ## [1] "Chehov_Djadja_Vanja"
+
+    ## [1] "Chehov_Ivanov"
+
+    ## [1] "Chehov_Leshii"
+
+    ## [1] "Chehov_Medved"
+
+    ## [1] "Chehov_Na_bolshoi_doroge"
+
+    ## [1] "Chehov_Noch_pered_sudom"
+
+    ## [1] "Chehov_Predlozhenie"
+
+    ## [1] "Chehov_Svadba"
+
+    ## [1] "Chehov_Tatjana_Repina"
+
+    ## [1] "Chehov_Tragik_ponevole"
+
+    ## [1] "Chehov_Tri_sestry"
+
+    ## [1] "Chehov_Vishnevyi_sad"
+
+    ## [1] "Fonvizin_Brigadir"
+
+    ## [1] "Fonvizin_Nedorosl"
+
+    ## [1] "Gogol_Lakeiskaja"
+
+    ## [1] "Gogol_Otryvok"
+
+    ## [1] "Gogol_Revizor"
+
+    ## [1] "Gogol_Teatralnyi_razezd_posle_predstavlenija_novoi_komedii"
+
+    ## [1] "Gogol_Tjazhba"
+
+    ## [1] "Gogol_Utro_delovogo_cheloveka"
+
+    ## [1] "Gogol_Zhenitba"
+
+    ## [1] "Gorkij_Egor_Bulychov_i_drugie"
+
+    ## [1] "Gorkij_Na_dne"
+
+    ## [1] "Majakovskij_Banja"
+
+    ## [1] "Ostrovskij_Bednost_ne_porok"
+
+    ## [1] "Ostrovskij_Bespridannitsa"
+
+    ## [1] "Ostrovskij_Groza"
+
+    ## [1] "Ostrovskij_Snegurochka"
+
+    ## [1] "Ostrovskij_Svoi_ljudi_-_sochtemsja"
+
+    ## [1] "Ostrovskij_Svoi_ljudi_—_sochtemsja"
+
+    ## [1] "Ostrovskij_Volki_i_ovtsy"
+
+    ## [1] "Pushkin_Kamenniy_gost"
+
+    ## [1] "Pushkin_Pir_vo_vremja_chumy"
+    ## [1] "empty graph"
+    ## [1] "Pushkin_Rusalka"
+
+    ## [1] "Pushkin_Skupoj_rytsar"
+    ## [1] "empty graph"
+    ## [1] "Pushkin_Stseny_iz_rytsarskih_vremen"
+
+``` r
+for(file in csv_list_wikisource) make_igraph_graphs(file)
+```
+
+    ## [1] "Blok_-_Balaganchik"
+
+    ## [1] "Blok_-_Korol_na_ploschadi"
+
+    ## [1] "Blok_-_Neznakomka"
+
+    ## [1] "Chehov_-_Jubilej"
+
+    ## [1] "Chehov_-_Medved'"
+
+    ## [1] "Chehov_-_Na_bol'shoj_doroge"
+
+    ## [1] "Chehov_-_Predlozhenie"
+
+    ## [1] "Chehov_-_Svad'ba"
+
+    ## [1] "Chehov_-_Tat'jana_Repina"
+
+    ## [1] "Gogol'_-_Teatral'nyj_raz'ezd_posle_predstavlenija_novoj_komedii"
+
+    ## [1] "Gumilyov_-_Akteon"
+    ## [1] "empty graph"
+    ## [1] "Gumilyov_-_Ditja_Allaha"
+
+    ## [1] "Gumilyov_-_Don-Zhuan_v_Egipte"
+    ## [1] "empty graph"
+    ## [1] "Gumilyov_-_Gondla"
+
+    ## [1] "Krylov_-_Amerikantsy"
+
+    ## [1] "Krylov_-_Podschipa_ili_Trumf"
+
+    ## [1] "Krylov_-_Sonnyj_poroshok_ili_pohischennaja_krestjanka"
+
+    ## [1] "Plavil'schikov_-_Sgovor_Kutejkina"
+
+    ## [1] "Prutkov_-_Chereposlov_sirech_Frenolog"
+
+    ## [1] "Prutkov_-_Spor_drevnih_grecheskih_filosofov_ob_izjaschnom"
+
+    ## [1] "Pushkin_-_Boris_Godunov"
+
+    ## [1] "Pushkin_-_Kamennyj_gost"
+
+    ## [1] "Pushkin_-_Skupoj_rytsar"
+
+    ## [1] "Sumarokov_-_Dimitrij_Samozvanets"
+
+    ## [1] "Sumarokov_-_Horev"
+
+    ## [1] "Sumarokov_-_Semira"
+
+    ## [1] "Tolstoy_A_-_Blondy"
+
+    ## [1] "Turgenev_-_Gde_tonko,_tam_i_rvetsja"
+
+    ## [1] "Turgenev_-_Nahlebnik"
+
+    ## [1] "Turgenev_-_Neostorozhnost'"
+
+    ## [1] "Turgenev_-_Provintsialka"
 
 ### Notes
 
