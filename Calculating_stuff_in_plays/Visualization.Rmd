@@ -37,19 +37,35 @@ data %>% ggplot(aes(Year_of_creation, Num_of_scenes)) +
        y='Number of segments', x='Year of creation')
 ```
 
-## This graph shows how the number of characters in plays was changing from 1750 to 1950. The observations are the mean number of characters in plays of a particular year.
-```{r}
-char_data <- aggregate(data[, 4], list(Year_of_creation=data$Year_of_creation), mean)
-BG <- subset(char_data, Year_of_creation == "1825")
+## This graph shows how the distribution of number of segments (act/scenes) in plays from 1750 to 1950 for three different genres -- comedy, tragedy and drama. 
+```{r warning=FALSE, message=FALSE}
+subset(data, Genre=='comedy' | Genre=='tragedy' | Genre=='drama') %>% ggplot(aes(Year_of_creation, Num_of_scenes)) +
+  geom_point(aes(color=Genre), size=2) + stat_ellipse(geom = "polygon", alpha=0.1, aes(color=Genre, fill=Genre)) +
+  scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  labs(title='Number of scenes/acts in Russian drama depending on genre',
+       y='Number of segments', x='Year of creation')
+```
 
-char_data %>% ggplot(aes(Year_of_creation, x)) +
-  geom_point() +
-  geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
-  geom_text(data=BG, label="Boris Godunov", vjust=1) +
+## This graph shows how the number of characters in plays was changing from 1750 to 1950.
+```{r}
+BG <- subset(data, Play == "Pushkin_-_Boris_Godunov")
+GT <- subset(data, Play == "Gogol_Teatralnyi_razezd_posle_predstavlenija_novoi_komedii")
+GT1 <- subset(data, Play == "Gogol'_-_Teatral'nyj_raz'ezd_posle_predstavlenija_novoj_komedii")
+SG <- subset(data, Play == "Ostrovskij_Snegurochka")
+
+data %>% ggplot(aes(Year_of_creation, Num_of_char)) +
+  geom_smooth(method='lm', color='black') +
+  geom_point() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  geom_text(data=BG, label="Boris Godunov", vjust=1, size=3) +
+  geom_text(data=GT, label="Teatralnyi razezd posle predstavlenija novoi komedii", vjust=1, size=3) +
+  geom_text(data=GT1, label="Teatralnyi razezd posle predstavlenija novoi komedii", vjust=1, size=3) +
+  geom_text(data=SG, label="Snegurochka", vjust=1, size=3) +
   labs(title='Number of characters in Russian drama',
        y='Number of characters', x='Year of creation')
+
 ```
-# However, this graph does not show us much except the variaty of plays and absolute outliers. Maybe if we had around 300 plays we would see some stable development. As collecting the bigger corpus is work in progress, let's take a closer look at plays with more than 4 segments (act/scenes), exploring the distribution of number of characters for different groups of plays depending on the number of segments in these plays.
+
+However, this graph does not tell us much except the variaty of plays and absolute outliers. Maybe if we had around 300 plays we would see some stable development. As collecting the bigger corpus is work in progress, let's take a closer look at plays with more than 4 segments (act/scenes), exploring the distribution of number of characters for different groups of plays depending on the number of segments in these plays.
 
 ## This graph shows how the number of characters in plays was changing from 1750 to 1950 for the plays with 4/10/20/30 or more segments.
 ```{r}
@@ -95,17 +111,13 @@ grid.arrange(char_data_4,
 
 ```
 
-## This graph shows how the maximum degree of a character in plays was changing from 1750 to 1950. The observations are the mean number of max degree in plays of a particular year.
-```{r}
-degree_data <- aggregate(data[, 6], list(Year_of_creation=data$Year_of_creation), mean)
-BG <- subset(degree_data, Year_of_creation == "1825")
-
-degree_data %>% ggplot(aes(Year_of_creation, x)) +
-  geom_point() +
-  geom_line() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
-  geom_text(data=BG, label="Boris Godunov") +
-  labs(title='Max character degree in Russian drama',
-       y='Max degree', x='Year of creation')
+## This graph shows how the number of characters in plays was changing from 1750 to 1950 for three different genres -- comedy, tragedy and drama.
+```{r warning=FALSE, message=FALSE}
+subset(data, Genre=='comedy' | Genre=='tragedy' | Genre=='drama') %>% ggplot(aes(Year_of_creation, Num_of_char)) +
+  geom_point(aes(color=Genre), size=2) + stat_ellipse(geom = "polygon", alpha=0.1, aes(color=Genre, fill=Genre)) +
+  scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  labs(title='Number of characters in Russian drama',
+       y='Number of characters', x='Year of creation')
 ```
 
 ## Setting directories for CSV files to generate network graphs
@@ -113,6 +125,8 @@ degree_data %>% ggplot(aes(Year_of_creation, x)) +
 csv_list_ilibrary <- list.files('../TEI/current_CSV_files_extracted_from_TEI/ilibrary', full.names=T, pattern = "\\.csv$")
 
 csv_list_wikisource <- list.files('../TEI/current_CSV_files_extracted_from_TEI/wikisource', full.names=T, pattern = "\\.csv$")
+
+csv_list_test <- list.files('../Calculating_stuff_in_plays/test_csvs', full.names=T, pattern = "\\.csv$")
 ```
 
 ```{r echo=FALSE}
@@ -153,8 +167,8 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 }
 ```
 
-## Making network visualization (ggplot)
-```{r}
+## Making network visualization (ggplot) -- basic "easy" graphs
+```{r echo=FALSE}
 make_ggplot_graphs <- function(input){
   
             output <- file_path_sans_ext(basename(file.path(input)))
@@ -189,13 +203,13 @@ for(file in csv_list_wikisource) make_ggplot_graphs(file)
 
 ```
 
-## Making network visualization (igraph)
-```{r}
+## Making network visualization (igraph) with characters clustering
+```{r echo=FALSE}
 make_igraph_graphs <- function(input)
   {
             output <- file_path_sans_ext(basename(file.path(input)))
             print(output)
-            play <- read.csv(input, sep = ";")
+            play <- read.csv(input, sep=";")
             num_of_rows <- nrow(play)
             if(num_of_rows != 0)
             {
@@ -206,43 +220,73 @@ E(net)$weight <- play$Weight
 # net <- network(play, directed=FALSE)
 
 clust <- cluster_optimal(net)
-modularity(clust)
-membership(clust)
 
-net
+V(net)$community <- membership(clust)
 
-E(net)$weight > 1
+prettyColors <- c("slategray2", "rosybrown1", "palevioletred2","plum", "seagreen3", "mistyrose1", "lightsalmon1")
+communityColors <- prettyColors[membership(clust)]
+V(net)$color <- prettyColors[membership(clust)]
 
-# prettyColors <- c("turquoise4", "azure4", "olivedrab","deeppink4")
-# communityColors <- prettyColors[membership(clust)]
-
-layout = layout.fruchterman.reingold(net)
+#layout=layout.fruchterman.reingold(net)
 
 layout=layout.kamada.kawai(net, kkconst=50)
+
+
+E(net)$color <- apply(as.data.frame(get.edgelist(net)), 1,
+                      function(x) ifelse(V(net)$community[x[1]] == V(net)$community[x[2]], 
+                                   V(net)$community[x[1]], '#00000000'))
+# print(V(net)$community)
+# print(E(net)$color)
 
 # vertex.label= ifelse(V(net)$name %in% c('Drugoj'),V(net)$name, NA)
 
 filename= paste('../Calculating_stuff_in_plays/network_graphs/igraph/', output, '.png', sep='')
 
+print(plot(net,
+     vertex.size=10,
+     edge.arrow.size=.6,
+     edge.color='lightsteelblue',
+     vertex.label=V(net)$name,
+     edge.width=E(net)$weight*0.3,
+     layout=layout.graphopt,
+     vertex.label.color="black",
+     vertex.label.cex=0.3,
+     vertex.label.dist=0.8,
+     vertex.label.family="Helvetica",
+     vertex.label.font=2
+     ))
+title(output, cex.main=0.7)
+
 png(filename, width=3.25,height=3.25, units='in', res=600)
 
 plot(net,
-     vertex.size=3,
+     vertex.size=10,
      edge.arrow.size=.6,
+     edge.color='lightsteelblue',
      vertex.label=V(net)$name,
-     edge.width=E(net)$weight*0.5,
+     edge.width=E(net)$weight*0.3,
      layout=layout.graphopt,
-     vertex.label.color = "black",
-     vertex.label.cex = 0.5,
-     vertex.color = membership(clust),
-     vertex.label.dist=0.5,
+     vertex.label.color="black",
+     vertex.label.cex=0.3,
+     vertex.label.dist=0.8,
+     vertex.label.family="Helvetica",
+     vertex.label.font=2
      )
+title(output, cex.main=0.7)
      
 dev.off() }
             else {print('empty graph')
 }}
 
+#for(file in csv_list_test) make_igraph_graphs(file)
+
 for(file in csv_list_ilibrary) make_igraph_graphs(file)
 for(file in csv_list_wikisource) make_igraph_graphs(file)
 
 ```
+
+## In progress:
+# Calculating degree for every charecter and plotting vertex size by degree.
+# Improving graph appearance.
+# Figuring out how to plot all the networks graphs on a single plot.
+# Introducing more detailed analysis for authors and genres differencies.

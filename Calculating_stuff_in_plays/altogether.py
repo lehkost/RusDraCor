@@ -15,9 +15,7 @@ def write_filename(file):
 
 def write_year(years_data, play_title):
     for row in years_data:
-        print(row['Play'], play_title)
         if row['Play'] == play_title:
-            print('got_year')
             return row['Year_of_creation']
 
 
@@ -116,12 +114,27 @@ def max_degree(file):
 
 
 def genre(file):
-    tei = open(file).read()
-    genre = re.findall('<term type="genreTitle">(.*?)</term>', tei)
-    if len(genre) != 0:
-        return genre[0]
-    else:
-        return 'NONE'
+    try:
+        tree = ET.parse(file)
+        tei = tree.getroot()
+        header = tei[0]
+        profiledesc = header.find('tei:profileDesc', ns)
+        textclass = profiledesc.find('tei:textClass', ns)
+        if textclass is not None:
+            keywords = textclass.find('tei:keywords', ns)
+            if keywords is not None:
+                genre = keywords.find('tei:term', ns)
+                if genre is not None:
+                    if 'subtype' in genre.attrib:
+                        return genre.attrib['subtype']
+                    else:
+                        return 'other'
+                else:
+                    return 'no genre tag in file'
+    except:
+        print('ERROR while parsing', file)
+        return None
+
 
 years = open('./years_of_creation.csv')
 years = csv.DictReader(years, delimiter=',')
