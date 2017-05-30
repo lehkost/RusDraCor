@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Снегурочка</title>
-        <title type="sub"> Весенняя сказка. </title>
+        <title xml:lang="ru">Снегурочка</title>
+        <title xml:lang="en">The Snow Maiden</title>
+        <title type="sub" xml:lang="ru">Весенняя сказка</title>
+        <title type="sub" xml:lang="en">A Spring Fairy Tale</title>
         <author key="Wikidata:Q171976">Александр Островский</author>
       </titleStmt>
       <publicationStmt>

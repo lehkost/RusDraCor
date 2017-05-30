@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Егор Булычов и другие</title>
-        <title type="sub">Сцены</title>
+        <title xml:lang="ru">Егор Булычов и другие</title>
+        <title xml:lang="en">Yegor Bulichov and Others</title>
+        <title type="sub" xml:lang="ru">Сцены</title>
+        <title type="sub" xml:lang="en">Scenes</title>
         <author key="Wikidata:Q12706">Максим Горький</author>
       </titleStmt>
       <publicationStmt>

@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Дядя Ваня</title>
-        <title type="sub">Сцены из деревенской жизни в четырех действиях</title>
+        <title xml:lang="ru">Дядя Ваня</title>
+        <title xml:lang="en">Uncle Vanya</title>
+        <title type="sub" xml:lang="ru">Сцены из деревенской жизни в четырех действиях</title>
+        <title type="sub" xml:lang="en">Country Scenes in Four Acts</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>

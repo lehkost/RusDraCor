@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Татьяна Репина</title>
-        <title type="sub">Драма в 1 действии</title>
+        <title xml:lang="ru">Татьяна Репина</title>
+        <title xml:lang="en">Tatyana Repina</title>
+        <title type="sub" xml:lang="ru">Драма в 1 действии</title>
+        <title type="sub" xml:lang="en">Drama in 1 Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>
@@ -29,7 +31,7 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 12. М., "Наука", 1986.</title>
             <date type="print"/>
             <date type="premiere"/>
             <date type="written"/>

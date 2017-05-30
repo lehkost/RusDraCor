@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Отрывок</title>
+        <title xml:lang="ru">Отрывок</title>
+        <title xml:lang="en">A Fragment</title>
         <title type="sub"/>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>

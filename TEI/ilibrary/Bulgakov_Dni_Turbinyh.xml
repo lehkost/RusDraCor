@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Дни Турбиных</title>
-        <title type="sub">Пьеса в четырех действиях</title>
+        <title xml:lang="ru">Дни Турбиных</title>
+        <title xml:lang="en">The Days of the Turbins</title>
+        <title type="sub" xml:lang="ru">Пьеса в четырех действиях</title>
+        <title type="sub" xml:lang="en">A Play in Four Acts</title>
         <author key="Wikidata:Q835">Михаил Булгаков</author>
       </titleStmt>
       <publicationStmt>
