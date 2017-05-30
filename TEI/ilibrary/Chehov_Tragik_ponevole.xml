@@ -4,9 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Трагик поневоле</title>
-        <title type="sub">(Из дачной жизни)</title>
-        <title type="sub">Шутка в одном действии</title>
+        <title xml:lang="ru">Трагик поневоле (Из дачной жизни)</title>
+        <title xml:lang="en">A Tragedian in Spite of Himself (A Holiday Episode)</title>
+        <title type="sub" xml:lang="ru">Шутка в одном действии</title>
+        <title type="sub" xml:lang="en">A Joke in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>
       <publicationStmt>

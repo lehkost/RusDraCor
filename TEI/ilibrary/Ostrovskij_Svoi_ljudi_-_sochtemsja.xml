@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Свои люди — сочтемся</title>
-        <title type="sub">Комедия в четырех действиях.</title>
+        <title xml:lang="ru">Свои люди – сочтемся</title>
+        <title xml:lang="en">It's a Family Affair – We'll Settle It Ourselves</title>
+        <title type="sub" xml:lang="ru">Комедия в четырех действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Four Acts</title>
         <author key="Wikidata:Q171976">Александр Островский</author>
       </titleStmt>
       <publicationStmt>

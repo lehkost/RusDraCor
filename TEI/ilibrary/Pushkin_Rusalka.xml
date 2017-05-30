@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Русалка</title>
+        <title xml:lang="ru">Русалка</title>
+        <title xml:lang="en">Rusalka</title>
         <title type="sub"/>
         <author key="Wikidata:Q7200">Александр Пушкин</author>
       </titleStmt>

@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Утро делового человека</title>
+        <title xml:lang="ru">Утро делового человека</title>
+        <title xml:lang="en">The Morning of a Busy Man</title>
         <title type="sub"/>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>

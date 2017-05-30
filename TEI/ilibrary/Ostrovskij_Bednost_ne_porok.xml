@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Бедность не порок</title>
-        <title type="sub">Комедия в трех действиях</title>
+        <title xml:lang="ru">Бедность не порок</title>
+        <title xml:lang="en">Poverty is No Vice</title>
+        <title type="sub" xml:lang="ru">Комедия в трех действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Three Acts</title>
         <author key="Wikidata:Q171976">Александр Островский</author>
       </titleStmt>
       <publicationStmt>

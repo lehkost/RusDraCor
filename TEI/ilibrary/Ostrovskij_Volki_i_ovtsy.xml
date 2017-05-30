@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Волки и овцы</title>
-        <title type="sub">Комедия в пяти действиях</title>
+        <title xml:lang="ru">Волки и овцы</title>
+        <title xml:lang="en">Wolves and Sheep</title>
+        <title type="sub" xml:lang="ru">Комедия в пяти действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Five Acts</title>
         <author key="Wikidata:Q171976">Александр Островский</author>
       </titleStmt>
       <publicationStmt>
