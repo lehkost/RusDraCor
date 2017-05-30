@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print">1917</date>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1917">в 1917 году, пьеса была опубликована на страницах «Аполлона» (№ 6-7) (Wikipedia)</date>
+            <date type="premiere" when="1922">Первым появлением пьесы на сцене можно считать берлинскую постановку 1922 года. (Wikipedia)</date>
+            <date type="written" when="1916">1916 (Wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>

@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print">1800</date>
-            <date type="premiere">###date_pp###</date>
-            <date type="written">1788</date>
+            <date type="print"/>
+            <date type="premiere" when="1801">24 января 1801 года (http://www.e-reading.mobi/chapter.php/98340/435/Krylov_2_Tom_2._Dramaturgiya.html)</date>
+            <date type="written" when="1778">1777-1788 (https://biography.wikireading.ru/165843)</date>
           </bibl>
         </bibl>
       </sourceDesc>

@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print">1917</date>
+            <date type="print" when="1917">Публикация «Гондлы» в журнале «Русская мысль» в январе 1917 года (https://gumilev.ru/about/235/)</date>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1916">Источник: https://gumilev.ru/about/235/</date> 
           </bibl>
         </bibl>
       </sourceDesc>

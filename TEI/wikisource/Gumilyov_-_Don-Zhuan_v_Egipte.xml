@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1911">в апреле 1911 года пьеса была опубликована в сборнике стихотворений «Чужое небо» (https://gumilev.ru/about/10/)</date>
+            <date type="premiere" when="1913">в марте 1913 года состоялась ее премьера в Троицком театре (https://gumilev.ru/about/10/)</date>
+            <date type="written" when="1911">«Дон Жуан в Египте» был прочитан в ноябре 1911 года в Царском Селе у Гумилёвых на заседании Кружка Случевского (https://gumilev.ru/about/10/)</date>
           </bibl>
         </bibl>
       </sourceDesc>

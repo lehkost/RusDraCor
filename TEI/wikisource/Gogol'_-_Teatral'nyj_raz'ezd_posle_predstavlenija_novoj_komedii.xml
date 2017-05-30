@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print"></date>
-            <date type="premiere">###date_pp###</date>
-            <date type="written">1842</date>
+            <date type="print" when="1842">Впервые опубликована: Сочинения Николая Гоголя. СПб., 1842. (https://biography.wikireading.ru/105347)</date>
+            <date type="premiere"/>
+            <date type="written" when="1842">1836—1842 гг. (web-biblioteka)</date>
           </bibl>
         </bibl>
       </sourceDesc>
