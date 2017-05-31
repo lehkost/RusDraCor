@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1955">1955 - публикация в СССР, 1934 - в Бостоне и Нью-Йорке</date>
+            <date type="premiere" when="1926">МХАТ</date>
+            <date type="written" when="1925"/>
           </bibl>
         </bibl>
       </sourceDesc>
