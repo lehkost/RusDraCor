@@ -309,6 +309,39 @@
               <persName>третий человек, Бог весть какого свойства, впрочем, благородной наружности
                 и прилично одетый</persName>
             </person>
+          <person xml:id="PervyjZritel">
+            <persName>один из двух вышедших зрителей</persName>
+          </person>
+          <person xml:id="VtorojZritel">
+            <persName>второй из двух вышедших зрителей</persName>
+         </person>
+                    
+          
+          <person xml:id="PervyjMujchina">
+            <persName>один из мужчин</persName>
+          </person>
+          <person xml:id="VtorojMujchina">
+            <persName>второй из мужчин</persName>
+          </person>
+          <person xml:id="TretijMujchina">
+            <persName>третий из мужчин</persName>
+          </person>
+        	<person xml:id="PervyjLubitelIskusstva">
+        	  <persName>первый любитель искусства </persName>
+        	</person>
+          <person xml:id="VtorojLubitelIskusstva">
+            <persName>второй любитель искусства </persName>
+          </person>        
+          <person xml:id="TretijLubitelIskusstva">
+            <persName>третий любитель искусства </persName>
+          </person>
+          <person xml:id="ChetvertyjLubitelIskusstva">
+            <persName>четвертый любитель искусства </persName>
+          </person>        
+          <person xml:id="PjatyyjLubitelIskusstva">
+            <persName>пятый любитель искусства </persName>
+          </person>
+          
         </listPerson>
       </particDesc>
       <textClass>
