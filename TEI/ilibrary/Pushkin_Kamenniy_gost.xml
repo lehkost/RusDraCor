@@ -32,9 +32,9 @@
           <bibl type="originalSource">
             <title>А.С. Пушкин. Собрание сочинений в 10 томах. Том 4. Государственное издательство
               художественной литературы. М. 1960.</title>
-            <date type="print" when="1935"/>
-            <date type="premiere"/>
-            <date type="written" when="1830">1830 г.</date>
+            <date type="print" when="1839">Первая публикация трагедии была осуществлена книгопродавцем А. Смирдиным в сборнике «Сто русских литераторов» в 1839 г.</date>
+            <date type="premiere" when="1872">February 28, 1872</date>
+            <date type="written" when="1830">1830</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,9 +47,6 @@
           </person>
           <person xml:id="Leporello">
             <persName>Лепорелло</persName>
-          </person>
-          <person xml:id="Gosti">
-            <persName>Гости</persName>
           </person>
           <person xml:id="Gost">
             <persName>Гость</persName>
@@ -66,17 +63,14 @@
           <person xml:id="DonGuan">
             <persName>Дон Гуан</persName>
           </person>
-          <person xml:id="Vtoroj">
+          <person xml:id="VtorojGost">
             <persName>Второй</persName>
           </person>
-          <person xml:id="Pervyjgost">
+          <person xml:id="PervyjGost">
             <persName>Первый гость</persName>
           </person>
-          <person xml:id="Tretij">
+          <person xml:id="TretijGost">
             <persName>Третий</persName>
-          </person>
-          <person xml:id="Pervyj">
-            <persName>Первый</persName>
           </person>
           <person xml:id="DonaAnna">
             <persName>Дона Анна</persName>
@@ -93,6 +87,7 @@
       <listChange>
         <change who="zhenya" when="2017-05-16">changed IDs and date</change>
         <change who="ds" when="2017-05-23">removed 'unknown speaker'</change>
+        <change who="to" when="2017-05-31">Corrected IDs, CamelCase, added some dates and info </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -523,7 +518,7 @@
       <div type="scene">
         <head>Сцена II</head>
         <stage>Комната. Ужин у Лауры.</stage>
-        <sp who="#Pervyjgost">
+        <sp who="#PervyjGost">
           <speaker>Первый гость</speaker>
           <lg>
             <l>Клянусь тебе, Лаура, никогда</l>
@@ -531,13 +526,13 @@
             <l>Как роль свою ты верно поняла!</l>
           </lg>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojGost">
           <speaker>Второй</speaker>
           <lg>
             <l>Как развила ее! с какою силой!</l>
           </lg>
         </sp>
-        <sp who="#Tretij">
+        <sp who="#TretijGost">
           <speaker>Третий</speaker>
           <lg>
             <l>С каким искусством!</l>
@@ -553,7 +548,7 @@
             <l>Не память рабская, но сердце...</l>
           </lg>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjGost">
           <speaker>Первый</speaker>
           <lg>
             <l>                                                Правда.</l>
@@ -570,14 +565,14 @@
             <l>                                Подайте мне гитару.</l>
           </lg>
         </sp>
-        <sp who="#Gosti">
+        <sp who="#PervyjGost #VtorojGost #TretijGost #DonKarlos">
           <speaker>Все</speaker>
           <stage type="delivery">(Поет.)</stage>
           <lg>
             <l>О brava! brava! чудно! бесподобно!</l>
           </lg>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjGost">
           <speaker>Первый</speaker>
           <lg>
             <l>Благодарим, волшебница. Ты сердце</l>
@@ -587,7 +582,7 @@
             <l>Сам Карлос тронут, твой угрюмый гость.</l>
           </lg>
         </sp>
-        <sp who="#Vtoroj">
+        <sp who="#VtorojGost">
           <speaker>Второй</speaker>
           <lg>
             <l>Какие звуки! сколько в них души!</l>
@@ -635,7 +630,7 @@
             <l>Зови же их.</l>
           </lg>
         </sp>
-        <sp who="#Pervyj">
+        <sp who="#PervyjGost">
           <speaker>Первый</speaker>
           <lg>
             <l>                        Лаура, перестань;</l>
@@ -693,7 +688,7 @@
             <l>А, слушайте.</l>
           </lg>
         </sp>
-        <sp who="#Gosti">
+        <sp who="#PervyjGost #VtorojGost #TretijGost #DonKarlos">
           <speaker>Все</speaker>
           <stage type="delivery">(Поет.)</stage>
           <lg>
@@ -706,7 +701,7 @@
             <l>Прощайте ж, господа.</l>
           </lg>
         </sp>
-        <sp who="#Gosti">
+        <sp who="#PervyjGost #VtorojGost #TretijGost">
           <speaker>Гости</speaker>
           <lg>
             <l>                                        Прощай, Лаура.</l>
