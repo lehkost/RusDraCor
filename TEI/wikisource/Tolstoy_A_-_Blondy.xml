@@ -32,7 +32,7 @@
             <title/>
             <date type="print" when="1854">Впервые — в журнале «Современник», 1854, № 10.</date>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1853"/>
           </bibl>
         </bibl>
       </sourceDesc>

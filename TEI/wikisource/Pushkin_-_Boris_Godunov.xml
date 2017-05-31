@@ -30,9 +30,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1831"/>
+            <date type="premiere" when="1866"/>
+            <date type="written" when="1825"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -277,6 +277,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#to" when="2017-05-31"> added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
