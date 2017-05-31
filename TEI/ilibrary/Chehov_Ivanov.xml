@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 12. М., "Наука", 1986.</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1889">"Cеверный вестник", 3 номер. (wikipedia), вторая редакция</date>
+            <date type="premiere" when="1887">Театр Корша, премьера состоялась в ноябре (wikipedia), первая редакция. Премьера второй редакции состоялась 31 января 1889 в Александринском театре</date>
+            <date type="written" when="1887">После постановки в театре Корша пьеса была переработана в 1888</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -105,6 +105,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#to">changed id</change>
+        <change who="#zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

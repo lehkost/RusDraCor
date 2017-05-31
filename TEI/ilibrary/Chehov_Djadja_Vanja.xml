@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1897">Впервые — сборник «Пьесы». СПб., изд. А. С. Суворина, 1897 (ФЭБ)</date>
+            <date type="premiere" when="1897">состоялась премьера пьесы в Ростове-на-Дону (wikipedia)</date>
+            <date type="written" when="1896"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -85,6 +85,7 @@
         <change who="#ds">converted from source</change>
         <change who="#to">replaced id "#Golosstorozha" with id "#Efim", which is the name of this storozh</change>
         <change who="#to #ff">reverted id to "#GolosStorozha"</change>
+        <change who="#zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

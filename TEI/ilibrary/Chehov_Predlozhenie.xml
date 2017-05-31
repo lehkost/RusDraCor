@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 11. М., "Наука", 1986.</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1888">Впервые — литографированное издание: Предложение. Шутка в одном действии А. Чехова. Литография Московской театральной библиотеки Е. Н. Рассохиной (ценз. разр. 27 декабря 1888 г.) (ФЭБ)</date>
+            <date type="premiere" when="1889">Впервые была поставлена 12 апреля 1889 г. Столичным артистическим кружком в Санкт-Петербурге (wikipedia).</date>
+            <date type="written" when="1888"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -63,6 +63,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#GG">checked</change>
+        <change who="#zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

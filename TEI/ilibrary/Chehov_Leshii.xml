@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1890">Литография комиссионера Общества русских драматических писателей С. Ф. Рассохина (wikipedia)</date>
+            <date type="premiere" when="1889">Частный театр Абрамовой</date>
+            <date type="written" when="1889"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -92,7 +92,8 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who="#to">corrected id Vse</change>        
+        <change who="#to">corrected id Vse</change>  
+        <change who="#zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

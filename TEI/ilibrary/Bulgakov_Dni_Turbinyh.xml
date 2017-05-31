@@ -32,8 +32,8 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print" when="1955">1955 - публикация в СССР, 1934 - в Бостоне и Нью-Йорке</date>
-            <date type="premiere" when="1926">МХАТ</date>
+            <date type="print" when="1955">Впервые: Булгаков М. Дни Турбиных. Последние дни (А. С. Пушкин). М.: Искусство, 1955. В 1934 г. в Бостоне и Нью-Йорке были опубликованы два перевода Д. Т. на английский язык, выполненные Ю. Лайонсом и Ф. Блохом. В 1927 г. в Берлине появился сделанный К. Розенбергом перевод на немецкий язык второй редакции Д. Т., носившей в русском оригинале название "Белая гвардия" (издание имело двойное название: "Дни Турбиных. Белая гвардия") (Булгаковская энциклопедия)</date>
+            <date type="premiere" when="1926">МХАТ, 5 октября (Булгаковская энциклопедия)</date>
             <date type="written" when="1925"/>
           </bibl>
         </bibl>
@@ -141,6 +141,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#to">eliminated id Nikolaj</change>
+        <change who="zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

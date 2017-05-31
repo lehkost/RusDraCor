@@ -31,9 +31,9 @@
           </availability>
           <bibl type="originalSource">
             <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 12. М., "Наука", 1986.</title>
-            <date type="print"/>
+            <date type="print" when="1886">Впервые — «Осколки», 1886, № 5, 1 февраля (ценз. разр. 31 января), стр. 4—5, с подзаголовком: Случай из моей медицинско-шарлатанской практики. Подпись: А. Чехонте.(ФЭБ)</date>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1884"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -65,6 +65,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#to">checked the IDs, all seem correct</change>
+        <change who="#zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

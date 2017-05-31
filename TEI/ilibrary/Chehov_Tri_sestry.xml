@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written"/>
+            <date type="print" when="1901"> Впервые была опубликована в журнале «Русская мысль», № 2 за 1901 год (wikipedia)</date>
+            <date type="premiere" when="1901">МХТ 31-го января 1901 (wikipedia)</date>
+            <date type="written" when="1900"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -96,6 +96,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who = "#to"> checked IDs, corrected errors in tags</change>
+        <change who="#zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

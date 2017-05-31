@@ -32,9 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print"/>
+            <date type="print"when="1889">Впервые напечатано отдельным изданием: Трагик поневоле (Из дачной жизни). Шутка в одном действии А. Чехова. Издание Театральной библиотеки В. А. Базарова. СПб., 1889 (ценз. разр. 1 июня 1889 г.; вышло в свет с 24 по 30 июня 1889 г.; напечатано 600 экз.) (wikipedia)</date>
             <date type="premiere"/>
-            <date type="written"/>
+            <date type="written" when="1889"/>
           </bibl>
         </bibl>
       </sourceDesc>
