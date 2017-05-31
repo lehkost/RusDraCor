@@ -31,7 +31,7 @@
           <bibl type="originalSource">
             <title>Русская драматургия XVIII века. – М.: Современник, 1986. – С. 445–460.</title>
             <date type="print" when="1799">1799</date>
-            <date type="premiere"/>
+            <date type="premiere" when="1789">1789</date>
             <date type="written" when="1789">1789</date>
           </bibl>
         </bibl>
@@ -78,6 +78,7 @@
     <revisionDesc>
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
+        <change who="#to" when="2017-05-31">added premiere date</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

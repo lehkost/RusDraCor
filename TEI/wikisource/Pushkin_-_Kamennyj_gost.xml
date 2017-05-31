@@ -31,7 +31,7 @@
           <bibl type="originalSource">
             <title/>
             <date type="print" when="1839">Первая публикация трагедии была осуществлена книгопродавцем А. Смирдиным в сборнике «Сто русских литераторов» в 1839 г.</date>
-            <date type="premiere"/>
+            <date type="premiere" when="1872">February 28, 1872</date>
             <date type="written" when="1830">1830</date>
           </bibl>
         </bibl>
@@ -86,6 +86,7 @@
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
         <change who="#sveta" when="2017-05-01">corrected IDs, added dates</change>
+        <change who="#to" when="2017-05-31">added premiere date</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -459,7 +460,7 @@
           <l part="F"> Подайте мне гитару.</l>
           <stage>(Поет.)</stage>
         </sp>
-        <sp who="##PervyjGost #VtorojGost #TretijGost">
+        <sp who="#PervyjGost #VtorojGost #TretijGost">
           <speaker>Все</speaker>
           <l>О brava! brava! чудно! бесподобно!</l>
         </sp>
@@ -556,7 +557,7 @@
           <speaker>Лаура</speaker>
           <l>Прощайте ж, господа.</l>
         </sp>
-        <sp who="##PervyjGost #VtorojGost #TretijGost #Gost">
+        <sp who="#PervyjGost #VtorojGost #TretijGost #Gost">
           <speaker>Гости</speaker>
           <l part="F"> Прощай, Лаура.</l>
           <stage>Выходят. Лаура останавливает Дон Карлоса. </stage>
