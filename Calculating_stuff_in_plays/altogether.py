@@ -70,6 +70,7 @@ def num_of_char(file):
     """This function returns the number of characters in the file"""
     tei = open(file).read()
     characters = re.findall('<sp who="(.*?)">', tei)
+    print(len(set(characters)))
     characters = set(characters)
     return str(len(characters))
 
@@ -150,6 +151,7 @@ def density(file):
     graph = parse_graph(file)
     parsed_graph = nx.parse_edgelist(graph, nodetype = str)
     density = nx.density(parsed_graph)
+    print(nx.number_of_nodes(parsed_graph))
     return density
 
 
