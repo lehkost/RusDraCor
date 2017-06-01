@@ -3,7 +3,11 @@ import re
 import glob
 import csv
 import xml.etree.ElementTree as ET
-import networkx
+import networkx as nx
+
+lines = ["a b {'weight':3}", "a d {'weight':3}"]
+G = nx.parse_edgelist(lines, nodetype = str)
+print(nx.density(G))
 
 def write_filename(file):
     """This function returns the filename without extension
@@ -38,5 +42,3 @@ ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 play_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
                       'github desktop/RusDraCor/TEI/ilibrary/Chehov_Vishnevyi_sad.xml'
-
-print(get_genre(play_path))
