@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title xml:lang="ru">Неосторожность</title>
-        <title xml:lang="en">A Rush Thing To Do</title>
+        <title xml:lang="en">A Rash Thing to Do</title>
         <title type="sub"/>
         <author key="Wikidata:Q42831">Иван Сергеевич Тургенев</author>
       </titleStmt>
@@ -30,13 +30,13 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title/>
-            <date type="print">1843<ref>Впервые — в журнале {{Отечественные
-                записки|год=1843|том=XXX|номер=10|отд=I|страницы={{GBS|TFQFAAAAQAAJ|PA221|221—252}}}}
-                под заглавием «Неосторожность. Драматический очерк в одном действии» с подписью «Т.
-                Л.»</ref></date>
-            <date type="premiere">###date_pp###</date>
-            <date type="written">1843</date>
+            <title>Источник: Тургенев И. С. Собрание сочинений. В 12-ти томах. — М.: «Художественная
+              литература», 1976—1979. Т. 9</title>
+            <date type="print" when="1843">"Впервые — в журнале «Отечественные записки», 1843, том
+              XXX, № 10, отд. I, с. 221—252 под заглавием «Неосторожность. Драматический очерк в
+              одном действии» с подписью «Т. Л.»" (Wikisource)</date>
+            <date type="premiere"/>
+            <date type="written" when="1843">"1843" (Wikisource)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -77,6 +77,7 @@
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#to">checked IDs and dates</change>
+        <change who="#ff" when="2017-06-01">deleted brackets in stage directions according to original</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -96,10 +97,10 @@
         <castItem>Маргарита, служанка — 59 лет.</castItem>
       </castList>
       <div>
-        <head>== СЦЕНА I ==</head>
-        <stage type="delivery">(Театр представляет улицу перед загородным домом дона Бальтазара.
+        <head>СЦЕНА I</head>
+        <stage type="delivery">Театр представляет улицу перед загородным домом дона Бальтазара.
           Направо от дома тянется каменная ограда. Дом двухэтажный с балконом; под балконом растет
-          несколько олив и лавров. На балконе сидит донья Долорес.)</stage>
+          несколько олив и лавров. На балконе сидит донья Долорес.</stage>
         <sp who="#DonjaDolores">
           <speaker>Донья Долорес</speaker>
           <p>
@@ -145,7 +146,7 @@
             <stage type="delivery">(быстро выходя из-под балкона)</stage>. Что бы вы сделали,
             прекрасная сеньйора?</p>
         </sp>
-        <stage type="delivery">(Донья Долорес вскакивает в испуге и остается неподвижной.)</stage>
+        <stage type="delivery">Донья Долорес вскакивает в испуге и остается неподвижной.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>
@@ -166,7 +167,7 @@
             отчаянно в вас влюблен… Вы меня не замечали; но я сам всячески старался не быть
             замеченным вами… Я боялся навлечь на себя и на вас подозрение вашего супруга.</p>
         </sp>
-        <stage type="delivery">(Донья Долорес хочет уйти.)</stage>
+        <stage type="delivery">Донья Долорес хочет уйти.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>
@@ -294,8 +295,8 @@
             <stage type="delivery">(в замешательстве)</stage>. Я?.. вы меня не.. Но я здесь не одна…
             Старуха Маргарита презлая…</p>
         </sp>
-        <stage type="delivery">(Из окна верхнего этажа осторожно выказывается голова
-          Маргариты.)</stage>
+        <stage type="delivery">Из окна верхнего этажа осторожно выказывается голова
+          Маргариты.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>. Я ее не боюсь…</p>
@@ -521,7 +522,7 @@
               рот.)</stage> Нет, не кричи… Беги… куда? Сангре! где Сангре? Как? У меня в доме…
             Поддержи меня, Маргарита… я, кажется, умираю…</p>
         </sp>
-        <stage type="delivery">({{Razr|Сангре} входит.)</stage>
+        <stage type="delivery">Сангре входит.</stage>
         <sp who="#DonPablo">
           <speaker>Дон Пабло</speaker>
           <p>. Это что значит? Бальтазар…</p>
@@ -722,8 +723,8 @@
         </sp>
       </div>
       <div>
-        <head>== СЦЕНА II ==</head>
-        <stage type="delivery">(Сад.)</stage>
+        <head>СЦЕНА II</head>
+        <stage type="delivery">Сад.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>
@@ -897,7 +898,7 @@
             <stage type="delivery">(боязливо оглядываясь)</stage>. Боже мой! мне кажется, что даже
             стены нас подслушивают.</p>
         </sp>
-        <stage type="delivery">(Дон Пабло осторожно выглядывает из-за одного дерева.)</stage>
+        <stage type="delivery">Дон Пабло осторожно выглядывает из-за одного дерева.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>. О, сеньйора! если б я был на вашем месте…</p>
@@ -939,7 +940,7 @@
           <speaker>Дон Рафаэль</speaker>
           <p>. Помилуйте! Но, признаюсь, вашего Пепе и его собак…</p>
         </sp>
-        <stage type="delivery">(Дон Пабло скрывается.)</stage>
+        <stage type="delivery">Дон Пабло скрывается.</stage>
         <sp who="#DonjaDolores">
           <speaker>Донья Долорес</speaker>
           <p>. Боитесь? Хорош витязь!</p>
@@ -1153,9 +1154,9 @@
         </sp>
       </div>
       <div>
-        <head>== СЦЕНА III ==</head>
-        <stage type="delivery">(Комната доньи Долорес. В одном углу сидит донья Долорес, в другом —
-          дон Рафаэль.)</stage>
+        <head>СЦЕНА III</head>
+        <stage type="delivery">Комната доньи Долорес. В одном углу сидит донья Долорес, в другом —
+          дон Рафаэль.</stage>
         <sp who="#DonjaDolores">
           <speaker>Донья Долорес</speaker>
           <p>. И вы не хотите уйти?..</p>
@@ -1355,7 +1356,7 @@
           <p>. Друзья? какие у меня друзья? У меня нет друзей. Я останусь. А! сеньйора, вы
             думали…</p>
         </sp>
-        <stage type="delivery">(Дверь отворяется; входит Сангре — он бледен.)</stage>
+        <stage type="delivery">Дверь отворяется; входит Сангре — он бледен.</stage>
         <sp who="#DonPablo">
           <speaker>Дон Пабло</speaker>
           <p>
@@ -1400,9 +1401,9 @@
             дон Бальтазар, настоящий придворный… Спокойной ночи, прекрасная и добродетельная
             сеньйора! <stage type="delivery">(Оба уходят.)</stage></p>
         </sp>
-        <stage type="delivery">(Донья Долорес сидит в оцепенении… Свечка, принесенная Бальтазаром,
+        <stage type="delivery">Донья Долорес сидит в оцепенении… Свечка, принесенная Бальтазаром,
           остается на столе; чрез несколько времени Рафаэль выходит из спальни, прислушивается:
-          слышен внизу стук прихлопнутой двери.)</stage>
+          слышен внизу стук прихлопнутой двери.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>. Они ушли… сеньора.</p>
@@ -1566,7 +1567,7 @@
           <speaker>Донья Долорес</speaker>
           <p>. Прощайте, не забывайте меня.</p>
         </sp>
-        <stage type="delivery">(Рафаэль бросается к двери. Дверь отворяется, входит Сангре.)</stage>
+        <stage type="delivery">Рафаэль бросается к двери. Дверь отворяется, входит Сангре.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>
@@ -1577,7 +1578,7 @@
           <p>
             <stage type="delivery">(донье Долорес)</stage>. Это я.</p>
         </sp>
-        <stage type="delivery">(Долорес с криком бросается головой в подушки софы.)</stage>
+        <stage type="delivery">Долорес с криком бросается головой в подушки софы.</stage>
         <sp who="#DonRafael">
           <speaker>Дон Рафаэль</speaker>
           <p>
@@ -1676,9 +1677,9 @@
           <speaker>Дон Пабло</speaker>
           <p>. Извольте. <stage type="delivery">(Идет.)</stage></p>
         </sp>
-        <stage type="delivery">(Дон Рафаэль в последний раз с глубокой тоской взглядывает на донью
+        <stage type="delivery">Дон Рафаэль в последний раз с глубокой тоской взглядывает на донью
           Долорес и уходит за Сангре. Долорес остается одна; Маргарита тихо входит и становится
-          подле нее.)</stage>
+          подле нее.</stage>
         <sp who="#DonjaDolores">
           <speaker>Донья Долорес</speaker>
           <p>
@@ -1797,7 +1798,7 @@
             Я, право, уже думала, что они собираются меня убить… <stage type="delivery">(Обе
               уходят.)</stage></p>
         </sp>
-        <stage type="delivery">(Входят Пабло и Бальтазар.)</stage>
+        <stage type="delivery">Входят Пабло и Бальтазар.</stage>
         <sp who="#DonBaltazar">
           <speaker>Дон Бальтазар</speaker>
           <p>. Однако, право, ты поступил с ним так великодушно…</p>
@@ -2142,7 +2143,7 @@
             вы в самом деле мне поверили? Признаюсь, я и не подозревал в себе такого искусства
             притворяться и болтать…</p>
         </sp>
-        <stage type="delivery">(Донья Долорес пронзительно смотрит на него.)</stage>
+        <stage type="delivery">Донья Долорес пронзительно смотрит на него.</stage>
         <sp who="#DonPablo">
           <speaker>Дон Пабло</speaker>
           <p>
@@ -2308,8 +2309,8 @@
           <p>
             <stage type="delivery">(презрительно)</stage>. Так уже не хотите ли вы убить меня?</p>
         </sp>
-        <stage type="delivery">(Сангре молчит. В это время раздается стук у двери, и слышен голос
-          Бальтазара: «Пабло, Пабло, скоро ли?»)</stage>
+        <stage type="delivery">Сангре молчит. В это время раздается стук у двери, и слышен голос
+          Бальтазара: «Пабло, Пабло, скоро ли?»</stage>
         <sp who="#DonPablo">
           <speaker>Дон Пабло</speaker>
           <p>. Сейчас, мой милый, сейчас… Твоя жена все еще в таком волнении. <stage type="delivery"
@@ -2481,10 +2482,10 @@
         </sp>
       </div>
       <div>
-        <head>== ЭПИЛОГ ==</head>
-        <stage type="delivery">(10 лет спустя.)</stage>
-        <stage type="delivery">(Кабинет важного чиновника. За столом сидит секретарь. Входит дон
-          Пабло Сангре, граф Торено.)</stage>
+        <head>ЭПИЛОГ</head>
+        <stage type="delivery">10 лет спустя.</stage>
+        <stage type="delivery">Кабинет важного чиновника. За столом сидит секретарь. Входит дон
+          Пабло Сангре, граф Торено.</stage>
         <sp who="#GrafPablo">
           <speaker>Граф Пабло</speaker>
           <p>
@@ -2497,7 +2498,7 @@
             <stage type="delivery">(почтительно)</stage>. Вот они, ваше сиятельство. <stage
               type="delivery">(Оба выходят.)</stage></p>
         </sp>
-        <p>'1843 г.'</p>
+        <p>1843 г.</p>
       </div>
     </body>
   </text>
