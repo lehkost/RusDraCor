@@ -342,6 +342,12 @@
             <persName>пятый любитель искусства </persName>
           </person>
           
+          <person xml:id="OdinMolodoj">
+            <persName>один молодой человек </persName>
+          </person>
+          <person xml:id="DrugojMolodoj">
+            <persName>другой молодой человек </persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
