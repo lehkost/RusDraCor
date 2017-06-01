@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Где тонко, там и рвётся</title>
-        <title type="sub">Комедия в одном действии</title>
+        <title xml:lang="ru">Где тонко, там и рвётся</title>
+        <title xml:lang="en">It Tears Where It is Thin</title>
+        <title type="sub" xml:lang="ru">Комедия в одном действии</title>
+        <title type="sub" xml:lang="en">A Comedy in One Act</title>
         <author key="Wikidata:Q42831">Иван Сергеевич Тургенев</author>
       </titleStmt>
       <publicationStmt>
