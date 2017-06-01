@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Скупой рыцарь</title>
-        <title type="sub">Сцены из Ченстоновой трагикомедии: The covetous Knight</title>
+        <title xml:lang="ru">Скупой рыцарь</title>
+        <title xml:lang="en">The Covetous Knight</title>
+        <title type="sub" xml:lang="ru">Сцены из Ченстоновой трагикомедии: The covetous Knightragi-comedy,The Covetous Knight</title>
+        <title type="sub" xml:lang="en">Scenes from SHENSTONE'S tragi-comedy,The Covetous Knight</title>
         <author key="Wikidata:Q7200">Александр Сергеевич Пушкин</author>
       </titleStmt>
       <publicationStmt>

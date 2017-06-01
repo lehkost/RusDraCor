@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Неосторожность</title>
+        <title xml:lang="ru">Неосторожность</title>
+        <title xml:lang="en">A Rush Thing To Do</title>
         <title type="sub"/>
         <author key="Wikidata:Q42831">Иван Сергеевич Тургенев</author>
       </titleStmt>

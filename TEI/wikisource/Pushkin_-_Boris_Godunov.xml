@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Борис Годунов</title>
+        <title xml:lang="ru">Борис Годунов</title>
+        <title xml:lang="en">Boris Godunov</title>
         <title type="sub"/>
         <author key="Wikidata:Q7200">Александр Сергеевич Пушкин</author>
       </titleStmt>

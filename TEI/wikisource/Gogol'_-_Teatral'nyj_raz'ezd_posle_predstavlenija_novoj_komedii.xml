@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Театральный разъезд после представления новой комедии</title>
+        <title xml:lang="ru">Театральный разъезд после представления новой комедии</title>
+        <title xml:lang="en">Leaving The Theater</title>
         <title type="sub"/>
         <author key="Wikidata:Q43718">Николай Васильевич Гоголь</author>
       </titleStmt>
