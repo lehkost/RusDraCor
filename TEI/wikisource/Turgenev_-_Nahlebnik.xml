@@ -56,7 +56,7 @@
             <persName>Карпачов</persName>
           </person>
           <person xml:id="Eletskij">
-            <persName>Голос Елецкого</persName>
+            <persName>Елецкий</persName>
           </person>
           <person xml:id="Tropachev">
             <persName>Тропачёв</persName>
@@ -93,7 +93,7 @@
     <revisionDesc>
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
-        <change who="#to" when="2017-05-31">added dates,corrected IDs but not fully </change>
+        <change who="#to" when="2017-05-31">added dates,corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
