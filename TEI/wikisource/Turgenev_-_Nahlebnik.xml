@@ -4327,8 +4327,12 @@
           <p>
             <stage type="delivery">(с бокалом в руке)</stage>. За здоровье нового владельца!</p>
         </sp>
-        <stage type="delivery">(Все <stage type="delivery">(исключая Иванова, который даже свои
-            бокал не выпивает)</stage>. За его здоровье! За его здоровье!)</stage>
+        <sp who="#Tropachev #Eletskij #Karpachov #Kuzovkin #Olga #Trembinskij">
+          <speaker>Все</speaker>
+          <p>
+            <stage type="delivery">(исключая Иванова, который даже свои
+              бокал не выпивает)</stage>. За его здоровье! За его здоровье!</p>
+        </sp>
         <sp who="#Karpachov">
           <speaker>Карпачов</speaker>
           <p>
