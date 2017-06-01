@@ -100,7 +100,8 @@
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#to" when="2017-05-31">added dates,corrected IDs</change>
-        <change who="#ff" when="2017-06-01">deleted brackets in stage directions according to original</change>
+        <change who="#ff" when="2017-06-01">deleted brackets in stage directions according to
+          original</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -4314,18 +4315,11 @@
           <p>
             <stage type="delivery">(с бокалом в руке)</stage>. За здоровье нового владельца!</p>
         </sp>
-<<<<<<< HEAD
         <sp who="#Tropachev #Eletskij #Karpachov #Kuzovkin #Olga #Trembinskij">
           <speaker>Все</speaker>
           <p>
-            <stage type="delivery">(исключая Иванова, который даже свои
-              бокал не выпивает)</stage>. За его здоровье! За его здоровье!</p>
-=======
-        <sp who="#Vse">
-          <speaker>Все</speaker>
-          <p><stage type="delivery">(исключая Иванова, который даже свои бокал не выпивает)</stage>.
+            <stage type="delivery">(исключая Иванова, который даже свои бокал не выпивает)</stage>.
             За его здоровье! За его здоровье!</p>
->>>>>>> origin/master
         </sp>
         <sp who="#Karpachov">
           <speaker>Карпачов</speaker>
