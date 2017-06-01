@@ -42,38 +42,38 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Preslep">
+          <person xml:id="Preslep" sex="MALE">
             <persName>Преслеп</persName>
           </person>
-          <person xml:id="ZhenaEgo">
+          <person xml:id="ZhenaEgo" sex="FEMALE">
             <persName>Жена его</persName>
           </person>
-          <person xml:id="Paraskovja">
+          <person xml:id="Paraskovja" sex="FEMALE">
             <persName>Парасковья</persName>
           </person>
-          <person xml:id="Eremeevna">
+          <person xml:id="Eremeevna" sex="FEMALE">
             <persName>Еремеевна</persName>
           </person>
-          <person xml:id="Pimen">
+          <person xml:id="Pimen" sex="MALE">
             <persName>Пимен</persName>
           </person>
-          <person xml:id="Neoh">
+          <person xml:id="Neoh" sex="MALE">
             <persName>Неох</persName>
           </person>
-          <person xml:id="Skotinin">
+          <person xml:id="Skotinin" sex="MALE">
             <persName>Скотинин</persName>
           </person>
-          <person xml:id="Kutejkin">
+          <person xml:id="Kutejkin" sex="MALE">
             <persName>Кутейкин</persName>
           </person>
-          <person xml:id="Tsyfirkin">
+          <person xml:id="Tsyfirkin" sex="MALE">
             <persName>Цыфиркин</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle" subtype="comedy">Комедия</term>
+          <term type="genreTitle" subtype="comedy">Комедия в одном действии</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -81,7 +81,7 @@
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#to" when="2017-05-31">added premiere date</change>
-        <change who="#ff" when="2017-06-01">moved full stops from speech acts to speakers; added English title</change>
+        <change who="#ff" when="2017-06-01">moved full stops from speech acts to speakers; added English title; added gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
