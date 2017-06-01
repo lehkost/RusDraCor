@@ -3,7 +3,7 @@ import re
 import glob
 import csv
 import xml.etree.ElementTree as ET
-import networkx
+import networkx as nx
 
 
 def write_filename(file):
@@ -136,13 +136,31 @@ def genre(file):
         return None
 
 
+def parse_graph(file):
+    graph = list()
+    table = open(file)
+    table = csv.DictReader(table, delimiter=';')
+    for row in table:
+        line = row['Source'] + ' ' + row['Target'] + ' ' + "{'weight':" + row['Weight'] + "}"
+        graph.append(line)
+    return graph
+
+
+def density(file):
+    graph = parse_graph(file)
+    parsed_graph = nx.parse_edgelist(graph, nodetype = str)
+    density = nx.density(parsed_graph)
+    return density
+
+
+
 years = open('./years_of_creation.csv')
 years = csv.DictReader(years, delimiter=',')
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,Genre,\n')
+table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,Density,Genre\n')
 
 
 ilibrary_tei_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
@@ -173,6 +191,7 @@ for file in all_tei:
         if file_name in el:
             data_f.append(max_weight(el))
             data_f.append(max_degree(el))
+            data_f.append(round(density(el), 2))
     data_f.append(genre(file))
     data.append(data_f)
 
