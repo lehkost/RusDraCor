@@ -32,7 +32,8 @@
           <bibl type="originalSource">
             <title>А.С. Пушкин. Собрание сочинений в 10 томах. Том 4. Государственное издательство
               художественной литературы. М. 1960.</title>
-            <date type="print" when="1837">Напечатана впервые после смерти Пушкина в журнале «Современник» за 1837 г., кн. V.(rvb)</date>
+            <date type="print" when="1837">Напечатана впервые после смерти Пушкина в журнале
+              «Современник» за 1837 г., кн. V.(rvb)</date>
             <date type="premiere"/>
             <date type="written" when="1835">1835</date>
           </bibl>
@@ -60,7 +61,7 @@
           <person xml:id="Martyn">
             <persName>Мартын</persName>
           </person>
-          <person xml:id="Odiniznih">
+          <person xml:id="OdinIzNih">
             <persName>Один из них</persName>
           </person>
           <person xml:id="Berta">
@@ -69,10 +70,10 @@
           <person xml:id="Vassaly">
             <persName>Вассалы</persName>
           </person>
-          <person xml:id="Odinizrytsarej">
+          <person xml:id="OdinIzRytsarej">
             <persName>Один из рыцарей</persName>
           </person>
-          <person xml:id="Odinizrytsarej_2">
+          <person xml:id="OdinIzRytsarej_2">
             <persName>Один из рыцарей</persName>
           </person>
           <person xml:id="Alber">
@@ -84,10 +85,10 @@
           <person xml:id="Karl">
             <persName>Карл</persName>
           </person>
-          <person xml:id="Odinrytsar">
+          <person xml:id="OdinRytsar">
             <persName>Один рыцарь</persName>
           </person>
-          <person xml:id="Odinrytsar_2">
+          <person xml:id="OdinRytsar_2">
             <persName>Один рыцарь</persName>
           </person>
           <person xml:id="Rytsar">
@@ -96,20 +97,20 @@
           <person xml:id="Rytsar_2">
             <persName>Рыцарь</persName>
           </person>
-          <person xml:id="Drugojrytsar">
+          <person xml:id="DrugojRytsar">
             <persName>Другой</persName>
           </person>
-          <person xml:id="Drugojrytsar_2">
-            <persName>Другой</persName>
-          </person>          
-          <person xml:id="Drugojrytsar_3">
+          <person xml:id="DrugojRytsar_2">
             <persName>Другой</persName>
           </person>
-          <person xml:id="Drugojrytsar_4">
+          <person xml:id="DrugojRytsar_3">
             <persName>Другой</persName>
-          </person>         
-          <person></person>
-          <person></person>
+          </person>
+          <person xml:id="DrugojRytsar_4">
+            <persName>Другой</persName>
+          </person>
+          <person/>
+          <person/>
         </listPerson>
       </particDesc>
       <textClass>
@@ -880,12 +881,12 @@
           <stage type="delivery">(бросается из засады)</stage>
           <p>. Вперед, ребята! У! у!..</p>
         </sp>
-        <sp who="#Odinrytsar">
+        <sp who="#OdinRytsar">
           <speaker>Один рыцарь</speaker>
           <stage type="delivery">(другому)</stage>
           <p>. Плохо, брат, – их более ста человек...</p>
         </sp>
-        <sp who="#Drugojrytsar">
+        <sp who="#DrugojRytsar">
           <speaker>Другой</speaker>
           <p>. Ничего, нас еще пятеро верхами...</p>
         </sp>
@@ -910,11 +911,11 @@
       </div>
       <div type="configuration">
         <stage>Едет другая толпа рыцарей.</stage>
-        <sp who="#Odiniznih">
+        <sp who="#OdinIzNih">
           <speaker>Один из них</speaker>
           <p>. Господа! посмотрите, что это значит? Здесь дерутся...</p>
         </sp>
-        <sp who="#Drugojrytsar_2">
+        <sp who="#DrugojRytsar_2">
           <speaker>Другой</speaker>
           <p>. Это бунт – подлый народ бьет рыцарей...</p>
         </sp>
@@ -937,7 +938,7 @@
           <speaker>Рыцарь</speaker>
           <p>. Постой! брат... успеешь им проповедать.</p>
         </sp>
-        <sp who="#Drugojrytsar_3">
+        <sp who="#DrugojRytsar_3">
           <speaker>Другой</speaker>
           <p>. И эти подлые твари могли победить благородных рыцарей! смотрите, один, два, три...
             девять рыцарей убито. Да это ужас.</p>
@@ -954,7 +955,7 @@
           <p> Ага, Франц, это ты, дружок? Очень рад, что встречаю тебя... Господа рыцари! благодарим
             за великодушную помощь.</p>
         </sp>
-        <sp who="#Odinizrytsarej">
+        <sp who="#OdinIzRytsarej">
           <speaker>Один из рыцарей</speaker>
           <p>. Не за что; на нашем месте вы бы сделали то же самое.</p>
         </sp>
@@ -963,7 +964,7 @@
           <p>. Смею ли просить вас в мой замок дни на три, отдохнуть после сражения и дружески
             попировать?..</p>
         </sp>
-        <sp who="#Odinizrytsarej">
+        <sp who="#OdinIzRytsarej">
           <speaker>Рыцарь</speaker>
           <p>. Извините, что не можем воспользоваться вашим благородным гостеприимством. Мы спешим
             на похороны Эльсбергского принца – и боимся опоздать...</p>
@@ -972,7 +973,7 @@
           <speaker>Ротенфельд</speaker>
           <p>. По крайней мере сделайте мне честь у меня отужинать.</p>
         </sp>
-        <sp who="#Odinizrytsarej>
+        <sp who="#OdinIzRytsarej">
           <speaker>Рыцарь</speaker>
           <p>. С удовольствием. – Но у вас нет лошадей, – позвольте предложить вам наших... мы сядем
             за вами, как освобожденные красавицы. </p>
@@ -984,7 +985,7 @@
       <div type="configuration">
         <head>ЗАМОК РОТЕНФЕЛЬДА</head>
         <stage>Рыцари ужинают.</stage>
-        <sp who="#Odinrytsar_2">
+        <sp who="#OdinRytsar_2">
           <speaker>Один рыцарь</speaker>
           <p>. Славное вино!</p>
         </sp>
@@ -994,7 +995,7 @@
             остался; этот поход ему стоил двух замков и ротенфельдской рощи, которую продал он за
             бесценок какому-то епископу.</p>
         </sp>
-        <sp who="#Odinrytsar_2">
+        <sp who="#OdinRytsar_2">
           <speaker>Рыцарь</speaker>
           <p>. Славное вино! – За здоровье благородной хозяйки!..</p>
         </sp>
@@ -1015,7 +1016,7 @@
           <speaker>Рыцари</speaker>
           <p>. За здоровье наших избавителей!</p>
         </sp>
-        <sp who="#Odinizrytsarej_2">
+        <sp who="#OdinIzRytsarej_2">
           <speaker>Один из рыцарей</speaker>
           <p>. Ротенфельд! праздник ваш прекрасен; но ему чего-то недостает...</p>
         </sp>
@@ -1023,7 +1024,7 @@
           <speaker>Ротенфельд</speaker>
           <p>. Знаю, кипрского вина; что делать – все вышло на прошлой неделе.</p>
         </sp>
-        <sp who="#Odinizrytsarej_2">
+        <sp who="#OdinIzRytsarej_2">
           <speaker>Рыцарь</speaker>
           <p>. Нет, не кипрского вина; недостает песен миннезингера...</p>
         </sp>
@@ -1039,7 +1040,7 @@
           <speaker>Ротенфельд</speaker>
           <p>. И в самом деле, кликнуть сюда Франца!</p>
         </sp>
-        <sp who="#Odinizrytsarej_2">
+        <sp who="#OdinIzRytsarej_2">
           <speaker>Рыцарь</speaker>
           <p>. Кто этот Франц?</p>
         </sp>
@@ -1047,7 +1048,7 @@
           <speaker>Ротенфельд</speaker>
           <p>. Да тот самый негодяй, которого вы взяли сегодня в плен.</p>
         </sp>
-        <sp who="#Odinizrytsarej_2">
+        <sp who="#OdinIzRytsarej_2">
           <speaker>Рыцарь</speaker>
           <p>. Так он и миннезингер?</p>
         </sp>
@@ -1223,7 +1224,7 @@
           <speaker>Рыцарь</speaker>
           <p>. Что изволите приказать?</p>
         </sp>
-        <sp who="#Drugojrytsar_4">
+        <sp who="#DrugojRytsar_4">
           <speaker>Другой</speaker>
           <p>. Мы готовы во всем повиноваться.</p>
         </sp>
