@@ -274,7 +274,7 @@
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
         <change who="#to" when="2017-05-31"> added dates</change>
         <change who="#zhenya" when="2017-05-31">changed ID's, added dates</change>
-        <change who="#ff" when="2017-06-01">connected enjambements via part attribute</change>
+        <change who="#ff" when="2017-06-01">connected enjambements via part attribute; replaced some false stage directions by emph element</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -871,10 +871,10 @@
         </sp>
         <sp who="#Patriarh">
           <speaker>Патриарх</speaker>
-          <p>Уж эти мне грамотеи! Что еще выдумал! <stage>буду царем на Москве</stage>! Ах он сосуд
+          <p>Уж эти мне грамотеи! Что еще выдумал! <emph>буду царем на Москве</emph>! Ах он сосуд
             диавольский! Однако нечего царю и докладывать об этом; что тревожить отца-государя?
             Довольно будет объявить о побеге дьяку Смирнову али дьяку Ефимьеву. Этака ересь!
-              <stage>буду царем на Москве</stage>!.. Поймать, поймать врагоугодника, да и сослать в
+              <emph>буду царем на Москве</emph>!.. Поймать, поймать врагоугодника, да и сослать в
             Соловецкий на вечное покаяние. Ведь это ересь, отец игумен?</p>
         </sp>
         <sp who="#Igumen">
@@ -2744,7 +2744,7 @@
         </sp>
         <sp who="#OdinIzBegletsov">
           <speaker>Один из беглецов</speaker>
-          <p>Сам <stage>пошоль</stage>, коли есть охота, проклятый басурман.</p>
+          <p>Сам <emph>пошоль</emph>, коли есть охота, проклятый басурман.</p>
         </sp>
         <sp who="#Marzheret">
           <speaker>Маржерет</speaker>
@@ -2757,7 +2757,7 @@
         </sp>
         <sp who="#Marzheret">
           <speaker>Маржерет</speaker>
-          <p>Qu’est-ce à dire ''pravoslavni?.. Sacrés gueux, maudites canailles! Mordieu, mein Herr,
+          <p>Qu’est-ce à dire <emph>pravoslavni</emph>?.. Sacrés gueux, maudites canailles! Mordieu, mein Herr,
             j’enrage: on dirait que ça n’a pas des bras pour frapper, ça n’a que des jambes pour
             fuir.</p>
         </sp>
