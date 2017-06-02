@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Король на площади</title>
-        <title type="sub">Драма</title>
+        <title type="main" xml:lang="ru">Король на площади</title>
+        <title type="main" xml:lang="en">The King on the Square</title>
+        <title type="sub" xml:lang="ru">Драма</title>
+        <title type="sub" xml:lang="en">Drama</title>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
       </titleStmt>
       <publicationStmt>
@@ -40,91 +42,91 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Zodchij">
+          <person xml:id="Zodchij" sex="MALE">
             <persName>Зодчий</persName>
           </person>
-          <person xml:id="DochZodchego">
+          <person xml:id="DochZodchego" sex="FEMALE">
             <persName>Дочь Зодчего</persName>
           </person>
-          <person xml:id="Poet">
+          <person xml:id="Poet" sex="MALE">
             <persName>Поэт</persName>
           </person>
-          <person xml:id="Shut">
+          <person xml:id="Shut" sex="MALE">
             <persName>Шут</persName>
           </person>
-          <person xml:id="GolosaVTolpe">
+          <person xml:id="GolosaVTolpe" sex="UNKNOWN">
             <persName>Голоса в толпе</persName>
           </person>
-          <person xml:id="ObydennyjGolos">
+          <person xml:id="ObydennyjGolos" sex="UNKNOWN">
             <persName>Тот же обыденный голос</persName>
           </person>
-          <person xml:id="PervyjRabochij_1">
+          <person xml:id="PervyjRabochij_1" sex="MALE">
             <persName>Первый рабочий</persName>
           </person>
-          <person xml:id="VtorojRabochij_1">
+          <person xml:id="VtorojRabochij_1" sex="MALE">
             <persName>Второй рабочий</persName>
           </person>
-          <person xml:id="PervyjRabochij_2">
+          <person xml:id="PervyjRabochij_2" sex="MALE">
             <persName>Первый рабочий</persName>
           </person>
-          <person xml:id="VtorojRabochij_2">
+          <person xml:id="VtorojRabochij_2" sex="MALE">
             <persName>Второй рабочий</persName>
           </person>
-          <person xml:id="Rabochij_3">
+          <person xml:id="Rabochij_3" sex="MALE">
             <persName>Рабочий</persName>
           </person>
-          <person xml:id="DrugojRabochij_3">
+          <person xml:id="DrugojRabochij_3" sex="MALE">
             <persName>Другой рабочий</persName>
           </person>
-          <person xml:id="TretijRabochij_3">
+          <person xml:id="TretijRabochij_3" sex="MALE">
             <persName>Третий рабочий</persName>
           </person>
-          <person xml:id="Nischaja">
+          <person xml:id="Nischaja" sex="FEMALE">
             <persName>Нищая</persName>
           </person>
-          <person xml:id="GolosNischego">
+          <person xml:id="GolosNischego" sex="MALE">
             <persName>Голос нищего</persName>
           </person>
-          <person xml:id="ChelovekVChernom">
+          <person xml:id="ChelovekVChernom" sex="MALE">
             <persName>Человек в черном</persName>
           </person>
-          <person xml:id="ChelovekSFakelom">
+          <person xml:id="ChelovekSFakelom" sex="MALE">
             <persName>Человек с факелом</persName>
           </person>
-          <person xml:id="PervyjNeizvestnyj">
+          <person xml:id="PervyjNeizvestnyj" sex="MALE">
             <persName>Первый</persName>
           </person>
-          <person xml:id="VtorojNeizvestnyj">
+          <person xml:id="VtorojNeizvestnyj" sex="MALE">
             <persName>Второй</persName>
           </person>
-          <person xml:id="GolosTretego">
+          <person xml:id="GolosTretego" sex="MALE">
             <persName>Голос Третьего</persName>
           </person>
-          <person xml:id="PervyjFrant">
+          <person xml:id="PervyjFrant" sex="MALE">
             <persName>Первый</persName>
           </person>
-          <person xml:id="VtorojFrant">
+          <person xml:id="VtorojFrant" sex="MALE">
             <persName>Второй</persName>
           </person>
-          <person xml:id="PervyjIzTolpy">
+          <person xml:id="PervyjIzTolpy" sex="MALE">
             <persName>Первый</persName>
           </person>
-          <person xml:id="VtorojIzTolpy">
+          <person xml:id="VtorojIzTolpy" sex="MALE">
             <persName>Второй</persName>
           </person>
-          <person xml:id="ProdavschitsaRoz">
+          <person xml:id="ProdavschitsaRoz" sex="FEMALE">
             <persName>Продавщица роз</persName>
           </person>
-          <person xml:id="Devushka">
+          <person xml:id="Devushka" sex="FEMALE">
             <persName>Девушка</persName>
           </person>
-          <person xml:id="Junosha">
+          <person xml:id="Junosha" sex="MALE">
             <persName>Юноша</persName>
           </person>
-          <person xml:id="Chernyj">
+          <person xml:id="Chernyj" sex="MALE">
             <persName>Черный</persName>
           </person>
-          <person xml:id="Zolotoj">
+          <person xml:id="Zolotoj" sex="MALE">
             <persName>Золотой</persName>
           </person>
         </listPerson>

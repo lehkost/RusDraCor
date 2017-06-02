@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Дитя Аллаха</title>
+        <title type="main" xml:lang="ru">Дитя Аллаха</title>
+        <title type="main" xml:lang="en">The Child of Allah</title>
         <title type="sub"/>
         <author key="Wikidata:Q311033">Николай Степанович Гумилёв</author>
       </titleStmt>
@@ -40,64 +41,64 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Beduin">
+          <person xml:id="Beduin" sex="MALE">
             <persName>Бедуин</persName>
           </person>
-          <person xml:id="Sindbad">
+          <person xml:id="Sindbad" sex="MALE">
             <persName>Синдбад</persName>
           </person>
-          <person xml:id="Rab">
+          <person xml:id="Rab" sex="MALE">
             <persName>Раб</persName>
           </person>
-          <person xml:id="Staruha">
+          <person xml:id="Staruha" sex="FEMALE">
             <persName>Старуха</persName>
           </person>
-          <person xml:id="Glashataj">
+          <person xml:id="Glashataj" sex="MALE">
             <persName>Глашатай</persName>
           </person>
-          <person xml:id="Kadi">
+          <person xml:id="Kadi" sex="MALE">
             <persName>Кади</persName>
           </person>
-          <person xml:id="Iskander">
+          <person xml:id="Iskander" sex="MALE">
             <persName>Искандер</persName>
           </person>
-          <person xml:id="Kalif">
+          <person xml:id="Kalif" sex="MALE">
             <persName>Калиф</persName>
           </person>
-          <person xml:id="Angel">
+          <person xml:id="Angel" sex="UNKNOWN">
             <persName>Ангел</persName>
           </person>
-          <person xml:id="Peri">
+          <person xml:id="Peri" sex="FEMALE">
             <persName>Пери</persName>
           </person>
-          <person xml:id="PervyjJevnuh">
+          <person xml:id="PervyjJevnuh" sex="MALE">
             <persName>1-й евнух</persName>
           </person>
-          <person xml:id="Ptitsy">
+          <person xml:id="Ptitsy" sex="UNKNOWN">
             <persName>Птицы</persName>
           </person>
-          <person xml:id="Astrolog">
+          <person xml:id="Astrolog" sex="MALE">
             <persName>Астролог</persName>
           </person>
-          <person xml:id="VtorojJevnuh">
+          <person xml:id="VtorojJevnuh" sex="MALE">
             <persName>2-й евнух</persName>
           </person>
-          <person xml:id="Pirat">
+          <person xml:id="Pirat" sex="MALE">
             <persName>Пират</persName>
           </person>
-          <person xml:id="Dervish">
+          <person xml:id="Dervish" sex="MALE">
             <persName>Дервиш</persName>
           </person>
-          <person xml:id="Shejh">
+          <person xml:id="Shejh" sex="MALE">
             <persName>Шейх</persName>
           </person>
-          <person xml:id="Junosha">
+          <person xml:id="Junosha" sex="MALE">
             <persName>Юноша</persName>
           </person>
-          <person xml:id="SynKalifa">
+          <person xml:id="SynKalifa" sex="MALE">
             <persName>Сын Калифа</persName>
           </person>
-          <person xml:id="Gafiz">
+          <person xml:id="Gafiz" sex="MALE">
             <persName>Гафиз</persName>
           </person>
         </listPerson>

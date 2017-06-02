@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Актеон</title>
+        <title type="main" xml:lang="ru">Актеон</title>
+        <title type="main" xml:lang="en">Akteon</title>
         <title type="sub"/>
         <author key="Wikidata:Q311033">Николай Степанович Гумилёв</author>
       </titleStmt>
@@ -40,49 +41,49 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="VtorojJunosha">
+          <person xml:id="VtorojJunosha" sex="MALE">
             <persName>Второй юноша</persName>
           </person>
-          <person xml:id="Agava">
+          <person xml:id="Agava" sex="MALE">
             <persName>Агава</persName>
           </person>
-          <person xml:id="Hiale">
+          <person xml:id="Hiale" sex="FEMALE">
             <persName>Хиале</persName>
           </person>
-          <person xml:id="Ehion">
+          <person xml:id="Ehion" sex="MALE">
             <persName>Эхион</persName>
           </person>
-          <person xml:id="PervyjPes">
+          <person xml:id="PervyjPes" sex="MALE">
             <persName>Первый</persName>
           </person>
-          <person xml:id="Diana">
+          <person xml:id="Diana" sex="FEMALE">
             <persName>Диана</persName>
           </person>
-          <person xml:id="Kadm">
+          <person xml:id="Kadm" sex="MALE">
             <persName>Кадм</persName>
           </person>
-          <person xml:id="VtorojPes">
+          <person xml:id="VtorojPes" sex="MALE">
             <persName>Второй</persName>
           </person>
-          <person xml:id="TretijPes">
+          <person xml:id="TretijPes" sex="MALE">
             <persName>Третий</persName>
           </person>
-          <person xml:id="TretijJunosha">
+          <person xml:id="TretijJunosha" sex="MALE">
             <persName>Третий юноша</persName>
           </person>
-          <person xml:id="PervyjJunosha">
+          <person xml:id="PervyjJunosha" sex="MALE">
             <persName>Первый юноша</persName>
           </person>
-          <person xml:id="Krokale">
+          <person xml:id="Krokale" sex="FEMALE">
             <persName>Крокале</persName>
           </person>
-          <person xml:id="Ohotnitsy">
+          <person xml:id="Ohotnitsy" sex="FEMALE">
             <persName>Голоса охотниц</persName>
           </person>
-          <person xml:id="Akteon">
+          <person xml:id="Akteon" sex="MALE">
             <persName>Актеон</persName>
           </person>
-          <person xml:id="Ranis">
+          <person xml:id="Ranis" sex="FEMALE">
             <persName>Ранис</persName>
           </person>
         </listPerson>

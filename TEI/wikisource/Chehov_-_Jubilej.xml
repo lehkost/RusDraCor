@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Юбилей</title>
-        <title type="sub">Шутка в одном действии</title>
+        <title type="main" xml:lang="ru">Юбилей</title>
+        <title type="main" xml:lang="en">The Anniversary</title>
+        <title type="sub"  xml:lang="ru">Шутка в одном действии</title>
+        <title type="sub"  xml:lang="en">A Joke in One Act</title>
         <author key="Wikidata:Q5685">Антон Павлович Чехов</author>
       </titleStmt>
       <publicationStmt>
@@ -39,15 +41,15 @@
     </fileDesc>
 <profileDesc>
       <particDesc><listPerson>
-<person xml:id="Shipuchin">
+        <person xml:id="Shipuchin" sex="MALE">
 <persName>Шипучин</persName></person>
-<person xml:id="ChlenBanka">
+        <person xml:id="ChlenBanka" sex="MALE">
 <persName>Член банка</persName></person>
-<person xml:id="Hirin">
+        <person xml:id="Hirin" sex="MALE">
 <persName>Хирин</persName></person>
-<person xml:id="Merchutkina">
+        <person xml:id="Merchutkina" sex="FEMALE">
 <persName>Мерчуткина</persName></person>
-<person xml:id="TatjanaAlekseevna">
+        <person xml:id="TatjanaAlekseevna" sex="FEMALE">
 <persName>Татьяна Алексеевна</persName></person>
 </listPerson></particDesc>
       <textClass>

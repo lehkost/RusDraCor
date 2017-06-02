@@ -4,7 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Гондла</title>
+        <title type="main" xml:lang="ru">Гондла</title>
+        <title type="main" xml:lang="en">Gondla</title>
         <title type="sub"/>
         <author key="Wikidata:Q311033">Николай Степанович Гумилёв</author>
       </titleStmt>
@@ -40,28 +41,28 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Konung">
+          <person xml:id="Konung" sex="MALE">
             <persName>Конунг</persName>
           </person>
-          <person xml:id="Gondla">
+          <person xml:id="Gondla" sex="MALE">
             <persName>Гондла</persName>
           </person>
-          <person xml:id="Lera">
+          <person xml:id="Lera" sex="FEMALE">
             <persName>Лера</persName>
           </person>
-          <person xml:id="Lage">
+          <person xml:id="Lage" sex="MALE">
             <persName>Лаге</persName>
           </person>
-          <person xml:id="Vozhd">
+          <person xml:id="Vozhd" sex="MALE">
             <persName>Вождь</persName>
           </person>
-          <person xml:id="Ahti">
+          <person xml:id="Ahti" sex="MALE">
             <persName>Ахти</persName>
           </person>
-          <person xml:id="Snorre">
+          <person xml:id="Snorre" sex="MALE">
             <persName>Снорре</persName>
           </person>
-          <person xml:id="Grubbe">
+          <person xml:id="Grubbe" sex="MALE">
             <persName>Груббе</persName>
           </person>
         </listPerson>
