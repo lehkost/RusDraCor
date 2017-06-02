@@ -165,7 +165,7 @@ change{
 }
 change:before{
   background-color: grey;
-  content: attr(when) " – ";
+  content: attr(when) " – " attr(who) " – ";
 }
 cit{
   display: inline;
@@ -763,7 +763,7 @@ orig{
   display: inline;
 }
 p{
-  display: block;
+  /* display: block; */
   margin-bottom: 0.5em;
 }
 pb{
@@ -965,12 +965,22 @@ speaker{
   font-weight: bold;
 }
 sp:before{
-  background-color: orange;
+  background-color: lightblue;
   content: attr(who) " ";
 }
 sponsor{
   display: block;
   margin-bottom: 0.5em;
+}
+div > stage{
+  display: block;
+  text-align: center;
+  margin: 2.5em;
+}
+sp > stage:not([type]){
+  display: block;
+  text-align: center;
+  margin: 0.5em;
 }
 stage{
   background-color: yellow;
@@ -1247,4 +1257,14 @@ person:before{
 person:after{
   background-color: brown;
   content: attr(sex) " ";
+}
+body > div[type="configuration"]{
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+}
+body > div > div[type="configuration"]{
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
 }
