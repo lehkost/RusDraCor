@@ -45,40 +45,40 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Shamraev">
+          <person xml:id="Shamraev" sex="MALE">
             <persName>Шамраев</persName>
           </person>
-          <person xml:id="Arkadina">
+          <person xml:id="Arkadina" sex="FEMALE">
             <persName>Аркадина</persName>
           </person>
-          <person xml:id="Masha">
+          <person xml:id="Masha" sex="FEMALE">
             <persName>Маша</persName>
           </person>
-          <person xml:id="Povar">
+          <person xml:id="Povar" sex="MALE">
             <persName>Повар</persName>
           </person>
-          <person xml:id="Medvedenko">
+          <person xml:id="Medvedenko" sex="MALE">
             <persName>Медведенко</persName>
           </person>
-          <person xml:id="Nina">
+          <person xml:id="Nina" sex="FEMALE">
             <persName>Нина</persName>
           </person>
-          <person xml:id="Sorin">
+          <person xml:id="Sorin" sex="MALE">
             <persName>Сорин</persName>
           </person>
-          <person xml:id="PolinaAndreevna">
+          <person xml:id="PolinaAndreevna" sex="FEMALE">
             <persName>Полина Андреевна</persName>
           </person>
-          <person xml:id="Dorn">
+          <person xml:id="Dorn" sex="MALE">
             <persName>Дорн</persName>
           </person>
-          <person xml:id="Trigorin">
+          <person xml:id="Trigorin" sex="MALE">
             <persName>Тригорин</persName>
           </person>
-          <person xml:id="Jakov">
+          <person xml:id="Jakov" sex="MALE">
             <persName>Яков</persName>
           </person>
-          <person xml:id="Treplev">
+          <person xml:id="Treplev" sex="MALE">
             <persName>Треплев</persName>
           </person>
         </listPerson>
@@ -95,7 +95,8 @@
         <change who="#to" when="2017-04-15">removed the wrong id "#GolosArkadinoj", changed it for
           "#Arkadina"</change>
         <change who="#zhenya" when="2017-05-31">added dates</change>
-        <change who="#ff" when="2017-06-02">moved full stops from speech acts to speakers</change>
+        <change who="#ff" when="2017-06-02">moved full stops from speech acts to speakers; added
+          gender info; added segmentations in all four acts</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -604,7 +605,8 @@
           </sp>
           <sp who="#Arkadina">
             <speaker>Аркадина.</speaker>
-            <p>Вы всё спрашиваете про каких-то допотопных. Откуда я знаю! <stage type="delivery">(Садится.)</stage></p>
+            <p>Вы всё спрашиваете про каких-то допотопных. Откуда я знаю! <stage type="delivery"
+                >(Садится.)</stage></p>
           </sp>
           <sp who="#Shamraev">
             <speaker>Шамраев</speaker>
@@ -1164,8 +1166,9 @@
           </sp>
           <sp who="#Masha">
             <speaker>Маша.</speaker>
-            <p>Я еще раз хочу вам сказать. Мне хочется поговорить... <stage type="delivery">(Волнуясь.)</stage> Я не люблю своего отца... но к вам лежит мое сердце. Почему-то я
-              всею душой чувствую, что вы мне близки... Помогите же мне. Помогите, а то я сделаю
+            <p>Я еще раз хочу вам сказать. Мне хочется поговорить... <stage type="delivery"
+                >(Волнуясь.)</stage> Я не люблю своего отца... но к вам лежит мое сердце. Почему-то
+              я всею душой чувствую, что вы мне близки... Помогите же мне. Помогите, а то я сделаю
               глупость, я насмеюсь над своею жизнью, испорчу ее... Не могу дольше...</p>
           </sp>
           <sp who="#Dorn">
@@ -1439,7 +1442,8 @@
           <sp who="#Shamraev">
             <speaker>Шамраев.</speaker>
             <p>Вот и наши. Добрый день! <stage type="delivery">(Целует руку у Аркадиной, потом у
-                Нины.)</stage> Весьма рад видеть вас в добром здоровье. <stage type="delivery">(Аркадиной.)</stage> Жена говорит, что вы собираетесь сегодня ехать с нею вместе в
+                Нины.)</stage> Весьма рад видеть вас в добром здоровье. <stage type="delivery"
+                >(Аркадиной.)</stage> Жена говорит, что вы собираетесь сегодня ехать с нею вместе в
               город. Это правда?</p>
           </sp>
           <sp who="#Arkadina">
@@ -1658,9 +1662,9 @@
               меня в мозгу точно гвоздь, будь он проклят вместе с моим самолюбием, которое сосет мою
               кровь, сосет, как змея... <stage type="delivery">(Увидев Тригорина, который идет,
                 читая книжку.)</stage> Вот идет истинный талант; ступает, как Гамлет, и тоже с
-              книжкой. <stage type="delivery">(Дразнит.)</stage> «Слова, слова, слова...» Это
-              солнце еще не подошло к вам, а вы уже улыбаетесь, взгляд ваш растаял в его лучах. Не
-              стану мешать вам. <stage type="delivery">(Уходит быстро.)</stage></p>
+              книжкой. <stage type="delivery">(Дразнит.)</stage> «Слова, слова, слова...» Это солнце
+              еще не подошло к вам, а вы уже улыбаетесь, взгляд ваш растаял в его лучах. Не стану
+              мешать вам. <stage type="delivery">(Уходит быстро.)</stage></p>
           </sp>
         </div>
         <div type="configuration">
@@ -1829,7 +1833,7 @@
           <sp who="#Trigorin">
             <speaker>Тригорин.</speaker>
             <p>Меня зовут... Должно быть, укладываться. А не хочется уезжать. <stage type="delivery"
-                > (Оглядывается на озеро.)</stage> Ишь ведь какая благодать!.. Хорошо!</p>
+                >(Оглядывается на озеро.)</stage> Ишь ведь какая благодать!.. Хорошо!</p>
           </sp>
           <sp who="#Nina">
             <speaker>Нина.</speaker>
@@ -1970,8 +1974,10 @@
               благодарна за ваше доброе расположение. Пришлите же мне ваши книжки, непременно с
               автографом. Только не пишите «многоуважаемой», а просто так: «Марье, родства не
               помнящей, неизвестно для чего живущей на этом свете». Прощайте! <stage type="delivery"
-                > (Уходит.)</stage></p>
+                >(Уходит.)</stage></p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Nina">
             <speaker>Нина</speaker>
             <p><stage type="delivery">(протягивая в сторону Тригорина руку, сжатую в кулак)</stage>.
@@ -2019,6 +2025,8 @@
             <p>Больше нам говорить нельзя, сюда идут... Перед отъездом дайте мне две минуты, умоляю
               вас... <stage type="delivery">(Уходит влево.)</stage></p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Одновременно входят справа Аркадина, Сорин во фраке со звездой, потом Яков,
             озабоченный укладкой.</stage>
           <sp who="#Arkadina">
@@ -2066,6 +2074,8 @@
             <speaker>Тригорин.</speaker>
             <p>Страница 121... <stage type="delivery">(Уходит.)</stage></p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Arkadina">
             <speaker>Аркадина.</speaker>
             <p>Право, Петруша, остался бы дома...</p>
@@ -2145,14 +2155,19 @@
           <sp who="#Sorin">
             <speaker>Сорин.</speaker>
             <p>Ты добрая, милая... Я тебя уважаю... Да... Но опять со мною что-то того... <stage
-                type="delivery">(Пошатывается.)</stage> Голова кружится. <stage type="delivery">(Держится за стол.)</stage> Мне дурно и все.</p>
+                type="delivery">(Пошатывается.)</stage> Голова кружится. <stage type="delivery"
+                >(Держится за стол.)</stage> Мне дурно и все.</p>
           </sp>
           <sp who="#Arkadina">
             <speaker>Аркадина</speaker>
             <p><stage type="delivery">(испуганно)</stage>. Петруша! <stage type="delivery">(Стараясь
                 поддержать его.)</stage> Петруша, дорогой мой... <stage type="delivery"
                 >(Кричит.)</stage> Помогите мне! Помогите!..</p>
-            <stage>Входят Треплев с повязкой на голове, Медведенко.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят Треплев с повязкой на голове, Медведенко.</stage>
+          <sp who="#Arkadina">
             <p>Ему дурно!</p>
           </sp>
           <sp who="#Sorin">
@@ -2186,6 +2201,8 @@
             <p>Ну вот, церемонии!..</p>
           </sp>
           <stage>Он и Сорин уходят.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Arkadina">
             <speaker>Аркадина.</speaker>
             <p>Как он меня напугал!</p>
@@ -2316,7 +2333,8 @@
             <p>Оборвыш!</p>
             <stage>Треплев садится и тихо плачет.</stage>
             <p>Ничтожество! <stage type="delivery">(Пройдясь в волнении.)</stage> Не плачь. Не нужно
-              плакать... <stage type="delivery">(Плачет.)</stage> Не надо... <stage type="delivery">(Целует его в лоб, в щеки, в голову.)</stage> Милое мое дитя, прости... Прости свою
+              плакать... <stage type="delivery">(Плачет.)</stage> Не надо... <stage type="delivery"
+                >(Целует его в лоб, в щеки, в голову.)</stage> Милое мое дитя, прости... Прости свою
               грешную мать. Прости меня несчастную.</p>
           </sp>
           <sp who="#Treplev">
@@ -2346,6 +2364,8 @@
                 type="delivery">(Быстро убирает в шкап лекарства.)</stage> А повязку уже доктор
               сделает...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Trigorin">
             <speaker>Тригорин</speaker>
             <p><stage type="delivery">(ищет в книжке)</stage>. Страница 121... строки 11 и 12...
@@ -2487,7 +2507,8 @@
           </sp>
           <sp who="#Trigorin">
             <speaker>Тригорин.</speaker>
-            <p>Утром слышал хорошее выражение: «Девичий бор»... Пригодится. <stage type="delivery">(Потягивается.)</stage> Значит, ехать? Опять вагоны, станции, буфеты, отбивные
+            <p>Утром слышал хорошее выражение: «Девичий бор»... Пригодится. <stage type="delivery"
+                >(Потягивается.)</stage> Значит, ехать? Опять вагоны, станции, буфеты, отбивные
               котлеты, разговоры...</p>
           </sp>
           <sp who="#Shamraev">
@@ -2502,6 +2523,8 @@
               надо было сказать: «Мы попали » западню», а Измайлов – «Мы попали в запендю»... <stage
                 type="delivery">(Хохочет.)</stage> Запендю!..</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Пока он говорит, Яков хлопочет около чемоданов, горничная приносит Аркадиной шляпу,
             манто, зонтик, перчатки; все помогают Аркадиной одеться. Из левой двери выглядывает
             повар, который немного погодя входит нерешительно. Входит Полина Андреевна, потом Сорин
@@ -2517,7 +2540,8 @@
           </sp>
           <sp who="#PolinaAndreevna">
             <speaker>Полина Андреевна.</speaker>
-            <p>Прощайте, моя дорогая! Если что было не так, то простите. <stage type="delivery">(Плачет.)</stage></p>
+            <p>Прощайте, моя дорогая! Если что было не так, то простите. <stage type="delivery"
+                >(Плачет.)</stage></p>
           </sp>
           <sp who="#Arkadina">
             <speaker>Аркадина</speaker>
@@ -2567,6 +2591,8 @@
             <p>Где Константин? Скажите ему, что я уезжаю. Надо проститься. Ну, не поминайте лихом.
                 <stage type="delivery">(Якову.)</stage> Я дала рубль повару. Это на троих.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Все уходят вправо. Сцена пуста. За сценой шум, какой бывает, когда провожают.
             Горничная возвращается, чтобы взять со стола корзину со сливами, и опять уходит.</stage>
           <sp who="#Trigorin">
@@ -2692,9 +2718,13 @@
           <sp who="#Masha">
             <speaker>Маша</speaker>
             <p><stage type="delivery">(нюхает табак)</stage>. Ну, завтра. Пристал...</p>
-            <stage>Входят Треплев и Полина Андреевна; Треплев принес подушки и одеяло, а Полина
-              Андреевна постельное белье; кладут на турецкий диван, затем Треплев идет к своему
-              столу и садится.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят Треплев и Полина Андреевна; Треплев принес подушки и одеяло, а Полина
+            Андреевна постельное белье; кладут на турецкий диван, затем Треплев идет к своему столу
+            и садится.</stage>
+          <sp who="#Masha">
             <p>Зачем это, мама?</p>
           </sp>
           <sp who="#PolinaAndreevna">
@@ -2725,6 +2755,8 @@
             <p>Прощайте, Константин Гаврилыч.</p>
           </sp>
           <stage>Треплев молча подает руку; Медведенко уходит.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#PolinaAndreevna">
             <speaker>Полина Андреевна</speaker>
             <p><stage type="delivery">(глядя в рукопись)</stage>. Никто не думал и не гадал, что из
@@ -2743,6 +2775,8 @@
             <p>Женщине, Костя, ничего не нужно, только взгляни на нее ласково. По себе знаю.</p>
           </sp>
           <stage>Треплев встает из-за стола и молча уходит.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Masha">
             <speaker>Маша.</speaker>
             <p>Вот и рассердили. Надо было приставать!</p>
@@ -2778,6 +2812,8 @@
               месяц забуду. Пустяки все это.</p>
           </sp>
           <stage>Открывается левая дверь, Дорн и Медведенко катят в кресле Сорина.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Medvedenko">
             <speaker>Медведенко.</speaker>
             <p>У меня теперь в доме шестеро. А мука семь гривен пуд.</p>
@@ -2811,6 +2847,8 @@
           </sp>
           <stage>Кресло останавливается в левой половине комнаты; Полина Андреевна, Маша и Дорн
             садятся возле; Медведенко, опечаленный, отходит в сторону.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Dorn">
             <speaker>Дорн.</speaker>
             <p>Сколько у вас перемен, однако! Из гостиной сделали кабинет.</p>
@@ -2860,7 +2898,8 @@
             <speaker>Сорин.</speaker>
             <p>Вот хочу дать Косте сюжет для повести. Она должна называться так: «Человек, который
               хотел». «L'homme qui a voulu». В молодости когда-то хотел я сделаться литератором – и
-              не сделался; хотел красиво говорить – и говорил отвратительно <stage type="delivery">(дразнит себя)</stage>: «и всё и всё такое, того, не того»... и, бывало, резюме
+              не сделался; хотел красиво говорить – и говорил отвратительно <stage type="delivery"
+                >(дразнит себя)</stage>: «и всё и всё такое, того, не того»... и, бывало, резюме
               везешь, везешь, даже в пот ударит; хотел жениться – и не женился; хотел всегда жить в
               городе – и вот кончаю свою жизнь в деревне, и все.</p>
           </sp>
@@ -2902,6 +2941,8 @@
             <speaker>Сорин</speaker>
             <p><stage type="delivery">(смеется)</stage>. Двадцать восемь...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Треплев и садится на скамеечке у ног Сорина. Маша все время не отрывает от
             него глаз.</stage>
           <sp who="#Dorn">
@@ -3043,6 +3084,8 @@
             <speaker>Треплев.</speaker>
             <p>Да, я слышу маму.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входят Аркадина, Тригорин, за ними Шамраев.</stage>
           <sp who="#Shamraev">
             <speaker>Шамраев</speaker>
@@ -3147,6 +3190,8 @@
                 всем.)</stage> Прощайте... <stage type="delivery">(Уходит; походка
                 виноватая.)</stage></p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Shamraev">
             <speaker>Шамраев.</speaker>
             <p>Небось дойдет. Не генерал.</p>
@@ -3180,6 +3225,8 @@
             <speaker>Треплев.</speaker>
             <p>Прости, что-то не хочется... Я пройдусь. <stage type="delivery">(Уходит.)</stage></p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Arkadina">
             <speaker>Аркадина.</speaker>
             <p>Ставка – гривенник. Поставьте за меня, доктор.</p>
@@ -3223,7 +3270,8 @@
           <stage>За сценой играют меланхолический вальс.</stage>
           <sp who="#Arkadina">
             <speaker>Аркадина.</speaker>
-            <p>Студенты овацию устроили... Три корзины, два венка и вот... <stage type="delivery">(Снимает с груди брошь и бросает на стол.)</stage></p>
+            <p>Студенты овацию устроили... Три корзины, два венка и вот... <stage type="delivery"
+                >(Снимает с груди брошь и бросает на стол.)</stage></p>
           </sp>
           <sp who="#Shamraev">
             <speaker>Шамраев.</speaker>
@@ -3308,6 +3356,8 @@
             <speaker>Маша.</speaker>
             <p>Двадцать шесть!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Треплев тихо входит и идет к своему столу.</stage>
           <sp who="#Shamraev">
             <speaker>Шамраев</speaker>
@@ -3376,6 +3426,8 @@
           </sp>
           <stage>Полина Андреевна тушит на столе свечи, потом она и Дорн катят кресло. Все уходят в
             левую дверь; на сцене остается один Треплев за письменным столом.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Treplev">
             <speaker>Треплев</speaker>
             <p><stage type="delivery">(собирается писать; пробегает то, что уже написано)</stage>. Я
@@ -3396,8 +3448,12 @@
             <p>Что такое? <stage type="delivery">(Глядит в окно.)</stage> Ничего не видно... <stage
                 type="delivery">(Отворяет стеклянную дверь и смотрит в сад.)</stage> Кто-то пробежал
               вниз по ступеням. <stage type="delivery">(Окликает.)</stage> Кто здесь?</p>
-            <stage>Уходит; слышно, как он быстро идет по террасе; через полминуты возвращается с
-              Ниной Заречной.</stage>
+          </sp>
+          <stage>Уходит; слышно, как он быстро идет по террасе; через полминуты возвращается с Ниной
+            Заречной.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Treplev">
             <p>Нина! Нина!</p>
             <stage>Нина кладет ему голову на грудь и сдержанно рыдает.</stage>
             <p><stage type="delivery">(Растроганный.)</stage> Нина! Нина! Это вы... вы... Я точно
@@ -3506,7 +3562,8 @@
           <stage>Пауза.</stage>
           <sp who="#Nina">
             <speaker>Нина.</speaker>
-            <p>Лошади мои стоят у калитки. Не провожайте, я сама дойду... <stage type="delivery">(Сквозь слезы.)</stage> Дайте воды...</p>
+            <p>Лошади мои стоят у калитки. Не провожайте, я сама дойду... <stage type="delivery"
+                >(Сквозь слезы.)</stage> Дайте воды...</p>
           </sp>
           <sp who="#Treplev">
             <speaker>Треплев</speaker>
@@ -3578,6 +3635,8 @@
                 <stage type="delivery">(Обнимает порывисто Треплева и убегает в стеклянную
                 дверь.)</stage></p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Treplev">
             <speaker>Треплев</speaker>
             <p><stage type="delivery">(после паузы)</stage>. Нехорошо, если кто-нибудь встретит ее в
@@ -3585,12 +3644,16 @@
           </sp>
           <stage>В продолжение двух минут молча рвет все свои рукописи и бросает под стол, потом
             отпирает правую дверь и уходит.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Dorn">
             <speaker>Дорн</speaker>
             <p><stage type="delivery">(стараясь отворить левую дверь)</stage>. Странно. Дверь как
               будто заперта... <stage type="delivery">(Входит и ставит на место кресло.)</stage>
               Скачка с препятствиями.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входят Аркадина, Полина Андреевна, за ними Яков с бутылками и Маша, потом Шамраев и
             Тригорин.</stage>
           <sp who="#Arkadina">
