@@ -31,10 +31,13 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
-            <date type="print" when="1897">Впервые — сборник «Пьесы». СПб., изд. А. С. Суворина, 1897 (ФЭБ)</date>
-            <date type="premiere" when="1897">состоялась премьера пьесы в Ростове-на-Дону (wikipedia)</date>
-            <date type="written" when="1896"/>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 13.
+              М., "Наука", 1986.</title>
+            <date type="print" when="1897">"Впервые – сборник «Пьесы». СПб., изд. А. С. Суворина,
+              1897." (ФЭБ)</date>
+            <date type="premiere" when="1897">"1897 год – состоялась премьера пьесы в
+              Ростове-на-Дону" (Wikipedia)</date>
+            <date type="written" when="1896">"1896 г." (ilibrary)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -43,34 +46,34 @@
       <particDesc>
         <listPerson>
           <person xml:id="MarijaVasilevna">
-            <persName> Мария Васильевна </persName>
+            <persName>Мария Васильевна</persName>
           </person>
           <person xml:id="Telegin">
-            <persName> Телегин </persName>
+            <persName>Телегин</persName>
           </person>
           <person xml:id="GolosStorozha">
-            <persName> Голос сторожа (Ефим) </persName>
+            <persName>Голос сторожа (Ефим)</persName>
           </person>
           <person xml:id="Rabotnik">
-            <persName> Работник </persName>
+            <persName>Работник</persName>
           </person>
           <person xml:id="Astrov">
-            <persName> Астров </persName>
+            <persName>Астров</persName>
           </person>
           <person xml:id="Serebrjakov">
-            <persName> Серебряков </persName>
+            <persName>Серебряков</persName>
           </person>
           <person xml:id="Vojnitskij">
-            <persName> Войницкий </persName>
+            <persName>Войницкий</persName>
           </person>
           <person xml:id="Marina">
-            <persName> Марина </persName>
+            <persName>Марина</persName>
           </person>
           <person xml:id="Sonja">
-            <persName> Соня </persName>
+            <persName>Соня</persName>
           </person>
           <person xml:id="ElenaAndreevna">
-            <persName> Елена Андреевна </persName>
+            <persName>Елена Андреевна</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -83,28 +86,39 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who="#to">replaced id "#Golosstorozha" with id "#Efim", which is the name of this storozh</change>
+        <change who="#to">replaced id "#Golosstorozha" with id "#Efim", which is the name of this
+          storozh</change>
         <change who="#to #ff">reverted id to "#GolosStorozha"</change>
         <change who="#zhenya">added dates</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
-    <body>
+    <front>
+      <docTitle>
+        <titlePart type="main">Дядя Ваня</titlePart>
+        <titlePart type="sub">Сцены из деревенской жизни в четырех действиях</titlePart>
+      </docTitle>
       <castList>
-        <castItem> Серебряков Александр Владимирович, отставной профессор. </castItem>
-        <castItem> Елена Андреевна , его жена, 27-ми лет. </castItem>
-        <castItem> Софья Александровна (Соня) , его дочь от первого брака. </castItem>
-        <castItem> Войницкая Мария Васильевна , вдова тайного советника, мать первой жены
-          профессора. </castItem>
-        <castItem> Войницкий Иван Петрович, ее сын. </castItem>
-        <castItem> Астров Михаил Львович , врач. </castItem>
-        <castItem> Телегин Илья Ильич , обедневший помещик. </castItem>
-        <castItem> Марина , старая няня. </castItem>
-        <castItem> Работник . </castItem>
+        <head>Действующие лица</head>
+        <castItem>Серебряков Александр Владимирович, отставной профессор.</castItem>
+        <castItem>Елена Андреевна, его жена, 27-ми лет.</castItem>
+        <castItem>Софья Александровна (Соня), его дочь от первого брака.</castItem>
+        <castItem>Войницкая Мария Васильевна, вдова тайного советника, мать первой жены
+          профессора.</castItem>
+        <castItem>Войницкий Иван Петрович, ее сын.</castItem>
+        <castItem>Астров Михаил Львович, врач.</castItem>
+        <castItem>Телегин Илья Ильич, обедневший помещик.</castItem>
+        <castItem>Марина, старая няня.</castItem>
+        <castItem>Работник.</castItem>
       </castList>
+      <set>
+        <p>Действие происходит в усадьбе Серебрякова.</p>
+      </set>
+    </front>
+    <body>
       <div type="act">
-        <head> Действие первое </head>
+        <head>Действие первое</head>
         <stage> Сад. Видна часть дома с террасой. На аллее под старым тополем стол, сервированный
           для чая, скамьи, стулья; на одной из скамей лежит гитара. Недалеко от стола качели. –
           Третий час дня. Пасмурно. </stage>
@@ -759,7 +773,7 @@
           брошюры. </stage>
       </div>
       <div type="act">
-        <head> Действие второе </head>
+        <head>Действие второе</head>
         <stage> Столовая в доме Серебрякова. Ночь. Слышно, как в саду стучит сторож. </stage>
         <stage> Серебряков (сидит в кресле перед открытым окном и дремлет) и Елена Андреевна (сидит
           подле него и тоже дремлет). </stage>
@@ -1691,7 +1705,7 @@
         </sp>
       </div>
       <div type="act">
-        <head> Действие третье </head>
+        <head>Действие третье</head>
         <stage> Гостиная в доме Серебрякова. Три двери: направо, налево и посредине. День. </stage>
         <stage> Войницкий , Соня (сидят) и Елена Андреевна (ходит по сцене, о чем-то думая). </stage>
         <sp who="#Vojnitskij">
@@ -2620,7 +2634,7 @@
         </sp>
       </div>
       <div type="act">
-        <head> Действие четвертое </head>
+        <head>Действие четвертое</head>
         <stage> Комната Ивана Петровича; тут его спальня, тут же и контора имения. У окна большой
           стол с приходо-расходными книгами и бумагами всякого рода, конторка, шкапы, весы. Стол
           поменьше для Астрова; на этом столе принадлежности для рисования, краски; возле папка.
