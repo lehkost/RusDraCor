@@ -44,25 +44,22 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="DonjaDolores">
+          <person xml:id="DonjaDolores" sex="FEMALE">
             <persName>Донья Долорес</persName>
           </person>
-          <person xml:id="DonRafael">
+          <person xml:id="DonRafael" sex="MALE">
             <persName>Дон Рафаэль</persName>
           </person>
-          <person xml:id="DonBaltazar">
+          <person xml:id="DonBaltazar" sex="MALE">
             <persName>Дон Бальтазар</persName>
           </person>
-          <person xml:id="GrafPablo">
-            <persName>Граф Пабло</persName>
-          </person>
-          <person xml:id="DonPablo">
+          <person xml:id="DonPablo" sex="MALE">
             <persName>Дон Пабло</persName>
           </person>
-          <person xml:id="Margarita">
+          <person xml:id="Margarita" sex="FEMALE">
             <persName>Маргарита</persName>
           </person>
-          <person xml:id="Sekretar">
+          <person xml:id="Sekretar" sex="MALE">
             <persName>Секретарь</persName>
           </person>
         </listPerson>
@@ -79,6 +76,7 @@
         <change who="#to" when="2017-06-01">checked IDs and dates</change>
         <change who="#ff" when="2017-06-01">deleted brackets in stage directions according to
           original; moved full stops from speech acts to speakers</change>
+        <change who="#to" when="2017-06-03">gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -2482,7 +2480,7 @@
         <stage type="delivery">10 лет спустя.</stage>
         <stage type="delivery">Кабинет важного чиновника. За столом сидит секретарь. Входит дон
           Пабло Сангре, граф Торено.</stage>
-        <sp who="#GrafPablo">
+        <sp who="#DonPablo">
           <speaker>Граф Пабло</speaker>
           <p>
             <stage type="delivery">(хлопотливо секретарю)</stage>. Готовы ли мои бумаги? Мне
