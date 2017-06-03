@@ -41,40 +41,40 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="VelKar">
+          <person xml:id="VelKar" sex="MALE">
             <persName>Велькар</persName>
           </person>
-          <person xml:id="Horev">
+          <person xml:id="Horev" sex="MALE">
             <persName>Хорев</persName>
           </person>
-          <person xml:id="Zavloh">
+          <person xml:id="Zavloh" sex="MALE">
             <persName>Завлох</persName>
           </person>
-          <person xml:id="StrazhGradskihVorot">
+          <person xml:id="StrazhGradskihVorot" sex="MALE">
             <persName>Страж градских ворот</persName>
           </person>
-          <person xml:id="OsnelDa">
+          <person xml:id="Osnelda" sex="FEMALE">
             <persName>Оснельда</persName>
           </person>
-          <person xml:id="Astrada">
+          <person xml:id="Astrada" sex="FEMALE">
             <persName>Астрада</persName>
           </person>
-          <person xml:id="EdinyjVoin">
+          <person xml:id="EdinyjVoin" sex="MALE">
             <persName>Единый воин</persName>
           </person>
-          <person xml:id="NevolNik">
+          <person xml:id="Nevolnik" sex="MALE">
             <persName>Невольник</persName>
           </person>
-          <person xml:id="StrazhTemnits">
+          <person xml:id="StrazhTemnits" sex="MALE">
             <persName>Страж темниц</persName>
           </person>
-          <person xml:id="Kij">
+          <person xml:id="Kij" sex="MALE">
             <persName>Кий</persName>
           </person>
-          <person xml:id="Stalverh">
+          <person xml:id="Stalverh" sex="MALE">
             <persName>Сталверх</persName>
           </person>
-          <person xml:id="Poslannyj">
+          <person xml:id="Poslannyj" sex="MALE">
             <persName>Посланный</persName>
           </person>
         </listPerson>
@@ -90,6 +90,7 @@
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
         <change who="#sveta" when="2017-04-24">added the premiere date, checked IDs</change>
+        <change who="#to" when="2017-06-03">gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
