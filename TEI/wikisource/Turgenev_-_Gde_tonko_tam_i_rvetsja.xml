@@ -43,34 +43,34 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Vera">
+          <person xml:id="Vera" sex="FEMALE">
             <persName>Вера</persName>
           </person>
-          <person xml:id="Gorskij">
+          <person xml:id="Gorskij" sex="MALE">
             <persName>Горский</persName>
           </person>
-          <person xml:id="MademoiselleBienaime">
+          <person xml:id="MademoiselleBienaime" sex="FEMALE">
             <persName>M-lle Bienaime</persName>
           </person>
-          <person xml:id="Chuhanov">
+          <person xml:id="Chuhanov" sex="MALE">
             <persName>Чуханов</persName>
           </person>
-          <person xml:id="Sluga">
+          <person xml:id="Sluga" sex="MALE">
             <persName>Слуга</persName>
           </person>
-          <person xml:id="Muhin">
+          <person xml:id="Muhin" sex="MALE">
             <persName>Мухин</persName>
           </person>
-          <person xml:id="Stanitsyn">
+          <person xml:id="Stanitsyn" sex="MALE">
             <persName>Станицын</persName>
           </person>
-          <person xml:id="VarvaraIvanovna">
+          <person xml:id="VarvaraIvanovna" sex="FEMALE">
             <persName>Варвара Ивановна</persName>
           </person>
-          <person xml:id="GospozhaLibanova">
+          <person xml:id="GospozhaLibanova" sex="FEMALE">
             <persName>Г-жа Либанова</persName>
           </person>
-          <person xml:id="Dvoretskij">
+          <person xml:id="Dvoretskij" sex="MALE">
             <persName>Дворецкий</persName>
           </person>
         </listPerson>
@@ -85,6 +85,7 @@
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#to">added premiere date, corrected IDs</change>
+        <change who="#to" when="2017-06-03">gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
