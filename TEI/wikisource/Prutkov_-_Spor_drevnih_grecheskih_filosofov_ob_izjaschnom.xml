@@ -45,10 +45,10 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Klefiston">
+          <person xml:id="Klefiston" sex="MALE">
             <persName>Клефистон</persName>
           </person>
-          <person xml:id="Stif">
+          <person xml:id="Stif" sex="MALE">
             <persName>Стиф</persName>
           </person>
         </listPerson>
