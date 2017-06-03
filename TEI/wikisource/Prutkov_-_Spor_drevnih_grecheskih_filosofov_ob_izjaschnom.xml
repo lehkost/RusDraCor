@@ -64,6 +64,7 @@
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
         <change who="#sveta" when="2017-05-01">checked IDs, everything is ok</change>
+        <change who="#to" when="2017-03-06">added gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

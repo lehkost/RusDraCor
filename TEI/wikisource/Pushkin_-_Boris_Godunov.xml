@@ -275,6 +275,7 @@
         <change who="#to" when="2017-05-31"> added dates</change>
         <change who="#zhenya" when="2017-05-31">changed ID's, added dates</change>
         <change who="#ff" when="2017-06-01">connected enjambements via part attribute; replaced some false stage directions by emph element</change>
+        <change who="#to" when="2017-03-06">added gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
