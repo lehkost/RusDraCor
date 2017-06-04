@@ -41,19 +41,19 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="IvanPetrovich">
+          <person xml:id="IvanPetrovich" sex="MALE">
             <persName>Иван Петрович</persName>
           </person>
-          <person xml:id="Lakej">
+          <person xml:id="Lakej" sex="MALE">
             <persName>Лакей</persName>
           </person>
-          <person xml:id="AleksandrIvanovich">
+          <person xml:id="AleksandrIvanovich" sex="MALE">
             <persName>Александр Иванович</persName>
           </person>
-          <person xml:id="KaterinaAleksandrovna">
+          <person xml:id="KaterinaAleksandrovna" sex="FEMALE">
             <persName>Катерина Александровна</persName>
           </person>
-          <person xml:id="Shrejder">
+          <person xml:id="Shrejder" sex="MALE">
             <persName>Шрейдер</persName>
           </person>
         </listPerson>
@@ -68,6 +68,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#GG">checked</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
