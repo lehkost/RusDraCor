@@ -42,49 +42,49 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="GospozhaProstakova">
+          <person xml:id="GospozhaProstakova" sex="FEMALE">
             <persName> Г-жа Простакова </persName>
           </person>
-          <person xml:id="Skotinin">
+          <person xml:id="Skotinin" sex="MALE">
             <persName> Скотинин </persName>
           </person>
-          <person xml:id="Sofja">
+          <person xml:id="Sofja" sex="FEMALE">
             <persName> Софья </persName>
           </person>
-          <person xml:id="Milon">
+          <person xml:id="Milon" sex="MALE">
             <persName> Милон </persName>
           </person>
-          <person xml:id="Eremeevna">
+          <person xml:id="Eremeevna" sex="FEMALE">
             <persName> Еремеевна </persName>
           </person>
-          <person xml:id="Starodum">
+          <person xml:id="Starodum" sex="MALE">
             <persName> Стародум </persName>
           </person>
-          <person xml:id="Mitrofan">
+          <person xml:id="Mitrofan" sex="MALE">
             <persName> Митрофан </persName>
           </person>
-          <person xml:id="Pravdin">
+          <person xml:id="Pravdin" sex="MALE">
             <persName> Правдин </persName>
           </person>
-          <person xml:id="Vralman">
+          <person xml:id="Vralman" sex="MALE">
             <persName> Вральман </persName>
           </person>
-          <person xml:id="Prostakov">
+          <person xml:id="Prostakov" sex="MALE">
             <persName> Простаков </persName>
           </person>
-          <person xml:id="Kamerdiner">
+          <person xml:id="Kamerdiner" sex="MALE">
             <persName> Камердинер </persName>
           </person>
-          <person xml:id="Trishka">
+          <person xml:id="Trishka" sex="MALE">
             <persName> Тришка </persName>
           </person>
-          <person xml:id="Tsyfirkin">
+          <person xml:id="Tsyfirkin" sex="MALE">
             <persName> Цыфиркин </persName>
           </person>
-          <person xml:id="Kutejkin">
+          <person xml:id="Kutejkin" sex="MALE">
             <persName> Кутейкин </persName>
           </person>
-          <person xml:id="Sluga">
+          <person xml:id="Sluga" sex="MALE">
             <persName> Слуга </persName>
           </person>
         </listPerson>
@@ -99,6 +99,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#sveta">checked IDs, added dates</change>
+        <change who="#to">genders</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
