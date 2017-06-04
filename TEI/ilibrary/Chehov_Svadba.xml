@@ -42,43 +42,43 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Zhigalov">
+          <person xml:id="Zhigalov" sex="MALE">
             <persName>Жигалов</persName>
           </person>
-          <person xml:id="Dymba">
+          <person xml:id="Dymba" sex="MALE">
             <persName>Дымба</persName>
           </person>
-          <person xml:id="Njunin">
+          <person xml:id="Njunin" sex="MALE">
             <persName>Нюнин</persName>
           </person>
-          <person xml:id="Lakej">
+          <person xml:id="Lakej" sex="MALE">
             <persName>Лакей</persName>
           </person>
-          <person xml:id="Mozgovoj">
+          <person xml:id="Mozgovoj" sex="MALE">
             <persName>Мозговой</persName>
           </person>
-          <person xml:id="Revunov">
+          <person xml:id="Revunov" sex="MALE">
             <persName>Ревунов</persName>
           </person>
-          <person xml:id="Dashenka">
+          <person xml:id="Dashenka" sex="FEMALE">
             <persName>Дашенька</persName>
           </person>
-          <person xml:id="Kavalery">
+          <person xml:id="Kavalery" sex="MALE">
             <persName>Кавалеры</persName>
           </person>
-          <person xml:id="NastasjaTimofeevna">
+          <person xml:id="NastasjaTimofeevna" sex="FEMALE">
             <persName>Настасья Тимофеевна</persName>
           </person>
-          <person xml:id="Jat">
+          <person xml:id="Jat" sex="MALE">
             <persName>Ять</persName>
           </person>
-          <person xml:id="Aplombov">
+          <person xml:id="Aplombov" sex="MALE">
             <persName>Апломбов</persName>
           </person>
-          <person xml:id="Shafer">
+          <person xml:id="Shafer" sex="MALE">
             <persName>Шафер</persName>
           </person>
-          <person xml:id="Zmejukina">
+          <person xml:id="Zmejukina" sex="FEMALE">
             <persName>Змеюкина</persName>
           </person>
         </listPerson>
@@ -93,6 +93,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#to">looked through,  sb has already corrected it anonymously</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
