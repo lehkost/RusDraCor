@@ -46,37 +46,37 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Tihon">
+          <person xml:id="Tihon" sex="MALE">
             <persName>Тихон</persName>
           </person>
-          <person xml:id="Efimovna">
+          <person xml:id="Efimovna" sex="FEMALE">
             <persName>Ефимовна</persName>
           </person>
-          <person xml:id="Merik">
+          <person xml:id="Merik" sex="MALE">
             <persName>Мерик</persName>
           </person>
-          <person xml:id="GolosIzUgla">
+          <person xml:id="GolosIzUgla" sex="UNKNOWN">
             <persName>Голос из угла</persName>
           </person>
-          <person xml:id="Savva">
+          <person xml:id="Savva" sex="MALE">
             <persName>Савва</persName>
           </person>
-          <person xml:id="Kucher">
+          <person xml:id="Kucher" sex="MALE">
             <persName>Кучер</persName>
           </person>
-          <person xml:id="Fedja">
+          <person xml:id="Fedja" sex="MALE">
             <persName>Федя</persName>
           </person>
-          <person xml:id="Bortsov">
+          <person xml:id="Bortsov" sex="MALE">
             <persName>Борцов</persName>
           </person>
-          <person xml:id="Nazarovna">
+          <person xml:id="Nazarovna" sex="FEMALE">
             <persName>Назаровна</persName>
           </person>
-          <person xml:id="MarjaEgorovna">
+          <person xml:id="MarjaEgorovna" sex="FEMALE">
             <persName>Марья Егоровна</persName>
           </person>
-          <person xml:id="Kuzma">
+          <person xml:id="Kuzma" sex="MALE">
             <persName>Кузьма</persName>
           </person>
         </listPerson>
@@ -93,6 +93,7 @@
         <change who="#to">replaced id "Goloszadverju" with the id "Kucher"</change>
         <change who="#ff" when="2017-05-24">added 2 missing characters to castList; shifted dots
           into speaker tags for better readability</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
