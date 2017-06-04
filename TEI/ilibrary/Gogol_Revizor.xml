@@ -42,100 +42,100 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Lekar">
+          <person xml:id="Lekar" sex="MALE">
             <persName> Лекарь Христофор Иванович </persName>
           </person>
-          <person xml:id="ChastnyjPristav">
+          <person xml:id="ChastnyjPristav" sex="MALE">
             <persName> Частный пристав </persName>
           </person>
-          <person xml:id="AnnaAndreevna">
+          <person xml:id="AnnaAndreevna" sex="FEMALE">
             <persName> Анна Андреевна </persName>
           </person>
-          <person xml:id="Gostja">
+          <person xml:id="Gostja" sex="FEMALE">
             <persName> Гостья </persName>
           </person>
-          <person xml:id="Rastakovskij">
+          <person xml:id="Rastakovskij" sex="MALE">
             <persName> Растаковский </persName>
           </person>
-          <person xml:id="Kuptsy">
+          <person xml:id="Kuptsy" sex="MALE">
             <persName> Купцы </persName>
           </person>
-          <person xml:id="ZhenaLukiLukicha">
+          <person xml:id="ZhenaLukiLukicha" sex="FEMALE">
             <persName> Жена Луки Лукича </persName>
           </person>
-          <person xml:id="Derzhimorda">
+          <person xml:id="Derzhimorda" sex="MALE">
             <persName> Держиморда </persName>
           </person>
-          <person xml:id="Pochtmejster">
+          <person xml:id="Pochtmejster" sex="MALE">
             <persName> Почтмейстер </persName>
           </person>
-          <person xml:id="Hlestakov">
+          <person xml:id="Hlestakov" sex="MALE">
             <persName> Хлестаков </persName>
           </person>
-          <person xml:id="MarjaAntonovna">
+          <person xml:id="MarjaAntonovna" sex="FEMALE">
             <persName> Марья Антоновна </persName>
           </person>
-          <person xml:id="Korobkin">
+          <person xml:id="Korobkin" sex="MALE">
             <persName> Коробкин </persName>
           </person>
-          <person xml:id="UnterOfitsersha">
+          <person xml:id="UnterOfitsersha" sex="FEMALE">
             <persName> Унтер-офицерша </persName>
           </person>
-          <person xml:id="Dobchinskij">
+          <person xml:id="Dobchinskij" sex="MALE">
             <persName> Добчинский </persName>
           </person>
-          <person xml:id="AmmosFedorovichLjapkinTjapkin">
+          <person xml:id="AmmosFedorovichLjapkinTjapkin" sex="MALE">
             <persName> Аммос Федорович </persName>
           </person>
-          <person xml:id="Svistunov">
+          <person xml:id="Svistunov" sex="MALE">
             <persName> Свистунов </persName>
           </person>
-          <person xml:id="OdinIzKuptsov">
+          <person xml:id="OdinIzKuptsov" sex="MALE">
             <persName> Один из купцов </persName>
           </person>
-          <person xml:id="GolosJamschikaa">
+          <person xml:id="GolosJamschikaa" sex="UNKNOWN">
             <persName> Голос ямщика </persName>
           </person>
-          <person xml:id="Sluga">
+          <person xml:id="Sluga" sex="MALE">
             <persName> Слуга </persName>
           </person>
-          <person xml:id="Osip">
+          <person xml:id="Osip" sex="MALE">
             <persName> Осип </persName>
           </person>
-          <person xml:id="ArtemijFilippovichZemljanika">
+          <person xml:id="ArtemijFilippovichZemljanika" sex="MALE">
             <persName> Артемий Филиппович Земляника </persName>
           </person>
-          <person xml:id="LukaLukich">
+          <person xml:id="LukaLukich" sex="MALE">
             <persName> Лука Лукич </persName>
           </person>
-          <person xml:id="Bobchinskij">
+          <person xml:id="Bobchinskij" sex="MALE">
             <persName> Бобчинский </persName>
           </person>
-          <person xml:id="OdnaIzDam">
+          <person xml:id="OdnaIzDam" sex="FEMALE">
             <persName> Одна из дам </persName>
           </person>
-          <person xml:id="Ljuljukov">
+          <person xml:id="Ljuljukov" sex="MALE">
             <persName> Люлюков </persName>
           </person>
-          <person xml:id="ZhenaKorobkina">
+          <person xml:id="ZhenaKorobkina" sex="FEMALE">
             <persName> Жена Коробкина </persName>
           </person>
-          <person xml:id="Mishka">
+          <person xml:id="Mishka" sex="MALE">
             <persName> Мишка </persName>
           </person>
-          <person xml:id="Gorodnichij">
+          <person xml:id="Gorodnichij" sex="MALE">
             <persName> Городничий </persName>
           </person>
-          <person xml:id="Zhandarm">
+          <person xml:id="Zhandarm" sex="MALE">
             <persName> Жандарм </persName>
           </person>
-          <person xml:id="Slesarsha">
+          <person xml:id="Slesarsha" sex="FEMALE">
             <persName> Слесарша </persName>
           </person>
-          <person xml:id="Kvartalnyj">
+          <person xml:id="Kvartalnyj" sex="MALE">
             <persName> Квартальный </persName>
           </person>
-          <person xml:id="MnogieIzGostej">
+          <person xml:id="MnogieIzGostej" sex="UNKNOWN">
             <persName> Многие из гостей </persName>
           </person>
         </listPerson>
@@ -152,6 +152,7 @@
         <change who="#GG">changed Zemljanika and ArtemijFilippovich to ArtemijFilippovichZemljanika,
           Ljapkin-Tjapkin and AmmosFedorovich to AmmosFedorovichLjapkinTjapkin</change>
         <change who="#ff" when="2017-05-30">added missing castGroups to castList; normalised punctuation</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
