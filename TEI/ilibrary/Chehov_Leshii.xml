@@ -42,43 +42,43 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Orlovskij">
+          <person xml:id="Orlovskij" sex="MALE">
             <persName> Орловский </persName>
           </person>
-          <person xml:id="Djadin">
+          <person xml:id="Djadin" sex="MALE">
             <persName> Дядин </persName>
           </person>
-          <person xml:id="ElenaAndreevna">
+          <person xml:id="ElenaAndreevna" sex="FEMALE">
             <persName> Елена Андреевна </persName>
           </person>
-          <person xml:id="Julja">
+          <person xml:id="Julja" sex="FEMALE">
             <persName> Юля </persName>
           </person>
-          <person xml:id="Sonja">
+          <person xml:id="Sonja" sex="FEMALE">
             <persName> Соня </persName>
           </person>
-          <person xml:id="Serebrjakov">
+          <person xml:id="Serebrjakov" sex="MALE">
             <persName> Серебряков </persName>
           </person>
-          <person xml:id="Zheltuhin">
+          <person xml:id="Zheltuhin" sex="MALE">
             <persName> Желтухин </persName>
           </person>
-          <person xml:id="FedorIvanovich">
+          <person xml:id="FedorIvanovich" sex="MALE">
             <persName> Федор Иванович </persName>
           </person>
-          <person xml:id="MarjaVasilevna">
+          <person xml:id="MarjaVasilevna" sex="FEMALE">
             <persName> Марья Васильевна </persName>
           </person>
-          <person xml:id="Semen">
+          <person xml:id="Semen" sex="MALE">
             <persName> Семен </persName>
           </person>
-          <person xml:id="Vasilij">
+          <person xml:id="Vasilij" sex="MALE">
             <persName> Василий </persName>
           </person>
-          <person xml:id="Vojnitskij">
+          <person xml:id="Vojnitskij" sex="MALE">
             <persName> Войницкий </persName>
           </person>
-          <person xml:id="Hruschov">
+          <person xml:id="Hruschov" sex="MALE">
             <persName> Хрущов </persName>
           </person>
         </listPerson>
@@ -94,6 +94,7 @@
         <change who="#ds">converted from source</change>
         <change who="#to">corrected id Vse</change>  
         <change who="#zhenya">added dates</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
