@@ -45,34 +45,34 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="MarijaVasilevna">
+          <person xml:id="MarijaVasilevna" sex="FEMALE">
             <persName>Мария Васильевна</persName>
           </person>
-          <person xml:id="Telegin">
+          <person xml:id="Telegin" sex="MALE">
             <persName>Телегин</persName>
           </person>
-          <person xml:id="GolosStorozha">
+          <person xml:id="GolosStorozha" sex="UNKNOWN">
             <persName>Голос сторожа (Ефим)</persName>
           </person>
-          <person xml:id="Rabotnik">
+          <person xml:id="Rabotnik" sex="MALE">
             <persName>Работник</persName>
           </person>
-          <person xml:id="Astrov">
+          <person xml:id="Astrov" sex="MALE">
             <persName>Астров</persName>
           </person>
-          <person xml:id="Serebrjakov">
+          <person xml:id="Serebrjakov" sex="MALE">
             <persName>Серебряков</persName>
           </person>
-          <person xml:id="Vojnitskij">
+          <person xml:id="Vojnitskij" sex="MALE">
             <persName>Войницкий</persName>
           </person>
-          <person xml:id="Marina">
+          <person xml:id="Marina" sex="FEMALE">
             <persName>Марина</persName>
           </person>
-          <person xml:id="Sonja">
+          <person xml:id="Sonja" sex="FEMALE">
             <persName>Соня</persName>
           </person>
-          <person xml:id="ElenaAndreevna">
+          <person xml:id="ElenaAndreevna" sex="FEMALE">
             <persName>Елена Андреевна</persName>
           </person>
         </listPerson>
@@ -90,6 +90,7 @@
           storozh</change>
         <change who="#to #ff">reverted id to "#GolosStorozha"</change>
         <change who="#zhenya">added dates</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
