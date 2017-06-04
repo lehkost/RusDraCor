@@ -41,311 +41,289 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Kupets">
+          <person xml:id="Kupets"  sex="MALE">
             <persName>Купец</persName>
           </person>
-          <person xml:id="NevzrachnyjNojadovitogoSvojstvaGospodin">
+          <person xml:id="NevzrachnyjNojadovitogoSvojstvaGospodin" sex="MALE">
             <persName>Невзрачный, но ядовитого свойства господин</persName>
           </person>
-          <person xml:id="MuzhPervojDamy">
+          <person xml:id="MuzhPervojDamy" sex="MALE">
             <persName>Муж</persName>
           </person>
-          <person xml:id="NeizvestnyjGolos">
+          <person xml:id="NeizvestnyjGolos" sex="UNKNOWN">
             <persName>Неизвестный голос</persName>
           </person>
-          <person xml:id="OdinIzGospod">
+          <person xml:id="OdinIzGospod" sex="MALE">
             <persName>Один из господ</persName>
           </person>
-          
-          <person xml:id="GospodinBezzabotnyjNaschetliteratury">
+          <person xml:id="GospodinBezzabotnyjNaschetliteratury" sex="MALE">
             <persName>Господин, беззаботный насчет литературы</persName>
           </person>
-          <person xml:id="GolosVNarode">
+          <person xml:id="GolosVNarode" sex="UNKNOWN">
             <persName>Голос в народе</persName>
           </person>
-          <person xml:id="GospodinNizenkijINevzrachnyjNojadovitogoSvojstva">
-            <persName>Господин низенький и невзрачный, но ядовитого свойства</persName>
-          </person>
-          <person xml:id="AvtorPesy">
+          <person xml:id="AvtorPesy" sex="MALE">
             <persName>Автор пьесы</persName>
           </person>
-          <person xml:id="TretijGospodin">
+          <person xml:id="TretijGospodin" sex="MALE">
             <persName>Третий господин</persName>
           </person>
-          
-          <person xml:id="GospodinSDrugojStoronyGruppy">
+          <person xml:id="GospodinSDrugojStoronyGruppy" sex="MALE">
             <persName>Господин с другой стороны группы</persName>
           </person>
-          <person xml:id="GospodinSVesom">
+          <person xml:id="GospodinSVesom" sex="MALE">
             <persName>Господин с весом</persName>
           </person>
-         
-          <person xml:id="odnabekesha">
+          <person xml:id="odnabekesha" sex="MALE">
             <persName>Две бекеши</persName>
           </person>
-          <person xml:id="Voennyj">
+          <person xml:id="Voennyj" sex="MALE">
             <persName>Военный</persName>
           </person>
-          <person xml:id="GospodinV">
+          <person xml:id="GospodinV" sex="MALE">
             <persName>Господин В</persName>
           </person>
-          <person xml:id="MolodajaDama">
+          <person xml:id="MolodajaDama" sex="FEMALE">
             <persName>Первая дама</persName>
           </person>
-          <person xml:id="MolodenkijChinovnikUklonchivogoSvojstva">
+          <person xml:id="MolodenkijChinovnikUklonchivogoSvojstva" sex="MALE">
             <persName>Молоденький чиновник уклончивого свойства</persName>
           </person>
-          <person xml:id="EscheLiterator">
+          <person xml:id="EscheLiterator" sex="MALE">
             <persName>Еще литератор</persName>
           </person>
-          <person xml:id="GospodinOtritsatelnogoSvojstva">
+          <person xml:id="GospodinOtritsatelnogoSvojstva" sex="MALE">
             <persName>Господин отрицательного свойства</persName>
           </person>
-          <person xml:id="OchenSkromnoOdetyjChelov">
-            <persName>Очень скромно одетый челов</persName>
-          </person>
-          <person xml:id="GolosGospodinaPooschritelnogoSvojstva">
+          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="UNKNOWN">
             <persName>Голос господина поощрительного свойства</persName>
           </person>
-          <person xml:id="ProstoVral">
+          <person xml:id="ProstoVral" sex="MALE">
             <persName>Просто враль</persName>
           </person>
-          <person xml:id="MuzhVtorojDamy">
+          <person xml:id="MuzhVtorojDamy" sex="MALE">
             <persName>Муж второй дамы</persName>
           </person>
-          <person xml:id="DrugajaBekesha">
+          <person xml:id="DrugajaBekesha" sex="MALE">
             <persName>Другая бекеша</persName>
           </person>
-          <person xml:id="PervyjCommeIlFaut">
+          <person xml:id="PervyjCommeIlFaut" sex="MALE">
             <persName>Первый comme il faut</persName>
           </person>
-          <person xml:id="PervajaBekesha">
+          <person xml:id="PervajaBekesha" sex="MALE">
             <persName>Первая бекеша</persName>
           </person>
-          <person xml:id="NeizvestnoKakojChelovek">
+          <person xml:id="NeizvestnoKakojChelovek" sex="MALE">
             <persName>Неизвестно какой человек</persName>
           </person>
-          <person xml:id="OtstavshijChinovnik">
+          <person xml:id="OtstavshijChinovnik" sex="MALE">
             <persName>Отставший чиновник</persName>
           </person>
-          <person xml:id="Statskij">
+          <person xml:id="Statskij" sex="MALE">
             <persName>Статский</persName>
           </person>
-          <person xml:id="PervyjOfitser">
+          <person xml:id="PervyjOfitser" sex="MALE">
             <persName>Первый офицер</persName>
           </person>
-          <person xml:id="Odinizdvuhzritelej">
+          <person xml:id="Odinizdvuhzritelej" sex="MALE">
             <persName>Один из двух зрителей</persName>
           </person>
-          <person xml:id="OdinChinovnik">
+          <person xml:id="OdinChinovnik" sex="MALE">
             <persName>Один чиновник</persName>
           </person>
-          <person xml:id="KnjazN">
+          <person xml:id="KnjazN" sex="MALE">
             <persName>Князь N</persName>
           </person>
-          <person xml:id="Pervyj">
+          <person xml:id="Pervyj" sex="MALE">
             <persName>Первый</persName>
           </person>
-          <person xml:id="GospodinHladnokrovnogoSvojstva">
+          <person xml:id="GospodinHladnokrovnogoSvojstva" sex="MALE">
             <persName>Господин хладнокровного свойства</persName>
           </person>
-          <person xml:id="GolosDrugogoChinovnikaIzTolpy">
+          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="UNKNOWN">
             <persName>Голос другого чиновника из толпы</persName>
           </person>
-          
-          <person xml:id="OchenSkromnoOdetyjChelovek">
+          <person xml:id="OchenSkromnoOdetyjChelovek" sex="MALE">
             <persName>Очень скромно одетый человек</persName>
           </person>
-          <person xml:id="Literator">
+          <person xml:id="Literator" sex="MALE">
             <persName>Литератор</persName>
           </person>
-          <person xml:id="Drugoj">
+          <person xml:id="Drugoj" sex="MALE">
             <persName>Другой</persName>
           </person>
-          <person xml:id="GospodinNeskolkobezzabotnyjNaschetliteratury">
+          <person xml:id="GospodinNeskolkobezzabotnyjNaschetliteratury" sex="MALE">
             <persName>Господин, несколько беззаботный насчет литературы</persName>
           </person>
-          <person xml:id="GospodinpolozhitelnogoSvojstva">
+          <person xml:id="GospodinpolozhitelnogoSvojstva" sex="MALE">
             <persName>Господин положительного свойства</persName>
           </person>
-          <person xml:id="DobrodushnyjChinovnik">
+          <person xml:id="DobrodushnyjChinovnik" sex="MALE">
             <persName>Добродушный чиновник</persName>
           </person>
-          <person xml:id="GospodinVShineli">
+          <person xml:id="GospodinVShineli" sex="MALE">
             <persName>Господин в шинели</persName>
           </person>
-          <person xml:id="DrugojChinovnik">
+          <person xml:id="DrugojChinovnik" sex="MALE">
             <persName>Другой чиновник</persName>
           </person>
-          <person xml:id="GospodinA">
+          <person xml:id="GospodinA" sex="MALE">
             <persName>Господин А</persName>
           </person>
-          <person xml:id="DamaSrednegoSveta">
+          <person xml:id="DamaSrednegoSveta" sex="FEMALE">
             <persName>Дама среднего света</persName>
           </person>
-          <person xml:id="Neznakomets">
+          <person xml:id="Neznakomets" sex="MALE">
             <persName>Незнакомец</persName>
           </person>
-          <person xml:id="GolosserditogoChinovnikaNoKakvidnoOpytnogo">
+          <person xml:id="GolosserditogoChinovnikaNoKakvidnoOpytnogo" sex="FEMALE">
             <persName>Голос сердитого чиновника, но, как видно, опытного</persName>
           </person>
-          
-          <person xml:id="GospodinP">
+          <person xml:id="GospodinP" sex="MALE">
             <persName>Господин П</persName>
           </person>
-          <person xml:id="Chinovniksrednihlet">
+          <person xml:id="Chinovniksrednihlet" sex="MALE">
             <persName>Чиновник средних лет</persName>
           </person>
-          <person xml:id="NevzrachnyjNoJadovitogoSvojstvaСhelovek">
-            <persName>Невзрачный, но ядовитого свойства человек</persName>
-          </person>
-         
-          <person xml:id="TozhesvetskijChelovekPoplotnee">
+          <person xml:id="TozhesvetskijChelovekPoplotnee" sex="MALE">
             <persName>Тоже светский человек, поплотнее</persName>
           </person>
-          <person xml:id="Muzhchinavofrake">
+          <person xml:id="Muzhchinavofrake" sex="MALE">
             <persName>Мужчина во фраке</persName>
           </person>
-          <person xml:id="GolosVDrugomKontse">
+          <person xml:id="GolosVDrugomKontse" sex="UNKNOWN">
             <persName>Голос в другом конце</persName>
           </person>
-          <person xml:id="GospodinB">
+          <person xml:id="GospodinB" sex="MALE">
             <persName>Господин Б</persName>
           </person>
-          <person xml:id="NomerOdin">
+          <person xml:id="NomerOdin" sex="MALE">
             <persName>№ 1</persName>
           </person>
-          <person xml:id="NomerDva">
+          <person xml:id="NomerDva" sex="MALE">
             <persName>№ 2</persName>
           </person>
-          <person xml:id="VtorojOfitser">
+          <person xml:id="VtorojOfitser" sex="MALE">
             <persName>Другой офицер</persName>
           </person>
-          <person xml:id="GospodaHoroshoOdetye">
+          <person xml:id="GospodaHoroshoOdetye" sex="MALE">
             <persName>Господа хорошо одетые</persName>
           </person>
-          <person xml:id="MuzhchinaVMundire">
+          <person xml:id="MuzhchinaVMundire" sex="MALE">
             <persName>Мужчина в мундире</persName>
           </person>
-          <person xml:id="Ofitser">
+          <person xml:id="Ofitser" sex="MALE">
             <persName>Офицер</persName>
           </person>
-          <person xml:id="OdinDrugojOfitser">
+          <person xml:id="OdinDrugojOfitser" sex="MALE">
             <persName>Другой Офицер</persName>
           </person>
-          <person xml:id="DrugojDrugojOfitser">
+          <person xml:id="DrugojDrugojOfitser" sex="MALE">
             <persName>Другой другой Офицер</persName>
           </person>
-          <person xml:id="ChinovnikVazhnojNaruzhnosti">
+          <person xml:id="ChinovnikVazhnojNaruzhnosti" sex="MALE">
             <persName>Чиновник важной наружности</persName>
           </person>
-          <person xml:id="VtorojGospodin">
+          <person xml:id="VtorojGospodin" sex="MALE">
             <persName>Второй господин</persName>
           </person>
-          <person xml:id="SvetskijChelovekSchegolevatoodetyj">
+          <person xml:id="SvetskijChelovekSchegolevatoodetyj" sex="MALE">
             <persName>Светский человек, щеголевато одетый</persName>
           </person>
-         
-          <person xml:id="Sinijarmjak">
+          <person xml:id="Sinijarmjak" sex="MALE">
             <persName>Синий армяк</persName>
           </person>
-         
-          <person xml:id="RaznyeGolosa">
+          <person xml:id="RaznyeGolosa" sex="UNKNOWN">
             <persName>Разные голоса</persName>
           </person>
-          <person xml:id="NeznakomyjSosed">
+          <person xml:id="NeznakomyjSosed" sex="MALE">
             <persName>Незнакомый сосед</persName>
           </person>
-          <person xml:id="KrasivyjiPlotnyjGospodin">
+          <person xml:id="KrasivyjiPlotnyjGospodin" sex="MALE">
             <persName>Красивый и плотный господин</persName>
           </person>
-          <person xml:id="VtorajaDama">
+          <person xml:id="VtorajaDama" sex="FEMALE">
             <persName>Вторая дама</persName>
           </person>
-          <person xml:id="OdinIzNaroda">
+          <person xml:id="OdinIzNaroda" sex="MALE">
             <persName>Один из народа</persName>
           </person>
-          <person xml:id="SvetskajaDama">
+          <person xml:id="SvetskajaDama" sex="FEMALE">
             <persName>Светская дама</persName>
           </person>
-          
-          <person xml:id="GolosVOdnomkontseTolpy">
+          <person xml:id="GolosVOdnomkontseTolpy" sex="UNKNOWN">
             <persName>Голос в одном конце толпы</persName>
           </person>
-          <person xml:id="VtorojCommeIlFaut">
+          <person xml:id="VtorojCommeIlFaut" sex="MALE">
             <persName>Второй comme il faut</persName>
           </person>
-          <person xml:id="GolosIzTolpy">
+          <person xml:id="GolosIzTolpy" sex="UNKNOWN">
             <persName>Голос из толпы</persName>
           </person>
-          <person xml:id="GospodinN">
+          <person xml:id="GospodinN" sex="MALE">
             <persName>Господин N</persName>
           </person>
-          <person xml:id="ChinovnikRazgovorchivogoSvojstva">
+          <person xml:id="ChinovnikRazgovorchivogoSvojstva" sex="MALE">
             <persName>Чиновник разговорчивого свойства</persName>
           </person>
-          
-          
-          <person xml:id="GospodinDobrodushnogoSvojstva">
+          <person xml:id="GospodinDobrodushnogoSvojstva" sex="MALE">
             <persName>Господин добродушного свойства</persName>
           </person>
-          <person xml:id="OdinIzPrilichnoOdetyhLudei">
+          <person xml:id="OdinIzPrilichnoOdetyhLudei" sex="MALE">
             <persName>Один из прилично одетых людей</persName>
           </person>
-          <person xml:id="PervyjHoroshoOdetyj">
+          <person xml:id="PervyjHoroshoOdetyj" sex="MALE">
             <persName>первый хорошо одетый человек</persName>
           </person>
-          <person xml:id="VtorojHoroshoOdetyj">
+          <person xml:id="VtorojHoroshoOdetyj" sex="MALE">
             <persName>второй хорошо одетый человек</persName>
           </person>
-         
-            <person xml:id="PervyjVprochemBlagorodnyj">
+          <person xml:id="PervyjVprochemBlagorodnyj" sex="MALE">
               <persName>первый человек, Бог весть какого свойства, впрочем, благородной наружности
                 и прилично одетый</persName>
-            </person><person xml:id="VtorojVprochemBlagorodnyj">
+          </person>
+          <person xml:id="VtorojVprochemBlagorodnyj" sex="MALE">
               <persName>второй человек, Бог весть какого свойства, впрочем, благородной наружности
                 и прилично одетый</persName>
-            </person><person xml:id="TretijVprochemBlagorodnyj">
+          </person>
+          <person xml:id="TretijVprochemBlagorodnyj" sex="MALE">
               <persName>третий человек, Бог весть какого свойства, впрочем, благородной наружности
                 и прилично одетый</persName>
-            </person>
-          <person xml:id="PervyjZritel">
+          </person>
+          <person xml:id="PervyjZritel" sex="MALE">
             <persName>один из двух вышедших зрителей</persName>
           </person>
-          <person xml:id="VtorojZritel">
+          <person xml:id="VtorojZritel" sex="MALE">
             <persName>второй из двух вышедших зрителей</persName>
-         </person>
-                    
-          
-          <person xml:id="PervyjMujchina">
+          </person>
+          <person xml:id="PervyjMujchina" sex="MALE">
             <persName>один из мужчин</persName>
           </person>
-          <person xml:id="VtorojMujchina">
+          <person xml:id="VtorojMujchina" sex="MALE">
             <persName>второй из мужчин</persName>
           </person>
-          <person xml:id="TretijMujchina">
+          <person xml:id="TretijMujchina" sex="MALE">
             <persName>третий из мужчин</persName>
           </person>
-        	<person xml:id="PervyjLubitelIskusstva">
-        	  <persName>первый любитель искусства </persName>
-        	</person>
-          <person xml:id="VtorojLubitelIskusstva">
+          <person xml:id="PervyjLubitelIskusstva" sex="MALE">
+            <persName>первый любитель искусства </persName>
+          </person>
+          <person xml:id="VtorojLubitelIskusstva" sex="MALE">
             <persName>второй любитель искусства </persName>
           </person>        
-          <person xml:id="TretijLubitelIskusstva">
+          <person xml:id="TretijLubitelIskusstva" sex="MALE">
             <persName>третий любитель искусства </persName>
           </person>
-          <person xml:id="ChetvertyjLubitelIskusstva">
+          <person xml:id="ChetvertyjLubitelIskusstva" sex="MALE">
             <persName>четвертый любитель искусства </persName>
           </person>        
-          <person xml:id="PjatyyjLubitelIskusstva">
+          <person xml:id="PjatyyjLubitelIskusstva" sex="MALE">
             <persName>пятый любитель искусства </persName>
           </person>
-          
-          <person xml:id="OdinMolodoj">
+          <person xml:id="OdinMolodoj" sex="MALE">
             <persName>один молодой человек </persName>
           </person>
-          <person xml:id="DrugojMolodoj">
+          <person xml:id="DrugojMolodoj" sex="MALE">
             <persName>другой молодой человек </persName>
           </person>
         </listPerson>
@@ -360,6 +338,7 @@
       <listChange>
         <change who="#ds">converted from source</change>
         <change who="#GG #FF" when="2017-05-19">started segmentation</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1908,7 +1887,7 @@
             <stage type="delivery">(говорит с жаром невзрачному и низенькому)</stage>
             <p>. Нравственность, нравственность страждет, вот что главное!</p>
           </sp>
-          <sp who="#GospodinNizenkijINevzrachnyjNojadovitogoSvojstva">
+          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
             <speaker>Господин низенький и невзрачный, но ядовитого свойства</speaker>
             <p>. Да ведь нравственность вещь относительная.</p>
           </sp>
@@ -1945,7 +1924,7 @@
             <stage type="delivery">(уходя поспешно)</stage>
             <p>. Извините, я недослышал.</p>
           </sp>
-          <sp who="#NevzrachnyjNoJadovitogoSvojstvaСhelovek">
+          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
             <speaker>Невзрачный, но ядовитого свойства человек</speaker>
             <stage type="delivery">(толкая под руку незнакомого соседа)</stage>
             <p>. Глухота-то как нынче распространилась в городе, а? Вот что значит нездоровый и
@@ -1955,7 +1934,7 @@
             <speaker>Незнакомый сосед</speaker>
             <p>. Да вот и грипп тоже. У меня все дети переболели.</p>
           </sp>
-          <sp who="#NevzrachnyjNoJadovitogoSvojstvaСhelovek">
+          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
             <speaker>Невзрачный, но ядовитого свойства человек</speaker>
             <p>. Да, и грипп, и глухота; свинка тоже в горле. </p>
             <stage type="delivery">(Пропадает в толпе.)</stage>
