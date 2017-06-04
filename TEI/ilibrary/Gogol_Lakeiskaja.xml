@@ -41,40 +41,40 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ChuzhojLakej">
+          <person xml:id="ChuzhojLakej" sex="MALE">
             <persName>Чужой лакей</persName>
           </person>
-          <person xml:id="Grigorij">
+          <person xml:id="Grigorij" sex="MALE">
             <persName>Григорий</persName>
           </person>
-          <person xml:id="GospodinVShube">
+          <person xml:id="GospodinVShube" sex="MALE">
             <persName>Господин в шубе</persName>
           </person>
-          <person xml:id="Gospodin">
+          <person xml:id="Gospodin" sex="MALE">
             <persName>Господин</persName>
           </person>
-          <person xml:id="Petr">
+          <person xml:id="Petr" sex="MALE">
             <persName>Петр</persName>
           </person>
-          <person xml:id="Dvoretskij">
+          <person xml:id="Dvoretskij" sex="MALE">
             <persName>Дворецкий</persName>
           </person>
-          <person xml:id="Devushka">
+          <person xml:id="Devushka" sex="FEMALE">
             <persName>Девушка</persName>
           </person>
-          <person xml:id="ChuzhojSluga">
+          <person xml:id="ChuzhojSluga" sex="MALE">
             <persName>Чужой слуга</persName>
           </person>
-          <person xml:id="PuzatyjDvoretskij">
+          <person xml:id="PuzatyjDvoretskij" sex="MALE">
             <persName>Пузатый дворецкий</persName>
           </person>
-          <person xml:id="Ivan">
+          <person xml:id="Ivan" sex="MALE">
             <persName>Иван</persName>
           </person>
-          <person xml:id="Barin">
+          <person xml:id="Barin" sex="MALE">
             <persName>Барин</persName>
           </person>
-          <person xml:id="Annushka">
+          <person xml:id="Annushka" sex="FEMALE">
             <persName>Аннушка</persName>
           </person>
         </listPerson>
@@ -88,6 +88,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
+        <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
