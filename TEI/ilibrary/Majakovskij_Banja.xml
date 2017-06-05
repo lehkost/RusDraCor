@@ -125,6 +125,7 @@
         <change who="#ds">converted from source</change>
         <change who="ds" when="2017-05-23">removed redundant sp's (left after the prior removal of
           unknown speakers)</change>
+        <change who="#GG" when="2017-06-03">gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
