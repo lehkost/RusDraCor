@@ -94,6 +94,8 @@
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#ff" when="2017-06-05">formatted text; added genre info</change>
+        <change who="#GG" when="2017-07-03">gender info, corrected ids</change>
+        
       </listChange>
     </revisionDesc>
   </teiHeader>
