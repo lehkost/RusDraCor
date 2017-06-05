@@ -44,46 +44,42 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="TeZheIVelvitskijSPlanami">
-            <persName>Те же и Вельвицкий, с планами</persName>
-          </person>
-          <person xml:id="Alupkin">
+
+          <person xml:id="Alupkin" sex="MALE">
             <persName>Алупкин</persName>
           </person>
-          <person xml:id="Bespandin">
+          <person xml:id="Bespandin" sex="MALE">
             <persName>Беспандин</persName>
           </person>
-          <person xml:id="Pehterev">
+          <person xml:id="Pehterev" sex="MALE">
             <persName>Пехтерьев</persName>
           </person>
-          <person xml:id="TeZheIPehterev">
-            <persName>Те же и Пехтерьев</persName>
-          </person>
-          <person xml:id="Mirvolin">
+
+          <person xml:id="Mirvolin" sex="MALE">
             <persName>Мирволин</persName>
           </person>
-          <person xml:id="SuslovIMirvolin">
+          <person xml:id="SuslovIMirvolin" sex="MALE">
             <persName>Суслов и Мирволин</persName>
           </person>
-          <person xml:id="Gerasim">
+          <person xml:id="Gerasim" sex="MALE">
             <persName>Герасим</persName>
           </person>
-          <person xml:id="Suslov">
+          <person xml:id="Suslov" sex="MALE">
             <persName>Суслов</persName>
           </person>
-          <person xml:id="Kaurova">
+          <person xml:id="Kaurova" sex="FEMALE">
             <persName>Каурова</persName>
           </person>
-          <person xml:id="Karp">
+          <person xml:id="Karp" sex="MALE">
             <persName>Карп</persName>
           </person>
-          <person xml:id="Naglanovich">
+          <person xml:id="Naglanovich" sex="MALE">
             <persName>Нагланович</persName>
           </person>
-          <person xml:id="Balagalaev">
+          <person xml:id="Balagalaev" sex="MALE">
             <persName>Балагалаев</persName>
           </person>
-          <person xml:id="Velvitskij">
+          <person xml:id="Velvitskij" sex="MALE">
             <persName>Вельвицкий</persName>
           </person>
         </listPerson>
@@ -1183,10 +1179,8 @@
       </div>
       <div>
         <head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
-        <sp who="#TeZheIVelvitskijSPlanami">
-          <speaker>Те же и Вельвицкий, с планами</speaker>
-          <p>.</p>
-        </sp>
+        <stage type="delivery">Те же и Вельвицкий, с планами</stage>
+
         <sp who="#Balagalaev">
           <speaker>Балагалаев</speaker>
           <p>. А! подойди сюда <stage type="delivery">(Развертывает планы.)</stage> Принеси-ка вон
@@ -1757,10 +1751,10 @@
       </div>
       <div>
         <head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
-        <sp who="#TeZheIPehterev">
-          <speaker>Те же и Пехтерьев</speaker>
-          <p>.</p>
-        </sp>
+       
+          <stage type="delivery"> Те же и Пехтерьев</stage>
+
+        
         <sp who="#Pehterev">
           <speaker>Пехтерьев</speaker>
           <p>
