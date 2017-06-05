@@ -43,145 +43,145 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Radushka">
+          <person xml:id="Radushka" sex="FEMALE">
             <persName> Радушка </persName>
           </person>
-          <person xml:id="Odinberendej">
+          <person xml:id="Odinberendej" sex="MALE">
             <persName> Один берендей </persName>
           </person>
-          <person xml:id="Malusha">
+          <person xml:id="Malusha" sex="FEMALE">
             <persName> Малуша </persName>
           </person>
-          <person xml:id="ElenaPrekrasnaja">
+          <person xml:id="ElenaPrekrasnaja" sex="FEMALE">
             <persName> Елена Прекрасная </persName>
           </person>
-          <person xml:id="PerviySkomoroh">
+          <person xml:id="PerviySkomoroh" sex="MALE">
             <persName> 1-й скоморох </persName>
           </person>
-          <person xml:id="Leshij">
+          <person xml:id="Leshij" sex="MALE">
             <persName> Леший </persName>
           </person>
-          <person xml:id="Gusljary">
+          <person xml:id="Gusljary" sex="UNKNOWN">
             <persName>Гусляры</persName>
           </person>
-          <person xml:id="Birjuch">
+          <person xml:id="Birjuch" sex="MALE">
             <persName> Бирюч </persName>
           </person>
-          <person xml:id="Berendei">
+          <person xml:id="Berendei" sex="UNKNOWN">
             <persName> Берендеи </persName>
           </person>
-          <person xml:id="Pervaja">
+          <person xml:id="Pervaja" sex="FEMALE">
             <persName> 1-я: </persName>
           </person>
-          <person xml:id="Kurilka">
+          <person xml:id="Kurilka" sex="MALE">
             <persName> Курилка </persName>
           </person>
-          <person xml:id="PerviyHor">
+          <person xml:id="PerviyHor" sex="UNKNOWN">
             <persName> 1-й хор </persName>
           </person>
-          <person xml:id="Mizgir">
+          <person xml:id="Mizgir" sex="MALE">
             <persName> Мизгирь </persName>
           </person>
-          <person xml:id="Tsar">
+          <person xml:id="Tsar" sex="MALE">
             <persName> Царь </persName>
           </person>
-          <person xml:id="Vtoraja">
+          <person xml:id="Vtoraja" sex="UNKNOWN">
             <persName> 2-я: </persName>
           </person>
-          <person xml:id="Bobyliha">
+          <person xml:id="Bobyliha" sex="FEMALE">
             <persName> Бобылиха </persName>
           </person>
-          <person xml:id="Odnastorona">
+          <person xml:id="Odnastorona" sex="UNKNOWN">
             <persName> Одна сторона: </persName>
           </person>
-          <person xml:id="Drugajastorona">
+          <person xml:id="Drugajastorona" sex="UNKNOWN">
             <persName> Другая сторона: </persName>
           </person>
-          <person xml:id="Kupava">
+          <person xml:id="Kupava" sex="FEMALE">
             <persName> Купава </persName>
           </person>
-          <person xml:id="Moroz">
+          <person xml:id="Moroz" sex="MALE">
             <persName> Мороз </persName>
           </person>
-          <person xml:id="ChucheloMasljanitsy">
+          <person xml:id="ChucheloMasljanitsy" sex="UNKNOWN">
             <persName> Чучело Масляницы </persName>
           </person>
-          <person xml:id="Narod">
+          <person xml:id="Narod" sex="UNKNOWN">
             <persName> Народ </persName>
           </person>
-          <person xml:id="Murash">
+          <person xml:id="Murash" sex="MALE">
             <persName> Мураш </persName>
           </person>
-          <person xml:id="Malysh">
+          <person xml:id="Malysh" sex="MALE">
             <persName> Малыш </persName>
           </person>
-          <person xml:id="PrekrasnajaElena">
+          <person xml:id="PrekrasnajaElena" sex="FEMALE">
             <persName> Прекрасная Елена </persName>
           </person>
-          <person xml:id="Vesna">
+          <person xml:id="Vesna" sex="FEMALE">
             <persName> Весна </persName>
           </person>
-          <person xml:id="Lel">
+          <person xml:id="Lel" sex="MALE">
             <persName> Лель </persName>
           </person>
-          <person xml:id="VtorojHor">
+          <person xml:id="VtorojHor" sex="UNKNOWN">
             <persName> 2-й хор </persName>
           </person>
-          <person xml:id="Otrok">
+          <person xml:id="Otrok" sex="MALE">
             <persName> Отрок </persName>
           </person>
-          <person xml:id="VtorojBirjuch">
+          <person xml:id="VtorojBirjuch" sex="MALE">
             <persName> 2-й бирюч </persName>
           </person>
-          <person xml:id="Vesna-Krasna">
+          <person xml:id="Vesna-Krasna" sex="FEMALE">
             <persName> Весна-Красна </persName>
           </person>
-          <person xml:id="Vse">
+          <person xml:id="Vse" sex="UNKNOWN">
             <persName> Все </persName>
           </person>
-          <person xml:id="Bobyl">
+          <person xml:id="Bobyl" sex="MALE">
             <persName> Бобыль </persName>
           </person>
-          <person xml:id="Golosaiznaroda">
+          <person xml:id="Golosaiznaroda" sex="UNKNOWN">
             <persName> Голоса из народа </persName>
           </person>
-          <person xml:id="Golosaizlesu">
+          <person xml:id="Golosaizlesu" sex="UNKNOWN">
             <persName> Голоса из лесу </persName>
           </person>
-          <person xml:id="Berendej">
+          <person xml:id="Berendej" sex="MALE">
             <persName> Берендей </persName>
           </person>
-          <person xml:id="Devushkiiparni">
+          <person xml:id="Devushkiiparni" sex="UNKNOWN">
             <persName> Девушки и парни </persName>
           </person>
-          <person xml:id="Bermjata">
+          <person xml:id="Bermjata" sex="MALE">
             <persName> Бермята </persName>
           </person>
-          <person xml:id="Hor">
+          <person xml:id="Hor" sex="UNKNOWN">
             <persName> Хор </persName>
           </person>
-          <person xml:id="Hornaroda">
+          <person xml:id="Hornaroda" sex="UNKNOWN">
             <persName> Хор народа </persName>
           </person>
-          <person xml:id="Obschijhor">
+          <person xml:id="Obschijhor" sex="UNKNOWN">
             <persName> Общий хор </persName>
           </person>
-          <person xml:id="Snegurochka">
+          <person xml:id="Snegurochka" sex="FEMALE">
             <persName> Снегурочка </persName>
           </person>
-          <person xml:id="VtorojSkomoroh">
+          <person xml:id="VtorojSkomoroh" sex="MALE">
             <persName> 2-й скоморох </persName>
           </person>
-          <person xml:id="Brusilo">
+          <person xml:id="Brusilo" sex="MALE">
             <persName> Брусило </persName>
           </person>
-          <person xml:id="Horptits">
+          <person xml:id="Horptits" sex="UNKNOWN">
             <persName> Хор птиц </persName>
           </person>
-          <person xml:id="PerviyHorberendeev">
+          <person xml:id="PerviyHorberendeev" sex="MALE">
             <persName> 1-й хор берендеев </persName>
           </person>
-          <person xml:id="PerviyBirjuch">
+          <person xml:id="PerviyBirjuch" sex="MALE">
             <persName> 1-й бирюч </persName>
           </person>
         </listPerson>
