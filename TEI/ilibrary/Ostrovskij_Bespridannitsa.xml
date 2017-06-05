@@ -42,37 +42,37 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Paratov">
+          <person xml:id="Paratov" sex="MALE">
             <persName> Паратов </persName>
           </person>
-          <person xml:id="Karandyshev">
+          <person xml:id="Karandyshev" sex="MALE">
             <persName> Карандышев </persName>
           </person>
-          <person xml:id="EvfrosinjaPotapovna">
+          <person xml:id="EvfrosinjaPotapovna" sex="FEMALE">
             <persName> Евфросинья Потаповна </persName>
           </person>
-          <person xml:id="Vozhevatov">
+          <person xml:id="Vozhevatov" sex="MALE">
             <persName> Вожеватов </persName>
           </person>
-          <person xml:id="Larisa">
+          <person xml:id="Larisa" sex="FEMALE">
             <persName> Лариса </persName>
           </person>
-          <person xml:id="Ilja">
+          <person xml:id="Ilja" sex="MALE">
             <persName> Илья </persName>
           </person>
-          <person xml:id="Ogudalova">
+          <person xml:id="Ogudalova" sex="FEMALE">
             <persName> Огудалова </persName>
           </person>
-          <person xml:id="Knurov">
+          <person xml:id="Knurov" sex="MALE">
             <persName> Кнуров </persName>
           </person>
-          <person xml:id="Ivan">
+          <person xml:id="Ivan" sex="MALE">
             <persName> Иван </persName>
           </person>
-          <person xml:id="Gavrilo">
+          <person xml:id="Gavrilo" sex="MALE">
             <persName> Гаврило </persName>
           </person>
-          <person xml:id="Robinzon">
+          <person xml:id="Robinzon" sex="MALE">
             <persName> Робинзон </persName>
           </person>
         </listPerson>
