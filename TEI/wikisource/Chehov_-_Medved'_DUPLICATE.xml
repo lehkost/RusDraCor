@@ -39,15 +39,15 @@
     </fileDesc>
 	<profileDesc>
       <particDesc><listPerson>
-<person xml:id="Luka">
+        <person xml:id="Luka" sex="MALE">
 <persName>Лука</persName></person>
-<person xml:id="GrigorijStepanovichSmirnov">
+        <person xml:id="GrigorijStepanovichSmirnov" sex="MALE">
 <persName>Григорий Степанович Смирнов</persName></person>
-<person xml:id="Smirnov">
+        <person xml:id="Smirnov" sex="MALE">
 <persName>Смирнов</persName></person>
-<person xml:id="Popova">
+        <person xml:id="Popova" sex="FEMALE">
 <persName>Попова</persName></person>
-<person xml:id="ElenaIvanovnaPopova">
+        <person xml:id="ElenaIvanovnaPopova" sex="FEMALE">
 <persName>Елена Ивановна Попова</persName></person>
 </listPerson></particDesc>
       <textClass>
