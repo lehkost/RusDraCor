@@ -19,6 +19,49 @@ def write_year(years_data, play_title):
             return row['Year_of_creation']
 
 
+def get_date(file):
+    tei = open(file, 'r', encoding='utf-8').read()
+    try:
+        date_print = int(re.search('<date type="print" when="(.*?)"', tei).group(1))
+    except:
+        try:
+            date_print = int(re.search('<date type="print" .*?notAfter="(.*?)"', tei).group(1))
+        except:
+            date_print = None
+    try:
+        date_premiere = int(re.search('<date type="premiere" when="(.*?)"', tei).group(1))
+    except:
+        try:
+            date_premiere = int(re.search('<date type="premiere" .*?notAfter="(.*?)">', tei).group(1))
+        except:
+            date_premiere = None
+    try:
+        date_written = int(re.search('<date type="written" when="(.*?)"', tei).group(1))
+    except:
+        try:
+            date_written = int(re.search('<date type="written" .*?notAfter="(.*?)">', tei).group(1))
+        except:
+            date_written = None
+
+    # print('date_print', date_print)
+    # print('date_premiere', date_premiere)
+    # print('date_written', date_written)
+
+    if date_print and date_premiere:
+            date_definite = min(date_print, date_premiere)
+    elif date_premiere:
+            date_definite = date_premiere
+    else:
+            date_definite = date_print
+    if date_written and date_definite:
+        if date_definite - date_written > 10:
+                    date_definite = date_written
+        elif date_written and not date_definite:
+                date_definite = date_written
+
+    return date_definite
+
+
 def get_body(file):
     """This function parse the file at initial phase
     and gets its xml body or returns None if the file is invalid"""
@@ -44,7 +87,7 @@ def get_divs(file):
         return None
 
 
-def num_of_scenes(file):
+def num_of_segments(file):
     """This function parses the divs and returns the number of scenes.
     If div contains divs,
     the number of these subdivs are added to the number of scenes,
@@ -66,13 +109,10 @@ def num_of_scenes(file):
     return scenes_num
 
 
-def num_of_char(file):
-    """This function returns the number of characters in the file"""
-    tei = open(file).read()
-    characters = re.findall('<sp who="(.*?)">', tei)
-    print(len(set(characters)))
-    characters = set(characters)
-    return str(len(characters))
+def num_of_acts(file):
+    tei = open(file, 'r', encoding='utf-8').read()
+    num_of_acts = len(re.findall('<div type="act">', tei))
+    return num_of_acts
 
 
 def max_weight(file):
@@ -147,13 +187,22 @@ def parse_graph(file):
     return graph
 
 
-def density(file):
+def graph_metrics(file):
     graph = parse_graph(file)
-    parsed_graph = nx.parse_edgelist(graph, nodetype = str)
+    parsed_graph = nx.parse_edgelist(graph, nodetype=str)
     density = nx.density(parsed_graph)
-    print(nx.number_of_nodes(parsed_graph))
-    return density
-
+    num_of_char = nx.number_of_nodes(parsed_graph)
+    degrees = nx.degree(parsed_graph)
+    if len(set(degrees.values())) != 1:
+        max_degree_chars = [k for k, v in degrees.items() if v == max(degrees.values())]
+        max_degree_chars_str = '|'.join(max_degree_chars)
+    else:
+        max_degree_chars_str = None
+    try:
+        avg_clust_coeff = round(nx.average_clustering(parsed_graph), 2)
+    except:
+        avg_clust_coeff = None
+    return density, num_of_char, max_degree_chars_str, avg_clust_coeff
 
 
 years = open('./years_of_creation.csv')
@@ -162,7 +211,8 @@ years = csv.DictReader(years, delimiter=',')
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play,Year_of_creation,Num_of_scenes,Num_of_char,Max_weight,Max_degree,Density,Genre\n')
+table.write('Play,Year_of_creation,Num_of_segments,Num_of_acts,Max_weight,Max_degree,Density,Num_of_char,'
+            'Chars_with_max_degree,Genre,Average_clust_coef,\n')
 
 
 ilibrary_tei_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
@@ -186,14 +236,17 @@ for file in all_tei:
     file_name = write_filename(file)
     print(file_name)
     data_f.append(file_name)
-    data_f.append(write_year(years, file_name))
-    data_f.append(num_of_scenes(file))
-    data_f.append(num_of_char(file))
+    data_f.append(get_date(file))
+    data_f.append(num_of_segments(file))
+    data_f.append(num_of_acts(file))
     for el in all_csv:
         if file_name in el:
             data_f.append(max_weight(el))
             data_f.append(max_degree(el))
-            data_f.append(round(density(el), 2))
+            data_f.append(round(graph_metrics(el)[0], 2))
+            data_f.append(graph_metrics(el)[1])
+            data_f.append(graph_metrics(el)[2])
+            data_f.append(graph_metrics(el)[3])
     data_f.append(genre(file))
     data.append(data_f)
 

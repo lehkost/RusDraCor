@@ -1,7 +1,7 @@
 Source;Type;Target;Weight
-Smotritel;Undirected;Zinochka;1
-Smotritel;Undirected;Zajtsev;1
-Zajtsev;Undirected;Zinochka;1
-Gusev;Undirected;Zinochka;1
-Gusev;Undirected;Zajtsev;1
 Gusev;Undirected;Smotritel;1
+Smotritel;Undirected;Zajtsev;1
+Gusev;Undirected;Zinochka;1
+Smotritel;Undirected;Zinochka;1
+Zajtsev;Undirected;Zinochka;1
+Gusev;Undirected;Zajtsev;1

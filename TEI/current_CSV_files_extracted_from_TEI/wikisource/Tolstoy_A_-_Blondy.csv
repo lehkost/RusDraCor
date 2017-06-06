@@ -1,4 +1,4 @@
 Source;Type;Target;Weight
 Knjaginja;Undirected;Knjaz;4
-Baron;Undirected;Knjaginja;1
 Baron;Undirected;Knjaz;1
+Baron;Undirected;Knjaginja;1
