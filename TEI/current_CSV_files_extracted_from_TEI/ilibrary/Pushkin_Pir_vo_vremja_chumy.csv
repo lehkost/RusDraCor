@@ -1,1 +1,16 @@
 Source;Type;Target;Weight
+Meri;Undirected;Mnogie;1
+Svjaschennik;Undirected;ZhenskijGolos;1
+Mnogie;Undirected;MolodojChelovek;1
+Meri;Undirected;MolodojChelovek;1
+Predsedatel;Undirected;ZhenskijGolos;1
+Luiza;Undirected;MolodojChelovek;1
+Mnogie;Undirected;Svjaschennik;1
+Luiza;Undirected;Mnogie;1
+Luiza;Undirected;Meri;1
+Luiza;Undirected;Predsedatel;1
+MolodojChelovek;Undirected;Predsedatel;1
+Meri;Undirected;Predsedatel;1
+Mnogie;Undirected;ZhenskijGolos;1
+Mnogie;Undirected;Predsedatel;2
+Predsedatel;Undirected;Svjaschennik;1

@@ -5,9 +5,29 @@ import csv
 import xml.etree.ElementTree as ET
 import networkx as nx
 
-lines = ["a b {'weight':3}", "a d {'weight':3}"]
-G = nx.parse_edgelist(lines, nodetype = str)
-print(nx.density(G))
+
+csv_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
+                      'github desktop/RusDraCor/TEI/current_CSV_files_extracted_from_TEI/ilibrary/Chehov_Medved.csv'
+
+def parse_graph(file):
+    graph = list()
+    table = open(file)
+    table = csv.DictReader(table, delimiter=';')
+    for row in table:
+        line = row['Source'] + ' ' + row['Target'] + ' ' + "{'weight':" + row['Weight'] + "}"
+        graph.append(line)
+    return graph
+
+
+def density(file):
+    graph = parse_graph(file)
+    parsed_graph = nx.parse_edgelist(graph, nodetype = str)
+    density = nx.density(parsed_graph)
+    print(nx.node_connectivity(parsed_graph))
+    return density
+
+
+print(density(csv_path))
 
 def write_filename(file):
     """This function returns the filename without extension
