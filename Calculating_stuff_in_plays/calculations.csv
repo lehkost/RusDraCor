@@ -1,4 +1,4 @@
-Play,Year_of_creation,Num_of_segments,Num_of_acts,Max_weight,Max_degree,Density,Num_of_char,Chars_with_max_degree,Genre,Average_clust_coef,
+Play,Year_of_creation,Num_of_segments,Num_of_acts,Max_weight,Max_degree,Density,Num_of_char,Chars_with_max_degree,Average_clust_coef,Genre,
 Bulgakov_Dni_Turbinyh,1926,7,4,5,19,0.41,29,Kirpatyj|Uragan|Galanba,0.91,other,
 Chehov_Chaika,1896,57,4,11,11,0.88,12,Shamraev|PolinaAndreevna|Medvedenko|Sorin|Arkadina,0.92,comedy,
 Chehov_Djadja_Vanja,1897,4,4,4,9,0.96,10,Marina|Astrov|Sonja|ElenaAndreevna|Telegin|Vojnitskij|Serebrjakov,0.96,other,
