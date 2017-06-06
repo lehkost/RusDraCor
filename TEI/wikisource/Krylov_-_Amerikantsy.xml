@@ -133,6 +133,7 @@
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#FF" when="2017-06-01">deleted brackets in stage directions according to
           original; added English title; correctly formatted epigraph</change>
+        <change who="#GG" when="2017-07-01">changed a lot of ids and added gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
