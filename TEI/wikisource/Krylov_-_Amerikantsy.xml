@@ -47,16 +47,16 @@
           <person xml:id="GusmanTsimara">
             <persName>Гусман, Цимара</persName>
           </person>
-          <person xml:id="Elvira">
+          <person xml:id="Elvira" sex="FEMALE">
             <persName>Ельвира</persName>
           </person>
           <person xml:id="SoretaIFolet">
             <persName>Сорета и Фолет</persName>
           </person>
-          <person xml:id="Tsimara">
+          <person xml:id="Tsimara" sex="FEMALE">
             <persName>Цимара</persName>
           </person>
-          <person xml:id="HorZhenschin">
+          <person xml:id="HorZhenschin" sex="FEMALE">
             <persName>Хор женщин</persName>
           </person>
           <person xml:id="TsimaraSoretaGusmanIFolet">
@@ -115,7 +115,7 @@
           <person xml:id="FoletSoreta">
             <persName>Фолет, Сорета</persName>
           </person>
-          <person xml:id="TsimaraISoreta">
+          <person xml:id="TsimaraISoreta" sex="FEMALE">
             <persName>Цимара и Сорета</persName>
           </person>
           <person xml:id="VseChetvero">
