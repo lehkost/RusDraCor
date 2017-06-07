@@ -106,9 +106,9 @@
   </teiHeader>
   <text>
     <front>
-      <div type="front">
-        <head>Актеон</head>
-      </div>
+      <docTitle>
+        <titlePart type="main">Актеон</titlePart>
+      </docTitle>
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА:</head>
         <castItem>Кадм, царь, строитель Фив.</castItem>
