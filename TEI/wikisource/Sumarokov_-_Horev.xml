@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Хорев</title>
-        <title type="sub">Трагедия</title>
+        <title type="main" xml:lang="ru">Хорев</title>
+        <title type="main" xml:lang="en">Khorev</title>
+        <title type="sub" xml:lang="ru">Трагедия</title>
+        <title type="sub" xml:lang="en">Tragedy</title>
         <author key="Wikidata:Q429915">Александр Петрович Сумароков</author>
       </titleStmt>
       <publicationStmt>

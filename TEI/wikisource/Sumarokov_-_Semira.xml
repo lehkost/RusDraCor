@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Семира</title>
-        <title type="sub">Трагедия</title>
+        <title type="main" xml:lang="ru">Семира</title>
+        <title type="main" xml:lang="en">Semira</title>
+        <title type="sub" xml:lang="ru">Трагедия</title>
+        <title type="sub" xml:lang="en">Tragedy</title>
         <author key="Wikidata:Q429915">Александр Петрович Сумароков</author>
       </titleStmt>
       <publicationStmt>
@@ -30,13 +32,13 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1751">Резолюция Академической комиссии о напечатании—10 ноября
-              1768 г.; расписка Сумарокова в получении отпечатанных экземпляров трагедии — 20
+            <date type="print" when="1768">Резолюция Академической комиссии о напечатании – 10
+              ноября 1768 г.; расписка Сумарокова в получении отпечатанных экземпляров трагедии – 20
               декабря того же года.</date>
-            <date type="premiere" when="1751">Представлена в первый раз в Санктпетербурге на
+            <date type="premiere" when="1751">"Представлена в первый раз в Санктпетербурге на
               Императорском театре в исходе 1751 года (Представлена кадетами на придворном театре 21
-              декабря 1751 года)</date>
-            <date type="written" when="1751">1751</date>
+              декабря 1751 года)" (Wikisource)</date>
+            <date type="written" when="1751">1751 (Wikisource)</date>
           </bibl>
         </bibl>
       </sourceDesc>
