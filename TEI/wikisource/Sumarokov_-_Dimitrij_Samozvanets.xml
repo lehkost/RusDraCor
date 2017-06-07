@@ -73,10 +73,30 @@
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
         <change who="#sveta" when="2017-04-24">added the premiere date, checked IDs</change>
         <change who="#to" when="2017-06-03">gender info</change>
+        <change who="#ff" when="2017-06-07">front matter; copied dramatis personae from wikisource's source</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Димитрий Самозванец</titlePart>
+        <titlePart type="sub">Трагедия</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem>Димитрий Самозванец</castItem>
+        <castItem>Шуйскиий</castItem>
+        <castItem>Георгий, князь Галицкий</castItem>
+        <castItem>Ксения, дочь Шуйского</castItem>
+        <castItem>Пармен, наперсник Димитриев</castItem>
+        <castItem>Начальник стражи</castItem>
+        <castItem>Бояря и прочие</castItem>
+      </castList>
+      <set>
+        <p>Действие в Кремле, в царском доме</p>
+      </set>
+    </front>
     <body>
       <div type="act">
         <head>ДЕЙСТВИЕ I</head>
