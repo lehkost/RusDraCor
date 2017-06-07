@@ -35,13 +35,11 @@
           <bibl type="originalSource">
             <title>А.С. Пушкин. Собрание сочинений в 10 томах. Том 4. Государственное издательство
               художественной литературы. М. 1960.</title>
-
             <date type="print" when="1836">"Пушкин решился опубликовать «Скупого рыцаря» только в
               1836 году, в первой книжке «Современника» за подписью Р. (французский инициал фамилии
               Пушкина)." (Wikipedia)</date>
             <date type="premiere"/>
             <date type="written" when="1830">"1830 г." (ilibrary)</date>
->>>>>>> origin/master
           </bibl>
         </bibl>
       </sourceDesc>
@@ -75,13 +73,10 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-
         <change who="#ds" when="2017-05-23">removed 'unknown speaker'</change>
-
         <change who="#ff" when="2017-06-06">marked-up shared verses with part attribute; added scene
           segmentation and some missing stage directions</change>
         <change who="#gg" when="2017-06-06">gender info</change>
-
       </listChange>
     </revisionDesc>
   </teiHeader>

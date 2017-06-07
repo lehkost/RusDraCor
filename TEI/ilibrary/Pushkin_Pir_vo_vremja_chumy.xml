@@ -56,17 +56,13 @@
           <person xml:id="Luiza" sex="FEMALE">
             <persName>Луиза</persName>
           </person>
-
-          <person xml:id="Zhenskijgolos" sex="FEMALE">
-
+          <person xml:id="ZhenskijGolos" sex="FEMALE">
             <persName>Женский голос</persName>
           </person>
           <person xml:id="Meri" sex="FEMALE">
             <persName>Мери</persName>
           </person>
-
-          <person xml:id="Molodojchelovek" sex="MALE">
-
+          <person xml:id="MolodojChelovek" sex="MALE">
             <persName>Молодой человек</persName>
           </person>
         </listPerson>
@@ -79,13 +75,11 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-
         <change who="#ds" when="2017-05-08">initial upload</change>
         <change who="#zhenya" when="2017-05-25">changed ids, added date</change>
-        <change who="#ff" when="2017-06-05">connected enjambements with part attribute; formatted
-          front page; configuration changes</change>
         <change who="#GG" when="2017-06-03">gender info</change>
-
+        <change who="#ff" when="2017-06-05">connected continued verses with part attribute;
+          formatted front page; configuration changes</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
