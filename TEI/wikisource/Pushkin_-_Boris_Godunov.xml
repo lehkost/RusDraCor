@@ -191,19 +191,19 @@
           <person xml:id="Nemtsy" sex="UNKNOWN">
             <persName>Немцы</persName>
           </person>
-          <person xml:id="Odiniznaroda_1" sex="MALE">
+          <person xml:id="OdinIzNaroda_1" sex="MALE">
             <persName>Один</persName>
           </person>
-          <person xml:id="Drugojiznaroda_1" sex="MALE">
+          <person xml:id="DrugojIzNaroda_1" sex="MALE">
             <persName>Другой</persName>
           </person>
-          <person xml:id="Tretijiznaroda_1" sex="MALE">
+          <person xml:id="TretijIzNaroda_1" sex="MALE">
             <persName>Третий</persName>
           </person>
-          <person xml:id="Pervyjstolnik" sex="MALE">
+          <person xml:id="PervyjStolnik" sex="MALE">
             <persName>Первый</persName>
           </person>
-          <person xml:id="Vtorojstolnik" sex="MALE">
+          <person xml:id="VtorojStolnik" sex="MALE">
             <persName>Второй</persName>
           </person>
           <person xml:id="PervyjKavaler" sex="MALE">
@@ -224,16 +224,16 @@
           <person xml:id="DrugojBojarin" sex="MALE">
             <persName>Другой</persName>
           </person>
-          <person xml:id="Odiniznaroda_2" sex="MALE">
+          <person xml:id="OdinIzNaroda_2" sex="MALE">
             <persName>Один из народа</persName>
           </person>
-          <person xml:id="Drugojiznaroda_2" sex="MALE">
+          <person xml:id="DrugojIzNaroda_2" sex="MALE">
             <persName>Другой</persName>
           </person>
-          <person xml:id="Tretijiznaroda_2" sex="MALE">
+          <person xml:id="TretijIzNaroda_2" sex="MALE">
             <persName>Третий</persName>
           </person>
-          <person xml:id="Chetvertyjiznaroda_2" sex="MALE">
+          <person xml:id="ChetvertyjIzNaroda_2" sex="MALE">
             <persName>Четвертый</persName>
           </person>
           <person xml:id="OdinIzMalchishek" sex="MALE">
@@ -274,20 +274,21 @@
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
         <change who="#to" when="2017-05-31"> added dates</change>
         <change who="#zhenya" when="2017-05-31">changed ID's, added dates</change>
-        <change who="#ff" when="2017-06-01">connected enjambements via part attribute; replaced some false stage directions by emph element</change>
+        <change who="#ff" when="2017-06-01">connected enjambements via part attribute; replaced some
+          false stage directions by emph element</change>
         <change who="#to" when="2017-03-06">added gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
-      <div type="front">
-        <head>Борис Годунов</head>
-        <div type="dedication">
-          <p>Драгоценной для россиян памяти Николая Михайловича Карамзина сей труд, гением его
-            вдохновенный, с благоговением и благодарностию посвящает</p>
-          <p>Александр Пушкин</p>
-        </div>
+      <docTitle>
+        <titlePart type="main">Борис Годунов</titlePart>
+      </docTitle>
+      <div type="dedication">
+        <p>Драгоценной для россиян памяти Николая Михайловича Карамзина сей труд, гением его
+          вдохновенный, с благоговением и благодарностию посвящает</p>
+        <p>Александр Пушкин</p>
       </div>
     </front>
     <body>
@@ -468,19 +469,19 @@
       <div type="scene">
         <head>КРАСНАЯ ПЛОЩАДЬ</head>
         <stage>Народ.</stage>
-        <sp who="#Odiniznaroda_1">
+        <sp who="#OdinIzNaroda_1">
           <speaker>Один</speaker>
           <l>Неумолим! Он от себя прогнал</l>
           <l>Святителей, бояр и патриарха.</l>
           <l>Они пред ним напрасно пали ниц;</l>
           <l>Его страшит сияние престола.</l>
         </sp>
-        <sp who="#Drugojiznaroda_1">
+        <sp who="#DrugojIzNaroda_1">
           <speaker>Другой</speaker>
           <l>О Боже мой, кто будет нами править?</l>
           <l part="I">О горе нам!</l>
         </sp>
-        <sp who="#Tretijiznaroda_1">
+        <sp who="#TretijIzNaroda_1">
           <speaker>Третий</speaker>
           <l part="F"> Да вот верховный дьяк</l>
           <l>Выходит нам сказать решенье Думы.</l>
@@ -886,27 +887,27 @@
       <div type="scene">
         <head>ЦАРСКИЕ ПАЛАТЫ</head>
         <stage>Два стольника. </stage>
-        <sp who="#Pervyjstolnik">
+        <sp who="#PervyjStolnik">
           <speaker>Первый</speaker>
           <l part="I">Где государь?</l>
         </sp>
-        <sp who="#Vtorojstolnik">
+        <sp who="#VtorojStolnik">
           <speaker>Второй</speaker>
           <l part="F"> В своей опочивальне.</l>
           <l>Он заперся с каким-то колдуном.</l>
         </sp>
-        <sp who="#Pervyjstolnik">
+        <sp who="#PervyjStolnik">
           <speaker>Первый</speaker>
           <l>Так, вот его любимая беседа:</l>
           <l>Кудесники, гадатели, колдуньи.</l>
           <l>Всё ворожит, что красная невеста.</l>
           <l>Желал бы знать, о чем гадает он?</l>
         </sp>
-        <sp who="#Vtorojstolnik">
+        <sp who="#VtorojStolnik">
           <speaker>Второй</speaker>
           <l>Вот он идет. Угодно ли спросить?</l>
         </sp>
-        <sp who="#Pervyjstolnik">
+        <sp who="#PervyjStolnik">
           <speaker>Первый</speaker>
           <l part="I">Как он угрюм!</l>
           <stage>Уходят.</stage>
@@ -2758,9 +2759,9 @@
         </sp>
         <sp who="#Marzheret">
           <speaker>Маржерет</speaker>
-          <p>Qu’est-ce à dire <emph>pravoslavni</emph>?.. Sacrés gueux, maudites canailles! Mordieu, mein Herr,
-            j’enrage: on dirait que ça n’a pas des bras pour frapper, ça n’a que des jambes pour
-            fuir.</p>
+          <p>Qu’est-ce à dire <emph>pravoslavni</emph>?.. Sacrés gueux, maudites canailles! Mordieu,
+            mein Herr, j’enrage: on dirait que ça n’a pas des bras pour frapper, ça n’a que des
+            jambes pour fuir.</p>
         </sp>
         <sp who="#VRozen">
           <speaker>В. Розен</speaker>
@@ -2825,39 +2826,39 @@
       <div type="scene">
         <head>ПЛОЩАДЬ ПЕРЕД СОБОРОМ В МОСКВЕ</head>
         <stage>Народ.</stage>
-        <sp who="#Odiniznaroda_2">
+        <sp who="#OdinIzNaroda_2">
           <speaker>Один</speaker>
           <p>Скоро ли царь выйдет из собора?</p>
         </sp>
-        <sp who="#Drugojiznaroda_2">
+        <sp who="#DrugojIzNaroda_2">
           <speaker>Другой</speaker>
           <p>Обедня кончилась; теперь идет молебствие.</p>
         </sp>
-        <sp who="#Odiniznaroda_2">
+        <sp who="#OdinIzNaroda_2">
           <speaker>Первый</speaker>
           <p>Что? уж проклинали того?</p>
         </sp>
-        <sp who="#Drugojiznaroda_2">
+        <sp who="#DrugojIzNaroda_2">
           <speaker>Другой</speaker>
           <p>Я стоял на паперти и слышал, как дьякон завопил: «Гришка Отрепьев — анафема!»</p>
         </sp>
-        <sp who="#Odiniznaroda_2">
+        <sp who="#OdinIzNaroda_2">
           <speaker>Первый</speaker>
           <p>Пускай себе проклинают; царевичу дела нет до Отрепьева.</p>
         </sp>
-        <sp who="#Drugojiznaroda_2">
+        <sp who="#DrugojIzNaroda_2">
           <speaker>Другой</speaker>
           <p>А царевичу поют теперь вечную память.</p>
         </sp>
-        <sp who="#Odiniznaroda_2">
+        <sp who="#OdinIzNaroda_2">
           <speaker>Первый</speaker>
           <p>Вечную память живому! Вот ужо им будет, безбожникам.</p>
         </sp>
-        <sp who="#Tretijiznaroda_2">
+        <sp who="#TretijIzNaroda_2">
           <speaker>Третий</speaker>
           <p>Чу! шум. Не царь ли?</p>
         </sp>
-        <sp who="#Chetvertyjiznaroda_2">
+        <sp who="#ChetvertyjIzNaroda_2">
           <speaker>Четвертый</speaker>
           <p>Нет, это юродивый.</p>
           <stage>Входит Юродивый в железной шапке, обвешенный веригами, окруженный
@@ -3644,19 +3645,19 @@
           <p>Поди, старик, я беднее тебя, ты на воле.</p>
           <stage>Ксения под покрывалом подходит также к окну.</stage>
         </sp>
-        <sp who="#Odiniznaroda_3">
+        <sp who="#OdinIzNaroda_3">
           <speaker>Один из народа</speaker>
           <p>Брат да сестра! бедные дети, что пташки в клетке.</p>
         </sp>
-        <sp who="#Drugojiznaroda_3">
+        <sp who="#DrugojIzNaroda_3">
           <speaker>Другой</speaker>
           <p>Есть о ком жалеть? Проклятое племя!</p>
         </sp>
-        <sp who="#Odiniznaroda_3">
+        <sp who="#OdinIzNaroda_3">
           <speaker>Первый</speaker>
           <p>Отец был злодей, а детки невинны.</p>
         </sp>
-        <sp who="#Drugojiznaroda_3">
+        <sp who="#DrugojIzNaroda_3">
           <speaker>Другой</speaker>
           <p>Яблоко от яблони недалеко падает.</p>
         </sp>
@@ -3678,15 +3679,15 @@
           <p>Расступитесь, расступитесь: бояре идут.</p>
           <stage>Они входят в дом.</stage>
         </sp>
-        <sp who="#Odiniznaroda_3">
+        <sp who="#OdinIzNaroda_3">
           <speaker>Один из народа</speaker>
           <p>Зачем они пришли?</p>
         </sp>
-        <sp who="#Drugojiznaroda_3">
+        <sp who="#DrugojIzNaroda_3">
           <speaker>Другой</speaker>
           <p>А верно, приводить к присяге Феодора Годунова.</p>
         </sp>
-        <sp who="#Tretijiznaroda_3">
+        <sp who="#TretijIzNaroda_3">
           <speaker>Третий</speaker>
           <p>В самом деле? Слышишь, какой в доме шум! Тревога! дерутся!</p>
         </sp>
