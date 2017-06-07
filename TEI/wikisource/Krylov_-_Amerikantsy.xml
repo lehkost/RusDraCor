@@ -44,36 +44,26 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="GusmanTsimara" sex="UNKNOWN">
-            <persName>Гусман, Цимара</persName>
-          </person>
+          
           <person xml:id="Elvira" sex="FEMALE">
             <persName>Ельвира</persName>
           </person>
-          <person xml:id="SoretaIFolet" sex="UNKNOWN">
-            <persName>Сорета и Фолет</persName>
-          </person>
+         
           <person xml:id="Tsimara" sex="FEMALE">
             <persName>Цимара</persName>
           </person>
           <person xml:id="HorZhenschin" sex="FEMALE">
             <persName>Хор женщин</persName>
           </person>
-          <person xml:id="TsimaraSoretaGusmanFolet" sex="UNKNOWN">
-            <persName>Цимара, Сорета, Гусман и Фолет</persName>
-          </person>
+         
 
           <person xml:id="Hor" sex="UNKNOWN">
             <persName>Хор</persName>
           </person>
 
 
-          <person xml:id="ElviraFolet" sex="UNKNOWN">
-            <persName>Ельвира и Фолет</persName>
-          </person>
-          <person xml:id="TsimaraGusman" sex="UNKNOWN">
-            <persName>Цимара и Гусман</persName>
-          </person>
+          
+          
           <person xml:id="Atsem" sex="MALE">
             <persName>Ацем</persName>
           </person>
@@ -84,12 +74,8 @@
           <person xml:id="Gusman" sex="MALE">
             <persName>Дон Гусман</persName>
           </person>
-          <person xml:id="GusmanFoletTsimaraSoreta" sex="UNKNOWN">
-            <persName>Дон Гусман, Фолет, Цимара, Сорета</persName>
-          </person>
-          <person xml:id="GusmanFolet" sex="MALE">
-            <persName>Дон Гусман, Фолет</persName>
-          </person>
+          
+          
           <person xml:id="Ferdinand" sex="MALE">
             <persName>Фердинанд</persName>
           </person>
@@ -101,25 +87,12 @@
           <person xml:id="Soreta" sex="FEMALE">
             <persName>Сорета</persName>
           </person>
-          <person xml:id="FoletSoreta" sex="UNKNOWN">
-            <persName>Фолет, Сорета</persName>
-          </person>
-          <person xml:id="TsimaraSoreta" sex="FEMALE">
-            <persName>Цимара и Сорета</persName>
-          </person>
+          
+          
+          
+          
 
-
-          <person xml:id="ElviraAtsem" sex="UNKNOWN">
-            <persName>Ельвира и Ацем</persName>
-          </person>
-          <person xml:id="GusmanIFoletElvira" sex="UNKNOWN">
-            <persName>Гусман, Фолет и Эльвира</persName>
-          </person>
-
-          <person xml:id="TsimaraGusmanElviraAtsemSoretaIFolet" sex="UNKNOWN">
-            <persName>Цимара, Дон Гусман, Ельвира, Ацем, Сорета, Фолет</persName>
-          </person>
-
+          
         </listPerson>
       </particDesc>
       <textClass>
@@ -230,7 +203,7 @@
           <speaker>Фолет.</speaker>
           <p>Сорета!</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета</speaker>
           <p>
             <stage type="delivery">(в кустах).)</stage> Я вижу Фолета, Гусман ходит с ним.</p>
@@ -239,7 +212,7 @@
           <speaker>Дон Гусман.</speaker>
           <p>Они были сами. Здесь между лесами Еще поглядим.</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета.</speaker>
           <p>Они пришли сами Увидеться с нами. Покажемся им.</p>
         </sp>
@@ -247,7 +220,7 @@
           <speaker>Фолет.</speaker>
           <p>Иль между лесами Знакомства с бесами Искать мы хотим?</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета</speaker>
           <p>
             <stage type="delivery">(выходя из кустов).)</stage> Вот и мы к вам прикатили, Здесь в
@@ -261,7 +234,7 @@
           <speaker>Фолет.</speaker>
           <p>Нечего бояться мне. </p>
         </sp>
-        <sp who="#GusmanFoletTsimaraSoreta">
+        <sp who="#Gusman #Folet #Tsimara #Soreta">
           <speaker>Все.</speaker>
           <p>Сколь несносно расставанье, Столь приятно нам свиданье. Час мне самый дорогой, Если я,
             мой друг, с тобой!</p>
@@ -930,7 +903,7 @@
           <speaker>Фолет.</speaker>
           <p>Ничего не знаю я.</p>
         </sp>
-        <sp who="#SoretaIFolet">
+        <sp who="#Soreta #Folet">
           <speaker>Сорета и Фолет.</speaker>
           <p>Знать, она пошла к Гусману — Я искать ее здесь стану.</p>
         </sp>
@@ -950,7 +923,7 @@
           <speaker>Ацем.</speaker>
           <p>Жизнь твою я окончаю.</p>
         </sp>
-        <sp who="#TsimaraGusman">
+        <sp who="#Tsimara #Gusman">
           <speaker>Цимара и Гусман.</speaker>
           <p>Тише! с нами кто-то есть.</p>
         </sp>
@@ -960,16 +933,16 @@
             <stage type="delivery">(ища друг друга).)</stage> Как досадно, что не видно В темноте
             его ночной. Европеец сей бесстыдный Был бы вмиг растерзан мной!</p>
         </sp>
-        <sp who="#TsimaraSoretaGusmanFolet">
+        <sp who="#Tsimara #Soreta #Gusman #Folet">
           <speaker>Цимара, Сорета, Гусман и Фолет.</speaker>
           <p>Как досадно, что не видно Их нам в темноте ночной; Но, оставя их, бесстыдно Нам без них
             итти домой!</p>
         </sp>
-        <sp who="#FoletSoreta">
+        <sp who="#Folet #Soreta">
           <speaker>Фолет, Сорета.</speaker>
           <p>Подойдите!</p>
         </sp>
-        <sp who="#GusmanTsimara">
+        <sp who="#Gusman #Tsimara">
           <speaker>Гусман, Цимара.</speaker>
           <p>Чего еще вы здесь годите? За нами ходят по следам. Пойдем отсель скорее к нам.</p>
         </sp>
@@ -983,7 +956,7 @@
           <p>Коль вас догнать успею, И вами овладею, Свирепостью моею В один исторгну час Коварный
             дух из вас.</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета.</speaker>
           <p>Сей грозный слыша глас, От страха леденею И силы не имею В ужасный столь нам час.
             Спаси, Гусман, ты нас!</p>
@@ -999,7 +972,7 @@
             <stage type="delivery">(вместе с прежними).)</stage> Ужасный слыша глас, От страха
             леденею И силы не имею! В негодный самый час Поддел сей дьявол нас! </p>
         </sp>
-        <sp who="#GusmanFoletTsimaraSoretaAtsem">
+        <sp who="#Gusman #Folet #Tsimara #Soreta #Atsem">
           <speaker>Все, выключая Ацема.</speaker>
           <p>Но прокрадемся, коль можно, Меж деревьев сих пройдем, И от мести осторожно Без сражения
             уйдем.</p>
@@ -1066,7 +1039,7 @@
           <speaker>Фолет.</speaker>
           <p>Врешь; я в этом спорю.</p>
         </sp>
-        <sp who="#SoretaIFolet">
+        <sp who="#Soreta #Folet">
           <speaker>Вместе.</speaker>
           <p>Перестань же досаждать! Иль за брань твою в награду, Не такую уж досаду От меня должна
             ты ждать.</p>
@@ -1329,7 +1302,7 @@
           <speaker>Фолет.</speaker>
           <p>А ты, Сорета, с душой моей Мною навек одним владей.</p>
         </sp>
-        <sp who="#GusmanFoletTsimaraSoreta">
+        <sp who="#Gusman #Folet #Tsimara #Soreta">
           <speaker>Все.</speaker>
           <p>Друг другом вечно Страстны сердечно, Станем в забавах мы жизнь проводить. В страсти
             награда, В жизни отрада, Будет нам то, чтоб друг друга любить. За театром слышен
@@ -1368,7 +1341,7 @@
           <speaker>Фолет.</speaker>
           <p>Я с места не сойду.</p>
         </sp>
-        <sp who="#GusmanFoletTsimaraSoreta">
+        <sp who="#Gusman #Folet #Tsimara #Soreta">
           <speaker>Все.</speaker>
           <p>Близко шум сюда подходит, В трепет он меня приводит, Скрыться должно нам скорей. Он у
             самых уж дверей. Дон Гусман, затушая свечу, уводит Цимару и Сорету в другие комнаты,
@@ -1413,7 +1386,7 @@
           <speaker>Фолет.</speaker>
           <p>Погиб твой Фолет!</p>
         </sp>
-        <sp who="#SoretaIFolet">
+        <sp who="#Soreta #Folet">
           <speaker>Оба.</speaker>
           <p>Спастися уж боле Надежды нам нет!</p>
         </sp>
@@ -1430,11 +1403,11 @@
           <speaker>Дон Гусман.</speaker>
           <p>Грудь мою лишь то терзает, Что, наруша твой покой, Я беды тебе виной.</p>
         </sp>
-        <sp who="#TsimaraGusman">
+        <sp who="#Tsimara #Gusman">
           <speaker>Вместе.</speaker>
           <p>Должен ли мой дух был страстной От любви ждать сей беды?</p>
         </sp>
-        <sp who="#GusmanFoletTsimaraSoreta">
+        <sp who="#Gusman #Folet #Tsimara #Soreta">
           <speaker>Все четверо.</speaker>
           <p>Нашея любви несчастной Вот плачевные плоды!</p>
         </sp>
@@ -1450,7 +1423,7 @@
           <speaker>Дон Гусман.</speaker>
           <p>Сжалься над своей сестрою!</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета.</speaker>
           <p>Ах, над ним, не надо мною Жалость ты свою яви!</p>
         </sp>
@@ -1468,7 +1441,7 @@
             <stage type="delivery">(сестрам).)</stage> Ваш поступок я омою Дерзновенных сих в
             крови.</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета.</speaker>
           <p>Но прошу тебя напрасно.</p>
         </sp>
@@ -1476,7 +1449,7 @@
           <speaker>Ацем.</speaker>
           <p>Не являйтесь предо мной.</p>
         </sp>
-        <sp who="#GusmanFolet">
+        <sp who="#Gusman #Folet">
           <speaker>Фолет и Гусман.</speaker>
           <p>Отмени сей гнев ужасной.</p>
         </sp>
@@ -1484,15 +1457,15 @@
           <speaker>Ацем.</speaker>
           <p>Нет пощады никакой.</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета.</speaker>
           <p>Ты не брат, мучитель мой.</p>
         </sp>
-        <sp who="#GusmanFolet">
+        <sp who="#Gusman #Folet">
           <speaker>Дон Гусман, Фолет.</speaker>
           <p>Он не брат, мучитель твой.</p>
         </sp>
-        <sp who="#GusmanFoletTsimaraSoreta">
+        <sp who="#Gusman #Folet #Tsimara #Soreta">
           <speaker>Дон Гусман, Фолет, Цимара, Сорета.</speaker>
           <p>Нет надежды нам к спасенью, Нет конца сему гоненью, Долго ль будет нам страдать? Иль,
             по гроб снося мученье, В сей печали и в смущеньи Нам отрады не видать? </p>
@@ -1816,7 +1789,7 @@
           <speaker>Фолет.</speaker>
           <p>Милость к нам яви свою.</p>
         </sp>
-        <sp who="#GusmanIFoletElvira">
+        <sp who="#Gusman #Folet #Elvira">
           <speaker>Все</speaker>
           <p>
             <stage type="delivery">(кроме Ацема).)</stage> Сжалься на мое мученье И спаси ты жизнь
@@ -1828,7 +1801,7 @@
               <stage type="delivery">(Американцам.)</stage> Прочь отселе вы подите, В жертву солнцу
             их не жгите, Мне слова твои священны, Будь спокойна навсегда.</p>
         </sp>
-        <sp who="#ElviraFolet">
+        <sp who="#Elvira #Folet">
           <speaker>Ельвира и Фолет.</speaker>
           <p>Дух и сердце восхищенны, Что прошла сия беда.</p>
         </sp>
@@ -2171,11 +2144,11 @@
           <speaker>Дон Гусман.</speaker>
           <p>Умираю.</p>
         </sp>
-        <sp who="#TsimaraGusman">
+        <sp who="#Tsimara #Gusman">
           <speaker>Вместе.</speaker>
           <p>Взор твой рай мой составляет... и проч.</p>
         </sp>
-        <sp who="#TsimaraGusman">
+        <sp who="#Tsimara #Gusman">
           <speaker>Оба.</speaker>
           <p>Дни счастливые, теките, Как спокойный ручеек. Сердце с сердцем съедините, Как с
             листочком стебелек.</p>
@@ -2196,7 +2169,7 @@
           <speaker>Дон Гусман.</speaker>
           <p>Предан, страстен.</p>
         </sp>
-        <sp who="#TsimaraGusman">
+        <sp who="#Tsimara #Gusman">
           <speaker>Оба.</speaker>
           <p>Дни счастливые, теките... и проч.</p>
         </sp>
@@ -2340,7 +2313,7 @@
           <speaker>Ельвира.</speaker>
           <p>Братец! ты любишь меня и не откажешься сделать счастие Фолета.</p>
         </sp>
-        <sp who="#TsimaraSoreta">
+        <sp who="#Tsimara #Soreta">
           <speaker>Цимара и Сорета.</speaker>
           <p>И для нас!</p>
         </sp>
@@ -2365,7 +2338,7 @@
           <speaker>Цимара.</speaker>
           <p>Когда не будешь здесь ты боле, Мне вся Америка пуста.</p>
         </sp>
-        <sp who="#TsimaraGusman">
+        <sp who="#Tsimara #Gusman">
           <speaker>Оба.</speaker>
           <p>Взаимной страстию пылая, Утехи будут в том для нас, Чтоб счастья ложны оставляя, Друг
             друга видеть всякий час.</p>
@@ -2378,7 +2351,7 @@
           <speaker>Ельвира.</speaker>
           <p>С тобою там, драгой Ацем, В любви мы счастие найдем.</p>
         </sp>
-        <sp who="#ElviraAtsem">
+        <sp who="#Elvira #Atsem">
           <speaker>Оба.</speaker>
           <p>И, не страшась уже разлуки, С тобой в веселье и без скуки В забавах век мы
             проведем.</p>
@@ -2391,7 +2364,7 @@
           <speaker>Сорета.</speaker>
           <p>Ты мне некуплено веселье Собою можешь подавать, Иных не стану я желать.</p>
         </sp>
-        <sp who="#TsimaraGusmanElviraAtsemSoretaIFolet">
+        <sp who="#Tsimara #Gusman #Elvira #Atsem #Soreta #Folet">
           <speaker>Все.</speaker>
           <p>Зря в любви себе награды, Боле бедствий не страшусь, Грусть забыв и все досады, Я
             веселью предаюсь.</p>
@@ -2420,7 +2393,7 @@
           <speaker>Фолет.</speaker>
           <p>Ты верх счастья моего.</p>
         </sp>
-        <sp who="#TsimaraGusmanElviraAtsemSoretaIFolet">
+        <sp who="#Tsimara #Gusman #Elvira #Atsem #Soreta #Folet">
           <speaker>Все.</speaker>
           <p>Жар храня любови верной, Станем счастье мы вкушать, И во радости безмерной Дни веселы
             провождать.</p>
