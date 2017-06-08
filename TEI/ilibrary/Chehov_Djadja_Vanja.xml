@@ -85,12 +85,13 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change who="#ds">converted from source</change>
+        <change who="#ds" when="2017-03-31">converted from source</change>
         <change who="#to">replaced id "#Golosstorozha" with id "#Efim", which is the name of this
           storozh</change>
         <change who="#to #ff">reverted id to "#GolosStorozha"</change>
-        <change who="#zhenya">added dates</change>
-        <change who="#to">gender</change>
+        <change who="#zhenya" when="2017-05-31">added dates</change>
+        <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff" when="2017-06-08">scene segmentation for all four acts</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -120,12 +121,12 @@
     <body>
       <div type="act">
         <head>Действие первое</head>
-        <stage> Сад. Видна часть дома с террасой. На аллее под старым тополем стол, сервированный
-          для чая, скамьи, стулья; на одной из скамей лежит гитара. Недалеко от стола качели. –
-          Третий час дня. Пасмурно. </stage>
-        <stage> Марина (сырая, малоподвижная старушка, сидит у самовара, нижет чулок) и Астров
-          (ходит возле). </stage>
         <div type="configuration">
+          <stage> Сад. Видна часть дома с террасой. На аллее под старым тополем стол, сервированный
+            для чая, скамьи, стулья; на одной из скамей лежит гитара. Недалеко от стола качели. –
+            Третий час дня. Пасмурно. </stage>
+          <stage> Марина (сырая, малоподвижная старушка, сидит у самовара, нижет чулок) и Астров
+            (ходит возле). </stage>
           <sp who="#Marina">
             <speaker> Марина </speaker>
             <stage type="delivery"> (наливает стакан) </stage>
@@ -436,8 +437,7 @@
           <sp who="#Astrov">
             <speaker> Астров </speaker>
             <p> . А я-то сломя голову скакал тридцать верст. Ну, да ничего, не впервой. Зато уж
-              останусь у вас до завтра и, по крайней мере, высплюсь quantum satis </p>
-            <p> . </p>
+              останусь у вас до завтра и, по крайней мере, высплюсь quantum satis. </p>
           </sp>
           <sp who="#Sonja">
             <speaker> Соня </speaker>
@@ -771,7 +771,7 @@
               нравится, она влюблена в него, и я ее понимаю. При мне он был здесь уже три раза, но я
               застенчива и ни разу не поговорила с ним как следует, не обласкала его. Он подумал,
               что я зла. Вероятно, Иван Петрович, оттого мы с вами такие друзья, что оба мы нудные,
-              скучные люди! Нудные! Ile смотрите на меня так, я этого не люблю. </p>
+              скучные люди! Нудные! Не смотрите на меня так, я этого не люблю. </p>
           </sp>
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
@@ -932,6 +932,8 @@
             <speaker> Елена Андреевна </speaker>
             <p> . Погоди, имей терпение: через пять-шесть лет и я буду стара. </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит Соня . </stage>
           <sp who="#Sonja">
             <speaker> Соня </speaker>
@@ -986,13 +988,14 @@
               сделай милость! Я этого не люблю. И мне некогда, мне нужно завтра рано вставать, у
               меня сенокос. </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит Войницкий в халате и со свечой. </stage>
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
             <p> . На дворе гроза собирается. </p>
             <stage> Молния. </stage>
-            <p> Вона как! H&amp;eacutel;&amp;egravene; и Соня, идите спать, я пришел вас сменить.
-            </p>
+            <p> Вона как! Hélène и Соня, идите спать, я пришел вас сменить. </p>
           </sp>
           <sp who="#Serebrjakov">
             <speaker> Серебряков </speaker>
@@ -1026,6 +1029,8 @@
             <speaker> Войницкий </speaker>
             <p> . Это становится даже смешно. </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит Марина со свечой. </stage>
           <sp who="#Sonja">
             <speaker> Соня </speaker>
@@ -1065,6 +1070,8 @@
               мала, глупа... Иди, иди, батюшка... </p>
           </sp>
           <stage> Серебряков , Соня и Марина уходят. </stage>
+        </div>
+        <div type="configuration">
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
             <p> . Я замучилась с ним. Едва на ногах стою. </p>
@@ -1148,7 +1155,7 @@
           </sp>
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
-            <p> . Все-таки на жизнь похоже... Не мешайте мне, H&amp;eacutel;&amp;egravene;! </p>
+            <p> . Все-таки на жизнь похоже... Не мешайте мне, Hélène! </p>
           </sp>
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
@@ -1166,6 +1173,8 @@
             <p> . Оставьте меня. Это, наконец, противно. </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
             <stage type="delivery"> (один) </stage>
@@ -1189,6 +1198,8 @@
               страницы труда, он совершенно неизвестен, он ничто! Мыльный пузырь! И я обманут...
               вижу – глупо обманут... </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит Астров в сюртуке, без жилета и без галстука; он навеселе; за ним Телегин с
             гитарой. </stage>
           <sp who="#Astrov">
@@ -1293,6 +1304,8 @@
             <p> Извините, я без галстука. </p>
             <stage type="delivery"> (Быстро уходит; Телегин идет за ним.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Sonja">
             <speaker> Соня </speaker>
             <p> . А ты, дядя Ваня, опять напился с доктором. Подружились ясные соколы. Ну, тот уж
@@ -1327,6 +1340,8 @@
             <p> . Тяжело, нехорошо... Ничего... После... Ничего... Я уйду... </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Sonja">
             <speaker> Соня </speaker>
             <stage type="delivery"> (стучит в дверь) </stage>
@@ -1509,6 +1524,8 @@
               задержал. </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Sonja">
             <speaker> Соня </speaker>
             <stage type="delivery"> (одна) </stage>
@@ -1524,6 +1541,8 @@
               меня, и одна женщина сказала: «Она добрая, великодушная, но жаль, что она так
               некрасива»... Некрасива... </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит Елена Андреевна . </stage>
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
@@ -1714,6 +1733,8 @@
             <p> . Сейчас. </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> В саду стучит сторож . </stage>
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
@@ -1736,6 +1757,8 @@
             <p> Эй, вы, Жучка, Мальчик! Жучка! </p>
           </sp>
           <stage> Пауза. </stage>
+        </div>
+        <div type="configuration">
           <sp who="#Sonja">
             <speaker> Соня </speaker>
             <stage type="delivery"> (вернувшись) </stage>
@@ -1745,9 +1768,9 @@
       </div>
       <div type="act">
         <head>Действие третье</head>
-        <stage> Гостиная в доме Серебрякова. Три двери: направо, налево и посредине. – День. </stage>
-        <stage> Войницкий , Соня (сидят) и Елена Андреевна (ходит по сцене, о чем-то думая). </stage>
         <div type="configuration">
+          <stage> Гостиная в доме Серебрякова. Три двери: направо, налево и посредине. – День. </stage>
+          <stage> Войницкий , Соня (сидят) и Елена Андреевна (ходит по сцене, о чем-то думая). </stage>
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
             <p> . Герр профессор изволил выразить желание, чтобы сегодня все мы собрались вот в этой
@@ -1843,6 +1866,8 @@
               Осенние розы – прелестные, грустные розы... </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Sonja">
             <speaker> Соня </speaker>
             <p> . Осенние розы – прелестные, грустные розы... </p>
@@ -1947,6 +1972,8 @@
             <p> . Ничего. </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
             <stage type="delivery"> (одна) </stage>
@@ -1969,6 +1996,8 @@
               уже чувствую себя виноватою, готова пасть перед Соней на колени, извиняться,
               плакать... </p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Astrov">
             <speaker> Астров </speaker>
             <stage type="delivery"> (входит с картограммой) </stage>
@@ -2204,6 +2233,8 @@
             <stage type="delivery"> (Целует ее; в это время входит Войницкий с букетом роз и
               останавливается у двери.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
             <stage type="delivery"> (не видя Войницкого) </stage>
@@ -2240,6 +2271,8 @@
             <p> Вот только что: дни коротки стали... </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
             <stage type="delivery"> (быстро подходит к Войницкому) </stage>
@@ -2249,13 +2282,15 @@
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
             <stage type="delivery"> (вытирая лицо) </stage>
-            <p> . А? Ну, да... хорошо... Я, H&amp;eacutel;&amp;egravene;, все видел, все... </p>
+            <p> . А? Ну, да... хорошо... Я, Hélène, все видел, все... </p>
           </sp>
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
             <stage type="delivery"> (нервно) </stage>
             <p> . Слышите? Я должна уехать отсюда сегодня же! </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входят Серебряков , Соня , Телегин и Марина . </stage>
           <sp who="#Telegin">
             <speaker> Телегин </speaker>
@@ -2337,6 +2372,8 @@
             <speaker> Войницкий </speaker>
             <p> . Оставь этот тон. Приступим к делу... Что тебе нужно? </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит Мария Васильевна . </stage>
           <sp who="#Serebrjakov">
             <speaker> Серебряков </speaker>
@@ -2347,10 +2384,10 @@
               совета, и, зная всегдашнюю вашу любезность, надеюсь, что получу их. Человек я ученый,
               книжный и всегда был чужд практической жизни. Обойтись без указаний сведущих людей я
               не могу и прошу тебя, Иван Петрович, вот вас, Илья Ильич, вас, maman... Дело в том,
-              что manet omnes una nox </p>
-            <p> , то есть все мы под богом ходим; я стар, болен и потому нахожу своевременным
-              регулировать свои имущественные отношения постольку, поскольку они касаются моей
-              семьи. Жизнь моя уже кончена, о себе я не думаю, но у меня молодая жена, дочь-девушка. </p>
+              что manet omnes una nox, то есть все мы под богом ходим; я стар, болен и потому нахожу
+              своевременным регулировать свои имущественные отношения постольку, поскольку они
+              касаются моей семьи. Жизнь моя уже кончена, о себе я не думаю, но у меня молодая жена,
+              дочь-девушка. </p>
             <stage> Пауза. </stage>
             <p> Продолжать жить в деревне мне невозможно. Мы для деревни не созданы. Жить же в
               городе на те средства, какие мы получаем от этого имения, невозможно. Если продать,
@@ -2532,6 +2569,8 @@
             <p> . Я не могу... не могу... Я уйду... </p>
             <stage type="delivery"> (В сильном волнении уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Serebrjakov">
             <speaker> Серебряков </speaker>
             <p> . Что ты хочешь от меня? И какое ты имеешь право говорить со мною таким тоном?
@@ -2567,6 +2606,8 @@
             <stage type="delivery"> (Уходит в среднюю дверь.) </stage>
           </sp>
           <stage> Мария Васильевна идет за ним. </stage>
+        </div>
+        <div type="configuration">
           <sp who="#Serebrjakov">
             <speaker> Серебряков </speaker>
             <p> . Господа, что же это такое, наконец? Уберите от меня этого сумасшедшего! Не могу я
@@ -2611,6 +2652,8 @@
             <p> . Будь с ним помягче, успокой его... </p>
             <stage type="delivery"> (Уходит за ним.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Sonja">
             <speaker> Соня </speaker>
             <stage type="delivery"> (прижимаясь к няне) </stage>
@@ -2635,6 +2678,8 @@
             <stage> За сценой выстрел: слышно, как вскрикивает ; Соня вздрагивает. </stage>
             <p> У, чтоб тебя! </p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Serebrjakov">
             <speaker> Серебряков </speaker>
             <stage type="delivery"> (вбегает, пошатываясь от испуга) </stage>
@@ -2648,7 +2693,7 @@
           </sp>
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
-            <p> . Пустите, H&amp;eacutel;&amp;egravene;! Пустите меня! </p>
+            <p> . Пустите, Hélène! Пустите меня! </p>
             <stage type="delivery"> (Освободившись, вбегает и ищет глазами Серебрякова.) </stage>
             <p> Где он? А, вот он! </p>
             <stage type="delivery"> (Стреляет в него) </stage>
@@ -2680,14 +2725,14 @@
       </div>
       <div type="act">
         <head>Действие четвертое</head>
-        <stage> Комната Ивана Петровича; тут его спальня, тут же и контора имения. У окна большой
-          стол с приходо-расходными книгами и бумагами всякого рода, конторка, шкапы, весы. Стол
-          поменьше для Астрова; на этом столе принадлежности для рисования, краски; возле папка.
-          Клетка со скворцом. На стене карта Африки, видимо, никому здесь не нужная. Громадный
-          диван, обитый клеенкой. Налево – дверь, ведущая в покои; направо – дверь в сени; подле
-          правой двери положен половик, чтобы не нагрязнили мужики. – Осенний вечер. Тишина. </stage>
-        <stage> Телегин и Марина сидят друг против друга и мотают чулочную шерсть. </stage>
         <div type="configuration">
+          <stage> Комната Ивана Петровича; тут его спальня, тут же и контора имения. У окна большой
+            стол с приходо-расходными книгами и бумагами всякого рода, конторка, шкапы, весы. Стол
+            поменьше для Астрова; на этом столе принадлежности для рисования, краски; возле папка.
+            Клетка со скворцом. На стене карта Африки, видимо, никому здесь не нужная. Громадный
+            диван, обитый клеенкой. Налево – дверь, ведущая в покои; направо – дверь в сени; подле
+            правой двери положен половик, чтобы не нагрязнили мужики. – Осенний вечер. Тишина. </stage>
+          <stage> Телегин и Марина сидят друг против друга и мотают чулочную шерсть. </stage>
           <sp who="#Telegin">
             <speaker> Телегин </speaker>
             <p> . Вы скорее, Марина Тимофеевна, а то сейчас позовут прощаться. Уже приказали лошадей
@@ -2761,6 +2806,8 @@
             <stage type="delivery"> (с усмешкой) </stage>
             <p> . Грехи! </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входят со двора Войницкий и Астров . </stage>
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
@@ -2778,6 +2825,8 @@
             <p> . Гусак: го-го-го! </p>
             <stage type="delivery"> (Собирает шерсть и уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
             <p> . Оставь меня! </p>
@@ -2928,6 +2977,8 @@
               это я тебе дал... С меня же довольно и того, что мне придется вскрывать тебя... Ты
               думаешь, это интересно? </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит Соня . </stage>
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
@@ -2980,6 +3031,8 @@
             <stage type="delivery"> (кладет баночку в аптеку и затягивает ремни) </stage>
             <p> . Теперь можно и в путь. </p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
             <stage type="delivery"> (входит) </stage>
@@ -2993,6 +3046,8 @@
             <p> Пойдем. Папа и ты должны помириться. Это необходимо. </p>
           </sp>
           <stage> Соня и Войницкий уходят. </stage>
+        </div>
+        <div type="configuration">
           <sp who="#ElenaAndreevna">
             <speaker> Елена Андреевна </speaker>
             <p> . Я уезжаю. </p>
@@ -3103,6 +3158,8 @@
             <speaker> Астров </speaker>
             <p> . Finita! </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входят Серебряков , Войницкий , Мария Васильевна с книгой, Телегин и Соня . </stage>
           <sp who="#Serebrjakov">
             <speaker> Серебряков </speaker>
@@ -3184,6 +3241,8 @@
             <speaker> Астров </speaker>
             <p> . Уехали. Профессор рад, небось. Его теперь сюда и калачом не заманишь. </p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Marina">
             <speaker> Марина </speaker>
             <stage type="delivery"> (входит) </stage>
@@ -3255,6 +3314,8 @@
             <stage type="delivery"> (пишет) </stage>
             <p> . «И старого долга оста лось два семьдесят пять...» </p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage> Входит работник . </stage>
           <sp who="#Rabotnik">
             <speaker> Работник </speaker>
@@ -3271,6 +3332,8 @@
             <p> . Слушаю. </p>
             <stage type="delivery"> (Уходит.) </stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Astrov">
             <speaker> Астров </speaker>
             <p> . Ну-с... </p>
@@ -3306,7 +3369,11 @@
             <stage type="delivery"> (нерешительно) </stage>
             <p> . Пожалуй... </p>
             <stage> уходит. </stage>
-            <stage type="delivery"> (После паузы.) </stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage type="delivery"> (После паузы.) </stage>
+          <sp who="#Astrov">
             <p> Моя пристяжная что-то захромала. Вчера еще заметил, когда Петрушка водил поить. </p>
           </sp>
           <sp who="#Vojnitskij">
@@ -3323,6 +3390,8 @@
             <speaker> Войницкий </speaker>
             <p> . Да, вероятно. </p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Marina">
             <speaker> Марина </speaker>
             <stage type="delivery"> (возвращается с подносом, на котором рюмка водки и кусочек
@@ -3341,6 +3410,8 @@
           </sp>
           <stage> Он уходит; Соня идет за ним со свечой, чтобы проводить его; Марина садится в свое
             кресло. </stage>
+        </div>
+        <div type="configuration">
           <sp who="#Vojnitskij">
             <speaker> Войницкий </speaker>
             <stage type="delivery"> (пишет) </stage>
