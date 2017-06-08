@@ -48,7 +48,7 @@
             <persName>Воротынский</persName>
           </person>
           <person xml:id="Tsar_Boris" sex="MALE">
-            <persName>Царь</persName>
+            <persName>Борис</persName>
           </person>
           <person xml:id="Bojare" sex="MALE">
             <persName>Бояре</persName>
@@ -74,11 +74,11 @@
           <person xml:id="Mamka" sex="FEMALE">
             <persName>Мамка</persName>
           </person>
-          <person xml:id="Ljahi" sex="UNKNOWN">
+          <person xml:id="Ljahi" sex="MALE">
             <persName>Ляхи</persName>
           </person>
           <person xml:id="Pater" sex="MALE">
-            <persName>Pater</persName>
+            <persName>Pater Черниковский</persName>
           </person>
           <person xml:id="Hruschov" sex="MALE">
             <persName>Хрущов</persName>
@@ -87,7 +87,7 @@
             <persName>Второй пристав</persName>
           </person>
           <person xml:id="Pushkin" sex="MALE">
-            <persName>Пушкин</persName>
+            <persName>Афанасий Михайлович Пушкин</persName>
           </person>
           <person xml:id="Mosalskij" sex="MALE">
             <persName>Мосальский</persName>
@@ -143,6 +143,9 @@
           <person xml:id="OdinIzBegletsov" sex="MALE">
             <persName>Один из беглецов</persName>
           </person>
+          <person xml:id="DrugojIzBegletsov" sex="MALE">
+            <persName>Другой</persName>
+          </person>
           <person xml:id="Varlaam" sex="MALE">
             <persName>Варлаам</persName>
           </person>
@@ -156,7 +159,10 @@
             <persName>Мальчишка</persName>
           </person>
           <person xml:id="Ljah" sex="MALE">
-            <persName>Лях</persName>
+            <persName>Лях (Севск)</persName>
+          </person>
+          <person xml:id="Ljah_Les" sex="MALE">
+            <persName>Лях (Лес)</persName>
           </person>
           <person xml:id="Voiny" sex="MALE">
             <persName>Воины</persName>
@@ -188,23 +194,23 @@
           <person xml:id="Marina" sex="FEMALE">
             <persName>Марина</persName>
           </person>
-          <person xml:id="Nemtsy" sex="UNKNOWN">
+          <person xml:id="Nemtsy" sex="MALE">
             <persName>Немцы</persName>
           </person>
           <person xml:id="OdinIzNaroda_1" sex="MALE">
-            <persName>Один</persName>
+            <persName>Один (Красная площадь)</persName>
           </person>
           <person xml:id="DrugojIzNaroda_1" sex="MALE">
-            <persName>Другой</persName>
+            <persName>Другой (Красная площадь)</persName>
           </person>
           <person xml:id="TretijIzNaroda_1" sex="MALE">
-            <persName>Третий</persName>
+            <persName>Третий (Красная площадь)</persName>
           </person>
           <person xml:id="PervyjStolnik" sex="MALE">
-            <persName>Первый</persName>
+            <persName>Первый стольник</persName>
           </person>
           <person xml:id="VtorojStolnik" sex="MALE">
-            <persName>Второй</persName>
+            <persName>Второй стольник</persName>
           </person>
           <person xml:id="PervyjKavaler" sex="MALE">
             <persName>Кавалер</persName>
@@ -225,22 +231,22 @@
             <persName>Другой</persName>
           </person>
           <person xml:id="OdinIzNaroda_2" sex="MALE">
-            <persName>Один из народа</persName>
+            <persName>Один из народа (Площадь перед собором в Москве)</persName>
           </person>
           <person xml:id="DrugojIzNaroda_2" sex="MALE">
-            <persName>Другой</persName>
+            <persName>Другой (Площадь перед собором в Москве)</persName>
           </person>
           <person xml:id="TretijIzNaroda_2" sex="MALE">
-            <persName>Третий</persName>
+            <persName>Третий (Площадь перед собором в Москве)</persName>
           </person>
           <person xml:id="ChetvertyjIzNaroda_2" sex="MALE">
-            <persName>Четвертый</persName>
+            <persName>Четвертый (Площадь перед собором в Москве)</persName>
           </person>
           <person xml:id="OdinIzMalchishek" sex="MALE">
-            <persName>Один из них</persName>
+            <persName>Один из них (Площадь перед собором в Москве)</persName>
           </person>
           <person xml:id="DrugojLjah" sex="MALE">
-            <persName>Другой</persName>
+            <persName>Другой (Севск)</persName>
           </person>
           <person xml:id="OdinPridvornyj" sex="MALE">
             <persName>Один</persName>
@@ -260,6 +266,21 @@
           <person xml:id="ShestojPridvornyj" sex="MALE">
             <persName>Шестой</persName>
           </person>
+          <person xml:id="OdinIzNaroda_3" sex="MALE">
+            <persName>Один из народа (Кремль)</persName>
+          </person>
+          <person xml:id="DrugojIzNaroda_3" sex="MALE">
+            <persName>Другой (Кремль)</persName>
+          </person>
+          <person xml:id="OdinIzNaroda_4" sex="MALE">
+            <persName>Один из народа (Кремль)</persName>
+          </person>
+          <person xml:id="DrugojIzNaroda_4" sex="MALE">
+            <persName>Другой (Кремль)</persName>
+          </person>
+          <person xml:id="TretijIzNaroda_4" sex="MALE">
+            <persName>Третий (Кремль)</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -276,7 +297,8 @@
         <change who="#zhenya" when="2017-05-31">changed ID's, added dates</change>
         <change who="#ff" when="2017-06-01">connected enjambements via part attribute; replaced some
           false stage directions by emph element</change>
-        <change who="#to" when="2017-03-06">added gender info</change>
+        <change who="#to" when="2017-06-03">added gender info</change>
+        <change who="#ff" when="2017-06-09">dissolved some more characters</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -317,7 +339,7 @@
         </sp>
         <sp who="#Vorotynskij">
           <speaker>Воротынский</speaker>
-          <l part="F"> Но месяц уж протек,</l>
+          <l part="F">Но месяц уж протек,</l>
           <l>Как, затворясь в монастыре с сестрою,</l>
           <l>Он, кажется, покинул всё мирское.</l>
           <l>Ни патриарх, ни думные бояре</l>
@@ -337,7 +359,7 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Скажу, что понапрасну</l>
+          <l part="F">Скажу, что понапрасну</l>
           <l>Лилася кровь царевича-младенца;</l>
           <l>Что если так, Димитрий мог бы жить.</l>
         </sp>
@@ -348,7 +370,7 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> А кто же?</l>
+          <l part="F">А кто же?</l>
           <l>Кто подкупал напрасно Чепчугова?</l>
           <l>Кто подослал обоих Битяговских</l>
           <l>С Качаловым? Я в Углич послан был</l>
@@ -378,7 +400,7 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> А что мне было делать?</l>
+          <l part="F">А что мне было делать?</l>
           <l>Всё объявить Феодору? Но царь</l>
           <l>На всё глядел очами Годунова,</l>
           <l>Всему внимал ушами Годунова;</l>
@@ -417,7 +439,7 @@
         </sp>
         <sp who="#Vorotynskij">
           <speaker>Воротынский</speaker>
-          <l part="F"> Ведь Шуйский, Воротынский…</l>
+          <l part="F">Ведь Шуйский, Воротынский…</l>
           <l>Легко сказать, природные князья.</l>
         </sp>
         <sp who="#Shujskij">
@@ -431,16 +453,16 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Да, боле,</l>
+          <l part="F">Да, боле,</l>
           <l part="I">Чем Годунов.</l>
         </sp>
         <sp who="#Vorotynskij">
           <speaker>Воротынский</speaker>
-          <l part="M"> Ведь в самом деле!</l>
+          <l part="M">Ведь в самом деле!</l>
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Что ж?</l>
+          <l part="F">Что ж?</l>
           <l>Когда Борис хитрить не перестанет,</l>
           <l>Давай народ искусно волновать;</l>
           <l>Пускай они оставят Годунова,</l>
@@ -483,7 +505,7 @@
         </sp>
         <sp who="#TretijIzNaroda_1">
           <speaker>Третий</speaker>
-          <l part="F"> Да вот верховный дьяк</l>
+          <l part="F">Да вот верховный дьяк</l>
           <l>Выходит нам сказать решенье Думы.</l>
         </sp>
         <sp who="#Narod">
@@ -494,7 +516,7 @@
         <sp who="#Schelkalov">
           <speaker>Щелкалов</speaker>
           <stage type="delivery">(с Красного крыльца)</stage>
-          <l part="F"> Собором положили</l>
+          <l part="F">Собором положили</l>
           <l>В последний раз отведать силу просьбы</l>
           <l>Над скорбною правителя душой.</l>
           <l>Заутра вновь святейший патриарх,</l>
@@ -557,16 +579,16 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="M"> А что?</l>
+          <l part="M">А что?</l>
         </sp>
         <sp who="#Vorotynskij">
           <speaker>Воротынский</speaker>
-          <l part="F"> Да здесь, намедни,</l>
+          <l part="F">Да здесь, намедни,</l>
           <l part="I">Ты помнишь?</l>
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Нет, не помню ничего.</l>
+          <l part="F">Нет, не помню ничего.</l>
         </sp>
         <sp who="#Vorotynskij">
           <speaker>Воротынский</speaker>
@@ -575,7 +597,7 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Теперь не время помнить,</l>
+          <l part="F">Теперь не время помнить,</l>
           <l>Советую порой и забывать,</l>
           <l>А впрочем, я злословием притворным</l>
           <l>Тогда желал тебя лишь испытать,</l>
@@ -586,7 +608,7 @@
         </sp>
         <sp who="#Vorotynskij">
           <speaker>Воротынский</speaker>
-          <l part="F"> Лукавый царедворец!</l>
+          <l part="F">Лукавый царедворец!</l>
         </sp>
       </div>
       <div type="scene">
@@ -654,12 +676,12 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Григорий</speaker>
-          <l part="F"> Благослови меня,</l>
+          <l part="F">Благослови меня,</l>
           <l part="I">Честный отец.</l>
         </sp>
         <sp who="#Pimen">
           <speaker>Пимен</speaker>
-          <l part="F"> Благослови Господь</l>
+          <l part="F">Благослови Господь</l>
           <l>Тебя и днесь и присно и вовеки.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
@@ -679,7 +701,7 @@
         </sp>
         <sp who="#Pimen">
           <speaker>Пимен</speaker>
-          <l part="F"> Младая кровь играет;</l>
+          <l part="F">Младая кровь играет;</l>
           <l>Смиряй себя молитвой и постом,</l>
           <l>И сны твои видений легких будут</l>
           <l>Исполнены. Доныне — если я,</l>
@@ -778,14 +800,14 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Григорий</speaker>
-          <l part="F"> Давно, честный отец,</l>
+          <l part="F">Давно, честный отец,</l>
           <l>Хотелось мне тебя спросить о смерти</l>
           <l>Димитрия царевича; в то время</l>
           <l part="I">Ты, говорят, был в Угличе.</l>
         </sp>
         <sp who="#Pimen">
           <speaker>Пимен</speaker>
-          <l part="F"> Ох, помню!</l>
+          <l part="F">Ох, помню!</l>
           <l>Привел меня Бог видеть злое дело,</l>
           <l>Кровавый грех. Тогда я в дальний Углич</l>
           <l>На некое был послан послушанье;</l>
@@ -893,7 +915,7 @@
         </sp>
         <sp who="#VtorojStolnik">
           <speaker>Второй</speaker>
-          <l part="F"> В своей опочивальне.</l>
+          <l part="F">В своей опочивальне.</l>
           <l>Он заперся с каким-то колдуном.</l>
         </sp>
         <sp who="#PervyjStolnik">
@@ -915,7 +937,7 @@
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
           <stage type="delivery">(входит)</stage>
-          <l part="F"> Достиг я высшей власти;</l>
+          <l part="F">Достиг я высшей власти;</l>
           <l>Шестой уж год я царствую спокойно,</l>
           <l>Но счастья нет моей душе. Не так ли</l>
           <l>Мы смолоду влюбляемся и алчем</l>
@@ -1349,10 +1371,10 @@
           <speaker>Шуйский</speaker>
           <l part="I">Вина еще.</l>
           <stage>Встает, за ним и все.</stage>
-          <l part="F"> Ну, гости дорогие,</l>
+          <l part="F">Ну, гости дорогие,</l>
           <l>Последний ковш! Читай молитву, мальчик.</l>
         </sp>
-        <sp who="#MalChik">
+        <sp who="#Malchik">
           <speaker>Мальчик</speaker>
           <l>Царю небес, везде и присно сущий,</l>
           <l>Своих рабов молению внемли:</l>
@@ -1405,10 +1427,10 @@
         </sp>
         <sp who="#Pushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Странную племянник пишет новость.</l>
+          <l part="F">Странную племянник пишет новость.</l>
           <l part="I">Сын Грозного… постой.</l>
           <stage>(Идет к дверям и осматривает.)</stage>
-          <l part="F"> Державный отрок,</l>
+          <l part="F">Державный отрок,</l>
           <l>По манию Бориса убиенный…</l>
         </sp>
         <sp who="#Shujskij">
@@ -1417,18 +1439,18 @@
         </sp>
         <sp who="#Pushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Погоди:</l>
+          <l part="F">Погоди:</l>
           <l part="I">Димитрий жив.</l>
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Вот на! какая весть!</l>
+          <l part="F">Вот на! какая весть!</l>
           <l>Царевич жив! Ну подлинно чудесно.</l>
           <l part="I">И только-то?</l>
         </sp>
         <sp who="#Pushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Послушай до конца:</l>
+          <l part="F">Послушай до конца:</l>
           <l>Кто б ни был он, спасенный ли царевич,</l>
           <l>Иль некий дух во образе его,</l>
           <l>Иль смелый плут, бесстыдный самозванец,</l>
@@ -1440,7 +1462,7 @@
         </sp>
         <sp who="#Pushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Его сам Пушкин видел,</l>
+          <l part="F">Его сам Пушкин видел,</l>
           <l>Как приезжал впервой он во дворец</l>
           <l>И сквозь ряды литовских панов прямо</l>
           <l>Шел в тайную палату короля.</l>
@@ -1451,7 +1473,7 @@
         </sp>
         <sp who="#Pushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Не знают,</l>
+          <l part="F">Не знают,</l>
           <l>Известно то, что он слугою был</l>
           <l>У Вишневецкого, что на одре болезни</l>
           <l>Открылся он духовному отцу,</l>
@@ -1519,13 +1541,13 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Прав ты, Пушкин.</l>
+          <l part="F">Прав ты, Пушкин.</l>
           <l>Но знаешь ли? Об этом обо всем</l>
           <l part="I">Мы помолчим до времени.</l>
         </sp>
         <sp who="#Pushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Вестимо,</l>
+          <l part="F">Вестимо,</l>
           <l>Знай про себя. Ты человек разумный;</l>
           <l>Всегда с тобой беседовать я рад,</l>
           <l>И если что меня подчас тревожит,</l>
@@ -1536,7 +1558,7 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Прощай, брат, до свиданья.</l>
+          <l part="F">Прощай, брат, до свиданья.</l>
         </sp>
         <stage>(Провожает Пушкина.)</stage>
       </div>
@@ -1582,12 +1604,12 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> А это что такое</l>
+          <l part="F">А это что такое</l>
           <l part="I">Узором здесь виется?</l>
         </sp>
         <sp who="#Feodor">
           <speaker>Феодор</speaker>
-          <l part="F"> Это Волга.</l>
+          <l part="F">Это Волга.</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
@@ -1612,7 +1634,7 @@
         </sp>
         <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
-          <l part="F"> Нынче</l>
+          <l part="F">Нынче</l>
           <l>Ко мне, чем свет, дворецкий князь-Василья</l>
           <l>И Пушкина слуга пришли с доносом.</l>
         </sp>
@@ -1622,7 +1644,7 @@
         </sp>
         <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
-          <l part="F"> Пушкина слуга донес сперва,</l>
+          <l part="F">Пушкина слуга донес сперва,</l>
           <l>Что поутру вчера к ним в дом приехал</l>
           <l>Из Кракова гонец — и через час</l>
           <l>Без грамоты отослан был обратно.</l>
@@ -1633,7 +1655,7 @@
         </sp>
         <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
-          <l part="F"> Уж послано в догоню.</l>
+          <l part="F">Уж послано в догоню.</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
@@ -1641,7 +1663,7 @@
         </sp>
         <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
-          <l part="F"> Вечор он угощал</l>
+          <l part="F">Вечор он угощал</l>
           <l>Своих друзей, обоих Милославских,</l>
           <l>Бутурлиных, Михайла Салтыкова</l>
           <l>Да Пушкина — да несколько других;</l>
@@ -1655,12 +1677,12 @@
         </sp>
         <sp who="#SemenGodunov">
           <speaker>Семен Годунов</speaker>
-          <l part="F"> Государь!</l>
+          <l part="F">Государь!</l>
           <l part="I">Он здесь уже.</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Позвать его сюда.</l>
+          <l part="F">Позвать его сюда.</l>
           <stage>Годунов уходит.</stage>
         </sp>
         <sp who="#Tsar_Boris">
@@ -1681,7 +1703,7 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Я слушаю тебя.</l>
+          <l part="F">Я слушаю тебя.</l>
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
@@ -1690,7 +1712,7 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Царевич может знать,</l>
+          <l part="F">Царевич может знать,</l>
           <l>Что ведает князь Шуйский. Говори.</l>
         </sp>
         <sp who="#Shujskij">
@@ -1699,7 +1721,7 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Не та ли,</l>
+          <l part="F">Не та ли,</l>
           <l>Что Пушкину привез вечор гонец?</l>
         </sp>
         <sp who="#Shujskij">
@@ -1715,7 +1737,7 @@
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Я знаю только то,</l>
+          <l part="F">Я знаю только то,</l>
           <l>Что в Кракове явился самозванец</l>
           <l>И что король и паны за него.</l>
         </sp>
@@ -1729,7 +1751,7 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Но… чем опасен он?</l>
+          <l part="F">Но… чем опасен он?</l>
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
@@ -1759,18 +1781,18 @@
         </sp>
         <sp who="#Feodor">
           <speaker>Феодор</speaker>
-          <l part="F"> Государь,</l>
+          <l part="F">Государь,</l>
           <l part="I">Дозволишь ли…</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Нельзя, мой сын, поди.</l>
+          <l part="F">Нельзя, мой сын, поди.</l>
           <stage>Феодор уходит.</stage>
           <l part="I">Димитрия!..</l>
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Он ничего не знал.</l>
+          <l part="F">Он ничего не знал.</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
@@ -1787,7 +1809,7 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Постой. Не правда ль, эта весть</l>
+          <l part="F">Постой. Не правда ль, эта весть</l>
           <l>Затейлива? Слыхал ли ты когда,</l>
           <l>Чтоб мертвые из гроба выходили</l>
           <l>Допрашивать царей, царей законных,</l>
@@ -1801,7 +1823,7 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Послушай, князь Василий:</l>
+          <l part="F">Послушай, князь Василий:</l>
           <l>Как я узнал, что отрока сего…</l>
           <l>Что отрок сей лишился как-то жизни,</l>
           <l>Ты послан был на следствие; теперь</l>
@@ -1816,12 +1838,12 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Нет, Шуйский, не клянись,</l>
+          <l part="F">Нет, Шуйский, не клянись,</l>
           <l part="I">Но отвечай: то был царевич?</l>
         </sp>
         <sp who="#Shujskij">
           <speaker>Шуйский</speaker>
-          <l part="F"> Он.</l>
+          <l part="F">Он.</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
@@ -1854,7 +1876,7 @@
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
           <stage type="delivery">(спокойно)</stage>
-          <l part="F"> Довольно, удались.</l>
+          <l part="F">Довольно, удались.</l>
           <stage>Шуйский уходит.</stage>
           <l>Ух, тяжело!.. дай дух переведу —</l>
           <l>Я чувствовал: вся кровь моя в лицо</l>
@@ -1902,7 +1924,7 @@
           <speaker>Самозванец</speaker>
           <l part="I"><stage>Amen</stage>. Кто там?</l>
           <stage>Входит слуга.</stage>
-          <l part="F"> Сказать: мы принимаем.</l>
+          <l part="F">Сказать: мы принимаем.</l>
           <stage>Отворяются двери, входит толпа русских и поляков.</stage>
           <l>Товарищи! мы выступаем завтра</l>
           <l>Из Кракова. Я, Мнишек, у тебя</l>
@@ -1926,17 +1948,17 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Рад вам, дети.</l>
+          <l part="F">Рад вам, дети.</l>
           <l>Ко мне, друзья. Но кто, скажи мне, Пушкин,</l>
           <l part="I">Красавец сей?</l>
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
-          <l part="M"> Князь Курбский.</l>
+          <l part="M">Князь Курбский.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Имя громко!</l>
+          <l part="F">Имя громко!</l>
           <stage>(Курбскому)</stage>
           <l>Ты родственник казанскому герою?</l>
         </sp>
@@ -1946,11 +1968,11 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="M"> Он жив еще?</l>
+          <l part="M">Он жив еще?</l>
         </sp>
         <sp who="#Kurbskij">
           <speaker>Курбский</speaker>
-          <l part="F"> Нет, умер.</l>
+          <l part="F">Нет, умер.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -1962,7 +1984,7 @@
         </sp>
         <sp who="#Kurbskij">
           <speaker>Курбский</speaker>
-          <l part="F"> Мой отец</l>
+          <l part="F">Мой отец</l>
           <l>В Волынии провел остаток жизни,</l>
           <l>В поместиях, дарованных ему</l>
           <l>Баторием. Уединен и тих,</l>
@@ -1986,7 +2008,7 @@
         </sp>
         <sp who="#Poljak">
           <speaker>Поляк</speaker>
-          <l part="F"> Собаньский, шляхтич вольный.</l>
+          <l part="F">Собаньский, шляхтич вольный.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -2014,7 +2036,7 @@
         </sp>
         <sp who="#Karela">
           <speaker>Карела</speaker>
-          <l part="F"> Казак; к тебе я с Дона послан</l>
+          <l part="F">Казак; к тебе я с Дона послан</l>
           <l>От вольных войск, от храбрых атаманов,</l>
           <l>От казаков верховых и низовых</l>
           <l>Узреть твои царевы ясны очи</l>
@@ -2043,7 +2065,7 @@
         <sp who="#Poet">
           <speaker>Поэт</speaker>
           <stage type="delivery">(подает ему бумагу)</stage>
-          <l part="F"> Примите благосклонно</l>
+          <l part="F">Примите благосклонно</l>
           <l>Сей бедный плод усердного труда.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
@@ -2061,7 +2083,7 @@
           <l>Приближься, друг. В мое воспоминанье</l>
           <l part="I">Прими сей дар.</l>
           <stage>(Дает ему перстень.)</stage>
-          <l part="F"> Когда со мной свершится</l>
+          <l part="F">Когда со мной свершится</l>
           <l>Судьбы завет, когда корону предков</l>
           <l>Надену я, надеюсь вновь услышать</l>
           <l>Твой сладкий глас, твой вдохновенный гимн.</l>
@@ -2112,12 +2134,12 @@
         </sp>
         <sp who="#PervajaDama">
           <speaker>Дама</speaker>
-          <l part="F"> Как! она</l>
+          <l part="F">Как! она</l>
           <l part="I">Красавица.</l>
         </sp>
         <sp who="#PervyjKavaler">
           <speaker>Кавалер</speaker>
-          <l part="F"> Да, мраморная нимфа:</l>
+          <l part="F">Да, мраморная нимфа:</l>
           <l>Глаза, уста без жизни, без улыбки…</l>
           <stage>Новая пара.</stage>
         </sp>
@@ -2133,7 +2155,7 @@
         </sp>
         <sp who="#TretijKavaler">
           <speaker>Кавалер</speaker>
-          <l part="F"> Когда велит царевич,</l>
+          <l part="F">Когда велит царевич,</l>
           <l>Готовы мы; но, видно, панна Мнишек</l>
           <l>С Димитрием задержит нас в плену.</l>
         </sp>
@@ -2143,7 +2165,7 @@
         </sp>
         <sp who="#TretijKavaler">
           <speaker>Кавалер</speaker>
-          <l part="F"> Конечно, если вы…</l>
+          <l part="F">Конечно, если вы…</l>
           <stage>Расходятся; комнаты пустеют.</stage>
         </sp>
         <sp who="#Mnishek">
@@ -2166,7 +2188,7 @@
         </sp>
         <sp who="#Vishnevetskij">
           <speaker>Вишневецкий</speaker>
-          <l part="F"> И дело, друг, пойдем.</l>
+          <l part="F">И дело, друг, пойдем.</l>
         </sp>
       </div>
       <div type="scene">
@@ -2199,7 +2221,7 @@
         <sp who="#Marina">
           <speaker>Марина</speaker>
           <stage type="delivery">(входит)</stage>
-          <l part="F"> Царевич!</l>
+          <l part="F">Царевич!</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -2211,7 +2233,7 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Волшебный, сладкий голос!</l>
+          <l part="F">Волшебный, сладкий голос!</l>
           <stage>(Идет к ней.)</stage>
           <l>Ты ль наконец? Тебя ли вижу я,</l>
           <l>Одну со мной, под сенью тихой ночи?</l>
@@ -2274,7 +2296,7 @@
         </sp>
         <sp who="#Marina">
           <speaker>Марина</speaker>
-          <l part="F"> Стыдись! не забывай</l>
+          <l part="F">Стыдись! не забывай</l>
           <l>Высокого, святого назначенья:</l>
           <l>Тебе твой сан дороже должен быть</l>
           <l>Всех радостей, всех обольщений жизни.</l>
@@ -2305,7 +2327,7 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Нет! полно:</l>
+          <l part="F">Нет! полно:</l>
           <l>Я не хочу делиться с мертвецом</l>
           <l>Любовницей, ему принадлежащей;</l>
           <l>Нет, полно мне притворствовать! скажу</l>
@@ -2327,7 +2349,7 @@
         </sp>
         <sp who="#Marina">
           <speaker>Марина</speaker>
-          <l part="F"> О стыд! о горе мне!</l>
+          <l part="F">О стыд! о горе мне!</l>
           <stage>(Молчание.)</stage>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
@@ -2338,7 +2360,7 @@
           <l>Я, может быть, навеки погубил.</l>
           <l part="I">Что сделал я, безумец?</l>
           <stage>(Вслух.)</stage>
-          <l part="F"> Вижу, вижу:</l>
+          <l part="F">Вижу, вижу:</l>
           <l>Стыдишься ты не княжеской любви;</l>
           <l>Так вымолви ж мне роковое слово;</l>
           <l>В твоих руках теперь моя судьба,</l>
@@ -2347,7 +2369,7 @@
         </sp>
         <sp who="#Marina">
           <speaker>Марина</speaker>
-          <l part="F"> Встань, бедный самозванец.</l>
+          <l part="F">Встань, бедный самозванец.</l>
           <l>Не мнишь ли ты коленопреклоненьем,</l>
           <l>Как девочки доверчивой и слабой</l>
           <l>Тщеславное мне сердце умилить?</l>
@@ -2383,7 +2405,7 @@
         </sp>
         <sp who="#Marina">
           <speaker>Марина</speaker>
-          <l part="F"> Чем хвалится, безумец!</l>
+          <l part="F">Чем хвалится, безумец!</l>
           <l>Кто требовал признанья твоего?</l>
           <l>Уж если ты, бродяга безымянный,</l>
           <l>Мог ослепить чудесно два народа,</l>
@@ -2466,7 +2488,7 @@
         </sp>
         <sp who="#Marina">
           <speaker>Марина</speaker>
-          <l part="F"> Постой, царевич. Наконец</l>
+          <l part="F">Постой, царевич. Наконец</l>
           <l>Я слышу речь не мальчика, но мужа.</l>
           <l>С тобою, князь, она меня мирит.</l>
           <l>Безумный твой порыв я забываю</l>
@@ -2548,7 +2570,7 @@
         </sp>
         <sp who="#Kurbskij">
           <speaker>Курбский</speaker>
-          <l part="F"> Вперед! и горе Годунову!</l>
+          <l part="F">Вперед! и горе Годунову!</l>
         </sp>
         <stage>Скачут. Полки переходят через границу.</stage>
       </div>
@@ -2568,7 +2590,7 @@
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="F"> Государь,</l>
+          <l part="F">Государь,</l>
           <l>Трех месяцев отныне не пройдет,</l>
           <l>И замолчит и слух о самозванце;</l>
           <l>Его в Москву мы привезем, как зверя</l>
@@ -2578,13 +2600,13 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Мне свейский государь</l>
+          <l part="F">Мне свейский государь</l>
           <l>Через послов союз свой предложил;</l>
           <l>Но не нужна нам чуждая помога;</l>
           <l>Своих людей у нас довольно ратных,</l>
           <l>Чтоб отразить изменников и ляха.</l>
           <l part="I">Я отказал.</l>
-          <l part="F"> Щелкалов! разослать</l>
+          <l part="F">Щелкалов! разослать</l>
           <l>Во все концы указы к воеводам,</l>
           <l>Чтоб на коня садились и людей</l>
           <l>По старине на службу высылали;</l>
@@ -2615,7 +2637,7 @@
           <l>Ты тихо ждешь, да про́йдет заблужденье;</l>
           <l>Оно пройдет, и солнце правды вечной</l>
           <l part="I">Всех озарит.</l>
-          <l part="F"> Твой верный богомолец,</l>
+          <l part="F">Твой верный богомолец,</l>
           <l>В делах мирских не мудрый судия,</l>
           <l>Дерзает днесь подать тебе свой голос:</l>
           <l>Бесовский сын, расстрига окаянный,</l>
@@ -2864,7 +2886,7 @@
           <stage>Входит Юродивый в железной шапке, обвешенный веригами, окруженный
             мальчишками.</stage>
         </sp>
-        <sp who="#MalChishki">
+        <sp who="#Malchishki">
           <speaker>Мальчишки</speaker>
           <p>Железный колпак! железный колпак!.. тр р р р…</p>
         </sp>
@@ -2949,17 +2971,17 @@
         </sp>
         <sp who="#Ljah">
           <speaker>Лях</speaker>
-          <l part="M"> Здесь.</l>
+          <l part="M">Здесь.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Позвать его ко мне.</l>
+          <l part="F">Позвать его ко мне.</l>
           <stage>Входит русский пленник.</stage>
           <l part="I">Кто ты?</l>
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> Рожнов, московский дворянин.</l>
+          <l part="F">Рожнов, московский дворянин.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -2967,7 +2989,7 @@
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> С месяц будет.</l>
+          <l part="F">С месяц будет.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -2976,7 +2998,7 @@
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> Как быть, не наша воля.</l>
+          <l part="F">Как быть, не наша воля.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -2984,7 +3006,7 @@
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> Я прибыл</l>
+          <l part="F">Я прибыл</l>
           <l>Недели две по битве из Москвы.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
@@ -2993,14 +3015,14 @@
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> Он очень был встревожен</l>
+          <l part="F">Он очень был встревожен</l>
           <l>Потерею сражения и раной</l>
           <l>Мстиславского, и Шуйского послал</l>
           <l part="I">Начальствовать над войском.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> А зачем</l>
+          <l part="F">А зачем</l>
           <l>Он отозвал Басманова в Москву?</l>
         </sp>
         <sp who="#Plennik">
@@ -3011,12 +3033,12 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Он в войске был нужнее.</l>
+          <l part="F">Он в войске был нужнее.</l>
           <l part="I">Ну что в Москве?</l>
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> Всё, слава Богу, тихо.</l>
+          <l part="F">Всё, слава Богу, тихо.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -3024,7 +3046,7 @@
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> Бог знает; о тебе</l>
+          <l part="F">Бог знает; о тебе</l>
           <l>Там говорить не слишком нынче смеют.</l>
           <l>Кому язык отрежут, а кому</l>
           <l>И голову. Такая, право, притча,</l>
@@ -3042,12 +3064,12 @@
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
-          <l part="F"> Что с ним? одето, сыто,</l>
+          <l part="F">Что с ним? одето, сыто,</l>
           <l part="I">Довольно всем.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Да много ли его?</l>
+          <l part="F">Да много ли его?</l>
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
@@ -3055,7 +3077,7 @@
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> А будет тысяч тридцать?</l>
+          <l part="F">А будет тысяч тридцать?</l>
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
@@ -3075,7 +3097,7 @@
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
           <stage type="delivery">(смеясь)</stage>
-          <l part="F"> Так это я на деле</l>
+          <l part="F">Так это я на деле</l>
           <l>Им докажу; друзья, не станем ждать</l>
           <l>Мы Шуйского; я поздравляю вас:</l>
           <l part="I">Назавтра бой.</l>
@@ -3083,7 +3105,7 @@
         </sp>
         <sp who="#Ljahi">
           <speaker>Все</speaker>
-          <l part="F"> Да здравствует Димитрий!</l>
+          <l part="F">Да здравствует Димитрий!</l>
         </sp>
         <sp who="#Ljah">
           <speaker>Лях</speaker>
@@ -3093,7 +3115,7 @@
         </sp>
         <sp who="#DrugojLjah">
           <speaker>Другой</speaker>
-          <l part="F"> Пустое, друг: поляк</l>
+          <l part="F">Пустое, друг: поляк</l>
           <l>Один пятьсот москалей вызвать может.</l>
         </sp>
         <sp who="#Plennik">
@@ -3106,14 +3128,14 @@
           <l>Когда б ты был при сабле, дерзкий пленник,</l>
           <l part="I">То я тебя</l>
           <stage>(указывая на свою саблю)</stage>
-          <l part="F"> вот этим бы смирил.</l>
+          <l part="F">вот этим бы смирил.</l>
         </sp>
         <sp who="#Plennik">
           <speaker>Пленник</speaker>
           <l>Наш брат русак без сабли обойдется:</l>
           <l part="I">Не хочешь ли вот этого,</l>
           <stage>(показывая кулак)</stage>
-          <l part="F"> безмозглый!</l>
+          <l part="F">безмозглый!</l>
         </sp>
         <stage>Лях гордо смотрит на него и молча отходит.</stage>
         <stage>Все смеются.</stage>
@@ -3132,19 +3154,19 @@
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
           <stage type="delivery">(про себя)</stage>
-          <l part="F"> Ну, вот о чем жалеет,</l>
+          <l part="F">Ну, вот о чем жалеет,</l>
           <l>Об лошади! когда всё наше войско</l>
           <l part="I">Побито в прах!</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> Послушай, может быть,</l>
+          <l part="F">Послушай, может быть,</l>
           <l>От раны он лишь только заморился</l>
           <l part="I">И отдохнет.</l>
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Куда! он издыхает.</l>
+          <l part="F">Куда! он издыхает.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -3154,7 +3176,7 @@
           <l part="I">Издохнет он.</l>
           <stage>(Разуздывает и расседлывает коня.)</stage>
           <stage>Входят несколько ляхов.</stage>
-          <l part="F"> Здорово, господа!</l>
+          <l part="F">Здорово, господа!</l>
           <l>Что ж Курбского не вижу между вами?</l>
           <l>Я видел, как сегодня в гущу боя</l>
           <l>Он врезался; тьмы сабель молодца,</l>
@@ -3163,9 +3185,9 @@
           <l>А грозный клик все клики заглушал.</l>
           <l part="I">Где ж витязь мой?</l>
         </sp>
-        <sp who="#Ljah">
+        <sp who="#Ljah_Les">
           <speaker>Лях</speaker>
-          <l part="F"> Он лег на поле смерти.</l>
+          <l part="F">Он лег на поле смерти.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
@@ -3179,13 +3201,13 @@
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Кто там ни виноват,</l>
+          <l part="F">Кто там ни виноват,</l>
           <l>Но все-таки мы начисто разбиты,</l>
           <l part="I">Истреблены.</l>
         </sp>
         <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
           <speaker>Самозванец</speaker>
-          <l part="F"> А дело было наше,</l>
+          <l part="F">А дело было наше,</l>
           <l>Я было смял передовую рать —</l>
           <l>Да немцы нас порядком отразили;</l>
           <l>А молодцы! ей-Богу, молодцы!</l>
@@ -3205,7 +3227,7 @@
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Приятный сон, царевич!</l>
+          <l part="F">Приятный сон, царевич!</l>
           <l>Разбитый в прах, спасаяся побегом,</l>
           <l>Беспечен он, как глупое дитя;</l>
           <l>Хранит его конечно Провиденье;</l>
@@ -3240,13 +3262,13 @@
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> День этот недалек;</l>
+          <l part="F">День этот недалек;</l>
           <l>Лишь дай сперва смятение народа</l>
           <l part="I">Мне усмирить.</l>
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="F"> Что на него смотреть;</l>
+          <l part="F">Что на него смотреть;</l>
           <l>Всегда народ к смятенью тайно склонен:</l>
           <l>Так борзый конь грызет свои бразды;</l>
           <l>На власть отца так отрок негодует;</l>
@@ -3269,7 +3291,7 @@
         </sp>
         <sp who="#Bojarin">
           <speaker>Боярин</speaker>
-          <l part="F"> Привели гостей иноплеменных.</l>
+          <l part="F">Привели гостей иноплеменных.</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
@@ -3280,7 +3302,7 @@
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="F"> Высокий дух державный.</l>
+          <l part="F">Высокий дух державный.</l>
           <l>Дай Бог ему с Отрепьевым проклятым</l>
           <l>Управиться, и много, много он</l>
           <l>Еще добра в России сотворит.</l>
@@ -3300,7 +3322,7 @@
         </sp>
         <sp who="#DrugojPridvornyj">
           <speaker>Другой</speaker>
-          <l part="F"> Скорее к патриарху.</l>
+          <l part="F">Скорее к патриарху.</l>
         </sp>
         <sp who="#TretijPridvornyj">
           <speaker>Третий</speaker>
@@ -3312,7 +3334,7 @@
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="F"> Что сделалось такое?</l>
+          <l part="F">Что сделалось такое?</l>
         </sp>
         <sp who="#PjatyjPridvornyj">
           <speaker>Пятый</speaker>
@@ -3320,11 +3342,11 @@
         </sp>
         <sp who="#ShestojPridvornyj">
           <speaker>Шестой</speaker>
-          <l part="M"> Царь умирает.</l>
+          <l part="M">Царь умирает.</l>
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="F"> Боже!</l>
+          <l part="F">Боже!</l>
         </sp>
         <sp who="#PjatyjPridvornyj">
           <speaker>Пятый</speaker>
@@ -3337,7 +3359,7 @@
           <l>Подите все — оставьте одного</l>
           <l part="I">Царевича со мною.</l>
           <stage>Все удаляются.</stage>
-          <l part="F"> Умираю;</l>
+          <l part="F">Умираю;</l>
           <l>Обнимемся; прощай, мой сын: сейчас</l>
           <l>Ты царствовать начнешь… о Боже, Боже!</l>
           <l>Сейчас явлюсь перед Тобой — и душу</l>
@@ -3414,7 +3436,7 @@
           <l part="I">Я чувствую могильный хлад…</l>
           <stage>Входит патриарх, святители, за ними все бояре. Царицу ведут под руки, царевна
             рыдает.</stage>
-          <l part="F"> Кто там?</l>
+          <l part="F">Кто там?</l>
           <l>А! схима… так! святое постриженье…</l>
           <l>Ударил час! в монахи царь идет…</l>
           <l>И темный гроб моею будет кельей.</l>
@@ -3429,11 +3451,11 @@
         </sp>
         <sp who="#Bojare">
           <speaker>Бояре</speaker>
-          <l part="M"> Клянемся.</l>
+          <l part="M">Клянемся.</l>
         </sp>
         <sp who="#Tsar_Boris">
           <speaker>Царь</speaker>
-          <l part="F"> Я доволен.</l>
+          <l part="F">Я доволен.</l>
           <l>Простите ж мне соблазны и грехи</l>
           <l>И вольные и тайные обиды…</l>
           <l>Святый отец, приближься, я готов.</l>
@@ -3469,13 +3491,13 @@
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="F"> Послушай, Пушкин, полно,</l>
+          <l part="F">Послушай, Пушкин, полно,</l>
           <l>Пустого мне не говори; я знаю,</l>
           <l part="I">Кто он такой.</l>
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Россия и Литва</l>
+          <l part="F">Россия и Литва</l>
           <l>Димитрием давно его признали,</l>
           <l>Но, впрочем, я за это не стою.</l>
           <l>Быть может, он Димитрий настоящий,</l>
@@ -3522,7 +3544,7 @@
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="F"> Узнаете вы завтра.</l>
+          <l part="F">Узнаете вы завтра.</l>
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
@@ -3530,11 +3552,11 @@
         </sp>
         <sp who="#Basmanov">
           <speaker>Басманов</speaker>
-          <l part="M"> Прощай.</l>
+          <l part="M">Прощай.</l>
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Подумай же, Басманов.</l>
+          <l part="F">Подумай же, Басманов.</l>
           <stage>(Уходит.)</stage>
         </sp>
         <sp who="#Basmanov">
@@ -3555,7 +3577,7 @@
           <stage>(Задумывается.)</stage>
           <l part="I">Сюда! кто там?</l>
           <stage>(Свищет.)</stage>
-          <l part="F"> Коня! трубите сбор.</l>
+          <l part="F">Коня! трубите сбор.</l>
         </sp>
       </div>
       <div type="scene">
@@ -3570,7 +3592,7 @@
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
           <stage type="delivery">(на амвоне)</stage>
-          <l part="F"> Московские граждане,</l>
+          <l part="F">Московские граждане,</l>
           <l>Вам кланяться царевич приказал.</l>
           <stage>(Кланяется.)</stage>
           <l>Вы знаете, как промысел небесный</l>
@@ -3591,7 +3613,7 @@
         </sp>
         <sp who="#GavrilaPushkin">
           <speaker>Пушкин</speaker>
-          <l part="F"> Московские граждане,</l>
+          <l part="F">Московские граждане,</l>
           <l>Мир ведает, сколь много вы терпели</l>
           <l>Под властию жестокого пришельца:</l>
           <l>Опалу, казнь, бесчестие, налоги,</l>
@@ -3679,15 +3701,15 @@
           <p>Расступитесь, расступитесь: бояре идут.</p>
           <stage>Они входят в дом.</stage>
         </sp>
-        <sp who="#OdinIzNaroda_3">
+        <sp who="#OdinIzNaroda_4">
           <speaker>Один из народа</speaker>
           <p>Зачем они пришли?</p>
         </sp>
-        <sp who="#DrugojIzNaroda_3">
+        <sp who="#DrugojIzNaroda_4">
           <speaker>Другой</speaker>
           <p>А верно, приводить к присяге Феодора Годунова.</p>
         </sp>
-        <sp who="#TretijIzNaroda_3">
+        <sp who="#TretijIzNaroda_4">
           <speaker>Третий</speaker>
           <p>В самом деле? Слышишь, какой в доме шум! Тревога! дерутся!</p>
         </sp>
@@ -3697,7 +3719,7 @@
             продолжается.</p>
           <stage>Отворяются двери. Мосальский является на крыльце. </stage>
         </sp>
-        <sp who="#MosalSkij">
+        <sp who="#Mosalskij">
           <speaker>Мосальский</speaker>
           <p>Народ! Мария Годунова и сын ее Феодор отравили себя ядом. Мы видели их мертвые
             трупы.</p>
