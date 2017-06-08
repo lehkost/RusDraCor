@@ -2048,6 +2048,8 @@
             <p><stage type="delivery">(читает на медальоне)</stage>. «Дни и ночи», страница 121,
               строки 11 и 12.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Jakov">
             <speaker>Яков</speaker>
             <p><stage type="delivery">(убирая со стола)</stage>. Удочки тоже прикажете уложить?</p>
@@ -2060,6 +2062,8 @@
             <speaker>Яков.</speaker>
             <p>Слушаю.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Trigorin">
             <speaker>Тригорин</speaker>
             <p><stage type="delivery">(про себя)</stage>. Страница 121, строки 11 и 12. Что же в
@@ -2567,6 +2571,8 @@
             <p>А я пойду пешком на станцию... провожать. Я живо... <stage type="delivery"
                 >(Уходит.)</stage></p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Arkadina">
             <speaker>Аркадина.</speaker>
             <p>До свиданья, мои дорогие... Если будем живы и здоровы, летом опять увидимся...</p>
