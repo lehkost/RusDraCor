@@ -21,16 +21,22 @@ library(igraph)
 library(tools)
 library(gridExtra)
 
+
 data = read.csv('calculations.csv', stringsAsFactors=FALSE)
 data = data.frame(data)
 data[data=="empty weights"] <- 0
-data[, 5:6] <- sapply(data[, 5:6], as.numeric)
-data
+nrow(data)
+data <- subset(data, !grepl('DUPLICATE', data$Play))
+data[, 2:7] <- sapply(data[, 2:7], as.numeric)
+head(data)
+nrow(data)
+data[order(-data$Num_of_segments),]
 ```
 
 ## This graph shows how the distribution of number of segments (act/scenes) in plays from 1750 to 1950. 
 ```{r}
-data %>% ggplot(aes(Year_of_creation, Num_of_scenes)) +
+data %>%
+  ggplot(aes(Year_of_creation, Num_of_segments)) +
   geom_point(size=0.2) +geom_text(aes(label=Play),hjust=0, vjust=0, size=1.5) +
   scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   labs(title='Number of scenes/acts in Russian drama',
@@ -39,21 +45,32 @@ data %>% ggplot(aes(Year_of_creation, Num_of_scenes)) +
 
 ## This graph shows how the distribution of number of segments (act/scenes) in plays from 1750 to 1950 for three different genres -- comedy, tragedy and drama. 
 ```{r warning=FALSE, message=FALSE}
-subset(data, Genre=='comedy' | Genre=='tragedy' | Genre=='drama') %>% ggplot(aes(Year_of_creation, Num_of_scenes)) +
+# subset(data, Genre=='comedy' | Genre=='tragedy' | Genre=='drama')
+data %>% ggplot(aes(Year_of_creation, Num_of_segments)) +
   geom_point(aes(color=Genre), size=2) + stat_ellipse(geom = "polygon", alpha=0.1, aes(color=Genre, fill=Genre)) +
   scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   labs(title='Number of scenes/acts in Russian drama depending on genre',
        y='Number of segments', x='Year of creation')
 ```
 
+```{r warning=FALSE, message=FALSE}
+# subset(data, Genre=='comedy' | Genre=='tragedy' | Genre=='drama')
+data %>% ggplot(aes(Year_of_creation, Density)) +
+  geom_point(aes(color=Genre), size=2) + stat_ellipse(geom = "polygon", alpha=0.1, aes(color=Genre, fill=Genre)) +
+  scale_x_continuous(breaks=seq(1700, 1950, 50)) +
+  labs(title='Density in Russian drama depending on genre',
+       y='Density', x='Year of creation')
+```
+
+
 ## This graph shows how the number of characters in plays was changing from 1750 to 1950.
 ```{r}
 BG <- subset(data, Play == "Pushkin_-_Boris_Godunov")
 GT <- subset(data, Play == "Gogol_Teatralnyi_razezd_posle_predstavlenija_novoi_komedii")
 GT1 <- subset(data, Play == "Gogol'_-_Teatral'nyj_raz'ezd_posle_predstavlenija_novoj_komedii")
-SG <- subset(data, Play == "Ostrovskij_Snegurochka")
+SG <- subset(new_data, Play == "Ostrovskij_Snegurochka")
 
-data %>% ggplot(aes(Year_of_creation, Num_of_char)) +
+new_data %>% ggplot(aes(Year_of_creation, Num_of_char)) +
   geom_smooth(method='lm', color='black') +
   geom_point() + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
   geom_text(data=BG, label="Boris Godunov", vjust=1, size=3) +
@@ -70,7 +87,7 @@ However, this graph does not tell us much except the variaty of plays and absolu
 ## This graph shows how the number of characters in plays was changing from 1750 to 1950 for the plays with 4/10/20/30 or more segments.
 ```{r}
 
-char_data_4 <- subset(data, Num_of_scenes >= 4)
+char_data_4 <- subset(data, Num_of_segments >= 4)
 
 char_data_4 <- ggplot(char_data_4, aes(Year_of_creation, Num_of_char, label=Play)) +
   geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
@@ -78,7 +95,7 @@ char_data_4 <- ggplot(char_data_4, aes(Year_of_creation, Num_of_char, label=Play
   labs(title='in plays of 4 and more segments',
        y='Number of characters', x='Year of creation')
 
-char_data_10 <- subset(data, Num_of_scenes >= 10)
+char_data_10 <- subset(data, Num_of_segments >= 10)
 
 char_data_10 <- ggplot(char_data_10, aes(Year_of_creation, Num_of_char, label=Play)) +
   geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
@@ -86,7 +103,7 @@ char_data_10 <- ggplot(char_data_10, aes(Year_of_creation, Num_of_char, label=Pl
   labs(title='in plays of 10 and more segments',
        y='Number of characters', x='Year of creation')
 
-char_data_20 <- subset(data, Num_of_scenes >= 20)
+char_data_20 <- subset(data, Num_of_segments >= 20)
 
 char_data_20 <- ggplot(char_data_20, aes(Year_of_creation, Num_of_char, label=Play)) +
   geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
@@ -94,7 +111,7 @@ char_data_20 <- ggplot(char_data_20, aes(Year_of_creation, Num_of_char, label=Pl
   labs(title='in plays of 20 and more segments',
        y='Number of characters', x='Year of creation')
 
-char_data_30 <- subset(data, Num_of_scenes >= 30)
+char_data_30 <- subset(data, Num_of_segments >= 30)
 
 char_data_30 <- ggplot(char_data_30, aes(Year_of_creation, Num_of_char, label=Play)) +
   geom_point(size=0.2) + scale_x_continuous(breaks=seq(1700, 1950, 50)) +
@@ -170,7 +187,6 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 ## Making network visualization (ggplot) -- basic "easy" graphs
 ```{r warning=FALSE, message=FALSE}
 make_ggplot_graphs <- function(input){
-  
             output <- file_path_sans_ext(basename(file.path(input)))
             print(output)
             play <- read.csv(input, sep = ";")
@@ -179,27 +195,22 @@ make_ggplot_graphs <- function(input){
             {
             play <- play[, c(1, 3, 4)]
             play
-            
             ggplot(data = play, aes(from_id=Source, to_id=Target)) +
               geom_net(layout.alg ="kamadakawai", 
               size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
               directed =FALSE, fontsize = 3, ealpha = 0.5) +
               labs(title=output)
-            
-            print(ggplot(data = play, aes(from_id=Source, to_id=Target)) +
-              geom_net(layout.alg ="kamadakawai", 
-              size = 2, labelon = TRUE, vjust = -0.6, ecolour = "grey60",
-              directed =FALSE, fontsize = 3, ealpha = 0.5) +
-              labs(title=output))
-
+      
             ggsave(paste(output,".png"),
                    path= '../Calculating_stuff_in_plays/network_graphs/ggplot')
             
   } else {print('empty graph')}}
 
-par(mfrow = c(7, 10)) 
-for(file in csv_list_ilibrary) make_ggplot_graphs(file)
-for(file in csv_list_wikisource) make_ggplot_graphs(file)
+par (mfrow=c(1,3))
+for(file in csv_list_test) {make_ggplot_graphs(file)}
+
+#for(file in csv_list_ilibrary) make_ggplot_graphs(file)
+#for(file in csv_list_wikisource) make_ggplot_graphs(file)
 
 ```
 
@@ -278,10 +289,13 @@ dev.off() }
             else {print('empty graph')
 }}
 
-#for(file in csv_list_test) make_igraph_graphs(file)
+#par (mfrow=c(1,3))
+#for(file in csv_list_test) {make_igraph_graphs(file)}
 
-for(file in csv_list_ilibrary) make_igraph_graphs(file)
-for(file in csv_list_wikisource) make_igraph_graphs(file)
+par(mfcol=c(16,4), oma=c(1,1,0,0), mar=c(1,1,1,0), tcl=-0.1, mgp=c(0,0,0))
+for(file in c(csv_list_ilibrary, csv_list_wikisource)) {make_igraph_graphs(file)}
+
+#for(file in csv_list_wikisource) make_igraph_graphs(file)
 
 ```
 
