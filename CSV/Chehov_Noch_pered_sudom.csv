@@ -1,7 +1,5 @@
-Source,Type,Target,Weight
-Зиночка,Undirected,Зайцев,55.0
-Гусев,Undirected,Зайцев,52.0
-Гусев,Undirected,Зиночка,35.0
-Смотритель,Undirected,Зайцев,39.0
-Смотритель,Undirected,Зиночка,22.0
-Смотритель,Undirected,Гусев,19.0
+Source;Target;Weight
+Zajtsev;Zinochka;3
+Gusev;Zinochka;2
+Smotritel;Zajtsev;1
+Gusev;Zajtsev;4

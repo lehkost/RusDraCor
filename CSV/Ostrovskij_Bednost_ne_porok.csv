@@ -1,154 +1,130 @@
-Source,Type,Target,Weight
-Гуслин и Митя,Undirected,Пелагея Егоровна,3.0
-Лиза,Undirected,Пелагея Егоровна,14.0
-Лиза,Undirected,Гуслин и Митя,0.0
-Митя,Undirected,Пелагея Егоровна,95.0
-Митя,Undirected,Гуслин и Митя,0.0
-Митя,Undirected,Лиза,15.0
-1-я гостья,Undirected,Пелагея Егоровна,27.0
-1-я гостья,Undirected,Гуслин и Митя,0.0
-1-я гостья,Undirected,Лиза,8.0
-1-я гостья,Undirected,Митя,10.0
-Вожак,Undirected,Пелагея Егоровна,7.0
-Вожак,Undirected,Гуслин и Митя,0.0
-Вожак,Undirected,Лиза,0.0
-Вожак,Undirected,Митя,6.0
-Вожак,Undirected,1-я гостья,4.0
-Старик,Undirected,Пелагея Егоровна,8.0
-Старик,Undirected,Гуслин и Митя,0.0
-Старик,Undirected,Лиза,0.0
-Старик,Undirected,Митя,7.0
-Старик,Undirected,1-я гостья,5.0
-Старик,Undirected,Вожак,7.0
-Девушки,Undirected,Пелагея Егоровна,18.0
-Девушки,Undirected,Гуслин и Митя,0.0
-Девушки,Undirected,Лиза,4.0
-Девушки,Undirected,Митя,2.0
-Девушки,Undirected,1-я гостья,6.0
-Девушки,Undirected,Вожак,0.0
-Девушки,Undirected,Старик,0.0
-Арина,Undirected,Пелагея Егоровна,41.0
-Арина,Undirected,Гуслин и Митя,0.0
-Арина,Undirected,Лиза,8.0
-Арина,Undirected,Митя,11.0
-Арина,Undirected,1-я гостья,13.0
-Арина,Undirected,Вожак,5.0
-Арина,Undirected,Старик,6.0
-Арина,Undirected,Девушки,9.0
-Разлюляев,Undirected,Пелагея Егоровна,33.0
-Разлюляев,Undirected,Гуслин и Митя,0.0
-Разлюляев,Undirected,Лиза,33.0
-Разлюляев,Undirected,Митя,56.0
-Разлюляев,Undirected,1-я гостья,17.0
-Разлюляев,Undirected,Вожак,7.0
-Разлюляев,Undirected,Старик,8.0
-Разлюляев,Undirected,Девушки,8.0
-Разлюляев,Undirected,Арина,18.0
-Егорушка,Undirected,Пелагея Егоровна,15.0
-Егорушка,Undirected,Гуслин и Митя,0.0
-Егорушка,Undirected,Лиза,4.0
-Егорушка,Undirected,Митя,13.0
-Егорушка,Undirected,1-я гостья,8.0
-Егорушка,Undirected,Вожак,4.0
-Егорушка,Undirected,Старик,5.0
-Егорушка,Undirected,Девушки,2.0
-Егорушка,Undirected,Арина,21.0
-Егорушка,Undirected,Разлюляев,13.0
-Анна Ивановна,Undirected,Пелагея Егоровна,30.0
-Анна Ивановна,Undirected,Гуслин и Митя,0.0
-Анна Ивановна,Undirected,Лиза,34.0
-Анна Ивановна,Undirected,Митя,35.0
-Анна Ивановна,Undirected,1-я гостья,7.0
-Анна Ивановна,Undirected,Вожак,0.0
-Анна Ивановна,Undirected,Старик,0.0
-Анна Ивановна,Undirected,Девушки,3.0
-Анна Ивановна,Undirected,Арина,7.0
-Анна Ивановна,Undirected,Разлюляев,40.0
-Анна Ивановна,Undirected,Егорушка,3.0
-Коршунов,Undirected,Пелагея Егоровна,28.0
-Коршунов,Undirected,Гуслин и Митя,0.0
-Коршунов,Undirected,Лиза,22.0
-Коршунов,Undirected,Митя,3.0
-Коршунов,Undirected,1-я гостья,5.0
-Коршунов,Undirected,Вожак,0.0
-Коршунов,Undirected,Старик,0.0
-Коршунов,Undirected,Девушки,7.0
-Коршунов,Undirected,Арина,6.0
-Коршунов,Undirected,Разлюляев,11.0
-Коршунов,Undirected,Егорушка,12.0
-Коршунов,Undirected,Анна Ивановна,18.0
-Гордей Карпыч,Undirected,Пелагея Егоровна,41.0
-Гордей Карпыч,Undirected,Гуслин и Митя,0.0
-Гордей Карпыч,Undirected,Лиза,6.0
-Гордей Карпыч,Undirected,Митя,29.0
-Гордей Карпыч,Undirected,1-я гостья,8.0
-Гордей Карпыч,Undirected,Вожак,0.0
-Гордей Карпыч,Undirected,Старик,0.0
-Гордей Карпыч,Undirected,Девушки,12.0
-Гордей Карпыч,Undirected,Арина,11.0
-Гордей Карпыч,Undirected,Разлюляев,24.0
-Гордей Карпыч,Undirected,Егорушка,18.0
-Гордей Карпыч,Undirected,Анна Ивановна,15.0
-Гордей Карпыч,Undirected,Коршунов,76.0
-Маша,Undirected,Пелагея Егоровна,12.0
-Маша,Undirected,Гуслин и Митя,0.0
-Маша,Undirected,Лиза,23.0
-Маша,Undirected,Митя,12.0
-Маша,Undirected,1-я гостья,6.0
-Маша,Undirected,Вожак,0.0
-Маша,Undirected,Старик,0.0
-Маша,Undirected,Девушки,2.0
-Маша,Undirected,Арина,6.0
-Маша,Undirected,Разлюляев,30.0
-Маша,Undirected,Егорушка,2.0
-Маша,Undirected,Анна Ивановна,31.0
-Маша,Undirected,Коршунов,22.0
-Маша,Undirected,Гордей Карпыч,6.0
-Гуслин,Undirected,Пелагея Егоровна,26.0
-Гуслин,Undirected,Гуслин и Митя,2.0
-Гуслин,Undirected,Лиза,12.0
-Гуслин,Undirected,Митя,54.0
-Гуслин,Undirected,1-я гостья,8.0
-Гуслин,Undirected,Вожак,4.0
-Гуслин,Undirected,Старик,5.0
-Гуслин,Undirected,Девушки,2.0
-Гуслин,Undirected,Арина,9.0
-Гуслин,Undirected,Разлюляев,43.0
-Гуслин,Undirected,Егорушка,4.0
-Гуслин,Undirected,Анна Ивановна,25.0
-Гуслин,Undirected,Коршунов,0.0
-Гуслин,Undirected,Гордей Карпыч,8.0
-Гуслин,Undirected,Маша,9.0
-Любим Карпыч,Undirected,Пелагея Егоровна,11.0
-Любим Карпыч,Undirected,Гуслин и Митя,0.0
-Любим Карпыч,Undirected,Лиза,7.0
-Любим Карпыч,Undirected,Митя,34.0
-Любим Карпыч,Undirected,1-я гостья,0.0
-Любим Карпыч,Undirected,Вожак,0.0
-Любим Карпыч,Undirected,Старик,0.0
-Любим Карпыч,Undirected,Девушки,0.0
-Любим Карпыч,Undirected,Арина,0.0
-Любим Карпыч,Undirected,Разлюляев,21.0
-Любим Карпыч,Undirected,Егорушка,0.0
-Любим Карпыч,Undirected,Анна Ивановна,6.0
-Любим Карпыч,Undirected,Коршунов,26.0
-Любим Карпыч,Undirected,Гордей Карпыч,27.0
-Любим Карпыч,Undirected,Маша,7.0
-Любим Карпыч,Undirected,Гуслин,7.0
-Любовь Гордеевна,Undirected,Пелагея Егоровна,54.0
-Любовь Гордеевна,Undirected,Гуслин и Митя,0.0
-Любовь Гордеевна,Undirected,Лиза,30.0
-Любовь Гордеевна,Undirected,Митя,81.0
-Любовь Гордеевна,Undirected,1-я гостья,6.0
-Любовь Гордеевна,Undirected,Вожак,0.0
-Любовь Гордеевна,Undirected,Старик,0.0
-Любовь Гордеевна,Undirected,Девушки,10.0
-Любовь Гордеевна,Undirected,Арина,13.0
-Любовь Гордеевна,Undirected,Разлюляев,31.0
-Любовь Гордеевна,Undirected,Егорушка,9.0
-Любовь Гордеевна,Undirected,Анна Ивановна,51.0
-Любовь Гордеевна,Undirected,Коршунов,62.0
-Любовь Гордеевна,Undirected,Гордей Карпыч,58.0
-Любовь Гордеевна,Undirected,Маша,27.0
-Любовь Гордеевна,Undirected,Гуслин,12.0
-Любовь Гордеевна,Undirected,Любим Карпыч,18.0
+Source;Target;Weight
+Devushki;pervajagostja;1
+Mitja;Vozhak;1
+GordejKarpych;Liza;2
+LjubovGordeevna;PelagejaEgorovna;6
+AnnaIvanovna;vtorajagostja;1
+Arina;vtorajagostja;1
+LjubimKarpych;Mitja;2
+Razljuljaev;vtorajagostja;1
+Korshunov;Liza;3
+Arina;GordejKarpych;1
+Korshunov;PelagejaEgorovna;3
+Devushki;LjubovGordeevna;2
+Korshunov;LjubimKarpych;3
+Egorushka;pervajagostja;2
+Arina;Liza;1
+Guslin;Mitja;7
+Devushki;Mitja;1
+Razljuljaev;pervajagostja;2
+Mitja;Starik;1
+Guslin;Liza;2
+Guslin;Masha;2
+GordejKarpych;PelagejaEgorovna;4
+Arina;PelagejaEgorovna;5
+GordejKarpych;Guslin;1
+AnnaIvanovna;Devushki;1
+GordejKarpych;Masha;2
+PelagejaEgorovna;pervajagostja;3
+Arina;Vozhak;1
+Egorushka;Masha;1
+Korshunov;pervajagostja;1
+Vozhak;pervajagostja;1
+Egorushka;Liza;1
+AnnaIvanovna;Arina;1
+Arina;Korshunov;1
+Egorushka;PelagejaEgorovna;2
+Egorushka;Razljuljaev;2
+Devushki;PelagejaEgorovna;2
+Masha;pervajagostja;1
+Devushki;Korshunov;1
+LjubovGordeevna;Mitja;6
+Egorushka;Guslin;2
+AnnaIvanovna;Razljuljaev;3
+GordejKarpych;LjubimKarpych;3
+GordejKarpych;vtorajagostja;1
+Egorushka;Mitja;3
+Liza;Razljuljaev;4
+AnnaIvanovna;PelagejaEgorovna;4
+Razljuljaev;Vozhak;1
+Egorushka;Vozhak;1
+Korshunov;Razljuljaev;2
+Devushki;Liza;1
+LjubimKarpych;PelagejaEgorovna;1
+PelagejaEgorovna;Starik;1
+PelagejaEgorovna;Vozhak;1
+Razljuljaev;Starik;1
+Devushki;Razljuljaev;1
+Egorushka;vtorajagostja;1
+GordejKarpych;Mitja;4
+Guslin;Starik;1
+pervajagostja;vtorajagostja;2
+LjubovGordeevna;Razljuljaev;5
+AnnaIvanovna;Guslin;3
+Egorushka;Korshunov;1
+PelagejaEgorovna;Razljuljaev;4
+Devushki;GordejKarpych;1
+Egorushka;GordejKarpych;1
+Masha;Razljuljaev;4
+Liza;Masha;6
+GordejKarpych;pervajagostja;1
+Guslin;LjubimKarpych;1
+AnnaIvanovna;Korshunov;2
+Arina;Starik;1
+Masha;PelagejaEgorovna;2
+Devushki;Egorushka;1
+LjubovGordeevna;pervajagostja;1
+Arina;Egorushka;3
+AnnaIvanovna;LjubimKarpych;1
+LjubovGordeevna;Masha;5
+Starik;Vozhak;1
+Liza;PelagejaEgorovna;2
+Arina;Guslin;2
+Mitja;Razljuljaev;7
+Devushki;Masha;1
+LjubovGordeevna;vtorajagostja;1
+Mitja;pervajagostja;2
+AnnaIvanovna;Liza;4
+Guslin;PelagejaEgorovna;4
+Mitja;vtorajagostja;1
+Liza;LjubovGordeevna;5
+Guslin;pervajagostja;2
+GordejKarpych;LjubovGordeevna;6
+GordejKarpych;Razljuljaev;3
+Devushki;vtorajagostja;1
+AnnaIvanovna;Mitja;4
+Liza;Mitja;2
+Egorushka;Starik;1
+LjubimKarpych;Razljuljaev;3
+Korshunov;Masha;3
+Arina;pervajagostja;2
+Korshunov;Mitja;1
+Guslin;Razljuljaev;5
+Masha;vtorajagostja;1
+PelagejaEgorovna;vtorajagostja;2
+Arina;Razljuljaev;2
+AnnaIvanovna;Masha;4
+Starik;pervajagostja;1
+Liza;vtorajagostja;1
+GordejKarpych;Korshunov;8
+AnnaIvanovna;LjubovGordeevna;6
+Arina;LjubovGordeevna;2
+Guslin;Vozhak;1
+Liza;pervajagostja;1
+Mitja;PelagejaEgorovna;9
+Arina;Mitja;2
+Arina;Masha;1
+Korshunov;vtorajagostja;1
+Masha;Mitja;2
+Arina;Devushki;2
+AnnaIvanovna;pervajagostja;1
+Korshunov;LjubovGordeevna;6
+Devushki;Guslin;1
+LjubimKarpych;Masha;1
+Guslin;LjubovGordeevna;3
+LjubimKarpych;LjubovGordeevna;3
+Guslin;vtorajagostja;1
+AnnaIvanovna;GordejKarpych;3
+Liza;LjubimKarpych;1
+Egorushka;LjubovGordeevna;2
+AnnaIvanovna;Egorushka;1

@@ -1,46 +1,31 @@
-Source,Type,Target,Weight
-Соня,Undirected,Работник,93.0
-Мария Васильевна,Undirected,Работник,16.0
-Мария Васильевна,Undirected,Соня,101.0
-Астров,Undirected,Работник,111.0
-Астров,Undirected,Соня,196.0
-Астров,Undirected,Мария Васильевна,119.0
-Телегин,Undirected,Работник,27.0
-Телегин,Undirected,Соня,112.0
-Телегин,Undirected,Мария Васильевна,35.0
-Телегин,Undirected,Астров,130.0
-Елена Андреевна,Undirected,Работник,115.0
-Елена Андреевна,Undirected,Соня,200.0
-Елена Андреевна,Undirected,Мария Васильевна,123.0
-Елена Андреевна,Undirected,Астров,218.0
-Елена Андреевна,Undirected,Телегин,134.0
-Голос сторожа,Undirected,Работник,6.0
-Голос сторожа,Undirected,Соня,91.0
-Голос сторожа,Undirected,Мария Васильевна,14.0
-Голос сторожа,Undirected,Астров,109.0
-Голос сторожа,Undirected,Телегин,25.0
-Голос сторожа,Undirected,Елена Андреевна,113.0
-Марина,Undirected,Работник,36.0
-Марина,Undirected,Соня,121.0
-Марина,Undirected,Мария Васильевна,44.0
-Марина,Undirected,Астров,139.0
-Марина,Undirected,Телегин,55.0
-Марина,Undirected,Елена Андреевна,143.0
-Марина,Undirected,Голос сторожа,34.0
-Серебряков,Undirected,Работник,53.0
-Серебряков,Undirected,Соня,138.0
-Серебряков,Undirected,Мария Васильевна,61.0
-Серебряков,Undirected,Астров,156.0
-Серебряков,Undirected,Телегин,72.0
-Серебряков,Undirected,Елена Андреевна,160.0
-Серебряков,Undirected,Голос сторожа,51.0
-Серебряков,Undirected,Марина,81.0
-Войницкий,Undirected,Работник,111.0
-Войницкий,Undirected,Соня,196.0
-Войницкий,Undirected,Мария Васильевна,119.0
-Войницкий,Undirected,Астров,214.0
-Войницкий,Undirected,Телегин,130.0
-Войницкий,Undirected,Елена Андреевна,218.0
-Войницкий,Undirected,Голос сторожа,109.0
-Войницкий,Undirected,Марина,139.0
-Войницкий,Undirected,Серебряков,156.0
+Source;Target;Weight
+Marina;Telegin;2
+ElenaAndreevna;GolosStorozha;1
+Serebrjakov;Sonja;8
+Astrov;Rabotnik;2
+Astrov;Serebrjakov;1
+Astrov;Telegin;4
+Marina;Sonja;6
+Astrov;MarijaVasilevna;3
+Serebrjakov;Vojnitskij;7
+Astrov;Vojnitskij;11
+ElenaAndreevna;Telegin;4
+Astrov;ElenaAndreevna;6
+Rabotnik;Sonja;1
+Telegin;Vojnitskij;8
+MarijaVasilevna;Serebrjakov;3
+Astrov;Sonja;7
+ElenaAndreevna;MarijaVasilevna;4
+MarijaVasilevna;Sonja;3
+Marina;Serebrjakov;1
+Marina;Vojnitskij;4
+Sonja;Vojnitskij;12
+Sonja;Telegin;3
+ElenaAndreevna;Serebrjakov;8
+ElenaAndreevna;Vojnitskij;12
+MarijaVasilevna;Vojnitskij;5
+Serebrjakov;Telegin;4
+ElenaAndreevna;Sonja;11
+Astrov;Marina;5
+MarijaVasilevna;Telegin;3
+MarijaVasilevna;Marina;1

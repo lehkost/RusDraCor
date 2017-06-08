@@ -1,79 +1,53 @@
-Source,Type,Target,Weight
-Голос Аркадиной,Undirected,Нина,79.0
-Треплев,Undirected,Нина,171.0
-Треплев,Undirected,Голос Аркадиной,94.0
-Повар,Undirected,Нина,79.0
-Повар,Undirected,Голос Аркадиной,2.0
-Повар,Undirected,Треплев,94.0
-Тригорин,Undirected,Нина,140.0
-Тригорин,Undirected,Голос Аркадиной,63.0
-Тригорин,Undirected,Треплев,155.0
-Тригорин,Undirected,Повар,63.0
-Сорин,Undirected,Нина,137.0
-Сорин,Undirected,Голос Аркадиной,60.0
-Сорин,Undirected,Треплев,152.0
-Сорин,Undirected,Повар,60.0
-Сорин,Undirected,Тригорин,121.0
-Дорн,Undirected,Нина,151.0
-Дорн,Undirected,Голос Аркадиной,74.0
-Дорн,Undirected,Треплев,166.0
-Дорн,Undirected,Повар,74.0
-Дорн,Undirected,Тригорин,135.0
-Дорн,Undirected,Сорин,132.0
-Аркадина,Undirected,Нина,188.0
-Аркадина,Undirected,Голос Аркадиной,111.0
-Аркадина,Undirected,Треплев,203.0
-Аркадина,Undirected,Повар,111.0
-Аркадина,Undirected,Тригорин,172.0
-Аркадина,Undirected,Сорин,169.0
-Аркадина,Undirected,Дорн,183.0
-Полина Андреевна,Undirected,Нина,109.0
-Полина Андреевна,Undirected,Голос Аркадиной,32.0
-Полина Андреевна,Undirected,Треплев,124.0
-Полина Андреевна,Undirected,Повар,32.0
-Полина Андреевна,Undirected,Тригорин,93.0
-Полина Андреевна,Undirected,Сорин,90.0
-Полина Андреевна,Undirected,Дорн,104.0
-Полина Андреевна,Undirected,Аркадина,141.0
-Маша,Undirected,Нина,136.0
-Маша,Undirected,Голос Аркадиной,59.0
-Маша,Undirected,Треплев,151.0
-Маша,Undirected,Повар,59.0
-Маша,Undirected,Тригорин,120.0
-Маша,Undirected,Сорин,117.0
-Маша,Undirected,Дорн,131.0
-Маша,Undirected,Аркадина,168.0
-Маша,Undirected,Полина Андреевна,89.0
-Яков,Undirected,Нина,85.0
-Яков,Undirected,Голос Аркадиной,8.0
-Яков,Undirected,Треплев,100.0
-Яков,Undirected,Повар,8.0
-Яков,Undirected,Тригорин,69.0
-Яков,Undirected,Сорин,66.0
-Яков,Undirected,Дорн,80.0
-Яков,Undirected,Аркадина,117.0
-Яков,Undirected,Полина Андреевна,38.0
-Яков,Undirected,Маша,65.0
-Медведенко,Undirected,Нина,107.0
-Медведенко,Undirected,Голос Аркадиной,30.0
-Медведенко,Undirected,Треплев,122.0
-Медведенко,Undirected,Повар,30.0
-Медведенко,Undirected,Тригорин,91.0
-Медведенко,Undirected,Сорин,88.0
-Медведенко,Undirected,Дорн,102.0
-Медведенко,Undirected,Аркадина,139.0
-Медведенко,Undirected,Полина Андреевна,60.0
-Медведенко,Undirected,Маша,87.0
-Медведенко,Undirected,Яков,36.0
-Шамраев,Undirected,Нина,102.0
-Шамраев,Undirected,Голос Аркадиной,25.0
-Шамраев,Undirected,Треплев,117.0
-Шамраев,Undirected,Повар,25.0
-Шамраев,Undirected,Тригорин,86.0
-Шамраев,Undirected,Сорин,83.0
-Шамраев,Undirected,Дорн,97.0
-Шамраев,Undirected,Аркадина,134.0
-Шамраев,Undirected,Полина Андреевна,55.0
-Шамраев,Undirected,Маша,82.0
-Шамраев,Undirected,Яков,31.0
-Шамраев,Undirected,Медведенко,53.0
+Source;Target;Weight
+Medvedenko;Treplev;4
+Arkadina;Povar;1
+Nina;Treplev;6
+Dorn;PolinaAndreevna;8
+Arkadina;Trigorin;10
+Dorn;Trigorin;4
+Medvedenko;Trigorin;2
+Jakov;Povar;1
+Povar;Shamraev;1
+PolinaAndreevna;Trigorin;4
+Masha;Nina;1
+Shamraev;Sorin;3
+Masha;Medvedenko;8
+Arkadina;Dorn;9
+Jakov;Shamraev;1
+Nina;Trigorin;5
+Masha;Treplev;4
+Nina;Shamraev;1
+Shamraev;Treplev;3
+Medvedenko;PolinaAndreevna;5
+PolinaAndreevna;Treplev;4
+Arkadina;Nina;5
+Arkadina;Treplev;7
+Jakov;Trigorin;1
+Arkadina;Shamraev;11
+PolinaAndreevna;Shamraev;4
+Masha;Sorin;4
+Masha;Shamraev;3
+Masha;Trigorin;5
+Dorn;Medvedenko;5
+Arkadina;PolinaAndreevna;7
+PolinaAndreevna;Sorin;5
+Masha;PolinaAndreevna;7
+Nina;PolinaAndreevna;3
+Medvedenko;Sorin;7
+Arkadina;Medvedenko;6
+Arkadina;Sorin;10
+Treplev;Trigorin;2
+Sorin;Treplev;6
+Nina;Sorin;5
+Dorn;Masha;8
+Medvedenko;Shamraev;2
+Arkadina;Masha;6
+Dorn;Sorin;7
+Shamraev;Trigorin;6
+Medvedenko;Nina;1
+Dorn;Treplev;3
+Sorin;Trigorin;2
+Arkadina;Jakov;1
+Dorn;Nina;4
+Jakov;Treplev;2
+Dorn;Shamraev;5

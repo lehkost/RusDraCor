@@ -1,0 +1,10 @@
+Source;Target;Weight
+Shipuchin;TatjanaAlekseevna;4
+Hirin;Shipuchin;4
+Merchutkina;TatjanaAlekseevna;3
+ChlenBanka;TatjanaAlekseevna;1
+ChlenBanka;Merchutkina;1
+Hirin;Merchutkina;3
+Hirin;TatjanaAlekseevna;2
+Merchutkina;Shipuchin;4
+ChlenBanka;Shipuchin;1

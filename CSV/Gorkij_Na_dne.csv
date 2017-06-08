@@ -1,154 +1,128 @@
-Source,Type,Target,Weight
-Настя,Undirected,Квашня,44.0
-Татарин,Undirected,Квашня,25.0
-Татарин,Undirected,Настя,49.0
-Пепел,Undirected,Квашня,18.0
-Пепел,Undirected,Настя,42.0
-Пепел,Undirected,Татарин,23.0
-Бубнов и Кривой Зоб,Undirected,Квашня,11.0
-Бубнов и Кривой Зоб,Undirected,Настя,35.0
-Бубнов и Кривой Зоб,Undirected,Татарин,16.0
-Бубнов и Кривой Зоб,Undirected,Пепел,9.0
-Наташа,Undirected,Квашня,19.0
-Наташа,Undirected,Настя,43.0
-Наташа,Undirected,Татарин,24.0
-Наташа,Undirected,Пепел,17.0
-Наташа,Undirected,Бубнов и Кривой Зоб,10.0
-Алешка,Undirected,Квашня,13.0
-Алешка,Undirected,Настя,37.0
-Алешка,Undirected,Татарин,18.0
-Алешка,Undirected,Пепел,11.0
-Алешка,Undirected,Бубнов и Кривой Зоб,4.0
-Алешка,Undirected,Наташа,12.0
-Лука,Undirected,Квашня,46.0
-Лука,Undirected,Настя,70.0
-Лука,Undirected,Татарин,51.0
-Лука,Undirected,Пепел,44.0
-Лука,Undirected,Бубнов и Кривой Зоб,37.0
-Лука,Undirected,Наташа,45.0
-Лука,Undirected,Алешка,39.0
-Кривой Зоб,Undirected,Квашня,14.0
-Кривой Зоб,Undirected,Настя,38.0
-Кривой Зоб,Undirected,Татарин,19.0
-Кривой Зоб,Undirected,Пепел,12.0
-Кривой Зоб,Undirected,Бубнов и Кривой Зоб,5.0
-Кривой Зоб,Undirected,Наташа,13.0
-Кривой Зоб,Undirected,Алешка,7.0
-Кривой Зоб,Undirected,Лука,40.0
-Клещ,Undirected,Квашня,28.0
-Клещ,Undirected,Настя,52.0
-Клещ,Undirected,Татарин,33.0
-Клещ,Undirected,Пепел,26.0
-Клещ,Undirected,Бубнов и Кривой Зоб,19.0
-Клещ,Undirected,Наташа,27.0
-Клещ,Undirected,Алешка,21.0
-Клещ,Undirected,Лука,54.0
-Клещ,Undirected,Кривой Зоб,22.0
-Бубнов,Undirected,Квашня,48.0
-Бубнов,Undirected,Настя,72.0
-Бубнов,Undirected,Татарин,53.0
-Бубнов,Undirected,Пепел,46.0
-Бубнов,Undirected,Бубнов и Кривой Зоб,39.0
-Бубнов,Undirected,Наташа,47.0
-Бубнов,Undirected,Алешка,41.0
-Бубнов,Undirected,Лука,74.0
-Бубнов,Undirected,Кривой Зоб,42.0
-Бубнов,Undirected,Клещ,56.0
-Сатин,Undirected,Квашня,70.0
-Сатин,Undirected,Настя,94.0
-Сатин,Undirected,Татарин,75.0
-Сатин,Undirected,Пепел,68.0
-Сатин,Undirected,Бубнов и Кривой Зоб,61.0
-Сатин,Undirected,Наташа,69.0
-Сатин,Undirected,Алешка,63.0
-Сатин,Undirected,Лука,96.0
-Сатин,Undirected,Кривой Зоб,64.0
-Сатин,Undirected,Клещ,78.0
-Сатин,Undirected,Бубнов,98.0
-Костылев,Undirected,Квашня,20.0
-Костылев,Undirected,Настя,44.0
-Костылев,Undirected,Татарин,25.0
-Костылев,Undirected,Пепел,18.0
-Костылев,Undirected,Бубнов и Кривой Зоб,11.0
-Костылев,Undirected,Наташа,19.0
-Костылев,Undirected,Алешка,13.0
-Костылев,Undirected,Лука,46.0
-Костылев,Undirected,Кривой Зоб,14.0
-Костылев,Undirected,Клещ,28.0
-Костылев,Undirected,Бубнов,48.0
-Костылев,Undirected,Сатин,70.0
-Актер,Undirected,Квашня,25.0
-Актер,Undirected,Настя,49.0
-Актер,Undirected,Татарин,30.0
-Актер,Undirected,Пепел,23.0
-Актер,Undirected,Бубнов и Кривой Зоб,16.0
-Актер,Undirected,Наташа,24.0
-Актер,Undirected,Алешка,18.0
-Актер,Undirected,Лука,51.0
-Актер,Undirected,Кривой Зоб,19.0
-Актер,Undirected,Клещ,33.0
-Актер,Undirected,Бубнов,53.0
-Актер,Undirected,Сатин,75.0
-Актер,Undirected,Костылев,25.0
-Барон,Undirected,Квашня,54.0
-Барон,Undirected,Настя,78.0
-Барон,Undirected,Татарин,59.0
-Барон,Undirected,Пепел,52.0
-Барон,Undirected,Бубнов и Кривой Зоб,45.0
-Барон,Undirected,Наташа,53.0
-Барон,Undirected,Алешка,47.0
-Барон,Undirected,Лука,80.0
-Барон,Undirected,Кривой Зоб,48.0
-Барон,Undirected,Клещ,62.0
-Барон,Undirected,Бубнов,82.0
-Барон,Undirected,Сатин,104.0
-Барон,Undirected,Костылев,54.0
-Барон,Undirected,Актер,59.0
-Василиса,Undirected,Квашня,26.0
-Василиса,Undirected,Настя,50.0
-Василиса,Undirected,Татарин,31.0
-Василиса,Undirected,Пепел,24.0
-Василиса,Undirected,Бубнов и Кривой Зоб,17.0
-Василиса,Undirected,Наташа,25.0
-Василиса,Undirected,Алешка,19.0
-Василиса,Undirected,Лука,52.0
-Василиса,Undirected,Кривой Зоб,20.0
-Василиса,Undirected,Клещ,34.0
-Василиса,Undirected,Бубнов,54.0
-Василиса,Undirected,Сатин,76.0
-Василиса,Undirected,Костылев,26.0
-Василиса,Undirected,Актер,31.0
-Василиса,Undirected,Барон,60.0
-Медведев,Undirected,Квашня,36.0
-Медведев,Undirected,Настя,60.0
-Медведев,Undirected,Татарин,41.0
-Медведев,Undirected,Пепел,34.0
-Медведев,Undirected,Бубнов и Кривой Зоб,27.0
-Медведев,Undirected,Наташа,35.0
-Медведев,Undirected,Алешка,29.0
-Медведев,Undirected,Лука,62.0
-Медведев,Undirected,Кривой Зоб,30.0
-Медведев,Undirected,Клещ,44.0
-Медведев,Undirected,Бубнов,64.0
-Медведев,Undirected,Сатин,86.0
-Медведев,Undirected,Костылев,36.0
-Медведев,Undirected,Актер,41.0
-Медведев,Undirected,Барон,70.0
-Медведев,Undirected,Василиса,42.0
-Анна,Undirected,Квашня,15.0
-Анна,Undirected,Настя,39.0
-Анна,Undirected,Татарин,20.0
-Анна,Undirected,Пепел,13.0
-Анна,Undirected,Бубнов и Кривой Зоб,6.0
-Анна,Undirected,Наташа,14.0
-Анна,Undirected,Алешка,8.0
-Анна,Undirected,Лука,41.0
-Анна,Undirected,Кривой Зоб,9.0
-Анна,Undirected,Клещ,23.0
-Анна,Undirected,Бубнов,43.0
-Анна,Undirected,Сатин,65.0
-Анна,Undirected,Костылев,15.0
-Анна,Undirected,Актер,20.0
-Анна,Undirected,Барон,49.0
-Анна,Undirected,Василиса,21.0
-Анна,Undirected,Медведев,31.0
+Source;Target;Weight
+Klesch;Kostylev;1
+Baron;Tatarin;2
+Satin;Tatarin;2
+Kvashnja;Tatarin;1
+Akter;KrivojZob;1
+Akter;Pepel;1
+Akter;Aleshka;2
+Anna;Baron;1
+Aleshka;Luka;1
+Luka;Natasha;1
+Luka;Satin;1
+KrivojZob;Pepel;1
+Bubnov;Natasha;1
+Aleshka;Natasha;1
+KrivojZob;Kvashnja;1
+Aleshka;Satin;2
+Nastja;Satin;2
+Baron;Kvashnja;2
+Nastja;Tatarin;2
+Kvashnja;Vasilisa;1
+Aleshka;Medvedev;2
+Kostylev;Tatarin;1
+Akter;Kostylev;1
+Akter;Luka;1
+Baron;Klesch;2
+Anna;Kvashnja;1
+Bubnov;Vasilisa;1
+Nastja;Pepel;1
+Aleshka;Kvashnja;1
+Akter;Vasilisa;1
+Anna;Kostylev;1
+Nastja;Vasilisa;1
+Akter;Satin;2
+Aleshka;Nastja;2
+Baron;Pepel;1
+Kostylev;Medvedev;2
+Medvedev;Satin;2
+Baron;Medvedev;3
+Kvashnja;Nastja;2
+Klesch;Tatarin;2
+Baron;Bubnov;3
+Aleshka;Kostylev;1
+Klesch;Pepel;1
+Akter;Bubnov;2
+KrivojZob;Nastja;1
+Kostylev;Natasha;1
+Klesch;Medvedev;2
+Kostylev;KrivojZob;1
+Bubnov;Tatarin;3
+Medvedev;Natasha;1
+Klesch;Vasilisa;1
+KrivojZob;Satin;1
+Kvashnja;Pepel;1
+Baron;Luka;2
+Medvedev;Vasilisa;1
+Klesch;Satin;2
+Anna;Bubnov;1
+Kvashnja;Medvedev;2
+KrivojZob;Medvedev;1
+Bubnov;Nastja;3
+Kostylev;Nastja;2
+Natasha;Pepel;1
+Pepel;Vasilisa;1
+Baron;Satin;2
+Bubnov;Pepel;1
+Natasha;Satin;1
+Luka;Pepel;1
+Akter;Tatarin;2
+Bubnov;Kvashnja;2
+Aleshka;Tatarin;2
+Aleshka;Vasilisa;1
+Aleshka;Baron;2
+Akter;Medvedev;2
+Bubnov;Klesch;2
+Natasha;Vasilisa;1
+Bubnov;Medvedev;3
+KrivojZob;Luka;1
+Kvashnja;Satin;1
+Medvedev;Nastja;3
+Baron;Nastja;3
+Bubnov;KrivojZob;2
+Baron;KrivojZob;1
+Akter;Klesch;2
+Baron;Kostylev;2
+Medvedev;Tatarin;2
+KrivojZob;Tatarin;2
+Luka;Medvedev;2
+Nastja;Natasha;1
+Pepel;Satin;1
+Kostylev;Kvashnja;2
+Aleshka;Bubnov;2
+KrivojZob;Natasha;1
+Luka;Vasilisa;1
+Natasha;Tatarin;1
+Akter;Baron;2
+Bubnov;Luka;2
+Baron;Natasha;1
+Baron;Vasilisa;1
+Pepel;Tatarin;1
+Aleshka;KrivojZob;1
+Bubnov;Satin;2
+Luka;Tatarin;1
+Klesch;Natasha;1
+Bubnov;Kostylev;2
+Kvashnja;Natasha;1
+Kostylev;Pepel;1
+Klesch;Kvashnja;1
+Tatarin;Vasilisa;1
+Aleshka;Klesch;2
+Aleshka;Pepel;1
+Anna;Nastja;1
+Kvashnja;Luka;2
+Anna;Medvedev;1
+Kostylev;Satin;1
+Kostylev;Vasilisa;1
+Akter;Kvashnja;1
+Medvedev;Pepel;1
+KrivojZob;Vasilisa;1
+Klesch;Luka;1
+Anna;Luka;1
+Satin;Vasilisa;1
+Luka;Nastja;2
+Akter;Nastja;2
+Akter;Natasha;1
+Klesch;KrivojZob;1
+Klesch;Nastja;2
+Kostylev;Luka;2

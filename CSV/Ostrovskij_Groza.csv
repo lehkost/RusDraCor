@@ -1,172 +1,94 @@
-Source,Type,Target,Weight
-Третий,Undirected,Глаша,6.0
-Кудряш,Undirected,Глаша,74.0
-Кудряш,Undirected,Третий,35.0
-Один из народа,Undirected,Глаша,7.0
-Один из народа,Undirected,Третий,3.0
-Один из народа,Undirected,Кудряш,36.0
-Другой,Undirected,Глаша,7.0
-Другой,Undirected,Третий,3.0
-Другой,Undirected,Кудряш,36.0
-Другой,Undirected,Один из народа,4.0
-Один из возвратившихся,Undirected,Глаша,6.0
-Один из возвратившихся,Undirected,Третий,2.0
-Один из возвратившихся,Undirected,Кудряш,35.0
-Один из возвратившихся,Undirected,Один из народа,3.0
-Один из возвратившихся,Undirected,Другой,3.0
-Катерина,Undirected,Глаша,154.0
-Катерина,Undirected,Третий,56.0
-Катерина,Undirected,Кудряш,198.0
-Катерина,Undirected,Один из народа,57.0
-Катерина,Undirected,Другой,57.0
-Катерина,Undirected,Один из возвратившихся,56.0
-Дикой,Undirected,Глаша,58.0
-Дикой,Undirected,Третий,17.0
-Дикой,Undirected,Кудряш,78.0
-Дикой,Undirected,Один из народа,18.0
-Дикой,Undirected,Другой,18.0
-Дикой,Undirected,Один из возвратившихся,17.0
-Дикой,Undirected,Катерина,158.0
-Кулигин,Undirected,Глаша,80.0
-Кулигин,Undirected,Третий,33.0
-Кулигин,Undirected,Кудряш,115.0
-Кулигин,Undirected,Один из народа,34.0
-Кулигин,Undirected,Другой,34.0
-Кулигин,Undirected,Один из возвратившихся,33.0
-Кулигин,Undirected,Катерина,195.0
-Кулигин,Undirected,Дикой,100.0
-Женщина,Undirected,Глаша,8.0
-Женщина,Undirected,Третий,4.0
-Женщина,Undirected,Кудряш,37.0
-Женщина,Undirected,Один из народа,5.0
-Женщина,Undirected,Другой,5.0
-Женщина,Undirected,Один из возвратившихся,4.0
-Женщина,Undirected,Катерина,58.0
-Женщина,Undirected,Дикой,19.0
-Женщина,Undirected,Кулигин,35.0
-1-й,Undirected,Глаша,37.0
-1-й,Undirected,Третий,33.0
-1-й,Undirected,Кудряш,66.0
-1-й,Undirected,Один из народа,34.0
-1-й,Undirected,Другой,34.0
-1-й,Undirected,Один из возвратившихся,33.0
-1-й,Undirected,Катерина,87.0
-1-й,Undirected,Дикой,48.0
-1-й,Undirected,Кулигин,64.0
-1-й,Undirected,Женщина,35.0
-Кабанов,Undirected,Глаша,114.0
-Кабанов,Undirected,Третий,38.0
-Кабанов,Undirected,Кудряш,153.0
-Кабанов,Undirected,Один из народа,39.0
-Кабанов,Undirected,Другой,39.0
-Кабанов,Undirected,Один из возвратившихся,38.0
-Кабанов,Undirected,Катерина,233.0
-Кабанов,Undirected,Дикой,134.0
-Кабанов,Undirected,Кулигин,156.0
-Кабанов,Undirected,Женщина,40.0
-Кабанов,Undirected,1-й,69.0
-Феклуша,Undirected,Глаша,32.0
-Феклуша,Undirected,Третий,0.0
-Феклуша,Undirected,Кудряш,36.0
-Феклуша,Undirected,Один из народа,0.0
-Феклуша,Undirected,Другой,0.0
-Феклуша,Undirected,Один из возвратившихся,0.0
-Феклуша,Undirected,Катерина,95.0
-Феклуша,Undirected,Дикой,41.0
-Феклуша,Undirected,Кулигин,47.0
-Феклуша,Undirected,Женщина,0.0
-Феклуша,Undirected,1-й,0.0
-Феклуша,Undirected,Кабанов,76.0
-Несколько голосов,Undirected,Глаша,6.0
-Несколько голосов,Undirected,Третий,2.0
-Несколько голосов,Undirected,Кудряш,35.0
-Несколько голосов,Undirected,Один из народа,3.0
-Несколько голосов,Undirected,Другой,3.0
-Несколько голосов,Undirected,Один из возвратившихся,2.0
-Несколько голосов,Undirected,Катерина,56.0
-Несколько голосов,Undirected,Дикой,17.0
-Несколько голосов,Undirected,Кулигин,33.0
-Несколько голосов,Undirected,Женщина,4.0
-Несколько голосов,Undirected,1-й,33.0
-Несколько голосов,Undirected,Кабанов,38.0
-Несколько голосов,Undirected,Феклуша,0.0
-Варвара,Undirected,Глаша,123.0
-Варвара,Undirected,Третий,31.0
-Варвара,Undirected,Кудряш,160.0
-Варвара,Undirected,Один из народа,32.0
-Варвара,Undirected,Другой,32.0
-Варвара,Undirected,Один из возвратившихся,31.0
-Варвара,Undirected,Катерина,240.0
-Варвара,Undirected,Дикой,143.0
-Варвара,Undirected,Кулигин,165.0
-Варвара,Undirected,Женщина,33.0
-Варвара,Undirected,1-й,62.0
-Варвара,Undirected,Кабанов,199.0
-Варвара,Undirected,Феклуша,92.0
-Варвара,Undirected,Несколько голосов,31.0
-Барыня,Undirected,Глаша,17.0
-Барыня,Undirected,Третий,2.0
-Барыня,Undirected,Кудряш,61.0
-Барыня,Undirected,Один из народа,3.0
-Барыня,Undirected,Другой,3.0
-Барыня,Undirected,Один из возвратившихся,2.0
-Барыня,Undirected,Катерина,141.0
-Барыня,Undirected,Дикой,21.0
-Барыня,Undirected,Кулигин,58.0
-Барыня,Undirected,Женщина,4.0
-Барыня,Undirected,1-й,33.0
-Барыня,Undirected,Кабанов,96.0
-Барыня,Undirected,Феклуша,12.0
-Барыня,Undirected,Несколько голосов,2.0
-Барыня,Undirected,Варвара,103.0
-Кабанова,Undirected,Глаша,108.0
-Кабанова,Undirected,Третий,19.0
-Кабанова,Undirected,Кудряш,121.0
-Кабанова,Undirected,Один из народа,20.0
-Кабанова,Undirected,Другой,20.0
-Кабанова,Undirected,Один из возвратившихся,19.0
-Кабанова,Undirected,Катерина,201.0
-Кабанова,Undirected,Дикой,128.0
-Кабанова,Undirected,Кулигин,150.0
-Кабанова,Undirected,Женщина,21.0
-Кабанова,Undirected,1-й,50.0
-Кабанова,Undirected,Кабанов,184.0
-Кабанова,Undirected,Феклуша,89.0
-Кабанова,Undirected,Несколько голосов,19.0
-Кабанова,Undirected,Варвара,193.0
-Кабанова,Undirected,Барыня,64.0
-Шапкин,Undirected,Глаша,21.0
-Шапкин,Undirected,Третий,0.0
-Шапкин,Undirected,Кудряш,36.0
-Шапкин,Undirected,Один из народа,0.0
-Шапкин,Undirected,Другой,0.0
-Шапкин,Undirected,Один из возвратившихся,0.0
-Шапкин,Undirected,Катерина,95.0
-Шапкин,Undirected,Дикой,14.0
-Шапкин,Undirected,Кулигин,35.0
-Шапкин,Undirected,Женщина,0.0
-Шапкин,Undirected,1-й,0.0
-Шапкин,Undirected,Кабанов,68.0
-Шапкин,Undirected,Феклуша,22.0
-Шапкин,Undirected,Несколько голосов,0.0
-Шапкин,Undirected,Варвара,82.0
-Шапкин,Undirected,Барыня,12.0
-Шапкин,Undirected,Кабанова,55.0
-Борис,Undirected,Глаша,125.0
-Борис,Undirected,Третий,75.0
-Борис,Undirected,Кудряш,156.0
-Борис,Undirected,Один из народа,76.0
-Борис,Undirected,Другой,76.0
-Борис,Undirected,Один из возвратившихся,75.0
-Борис,Undirected,Катерина,236.0
-Борис,Undirected,Дикой,145.0
-Борис,Undirected,Кулигин,167.0
-Борис,Undirected,Женщина,77.0
-Борис,Undirected,1-й,106.0
-Борис,Undirected,Кабанов,201.0
-Борис,Undirected,Феклуша,50.0
-Борис,Undirected,Несколько голосов,75.0
-Борис,Undirected,Варвара,210.0
-Борис,Undirected,Барыня,99.0
-Борис,Undirected,Кабанова,195.0
-Борис,Undirected,Шапкин,34.0
+Source;Target;Weight
+Kabanov;NeskolkoGolosov;1
+Drugoj_2;Kabanova;1
+Feklusha;Kabanova;1
+Kabanova;Vtoroj_dejstvije_5;1
+Boris;Kudrjash;5
+Boris;Kuligin;4
+Feklusha;Kudrjash;1
+Kuligin;Zhenschina;1
+Boris;Katerina;4
+Kabanova;Katerina;5
+Dikoj;Pervyj_dejstvije_4;1
+Boris;Kabanova;1
+Drugoj_1;Tretij;1
+Pervyj_dejstvije_4;Varvara;2
+Katerina;Kudrjash;2
+Kabanova;OdinIzVozvrativshihsja;1
+Pervyj_dejstvije_5;Vtoroj_dejstvije_5;1
+Kudrjash;Varvara;3
+Kabanova;Varvara;5
+Katerina;Vtoroj_dejstvije_4;1
+Drugoj_2;OdinIzVozvrativshihsja;1
+Katerina;Kuligin;1
+Kabanova;Zhenschina;2
+Kabanov;Zhenschina;2
+Kabanov;Varvara;6
+Boris;Glasha;1
+OdinIzVozvrativshihsja;Vtoroj_dejstvije_5;1
+Kuligin;OdinIzNaroda;1
+Kuligin;Shapkin;2
+Dikoj;Kabanov;1
+Boris;Dikoj;1
+Kudrjash;Kuligin;2
+OdinIzNaroda;Tretij;1
+Drugoj_1;Kuligin;1
+Pervyj_dejstvije_4;Zhenschina;3
+Glasha;Kabanova;1
+Drugoj_2;Vtoroj_dejstvije_5;1
+Pervyj_dejstvije_4;Vtoroj_dejstvije_4;2
+Feklusha;Glasha;1
+NeskolkoGolosov;Tretij;1
+Drugoj_1;OdinIzNaroda;1
+Kuligin;Tretij;1
+Kabanova;NeskolkoGolosov;1
+Kabanov;Pervyj_dejstvije_4;2
+NeskolkoGolosov;OdinIzNaroda;1
+Kabanova;Pervyj_dejstvije_5;1
+Kabanova;OdinIzNaroda;1
+Kabanov;Katerina;7
+Kabanov;Kuligin;4
+Boris;Varvara;6
+Katerina;Varvara;12
+Barynja;Kabanova;1
+Kabanov;Vtoroj_dejstvije_4;1
+Boris;Zhenschina;1
+Barynja;Kabanov;1
+Feklusha;Kuligin;1
+Drugoj_1;Kabanova;1
+Kabanova;Kuligin;3
+Vtoroj_dejstvije_4;Zhenschina;2
+Kabanova;Vtoroj_dejstvije_4;1
+Drugoj_2;Kabanov;1
+Kuligin;Varvara;2
+Kabanov;Kabanova;10
+Drugoj_1;Kabanov;1
+Boris;Pervyj_dejstvije_4;1
+Feklusha;Shapkin;1
+Boris;Shapkin;1
+Dikoj;Kuligin;1
+Kabanov;OdinIzVozvrativshihsja;1
+Barynja;Varvara;1
+Kabanov;OdinIzNaroda;1
+Kudrjash;Shapkin;2
+Boris;Kabanov;1
+Dikoj;Glasha;1
+Glasha;Kuligin;2
+Kuligin;Pervyj_dejstvije_4;2
+Kabanov;Pervyj_dejstvije_5;1
+Kabanova;Tretij;1
+Katerina;Pervyj_dejstvije_4;2
+Boris;Feklusha;1
+Varvara;Vtoroj_dejstvije_4;1
+Kabanov;Vtoroj_dejstvije_5;1
+Katerina;Zhenschina;2
+Varvara;Zhenschina;2
+Barynja;Katerina;1
+Dikoj;Kabanova;1
+Glasha;Kabanov;2
+Kabanov;Tretij;1
+Kuligin;NeskolkoGolosov;1
+Drugoj_1;NeskolkoGolosov;1
+Drugoj_2;Pervyj_dejstvije_5;1
+Kabanova;Pervyj_dejstvije_4;2
+OdinIzVozvrativshihsja;Pervyj_dejstvije_5;1

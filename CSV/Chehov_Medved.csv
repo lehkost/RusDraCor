@@ -1,4 +1,4 @@
-Source,Type,Target,Weight
-Смирнов,Undirected,Попова,129.0
-Лука,Undirected,Попова,89.0
-Лука,Undirected,Смирнов,88.0
+Source;Target;Weight
+Popova;Smirnov;4
+Luka;Smirnov;4
+Luka;Popova;5

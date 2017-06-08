@@ -1,121 +1,70 @@
-Source,Type,Target,Weight
-Тришка,Undirected,Г-жа Простакова,7.0
-Скотинин,Undirected,Г-жа Простакова,145.0
-Скотинин,Undirected,Тришка,0.0
-Кутейкин,Undirected,Г-жа Простакова,71.0
-Кутейкин,Undirected,Тришка,0.0
-Кутейкин,Undirected,Скотинин,0.0
-Скотинин и оба Простаковы,Undirected,Г-жа Простакова,7.0
-Скотинин и оба Простаковы,Undirected,Тришка,0.0
-Скотинин и оба Простаковы,Undirected,Скотинин,9.0
-Скотинин и оба Простаковы,Undirected,Кутейкин,0.0
-Правдин,Undirected,Г-жа Простакова,158.0
-Правдин,Undirected,Тришка,0.0
-Правдин,Undirected,Скотинин,122.0
-Правдин,Undirected,Кутейкин,32.0
-Правдин,Undirected,Скотинин и оба Простаковы,8.0
-Слуга,Undirected,Г-жа Простакова,0.0
-Слуга,Undirected,Тришка,0.0
-Слуга,Undirected,Скотинин,2.0
-Слуга,Undirected,Кутейкин,0.0
-Слуга,Undirected,Скотинин и оба Простаковы,0.0
-Слуга,Undirected,Правдин,3.0
-Милон,Undirected,Г-жа Простакова,88.0
-Милон,Undirected,Тришка,0.0
-Милон,Undirected,Скотинин,85.0
-Милон,Undirected,Кутейкин,18.0
-Милон,Undirected,Скотинин и оба Простаковы,0.0
-Милон,Undirected,Правдин,123.0
-Милон,Undirected,Слуга,0.0
-Вральман,Undirected,Г-жа Простакова,33.0
-Вральман,Undirected,Тришка,0.0
-Вральман,Undirected,Скотинин,0.0
-Вральман,Undirected,Кутейкин,40.0
-Вральман,Undirected,Скотинин и оба Простаковы,0.0
-Вральман,Undirected,Правдин,16.0
-Вральман,Undirected,Слуга,0.0
-Вральман,Undirected,Милон,6.0
-Митрофан,Undirected,Г-жа Простакова,165.0
-Митрофан,Undirected,Тришка,5.0
-Митрофан,Undirected,Скотинин,61.0
-Митрофан,Undirected,Кутейкин,42.0
-Митрофан,Undirected,Скотинин и оба Простаковы,0.0
-Митрофан,Undirected,Правдин,62.0
-Митрофан,Undirected,Слуга,0.0
-Митрофан,Undirected,Милон,36.0
-Митрофан,Undirected,Вральман,16.0
-Камердинер,Undirected,Г-жа Простакова,0.0
-Камердинер,Undirected,Тришка,0.0
-Камердинер,Undirected,Скотинин,0.0
-Камердинер,Undirected,Кутейкин,0.0
-Камердинер,Undirected,Скотинин и оба Простаковы,0.0
-Камердинер,Undirected,Правдин,0.0
-Камердинер,Undirected,Слуга,0.0
-Камердинер,Undirected,Милон,0.0
-Камердинер,Undirected,Вральман,2.0
-Камердинер,Undirected,Митрофан,0.0
-Простаков,Undirected,Г-жа Простакова,134.0
-Простаков,Undirected,Тришка,0.0
-Простаков,Undirected,Скотинин,73.0
-Простаков,Undirected,Кутейкин,7.0
-Простаков,Undirected,Скотинин и оба Простаковы,2.0
-Простаков,Undirected,Правдин,60.0
-Простаков,Undirected,Слуга,3.0
-Простаков,Undirected,Милон,21.0
-Простаков,Undirected,Вральман,0.0
-Простаков,Undirected,Митрофан,39.0
-Простаков,Undirected,Камердинер,0.0
-Стародум,Undirected,Г-жа Простакова,133.0
-Стародум,Undirected,Тришка,0.0
-Стародум,Undirected,Скотинин,102.0
-Стародум,Undirected,Кутейкин,14.0
-Стародум,Undirected,Скотинин и оба Простаковы,0.0
-Стародум,Undirected,Правдин,216.0
-Стародум,Undirected,Слуга,0.0
-Стародум,Undirected,Милон,94.0
-Стародум,Undirected,Вральман,15.0
-Стародум,Undirected,Митрофан,56.0
-Стародум,Undirected,Камердинер,5.0
-Стародум,Undirected,Простаков,45.0
-Еремеевна,Undirected,Г-жа Простакова,84.0
-Еремеевна,Undirected,Тришка,0.0
-Еремеевна,Undirected,Скотинин,32.0
-Еремеевна,Undirected,Кутейкин,25.0
-Еремеевна,Undirected,Скотинин и оба Простаковы,0.0
-Еремеевна,Undirected,Правдин,48.0
-Еремеевна,Undirected,Слуга,0.0
-Еремеевна,Undirected,Милон,22.0
-Еремеевна,Undirected,Вральман,6.0
-Еремеевна,Undirected,Митрофан,49.0
-Еремеевна,Undirected,Камердинер,0.0
-Еремеевна,Undirected,Простаков,13.0
-Еремеевна,Undirected,Стародум,28.0
-Софья,Undirected,Г-жа Простакова,70.0
-Софья,Undirected,Тришка,0.0
-Софья,Undirected,Скотинин,73.0
-Софья,Undirected,Кутейкин,6.0
-Софья,Undirected,Скотинин и оба Простаковы,2.0
-Софья,Undirected,Правдин,88.0
-Софья,Undirected,Слуга,0.0
-Софья,Undirected,Милон,55.0
-Софья,Undirected,Вральман,0.0
-Софья,Undirected,Митрофан,11.0
-Софья,Undirected,Камердинер,2.0
-Софья,Undirected,Простаков,18.0
-Софья,Undirected,Стародум,127.0
-Софья,Undirected,Еремеевна,8.0
-Цыфиркин,Undirected,Г-жа Простакова,77.0
-Цыфиркин,Undirected,Тришка,0.0
-Цыфиркин,Undirected,Скотинин,0.0
-Цыфиркин,Undirected,Кутейкин,77.0
-Цыфиркин,Undirected,Скотинин и оба Простаковы,0.0
-Цыфиркин,Undirected,Правдин,36.0
-Цыфиркин,Undirected,Слуга,0.0
-Цыфиркин,Undirected,Милон,22.0
-Цыфиркин,Undirected,Вральман,44.0
-Цыфиркин,Undirected,Митрофан,43.0
-Цыфиркин,Undirected,Камердинер,0.0
-Цыфиркин,Undirected,Простаков,6.0
-Цыфиркин,Undirected,Стародум,19.0
-Цыфиркин,Undirected,Еремеевна,29.0
-Цыфиркин,Undirected,Софья,5.0
+Source;Target;Weight
+Mitrofan;Vralman;1
+GospozhaProstakova;Trishka;1
+Milon;Starodum;8
+Pravdin;Sluga;1
+Kutejkin;Tsyfirkin;7
+Mitrofan;Starodum;4
+Mitrofan;Tsyfirkin;4
+Milon;Pravdin;13
+Kutejkin;Vralman;3
+Kamerdiner;Sofja;1
+Eremeevna;Skotinin;3
+Eremeevna;Mitrofan;6
+Pravdin;Starodum;13
+Kamerdiner;Starodum;2
+Milon;Sofja;8
+GospozhaProstakova;Sofja;7
+Kamerdiner;Vralman;1
+Pravdin;Skotinin;10
+GospozhaProstakova;Skotinin;9
+Eremeevna;GospozhaProstakova;9
+Eremeevna;Prostakov;3
+Kutejkin;Starodum;1
+Milon;Skotinin;8
+Eremeevna;Sofja;3
+Mitrofan;Prostakov;5
+Mitrofan;Trishka;1
+Eremeevna;Kutejkin;3
+GospozhaProstakova;Tsyfirkin;5
+Pravdin;Vralman;1
+Kutejkin;Mitrofan;4
+Milon;Vralman;1
+Milon;Prostakov;4
+Kutejkin;Pravdin;2
+GospozhaProstakova;Mitrofan;10
+GospozhaProstakova;Pravdin;11
+Prostakov;Sluga;1
+GospozhaProstakova;Starodum;10
+Skotinin;Starodum;6
+Mitrofan;Skotinin;5
+Prostakov;Skotinin;9
+Mitrofan;Sofja;3
+Starodum;Tsyfirkin;1
+Milon;Tsyfirkin;2
+GospozhaProstakova;Kutejkin;5
+Milon;Mitrofan;4
+Pravdin;Prostakov;6
+Sofja;Tsyfirkin;1
+Prostakov;Tsyfirkin;1
+Kutejkin;Sofja;1
+Prostakov;Starodum;4
+Skotinin;Sluga;1
+Eremeevna;Pravdin;6
+Starodum;Vralman;2
+Pravdin;Tsyfirkin;2
+Pravdin;Sofja;11
+Prostakov;Sofja;5
+Skotinin;Sofja;7
+Tsyfirkin;Vralman;3
+GospozhaProstakova;Vralman;2
+Kutejkin;Milon;2
+Sofja;Starodum;10
+Eremeevna;Milon;4
+Eremeevna;Tsyfirkin;3
+Mitrofan;Pravdin;5
+Eremeevna;Starodum;6
+Eremeevna;Vralman;1
+Kutejkin;Prostakov;1
+GospozhaProstakova;Milon;7
+GospozhaProstakova;Prostakov;10

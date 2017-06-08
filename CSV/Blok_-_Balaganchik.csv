@@ -1,0 +1,16 @@
+Source;Target;Weight
+Arlekin;Hor;1
+On_1;Ona_1;1
+Pero;PervyjMistik;2
+On_3;Pajats;1
+Pero;Predsedatel;1
+Kolombina;Pero;1
+On_3;Ona_3;1
+Kolombina;Predsedatel;1
+PervyjMistik;TretijMistik;2
+PervyjMistik;VtorojMistik;2
+Ona_3;Pajats;1
+TretijMistik;VtorojMistik;2
+Pero;VtorojMistik;2
+On_2;Ona_2;1
+Pero;TretijMistik;2

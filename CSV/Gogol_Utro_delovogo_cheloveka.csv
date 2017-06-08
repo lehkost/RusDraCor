@@ -1,11 +1,6 @@
-Source,Type,Target,Weight
-Шрейдер,Undirected,Иван Петрович,12.0
-Александр Иванович,Undirected,Иван Петрович,61.0
-Александр Иванович,Undirected,Шрейдер,0.0
-Катерина Александровна,Undirected,Иван Петрович,9.0
-Катерина Александровна,Undirected,Шрейдер,0.0
-Катерина Александровна,Undirected,Александр Иванович,12.0
-Лакей,Undirected,Иван Петрович,7.0
-Лакей,Undirected,Шрейдер,0.0
-Лакей,Undirected,Александр Иванович,0.0
-Лакей,Undirected,Катерина Александровна,0.0
+Source;Target;Weight
+IvanPetrovich;Lakej;1
+IvanPetrovich;KaterinaAleksandrovna;1
+AleksandrIvanovich;KaterinaAleksandrovna;1
+AleksandrIvanovich;IvanPetrovich;3
+IvanPetrovich;Shrejder;1

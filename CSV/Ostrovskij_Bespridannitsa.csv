@@ -1,92 +1,55 @@
-Source,Type,Target,Weight
-Вожеватов,Undirected,Кнуров,261.0
-Илья,Undirected,Кнуров,14.0
-Илья,Undirected,Вожеватов,20.0
-Иван,Undirected,Кнуров,80.0
-Иван,Undirected,Вожеватов,110.0
-Иван,Undirected,Илья,4.0
-"Паратов, Вожеватов и Робинзон",Undirected,Кнуров,0.0
-"Паратов, Вожеватов и Робинзон",Undirected,Вожеватов,0.0
-"Паратов, Вожеватов и Робинзон",Undirected,Илья,0.0
-"Паратов, Вожеватов и Робинзон",Undirected,Иван,0.0
-Огудалова,Undirected,Кнуров,86.0
-Огудалова,Undirected,Вожеватов,64.0
-Огудалова,Undirected,Илья,27.0
-Огудалова,Undirected,Иван,25.0
-Огудалова,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Паратов,Undirected,Кнуров,96.0
-Паратов,Undirected,Вожеватов,185.0
-Паратов,Undirected,Илья,26.0
-Паратов,Undirected,Иван,32.0
-Паратов,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Паратов,Undirected,Огудалова,121.0
-Все,Undirected,Кнуров,0.0
-Все,Undirected,Вожеватов,0.0
-Все,Undirected,Илья,0.0
-Все,Undirected,Иван,0.0
-Все,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Все,Undirected,Огудалова,0.0
-Все,Undirected,Паратов,2.0
-Робинзон,Undirected,Кнуров,62.0
-Робинзон,Undirected,Вожеватов,166.0
-Робинзон,Undirected,Илья,4.0
-Робинзон,Undirected,Иван,56.0
-Робинзон,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Робинзон,Undirected,Огудалова,27.0
-Робинзон,Undirected,Паратов,167.0
-Робинзон,Undirected,Все,0.0
-Лариса,Undirected,Кнуров,28.0
-Лариса,Undirected,Вожеватов,48.0
-Лариса,Undirected,Илья,24.0
-Лариса,Undirected,Иван,12.0
-Лариса,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Лариса,Undirected,Огудалова,143.0
-Лариса,Undirected,Паратов,191.0
-Лариса,Undirected,Все,3.0
-Лариса,Undirected,Робинзон,43.0
-Гаврило,Undirected,Кнуров,80.0
-Гаврило,Undirected,Вожеватов,113.0
-Гаврило,Undirected,Илья,6.0
-Гаврило,Undirected,Иван,48.0
-Гаврило,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Гаврило,Undirected,Огудалова,13.0
-Гаврило,Undirected,Паратов,13.0
-Гаврило,Undirected,Все,0.0
-Гаврило,Undirected,Робинзон,16.0
-Гаврило,Undirected,Лариса,5.0
-Евфросинья Потаповна,Undirected,Кнуров,5.0
-Евфросинья Потаповна,Undirected,Вожеватов,9.0
-Евфросинья Потаповна,Undirected,Илья,5.0
-Евфросинья Потаповна,Undirected,Иван,15.0
-Евфросинья Потаповна,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Евфросинья Потаповна,Undirected,Огудалова,25.0
-Евфросинья Потаповна,Undirected,Паратов,13.0
-Евфросинья Потаповна,Undirected,Все,0.0
-Евфросинья Потаповна,Undirected,Робинзон,3.0
-Евфросинья Потаповна,Undirected,Лариса,17.0
-Евфросинья Потаповна,Undirected,Гаврило,0.0
-Карандышев,Undirected,Кнуров,56.0
-Карандышев,Undirected,Вожеватов,95.0
-Карандышев,Undirected,Илья,13.0
-Карандышев,Undirected,Иван,52.0
-Карандышев,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Карандышев,Undirected,Огудалова,140.0
-Карандышев,Undirected,Паратов,120.0
-Карандышев,Undirected,Все,0.0
-Карандышев,Undirected,Робинзон,93.0
-Карандышев,Undirected,Лариса,190.0
-Карандышев,Undirected,Гаврило,15.0
-Карандышев,Undirected,Евфросинья Потаповна,23.0
-Вожеватов и Робинзон,Undirected,Кнуров,2.0
-Вожеватов и Робинзон,Undirected,Вожеватов,7.0
-Вожеватов и Робинзон,Undirected,Илья,0.0
-Вожеватов и Робинзон,Undirected,Иван,0.0
-Вожеватов и Робинзон,Undirected,"Паратов, Вожеватов и Робинзон",0.0
-Вожеватов и Робинзон,Undirected,Огудалова,4.0
-Вожеватов и Робинзон,Undirected,Паратов,12.0
-Вожеватов и Робинзон,Undirected,Все,0.0
-Вожеватов и Робинзон,Undirected,Робинзон,2.0
-Вожеватов и Робинзон,Undirected,Лариса,4.0
-Вожеватов и Робинзон,Undirected,Гаврило,0.0
-Вожеватов и Робинзон,Undirected,Евфросинья Потаповна,0.0
-Вожеватов и Робинзон,Undirected,Карандышев,8.0
+Source;Target;Weight
+Gavrilo;Vozhevatov;4
+Ivan;Vozhevatov;5
+EvfrosinjaPotapovna;Paratov;1
+Larisa;Vozhevatov;5
+Karandyshev;Knurov;4
+EvfrosinjaPotapovna;Ivan;3
+Karandyshev;Robinzon;7
+Paratov;Robinzon;12
+EvfrosinjaPotapovna;Ilja;1
+Ilja;Robinzon;1
+Ivan;Larisa;3
+EvfrosinjaPotapovna;Karandyshev;2
+Knurov;Paratov;9
+Ivan;Paratov;3
+Ilja;Vozhevatov;2
+Ivan;Karandyshev;4
+Gavrilo;Ilja;1
+Gavrilo;Ivan;6
+EvfrosinjaPotapovna;Vozhevatov;1
+Knurov;Vozhevatov;13
+Ilja;Larisa;2
+Knurov;Robinzon;8
+Ivan;Ogudalova;3
+Ilja;Ogudalova;2
+Ogudalova;Robinzon;4
+EvfrosinjaPotapovna;Ogudalova;3
+Ivan;Knurov;5
+Karandyshev;Vozhevatov;6
+Gavrilo;Paratov;2
+Gavrilo;Larisa;2
+Paratov;Vozhevatov;14
+Gavrilo;Ogudalova;1
+EvfrosinjaPotapovna;Larisa;2
+Karandyshev;Larisa;7
+Knurov;Larisa;5
+Ilja;Karandyshev;1
+Robinzon;Vozhevatov;12
+Ogudalova;Paratov;6
+Karandyshev;Paratov;6
+Ivan;Robinzon;5
+Knurov;Ogudalova;4
+Gavrilo;Robinzon;2
+Karandyshev;Ogudalova;8
+Ogudalova;Vozhevatov;5
+Gavrilo;Karandyshev;1
+EvfrosinjaPotapovna;Knurov;1
+Ilja;Paratov;2
+Larisa;Robinzon;5
+EvfrosinjaPotapovna;Robinzon;1
+Larisa;Ogudalova;10
+Gavrilo;Knurov;4
+Larisa;Paratov;8
+Ilja;Ivan;1
+Ilja;Knurov;2
