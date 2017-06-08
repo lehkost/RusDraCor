@@ -212,7 +212,7 @@ ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
 table.write('Play,Year_of_creation,Num_of_segments,Num_of_acts,Max_weight,Max_degree,Density,Num_of_char,'
-            'Chars_with_max_degree,Genre,Average_clust_coef,\n')
+            'Chars_with_max_degree,Average_clust_coef,Genre,\n')
 
 
 ilibrary_tei_path = '/Users/IrinaPavlova/Desktop/Uni/Бакалавриат/2015-2016/Programming/' \
