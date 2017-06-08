@@ -93,7 +93,7 @@
           <person xml:id="GospodinOtritsatelnogoSvojstva" sex="MALE">
             <persName>Господин отрицательного свойства</persName>
           </person>
-          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="UNKNOWN">
+          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="MALE">
             <persName>Голос господина поощрительного свойства</persName>
           </person>
           <person xml:id="ProstoVral" sex="MALE">
@@ -138,7 +138,7 @@
           <person xml:id="GospodinHladnokrovnogoSvojstva" sex="MALE">
             <persName>Господин хладнокровного свойства</persName>
           </person>
-          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="UNKNOWN">
+          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="MALE">
             <persName>Голос другого чиновника из толпы</persName>
           </person>
           <person xml:id="OchenSkromnoOdetyjChelovek" sex="MALE">
