@@ -44,7 +44,7 @@
           <person xml:id="Kupets"  sex="MALE">
             <persName>Купец</persName>
           </person>
-          <person xml:id="NevzrachnyjNojadovitogoSvojstvaGospodin" sex="MALE">
+          <person xml:id="NevzrachnyjNoJadovitogoSvojstvaGospodin" sex="MALE">
             <persName>Невзрачный, но ядовитого свойства господин</persName>
           </person>
           <person xml:id="MuzhPervojDamy" sex="MALE">
@@ -74,9 +74,7 @@
           <person xml:id="GospodinSVesom" sex="MALE">
             <persName>Господин с весом</persName>
           </person>
-          <person xml:id="odnabekesha" sex="MALE">
-            <persName>Две бекеши</persName>
-          </person>
+          
           <person xml:id="Voennyj" sex="MALE">
             <persName>Военный</persName>
           </person>
@@ -95,7 +93,7 @@
           <person xml:id="GospodinOtritsatelnogoSvojstva" sex="MALE">
             <persName>Господин отрицательного свойства</persName>
           </person>
-          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="UNKNOWN">
+          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="MALE">
             <persName>Голос господина поощрительного свойства</persName>
           </person>
           <person xml:id="ProstoVral" sex="MALE">
@@ -110,7 +108,7 @@
           <person xml:id="PervyjCommeIlFaut" sex="MALE">
             <persName>Первый comme il faut</persName>
           </person>
-          <person xml:id="PervajaBekesha" sex="MALE">
+          <person xml:id="OdnaBekesha" sex="MALE">
             <persName>Первая бекеша</persName>
           </person>
           <person xml:id="NeizvestnoKakojChelovek" sex="MALE">
@@ -125,7 +123,7 @@
           <person xml:id="PervyjOfitser" sex="MALE">
             <persName>Первый офицер</persName>
           </person>
-          <person xml:id="Odinizdvuhzritelej" sex="MALE">
+          <person xml:id="OdinIzDvuhZritelej" sex="MALE">
             <persName>Один из двух зрителей</persName>
           </person>
           <person xml:id="OdinChinovnik" sex="MALE">
@@ -140,7 +138,7 @@
           <person xml:id="GospodinHladnokrovnogoSvojstva" sex="MALE">
             <persName>Господин хладнокровного свойства</persName>
           </person>
-          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="UNKNOWN">
+          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="MALE">
             <persName>Голос другого чиновника из толпы</persName>
           </person>
           <person xml:id="OchenSkromnoOdetyjChelovek" sex="MALE">
@@ -155,7 +153,7 @@
           <person xml:id="GospodinNeskolkobezzabotnyjNaschetliteratury" sex="MALE">
             <persName>Господин, несколько беззаботный насчет литературы</persName>
           </person>
-          <person xml:id="GospodinpolozhitelnogoSvojstva" sex="MALE">
+          <person xml:id="GospodinPolozhitelnogoSvojstva" sex="MALE">
             <persName>Господин положительного свойства</persName>
           </person>
           <person xml:id="DobrodushnyjChinovnik" sex="MALE">
@@ -176,19 +174,19 @@
           <person xml:id="Neznakomets" sex="MALE">
             <persName>Незнакомец</persName>
           </person>
-          <person xml:id="GolosserditogoChinovnikaNoKakvidnoOpytnogo" sex="FEMALE">
+          <person xml:id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" sex="FEMALE">
             <persName>Голос сердитого чиновника, но, как видно, опытного</persName>
           </person>
           <person xml:id="GospodinP" sex="MALE">
             <persName>Господин П</persName>
           </person>
-          <person xml:id="Chinovniksrednihlet" sex="MALE">
+          <person xml:id="ChinovnikSrednihLet" sex="MALE">
             <persName>Чиновник средних лет</persName>
           </person>
-          <person xml:id="TozhesvetskijChelovekPoplotnee" sex="MALE">
+          <person xml:id="TozheSvetskijChelovekPoplotnee" sex="MALE">
             <persName>Тоже светский человек, поплотнее</persName>
           </person>
-          <person xml:id="Muzhchinavofrake" sex="MALE">
+          <person xml:id="MuzhchinaVoFrake" sex="MALE">
             <persName>Мужчина во фраке</persName>
           </person>
           <person xml:id="GolosVDrugomKontse" sex="UNKNOWN">
@@ -239,7 +237,7 @@
           <person xml:id="NeznakomyjSosed" sex="MALE">
             <persName>Незнакомый сосед</persName>
           </person>
-          <person xml:id="KrasivyjiPlotnyjGospodin" sex="MALE">
+          <person xml:id="KrasivyjIPlotnyjGospodin" sex="MALE">
             <persName>Красивый и плотный господин</persName>
           </person>
           <person xml:id="VtorajaDama" sex="FEMALE">
@@ -325,6 +323,19 @@
           </person>
           <person xml:id="DrugojMolodoj" sex="MALE">
             <persName>другой молодой человек </persName>
+          </person>
+          <person xml:id="PjatyjLubitelIskusstva" sex="MALE">
+            <persName>пятый любитель искусства </persName>
+          </person>
+          <person xml:id="PervyjOfitserIzTolpy" sex="MALE">
+            <persName>Первый офицер из толпы</persName>
+          </person>
+          <person xml:id="VtorojOfitserIzTolpy" sex="MALE">
+            <persName>Второй офицер из толпы</persName>
+          </person>
+          <person xml:id="PervyjNaStorone" sex="MALE">
+            <persName>Первый из разговора на стороне</persName>
+          
           </person>
         </listPerson>
       </particDesc>
@@ -428,7 +439,7 @@
           </sp>
         </div>
         <div type="configuration">
-          <sp who="#TozhesvetskijChelovekPoplotnee">
+          <sp who="#TozheSvetskijChelovekPoplotnee">
             <speaker>Тоже светский человек, поплотнее</speaker>
             <stage type="delivery">(говорит с живостью другому)</stage>
             <p>. Никогда, никогда, поверь мне, он с тобою не сядет играть. Меньше как по полтораста
@@ -442,7 +453,7 @@
           </sp>
           </div>
         <div type="configuration">
-          <sp who="#Chinovniksrednihlet">
+          <sp who="#ChinovnikSrednihLet">
             <speaker>Чиновник средних лет</speaker>
             <stage type="delivery">(выходя с растопыренными руками)</stage>
             <p>. Это просто черт знает что такое! Этакое... этакое... Это ни на что не похоже. </p>
@@ -467,14 +478,14 @@
           <stage>Оба уходят.</stage>
         </div>
         <div type="configuration">
-          <sp who="#Odinizdvuhzritelej">
+          <sp who="#OdinIzDvuhZritelej">
             <speaker>Один из двух зрителей</speaker>
             <stage type="delivery">(тоже выходящих вон)</stage>
             <p>. Теперь еще ничего нельзя знать. Погоди, что скажут в журналах, тогда и узнаешь.</p>
           </sp>
         </div>
         <div type="configuration">
-          <sp who="#odnabekesha">
+          <sp who="#OdnaBekesha">
             <speaker>Две бекеши</speaker>
             <stage type="delivery">(одна другой)</stage>
             <p>. Ну, как вы? Я бы желал знать ваше мнение о комедии.</p>
@@ -1213,7 +1224,7 @@
         </div>
           <div type="configuration">
           <stage>Две бекеши.</stage>
-          <sp who="#PervajaBekesha">
+          <sp who="#OdnaBekesha">
             <speaker>Первая бекеша</speaker>
             <p>. У французов тоже, например; но у них все это очень мило. Ну вот, помнишь, во
               вчерашнем водевиле раздевается, ложится в постель, схватывает со стола салатник и
@@ -1251,7 +1262,7 @@
             <speaker>Светская дама</speaker>
             <p>. Скажите: отчего у нас в России все еще так тривиально?</p>
           </sp>
-          <sp who="#Muzhchinavofrake">
+          <sp who="#MuzhchinaVoFrake">
             <speaker>Мужчина во фраке</speaker>
             <p>. Душа моя, после расскажешь, отчего тривиально: кричат нашу карету.</p>
           </sp>
@@ -1845,7 +1856,7 @@
             <speaker>Голос господина поощрительного свойства</speaker>
             <p>. Должен быть бестия, пройдоха сочинитель: все изведал, все знает!</p>
           </sp>
-          <sp who="#GolosserditogoChinovnikaNoKakvidnoOpytnogo">
+          <sp who="#GolosSerditogoChinovnikaNoKakVidnoOpytnogo">
             <speaker>Голос сердитого чиновника, но, как видно, опытного</speaker>
             <p>. Что он знает? — черта он знает. И врет он, врет: все это, что ни написал он, всё —
               враки. И взятки не так берут, уж если пошло на то...</p>
@@ -1860,15 +1871,15 @@
             <p>. Стой, украли платок!</p>
           </sp>
           <stage>Два офицера, узнавшие друг друга, переговариваются через толпу.</stage>
-            <sp who="#PervyjOfitser">
+            <sp who="#PervyjOfitserIzTolpy">
             <speaker>Первый</speaker>
             <p>. Мишель, ты туда?</p>
           </sp>
-            <sp who="#VtorojOfitser">
+            <sp who="#VtorojOfitserIzTolpy">
             <speaker>Второй</speaker>
             <p>. Туда.</p>
           </sp>
-            <sp who="#PervyjOfitser">
+            <sp who="#PervyjOfitserIzTolpy">
             <speaker>Первый</speaker>
             <p>. Ну, и я там.</p>
           </sp>
@@ -1882,20 +1893,20 @@
             <p>. Что ж, коли подлец, то и подлец. Не будь подлецом, то и не будут над тобой
               смеяться.</p>
           </sp>
-          <sp who="#KrasivyjiPlotnyjGospodin">
+          <sp who="#KrasivyjIPlotnyjGospodin">
             <speaker>Красивый и плотный господин</speaker>
             <stage type="delivery">(говорит с жаром невзрачному и низенькому)</stage>
             <p>. Нравственность, нравственность страждет, вот что главное!</p>
           </sp>
-          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
+          <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
             <speaker>Господин низенький и невзрачный, но ядовитого свойства</speaker>
             <p>. Да ведь нравственность вещь относительная.</p>
           </sp>
-          <sp who="#KrasivyjiPlotnyjGospodin">
+          <sp who="#KrasivyjIPlotnyjGospodin">
             <speaker>Красивый и плотный господин</speaker>
             <p>. Что вы разумеете под именем «относительная»?</p>
           </sp>
-          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
+          <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
             <speaker>Невзрачный, но ядовитого свойства господин</speaker>
             <p>. То, что нравственность всякий меряет относительно к себе. Один называет
               нравственностью сниманье ему шляпы на улице; другой называет нравственностью смотренье
@@ -1907,12 +1918,12 @@
               бывает, не правда ли? Тут если и явится у кого-нибудь в три года два дома, так ведь
               это отчего? Всё от честности, не так ли?</p>
           </sp>
-          <sp who="#KrasivyjiPlotnyjGospodin">
+          <sp who="#KrasivyjIPlotnyjGospodin">
             <speaker>Красивый и плотный господин</speaker>
             <stage type="delivery">(в сторону)</stage>
             <p>. Скверен, как черт, а язык, как у змеи.</p>
           </sp>
-          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
+          <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
             <speaker>Невзрачный, но ядовитого свойства господин</speaker>
             <stage type="delivery">(толкая под руку вовсе не знакомого ему человека, говорит ему,
               кивая на красивого господина)</stage>
@@ -1924,7 +1935,7 @@
             <stage type="delivery">(уходя поспешно)</stage>
             <p>. Извините, я недослышал.</p>
           </sp>
-          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
+          <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
             <speaker>Невзрачный, но ядовитого свойства человек</speaker>
             <stage type="delivery">(толкая под руку незнакомого соседа)</stage>
             <p>. Глухота-то как нынче распространилась в городе, а? Вот что значит нездоровый и
@@ -1934,7 +1945,7 @@
             <speaker>Незнакомый сосед</speaker>
             <p>. Да вот и грипп тоже. У меня все дети переболели.</p>
           </sp>
-          <sp who="#NevzrachnyjNojadovitogoSvojstvaGospodin">
+          <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
             <speaker>Невзрачный, но ядовитого свойства человек</speaker>
             <p>. Да, и грипп, и глухота; свинка тоже в горле. </p>
             <stage type="delivery">(Пропадает в толпе.)</stage>
@@ -1953,7 +1964,7 @@
               го́ры, местоположение восхитительное, и он оттуда читает стихи. Не правда ли, что
               здесь является какая-то особенная черта писателя?</p>
           </sp>
-          <sp who="#GospodinpolozhitelnogoSvojstva">
+          <sp who="#GospodinPolozhitelnogoSvojstva">
             <speaker>Господин положительного свойства</speaker>
             <p>. Автор должен быть умный человек.</p>
           </sp>
