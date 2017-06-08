@@ -46,7 +46,7 @@
           <person xml:id="Radushka" sex="FEMALE">
             <persName> Радушка </persName>
           </person>
-          <person xml:id="Odinberendej" sex="MALE">
+          <person xml:id="OdinBerendej" sex="MALE">
             <persName> Один берендей </persName>
           </person>
           <person xml:id="Malusha" sex="FEMALE">
@@ -91,10 +91,10 @@
           <person xml:id="Bobyliha" sex="FEMALE">
             <persName> Бобылиха </persName>
           </person>
-          <person xml:id="Odnastorona" sex="UNKNOWN">
+          <person xml:id="OdnaStorona" sex="UNKNOWN">
             <persName> Одна сторона: </persName>
           </person>
-          <person xml:id="Drugajastorona" sex="UNKNOWN">
+          <person xml:id="DrugajaStorona" sex="UNKNOWN">
             <persName> Другая сторона: </persName>
           </person>
           <person xml:id="Kupava" sex="FEMALE">
@@ -133,7 +133,7 @@
           <person xml:id="VtorojBirjuch" sex="MALE">
             <persName> 2-й бирюч </persName>
           </person>
-          <person xml:id="Vesna-Krasna" sex="FEMALE">
+          <person xml:id="VesnaKrasna" sex="FEMALE">
             <persName> Весна-Красна </persName>
           </person>
           <person xml:id="Vse" sex="UNKNOWN">
@@ -142,10 +142,10 @@
           <person xml:id="Bobyl" sex="MALE">
             <persName> Бобыль </persName>
           </person>
-          <person xml:id="Golosaiznaroda" sex="UNKNOWN">
+          <person xml:id="GolosaIzNaroda" sex="UNKNOWN">
             <persName> Голоса из народа </persName>
           </person>
-          <person xml:id="Golosaizlesu" sex="UNKNOWN">
+          <person xml:id="GolosaIzLesu" sex="UNKNOWN">
             <persName> Голоса из лесу </persName>
           </person>
           <person xml:id="Berendej" sex="MALE">
@@ -160,10 +160,10 @@
           <person xml:id="Hor" sex="UNKNOWN">
             <persName> Хор </persName>
           </person>
-          <person xml:id="Hornaroda" sex="UNKNOWN">
+          <person xml:id="HorNaroda" sex="UNKNOWN">
             <persName> Хор народа </persName>
           </person>
-          <person xml:id="Obschijhor" sex="UNKNOWN">
+          <person xml:id="ObschijHor" sex="UNKNOWN">
             <persName> Общий хор </persName>
           </person>
           <person xml:id="Snegurochka" sex="FEMALE">
@@ -175,10 +175,10 @@
           <person xml:id="Brusilo" sex="MALE">
             <persName> Брусило </persName>
           </person>
-          <person xml:id="Horptits" sex="UNKNOWN">
+          <person xml:id="HorPtits" sex="UNKNOWN">
             <persName> Хор птиц </persName>
           </person>
-          <person xml:id="PerviyHorberendeev" sex="MALE">
+          <person xml:id="PerviyHorBerendeev" sex="MALE">
             <persName> 1-й хор берендеев </persName>
           </person>
           <person xml:id="PerviyBirjuch" sex="MALE">
@@ -194,38 +194,49 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change who="#ds">converted from source</change>
-        <change who="ds" when="2017-05-23">removed 'unknown speaker'</change>
+        <change who="#ds" when="2017-03-31">converted from source</change>
+        <change who="#ds" when="2017-05-23">removed 'unknown speaker'</change>
         <change who="#GG" when="2017-06-03">gender info</change>
+        <change who="#ff" when="2017-06-08">formalities; added dramatis personae at the beginning of each act</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Снегурочка</titlePart>
+        <titlePart type="sub">Весенняя сказка</titlePart>
+        <titlePart type="sub">В четырех действиях с прологом</titlePart>
+      </docTitle>
+      <set>
+        <p>Действие происходит в стране берендеев в доисторическое время. Пролог на Красной горке,
+          вблизи Берендеева посада, столицы царя Берендея. Первое действие в заречной слободе
+          Берендеевке. Второе действие во дворце царя Берендея. Третье действие в заповедном лесу.
+          Четвертое действие в Ярилиной долине.</p>
+      </set>
+    </front>
     <body>
-      <castList>
-        <castItem> Весна-Красна . </castItem>
-        <castItem> Дед-Мороз . </castItem>
-        <castItem> Девушка-Снегурочка . </castItem>
-        <castItem> Леший . </castItem>
-        <castItem> Масляница — соломенное чучело. </castItem>
-        <castItem> Бобыль Бакула . </castItem>
-        <castItem> Бобылиха , его жена. </castItem>
-        <castItem> Берендеи обоего пола и всякого возраста. </castItem>
-        <castItem> Свита Весны, птицы: журавли, гуси, утки, грачи, сороки, скворцы, жаворонки и
-          другие. </castItem>
-      </castList>
-      <stage> Действие происходит в стране берендеев в доисторическое время. Пролог на Красной
-        горке, вблизи Берендеева посада, столицы царя Берендея. Первое действие в заречной слободе
-        Берендеевке. Второе действие во дворце царя Берендея. Третье действие в заповедном лесу.
-        Четвертое действие в Ярилиной долине. </stage>
       <div type="act">
         <head> Пролог </head>
-        <stage> Начало весны. Полночь. Красная горка, покрытая снегом. Направо кусты и редкий
+        <castList>
+          <head>Лица:</head>
+          <castItem>Весна-Красна.</castItem>
+          <castItem>Дед-Мороз.</castItem>
+          <castItem>Девушка-Снегурочка.</castItem>
+          <castItem>Леший.</castItem>
+          <castItem>Масляница – соломенное чучело.</castItem>
+          <castItem>Бобыль Бакула.</castItem>
+          <castItem>Бобылиха, его жена.</castItem>
+          <castItem>Берендеи обоего пола и всякого возраста.</castItem>
+          <castItem>Свита Весны, птицы: журавли, гуси, утки, грачи, сороки, скворцы, жаворонки и
+            другие.</castItem>
+        </castList>
+        <stage>Начало весны. Полночь. Красная горка, покрытая снегом. Направо кусты и редкий
           безлистный березник; налево сплошной частый лес больших сосен и елей с сучьями, повисшими
           от тяжести снега; в глубине, под горой, река; полыньи и проруби обсажены ельником. За
           рекой Берендеев посад, столица царя Берендея: дворцы, дома, избы — все деревянные, с
           причудливой раскрашенной резьбой; в окнах огни. Полная луна серебрит всю открытую
-          местность. Вдали кричат петухи. </stage>
+          местность. Вдали кричат петухи.</stage>
         <div type="scene">
           <head> Явление первое </head>
           <stage> Леший сидит на сухом пне. Все небо покрывается прилетевшими из-за моря птицами.
@@ -241,7 +252,7 @@
           </sp>
           <stage type="delivery"> (Проваливается в дупло.) </stage>
           <stage> Весна-Красна спускается на Красную горку в сопровождении птиц. </stage>
-          <sp who="#Vesna-Krasna">
+          <sp who="#VesnaKrasna">
             <speaker> Весна-Красна </speaker>
             <lg>
               <l> В урочный час обычной чередою </l>
@@ -330,7 +341,7 @@
             </lg>
           </sp>
           <stage> Одни птицы принимаются за инструменты, другие запевают, третьи пляшут. </stage>
-          <sp who="#Horptits">
+          <sp who="#HorPtits">
             <speaker> Хор птиц </speaker>
             <lg>
               <l> Сбирались птицы, </l>
@@ -386,7 +397,7 @@
           <stage> Из лесу на пляшущих птиц начинает сыпаться иней, потом хлопья снега, подымается
             ветер, — набегают тучи, закрывают луну, мгла совершенно застилает даль. Птицы с криком
             жмутся к Весне. </stage>
-          <sp who="#Vesna-Krasna">
+          <sp who="#VesnaKrasna">
             <speaker> Весна-Красна </speaker>
             <stage type="delivery"> (птицам) </stage>
             <lg>
@@ -402,7 +413,7 @@
         </div>
         <div type="scene">
           <head> Явление второе </head>
-          <stage> Весна-Красна , Дед-Мороз . </stage>
+          <stage> Весна-Красна, Дед-Мороз . </stage>
           <sp who="#Moroz">
             <speaker> Мороз </speaker>
             <lg>
@@ -768,7 +779,7 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-          <stage> Весна , Мороз , Снегурочка , потом Леший . </stage>
+          <stage> Весна, Мороз, Снегурочка, потом Леший . </stage>
           <sp who="#Vesna">
             <speaker> Весна </speaker>
             <lg>
@@ -939,7 +950,7 @@
           <lg>
             <l> Ау, ау! </l>
           </lg>
-          <stage> Из сухого дупла вылезает Леший , лениво потягиваясь и зевая. </stage>
+          <stage> Из сухого дупла вылезает Леший, лениво потягиваясь и зевая. </stage>
           <sp who="#Leshij">
             <speaker> Леший </speaker>
             <lg>
@@ -1002,13 +1013,13 @@
           </sp>
           <stage> Вдали крики: «Честная Масляница!» Мороз, уходя, машет рукой; метель унимается,
             тучи убегают. Ясно, как в начале действия. Толпы берендеев ; одни подвигают к лесу сани
-            с чучелой Масляницы , другие стоят поодаль. </stage>
+            с чучелой Масляницы, другие стоят поодаль. </stage>
         </div>
 
         <div type="scene">
           <head> Явление четвертое </head>
-          <stage> Снегурочка , Бобыль , Бобылиха , берендеи . </stage>
-          <sp who="#1-jhorberendeev">
+          <stage> Снегурочка, Бобыль, Бобылиха, берендеи . </stage>
+          <sp who="#PerviyHorBerendeev">
             <speaker> 1-й хор берендеев </speaker>
             <stage type="delivery"> (везущих Масляницу) </stage>
             <lg>
@@ -1184,9 +1195,9 @@
               <l> Березовых, и ладно. Подожди! </l>
             </lg>
           </sp>
-          <stage> Идет в лес и видит Снегурочку , кланяется и смотрит несколько времени с
-            удивлением. Потом возвращается к жене и манит ее в лес. В это время Снегурочка отходит и
-            из-за куста смотрит на берендеев, на ее место у дупла садится Леший . </stage>
+          <stage> Идет в лес и видит Снегурочку, кланяется и смотрит несколько времени с удивлением.
+            Потом возвращается к жене и манит ее в лес. В это время Снегурочка отходит и из-за куста
+            смотрит на берендеев, на ее место у дупла садится Леший . </stage>
           <sp who="#Bobyl">
             <speaker> Бобыль </speaker>
             <stage type="delivery"> (Бобылихе) </stage>
@@ -1209,7 +1220,7 @@
             </lg>
           </sp>
           <stage> Снегурочка опять возвращается на свое место, Леший уходит в лес. </stage>
-          <sp who="#Odinberendej">
+          <sp who="#OdinBerendej">
             <speaker> Один берендей </speaker>
             <lg>
               <l> Да что у вас за споры? </l>
@@ -1304,7 +1315,7 @@
               <l> И ты прощай! </l>
             </lg>
           </sp>
-          <sp who="#Golosaizlesu">
+          <sp who="#GolosaIzLesu">
             <speaker> Голоса из лесу </speaker>
             <lg>
               <l> Прощай, прощай, прощай! </l>
@@ -1316,12 +1327,36 @@
       </div>
       <div type="act">
         <head> Действие первое </head>
+        <castList>
+          <head>Лица:</head>
+          <castItem>Девушка-Снегурочка.</castItem>
+          <castItem>Бобыль Бакула.</castItem>
+          <castItem>Бобылиха.</castItem>
+          <castItem>Лель, пастух.</castItem>
+          <castItem>Мураш, богатый слобожанин.</castItem>
+          <castItem>Купава, молодая девушка, дочь Мураша.</castItem>
+          <castItem>Мизгирь, торговый гость из посада Берендеева.</castItem>
+          <castGroup rend="braced">
+            <castItem>Радушка</castItem>
+            <castItem>Малуша</castItem>
+            <roleDesc>слободские девушки.</roleDesc>
+          </castGroup>
+          <castGroup rend="braced">
+            <castItem>Брусило</castItem>
+            <castItem>Малыш</castItem>
+            <castItem>Курилка</castItem>
+            <roleDesc>парни.</roleDesc>
+          </castGroup>
+          <castItem>Бирюч.</castItem>
+          <castItem>Слуги Мизгиря.</castItem>
+          <castItem>Слобожане: старики, старухи, парни и девки.</castItem>
+        </castList>
         <stage> Заречная слободка Берендеевка; с правой стороны бедная изба Бобыля с пошатнувшимся
           крыльцом; перед избой скамья; с левой стороны большая, разукрашенная резьбой изба Мураша;
           в глубине улица; через улицу хмельник и пчельник Мураша, между ними тропинка к реке. </stage>
         <div type="scene">
           <head> Явление первое </head>
-          <stage> Снегурочка сидит на скамье перед домом Бобыля и прядет. Из улицы идет Бирюч ,
+          <stage> Снегурочка сидит на скамье перед домом Бобыля и прядет. Из улицы идет Бирюч,
             надевает шапку на длинный шест и поднимает высоко; со всех сторон сходятся слобожане .
             Бобыль и Бобылиха выходят из дому. </stage>
           <sp who="#Birjuch">
@@ -1666,7 +1701,7 @@
         </div>
         <div type="scene">
           <head> Явление второе </head>
-          <stage> Бобыль , Снегурочка , Лель , Мураш , берендей . </stage>
+          <stage> Бобыль, Снегурочка, Лель, Мураш, берендей . </stage>
           <sp who="#Berendej">
             <speaker> Берендей </speaker>
             <lg>
@@ -1849,7 +1884,7 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-          <stage> Снегурочка , Лель . </stage>
+          <stage> Снегурочка, Лель . </stage>
           <sp who="#Lel">
             <speaker> Лель </speaker>
             <lg>
@@ -2090,13 +2125,12 @@
               <l> Чтоб только лишь чуть теплилось сердечко. </l>
             </lg>
           </sp>
-          <stage> На улице показываются Малуша , Радушка , Малыш , Брусило , Курилка , Лель и другие
-            парни и девушки , потом Купава . Парни с поклоном подходят к девушкам. </stage>
+          <stage> На улице показываются Малуша, Радушка, Малыш, Брусило, Курилка, Лель и другие
+            парни и девушки, потом Купава . Парни с поклоном подходят к девушкам. </stage>
         </div>
         <div type="scene">
           <head> Явление пятое </head>
-          <stage> Снегурочка , Купава , Малуша , Радушка , Малыш , Брусило , Курилка , Лель и
-            берендеи . </stage>
+          <stage> Снегурочка, Купава, Малуша, Радушка, Малыш, Брусило, Курилка, Лель и берендеи . </stage>
           <stage type="delivery"> (парням) </stage>
           <sp who="#Malusha">
             <speaker> Малуша </speaker>
@@ -2291,12 +2325,12 @@
             </lg>
             <stage type="delivery"> (Бежит и прячется между девушек.) </stage>
           </sp>
-          <stage> Входит Мизгирь , за ним двое слуг с мешками. Снегурочка прядет. </stage>
+          <stage> Входит Мизгирь, за ним двое слуг с мешками. Снегурочка прядет. </stage>
         </div>
         <div type="scene">
           <head> Явление шестое </head>
-          <stage> Снегурочка , Купава , Малуша , Радушка , Мизгирь , Малыш , Брусило , Курилка ,
-            Лель , слуги Мизгиря и берендеи . </stage>
+          <stage> Снегурочка, Купава, Малуша, Радушка, Мизгирь, Малыш, Брусило, Курилка, Лель, слуги
+            Мизгиря и берендеи . </stage>
           <sp who="#Kupava">
             <speaker> Купава </speaker>
             <lg>
@@ -2704,7 +2738,7 @@
         </div>
         <div type="scene">
           <head> Явление седьмое </head>
-          <stage> Снегурочка , Купава , Мизгирь , Лель , Бобыль , Бобылиха . </stage>
+          <stage> Снегурочка, Купава, Мизгирь, Лель, Бобыль, Бобылиха . </stage>
           <sp who="#Kupava">
             <speaker> Купава </speaker>
             <lg>
@@ -3024,8 +3058,8 @@
         </div>
         <div type="scene">
           <head> Явление восьмое </head>
-          <stage> Снегурочка , Мизгирь , Бобыль , Лель , Купава , Мураш , Радушка , Малуша , Малыш ,
-            Брусило , Курилка , берендеи и берендейки . </stage>
+          <stage> Снегурочка, Мизгирь, Бобыль, Лель, Купава, Мураш, Радушка, Малуша, Малыш, Брусило,
+            Курилка, берендеи и берендейки . </stage>
           <sp who="#Kupava">
             <speaker> Купава </speaker>
             <lg>
@@ -3248,8 +3282,22 @@
       </div>
       <div type="act">
         <head> Действие второе </head>
-        <stage> Открытые сени во дворце Берендея; в глубине, за точеными балясами переходов, видны
-          вершины деревьев сада, деревянные резные башни и вышки. </stage>
+        <castList>
+          <head>Лица:</head>
+          <castItem>Царь Берендей.</castItem>
+          <castItem>Бермята, ближний боярин.</castItem>
+          <castItem>Елена Прекрасная, его жена.</castItem>
+          <castItem>Снегурочка.</castItem>
+          <castItem>Купава.</castItem>
+          <castItem>Бобыль.</castItem>
+          <castItem>Бобылиха.</castItem>
+          <castItem>Мизгирь.</castItem>
+          <castItem>Лель.</castItem>
+          <castItem>Бояре, боярыни, гусляры, слепые, скоморохи, отроки, бирючи, берендеи всякого
+            звания, обоего пола.</castItem>
+        </castList>
+        <stage>Открытые сени во дворце Берендея; в глубине, за точеными балясами переходов, видны
+          вершины деревьев сада, деревянные резные башни и вышки.</stage>
         <div type="scene">
           <head> Явление первое </head>
           <stage> Царь Берендей сидит на золотом стуле, расписывает красками один из столбов. У ног
@@ -3453,7 +3501,7 @@
         </div>
         <div type="scene">
           <head> Явление второе </head>
-          <stage> Царь Берендей , Бермята . </stage>
+          <stage> Царь Берендей, Бермята . </stage>
           <sp who="#Bermjata">
             <speaker> Бермята </speaker>
             <lg>
@@ -3765,7 +3813,7 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-          <stage> Царь Берендей , Бермята , Купава , отроки . </stage>
+          <stage> Царь Берендей, Бермята, Купава, отроки . </stage>
           <sp who="#Kupava">
             <speaker> Купава </speaker>
             <stage type="delivery"> (кланяясь) </stage>
@@ -4185,8 +4233,8 @@
         </div>
         <div type="scene">
           <head> Явление четвертое </head>
-          <stage> Царь Берендей , Бермята , Прекрасная Елена , Купава , Мураш , Лель , Мизгирь ,
-            царские отроки , народ . </stage>
+          <stage> Царь Берендей, Бермята, Прекрасная Елена, Купава, Мураш, Лель, Мизгирь, царские
+            отроки, народ . </stage>
           <sp who="#Tsar">
             <speaker> Царь </speaker>
             <stage type="delivery"> (Елене Прекрасной) </stage>
@@ -4203,7 +4251,7 @@
               <l> От всех сердец, лелеющих любовь. </l>
             </lg>
           </sp>
-          <sp who="#Hornaroda">
+          <sp who="#HorNaroda">
             <speaker> Хор народа </speaker>
             <lg>
               <l> Привет тебе, премудрый, </l>
@@ -4381,13 +4429,13 @@
               <l> Снегурочка идет! </l>
             </lg>
           </sp>
-          <stage> Входит Снегурочка , за ней Бобыль и Бобылиха , одетая богато, в большой рогатой
+          <stage> Входит Снегурочка, за ней Бобыль и Бобылиха, одетая богато, в большой рогатой
             кичке. </stage>
         </div>
         <div type="scene">
           <head> Явление пятое </head>
-          <stage> Царь Берендей , Бермята , Прекрасная Елена , Купава , Мураш , Лель , Мизгирь ,
-            Снегурочка , Бобыль, Бобылиха , царские отроки , народ . </stage>
+          <stage> Царь Берендей, Бермята, Прекрасная Елена, Купава, Мураш, Лель, Мизгирь,
+            Снегурочка, Бобыль, Бобылиха, царские отроки, народ . </stage>
           <sp who="#Snegurochka">
             <speaker> Снегурочка </speaker>
             <stage type="delivery"> (оглядывая дворец) </stage>
@@ -4753,17 +4801,36 @@
       </div>
       <div type="act">
         <head> Действие третье </head>
-        <stage> Просторная поляна в лесу; справа и слева сплошной лес стеной; перед лесом, по обе
-          стороны, невысокие кусты. Вдали, меж кустами, видны богатые шатры. Вечерняя заря догорает. </stage>
+        <castList>
+          <head>Лица:</head>
+          <castItem>Царь Берендей.</castItem>
+          <castItem>Бермята.</castItem>
+          <castItem>Елена Прекрасная.</castItem>
+          <castItem>Снегурочка.</castItem>
+          <castItem>Бобыль.</castItem>
+          <castItem>Бобылиха.</castItem>
+          <castItem>Мизгирь.</castItem>
+          <castItem>Лель.</castItem>
+          <castItem>Мураш.</castItem>
+          <castItem>Купава.</castItem>
+          <castItem>Радушка.</castItem>
+          <castItem>Малуша.</castItem>
+          <castItem>Брусило.</castItem>
+          <castItem>Курилка.</castItem>
+          <castItem>Леший.</castItem>
+          <castItem>Скоморохи, гудочники, волынщики, свита царя и народ.</castItem>
+        </castList>
+        <stage>Просторная поляна в лесу; справа и слева сплошной лес стеной; перед лесом, по обе
+          стороны, невысокие кусты. Вдали, меж кустами, видны богатые шатры. Вечерняя заря
+          догорает.</stage>
         <div type="scene">
           <head> Явление первое </head>
           <stage> Молодые берендеи водят круги; один круг ближе к зрителям, другой поодаль. Девушки
             и парни в венках. Старики и старухи кучками сидят под кустами и угощаются брагой и
-            пряниками. В первом кругу ходят: Купава , Радушка , Малуша , Брусило , Курилка , в
-            середине круга: Лель и Снегурочка . Мизгирь , не принимая участия в играх, то
-            показывается между народом, то уходит в лес. Бобыль пляшет под волынку. Бобылиха , Мураш
-            и несколько их соседей сидят под кустом и пьют пиво. Царь со свитой смотрит издали на
-            играющих. </stage>
+            пряниками. В первом кругу ходят: Купава, Радушка, Малуша, Брусило, Курилка, в середине
+            круга: Лель и Снегурочка . Мизгирь, не принимая участия в играх, то показывается между
+            народом, то уходит в лес. Бобыль пляшет под волынку. Бобылиха, Мураш и несколько их
+            соседей сидят под кустом и пьют пиво. Царь со свитой смотрит издали на играющих. </stage>
           <sp who="#Devushkiiparni">
             <speaker> Девушки и парни </speaker>
             <stage type="delivery"> (водя круги, поют) </stage>
@@ -4797,7 +4864,6 @@
           </sp>
           <stage> Бобыль перестает плясать </stage>
           <sp who="#Bobyliha">
-
             <speaker> Бобылиха </speaker>
             <stage type="delivery"> (подавая Бобылю жбан пива) </stage>
             <lg>
@@ -4816,7 +4882,6 @@
             </lg>
           </sp>
           <sp who="#Tsar">
-
             <speaker> Царь </speaker>
             <stage type="delivery"> (проходит между гуляющими) </stage>
             <lg>
@@ -4855,7 +4920,6 @@
             </lg>
           </sp>
           <sp who="#Lel">
-
             <speaker> Лель </speaker>
             <stage type="delivery"> (поет) </stage>
             <lg>
@@ -4914,7 +4978,6 @@
           </sp>
           <stage> Лель идет к девушкам. </stage>
           <sp who="#Snegurochka">
-
             <speaker> Снегурочка </speaker>
             <stage type="delivery"> (тихо Лелю) </stage>
             <lg>
@@ -5059,7 +5122,7 @@
         </div>
         <div type="scene">
           <head> Явление второе </head>
-          <stage> Лель , Снегурочка . </stage>
+          <stage> Лель, Снегурочка . </stage>
           <sp who="#Lel">
             <speaker> Лель </speaker>
             <lg>
@@ -5297,7 +5360,7 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-          <stage> Снегурочка , потом Мизгирь . </stage>
+          <stage> Снегурочка, потом Мизгирь . </stage>
           <sp who="#Snegurochka">
             <speaker> Снегурочка </speaker>
             <lg>
@@ -5361,7 +5424,6 @@
             <stage type="delivery"> (Падает на колени.) </stage>
           </sp>
           <sp who="#Snegurochka">
-
             <speaker> Снегурочка </speaker>
             <lg>
               <l> Зачем, зачем? Вставай, Мизгирь! </l>
@@ -5386,7 +5448,6 @@
             <stage type="delivery"> (Старается вырвать руку.) </stage>
           </sp>
           <sp who="#Mizgir">
-
             <speaker> Мизгирь </speaker>
             <lg>
               <l> Постой! </l>
@@ -5485,11 +5546,11 @@
             </lg>
           </sp>
           <stage type="delivery"> (Уходит.) </stage>
-          <stage> Поляна принимает прежний вид. Выходит Лель , за ним Прекрасная Елена . </stage>
+          <stage> Поляна принимает прежний вид. Выходит Лель, за ним Прекрасная Елена . </stage>
         </div>
         <div type="scene">
           <head> Явление четвертое </head>
-          <stage> Лель , Прекрасная Елена . </stage>
+          <stage> Лель, Прекрасная Елена . </stage>
           <sp who="#PrekrasnajaElena">
             <speaker> Прекрасная Елена </speaker>
             <lg>
@@ -5578,7 +5639,6 @@
             </lg>
           </sp>
           <sp who="#PrekrasnajaElena">
-
             <speaker> Прекрасная Елена </speaker>
             <stage type="delivery"> (прижимаясь к Лелю) </stage>
             <lg>
@@ -5604,7 +5664,7 @@
               <l> Сладко </l>
               <l> В объятиях твоих лежать и млеть. </l>
             </lg>
-            <stage> Входит Бермята , Лель передает ему Прекрасную Елену и уходит. </stage>
+            <stage> Входит Бермята, Лель передает ему Прекрасную Елену и уходит. </stage>
             <lg>
               <l> Но пламень чувств моих не зажигает </l>
               <l> Огня в груди у Леля. </l>
@@ -5613,7 +5673,7 @@
         </div>
         <div type="scene">
           <head> Явление пятое </head>
-          <stage> Елена Прекрасная , Бермята . </stage>
+          <stage> Елена Прекрасная, Бермята . </stage>
           <sp who="#Bermjata">
             <speaker> Бермята </speaker>
             <lg>
@@ -5670,7 +5730,6 @@
             </lg>
           </sp>
           <sp who="#Lel">
-
             <speaker> Лель </speaker>
             <stage type="delivery"> (завидев бегущую Купаву) </stage>
             <lg>
@@ -5703,7 +5762,7 @@
         </div>
         <div type="scene">
           <head> Явление седьмое </head>
-          <stage> Лель , Купава , Снегурочка . </stage>
+          <stage> Лель, Купава, Снегурочка . </stage>
           <sp who="#Kupava">
             <speaker> Купава </speaker>
             <lg>
@@ -5862,15 +5921,23 @@
       </div>
       <div type="act">
         <head> Действие четвертое </head>
-        <stage> Ярилина долина: слева (от зрителей) отлогая покатость, покрытая невысокими кустами;
+        <castList>
+          <head>Лица:</head>
+          <castItem>Царь Берендей.</castItem>
+          <castItem>Снегурочка.</castItem>
+          <castItem>Мизгирь.</castItem>
+          <castItem>Лель.</castItem>
+          <castItem>Весна-Красна.</castItem>
+          <castItem>Все берендеи, свита Весны, цветы.</castItem>
+        </castList>
+        <stage>Ярилина долина: слева (от зрителей) отлогая покатость, покрытая невысокими кустами;
           справа — сплошной лес; в глубине озеро, поросшее осокой и водяными растениями с роскошными
           цветами; по берегам цветущие кусты с повисшими над водой ветвями; с правой стороны озера
-          голая Ярилина гора, которая оканчивается острою вершиной. Утренняя заря. </stage>
+          голая Ярилина гора, которая оканчивается острою вершиной. Утренняя заря.</stage>
         <div type="scene">
           <head> Явление первое </head>
           <stage> Призрак Снегурочки несется, едва касаясь земли. Мизгирь идет за ним. </stage>
           <sp who="#Mizgir">
-
             <speaker> Мизгирь </speaker>
             <lg>
               <l> Всю ночь в глазах мелькает милый образ. </l>
@@ -5881,9 +5948,8 @@
         </div>
         <div type="scene">
           <head> Явление второе </head>
-          <stage> Снегурочка , потом Весна . </stage>
+          <stage> Снегурочка, потом Весна . </stage>
           <sp who="#Snegurochka">
-
             <speaker> Снегурочка </speaker>
             <stage type="delivery"> (обращаясь к озеру) </stage>
             <lg>
@@ -5893,7 +5959,7 @@
               <l> И жалобы Снегурочки твоей. </l>
             </lg>
           </sp>
-          <stage> Из озера поднимается Весна , окруженная цветами . </stage>
+          <stage> Из озера поднимается Весна, окруженная цветами . </stage>
           <sp who="#Vesna">
             <speaker> Весна </speaker>
             <lg>
@@ -6002,7 +6068,6 @@
             <stage type="delivery"> (Надевает венок на голову Снегурочки.) </stage>
           </sp>
           <sp who="#Snegurochka">
-
             <speaker> Снегурочка </speaker>
             <lg>
               <l> Ах, мама, что со мной? Какой красою </l>
@@ -6063,9 +6128,8 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-          <stage> Снегурочка , Мизгирь . </stage>
+          <stage> Снегурочка, Мизгирь . </stage>
           <sp who="#Mizgir">
-
             <speaker> Мизгирь </speaker>
             <lg>
               <l> Снегурочка! </l>
@@ -6214,22 +6278,21 @@
             <stage type="delivery"> (Становится под тень куста.) </stage>
           </sp>
           <stage> Из лесу по горе сходит народ ; впереди гусляры играют на гуслях и пастухи на
-            рожках, за ними царь со свитой , за царем попарно женихи и невесты в праздничных
-            одеждах, далее все берендеи . Сойдя в долину, народ разделяется на две стороны. </stage>
+            рожках, за ними царь со свитой, за царем попарно женихи и невесты в праздничных одеждах,
+            далее все берендеи . Сойдя в долину, народ разделяется на две стороны. </stage>
         </div>
         <div type="scene">
           <head> Явление четвертое </head>
-          <stage> Снегурочка , Мизгирь , царь Берендей , Лель и весь народ . Все с ожиданием смотрят
-            на восток и при первых лучах солнца запевают. </stage>
-          <sp who="#Odnastorona">
-
+          <stage> Снегурочка, Мизгирь, царь Берендей, Лель и весь народ . Все с ожиданием смотрят на
+            восток и при первых лучах солнца запевают. </stage>
+          <sp who="#OdnaStorona">
             <speaker> Одна сторона: </speaker>
             <lg>
               <l> А мы просо сеяли, сеяли, </l>
               <l> Ой Дид-Ладо, сеяли, сеяли. </l>
             </lg>
           </sp>
-          <sp who="#Drugajastorona">
+          <sp who="#DrugajaStorona">
             <speaker> Другая сторона: </speaker>
             <lg>
               <l> А мы просо вытопчем, вытопчем, </l>
@@ -6315,7 +6378,6 @@
             </lg>
           </sp>
           <sp who="#Mizgir">
-
             <speaker> Мизгирь </speaker>
             <stage type="delivery"> (подводя Снегурочку к царю) </stage>
             <lg>
@@ -6326,7 +6388,7 @@
               <l> Перемени! </l>
             </lg>
           </sp>
-          <sp who="#Golosaiznaroda">
+          <sp who="#GolosaIzNaroda">
             <speaker> Голоса из народа </speaker>
             <lg>
               <l> О, диво, полюбила </l>
@@ -6391,7 +6453,6 @@
             <stage type="delivery"> (Убегает на Ярилину гору и бросается в озеро.) </stage>
           </sp>
           <sp who="#Tsar">
-
             <speaker> Царь </speaker>
             <lg>
               <l> Снегурочки печальная кончина </l>
@@ -6424,7 +6485,7 @@
               <l> Нет тебя в мире краше. </l>
             </lg>
           </sp>
-          <sp who="#Obschijhor">
+          <sp who="#ObschijHor">
             <speaker> Общий хор </speaker>
             <lg>
               <l> Свет и сила, </l>
