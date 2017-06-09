@@ -205,13 +205,35 @@ def graph_metrics(file):
     return density, num_of_char, max_degree_chars_str, avg_clust_coeff
 
 
+def gender_proportion(file):
+    tei = open(file, 'r', encoding='utf-8').read()
+    text = re.search('<text>(.*?)</text>', tei, re.DOTALL).group(1)
+    gender_dict = {}
+    participants = re.findall('<person xml:id="(.*?)" sex="(.*?)">', tei)
+    for participant in participants:
+        gender_dict[participant[0]] = participant[1]
+    female = 0
+    male = 0
+    for participant in gender_dict:
+        gender = gender_dict[participant]
+        num_of_speech_acts = len(re.findall('#' + participant, text))
+        if gender == 'FEMALE':
+            female += num_of_speech_acts
+        if gender == 'MALE':
+            male += num_of_speech_acts
+    return round(female/(female+male), 2), round(male/(female+male), 2)
+
+
+
+
 years = open('./years_of_creation.csv')
 years = csv.DictReader(years, delimiter=',')
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
-table.write('Play,Year_of_creation,Num_of_segments,Num_of_acts,Max_weight,Max_degree,Density,Num_of_char,'
+table.write('Play,Year_of_creation,Num_of_segments,Num_of_acts,Female_part,Male_part,'
+            'Max_weight,Max_degree,Density,Num_of_char,'
             'Chars_with_max_degree,Average_clust_coef,Genre,\n')
 
 
@@ -230,25 +252,28 @@ all_csv = glob.glob(ilibrary_csv_path+'*.csv') + glob.glob(wikisource_csv_path+'
 
 data = list()
 for file in all_tei:
-    years = open('./years_of_creation.csv')
-    years = csv.DictReader(years, delimiter=',')
-    data_f = list()
-    file_name = write_filename(file)
-    print(file_name)
-    data_f.append(file_name)
-    data_f.append(get_date(file))
-    data_f.append(num_of_segments(file))
-    data_f.append(num_of_acts(file))
-    for el in all_csv:
-        if file_name in el:
-            data_f.append(max_weight(el))
-            data_f.append(max_degree(el))
-            data_f.append(round(graph_metrics(el)[0], 2))
-            data_f.append(graph_metrics(el)[1])
-            data_f.append(graph_metrics(el)[2])
-            data_f.append(graph_metrics(el)[3])
-    data_f.append(genre(file))
-    data.append(data_f)
+    if 'DUPLICATE' not in file:
+        years = open('./years_of_creation.csv')
+        years = csv.DictReader(years, delimiter=',')
+        data_f = list()
+        file_name = write_filename(file)
+        print(file_name)
+        data_f.append(file_name)
+        data_f.append(get_date(file))
+        data_f.append(num_of_segments(file))
+        data_f.append(num_of_acts(file))
+        data_f.append(gender_proportion(file)[0])
+        data_f.append(gender_proportion(file)[1])
+        for el in all_csv:
+            if file_name in el:
+                data_f.append(max_weight(el))
+                data_f.append(max_degree(el))
+                data_f.append(round(graph_metrics(el)[0], 2))
+                data_f.append(graph_metrics(el)[1])
+                data_f.append(graph_metrics(el)[2])
+                data_f.append(graph_metrics(el)[3])
+        data_f.append(genre(file))
+        data.append(data_f)
 
 for d in data:
     for el in d:
