@@ -196,6 +196,7 @@
         <change who="#ds" when="2017-05-23">removed 'unknown speaker'</change>
         <change who="#GG" when="2017-06-03">gender info</change>
         <change who="#ff" when="2017-06-08">formalities; added dramatis personae at the beginning of each act</change>
+        <change who="#GG" when="2017-09-03">corrected ids</change> <change who="#GG" when="2017-06-03">gender info</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
