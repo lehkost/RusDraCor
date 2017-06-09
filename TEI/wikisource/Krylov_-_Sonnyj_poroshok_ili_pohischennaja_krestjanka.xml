@@ -72,9 +72,7 @@
           <person xml:id="Zhaneta" sex="FEMALE">
             <persName>Жанета</persName>
           </person>
-          <person xml:id="Vse" sex="UNKNOWN">
-            <persName>Все</persName>
-          </person>
+          
           <person xml:id="Rabotniki" sex="UNKNOWN">
             <persName>Работники и дочери Блеза</persName>
           </person>
@@ -96,6 +94,7 @@
           "Вместе" parts, see source document)</change>
         <change who="#zhenya" when="2017-05-16">Changed IDs</change>
         <change who="#ff" when="2017-06-07">corrected one ID; front matter</change>
+        <change who="#GG" when="2017-09-07">corrected ids ("vse")</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -156,14 +155,14 @@
             <l>Тесто чтоб твое поспело,</l>
             <l>Делай чище и сдобней.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Muzhiki #Nineta #Zhaneta #Hor #Zhuleta #Rabotniki">
             <speaker>Все</speaker>
             <l>Завтра пировать почтимся,</l>
             <l>Будет радостен сей день!</l>
             <l>Как для свадьбы мы трудимся,</l>
             <l>Должно делать веселей!</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Muzhiki #Nineta #Zhaneta #Hor #Zhuleta #Rabotniki">
             <speaker>Все</speaker>
             <l>Ратаплан, ратаплан, ратаплан-план.</l>
           </sp>
@@ -186,7 +185,7 @@
             <l>Будет труд сей для меня,</l>
             <l>Но того дождемся дня.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Muzhiki #Nineta #Zhaneta #Hor #Zhuleta #Rabotniki">
             <speaker>Все</speaker>
             <l>Трала-рала-рала,</l>
             <l>Ралалан, ралалан, гралирала, ралалан.</l>
@@ -200,7 +199,7 @@
             <l>К зайцу, должно, я считаю, чтобы был и метжелень. </l>
             <l>кус люблю, чтоб был придан.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Muzhiki #Nineta #Zhaneta #Hor #Zhuleta #Rabotniki">
             <speaker>Все</speaker>
             <l>Я тому все, я тому все пунфе</l>
             <l part="F"> дан, дан, пунфе,</l>
@@ -1480,7 +1479,7 @@
             <speaker>Паулин</speaker>
             <l>Пристойно скорее винца ним глотнуть.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Paulin #Graf #Blez #Filipp #Zhuleta #Zhaneta #Nineta">
             <speaker>Все</speaker>
             <l>Неможно умнее сего говорить,</l>
             <l>Чтоб быть веселее,</l>
@@ -1507,7 +1506,7 @@
             <l>Так, так, давай выпьем,</l>
             <l>Выпьем теперь же его!</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Paulin #Graf #Blez #Filipp #Zhuleta #Zhaneta #Nineta">
             <speaker>Все</speaker>
             <l>Так, так, изволь, выпьем, выпьем!</l>
           </sp>
@@ -1668,7 +1667,7 @@
             <speaker>Жульета</speaker>
             <l>Я обоих вас не знаю.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Paulin #Graf #Blez #Filipp #Zhuleta #Zhaneta #Nineta">
             <speaker>Все</speaker>
             <l>Я шатаюсь, как дойтить?</l>
           </sp>
@@ -2261,7 +2260,7 @@
             <l>Сдержать себя, сдержать, —</l>
             <l>Ревнивость, грусть, любовь, досада...</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Graf #Filipp #Paulin #Zhuleta">
             <speaker>Все</speaker>
             <l>Терзают душу, ах, вместо ада,</l>
             <l>Терзают вместо ада,</l>
@@ -2616,7 +2615,7 @@
             <l>Жалобы свои скончайте,</l>
             <l>Ну, послушность изъявляйте.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Zhuleta #Paulin #Filipp ">
             <speaker>Все</speaker>
             <l>Да за что так наказати?</l>
           </sp>
@@ -2637,7 +2636,7 @@
             <l>Лишь за то, что милый мой</l>
             <l>Возлюблен пред ним столь мной. </l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Zhuleta #Paulin #Filipp ">
             <speaker>Все</speaker>
             <l>Мог что он ее пленить,</l>
             <l>Лишь за то, что больше мил,</l>
@@ -2655,7 +2654,7 @@
             <l>О, любви знак не ложно,</l>
             <l>Каковой лишь может быть!</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Zhuleta #Paulin #Filipp ">
             <speaker>Все</speaker>
             <l>С ним я рад в темнице жить.</l>
           </sp>
@@ -2756,7 +2755,7 @@
             <speaker>Граф</speaker>
             <l>И считает за мечту.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Zhuleta #Paulin #Filipp #Graf">
             <speaker>Все</speaker>
             <l>Нет, сударь, так, сударь!</l>
           </sp>
@@ -2785,7 +2784,7 @@
             <l>Оставляю в веселье вас в сей час,</l>
             <l>Лучший способ считаю.</l>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Blez #Zhuleta #Paulin #Filipp #Graf">
             <speaker>Все</speaker>
             <l>Милость вашу чтоб вкусить,</l>
             <l>Нам в веселье пойтить,</l>
