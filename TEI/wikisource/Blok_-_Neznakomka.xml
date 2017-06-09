@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="ru">Незнакомка</title>
-        <title type="main" xml:lang="en">The Unknown Lady</title>
+        <title type="main" xml:lang="en">The Unknown Woman</title>
         <title type="sub" xml:lang="ru">Драма</title>
         <title type="sub" xml:lang="en">Drama</title>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
@@ -34,7 +34,8 @@
             <title/>
             <date type="print" when="1907">Впервые — в журнале «Весы», 1907, № 5, с. 21—28 с
               подзаголовком «Пьеса в трёх видениях».</date>
-            <date type="premiere" when="1913">февраль 1913 в Московском литературно-художественном кружке</date>
+            <date type="premiere" when="1913">февраль 1913 в Московском литературно-художественном
+              кружке</date>
             <date type="written" when="1906">11 ноября 1906</date>
           </bibl>
         </bibl>
@@ -52,7 +53,7 @@
           <person xml:id="Sobesednik" sex="MALE">
             <persName>Собеседник</persName>
           </person>
-          <person xml:id="RazJarennyeDvorniki" sex="MALE">
+          <person xml:id="RazjarennyeDvorniki" sex="MALE">
             <persName>Разъяренные дворники</persName>
           </person>
           <person xml:id="Muzhchina" sex="MALE">
@@ -79,7 +80,7 @@
           <person xml:id="Gauptman" sex="MALE">
             <persName>Гауптман</persName>
           </person>
-          <person xml:id="PervyjSobutylNik" sex="MALE">
+          <person xml:id="PervyjSobutylnik" sex="MALE">
             <persName>Собутыльник</persName>
           </person>
           <person xml:id="MolodojChelovek" sex="MALE">
@@ -103,7 +104,7 @@
           <person xml:id="Zhorzh" sex="MALE">
             <persName>Молодой человек Жорж</persName>
           </person>
-          <person xml:id="VtorojSobutylNik" sex="MALE">
+          <person xml:id="VtorojSobutylnik" sex="MALE">
             <persName>Второй собутыльник</persName>
           </person>
           <person xml:id="Pervyj" sex="MALE">
@@ -112,7 +113,7 @@
           <person xml:id="Gost" sex="MALE">
             <persName>Гость</persName>
           </person>
-          <person xml:id="ChelovekVPalTo" sex="MALE">
+          <person xml:id="ChelovekVPalto" sex="MALE">
             <persName>Человек в пальто</persName>
           </person>
           <person xml:id="Hozjain" sex="MALE">
@@ -124,7 +125,7 @@
           <person xml:id="Starik" sex="MALE">
             <persName>Старик</persName>
           </person>
-          <person xml:id="Kto-To" sex="UNKNOWN">
+          <person xml:id="KtoTo" sex="UNKNOWN">
             <persName>Кто-то</persName>
           </person>
           <person xml:id="Misha" sex="MALE">
@@ -151,11 +152,10 @@
   </teiHeader>
   <text>
     <front>
-      <div type="front">
-        <head>Незнакомка</head>
-      </div>
-    </front>
-    <body>
+      <docTitle>
+        <titlePart type="main">Незнакомка</titlePart>
+        <titlePart type="sub">Драма</titlePart>
+      </docTitle>
       <epigraph>
         <cit>
           <quote>На портрете была изображена действительно необыкновенной красоты женщина. Она была
@@ -175,8 +175,8 @@
         </cit>
         <bibl>Достоевский</bibl>
       </epigraph>
-      <p>ДЕЙСТВУЮЩИЕ ЛИЦА</p>
       <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Незнакомка.</castItem>
         <castItem>Голубой.</castItem>
         <castItem>Звездочет.</castItem>
@@ -184,6 +184,8 @@
         <castItem>Посетители кабачка и гостиной.</castItem>
         <castItem>Два дворника.</castItem>
       </castList>
+    </front>
+    <body>
       <div type="scene">
         <head>ПЕРВОЕ ВИДЕНИЕ</head>
         <stage>Уличный кабачок. Подрагивает бело-матовый свет ацетиленового фонаря в смятом
@@ -224,7 +226,7 @@
           <p>И танцовала она, милый друг ты мой, скажу я тебе, как небесное создание. Просто взял бы
             ее за белые ручки и прямо в губки, скажу тебе, поцеловал…</p>
         </sp>
-        <sp who="#PervyjSobutylNik">
+        <sp who="#PervyjSobutylnik">
           <speaker>Собутыльник</speaker>
           <p>Эка, эка, Васинька-то наш, размечтался, заалел, как маков цвет! А что она тебе за
             любовь-то? За любовь-то что?.. А?..</p>
@@ -237,15 +239,15 @@
             летала бы. И откуда мои крылья взялись, — сам полетел бы за ней, над белыми снегами…</p>
           <stage>Все хохочут.</stage>
         </sp>
-        <sp who="#VtorojSobutylNik">
+        <sp who="#VtorojSobutylnik">
           <speaker>Второй собутыльник</speaker>
           <p>Ты, Васька, смотри, того, по первопутку-то не очень полетишь…</p>
         </sp>
-        <sp who="#PervyjSobutylNik">
+        <sp who="#PervyjSobutylnik">
           <speaker>Первый собутыльник</speaker>
           <p>Тебе бы по морозцу-то легче, а то с твоей милой как раз в грязь угодишь…</p>
         </sp>
-        <sp who="#VtorojSobutylNik">
+        <sp who="#VtorojSobutylnik">
           <speaker>Второй собутыльник</speaker>
           <p>Мечтатель.</p>
         </sp>
@@ -346,7 +348,7 @@
           <p>Танцевала она, как небесный, скажу вам, ангел, а вы, черти и разбойники, не стоите ее
             мизинца. А впрочем, выпьем.</p>
         </sp>
-        <sp who="#PervyjSobutylNik">
+        <sp who="#PervyjSobutylnik">
           <speaker>Собутыльник</speaker>
           <p>Мечтатель. Оттого и пьешь. И все мы — мечтатели. Поцелуй меня, дружок.</p>
           <stage>Обнимаются.</stage>
@@ -360,7 +362,7 @@
             не пивал, тот и дружбы не видал.</p>
           <stage>Все хохочут.</stage>
         </sp>
-        <sp who="#PervyjSobutylNik">
+        <sp who="#PervyjSobutylnik">
           <speaker>Собутыльник</speaker>
           <p>Ай да Васька! Уж очень складно! Поцелуемся, дружок.</p>
         </sp>
@@ -377,7 +379,7 @@
             трепаном пальто, сидевший отдельно, встает и обращается к честно́й компании с
             речью.</stage>
         </sp>
-        <sp who="#ChelovekVPalTo">
+        <sp who="#ChelovekVPalto">
           <speaker>Человек в пальто</speaker>
           <p>Государи мои! Есть у меня небольшая вещица — весьма ценная миниатюра.
               <stage>(Вытаскивает из кармана камею.)</stage> Вот-с, не угодно ли: с одной стороны —
@@ -390,7 +392,7 @@
           <p>Вечная сказка. Это — Она — Мироправительница. Она держит жезл и повелевает миром. Все
             мы очарованы Ею.</p>
         </sp>
-        <sp who="#ChelovekVPalTo">
+        <sp who="#ChelovekVPalto">
           <speaker>Человек в пальто</speaker>
           <p>Рад служить русской интеллигенции. Дешево продам, хотя досталось не дешево, но уж, как
             говорится, только по дружбе. Вижу, что любитель. Ну, так по рукам.</p>
@@ -450,7 +452,7 @@
             все не могут доплыть. Сквозь смутный общий говор человек в пальто, уже присоединившийся
             к кому-то, кричит.</stage>
         </sp>
-        <sp who="#ChelovekVPalTo">
+        <sp who="#ChelovekVPalto">
           <speaker>Человек в пальто</speaker>
           <p>Нет-с, я любитель! Люблю острый сыр, знаете, такой круглый! (Делает кругообразные
             жесты.) Забыл название.</p>
@@ -459,7 +461,7 @@
           <speaker>Его собеседник</speaker>
           <p>А вы… пробовали?</p>
         </sp>
-        <sp who="#ChelovekVPalTo">
+        <sp who="#ChelovekVPalto">
           <speaker>Человек в пальто</speaker>
           <p>Что пробовал? Вы думаете, нет? Я рошефор кушал!</p>
         </sp>
@@ -468,7 +470,7 @@
           <p>А знаете… люксем-бургский… так пахнет нехорошо… и шевелится, шевелится… (Чмокает
             губами, шевелит пальцами.)</p>
         </sp>
-        <sp who="#ChelovekVPalTo">
+        <sp who="#ChelovekVPalto">
           <speaker>Человек в пальто</speaker>
           <p>Швейцарский!.. Вот что-с! <stage>(Щелкает пальцами.)</stage></p>
         </sp>
@@ -476,7 +478,7 @@
           <speaker>Собеседник</speaker>
           <p>Ну, этим не удивите…</p>
         </sp>
-        <sp who="#ChelovekVPalTo">
+        <sp who="#ChelovekVPalto">
           <speaker>Человек в пальто</speaker>
           <p>Бри!</p>
         </sp>
@@ -484,7 +486,7 @@
           <speaker>Собеседник</speaker>
           <p>Ну это… это… знаете…</p>
         </sp>
-        <sp who="#ChelovekVPalTo">
+        <sp who="#ChelovekVPalto">
           <speaker>Человек в пальто</speaker>
           <p>Что знаете?</p>
         </sp>
@@ -535,7 +537,7 @@
           <l>Кто этот пьяница?</l>
           <stage>Два дворника волокут под руки пьяного Поэта.</stage>
         </sp>
-        <sp who="#Razjarennyedvorniki">
+        <sp who="#RazjarennyeDvorniki">
           <speaker>Разъяренные дворники</speaker>
           <l>Он — посетитель кабачка,</l>
           <l>И с ним расправа коротка!</l>
@@ -1256,7 +1258,7 @@
             бессмысленного говора вырывается хохот, отдельные слова и целые фразы:</stage>
           <p>Нет, как она танцевала! Да ты послушай! Русская интеллигенция…</p>
         </sp>
-        <sp who="#Kto-To">
+        <sp who="#KtoTo">
           <speaker>Кто-то</speaker>
           <p>Да и вам не поймать! Да и вам не поймать!</p>
           <stage>Все забыли о Поэте. Он медленно поднимается со своего места. Он проводит рукою по
