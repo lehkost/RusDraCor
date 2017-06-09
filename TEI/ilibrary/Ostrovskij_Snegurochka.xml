@@ -136,9 +136,7 @@
           <person xml:id="VesnaKrasna" sex="FEMALE">
             <persName> Весна-Красна </persName>
           </person>
-          <person xml:id="Vse" sex="UNKNOWN">
-            <persName> Все </persName>
-          </person>
+          
           <person xml:id="Bobyl" sex="MALE">
             <persName> Бобыль </persName>
           </person>
@@ -3257,7 +3255,7 @@
               <l> Великий царь. Проси царя, Купава. </l>
             </lg>
           </sp>
-          <sp who="#Vse">
+          <sp who="#Murash #Lel #Kupava #Mizgir #Radushka #Brusilo #Malusha #Malysh #Berendei #Kurilka #Snegurochka #Bobyl">
             <speaker> Все </speaker>
             <lg>
               <l> За всех сирот заступник Берендей. </l>
