@@ -4,6 +4,8 @@ import glob
 import csv
 import xml.etree.ElementTree as ET
 import networkx as nx
+from bs4 import BeautifulSoup
+from lxml import etree
 
 
 def write_filename(file):
@@ -224,6 +226,72 @@ def gender_proportion(file):
     return round(female/(female+male), 2), round(male/(female+male), 2)
 
 
+def gender_words(file):
+    gender_words_dict0 = {}
+    gender_words_dict1 = {}
+    divs = get_divs(file)
+    if divs is not None:
+        for div in divs:
+            sps = div.findall('tei:sp', ns)
+            if sps is not None:
+                for sp in sps:
+                    speaker = re.sub('#', '', sp.attrib['who'])
+                    #print(speaker)
+                    gender_words_dict0[speaker] = 0
+                    text = sp.findall('tei:l', ns)
+                    if len(text) != 0:
+                        for t in text:
+                            gender_words_dict0[speaker] += len(t.text.split())
+                    else:
+                        text = sp.findall('tei:lg:l', ns)
+                        if len(text) != 0:
+                            for t in text:
+                                gender_words_dict0[speaker] += len(t.text.split())
+                        else:
+                            text = sp.findall('tei:p', ns)
+                            if len(text) != 0:
+                                for t in text:
+                                    gender_words_dict0[speaker] += len(t.text.split())
+                    for ch in gender_words_dict0:
+                        if ch in gender_words_dict1:
+                            gender_words_dict1[ch] += gender_words_dict0[ch]
+                        else:
+                            gender_words_dict1[ch] = gender_words_dict0[ch]
+            else:
+                subdivs = div.findall('tei:div', ns)
+                for subdiv in subdivs:
+                    sps = subdiv.findall('tei:sp', ns)
+                    if sps is not None:
+                        for sp in sps:
+                            speaker = re.sub('#', '', sp.attrib['who'])
+                            #print(speaker)
+                            gender_words_dict0[speaker] = 0
+                            text = sp.findall('tei:l', ns)
+                            if len(text) != 0:
+                                for t in text:
+                                    gender_words_dict0[speaker] += len(t.text.split())
+                            else:
+                                text = sp.findall('tei:lg:l', ns)
+                                if len(text) != 0:
+                                    for t in text:
+                                        gender_words_dict0[speaker] += len(t.text.split())
+                                else:
+                                    text = sp.findall('tei:p', ns)
+                                    if len(text) != 0:
+                                        for t in text:
+                                            gender_words_dict0[speaker] += len(t.text.split())
+                            for ch in gender_words_dict0:
+                                if ch in gender_words_dict1:
+                                    gender_words_dict1[ch] += gender_words_dict0[ch]
+                                else:
+                                    gender_words_dict1[ch] = gender_words_dict0[ch]
+
+                #for t in text:
+                    #print(t.text)
+    print(gender_words_dict1)
+
+
+
 
 
 years = open('./years_of_creation.csv')
@@ -264,6 +332,7 @@ for file in all_tei:
         data_f.append(num_of_acts(file))
         data_f.append(gender_proportion(file)[0])
         data_f.append(gender_proportion(file)[1])
+        gender_words(file)
         for el in all_csv:
             if file_name in el:
                 data_f.append(max_weight(el))
