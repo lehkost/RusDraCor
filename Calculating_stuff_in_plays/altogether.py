@@ -223,7 +223,7 @@ def gender_proportion(file):
             female += num_of_speech_acts
         if gender == 'MALE':
             male += num_of_speech_acts
-    return round(female/(female+male), 2), round(male/(female+male), 2)
+    return female, male, round(female/(female+male), 2), round(male/(female+male), 2)
 
 
 def gender_words(file):
@@ -254,7 +254,19 @@ def gender_words(file):
             female += ch_words_dict[ch]
         if gender_dict[ch] == 'MALE':
             male += ch_words_dict[ch]
-    return round(female/(female+male), 2), round(male/(female+male), 2)
+    female_repls = gender_proportion(file)[0]
+    male_repls = gender_proportion(file)[1]
+    if female_repls != 0 and male_repls != 0:
+        return round(female/gender_proportion(file)[0], 2),round(male/gender_proportion(file)[1], 2),\
+            round(female/(female+male), 2), round(male/(female+male), 2)
+    else:
+        if female_repls == 0:
+            return 0, round(male/gender_proportion(file)[1], 2),\
+                round(female/(female+male), 2), round(male/(female+male), 2)
+        if male_repls == 0:
+            return round(female/gender_proportion(file)[0], 2), 0,\
+                round(female/(female+male), 2), round(male/(female+male), 2)
+
 
 
 def gender_words_fail(file):
@@ -332,6 +344,7 @@ ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 table = open('calculations.csv', 'w', encoding='utf-8')
 table.write('Play,Year_of_creation,Num_of_segments,Num_of_acts,Female_part,Male_part,Female_words,Male_words,'
+            'Mean_len_fem_re,Mean_len_male_re,'
             'Max_weight,Max_degree,Density,Num_of_char,'
             'Chars_with_max_degree,Average_clust_coef,Genre,\n')
 
@@ -361,10 +374,14 @@ for file in all_tei:
         data_f.append(get_date(file))
         data_f.append(num_of_segments(file))
         data_f.append(num_of_acts(file))
-        data_f.append(gender_proportion(file)[0])
-        data_f.append(gender_proportion(file)[1])
+        data_f.append(gender_proportion(file)[2])
+        data_f.append(gender_proportion(file)[3])
+        data_f.append(gender_words(file)[2])
+        data_f.append(gender_words(file)[3])
         data_f.append(gender_words(file)[0])
         data_f.append(gender_words(file)[1])
+        if gender_words(file)[0] > gender_words(file)[1]:
+            print('fem res are londer', gender_words(file)[0], gender_words(file)[1])
         for el in all_csv:
             if file_name in el:
                 data_f.append(max_weight(el))
