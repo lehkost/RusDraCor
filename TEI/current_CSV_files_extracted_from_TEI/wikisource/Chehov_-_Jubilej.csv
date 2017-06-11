@@ -1,10 +1,10 @@
 Source;Type;Target;Weight
-ChlenBanka;Undirected;TatjanaAlekseevna;1
-ChlenBanka;Undirected;Merchutkina;1
-Merchutkina;Undirected;TatjanaAlekseevna;3
-Hirin;Undirected;Merchutkina;3
 Hirin;Undirected;Shipuchin;4
-Merchutkina;Undirected;Shipuchin;4
-Shipuchin;Undirected;TatjanaAlekseevna;4
-Hirin;Undirected;TatjanaAlekseevna;2
 ChlenBanka;Undirected;Shipuchin;1
+Merchutkina;Undirected;Shipuchin;4
+ChlenBanka;Undirected;Merchutkina;1
+ChlenBanka;Undirected;TatjanaAlekseevna;1
+Hirin;Undirected;TatjanaAlekseevna;2
+Hirin;Undirected;Merchutkina;3
+Merchutkina;Undirected;TatjanaAlekseevna;3
+Shipuchin;Undirected;TatjanaAlekseevna;4

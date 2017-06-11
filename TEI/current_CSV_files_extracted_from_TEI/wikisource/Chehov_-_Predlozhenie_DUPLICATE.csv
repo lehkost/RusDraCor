@@ -1,6 +1,6 @@
 Source;Type;Target;Weight
 Lomov;Undirected;NataljaStepanovnaILomov;1
 NataljaStepanovna;Undirected;NataljaStepanovnaILomov;1
-Chubukov;Undirected;Lomov;3
 Chubukov;Undirected;NataljaStepanovna;3
+Chubukov;Undirected;Lomov;3
 Lomov;Undirected;NataljaStepanovna;4

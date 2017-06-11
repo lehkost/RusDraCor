@@ -1,7 +1,7 @@
 Source;Type;Target;Weight
-Alber;Undirected;Baron;1
+Alber;Undirected;Gertsog;1
 Alber;Undirected;Zhid;1
 Baron;Undirected;Gertsog;1
-Ivan;Undirected;Zhid;1
 Alber;Undirected;Ivan;1
-Alber;Undirected;Gertsog;1
+Ivan;Undirected;Zhid;1
+Alber;Undirected;Baron;1
