@@ -4,9 +4,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Спор древних греческих философов об изящном</title>
-        <title type="sub">Драматическая сцена из древнегреческой классической жизни в
+        <title type="main" xml:lang="ru">Спор древних греческих философов об изящном</title>
+        <title type="main" xml:lang="en">Discourse between Two Greek Philosophers about
+          Beauty</title>
+        <title type="sub" xml:lang="ru">Драматическая сцена из древнегреческой классической жизни в
           стихах.</title>
+        <title type="sub" xml:lang="en">Dramatic Scene from Hellenic Classical Life in
+          Verse.</title>
         <author key="Wikidata:Q1784989">Козьма Прутков</author>
       </titleStmt>
       <publicationStmt>
@@ -32,10 +36,8 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1854">Первая опубликованная пьеса Козьмы Пруткова —
-              «Современник», 1854, № 2. Изначально озаглавлена «Спор греческих философов об изящном.
-              Отрывок из древнеклассической жизни». Пародия на стихи античной тематики современников
-              Пруткова (Щербина, Майков, Фет).</date>
+            <date type="print" when="1854">"Первая опубликованная пьеса Козьмы Пруткова —
+              «Современник», 1854, № 2." (Wikisource)</date>
             <date type="premiere"/>
             <date type="written"/>
           </bibl>
@@ -55,7 +57,8 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle" subtype="drama">Драматическая сцена из древнегреческой классической жизни в стихах</term>
+          <term type="genreTitle" subtype="drama">Драматическая сцена из древнегреческой
+            классической жизни в стихах</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -64,18 +67,17 @@
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
         <change who="#sveta" when="2017-05-01">checked IDs, everything is ok</change>
-        <change who="#to" when="2017-03-06">added gender info</change>
+        <change who="#to" when="2017-06-03">added gender info</change>
+        <change who="#ff" when="2017-06-16">added English title</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
-      <div type="front">
-        <head>Спор древних греческих философов об изящном</head>
-        <p>Действие происходит в окрестностях Древних Афин.</p>
-      </div>
-    </front>
-    <body>
+      <docTitle>
+        <titlePart type="main">Спор древних греческих философов об изящном</titlePart>
+        <titlePart type="sub">Действие происходит в окрестностях Древних Афин.</titlePart>
+      </docTitle>
       <castList>
         <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castGroup rend="braced">
@@ -84,6 +86,8 @@
           <roleDesc>древние греческие философы.</roleDesc>
         </castGroup>
       </castList>
+    </front>
+    <body>
       <div type="scene">
         <stage>Сцена представляет восхитительное местоположение в окрестностях Древних Афин,
           украшенное всеми изумительными дарами древней благодатной греческой природы, то есть:

@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Черепослов, сиречь Френолог</title>
-        <title type="sub">Оперетта в трех картинах.</title>
+        <title type="main" xml:lang="ru">Черепослов, сиречь Френолог</title>
+        <title type="main" xml:lang="en">The Lore of the Skull, or Phrenology</title>
+        <title type="sub" xml:lang="ru">Оперетта в трех картинах</title>
+        <title type="sub" xml:lang="en">Operetta in Three Scenes</title>
         <author key="Wikidata:Q1784989">Козьма Прутков</author>
       </titleStmt>
       <publicationStmt>
@@ -31,9 +33,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1860">Впервые опубликована в журнале "Современник", №5, в 1860 году</date>
-            <date type="premiere"></date>
-            <date type="written" when="1856"></date>
+            <date type="print" when="1860">"Было напечатано в журн. «Современник» 1860 г." (kozma.ru)</date>
+            <date type="premiere"/>
+            <date type="written" when="1856"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -81,24 +83,23 @@
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
         <change who="#sveta" when="2017-05-01">corrected IDs, added dates</change>
-        <change who="#to" when="2017-03-06">added gender info</change>
+        <change who="#to" when="2017-06-03">added gender info</change>
+        <change who="#ff" when="2017-06-16">added English title</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
-      <div type="front">
-        <head>Черепослов, сиречь Френолог</head>
-        <p>Оперетта в трех картинах.</p>
-        <p>Сочинение Петра Федотыча Пруткова (отца)</p>
-        <p>Картина I: Череп жениха.</p>
-        <p>Картина II: Пытка.</p>
-        <p>Картина III: Суженый.</p>
-      </div>
-    </front>
-    <body>
-      <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+      <docTitle>
+        <titlePart type="main">Черепослов, сиречь Френолог</titlePart>
+        <titlePart type="sub">Оперетта в трех картинах.</titlePart>
+      </docTitle>
+      <p>Сочинение Петра Федотыча Пруткова (отца)</p>
+      <p>Картина I: Череп жениха.</p>
+      <p>Картина II: Пытка.</p>
+      <p>Картина III: Суженый.</p>
       <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Шишкенгольм, френолог. Старик бодрый, но плешивый; с шишковатым
           черепом.</castItem>
         <castItem>Мина Христиановна, жена Шишкенгольма. Седая, но дряхлая.</castItem>
@@ -128,7 +129,11 @@
             морщинистое; волосы жидкие, вылезшие: оттого лоб его высокий.</castItem>
         </castGroup>
       </castList>
-      <stage>Действие происходит в С.-Петербурге.</stage>
+      <set>
+        <p>Действие происходит в С.-Петербурге.</p>
+      </set>
+    </front>
+    <body>
       <div type="scene">
         <head>Картина I.— ЧЕРЕП ЖЕНИХА</head>
         <stage>Сцена представляет учебный кабинет Шишкенгольма. Задняя стена в полках с книгами; в
@@ -712,6 +717,7 @@
         </sp>
         <sp who="#Kurtsgalop">
           <speaker>Курцгалоп</speaker>
+          <stage type="delivery">(не слушая его, поет)</stage>
           <l>Я только что купался…</l>
           <l>Совсем продрог!</l>
           <l>Но славно пробежался:</l>
