@@ -649,8 +649,10 @@
           <speaker>Другой</speaker>
           <p>. Нет, не то чтобы... У него есть ум, но сейчас по выходе журнала; а запоздала выходом
             книжка — и в голове ничего. Но, однако ж, пойдем.</p>
+          <stage>Уходят.</stage>
         </sp>
-        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
         <stage>Два любителя искусств.</stage>
         <sp who="#PervyjLubitelIskusstva">
           <speaker>Первый</speaker>
