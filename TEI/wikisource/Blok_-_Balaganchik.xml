@@ -6,8 +6,7 @@
       <titleStmt>
         <title type="main" xml:lang="ru">Балаганчик</title>
         <title type="main" xml:lang="ru">A Puppet Show</title>
-        <title type="sub" xml:lang="ru">Драма</title>
-        <title type="sub" xml:lang="ru">Drama</title>
+        <title type="sub"/>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
       </titleStmt>
       <publicationStmt>
@@ -32,10 +31,12 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1906">апрель 1906, альманах "Факелы" (Библиотека всемирной литературы. Т. 138. М., 1968) </date>
+            <date type="print" when="1906">апрель 1906, альманах "Факелы" (Библиотека всемирной
+              литературы. Т. 138. М., 1968) </date>
             <date type="premiere" when="1906">30 декабря 1906, Драматический театр В. Ф.
               Комиссаржевской (Библиотека всемирной литературы. Т. 138. М., 1968)</date>
-            <date type="written" when="1906">январь 1906 (Библиотека всемирной литературы. Т. 138. М., 1968)</date>
+            <date type="written" when="1906">январь 1906 (Библиотека всемирной литературы. Т. 138.
+              М., 1968)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -95,7 +96,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle" subtype="drama">Драма</term>
+          <term type="genreTitle"/>
         </keywords>
       </textClass>
     </profileDesc>
@@ -103,23 +104,24 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
-        <change who="#sveta" when="2017-04-14">corrected IDs, added print and premiere dates</change>
-        <change who="#sveta" when="2017-05-25">added segmentation, added sources for the dates</change>      
+        <change who="#sveta" when="2017-04-14">corrected IDs, added print and premiere
+          dates</change>
+        <change who="#sveta" when="2017-05-25">added segmentation, added sources for the
+          dates</change>
+        <change who="#ff" when="2017-06-17">no genre info "Драма" in original play</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
-      <div type="front">
-        <head>Балаганчик</head>
-        <div type="dedication">
-          <p>Посвящается Всеволоду Эмильевичу Мейерхольду</p>
-        </div>
+      <docTitle>
+        <titlePart type="main">Балаганчик</titlePart>
+      </docTitle>
+      <div type="dedication">
+        <p>Посвящается Всеволоду Эмильевичу Мейерхольду</p>
       </div>
-    </front>
-    <body>
-      <p>ДЕЙСТВУЮЩИЕ ЛИЦА</p>
       <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Коломбина.</castItem>
         <castItem>Пьеро.</castItem>
         <castItem>Арлекин.</castItem>
@@ -130,6 +132,8 @@
         <castItem>Паяц.</castItem>
         <castItem>Автор.</castItem>
       </castList>
+    </front>
+    <body>
       <div type="configuration">
         <stage>Обыкновенная театральная комната с тремя стенами, окном и дверью.</stage>
         <stage>У освещенного стола с сосредоточенным видом сидят мистики обоего пола — в сюртуках и
