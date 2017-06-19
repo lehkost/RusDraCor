@@ -1,0 +1,7 @@
+Source;Target;Weight
+Amerikanka;DonZhuan;1
+Amerikanets;Amerikanka;1
+Amerikanka;Leporello;1
+Amerikanets;DonZhuan;1
+DonZhuan;Leporello;1
+Amerikanets;Leporello;2

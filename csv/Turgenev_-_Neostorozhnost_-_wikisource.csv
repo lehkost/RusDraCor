@@ -1,0 +1,12 @@
+Source;Target;Weight
+DonPablo;DonRafael;2
+DonBaltazar;DonPablo;2
+DonPablo;Margarita;2
+DonBaltazar;Margarita;2
+DonjaDolores;Margarita;3
+DonRafael;DonjaDolores;3
+DonBaltazar;DonjaDolores;2
+DonPablo;Sekretar;1
+DonRafael;Margarita;3
+DonPablo;DonjaDolores;2
+DonBaltazar;DonRafael;2

@@ -1,7 +1,0 @@
-Source;Type;Target;Weight
-ElenaIvanovnaPopova;Undirected;Luka;1
-Luka;Undirected;Smirnov;4
-Luka;Undirected;Popova;5
-GrigorijStepanovichSmirnov;Undirected;Luka;1
-Popova;Undirected;Smirnov;4
-ElenaIvanovnaPopova;Undirected;GrigorijStepanovichSmirnov;1

@@ -1,7 +1,0 @@
-Source;Type;Target;Weight
-DonZhuan;Undirected;Leporello;1
-Amerikanka;Undirected;Leporello;1
-Amerikanka;Undirected;DonZhuan;1
-Amerikanets;Undirected;Amerikanka;1
-Amerikanets;Undirected;DonZhuan;1
-Amerikanets;Undirected;Leporello;2

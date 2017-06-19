@@ -1,0 +1,12 @@
+Source;Target;Weight
+Dimitrij;Shujskij;7
+Parmen;Shujskij;4
+Dimitrij;Parmen;5
+Dimitrij;Nachalnik;3
+Georgij;Ksenija;8
+Dimitrij;Ksenija;9
+Dimitrij;Georgij;5
+Georgij;Parmen;2
+Ksenija;Shujskij;7
+Georgij;Shujskij;6
+Ksenija;Parmen;3

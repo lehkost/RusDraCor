@@ -1,0 +1,16 @@
+Source;Target;Weight
+Predsedatel;Svjaschennik;1
+Meri;Mnogie;1
+Mnogie;Predsedatel;2
+Meri;Predsedatel;1
+Mnogie;MolodojChelovek;1
+MolodojChelovek;Predsedatel;1
+Meri;MolodojChelovek;1
+Luiza;Meri;1
+Luiza;Predsedatel;1
+Predsedatel;ZhenskijGolos;1
+Svjaschennik;ZhenskijGolos;1
+Luiza;Mnogie;1
+Luiza;MolodojChelovek;1
+Mnogie;ZhenskijGolos;1
+Mnogie;Svjaschennik;1
