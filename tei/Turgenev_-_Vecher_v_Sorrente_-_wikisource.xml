@@ -42,25 +42,25 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="GolosPevtsa">
+          <person xml:id="GolosPevtsa" sex="MALE">
             <persName>Голос певца</persName>
           </person>
-          <person xml:id="Sluga">
+          <person xml:id="Sluga" sex="MALE">
             <persName>Слуга</persName>
           </person>
-          <person xml:id="MrRorelin">
+          <person xml:id="MrRorelin" sex="MALE">
             <persName>M-r Рореlin</persName>
           </person>
-          <person xml:id="Belskij">
+          <person xml:id="Belskij" sex="MALE">
             <persName>Бельский</persName>
           </person>
-          <person xml:id="Avakov">
+          <person xml:id="Avakov" sex="MALE">
             <persName>Аваков</persName>
           </person>
-          <person xml:id="NadezhdaPavlovna">
+          <person xml:id="NadezhdaPavlovna" sex="FEMALE">
             <persName>Надежда Павловна</persName>
           </person>
-          <person xml:id="MarijaPetrovna">
+          <person xml:id="MarijaPetrovna" sex="FEMALE">
             <persName>Мария Петровна</persName>
           </person>
         </listPerson>
