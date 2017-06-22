@@ -1,0 +1,7 @@
+Source;Target;Weight
+Efrem;Mihrjutkin;1
+EfremISeliverst;Seliverst;1
+Efrem;EfremISeliverst;1
+Mihrjutkin;Seliverst;1
+Efrem;Seliverst;1
+EfremISeliverst;Mihrjutkin;1
