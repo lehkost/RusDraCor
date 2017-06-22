@@ -42,49 +42,49 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Pochtalon">
+          <person xml:id="Pochtalon" sex="MALE">
             <persName>Почтальон</persName>
           </person>
-          <person xml:id="GolosMitki">
+          <person xml:id="GolosMitki" sex="MALE">
             <persName>Голос Митьки</persName>
           </person>
-          <person xml:id="Egorych">
+          <person xml:id="Egorych" sex="MALE">
             <persName>Егорыч</persName>
           </person>
-          <person xml:id="Masha">
+          <person xml:id="Masha" sex="FEMALE">
             <persName>Маша</persName>
           </person>
-          <person xml:id="Prjazhkina">
+          <person xml:id="Prjazhkina" sex="FEMALE">
             <persName>Пряжкина</persName>
           </person>
-          <person xml:id="Mitka">
+          <person xml:id="Mitka" sex="MALE">
             <persName>Митька</persName>
           </person>
-          <person xml:id="Shpundik">
+          <person xml:id="Shpundik" sex="MALE">
             <persName>Шпуньдик</persName>
           </person>
-          <person xml:id="Moshkin">
+          <person xml:id="Moshkin" sex="MALE">
             <persName>Мошкин</persName>
           </person>
-          <person xml:id="Malanja">
+          <person xml:id="Malanja" sex="FEMALE">
             <persName>Маланья</persName>
           </person>
-          <person xml:id="Vilitskij">
+          <person xml:id="Vilitskij" sex="MALE">
             <persName>Вилицкий</persName>
           </person>
-          <person xml:id="Sozomenos">
+          <person xml:id="Sozomenos" sex="MALE">
             <persName>Созомэнос</persName>
           </person>
           <person xml:id="PrjazhkinaIShpundik">
             <persName>Пряжкина и Шпуньдик</persName>
           </person>
-          <person xml:id="GolosMoshkina">
+          <person xml:id="GolosMoshkina" sex="MALE">
             <persName>Голос Мошкина</persName>
           </person>
-          <person xml:id="Stratilat">
+          <person xml:id="Stratilat" sex="MALE"> 
             <persName>Стратилат</persName>
           </person>
-          <person xml:id="Fonk">
+          <person xml:id="Fonk" sex="MALE">
             <persName>Фонк</persName>
           </person>
         </listPerson>
