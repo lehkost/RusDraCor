@@ -48,7 +48,7 @@
           <person xml:id="Sluga" sex="MALE">
             <persName>Слуга</persName>
           </person>
-          <person xml:id="MrRorelin" sex="MALE">
+          <person xml:id="MrPopelin" sex="MALE">
             <persName>M-r Рореlin</persName>
           </person>
           <person xml:id="Belskij" sex="MALE">
@@ -186,7 +186,7 @@
         <stage type="delivery">(Дверь из передней наполовину отворяется, и выказывается M-r Рореlin—
           на нем курточка с большими клетками, галстучек a l'enfant.Детский. <stage type="delivery"
             >(франц.)</stage>— Он в бороде и длинных волосах.)</stage>
-        <sp who="#MrRorelin">
+        <sp who="#MrPopelin">
           <speaker>M-r Рореlin</speaker>
           <p>. Pardon, Monsieur...<ref>Простите, сударь… <stage type="delivery"
               >(франц.)</stage></ref></p>
@@ -196,7 +196,7 @@
           <p>
             <stage type="delivery">(оглядываясь)</stage>. Это кто еще?</p>
         </sp>
-        <sp who="#MrRorelin">
+        <sp who="#MrPopelin">
           <speaker>M-r Рореlin</speaker>
           <p>
             <stage type="delivery">(все еще не входя)</stage>. Pardon, c'est ici que demeure Madame
@@ -209,7 +209,7 @@
             <stage type="delivery">(помолчав)</stage>. Вуй— кеске ву вулe?<ref>Да что вы хотите?
                 <stage type="delivery">(франц.)</stage></ref></p>
         </sp>
-        <sp who="#MrRorelin">
+        <sp who="#MrPopelin">
           <speaker>M-r Рореlin</speaker>
           <p>
             <stage type="delivery">(входит. У него небольшой портфель подмышкой)</stage>. Et…
@@ -222,7 +222,7 @@
             <stage type="delivery">(все не двигаясь с места)</stage>. Нон. Кеске ву вулe?<ref>Нет.
               Что вы хотите? <stage type="delivery">(франц.)</stage></ref></p>
         </sp>
-        <sp who="#MrRorelin">
+        <sp who="#MrPopelin">
           <speaker>M-r Рореlin</speaker>
           <p>. Ah! que c'est dommage!— Pardon, Monsieur, vous ne savez pas— reviendra-t-elle
               bientot?<ref>Ах, как это досадно! Простите. Сударь, вы не знаете она скоро вернется?
@@ -232,7 +232,7 @@
           <speaker>Аваков</speaker>
           <p>. Нон-нон… Кескe ву вулe?</p>
         </sp>
-        <sp who="#MrRorelin">
+        <sp who="#MrPopelin">
           <speaker>M-r Рореlin</speaker>
           <p>
             <stage type="delivery">(поглядев на него с некоторым изумленьем)</stage>. Pardon,
@@ -244,7 +244,7 @@
           <speaker>Аваков</speaker>
           <p>. Нон, мосье, нон.</p>
         </sp>
-        <sp who="#MrRorelin">
+        <sp who="#MrPopelin">
           <speaker>M-r Рореlin</speaker>
           <p>. Ah! <stage type="delivery">(С некоторым достоинством.)</stage> Et bien, Monsieur,
             vous aurez la complaisance de dire a Madame que M-r Popelin, artiste peintre, est venu
