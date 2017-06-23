@@ -55,9 +55,6 @@
           <person xml:id="Mihrjutkin" sex="MALE">
             <persName>Михрюткин</persName>
           </person>
-          <person xml:id="EfremISeliverst" sex="MALE">
-            <persName>Ефрем и Селивёрст</persName>
-          </person>
           <person xml:id="Bozhevolnyj" sex="MALE">
             <persName>Божевольный</persName>
           </person>
@@ -96,7 +93,7 @@
     <revisionDesc>
       <listChange>
         <change who="#MatveyKolbasov" when="2017-06-22">Converted from Source</change>
-        <change who="#ff" when="2017-06-22">formalities</change>
+        <change who="#ff" when="2017-06-22">formalities, IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1180,7 +1177,7 @@
             должно быть, зайцы есть. — Эх, ребята, послушайте-ка… Что унывать? — Ну-ка: «В темном
             лесе». <stage type="delivery">(Запевает.)</stage> В темном лесе…</p>
         </sp>
-        <sp who="#EfremISeliverst">
+        <sp who="#Efrem #Seliverst">
           <speaker>Ефрем и Селивёрст</speaker>
           <stage type="delivery">(дружно подхватывают)</stage>
           <l> В темном лесе,</l>
@@ -1201,7 +1198,7 @@
           <p>
             <stage type="delivery">(тоненьким голосом)</stage>. Да в залесьи…</p>
         </sp>
-        <sp who="#EfremISeliverst">
+        <sp who="#Efrem #Seliverst">
           <speaker>Ефрем и Селивёрст</speaker>
           <p>. Да в залесьи…</p>
         </sp>

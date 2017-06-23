@@ -60,9 +60,6 @@
           <person xml:id="Velkarov" sex="MALE">
             <persName>Велькаров</persName>
           </person>
-          <person xml:id="ObeSestry" sex="FEMALE">
-            <persName>Обе сестры</persName>
-          </person>
           <person xml:id="Liza" sex="FEMALE">
             <persName>Лиза</persName>
           </person>
@@ -83,7 +80,7 @@
     <revisionDesc>
       <listChange>
         <change who="#MatveyKolbasov" when="2017-06-22">Converted from Source</change>
-        <change who="#ff" when="2017-06-22">formalities</change>
+        <change who="#ff" when="2017-06-22">formalities, IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -896,7 +893,7 @@
             <stage type="delivery">(входя.)</stage> Его точно зовут маркизом; по отчеству как, не
             знаю, а пробирается в Москву пешком.</p>
         </sp>
-        <sp who="#ObeSestry">
+        <sp who="#Fekla #Lukerja">
           <speaker>Обе сестры</speaker>
           <p>. Бедный!</p>
         </sp>

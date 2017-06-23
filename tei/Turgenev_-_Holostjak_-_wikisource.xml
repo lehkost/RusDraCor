@@ -45,9 +45,6 @@
           <person xml:id="Pochtalon" sex="MALE">
             <persName>Почтальон</persName>
           </person>
-          <person xml:id="GolosMitki" sex="MALE">
-            <persName>Голос Митьки</persName>
-          </person>
           <person xml:id="Egorych" sex="MALE">
             <persName>Егорыч</persName>
           </person>
@@ -75,13 +72,7 @@
           <person xml:id="Sozomenos" sex="MALE">
             <persName>Созомэнос</persName>
           </person>
-          <person xml:id="PrjazhkinaIShpundik">
-            <persName>Пряжкина и Шпуньдик</persName>
-          </person>
-          <person xml:id="GolosMoshkina" sex="MALE">
-            <persName>Голос Мошкина</persName>
-          </person>
-          <person xml:id="Stratilat" sex="MALE"> 
+          <person xml:id="Stratilat" sex="MALE">
             <persName>Стратилат</persName>
           </person>
           <person xml:id="Fonk" sex="MALE">
@@ -98,7 +89,7 @@
     <revisionDesc>
       <listChange>
         <change who="#MatveyKolbasov" when="2017-06-22">Converted from Source</change>
-        <change who="#ff" when="2017-06-22">formalities</change>
+        <change who="#ff" when="2017-06-22">formalities, IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -3090,18 +3081,18 @@
           <p>
             <stage type="delivery">(горько)</stage>. Например?</p>
         </sp>
-        <sp who="#GolosMitki">
+        <sp who="#Mitka">
           <speaker>Голос Митьки</speaker>
           <p>
             <stage type="delivery">(в передней)</stage>. Да нету их дома-с… нету-с. Выехать
             изволили.</p>
         </sp>
         <stage type="delivery">(Вилицкий умолкает и слушает. Фонк тоже.)</stage>
-        <sp who="#GolosMoshkina">
+        <sp who="#Moshkin">
           <speaker>Голос Мошкина</speaker>
           <p>. В таком случае я хочу записку ему оставить.</p>
         </sp>
-        <sp who="#GolosMitki">
+        <sp who="#Mitka">
           <speaker>Голос Митьки</speaker>
           <p>. Оне приказали вам сказать, что сегодня к вам заедут-с… а записку вы можете и здесь
             написать-с.</p>
@@ -3112,31 +3103,31 @@
             <stage type="delivery">(обращаясь к Вилицкому)</stage>. Что такое?</p>
         </sp>
         <stage type="delivery">(Вилицкий не отвечает.)</stage>
-        <sp who="#GolosMoshkina">
+        <sp who="#Moshkin">
           <speaker>Голос Мошкина</speaker>
           <p>. Да отчего ты не хочешь, меня впустить?</p>
         </sp>
-        <sp who="#GolosMitki">
+        <sp who="#Mitka">
           <speaker>Голос Митьки</speaker>
           <p>. Нельзя-с. Дверь заперта-с. Они ключ изволили унести.</p>
         </sp>
-        <sp who="#GolosMoshkina">
+        <sp who="#Moshkin">
           <speaker>Голос Мошкина</speaker>
           <p>. А ты хотел в комнату за чернильницей сходить?</p>
         </sp>
-        <sp who="#GolosMitki">
+        <sp who="#Mitka">
           <speaker>Голос Митьки</speaker>
           <p>. Да нельзя. Ей-богу, нельзя-с.</p>
         </sp>
-        <sp who="#GolosMoshkina">
+        <sp who="#Moshkin">
           <speaker>Голос Мошкина</speaker>
           <p>. Митя, ведь барин твой дома… Я ведь знаю. Пусти.</p>
         </sp>
-        <sp who="#GolosMitki">
+        <sp who="#Mitka">
           <speaker>Голос Митьки</speaker>
           <p>. Никак нет-с.</p>
         </sp>
-        <sp who="#GolosMoshkina">
+        <sp who="#Moshkin">
           <speaker>Голос Мошкина</speaker>
           <p>. Полно, Митя, пусти. Твой барин не выезжал. Я в овощной лавке спрашивал и у дворника.
               <stage type="delivery">(Возвышая голос.)</stage> Петруша, Петруша, прикажи меня
@@ -4278,7 +4269,7 @@
         <stage type="delivery">(Пряжкина оборачивается: из передней входит Мошкин в шапке и шубе Он
           медленно идет до середины сцены, уронив руки и неподвижно уставив глаза на пол Стратилат
           идет за ним.)</stage>
-        <sp who="#PrjazhkinaIShpundik">
+        <sp who="#Prjazhkina #Shpundik">
           <speaker>Пряжкина и Шпуньдик</speaker>
           <p>
             <stage type="delivery">(вскакивая вместе)</stage>. Ну, что? Ну, что?</p>
