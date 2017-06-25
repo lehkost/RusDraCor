@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Провинциалка</title>
-        <title xml:lang="en">A Provincial Lady</title>
+        <title type="main" xml:lang="ru">Провинциалка</title>
+        <title type="main" xml:lang="en">A Provincial Lady</title>
         <title type="sub" xml:lang="ru">Комедия в одном действии</title>
         <title type="sub" xml:lang="en">A Comedy in One Act</title>
         <author key="Wikidata:Q42831">Иван Сергеевич Тургенев</author>

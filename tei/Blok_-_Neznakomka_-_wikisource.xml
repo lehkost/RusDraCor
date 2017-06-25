@@ -6,8 +6,7 @@
       <titleStmt>
         <title type="main" xml:lang="ru">Незнакомка</title>
         <title type="main" xml:lang="en">The Unknown Woman</title>
-        <title type="sub" xml:lang="ru">Драма</title>
-        <title type="sub" xml:lang="en">Drama</title>
+        <title type="sub"/>
         <author key="Wikidata:Q164765">Александр Александрович Блок</author>
       </titleStmt>
       <publicationStmt>
@@ -138,7 +137,7 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle" subtype="drama">Драма</term>
+          <term type="genreTitle"/>
         </keywords>
       </textClass>
     </profileDesc>

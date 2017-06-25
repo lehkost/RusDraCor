@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Подщипа или Трумф</title>
-        <title type="sub">Шуто-трагедия в двух действиях, в стихах</title>
+        <title type="main" xml:lang="ru">Подщипа или Трумф</title>
+        <title type="main" xml:lang="en">Podshchipa or Trumf</title>
+        <title type="sub" xml:lang="ru">Шуто-трагедия в двух действиях, в стихах</title>
+        <title type="sub" xml:lang="en">A Mock-Tragedy in Two Acts, in Verse</title>
         <author key="Wikidata:Q191480">Иван Андреевич Крылов</author>
       </titleStmt>
       <publicationStmt>
@@ -32,7 +34,7 @@
             <title/>
             <date type="print" when="1859">Впервые напечатана в Берлине (1859), в
               России опубликована в журнале "Русская старина" (1871, февраль); отдельное
-              издание - СПб., 1880. (Source:    Крылов И. А. Басни. Драматургия.
+              издание – СПб., 1880. (Source: Крылов И. А. Басни. Драматургия.
               М.: Правда, 1982.)</date>
             <date type="premiere"/>
             <date type="written" when="1800">Принято считать, что пьеса была
