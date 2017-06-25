@@ -44,26 +44,26 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Mnogie" sex="UNKNOWN">
-            <persName>Многие</persName>
+          <person xml:id="MolodojChelovek" sex="MALE">
+            <persName>Молодой человек</persName>
           </person>
           <person xml:id="Predsedatel" sex="MALE">
             <persName>Председатель</persName>
           </person>
-          <person xml:id="Svjaschennik" sex="MALE">
-            <persName>Священник</persName>
+          <person xml:id="Meri" sex="FEMALE">
+            <persName>Мери</persName>
           </person>
           <person xml:id="Luiza" sex="FEMALE">
             <persName>Луиза</persName>
           </person>
+          <person xml:id="Mnogie" sex="UNKNOWN">
+            <persName>Многие</persName>
+          </person>
+          <person xml:id="Svjaschennik" sex="MALE">
+            <persName>Священник</persName>
+          </person>
           <person xml:id="ZhenskijGolos" sex="FEMALE">
             <persName>Женский голос</persName>
-          </person>
-          <person xml:id="Meri" sex="FEMALE">
-            <persName>Мери</persName>
-          </person>
-          <person xml:id="MolodojChelovek" sex="MALE">
-            <persName>Молодой человек</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -79,6 +79,8 @@
         <change who="#zhenya" when="2017-05-25">changed ids, added date</change>
         <change who="#GG" when="2017-06-03">gender info</change>
         <change who="#ff" when="2017-06-05">connected continued verses with part attribute;
+          formatted front page; configuration changes</change>
+        <change who="#ff" when="2017-06-26">connected continued verses with part attribute;
           formatted front page; configuration changes</change>
       </listChange>
     </revisionDesc>
@@ -147,9 +149,9 @@
             <l>Был отлучен каким-нибудь виденьем.</l>
           </lg>
         </sp>
-        <stage>(поет)</stage>
         <sp who="#Meri">
           <speaker>Мери</speaker>
+          <stage>(поет)</stage>
           <lg>
             <l>Было время, процветала</l>
             <l>В мире наша сторона:</l>
@@ -254,8 +256,7 @@
           <lg>
             <l>Послушайте: я слышу стук колес!</l>
           </lg>
-
-          <stage>Едет телега, наполненная мертвыми телами.Негр управляет ею.</stage>
+          <stage>Едет телега, наполненная мертвыми телами. Негр управляет ею.</stage>
           <lg>
             <l>Ага! Луизе дурно; в ней, я думал,</l>
             <l>По языку судя, мужское сердце.</l>
@@ -271,9 +272,9 @@
             <l part="I">Приляг на грудь мою.</l>
           </lg>
         </sp>
-        <stage>(приходя в чувство)</stage>
         <sp who="#Luiza">
           <speaker>Луиза</speaker>
+          <stage>(приходя в чувство)</stage>
           <lg>
             <l part="F">Ужасный демон</l>
             <l>Приснился мне: весь черный, белоглазый....</l>
@@ -320,9 +321,9 @@
             <l>Гимн в честь чумы! прекрасно! bravo! bravo!</l>
           </lg>
         </sp>
-        <stage>(поет)</stage>
         <sp who="#Predsedatel">
           <speaker>Председатель</speaker>
+          <stage>(поет)</stage>
           <lg>
             <l>Когда могущая Зима,</l>
             <l>Как бодрый вождь, ведет сама</l>
@@ -469,9 +470,9 @@
             <l>Матильды чистый дух тебя зовет!</l>
           </lg>
         </sp>
-        <stage>(встает)</stage>
         <sp who="#Predsedatel">
           <speaker>Председатель</speaker>
+          <stage>(встает)</stage>
           <lg>
             <l>Клянись же мне, с поднятой к небесам</l>
             <l>Увядшей, бледною рукой — оставить</l>
