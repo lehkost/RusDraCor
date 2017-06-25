@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Предложение</title>
-        <title xml:lang="en">A Marriage Proposal</title>
+        <title type="main" xml:lang="ru">Предложение</title>
+        <title type="main" xml:lang="en">A Marriage Proposal</title>
         <title type="sub" xml:lang="ru">Шутка в одном действии</title>
         <title type="sub" xml:lang="en">A Joke in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
@@ -31,9 +31,13 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 11. М., "Наука", 1986.</title>
-            <date type="print" when="1888">Впервые — литографированное издание: Предложение. Шутка в одном действии А. Чехова. Литография Московской театральной библиотеки Е. Н. Рассохиной (ценз. разр. 27 декабря 1888 г.) (ФЭБ)</date>
-            <date type="premiere" when="1889">Впервые была поставлена 12 апреля 1889 г. Столичным артистическим кружком в Санкт-Петербурге (wikipedia).</date>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 11.
+              М., "Наука", 1986.</title>
+            <date type="print" when="1888">Впервые — литографированное издание: Предложение. Шутка в
+              одном действии А. Чехова. Литография Московской театральной библиотеки Е. Н.
+              Рассохиной (ценз. разр. 27 декабря 1888 г.) (ФЭБ)</date>
+            <date type="premiere" when="1889">Впервые была поставлена 12 апреля 1889 г. Столичным
+              артистическим кружком в Санкт-Петербурге (wikipedia).</date>
             <date type="written" when="1888"/>
           </bibl>
         </bibl>

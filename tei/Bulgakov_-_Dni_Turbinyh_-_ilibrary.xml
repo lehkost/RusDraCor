@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Дни Турбиных</title>
-        <title xml:lang="en">The Days of the Turbins</title>
+        <title type="main" xml:lang="ru">Дни Турбиных</title>
+        <title type="main" xml:lang="en">The Days of the Turbins</title>
         <title type="sub" xml:lang="ru">Пьеса в четырех действиях</title>
         <title type="sub" xml:lang="en">A Play in Four Acts</title>
         <author key="Wikidata:Q835">Михаил Булгаков</author>
@@ -1739,7 +1739,7 @@
             <p> . Свет Елене Васильевне! </p>
             <p> – Леночка, выпейте! </p>
             <p> – Выпейте... выпейте... </p>
-          <stage> Елена пьет. </stage>
+            <stage> Елена пьет. </stage>
             <p> – Браво!!! </p>
           </sp>
           <stage> Аплодируют. </stage>

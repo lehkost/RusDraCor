@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Ревизор</title>
-        <title xml:lang="en">The Government Inspector</title>
+        <title type="main" xml:lang="ru">Ревизор</title>
+        <title type="main" xml:lang="en">The Government Inspector</title>
         <title type="sub" xml:lang="ru">Комедия в пяти действиях</title>
         <title type="sub" xml:lang="en">A Comedy in Five Acts</title>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
@@ -151,7 +151,8 @@
         <change who="#ds">converted from source</change>
         <change who="#GG">changed Zemljanika and ArtemijFilippovich to ArtemijFilippovichZemljanika,
           Ljapkin-Tjapkin and AmmosFedorovich to AmmosFedorovichLjapkinTjapkin</change>
-        <change who="#ff" when="2017-05-30">added missing castGroups to castList; normalised punctuation</change>
+        <change who="#ff" when="2017-05-30">added missing castGroups to castList; normalised
+          punctuation</change>
         <change who="#to">gender</change>
       </listChange>
     </revisionDesc>

@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Женитьба</title>
-        <title xml:lang="en">Marriage</title>
+        <title type="main" xml:lang="ru">Женитьба</title>
+        <title type="main" xml:lang="en">Marriage</title>
         <title type="sub" xml:lang="ru">Совершенно невероятное событие в двух действиях</title>
         <title type="sub" xml:lang="en">A Completely Improbable Event in Two Acts</title>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
@@ -31,7 +31,8 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>Н. В. Гоголь. Собрание сочинений в девяти томах. Т. 4. М.: "Русская книга", 1994.</title>
+            <title>Н. В. Гоголь. Собрание сочинений в девяти томах. Т. 4. М.: "Русская книга",
+              1994.</title>
             <date type="print" when="1842">1842 (wikipedia)</date>
             <date type="premiere" when="1842">1842 (wikipedia)</date>
             <date type="written" when="1835">1833—1835 (wikipedia)</date>
@@ -44,13 +45,13 @@
         <listPerson>
           <person xml:id="Kochkarev" sex="MALE">
             <persName> Кочкарев </persName>
-          </person>         
+          </person>
           <person xml:id="IvanPavlovich" sex="MALE">
             <persName> Иван Павлович </persName>
           </person>
           <person xml:id="Podkolesin" sex="MALE">
             <persName> Подколесин </persName>
-          </person>          
+          </person>
           <person xml:id="Anuchkin" sex="MALE">
             <persName> Анучкин </persName>
           </person>
@@ -59,13 +60,13 @@
           </person>
           <person xml:id="Starikov" sex="MALE">
             <persName> Стариков </persName>
-          </person>          
+          </person>
           <person xml:id="AgafjaTihonovna" sex="FEMALE">
             <persName> Агафья Тихоновна </persName>
           </person>
           <person xml:id="Stepan" sex="MALE">
             <persName> Степан </persName>
-          </person>       
+          </person>
           <person xml:id="GolosIzvozchika" sex="MALE">
             <persName> Голос извозчика </persName>
           </person>
@@ -88,14 +89,16 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle" subtype="comedy">Совершенно невероятное событие в двух действиях</term>
+          <term type="genreTitle" subtype="comedy">Совершенно невероятное событие в двух
+            действиях</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who="#GG"> corrected vsetroya = #Fekla #Kochkarev #AgafjaTihonovna, Golosizvozchika = izvozchik, golosKochkareva = Kochkarev, golosPodkolesina = Podkolesin </change>
+        <change who="#GG"> corrected vsetroya = #Fekla #Kochkarev #AgafjaTihonovna, Golosizvozchika
+          = izvozchik, golosKochkareva = Kochkarev, golosPodkolesina = Podkolesin </change>
         <change who="#to #ff">changed ID to GolosIzvozchika</change>
       </listChange>
     </revisionDesc>

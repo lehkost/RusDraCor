@@ -4,8 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Театральный разъезд после представления новой комедии</title>
-        <title xml:lang="en">Leaving the Theater after the Presentation of a New Comedy</title>
+        <title type="main" xml:lang="ru">Театральный разъезд после представления новой
+          комедии</title>
+        <title type="main" xml:lang="en">Leaving the Theater after the Presentation of a New
+          Comedy</title>
         <title type="sub"/>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>

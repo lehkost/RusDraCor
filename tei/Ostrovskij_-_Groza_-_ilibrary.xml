@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Гроза</title>
-        <title xml:lang="en">The Storm</title>
+        <title type="main" xml:lang="ru">Гроза</title>
+        <title type="main" xml:lang="en">The Storm</title>
         <title type="sub" xml:lang="ru">Драма в пяти действиях</title>
         <title type="sub" xml:lang="en">A Drama in Five Acts</title>
         <author key="Wikidata:Q171976">Александр Островский</author>
@@ -128,7 +128,8 @@
           that 'Явления' are missing</change>
         <change who="#GG" when="2017-06-03">gender info</change>
         <change who="#ds" when="2017-06-07">inserted missing scene divs (явления)</change>
-        <change who="#ff" when="2017-06-09">particDesc in order of appearance; minor formalities</change>
+        <change who="#ff" when="2017-06-09">particDesc in order of appearance; minor
+          formalities</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Сцены из рыцарских времен</title>
-        <title xml:lang="en">Scenes from Knightly Times</title>
+        <title type="main" xml:lang="ru">Сцены из рыцарских времен</title>
+        <title type="main" xml:lang="en">Scenes from Knightly Times</title>
         <title type="sub"/>
         <author key="Wikidata:Q7200">Александр Пушкин</author>
       </titleStmt>

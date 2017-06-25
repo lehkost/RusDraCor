@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Ночь перед судом</title>
-        <title xml:lang="en">The Night Before The Trial</title>
+        <title type="main" xml:lang="ru">Ночь перед судом</title>
+        <title type="main" xml:lang="en">The Night Before The Trial</title>
         <title type="sub"/>
         <author key="Wikidata:Q5685">Антон Чехов</author>
       </titleStmt>

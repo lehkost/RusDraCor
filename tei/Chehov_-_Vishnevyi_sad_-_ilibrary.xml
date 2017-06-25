@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Вишневый сад</title>
-        <title xml:lang="en">The Cherry Orchard</title>
+        <title type="main" xml:lang="ru">Вишневый сад</title>
+        <title type="main" xml:lang="en">The Cherry Orchard</title>
         <title type="sub" xml:lang="ru">Комедия в 4-х действиях</title>
         <title type="sub" xml:lang="en">A Comedy in Four Acts</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
@@ -32,7 +32,8 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print" when="1904">Впервые — Сборник товарищества «Знание» за 1903 год. Книга вторая. СПб., 1904, стр. 29—105. Подпись: А. Чехов.(ФЭБ)</date>
+            <date type="print" when="1904">Впервые — Сборник товарищества «Знание» за 1903 год.
+              Книга вторая. СПб., 1904, стр. 29—105. Подпись: А. Чехов.(ФЭБ)</date>
             <date type="premiere" when="1904">Впервые поставлена в МХТ, январь. (wikipedia)</date>
             <date type="written" when="1903"/>
           </bibl>

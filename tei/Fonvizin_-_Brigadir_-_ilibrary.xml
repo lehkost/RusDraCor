@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Бригадир</title>
-        <title xml:lang="en">The Brigadier-General</title>
+        <title type="main" xml:lang="ru">Бригадир</title>
+        <title type="main" xml:lang="en">The Brigadier-General</title>
         <title type="sub" xml:lang="ru">Комедия в пяти действиях</title>
         <title type="sub" xml:lang="en">A Comedy in Five Acts</title>
         <author key="Wikidata:Q315885">Денис Фонвизин</author>

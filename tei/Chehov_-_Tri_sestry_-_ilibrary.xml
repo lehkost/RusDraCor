@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Три сестры</title>
-        <title xml:lang="en">Three Sisters</title>
+        <title type="main" xml:lang="ru">Три сестры</title>
+        <title type="main" xml:lang="en">Three Sisters</title>
         <title type="sub" xml:lang="ru">Драма в четырех действиях</title>
         <title type="sub" xml:lang="en">A Drama in Four Acts</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
@@ -31,10 +31,12 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
-            <date type="print" when="1901"> Впервые была опубликована в журнале «Русская мысль», № 2 за 1901 год (wikipedia)</date>
-            <date type="premiere" when="1901">МХТ 31-го января 1901 (wikipedia)</date>
-            <date type="written" when="1900"/>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 13.
+              М., "Наука", 1986.</title>
+            <date type="print" when="1901">Впервые была опубликована в журнале «Русская мысль», № 2
+              за 1901 год (wikipedia)</date>
+            <date type="premiere" when="1901">МХТ 31-го января 1901 (Wikipedia)</date>
+            <date type="written" when="1900">"Август–декабрь 1900 г." (ilibrary)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -42,7 +44,7 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Masha"  sex="FEMALE">
+          <person xml:id="Masha" sex="FEMALE">
             <persName> Маша </persName>
           </person>
           <person xml:id="Anfisa" sex="FEMALE">
@@ -95,7 +97,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who = "#to"> checked IDs, corrected errors in tags</change>
+        <change who="#to"> checked IDs, corrected errors in tags</change>
         <change who="#zhenya">added dates</change>
         <change who="#to">gender</change>
       </listChange>

@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Баня</title>
-        <title xml:lang="en">The Bathhouse</title>
+        <title type="main" xml:lang="ru">Баня</title>
+        <title type="main" xml:lang="en">The Bathhouse</title>
         <title type="sub" xml:lang="ru">Драма в шести действиях с цирком и фейерверком</title>
         <title type="sub" xml:lang="en">Drama in Six Acts with a Circus and Fireworks</title>
         <author key="Wikidata:Q132964">Владимир Маяковский</author>

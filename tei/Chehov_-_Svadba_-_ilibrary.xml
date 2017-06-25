@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Свадьба</title>
-        <title xml:lang="en">The Wedding</title>
+        <title type="main" xml:lang="ru">Свадьба</title>
+        <title type="main" xml:lang="en">The Wedding</title>
         <title type="sub" xml:lang="ru">Сцена в одном действии</title>
         <title type="sub" xml:lang="en">A Scene in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
@@ -32,8 +32,17 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print" when="1890">1890<ref>Впервые — в отдельном литографированном издании: {{книга|заглавие=Свадьба. Сцена в 1-м действии А. Чехова. Литография комиссионера Общества русских драматических писателей С. Ф. Рассохина|место=Москва}} (цензурное разрешение 25 апреля 1890 года; вышло в свет с 24 по 31 октября 1890 года; отпечатано 110 экземпляров). С изменениями пьеса также вошла в VII 2  том издания А. Ф. Маркса (1902, с. 259—276).</ref></date>
-            <date type="premiere" when="1900">28 ноября 1900 г. «Свадьба» исполнялась труппой Общества искусства и литературы в зале московского Охотничьего клуба на «Чеховском вечере», в программу которого были включены также другие одноактные пьесы Чехова («Лебединая песня», «Предложение», «Юбилей», «Медведь»). Источник: http://chehov.niv.ru/chehov/text/svadba-scena.htm</date>
+            <date type="print" when="1890">1890<ref>Впервые — в отдельном литографированном издании:
+                {{книга|заглавие=Свадьба. Сцена в 1-м действии А. Чехова. Литография комиссионера
+                Общества русских драматических писателей С. Ф. Рассохина|место=Москва}} (цензурное
+                разрешение 25 апреля 1890 года; вышло в свет с 24 по 31 октября 1890 года;
+                отпечатано 110 экземпляров). С изменениями пьеса также вошла в VII 2 том издания А.
+                Ф. Маркса (1902, с. 259—276).</ref></date>
+            <date type="premiere" when="1900">28 ноября 1900 г. «Свадьба» исполнялась труппой
+              Общества искусства и литературы в зале московского Охотничьего клуба на «Чеховском
+              вечере», в программу которого были включены также другие одноактные пьесы Чехова
+              («Лебединая песня», «Предложение», «Юбилей», «Медведь»). Источник:
+              http://chehov.niv.ru/chehov/text/svadba-scena.htm</date>
             <date type="written" when="1889">конец октября 1889</date>
           </bibl>
         </bibl>
@@ -92,7 +101,7 @@
     <revisionDesc>
       <listChange>
         <change who="#ds">converted from source</change>
-        <change who="#to">looked through,  sb has already corrected it anonymously</change>
+        <change who="#to">looked through, sb has already corrected it anonymously</change>
         <change who="#to">gender</change>
       </listChange>
     </revisionDesc>
@@ -564,7 +573,8 @@
           <speaker>Мозговой</speaker>
           <p>. Харлампий Спиридоныч, ваша очередь читать речь! Господа, пусть говорит речь!</p>
         </sp>
-        <sp who="#Mozgovoj #NastasjaTimofeevna #Dashenka #Dymba #Jat #Kavalery #Zmejukina #Zhigalov #Shafer #Aplombov #Revunov">
+        <sp
+          who="#Mozgovoj #NastasjaTimofeevna #Dashenka #Dymba #Jat #Kavalery #Zmejukina #Zhigalov #Shafer #Aplombov #Revunov">
           <speaker>Все</speaker>
           <stage type="delivery">(Дымбе)</stage>
           <p>. Речь! речь! Ваша очередь!</p>
@@ -741,7 +751,8 @@
           <p>. А? Да, да... так... Это верно. Да-с... Но позвольте, что же это, однако? Селедка
             горькая... и хлеб горький. Невозможно есть!</p>
         </sp>
-        <sp who="#Mozgovoj #NastasjaTimofeevna #Dashenka #Dymba #Jat #Kavalery #Zmejukina #Zhigalov #Shafer #Aplombov #Revunov ">
+        <sp
+          who="#Mozgovoj #NastasjaTimofeevna #Dashenka #Dymba #Jat #Kavalery #Zmejukina #Zhigalov #Shafer #Aplombov #Revunov ">
           <speaker>Все</speaker>
           <p>. Горько! Горько!</p>
         </sp>

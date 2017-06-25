@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Татьяна Репина</title>
-        <title xml:lang="en">Tatyana Repina</title>
+        <title type="main" xml:lang="ru">Татьяна Репина</title>
+        <title type="main" xml:lang="en">Tatyana Repina</title>
         <title type="sub" xml:lang="ru">Драма в 1 действии</title>
         <title type="sub" xml:lang="en">Drama in 1 Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
@@ -31,10 +31,14 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 12. М., "Наука", 1986.</title>
-            <date type="print" when="1889">1889<ref>Впервые — вотдельном типографском оттиске: {{книга|заглавие=Татьяна Репина. Драма в1 действии Антона Чехова (Посвящается А.С.Суворину)|место=СПб.|год=1889}}. Ссокращением ряда мест избогослужения перепечатано вкниге: {{книга|автор=М.Чехов|заглавие=Антон Чехов. Театр, актеры и «Татьяна Репина»|место=Пг.|год=1924}}. Вполном виде — всборнике: {{книга|автор=А. П. Чехов|заглавие=Затерянные произведения. Неизданные письма. Воспоминании. Библиография|ответственный=Под ред. М.Д.Беляева и А.С.Долинина|место=Л.|издательство=«Атеней»|год=1925}}.</ref></date>
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 12.
+              М., "Наука", 1986.</title>
+            <date type="print" when="1889">"Впервые — в отдельном типографском оттиске: Татьяна
+              Репина. Драма в 1 действии Антона Чехова (Посвящается А. С. Суворину). — СПб., 1889."
+              (Wikisource)</date>
             <date type="premiere"/>
-            <date type="written" when="1889">март 1889 (Source: http://chehov.niv.ru/chehov/text/tatyana-repina.htm)</date>
+            <date type="written" when="1889">март 1889 (Source:
+              http://chehov.niv.ru/chehov/text/tatyana-repina.htm)</date>
           </bibl>
         </bibl>
       </sourceDesc>

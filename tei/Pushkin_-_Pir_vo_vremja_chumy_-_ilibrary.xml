@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Пир во время чумы</title>
-        <title xml:lang="en">A Feast in Time of Plague</title>
+        <title type="main" xml:lang="ru">Пир во время чумы</title>
+        <title type="main" xml:lang="en">A Feast in Time of Plague</title>
         <title type="sub" xml:lang="ru">(Из вильсоновой трагедии: The city of the plague)</title>
         <title type="sub" xml:lang="en">(From Wilson's Tragedy: The City of the Plague)</title>
         <author key="Wikidata:Q7200">Александр Пушкин</author>

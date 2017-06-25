@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Отрывок</title>
-        <title xml:lang="en">A Fragment</title>
+        <title type="main" xml:lang="ru">Отрывок</title>
+        <title type="main" xml:lang="en">A Fragment</title>
         <title type="sub"/>
         <author key="Wikidata:Q43718">Николай Гоголь</author>
       </titleStmt>
@@ -30,7 +30,8 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>Н. В. Гоголь. Собрание сочинений в 9 т. Т. 4 Повести. М.: Русская книга, 1994.</title>
+            <title>Н. В. Гоголь. Собрание сочинений в 9 т. Т. 4 Повести. М.: Русская книга,
+              1994.</title>
             <date type="print" when="1842">1842 (wikiquote)</date>
             <date type="premiere"/>
             <date type="written" when="1842">1840—1842 гг. (ilibrary)</date>

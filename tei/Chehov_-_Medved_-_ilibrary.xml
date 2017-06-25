@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Медведь</title>
-        <title xml:lang="en">The Bear</title>
+        <title type="main" xml:lang="ru">Медведь</title>
+        <title type="main" xml:lang="en">The Bear</title>
         <title type="sub" xml:lang="ru">Шутка в одном действии</title>
         <title type="sub" xml:lang="en">A Joke in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>

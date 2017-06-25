@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Трагик поневоле (Из дачной жизни)</title>
-        <title xml:lang="en">A Tragedian in Spite of Himself (A Holiday Episode)</title>
+        <title type="main" xml:lang="ru">Трагик поневоле (Из дачной жизни)</title>
+        <title type="main" xml:lang="en">A Tragedian in Spite of Himself (A Holiday Episode)</title>
         <title type="sub" xml:lang="ru">Шутка в одном действии</title>
         <title type="sub" xml:lang="en">A Joke in One Act</title>
         <author key="Wikidata:Q5685">Антон Чехов</author>
@@ -32,7 +32,10 @@
           </availability>
           <bibl type="originalSource">
             <title>INSERTORIGSOURCE</title>
-            <date type="print" when="1889">Впервые напечатано отдельным изданием: Трагик поневоле (Из дачной жизни). Шутка в одном действии А. Чехова. Издание Театральной библиотеки В. А. Базарова. СПб., 1889 (ценз. разр. 1 июня 1889 г.; вышло в свет с 24 по 30 июня 1889 г.; напечатано 600 экз.) (wikipedia)</date>
+            <date type="print" when="1889">Впервые напечатано отдельным изданием: Трагик поневоле
+              (Из дачной жизни). Шутка в одном действии А. Чехова. Издание Театральной библиотеки В.
+              А. Базарова. СПб., 1889 (ценз. разр. 1 июня 1889 г.; вышло в свет с 24 по 30 июня 1889
+              г.; напечатано 600 экз.) (wikipedia)</date>
             <date type="premiere"/>
             <date type="written" when="1889"/>
           </bibl>

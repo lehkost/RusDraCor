@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Егор Булычов и другие</title>
-        <title xml:lang="en">Yegor Bulichov and Others</title>
+        <title type="main" xml:lang="ru">Егор Булычов и другие</title>
+        <title type="main" xml:lang="en">Yegor Bulichov and Others</title>
         <title type="sub" xml:lang="ru">Сцены</title>
         <title type="sub" xml:lang="en">Scenes</title>
         <author key="Wikidata:Q12706">Максим Горький</author>
@@ -31,7 +31,8 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>М. Горький. Рассказы. Очерки. Воспоминания. Пьесы. "Библиотека Всемирной литературы", М.: Художественная литература, 1975.</title>
+            <title>М. Горький. Рассказы. Очерки. Воспоминания. Пьесы. "Библиотека Всемирной
+              литературы", М.: Художественная литература, 1975.</title>
             <date type="print" when="1932">1932 (wikipedia)</date>
             <date type="premiere" when="1932">1932 (wikipedia)</date>
             <date type="written" when="1931">1931 г. (ilibrary)</date>

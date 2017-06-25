@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ru">Бедность не порок</title>
-        <title xml:lang="en">Poverty is No Vice</title>
+        <title type="main" xml:lang="ru">Бедность не порок</title>
+        <title type="main" xml:lang="en">Poverty is No Vice</title>
         <title type="sub" xml:lang="ru">Комедия в трех действиях</title>
         <title type="sub" xml:lang="en">A Comedy in Three Acts</title>
         <author key="Wikidata:Q171976">Александр Островский</author>
@@ -210,8 +210,8 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-            <stage>Митя и Пелагея Егоровна </stage>
-            <p> . </p>
+          <stage>Митя и Пелагея Егоровна </stage>
+          <p> . </p>
           <sp who="#PelagejaEgorovna">
             <speaker> Пелагея Егоровна </speaker>
             <p> . Митя, Митенька! </p>
@@ -2624,9 +2624,7 @@
         </div>
         <div type="scene">
           <head> Явление третье </head>
-          <stage>
-            Пелагея Егоровна и Анна Ивановна 
-            <p> . </p>
+          <stage> Пелагея Егоровна и Анна Ивановна <p> . </p>
           </stage>
           <sp who="#PelagejaEgorovna">
             <speaker> Пелагея Егоровна </speaker>
