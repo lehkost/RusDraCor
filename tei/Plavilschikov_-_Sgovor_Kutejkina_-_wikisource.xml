@@ -42,11 +42,11 @@
     <profileDesc>
       <particDesc>
         <listPerson>
+          <person xml:id="ZhenaPreslepa" sex="FEMALE">
+            <persName>Жена его</persName>
+          </person>
           <person xml:id="Preslep" sex="MALE">
             <persName>Преслеп</persName>
-          </person>
-          <person xml:id="ZhenaEgo" sex="FEMALE">
-            <persName>Жена его</persName>
           </person>
           <person xml:id="Paraskovja" sex="FEMALE">
             <persName>Парасковья</persName>
@@ -63,11 +63,11 @@
           <person xml:id="Skotinin" sex="MALE">
             <persName>Скотинин</persName>
           </person>
-          <person xml:id="Kutejkin" sex="MALE">
-            <persName>Кутейкин</persName>
-          </person>
           <person xml:id="Tsyfirkin" sex="MALE">
             <persName>Цыфиркин</persName>
+          </person>
+          <person xml:id="Kutejkin" sex="MALE">
+            <persName>Кутейкин</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -81,19 +81,20 @@
       <listChange>
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#to" when="2017-05-31">added premiere date</change>
-        <change who="#ff" when="2017-06-01">moved full stops from speech acts to speakers; added English title; added gender info</change>
+        <change who="#ff" when="2017-06-01">moved full stops from speech acts to speakers; added
+          English title; added gender info</change>
+        <change who="#ff" when="2017-06-26">corrected IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
-      <div type="front">
-        <head>Сговор Кутейкина</head>
-      </div>
-    </front>
-    <body>
-      <p>ДЕЙСТВУЮЩИЕ ЛИЦА</p>
+      <docTitle>
+        <titlePart type="main">Сговор Кутейкина</titlePart>
+        <titlePart type="sub">Комедия в одном действии</titlePart>
+      </docTitle>
       <castList>
+        <head>Действующие лица</head>
         <castItem>Преслеп.</castItem>
         <castItem>Жена его.</castItem>
         <castItem>Парасковья, дочь их.</castItem>
@@ -104,12 +105,16 @@
         <castItem>Кутейкин.</castItem>
         <castItem>Цыфиркин, дружка.</castItem>
       </castList>
-      <stage type="delivery">Действие в Преслеповом доме.</stage>
+      <set>
+        <p>Действие в Преслеповом доме.</p>
+      </set>
+    </front>
+    <body>
       <div type="scene">
         <head>Явление первое</head>
         <stage type="delivery">Театр представляет комнату.</stage>
         <stage type="delivery">Преслеп, жена и Парасковья.</stage>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Помилуй, батюшка Преслеп Трифонович! Затеваешь ты нынче сговор, ведь ты девку-то
             уморишь; разве она не дочь тебе? Неужели кроме дьячка Кутейкина нельзя сыскать ей
@@ -120,7 +125,7 @@
           <speaker>Преслеп.</speaker>
           <p>Какая нужда, что будет. Я ему откажу.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Да ведь они купцы не последние.</p>
         </sp>
@@ -128,7 +133,7 @@
           <speaker>Преслеп.</speaker>
           <p>Последние ли, первые ли, только откажу.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Да хорошее ли дело не держать слова.</p>
         </sp>
@@ -136,7 +141,7 @@
           <speaker>Преслеп.</speaker>
           <p>Хорошее ли, не хорошее ли, только откажу.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Бестолковый торопченин! Они друг друга полюбили. А Параша этого дьячка видеть боится,
             да и Пимен Неохыч не стерпит твоего отказу.</p>
@@ -145,7 +150,7 @@
           <speaker>Преслеп.</speaker>
           <p>Стерпит ли, не стерпит ли, только откажу.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Откажу да откажу; наладил, как сорока Якова… Параша и так горюет: она умрёт с
             тоски.</p>
@@ -154,7 +159,7 @@
           <speaker>Преслеп.</speaker>
           <p>Умрёт ли, не умрёт ли, только откажу.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Так не откажешь.</p>
         </sp>
@@ -162,7 +167,7 @@
           <speaker>Преслеп.</speaker>
           <p>Вот откажу.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Не бывать по-твоему.</p>
         </sp>
@@ -170,7 +175,7 @@
           <speaker>Преслеп.</speaker>
           <p>Вот будет.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>А вот не будет…</p>
         </sp>
@@ -178,20 +183,20 @@
           <speaker>Преслеп.</speaker>
           <p>Соломонида! Не кочевряжься, а то я вмиг и виски остучу…</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Батюшка!</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Что? Драться?.. Нет, муженёк, погоди; я тебе прежде всю бороду выщиплю, нежели ты меня
             щелчком тронешь.</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Матушка!</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Когда тебе мил этот долгополый Кутейкин, так повесь его себе на шею да и целуйся с ним!
             Ты бы ещё радовался, отец добрый, что за дочь сватается такой достойный жених.</p>
@@ -211,7 +216,7 @@
             памяти. О этот самый состоятельный человек! Он тебя, Парасковьюшка, опять обратит в
             христианскую веру.</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Я никогда её не покидала.</p>
         </sp>
@@ -220,7 +225,7 @@
           <p>Что? И ты со мной заспорила, а знаешь ли пословицу: которая овца умнее отца, тое волк
             съест… Слышала ль?</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Ты сам хуже бусурмана. Когда он такой благочестивый, как ты говоришь, так возьмёт ли он
             бусурманку.</p>
@@ -229,7 +234,7 @@
           <speaker>Преслеп.</speaker>
           <p>Уж я знаю, что возьмёт.</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>А я знаю, что не возьмёт. Уж я на то пошла, чтоб это разорвать, так верно разорву, во
             что бог ни поставит, а Кутейкину моей дочери не видать, как ушей своих.</p>
@@ -238,7 +243,7 @@
           <speaker>Преслеп.</speaker>
           <p>Разве твоему Пимену Неоховичу…</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Он может тебя принудить сдержать слово.</p>
         </sp>
@@ -310,7 +315,7 @@
           <p>Их такое дело: дочь плачет, что с матерью расстаётся, а мать о дочери тужит, отдаёт
             дочь замуж…</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Я ничуть не отдаю её за Кутейкина, а ты задумал колобродить.</p>
         </sp>
@@ -322,7 +327,7 @@
           <speaker>Еремеевна.</speaker>
           <p>Ах, моя матушка! Чем он ей не жених?</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Старая хрычовка! Тебе ли знать, кто жених моей дочери?</p>
         </sp>
@@ -338,7 +343,7 @@
           <speaker>Преслеп.</speaker>
           <p>Матушка Еремеевна, ради самого создателя… Жена… Соломонида, помни ты это!</p>
         </sp>
-        <sp who="#Zhena">
+        <sp who="#ZhenaPreslepa">
           <speaker>Жена.</speaker>
           <p>Что такое помнить? Берегись ты, чтоб после самому не плакать, ведь у тебя одна и есть
             дочь. Каково тебе будет смотреть на её горючи слёзы? Жить с постылым мужем хуже
@@ -380,7 +385,7 @@
           <speaker>Пимен.</speaker>
           <p>Сударыня! Что это значит? Этот странный приём ничего доброго мне не предвещает.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Чему быть доброму! Сего дня отец хочет сговорить Парашу за Кутейкина.</p>
         </sp>
@@ -393,7 +398,7 @@
           <p>За Кутейкина?.. О… подай мне стул <stage type="delivery">(подали, он сел)</stage>. Ну,
             теперь говорите, а я немного сосну.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Нет ли какого средства разорвать это? Пожалуй, постарайся, если дочь моя тебе мила… ¦
             Пимен. Если она мне мила?</p>
@@ -417,7 +422,7 @@
           <p>Батюшка говорит во сне. Дайте ему выспаться… Скажите мне, что я должен употребить,
             чтобы переменить мысли вашего батюшки: если я лишусь тебя, я умру с печали.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Чем умирать, так лучше как-нибудь да переиначить.</p>
         </sp>
@@ -429,7 +434,7 @@
             родителя на что-нибудь согласиться. Помогите нам, сударыня, убедить Преслепа Трифоновича
             нашею преданностию, почтением и неотступною просьбою.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Тут пользы не будет.</p>
         </sp>
@@ -437,7 +442,7 @@
           <speaker>Парасковья.</speaker>
           <p>Так что же делать, матушка?</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Послушайте, я на то пошла, когда уж придёт неминучая…</p>
         </sp>
@@ -445,7 +450,7 @@
           <speaker>Пимен.</speaker>
           <p>Ну, сударыня?..</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Уже к вечеру припаси коляску.</p>
         </sp>
@@ -453,7 +458,7 @@
           <speaker>Парасковья.</speaker>
           <p>На что? матушка!</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>А на то-то, что с тобой уеду.</p>
         </sp>
@@ -462,7 +467,7 @@
           <stage type="delivery">(во сне)</stage>
           <p>. Я караул закричу.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Спи тут, сонный.</p>
         </sp>
@@ -471,7 +476,7 @@
           <stage type="delivery">(во сне)</stage>
           <p>. Расплатись да и поезжай.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Добро… я уеду к брату моему.</p>
         </sp>
@@ -492,7 +497,7 @@
             заснуть, вот тут на стуле, я вам не мешаю. <stage type="delivery"
             >(Засыпает.)</stage></p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Твой батюшка для того только просыпается, чтоб тотчас опять заснуть.</p>
         </sp>
@@ -501,7 +506,7 @@
           <p>Сударыня, он человек не молодой, а сверх того, в молодости своей мало сыпал, чтоб
             нажить себе состояние.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Да хоть бы поугомоннее спал; он только помешал нам… Слушай, ты приезжай также к брату,
             там мы и без отца сделаем, что нам надо.</p>
@@ -510,7 +515,7 @@
           <speaker>Пимен.</speaker>
           <p>Сударыня, подумайте!</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Не тебе о том рассуждать. Я ей— мать, я её родила, так я и отдам её замуж. Ну, дочь! Я
             не хочу, чтоб ты была за дьячком; ты меня послушаешься, поедешь со мною?</p>
@@ -519,7 +524,7 @@
           <speaker>Парасковья.</speaker>
           <p>С вами, матушка, куда прикажете, всюду готова.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида</speaker>
           <stage type="delivery">(Пимену)</stage>
           <p>. Ну, поди ж теперь, друг мой, домой. Когда нужда в тебе будет, я пришлю; да смотри ж,
@@ -529,7 +534,7 @@
           <speaker>Пимен.</speaker>
           <p>Я повинуюсь вам во всём.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>А батюшка твой пускай здесь поспит.</p>
         </sp>
@@ -541,7 +546,7 @@
           <speaker>Парасковья.</speaker>
           <p>Матушка, сколько я вам обязана!</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Молчи, друг мой! Я поставлю на своём, ты увидишь.</p>
         </sp>
@@ -568,7 +573,7 @@
           <p>Матушка, сударыня! Когда уже вы приняли твёрдое намерение, то теперь не надобно стыдить
             батюшку; я не покажу и виду ему противного.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Дельно, дельно, на что им показывать. Ты только будь, девушка, позастенчивее, да не
             худо и поплакать.</p>
@@ -787,7 +792,7 @@
             скажет, как соловушек свистнет. Батюшка ты мой, Сидорович, как бы ты научил Митрофана
             Терентьевича своей премудрости. Велик бы уж он о сю пору был человек.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Повесься ты с ним на горькой осине.</p>
         </sp>
@@ -905,7 +910,7 @@
           <speaker>Преслеп.</speaker>
           <p>Да, здесь я хочу, здесь пой.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида</speaker>
           <p>
             <stage type="delivery">(дочери)</stage>. Эдакой! Зачем он пришёл, то ли время
@@ -998,7 +1003,7 @@
           <speaker>Пимен.</speaker>
           <p>Что я слышу!</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Дельно, ладно.</p>
         </sp>
@@ -1126,7 +1131,7 @@
           <speaker>Преслеп.</speaker>
           <p>Куда, сударь, нам не в свои сани садиться.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>А Кутейкин-то разве свои сани?</p>
         </sp>
@@ -1167,7 +1172,7 @@
           <speaker>Преслеп.</speaker>
           <p>Да отвяжитесь-сте от меня.</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Батюшка!</p>
         </sp>
@@ -1175,7 +1180,7 @@
           <speaker>Преслеп.</speaker>
           <p>Что, проклятая!</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Сделайте милость, решите судьбу мою.</p>
         </sp>
@@ -1187,7 +1192,7 @@
           <speaker>Преслеп.</speaker>
           <p>Что ж, что ты любишь? Да Параша тебя-сте не любит.</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Ах нет, батюшка, я его люблю больше, нежели себя!</p>
         </sp>
@@ -1196,7 +1201,7 @@
           <p>Тьфу, пропасть какая! Нынче всякая овца умнее отца; да Соломонида, жена моя, не хочет
             выдать за тебя.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Врёшь, батька мой, обеими руками отдаю.</p>
         </sp>
@@ -1209,7 +1214,7 @@
           <speaker>Пимен.</speaker>
           <p>Едва верю моему счастию.</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Как я рада!</p>
         </sp>
@@ -1263,7 +1268,7 @@
           <speaker>Еремеевна.</speaker>
           <p>Прощай.</p>
         </sp>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Прости, Еремеевна, да впредь сюда ни по ногу.</p>
         </sp>
@@ -1277,7 +1282,7 @@
       <div type="scene">
         <head>Явление последнее</head>
         <stage type="delivery">Соломонида, Парасковья, Пимен, Неох и Преслеп.</stage>
-        <sp who="#Solomonida">
+        <sp who="#ZhenaPreslepa">
           <speaker>Соломонида.</speaker>
           <p>Видишь, муженёк, вот каков бусурман-то! Ну, да хорошо, что ты образумился. Поцелуемся
             со мной,— впредь меня слушайся.</p>
@@ -1286,7 +1291,7 @@
           <speaker>Преслеп.</speaker>
           <p>По гроб мой не выступлю из твоего слова.</p>
         </sp>
-        <sp who="#Parasha">
+        <sp who="#Paraskovja">
           <speaker>Параша.</speaker>
           <p>Слышишь, как батюшка говорит.</p>
         </sp>
