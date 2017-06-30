@@ -91,7 +91,7 @@
           <person xml:id="Student" sex="MALE">
             <persName>Студент</persName>
           </person>
-          <person xml:id="Vtolpe" sex="UNKNOWN">
+          <person xml:id="VTolpe" sex="UNKNOWN">
             <persName>В толпе</persName>
           </person>
           <person xml:id="ArhierejskijHor" sex="UNKNOWN">
@@ -243,11 +243,11 @@
           <p>. Венчается раб божий Петр рабе божией Вере во имя отца и сына и святаго духа, аминь. </p>
           <stage type="delivery">(Передает венец Котелъникову.)</stage>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Шафер как раз под рост жениху. Неинтересный. Кто это?</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Это Котельников. И офицер неинтересный. Господа, пропустите даму! Вы, madame, не
             пройдете здесь.</p>
         </sp>
@@ -402,15 +402,15 @@
           <stage type="delivery">(поет)</stage>
           <p>. Аллилуйя, аллилуйя, аллилуйя...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Слышите, Наталья Сергеевна? Жена да убоится мужа своего.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Отвяжитесь.</p>
         </sp>
         <stage>Смех.</stage>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Тссс! Господа, неловко!</p>
         </sp>
         <sp who="#Djakon">
@@ -426,15 +426,15 @@
           <stage type="delivery">(поет)</stage>
           <p>. И духови твоему.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Апостол, евангелие... как все это длинно! Пора бы уж им отпустить душу на
             покаяние.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Дышать невозможно. Я уйду.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Не пройдете. Ждите, скоро кончится.</p>
         </sp>
         <sp who="#OIvan">
@@ -477,6 +477,10 @@
           <speaker>Волгин</speaker>
           <p>. Кескесе? задавили, что ли? В толпе. Тссс! Тише!</p>
         </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе</speaker>
+          <p>Тссс! Тише!</p>
+        </sp>
         <stage>Стон.</stage>
         <sp who="#OIvan">
           <speaker>О. Иван</speaker>
@@ -506,7 +510,7 @@
             соблюл еси доброе вино доселе. Се сотвори начаток знамением Иисус в Кане Галилейстей, и
             яви славу свою, и вероваша в него ученицы его.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Не понимаю, зачем это сюда истеричных пускают!</p>
         </sp>
@@ -536,11 +540,11 @@
           <speaker>Дьякон</speaker>
           <p>. Господи вседержителю, боже отец наших, молимтися, услыши и помилуй.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Тссс! Тише!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Да меня самого толкают!</p>
         </sp>
         <sp who="#Hor">
@@ -548,11 +552,11 @@
           <stage type="delivery">(поет)</stage>
           <p>. Господи, помилуй!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Тише! Тссс!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– С кем это дурно?</p>
         </sp>
         <sp who="#Djakon">
@@ -584,7 +588,7 @@
           <stage type="delivery">(Соседке даме.)</stage>
           <p> Это, душечка, невозможно. Хоть бы они двери отворили, что ли... Умрешь от жары.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Ее ведут, а она не хочет... Кто она? Тссс!</p>
         </sp>
@@ -626,14 +630,14 @@
           <stage type="delivery">(поет)</stage>
           <p>. Господи, помилуй.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. А вчера в Европейской гостинице опять отравилась какая-то женщина.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Да. Говорят, жена доктора какого-то.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Отчего, не знаете?</p>
         </sp>
         <sp who="#Djakon">
@@ -687,7 +691,7 @@
           <speaker>Дьякон</speaker>
           <p>. Еще молимся о блаженных...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Да, докторша какая-то... в гостинице...</p>
         </sp>
@@ -695,15 +699,15 @@
           <speaker>Дьякон</speaker>
           <p>. ...и приснопамятных, святейших патриарсех православных...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. С легкой руки Репиной это уж четвертая отравляется. Вот объясните-ка мне, батенька,
             эти отравления!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Психоз. Не иначе.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Подражательность, думаете?</p>
         </sp>
         <sp who="#Djakon">
@@ -711,21 +715,21 @@
           <p>. ...и благочестивых царех и благоверных царицах, и создателях святаго храма сего, и о
             всех прежде почивших отцех и братиях...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Самоубийства заразительны...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Сколько психопаток этих развелось, ужас!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Тише! Да перестаньте вы ходить!</p>
         </sp>
         <sp who="#Djakon">
           <speaker>Дьякон</speaker>
           <p>. ...зде лежащих и повсюду, православных.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Не орите, пожалуйста.</p>
         </sp>
@@ -735,12 +739,12 @@
           <stage type="delivery">(поет)</stage>
           <p>. Господи, помилуй!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Репина своею смертью отравила воздух. Все барыни заразились и помешались на том, что
             они оскорблены.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Даже в церкви отравлен воздух. Чувствуете, какое напряжение?</p>
         </sp>
         <sp who="#Djakon">
@@ -805,14 +809,14 @@
           <speaker>Хор</speaker>
           <p>. Господи, помилуй!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Тише! Тссс! Господа, кто там сзади напирает? Тшш!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– За колонну увели...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Нигде от дам проходу нет... Сидели бы дома!</p>
         </sp>
         <sp who="#KtoTo">
@@ -890,11 +894,11 @@
           <stage type="delivery">(поет)</stage>
           <p>. Подай, господи!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Этот дьякон никогда не кончит... То господи помилуй, то подай господи.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Надоело уж стоять.</p>
         </sp>
         <sp who="#Djakon">
@@ -910,7 +914,7 @@
           <speaker>Дьякон</speaker>
           <p>. Добрых и полезных душам нашим и мира мирови у господа просим.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Опять зашумели! Ну, народ!</p>
         </sp>
@@ -1027,7 +1031,7 @@
           <p>. ...даждь нам днесь и остави... и остави нам долги наша... якоже и мы оставляем
             должником нашим... нашим...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Ну, затянули нотное!</p>
         </sp>
@@ -1085,20 +1089,20 @@
           <speaker>Хор</speaker>
           <p>. Тебе, господи!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Сейчас, кажется, водить будут. Тссс!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Докторшу вскрывали?</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Нет еще. Говорят, муж бросил. А ведь Сабинин тоже Репину бросил! Правда это?</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Да-а...</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Я помню, как Репину вскрывали...</p>
         </sp>
         <sp who="#Djakon">
@@ -1130,11 +1134,11 @@
           <speaker>Котельников</speaker>
           <p>. Сильная скотина. Выдержит.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Так вы же, господа, не расходитесь, все вместе выйдем. Зипунов здесь?</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Здесь. Надо будет окружить карету а свистать минут пять.</p>
         </sp>
         <sp who="#OIvan">
@@ -1157,7 +1161,7 @@
           <speaker>О. Иван</speaker>
           <p> идет вокруг налоя; за ним молодые и шафера.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <p>. Студент запутался в шлейфе.</p>
         </sp>
@@ -1243,14 +1247,14 @@
             якоже Рахиль, веселящися о своем муже, хранящи пределы закона, зане тако благослови
             господь.</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <speaker>В толпе</speaker>
           <stage type="delivery">(сильное движение к выходу)</stage>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Тише, господа! Еще не кончилось!</p>
         </sp>
-        <sp who="#Vtolpe">
+        <sp who="#VTolpe">
           <p>– Тссс! Не напирайте!</p>
         </sp>
         <sp who="#Djakon">
