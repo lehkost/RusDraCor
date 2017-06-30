@@ -30,8 +30,17 @@ def dotfix(name):
         return name
 
 
+def get_latin_name(name):
+    pre = translit(name, language_code="ru", reversed=True)
+    res = "".join(w.capitalize() for w in pre.split())
+
+    res = res.replace("\'", "")
+
+    return res
+
+
 # prepare bs
-work_file = open('test2.htm', 'r')
+work_file = open('source.htm', 'r')
 text = work_file.read()
 soup = BeautifulSoup(text, 'html.parser')
 
@@ -140,8 +149,7 @@ while current_tag.find_next(target_tag_list):
 
             # set who attribute
             if speaker_name is not None:
-                res_speaker = translit(speaker_name, "ru", reversed=True)
-                xml_current_speech_tag.set("who", "#" + res_speaker)
+                xml_current_speech_tag.set("who", "#" + get_latin_name(speaker_name))
             else:
                 print(previous_speaker_name)
                 print("Warning: fix who for:")
