@@ -149,7 +149,7 @@
           <person xml:id="Berendej" sex="MALE">
             <persName> Берендей </persName>
           </person>
-          <person xml:id="Devushkiiparni" sex="UNKNOWN">
+          <person xml:id="DevushkiIParni" sex="UNKNOWN">
             <persName> Девушки и парни </persName>
           </person>
           <person xml:id="Bermjata" sex="MALE">
@@ -197,7 +197,7 @@
         <change who="#GG" when="2017-06-03">gender info</change>
         <change who="#ff" when="2017-06-08">formalities; added dramatis personae at the beginning of
           each act</change>
-        <change who="#GG" when="2017-09-03">corrected ids</change>
+        <change who="#GG" when="2017-06-03">corrected ids</change>
         <change who="#GG" when="2017-06-03">gender info</change>
       </listChange>
     </revisionDesc>
