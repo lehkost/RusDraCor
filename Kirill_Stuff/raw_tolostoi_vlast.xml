@@ -4,12 +4,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" xml:lang="ru">Власть тьмы, или 'коготок увяз, всей птичке
-                    пропасть'
-                </title>
-                <title type="main" xml:lang="en">The Power of Darkness; or, If a Claw Is Caught the Bird Is
-                    Lost
-                </title>
+                <title type="main" xml:lang="ru">Власть тьмы, или 'коготок увяз, всей птичке пропасть'</title>
+                <title type="main" xml:lang="en">The Power of Darkness; or, If a Claw Is Caught the Bird Is Lost</title>
                 <title type="sub" xml:lang="ru">Драма в пяти действиях</title>
                 <title type="sub" xml:lang="en">Drama in Five Acts</title>
                 <author key="Wikidata:Q7243">Лев Толстой</author>
@@ -35,12 +31,8 @@
                         </licence>
                     </availability>
                     <bibl type="originalSource">
-                        <title>Л.Н. Толстой. Собрание сочинений в 22 тт. М.: Художественная литература, 1982. Т.
-                            11. С. 23–100.
-                        </title>
-                        <date type="print" when="1887">"Впервые опубликована издательством «Посредник» в 1887
-                            г." (Wikipedia)
-                        </date>
+                        <title>Л.Н. Толстой. Собрание сочинений в 22 тт. М.: Художественная литература, 1982. Т. 11. С. 23–100.</title>
+                        <date type="print" when="1887">"Впервые опубликована издательством «Посредник» в 1887 г." (Wikipedia)</date>
                         <date type="premiere" when="1888">"До 1895 была запрещена к постановке в России. Однако
                             11 января 1890 г. поставлена на домашней сцене в семье Приселковых в Петербурге силами
                             любителей под руководством актёра Александринского театра В. Н. Давыдова. Зрителями
@@ -48,8 +40,7 @@
                             так и не удалось сыграть на сцене свои уже подготовленные роли), литераторы,
                             художники. К этому времени пьеса уже шла на зарубежных подмостках: в 1888 г. она была
                             показана в Свободном театре А. Антуана в Париже, в 1890 – в Свободном театре О. Брама
-                            в Берлине; ставилась в театрах Италии, Швейцарии, Голландии." (Wikipedia)
-                        </date>
+                            в Берлине; ставилась в театрах Италии, Швейцарии, Голландии." (Wikipedia)</date>
                         <date type="written" when="1886">"Написана в 1886 г." (Wikipedia)</date>
                     </bibl>
                 </bibl>
