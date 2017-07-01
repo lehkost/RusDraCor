@@ -68,7 +68,7 @@ xml_current_act_tag = ET.SubElement(xml_body, "div", attrib=new_act_dict)
 xml_add_head = ET.SubElement(xml_current_act_tag, "head")
 xml_add_head.text = init_tag.string
 
-
+dictio = dict()
 # going through the text
 while current_tag.find_next(target_tag_list):
     speaker_name = None
@@ -150,6 +150,8 @@ while current_tag.find_next(target_tag_list):
             # set who attribute
             if speaker_name is not None:
                 xml_current_speech_tag.set("who", "#" + get_latin_name(speaker_name))
+
+                dictio[speaker_name] = get_latin_name(speaker_name)
             else:
                 print(previous_speaker_name)
                 print("Warning: fix who for:")
@@ -191,3 +193,18 @@ while current_tag.find_next(target_tag_list):
 resulting_xml = ET.ElementTree(element=xml_text)
 indent(resulting_xml.getroot())
 resulting_xml.write("sample.xml", encoding="utf-8")
+
+
+# listpers = ET.Element("listPerson")
+#
+#
+# print(dictio)
+#
+# for key, value in dictio.items():
+#     temp = ET.SubElement(listpers, "person", attrib={"xml:id": "#" + value})
+#     ET.SubElement(temp, "persName").text = key
+#
+# resulting_xml = ET.ElementTree(element=listpers)
+# indent(resulting_xml.getroot())
+# resulting_xml.write("kek_sample.xml", encoding="utf-8")
+#
