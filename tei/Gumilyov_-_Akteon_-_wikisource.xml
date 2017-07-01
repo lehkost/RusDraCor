@@ -41,8 +41,23 @@
     <profileDesc>
       <particDesc>
         <listPerson>
+          <person xml:id="PervyjJunosha" sex="MALE">
+            <persName>Первый юноша</persName>
+          </person>
           <person xml:id="VtorojJunosha" sex="MALE">
             <persName>Второй юноша</persName>
+          </person>
+          <person xml:id="TretijJunosha" sex="MALE">
+            <persName>Третий юноша</persName>
+          </person>
+          <person xml:id="PervyjPes" sex="MALE">
+            <persName>Первый</persName>
+          </person>
+          <person xml:id="VtorojPes" sex="MALE">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="TretijPes" sex="MALE">
+            <persName>Третий</persName>
           </person>
           <person xml:id="Agava" sex="MALE">
             <persName>Агава</persName>
@@ -53,26 +68,11 @@
           <person xml:id="Ehion" sex="MALE">
             <persName>Эхион</persName>
           </person>
-          <person xml:id="PervyjPes" sex="MALE">
-            <persName>Первый</persName>
-          </person>
           <person xml:id="Diana" sex="FEMALE">
             <persName>Диана</persName>
           </person>
           <person xml:id="Kadm" sex="MALE">
             <persName>Кадм</persName>
-          </person>
-          <person xml:id="VtorojPes" sex="MALE">
-            <persName>Второй</persName>
-          </person>
-          <person xml:id="TretijPes" sex="MALE">
-            <persName>Третий</persName>
-          </person>
-          <person xml:id="TretijJunosha" sex="MALE">
-            <persName>Третий юноша</persName>
-          </person>
-          <person xml:id="PervyjJunosha" sex="MALE">
-            <persName>Первый юноша</persName>
           </person>
           <person xml:id="Krokale" sex="FEMALE">
             <persName>Крокале</persName>
