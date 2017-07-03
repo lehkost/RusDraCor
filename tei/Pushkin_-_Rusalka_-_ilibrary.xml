@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="ru">Русалка</title>
-        <title type="main" xml:lang="en">Rusalka</title>
+        <title type="main" xml:lang="en">The Mermaid</title>
         <title type="sub"/>
         <author key="Wikidata:Q7200">Александр Пушкин</author>
       </titleStmt>
@@ -44,20 +44,29 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Knjaginja" sex="FEMALE">
-            <persName>Княгиня</persName>
+          <person xml:id="Melnik" sex="MALE">
+            <persName>Мельник</persName>
           </person>
           <person xml:id="DochRusalka" sex="FEMALE">
-            <persName>Старшая русалка</persName>
+            <persName>Дочь (Русалка)</persName>
           </person>
-          <person xml:id="Odna" sex="FEMALE">
-            <persName>Одна</persName>
+          <person xml:id="Knjaz" sex="MALE">
+            <persName>Князь</persName>
           </person>
-          <person xml:id="Drugaja" sex="FEMALE">
-            <persName>Другая</persName>
+          <person xml:id="Svat" sex="MALE">
+            <persName>Сват</persName>
+          </person>
+          <person xml:id="Hor" sex="FEMALE">
+            <persName>Хор</persName>
+          </person>
+          <person xml:id="OdinGolos" sex="FEMALE">
+            <persName>Один голос</persName>
           </person>
           <person xml:id="Devushki" sex="FEMALE">
             <persName>Девушки</persName>
+          </person>
+          <person xml:id="Konjushij" sex="MALE">
+            <persName>Конюший</persName>
           </person>
           <person xml:id="Gost" sex="MALE">
             <persName>Гость</persName>
@@ -65,38 +74,29 @@
           <person xml:id="Druzhko" sex="MALE">
             <persName>Дружко</persName>
           </person>
-          <person xml:id="Hor" sex="FEMALE">
-            <persName>Хор</persName>
+          <person xml:id="Svaha" sex="FEMALE">
+            <persName>Сваха</persName>
           </person>
-          <person xml:id="Melnik" sex="MALE">
-            <persName>Мельник</persName>
-          </person>
-          <person xml:id="Knjaz" sex="MALE">
-            <persName>Князь</persName>
-          </person>
-          <person xml:id="Rusalochka" sex="FEMALE">
-            <persName>Дочь</persName>
-          </person>
-          <person xml:id="Konjushij" sex="MALE">
-            <persName>Конюший</persName>
-          </person>
-          <person xml:id="Rusalki" sex="FEMALE">
-            <persName>Русалки</persName>
-          </person>
-          <person xml:id="Svat" sex="MALE">
-            <persName>Сват</persName>
-          </person>
-          <person xml:id="Odingolos" sex="FEMALE">
-            <persName>Один голос</persName>
-          </person>
-          <person xml:id="Lovchij" sex="MALE">
-            <persName>Ловчий</persName>
+          <person xml:id="Knjaginja" sex="FEMALE">
+            <persName>Княгиня</persName>
           </person>
           <person xml:id="Mamka" sex="FEMALE">
             <persName>Мамка</persName>
           </person>
-          <person xml:id="Svaha" sex="FEMALE">
-            <persName>Сваха</persName>
+          <person xml:id="Lovchij" sex="MALE">
+            <persName>Ловчий</persName>
+          </person>
+          <person xml:id="Odna" sex="FEMALE">
+            <persName>Одна</persName>
+          </person>
+          <person xml:id="Drugaja" sex="FEMALE">
+            <persName>Другая</persName>
+          </person>
+          <person xml:id="Rusalki" sex="FEMALE">
+            <persName>Русалки</persName>
+          </person>
+          <person xml:id="Rusalochka" sex="FEMALE">
+            <persName>Дочь</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -119,7 +119,7 @@
   </teiHeader>
   <text>
     <body>
-      <div type="location">
+      <div type="scene">
         <head>БЕРЕГ ДНЕПРА. МЕЛЬНИЦА</head>
         <stage>Мельник, дочь его.</stage>
         <sp who="#Melnik">
@@ -650,7 +650,7 @@
           </lg>
         </sp>
       </div>
-      <div type="location">
+      <div type="scene">
         <head>КНЯЖЕСКИЙ ТЕРЕМ</head>
         <stage>Свадьба. Молодые сидят за столом. Гости. Хор девушек.</stage>
         <sp who="#Svat">
@@ -694,7 +694,7 @@
           </lg>
         </sp>
         <stage type="delivery">(Дарит девушек.)</stage>
-        <sp who="#Odingolos">
+        <sp who="#OdinGolos">
           <speaker>Один голос</speaker>
           <lg>
             <l>По камушкам по желтому песочку</l>
@@ -882,7 +882,7 @@
           </lg>
         </sp>
       </div>
-      <div type="location">
+      <div type="scene">
         <head>СВЕТЛИЦА</head>
         <stage>Княгиня и мамка.</stage>
         <sp who="#Knjaginja">
@@ -992,7 +992,7 @@
           </lg>
         </sp>
       </div>
-      <div type="location">
+      <div type="scene">
         <head>ДНЕПР. НОЧЬ</head>
         <sp who="#Rusalki">
           <speaker>Русалки</speaker>
@@ -1264,7 +1264,7 @@
         </sp>
         <stage>Скрываются.</stage>
       </div>
-      <div type="location">
+      <div type="scene">
         <head>ДНЕПРОВСКОЕ ДНО</head>
         <stage>Терем русалок.</stage>
         <stage>Русалки прядут около своей царицы.</stage>
@@ -1352,6 +1352,9 @@
             <l>И ныне, кажется, мой час настал.</l>
           </lg>
         </sp>
+      </div>
+      <div type="scene">
+        <head>БЕРЕГ</head>
         <sp who="#Knjaz">
           <speaker>Князь</speaker>
           <lg>
