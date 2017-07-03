@@ -53,82 +53,78 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Petr">
+          <person xml:id="Petr" sex="MALE">
             <persName>Петр</persName>
           </person>
-          <person xml:id="GolosNikity">
-            <persName>Голос Никиты</persName>
-          </person>
-          <person xml:id="Akulina">
+
+          <person xml:id="Akulina" sex="FEMALE">
             <persName>Акулина</persName>
           </person>
-          <person xml:id="Anisja">
+          <person xml:id="Anisja" sex="FEMALE">
             <persName>Анисья</persName>
           </person>
-          <person xml:id="Anjutka">
+          <person xml:id="Anjutka" sex="FEMALE">
             <persName>Анютка</persName>
           </person>
-          <person xml:id="Nikita">
+          <person xml:id="Nikita" sex="MALE">
             <persName>Никита</persName>
           </person>
-          <person xml:id="Matrena">
+          <person xml:id="Matrena" sex="FEMALE">
             <persName>Матрена</persName>
           </person>
-          <person xml:id="Akim">
+          <person xml:id="Akim" sex="MALE">
             <persName>Аким</persName>
           </person>
-          <person xml:id="Marina">
+          <person xml:id="Marina" sex="FEMALE">
             <persName>Марина</persName>
           </person>
-          <person xml:id="Kuma">
+          <person xml:id="Kuma" sex="FEMALE">
             <persName>Кума</persName>
           </person>
-          <person xml:id="GolosMuzhika">
+          <person xml:id="GolosMuzhika" sex="MALE">
             <persName>Голос мужика</persName>
           </person>
-          <person xml:id="Marfa">
+          <person xml:id="Marfa" sex="FEMALE">
             <persName>Марфа</persName>
           </person>
-          <person xml:id="OdinGolosIzNaroda">
+          <person xml:id="OdinGolosIzNaroda" sex="UNKNOWN" >
             <persName>Один голос из народа</persName>
           </person>
-          <person xml:id="Mitrich">
+          <person xml:id="Mitrich" sex="MALE">
             <persName>Митрич</persName>
           </person>
-          <person xml:id="Sosedka">
+          <person xml:id="Sosedka" sex="FEMALE">
             <persName>Соседка</persName>
           </person>
-          <person xml:id="Svat">
+          <person xml:id="Svat" sex="MALE">
             <persName>Сват</persName>
           </person>
-          <person xml:id="GolosBabyIzSenej">
+          <person xml:id="GolosBabyIzSenej" sex="FEMALE">
             <persName>Голос бабы из сеней</persName>
           </person>
-          <person xml:id="PervajaDevka">
+          <person xml:id="PervajaDevka" sex="FEMALE">
             <persName>1-я девка</persName>
           </person>
-          <person xml:id="VtorajaDevka">
+          <person xml:id="VtorajaDevka" sex="FEMALE">
             <persName>2-я девка</persName>
           </person>
-          <person xml:id="Devki">
-            <persName>Девки</persName>
-          </person>
-          <person xml:id="MuzhMariny">
+          
+          <person xml:id="MuzhMariny" sex="MALE">
             <persName>Муж Марины</persName>
           </person>
-          <person xml:id="Izvozchik">
+          <person xml:id="Izvozchik" sex="MALE" >
             <persName>Извозчик</persName>
           </person>
-          <person xml:id="Druzhko">
+          <person xml:id="Druzhko"  sex="MALE">
             <persName>Дружко</persName>
           </person>
-          <person xml:id="Svaha">
+          <person xml:id="Svaha" sex="FEMALE">
             <persName>Сваха</persName>
           </person>
-          <person xml:id="Urjadnik">
+          <person xml:id="Urjadnik" sex="MALE">
             <persName>Урядник</persName>
           </person>
-          <person xml:id="Starosta">
+          <person xml:id="Starosta" sex="MALE">
             <persName>Староста</persName>
           </person>
         </listPerson>
@@ -142,6 +138,7 @@
     <revisionDesc>
       <listChange>
         <change who="#km" when="2017-06-30">converted from source</change>
+        <change who="GG" when="2017-07-04">corrected ids, added gender</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -173,7 +170,7 @@
             <stage type="delivery">(Прислушивается. На баб:)</stage>
             <p>Будет вам, не слыхать ничего.</p>
           </sp>
-          <sp who="#GolosNikity">
+          <sp who="#Nikita">
             <speaker>Голос Никиты</speaker>
             <stage type="delivery">(с надворья).</stage>
             <p>Чего?</p>
@@ -182,7 +179,7 @@
             <speaker>Петр.</speaker>
             <p>Лошадей загони.</p>
           </sp>
-          <sp who="#GolosNikity">
+          <sp who="#Nikita">
             <speaker>Голос Никиты.</speaker>
             <p>Загоню, дай срок.</p>
           </sp>
@@ -5525,7 +5522,7 @@
             <speaker>Марина.</speaker>
             <p>Здорово, деушки!</p>
           </sp>
-          <sp who="#Devki">
+          <sp who="#PervajaDevka #VtorajaDevka">
             <speaker>Девки.</speaker>
             <p>Здорово, тетенька!</p>
           </sp>
