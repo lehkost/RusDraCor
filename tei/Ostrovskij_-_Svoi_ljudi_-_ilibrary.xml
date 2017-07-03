@@ -31,7 +31,7 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>INSERTORIGSOURCE</title>
+            <title>А. Н. Островский. Полное собрание сочинений. Том 1.</title>
             <date type="print" when="1850">1850 год (wikipedia)</date>
             <date type="premiere" when="1861">сокращенная цензурой версия - 1861, полная - 1881 год
               (wikipedia)</date>
@@ -44,28 +44,28 @@
       <particDesc>
         <listPerson>
           <person xml:id="Lipochka" sex="FEMALE">
-            <persName> Липочка, Олимпиада Самсоновна </persName>
-          </person>
-          <person xml:id="UstinjaNaumovna" sex="FEMALE">
-            <persName> Устинья Наумовна </persName>
-          </person>
-          <person xml:id="Tishka" sex="MALE">
-            <persName> Тишка </persName>
+            <persName>Липочка, Олимпиада Самсоновна</persName>
           </person>
           <person xml:id="AgrafenaKondratevna" sex="FEMALE">
-            <persName> Аграфена Кондратьевна </persName>
-          </person>
-          <person xml:id="Rispolozhenskij" sex="MALE">
-            <persName> Рисположенский </persName>
+            <persName>Аграфена Кондратьевна</persName>
           </person>
           <person xml:id="Fominishna" sex="FEMALE">
-            <persName> Фоминишна </persName>
+            <persName>Фоминишна</persName>
           </person>
-          <person xml:id="Podhaljuzin" sex="MALE">
-            <persName> Подхалюзин </persName>
+          <person xml:id="UstinjaNaumovna" sex="FEMALE">
+            <persName>Устинья Наумовна</persName>
+          </person>
+          <person xml:id="Rispolozhenskij" sex="MALE">
+            <persName>Рисположенский</persName>
           </person>
           <person xml:id="Bolshov" sex="MALE">
-            <persName> Большов </persName>
+            <persName>Большов</persName>
+          </person>
+          <person xml:id="Podhaljuzin" sex="MALE">
+            <persName>Подхалюзин</persName>
+          </person>
+          <person xml:id="Tishka" sex="MALE">
+            <persName>Тишка</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -77,22 +77,35 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change who="#ds">converted from source</change>
+        <change who="#ds" when="2017-03-31">converted from source</change>
         <change who="#sveta" when="2017-04-13">corrected IDs</change>
-        <change who="#GG" when="2017-06-03">gender info</change>
+        <change who="#GG" when="2017-06-05">gender info</change>
+        <change who="#ff" when="2017-07-04">formalities</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
-    <body>
+    <front>
+      <docTitle>
+        <titlePart type="main">Свои люди – сочтемся</titlePart>
+        <titlePart type="sub">Комедия в четырех действиях</titlePart>
+      </docTitle>
       <castList>
-        <castItem> Самсон Силыч Большов , купец. </castItem>
-        <castItem> Аграфена Кондратьевна , его жена. </castItem>
-        <castItem> Олимпиада Самсоновна (Липочка) , их дочь. </castItem>
-        <castItem> Лазарь Елизарыч Подхалюзин , приказчик. </castItem>
-        <castItem> Устинья Наумовна , сваха. </castItem>
-        <castItem> Сысой Псоич Рисположенский , стряпчий. </castItem>
+        <head>ЛИЦА:</head>
+        <castItem>Самсон Силыч Большов, купец.</castItem>
+        <castItem>Аграфена Кондратьевна, его жена.</castItem>
+        <castItem>Олимпиада Самсоновна (Липочка), их дочь.</castItem>
+        <castItem>Лазарь Елизарыч Подхалюзин, приказчик.</castItem>
+        <castItem>Устинья Наумовна, сваха.</castItem>
+        <castItem>Сысой Псоич Рисположенский, стряпчий.</castItem>
+        <castGroup>
+          <castItem>Фоминишна ключница</castItem>
+          <castItem>Тишка мальчик</castItem>
+          <roleDesc>в доме Большова.</roleDesc>
+        </castGroup>
       </castList>
+    </front>
+    <body>
       <div type="act">
         <head> Действие первое </head>
         <stage> Гостиная в доме Большова. </stage>
