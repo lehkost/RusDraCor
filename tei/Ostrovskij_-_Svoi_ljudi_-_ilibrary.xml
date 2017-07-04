@@ -334,6 +334,7 @@
               меня на тот свет прежде времени, извести своими капризами?</p>
             <stage type="delivery">(Плачет.)</stage>
             <p>Что ж, пожалуй, я уж и так, как муха какая, кашляю.</p>
+            <stage type="delivery">(Плачет.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна</speaker>
@@ -365,6 +366,7 @@
             <speaker>Липочка</speaker>
             <stage type="delivery">(сквозь слезы).</stage>
             <p>Тогда и перестану, как замуж выду.</p>
+            <stage type="delivery">(Плачет.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
@@ -542,6 +544,7 @@
           <sp who="#Fominishna">
             <speaker>Фоминишна.</speaker>
             <p>Как же уж! Слушаю!</p>
+            <stage type="delivery">(Уходит.)</stage>
           </sp>
         </div>
         <div type="scene">
@@ -673,6 +676,7 @@
           <sp who="#UstinjaNaumovna">
             <speaker>Устинья Наумовна.</speaker>
             <p>Да ты бы сама-то прежде, яхонтовая.</p>
+            <stage type="delivery">(Пьет.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
@@ -685,6 +689,7 @@
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
             <p>Из винной конторы.</p>
+            <stage type="delivery">(Пьет.)</stage>
           </sp>
           <sp who="#UstinjaNaumovna">
             <speaker>Устинья Наумовна.</speaker>
@@ -748,6 +753,7 @@
             <p>А я к вам, матушка Аграфена Кондратьевна. Толконулся было к Самсону Силычу, да занят,
               вижу; так я думаю: зайду, мол, я к Агра-фене Кондратьевне. Что это, водочка у вас? Я,
               Аграфена Кондратьевна, рюмочку выпью.</p>
+            <stage type="delivery">(Пьет.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
@@ -796,6 +802,7 @@
             <speaker>Рисположенский.</speaker>
             <p>Так вот, матушка Аграфена Кондратьевна, была история: не то чтобы притча али сказка
               какая, а истинное происшествие. Я, Аграфена Кондратьевна, рюмочку выпью.</p>
+            <stage type="delivery">(Пьет.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
@@ -919,6 +926,7 @@
               забежишь к нему на празднике: что, говорит, ты, Сысой Псоич? С праздником, мол, ваше
               превосходительство, поздравить пришел. Вот к Троице ходил недавно, просвирку ему
               принес. Я, Аграфена Кондратьевна, рюмочку выпью.</p>
+            <stage type="delivery">(Пьет.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
@@ -1087,6 +1095,7 @@
             <speaker>Рисположенский.</speaker>
             <p>Уж будьте покойны, Самсон Силыч, мы свое дело знаем. А вы Лазарю-то Елизарычу
               говорили об этом деле или нет? Я, Самсон Силыч, рюмочку выпью.</p>
+            <stage type="delivery">(Пьет.)</stage>
           </sp>
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
@@ -1121,10 +1130,12 @@
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
             <p>Слава богу-с, идет помаленьку. Сысою Псоичу!</p>
+            <stage type="delivery">(Кланяется.)</stage>
           </sp>
           <sp who="#Rispolozhenskij">
             <speaker>Рисположенский.</speaker>
             <p>Здравствуйте, батюшка Лазарь Елизарыч!</p>
+            <stage type="delivery">(Кланяется.)</stage>
           </sp>
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
@@ -1195,11 +1206,13 @@
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
             <p>Дава-ко-сь, посмотрим.</p>
+            <stage type="delivery">(Надевает очки и просматривает.)</stage>
           </sp>
           <sp who="#Rispolozhenskij">
             <speaker>Рисположенский.</speaker>
             <p>Я, Самсон Силыч, рюмочку выпью.</p>
-            <stage type="delivery">(Пьет, потом надевает очки, садится подле Большов</stage>
+            <stage type="delivery">(Пьет, потом надевает очки, садится подле Большова и смотрит в
+              газеты.)</stage>
           </sp>
           <sp who="#Bolshov">
             <speaker>Большов</speaker>
@@ -1300,6 +1313,7 @@
           <sp who="#Rispolozhenskij">
             <speaker>Рисположенский.</speaker>
             <p>Прощайте! Прощайте, Лазарь Елизарыч!</p>
+            <stage type="delivery">(Уходит.)</stage>
           </sp>
         </div>
         <div type="scene">
@@ -1431,6 +1445,7 @@
             <stage type="delivery">(Подходит к нему и треплет по плечу.)</stage>
             <p>Сделаешь дело аккуратно, так мы с тобой барышами-то поделимся. Награжу на всю
               жизнь.</p>
+            <stage type="delivery">(Идет к двери.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -1466,6 +1481,7 @@
             <p>Вот оно что!</p>
             <stage type="delivery">(Другую.)</stage>
             <p>Эвось оно как...</p>
+            <stage type="delivery">(Хохочет.)</stage>
           </sp>
         </div>
         <div type="scene">
@@ -1639,8 +1655,7 @@
               нужно. Это водочка у вас? Я, Лазарь Елизарыч, рюмочку выпью. Что-то руки стали
               трястись по утрам, особенно вот правая; как писать что, Лазарь Елизарыч, так все левой
               придерживаю. Ей-богу! А выпьешь водочки, словно лучше.</p>
-            <stage type="delivery">(</stage>
-            <stage type="delivery">Пьет</stage>
+            <stage type="delivery">(Пьет.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -1709,6 +1724,7 @@
             <p>Бедность одолела! Это бывает-с.</p>
             <stage type="delivery">(Подходит и садится к столу.)</stage>
             <p>А у нас вот лишние есть-с: девать некуда.</p>
+            <stage type="delivery">(Кладет бумажник на стол.)</stage>
           </sp>
           <sp who="#Rispolozhenskij">
             <speaker>Рисположенский.</speaker>
@@ -1922,6 +1938,7 @@
             <speaker>Фоминишна.</speaker>
             <p>Уж и правда, матушка! А я побегу, родная, наверх-то — Аграфена-то Кондратьевна у меня
               там одна. Ты, как пойдешь домой-то, так заверни ко мне, я тебе окорочек завяжу.</p>
+            <stage type="delivery">(Идет на лестницу.)</stage>
           </sp>
           <sp who="#UstinjaNaumovna">
             <speaker>Устинья Наумовна.</speaker>
@@ -1943,6 +1960,7 @@
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
             <p>Что нам делается-с.</p>
+            <stage type="delivery">(Садится.)</stage>
           </sp>
           <sp who="#UstinjaNaumovna">
             <speaker>Устинья Наумовна.</speaker>
@@ -2406,6 +2424,7 @@
               имение-то все отнимут: должны будут они-с голод и холод терпеть и без всякого
               призрения, как птенцы какие беззащитные. Да это сохрани господи! Это что ж будет
               тогда?</p>
+            <stage type="delivery">(Плачет.)</stage>
           </sp>
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
@@ -2622,7 +2641,7 @@
             <stage type="delivery">(Молчание.)</stage>
             <p>Вот так-то и всё: жил, жил человек, да вдруг и помер — так все прахом и пойдет. Ох,
               господи, господи!</p>
-            <stage type="delivery">(Зевает и смотрит по</stage>
+            <stage type="delivery">(Зевает и смотрит по углам.)</stage>
           </sp>
         </div>
         <div type="scene">
@@ -2707,6 +2726,7 @@
             <p>Отец ты эдакой, а еще родной называешься! Ах ты, дитятко моя заброшенная, стоишь,
               словно какая сиротинушка, приклонивши головушку. Отступились от тебя, да и знать не
               хотят. Присядь, Липочка, присядь, душечка, ненаглядная моя сокровища!</p>
+            <stage type="delivery">(Усаживает.)</stage>
           </sp>
           <sp who="#Lipochka">
             <speaker>Липочка.</speaker>
@@ -2737,6 +2757,7 @@
               да спохватимся, да и негде взять. Посудите, люди добрые, каково жить в чужой дальней
               стороне, чужим куском давишься, кулаком слезы утираючи! Да, помилуй бог, неровнюшка
               выйдется, неровен дурак навяжется аль дурак какой — дурацкий сын!</p>
+            <stage type="delivery">(Плачет.)</stage>
           </sp>
           <sp who="#Lipochka">
             <speaker>Липочка.</speaker>
@@ -2779,6 +2800,7 @@
             <speaker>Устинья Наумовна</speaker>
             <stage type="delivery">(входя).</stage>
             <p>Здравствуйте, золотые! Что вы невеселы — носы повесили?</p>
+            <stage type="delivery">(Целуются.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
@@ -2864,6 +2886,7 @@
             <speaker>Аграфена Кондратьевна.</speaker>
             <p>Что увидать-то! Увидать-то нечего! Уж не говори ты мне, пожалуйста, не расстраивай ты
               меня.</p>
+            <stage type="delivery">(Садится.)</stage>
           </sp>
           <stage>Большов хохочет. Устинья Наумовна отходит с Липочкой на другую сторону сцены.
             Устинья Наумовна рассматривает ее платье.</stage>
@@ -3171,6 +3194,7 @@
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
             <p>Молчи лучше! Велю, так и за дворника выдешь.</p>
+            <stage type="delivery">(Молчание.)</stage>
           </sp>
           <sp who="#UstinjaNaumovna">
             <speaker>Устинья Наумовна.</speaker>
@@ -3206,6 +3230,7 @@
           <sp who="#Lipochka">
             <speaker>Липочка.</speaker>
             <p>Да что же это, маменька, такое? Что я им, кухарка, что ли, досталась?</p>
+            <stage type="delivery">(Плачет.</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -3319,6 +3344,7 @@
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
             <p>А вот у нас законные документы есть!</p>
+            <stage type="delivery">(Вынимает.)</stage>
           </sp>
           <sp who="#Lipochka">
             <speaker>Липочка.</speaker>
@@ -3339,6 +3365,7 @@
           <sp who="#Lipochka">
             <speaker>Липочка.</speaker>
             <p>Что ж это такое со мной делают? Воспитывали, воспитывали, потом и обанкрутились!</p>
+            <stage type="delivery">(Молчание.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -3495,6 +3522,7 @@
           <sp who="#Lipochka">
             <speaker>Липочка.</speaker>
             <p>Ну, теперь зовите тятеньку.</p>
+            <stage type="delivery">(Встает и охорашивается перед зеркалом.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -3542,6 +3570,7 @@
           <sp who="#Fominishna">
             <speaker>Фоминишна.</speaker>
             <p>Бегу, бегу, матушка, бегу.</p>
+            <stage type="delivery">(Входит.)</stage>
           </sp>
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
@@ -3552,6 +3581,7 @@
           <sp who="#Fominishna">
             <speaker>Фоминишна.</speaker>
             <p>Сейчас, батюшка, сейчас!</p>
+            <stage type="delivery">(Уходит.)</stage>
           </sp>
         </div>
         <div type="scene">
@@ -3685,6 +3715,7 @@
             <speaker>Устинья Наумовна</speaker>
             <stage type="delivery">(ставит вино на стол).</stage>
             <p>Врешь, купоросная душа, не уйдешь!</p>
+            <stage type="delivery">(Прижимает его в угол и хватает за шиворот.)</stage>
           </sp>
           <sp who="#Rispolozhenskij">
             <speaker>Рисположенский.</speaker>
@@ -4023,6 +4054,7 @@
             <p>Уж я вас, золотые, распечатаю: будете знать! Я вас так по Москве-то расславлю, что
               стыдно будет в люди глаза показать!.. Ах я, дура, дура, с кем связалась! Даме-то с
               званием, с чином... Тьфу! Тьфу! Тьфу!</p>
+            <stage type="delivery">(Уходит.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -4146,6 +4178,7 @@
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
             <p>Сейчас, батюшка, сейчас!</p>
+            <stage type="delivery">(Уходит.)</stage>
           </sp>
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
@@ -4304,6 +4337,7 @@
               это было?.. А там Присутственные места, Уголовная палата... Ведь я злостный —
               умышленный... ведь меня в Сибирь сошлют. Господи!.. Коли так не дадите денег, дайте
               христа-ради!</p>
+            <stage type="delivery">(Плачет.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -4329,6 +4363,7 @@
           <sp who="#Bolshov">
             <speaker>Большов.</speaker>
             <p>Змеи вы подколодные!</p>
+            <stage type="delivery">(Опускается головой на стол.)</stage>
           </sp>
           <sp who="#AgrafenaKondratevna">
             <speaker>Аграфена Кондратьевна.</speaker>
@@ -4411,7 +4446,7 @@
               заживете по-барски. По гуляньям это, по балам — дьявола тешить! А не забудьте вы,
               Алимпияда Самсоновна, что есть клетки с железными решетками, сидят там бедные
               заключенные. Не забудьте нас, бедных заключенных.</p>
-            <stage type="delivery">(Уходит с Аграфеной Кондратьев</stage>
+            <stage type="delivery">(Уходит с Аграфеной Кондратьевной.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
@@ -4634,6 +4669,7 @@
             <speaker>Рисположенский.</speaker>
             <p>Что, взял? А! Что, взял? Вот тебе, собака! Ну, теперь подавись моими деньгами, чорт с
               тобой!</p>
+            <stage type="delivery">(Уходит.)</stage>
           </sp>
           <sp who="#Podhaljuzin">
             <speaker>Подхалюзин.</speaker>
