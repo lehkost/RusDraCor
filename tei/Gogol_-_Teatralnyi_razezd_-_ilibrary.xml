@@ -45,299 +45,410 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Kupets" sex="MALE">
-            <persName>Купец</persName>
-          </person>
-          <person xml:id="NevzrachnyjNoJadovitogoSvojstvaGospodin" sex="MALE">
-            <persName>Невзрачный, но ядовитого свойства господин</persName>
-          </person>
-          <person xml:id="MuzhPervojDamy" sex="MALE">
-            <persName>Муж</persName>
-          </person>
-          <person xml:id="NeizvestnyjGolos" sex="UNKNOWN">
-            <persName>Неизвестный голос</persName>
-          </person>
-          <person xml:id="OdinIzGospod" sex="MALE">
-            <persName>Один из господ</persName>
-          </person>
-          <person xml:id="GospodinBezzabotnyjNaschetliteratury" sex="MALE">
-            <persName>Господин, беззаботный насчет литературы</persName>
-          </person>
-          <person xml:id="GolosVNarode" sex="UNKNOWN">
-            <persName>Голос в народе</persName>
-          </person>
           <person xml:id="AvtorPesy" sex="MALE">
             <persName>Автор пьесы</persName>
-          </person>
-          <person xml:id="TretijGospodin" sex="MALE">
-            <persName>Третий господин</persName>
-          </person>
-          <person xml:id="GospodinSDrugojStoronyGruppy" sex="MALE">
-            <persName>Господин с другой стороны группы</persName>
-          </person>
-          <person xml:id="GospodinSVesom" sex="MALE">
-            <persName>Господин с весом</persName>
-          </person>
-          <person xml:id="Voennyj" sex="MALE">
-            <persName>Военный</persName>
-          </person>
-          <person xml:id="GospodinV" sex="MALE">
-            <persName>Господин В</persName>
-          </person>
-          <person xml:id="MolodajaDama" sex="FEMALE">
-            <persName>Первая дама</persName>
-          </person>
-          <person xml:id="MolodenkijChinovnikUklonchivogoSvojstva" sex="MALE">
-            <persName>Молоденький чиновник уклончивого свойства</persName>
-          </person>
-          <person xml:id="EscheLiterator" sex="MALE">
-            <persName>Еще литератор</persName>
-          </person>
-          <person xml:id="GospodinOtritsatelnogoSvojstva" sex="MALE">
-            <persName>Господин отрицательного свойства</persName>
-          </person>
-          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="MALE">
-            <persName>Голос господина поощрительного свойства</persName>
-          </person>
-          <person xml:id="ProstoVral" sex="MALE">
-            <persName>Просто враль</persName>
-          </person>
-          <person xml:id="MuzhVtorojDamy" sex="MALE">
-            <persName>Муж второй дамы</persName>
-          </person>
-          <person xml:id="DrugajaBekesha" sex="MALE">
-            <persName>Другая бекеша</persName>
-          </person>
-          <person xml:id="PervyjCommeIlFaut" sex="MALE">
-            <persName>Первый comme il faut</persName>
-          </person>
-          <person xml:id="OdnaBekesha" sex="MALE">
-            <persName>Первая бекеша</persName>
-          </person>
-          <person xml:id="NeizvestnoKakojChelovek" sex="MALE">
-            <persName>Неизвестно какой человек</persName>
-          </person>
-          <person xml:id="OtstavshijChinovnik" sex="MALE">
-            <persName>Отставший чиновник</persName>
-          </person>
-          <person xml:id="Statskij" sex="MALE">
-            <persName>Статский</persName>
-          </person>
-          <person xml:id="PervyjOfitser" sex="MALE">
-            <persName>Первый офицер</persName>
-          </person>
-          <person xml:id="OdinIzDvuhZritelej" sex="MALE">
-            <persName>Один из двух зрителей</persName>
-          </person>
-          <person xml:id="OdinChinovnik" sex="MALE">
-            <persName>Один чиновник</persName>
-          </person>
-          <person xml:id="KnjazN" sex="MALE">
-            <persName>Князь N</persName>
-          </person>
-          <person xml:id="Pervyj" sex="MALE">
-            <persName>Первый</persName>
-          </person>
-          <person xml:id="GospodinHladnokrovnogoSvojstva" sex="MALE">
-            <persName>Господин хладнокровного свойства</persName>
-          </person>
-          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="MALE">
-            <persName>Голос другого чиновника из толпы</persName>
-          </person>
-          <person xml:id="OchenSkromnoOdetyjChelovek" sex="MALE">
-            <persName>Очень скромно одетый человек</persName>
-          </person>
-          <person xml:id="Literator" sex="MALE">
-            <persName>Литератор</persName>
-          </person>
-          <person xml:id="Drugoj" sex="MALE">
-            <persName>Другой</persName>
-          </person>
-          <person xml:id="GospodinNeskolkobezzabotnyjNaschetliteratury" sex="MALE">
-            <persName>Господин, несколько беззаботный насчет литературы</persName>
-          </person>
-          <person xml:id="GospodinPolozhitelnogoSvojstva" sex="MALE">
-            <persName>Господин положительного свойства</persName>
-          </person>
-          <person xml:id="DobrodushnyjChinovnik" sex="MALE">
-            <persName>Добродушный чиновник</persName>
-          </person>
-          <person xml:id="GospodinVShineli" sex="MALE">
-            <persName>Господин в шинели</persName>
-          </person>
-          <person xml:id="DrugojChinovnik" sex="MALE">
-            <persName>Другой чиновник</persName>
-          </person>
-          <person xml:id="GospodinA" sex="MALE">
-            <persName>Господин А</persName>
-          </person>
-          <person xml:id="DamaSrednegoSveta" sex="FEMALE">
-            <persName>Дама среднего света</persName>
-          </person>
-          <person xml:id="Neznakomets" sex="MALE">
-            <persName>Незнакомец</persName>
-          </person>
-          <person xml:id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" sex="FEMALE">
-            <persName>Голос сердитого чиновника, но, как видно, опытного</persName>
-          </person>
-          <person xml:id="GospodinP" sex="MALE">
-            <persName>Господин П</persName>
-          </person>
-          <person xml:id="ChinovnikSrednihLet" sex="MALE">
-            <persName>Чиновник средних лет</persName>
-          </person>
-          <person xml:id="TozheSvetskijChelovekPoplotnee" sex="MALE">
-            <persName>Тоже светский человек, поплотнее</persName>
-          </person>
-          <person xml:id="MuzhchinaVoFrake" sex="MALE">
-            <persName>Мужчина во фраке</persName>
-          </person>
-          <person xml:id="GolosVDrugomKontse" sex="UNKNOWN">
-            <persName>Голос в другом конце</persName>
-          </person>
-          <person xml:id="GospodinB" sex="MALE">
-            <persName>Господин Б</persName>
-          </person>
-          <person xml:id="NomerOdin" sex="MALE">
-            <persName>№ 1</persName>
-          </person>
-          <person xml:id="NomerDva" sex="MALE">
-            <persName>№ 2</persName>
-          </person>
-          <person xml:id="VtorojOfitser" sex="MALE">
-            <persName>Другой офицер</persName>
-          </person>
-          <person xml:id="GospodaHoroshoOdetye" sex="MALE">
-            <persName>Господа хорошо одетые</persName>
-          </person>
-          <person xml:id="MuzhchinaVMundire" sex="MALE">
-            <persName>Мужчина в мундире</persName>
-          </person>
-          <person xml:id="Ofitser" sex="MALE">
-            <persName>Офицер</persName>
-          </person>
-          <person xml:id="OdinDrugojOfitser" sex="MALE">
-            <persName>Другой Офицер</persName>
-          </person>
-          <person xml:id="DrugojDrugojOfitser" sex="MALE">
-            <persName>Другой другой Офицер</persName>
-          </person>
-          <person xml:id="ChinovnikVazhnojNaruzhnosti" sex="MALE">
-            <persName>Чиновник важной наружности</persName>
-          </person>
-          <person xml:id="VtorojGospodin" sex="MALE">
-            <persName>Второй господин</persName>
-          </person>
-          <person xml:id="SvetskijChelovekSchegolevatoodetyj" sex="MALE">
-            <persName>Светский человек, щеголевато одетый</persName>
-          </person>
-          <person xml:id="Sinijarmjak" sex="MALE">
-            <persName>Синий армяк</persName>
-          </person>
-          <person xml:id="RaznyeGolosa" sex="UNKNOWN">
-            <persName>Разные голоса</persName>
-          </person>
-          <person xml:id="NeznakomyjSosed" sex="MALE">
-            <persName>Незнакомый сосед</persName>
-          </person>
-          <person xml:id="KrasivyjIPlotnyjGospodin" sex="MALE">
-            <persName>Красивый и плотный господин</persName>
-          </person>
-          <person xml:id="VtorajaDama" sex="FEMALE">
-            <persName>Вторая дама</persName>
-          </person>
-          <person xml:id="OdinIzNaroda" sex="MALE">
-            <persName>Один из народа</persName>
-          </person>
-          <person xml:id="SvetskajaDama" sex="FEMALE">
-            <persName>Светская дама</persName>
-          </person>
-          <person xml:id="GolosVOdnomkontseTolpy" sex="UNKNOWN">
-            <persName>Голос в одном конце толпы</persName>
-          </person>
-          <person xml:id="VtorojCommeIlFaut" sex="MALE">
-            <persName>Второй comme il faut</persName>
-          </person>
-          <person xml:id="GolosIzTolpy" sex="UNKNOWN">
-            <persName>Голос из толпы</persName>
-          </person>
-          <person xml:id="GospodinN" sex="MALE">
-            <persName>Господин N</persName>
-          </person>
-          <person xml:id="ChinovnikRazgovorchivogoSvojstva" sex="MALE">
-            <persName>Чиновник разговорчивого свойства</persName>
-          </person>
-          <person xml:id="GospodinDobrodushnogoSvojstva" sex="MALE">
-            <persName>Господин добродушного свойства</persName>
+            <persName xml:lang="de">Der Autor des Stückes</persName>
           </person>
           <person xml:id="OdinIzPrilichnoOdetyhLudei" sex="MALE">
             <persName>Один из прилично одетых людей</persName>
+            <persName xml:lang="de">Einer der anständig gekleideten Leute</persName>
           </person>
-          <person xml:id="PervyjHoroshoOdetyj" sex="MALE">
-            <persName>первый хорошо одетый человек</persName>
+          <person xml:id="PervyjCommeIlFaut" sex="MALE">
+            <persName>Первый comme il faut</persName>
+            <persName xml:lang="de">Der erste comme il faut</persName>
           </person>
-          <person xml:id="VtorojHoroshoOdetyj" sex="MALE">
-            <persName>второй хорошо одетый человек</persName>
+          <person xml:id="VtorojCommeIlFaut" sex="MALE">
+            <persName>Второй comme il faut</persName>
+            <persName xml:lang="de">Der zweite comme il faut</persName>
           </person>
-          <person xml:id="PervyjVprochemBlagorodnyj" sex="MALE">
-            <persName>первый человек, Бог весть какого свойства, впрочем, благородной наружности и
-              прилично одетый</persName>
+          <person xml:id="PervyjOfitser_1" sex="MALE">
+            <persName>Первый офицер</persName>
+            <persName xml:lang="de">Erster Offizier</persName>
           </person>
-          <person xml:id="VtorojVprochemBlagorodnyj" sex="MALE">
-            <persName>второй человек, Бог весть какого свойства, впрочем, благородной наружности и
-              прилично одетый</persName>
+          <person xml:id="VtorojOfitser_1" sex="MALE">
+            <persName>Другой офицер</persName>
+            <persName xml:lang="de">Zweiter Offizier</persName>
           </person>
-          <person xml:id="TretijVprochemBlagorodnyj" sex="MALE">
-            <persName>третий человек, Бог весть какого свойства, впрочем, благородной наружности и
-              прилично одетый</persName>
+          <person xml:id="SvetskijChelovekSchegolevatoOdetyj" sex="MALE">
+            <persName>Светский человек, щеголевато одетый</persName>
+            <persName xml:lang="de">Ein Gesellschaftsmensch, elegant gekleidet</persName>
           </person>
-          <person xml:id="PervyjZritel" sex="MALE">
-            <persName>один из двух вышедших зрителей</persName>
+          <person xml:id="TozheSvetskijChelovekPoplotnee" sex="MALE">
+            <persName>Тоже светский человек, поплотнее</persName>
+            <persName xml:lang="de">Ebenfalls ein Gesellschaftsmensch, nur korpulenter</persName>
           </person>
-          <person xml:id="VtorojZritel" sex="MALE">
-            <persName>второй из двух вышедших зрителей</persName>
+          <person xml:id="ChinovnikSrednihLet" sex="MALE">
+            <persName>Чиновник средних лет</persName>
+            <persName xml:lang="de">Ein Beamter mittleren Alters</persName>
           </person>
-          <person xml:id="PervyjMujchina" sex="MALE">
-            <persName>один из мужчин</persName>
+          <person xml:id="GospodinNeskolkoBezzabotnyjNaschetLiteratury" sex="MALE">
+            <persName>Господин, несколько беззаботный насчет литературы</persName>
+            <persName xml:lang="de">Ein Herr, der im Hinblick auf Literatur etwas sorglos
+              ist</persName>
           </person>
-          <person xml:id="VtorojMujchina" sex="MALE">
-            <persName>второй из мужчин</persName>
+          <person xml:id="Drugoj" sex="MALE">
+            <persName>Другой</persName>
+            <persName xml:lang="de">Der Andere</persName>
           </person>
-          <person xml:id="TretijMujchina" sex="MALE">
-            <persName>третий из мужчин</persName>
+          <person xml:id="OdinIzDvuhZritelej" sex="MALE">
+            <persName>Один из двух зрителей</persName>
+            <persName xml:lang="de">Einer von zwei Zuschauern</persName>
+          </person>
+          <person xml:id="OdnaBekesha_1" sex="MALE">
+            <persName>Первая бекеша</persName>
+            <persName xml:lang="de">Erster Pelzüberrock</persName>
+          </person>
+          <person xml:id="DrugajaBekesha_1" sex="MALE">
+            <persName>Другая бекеша</persName>
+            <persName xml:lang="de">Der andere Pelzüberrock</persName>
+          </person>
+          <person xml:id="PervyjOfitser_2" sex="MALE">
+            <persName>Первый офицер</persName>
+            <persName xml:lang="de">Erster Offizier</persName>
+          </person>
+          <person xml:id="VtorojOfitser_2" sex="MALE">
+            <persName>Другой офицер</persName>
+            <persName xml:lang="de">Zweiter Offizier</persName>
+          </person>
+          <person xml:id="NeizvestnoKakojChelovek" sex="MALE">
+            <persName>Неизвестно какой человек</persName>
+            <persName xml:lang="de">Ein unbekannter Mensch</persName>
+          </person>
+          <person xml:id="Literator" sex="MALE">
+            <persName>Литератор</persName>
+            <persName xml:lang="de">Der Schriftsteller</persName>
+          </person>
+          <person xml:id="EscheLiterator" sex="MALE">
+            <persName>Еще литератор</persName>
+            <persName xml:lang="de">Noch ein Schriftsteller</persName>
+          </person>
+          <person xml:id="OdinDrugojOfitser" sex="MALE">
+            <persName>Другой Офицер</persName>
+            <persName xml:lang="de">Erster anderer Offizier</persName>
+          </person>
+          <person xml:id="DrugojDrugojOfitser" sex="MALE">
+            <persName>Другой другой Офицер</persName>
+            <persName xml:lang="de">Zweiter anderer Offizier</persName>
           </person>
           <person xml:id="PervyjLubitelIskusstva" sex="MALE">
             <persName>первый любитель искусства</persName>
+            <persName xml:lang="de">Erster Kunstliebhaber</persName>
           </person>
           <person xml:id="VtorojLubitelIskusstva" sex="MALE">
             <persName>второй любитель искусства</persName>
+            <persName xml:lang="de">Zweiter Kunstliebhaber</persName>
           </person>
           <person xml:id="TretijLubitelIskusstva" sex="MALE">
             <persName>третий любитель искусства</persName>
+            <persName xml:lang="de">Dritter Kunstliebhaber</persName>
           </person>
           <person xml:id="ChetvertyjLubitelIskusstva" sex="MALE">
             <persName>четвертый любитель искусства</persName>
-          </person>
-          <person xml:id="PjatyyjLubitelIskusstva" sex="MALE">
-            <persName>пятый любитель искусства</persName>
-          </person>
-          <person xml:id="OdinMolodoj" sex="MALE">
-            <persName>один молодой человек</persName>
-          </person>
-          <person xml:id="DrugojMolodoj" sex="MALE">
-            <persName>другой молодой человек</persName>
+            <persName xml:lang="de">Vierter Kunstliebhaber</persName>
           </person>
           <person xml:id="PjatyjLubitelIskusstva" sex="MALE">
             <persName>пятый любитель искусства</persName>
+            <persName xml:lang="de">Fünfter Kunstliebhaber</persName>
+          </person>
+          <person xml:id="NomerOdin" sex="MALE">
+            <persName>№ 1</persName>
+            <persName xml:lang="de">Nr. 1</persName>
+          </person>
+          <person xml:id="NomerDva" sex="MALE">
+            <persName>№ 2</persName>
+            <persName xml:lang="de">Nr. 2</persName>
+          </person>
+          <person xml:id="GospodinA" sex="MALE">
+            <persName>Господин А</persName>
+            <persName xml:lang="de">Herr A.</persName>
+          </person>
+          <person xml:id="GospodinB" sex="MALE">
+            <persName>Господин Б</persName>
+            <persName xml:lang="de">Herr B.</persName>
+          </person>
+          <person xml:id="OchenSkromnoOdetyjChelovek" sex="MALE">
+            <persName>Очень скромно одетый человек</persName>
+            <persName xml:lang="de">Der sehr bescheiden gekleidete Mann</persName>
+          </person>
+          <person xml:id="SinijArmjak" sex="MALE">
+            <persName>Синий армяк</persName>
+            <persName xml:lang="de">Der blaue Bauernrock</persName>
+          </person>
+          <person xml:id="GospodinV" sex="MALE">
+            <persName>Господин В</persName>
+            <persName xml:lang="de">Herr W.</persName>
+          </person>
+          <person xml:id="GospodinP" sex="MALE">
+            <persName>Господин П</persName>
+            <persName xml:lang="de">Herr P.</persName>
+          </person>
+          <person xml:id="KnjazN" sex="MALE">
+            <persName>Князь N</persName>
+            <persName xml:lang="de">Fürst N.</persName>
+          </person>
+          <person xml:id="Statskij" sex="MALE">
+            <persName>Статский</persName>
+            <persName xml:lang="de">Zivilist</persName>
+          </person>
+          <person xml:id="Voennyj" sex="MALE">
+            <persName>Военный</persName>
+            <persName xml:lang="de">Militär</persName>
+          </person>
+          <person xml:id="OdnaBekesha_2" sex="MALE">
+            <persName>Первая бекеша</persName>
+            <persName xml:lang="de">Erster Pelzüberrock</persName>
+          </person>
+          <person xml:id="DrugajaBekesha_2" sex="MALE">
+            <persName>Другая бекеша</persName>
+            <persName xml:lang="de">Der andere Pelzüberrock</persName>
+          </person>
+          <person xml:id="SvetskajaDama" sex="FEMALE">
+            <persName>Светская дама</persName>
+            <persName xml:lang="de">Eine Weltdame</persName>
+          </person>
+          <person xml:id="MuzhchinaVMundire" sex="MALE">
+            <persName>Мужчина в мундире</persName>
+            <persName xml:lang="de">Mann in Uniform</persName>
+          </person>
+          <person xml:id="MuzhchinaVoFrake" sex="MALE">
+            <persName>Мужчина во фраке</persName>
+            <persName xml:lang="de">Mann im Frack</persName>
+          </person>
+          <person xml:id="PervyjMujchina" sex="MALE">
+            <persName>Один из мужчин</persName>
+            <persName xml:lang="de">Der erste Mann</persName>
+          </person>
+          <person xml:id="VtorojMujchina" sex="MALE">
+            <persName>Второй из мужчин</persName>
+            <persName xml:lang="de">Der zweite Mann</persName>
+          </person>
+          <person xml:id="TretijMujchina" sex="MALE">
+            <persName>Третий из мужчин</persName>
+            <persName xml:lang="de">Der dritte Mann</persName>
+          </person>
+          <person xml:id="MuzhPervojDamy" sex="MALE">
+            <persName>Муж</persName>
+            <persName xml:lang="de">Der Gatte der ersten Dame</persName>
+          </person>
+          <person xml:id="GospodinN" sex="MALE">
+            <persName>Господин N</persName>
+            <persName xml:lang="de">Herr N.</persName>
+          </person>
+          <person xml:id="PervajaMolodajaDama" sex="FEMALE">
+            <persName>Первая молодая дама</persName>
+            <persName xml:lang="de">Erste junge Dame</persName>
+          </person>
+          <person xml:id="VtorajaMolodajaDama" sex="FEMALE">
+            <persName>Вторая молодая дама</persName>
+            <persName xml:lang="de">Zweite junge Dame</persName>
+          </person>
+          <person xml:id="MuzhVtorojDamy" sex="MALE">
+            <persName>Муж второй дамы</persName>
+            <persName xml:lang="de">Der Gatte der zweiten Dame</persName>
+          </person>
+          <person xml:id="PervyjZritel" sex="MALE">
+            <persName>Один из двух вышедших зрителей</persName>
+            <persName xml:lang="de">Erster Zuschauer</persName>
+          </person>
+          <person xml:id="VtorojZritel" sex="MALE">
+            <persName>Второй из двух вышедших зрителей</persName>
+            <persName xml:lang="de">Zweiter Zuschauer</persName>
+          </person>
+          <person xml:id="OdinChinovnik" sex="MALE">
+            <persName>Один чиновник</persName>
+            <persName xml:lang="de">Ein Beamter</persName>
+          </person>
+          <person xml:id="DrugojChinovnik" sex="MALE">
+            <persName>Другой чиновник</persName>
+            <persName xml:lang="de">Ein anderer Beamter</persName>
+          </person>
+          <person xml:id="OdinMolodoj" sex="MALE">
+            <persName>Один молодой человек</persName>
+            <persName xml:lang="de">Ein junger Mann</persName>
+          </person>
+          <person xml:id="DrugojMolodoj" sex="MALE">
+            <persName>Другой молодой человек</persName>
+            <persName xml:lang="de">Ein anderer junger Mann</persName>
+          </person>
+          <person xml:id="MolodenkijChinovnikUklonchivogoSvojstva" sex="MALE">
+            <persName>Молоденький чиновник уклончивого свойства</persName>
+            <persName xml:lang="de">Ein jugendlicher Beamter nachgiebiger Eigenschaft</persName>
+          </person>
+          <person xml:id="GospodinVShineli" sex="MALE">
+            <persName>Господин в шинели</persName>
+            <persName xml:lang="de">Der Herr im Mantel</persName>
+          </person>
+          <person xml:id="PervyjHoroshoOdetyj" sex="MALE">
+            <persName>Первый хорошо одетый человек</persName>
+            <persName xml:lang="de">Der erste gut Angekleidete</persName>
+          </person>
+          <person xml:id="VtorojHoroshoOdetyj" sex="MALE">
+            <persName>Второй хорошо одетый человек</persName>
+            <persName xml:lang="de">Der zweite gut Angekleidete</persName>
+          </person>
+          <person xml:id="ChinovnikRazgovorchivogoSvojstva" sex="MALE">
+            <persName>Чиновник разговорчивого свойства</persName>
+            <persName xml:lang="de">Ein Beamter gesprächiger Eigenschaft</persName>
+          </person>
+          <person xml:id="GolosIzTolpy_1" sex="UNKNOWN">
+            <persName>Голос из толпы</persName>
+            <persName xml:lang="de">Stimme aus der Menge</persName>
+          </person>
+          <person xml:id="Ofitser" sex="MALE">
+            <persName>Офицер</persName>
+            <persName xml:lang="de">Offizier</persName>
+          </person>
+          <person xml:id="Kupets" sex="MALE">
+            <persName>Купец</persName>
+            <persName xml:lang="de">Kaufmann</persName>
+          </person>
+          <person xml:id="GolosIzTolpy_2" sex="UNKNOWN">
+            <persName>Голос из толпы</persName>
+            <persName xml:lang="de">Stimme aus der Menge</persName>
+          </person>
+          <person xml:id="RaznyeGolosa" sex="UNKNOWN">
+            <persName>Разные голоса</persName>
+            <persName xml:lang="de">Verschiedene Stimmen</persName>
+          </person>
+          <person xml:id="GolosVOdnomkontseTolpy" sex="UNKNOWN">
+            <persName>Голос в одном конце толпы</persName>
+            <persName xml:lang="de">Stimme an einem Ende der Menge</persName>
+          </person>
+          <person xml:id="GolosVDrugomKontse" sex="UNKNOWN">
+            <persName>Голос в другом конце</persName>
+            <persName xml:lang="de">Stimme am anderen Ende</persName>
+          </person>
+          <person xml:id="GolosKuptsa" sex="MALE">
+            <persName>Голос купца</persName>
+            <persName xml:lang="de">Stimme eines Kaufmanns</persName>
+          </person>
+          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="MALE">
+            <persName>Голос господина поощрительного свойства</persName>
+            <persName xml:lang="de">Stimme eines Herrn aufmunternder Eigenschaft</persName>
+          </person>
+          <person xml:id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" sex="MALE">
+            <persName>Голос сердитого чиновника, но, как видно, опытного</persName>
+            <persName xml:lang="de">Stimme eines bösen Beamten, der, wie man sieht, erfahren
+              ist</persName>
+          </person>
+          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="MALE">
+            <persName>Голос другого чиновника из толпы</persName>
+            <persName xml:lang="de">Stimme eines anderen Beamten aus der Menge</persName>
+          </person>
+          <person xml:id="NeizvestnyjGolos" sex="UNKNOWN">
+            <persName>Неизвестный голос</persName>
+            <persName xml:lang="de">Eine unbekannte Stimme</persName>
           </person>
           <person xml:id="PervyjOfitserIzTolpy" sex="MALE">
             <persName>Первый офицер из толпы</persName>
+            <persName xml:lang="de">Erster Offizier</persName>
           </person>
           <person xml:id="VtorojOfitserIzTolpy" sex="MALE">
             <persName>Второй офицер из толпы</persName>
+            <persName xml:lang="de">Zweiter Offizier</persName>
+          </person>
+          <person xml:id="ChinovnikVazhnojNaruzhnosti" sex="MALE">
+            <persName>Чиновник важной наружности</persName>
+            <persName xml:lang="de">Ein Beamter von bedeutendem Äußeren</persName>
+          </person>
+          <person xml:id="GolosVNarode" sex="UNKNOWN">
+            <persName>Голос в народе</persName>
+            <persName xml:lang="de">Stimme aus dem Volk</persName>
+          </person>
+          <person xml:id="KrasivyjIPlotnyjGospodin" sex="MALE">
+            <persName>Красивый и плотный господин</persName>
+            <persName xml:lang="de">Ein schöner und korpulenter Herr</persName>
+          </person>
+          <person xml:id="NevzrachnyjNoJadovitogoSvojstvaGospodin" sex="MALE">
+            <persName>Невзрачный, но ядовитого свойства господин</persName>
+            <persName xml:lang="de">Der kleine und unansehnliche Herr recht giftiger
+              Eigenschaft</persName>
+          </person>
+          <person xml:id="Neznakomets" sex="MALE">
+            <persName>Незнакомец</persName>
+            <persName xml:lang="de">Der Unbekannte</persName>
+          </person>
+          <person xml:id="NeznakomyjSosed" sex="MALE">
+            <persName>Незнакомый сосед</persName>
+            <persName xml:lang="de">Der unbekannte Nachbar</persName>
           </person>
           <person xml:id="PervyjNaStorone" sex="MALE">
             <persName>Первый из разговора на стороне</persName>
+            <persName xml:lang="de">Der Erste der abseits stehenden Gruppe</persName>
+          </person>
+          <person xml:id="GospodinSDrugojStoronyGruppy" sex="MALE">
+            <persName>Господин с другой стороны группы</persName>
+            <persName xml:lang="de">Der Herr auf der anderen Seite der Gruppe</persName>
+          </person>
+          <person xml:id="GospodinPolozhitelnogoSvojstva" sex="MALE">
+            <persName>Господин положительного свойства</persName>
+            <persName xml:lang="de">Der Herr mit positiven Eigenschaften</persName>
+          </person>
+          <person xml:id="GospodinOtritsatelnogoSvojstva" sex="MALE">
+            <persName>Господин отрицательного свойства</persName>
+            <persName xml:lang="de">Der Herr mit negativen Eigenschaften</persName>
+          </person>
+          <person xml:id="ProstoVral" sex="MALE">
+            <persName>Просто враль</persName>
+            <persName xml:lang="de">Einfach ein Lügner</persName>
+          </person>
+          <person xml:id="GospodinDobrodushnogoSvojstva" sex="MALE">
+            <persName>Господин добродушного свойства</persName>
+            <persName xml:lang="de">Der Herr gutmütiger Eigenschaft</persName>
+          </person>
+          <person xml:id="GospodinHladnokrovnogoSvojstva" sex="MALE">
+            <persName>Господин хладнокровного свойства</persName>
+            <persName xml:lang="de">Der Herr kaltblütiger Eigenschaft</persName>
+          </person>
+          <person xml:id="DamaSrednegoSveta" sex="FEMALE">
+            <persName>Дама среднего света</persName>
+            <persName xml:lang="de">Dame mittlerer Gesellschaft</persName>
+          </person>
+          <person xml:id="GospodinSVesom" sex="MALE">
+            <persName>Господин с весом</persName>
+            <persName xml:lang="de">Ein Herr mit Gewicht</persName>
+          </person>
+          <person xml:id="VtorojGospodin" sex="MALE">
+            <persName>Второй господин</persName>
+            <persName xml:lang="de">Ein zweiter Herr</persName>
+          </person>
+          <person xml:id="TretijGospodin" sex="MALE">
+            <persName>Третий господин</persName>
+            <persName xml:lang="de">Ein dritter Herr</persName>
+          </person>
+          <person xml:id="PervyjVprochemBlagorodnyj" sex="MALE">
+            <persName>Первый человек, Бог весть какого свойства, впрочем, благородной наружности и
+              прилично одетый</persName>
+            <persName xml:lang="de">Erster aus der Gruppe von Leuten von anständigem
+              Äußeren</persName>
+          </person>
+          <person xml:id="VtorojVprochemBlagorodnyj" sex="MALE">
+            <persName>Второй человек, Бог весть какого свойства, впрочем, благородной наружности и
+              прилично одетый</persName>
+            <persName xml:lang="de">Zweiter aus der Gruppe von Leuten von anständigem
+              Äußeren</persName>
+          </person>
+          <person xml:id="TretijVprochemBlagorodnyj" sex="MALE">
+            <persName>Третий человек, Бог весть какого свойства, впрочем, благородной наружности и
+              прилично одетый</persName>
+            <persName xml:lang="de">Dritter aus der Gruppe von Leuten von anständigem
+              Äußeren</persName>
+          </person>
+          <person xml:id="DobrodushnyjChinovnik" sex="MALE">
+            <persName>Добродушный чиновник</persName>
+            <persName xml:lang="de">Ein gutmütiger Beamter</persName>
+          </person>
+          <person xml:id="OdinIzNaroda" sex="MALE">
+            <persName>Один из народа</persName>
+            <persName xml:lang="de">Einer aus dem Volk</persName>
+          </person>
+          <person xml:id="OdinIzGospod" sex="MALE">
+            <persName>Один из господ</persName>
+            <persName xml:lang="de">Einer der Herren</persName>
+          </person>
+          <person xml:id="OtstavshijChinovnik" sex="MALE">
+            <persName>Отставший чиновник</persName>
+            <persName xml:lang="de">Ein nachgebliebener Beamter</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -352,6 +463,8 @@
         <change who="#ds" when="2017-03-31">converted from source</change>
         <change who="#GG #FF" when="2017-05-19">started segmentation</change>
         <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff" when="2017-07-05">double-checked segmentation; particDesc in order of
+          appearance; added German translations to character names in particDesc</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -393,6 +506,8 @@
             другим.</p>
           <stage type="delivery">(Отходит в сторону.)</stage>
         </sp>
+      </div>
+      <div type="configuration">
         <stage><move who="#OdinIzPrilichnoOdetyhLudei" type="enter"/>Показывается несколько прилично
           одетых людей; один говорит, обращаясь к другому:</stage>
         <sp who="#OdinIzPrilichnoOdetyhLudei">
@@ -422,11 +537,11 @@
       </div>
       <div type="configuration">
         <stage>Бежит офицер, другой удерживает его за руку.</stage>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_1">
           <speaker>Первый офицер.</speaker>
           <p>Да останемся!</p>
         </sp>
-        <sp who="#VtorojOfitser">
+        <sp who="#VtorojOfitser_1">
           <speaker>Другой офицер.</speaker>
           <p>Нет, брат, на водевиль и калачом не заманишь. Знаем мы эти пьесы, которые даются на
             закуску: лакеи вместо актеров, а женщины — урод на уроде.</p>
@@ -434,7 +549,7 @@
         <stage>Уходят.</stage>
       </div>
       <div type="configuration">
-        <sp who="#SvetskijChelovekSchegolevatoodetyj">
+        <sp who="#SvetskijChelovekSchegolevatoOdetyj">
           <speaker>Светский человек, щеголевато одетый</speaker>
           <stage type="delivery">(сходя с лестницы).</stage>
           <p>Плут портной претесно сделал мне панталоны, все время было страх неловко сидеть. За это
@@ -450,6 +565,8 @@
             рублей роберт он не играет. Я знаю это хорошо, потому что шурин мой, Пафнутьев, всякий
             день с ним играет.</p>
         </sp>
+      </div>
+      <div type="configuration">
         <sp who="#AvtorPesy">
           <speaker>Автор пьесы</speaker>
           <stage type="delivery">(про себя).</stage>
@@ -465,7 +582,7 @@
         </sp>
       </div>
       <div type="configuration">
-        <sp who="#GospodinNeskolkobezzabotnyjNaschetliteratury">
+        <sp who="#GospodinNeskolkoBezzabotnyjNaschetLiteratury">
           <speaker>Господин, несколько беззаботный насчет литературы</speaker>
           <stage type="delivery">(обращаясь к другому).</stage>
           <p>Ведь это, однако ж, кажется, перевод?</p>
@@ -474,7 +591,7 @@
           <speaker>Другой.</speaker>
           <p>Помилуйте, что за перевод! Действие происходит в России, наши обычаи и чины даже.</p>
         </sp>
-        <sp who="#GospodinBezzabotnyjNaschetliteratury">
+        <sp who="#GospodinNeskolkoBezzabotnyjNaschetLiteratury">
           <speaker>Господин, беззаботный насчет литературы.</speaker>
           <p>Я помню, однако ж, было что-то на французском, не совсем в этом роде.</p>
         </sp>
@@ -488,12 +605,12 @@
         </sp>
       </div>
       <div type="configuration">
-        <sp who="#OdnaBekesha">
+        <sp who="#OdnaBekesha_1">
           <speaker>Две бекеши</speaker>
           <stage type="delivery">(одна другой).</stage>
           <p>Ну, как вы? Я бы желал знать ваше мнение о комедии.</p>
         </sp>
-        <sp who="#DrugajaBekesha">
+        <sp who="#DrugajaBekesha_1">
           <speaker>Другая бекеша</speaker>
           <stage type="delivery">(делая значительные движения губами).</stage>
           <p>Да, конечно, нельзя сказать, чтобы не было того... в своем роде... Ну конечно, кто ж
@@ -513,47 +630,49 @@
       </div>
       <div type="configuration">
         <stage>Два офицера.</stage>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_2">
           <speaker>Первый.</speaker>
           <p>Я еще никогда так не смеялся.</p>
         </sp>
-        <sp who="#VtorojOfitser">
+        <sp who="#VtorojOfitser_2">
           <speaker>Второй.</speaker>
           <p>Я полагаю: отличная комедия.</p>
         </sp>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_2">
           <speaker>Первый.</speaker>
           <p>Ну нет, посмотрим еще, что скажут в журналах; нужно подвергнуть суду критики... Смотри,
             смотри!</p>
           <stage type="delivery">(Толкает его под руку.)</stage>
         </sp>
-        <sp who="#VtorojOfitser">
+        <sp who="#VtorojOfitser_2">
           <speaker>Второй.</speaker>
           <p>Что?</p>
         </sp>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_2">
           <speaker>Первый</speaker>
           <stage type="delivery">(указывает пальцем на одного из двух идущих с лестницы).</stage>
           <p>Литератор!</p>
         </sp>
-        <sp who="#VtorojOfitser">
+        <sp who="#VtorojOfitser_2">
           <speaker>Второй</speaker>
           <stage type="delivery">(торопливо).</stage>
           <p>Который?</p>
         </sp>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_2">
           <speaker>Первый.</speaker>
           <p>Вот этот! чш! послушаем, что будут говорить.</p>
         </sp>
-        <sp who="#VtorojOfitser">
+        <sp who="#VtorojOfitser_2">
           <speaker>Второй.</speaker>
           <p>А другой кто с ним?</p>
         </sp>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_2">
           <speaker>Первый.</speaker>
           <p>Не знаю; неизвестно какой человек.</p>
         </sp>
         <stage>Оба офицера посторониваются и дают им место.</stage>
+      </div>
+      <div type="configuration">
         <sp who="#NeizvestnoKakojChelovek">
           <speaker>Неизвестно какой человек.</speaker>
           <p>Я не могу судить относительно литературного достоинства, но, мне кажется, есть
@@ -623,17 +742,17 @@
       </div>
       <div type="configuration">
         <stage>Оба офицера подаются вперед и занимают их места.</stage>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_2">
           <speaker>Первый.</speaker>
           <p>Это справедливо, это совершенно справедливо: именно фарс; я это и прежде говорил:
             глупый фарс, поддержанный приятелями. Признаюсь, на многое даже отвратительно было
             смотреть.</p>
         </sp>
-        <sp who="#VtorojOfitser">
+        <sp who="#VtorojOfitser_2">
           <speaker>Второй.</speaker>
           <p>Да ведь ты ж говорил, что еще никогда так не смеялся?</p>
         </sp>
-        <sp who="#PervyjOfitser">
+        <sp who="#PervyjOfitser_2">
           <speaker>Первый.</speaker>
           <p>А это опять другое дело. Ты не понимаешь, тебе нужно растолковать. Тут что в этой
             пьесе? Во-первых, завязки никакой, действия тоже нет, соображенья решительно никакого,
@@ -644,6 +763,7 @@
           <speaker>Один</speaker>
           <stage type="delivery">(другому).</stage>
           <p>Кто это рассуждает? Кажется, из ваших?</p>
+          <stage>Другой, заглянув сбоку в лицо рассуждавшего, махнул рукой.</stage>
           <p>Что, глуп?</p>
         </sp>
         <sp who="#DrugojDrugojOfitser">
@@ -856,17 +976,13 @@
           <p>Что скажет народ?</p>
           <stage type="delivery">(Посторонивается.)</stage>
         </sp>
-      </div>
-      <div type="configuration">
         <stage>Проходят двое в армяках.</stage>
-        <sp who="#Sinijarmjak">
+        <sp who="#SinijArmjak">
           <speaker>Синий армяк</speaker>
           <stage type="delivery">(серому).</stage>
           <p>Небось прыткие были воеводы, а все побледнели, когда пришла царская расправа!</p>
         </sp>
         <stage>Оба выходят вон.</stage>
-      </div>
-      <div type="configuration">
         <sp who="#OchenSkromnoOdetyjChelov">
           <speaker>Очень скромно одетый человек</speaker>
           <p>ек. Вот что скажет народ, вы слышали?</p>
@@ -920,7 +1036,6 @@
         </sp>
         <sp who="#GospodinA">
           <speaker>Господин А.</speaker>
-          <p/>
           <stage type="delivery">(после некоторого молчания).</stage>
           <p>Признаюсь, над словами вашими призадумаешься. И когда я вспомню, представлю себе, как
             гордыми сделало нас европейское наше воспитание, вообще как скрыло нас от самих себя,
@@ -991,7 +1106,6 @@
         </sp>
         <sp who="#GospodinA">
           <speaker>Господин А.</speaker>
-          <p/>
           <stage type="delivery">(переворачивая в руках карточку).</stage>
           <p>Я смотрю на эту карточку и на эту неизвестную мне фамилию, и как-то полно становится на
             душе моей. Это вначале грустное впечатление рассеялось само собою. Да хранит тебя Бог,
@@ -1006,13 +1120,11 @@
       <div type="configuration">
         <sp who="#GospodinV">
           <speaker>Господин В.</speaker>
-          <p/>
           <stage type="delivery">(подходя к господину Б.).</stage>
           <p>Кто это был с вами? Кажется, он министр — а?</p>
         </sp>
         <sp who="#GospodinP">
           <speaker>Господин П.</speaker>
-          <p/>
           <stage type="delivery">(подходя с другой стороны).</stage>
           <p>Помилуй, братец, ну что это такое, как же это в самом деле?..</p>
         </sp>
@@ -1113,7 +1225,6 @@
       <div type="configuration">
         <sp who="#GospodinP">
           <speaker>Господин П.</speaker>
-          <p/>
           <stage type="delivery">(после некоторого молчания).</stage>
           <p>Что ж ты молчишь? Каков? Чего не наговорил, а?</p>
           <stage type="delivery">(Продолжая.)</stage>
@@ -1122,7 +1233,6 @@
         </sp>
         <sp who="#GospodinV">
           <speaker>Господин В.</speaker>
-          <p/>
           <stage type="delivery">(в сторону).</stage>
           <p>Ну, попались ему на язык эти раны! Будет он толковать о них и встречному и
             поперечному!</p>
@@ -1166,7 +1276,6 @@
         </sp>
         <sp who="#KnjazN">
           <speaker>Князь N.</speaker>
-          <p/>
           <stage type="delivery">(с досадою).</stage>
           <p>Возьми их себе! Пусть они будут твои, а не мои раны! Что ты мне их тычешь? Мне пора
             домой.</p>
@@ -1176,7 +1285,6 @@
       <div type="configuration">
         <sp who="#GospodinP">
           <speaker>Господин П.</speaker>
-          <p/>
           <stage type="delivery">(продолжая).</stage>
           <p>И потом опять, что за чепуху он наговорил здесь? Говорит: действительный статский
             советник может быть гусь. Ну, еще пусть титулярный, это можно допустить...</p>
@@ -1220,7 +1328,7 @@
       </div>
       <div type="configuration">
         <stage>Две бекеши.</stage>
-        <sp who="#OdnaBekesha">
+        <sp who="#OdnaBekesha_2">
           <speaker>Первая бекеша.</speaker>
           <p>У французов тоже, например; но у них все это очень мило. Ну вот, помнишь, во вчерашнем
             водевиле раздевается, ложится в постель, схватывает со стола салатник и ставит его под
@@ -1229,7 +1337,7 @@
             какой-нибудь мерзавец, мужик, которого бы я в переднюю не пустил, развалится с сапогами,
             зевает или ковыряет в зубах, — ну что это, право? на что это похоже?</p>
         </sp>
-        <sp who="#DrugajaBekesha">
+        <sp who="#DrugajaBekesha_2">
           <speaker>Другая бекеша.</speaker>
           <p>У французов другое дело. Там société, mon cher! У нас это невозможно. У нас ведь
             сочинители совершенно без всякого образованья: все это большею частью воспитывалось в
@@ -1335,11 +1443,10 @@
         </sp>
         <sp who="#GospodinN">
           <speaker>Господин N.</speaker>
-          <p/>
           <stage type="delivery">(подходя к даме).</stage>
           <p>Что вижу! Вы приехали смотреть русскую пьесу!</p>
         </sp>
-        <sp who="#MolodajaDama">
+        <sp who="#PervajaMolodajaDama">
           <speaker>Молодая дама.</speaker>
           <p>Что ж тут такого? разве я уже ничуть не патриотка?</p>
         </sp>
@@ -1347,7 +1454,7 @@
           <speaker>Господин N.</speaker>
           <p>Ну, если так, то вы не очень насытили патриотизм свой. Вы, верно, браните пьесу?</p>
         </sp>
-        <sp who="#MolodajaDama">
+        <sp who="#PervajaMolodajaDama">
           <speaker>Молодая дама.</speaker>
           <p>Совсем нет. Я нахожу, что многое очень верно: я смеялась от души.</p>
         </sp>
@@ -1355,7 +1462,7 @@
           <speaker>Господин N.</speaker>
           <p>Отчего же вы смеялись? Оттого ли, что любите посмеяться над всем, что русское?</p>
         </sp>
-        <sp who="#MolodajaDama">
+        <sp who="#PervajaMolodajaDama">
           <speaker>Молодая дама.</speaker>
           <p>Оттого, что просто было смешно. Оттого, что выведена была внаружу та подлость, низость,
             которая в какое бы платье ни нарядилась, хотя бы она была и не в уездном городке, а
@@ -1366,7 +1473,7 @@
           <p>Мне говорила сейчас одна очень умная дама, что она тоже смеялась, но что при всем том
             пьеса произвела на нее грустное впечатление.</p>
         </sp>
-        <sp who="#MolodajaDama">
+        <sp who="#PervajaMolodajaDama">
           <speaker>Молодая дама.</speaker>
           <p>Я не хочу знать, что чувствовала ваша умная дама; но у меня не так чувствительны нервы,
             и я всегда рада смеяться над тем, что внутренне смешно. Я знаю, что есть иные из нас,
@@ -1379,11 +1486,11 @@
           <p>А вот идет ваша приятельница. Я бы желал знать ее мнение о комедии.</p>
         </sp>
         <stage>Обе дамы подают друг другу руку.</stage>
-        <sp who="#MolodajaDama">
+        <sp who="#PervajaMolodajaDama">
           <speaker>Первая дама.</speaker>
           <p>Я видела издали, как ты смеялась.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Да кто же не смеялся? все смеялись.</p>
         </sp>
@@ -1391,7 +1498,7 @@
           <speaker>Господин N.</speaker>
           <p>А не чувствовали вы никакого грустного чувства?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Признаюсь, мне было точно грустно. Я знаю, все это очень верно; я сама тоже видела
             много подобного, но при всем том мне было тяжело.</p>
@@ -1400,7 +1507,7 @@
           <speaker>Господин N.</speaker>
           <p>Стало быть, комедия вам не понравилась?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Ну, послушайте, кто ж это говорит? Я вам говорю уже, что я смеялась от всей души, и
             больше даже, нежели все другие; я думаю, меня приняли даже за безумную... Но мне было
@@ -1411,7 +1518,7 @@
           <speaker>Господин N.</speaker>
           <p>Говорите, говорите!</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Послушайте, посоветуйте автору, чтобы он вывел хоть одного честного человека. Скажите
             ему, что об этом его просят, что это будет, право, хорошо.</p>
@@ -1421,7 +1528,7 @@
           <p>А вот же этого именно и не советуйте. Дамам хочется непременно рыцаря, чтобы он тут же
             твердил им за всяким словом о благородстве, хотя бы самым пошлым слогом.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Совсем нет! Как вы мало знаете нас! Вот вам-то принадлежит это! Вы именно любите только
             одни слова и толки о благородстве. Я слышала суждение одного из вас: один толстяк кричал
@@ -1434,7 +1541,7 @@
           <speaker>Господин N.</speaker>
           <p>Ну скажите же, кто это был?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Зачем вам знать? Да не он один; я слышала беспрестанно, как около нас кричали: «Это
             отвратительная насмешка над Россией, насмешка над правительством! Да как это позволить?
@@ -1447,7 +1554,7 @@
           <speaker>Муж первой дамы.</speaker>
           <p>О! да у вас уж начинает рождаться маленькая злость!</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Злость, именно злость. Да, я зла, очень зла. И нельзя не быть злою, видя, как подлость
             является под всякими личинами.</p>
@@ -1457,7 +1564,7 @@
           <p>Ну да: вам бы хотелось, чтобы сейчас выскочил рыцарь, прыгнул через какую-нибудь
             пропасть, сломил бы себе шею...</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Извините.</p>
         </sp>
@@ -1465,7 +1572,7 @@
           <speaker>Муж первой дамы.</speaker>
           <p>Натурально: женщине что нужно? Ей непременно нужно, чтобы в жизни был роман.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Нет, нет, нет! Двести раз готова говорить: нет! Это пошлая, старая мысль, которую вы
             нам навязываете беспрестанно. У женщины больше истинного великодушия, чем у мужчины.
@@ -1480,7 +1587,7 @@
           <speaker>Муж первой дамы.</speaker>
           <p>Да вы, я вижу, рассердились во всех отношениях.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Потому что я откровенна и не могу вынести, когда говорят неправду.</p>
         </sp>
@@ -1488,7 +1595,7 @@
           <speaker>Муж первой дамы.</speaker>
           <p>Ну, не сердитесь же, дайте мне вашу ручку! Я пошутил.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Вот вам рука моя, я не сержусь.</p>
           <stage type="delivery">(Обращаясь к N.)</stage>
@@ -1500,7 +1607,7 @@
           <p>Да как же это сделать? Ну, если он выведет честного человека, а этот честный человек
             будет похож на театрального рыцаря?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Нет, если он сильно и глубоко чувствует, то герой его не будет театральным рыцарем.</p>
         </sp>
@@ -1508,7 +1615,7 @@
           <speaker>Господин N.</speaker>
           <p>Да ведь, я думаю, это не так легко сделать.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Просто скажите лучше, что у автора вашего нет глубоких и сильных движений
             сердечных.</p>
@@ -1517,7 +1624,7 @@
           <speaker>Господин N.</speaker>
           <p>Отчего ж так?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Ну да уж кто беспрестанно и вечно смеется, тот не может иметь слишком высоких чувств;
             ему не может быть знакомо то, что чувствует одно только нежное сердце.</p>
@@ -1526,7 +1633,7 @@
           <speaker>Господин N.</speaker>
           <p>Вот хорошо! Стало быть, по-вашему, автор не должен быть благородный человек?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Ну вот видите, вы сейчас перетолковываете в другую сторону. Я не говорю ни слова о том,
             чтобы у комика не было благородства и строгого понятия о чести во всем смысле слова. Я
@@ -1537,7 +1644,7 @@
           <speaker>Муж второй дамы.</speaker>
           <p>Но как же ты можешь сказать это утвердительно?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Могу, потому что знаю. Все люди, которые смеялись или были насмешниками, все они были
             самолюбивы, все почти эгоисты; конечно, благородные эгоисты, но всё же эгоисты.</p>
@@ -1547,7 +1654,7 @@
           <p>Стало быть, вы решительно предпочитаете только тот род сочинений, где действуют одни
             высокие движенья человека?</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>О, конечно! Я их всегда поставлю выше, и, признаюсь, я больше имею душевной веры к
             такому автору.</p>
@@ -1558,7 +1665,7 @@
           <p>Ну, разве ты не видишь, — выходит опять то же. Это женский вкус. Для них самая пошлая
             трагедия выше самой лучшей комедии, уж потому только, что она трагедия...</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Молчите, я опять буду зла.</p>
           <stage type="delivery">(Обращаясь к N.)</stage>
@@ -1570,7 +1677,7 @@
           <p>Или горячая, потому что раздражительность характера возбуждает тоже к насмешкам и
             сатирам.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Ну, или раздражительная. Но что же это значит? Это значит, что причиною таких
             произведений все же была желчь, ожесточение, негодование, может быть и справедливое во
@@ -1581,7 +1688,7 @@
           <speaker>Господин N.</speaker>
           <p>Это правда.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Ну скажите: похож автор комедии на этот портрет?</p>
         </sp>
@@ -1591,11 +1698,11 @@
             все, что я о нем слышал, он точно должен быть или эгоист, или очень раздражительный
             человек.</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Ну, видите ли, я это хорошо знала.</p>
         </sp>
-        <sp who="#MolodajaDama">
+        <sp who="#PervajaMolodajaDama">
           <speaker>Первая дама.</speaker>
           <p>Не знаю почему, но мне бы не хотелось, чтобы он был эгоистом.</p>
         </sp>
@@ -1605,12 +1712,12 @@
           <stage type="delivery">(Пожимая руку второй дамы.)</stage>
           <p>Вы к нам, не правда ли? Чай пьем у нас?</p>
         </sp>
-        <sp who="#MolodajaDama">
+        <sp who="#PervajaMolodajaDama">
           <speaker>Первая дама</speaker>
           <stage type="delivery">(уходя).</stage>
           <p>Пожалуйста!</p>
         </sp>
-        <sp who="#VtorajaDama">
+        <sp who="#VtorajaMolodajaDama">
           <speaker>Вторая дама.</speaker>
           <p>Непременно.</p>
         </sp>
@@ -1691,9 +1798,9 @@
           <p>Теперь, значит, уж ничего не осталось. Законов не нужно, служить не нужно. Вицмундир,
             вот который на миг, — его, значит, нужно бросить: он уж теперь тряпка.</p>
         </sp>
-        <stage>Бегут двое молодых людей.</stage>
       </div>
       <div type="configuration">
+        <stage>Бегут двое молодых людей.</stage>
         <sp who="#OdinMolodoj">
           <speaker>Один.</speaker>
           <p>Ну, все рассердились. Я уж столько наслышался толков, что могу, взглянувши, угадать,
@@ -1765,10 +1872,13 @@
           <p>Как можно, ваше превосходительство!.. Позвольте, я вам прочищу дорогу вперед!</p>
           <stage type="delivery">(Народу, толкая того и другого.)</stage>
           <p>Эй вы, посторонитесь, генерал идет!</p>
-          <stage type="delivery">(Подходя с необыкновенным учтивством к двум щегольски одетым.)</stage>
+          <stage type="delivery">(Подходя с необыкновенным учтивством к двум щегольски
+            одетым.)</stage>
           <p>Господа, сделайте милость, позвольте пройти генералу!</p>
         </sp>
         <stage>Хорошо одетые, посторониваясь и давая дорогу:</stage>
+      </div>
+      <div type="configuration">
         <sp who="#PervyjHoroshoOdetyj">
           <speaker>Первый.</speaker>
           <p>Не знаешь, какой генерал? Должен быть какой-нибудь известный?</p>
@@ -1790,8 +1900,6 @@
           <p>Уйдем!</p>
         </sp>
         <stage>Уходят.</stage>
-      </div>
-      <div type="configuration">
         <sp who="#ChinovnikRazgovorchivogoSvojstva">
           <speaker>Чиновник разговорчивого свойства.</speaker>
           <p>Должны быть матушкины сынки. Чай, в иностранной коллегии служат. Я не люблю комедий; на
@@ -1800,7 +1908,7 @@
         </sp>
       </div>
       <div type="configuration">
-        <sp who="#GolosIzTolpy">
+        <sp who="#GolosIzTolpy_1">
           <speaker>Голос из толпы.</speaker>
           <p>Эк народу навалило!</p>
         </sp>
@@ -1814,7 +1922,7 @@
           <stage type="delivery">(с дамой под руку).</stage>
           <p>У самих, батюшка, дама.</p>
         </sp>
-        <sp who="#GolosIzTolpy">
+        <sp who="#GolosIzTolpy_2">
           <speaker>Голос из толпы.</speaker>
           <p>Вот она поворотилась, видишь, видишь? Еще теперь подурнела, но года три тому
             назад...</p>
@@ -1834,7 +1942,7 @@
           <p>Ну вот точь-в-точь эдакое событие было в нашем городке. Я подозреваю, что автор если не
             был сам там, то, вероятно, слышал.</p>
         </sp>
-        <sp who="#Kupets">
+        <sp who="#GolosKuptsa">
           <speaker>Голос купца.</speaker>
           <p>Оно, вот изволите видеть, оно здесь больше, так сказать, с маральной стороны. Конечно,
             бывают, так сказать, всякие-с. Да ведь и то извольте посудить, что и честный человек,
@@ -1939,6 +2047,8 @@
           <stage type="delivery">(Пропадает в толпе.)</stage>
         </sp>
         <stage>Разговор в группе на стороне.</stage>
+      </div>
+      <div type="configuration">
         <sp who="#PervyjNaStorone">
           <speaker>Первый.</speaker>
           <p>А говорят, что подобное происшествие случилось с самим автором: он в каком-то городке
@@ -2118,9 +2228,9 @@
           <p>Только время даром пропало! Нет, никогда больше не пойду в театр!</p>
           <stage type="delivery">(Уходит.)</stage>
         </sp>
+        <stage>Сени пустеют.</stage>
       </div>
       <div type="configuration">
-        <stage>Сени пустеют.</stage>
         <sp who="#AvtorPesy">
           <speaker>Автор пьесы</speaker>
           <stage type="delivery">(выходя).</stage>
@@ -2135,13 +2245,13 @@
             осуждениях много того, что нужно знать комику! Какой живой урок! Да, я удовлетворен. Но
             отчего же грустно становится моему сердцу! Странно: мне жаль, что никто не заметил
             честного лица, бывшего в моей пьесе. Да, было одно честное, благородное лицо,
-            действовавшее в нем во все продолжение ее. Это честное, благородное лицо был —</p>
-          <p>Он был благороден потому, что решился выступить, несмотря на низкое значение, которое
-            дается ему в свете. Он был благороден потому, что решился выступить, несмотря на то что
-            доставил обидное прозванье комику — прозванье холодного эгоиста, и заставил даже
-            усомниться в присутствии нежных движений души его. Никто не вступился за этот смех. Я
-            комик, я служил ему честно, и потому должен стать его заступником. Нет, смех
-            значительней и глубже, чем думают. Не тот смех, который порождается временной
+            действовавшее в нем во все продолжение ее. Это честное, благородное лицо был —
+              <emph>смех</emph>. Он был благороден потому, что решился выступить, несмотря на низкое
+            значение, которое дается ему в свете. Он был благороден потому, что решился выступить,
+            несмотря на то что доставил обидное прозванье комику — прозванье холодного эгоиста, и
+            заставил даже усомниться в присутствии нежных движений души его. Никто не вступился за
+            этот смех. Я комик, я служил ему честно, и потому должен стать его заступником. Нет,
+            смех значительней и глубже, чем думают. Не тот смех, который порождается временной
             раздражительностью, желчным, болезненным расположением характера; не тот также легкий
             смех, служащий для праздного развлеченья и забавы людей, — но тот смех, который весь
             излетает из светлой природы человека, излетает из нее потому, что на дне ее заключен
@@ -2192,8 +2302,6 @@
             их. В минуты даже бед и гонений все, что было благороднейшего в государствах,
             становилось прежде всего их заступником: венчанный монарх осенял их царским щитом своим
             с вышины недоступного престола.</p>
-        </sp>
-        <sp who="#AvtorPesy">
           <p>Бодрей же в путь! И да не смутится душа от осуждений, но да примет благодарно указанья
             недостатков, не омрачась даже и тогда, если бы отказали ей в высоких движеньях и в
             святой любви к человечеству! Мир — как водоворот: движутся в нем вечно мненья и толки;
