@@ -32,10 +32,11 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1848">1848</date>
-            <date type="premiere" when="1851">10 december 1851, 10 декабря 1851 г. в Петербурге в
-              бенефис Н. В. Самойловой</date>
-            <date type="written" when="1847">1847</date>
+            <date type="print" when="1848">"Впервые комедия опубликована: Совр, 1848, ? 11, с. 5–38,
+              с посвящением Н. А. Тучковой." (rvb.ru)</date>
+            <date type="premiere" when="1851">"Премьера комедии 'Где тонко, там и рвется' состоялась
+              10 декабря 1851 г. в Петербурге в бенефис Н. В. Самойловой." (rvb.ru)</date>
+            <date type="written" when="1847">"1847" (Wikisource)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -50,7 +51,7 @@
             <persName>Горский</persName>
           </person>
           <person xml:id="MademoiselleBienaime" sex="FEMALE">
-            <persName>M-lle Bienaime</persName>
+            <persName>M-lle Bienaimé</persName>
           </person>
           <person xml:id="Chuhanov" sex="MALE">
             <persName>Чуханов</persName>
@@ -86,7 +87,8 @@
         <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
         <change who="#to">added premiere date, corrected IDs</change>
         <change who="#to" when="2017-06-03">gender info</change>
-        <change who="#ff" when="2017-07-06">scene segmentation of entire play</change>
+        <change who="#ff" when="2017-07-06">scene segmentation of entire play; corrected French
+          phrases and names</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -149,7 +151,7 @@
           <speaker>Горский.</speaker>
           <p>Еще бы! первый дом в губернии. <stage type="delivery">(Показывает ему «Journal des
               Debats».)</stage> Посмотри, мы получаем «Телеграф». Шутки в сторону, здесь хорошо
-            живется… Приятное такое смешение русской деревенской жизни с французской vie de chateau…
+            живется… Приятное такое смешение русской деревенской жизни с французской vie de château…
             Ты увидишь. Хозяйка… ну, вдова, и богатая… а дочь…</p>
         </sp>
         <sp who="#Muhin">
@@ -199,7 +201,7 @@
           <p>Да, моя покойница мать целых двадцать лет сряду терпеть не могла госпожи Либановой… Мы
             давно знакомы. Я и в Петербурге у ней бывал и за границей сталкивался с нею. Так ты
             хочешь знать, что это за люди, — изволь. Madame de Libanoff у ней так на визитных
-            карточках написано, с прибавлением — exe Salotopine… Madame de Libanoff женщина добрая,
+            карточках написано, с прибавлением — née Salotopine… Madame de Libanoff женщина добрая,
             сама живет и жить дает другим. Она не принадлежит к высшему обществу; но в Петербурге ее
             не совсем не знают; генерал Монплезир проездом у ней останавливается. Муж ее рано умер;
             а то бы она вышла в люди. Держит она себя хорошо; сентиментальна немножко, избалована;
@@ -390,12 +392,12 @@
             отражалось на ее свежем личике. Я целый день не отходил от нее и к вечеру почувствовал,
             что начинаю терять власть над самим собою… О Мухин! Мухин, продолжительная близость
             молодых плечей, молодого дыханья — преопасная вещь! Вечером мы пошли в сад. Погода была
-            удивительная… тишина в воздухе невыразимая… Mademoiselle Bienaime вышла на балкон со
+            удивительная… тишина в воздухе невыразимая… Mademoiselle Bienaimé вышла на балкон со
             свечкой: и пламя не шевелилось. Мы долго гуляли вдвоем, в виду дома, по мягкому песку
             дорожки, вдоль пруда. И в воде и на небе тихонько мерцали звезды… Снисходительная, ню
-            осторожная mademoiselle Bienaime с высоты балкона следила за нами взором… Я предложил
+            осторожная mademoiselle Bienaimé с высоты балкона следила за нами взором… Я предложил
             Вере Николаевне сесть в лодку. Она согласилась. Я начал грести и тихонько доплыл до
-            середины неширокого пруда… «Ой allez vous donc?» — раздался голос француженки. «Nulle
+            середины неширокого пруда… «Ou allez vous donc?» — раздался голос француженки. «Nulle
             part», — отвечал я громко и положил весло. «Nulle part, — прибавил я вполголоса… — Nous
             sommes trop bien ici». Вера потупилась, улыбнулась и начала кончиком зонтика чертить по
             воде… Милая, задумчивая улыбка округляла ее младенческие щеки… она собиралась говорить и
@@ -427,26 +429,26 @@
         <sp who="#Gorskij">
           <speaker>Горский</speaker>
           <p>
-            <stage type="delivery">(глянув в дверь гостиной)</stage>. A! Mademoiselle Bienaime…
-            Всегда первая… поневоле… Ее чай ждет. <stage type="delivery">(Входит m-lle Bienaime.
+            <stage type="delivery">(глянув в дверь гостиной)</stage>. A! Mademoiselle Bienaimé…
+            Всегда первая… поневоле… Ее чай ждет. <stage type="delivery">(Входит m-lle Bienaimé.
               Мухин встает и кланяется. Горский подходит к ней.)</stage> Mademoiselle, j'ai
             l'honneur de vous saluer.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime</speaker>
+          <speaker>M-lle Bienaimé</speaker>
           <p>
             <stage type="delivery">(пробираясь в столовую и исподлобья поглядывая на
               Горского)</stage>. Bien le bonjour, monsieur.</p>
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
-          <p>Toujours fraiche comme une rose.</p>
+          <p>Toujours fraîche comme une rose.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime</speaker>
+          <speaker>M-lle Bienaimé</speaker>
           <p>
             <stage type="delivery">(с ужимкой)</stage>. Et vous toujours galant. Venez, j'ai quelque
-            chose a vous dire. <stage type="delivery">(Уходит с Горским в столовую.)</stage></p>
+            chose à vous dire. <stage type="delivery">(Уходит с Горским в столовую.)</stage></p>
         </sp>
       </div>
       <div type="configuration">
@@ -609,7 +611,7 @@
         <sp who="#Vera">
           <speaker>Вера.</speaker>
           <p>Теперь я не могу: я принуждена заткнуть ее себе за пояс или подарить ее mademoiselle
-            Bienaime. Как это весело! И поделом. Зачем вы не первый сошли вниз.</p>
+            Bienaimé. Как это весело! И поделом. Зачем вы не первый сошли вниз.</p>
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
@@ -702,7 +704,7 @@
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
           <p>Вы ужасная особа. У вас дар, ничего не скрывая, ничего не высказать… La franchise est
-            la meilleure des diplomatics, вероятно, потому, что одно не мешает другому.</p>
+            la meilleure des diplomaties, вероятно, потому, что одно не мешает другому.</p>
         </sp>
         <sp who="#Vera">
           <speaker>Вера.</speaker>
@@ -736,7 +738,7 @@
         <sp who="#Vera">
           <speaker>Вера.</speaker>
           <p>Вы любопытны… Мы с вами поговорим… о важном деле. <stage type="delivery">(Из столовой
-              раздается голос m-lle Bienaime: «C'est vous, Vera?»)</stage>
+              раздается голос m-lle Bienaimé: «C'est vous, Vera?»)</stage>
             <stage type="delivery">(Вполголоса.)</stage> Как будто она и прежде не слышала, что я
             здесь. <stage type="delivery">(Громко.)</stage> Oui, c'est moi, bonjour, je viens.
               <stage type="delivery">(Уходя, бросает розу на стол и говорит в дверях
@@ -764,7 +766,7 @@
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова</speaker>
           <p>
-            <stage type="delivery">(дает ему кончики пальцев)</stage>. Bonjour, Eugene… У меня
+            <stage type="delivery">(дает ему кончики пальцев)</stage>. Bonjour, Eugène… У меня
             голова сегодня немного болит.</p>
         </sp>
         <sp who="#VarvaraIvanovna">
@@ -777,7 +779,7 @@
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
-          <p>Она в столовой за чаем с mademoiselle Bienaime и Мухиным.</p>
+          <p>Она в столовой за чаем с mademoiselle Bienaimé и Мухиным.</p>
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
@@ -875,7 +877,7 @@
           <speaker>Г-жа Либанова</speaker>
           <p>
             <stage type="delivery">(глядя на свои руки)</stage>. Что ж мы сегодня будем делать,
-            Eugene? Вы знаете, я во всем на вас полагаюсь. Придумайте что-нибудь веселое… Я сегодня
+            Eugène? Вы знаете, я во всем на вас полагаюсь. Придумайте что-нибудь веселое… Я сегодня
             в духе. Что, этот monsier Мухин хороший молодой человек?</p>
         </sp>
         <sp who="#Gorskij">
@@ -884,7 +886,7 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Il n'est pas genant?</p>
+          <p>Il n'est pas gênant?</p>
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
@@ -900,7 +902,7 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Ah! mais c'est tres bien… Eugene, дайте мне под ноги табуретку. <stage type="delivery"
+          <p>Ah! mais c'est très bien… Eugène, дайте мне под ноги табуретку. <stage type="delivery"
               >(Горский приносит табуретку.)</stage> Merci… А вот и капитан идет.</p>
         </sp>
       </div>
@@ -939,7 +941,7 @@
           <speaker>Г-жа Либанова</speaker>
           <p>
             <stage type="delivery">(не отвечая Чуханову, к Горскому)</stage>. Dites-moi, этот
-            m'onsieur Мухин богат?</p>
+            monsieur Мухин богат?</p>
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
@@ -970,7 +972,7 @@
         <sp who="#Chuhanov">
           <speaker>Чуханов.</speaker>
           <p>Слушаю, матушка… <stage type="delivery">(Идет.)</stage> А! да вот и они. <stage
-              type="delivery">(Входят Вера, Мухин, m-lle Bienaime, Варвара Ивановна.)</stage> Мое
+              type="delivery">(Входят Вера, Мухин, m-lle Bienaimé, Варвара Ивановна.)</stage> Мое
             почтение всей компании.</p>
         </sp>
         <sp who="#Vera">
@@ -995,8 +997,8 @@
           <p>
             <stage type="delivery">(Вере)</stage>. А ты, я вижу, уже по саду бегала, шалунья… <stage
               type="delivery">(Мухину.)</stage> Вы еще не видели нашего сада? Il est grand. Много
-            цветов. Я ужасно люблю цветы. Впрочем, у нас всяк волен делать что хочет: liberte
-            entiere…</p>
+            цветов. Я ужасно люблю цветы. Впрочем, у нас всяк волен делать что хочет: liberté
+            entière…</p>
         </sp>
         <sp who="#Muhin">
           <speaker>Мухин</speaker>
@@ -1017,7 +1019,7 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Да, хорош. C'est Rastrelli, vous savez, qui en a donne la plan, деду моему, графу
+          <p>Да, хорош. C'est Rastrelli, vous savez, qui en a donné le plan, деду моему, графу
             Любину.</p>
         </sp>
         <sp who="#Muhin">
@@ -1026,7 +1028,7 @@
             <stage type="delivery">(одобрительно и с уважением)</stage>. А!</p>
         </sp>
         <stage type="delivery">(В течение всего этого разговора Вера нарочно отворачивалась от
-          Горского и подходила то к m-lle Bienaime, то к Морозовой. Горский тотчас это заметил и
+          Горского и подходила то к m-lle Bienaimé, то к Морозовой. Горский тотчас это заметил и
           украдкой поглядывает на Мухина.)</stage>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова</speaker>
@@ -1047,7 +1049,7 @@
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
           <p>Как хотите… <stage type="delivery">(Мухину.)</stage> У нас бильярд есть… Впрочем,
-            liberte entiere, вы знаете…А мы, знаете ли что, капитан, мы в карточки засядем… Оно рано
+            liberté entière, вы знаете…А мы, знаете ли что, капитан, мы в карточки засядем… Оно рано
             немножко… Да вот Вера говорит, что гулять нельзя…</p>
         </sp>
         <sp who="#Chuhanov">
@@ -1059,7 +1061,7 @@
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
           <p>Как же… как же… <stage type="delivery">(С нерешимостью к Мухину.)</stage> Monsieur
-            Мухин… вы, говорят, любите преферанс… Не хотите ли? Mademoiselle Bienaime у меня не
+            Мухин… вы, говорят, любите преферанс… Не хотите ли? Mademoiselle Bienaimé у меня не
             умеет, а я давно не играла вчетвером.</p>
         </sp>
         <sp who="#Muhin">
@@ -1070,7 +1072,7 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Vous etes fort aimable… Впрочем, вы не церемоньтесь, пожалуйста.</p>
+          <p>Vous êtes fort aimable… Впрочем, вы не церемоньтесь, пожалуйста.</p>
         </sp>
         <sp who="#Muhin">
           <speaker>Мухин.</speaker>
@@ -1097,7 +1099,7 @@
       </div>
       <div type="configuration">
         <stage type="delivery">(Обе четы тихонько уходят в гостиную. В дверях Анна Васильевна
-          оборачивается и говорит m-lle Bienaime: «Ne termez pas la porte…» M-lie Bienaime
+          оборачивается и говорит m-lle Bienaimé: «Ne fermez pas la porte…» M-lle Bienaimé
           возвращается с улыбкой, садится на первом плане налево и с озабоченным видом берется за
           канву. Вера, которая некоторое время стояла в нерешительности — оставаться ли ей или идти
           за матерью. вдруг идет к фортепьяно, садится и начинает играть. Горский тихонько —
@@ -1135,8 +1137,8 @@
           <p>За что вдруг такая немилость! Что за каприз?</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
-          <p>Се n'est pas joli ce que vous jouez la, Vera.</p>
+          <speaker>M-lle Bienaimé.</speaker>
+          <p>Се n'est pas joli ce que vous jouez là, Vera.</p>
         </sp>
         <sp who="#Vera">
           <speaker>Вера</speaker>
@@ -1186,12 +1188,12 @@
           <speaker>Вера.</speaker>
           <p>Я не знаю, что вы сказать ему могли… Что вы за мной волочитесь, что вы смеетесь надо
             мной, что вы собираетесь вскружить мне голову, что я вас очень забавляю. <stage
-              type="delivery">(M-lle Bienaime сухо кашляет.)</stage> Qu'est ce que vous avez, bonne
-            amie? Pourqiioi toussez vous?</p>
+              type="delivery">(M-lle Bienaimé сухо кашляет.)</stage> Qu'est ce que vous avez, bonne
+            amie? Pourquoi toussez vous?</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
-          <p>Rien, rien… je ne sais pas… cette sonate doit etre bien difficile.</p>
+          <speaker>M-lle Bienaimé.</speaker>
+          <p>Rien, rien… je ne sais pas… cette sonate doit être bien difficile.</p>
         </sp>
         <sp who="#Vera">
           <speaker>Вера</speaker>
@@ -1283,10 +1285,10 @@
             amie.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime</speaker>
+          <speaker>M-lle Bienaimé</speaker>
           <p>
-            <stage type="delivery">(с притворным удивлением)</stage>. Ah! Est-ce que vous vous etiez
-            quereiles?</p>
+            <stage type="delivery">(с притворным удивлением)</stage>. Ah! Est-ce que vous vous étiez
+            querellés?</p>
         </sp>
         <sp who="#Vera">
           <speaker>Вера</speaker>
@@ -1375,7 +1377,7 @@
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
-          <p>Кто это вам сказал? Mademoiselle Bienaime? Предоставьте, ради бога, все подобные
+          <p>Кто это вам сказал? Mademoiselle Bienaimé? Предоставьте, ради бога, все подобные
             изречения женской мудрости сорокапятилетним девицам и лимфатическим юношам.
             Действительность… да какое самое пламенное, самое творческое воображение угонится за
             действительностию, за природой? Помилуйте… какой-нибудь морской рак во сто тысяч раз
@@ -1434,7 +1436,7 @@
             puisque tout est arrangé… <stage type="delivery">(Она уходит в гостиную.)</stage></p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
+          <speaker>M-lle Bienaimé.</speaker>
           <p>Eh bien? Elle s'en va?</p>
         </sp>
         <sp who="#Gorskij">
@@ -1443,7 +1445,7 @@
             <stage type="delivery">(не без смущения)</stage>. Oui… Elle est allée voir…</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime</speaker>
+          <speaker>M-lle Bienaimé</speaker>
           <p>
             <stage type="delivery">(качая головой)</stage>. Quelle petite folle! <stage
               type="delivery">(Встает и тоже уходит в гостиную.)</stage></p>
@@ -1569,7 +1571,7 @@
           <p>И то правда.</p>
         </sp>
         <stage type="delivery">(Подходит к двери и все не решается войти, как вдруг раздается голос
-          Анны Васильевны: «C'est vous, Woldemar? Bonjour… Entrez dons…» Он входит.)</stage>
+          Анны Васильевны: «C'est vous, Woldemar? Bonjour… Entrez donc…» Он входит.)</stage>
       </div>
       <div type="configuration">
         <sp who="#Gorskij">
@@ -1849,14 +1851,14 @@
             откровенность.</p>
         </sp>
         <stage type="delivery">(Горский хочет отвечать ей, но дверь из гостиной вдруг отворяется, и
-          все общество входит, исключая m-lle Bienaime. Анна Васильевна в приятном и веселом
+          все общество входит, исключая m-lle Bienaimé. Анна Васильевна в приятном и веселом
           расположении духа; ее под руку ведет Мухин. Станицын бросает быстрый взгляд на Веру и
           Горского.)</stage>
       </div>
       <div type="configuration">
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Вообразите, Eugene, мы совсем разорили господина Мухина… Право. Но какой же он горячий
+          <p>Вообразите, Eugène, мы совсем разорили господина Мухина… Право. Но какой же он горячий
             игрок!.</p>
         </sp>
         <sp who="#Gorskij">
@@ -1881,7 +1883,7 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>В самом деле? comme c'est contra-riant! Eh bien, надо что-нибудь придумать… Eugene, и
+          <p>В самом деле? Comme c'est contrariant! Eh bien, надо что-нибудь придумать… Eugène, и
             вы, Woldemar, это ваше дело.</p>
         </sp>
         <sp who="#Chuhanov">
@@ -1972,16 +1974,16 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Ну, прощайте, mes enfants… Eugene, я вам их поручаю… Amusez-vous… Вот к вам на подмогу
-            идет mademoiselle Bienaime. <stage type="delivery">(Из гостиной входит m-llе
-              Bienaime.)</stage> Пойдемте, Варвара Ивановна!..</p>
+          <p>Ну, прощайте, mes enfants… Eugène, я вам их поручаю… Amusez-vous… Вот к вам на подмогу
+            идет mademoiselle Bienaimé. <stage type="delivery">(Из гостиной входит m-llе
+              Bienaimé.)</stage> Пойдемте, Варвара Ивановна!..</p>
         </sp>
         <stage type="delivery">(Уходит с Морозовой в гостиную. Воцаряется небольшое
           молчание.)</stage>
       </div>
       <div type="configuration">
         <sp who="#MademoiselleBienaime">
-          <speaker>М-llе Bienaime</speaker>
+          <speaker>М-llе Bienaimé</speaker>
           <p>
             <stage type="delivery">(сухеньким голосом)</stage>. Eh bien, que ferons nous?</p>
         </sp>
@@ -2022,22 +2024,22 @@
           <p>Придумал, Иван Павлыч! Мы вот что сделаем. Сядем все кругом стола…</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>М-llе Bienaime.</speaker>
+          <speaker>М-llе Bienaimé.</speaker>
           <p>Oh, ce sera charmant!</p>
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
           <p>N'est-ce pas? Напишем все наши имена на клочках бумаги, и кому первому выдернется, тот
             должен будет рассказать какую-нибудь несообразную и фантастическую сказку о себе, о
-            другом, о чем угодно… Liberte entiere, как говорит Анна Васильевна.</p>
+            другом, о чем угодно… Liberté entière, как говорит Анна Васильевна.</p>
         </sp>
         <sp who="#Stanitsyn">
           <speaker>Станицын.</speaker>
           <p>Хорошо, хорошо.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
-          <p>Ah! tres bien, tres bien.</p>
+          <speaker>M-lle Bienaimé.</speaker>
+          <p>Ah! très bien, très bien.</p>
         </sp>
         <sp who="#Muhin">
           <speaker>Мухин.</speaker>
@@ -2052,7 +2054,7 @@
           <p>Отчего же нет?</p>
         </sp>
         <stage type="delivery">(Садится. Горский садится по правую ее руку. Мухин по левую, Станицын
-          подле Мухина, m-lle Bienaime подле Горского.)</stage>
+          подле Мухина, m-lle Bienaimé подле Горского.)</stage>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
           <p>Вот лист бумаги <stage type="delivery">(разрывает лист)</stage>, а вот и наши имена.
@@ -2086,11 +2088,11 @@
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
           <p>О, дамский угодник! <stage type="delivery">(Мешает билеты.)</stage> Вот- готово. Кто же
-            будет выдергивать?.. Mademoiselle Bienaime, voulez-vous?</p>
+            будет выдергивать?.. Mademoiselle Bienaimé, voulez-vous?</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
-          <p>Mais tres volontiers. <stage type="delivery">(С ужимкой берет билет и читает.)</stage>
+          <speaker>M-lle Bienaimé.</speaker>
+          <p>Mais très volontiers. <stage type="delivery">(С ужимкой берет билет и читает.)</stage>
             Каспадин Станицын.</p>
         </sp>
         <sp who="#Gorskij">
@@ -2137,12 +2139,12 @@
           <p>Начни, начни.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
-          <p>Oui, comm'encez, monsieur Gorski. Горский. Вы непременно хотите… Извольте… Начинаю. Гм…
+          <speaker>M-lle Bienaimé.</speaker>
+          <p>Oui, commencez, monsieur Gorski. Горский. Вы непременно хотите… Извольте… Начинаю. Гм…
               <stage type="delivery">(Откашливается.)</stage></p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
+          <speaker>M-lle Bienaimé.</speaker>
           <p>Hi, hi, nous allons rire. Горский. Ne riez pas d'avance. Итак, слушайте. У одного
             барона…</p>
         </sp>
@@ -2180,7 +2182,7 @@
           <p>Любезный друг мой, что за беда!</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
+          <speaker>M-lle Bienaimé.</speaker>
           <p>Mais oui, laissez-le faire.</p>
         </sp>
         <sp who="#Vera">
@@ -2213,7 +2215,7 @@
           <p>Вы сегодня не в духе, monsieur Горский!</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
+          <speaker>M-lle Bienaimé.</speaker>
           <p>Non, il n'est pas en veine, c'est vrai. Никарашо, никарашо.</p>
         </sp>
         <sp who="#Stanitsyn">
@@ -2237,7 +2239,7 @@
           <p>
             <stage type="delivery">(обращаясь к Станицыну)</stage>. Вы не можете себе представить,
             Владимир Петрович, какой мы вчера удивительный вечер провели! Жаль, что вас не было,
-            Владимир Петрович… Вот mademoiselle Bienaime была свидетельницей. Мы с Верой Николаевной
+            Владимир Петрович… Вот mademoiselle Bienaimé была свидетельницей. Мы с Верой Николаевной
             более часу вдвоем катались по пруду… Вера Николаевна так восхищалась вечером, так ей
             было хорошо… Она так, казалось, и улетала в небо… Слезы навертывались у ней на глазах… Я
             никогда не забуду этого вечера, Владимир Петрович!</p>
@@ -2302,7 +2304,7 @@
               оборачивается и берет руку Станицына.)</stage> Bonne amie, venez-vous?</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
+          <speaker>M-lle Bienaimé.</speaker>
           <p>Oui, oui, allez toujours… <stage type="delivery">(Берет с фортепьяно шляпу и
               надевает.)</stage></p>
         </sp>
@@ -2319,13 +2321,13 @@
             извольте.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
-          <p>Monsieur Мухин, voulez-vous me don-ner votre bras?</p>
+          <speaker>M-lle Bienaimé.</speaker>
+          <p>Monsieur Мухин, voulez-vous me donner votre bras?</p>
         </sp>
         <sp who="#Muhin">
           <speaker>Мухин.</speaker>
           <p>Avec plaisir, mademoiselle… <stage type="delivery">(Горскому.)</stage> Прощай, шантрет!
-              <stage type="delivery">(Уходит с m-lle Bienaime.)</stage></p>
+              <stage type="delivery">(Уходит с m-lle Bienaimé.)</stage></p>
         </sp>
       </div>
       <div type="configuration">
@@ -2468,13 +2470,13 @@
             я разбит… Но как позорно разбит… и не так и не там, где бы хотелось… <stage
               type="delivery">(Подходя к окну, глядит в сад.)</stage> Идут… Умрем по крайней мере с
             честью… <stage type="delivery">(Надевает шляпу, словно собирается идти в сад, и в дверях
-              сталкивается с Мухиным, с Верой и m-lle Bienaime, Вера держит m-lle Bienaime под
+              сталкивается с Мухиным, с Верой и m-lle Bienaimé, Вера держит m-lle Bienaimé под
               руку.)</stage> А! Вы уже возвращаетесь; а я было пошел к вам… Вера не поднимает
             глаз.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
-          <p>Il fait encore trop mouille.</p>
+          <speaker>M-lle Bienaimé.</speaker>
+          <p>Il fait encore trop mouillé.</p>
         </sp>
         <sp who="#Muhin">
           <speaker>Мухин.</speaker>
@@ -2485,7 +2487,7 @@
           <p>Меня Чуханов задержал… А вы, кажется, много бегали. Вера Николаевна? Вера. Да… мне
             жарко.</p>
         </sp>
-        <stage type="delivery">(M-lle Bienaime с Мухиным отходят немного в сторону, потом начинают
+        <stage type="delivery">(M-lle Bienaimé с Мухиным отходят немного в сторону, потом начинают
           играть на китайском бильярде, который находится немного позади.)</stage>
         <sp who="#Gorskij">
           <speaker>Горский</speaker>
@@ -2570,7 +2572,7 @@
             <stage type="delivery">(громко)</stage>. J'ai gagné.</p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime.</speaker>
+          <speaker>M-lle Bienaimé.</speaker>
           <p>Eh bien! la revanche.</p>
         </sp>
         <sp who="#Vera">
@@ -2680,7 +2682,7 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Кончила, Eugene, кончила… а что?</p>
+          <p>Кончила, Eugène, кончила… а что?</p>
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
@@ -2697,7 +2699,7 @@
           <p>Слушаю-с, слушаю-с. <stage type="delivery">(Идет в переднюю.)</stage></p>
         </sp>
         <sp who="#MademoiselleBienaime">
-          <speaker>M-lle Bienaime</speaker>
+          <speaker>M-lle Bienaimé</speaker>
           <p>
             <stage type="delivery">(закатывая глаза под лоб)</stage>. Dieu! que cela sera
             charmant!</p>
@@ -2729,12 +2731,12 @@
         </sp>
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова.</speaker>
-          <p>Да, да, Eugene, конечно.</p>
+          <p>Да, да, Eugène, конечно.</p>
         </sp>
         <sp who="#Gorskij">
           <speaker>Горский.</speaker>
           <p>Ну, и прекрасно!.. Вера Николаевна! извольте дать руку Станицыну… Mademoiselle
-            Bienaime, prenez mon ami monsieur Мухин, а капитан… где капитан?</p>
+            Bienaimé, prenez mon ami monsieur Мухин, а капитан… где капитан?</p>
         </sp>
         <sp who="#Chuhanov">
           <speaker>Чуханов</speaker>
@@ -2750,13 +2752,13 @@
         <sp who="#GospozhaLibanova">
           <speaker>Г-жа Либанова</speaker>
           <p>
-            <stage type="delivery">(тихо Горскому)</stage>. Ah, m'on cher, si vous saviez, combien
-            je suis heureuse aujourd'hui.</p>
+            <stage type="delivery">(тихо Горскому)</stage>. Ah, mon cher, si vous saviez, combien je
+            suis heureuse aujourd'hui.</p>
         </sp>
         <sp who="#Muhin">
           <speaker>Мухин</speaker>
           <p>
-            <stage type="delivery">(становясь на место с m-lle Bienaime, на ухо Горскому)</stage>.
+            <stage type="delivery">(становясь на место с m-lle Bienaimé, на ухо Горскому)</stage>.
             Хорошо, брат, хорошо: не робеешь… а сознайся, где тонко, там и рвется.</p>
         </sp>
         <stage type="delivery">(Все уходят. Занавес падает.)</stage>
