@@ -31,11 +31,12 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1917">в 1917 году, пьеса была опубликована на страницах
-              «Аполлона» (№ 6-7) (Wikipedia)</date>
-            <date type="premiere" when="1922">Первым появлением пьесы на сцене можно считать
-              берлинскую постановку 1922 года. (Wikipedia)</date>
-            <date type="written" when="1916">1916 (Wikipedia)</date>
+            <date type="print" when="1917">"1917 году, пьеса была опубликована на страницах
+              «Аполлона» (№ 6-7)." (Wikipedia)</date>
+            <date type="premiere" when="1922">"Первым появлением пьесы на сцене можно считать
+              берлинскую постановку 1922 года." (Wikipedia)</date>
+            <date type="written" when="1916">"Точное время создания пьесы неизвестно, обычно она
+              датируется зимой 1916 года." (Wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -43,14 +44,26 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Beduin" sex="MALE">
-            <persName>Бедуин</persName>
+          <person xml:id="Dervish" sex="MALE">
+            <persName>Дервиш</persName>
           </person>
-          <person xml:id="Sindbad" sex="MALE">
-            <persName>Синдбад</persName>
+          <person xml:id="Peri" sex="FEMALE">
+            <persName>Пери</persName>
+          </person>
+          <person xml:id="Junosha" sex="MALE">
+            <persName>Юноша</persName>
           </person>
           <person xml:id="Rab" sex="MALE">
             <persName>Раб</persName>
+          </person>
+          <person xml:id="Beduin" sex="MALE">
+            <persName>Бедуин</persName>
+          </person>
+          <person xml:id="Iskander" sex="MALE">
+            <persName>Искандер</persName>
+          </person>
+          <person xml:id="Sindbad" sex="MALE">
+            <persName>Синдбад</persName>
           </person>
           <person xml:id="Staruha" sex="FEMALE">
             <persName>Старуха</persName>
@@ -61,17 +74,11 @@
           <person xml:id="Kadi" sex="MALE">
             <persName>Кади</persName>
           </person>
-          <person xml:id="Iskander" sex="MALE">
-            <persName>Искандер</persName>
-          </person>
           <person xml:id="Kalif" sex="MALE">
             <persName>Калиф</persName>
           </person>
           <person xml:id="Angel" sex="UNKNOWN">
             <persName>Ангел</persName>
-          </person>
-          <person xml:id="Peri" sex="FEMALE">
-            <persName>Пери</persName>
           </person>
           <person xml:id="PervyjJevnuh" sex="MALE">
             <persName>1-й евнух</persName>
@@ -88,14 +95,8 @@
           <person xml:id="Pirat" sex="MALE">
             <persName>Пират</persName>
           </person>
-          <person xml:id="Dervish" sex="MALE">
-            <persName>Дервиш</persName>
-          </person>
           <person xml:id="Shejh" sex="MALE">
             <persName>Шейх</persName>
-          </person>
-          <person xml:id="Junosha" sex="MALE">
-            <persName>Юноша</persName>
           </person>
           <person xml:id="SynKalifa" sex="MALE">
             <persName>Сын Калифа</persName>
@@ -115,6 +116,7 @@
       <listChange>
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#ff" when="2017-07-07">connected lines via 'part' attribute</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -156,11 +158,11 @@
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l>А кто ты, девушка?</l>
+          <l part="I">А кто ты, девушка?</l>
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l part="F"> Я — Пери.</l>
+          <l part="F">Я — Пери.</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
@@ -234,11 +236,11 @@
         </sp>
         <sp who="#Rab">
           <speaker>Раб</speaker>
-          <l>Ты видишь девушку?</l>
+          <l part="I">Ты видишь девушку?</l>
         </sp>
         <sp who="#Junosha">
           <speaker>Юноша</speaker>
-          <l part="F"> Я вижу,</l>
+          <l part="F">Я вижу,</l>
           <l>Остановите караван.</l>
           <l>Скорей несите винограду,</l>
           <l>Шербет и фиников в меду!</l>
@@ -257,15 +259,15 @@
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l>Ты царь?</l>
+          <l part="I">Ты царь?</l>
         </sp>
         <sp who="#Junosha">
           <speaker>Юноша</speaker>
-          <l part="F"> Для девушек.</l>
+          <l part="M">Для девушек.</l>
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l part="F"> Ты воин?</l>
+          <l part="F">Ты воин?</l>
         </sp>
         <sp who="#Junosha">
           <speaker>Юноша</speaker>
@@ -273,11 +275,11 @@
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l>Певец, быть может?</l>
+          <l part="I">Певец, быть может?</l>
         </sp>
         <sp who="#Junosha">
           <speaker>Юноша</speaker>
-          <l part="F"> Я достоин,</l>
+          <l part="F">Я достоин,</l>
           <l>Клянусь, назваться и певцом.</l>
           <l>Ведь лютня дочери эмира,</l>
           <l>Свирель пастушки молодой,</l>
@@ -344,11 +346,11 @@
           <l>И я погнал сюда коня.</l>
           <l>О, нет судьбы моей суровей!</l>
           <l>Сражались здесь — и без меня.</l>
-          <l>Где бой был, девушка?</l>
+          <l part="I">Где бой был, девушка?</l>
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l part="F"> Ты воин?</l>
+          <l part="F">Ты воин?</l>
         </sp>
         <sp who="#Beduin">
           <speaker>Бедуин</speaker>
@@ -397,11 +399,11 @@
           <speaker>Пери</speaker>
           <l>А если вдруг архангел Божий</l>
           <l>За мной иль за тобой придёт,</l>
-          <l>Как защитишься ты?</l>
+          <l part="I">Как защитишься ты?</l>
         </sp>
         <sp who="#Beduin">
           <speaker>Бедуин</speaker>
-          <l part="F"> Он тоже</l>
+          <l part="F">Он тоже</l>
           <l>Окровавленный упадёт.</l>
           <stage>(Появляется Искандер)</stage>
         </sp>
@@ -414,15 +416,15 @@
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l>Мне страшно.</l>
+          <l part="I">Мне страшно.</l>
         </sp>
         <sp who="#Beduin">
           <speaker>Бедуин</speaker>
-          <l part="F"> Кто ты, тень?</l>
+          <l part="M">Кто ты, тень?</l>
         </sp>
         <sp who="#Iskander">
           <speaker>Искандер</speaker>
-          <l part="F"> Искандер</l>
+          <l part="F">Искандер</l>
           <l>Меня зовёт твоя страна,</l>
           <l>Но ведают об Александре</l>
           <l>И западные племена.</l>
@@ -441,11 +443,11 @@
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l>Ты — первый в мире?</l>
+          <l part="I">Ты — первый в мире?</l>
         </sp>
         <sp who="#Iskander">
           <speaker>Искандер</speaker>
-          <l part="F"> Данник мрака,</l>
+          <l part="F">Данник мрака,</l>
           <l>Последний я, как он теперь.</l>
           <l>В грязи живущая собака</l>
           <l>Нас двух достойнее, поверь.</l>
@@ -480,11 +482,11 @@
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l>Ты — первый в мире?</l>
+          <l part="I">Ты — первый в мире?</l>
         </sp>
         <sp who="#Kalif">
           <speaker>Калиф</speaker>
-          <l part="F"> Цвет рубина,</l>
+          <l part="F">Цвет рубина,</l>
           <l>Не первым быть бы я не мог:</l>
           <l>Ведь тем, кто лучше господина,</l>
           <l>Приносят шёлковый шнурок.</l>
@@ -527,11 +529,11 @@
         </sp>
         <sp who="#Astrolog">
           <speaker>Астролог</speaker>
-          <l>О звёзды, я боюсь!</l>
+          <l part="I">О звёзды, я боюсь!</l>
         </sp>
         <sp who="#Kalif">
           <speaker>Калиф</speaker>
-          <l part="F"> Что это?</l>
+          <l part="F">Что это?</l>
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
@@ -563,20 +565,20 @@
         </sp>
         <sp who="#Kalif">
           <speaker>Калиф</speaker>
-          <l>Надень кольцо мне.</l>
+          <l part="I">Надень кольцо мне.</l>
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l part="F"> Умоляю,</l>
+          <l part="F">Умоляю,</l>
           <l>Что будет, если ты умрёшь?</l>
         </sp>
         <sp who="#Astrolog">
           <speaker>Астролог</speaker>
-          <l>Планеты…</l>
+          <l part="I">Планеты…</l>
         </sp>
         <sp who="#Kalif">
           <speaker>Калиф</speaker>
-          <l part="F"> Я повелеваю!</l>
+          <l part="F">Я повелеваю!</l>
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
@@ -642,11 +644,11 @@
         </sp>
         <sp who="#Kadi">
           <speaker>Кади</speaker>
-          <l>Привет ответный.</l>
+          <l part="I">Привет ответный.</l>
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
-          <l part="F"> Говорят,</l>
+          <l part="F">Говорят,</l>
           <l>Что скоро будет здесь, в Багдаде,</l>
           <l>Великолепнейший Синдбад;</l>
           <l>С ним двести золочёных барок,</l>
@@ -665,11 +667,11 @@
           <stage type="delivery">(старухе)</stage>
           <l>О, госпожа моя, слетела</l>
           <l>Печаль на блеск твоих седин,</l>
-          <l>Как птица хищная.</l>
+          <l part="I">Как птица хищная.</l>
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
-          <l part="F"> В чём дело?</l>
+          <l part="F">В чём дело?</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
@@ -697,20 +699,20 @@
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
-          <l>А караван?</l>
+          <l part="I">А караван?</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l part="F"> Его умелый</l>
+          <l part="F">Его умелый</l>
           <l>Слуга до города довёл.</l>
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
-          <l>И все верблюды целы?</l>
+          <l part="I">И все верблюды целы?</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l part="F"> Целы.</l>
+          <l part="F">Целы.</l>
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
@@ -724,11 +726,11 @@
           <speaker>Кади</speaker>
           <l>Не плачь так громко, Бога ради,</l>
           <l>Подумай, караван твой цел,</l>
-          <l>И ты цела.</l>
+          <l part="I">И ты цела.</l>
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
-          <l part="F"> О, добрый Кади</l>
+          <l part="F">О, добрый Кади</l>
           <l>Ты мудрость взял себе в удел.</l>
           <l>Но как я буду одинокой</l>
           <l>В расцвете сорока трёх лет?</l>
@@ -756,21 +758,21 @@
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
-          <l>Я хороша?</l>
+          <l part="I">Я хороша?</l>
         </sp>
         <sp who="#Kadi">
           <speaker>Кади</speaker>
           <stage type="delivery">(отступая)</stage>
-          <l part="F"> Была когда-то.</l>
+          <l part="F">Была когда-то.</l>
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
-          <l>И взор мой светится.</l>
+          <l part="I">И взор мой светится.</l>
         </sp>
         <sp who="#Kadi">
           <speaker>Кади</speaker>
           <stage type="delivery">(отступая)</stage>
-          <l part="F"> Бог с ним!</l>
+          <l part="F">Бог с ним!</l>
         </sp>
         <sp who="#Staruha">
           <speaker>Старуха</speaker>
@@ -856,11 +858,11 @@
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
           <l>А, нет! Отмщенье только мне!</l>
-          <l>Пусти, собака!</l>
+          <l part="I">Пусти, собака!</l>
         </sp>
         <sp who="#Kadi">
           <speaker>Кади</speaker>
-          <l part="F"> Мы в Багдаде,</l>
+          <l part="F">Мы в Багдаде,</l>
           <l>А не в разбойничьей стране.</l>
         </sp>
         <sp who="#Shejh">
@@ -876,11 +878,11 @@
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
           <l>Почтенный шейх, оплот несчастных,</l>
-          <l>Позволь сказать мне…</l>
+          <l part="I">Позволь сказать мне…</l>
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
-          <l part="F"> Замолчи!</l>
+          <l part="F">Замолчи!</l>
           <l>Ты, девушка… Молчит… И ясно,</l>
           <l>И нежно смотрит, как любовь…</l>
           <l>Ответь!.. Нема… Она прекрасна,</l>
@@ -890,12 +892,12 @@
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l>О, господин мой!</l>
+          <l part="I">О, господин мой!</l>
           <stage>(Появляется пират)</stage>
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
-          <l part="F"> Что я вижу?</l>
+          <l part="F">Что я вижу?</l>
           <l>Пират Али! Спеши сюда!</l>
           <l>Привет тебе, товарищ старый,</l>
           <l>Купи невольницу мою.</l>
@@ -916,16 +918,16 @@
           <l>Рабыни или бедняка.</l>
           <l>Я не Синдбад, отец богатства,</l>
           <l>Что возвращается сюда.</l>
-          <l>Я беден.</l>
+          <l part="I">Я беден.</l>
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
-          <l part="F"> Ну, во имя братства,</l>
-          <l>Бери за триста.</l>
+          <l part="F">Ну, во имя братства,</l>
+          <l part="I">Бери за триста.</l>
         </sp>
         <sp who="#Pirat">
           <speaker>Пират</speaker>
-          <l part="F"> Двести, да.</l>
+          <l part="F">Двести, да.</l>
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
@@ -939,17 +941,17 @@
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
-          <l>Но там ты дрался.</l>
+          <l part="I">Но там ты дрался.</l>
         </sp>
         <sp who="#Pirat">
           <speaker>Пират</speaker>
-          <l part="F"> Что мне драка?</l>
+          <l part="F">Что мне драка?</l>
           <l>Так, удовольствие одно,</l>
-          <l>Зато всё даром.</l>
+          <l part="I">Зато всё даром.</l>
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
-          <l part="F"> Духи мрака!</l>
+          <l part="F">Духи мрака!</l>
           <l>Бери за двести, всё равно.</l>
           <stage>(Сын калифа появляется на террасе)</stage>
         </sp>
@@ -965,39 +967,39 @@
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l>О, горе!</l>
+          <l part="I">О, горе!</l>
         </sp>
         <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
-          <l part="F"> Где? Скажи мне прямо!</l>
+          <l part="F">Где? Скажи мне прямо!</l>
           <l>Мука на рынке дорога?</l>
           <l>Иль городскому каймакаму</l>
           <l>Друзья наставили рога?</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l>Ты шутишь, светлый?</l>
+          <l part="I">Ты шутишь, светлый?</l>
         </sp>
         <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
-          <l part="F"> Иль жениться</l>
+          <l part="F">Иль жениться</l>
           <l>На склоне лет задумал ты</l>
           <l>И не найдёшь нигде девицы</l>
           <l>Тебя достойной красоты?</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l>Калиф, отец твой…</l>
+          <l part="I">Калиф, отец твой…</l>
         </sp>
         <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
-          <l part="F"> Знаю, знаю!</l>
+          <l part="F">Знаю, знаю!</l>
           <l>Я роздал треть моей казны</l>
-          <l>За эту весть.</l>
+          <l part="I">За эту весть.</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l part="F"> Я продолжаю,</l>
+          <l part="F">Я продолжаю,</l>
           <l>Внимать и сильные должны.</l>
         </sp>
         <sp who="#SynKalifa">
@@ -1009,16 +1011,16 @@
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l>Убийца кто?</l>
+          <l part="I">Убийца кто?</l>
         </sp>
         <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
-          <l part="F"> Не всё равно ли?</l>
-          <l>Кольцо.</l>
+          <l part="F">Не всё равно ли?</l>
+          <l part="I">Кольцо.</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l part="F"> Как речь твоя грешна!</l>
+          <l part="F">Как речь твоя грешна!</l>
           <l>Кольцо — пособник и не боле,</l>
           <l>Кольцом владела вот она.</l>
         </sp>
@@ -1052,11 +1054,11 @@
           <speaker>Пират</speaker>
           <l>Как, стража? Я на днях фелуку</l>
           <l>Разбил у этого дворца.</l>
-          <l>Бежим скорей!</l>
+          <l part="I">Бежим скорей!</l>
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
-          <l part="F"> Товарищ, руку!</l>
+          <l part="F">Товарищ, руку!</l>
           <l>И я вчера убил купца.</l>
           <stage>(Убегают. Стража уводит Пери)</stage>
         </sp>
@@ -1081,11 +1083,11 @@
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l>Как добр ты!</l>
+          <l part="I">Как добр ты!</l>
         </sp>
         <sp who="#SynKalifa">
           <speaker>Сын Калифа</speaker>
-          <l part="F"> Но, в пример народу,</l>
+          <l part="F">Но, в пример народу,</l>
           <l>Мой суд и благ и справедлив:</l>
           <l>Её тотчас же бросят в воду,</l>
           <l>И будет отомщён калиф.</l>
@@ -1151,11 +1153,11 @@
         <sp who="#Pirat">
           <speaker>Пират</speaker>
           <l>Идти к Синдбаду! Что он мелет?</l>
-          <l>А стража, судьи!</l>
+          <l part="I">А стража, судьи!</l>
         </sp>
         <sp who="#Shejh">
           <speaker>Шейх</speaker>
-          <l part="F"> Всё равно!</l>
+          <l part="F">Всё равно!</l>
           <l>Скорей! Там всех рабынь поделят</l>
           <l>И выпьют лучшее вино.</l>
           <stage>(Уходят; появляются сын калифа и астролог)</stage>
@@ -1411,11 +1413,11 @@
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l>Меня прощаешь ты?</l>
+          <l part="I">Меня прощаешь ты?</l>
         </sp>
         <sp who="#Junosha">
           <speaker>Юноша</speaker>
-          <l part="F"> За что?</l>
+          <l part="F">За что?</l>
           <l>За то, что мир мой дивно светел?</l>
           <l>За то, что из земных никто</l>
           <l>Такую девушку не встретил?</l>
@@ -1426,13 +1428,13 @@
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l>Пусти его.</l>
+          <l part="I">Пусти его.</l>
         </sp>
         <sp who="#Gafiz">
           <speaker>Гафиз</speaker>
-          <l part="F"> Иди.</l>
+          <l part="M">Иди.</l>
           <stage>(Юноша и Эль-Анка уходят)</stage>
-          <l part="F"> Один,</l>
+          <l part="F">Один,</l>
           <l>Сама ты видела, доволен.</l>
         </sp>
         <sp who="#Peri">
@@ -1529,11 +1531,11 @@
           <l>Пускай из звёздно-синих недр</l>
           <l>Сойдет на землю дух калифа!</l>
           <stage>(Появляется ангел)</stage>
-          <l>Как! Ангел смерти!</l>
+          <l part="I">Как! Ангел смерти!</l>
         </sp>
         <sp who="#Peri">
           <speaker>Пери</speaker>
-          <l part="F"> Брат святой!</l>
+          <l part="F">Брат святой!</l>
         </sp>
         <sp who="#Gafiz">
           <speaker>Гафиз</speaker>
@@ -1624,11 +1626,11 @@
           <l>Тебя испытывать я стану.</l>
           <l>Тогда лишь я увижу сам,</l>
           <l>Что ни единый не сравнится</l>
-          <l>С тобой…</l>
+          <l part="I">С тобой…</l>
         </sp>
         <sp who="#Gafiz">
           <speaker>Гафиз</speaker>
-          <l part="F"> Какой ужасный гам</l>
+          <l part="F">Какой ужасный гам</l>
           <l>Вдруг подняли смешные птицы!</l>
           <stage>(Подлетает птица)</stage>
           <l>Ты что, Гранатовый Цветок?</l>
@@ -1652,11 +1654,11 @@
           <l>Но тише, будет торжества!</l>
           <stage>(К дервишу)</stage>
           <l>Ты говорил об испытаньи,</l>
-          <l>Отец?</l>
+          <l part="I">Отец?</l>
         </sp>
         <sp who="#Dervish">
           <speaker>Дервиш</speaker>
-          <l part="F"> Забудь мои слова,</l>
+          <l part="F">Забудь мои слова,</l>
           <l>Целую след твой на прощанье.</l>
           <stage>(Уходит)</stage>
         </sp>
