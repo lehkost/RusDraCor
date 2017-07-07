@@ -125,6 +125,7 @@
         <change who="#nf" when="2017-05-29">corrected IDs</change>
         <change who="#to" when="2017-06-04">gender</change>
         <change who="#ff" when="2017-07-06">formalities</change>
+        <change who="#ff" when="2017-07-07">segmentation of all 3 acts</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -244,7 +245,7 @@
             <p>Фу, бесстыдница!</p>
           </sp>
           <sp who="#Glafira">
-            <speaker>Глафира </speaker>
+            <speaker>Глафира</speaker>
             <stage type="delivery">(подает кофе).</stage>
             <p>Газету Варвара Егоровна сама принесет.</p>
           </sp>
@@ -261,6 +262,8 @@
             <speaker>Ксения</speaker>
             <p>Тьфу тебе!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Shura">
             <speaker>Шура</speaker>
             <p>Вот сестрица шествует важно. Бонжур, мадам! Комман са ва?</p>
@@ -347,12 +350,12 @@
           <stage>Шура сидит, откинувшись на спинку стула, закрыв глаза, руки – на затылке рыжей,
             лохматой головы.</stage>
           <sp who="#Zvontsov">
-            <speaker>Звонцов </speaker>
+            <speaker>Звонцов</speaker>
             <stage type="delivery">(с лестницы, в туфлях, подкрался к ней, обнял сзади).</stage>
             <p>О чем замечталась, рыжая коза?</p>
           </sp>
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(не открывая глаз, не шевелясь).</stage>
             <p>Не трогайте меня.</p>
           </sp>
@@ -435,7 +438,7 @@
             <p>Разве ты, Шура, не говорила, что хочешь?</p>
           </sp>
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(уходя).</stage>
             <p>Никогда не говорила.</p>
           </sp>
@@ -497,7 +500,7 @@
             и в зеленом колпаке бежит к телефону, ее перехватил и молча прижал к себе Булычов, за
             ним идет поп Павлин, в лиловой рясе.</stage>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(сел к столу, обняв Шуру за талию, она гладит его медные, с
               проседью, волосы).</stage>
             <p>Народа перепортили столько, что страшно глядеть...</p>
@@ -516,7 +519,7 @@
               многовато было. Зря влезли в эту войну...</p>
           </sp>
           <sp who="#Pavlin">
-            <speaker>Павлин </speaker>
+            <speaker>Павлин</speaker>
             <stage type="delivery">(вздохнув).</stage>
             <p>Соображения высшей власти...</p>
           </sp>
@@ -599,7 +602,7 @@
               недомогания?</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(вставая).</stage>
             <p>Колокольным звоном болезни не лечат.</p>
           </sp>
@@ -610,7 +613,7 @@
               пользует...</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(усмехаясь).</stage>
             <p>На какой трубе?</p>
           </sp>
@@ -630,12 +633,12 @@
               же, может быть, разумом только затемняется и даже – угашается.</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(вздыхая).</stage>
             <p>Эко слов-то у тебя сколько...</p>
           </sp>
           <sp who="#Pavlin">
-            <speaker>Павлин </speaker>
+            <speaker>Павлин</speaker>
             <stage type="delivery">(все более воодушевленно).</stage>
             <p>Возьмите, примерно, блаженного Прокопия, в какой радости живет сей муж, дурачком
               именуемый невегласами...</p>
@@ -652,7 +655,7 @@
         </div>
         <div type="configuration">
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(щупая правый бок, подошел к дивану, ворчит).</stage>
             <p>Боров. Нажрался тела-крови Христовой... Глафира!.. Эй...</p>
           </sp>
@@ -694,7 +697,7 @@
             <p>Звал. Эх, Глаха, до чего ты хороша! Здоровая! Каленая! А Варвара у меня – выдра!</p>
           </sp>
           <sp who="#Glafira">
-            <speaker>Глафира </speaker>
+            <speaker>Глафира</speaker>
             <stage type="delivery">(заглядывая на лестницу).</stage>
             <p>Ее счастье. Будь она красивой, вы бы и ее на постелю себе втащили.</p>
           </sp>
@@ -707,7 +710,7 @@
             <p>Я знаю – что! Шуру-то тискаете, как чужую... как солдат!</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(изумлен).</stage>
             <p>Да ты, Глафира, рехнулась! Ты что: к дочери ревнуешь? Ты о Шурке не смей эдак думать.
               Как солдат... Как чужую! А ты бывала у солдат в руках? Ну?</p>
@@ -721,7 +724,7 @@
             <p>Доната пошли. Стой! Дай-ко руку. Любишь все-таки? И хворого?</p>
           </sp>
           <sp who="#Glafira">
-            <speaker>Глафира </speaker>
+            <speaker>Глафира</speaker>
             <stage type="delivery">(припадая к нему).</stage>
             <p>Горе ты мое... Да – не хворай ты! Не хворай...</p>
             <stage type="delivery">(Оторвалась, убежала.)</stage>
@@ -742,7 +745,7 @@
             <p>С хорошим: медведя обложили.</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(вздохнув).</stage>
             <p>Ну, это... для зависти, а не для радости. Мне теперь медведь – не забава. Лес-то
               рубят?</p>
@@ -893,7 +896,7 @@
             <p>Знаю, знаю! Предлагай. А то – архиерею предложи!</p>
           </sp>
           <sp who="#Ksenija">
-            <speaker>Ксения </speaker>
+            <speaker>Ксения</speaker>
             <stage type="delivery">(усмехаясь).</stage>
             <p>Вот бы поглядеть, как архиерей в медведя стреляет.</p>
           </sp>
@@ -1011,7 +1014,7 @@
             <p>Доктор приехал, и Башкин ждет. Лександра, оправь юбку, как ты сидишь?</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(встает).</stage>
             <p>Ну, зови доктора. Лежать мне вредно, тяжелею от лежанья. Эх... Улепетывай, Шуренок!
               Ногу не вывихни, гляди!</p>
@@ -1031,7 +1034,7 @@
             <p>Нуте-ко, пойдемте к вам...</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(идя рядом с ним).</stage>
             <p>Ты давай мне самые злые, самые дорогие лекарства: мне, брат, обязательно выздороветь
               надо! Вылечишь – больницу построю, старшим будешь в ней, делай что хочешь...</p>
@@ -1164,7 +1167,7 @@
         </div>
         <div type="configuration">
           <sp who="#Doktor">
-            <speaker>Доктор </speaker>
+            <speaker>Доктор</speaker>
             <stage type="delivery">(вышел – берет Звонцова под руку).</stage>
             <p>Ну-с, вот что...</p>
           </sp>
@@ -1345,7 +1348,7 @@
             <p>Надует тебя Лизавета...</p>
           </sp>
           <sp who="#Ksenija">
-            <speaker>Ксения </speaker>
+            <speaker>Ксения</speaker>
             <stage type="delivery">(из комнаты мужа).</stage>
             <p>Уговорите вы его, чтобы лежал! Он там ходит и Мокея ругает... Ах, господи!..</p>
           </sp>
@@ -1356,12 +1359,12 @@
         </div>
         <div type="configuration">
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(в халате, в валяных туфлях).</stage>
             <p>Ну, и что еще? Несчастная война?</p>
           </sp>
           <sp who="#Bashkin">
-            <speaker>Башкин </speaker>
+            <speaker>Башкин</speaker>
             <stage type="delivery">(идя за ним).</stage>
             <p>Кто же спорит?</p>
           </sp>
@@ -1456,7 +1459,7 @@
             <p>Иди, иди! Я сам знаю, чего нельзя, что можно.</p>
           </sp>
           <sp who="#Ksenija">
-            <speaker>Ксения </speaker>
+            <speaker>Ксения</speaker>
             <stage type="delivery">(уходя).</stage>
             <p>Кабы знал...</p>
           </sp>
@@ -1464,13 +1467,13 @@
         </div>
         <div type="configuration">
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(обошел вокруг стола, придерживаясь за него рукой. Смотрит в
               зеркало, говорит почти во весь голос).</stage>
             <p>Плохо твое дело, Егор. И рожа, брат, у тебя... не твоя какая-то!</p>
           </sp>
           <sp who="#Glafira">
-            <speaker>Глафира </speaker>
+            <speaker>Глафира</speaker>
             <stage type="delivery">(с подносом, на нем стакан молока).</stage>
             <p>Вот вам молоко.</p>
           </sp>
@@ -1522,7 +1525,7 @@
           бутылка вина.</stage>
         <div type="configuration">
           <sp who="#Zvontsov">
-            <speaker>Звонцов </speaker>
+            <speaker>Звонцов</speaker>
             <stage type="delivery">(закуривая).</stage>
             <p>Понял?</p>
           </sp>
@@ -1631,10 +1634,12 @@
             <p>Несерьезно о деньгах только дураки говорят...</p>
           </sp>
           <sp who="#Tjatin">
-            <speaker>Тятин </speaker>
+            <speaker>Тятин</speaker>
             <stage type="delivery">(усмехаясь).</stage>
             <p>Черт возьми... Замечательно придумано.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Достигаев.</stage>
           <sp who="#Zvontsov">
             <speaker>Звонцов</speaker>
@@ -1682,13 +1687,13 @@
               что будет революция, так это даже губернатор понимает...</p>
           </sp>
           <sp who="#Tjatin">
-            <speaker>Тятин </speaker>
+            <speaker>Тятин</speaker>
             <p> [</p>
             <stage type="delivery">(входит)</stage>
             <p>]. Егор Васильевич в столовую вышел.</p>
           </sp>
           <sp who="#Dostigaev">
-            <speaker>Достигаев </speaker>
+            <speaker>Достигаев</speaker>
             <stage type="delivery">(берет стакан).</stage>
             <p>Спасибо, Степаша. Вышел, говоришь? Ну, и мы туда.</p>
           </sp>
@@ -1696,6 +1701,8 @@
             <speaker>Звонцов</speaker>
             <p>Промышленники, кажется, понимают свою роль...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Идут – Варвара, Елизавета.</stage>
           <sp who="#Dostigaev">
             <speaker>Достигаев</speaker>
@@ -1728,7 +1735,7 @@
             <p>Да... так, вообще...</p>
           </sp>
           <sp who="#Elizaveta">
-            <speaker>Елизавета </speaker>
+            <speaker>Елизавета</speaker>
             <stage type="delivery">(перед зеркалом).</stage>
             <p>Вчера Жанна рассказала мне анекдот изумительный! Как цветок!</p>
           </sp>
@@ -1754,7 +1761,7 @@
             <p>А – кому я мешаю?</p>
           </sp>
           <sp who="#Elizaveta">
-            <speaker>Елизавета </speaker>
+            <speaker>Елизавета</speaker>
             <stage type="delivery">(Тятину).</stage>
             <p>Вы, Степочка, знаете псалом: «Блажен муж, иже не иде на совет нечестивых и на пути
               грешных не ста»?</p>
@@ -1764,12 +1771,14 @@
             <p>Что-то такое помню...</p>
           </sp>
           <sp who="#Elizaveta">
-            <speaker>Елизавета </speaker>
+            <speaker>Елизавета</speaker>
             <stage type="delivery">(берет его под руку).</stage>
             <p>Вот эти, все – они и есть нечестивые грешники, а вы тихий юноша для луны, любви и
               прочего, да?</p>
             <stage type="delivery">(Уводит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Dostigaev">
             <speaker>Достигаев</speaker>
             <p>Экая болтушка!</p>
@@ -1829,8 +1838,10 @@
             <speaker>Достигаев</speaker>
             <p>Спешим. Нуте-с, пошли?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Varvara">
-            <speaker>Варвара </speaker>
+            <speaker>Варвара</speaker>
             <stage type="delivery">(будто бы зацепилась подолом за кресло).</stage>
             <p>Андрей, помоги же! Ты ему веришь?</p>
           </sp>
@@ -1861,6 +1872,8 @@
           </sp>
           <stage>Ушли. Навстречу Глафира, смотрит вслед им с ненавистью, собирает посуду со столика.
             Лаптев входит.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Glafira">
             <speaker>Глафира</speaker>
             <p>А вчера был слух, что ты арестован.</p>
@@ -1902,7 +1915,7 @@
             <p>Дельно. А как Булычов?</p>
           </sp>
           <sp who="#Glafira">
-            <speaker>Глафира </speaker>
+            <speaker>Глафира</speaker>
             <stage type="delivery">(гневно).</stage>
             <p>Какой он тебе Булычов! Он – отец крестный твой!</p>
           </sp>
@@ -1935,6 +1948,8 @@
               у него.</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Laptev">
             <speaker>Лаптев</speaker>
             <p>Вот спасибо!</p>
@@ -1942,7 +1957,7 @@
               осматривается.)</stage>
           </sp>
           <sp who="#Ksenija">
-            <speaker>Ксения </speaker>
+            <speaker>Ксения</speaker>
             <stage type="delivery">(идет, ворчит).</stage>
             <p>Бегают, как черти от ладана...</p>
           </sp>
@@ -1985,8 +2000,10 @@
             <p>Ну, что еще? Покоя нет... о, господи...</p>
             <stage type="delivery">(Ушла.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(вбегает).</stage>
             <p>Здравствуй!</p>
           </sp>
@@ -2080,12 +2097,12 @@
             <p>Не финти, Яшка! Ты понимаешь. Я тоже хочу помогать, слышишь?</p>
           </sp>
           <sp who="#Laptev">
-            <speaker>Лаптев </speaker>
+            <speaker>Лаптев</speaker>
             <stage type="delivery">(удивлен).</stage>
             <p>Что это ты, девушка, как будто только сегодня проснулась?</p>
           </sp>
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(гневно).</stage>
             <p>Не смей издеваться надо мной! Ты – дурак!</p>
           </sp>
@@ -2106,13 +2123,15 @@
             <p>Идем... Скорей.</p>
           </sp>
           <sp who="#Laptev">
-            <speaker>Лаптев </speaker>
+            <speaker>Лаптев</speaker>
             <stage type="delivery">(обняв ее за плечи).</stage>
             <p>В самом деле – что с тобой?</p>
           </sp>
           <stage>Ушли, затворив за собой дверь.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Varvara">
-            <speaker>Варвара </speaker>
+            <speaker>Варвара</speaker>
             <stage type="delivery">(слышит, как щелкнул замок двери, подошла к ней, повертела
               ручку).</stage>
             <p>Это ты, Глафира?</p>
@@ -2120,6 +2139,8 @@
             <p>Там есть кто-нибудь? Таинственно...</p>
             <stage type="delivery">(Быстро уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Шура тащит за руку Доната.</stage>
           <sp who="#Donat">
             <speaker>Донат</speaker>
@@ -2159,7 +2180,7 @@
               спросят, столько и дает. А извозчик, он, конечно, другому скажет, ну и...</p>
           </sp>
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(притопнув ногой).</stage>
             <p>Ты смеешься?</p>
           </sp>
@@ -2188,7 +2209,7 @@
             <p>Все вы – врете.</p>
           </sp>
           <sp who="#Donat">
-            <speaker>Донат </speaker>
+            <speaker>Донат</speaker>
             <stage type="delivery">(понурясъ, вздыхая).</stage>
             <p>Ты – не сердись, сердцем ничего не докажешь.</p>
           </sp>
@@ -2197,6 +2218,8 @@
             <p>Уходи! Слушай, Глафира... Ну, кто-то лезет...</p>
             <stage type="delivery">(Спряталась в драпировку.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Алексей Достигаев, щеголь, в галифе, шведской куртке, весь в ремнях и
             карманах.</stage>
           <sp who="#Aleksej">
@@ -2204,7 +2227,7 @@
             <p>Вы все хорошеете, Глаша.</p>
           </sp>
           <sp who="#Glafira">
-            <speaker>Глафира </speaker>
+            <speaker>Глафира</speaker>
             <stage type="delivery">(угрюмо).</stage>
             <p>Приятно слышать.</p>
           </sp>
@@ -2224,6 +2247,8 @@
             <stage type="delivery">(Позевнув, смотрит на часы.)</stage>
           </sp>
           <stage>Входит Антонина, несколько позднее – Тятин.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Shura">
             <speaker>Шура</speaker>
             <p>Ты, кажется, и за горничными ухаживаешь?</p>
@@ -2306,7 +2331,7 @@
             <p>Какой болван! Уйди! Ты похож на беременную прачку.</p>
           </sp>
           <sp who="#Aleksej">
-            <speaker>Алексей </speaker>
+            <speaker>Алексей</speaker>
             <stage type="delivery">(обняв ее за талию).</stage>
             <p>Ох, какая аристократка! Не гризе па ле семиачки, се моветон.</p>
           </sp>
@@ -2356,6 +2381,8 @@
             <speaker>Антонина</speaker>
             <p>Наверное, какая-нибудь глупость.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Shura">
             <speaker>Шура</speaker>
             <p>Тятин, вы – правдивый человек?</p>
@@ -2378,7 +2405,7 @@
               свататься ко мне?</p>
           </sp>
           <sp who="#Tjatin">
-            <speaker>Тятин </speaker>
+            <speaker>Тятин</speaker>
             <stage type="delivery">(закуривая, не сразу).</stage>
             <p>Советуют.</p>
           </sp>
@@ -2433,8 +2460,10 @@
             <speaker>Тятин</speaker>
             <p>Не знаю. В том, что кутята, и – зубов нет, укусить не могут.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Antonina">
-            <speaker>Антонина </speaker>
+            <speaker>Антонина</speaker>
             <stage type="delivery">(входит).</stage>
             <p>Дурак Алешка страшно больно дернул меня за ухо. И деньги отобрал, как жулик! Знаешь,
               он сопьется, это – наверное! Мы с ним такие никчемушные, купеческие дети. Тебе –
@@ -2490,7 +2519,7 @@
               темноте и ждать, что приползет огромный змей...</p>
           </sp>
           <sp who="#Tjatin">
-            <speaker>Тятин </speaker>
+            <speaker>Тятин</speaker>
             <stage type="delivery">(усмехаясь).</stage>
             <p>Это – который был в раю?</p>
           </sp>
@@ -2548,6 +2577,8 @@
             <speaker>Тятин</speaker>
             <p>Революция – будет.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Glafira">
             <speaker>Глафира</speaker>
             <p>Шура, приехала мать Мелания, Егор Васильевич хочет принять ее здесь.</p>
@@ -2591,6 +2622,8 @@
           <stage>Ушли. Глафира отпирает дверь, скрытую драпировкой. В дверях, куда ушла молодежь, –
             Булычов. Медленно и важно входит игуменья Мелания, с посохом в руке. Глафира стоит,
             наклоня голову, придерживая драпировку.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Melanija">
             <speaker>Мелания</speaker>
             <p>Ты все еще здесь трешься, блудодейка? Не выгнали тебя? Ну, скоро выгонят.</p>
@@ -2740,7 +2773,7 @@
               значит, он в грешных делах дьяволу и мне компаньон...</p>
           </sp>
           <sp who="#Melanija">
-            <speaker>Мелания </speaker>
+            <speaker>Мелания</speaker>
             <stage type="delivery">(встала).</stage>
             <p>Слова эти... слова твои такие, что ежели владыке Никандру сказать про них...</p>
           </sp>
@@ -2760,7 +2793,7 @@
               Каркаешь, а – без смысла!</p>
           </sp>
           <sp who="#Melanija">
-            <speaker>Мелания </speaker>
+            <speaker>Мелания</speaker>
             <stage type="delivery">(ошалела).</stage>
             <p>Да что ты, Егор? Обезумел ты? Господи помилуй...</p>
           </sp>
@@ -2781,7 +2814,7 @@
             <stage type="delivery">(Показывает кукиш.)</stage>
           </sp>
           <sp who="#Melanija">
-            <speaker>Мелания </speaker>
+            <speaker>Мелания</speaker>
             <stage type="delivery">(поражена, почти упала в кресло).</stage>
             <p>Ох, негодяй...</p>
           </sp>
@@ -2804,10 +2837,12 @@
             <p>Змей... Дьявол...</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(один, рычит, потирает правый бок, кричит).</stage>
             <p>Глафира! Эй...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Ksenija">
             <speaker>Ксения</speaker>
             <p>Что ты? А Меланья-то где?</p>
@@ -2869,6 +2904,8 @@
             <speaker>Булычов</speaker>
             <p>Ну – ладно! Заткни рот...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Оживленно входят Достигаев, Звонцов, Павлин.</stage>
           <sp who="#Dostigaev">
             <speaker>Достигаев</speaker>
@@ -2916,6 +2953,8 @@
             <speaker>Достигаев</speaker>
             <p>Интересно, от какой жалости плачет Маланья.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Pavlin">
             <speaker>Павлин</speaker>
             <p>Великое смятение началось в Москве. Даже умственно зрелые люди утверждают, что царя
@@ -2956,8 +2995,10 @@
             <speaker>Павлин</speaker>
             <p>Дума способствовала разрушению сил.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Elizaveta">
-            <speaker>Елизавета </speaker>
+            <speaker>Елизавета</speaker>
             <stage type="delivery">(в дверях).</stage>
             <p>Вы, отец Павлин, исповедуете?</p>
           </sp>
@@ -2976,8 +3017,10 @@
           <sp who="#Elizaveta">
             <speaker>Елизавета</speaker>
             <p>Какой вы строгий сегодня, отец Павлин.</p>
-            <stage type="delivery">(Исчезла. )</stage>
+            <stage type="delivery">(Исчезла.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Bulychov">
             <speaker>Булычов</speaker>
             <p>Отец...</p>
@@ -3043,6 +3086,8 @@
             <p>Лев Толстой еретик был, почти анафеме предан за неверие, а от смерти бежал в леса,
               подобно зверю.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Ksenija">
             <speaker>Ксения</speaker>
             <p>Егор Васильевич, Мокей пришел, говорит: Якова ночью жандармы арестовали, так он
@@ -3064,6 +3109,8 @@
             <p>Отец... Павлин... Филин... Тебе, Егор, надо было табак курить. В дыму – легче, не все
               видно... Ну, что, Мокей?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Bashkin">
             <speaker>Башкин</speaker>
             <p>Как здоровье, Егор Васильевич?</p>
@@ -3131,7 +3178,7 @@
             <p>Ну, а как же? И я. Как, говоришь, они поют?</p>
           </sp>
           <sp who="#Bashkin">
-            <speaker>Башкин </speaker>
+            <speaker>Башкин</speaker>
             <stage type="delivery">(вздохнув).</stage>
             <p>Отречемся от старого мира...</p>
           </sp>
@@ -3157,6 +3204,8 @@
             <stage type="delivery">(Подумал.)</stage>
             <p>Ну, а тебе чего надо?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Глафира принесла кашу и водку.</stage>
           <sp who="#Bashkin">
             <speaker>Башкин</speaker>
@@ -3217,7 +3266,7 @@
             <p>Наверху все.</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(пьет водку).</stage>
             <p>Ну – и ладно. Ты что... приуныла?</p>
           </sp>
@@ -3250,6 +3299,8 @@
             <p>Черт с ней, с кашей! Шурку позови...</p>
             <stage type="delivery">(Остался один и жадно пьет рюмку за рюмкой.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Трубач. Он смешной, тощий, жалкий, за плечами – на ремнях – большая труба в
             мешке.</stage>
           <sp who="#Trubach">
@@ -3257,7 +3308,7 @@
             <p>Здравия желаю вашему степенству.</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(удивлен).</stage>
             <p>Здорово. Садись. Глаха, затвори дверь. Вот какой ты...</p>
           </sp>
@@ -3300,7 +3351,7 @@
               всех лечу...</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(усмехаясь).</stage>
             <p>Храбро! Ну-ко, покажи трубу-то...</p>
           </sp>
@@ -3344,12 +3395,12 @@
             <p>Так. Ну, а теперь скажи правду; ты – кем себя считаешь – дураком или жуликом?</p>
           </sp>
           <sp who="#Trubach">
-            <speaker>Трубач </speaker>
+            <speaker>Трубач</speaker>
             <stage type="delivery">(вздохнув).</stage>
             <p>Вот и вы не верите, как все.</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(посмеиваясь).</stage>
             <p>Ты – не прячь трубу-то! Говори прямо: дурак или жулик? Денег дам!</p>
           </sp>
@@ -3420,7 +3471,7 @@
             <p>А почему стыдно, если верят?</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(возбужденно).</stage>
             <p>И это – правильно! Понимаешь, Шурка? Это – правильно! А поп Павлин эдак не скажет! Он
               – не смеет!</p>
@@ -3447,6 +3498,8 @@
               Шура, зажав уши, смеется.</stage>
             <p>Сади во всю силу!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Вбегают Достигаевы, Звонцовы, Башкин, Ксения.</stage>
           <sp who="#Varvara">
             <speaker>Варвара</speaker>
@@ -3457,7 +3510,7 @@
             <p>Егор, что ты еще затеял?</p>
           </sp>
           <sp who="#Zvontsov">
-            <speaker>Звонцов </speaker>
+            <speaker>Звонцов</speaker>
             <stage type="delivery">(Трубачу).</stage>
             <p>Ты пьяный?</p>
           </sp>
@@ -3471,7 +3524,7 @@
             <p>Ой, ой, помешался...</p>
           </sp>
           <sp who="#Bashkin">
-            <speaker>Башкин </speaker>
+            <speaker>Башкин</speaker>
             <stage type="delivery">(Звонцову).</stage>
             <p>Вот видите?</p>
           </sp>
@@ -3553,8 +3606,10 @@
             <p>Корову зарезали, пригрозили поджечь монастырь. Простите.</p>
             <stage type="delivery">(Ушла, унося груду белья.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Varvara">
-            <speaker>Варвара </speaker>
+            <speaker>Варвара</speaker>
             <stage type="delivery">(из прихожей).</stage>
             <p>Слякоть какая! Ты тут с монашенкой беседуешь?</p>
           </sp>
@@ -3607,6 +3662,8 @@
             <speaker>Звонцов</speaker>
             <p>Духовенства – избыток у нас.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входят, споря, Елизавета, Павлин, затем – Мокей.</stage>
           <sp who="#Pavlin">
             <speaker>Павлин</speaker>
@@ -3759,6 +3816,8 @@
             <speaker>Варвара</speaker>
             <p>Ну, хорошо...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Башкин идет в прихожую. Варвара пишет что-то в записной книжке. Башкин возвращается
             с Мокроусовым ; это – человечек круглолицый, брови удивленно подняты, на лице –
             улыбочка, но кажется, что хочет крепко выругаться. В полицейской форме, на боку –
@@ -3796,7 +3855,7 @@
               неудобно.</p>
           </sp>
           <sp who="#Varvara">
-            <speaker>Варвара </speaker>
+            <speaker>Варвара</speaker>
             <stage type="delivery">(усмехаясь).</stage>
             <p>Только на лето? Едва ли революция зависит от погоды.</p>
           </sp>
@@ -3805,7 +3864,7 @@
             <p>Помилуйте! А как же! Зима – охлаждает.</p>
           </sp>
           <sp who="#Varvara">
-            <speaker>Варвара </speaker>
+            <speaker>Варвара</speaker>
             <stage type="delivery">(усмехаясь).</stage>
             <p>Вы – оптимист.</p>
           </sp>
@@ -3830,18 +3889,18 @@
             <p>Так точно. В бузулукском резервном батальоне, имею чин подпоручика.</p>
           </sp>
           <sp who="#Varvara">
-            <speaker>Варвара </speaker>
+            <speaker>Варвара</speaker>
             <stage type="delivery">(подавая руку).</stage>
             <p>Ну, желаю вам всего хорошего.</p>
           </sp>
           <sp who="#Mokrousov">
-            <speaker>Мокроусов </speaker>
+            <speaker>Мокроусов</speaker>
             <stage type="delivery">(целуя руку).</stage>
             <p>Сердечно тронут.</p>
             <stage type="delivery">(Ушел, пятясь задом, притоптывая.)</stage>
           </sp>
           <sp who="#Varvara">
-            <speaker>Варвара </speaker>
+            <speaker>Варвара</speaker>
             <stage type="delivery">(Башкину).</stage>
             <p>Кажется, он – дурак?</p>
           </sp>
@@ -3851,11 +3910,13 @@
               вывернут... Как – вроде – карман.</p>
           </sp>
           <sp who="#Pavlin">
-            <speaker>Павлин </speaker>
+            <speaker>Павлин</speaker>
             <stage type="delivery">(Башкину, Елизавете).</stage>
             <p>Духовенству обязательно нужно дать право свободной проповеди, иначе – ничего не
               получится!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Глафира, Шура выводят под руки Булычова. Все замолчали, смотря на него; он
             хмурится.</stage>
           <sp who="#Bulychov">
@@ -3911,6 +3972,8 @@
           </sp>
           <stage>Башкин ушел в прихожую. Звонцовы и Достигаевы – наверх. Минуты через две Варвара,
             сойдя до половины лестницы, слушает.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Shura">
             <speaker>Шура</speaker>
             <p>Ты – ляг.</p>
@@ -3995,7 +4058,7 @@
             <p>Я – земной! Я – насквозь земной!</p>
           </sp>
           <sp who="#Pavlin">
-            <speaker>Павлин </speaker>
+            <speaker>Павлин</speaker>
             <stage type="delivery">(встает).</stage>
             <p>Земля есть прах...</p>
           </sp>
@@ -4022,6 +4085,8 @@
             <speaker>Булычов</speaker>
             <p>Уходишь? Ага...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Shura">
             <speaker>Шура</speaker>
             <p>Напрасно ты волнуешься, от этого хуже тебе. Какой ты... неугомонный...</p>
@@ -4088,8 +4153,10 @@
             <speaker>Шура</speaker>
             <p>Ты не беспокойся обо мне...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Ksenija">
-            <speaker>Ксения </speaker>
+            <speaker>Ксения</speaker>
             <stage type="delivery">(идет).</stage>
             <p>Александра, к тебе Тоня с братом пришла и этот...</p>
           </sp>
@@ -4117,6 +4184,8 @@
             <speaker>Булычов</speaker>
             <p>Шурок, ты потом веди их сюда, молодежь-то... Ну, давай Зобунову!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Ksenija">
             <speaker>Ксения</speaker>
             <p>Сейчас. Я хочу сказать, что Лександра подружилась с прощелыгой этим, с двоюродным
@@ -4174,8 +4243,10 @@
             <p>Ты – поласковее.</p>
             <stage type="delivery">(Ушла.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(бормочет).</stage>
             <p>«И остави нам долги...» «Яко же и мы оставляем...» Кругом вранье... Ох, черти...</p>
           </sp>
@@ -4206,6 +4277,8 @@
             <stage>Идут Мелания, Ксения, в дверях остановилась служка Таисья.</stage>
             <p>Ну что, Малаша? Помиримся, что ли?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Melanija">
             <speaker>Мелания</speaker>
             <p>То-то. Воин! Обижаешь всех... ни за что ни про что...</p>
@@ -4284,7 +4357,7 @@
             <p>Вот то-то и есть, что много...</p>
           </sp>
           <sp who="#Ksenija">
-            <speaker>Ксения </speaker>
+            <speaker>Ксения</speaker>
             <p> [</p>
             <stage type="delivery">(входя)</stage>
             <p>]. Она говорит, чтобы все ушли...</p>
@@ -4297,12 +4370,14 @@
             так, чтобы было замечено, она, кривя рот, дует в правую сторону от себя, правая рука
             прижата к сердцу, а ладонью левой, как рыбьим плавником, отмахивается. Остановилась,
             провела правой рукой по лицу.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Bulychov">
             <speaker>Булычов</speaker>
             <p>Это ты – чертям молишься?</p>
           </sp>
           <sp who="#Zobunova">
-            <speaker>Зобунова </speaker>
+            <speaker>Зобунова</speaker>
             <stage type="delivery">(певуче).</stage>
             <p>Ой вы, злые недуги, телесные печали! Отвяжитесь, откачнитесь, от раба божия
               удалитесь! В сей день, в сей час, отгоняю вас по всю жизнь крепким моим словом во веки
@@ -4428,7 +4503,7 @@
             <p>Ты послушай-ко...</p>
           </sp>
           <sp who="#Glafira">
-            <speaker>Глафира </speaker>
+            <speaker>Глафира</speaker>
             <stage type="delivery">(из прихожей).</stage>
             <p>Тебе сказано – уходи!</p>
           </sp>
@@ -4449,8 +4524,10 @@
             <p>Ты сама – ведьма! Ишь рожа-то... Эх вы... Ни сна вам, ни покоя!</p>
           </sp>
           <stage>Ушли.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(оглядывается, вздыхает).</stage>
             <p>Ф-фу...</p>
           </sp>
@@ -4490,6 +4567,8 @@
               устаешь. Ну-ко, Глаха, помоги...</p>
           </sp>
           <stage>Глафира уводит его. Возвратилась Ксения, вопросительно смотрит на сестру.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Melanija">
             <speaker>Мелания</speaker>
             <p>Притворяется он сумасшедшим. Притворяется...</p>
@@ -4536,9 +4615,11 @@
             <speaker>Мелания</speaker>
             <p>Почему это – не надо? Призвали, уговорились и – вдруг не надо! Ты – не мешай мне! Иди
               приготовь его да приведи. Таисья!</p>
-            <stage>выходит из прихожей.</stage>
+            <stage>Таисья выходит из прихожей.</stage>
             <p>Ну, что?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Taisja">
             <speaker>Таисья</speaker>
             <p>Ничего не узнала я.</p>
@@ -4607,6 +4688,8 @@
             <stage type="delivery">(Подходит к дверям комнаты Булычова, стучит.)</stage>
             <p>Егорий, блаженный пришел.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Идет, сопровождаемый Ксенией и Башкиным, Пропотей, в лаптях, в длинной, до
             щиколоток, холщовой рубахе, со множеством медных крестов и образков на груди.
             Страховиден: густые, встрепанные волосы, длинная, узкая, редкая борода, движения резки и
@@ -4625,7 +4708,7 @@
             <p>Ты – погоди, дай выйти...</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(его ведет под руку Глафира).</stage>
             <p>Ишь ты, какой... явился!</p>
           </sp>
@@ -4659,11 +4742,13 @@
             <speaker>Булычов</speaker>
             <p>Похоже, что можно...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>С лестницы бежит Шура, за нею Антонина, Тятин. Постепенно сверху спускаются
             Звонцовы, Достигаевы. Пропотей молча чертит палкой в воздухе и на полу. Стоит задумчиво,
             опустив голову.</stage>
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(подбегая к отцу).</stage>
             <p>Это что еще? Что за представление?</p>
           </sp>
@@ -4672,7 +4757,7 @@
             <p>А ты – молчи!</p>
           </sp>
           <sp who="#Propotej">
-            <speaker>Пропотей </speaker>
+            <speaker>Пропотей</speaker>
             <stage type="delivery">(как бы с трудом).</stage>
             <p>Не спит еретик, а часики – тик да тик!.. Кабы – бог... да – кабы мог... да я – не
               плох, да, да! А – чья беда? Играй, сатана, тебе – воля дана! Стукнула полночь... спел
@@ -4691,7 +4776,7 @@
             <p>Что делать будем?.. Что скажем людям?</p>
           </sp>
           <sp who="#Antonina">
-            <speaker>Антонина </speaker>
+            <speaker>Антонина</speaker>
             <stage type="delivery">(с сожалением).</stage>
             <p>Он – не страшный... Нет!</p>
           </sp>
@@ -4707,7 +4792,7 @@
               греха, от блуда не денешься никуда! Вот он, Егорий, родился на горе...</p>
           </sp>
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(кричит).</stage>
             <p>Прогоните его!</p>
           </sp>
@@ -4735,7 +4820,7 @@
             <p>Отец, прогони всех... Что ты молчишь?</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(машет руками).</stage>
             <p>Погоди... погоди...</p>
           </sp>
@@ -4767,15 +4852,17 @@
             <p>Идите... прочь, все! Нагляделись...</p>
           </sp>
           <sp who="#Shura">
-            <speaker>Шура </speaker>
+            <speaker>Шура</speaker>
             <stage type="delivery">(топая на блаженного).</stage>
             <p>Уходи, урод! Степа – выгоните его!</p>
           </sp>
           <sp who="#Tjatin">
-            <speaker>Тятин </speaker>
+            <speaker>Тятин</speaker>
             <stage type="delivery">(берет Пропотея за шиворот).</stage>
             <p>Идем, святой... вставай!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Taisja">
             <speaker>Таисья</speaker>
             <p>Он сегодня не больно страшно... он гораздо страшнее умеет это делать. Кабы ему вина
@@ -4804,8 +4891,10 @@
           </sp>
           <stage>Шура и Глафира укладывают Булычова на диван, Достигаев внимательно рассматривает
             его. Звонцовы уводят Ксению с Меланией.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Dostigaev">
-            <speaker>Достигаев </speaker>
+            <speaker>Достигаев</speaker>
             <stage type="delivery">(жене).</stage>
             <p>Едем домой, Лиза, домой! Булычов – нехорош! Весьма... И демонстрация идет... Надобно
               примкнуть.</p>
@@ -4815,7 +4904,7 @@
             <p>Как это он гудел, а? Ничего подобного не воображала...</p>
           </sp>
           <sp who="#Bulychov">
-            <speaker>Булычов </speaker>
+            <speaker>Булычов</speaker>
             <stage type="delivery">(Шуре).</stage>
             <p>Все это – игуменья придумала...</p>
           </sp>
@@ -4862,6 +4951,8 @@
             <p>Шура... Глаха – доктора! Эй... кто-нибудь, черти! Егор... Булычов... Егор!..</p>
           </sp>
           <stage>Шура, Глафира, Тятин, Таисья, – Булычов почти падает навстречу им.</stage>
+        </div>
+        <div type="configuration">
           <stage>За окнами – густо поют. Глафира, Тятин поддерживают Булычова. Шура – бежит к окну,
             открывает его, врывается пение.</stage>
           <sp who="#Bulychov">
