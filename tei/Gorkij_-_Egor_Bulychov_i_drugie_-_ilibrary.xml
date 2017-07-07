@@ -379,6 +379,8 @@
             <speaker>Звонцов</speaker>
             <p>А хочешь нравиться, да?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>На лестнице – Варвара.</stage>
           <sp who="#Shura">
             <speaker>Шура</speaker>
@@ -390,8 +392,6 @@
             <stage type="delivery">(Отошел, говорит поучительно.)</stage>
             <p>Н-да... Следует взять себя в руки. Надобно учиться...</p>
           </sp>
-        </div>
-        <div type="configuration">
           <sp who="#Varvara">
             <speaker>Варвара</speaker>
             <p>Она предпочитает говорить дерзости и пускать мыльные пузыри с Антониной...</p>
@@ -1240,6 +1240,8 @@
             <p>Сам не больно светел!</p>
           </sp>
           <stage>Звонцов, махнув рукой, отошел прочь. Глафира бежит.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Ksenija">
             <speaker>Ксения</speaker>
             <p>Куда?</p>
@@ -1991,6 +1993,8 @@
             <speaker>Лаптев</speaker>
             <p>Все возможно, все!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Glafira">
             <speaker>Глафира</speaker>
             <p>Аксинья Яковлевна, на минутку.</p>
@@ -2712,8 +2716,8 @@
             <p>Я злюсь в другую сторону. Вот, давай-ко, поговорим теперь о боге-то, о господе, о
               душе.</p>
             <lg>
-              <l> Смолоду много бито, граблено, </l>
-              <l> Под старость надобно душа́ спасать... </l>
+              <l>Смолоду много бито, граблено,</l>
+              <l>Под старость надобно душа́ спасать...</l>
             </lg>
           </sp>
           <sp who="#Melanija">
@@ -3253,6 +3257,8 @@
             <p>Так. Опасно? Ах, крысы... Ладно, пришли Потапова. Завтра утром. Ступай... Глаха –
               трубач пришел?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Glafira">
             <speaker>Глафира</speaker>
             <p>В кухне сидит.</p>
@@ -3368,6 +3374,8 @@
             <p>Это – для начала.</p>
             <stage type="delivery">(Развязал мешок, вытащил басовую трубу.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Шура прибежала.</stage>
           <sp who="#Bulychov">
             <speaker>Булычов</speaker>
@@ -3899,6 +3907,8 @@
             <p>Сердечно тронут.</p>
             <stage type="delivery">(Ушел, пятясь задом, притоптывая.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Varvara">
             <speaker>Варвара</speaker>
             <stage type="delivery">(Башкину).</stage>
