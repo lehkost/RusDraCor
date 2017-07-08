@@ -46,38 +46,38 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Tihon" sex="MALE">
-            <persName>Тихон</persName>
-          </person>
           <person xml:id="Efimovna" sex="FEMALE">
             <persName>Ефимовна</persName>
-          </person>
-          <person xml:id="Merik" sex="MALE">
-            <persName>Мерик</persName>
-          </person>
-          <person xml:id="GolosIzUgla" sex="UNKNOWN">
-            <persName>Голос из угла</persName>
-          </person>
-          <person xml:id="Savva" sex="MALE">
-            <persName>Савва</persName>
-          </person>
-          <person xml:id="Kucher" sex="MALE">
-            <persName>Кучер</persName>
-          </person>
-          <person xml:id="Fedja" sex="MALE">
-            <persName>Федя</persName>
-          </person>
-          <person xml:id="Bortsov" sex="MALE">
-            <persName>Борцов</persName>
           </person>
           <person xml:id="Nazarovna" sex="FEMALE">
             <persName>Назаровна</persName>
           </person>
-          <person xml:id="MarjaEgorovna" sex="FEMALE">
-            <persName>Марья Егоровна</persName>
+          <person xml:id="Savva" sex="MALE">
+            <persName>Савва</persName>
+          </person>
+          <person xml:id="Fedja" sex="MALE">
+            <persName>Федя</persName>
+          </person>
+          <person xml:id="GolosIzUgla" sex="UNKNOWN">
+            <persName>Голос из угла</persName>
+          </person>
+          <person xml:id="Bortsov" sex="MALE">
+            <persName>Борцов</persName>
+          </person>
+          <person xml:id="Tihon" sex="MALE">
+            <persName>Тихон</persName>
+          </person>
+          <person xml:id="Merik" sex="MALE">
+            <persName>Мерик</persName>
           </person>
           <person xml:id="Kuzma" sex="MALE">
             <persName>Кузьма</persName>
+          </person>
+          <person xml:id="Kucher" sex="MALE">
+            <persName>Кучер</persName>
+          </person>
+          <person xml:id="MarjaEgorovna" sex="FEMALE">
+            <persName>Марья Егоровна</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -89,17 +89,24 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change who="#ds">converted from source</change>
-        <change who="#to">replaced id "Goloszadverju" with the id "Kucher"</change>
+        <change who="#ds" when="2017-03-31">converted from source</change>
+        <change who="#to" when="2017-03-31">replaced id "Goloszadverju" with the id
+          "Kucher"</change>
         <change who="#ff" when="2017-05-24">added 2 missing characters to castList; shifted dots
           into speaker tags for better readability</change>
-        <change who="#to">gender</change>
+        <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff" when="2017-07-08">revised</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
-    <body>
+    <front>
+      <docTitle>
+        <titlePart type="main">На большой дороге</titlePart>
+        <titlePart type="sub">Драматический этюд в одном действии</titlePart>
+      </docTitle>
       <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
         <castItem>Тихон Евстигнеев, содержатель кабака на большой дороге.</castItem>
         <castItem>Семен Сергеевич Борцов, разорившийся помещик.</castItem>
         <castItem>Марья Егоровна, его жена.</castItem>
@@ -116,7 +123,11 @@
         <castItem>Кучер Борцовой.</castItem>
         <castItem>Богомольцы, гуртовщики, проезжие и проч.</castItem>
       </castList>
-      <stage>Действие происходит в одной из южнорусских губерний.</stage>
+      <set>
+        <p>Действие происходит в одной из южнорусских губерний.</p>
+      </set>
+    </front>
+    <body>
       <stage>Сцена представляет собой кабак Тихона. Направо прилавок и полки с бутылками. В глубине
         дверь, ведущая наружу. Над нею снаружи висит красный засаленный фонарик. Пол и скамьи,
         стоящие у стен, вплотную заняты богомольцами и прохожими. Многие, за неимением места, спят
