@@ -43,143 +43,165 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Radushka" sex="FEMALE">
-            <persName>Радушка</persName>
-          </person>
-          <person xml:id="OdinBerendej" sex="MALE">
-            <persName>Один берендей</persName>
-          </person>
-          <person xml:id="Malusha" sex="FEMALE">
-            <persName>Малуша</persName>
-          </person>
-          <person xml:id="ElenaPrekrasnaja" sex="FEMALE">
-            <persName>Елена Прекрасная</persName>
-          </person>
-          <person xml:id="PerviySkomoroh" sex="MALE">
-            <persName>1-й скоморох</persName>
-          </person>
           <person xml:id="Leshij" sex="MALE">
             <persName>Леший</persName>
-          </person>
-          <person xml:id="Gusljary" sex="UNKNOWN">
-            <persName>Гусляры</persName>
-          </person>
-          <person xml:id="Birjuch" sex="MALE">
-            <persName>Бирюч</persName>
-          </person>
-          <person xml:id="Berendei" sex="UNKNOWN">
-            <persName>Берендеи</persName>
-          </person>
-          <person xml:id="Pervaja" sex="FEMALE">
-            <persName>1-я:</persName>
-          </person>
-          <person xml:id="Kurilka" sex="MALE">
-            <persName>Курилка</persName>
-          </person>
-          <person xml:id="PerviyHor" sex="UNKNOWN">
-            <persName>1-й хор</persName>
-          </person>
-          <person xml:id="Mizgir" sex="MALE">
-            <persName>Мизгирь</persName>
-          </person>
-          <person xml:id="Tsar" sex="MALE">
-            <persName>Царь</persName>
-          </person>
-          <person xml:id="Vtoraja" sex="UNKNOWN">
-            <persName>2-я:</persName>
-          </person>
-          <person xml:id="Bobyliha" sex="FEMALE">
-            <persName>Бобылиха</persName>
-          </person>
-          <person xml:id="OdnaStorona" sex="UNKNOWN">
-            <persName>Одна сторона:</persName>
-          </person>
-          <person xml:id="DrugajaStorona" sex="UNKNOWN">
-            <persName>Другая сторона:</persName>
-          </person>
-          <person xml:id="Kupava" sex="FEMALE">
-            <persName>Купава</persName>
-          </person>
-          <person xml:id="Moroz" sex="MALE">
-            <persName>Мороз</persName>
-          </person>
-          <person xml:id="ChucheloMasljanitsy" sex="UNKNOWN">
-            <persName>Чучело Масляницы</persName>
-          </person>
-          <person xml:id="Narod" sex="UNKNOWN">
-            <persName>Народ</persName>
-          </person>
-          <person xml:id="Murash" sex="MALE">
-            <persName>Мураш</persName>
-          </person>
-          <person xml:id="Malysh" sex="MALE">
-            <persName>Малыш</persName>
-          </person>
-          <person xml:id="PrekrasnajaElena" sex="FEMALE">
-            <persName>Прекрасная Елена</persName>
-          </person>
-          <person xml:id="Vesna" sex="FEMALE">
-            <persName>Весна</persName>
-          </person>
-          <person xml:id="Lel" sex="MALE">
-            <persName>Лель</persName>
-          </person>
-          <person xml:id="VtorojHor" sex="UNKNOWN">
-            <persName>2-й хор</persName>
-          </person>
-          <person xml:id="Otrok" sex="MALE">
-            <persName>Отрок</persName>
-          </person>
-          <person xml:id="VtorojBirjuch" sex="MALE">
-            <persName>2-й бирюч</persName>
+            <persName xml:lang="de">Der Waldschratt</persName>
           </person>
           <person xml:id="VesnaKrasna" sex="FEMALE">
             <persName>Весна-Красна</persName>
-          </person>
-          <person xml:id="Bobyl" sex="MALE">
-            <persName>Бобыль</persName>
-          </person>
-          <person xml:id="GolosaIzNaroda" sex="UNKNOWN">
-            <persName>Голоса из народа</persName>
-          </person>
-          <person xml:id="GolosaIzLesu" sex="UNKNOWN">
-            <persName>Голоса из лесу</persName>
-          </person>
-          <person xml:id="Berendej" sex="MALE">
-            <persName>Берендей</persName>
-          </person>
-          <person xml:id="DevushkiIParni" sex="UNKNOWN">
-            <persName>Девушки и парни</persName>
-          </person>
-          <person xml:id="Bermjata" sex="MALE">
-            <persName>Бермята</persName>
-          </person>
-          <person xml:id="Hor" sex="UNKNOWN">
-            <persName>Хор</persName>
-          </person>
-          <person xml:id="HorNaroda" sex="UNKNOWN">
-            <persName>Хор народа</persName>
-          </person>
-          <person xml:id="ObschijHor" sex="UNKNOWN">
-            <persName>Общий хор</persName>
-          </person>
-          <person xml:id="Snegurochka" sex="FEMALE">
-            <persName>Снегурочка</persName>
-          </person>
-          <person xml:id="VtorojSkomoroh" sex="MALE">
-            <persName>2-й скоморох</persName>
-          </person>
-          <person xml:id="Brusilo" sex="MALE">
-            <persName>Брусило</persName>
+            <persName xml:lang="de">Die Lenzkönigin</persName>
           </person>
           <person xml:id="HorPtits" sex="UNKNOWN">
             <persName>Хор птиц</persName>
+            <persName xml:lang="de">Chor der Vögel</persName>
+          </person>
+          <person xml:id="Moroz" sex="MALE">
+            <persName>Мороз</persName>
+            <persName xml:lang="de">Vater Frost</persName>
+          </person>
+          <person xml:id="Snegurochka" sex="FEMALE">
+            <persName>Снегурочка</persName>
+            <persName xml:lang="de">Schneeflöckchen</persName>
           </person>
           <person xml:id="PerviyHorBerendeev" sex="MALE">
             <persName>1-й хор берендеев</persName>
+            <persName xml:lang="de">Erster Halbchor der Berendejer</persName>
+          </person>
+          <person xml:id="VtorojHorBerendeev" sex="UNKNOWN">
+            <persName>2-й хор берендеев</persName>
+            <persName xml:lang="de">Zweiter Halbchor der Berendejer</persName>
+          </person>
+          <person xml:id="ChucheloMasljanitsy" sex="UNKNOWN">
+            <persName>Чучело Масляницы</persName>
+            <persName xml:lang="de">Die Fastnacht</persName>
+          </person>
+          <person xml:id="Bobyliha" sex="FEMALE">
+            <persName>Бобылиха</persName>
+            <persName xml:lang="de">Kätnersfrau</persName>
+          </person>
+          <person xml:id="Bobyl" sex="MALE">
+            <persName>Бобыль</persName>
+            <persName xml:lang="de">Kätner</persName>
+          </person>
+          <person xml:id="Berendei" sex="UNKNOWN">
+            <persName>Берендеи</persName>
+            <persName xml:lang="de">Die Berendejer</persName>
+          </person>
+          <person xml:id="OdinBerendej" sex="MALE">
+            <persName>Один берендей</persName>
+            <persName xml:lang="de">Ein Berendejer</persName>
+          </person>
+          <person xml:id="GolosaIzLesu" sex="UNKNOWN">
+            <persName>Голоса из лесу</persName>
+            <persName xml:lang="de">Stimmen aus dem Walde</persName>
+          </person>
+          <person xml:id="Birjuch" sex="MALE">
+            <persName>Бирюч</persName>
+            <persName xml:lang="de">Herold</persName>
+          </person>
+          <person xml:id="Berendej" sex="MALE">
+            <persName>Берендей</persName>
+            <persName xml:lang="de">Ein Berendejer</persName>
+          </person>
+          <person xml:id="Murash" sex="MALE">
+            <persName>Мураш</persName>
+            <persName xml:lang="de">Murasch</persName>
+          </person>
+          <person xml:id="Lel" sex="MALE">
+            <persName>Лель</persName>
+            <persName xml:lang="de">Lel</persName>
+          </person>
+          <person xml:id="Malusha" sex="FEMALE">
+            <persName>Малуша</persName>
+            <persName xml:lang="de">Maluscha</persName>
+          </person>
+          <person xml:id="Radushka" sex="FEMALE">
+            <persName>Радушка</persName>
+            <persName xml:lang="de">Raduschka</persName>
+          </person>
+          <person xml:id="Brusilo" sex="MALE">
+            <persName>Брусило</persName>
+            <persName xml:lang="de">Brusilo</persName>
+          </person>
+          <person xml:id="Kurilka" sex="MALE">
+            <persName>Курилка</persName>
+            <persName xml:lang="de">Kurilka</persName>
+          </person>
+          <person xml:id="Kupava" sex="FEMALE">
+            <persName>Купава</persName>
+            <persName xml:lang="de">Kupawa</persName>
+          </person>
+          <person xml:id="Mizgir" sex="MALE">
+            <persName>Мизгирь</persName>
+            <persName xml:lang="de">Misgir</persName>
+          </person>
+          <person xml:id="Malysh" sex="MALE">
+            <persName>Малыш</persName>
+            <persName xml:lang="de">Malysch</persName>
+          </person>
+          <person xml:id="Gusljary" sex="UNKNOWN">
+            <persName>Гусляры</persName>
+            <persName xml:lang="de">Die Blinden</persName>
+          </person>
+          <person xml:id="PerviySkomoroh" sex="MALE">
+            <persName>1-й скоморох</persName>
+            <persName xml:lang="de">Erster Narr</persName>
+          </person>
+          <person xml:id="VtorojSkomoroh" sex="MALE">
+            <persName>2-й скоморох</persName>
+            <persName xml:lang="de">Zweiter Narr</persName>
+          </person>
+          <person xml:id="Tsar" sex="MALE">
+            <persName>Царь</persName>
+            <persName xml:lang="de">Zar</persName>
+          </person>
+          <person xml:id="Bermjata" sex="MALE">
+            <persName>Бермята</persName>
+            <persName xml:lang="de">Bermiata</persName>
+          </person>
+          <person xml:id="Otrok" sex="MALE">
+            <persName>Отрок</persName>
+            <persName xml:lang="de">Edelknabe</persName>
           </person>
           <person xml:id="PerviyBirjuch" sex="MALE">
             <persName>1-й бирюч</persName>
+            <persName xml:lang="de">Erster Herold</persName>
+          </person>
+          <person xml:id="VtorojBirjuch" sex="MALE">
+            <persName>2-й бирюч</persName>
+            <persName xml:lang="de">Zweiter Herold</persName>
+          </person>
+          <person xml:id="ElenaPrekrasnaja" sex="FEMALE">
+            <persName>Елена Прекрасная</persName>
+            <persName xml:lang="de">Die schöne Jelena</persName>
+          </person>
+          <person xml:id="HorNaroda" sex="UNKNOWN">
+            <persName>Хор народа</persName>
+            <persName xml:lang="de">Das Volk (im Chor)</persName>
+          </person>
+          <person xml:id="Narod" sex="UNKNOWN">
+            <persName>Народ</persName>
+            <persName xml:lang="de">Das Volk</persName>
+          </person>
+          <person xml:id="DevushkiIParni" sex="UNKNOWN">
+            <persName>Девушки и парни</persName>
+            <persName xml:lang="de">Mädchen und Burschen</persName>
+          </person>
+          <person xml:id="ObschijHor" sex="UNKNOWN">
+            <persName>Общий хор</persName>
+            <persName xml:lang="de">Gemeinsamer Chor</persName>
+          </person>
+          <person xml:id="OdnaStorona" sex="UNKNOWN">
+            <persName>Одна сторона</persName>
+            <persName xml:lang="de">Erste Gruppe</persName>
+          </person>
+          <person xml:id="DrugajaStorona" sex="UNKNOWN">
+            <persName>Другая сторона</persName>
+            <persName xml:lang="de">Zweite Gruppe</persName>
+          </person>
+          <person xml:id="GolosaIzNaroda" sex="UNKNOWN">
+            <persName>Голоса из народа</persName>
+            <persName xml:lang="de">Stimmen im Volk</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -198,6 +220,7 @@
           each act</change>
         <change who="#GG" when="2017-06-09">corrected ids</change>
         <change who="#GG" when="2017-06-09">gender info</change>
+        <change who="#ff" when="2017-07-08">thorough check of all IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -421,7 +444,7 @@
               <l>Весна-Красна, здорово ли вернулась?</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>И ты здоров ли, Дед-Мороз?</l>
@@ -481,7 +504,7 @@
               <l>Любо, любо, любо.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Не дурно ты попировал, пора бы</l>
@@ -497,7 +520,7 @@
               <l>Вот я, старик, всегда один и тот же.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>У всякого свой норов и обычай.</l>
@@ -530,7 +553,7 @@
               <l>Одна у них забота.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>На кого же</l>
@@ -551,7 +574,7 @@
               <l>Прохожего, захожего блюдут.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Тоска возьмет меж филинов и леших</l>
@@ -571,7 +594,7 @@
               <l>В приспешницах сенных у ней на службе.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Да все ж тоска, подумай, дед!</l>
@@ -590,7 +613,7 @@
               <l>Чего еще?</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Эх, старый! Девке воля</l>
@@ -610,7 +633,7 @@
               <l>Что покуда?</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Покуда ей забавно, что ребята</l>
@@ -623,7 +646,7 @@
               <l>А там?</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>А там полюбится один.</l>
@@ -635,7 +658,7 @@
               <l>Вот то-то мне и нелюбо.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Безумный</l>
@@ -686,7 +709,7 @@
               <l>Не властен он вредить Снегурке.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Полно!</l>
@@ -701,7 +724,7 @@
               <l>Без бабы я, что зло Ярило мыслит.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Отдай мою Снегурочку!</l>
@@ -715,7 +738,7 @@
               <l>Поверил дочь?</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Да что ж ты, красноносый,</l>
@@ -737,7 +760,7 @@
               <l>Закидывать глаза. Согласна ты?</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Согласна, пусть живет в семье бобыльской;</l>
@@ -755,7 +778,7 @@
               <l>Ласкающей, разымчивой...</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Довольно!</l>
@@ -781,7 +804,7 @@
         <div type="scene">
           <head>Явление третье</head>
           <stage>Весна, Мороз, Снегурочка, потом Леший .</stage>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Ах, бедная Снегурочка, дикарка,</l>
@@ -860,7 +883,7 @@
               <l>Пригоженьким и миленьким.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>А разве</l>
@@ -917,7 +940,7 @@
               <l>Ни Леля я, ни Солнца не боюсь.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Снегурочка, когда тебе взгрустнется,</l>
@@ -978,7 +1001,7 @@
             <stage type="delivery">(Складывает над головой руки и проваливается в дупло.)</stage>
           </sp>
           <stage>Вдали слышны голоса.</stage>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Валит толпа веселых берендеев.</l>
@@ -1002,7 +1025,7 @@
               <l>Увидимся.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Пора бы гнев на милость</l>
@@ -1016,7 +1039,6 @@
             убегают. Ясно, как в начале действия. Толпы берендеев ; одни подвигают к лесу сани с
             чучелой Масляницы, другие стоят поодаль.</stage>
         </div>
-
         <div type="scene">
           <head>Явление четвертое</head>
           <stage>Снегурочка, Бобыль, Бобылиха, берендеи .</stage>
@@ -1044,7 +1066,7 @@
               <l>Прощай, Масляница!</l>
             </lg>
           </sp>
-          <sp who="#2-jhor">
+          <sp who="#VtorojHorBerendeev">
             <speaker>2-й хор</speaker>
             <stage type="delivery">(Подвинув санки в лес, отходят.)</stage>
             <lg>
@@ -1061,7 +1083,7 @@
               <l>Честна̀я Масляница!</l>
             </lg>
           </sp>
-          <sp who="#1-jhor">
+          <sp who="#PerviyHorBerendeev">
             <speaker>1-й хор</speaker>
             <lg>
               <l>Масляница мокрохвостка!</l>
@@ -1084,7 +1106,7 @@
               <l>Наша ладушка, пришла!</l>
             </lg>
           </sp>
-          <sp who="#2-jhor">
+          <sp who="#VtorojHorBerendeev">
             <speaker>2-й хор</speaker>
             <lg>
               <l>Прощай, честна̀я Масляна!</l>
@@ -3308,7 +3330,7 @@
           <stage>Царь Берендей сидит на золотом стуле, расписывает красками один из столбов. У ног
             царя сидят на полу два скомороха ; несколько поодаль — слепые гусляры с гуслями; на
             переходах и у дверей стоят царские отроки.</stage>
-          <sp who="#Gusljary(pojut)">
+          <sp who="#Gusljary">
             <speaker>Гусляры (поют)</speaker>
             <lg>
               <l>Вещие, звонкие струны рокочут</l>
@@ -3319,7 +3341,6 @@
               <l>Зрячею мыслью, рыскучей оглянем</l>
               <l>Близких соседей окрестные царства.</l>
             </lg>
-
             <lg>
               <l>Что́ мне звенит по заре издалече?</l>
               <l>Слышу и трубы, и ржание ко́ней,</l>
@@ -3329,7 +3350,6 @@
               <l>Звонко бряцают кольчатые брони,</l>
               <l>Птичьи стада по степям пробуждая.</l>
             </lg>
-
             <lg>
               <l>Луки напряжены, тулы открыты,</l>
               <l>Пашут по ветру червленые стяги,</l>
@@ -3339,7 +3359,6 @@
               <l>Лад своих милых не видеть нам боле,</l>
               <l>Милые гибнут в незнаемом поле.</l>
             </lg>
-
             <lg>
               <l>Стоны по градам, притоптаны нивы.</l>
               <l>С у́тра до ночи и с ночи до свету</l>
@@ -3349,7 +3368,6 @@
               <l>Гремлят мечи о шеломы стальные,</l>
               <l>Сулицы скрозь прободают доспехи.</l>
             </lg>
-
             <lg>
               <l>Чести и славы князьям добывая,</l>
               <l>Ломят и гонят дружины дружины,</l>
@@ -3359,7 +3377,6 @@
               <l>Крыльями птицы прикрыли побитых,</l>
               <l>Тугой поникли деревья и травы.</l>
             </lg>
-
             <lg>
               <l>Веселы грады в стране берендеев,</l>
               <l>Радостны песни по рощам и долам,</l>
@@ -4248,7 +4265,7 @@
               <l>Краса дворца, Прекрасная Елене!</l>
             </lg>
           </sp>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <lg>
               <l>Привет тебе, великий Берендей,</l>
@@ -4718,7 +4735,7 @@
               <l>Способного свершить желанный подвиг</l>
             </lg>
           </sp>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <lg>
               <l>Великий царь, стыдливость наблюдая</l>
@@ -5556,7 +5573,7 @@
         <div type="scene">
           <head>Явление четвертое</head>
           <stage>Лель, Прекрасная Елена .</stage>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <lg>
               <l>Пленительный пастух, куда стремишься?</l>
@@ -5569,7 +5586,7 @@
               <l>Прекрасная Елена!</l>
             </lg>
           </sp>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <lg>
               <l>Ты дивишься,</l>
@@ -5591,7 +5608,7 @@
               <l>Опасности не встретишь.</l>
             </lg>
           </sp>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <lg>
               <l>Злой пастух!</l>
@@ -5609,7 +5626,7 @@
               <l>Ищу теперь по кустикам овечек.</l>
             </lg>
           </sp>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <lg>
               <l>По кустикам? Противный, чует сердце,</l>
@@ -5630,7 +5647,7 @@
               <l>Отсутствие твое заметят скоро.</l>
             </lg>
           </sp>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <lg>
               <l>Ах, милый Лель, боюсь!</l>
@@ -5643,7 +5660,7 @@
               <l>Прекрасная, боишься ты?</l>
             </lg>
           </sp>
-          <sp who="#PrekrasnajaElena">
+          <sp who="#ElenaPrekrasnaja">
             <speaker>Прекрасная Елена</speaker>
             <stage type="delivery">(прижимаясь к Лелю)</stage>
             <lg>
@@ -5965,7 +5982,7 @@
             </lg>
           </sp>
           <stage>Из озера поднимается Весна, окруженная цветами .</stage>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Снегурочка, дитя мое, о чем</l>
@@ -6008,7 +6025,7 @@
               <l>Любви прошу, любви девичьей!</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Дочка,</l>
@@ -6024,7 +6041,7 @@
               <l>Дороже мне годов тоски и слез.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Изволь, дитя, — любовью поделиться</l>
@@ -6084,7 +6101,7 @@
               <l>Колышется.</l>
             </lg>
           </sp>
-          <sp who="#Vesna">
+          <sp who="#VesnaKrasna">
             <speaker>Весна</speaker>
             <lg>
               <l>Снегурочка, прощай,</l>
@@ -6290,6 +6307,7 @@
           <head>Явление четвертое</head>
           <stage>Снегурочка, Мизгирь, царь Берендей, Лель и весь народ . Все с ожиданием смотрят на
             восток и при первых лучах солнца запевают.</stage>
+          <stage>Общий хор</stage>
           <sp who="#OdnaStorona">
             <speaker>Одна сторона:</speaker>
             <lg>
@@ -6304,56 +6322,56 @@
               <l>Ой Дид-Ладо, вытопчем, вытопчем.</l>
             </lg>
           </sp>
-          <sp who="#Pervaja">
+          <sp who="#OdnaStorona">
             <speaker>1-я:</speaker>
             <lg>
               <l>А чем же вам вытоптать, вытоптать,</l>
               <l>Ой Дид-Ладо, вытоптать, вытоптать?</l>
             </lg>
           </sp>
-          <sp who="#Vtoraja">
+          <sp who="#DrugajaStorona">
             <speaker>2-я:</speaker>
             <lg>
               <l>А мы коней выпустим, выпустим,</l>
               <l>Ой Дид-Ладо, выпустим, выпустим.</l>
             </lg>
           </sp>
-          <sp who="#Pervaja">
+          <sp who="#OdnaStorona">
             <speaker>1-я:</speaker>
             <lg>
               <l>А мы коней переймем, переймем,</l>
               <l>Ой Дид-Ладо, переймем, переймем.</l>
             </lg>
           </sp>
-          <sp who="#Vtoraja">
+          <sp who="#DrugajaStorona">
             <speaker>2-я:</speaker>
             <lg>
               <l>А мы коней выкупим, выкупим,</l>
               <l>Ой Дид-Ладо, выкупим, выкупим.</l>
             </lg>
           </sp>
-          <sp who="#Pervaja">
+          <sp who="#OdnaStorona">
             <speaker>1-я:</speaker>
             <lg>
               <l>А чем же вам выкупить, выкупить,</l>
               <l>Ой Дид-Ладо, выкупить, выкупить?</l>
             </lg>
           </sp>
-          <sp who="#Vtoraja">
+          <sp who="#DrugajaStorona">
             <speaker>2-я:</speaker>
             <lg>
               <l>А мы дадим девицу, девицу,</l>
               <l>Ой Дид-Ладо, девицу, девицу.</l>
             </lg>
           </sp>
-          <sp who="#Pervaja">
+          <sp who="#OdnaStorona">
             <speaker>1-я:</speaker>
             <lg>
               <l>А нашего полку прибыло, прибыло,</l>
               <l>Ой Дид-Ладо, прибыло, прибыло.</l>
             </lg>
           </sp>
-          <sp who="#Vtoraja">
+          <sp who="#DrugajaStorona">
             <speaker>2-я:</speaker>
             <lg>
               <l>А нашего полку убыло, убыло,</l>
@@ -6504,7 +6522,7 @@
             ржаной сноп. По знаку царя прислужники несут целых жареных быков и баранов с
             вызолоченными рогами, бочонки и ендовы с пивом и медом, разную посуду и все
             принадлежности пира.</stage>
-          <sp who="#Hor">
+          <sp who="#ObschijHor">
             <speaker>Хор</speaker>
             <stage type="delivery">(допевает)</stage>
             <lg>
