@@ -31,11 +31,13 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print" when="1907">Впервые — в журнале «Весы», 1907, № 5, с. 21—28 с
-              подзаголовком «Пьеса в трёх видениях».</date>
-            <date type="premiere" when="1913">февраль 1913 в Московском литературно-художественном
-              кружке</date>
-            <date type="written" when="1906">11 ноября 1906</date>
+            <date type="print" when="1907">"Впервые — в журнале «Весы», 1907, № 5, с. 21—28 с
+              подзаголовком «Пьеса в трёх видениях»." (Wikisource)</date>
+            <date type="premiere" when="1913">"Начало февраля [1913 г.] – Постановка драмы
+              «Незнакомка» в Московском литературно-художественном кружке (студия С. В. Халютиной)."
+              (blok.velchel.ru)</date>
+            <date type="written" when="1906">"Блок закончил драму 11 ноября 1906 г."
+              (gumilev.ru)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -43,95 +45,133 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Verlen" sex="MALE">
-            <persName>Верлэн</persName>
-          </person>
-          <person xml:id="Gospodin" sex="MALE">
-            <persName>Господин</persName>
-          </person>
-          <person xml:id="Sobesednik" sex="MALE">
-            <persName>Собеседник</persName>
-          </person>
-          <person xml:id="RazjarennyeDvorniki" sex="MALE">
-            <persName>Разъяренные дворники</persName>
-          </person>
-          <person xml:id="Muzhchina" sex="MALE">
-            <persName>Мужчина, Рыжий господин</persName>
-          </person>
-          <person xml:id="Zvezdochet" sex="MALE">
-            <persName>Звездочет</persName>
-          </person>
-          <person xml:id="Neznakomka" sex="FEMALE">
-            <persName>Незнакомка</persName>
-          </person>
-          <person xml:id="Hozjajka" sex="FEMALE">
-            <persName>Хозяйка</persName>
+          <person xml:id="Odin" sex="MALE">
+            <persName>Один</persName>
+            <persName xml:lang="de">Erster</persName>
           </person>
           <person xml:id="Drugoj" sex="MALE">
             <persName>Другой</persName>
-          </person>
-          <person xml:id="Drugoj_2" sex="MALE">
-            <persName>Другой</persName>
-          </person>
-          <person xml:id="Odin" sex="MALE">
-            <persName>Один</persName>
-          </person>
-          <person xml:id="Gauptman" sex="MALE">
-            <persName>Гауптман</persName>
-          </person>
-          <person xml:id="PervyjSobutylnik" sex="MALE">
-            <persName>Собутыльник</persName>
-          </person>
-          <person xml:id="MolodojChelovek" sex="MALE">
-            <persName>Молодой человек</persName>
-          </person>
-          <person xml:id="Polovoj" sex="MALE">
-            <persName>Половой</persName>
+            <persName xml:lang="de">Zweiter</persName>
           </person>
           <person xml:id="TretijUsatyj" sex="MALE">
             <persName>Третий усатый</persName>
-          </person>
-          <person xml:id="Seminarist" sex="MALE">
-            <persName>Семинарист</persName>
-          </person>
-          <person xml:id="Devushka" sex="FEMALE">
-            <persName>Девушка, Дама</persName>
-          </person>
-          <person xml:id="Goluboj" sex="MALE">
-            <persName>Голубой</persName>
-          </person>
-          <person xml:id="Zhorzh" sex="MALE">
-            <persName>Молодой человек Жорж</persName>
-          </person>
-          <person xml:id="VtorojSobutylnik" sex="MALE">
-            <persName>Второй собутыльник</persName>
-          </person>
-          <person xml:id="Pervyj" sex="MALE">
-            <persName>Первый</persName>
-          </person>
-          <person xml:id="Gost" sex="MALE">
-            <persName>Гость</persName>
-          </person>
-          <person xml:id="ChelovekVPalto" sex="MALE">
-            <persName>Человек в пальто</persName>
+            <persName xml:lang="de">Dritter (mit Schnauzbart)</persName>
           </person>
           <person xml:id="Hozjain" sex="MALE">
             <persName>Хозяин дома</persName>
+            <persName xml:lang="de">Wirt</persName>
           </person>
-          <person xml:id="Vtoroj" sex="MALE">
-            <persName>Второй</persName>
+          <person xml:id="Seminarist" sex="MALE">
+            <persName>Семинарист</persName>
+            <persName xml:lang="de">Seminarist</persName>
           </person>
-          <person xml:id="Starik" sex="MALE">
-            <persName>Старик</persName>
+          <person xml:id="PervyjSobutylnik" sex="MALE">
+            <persName>Первый Собутыльник</persName>
+            <persName xml:lang="de">Erster Zechkumpan</persName>
           </person>
-          <person xml:id="KtoTo" sex="UNKNOWN">
-            <persName>Кто-то</persName>
+          <person xml:id="VtorojSobutylnik" sex="MALE">
+            <persName>Второй собутыльник</persName>
+            <persName xml:lang="de">Zweiter Zechkumpan</persName>
           </person>
-          <person xml:id="Misha" sex="MALE">
-            <persName>Молодой человек Миша</persName>
+          <person xml:id="Verlen" sex="MALE">
+            <persName>Верлэн</persName>
+            <persName xml:lang="de">Verlaine</persName>
+          </person>
+          <person xml:id="Devushka" sex="FEMALE">
+            <persName>Девушка, Дама</persName>
+            <persName xml:lang="de">Mädchen, Dame</persName>
+          </person>
+          <person xml:id="Muzhchina" sex="MALE">
+            <persName>Мужчина, Рыжий господин</persName>
+            <persName xml:lang="de">Mann, Rothaariger Herr</persName>
+          </person>
+          <person xml:id="MolodojChelovek" sex="MALE">
+            <persName>Молодой человек</persName>
+            <persName xml:lang="de">Junger Mann</persName>
+          </person>
+          <person xml:id="Gauptman" sex="MALE">
+            <persName>Гауптман</persName>
+            <persName xml:lang="de">Hauptmann</persName>
           </person>
           <person xml:id="Poet" sex="MALE">
             <persName>Поэт</persName>
+            <persName xml:lang="de">Dichter</persName>
+          </person>
+          <person xml:id="Polovoj" sex="MALE">
+            <persName>Половой</persName>
+            <persName xml:lang="de">Kellner</persName>
+          </person>
+          <person xml:id="ChelovekVPalto" sex="MALE">
+            <persName>Человек в пальто</persName>
+            <persName xml:lang="de">Mann im Mantel</persName>
+          </person>
+          <person xml:id="Pervyj" sex="MALE">
+            <persName>Первый</persName>
+            <persName xml:lang="de">Erster</persName>
+          </person>
+          <person xml:id="Vtoroj" sex="MALE">
+            <persName>Второй</persName>
+            <persName xml:lang="de">Zweiter</persName>
+          </person>
+          <person xml:id="Sobesednik" sex="MALE">
+            <persName>Собеседник</persName>
+            <persName xml:lang="de">Gesprächspartner</persName>
+          </person>
+          <person xml:id="Zvezdochet" sex="MALE">
+            <persName>Звездочет</persName>
+            <persName xml:lang="de">Sternedeuter</persName>
+          </person>
+          <person xml:id="RazjarennyeDvorniki" sex="MALE">
+            <persName>Разъяренные дворники</persName>
+            <persName xml:lang="de">Zwei erboste Hauswarte</persName>
+          </person>
+          <person xml:id="Goluboj" sex="MALE">
+            <persName>Голубой</persName>
+            <persName xml:lang="de">Der Himmelblaue</persName>
+          </person>
+          <person xml:id="Neznakomka" sex="FEMALE">
+            <persName>Незнакомка</persName>
+            <persName xml:lang="de">Die Unbekannte</persName>
+          </person>
+          <person xml:id="Gospodin" sex="MALE">
+            <persName>Господин</persName>
+            <persName xml:lang="de">Herr</persName>
+          </person>
+          <person xml:id="Hozjain_trete_videnie" sex="MALE">
+            <persName>Хозяин дома</persName>
+            <persName xml:lang="de">Hausherr</persName>
+          </person>
+          <person xml:id="Gost" sex="MALE">
+            <persName>Гость</persName>
+            <persName xml:lang="de">Gast</persName>
+          </person>
+          <person xml:id="Hozjajka" sex="FEMALE">
+            <persName>Хозяйка</persName>
+            <persName xml:lang="de">Dame des Hauses</persName>
+          </person>
+          <person xml:id="Zhorzh" sex="MALE">
+            <persName>Молодой человек Жорж</persName>
+            <persName xml:lang="de">Ein junger Mann namens George</persName>
+          </person>
+          <person xml:id="Misha" sex="MALE">
+            <persName>Молодой человек Миша</persName>
+            <persName xml:lang="de">Ein junger Mann namens Mischa</persName>
+          </person>
+          <person xml:id="Starik" sex="MALE">
+            <persName>Старик</persName>
+            <persName xml:lang="de">Greis</persName>
+          </person>
+          <person xml:id="Drugoj_trete_videnie" sex="MALE">
+            <persName>Другой</persName>
+            <persName xml:lang="de">Herr</persName>
+          </person>
+          <person xml:id="RaznyeGolosa" sex="UNKNOWN">
+            <persName>Разные голоса</persName>
+            <persName xml:lang="de">Verschiedene Stimmen</persName>
+          </person>
+          <person xml:id="KtoTo" sex="UNKNOWN">
+            <persName>Кто-то</persName>
+            <persName xml:lang="de">Jemand</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -146,6 +186,7 @@
         <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
         <change who="#ff" when="2017-04-19">establish well-formedness</change>
         <change who="#sveta" when="2017-04-24">corrected IDs, added the dates</change>
+        <change who="#ff" when="2017-07-08">some corrections</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -153,7 +194,6 @@
     <front>
       <docTitle>
         <titlePart type="main">Незнакомка</titlePart>
-        <titlePart type="sub">Драма</titlePart>
       </docTitle>
       <epigraph>
         <cit>
@@ -167,10 +207,14 @@
       </epigraph>
       <epigraph>
         <cit>
-          <quote>— А как вы узнали, что это я? Где вы меня видели прежде? Что это, в самом деле, я
-            как будто его где-то видела?<lb/>— Я вас тоже будто видел где-то?<lb/>— Где? —
-            Где?<lb/>— Я ваши глаза точно где-то видел… да этого быть не может!<lb/>Это я так… Я
-            здесь никогда и не был. Может быть, во сне…</quote>
+          <quote>
+            <p>— А как вы узнали, что это я? Где вы меня видели прежде? Что это, в самом деле, я как
+              будто его где-то видела?</p>
+            <p>— Я вас тоже будто видел где-то?</p>
+            <p>— Где? — Где?</p>
+            <p>— Я ваши глаза точно где-то видел… да этого быть не может!</p>
+            <p>Это я так… Я здесь никогда и не был. Может быть, во сне…</p>
+          </quote>
         </cit>
         <bibl>Достоевский</bibl>
       </epigraph>
@@ -629,43 +673,43 @@
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
-          <l>Кто ты?</l>
+          <l part="I">Кто ты?</l>
         </sp>
         <sp who="#Goluboj">
           <speaker>Голубой</speaker>
-          <l part="F"> Поэт.</l>
+          <l part="M">Поэт.</l>
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
-          <l part="F"> О чем ты поешь?</l>
+          <l part="F">О чем ты поешь?</l>
         </sp>
         <sp who="#Goluboj">
           <speaker>Голубой</speaker>
-          <l>Все о тебе.</l>
+          <l part="I">Все о тебе.</l>
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
-          <l part="F"> Давно ли ты ждешь?</l>
+          <l part="F">Давно ли ты ждешь?</l>
         </sp>
         <sp who="#Goluboj">
           <speaker>Голубой</speaker>
-          <l>Много столетий.</l>
+          <l part="I">Много столетий.</l>
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
-          <l part="F"> Ты мертв или жив?</l>
+          <l part="F">Ты мертв или жив?</l>
         </sp>
         <sp who="#Goluboj">
           <speaker>Голубой</speaker>
-          <l>Не знаю.</l>
+          <l part="I">Не знаю.</l>
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
-          <l part="F"> Ты юн?</l>
+          <l part="M">Ты юн?</l>
         </sp>
         <sp who="#Goluboj">
           <speaker>Голубой</speaker>
-          <l part="F"> Я красив.</l>
+          <l part="F">Я красив.</l>
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
@@ -758,11 +802,11 @@
           <l>Вы с кем-то беседу вели?</l>
           <l>Но здесь не видать никого.</l>
           <l>Прелестный ваш голос звучал</l>
-          <l>В пространстве пустом…</l>
+          <l part="I">В пространстве пустом…</l>
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
-          <l part="F"> Где он?</l>
+          <l part="F">Где он?</l>
         </sp>
         <sp who="#Gospodin">
           <speaker>Господин</speaker>
@@ -827,11 +871,11 @@
         </sp>
         <sp who="#Gospodin">
           <speaker>Господин</speaker>
-          <l>Как имя твое?</l>
+          <l part="I">Как имя твое?</l>
         </sp>
         <sp who="#Neznakomka">
           <speaker>Незнакомка</speaker>
-          <l part="F"> Постой.</l>
+          <l part="F">Постой.</l>
           <l>Дай вспомнить. В небе, средь звезд,</l>
           <l>Не носила имени я…</l>
           <l>Но здесь, на синей земле,</l>
@@ -1011,7 +1055,7 @@
           в углах. Общий гул бессмысленных разговоров. Хозяин дома встречает гостей в передней и
           каждому сначала деревянным голосом кричит: «А-а-а!», а потом говорит пошлость. В настоящий
           момент он занят тем же.</stage>
-        <sp who="#Hozjain">
+        <sp who="#Hozjain_trete_videnie">
           <speaker>Хозяин дома</speaker>
           <p>А-а-а! Ну и закутались же вы, батюшка!</p>
         </sp>
@@ -1021,7 +1065,7 @@
           <stage>Гость сморкается. Так как разговор в гостиной почему-то исчерпался, слышно, как
             хозяин конфиденциально говорит гостю:</stage>
         </sp>
-        <sp who="#Hozjain">
+        <sp who="#Hozjain_trete_videnie">
           <speaker>Хозяин</speaker>
           <p>А где шили?</p>
         </sp>
@@ -1030,7 +1074,7 @@
           <p>У Шевалье.</p>
           <stage>Из двери торчат фалды хозяйского сюртука. Хозяин рассматривает шубу.</stage>
         </sp>
-        <sp who="#Hozjain">
+        <sp who="#Hozjain_trete_videnie">
           <speaker>Хозяин</speaker>
           <p>А сколько платили?</p>
         </sp>
@@ -1190,17 +1234,17 @@
           <stage>Тоненький звонок в передней. Хозяйка умоляюще складывает руки по направлению к
             Поэту. Он прерывает чтение. Все с любопытством заглядывают в переднюю.</stage>
         </sp>
-        <sp who="#Hozjain">
+        <sp who="#Hozjain_trete_videnie">
           <speaker>Хозяин</speaker>
           <p>Сию минуту. Прошу извинения.</p>
           <stage>Выходит в переднюю, но не кричит там: «А-а-а!» Молчание.</stage>
         </sp>
-        <sp who="#Hozjain">
+        <sp who="#Hozjain_trete_videnie">
           <speaker>Голос хозяина</speaker>
           <p>Чем могу служить?</p>
           <stage>Женский голос отвечает что-то. Хозяин появляется на пороге.</stage>
         </sp>
-        <sp who="#Hozjain">
+        <sp who="#Hozjain_trete_videnie">
           <speaker>Хозяин</speaker>
           <p>Ниночка, какая-то дама. Ничего не могу разобрать. Вероятно, к тебе. Извините, господа,
             извините…</p>
@@ -1211,7 +1255,7 @@
           <speaker>Молодой человек </speaker>
           <p>Да не может быть…</p>
         </sp>
-        <sp who="#Drugoj_2">
+        <sp who="#Drugoj_trete_videnie">
           <speaker>Другой</speaker>
           <p>Да уверяю тебя… вот скандал!.. Я слышал ее голос…</p>
           <stage>Поэт стоит неподвижно против дверей. Двери открываются. Хозяйка вводит
@@ -1251,10 +1295,12 @@
         <sp who="#Poet">
           <speaker>Поэт</speaker>
           <p>Простите. Позвольте мне прочесть в другой раз. Я так извиняюсь.</p>
-          <stage>Никто не выражает неудовольствия. Поэт подходит к хозяйке, которая некоторое время
-            делает умоляющие жесты, но скоро перестает. Поэт спокойно садится в дальний угол.
-            Задумчиво смотрит на Незнакомку. Горничная разносит, что полагается. Из общего
-            бессмысленного говора вырывается хохот, отдельные слова и целые фразы:</stage>
+        </sp>
+        <stage>Никто не выражает неудовольствия. Поэт подходит к хозяйке, которая некоторое время
+          делает умоляющие жесты, но скоро перестает. Поэт спокойно садится в дальний угол.
+          Задумчиво смотрит на Незнакомку. Горничная разносит, что полагается. Из общего
+          бессмысленного говора вырывается хохот, отдельные слова и целые фразы:</stage>
+        <sp who="#RaznyeGolosa">
           <p>Нет, как она танцевала! Да ты послушай! Русская интеллигенция…</p>
         </sp>
         <sp who="#KtoTo">
@@ -1276,7 +1322,7 @@
             Астрономия…</p>
           <stage>Поднимает палец кверху.</stage>
         </sp>
-        <sp who="#Hozjain">
+        <sp who="#Hozjain_trete_videnie">
           <speaker>Хозяин</speaker>
           <p>Вот и мы только что говорили о гастрономии. Ниночка, не пора ли ужинать?</p>
         </sp>
