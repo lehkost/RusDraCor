@@ -1626,6 +1626,10 @@
             <speaker>Шервинский.</speaker>
             <p>Господа! Здоровье Елены Васильевны! Ура!</p>
           </sp>
+          <sp who="#Studzinskij #Lariosik #Myshlaevskij">
+            <speaker>Студзинский. Лариосик. Мышлаевский.</speaker>
+            <p>Ура!..</p>
+          </sp>
           <sp who="#Elena">
             <speaker>Елена.</speaker>
             <p>Тише! Что вы, господа! Весь переулок разбудите. И так уж твердят, что у нас каждый
@@ -1681,6 +1685,10 @@
             <speaker>Мышлаевский</speaker>
             <stage type="delivery">(выпивая).</stage>
             <p>Стыдитесь, Ларион!</p>
+          </sp>
+          <sp who="#Shervinskij #Nikolka">
+            <speaker>Шервинский. Николка.</speaker>
+            <p>Стыдитесь!</p>
           </sp>
           <sp who="#Lariosik">
             <speaker>Лариосик.</speaker>
@@ -2198,10 +2206,22 @@
             <stage type="delivery">(Поет.)</stage>
             <p>Боже, царя храни!..</p>
           </sp>
+          <sp who="#Shervinskij #Studzinskij #Myshlaevskij">
+            <speaker>Шервинский. Студзинский. Мышлаевский.</speaker>
+            <p>Боже, царя храни!</p>
+          </sp>
           <sp who="#Lariosik">
             <speaker>Лариосик</speaker>
             <stage type="delivery">(поет).</stage>
             <p>Сильный, державный...</p>
+          </sp>
+          <sp who="#Nikolka #Studzinskij #Shervinskij">
+            <speaker>Николка. Студзинский. Шервинский.</speaker>
+            <p>Царствуй на...</p>
+          </sp>
+          <sp who="#Elena #Aleksej">
+            <speaker>Елена. Алексей.</speaker>
+            <p>Господа, что вы! Не нужно этого!</p>
           </sp>
           <sp who="#Myshlaevskij">
             <speaker>Мышлаевский</speaker>
@@ -3727,6 +3747,10 @@
             <stage type="delivery">(Галаньбе.)</stage>
             <p>Пан сотник, прикажите швидче, вси четыре полка на конь! Подступы к городу взяли!
               Слава! Слава!</p>
+          </sp>
+          <sp who="#Uragan #Kirpatyj">
+            <speaker>Ураган. Кирпатый.</speaker>
+            <p>Слава! Наступление!</p>
           </sp>
           <stage>Суета.</stage>
           <sp who="#Galanba">
