@@ -310,7 +310,7 @@
             <persName>Разные голоса</persName>
             <persName xml:lang="de">Verschiedene Stimmen</persName>
           </person>
-          <person xml:id="GolosVOdnomkontseTolpy" sex="UNKNOWN">
+          <person xml:id="GolosVOdnomKontseTolpy" sex="UNKNOWN">
             <persName>Голос в одном конце толпы</persName>
             <persName xml:lang="de">Stimme an einem Ende der Menge</persName>
           </person>
@@ -983,7 +983,7 @@
           <p>Небось прыткие были воеводы, а все побледнели, когда пришла царская расправа!</p>
         </sp>
         <stage>Оба выходят вон.</stage>
-        <sp who="#OchenSkromnoOdetyjChelov">
+        <sp who="#OchenSkromnoOdetyjChelovek">
           <speaker>Очень скромно одетый человек</speaker>
           <p>ек. Вот что скажет народ, вы слышали?</p>
         </sp>
@@ -1932,7 +1932,7 @@
           <p>Да три гривны, слышь ты, взял с него сдачи. — Подлая, скверная пьеса! — Забавная
             пьеска! — Ты что лезешь в самое горло?</p>
         </sp>
-        <sp who="#GolosVOdnomkontseTolpy">
+        <sp who="#GolosVOdnomKontseTolpy">
           <speaker>Голос в одном конце толпы.</speaker>
           <p>Все это вздор! Где могло случиться такое происшествие? Этакое происшествие могло только
             разве случиться на Чукотском острову.</p>
