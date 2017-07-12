@@ -32,8 +32,9 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print"/>
-            <date type="premiere"/>
+            <date type="print" when="1849"> Отечественные  Записки, 1849, № 9, с. 1 — 64, с подписью: Ив. Тургенев</date>
+            <date type="premiere" when="1849">14 октября 1849 г. на сцене Александрийского театра.
+              Пьеса была поставлена в бенефис М. С. Щепкина, гастролировавшего в это время в Петербурге.</date>
             <date type="written" when="1849">"Дата создания: 1849." (Wikisource)</date>
           </bibl>
         </bibl>
