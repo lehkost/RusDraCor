@@ -32,9 +32,13 @@
           </availability>
           <bibl type="originalSource">
             <title/>
-            <date type="print"/>
-            <date type="premiere"/>
-            <date type="written" when="1852">"Дата создания: 1852." (Wikisource)</date>
+            <date type="print" when="1888">Впервые опубликовано в немецком переводе: Ein Abend in Sorrent. 
+              Lustspiel in einem Aufzuge von Iwan Turgenjew. Für die deutsche Bühne übers, und beorb. von Eugen Zabel.
+              — Nord und Süd. Eine deutsche Monatsschrift. Hrsg. von Paul Lindau (Breslau), 1888, Bd. 44. Jan., S. 63 — 75. 
+              В русском оригинале — впервые: Т, Соч, 1891, т. IX, с. 673 — 698, по рукописи, хранившейся в издательстве И. И. Глазунова</date>
+            <date type="premiere" when="1884">19 декабря 1884, в квартире министра иностранных дел, статс-секретаря Гирса на рауте в пользу Красного Креста.
+              Для более широкой аудитории «Вечер в Сорренте» впервые был дан на сцене Александринского театра 18 января 1885 г.</date>
+            <date type="written" when="1852">10 января 1852, С.-Петербург.</date>
           </bibl>
         </bibl>
       </sourceDesc>
