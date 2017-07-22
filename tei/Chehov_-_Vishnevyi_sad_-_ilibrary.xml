@@ -103,6 +103,7 @@
         <change who="#zhenya" when="2017-05-31">added dates</change>
         <change who="#to" when="2017-06-04">gender</change>
         <change who="#ff #to" when="2017-07-21">formalities; segmentation of first act</change>
+        <change who="#ff" when="2017-07-22">finished segmentation</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -2415,6 +2416,8 @@
             <speaker>Пищик.</speaker>
             <p>Что ж... лошадь хороший зверь... Лошадь продать можно...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Слышно, как в соседней комнате играют на биллиарде. В зале под аркой показывается
             Варя.</stage>
           <sp who="#Trofimov">
@@ -2437,6 +2440,8 @@
             <p>Вот наняли музыкантов, а чем платить?</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Trofimov">
             <speaker>Трофимов</speaker>
             <stage type="delivery">(Пищику).</stage>
@@ -2464,6 +2469,8 @@
             <stage type="delivery">(Радостно.)</stage>
             <p>Вот они, за подкладкой... Даже в пот ударило...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входят Любовь Андреевна и Шарлотта Ивановна.</stage>
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна</speaker>
@@ -2599,6 +2606,8 @@
             <p>Злодейка... какова? Какова?</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
             <p>А Леонида все нет. Что он делает в городе, так долго, не понимаю! Ведь все уже
@@ -2672,6 +2681,8 @@
             <stage type="delivery">(Любови Андреевне, уже не плача.)</stage>
             <p>Только вот без дела не могу, мамочка. Мне каждую минуту надо что-нибудь делать.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Яша.</stage>
           <sp who="#Jasha">
             <speaker>Яша</speaker>
@@ -2685,6 +2696,8 @@
               людей...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
             <p>Не дразните ее, Петя, вы видите, она и без того в горе.</p>
@@ -2811,6 +2824,8 @@
             <p>Между нами все кончено!</p>
             <stage type="delivery">(Уходит в переднюю.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна</speaker>
             <stage type="delivery">(кричит вслед).</stage>
@@ -2826,6 +2841,8 @@
             <p>Петя с лестницы упал!</p>
             <stage type="delivery">(Убегает.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
             <p>Какой чудак этот Петя...</p>
@@ -2837,6 +2854,8 @@
             <stage type="delivery">(Танцует с Петей.)</stage>
           </sp>
           <stage>Аня и Варя танцуют.</stage>
+        </div>
+        <div type="configuration">
           <stage>Фирс входит, ставит свою палку около боковой двери.</stage>
           <stage>Яша тоже вошел из гостиной, смотрит на танцы.</stage>
           <sp who="#Jasha">
@@ -2862,6 +2881,8 @@
             <p>Эх ты... недотёпа!</p>
             <stage type="delivery">(Бормочет.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Трофимов и Любовь Андреевна танцуют в зале, потом в гостиной.</stage>
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
@@ -2884,6 +2905,8 @@
             <p>Не сказал, кому. Ушел.</p>
             <stage type="delivery">(Танцует с Трофимовым, оба уходят в залу.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Jasha">
             <speaker>Яша.</speaker>
             <p>Это там какой-то старик болтал. Чужой.</p>
@@ -2940,6 +2963,8 @@
               притом скука, на кухне кормят безобразно, а тут еще Фирс этот ходит, бормочет разные
               неподходящие слова. Возьмите меня с собой, будьте так добры!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Пищик.</stage>
           <sp who="#Pischik">
             <speaker>Пищик.</speaker>
@@ -2950,6 +2975,8 @@
             <p>Сто восемьдесят рубликов...</p>
           </sp>
           <stage>Перешли в зал.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Jasha">
             <speaker>Яша</speaker>
             <stage type="delivery">(тихо напевает).</stage>
@@ -2967,7 +2994,11 @@
           <stage>Музыка стихает.</stage>
           <sp who="#Firs">
             <speaker>Фирс.</speaker>
-            <p>Что же он тебе сказал? Дуняша. Вы, говорит, как цветок.</p>
+            <p>Что же он тебе сказал?</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Вы, говорит, как цветок.</p>
           </sp>
           <sp who="#Jasha">
             <speaker>Яша</speaker>
@@ -2980,6 +3011,8 @@
             <speaker>Фирс.</speaker>
             <p>Закрутишься ты.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Епиходов.</stage>
           <sp who="#Epihodov">
             <speaker>Епиходов.</speaker>
@@ -3010,6 +3043,8 @@
             <p>У меня несчастье каждый день, и я, позволю себе так выразиться, только улыбаюсь, даже
               смеюсь.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит из залы Варя.</stage>
           <sp who="#Varja">
             <speaker>Варя.</speaker>
@@ -3058,6 +3093,8 @@
             <p>Иди... Иди... Иди, я тебе покажу... А, ты идешь? Идешь? Так вот же тебе...</p>
             <stage type="delivery">(Замахивается.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>В это время входит Лопахин.</stage>
           <sp who="#Lopahin">
             <speaker>Лопахин.</speaker>
@@ -3089,6 +3126,8 @@
             <stage type="delivery">(Целуется с Лопахиным.)</stage>
             <p>Коньячком от тебя попахивает, милый мой, душа моя. А мы тут тоже веселимся.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Любовь Андреевна.</stage>
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
@@ -3111,6 +3150,8 @@
             <stage type="delivery">(Тяжело вздохнув.)</stage>
             <p>Уф! У меня немножко голова кружится...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Гаев; в правой руке у него покупки, левой он утирает слезы.</stage>
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
@@ -3129,6 +3170,8 @@
             <p>Устал я ужасно. Дашь мне, Фирс, переодеться.</p>
             <stage type="delivery">(Уходит к себе через залу, за ним Фирс.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Pischik">
             <speaker>Пищик.</speaker>
             <p>Что на торгах? Рассказывай же!</p>
@@ -3151,6 +3194,10 @@
             <stage>Пауза.</stage>
             <stage>Любовь Андреевна угнетена; она упала бы, если бы не стояла возле кресла и стола.
               Варя снимает с пояса ключи, бросает их на пол, посреди гостиной, и уходит.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Lopahin">
             <p>Я купил! Погодите, господа, сделайте милость, у меня в голове помутилось, говорить не
               могу...</p>
             <stage type="delivery">(Смеется.)</stage>
@@ -3199,6 +3246,8 @@
             <p>За все могу заплатить!</p>
             <stage type="delivery">(Уходит с Пищиком.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>В зале и гостиной нет никого, кроме Любови Андреевны, которая сидит, сжалась вся и
             горько плачет. Тихо играет музыка. Быстро входят Аня и Трофимов. Аня подходит к матери и
             становится перед ней на колени. Трофимов остается у входа в залу.</stage>
@@ -3222,7 +3271,7 @@
             выходной двери и в глубине сцены сложены чемоданы, дорожные узлы и т. п. Налево дверь
             открыта, оттуда слышны голоса Вари и Ани. Лопахин стоит, ждет. Яша держит поднос со
             стаканчиками, налитыми шампанским. В передней Епиходов увязывает ящик. За сценой в
-            глубине гул. Это пришли прощаться мужики. Голос Гаева : «Спасибо, братцы, спасибо
+            глубине гул. Это пришли прощаться мужики. Голос Гаева: «Спасибо, братцы, спасибо
             вам».</stage>
           <sp who="#Jasha">
             <speaker>Яша.</speaker>
@@ -3252,6 +3301,8 @@
             <stage>Яша осторожно ставит поднос на стул.</stage>
             <p>Выпей, Яша, хоть ты.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Jasha">
             <speaker>Яша.</speaker>
             <p>С отъезжающими! Счастливо оставаться!</p>
@@ -3284,6 +3335,8 @@
             <p>Господа, имейте в виду, до поезда осталось всего сорок шесть минут! Значит, через
               двадцать минут на станцию ехать. Поторапливайтесь.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Трофимов в пальто входит со двора.</stage>
           <sp who="#Trofimov">
             <speaker>Трофимов.</speaker>
@@ -3359,6 +3412,8 @@
             <stage type="delivery">(Тревожно.)</stage>
             <p>А калош моих нет!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Varja">
             <speaker>Варя</speaker>
             <stage type="delivery">(из другой комнаты).</stage>
@@ -3369,6 +3424,8 @@
             <speaker>Трофимов.</speaker>
             <p>Что же вы сердитесь, Варя? Гм... Да это не мои калоши!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Lopahin">
             <speaker>Лопахин.</speaker>
             <p>Я весной посеял маку тысячу десятин и теперь заработал сорок тысяч чистого. А когда
@@ -3406,6 +3463,8 @@
               Андреич, говорят, принял место, будет в банке, шесть тысяч в год... Только ведь не
               усидит, ленив очень...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Anja">
             <speaker>Аня</speaker>
             <stage type="delivery">(в дверях).</stage>
@@ -3421,6 +3480,8 @@
             <p>Сейчас, сейчас... Экие, право.</p>
             <stage type="delivery">(Уходит за ним.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Anja">
             <speaker>Аня.</speaker>
             <p>Фирса отправили в больницу?</p>
@@ -3447,6 +3508,8 @@
             <p>Ну, вот, конечно. Так и знал.</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Jasha">
             <speaker>Яша</speaker>
             <stage type="delivery">(насмешливо).</stage>
@@ -3480,6 +3543,8 @@
             <stage type="delivery">(машет рукой).</stage>
             <p>Выводят только из терпения.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Дуняша все время хлопочет около вещей; теперь, когда Яша остался один, она подошла
             к нему.</stage>
           <sp who="#Dunjasha">
@@ -3508,6 +3573,8 @@
             <p>Идут сюда.</p>
             <stage type="delivery">(Хлопочет около чемоданов, тихо напевает.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входят Любовь Андреевна, Гаев, Аня и Шарлотта Ивановна.</stage>
           <sp who="#Gaev">
             <speaker>Гаев.</speaker>
@@ -3562,6 +3629,8 @@
             <p>Приеду, мое золото.</p>
             <stage type="delivery">(Обнимает дочь.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Лопахин. Шарлотта тихо напевает песенку.</stage>
           <sp who="#Gaev">
             <speaker>Гаев.</speaker>
@@ -3589,6 +3658,8 @@
             <stage type="delivery">(Напевает.)</stage>
             <p>Все равно...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Пищик.</stage>
           <sp who="#Lopahin">
             <speaker>Лопахин.</speaker>
@@ -3663,6 +3734,8 @@
             <p>Кланялась вам Дашенька!</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
             <p>Теперь можно и ехать. Уезжаю я с двумя заботами. Первая – это больной Фирс.</p>
@@ -3684,6 +3757,8 @@
             <p>Она вас любит, вам она по душе, и не знаю, не знаю, почему это вы точно сторонитесь
               друг друга. Не понимаю!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Lopahin">
             <speaker>Лопахин.</speaker>
             <p>Я сам тоже не понимаю, признаться. Как-то странно все... Если есть еще время, то я
@@ -3716,6 +3791,8 @@
             <p>Да...</p>
           </sp>
           <stage>Пауза.</stage>
+        </div>
+        <div type="configuration">
           <stage>За дверью сдержанный смех, шепот, наконец входит Варя.</stage>
           <sp who="#Varja">
             <speaker>Варя</speaker>
@@ -3776,6 +3853,8 @@
             <p>Сию минуту!</p>
             <stage type="delivery">(Быстро уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Варя, сидя на полу, положив голову на узел с платьем, тихо рыдает. Отворяется
             дверь, осторожно входит Любовь Андреевна.</stage>
           <sp who="#LjubovAndreevna">
@@ -3790,6 +3869,8 @@
             <p>Да, пора, мамочка. Я к Рагулиным поспею сегодня, не опоздать бы только к
               поезду...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна</speaker>
             <stage type="delivery">(в дверь).</stage>
@@ -3823,6 +3904,8 @@
             <stage type="delivery">(уныло).</stage>
             <p>Дуплетом желтого в середину... Молчу...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Трофимов, потом Лопахин.</stage>
           <sp who="#Trofimov">
             <speaker>Трофимов.</speaker>
@@ -3931,6 +4014,8 @@
             <p>Значит, до весны. Выходите, господа... До свиданция!..</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Любовь Андреевна и Гаев остались вдвоем. Они точно ждали этого, бросаются на шею
             друг другу и рыдают сдержанно, тихо, боясь, чтобы их не услышали.</stage>
           <sp who="#Gaev">
@@ -3942,7 +4027,7 @@
             <speaker>Любовь Андреевна.</speaker>
             <p>О мой милый, мой нежный, прекрасный сад!.. Моя жизнь, моя молодость, счастье мое,
               прощай!.. Прощай!..</p>
-            <stage>Голос (весело, призывающе): «Мама!..» Голос (весело, возбужденно):
+            <stage>Голос Ани (весело, призывающе): «Мама!..» Голос Трофимова (весело, возбужденно):
               «Ау!..»</stage>
             <p>В последний раз взглянуть на стены, на окна... По этой комнате любила ходить покойная
               мать...</p>
@@ -3951,12 +4036,14 @@
             <speaker>Гаев.</speaker>
             <p>Сестра моя, сестра моя!..</p>
           </sp>
-          <stage>Голос Ани : «Мама!..» Голос Трофимова : «Ау!..»</stage>
+          <stage>Голос Ани: «Мама!..» Голос Трофимова: «Ау!..»</stage>
           <sp who="#LjubovAndreevna">
             <speaker>Любовь Андреевна.</speaker>
             <p>Мы идем!..</p>
           </sp>
           <stage>Уходят.</stage>
+        </div>
+        <div type="configuration">
           <stage>Сцена пуста. Слышно, как на ключ запирают все двери, как потом отъезжают экипажи.
             Становится тихо. Среди тишины раздается глухой стук топора по дереву, звучащий одиноко и
             грустно.</stage>
