@@ -162,6 +162,10 @@
   </teiHeader>
   <text>
     <front>
+      <docTitle>
+        <titlePart type="main">Ревизор</titlePart>
+        <titlePart type="sub">Комедия в пяти действиях</titlePart>
+      </docTitle>
       <epigraph>
         <quote>На зеркало неча пенять, коли рожа крива.</quote>
         <bibl>Народная пословица</bibl>
