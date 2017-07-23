@@ -32,9 +32,10 @@
           </availability>
           <bibl type="originalSource">
             <title>Русская драматургия XVIII века. – М.: Современник, 1986. – С. 445–460.</title>
-            <date type="print" when="1799">1799</date>
-            <date type="premiere" when="1789">1789</date>
-            <date type="written" when="1789">1789</date>
+            <date type="print" when="1799">"напеч. в СПб., 1799; 2-е изд. СПб., 1821"
+              (Wikipedia)</date>
+            <date type="premiere" when="1789">"пост. в 1789" (Wikipedia)</date>
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
