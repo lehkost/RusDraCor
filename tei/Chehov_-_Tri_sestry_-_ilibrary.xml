@@ -104,6 +104,7 @@
         <change who="#to" when="2017-06-04">gender</change>
         <change who="#ff" when="2017-07-06">formalities</change>
         <change who="#ff" when="2017-07-22">segmented first and second act</change>
+        <change who="#ff" when="2017-07-23">segmented third and fourth act</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
