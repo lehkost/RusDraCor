@@ -3012,6 +3012,8 @@
             <stage type="delivery">(Спохватившись.)</stage>
             <p>Право, если ты не переберешься вниз, то мы всегда будем ссориться. Это ужасно.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Кулыгин.</stage>
           <sp who="#Kulygin">
             <speaker>Кулыгин.</speaker>
@@ -3042,6 +3044,8 @@
             <p>Два года не пил, а тут вдруг взял и напился...</p>
             <stage type="delivery">(Идет с Наташей в глубину комнаты.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Чебутыкин входит; не шатаясь, как трезвый, проходит по комнате, останавливается,
             смотрит, потом подходит к рукомойнику и начинает мыть руки.</stage>
           <sp who="#Chebutykin">
@@ -3063,6 +3067,8 @@
               Низость! И та женщина, что уморил в среду, вспомнилась... и все вспомнилось, и стало
               на душе криво, гадко, мерзко... пошел, запил...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Ирина, Вершинин и Тузенбах входят; на Тузенбахе штатское платье, новое и
             модное.</stage>
           <sp who="#Irina">
@@ -3190,6 +3196,8 @@
             <p>Не угодно ль этот финик вам принять...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Vershinin">
             <speaker>Вершинин.</speaker>
             <p>Да...</p>
@@ -3243,6 +3251,8 @@
             <p>Тра-та-та.</p>
             <stage type="delivery">(Смеется.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Федотик.</stage>
           <sp who="#Fedotik">
             <speaker>Федотик</speaker>
@@ -3260,6 +3270,8 @@
             <p>Все дочиста. Ничего не осталось. И гитара сгорела, и фотография сгорела, и все мои
               письма... И хотел подарить вам записную книжечку – тоже сгорела.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Соленый.</stage>
           <sp who="#Irina">
             <speaker>Ирина.</speaker>
@@ -3300,6 +3312,8 @@
             <p>Цып, цып, цып...</p>
           </sp>
           <stage>Уходит с Вершининым и Федотиком.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Irina">
             <speaker>Ирина.</speaker>
             <p>Как накурил этот Соленый...</p>
@@ -3341,6 +3355,8 @@
             <p>Ухожу...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Masha">
             <speaker>Маша</speaker>
             <stage type="delivery">(ложится).</stage>
@@ -3415,6 +3431,8 @@
             <p>Я доволен, я доволен, я доволен.</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Irina">
             <speaker>Ирина.</speaker>
             <p>В самом деле, как измельчал наш Андрей, как он выдохся и постарел около этой женщины!
@@ -3426,7 +3444,7 @@
             <p>О, ужасно, ужасно, ужасно!</p>
             <stage type="delivery">(Плачет.)</stage>
             <p>Я не могу, не могу переносить больше!.. Не могу, не могу!..</p>
-            <stage>входит, убирает около своего столика.</stage>
+            <stage>Ольга входит, убирает около своего столика.</stage>
             <stage type="delivery">(Громко рыдает.)</stage>
             <p>Выбросьте меня, выбросьте, я больше не могу!..</p>
           </sp>
@@ -3490,6 +3508,8 @@
               заплакала... Он спрашивает: «что вы плачете?» Как я ему скажу! Но если бы бог привел
               ему жениться на тебе, то я была бы счастлива. Тут ведь другое, совсем другое.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Наташа со свечой проходит через сцену из правой двери в левую молча.</stage>
           <sp who="#Masha">
             <speaker>Маша</speaker>
@@ -3539,6 +3559,8 @@
               мои, сестры мои... Призналась вам, теперь буду молчать... Буду теперь, как гоголевский
               сумасшедший... молчание... молчание...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Андрей, за ним Ферапонт.</stage>
           <sp who="#Andrej">
             <speaker>Андрей</speaker>
@@ -3559,10 +3581,12 @@
             <p>Пожарные, ваше высокородие, просят, дозвольте на реку садом проехать. А то кругом
               ездиют, ездиют – чистое наказание.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Andrej">
             <speaker>Андрей.</speaker>
             <p>Хорошо. Скажи, хорошо.</p>
-            <stage>уходит.</stage>
+            <stage>Ферапонт уходит.</stage>
             <p>Надоели. Где Ольга?</p>
             <stage>Ольга показывается из-за ширмы.</stage>
             <p>Я пришел к тебе, дай мне ключ от шкапа, я затерял свой. У тебя есть такой маленький
@@ -3606,6 +3630,8 @@
             <stage type="delivery">(Идет к себе за ширму.)</stage>
             <p>Спать пора.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Andrej">
             <speaker>Андрей.</speaker>
             <p>Только скажу и уйду. Сейчас... Во-первых, вы имеете что-то против Наташи, моей жены,
@@ -3626,6 +3652,8 @@
               так сказать...</p>
           </sp>
           <stage>Пауза.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Kulygin">
             <speaker>Кулыгин</speaker>
             <stage type="delivery">(в дверь).</stage>
@@ -3634,6 +3662,8 @@
             <p>Где же она? Это странно...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Andrej">
             <speaker>Андрей.</speaker>
             <p>Не слушают. Наташа превосходный, честный человек.</p>
@@ -3644,6 +3674,8 @@
             <p>Милые мои сестры, дорогие сестры, не верьте мне, не верьте...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Kulygin">
             <speaker>Кулыгин</speaker>
             <stage type="delivery">(в дверь встревоженно).</stage>
@@ -3651,6 +3683,8 @@
             <stage type="delivery">(Уходит.)</stage>
           </sp>
           <stage>Набат, сцена пустая.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Irina">
             <speaker>Ирина</speaker>
             <stage type="delivery">(за ширмами).</stage>
@@ -3810,6 +3844,8 @@
           </sp>
           <stage>В глубине сцены Федотик и Родэ встречаются с Машей и прощаются с нею; она уходит с
             ними.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Irina">
             <speaker>Ирина.</speaker>
             <p>Ушли...</p>
@@ -3891,6 +3927,8 @@
             <p>Перестаньте! Ну, что право...</p>
             <stage type="delivery">(Машет рукой и уходит в дом.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Kulygin">
             <speaker>Кулыгин.</speaker>
             <p>Около театра... Соленый стал придираться к барону, а тот не стерпел, сказал что-то
@@ -3980,16 +4018,22 @@
             <speaker>Чебутыкин.</speaker>
             <p>Реникса. Чепуха.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Natasha">
             <speaker>Наташа</speaker>
             <stage type="delivery">(в окно).</stage>
             <p>Начальница!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Kulygin">
             <speaker>Кулыгин.</speaker>
             <p>Приехала начальница. Пойдем.</p>
           </sp>
           <stage>Уходит с Ириной в дом.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Chebutykin">
             <speaker>Чебутыкин</speaker>
             <stage type="delivery">(читает газету и тихо напевает).</stage>
@@ -4136,6 +4180,8 @@
             <p>Лебеди, или гуси... Милые мои, счастливые мои...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Andrej">
             <speaker>Андрей.</speaker>
             <p>Опустеет наш дом. Уедут офицеры, уедете вы, сестра замуж выйдет, и останусь в доме я
@@ -4161,6 +4207,8 @@
               надень шапку, возьми в руки палку и уходи... уходи и иди, иди без оглядки. И чем
               дальше уйдешь, тем лучше.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Соленый проходит в глубине сцены с двумя офицерами; увидев Чебутыкина, он
             поворачивает к нему; офицеры идут дальше.</stage>
           <sp who="#Solenyj">
@@ -4210,6 +4258,8 @@
             <p>Да. Он ахнуть не успел, как на него медведь насел.</p>
             <stage type="delivery">(Уходит с Соленым.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Слышны крики: «Гоп! Ау!» Андрей и Ферапонт входят.</stage>
           <sp who="#Ferapont">
             <speaker>Ферапонт.</speaker>
@@ -4226,6 +4276,8 @@
             <p>На то ведь и бумаги, чтоб их подписывать.</p>
             <stage type="delivery">(Уходит в глубину сцены.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входят Ирина и Тузенбах в соломенной шляпе, Кулыгин проходит через сцену, крича:
             «Ау, Маша, ау!»</stage>
           <sp who="#Tuzenbah">
@@ -4346,6 +4398,8 @@
           </sp>
           <stage>Ирина стоит задумавшись, потом уходит в глубину сцены и садится на качели. Входит
             Андрей с колясочкой, показывается Ферапонт.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Ferapont">
             <speaker>Ферапонт.</speaker>
             <p>Андрей Сергеич, бумаги-то ведь не мои, а казенные. Не я их выдумал.</p>
@@ -4401,11 +4455,13 @@
             <stage type="delivery">(Сквозь слезы.)</stage>
             <p>Маша, сестра моя...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Natasha">
             <speaker>Наташа</speaker>
             <stage type="delivery">(в окне).</stage>
             <p>Кто здесь разговаривает так громко? Это ты, Андрюша? Софочку разбудишь. Il ne faut
-              pas faire du bruit, la Sophie est dormee deja. Vous etes un ours.</p>
+              pas faire du bruit, la Sophie est dormée déjà. Vous êtes un ours.</p>
             <stage type="delivery">(Рассердившись.)</stage>
             <p>Если хочешь разговаривать, то отдай колясочку с ребенком кому-нибудь другому.
               Ферапонт, возьми у барина колясочку!</p>
@@ -4431,12 +4487,16 @@
             <p>Ладно, пересмотрю и, что нужно, подпишу, а ты снесешь опять в управу...</p>
             <stage type="delivery">(Уходит в дом, читая бумаги; Ферапонт везет колясочку.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Natasha">
             <speaker>Наташа</speaker>
             <stage type="delivery">(за окном).</stage>
             <p>Бобик, как зовут твою маму? Милый, милый! А это кто? Это тетя Оля. Скажи тете:
               здравствуй, Оля!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Бродячие музыканты, мужчина и девушка, играют на скрипке и арфе; из дому выходят
             Вершинин, Ольга и Анфиса и с минуту слушают молча; подходит Ирина.</stage>
           <sp who="#Olga">
@@ -4481,6 +4541,8 @@
             <stage>Уходит вместе с в глубину сада.</stage>
             <p>А-у, а-у!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Vershinin">
             <speaker>Вершинин.</speaker>
             <p>Все имеет свой конец. Вот и мы расстаемся.</p>
@@ -4542,6 +4604,8 @@
             <speaker>Ольга.</speaker>
             <p>Вот она идет.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Маша входит.</stage>
           <sp who="#Vershinin">
             <speaker>Вершинин.</speaker>
@@ -4570,6 +4634,8 @@
             <speaker>Ольга.</speaker>
             <p>Будет, Маша! Перестань, милая...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Кулыгин.</stage>
           <sp who="#Kulygin">
             <speaker>Кулыгин</speaker>
@@ -4606,6 +4672,8 @@
             <p>Неудачная жизнь... Ничего мне теперь не нужно... Я сейчас успокоюсь... Все равно...
               Что значит у лукоморья? Почему это слово у меня в голове? Путаются мысли.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Ирина входит.</stage>
           <sp who="#Olga">
             <speaker>Ольга.</speaker>
@@ -4649,6 +4717,8 @@
             <speaker>Кулыгин.</speaker>
             <p>Очень похож...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Наташа.</stage>
           <sp who="#Natasha">
             <speaker>Наташа</speaker>
@@ -4690,6 +4760,8 @@
             <speaker>Кулыгин.</speaker>
             <p>Разошлась!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>За сценой музыка играет марш; все слушают.</stage>
           <sp who="#Olga">
             <speaker>Ольга.</speaker>
