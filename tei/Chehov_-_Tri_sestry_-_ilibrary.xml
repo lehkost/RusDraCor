@@ -103,7 +103,7 @@
         <change who="#zhenya" when="2017-05-31">added dates</change>
         <change who="#to" when="2017-06-04">gender</change>
         <change who="#ff" when="2017-07-06">formalities</change>
-        <change who="#ff" when="2017-07-22">segmented first act</change>
+        <change who="#ff" when="2017-07-22">segmented first and second act</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1565,10 +1565,12 @@
             <speaker>Андрей</speaker>
             <stage type="delivery">(зевает).</stage>
             <p>Позови его.</p>
-            <stage>уходит; Андрей, нагнувшись к забытой ею свече, читает книгу. Входит Ферапонт; он
-              в старом трепаном пальто, с поднятым воротником, уши повязаны.</stage>
+            <stage>Наташа уходит; Андрей, нагнувшись к забытой ею свече, читает книгу. Входит
+              Ферапонт; он в старом трепаном пальто, с поднятым воротником, уши повязаны.</stage>
             <p>Здравствуй, душа моя. Что скажешь?</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Ferapont">
             <speaker>Ферапонт.</speaker>
             <p>Председатель прислал книжку и бумагу какую-то. Вот...</p>
@@ -1674,6 +1676,8 @@
           </sp>
           <stage>За сценой поет нянька, укачивая ребенка. Входят Маша и Вершинин. Пока они потом
             беседуют, горничная зажигает лампу и свечи.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Masha">
             <speaker>Маша.</speaker>
             <p>Не знаю.</p>
@@ -1779,6 +1783,8 @@
             <stage type="delivery">(Закрывает лицо руками.)</stage>
             <p>Мне все равно. Сюда идут, говорите о чем-нибудь другом...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Ирина и Тузенбах входят через залу.</stage>
           <sp who="#Tuzenbah">
             <speaker>Тузенбах.</speaker>
@@ -1797,6 +1803,8 @@
             <stage type="delivery">(Увидев Машу и Вершинина, радостно.)</stage>
             <p>Это вы? Здравствуйте.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Irina">
             <speaker>Ирина.</speaker>
             <p>Вот я и дома, наконец.</p>
@@ -1869,6 +1877,8 @@
             <speaker>Ирина.</speaker>
             <p>Ей, я думаю, все равно.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Чебутыкин, только что вставший с постели, – он отдыхал после обеда, – входит в залу
             и причесывает бороду, потом садится там за стол и вынимает из кармана газету.</stage>
           <sp who="#Masha">
@@ -1959,6 +1969,8 @@
             <stage>Пауза.</stage>
             <p>Не я, то хоть потомки потомков моих.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Федотик и Родэ показываются в зале; они садятся и напевают тихо, наигрывая на
             гитаре.</stage>
           <sp who="#Tuzenbah">
@@ -2078,6 +2090,8 @@
             <p>Я сейчас покажу вам другой пасьянс...</p>
             <stage type="delivery">(Раскладывает пасьянс.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Подают самовар; Анфиса около самовара; немного погодя приходит Наташа и тоже
             суетится около стола; приходит Соленый и, поздоровавшись, садится за стол.</stage>
           <sp who="#Vershinin">
@@ -2208,6 +2222,8 @@
             <speaker>Анфиса.</speaker>
             <p>Что ж ты обижаешься? Милая!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Andrej">
             <speaker>Голос Андрея.</speaker>
             <p>Анфиса!</p>
@@ -2218,6 +2234,8 @@
             <p>Анфиса! Сидит там...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Masha">
             <speaker>Маша</speaker>
             <stage type="delivery">(в зале у стола, сердито).</stage>
@@ -2248,7 +2266,7 @@
             <p>Милая Маша, к чему употреблять в разговоре такие выражения? При твоей прекрасной
               наружности в приличном светском обществе ты, я тебе прямо скажу, была бы просто
               очаровательна, если бы не эти твои слова. Je vous prie, pardonnez moi, Marie, mais
-              vous avez des manieres un peu grossieres.</p>
+              vous avez des manières un peu grossières.</p>
           </sp>
           <sp who="#Tuzenbah">
             <speaker>Тузенбах</speaker>
@@ -2257,10 +2275,12 @@
           </sp>
           <sp who="#Natasha">
             <speaker>Наташа.</speaker>
-            <p>Il parait, que mon Бобик deja ne dort pas, проснулся. Он у меня сегодня нездоров. Я
+            <p>Il parait, que mon Бобик déjà ne dort pas, проснулся. Он у меня сегодня нездоров. Я
               пойду к нему, простите...</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Irina">
             <speaker>Ирина.</speaker>
             <p>А куда ушел Александр Игнатьич?</p>
@@ -2332,6 +2352,8 @@
             <speaker>Тузенбах.</speaker>
             <p>Буду работать.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Chebutykin">
             <speaker>Чебутыкин</speaker>
             <stage type="delivery">(идя в гостиную с Ириной).</stage>
@@ -2425,6 +2447,8 @@
               слова раздражают вас, то я могу не говорить. Я даже могу уйти в другую комнату...</p>
             <stage type="delivery">(Уходит в одну из дверей.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Tuzenbah">
             <speaker>Тузенбах.</speaker>
             <p>Браво, браво!</p>
@@ -2437,6 +2461,8 @@
             <stage type="delivery">(танцует вальс одна).</stage>
             <p>Барон пьян, барон пьян, барон пьян!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Входит Наташа.</stage>
           <sp who="#Natasha">
             <speaker>Наташа</speaker>
@@ -2444,6 +2470,8 @@
             <p>Иван Романыч!</p>
             <stage type="delivery">(Говорит о чем-то Чебутыкину, потом тихо уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Чебутыкин трогает Тузенбаха за плечо и шепчет ему о чем-то.</stage>
           <sp who="#Irina">
             <speaker>Ирина.</speaker>
@@ -2482,6 +2510,8 @@
           </sp>
           <stage>Андрей уходит в правую дверь к себе, Чебутыкин идет за ним; в зале
             прощаются.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Fedotik">
             <speaker>Федотик.</speaker>
             <p>Какая жалость! Я рассчитывал провести вечерок, но если болен ребеночек, то,
@@ -2500,6 +2530,8 @@
           <stage>Слышно: «Прощайте! Будьте здоровы!» Слышен веселый смех Тузенбаха. Все уходят.
             Анфиса и горничная убирают со стола, тушат огни. Слышно, как поет нянька. Андрей в
             пальто и шляпе и Чебутыкин тихо входят.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Chebutykin">
             <speaker>Чебутыкин.</speaker>
             <p>Жениться я не успел, потому что жизнь промелькнула, как молния, да и потому, что
@@ -2544,6 +2576,8 @@
             <p>Пройдем кухней.</p>
           </sp>
           <stage>Уходят.</stage>
+        </div>
+        <div type="configuration">
           <stage>Звонок, потом опять звонок; слышны голоса, смех.</stage>
           <sp who="#Irina">
             <speaker>Ирина</speaker>
@@ -2562,6 +2596,8 @@
           </sp>
           <stage>Анфиса уходит. Ирина в раздумье ходит по комнате; она взволнована. Входит
             Соленый.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Solenyj">
             <speaker>Соленый</speaker>
             <stage type="delivery">(в недоумении).</stage>
@@ -2613,6 +2649,8 @@
               не должно быть... Не должно... Клянусь вам всем святым, соперника я убью... О,
               чудная!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Наташа проходит со свечой.</stage>
           <sp who="#Natasha">
             <speaker>Наташа</speaker>
@@ -2626,6 +2664,8 @@
             <p>Мне все равно. Прощайте!</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Natasha">
             <speaker>Наташа.</speaker>
             <p>А ты устала, милая, бедная моя девочка!</p>
@@ -2670,6 +2710,8 @@
           </sp>
           <stage>Горничная убегает; Ирина сидит задумавшись; входят Кулыгин, Ольга, за ними
             Вершинин.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Kulygin">
             <speaker>Кулыгин.</speaker>
             <p>Вот тебе и раз. А говорили, что у них будет вечер.</p>
@@ -2751,6 +2793,8 @@
             <p>Все ушли. Никого нет.</p>
           </sp>
           <stage>На улице гармоника, нянька поет песню.</stage>
+        </div>
+        <div type="configuration">
           <sp who="#Natasha">
             <speaker>Наташа</speaker>
             <stage type="delivery">(в шубе и шапке идет через залу; за ней ).</stage>
@@ -2806,6 +2850,8 @@
             <p>Вот возьми снеси вниз... Там под лестницей стоят барышни Колотилины... отдай им. И
               это отдай...</p>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Ferapont">
             <speaker>Ферапонт.</speaker>
             <p>Слушаю. В двенадцатом году Москва тоже горела. Господи ты боже мой! Французы
@@ -2820,6 +2866,8 @@
             <p>Слушаю.</p>
             <stage type="delivery">(Уходит.)</stage>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#Olga">
             <speaker>Ольга.</speaker>
             <p>Нянечка, милая, всё отдавай. Ничего нам не надо, всё отдавай, нянечка... Я устала,
@@ -2849,6 +2897,8 @@
             <stage type="delivery">(Усаживает ее.)</stage>
             <p>Отдохни, моя хорошая. Побледнела как!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Наташа входит.</stage>
           <sp who="#Natasha">
             <speaker>Наташа.</speaker>
