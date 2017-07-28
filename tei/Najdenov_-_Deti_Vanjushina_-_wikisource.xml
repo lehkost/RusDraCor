@@ -45,58 +45,54 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Aleksej">
+          <person xml:id="Aleksej" sex="MALE">
             <persName>Алексей</persName>
           </person>
-          <person xml:id="Akulina">
+          <person xml:id="Akulina" sex="FEMALE">
             <persName>Акулина</persName>
           </person>
-          <person xml:id="Vanjushin">
+          <person xml:id="Vanjushin" sex="MALE">
             <persName>Ванюшин</persName>
           </person>
-          <person xml:id="ArinaIvanovna">
+          <person xml:id="ArinaIvanovna" sex="FEMALE">
             <persName>Арина Ивановна</persName>
           </person>
-          <person xml:id="Konstantin">
+          <person xml:id="Konstantin" sex="MALE">
             <persName>Константин</persName>
           </person>
-          <person xml:id="Krasavin">
+          <person xml:id="Krasavin" sex="MALE">
             <persName>Красавин</persName>
           </person>
-          <person xml:id="Klavdija">
+          <person xml:id="Klavdija" sex="FEMALE">
             <persName>Клавдия</persName>
           </person>
-          <person xml:id="Katja">
+          <person xml:id="Katja" sex="FEMALE">
             <persName>Катя</persName>
           </person>
-          <person xml:id="Schetkin">
+          <person xml:id="Schetkin" sex="MALE">
             <persName>Щеткин</persName>
           </person>
-          <person xml:id="Lenochka">
-            <persName>Леночка</persName>
-          </person>
-          <person xml:id="Lena">
+          
+          <person xml:id="Lena" sex="FEMALE">
             <persName>Лена</persName>
           </person>
-          <person xml:id="Kukarnikova">
+          <person xml:id="Kukarnikova" sex="FEMALE">
             <persName>Кукарникова</persName>
           </person>
-          <person xml:id="Avdotja">
+          <person xml:id="Avdotja" sex="FEMALE">
             <persName>Авдотья</persName>
           </person>
-          <person xml:id="StarikVLohmotjah">
+          <person xml:id="StarikVLohmotjah" sex="MALE">
             <persName>Старик в лохмотьях</persName>
           </person>
-          <person xml:id="Inna">
+          <person xml:id="Inna" sex="FEMALE">
             <persName>Инна</persName>
           </person>
-          <person xml:id="Ljudmila">
+          <person xml:id="Ljudmila" sex="FEMALE">
             <persName>Людмила</persName>
           </person>
-          <person xml:id="Vse">
-            <persName>Все</persName>
-          </person>
-          <person xml:id="Anja">
+          
+          <person xml:id="Anja" sex="FEMALE">
             <persName>Аня</persName>
           </person>
         </listPerson>
@@ -1600,14 +1596,14 @@
         </sp>
         <stage>Растерявшаяся Катя выскакивает из-под лестницы и со шкатулкой в руках бежит через
           переднюю в другие смежные комнаты; Леночка бежит за ней.</stage>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Как вы смели? Негодные девчонки! <stage type="delivery">(Дергает за рукав Аню и бежит
               за Катей.)</stage></p>
         </sp>
         <stage>Через некоторое время Катя снова вбегает в столовую и прячется под лестницей; Леночка
           -- за ней; она старается отворить дверку, но Катя ее крепко держит.</stage>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Отдай шкатулку! Я дяде скажу.</p>
         </sp>
@@ -1622,7 +1618,7 @@
           <speaker>Катя.</speaker>
           <p>Возьми! Мы теперь все равно все знаем.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Ничего вы не знаете.</p>
         </sp>
@@ -1630,7 +1626,7 @@
           <speaker>Катя</speaker>
           <p><stage type="delivery">(дразнит ее)</stage> Знаем, знаем... мы прочли...</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>И не стыдно вам читать чужие письма?</p>
         </sp>
@@ -1639,7 +1635,7 @@
           <p>Мы не письма, мы дневник прочли... Знаем, знаем... <stage type="delivery">(Хлопает в
               ладоши и скачет с ноги на ногу.)</stage></p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Бесстыдница!</p>
         </sp>
@@ -1651,7 +1647,7 @@
               сконфужена, чувствует себя неловко.</stage> Костя старший брат, он не должен так себя
             вести.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Надо все знать, Аня, чтобы так говорить... Ты молода, и не тебе судить. Я, может быть,
             и очень несчастная... я бедная...</p>
@@ -1661,7 +1657,7 @@
           <p><stage type="delivery">(тронута слезами Леночки)</stage> Мы, Леночка, ведь никому не
             скажем. Не скажем ведь, Катя?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Дайте мне слово. Я вам все, все расскажу... <stage type="delivery">(Обращается к
               Ане.)</stage> Даешь?</p>
@@ -1675,7 +1671,7 @@
           <speaker>Катя.</speaker>
           <p>А ты Косте не говори. Он сердиться на нас будет. Не скажешь?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Не скажу. Да он и не знает, что у меня дневник есть.</p>
         </sp>
@@ -1683,7 +1679,7 @@
           <speaker>Катя.</speaker>
           <p>Не знает? А я на твоем месте все говорила бы ему.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Этого нельзя. Мужчинам не надо все говорить.</p>
         </sp>
@@ -1726,7 +1722,7 @@
           <speaker>Константин.</speaker>
           <p>Глупо!.. Писать не умеешь, да какие-то там дневники завела... Сожги.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Я, Костенька...</p>
         </sp>
@@ -1735,7 +1731,7 @@
           <p><stage type="delivery">(шепелявит и передразнивает ее)</stage>"Я, Костенька...". Сожги.
             А с ними будь поласковее, не ссорься. Черт знает, что такое!</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Не сердись.</p>
         </sp>
@@ -1743,7 +1739,7 @@
           <speaker>Константин.</speaker>
           <p>Это хоть кого взбесит! Уехать тебе надо на время.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Ну нет, я не поеду.</p>
         </sp>
@@ -1765,7 +1761,7 @@
           <p><stage type="delivery">(обращается к стоящей у буфета Леночке)</stage>Что нос-то, сыч,
             повесила?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Так, дядя... Я не повесила.</p>
         </sp>
@@ -1815,7 +1811,7 @@
           <p><stage type="delivery">(обращается к Ане)</stage> Ешь хорошенько. Чего выбираешь,
             ковырялка?</p>
         </sp>
-        <sp who="#Anja">
+        <sp who="#Avdotja">
           <speaker>Аня.</speaker>
           <p>Я морковь не люблю.</p>
         </sp>
@@ -1900,7 +1896,7 @@
           <speaker>Константин.</speaker>
           <p>Очень сожалею.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Полно, Костенька!</p>
         </sp>
@@ -1916,7 +1912,7 @@
           <speaker>Алексей.</speaker>
           <p>Папаша, меня выгнали из гимназии.</p>
         </sp>
-        <sp who="#Vse">
+        <sp who="#ArinaIvanovna #Lena #Konstantin #Schetkin #Vanjushin #Katja #Klavdija #Anja #Ljudmila">
           <speaker>Все.</speaker>
           <p>Что?</p>
         </sp>
@@ -2080,7 +2076,7 @@
           <speaker>Клавдия.</speaker>
           <p>Павлик, перестань!</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>У Кости нет никакой побочной семьи. Вы говорите неправду.</p>
         </sp>
@@ -2089,7 +2085,7 @@
           <p>Ах оставьте! Знают все в городе. Кассирша из магазина Павленкова ходит в шелках и
             бархате. Всем известно, кто ее одевает, как куклу и камелию.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Неправда.</p>
         </sp>
@@ -2113,7 +2109,7 @@
           <p>Ты можешь оставаться на этом милом званом обеде, а я -- слуга покорный. Кусок в горле
             застрянет. <stage type="delivery">(Уходит.)</stage></p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Хорошо, что ушел. Костенька услыхал бы -- беда была бы.</p>
         </sp>
@@ -2416,7 +2412,7 @@
             хочу я с тобой. <stage>Константин отпирает дверь. Ванюшин входит в комнату. Сверху
               сходят Леночка, Аня и Катя.</stage></p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Всем нельзя -- услышат. Ты одна, Катя, на цыпочках подойди.</p>
         </sp>
@@ -2430,7 +2426,7 @@
           <speaker>Аня.</speaker>
           <p>А как ты думаешь, зачем он теперь приехал?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Тише говори. Не знаю.</p>
         </sp>
@@ -2438,7 +2434,7 @@
           <speaker>Аня.</speaker>
           <p>А бил он Людмилу?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Хотел, да она убежала. Никогда, Аня, не выходи замуж без любви.</p>
         </sp>
@@ -2446,7 +2442,7 @@
           <speaker>Аня.</speaker>
           <p>Я не выйду. А любить хорошо?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Любовь -- это все в жизни, для нее только и стоит жить.</p>
         </sp>
@@ -2454,7 +2450,7 @@
           <speaker>Аня.</speaker>
           <p>Алешу за любовь из гимназии выгнали. Должно быть, хорошенькая она?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Скверная женщина.</p>
         </sp>
@@ -2462,7 +2458,7 @@
           <speaker>Аня.</speaker>
           <p>А что в ней скверного?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Она арфистка.</p>
         </sp>
@@ -2470,7 +2466,7 @@
           <speaker>Аня.</speaker>
           <p>Арфистки все нехорошие? Они никого не любят?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Кто деньги дает, того и любят.</p>
         </sp>
@@ -2478,7 +2474,7 @@
           <speaker>Аня.</speaker>
           <p>И целуют?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p><stage type="delivery">(тихо, Кате)</stage> Катя! <stage type="delivery">(Зовет ее
               жестом руки.)</stage>О чем они говорят?</p>
@@ -2488,7 +2484,7 @@
           <speaker>Катя.</speaker>
           <p>Плачет папаша, просит его на Распоповой жениться, а он не хочет.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>А он что говорит?</p>
         </sp>
@@ -2496,7 +2492,7 @@
           <speaker>Катя.</speaker>
           <p>Говорит, что никогда без любви не женится.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Ступай. Слушай!</p>
         </sp>
@@ -2505,7 +2501,7 @@
           <speaker>Аня.</speaker>
           <p>Он тебя любит, Леночка?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Ты, Аня, об этом никому не говори. Мы очень друг друга любим. Я б хотела, чтобы ты так
             же любила.</p>
@@ -2514,7 +2510,7 @@
           <speaker>Аня.</speaker>
           <p>Костя никого не любит, кроме тебя, ни мамаши, ни сестер.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Его никто не понимает в семье, только я одна. У него добрая душа.</p>
         </sp>
@@ -2522,7 +2518,7 @@
           <speaker>Аня.</speaker>
           <p>Нет, неправда это. Он злой; все только для себя одного делает.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Ты не знаешь его.</p>
         </sp>
@@ -2870,7 +2866,7 @@
           <p>Свинья! <stage type="delivery">(Садится на диван и читает книгу.)</stage></p>
         </sp>
         <stage>Входит Леночка.</stage>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Костенька, ты здесь! <stage type="delivery">(Подбегает к нему и целует.)</stage></p>
         </sp>
@@ -2878,7 +2874,7 @@
           <speaker>Константин.</speaker>
           <p>В зале, может быть, кто-нибудь есть...</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Никого нет. <stage type="delivery">(Ласкает его.)</stage>Где ты вчера был? Я не спала
             всю ночь... думала...</p>
@@ -2892,7 +2888,7 @@
             где-нибудь в конторе пятьдесят рублей, я ушел бы один или хоть бы с тобой... я был бы
             счастливее.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Вот если бы мы жили с тобой где-нибудь в деревне, в маленьком хуторке... Вместе гуляли
             бы, катались на лодке...</p>
@@ -2901,7 +2897,7 @@
           <speaker>Константин.</speaker>
           <p>Я об этом, Лена, перестал думать. Все это несбыточные мечты.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>А раньше говорил, что это легко... говорил, что скопишь денег, уедем в деревню... Я
             мечтала, надеялась.</p>
@@ -2911,7 +2907,7 @@
           <p>Опять за старое? Брось эти мечты! На мне дело, целая семья... Что говорить сто раз об
             одном и том же!</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Да как же мне не говорить? Ты сам знаешь...</p>
         </sp>
@@ -2919,7 +2915,7 @@
           <speaker>Константин</speaker>
           <p><stage type="delivery">(грубо)</stage>Была там?..</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Нет.</p>
         </sp>
@@ -2927,7 +2923,7 @@
           <speaker>Константин.</speaker>
           <p>Ну вот видишь!</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Мне неловко, стыдно...</p>
         </sp>
@@ -2937,7 +2933,7 @@
             какая-то... не знаю, как ее фамилия... спросишь: где тут живет акушерка?-- всякий
             покажет. Она тебя не знает -- не все ли равно?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Да что там ездить? Я чувствую...</p>
         </sp>
@@ -2945,14 +2941,14 @@
           <speaker>Константин.</speaker>
           <p>Ну, Леночка, для меня. Если это так, я просто голову потеряю!</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Говорил, что, если будет ребенок, уйдешь... Константин. Довольно... говорить здесь
             неудобно... Приходи ночью. <stage>Пауза. Леночка хочет еще что-то сказать, но не
               решается.</stage> Я читаю дневник Нансена. Замечательно интересно! Представь себе:
             холод, постоянная ночь, кругом лед, и среди этого льда -- кучка людей.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Месяц пройдет, что же я буду делать?</p>
         </sp>
@@ -2961,7 +2957,7 @@
           <p>Тебя ничем не заинтересуешь! Как я ни стараюсь, ничего не выходит. Ничего общего!
             Удивительно интересно иметь такую жену...</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Я слышала... Ты говорил: один лед и люди...</p>
         </sp>
@@ -2969,7 +2965,7 @@
           <speaker>Константин.</speaker>
           <p>Ну что же, один лед и люди?..</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Да ты же говорил... <stage>Молчание. Константин читает.</stage> Костенька, почитай
             вслух.</p>
@@ -2978,7 +2974,7 @@
           <speaker>Константин.</speaker>
           <p>Иди лучше ковыряй иглой.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Тут ничего нет такого. Я сама себе все шью. Что же из этого? Я дома и на других
             работаю.</p>
@@ -2988,7 +2984,7 @@
           <p>Вот и поезжай и шей дома! Я думал, что из тебя можно что-нибудь сделать... Грамматику и
             в руки не берешь, больше месяца не диктовали.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Какая тут диктовка! Не то на уме...</p>
         </sp>
@@ -3001,7 +2997,7 @@
           <speaker>Красавин.</speaker>
           <p>Что это не видно Людмилочки?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Она в церкви.</p>
         </sp>
@@ -3054,7 +3050,7 @@
             проторгуетесь. Разве есть у вас порядок в магазине? У меня в Москве...</p>
         </sp>
         <stage>Церковный звон.</stage>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка</speaker>
           <p><stage type="delivery">(у окна)</stage> Обедня кончилась, народ выходит.</p>
         </sp>
@@ -3062,7 +3058,7 @@
           <speaker>Красавин.</speaker>
           <p>Купец должен вставать в шесть часов утра и ни о чем не думать, кроме торговли.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Сколько народу! Латышиха причащалась!</p>
         </sp>
@@ -3102,7 +3098,7 @@
           <speaker>Ванюшин.</speaker>
           <p>Что ты тут буянишь?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка</speaker>
           <p><stage type="delivery">(целуя руку)</stage>Поздравляю вас, дядюшка. <stage
               type="delivery">(Уходит.)</stage></p>
@@ -3233,7 +3229,7 @@
           <speaker>Арина Ивановна.</speaker>
           <p>Людмилочка, что ты!</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Она шутит.</p>
         </sp>
@@ -3339,7 +3335,7 @@
           <speaker>Аня.</speaker>
           <p>Вот папаша какой сегодня!</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Я его просто не узнаю. И что с ним сделалось.</p>
         </sp>
@@ -3347,7 +3343,7 @@
           <speaker>Аня.</speaker>
           <p>Надо Алешу позвать, сегодня он его простит.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Как бы опять не рассердился? Сегодня не надо, такой день...</p>
         </sp>
@@ -3424,7 +3420,7 @@
           <speaker>Арина Ивановна.</speaker>
           <p>Чай, не придет? Авось ради такого дня все исправится. А ты что, Леночка, что?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Я не хочу.</p>
         </sp>
@@ -3435,7 +3431,7 @@
           <p><stage type="delivery">(здороваясь)</stage>Мое почтение. В уединении? Мечтаете? Вам
             есть о чем мечтать...</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Каждый человек мечтает.</p>
         </sp>
@@ -3443,7 +3439,7 @@
           <speaker>Щеткин.</speaker>
           <p>А вы в особенности. Ах да! Я должен перед вами извиниться...</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>За что?</p>
         </sp>
@@ -3453,7 +3449,7 @@
             Александровича. Вы в столовой были совершенно вправе за него заступиться: он ни с какой
             кассиршей не живет, да ему и незачем.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Вы постоянно клевещете... И какое вам дело?</p>
         </sp>
@@ -3462,7 +3458,7 @@
           <p>Никакого дела, если это на стороне, но раз в семье, к членам которой имею несчастие
             принадлежать я,-- это другое дело... Да-с.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>О чем вы говорите?</p>
         </sp>
@@ -3470,7 +3466,7 @@
           <speaker>Щеткин.</speaker>
           <p>Вы прекрасно знаете. Слухами полна вся дворня.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p><stage type="delivery">(вспыхнув)</stage>Я Косте скажу.</p>
         </sp>
@@ -3666,7 +3662,7 @@
           <speaker>Ванюшин.</speaker>
           <p>Где Елена? Елену сюда... <stage>Леночка робко входит.</stage> Слышала? Что скажешь?</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Это, дядя, неправда. Я с Костенькой просто дружна... читаем, разговариваем...</p>
         </sp>
@@ -3707,7 +3703,7 @@
           <p>После таких сцен тебе нельзя здесь оставаться ни минуты. Чтоб прекратить этот скандал,
             я тебя отправлю домой. Едем на вокзал.</p>
         </sp>
-        <sp who="#Lenochka">
+        <sp who="#Lena">
           <speaker>Леночка.</speaker>
           <p>Костенька!..</p>
         </sp>
