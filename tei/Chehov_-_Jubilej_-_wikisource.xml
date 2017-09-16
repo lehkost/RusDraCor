@@ -49,18 +49,23 @@
         <listPerson>
           <person xml:id="Hirin" sex="MALE">
             <persName>Хирин</persName>
+            <persName xml:lang="en">Kusma Nicolaievitch Khirin</persName>
           </person>
           <person xml:id="Shipuchin" sex="MALE">
             <persName>Шипучин</persName>
+            <persName xml:lang="en">Andrey Andreyevitch Shipuchin</persName>
           </person>
           <person xml:id="TatjanaAlekseevna" sex="FEMALE">
             <persName>Татьяна Алексеевна</persName>
+            <persName xml:lang="en">Tatiana Alexeyevna</persName>
           </person>
           <person xml:id="Merchutkina" sex="FEMALE">
             <persName>Мерчуткина</persName>
+            <persName xml:lang="en">Nastasya Fyodorovna Merchutkina</persName>
           </person>
           <person xml:id="ChlenBanka" sex="MALE">
             <persName>Член банка</persName>
+            <persName xml:lang="en">One of the deputation</persName>
           </person>
         </listPerson>
       </particDesc>
