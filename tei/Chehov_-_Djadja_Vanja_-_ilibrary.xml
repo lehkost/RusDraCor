@@ -47,33 +47,43 @@
         <listPerson>
           <person xml:id="MarijaVasilevna" sex="FEMALE">
             <persName>Мария Васильевна</persName>
+            <persName xml:lang="en">Mme. VOitskaya</persName>
           </person>
           <person xml:id="Telegin" sex="MALE">
             <persName>Телегин</persName>
+            <persName xml:lang="en">Ilia (Waffles) Telegin</persName>
           </person>
           <person xml:id="GolosStorozha" sex="MALE">
             <persName>Голос сторожа (Ефим)</persName>
+            <persName xml:lang="en">Voice of the watchman</persName>
           </person>
           <person xml:id="Rabotnik" sex="MALE">
             <persName>Работник</persName>
+            <persName xml:lang="en">A workman</persName>
           </person>
           <person xml:id="Astrov" sex="MALE">
             <persName>Астров</persName>
+            <persName xml:lang="en">Michael Astroff</persName>
           </person>
           <person xml:id="Serebrjakov" sex="MALE">
             <persName>Серебряков</persName>
+            <persName xml:lang="en">Alexander Serebrakoff</persName>
           </person>
           <person xml:id="Vojnitskij" sex="MALE">
             <persName>Войницкий</persName>
+            <persName xml:lang="en">Ivan (Vanya) Voitski</persName>
           </person>
           <person xml:id="Marina" sex="FEMALE">
             <persName>Марина</persName>
+            <persName xml:lang="en">Marina</persName>
           </person>
           <person xml:id="Sonja" sex="FEMALE">
             <persName>Соня</persName>
+            <persName xml:lang="en">Sonia</persName>
           </person>
           <person xml:id="ElenaAndreevna" sex="FEMALE">
             <persName>Елена Андреевна</persName>
+            <persName xml:lang="en">Helena</persName>
           </person>
         </listPerson>
       </particDesc>
