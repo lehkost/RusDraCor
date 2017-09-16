@@ -47,39 +47,51 @@
         <listPerson>
           <person xml:id="Shamraev" sex="MALE">
             <persName>Шамраев</persName>
+            <persName xml:lang="en">Shamraeff</persName>
           </person>
           <person xml:id="Arkadina" sex="FEMALE">
             <persName>Аркадина</persName>
+            <persName xml:lang="en">Arkadina</persName>
           </person>
           <person xml:id="Masha" sex="FEMALE">
             <persName>Маша</persName>
+            <persName xml:lang="en">Masha</persName>
           </person>
           <person xml:id="Povar" sex="MALE">
             <persName>Повар</persName>
+            <persName xml:lang="en">A cook</persName>
           </person>
           <person xml:id="Medvedenko" sex="MALE">
             <persName>Медведенко</persName>
+            <persName xml:lang="en">Medviedenko</persName>
           </person>
           <person xml:id="Nina" sex="FEMALE">
             <persName>Нина</persName>
+            <persName xml:lang="en">Nina Zarietchnaya</persName>
           </person>
           <person xml:id="Sorin" sex="MALE">
             <persName>Сорин</persName>
+            <persName xml:lang="en">Peter Sorin</persName>
           </person>
           <person xml:id="PolinaAndreevna" sex="FEMALE">
             <persName>Полина Андреевна</persName>
+            <persName xml:lang="en">Paulina</persName>
           </person>
           <person xml:id="Dorn" sex="MALE">
             <persName>Дорн</persName>
+            <persName xml:lang="en">Eugene Dorn</persName>
           </person>
           <person xml:id="Trigorin" sex="MALE">
             <persName>Тригорин</persName>
+            <persName xml:lang="en">Boris Trigorin</persName>
           </person>
           <person xml:id="Jakov" sex="MALE">
             <persName>Яков</persName>
+            <persName xml:lang="en">Jacob</persName>
           </person>
           <person xml:id="Treplev" sex="MALE">
             <persName>Треплев</persName>
+            <persName xml:lang="en">Constantine Treplieff</persName>
           </person>
         </listPerson>
       </particDesc>
