@@ -50,12 +50,15 @@
         <listPerson>
           <person xml:id="Chubukov" sex="MALE">
             <persName>Чубуков</persName>
+            <persName xml:lang="en">Stepan Stepanovitch Chubukov</persName>
           </person>
           <person xml:id="NataljaStepanovna" sex="FEMALE">
             <persName>Наталья Степановна</persName>
+            <persName xml:lang="en">Natalya Stepanovna</persName>
           </person>
           <person xml:id="Lomov" sex="MALE">
             <persName>Ломов</persName>
+            <persName xml:lang="en">Ivan Vassilevitch Lomov</persName>
           </person>
         </listPerson>
       </particDesc>
