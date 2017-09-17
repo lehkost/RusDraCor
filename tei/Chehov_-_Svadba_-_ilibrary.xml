@@ -52,42 +52,55 @@
         <listPerson>
           <person xml:id="Zmejukina" sex="FEMALE">
             <persName>Змеюкина</persName>
+            <persName xml:lang="en">Anna Martinovna Zmeyukina</persName>
           </person>
           <person xml:id="Jat" sex="MALE">
             <persName>Ять</persName>
+            <persName xml:lang="en">Ivan Mihailovitch Yats</persName>
           </person>
           <person xml:id="Shafer" sex="MALE">
             <persName>Шафер</persName>
+            <persName xml:lang="en">Groomsman</persName>
           </person>
           <person xml:id="NastasjaTimofeevna" sex="FEMALE">
             <persName>Настасья Тимофеевна</persName>
+            <persName xml:lang="en">Nastasya Timofeyevna</persName>
           </person>
           <person xml:id="Aplombov" sex="MALE">
             <persName>Апломбов</persName>
+            <persName xml:lang="en">Epaminond Maximovitch Aplombov</persName>
           </person>
           <person xml:id="Lakej" sex="MALE">
             <persName>Лакей</persName>
+            <persName xml:lang="en">A waiter</persName>
           </person>
           <person xml:id="Zhigalov" sex="MALE">
             <persName>Жигалов</persName>
+            <persName xml:lang="en">Evdokim Zaharovitch Zhigalov</persName>
           </person>
           <person xml:id="Dymba" sex="MALE">
             <persName>Дымба</persName>
+            <persName xml:lang="en">Harlampi Spiridonovitch Dimba</persName>
           </person>
           <person xml:id="Kavalery" sex="MALE">
             <persName>Кавалеры</persName>
+            <persName xml:lang="en">Gentlemen</persName>
           </person>
           <person xml:id="Njunin" sex="MALE">
             <persName>Нюнин</persName>
+            <persName xml:lang="en">Andrey Andreyevitch Nunin</persName>
           </person>
           <person xml:id="Mozgovoj" sex="MALE">
             <persName>Мозговой</persName>
+            <persName xml:lang="en">Dmitri Stepanovitch Mozgovoy</persName>
           </person>
           <person xml:id="Dashenka" sex="FEMALE">
             <persName>Дашенька</persName>
+            <persName xml:lang="en">Dashenka</persName>
           </person>
           <person xml:id="Revunov" sex="MALE">
             <persName>Ревунов</persName>
+            <persName xml:lang="en">Fyodor Yakovlevitch Revunov-Karaulov</persName>
           </person>
         </listPerson>
       </particDesc>
