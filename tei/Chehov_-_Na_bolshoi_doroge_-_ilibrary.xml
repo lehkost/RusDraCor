@@ -48,36 +48,47 @@
         <listPerson>
           <person xml:id="Efimovna" sex="FEMALE">
             <persName>Ефимовна</persName>
+            <persName xml:lang="en">Efiovna</persName>
           </person>
           <person xml:id="Nazarovna" sex="FEMALE">
             <persName>Назаровна</persName>
+            <persName xml:lang="en">Nazarovna</persName>
           </person>
           <person xml:id="Savva" sex="MALE">
             <persName>Савва</persName>
+            <persName xml:lang="en">Savva</persName>
           </person>
           <person xml:id="Fedja" sex="MALE">
             <persName>Федя</persName>
+            <persName xml:lang="en">Fedya</persName>
           </person>
           <person xml:id="GolosIzUgla" sex="UNKNOWN">
             <persName>Голос из угла</persName>
+            <persName xml:lang="en">A voice from the corner</persName>
           </person>
           <person xml:id="Bortsov" sex="MALE">
             <persName>Борцов</persName>
+            <persName xml:lang="en">Semyon Sergeyevitch Bortsov</persName>
           </person>
           <person xml:id="Tihon" sex="MALE">
             <persName>Тихон</persName>
+            <persName xml:lang="en">Tihon Evstigneyev</persName>
           </person>
           <person xml:id="Merik" sex="MALE">
             <persName>Мерик</persName>
+            <persName xml:lang="en">Egor Merik</persName>
           </person>
           <person xml:id="Kuzma" sex="MALE">
             <persName>Кузьма</persName>
+            <persName xml:lang="en">Kusma</persName>
           </person>
           <person xml:id="Kucher" sex="MALE">
             <persName>Кучер</persName>
+            <persName xml:lang="en">Bortsov's Wife Coachman</persName>
           </person>
           <person xml:id="MarjaEgorovna" sex="FEMALE">
             <persName>Марья Егоровна</persName>
+            <persName xml:lang="en">Maria Egorovna</persName>
           </person>
         </listPerson>
       </particDesc>
