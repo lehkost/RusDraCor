@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Спор древних греческих философов об изящном</title>
+        <title type="main" xml:lang="en">Discourse between Two Greek Philosophers about
+          Beauty</title>
+        <title type="sub" xml:lang="ru">Драматическая сцена из древнегреческой классической жизни в
+          стихах.</title>
+        <title type="sub" xml:lang="en">Dramatic Scene from Hellenic Classical Life in
+          Verse.</title>
+        <author key="Wikidata:Q1784989">Козьма Прутков</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL"/>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL"
+            >https://ru.wikisource.org/wiki/Спор_древних_греческих_философов_об_изящном_(Прутков)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1854">"Первая опубликованная пьеса Козьмы Пруткова —
+              «Современник», 1854, № 2." (Wikisource)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Klefiston" sex="MALE">
+            <persName>Клефистон</persName>
+          </person>
+          <person xml:id="Stif" sex="MALE">
+            <persName>Стиф</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle" subtype="drama">Драматическая сцена из древнегреческой
+            классической жизни в стихах</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
+        <change who="#ff" when="2017-04-19">establish well-formedness</change>
+        <change who="#sveta" when="2017-05-01">checked IDs, everything is ok</change>
+        <change who="#to" when="2017-06-03">added gender info</change>
+        <change who="#ff" when="2017-06-16">added English title</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Спор древних греческих философов об изящном</titlePart>
+        <titlePart type="sub">Действие происходит в окрестностях Древних Афин.</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castGroup rend="braced">
+          <castItem><role>Клефистон</role></castItem>
+          <castItem><role>Стиф</role></castItem>
+          <roleDesc>древние греческие философы.</roleDesc>
+        </castGroup>
+      </castList>
+    </front>
+    <body>
+      <div type="scene">
+        <stage>Сцена представляет восхитительное местоположение в окрестностях Древних Афин,
+          украшенное всеми изумительными дарами древней благодатной греческой природы, то есть:
+          анемонами, змеями, ползающими по цистернам; медяницами, сосущими померанцы; акамфами,
+          платановыми темнопрохладными наметами, раскидистыми пальмами, летающими щурами, зеленеющим
+          мелисом и мастикой. Вдали виден Акрополь, поражающий гармонией своих линий. На первом
+          плане, у каждой стороны сцены, стоит по курящемуся жертвеннику на золоченом треножнике.
+          Сцена пуста. Немного погодя из глубины сцены выходят, с противоположных сторон, два
+          философа: Клефистон и Стиф. Оба в белых хламидах, с гордою осанкою и с пластическими
+          телодвижениями. Медленно переставляя ноги, так что одна всегда остается далеко позади
+          другой, они сближаются постепенно к середине сцены, приостанавливаются, указывают друг
+          другу на жертвенник своей стороны и направляют к тому жертвеннику свои тихие шаги. Дойдя
+          до жертвенников, они останавливаются, возлагают одну руку на жертвенник и
+          начинают:</stage>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Да, я люблю среди лавров и роз</l>
+          <l>Смуглых сатиров затеи.</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Да, я люблю и Лесбос и Парос.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Да, я люблю Пропилеи.</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Да, я люблю, чтоб певец Демодок</l>
+          <l>В душу вдыхал мне свой пламень.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Фивского мрамора белый кусок!</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Тирский увесистый камень!</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Туники складки!</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l part="F"> Хламиды извив!</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Пляску в движении мерном.</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Сук, наклоненный под бременем слив.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Чашу с душистым фалерном!</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Любо смотреть мне на группу борцов,</l>
+          <l>Так охвативших друг друга!</l>
+          <stage>(Показывает руками.)</stage>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Взмахи могучих люблю кулаков!</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Мышцы, надутые туго.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Ногу — на столько подвинуть вперед!</l>
+          <stage>Оба, смотря друг на друга, выдвигают: один левую, другой правую ногу.</stage>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Руку — вот этак закинуть!</l>
+          <stage>Оба, смотря друг на друга, закидывают дугообразно: один левую, другой правую
+            руку.</stage>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Телу изящный придать поворот...</l>
+          <stage>Оба пластически откидываются: один влево, другой вправо.</stage>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Ногу назад отодвинуть!</l>
+          <stage>Оба поспешно отодвигают выдвинутую ногу.</stage>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Часто лежу я под сенью дерев.</l>
+          <stage>Оба принимают прежнее спокойное положение, опустив опять одну руку на
+            жертвенник.</stage>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Внемлю кузнечиков крикам.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Нравится мне на стене барельеф.</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Я все брожу под портиком!</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Думы рождает во мне кипарис.</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Плачу под звук тетрахордин.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <l>Страстно люблю архитрав и карниз.</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <l>Я же — дорический орден.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <stage type="delivery">(разгорячась)</stage>
+          <l>Барсову кожу я гладить люблю!</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <stage type="delivery">(с самодовольством)</stage>
+          <l>Нюхать янтарные токи!</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <stage type="delivery">(со злобой)</stage>
+          <l>Ем виноград!</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <stage type="delivery">(с гордостью)</stage>
+          <l part="F"> Я ж охотно треплю</l>
+          <l>Отрока полные щеки.</l>
+        </sp>
+        <sp who="#Klefiston">
+          <speaker>Клефистон</speaker>
+          <stage type="delivery">(самоуверенно)</stage>
+          <l>Свесть не могу очарованных глаз</l>
+          <l>С формы изящной котурна.</l>
+        </sp>
+        <sp who="#Stif">
+          <speaker>Стиф</speaker>
+          <stage type="delivery">(со спокойным торжеством и с сознанием своего достоинства)</stage>
+          <l>После прогулок моих утомясь,</l>
+          <l>Я опираюсь на урну.</l>
+          <stage>Изящно изгибаясь всем станом, опирается локтем правой руки на кулак левой, будто на
+            урну, выказывая таким образом пластическую выпуклость одного бедра и одной
+            Лядвеи.</stage>
+        </sp>
+        <stage>Клефистон бросает на Стифа завистливый взгляд. Постояв так немного, они оба
+          отворачиваются от своего жертвенника к противоположному, заднему углу стены и, злобно
+          взглядывая друг на друга, направляются туда столь же медленно, как выходили на сцену. С
+          уходом их сцена остается пуста. По цистернам ползают змеи, а медяницы продолжают сосать
+          померанцы. Акрополь все еще виден вдали.</stage>
+      </div>
+    </body>
+  </text>
+</TEI>
