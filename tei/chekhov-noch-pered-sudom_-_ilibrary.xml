@@ -47,15 +47,23 @@
         <listPerson>
           <person xml:id="Zajtsev" sex="MALE">
             <persName>Зайцев</persName>
+            <persName xml:lang="en">Zaytsev</persName>
+            <persName xml:lang="de">Zajcev</persName>
           </person>
           <person xml:id="Smotritel" sex="MALE">
             <persName>Смотритель</persName>
+            <persName xml:lang="en">Stationmaster</persName>
+            <persName xml:lang="de">Der Postmeister</persName>
           </person>
           <person xml:id="Zinochka" sex="FEMALE">
             <persName>Зиночка</persName>
+            <persName xml:lang="en">Zina</persName>
+            <persName xml:lang="de">Zinočka</persName>
           </person>
           <person xml:id="Gusev" sex="MALE">
             <persName>Гусев</persName>
+            <persName xml:lang="en">Gusev</persName>
+            <persName xml:lang="de">Gusev</persName>
           </person>
         </listPerson>
       </particDesc>
