@@ -139,11 +139,20 @@
       <listChange>
         <change who="#km" when="2017-06-30">converted from source</change>
         <change who="GG" when="2017-07-04">corrected ids, added gender</change>
+        <change who="#km" when="2017-09-06">added epigraph</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
+      <epigraph>
+        <cit>
+          <quote><p>А я говорю вам, что всякий, кто смотрит на женщину с вожделением, уже прелюбодействовал с нею в сердце своем.</p>
+          <p>Если же правый глаз соблазняет тебя, вырви его и брось от себя, ибо лучше, чтобы погиб один из членов твоих, а не все тело твое было ввержено в геенну.</p>
+          </quote>
+        </cit>
+        <bibl>Мф. V, 28, 29</bibl>
+      </epigraph>      
       <div type="act">
         <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
         <castList>
