@@ -102,6 +102,11 @@ while current_tag.find_next(target_tag_list):
 
             xml_current_speech_tag = ET.SubElement(xml_current_scene_tag,
                                                    "sp", attrib=new_speech_dict)
+
+            #add speaker tag
+            xml_speaker_tag = ET.SubElement(xml_current_speech_tag, "speaker")
+            xml_speaker_tag.text = speaker_name
+
             if speaker_name is not None:
                 xml_current_speech_tag.set("who", "#" + get_latin_name(speaker_name))
 
