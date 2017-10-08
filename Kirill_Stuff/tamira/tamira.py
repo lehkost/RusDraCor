@@ -138,9 +138,13 @@ while current_tag.find_next(target_tag_list):
             xml_cast_item.text = person_desc
             continue
 
+
+        continue
+
         # regular speech
     if current_tag.name == "span":
-        if current_tag["class"][0] == "line":
+        if current_tag["class"][0][:4] == "line":
+
 
             # add speech tag
 
@@ -150,7 +154,11 @@ while current_tag.find_next(target_tag_list):
                     # it is a text
 
                     if child_tag.string is not None and child_tag.string.strip() != "":
-                        xml_current_phrase = ET.SubElement(xml_current_speech_tag, "l")
+                        #for lomonosov, subject of change                 
+                        if current_tag["class"][0] != "line":
+                            xml_current_phrase = ET.SubElement(xml_current_speech_tag, "l", attrib={"part": "F"})
+                        else:
+                            xml_current_phrase = ET.SubElement(xml_current_speech_tag, "l")
                         xml_current_phrase.text = child_tag.string.strip()
                 if child_tag.name == "a":
                     print("aaaaa")
@@ -173,19 +181,9 @@ while current_tag.find_next(target_tag_list):
                         xml_current_phrase = ET.SubElement(xml_current_speech_tag, "stage",
                                                            attrib=new_speech_stage_delivery)
                         xml_current_phrase.text = child_tag.string.strip()
-
-            # set who attribute
-            # if speaker_name is not None:
-            #     xml_current_speech_tag.set("who", "#" + get_latin_name(speaker_name))
-
-            #     dictio[speaker_name] = get_latin_name(speaker_name)
-            # else:
-            #     print(previous_speaker_name)
-            #     print("Warning: fix who for:")
-            #     print(current_tag)
-
-            # # update info about prev speaker
-            # previous_speaker_name = speaker_name
+        else:
+            print("non line in <span>, tag", current_tag["class"][0])
+        continue
 
     # new yavlenie ?
     if current_tag.name == "h3":
@@ -206,6 +204,8 @@ while current_tag.find_next(target_tag_list):
             xml_add_head = ET.SubElement(xml_current_scene_tag, "head")
             xml_add_head.text = current_tag.string.strip()
 
+        continue
+
     # new deistvie ?
     if current_tag.name == "h2":
         now_cast_list = False
@@ -214,32 +214,15 @@ while current_tag.find_next(target_tag_list):
                                             "div", attrib=new_act_dict)
         xml_add_head = ET.SubElement(xml_current_act_tag, "head")
         xml_add_head.text = current_tag.string.strip()
+        continue
 
+    if current_tag.name == "div":
+        continue
+
+    print("skipping tag in the main loop:", current_tag.name)
 
 
 # write results
 resulting_xml = ET.ElementTree(element=xml_text)
 indent(resulting_xml.getroot())
 resulting_xml.write("sample.xml", encoding="utf-8")
-
-# import lxml.etree as etree
-
-# text_p = etree.parse("sample.xml", encoding="utf-8")
-
-# string = str(etree.tostring(text_p, pretty_print=True))
-# pretty_file = open('sample_nice.xml', 'w')
-# pretty_file.write(string)
-
-# listpers = ET.Element("listPerson")
-#
-#
-# print(dictio)
-#
-# for key, value in dictio.items():
-#     temp = ET.SubElement(listpers, "person", attrib={"xml:id": "#" + value})
-#     ET.SubElement(temp, "persName").text = key
-#
-# resulting_xml = ET.ElementTree(element=listpers)
-# indent(resulting_xml.getroot())
-# resulting_xml.write("kek_sample.xml", encoding="utf-8")
-#
