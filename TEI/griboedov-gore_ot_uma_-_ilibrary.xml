@@ -28,11 +28,12 @@
             </licence>
           </availability>
           <bibl type="originalSource">
-            <title>А. Грибоедов. Горе от ума. А. Сухово-Кобылин. Пьесы. А. Островский. Пьесы. "Библиотека
-       Всемирной литературы", М.: Художественная литература, 1974.</title>
-       		<date type="print" when="1974"/>
-      		<date type="premiere"/>
-      		<date type="written" from="1812" to="1824"/>
+            <title>А. Грибоедов. Горе от ума. А. Сухово-Кобылин. Пьесы. А. Островский. Пьесы.
+              "Библиотека Всемирной литературы", М.: Художественная литература, 1974.</title>
+            <date type="print" when="1825">"Дата первой публикации: 1825 (первая полная – 1862)"
+              (Wikipedia)</date>
+            <date type="premiere"/>
+            <date type="written" when="1824">"Дата написания: 1822—1824" (Wikipedia)</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -40,31 +41,25 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="GolosSofii">
-            <persName>Голос Софии</persName>
-          </person>
           <person xml:id="NataljaDmitrievna">
             <persName>Наталья Дмитриевна</persName>
           </person>
-          <person xml:id="pervajajaknjazhna">
+          <person xml:id="PervajajaKnjazhna">
             <persName>1-я княжна</persName>
           </person>
           <person xml:id="Skalozub">
             <persName>Скалозуб</persName>
           </person>
-          <person xml:id="Vsevmeste">
-            <persName>Все вместе</persName>
-          </person>
-          <person xml:id="chetviortajajaknjazhna">
+          <person xml:id="ChetviortajajaKnjazhna">
             <persName>4-я княжна</persName>
           </person>
           <person xml:id="Knjaz">
             <persName>Князь</persName>
           </person>
-          <person xml:id="vtorajajaknjazhna">
+          <person xml:id="VtorajajaKnjazhna">
             <persName>2-я княжна</persName>
           </person>
-          <person xml:id="tretjajaknjazhna">
+          <person xml:id="TretjajaKnjazhna">
             <persName>3-я княжна</persName>
           </person>
           <person xml:id="Knjaginja">
@@ -72,14 +67,9 @@
           </person>
           <person xml:id="Lizanka">
             <persName>Лизанька</persName>
+            <persName type="variant">Лиза</persName>
           </person>
-          <person xml:id="LizaiSofija">
-            <persName>Лиза и София</persName>
-          </person>
-          <person xml:id="Liza">
-            <persName>Лиза</persName>
-          </person>
-          <person xml:id="Grafinjababushka">
+          <person xml:id="GrafinjaBabushka">
             <persName>Графиня бабушка</persName>
           </person>
           <person xml:id="Lakej">
@@ -103,16 +93,16 @@
           <person xml:id="Zagoretskij">
             <persName>Загорецкий</persName>
           </person>
-          <person xml:id="shestajajaknjazhna">
+          <person xml:id="ShestajajaKnjazhna">
             <persName>6-я княжна</persName>
           </person>
           <person xml:id="GlavnijSluga">
             <persName>Главный слуга</persName>
           </person>
-          <person xml:id="pjatajajaknjazhna">
+          <person xml:id="PjatajajaKnjazhna">
             <persName>5-я княжна</persName>
           </person>
-          <person xml:id="G.D.">
+          <person xml:id="GD">
             <persName>Г. D.</persName>
           </person>
           <person xml:id="Chatskij">
@@ -127,16 +117,13 @@
           <person xml:id="Hlestova">
             <persName>Хлёстова</persName>
           </person>
-          <person xml:id="G.N.">
+          <person xml:id="GN">
             <persName>Г. N.</persName>
           </person>
           <person xml:id="PlatonMihajlovich">
             <persName>Платон Михайлович</persName>
           </person>
-          <person xml:id="Vse">
-            <persName>Все</persName>
-          </person>
-          <person xml:id="Grafinjavnuchka">
+          <person xml:id="GrafinjaVnuchka">
             <persName>Графиня внучка</persName>
           </person>
         </listPerson>
@@ -149,7 +136,8 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change who="#ds">converted from source</change>
+        <change who="#ds" when="2017-10-16">converted from source</change>
+        <change who="#ff" when="2017-10-17">correct and unify some IDs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -204,7 +192,7 @@
               <l>Да расходитесь. Утро. — Что-с?</l>
             </lg>
           </sp>
-          <sp who="#GolosSofii">
+          <sp who="#Sofija">
             <speaker>Голос Софии</speaker>
             <lg>
               <l part="I">Который час?</l>
@@ -253,7 +241,7 @@
         <head>Действие второе</head>
         <div type="scene">
           <head>Явление 1</head>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <stage type="delivery">(одна)</stage>
             <lg>
@@ -1165,7 +1153,7 @@
               <l>Уж не старик ли наш дал маху?</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <stage>(хлопочет около барышни)</stage>
             <lg>
@@ -1192,7 +1180,7 @@
               <l>Помочь ей чем? Скажи скорее.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Там в комнате вода стоит.</l>
@@ -1210,7 +1198,7 @@
               <l part="I">Повеять чем?</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="F">Вот опахало.</l>
@@ -1224,7 +1212,7 @@
               <l>Безделица ее тревожит.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Да-с, барышнин несчастен нрав.</l>
@@ -1291,7 +1279,7 @@
               <l part="I">Пойдем туда, бежим.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <stage>(отводит ее в сторону)</stage>
             <lg>
@@ -1319,7 +1307,7 @@
               <l part="I">Желал бы с ним убиться...</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="F">Для компаньи?</l>
@@ -1490,7 +1478,7 @@
               <l>Платком перевязал, не больно мне с тех пор.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Ударюсь об заклад, что вздор,</l>
@@ -1546,7 +1534,7 @@
               <l>Ах! злые языки страшнее пистолета.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Сидят они у батюшки теперь,</l>
@@ -1586,7 +1574,7 @@
               <l>Веселое созданье ты! живое!</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Прошу пустить, и без меня вас двое.</l>
@@ -1599,7 +1587,7 @@
               <l part="I">Как я тебя люблю!</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="F">А барышню?</l>
@@ -1613,7 +1601,7 @@
               <stage>(Хочет ее обнять.)</stage>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="F">От скуки!</l>
@@ -1635,7 +1623,7 @@
               <l>С духами сткляночки: резеда и жасмин.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Вы знаете, что я не льщусь на интересы;</l>
@@ -1962,7 +1950,7 @@
         </div>
         <div type="scene">
           <head>Явление 2</head>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <stage>(шепотом)</stage>
             <lg>
@@ -2673,19 +2661,19 @@
               <l part="I">Княжна Зизи! Мими!</l>
             </lg>
           </sp>
-          <sp who="#pervajajaknjazhna">
+          <sp who="#PervajajaKnjazhna">
             <speaker>1-я княжна</speaker>
             <lg>
               <l part="F">Какой фасон прекрасный!</l>
             </lg>
           </sp>
-          <sp who="#vtorajajaknjazhna">
+          <sp who="#VtorajajaKnjazhna">
             <speaker>2-я княжна</speaker>
             <lg>
               <l part="I">Какие складочки!</l>
             </lg>
           </sp>
-          <sp who="#pervajajaknjazhna">
+          <sp who="#PervajajaKnjazhna">
             <speaker>1-я княжна</speaker>
             <lg>
               <l part="F">Обшито бахромой.</l>
@@ -2697,25 +2685,25 @@
               <l>Нет, если б видели, мой тюрлюрлю атласный!</l>
             </lg>
           </sp>
-          <sp who="#tretjajaknjazhna">
+          <sp who="#TretjajaKnjazhna">
             <speaker>3-я княжна</speaker>
             <lg>
               <l>Какой эшарп1 cousin2 мне подарил!</l>
             </lg>
           </sp>
-          <sp who="#chetviortajajaknjazhna">
+          <sp who="#ChetviortajajaKnjazhna">
             <speaker>4-я княжна</speaker>
             <lg>
               <l part="I">Ах! да, барежевый!</l>
             </lg>
           </sp>
-          <sp who="#pjatajajaknjazhna">
+          <sp who="#PjatajajaKnjazhna">
             <speaker>5-я княжна</speaker>
             <lg>
               <l part="F">Ах прелесть!</l>
             </lg>
           </sp>
-          <sp who="#shestajajaknjazhna">
+          <sp who="#ShestajajaKnjazhna">
             <speaker>6-я княжна</speaker>
             <lg>
               <l part="F">Ах! как мил!</l>
@@ -2822,7 +2810,7 @@
         <div type="scene">
           <head>Явление 8</head>
           <stage>Те же и Графини Хрюмины: бабушка и внучка.</stage>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l>Ax! grand' maman!3 Ну, кто так рано приезжает?</l>
@@ -2838,7 +2826,7 @@
               <l>Зла, в девках целый век, уж бог ее простит.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <stage>(вернувшись, направляет на Чацкого двойной лорнет)</stage>
             <lg>
@@ -2851,7 +2839,7 @@
               <l part="I">На что меняться мне?</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">Вернулись холостые?</l>
@@ -2863,7 +2851,7 @@
               <l part="I">На ком жениться мне?</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">В чужих краях на ком?</l>
@@ -2887,7 +2875,7 @@
           <stage>Те же и множество других гостей. Между прочим Загорецкий. Мужчины являются,
             шаркают, отходят в сторону, кочуют из комнаты в комнату и проч. София от себя выходит,
             все к ней навстречу.</stage>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l>Eh! bon soir! vous voilà! Jamais trop diligente,</l>
@@ -3220,7 +3208,7 @@
               <l part="I">Унизить рад, кольнуть; завистлив, горд и зол!</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <stage>(подходит)</stage>
             <lg>
@@ -3233,7 +3221,7 @@
               <l part="I">Об Чацком.</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l part="F">Как его нашли по возвращеньи?</l>
@@ -3245,7 +3233,7 @@
               <l part="I">Он не в своем уме.</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l part="F">Ужли с ума сошел?</l>
@@ -3258,7 +3246,7 @@
               <l part="I">Не то, чтобы совсем...</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l part="F">Однако есть приметы?</l>
@@ -3271,7 +3259,7 @@
               <l part="I">Мне кажется.</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l part="F">Как можно, в эти леты!</l>
@@ -3291,7 +3279,7 @@
         </div>
         <div type="scene">
           <head>Явление 15</head>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l>С ума сошел!.. Ей кажется... вот на!</l>
@@ -3299,49 +3287,49 @@
               <l part="I">Ты слышал?</l>
             </lg>
           </sp>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l part="F">Что?</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l part="F">Об Чацком?</l>
             </lg>
           </sp>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l part="F">Что такое?</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l part="I">С ума сошел!</l>
             </lg>
           </sp>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l part="F">Пустое.</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l>Не я сказал, другие говорят.</l>
             </lg>
           </sp>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l>А ты расславить это рад?</l>
             </lg>
           </sp>
-          <sp who="#G.N.">
+          <sp who="#GN">
             <speaker>Г. N.</speaker>
             <lg>
               <l>Пойду, осведомлюсь; чай кто-нибудь да знает.</l>
@@ -3351,7 +3339,7 @@
         </div>
         <div type="scene">
           <head>Явление 16</head>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l>Верь болтуну!</l>
@@ -3365,7 +3353,7 @@
               <l part="F">Ну?</l>
             </lg>
           </sp>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l part="I">С ума сошел!</l>
@@ -3380,7 +3368,7 @@
               <l>Схватили, в желтый дом, и на́ цепь посадили.</l>
             </lg>
           </sp>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l>Помилуй, он сейчас здесь в комнате был, тут.</l>
@@ -3392,7 +3380,7 @@
               <l>Так с цепи, стало быть, спустили.</l>
             </lg>
           </sp>
-          <sp who="#G.D.">
+          <sp who="#GD">
             <speaker>Г. D.</speaker>
             <lg>
               <l>Ну, милый друг, с тобой не надобно газет,</l>
@@ -3413,7 +3401,7 @@
               <l part="I">Вы слышали об нем?</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">Об ком?</l>
@@ -3425,7 +3413,7 @@
               <l part="I">Об Чацком, он сейчас здесь в комнате был.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">Знаю.</l>
@@ -3439,7 +3427,7 @@
               <l part="I">Он сумасшедший...</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">Что?</l>
@@ -3451,7 +3439,7 @@
               <l part="F">Да, он сошел с ума.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l>Представьте, я заметила сама;</l>
@@ -3462,7 +3450,7 @@
         <div type="scene">
           <head>Явление 18</head>
           <stage>Те же и Графиня бабушка.</stage>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l>Ah! grand'maman, вот чудеса! вот ново!</l>
@@ -3470,14 +3458,14 @@
               <l>Послушайте. Вот прелести! вот мило!..</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l>Мой труг, мне уши залошило;</l>
               <l part="I">Скаши покромче...</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">Время нет!</l>
@@ -3491,7 +3479,7 @@
         <div type="scene">
           <head>Явление 19</head>
           <stage>Загорецкий, графиня бабушка.</stage>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l part="F">Что? что? уж нет ли здесь пошара?</l>
@@ -3503,7 +3491,7 @@
               <l>Нет, Чацкий произвел всю эту кутерьму.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l>Как, Чацкого? Кто свел в тюрьму?</l>
@@ -3515,7 +3503,7 @@
               <l>В горах изранен в лоб, сошел с ума от раны.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l>Что? К фармазанам в клоб? Пошел он в пусурманы?</l>
@@ -3528,7 +3516,7 @@
               <stage>(Уходит.)</stage>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l part="F">Антон Антоныч! Ах!</l>
@@ -3539,7 +3527,7 @@
         <div type="scene">
           <head>Явление 20</head>
           <stage>Графиня бабушка и Князь Тугоуховский.</stage>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l part="I">Князь, князь! Ох, этот князь, по палам, сам чуть</l>
@@ -3553,7 +3541,7 @@
               <l part="F">А-хм?</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l part="F">Он ничего не слышит!</l>
@@ -3566,7 +3554,7 @@
               <l>Э-хм?</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l>В тюрьму-та, князь, кто Чацкого схватил?</l>
@@ -3578,7 +3566,7 @@
               <l part="I">И-хм?</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l part="F">Тесак ему, да ранец,</l>
@@ -3591,7 +3579,7 @@
               <l>У-хм?</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l>Да!.. в пусурманах он!</l>
@@ -3658,7 +3646,7 @@
               <l>Мне отсоветовал в Москве служить в Архивах.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l>Меня модисткою изволил величать!</l>
@@ -3676,7 +3664,7 @@
               <l part="I">Безумный по всему.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">Я видела из глаз.</l>
@@ -3703,7 +3691,7 @@
               <l part="F">О! верно...</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
               <l part="F">Без сомненья.</l>
@@ -3873,7 +3861,7 @@
               <l>Графини Хрюминой карета.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjavnuchka">
+          <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <stage>(покуда ее укутывают)</stage>
             <lg>
@@ -3882,7 +3870,7 @@
               <l>И не с кем говорить, и не с кем танцовать.</l>
             </lg>
           </sp>
-          <sp who="#Grafinjababushka">
+          <sp who="#GrafinjaBabushka">
             <speaker>Графиня бабушка</speaker>
             <lg>
               <l>Поетем, матушка, мне прафо не под силу,</l>
@@ -4358,11 +4346,8 @@
         </div>
         <div type="scene">
           <head>Явление 6</head>
-          <sp who="#Repetilov">
-            <stage type="delivery">(Останавливается, увидя, что Загорецкий заступил место Скалозуба,
-              который покудова уехал.)</stage>
-            <lg/>
-          </sp>
+          <stage type="delivery">(Останавливается, увидя, что Загорецкий заступил место Скалозуба,
+            который покудова уехал.)</stage>
           <sp who="#Zagoretskij">
             <speaker>Загорецкий</speaker>
             <lg>
@@ -4459,31 +4444,31 @@
               <l>Безумный Чацкий или нет?</l>
             </lg>
           </sp>
-          <sp who="#pervajajaknjazhna">
+          <sp who="#PervajajaKnjazhna">
             <speaker>1-я княжна</speaker>
             <lg>
               <l>Какое ж в этом есть сомненье?</l>
             </lg>
           </sp>
-          <sp who="#vtorajajaknjazhna">
+          <sp who="#VtorajajaKnjazhna">
             <speaker>2-я княжна</speaker>
             <lg>
               <l>Про это знает целый свет.</l>
             </lg>
           </sp>
-          <sp who="#tretjajaknjazhna">
+          <sp who="#TretjajaKnjazhna">
             <speaker>3-я княжна</speaker>
             <lg>
               <l>Дрянские, Хворовы, Варлянские, Скачковы.</l>
             </lg>
           </sp>
-          <sp who="#chetviortajajaknjazhna">
+          <sp who="#ChetviortajajaKnjazhna">
             <speaker>4-я княжна</speaker>
             <lg>
               <l>Ах! вести старые, кому они новы́?</l>
             </lg>
           </sp>
-          <sp who="#pjatajajaknjazhna">
+          <sp who="#PjatajajaKnjazhna">
             <speaker>5-я княжна</speaker>
             <lg>
               <l part="I">Кто сомневается?</l>
@@ -4495,13 +4480,14 @@
               <l part="F">Да вот не верит...</l>
             </lg>
           </sp>
-          <sp who="#shestajajaknjazhna">
+          <sp who="#ShestajajaKnjazhna">
             <speaker>6-я княжна</speaker>
             <lg>
               <l part="F">Вы!</l>
             </lg>
           </sp>
-          <sp who="#Vsevmeste">
+          <sp
+            who="#Zagoretskij #PervajajaKnjazhna #VtorajajaKnjazhna #TretjajaKnjazhna #ChetviortajajaKnjazhna #PjatajajaKnjazhna #ShestajajaKnjazhna">
             <speaker>Все вместе</speaker>
             <lg>
               <l>Мсьё Репетилов! Вы! Мсье Репетилов, что вы!</l>
@@ -4541,7 +4527,8 @@
               <l part="I">За мною, матушка.</l>
             </lg>
           </sp>
-          <sp who="#Vse">
+          <sp
+            who="#Zagoretskij #PervajajaKnjazhna #VtorajajaKnjazhna #TretjajaKnjazhna #ChetviortajajaKnjazhna #PjatajajaKnjazhna #ShestajajaKnjazhna #Knjaginja #Repetilov #Hlestova">
             <speaker>Все</speaker>
             <stage>(друг к другу)</stage>
             <lg>
@@ -4670,7 +4657,7 @@
         <div type="scene">
           <head>Явление 11</head>
           <stage>Чацкий спрятан; Лиза со свечкой.</stage>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="F">Ах! мочи нет! робею!</l>
@@ -4696,7 +4683,7 @@
           <head>Явление 12</head>
           <stage>Чацкий за колонною, Лиза, Молчалин (потягивается и зевает), София (крадется
             сверху).</stage>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Вы, сударь, камень, сударь, лед.</l>
@@ -4708,7 +4695,7 @@
               <l>Ах! Лизанька, ты от себя ли?</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="I">От барышни-с.</l>
@@ -4723,7 +4710,7 @@
               <l>Охота быть тебе лишь только на посылках?</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>А вам, искателям невест,</l>
@@ -4738,7 +4725,7 @@
               <l part="I">Какая свадьба? с кем?</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="F">А с барышней?</l>
@@ -4752,7 +4739,7 @@
               <l>Без свадьбы время проволочим.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Что вы, суда́рь! да мы кого ж</l>
@@ -4791,7 +4778,7 @@
               <l part="F">Подлец!</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l part="I">И вам не совестно?</l>
@@ -4809,7 +4796,7 @@
               <l>Собаке дворника, чтоб ласкова была.</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Сказать, суда́рь, у вас огромная опека!</l>
@@ -4822,7 +4809,7 @@
               <l>В угодность дочери такого человека...</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Который кормит и поит,</l>
@@ -4950,7 +4937,7 @@
               <l part="F">Он здесь, притворщица!</l>
             </lg>
           </sp>
-          <sp who="#LizaiSofija">
+          <sp who="#Lizanka #Sofija">
             <speaker>Лиза и София</speaker>
             <lg>
               <l part="F">Ах! Ах!..</l>
@@ -4985,7 +4972,7 @@
               <l>Но кто бы думать мог, чтоб был он так коварен!</l>
             </lg>
           </sp>
-          <sp who="#Liza">
+          <sp who="#Lizanka">
             <speaker>Лиза</speaker>
             <lg>
               <l>Стук! шум! ах! боже мой! сюда бежит весь дом.</l>
