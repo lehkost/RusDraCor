@@ -48,45 +48,59 @@
         <listPerson>
           <person xml:id="Olga" sex="FEMALE">
             <persName>Ольга</persName>
+            <persName xml:lang="en">Olga</persName>
           </person>
           <person xml:id="Irina" sex="FEMALE">
             <persName>Ирина</persName>
+            <persName xml:lang="en">Irina</persName>
           </person>
           <person xml:id="Chebutykin" sex="MALE">
             <persName>Чебутыкин</persName>
+            <persName xml:lang="en">Ivan Romanovich Chebutykin</persName>
           </person>
           <person xml:id="Tuzenbah" sex="MALE">
             <persName>Тузенбах</persName>
+            <persName xml:lang="en">Baron Nikolay Lvovitch Tuzenbakh</persName>
           </person>
           <person xml:id="Masha" sex="FEMALE">
             <persName>Маша</persName>
+            <persName xml:lang="en">Masha</persName>
           </person>
           <person xml:id="Solenyj" sex="MALE">
             <persName>Соленый</persName>
+            <persName xml:lang="en">Vassily Vasilevich Solyony</persName>
           </person>
           <person xml:id="Anfisa" sex="FEMALE">
             <persName>Анфиса</persName>
+            <persName xml:lang="en">Anfisa</persName>
           </person>
           <person xml:id="Ferapont" sex="MALE">
             <persName>Ферапонт</persName>
+            <persName xml:lang="en">Ferapont</persName>
           </person>
           <person xml:id="Vershinin" sex="MALE">
             <persName>Вершинин</persName>
+            <persName xml:lang="en">Lieutenant-Colonel Alexandr Ignatievich Vershinin</persName>
           </person>
           <person xml:id="Andrej" sex="MALE">
             <persName>Андрей</persName>
+            <persName xml:lang="en">Andrey Sergeevich Prozorov</persName>
           </person>
           <person xml:id="Natasha" sex="FEMALE">
             <persName>Наташа</persName>
+            <persName xml:lang="en">Natasha</persName>
           </person>
           <person xml:id="Rode" sex="MALE">
             <persName>Родэ</persName>
+            <persName xml:lang="en">Vladimir Karlovitch Rode</persName>
           </person>
           <person xml:id="Kulygin" sex="MALE">
             <persName>Кулыгин</persName>
+            <persName xml:lang="en">Fyodor Ilich Kulygin</persName>
           </person>
           <person xml:id="Fedotik" sex="MALE">
             <persName>Федотик</persName>
+            <persName xml:lang="en">Alexey Petrovitch Fedotik</persName>
           </person>
         </listPerson>
       </particDesc>
