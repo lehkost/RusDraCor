@@ -48,9 +48,11 @@
         <listPerson>
           <person xml:id="Murashkin" sex="MALE">
             <persName>Мурашкин</persName>
+            <persName xml:lang="en">Alexey Alexeyevitch Murashkin</persName>
           </person>
           <person xml:id="Tolkachov" sex="MALE">
             <persName>Толкачов</persName>
+            <persName xml:lang="en">Ivan Ivanovitch Tolkachov</persName>
           </person>
         </listPerson>
       </particDesc>
