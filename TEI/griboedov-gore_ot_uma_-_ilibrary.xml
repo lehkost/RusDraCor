@@ -197,13 +197,13 @@
         <castItem>Алексей Степанович Молчалин, секретарь Фамусова, живущий у него в доме.</castItem>
         <castItem>Александр Андреевич Чацкий.</castItem>
         <castItem>Полковник Скалозуб, Сергей Сергеевич.</castItem>
-        <castGroup>
+        <castGroup rend="braced">
           <castItem>Наталья Дмитриевна, молодая дама</castItem>
           <castItem>Платон Михайлович, муж ее</castItem>
           <roleDesc>Горичи.</roleDesc>
         </castGroup>
         <castItem>Князь Тугоуховский и Княгиня, жена его, с шестью дочерями.</castItem>
-        <castGroup>
+        <castGroup rend="braced">
           <castItem>Графиня бабушка</castItem>
           <castItem>Графиня внучка</castItem>
           <roleDesc>Хрюмины.</roleDesc>
@@ -2588,7 +2588,7 @@
             <speaker>Скалозуб</speaker>
             <lg>
               <l>Ну! я не знал, что будет из того</l>
-              <l>Вам ирритация1. Опро́метью вбежали.—</l>
+              <l>Вам ирритация. Опро́метью вбежали.—</l>
               <l>Мы вздрогнули. — Вы в обморок упали,</l>
               <l>И что ж? — весь страх из ничего.</l>
             </lg>
@@ -3957,7 +3957,7 @@
           <sp who="#TretjajaKnjazhna">
             <speaker>3-я княжна</speaker>
             <lg>
-              <l>Какой эшарп1 cousin2 мне подарил!</l>
+              <l>Какой эшарп cousin мне подарил!</l>
             </lg>
           </sp>
           <sp who="#ChetviortajajaKnjazhna">
@@ -4082,7 +4082,7 @@
           <sp who="#GrafinjaVnuchka">
             <speaker>Графиня внучка</speaker>
             <lg>
-              <l>Ax! grand' maman!3 Ну, кто так рано приезжает?</l>
+              <l>Ax! grand' maman! Ну, кто так рано приезжает?</l>
               <l part="I">Мы первые!</l>
               <stage>(Пропадает в боковую комнату.)</stage>
             </lg>
@@ -4148,7 +4148,7 @@
             <speaker>Графиня внучка</speaker>
             <lg>
               <l>Eh! bon soir! vous voilà! Jamais trop diligente,</l>
-              <l>Vous nous donnez toujours le plaisir de l'attente4.</l>
+              <l>Vous nous donnez toujours le plaisir de l'attente.</l>
             </lg>
           </sp>
           <sp who="#Zagoretskij">
@@ -4739,7 +4739,7 @@
             <lg>
               <l part="F">Время нет!</l>
               <stage>(Указывает на Загорецкого.)</stage>
-              <l part="F">Il vous dira toute I'histoire5.</l>
+              <l part="F">Il vous dira toute I'histoire.</l>
               <l part="I">Пойду, спрошу...</l>
               <stage>(Уходит.)</stage>
             </lg>
@@ -5399,7 +5399,7 @@
             <lg>
               <l>Тьфу! оплошал. — Ах, мой создатель!</l>
               <l>Дай протереть глаза; откудова? приятель!..</l>
-              <l>Сердечный друг! Любезный друг! Mon cher!1</l>
+              <l>Сердечный друг! Любезный друг! Mon cher!</l>
               <l>Вот фарсы мне как часто были петы,</l>
               <l>Что пустомеля я, что глуп, что суевер,</l>
               <l>Что у меня на всё предчувствия, приметы;</l>
@@ -5620,7 +5620,7 @@
               <l>Ты не слыхал, как он поет? о! диво!</l>
               <l>Послушай, милый, особливо</l>
               <l>Есть у него любимое одно:</l>
-              <l>«А! нон лашьяр ми, но, но, но» 2.</l>
+              <l>«А! нон лашьяр ми, но, но, но».</l>
               <l>Еще у нас два брата:</l>
               <l>Левон и Боринька, чудесные ребята!</l>
               <l>Об них не знаешь что сказать;</l>
