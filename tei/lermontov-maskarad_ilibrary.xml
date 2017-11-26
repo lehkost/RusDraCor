@@ -127,9 +127,9 @@
             <persName>Женская маска</persName>
             <persName xml:lang="de">Eine weibliche Maske</persName>
           </person>
-          <person xml:id="Maska" sex="MALE">
-            <persName>Маска</persName>
-            <persName xml:lang="de">Maske</persName>
+          <person xml:id="Maska_Neizvestnyj" sex="MALE">
+            <persName>Маска (Неизвестный)</persName>
+            <persName xml:lang="de">Eine Maske (der Unbekannte)</persName>
           </person>
           <person xml:id="Sluga_Arbenina" sex="MALE">
             <persName>Слуга Арбенина</persName>
@@ -216,10 +216,6 @@
             <persName>3-й Гость</persName>
             <persName xml:lang="de">Dritter Gast</persName>
           </person>
-          <person xml:id="Neizvestnyj" sex="MALE">
-            <persName>Неизвестный</persName>
-            <persName xml:lang="de">Der Unbekannte</persName>
-          </person>
           <person xml:id="Sluzhanka" sex="FEMALE">
             <persName>Служанка</persName>
             <persName xml:lang="de">Zofe</persName>
@@ -252,6 +248,7 @@
       <listChange>
         <change who="#ds" when="2017-11-21">convert from source</change>
         <change who="#ff" when="2017-11-26">rectify IDs</change>
+        <change who="#ff" when="2017-11-27">correct another ID</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -1372,7 +1369,7 @@
                 <l>Вы знаете ль, кто я?</l>
               </lg>
             </sp>
-            <sp who="#Maska">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Маска</speaker>
               <lg>
                 <l>Я знаю, кто вы были.</l>
@@ -1385,7 +1382,7 @@
                 <l>Вы поступаете бесчестно.</l>
               </lg>
             </sp>
-            <sp who="#Maska">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Маска</speaker>
               <lg>
                 <l>К чему! мое лицо вам так же неизвестно,</l>
@@ -1399,7 +1396,7 @@
                 <l>Сердиться стыдно мне. Вы трус; подите прочь.</l>
               </lg>
             </sp>
-            <sp who="#Maska">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Маска</speaker>
               <lg>
                 <l>Прощайте же, но берегитесь.</l>
@@ -5136,9 +5133,9 @@
                 <l>Махни!</l>
               </lg>
             </sp>
+            <stage>Расходятся, другая группа мужчин.</stage>
             <sp who="#TretijjGost_Bal">
               <speaker>3-й гость</speaker>
-              <stage>Расходятся, другая группа мужчин.</stage>
               <lg>
                 <l>Вы знаете, князь Звездич проигрался.</l>
               </lg>
@@ -5392,6 +5389,24 @@
                 <l>Авось исправишь!</l>
                 <stage>(Поет.)</stage>
               </lg>
+              <lg>
+                <l>Когда печаль слезой невольной</l>
+                <l>Промчится по глазам твоим,</l>
+                <l>Мне видеть и понять не больно,</l>
+                <l>Что ты несчастлива с другим.</l>
+              </lg>
+              <lg>
+                <l>Незримый червь незримо гложет</l>
+                <l>Жизнь беззащитную твою,</l>
+                <l>И что ж? я рад, что он не может</l>
+                <l>Тебя любить, как я люблю.</l>
+              </lg>
+              <lg>
+                <l>Но если счастие случайно</l>
+                <l>Блеснет в лучах твоих очей,</l>
+                <l>Тогда я мучусь горько, тайно,</l>
+                <l>И целый ад в груди моей.</l>
+              </lg>
             </sp>
           </div>
           <div type="enter">
@@ -5625,7 +5640,7 @@
                 <l>Нет, нынче я доволен был тобой.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <stage type="delivery">(оставшись один)</stage>
               <lg>
@@ -6297,13 +6312,13 @@
                 <l>Уж доживете вы до бед.</l>
               </lg>
             </sp>
+            <stage>Уходят.</stage>
           </div>
           <div type="enter">
             <head>Выход четвертый</head>
             <stage>Выходят из комнаты покойницы доктор и старик.</stage>
             <sp who="#Starik">
               <speaker>Старик</speaker>
-              <stage>Уходят.</stage>
               <lg>
                 <l>При вас она скончалась?</l>
               </lg>
@@ -6398,7 +6413,7 @@
           <div type="enter">
             <head>Выход шестой</head>
             <stage>Входят: Неизвестный и князь.</stage>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Позвольте вас спросить — Арбенина нельзя ль</l>
@@ -6412,7 +6427,7 @@
                 <l>Жена его вчера скончалась.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Очень жаль.</l>
@@ -6424,7 +6439,7 @@
                 <l>И он так огорчен.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Я и об нем жалею.</l>
@@ -6437,7 +6452,7 @@
                 <l>Он? дома! — да.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Я дело до него преважное имею.</l>
@@ -6449,7 +6464,7 @@
                 <l>Вы из друзей его, конечно, господа?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Покамест нет — но мы пришли сюда,</l>
@@ -6493,7 +6508,7 @@
                 <l>О, наконец!</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Лицо у вас в огне.</l>
@@ -6507,7 +6522,7 @@
                 <l>Что справедливо ваше подозренье?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Послушайте — у нас обоих цель одна.</l>
@@ -6533,7 +6548,7 @@
                 <l>Я был обижен им?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Я рассказать бы рад,</l>
@@ -6547,7 +6562,7 @@
                 <l>Мысль нестерпимая!</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Она вас слишком мучит.</l>
@@ -6559,7 +6574,7 @@
                 <l>О, вы не знали, что такое стыд.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Стыд? — нет — и опыт вас забыть о нем научит.</l>
@@ -6571,7 +6586,7 @@
                 <l>Но кто вы?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Имя нужно вам?</l>
@@ -6612,7 +6627,7 @@
                 <l>Меня осмелится?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Осмелюсь — я!</l>
@@ -6625,7 +6640,7 @@
                 <l>А кто же вы?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Не мудрено, Евгений,</l>
@@ -6638,7 +6653,7 @@
                 <l>Но кто вы?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Я твой добрый гений.</l>
@@ -6656,7 +6671,7 @@
                 <l>Прошу немедленно. Я говорю серьезно.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Всё так — но, несмотря на голос грозный</l>
@@ -6680,7 +6695,7 @@
                 <l>Я слушаю.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <stage type="delivery">(в сторону)</stage>
               <lg>
@@ -6707,7 +6722,7 @@
                 <l>Дебют хорош.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Конец не будет хуже.</l>
@@ -6753,7 +6768,7 @@
                 <l>Прочь — я узнал тебя — узнал!..</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Прочь! разве это все — ты надо мной смеялся,</l>
@@ -6781,7 +6796,7 @@
                 <l>Убил? — я? — Князь! О! что такое...</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <stage type="delivery">(отступая)</stage>
               <lg>
@@ -6836,7 +6851,7 @@
                 <l>Теперь я счастлив.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <stage type="delivery">(останавливая)</stage>
               <lg>
@@ -6860,7 +6875,7 @@
                 <l>Что? что?</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Твоя жена невинна — слишком строго</l>
@@ -6891,7 +6906,7 @@
                 <l>Читайте же скорей — мне дороги мгновенья...</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <stage type="delivery">(подняв глаза к небу, лицемерно)</stage>
               <lg>
@@ -6926,7 +6941,7 @@
                 <l>Рассудок потерял...</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Быть может...</l>
@@ -6938,7 +6953,7 @@
                 <l>Вы помешали мне.</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Мы целим розно.</l>
@@ -6981,7 +6996,7 @@
                 <stage>(Упадает на грудь ему и плачет.)</stage>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <stage type="delivery">(отталкивая его грубо)</stage>
               <lg>
@@ -7009,7 +7024,7 @@
                 <l>Остановите!..</l>
               </lg>
             </sp>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>И этот гордый ум сегодня изнемог!</l>
@@ -7026,7 +7041,7 @@
             </sp>
             <stage>Падает на землю и сидит полулежа с неподвижными глазами.</stage>
             <stage>Князь и Неизвестный стоят над ним.</stage>
-            <sp who="#Neizvestnyj">
+            <sp who="#Maska_Neizvestnyj">
               <speaker>Неизвестный</speaker>
               <lg>
                 <l>Давно хотел я полной мести,</l>
