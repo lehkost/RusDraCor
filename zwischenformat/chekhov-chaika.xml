@@ -1,0 +1,1243 @@
+<play xmlns="http://lina.digital" id="72">
+  <head>
+    <title>Чайка</title>
+    <title>The Seagull</title>
+    <title>Комедия в четырех действиях</title>
+    <title>A Comedy in Four Acts</title>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Медведенко</name>
+      <alias xml:id="Medvedenko"/>
+    </character>
+    <character>
+      <name>Маша</name>
+      <alias xml:id="Masha"/>
+    </character>
+    <character>
+      <name>Сорин</name>
+      <alias xml:id="Sorin"/>
+    </character>
+    <character>
+      <name>Треплев</name>
+      <alias xml:id="Treplev"/>
+    </character>
+    <character>
+      <name>Яков</name>
+      <alias xml:id="Jakov"/>
+    </character>
+    <character>
+      <name>Нина</name>
+      <alias xml:id="Nina"/>
+    </character>
+    <character>
+      <name>Полина Андреевна</name>
+      <alias xml:id="PolinaAndreevna"/>
+    </character>
+    <character>
+      <name>Дорн</name>
+      <alias xml:id="Dorn"/>
+    </character>
+    <character>
+      <name>Шамраев</name>
+      <alias xml:id="Shamraev"/>
+    </character>
+    <character>
+      <name>Аркадина</name>
+      <alias xml:id="Arkadina"/>
+    </character>
+    <character>
+      <name>Тригорин</name>
+      <alias xml:id="Trigorin"/>
+    </character>
+    <character>
+      <name>Повар</name>
+      <alias xml:id="Povar"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Действие первое</head>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="70"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="387"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="156"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="843"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="58"/>
+        </sp>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="63"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="34"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="54"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="270"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Jakov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="2"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="37"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="10"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="52"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="90"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="529"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="150"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="859"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="56"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="76"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="402"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="83"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="74"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="344"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="47"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="189"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Jakov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="39"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="72"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="72"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="346"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="49"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="270"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="106"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="622"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="141"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="59"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="68"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="398"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="80"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="39"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="73"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="140"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="421"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="2232"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="165"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="102"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="123"/>
+        </sp>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="47"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="208"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="1122"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="134"/>
+        </sp>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="10"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="40"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="18"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="23"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="16"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="88"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="71"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="404"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="73"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="422"/>
+        </sp>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="279"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="58"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="352"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="71"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="57"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="60"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="325"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="129"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="79"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="48"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="21"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="192"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="199"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="1183"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="16"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="71"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="33"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="175"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="73"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="36"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="176"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="35"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="187"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие второе</head>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="31"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="166"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="152"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="771"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="82"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="181"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="10"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="93"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="50"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="212"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="46"/>
+        </sp>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="83"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="101"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="535"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="39"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="205"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="246"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="108"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="23"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="41"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="216"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="50"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="303"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="120"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="58"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="73"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="365"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="264"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="126"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="82"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="62"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="227"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="137"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="801"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="471"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="2454"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="269"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="1483"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="47"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="240"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="213"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="66"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие третье</head>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="79"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="384"/>
+        </sp>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="165"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="806"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="50"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="262"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="65"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="457"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="2"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="32"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="101"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Jakov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="2"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="36"/>
+        </sp>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="55"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="45"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="36"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="140"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="730"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="96"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="523"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="144"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="10"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="49"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="168"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="934"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="320"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="1676"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="207"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="1161"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="120"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="713"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="105"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="76"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="52"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Povar">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="74"/>
+        </sp>
+        <sp who="#Jakov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="19"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="39"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="197"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="54"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="33"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="284"/>
+        </sp>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="54"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие четвертое</head>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="348"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="84"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="428"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="57"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="102"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="135"/>
+        </sp>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="70"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="408"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="27"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="115"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="58"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="129"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="50"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="253"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="107"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="626"/>
+        </sp>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="110"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="120"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="737"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="25"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Sorin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="150"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="36"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="45"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="210"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="367"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="1951"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="125"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="664"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="10"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="73"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="76"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="43"/>
+        </sp>
+        <sp who="#Medvedenko">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="116"/>
+        </sp>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="149"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="886"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="58"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="70"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="41"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="26"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="197"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="70"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="348"/>
+        </sp>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="74"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="354"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="30"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="14"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="51"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="79"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="430"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="39"/>
+        </sp>
+        <sp who="#Masha">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="42"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="108"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="134"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="50"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="51"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="263"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Nina">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="330"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="1689"/>
+        </sp>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="281"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="1476"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Treplev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Trigorin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#PolinaAndreevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Arkadina">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="188"/>
+        </sp>
+        <sp who="#Shamraev">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="0"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="29"/>
+        </sp>
+        <sp who="#Dorn">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="131"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

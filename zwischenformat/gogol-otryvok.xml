@@ -1,0 +1,64 @@
+<play xmlns="http://lina.digital" id="55">
+  <head>
+    <title>Отрывок</title>
+    <title>A Fragment</title>
+    <title/>
+    <author>Николай Гоголь</author>
+  </head>
+  <personae>
+    <character>
+      <name>Марья Александровна</name>
+      <alias xml:id="MarjaAleksandrovna"/>
+    </character>
+    <character>
+      <name>Миша</name>
+      <alias xml:id="Misha"/>
+    </character>
+    <character>
+      <name>Лакей</name>
+      <alias xml:id="Lakej"/>
+    </character>
+    <character>
+      <name>Собачкин</name>
+      <alias xml:id="Sobachkin"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>I</head>
+      <sp who="#MarjaAleksandrovna">
+        <amount unit="speechacts" n="33"/>
+        <amount unit="words" n="1043"/>
+        <amount unit="lines" n="34"/>
+        <amount unit="characters" n="5275"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="31"/>
+        <amount unit="words" n="890"/>
+        <amount unit="lines" n="32"/>
+        <amount unit="characters" n="4533"/>
+      </sp>
+      <sp who="#Lakej">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="17"/>
+      </sp>
+    </div>
+    <div>
+      <head>II</head>
+      <sp who="#MarjaAleksandrovna">
+        <amount unit="speechacts" n="27"/>
+        <amount unit="words" n="620"/>
+        <amount unit="lines" n="32"/>
+        <amount unit="characters" n="3003"/>
+      </sp>
+      <sp who="#Sobachkin">
+        <amount unit="speechacts" n="28"/>
+        <amount unit="words" n="1799"/>
+        <amount unit="lines" n="40"/>
+        <amount unit="characters" n="9160"/>
+      </sp>
+    </div>
+  </text>
+</play>

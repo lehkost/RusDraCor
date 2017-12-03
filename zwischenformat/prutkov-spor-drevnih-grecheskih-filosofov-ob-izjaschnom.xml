@@ -1,0 +1,38 @@
+<play xmlns="http://lina.digital" id="23">
+  <head>
+    <title>Спор древних греческих философов об изящном</title>
+    <title>Discourse between Two Greek Philosophers about
+          Beauty</title>
+    <title>Драматическая сцена из древнегреческой классической жизни в
+          стихах.</title>
+    <title>Dramatic Scene from Hellenic Classical Life in
+          Verse.</title>
+    <author>Козьма Прутков</author>
+  </head>
+  <personae>
+    <character>
+      <name>Клефистон</name>
+      <alias xml:id="Klefiston"/>
+    </character>
+    <character>
+      <name>Стиф</name>
+      <alias xml:id="Stif"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Klefiston">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="97"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="479"/>
+      </sp>
+      <sp who="#Stif">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="108"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="500"/>
+      </sp>
+    </div>
+  </text>
+</play>

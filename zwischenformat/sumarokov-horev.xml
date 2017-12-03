@@ -1,0 +1,481 @@
+<play xmlns="http://lina.digital" id="11">
+  <head>
+    <title>Хорев</title>
+    <title>Khorev</title>
+    <title>Трагедия</title>
+    <title>Tragedy</title>
+    <author>Александр Петрович Сумароков</author>
+  </head>
+  <personae>
+    <character>
+      <name>Велькар</name>
+      <alias xml:id="VelKar"/>
+    </character>
+    <character>
+      <name>Хорев</name>
+      <alias xml:id="Horev"/>
+    </character>
+    <character>
+      <name>Завлох</name>
+      <alias xml:id="Zavloh"/>
+    </character>
+    <character>
+      <name>Страж градских ворот</name>
+      <alias xml:id="StrazhGradskihVorot"/>
+    </character>
+    <character>
+      <name>Оснельда</name>
+      <alias xml:id="Osnelda"/>
+    </character>
+    <character>
+      <name>Астрада</name>
+      <alias xml:id="Astrada"/>
+    </character>
+    <character>
+      <name>Единый воин</name>
+      <alias xml:id="EdinyjVoin"/>
+    </character>
+    <character>
+      <name>Невольник</name>
+      <alias xml:id="Nevolnik"/>
+    </character>
+    <character>
+      <name>Страж темниц</name>
+      <alias xml:id="StrazhTemnits"/>
+    </character>
+    <character>
+      <name>Кий</name>
+      <alias xml:id="Kij"/>
+    </character>
+    <character>
+      <name>Сталверх</name>
+      <alias xml:id="Stalverh"/>
+    </character>
+    <character>
+      <name>Посланный</name>
+      <alias xml:id="Poslannyj"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>ДЕЙСТВИЕ I</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Astrada">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="149"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="731"/>
+        </sp>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="589"/>
+          <amount unit="lines" n="76"/>
+          <amount unit="characters" n="2750"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="139"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="675"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="598"/>
+          <amount unit="lines" n="68"/>
+          <amount unit="characters" n="2672"/>
+        </sp>
+        <sp who="#Horev">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="698"/>
+          <amount unit="lines" n="86"/>
+          <amount unit="characters" n="3279"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ II</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Stalverh">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="237"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="1069"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="346"/>
+          <amount unit="lines" n="44"/>
+          <amount unit="characters" n="1670"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Horev">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="354"/>
+          <amount unit="lines" n="45"/>
+          <amount unit="characters" n="1698"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="155"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="717"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="145"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Astrada">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="178"/>
+          <amount unit="lines" n="22"/>
+          <amount unit="characters" n="838"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="28"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="138"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 5</head>
+        <sp who="#Astrada">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="31"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="149"/>
+        </sp>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="76"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="316"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 6</head>
+        <sp who="#Horev">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="330"/>
+          <amount unit="lines" n="39"/>
+          <amount unit="characters" n="1485"/>
+        </sp>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="247"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="1142"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ III</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="212"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="994"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Astrada">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="62"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="293"/>
+        </sp>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="352"/>
+          <amount unit="lines" n="43"/>
+          <amount unit="characters" n="1578"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Astrada">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="51"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="246"/>
+        </sp>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="434"/>
+          <amount unit="lines" n="53"/>
+          <amount unit="characters" n="1971"/>
+        </sp>
+        <sp who="#Horev">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="233"/>
+          <amount unit="lines" n="33"/>
+          <amount unit="characters" n="1114"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Horev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="61"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="272"/>
+        </sp>
+        <sp who="#Velkar">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="79"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="389"/>
+        </sp>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="57"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="264"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ IV</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Stalverh">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="293"/>
+          <amount unit="lines" n="38"/>
+          <amount unit="characters" n="1429"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="181"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="880"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="210"/>
+          <amount unit="lines" n="27"/>
+          <amount unit="characters" n="1005"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Stalverh">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="46"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="240"/>
+        </sp>
+        <sp who="#Strazhtemnits">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="14"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="72"/>
+        </sp>
+        <sp who="#Strazhgradskihvorot">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="25"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="112"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="173"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="788"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Nevolnik">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="165"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="749"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="73"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="350"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 5</head>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="137"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="604"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 6</head>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="32"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="150"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 7</head>
+        <sp who="#Osnelda">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="735"/>
+          <amount unit="lines" n="89"/>
+          <amount unit="characters" n="3358"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="226"/>
+          <amount unit="lines" n="32"/>
+          <amount unit="characters" n="1071"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 8</head>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="52"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="246"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 9</head>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="92"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="364"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ V</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="118"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="603"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Velkar">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="554"/>
+          <amount unit="lines" n="69"/>
+          <amount unit="characters" n="2617"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="35"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="148"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Velkar">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="39"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="167"/>
+        </sp>
+        <sp who="#Poslannyj">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="130"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="587"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="88"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="384"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Horev">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="58"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="264"/>
+        </sp>
+        <sp who="#Zavloh">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="201"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="19"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ПОСЛЕДНЕЕ</head>
+        <sp who="#Edinyjvoin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="143"/>
+        </sp>
+        <sp who="#Velkar">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="28"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="124"/>
+        </sp>
+        <sp who="#Horev">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="523"/>
+          <amount unit="lines" n="62"/>
+          <amount unit="characters" n="2246"/>
+        </sp>
+        <sp who="#Zavloh">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="80"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="339"/>
+        </sp>
+        <sp who="#Kij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="102"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="448"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,377 @@
+<play xmlns="http://lina.digital" id="33">
+  <head>
+    <title>Дети Ванюшина</title>
+    <title>Vanyushin's Children</title>
+    <title>Драма в четырех действиях</title>
+    <title>A Drama in Four Acts</title>
+    <author>Сергей Александрович Найдёнов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Алексей</name>
+      <alias xml:id="Aleksej"/>
+    </character>
+    <character>
+      <name>Акулина</name>
+      <alias xml:id="Akulina"/>
+    </character>
+    <character>
+      <name>Ванюшин</name>
+      <alias xml:id="Vanjushin"/>
+    </character>
+    <character>
+      <name>Арина Ивановна</name>
+      <alias xml:id="ArinaIvanovna"/>
+    </character>
+    <character>
+      <name>Константин</name>
+      <alias xml:id="Konstantin"/>
+    </character>
+    <character>
+      <name>Красавин</name>
+      <alias xml:id="Krasavin"/>
+    </character>
+    <character>
+      <name>Клавдия</name>
+      <alias xml:id="Klavdija"/>
+    </character>
+    <character>
+      <name>Катя</name>
+      <alias xml:id="Katja"/>
+    </character>
+    <character>
+      <name>Щеткин</name>
+      <alias xml:id="Schetkin"/>
+    </character>
+    <character>
+      <name>Лена</name>
+      <alias xml:id="Lena"/>
+    </character>
+    <character>
+      <name>Кукарникова</name>
+      <alias xml:id="Kukarnikova"/>
+    </character>
+    <character>
+      <name>Авдотья</name>
+      <alias xml:id="Avdotja"/>
+    </character>
+    <character>
+      <name>Старик в лохмотьях</name>
+      <alias xml:id="StarikVLohmotjah"/>
+    </character>
+    <character>
+      <name>Инна</name>
+      <alias xml:id="Inna"/>
+    </character>
+    <character>
+      <name>Людмила</name>
+      <alias xml:id="Ljudmila"/>
+    </character>
+    <character>
+      <name>Аня</name>
+      <alias xml:id="Anja"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
+      <sp who="#Vanjushin">
+        <amount unit="speechacts" n="54"/>
+        <amount unit="words" n="631"/>
+        <amount unit="lines" n="56"/>
+        <amount unit="characters" n="2893"/>
+      </sp>
+      <sp who="#Aleksej">
+        <amount unit="speechacts" n="21"/>
+        <amount unit="words" n="162"/>
+        <amount unit="lines" n="21"/>
+        <amount unit="characters" n="706"/>
+      </sp>
+      <sp who="#Lena">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="135"/>
+      </sp>
+      <sp who="#Akulina">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="57"/>
+      </sp>
+      <sp who="#Avdotja">
+        <amount unit="speechacts" n="27"/>
+        <amount unit="words" n="238"/>
+        <amount unit="lines" n="27"/>
+        <amount unit="characters" n="1090"/>
+      </sp>
+      <sp who="#Schetkin">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="273"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="1424"/>
+      </sp>
+      <sp who="#Ljudmila">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="219"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="990"/>
+      </sp>
+      <sp who="#Konstantin">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="250"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="1258"/>
+      </sp>
+      <sp who="#Katja">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="60"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="260"/>
+      </sp>
+      <sp who="#Anja">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="52"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="196"/>
+      </sp>
+      <sp who="#ArinaIvanovna">
+        <amount unit="speechacts" n="83"/>
+        <amount unit="words" n="891"/>
+        <amount unit="lines" n="83"/>
+        <amount unit="characters" n="4244"/>
+      </sp>
+      <sp who="#Klavdija">
+        <amount unit="speechacts" n="23"/>
+        <amount unit="words" n="263"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="1305"/>
+      </sp>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ ВТОРОЕ</head>
+      <sp who="#Vanjushin">
+        <amount unit="speechacts" n="32"/>
+        <amount unit="words" n="470"/>
+        <amount unit="lines" n="32"/>
+        <amount unit="characters" n="2342"/>
+      </sp>
+      <sp who="#Aleksej">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="107"/>
+      </sp>
+      <sp who="#Lena">
+        <amount unit="speechacts" n="30"/>
+        <amount unit="words" n="266"/>
+        <amount unit="lines" n="30"/>
+        <amount unit="characters" n="1118"/>
+      </sp>
+      <sp who="#Akulina">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="25"/>
+      </sp>
+      <sp who="#Avdotja">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="71"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="293"/>
+      </sp>
+      <sp who="#Schetkin">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="247"/>
+        <amount unit="lines" n="15"/>
+        <amount unit="characters" n="1256"/>
+      </sp>
+      <sp who="#Krasavin">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="148"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="754"/>
+      </sp>
+      <sp who="#ArinaIvanovna #Lena #Konstantin #Schetkin #Vanjushin #Katja #Klavdija #Anja #Ljudmila">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="2"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="4"/>
+      </sp>
+      <sp who="#Ljudmila">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="184"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="928"/>
+      </sp>
+      <sp who="#Konstantin">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="277"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="1383"/>
+      </sp>
+      <sp who="#Katja">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="134"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="643"/>
+      </sp>
+      <sp who="#Anja">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="144"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="662"/>
+      </sp>
+      <sp who="#ArinaIvanovna">
+        <amount unit="speechacts" n="28"/>
+        <amount unit="words" n="249"/>
+        <amount unit="lines" n="28"/>
+        <amount unit="characters" n="1227"/>
+      </sp>
+      <sp who="#Klavdija">
+        <amount unit="speechacts" n="23"/>
+        <amount unit="words" n="162"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="725"/>
+      </sp>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
+      <sp who="#Ljudmila">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="174"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="796"/>
+      </sp>
+      <sp who="#Vanjushin">
+        <amount unit="speechacts" n="35"/>
+        <amount unit="words" n="615"/>
+        <amount unit="lines" n="35"/>
+        <amount unit="characters" n="2951"/>
+      </sp>
+      <sp who="#Aleksej">
+        <amount unit="speechacts" n="38"/>
+        <amount unit="words" n="864"/>
+        <amount unit="lines" n="38"/>
+        <amount unit="characters" n="4315"/>
+      </sp>
+      <sp who="#Katja">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="44"/>
+      </sp>
+      <sp who="#Lena">
+        <amount unit="speechacts" n="29"/>
+        <amount unit="words" n="240"/>
+        <amount unit="lines" n="29"/>
+        <amount unit="characters" n="1157"/>
+      </sp>
+      <sp who="#ArinaIvanovna">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="82"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="393"/>
+      </sp>
+      <sp who="#Anja">
+        <amount unit="speechacts" n="27"/>
+        <amount unit="words" n="261"/>
+        <amount unit="lines" n="27"/>
+        <amount unit="characters" n="1244"/>
+      </sp>
+      <sp who="#Schetkin">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="76"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="401"/>
+      </sp>
+      <sp who="#Klavdija">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="72"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="332"/>
+      </sp>
+      <sp who="#Krasavin">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="340"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="1667"/>
+      </sp>
+      <sp who="#Konstantin">
+        <amount unit="speechacts" n="38"/>
+        <amount unit="words" n="521"/>
+        <amount unit="lines" n="38"/>
+        <amount unit="characters" n="2515"/>
+      </sp>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ ЧЕТВЕРТОЕ</head>
+      <sp who="#Akulina">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="116"/>
+      </sp>
+      <sp who="#Vanjushin">
+        <amount unit="speechacts" n="31"/>
+        <amount unit="words" n="183"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="896"/>
+      </sp>
+      <sp who="#Konstantin">
+        <amount unit="speechacts" n="59"/>
+        <amount unit="words" n="690"/>
+        <amount unit="lines" n="59"/>
+        <amount unit="characters" n="3634"/>
+      </sp>
+      <sp who="#Katja">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="80"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="420"/>
+      </sp>
+      <sp who="#Avdotja">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="100"/>
+      </sp>
+      <sp who="#ArinaIvanovna">
+        <amount unit="speechacts" n="72"/>
+        <amount unit="words" n="806"/>
+        <amount unit="lines" n="72"/>
+        <amount unit="characters" n="3734"/>
+      </sp>
+      <sp who="#Anja">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="126"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="535"/>
+      </sp>
+      <sp who="#Inna">
+        <amount unit="speechacts" n="32"/>
+        <amount unit="words" n="293"/>
+        <amount unit="lines" n="32"/>
+        <amount unit="characters" n="1538"/>
+      </sp>
+      <sp who="#Klavdija">
+        <amount unit="speechacts" n="42"/>
+        <amount unit="words" n="381"/>
+        <amount unit="lines" n="42"/>
+        <amount unit="characters" n="1784"/>
+      </sp>
+      <sp who="#Kukarnikova">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="120"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="652"/>
+      </sp>
+      <sp who="#StarikVLohmotjah">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="25"/>
+      </sp>
+    </div>
+  </text>
+</play>

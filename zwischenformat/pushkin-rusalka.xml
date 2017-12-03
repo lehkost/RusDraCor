@@ -1,0 +1,246 @@
+<play xmlns="http://lina.digital" id="18">
+  <head>
+    <title>Русалка</title>
+    <title>The Mermaid</title>
+    <title/>
+    <author>Александр Пушкин</author>
+  </head>
+  <personae>
+    <character>
+      <name>Мельник</name>
+      <alias xml:id="Melnik"/>
+    </character>
+    <character>
+      <name>Дочь (Русалка)</name>
+      <alias xml:id="DochRusalka"/>
+    </character>
+    <character>
+      <name>Князь</name>
+      <alias xml:id="Knjaz"/>
+    </character>
+    <character>
+      <name>Сват</name>
+      <alias xml:id="Svat"/>
+    </character>
+    <character>
+      <name>Хор</name>
+      <alias xml:id="Hor"/>
+    </character>
+    <character>
+      <name>Один голос</name>
+      <alias xml:id="OdinGolos"/>
+    </character>
+    <character>
+      <name>Девушки</name>
+      <alias xml:id="Devushki"/>
+    </character>
+    <character>
+      <name>Конюший</name>
+      <alias xml:id="Konjushij"/>
+    </character>
+    <character>
+      <name>Гость</name>
+      <alias xml:id="Gost"/>
+    </character>
+    <character>
+      <name>Дружко</name>
+      <alias xml:id="Druzhko"/>
+    </character>
+    <character>
+      <name>Сваха</name>
+      <alias xml:id="Svaha"/>
+    </character>
+    <character>
+      <name>Княгиня</name>
+      <alias xml:id="Knjaginja"/>
+    </character>
+    <character>
+      <name>Мамка</name>
+      <alias xml:id="Mamka"/>
+    </character>
+    <character>
+      <name>Ловчий</name>
+      <alias xml:id="Lovchij"/>
+    </character>
+    <character>
+      <name>Одна</name>
+      <alias xml:id="Odna"/>
+    </character>
+    <character>
+      <name>Другая</name>
+      <alias xml:id="Drugaja"/>
+    </character>
+    <character>
+      <name>Русалки</name>
+      <alias xml:id="Rusalki"/>
+    </character>
+    <character>
+      <name>Дочь</name>
+      <alias xml:id="Rusalochka"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>БЕРЕГ ДНЕПРА. МЕЛЬНИЦА</head>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="366"/>
+        <amount unit="lines" n="53"/>
+        <amount unit="characters" n="1533"/>
+      </sp>
+      <sp who="#DochRusalka">
+        <amount unit="speechacts" n="23"/>
+        <amount unit="words" n="798"/>
+        <amount unit="lines" n="121"/>
+        <amount unit="characters" n="3357"/>
+      </sp>
+      <sp who="#Melnik">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="607"/>
+        <amount unit="lines" n="85"/>
+        <amount unit="characters" n="2538"/>
+      </sp>
+    </div>
+    <div>
+      <head>КНЯЖЕСКИЙ ТЕРЕМ</head>
+      <sp who="#Hor">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="58"/>
+        <amount unit="lines" n="15"/>
+        <amount unit="characters" n="295"/>
+      </sp>
+      <sp who="#Konjushij">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="34"/>
+      </sp>
+      <sp who="#Svat">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="106"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="433"/>
+      </sp>
+      <sp who="#Gost">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="81"/>
+      </sp>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="66"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="255"/>
+      </sp>
+      <sp who="#Svaha">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="68"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="263"/>
+      </sp>
+      <sp who="#OdinGolos">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="51"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="247"/>
+      </sp>
+      <sp who="#Devushki">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="21"/>
+      </sp>
+      <sp who="#Druzhko">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="81"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="366"/>
+      </sp>
+    </div>
+    <div>
+      <head>СВЕТЛИЦА</head>
+      <sp who="#Knjaginja">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="202"/>
+        <amount unit="lines" n="28"/>
+        <amount unit="characters" n="841"/>
+      </sp>
+      <sp who="#Lovchij">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="69"/>
+      </sp>
+      <sp who="#Mamka">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="124"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="514"/>
+      </sp>
+    </div>
+    <div>
+      <head>ДНЕПР. НОЧЬ</head>
+      <sp who="#Melnik">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="235"/>
+        <amount unit="lines" n="36"/>
+        <amount unit="characters" n="976"/>
+      </sp>
+      <sp who="#Odna">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="68"/>
+      </sp>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="294"/>
+        <amount unit="lines" n="48"/>
+        <amount unit="characters" n="1314"/>
+      </sp>
+      <sp who="#Rusalki">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="88"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="426"/>
+      </sp>
+      <sp who="#Drugaja">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="25"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="103"/>
+      </sp>
+      <sp who="#Lovchij">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="70"/>
+      </sp>
+    </div>
+    <div>
+      <head>ДНЕПРОВСКОЕ ДНО</head>
+      <sp who="#DochRusalka">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="195"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="874"/>
+      </sp>
+      <sp who="#Rusalochka">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="72"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="305"/>
+      </sp>
+    </div>
+    <div>
+      <head>БЕРЕГ</head>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="95"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="488"/>
+      </sp>
+    </div>
+  </text>
+</play>

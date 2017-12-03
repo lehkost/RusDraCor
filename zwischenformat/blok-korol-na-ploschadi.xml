@@ -1,0 +1,574 @@
+<play xmlns="http://lina.digital" id="75">
+  <head>
+    <title>Король на площади</title>
+    <title>The King in the Square</title>
+    <title/>
+    <author>Александр Александрович Блок</author>
+  </head>
+  <personae>
+    <character>
+      <name>Зодчий</name>
+      <alias xml:id="Zodchij"/>
+    </character>
+    <character>
+      <name>Дочь Зодчего</name>
+      <alias xml:id="DochZodchego"/>
+    </character>
+    <character>
+      <name>Поэт</name>
+      <alias xml:id="Poet"/>
+    </character>
+    <character>
+      <name>Шут</name>
+      <alias xml:id="Shut"/>
+    </character>
+    <character>
+      <name>Голоса в толпе</name>
+      <alias xml:id="GolosaVTolpe"/>
+    </character>
+    <character>
+      <name>Тот же обыденный голос</name>
+      <alias xml:id="ObydennyjGolos"/>
+    </character>
+    <character>
+      <name>Первый рабочий</name>
+      <alias xml:id="PervyjRabochij_1"/>
+    </character>
+    <character>
+      <name>Второй рабочий</name>
+      <alias xml:id="VtorojRabochij_1"/>
+    </character>
+    <character>
+      <name>Первый рабочий</name>
+      <alias xml:id="PervyjRabochij_2"/>
+    </character>
+    <character>
+      <name>Второй рабочий</name>
+      <alias xml:id="VtorojRabochij_2"/>
+    </character>
+    <character>
+      <name>Рабочий</name>
+      <alias xml:id="Rabochij_3"/>
+    </character>
+    <character>
+      <name>Другой рабочий</name>
+      <alias xml:id="DrugojRabochij_3"/>
+    </character>
+    <character>
+      <name>Третий рабочий</name>
+      <alias xml:id="TretijRabochij_3"/>
+    </character>
+    <character>
+      <name>Нищая</name>
+      <alias xml:id="Nischaja"/>
+    </character>
+    <character>
+      <name>Голос нищего</name>
+      <alias xml:id="GolosNischego"/>
+    </character>
+    <character>
+      <name>Человек в черном</name>
+      <alias xml:id="ChelovekVChernom"/>
+    </character>
+    <character>
+      <name>Человек с факелом</name>
+      <alias xml:id="ChelovekSFakelom"/>
+    </character>
+    <character>
+      <name>Первый</name>
+      <alias xml:id="PervyjNeizvestnyj"/>
+    </character>
+    <character>
+      <name>Второй</name>
+      <alias xml:id="VtorojNeizvestnyj"/>
+    </character>
+    <character>
+      <name>Голос Третьего</name>
+      <alias xml:id="GolosTretego"/>
+    </character>
+    <character>
+      <name>Первый</name>
+      <alias xml:id="PervyjFrant"/>
+    </character>
+    <character>
+      <name>Второй</name>
+      <alias xml:id="VtorojFrant"/>
+    </character>
+    <character>
+      <name>Первый</name>
+      <alias xml:id="PervyjIzTolpy"/>
+    </character>
+    <character>
+      <name>Второй</name>
+      <alias xml:id="VtorojIzTolpy"/>
+    </character>
+    <character>
+      <name>Продавщица роз</name>
+      <alias xml:id="ProdavschitsaRoz"/>
+    </character>
+    <character>
+      <name>Девушка</name>
+      <alias xml:id="Devushka"/>
+    </character>
+    <character>
+      <name>Юноша</name>
+      <alias xml:id="Junosha"/>
+    </character>
+    <character>
+      <name>Черный</name>
+      <alias xml:id="Chernyj"/>
+    </character>
+    <character>
+      <name>Золотой</name>
+      <alias xml:id="Zolotoj"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>ПРОЛОГ</head>
+      <sp who="#Shut">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="159"/>
+        <amount unit="lines" n="28"/>
+        <amount unit="characters" n="692"/>
+      </sp>
+    </div>
+    <div>
+      <head>ПЕРВОЕ ДЕЙСТВИЕ</head>
+      <div>
+        <sp who="#GolosTretego">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="52"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="234"/>
+        </sp>
+        <sp who="#PervyjNeizvestnyj">
+          <amount unit="speechacts" n="27"/>
+          <amount unit="words" n="457"/>
+          <amount unit="lines" n="27"/>
+          <amount unit="characters" n="2306"/>
+        </sp>
+        <sp who="#VtorojNeizvestnyj #GolosTretego">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="16"/>
+        </sp>
+        <sp who="#VtorojNeizvestnyj">
+          <amount unit="speechacts" n="27"/>
+          <amount unit="words" n="267"/>
+          <amount unit="lines" n="27"/>
+          <amount unit="characters" n="1241"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#PervyjRabochij_1">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="28"/>
+        </sp>
+        <sp who="#VtorojRabochij_1">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="111"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Junosha">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="67"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="309"/>
+        </sp>
+        <sp who="#Devushka">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="99"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="491"/>
+        </sp>
+        <sp who="#ProdavschitsaRoz">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="27"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="111"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#VtorojFrant">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="37"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="175"/>
+        </sp>
+        <sp who="#PervyjFrant">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="45"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="224"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Junosha">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="98"/>
+        </sp>
+        <sp who="#Devushka">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="54"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="226"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ВТОРОЕ ДЕЙСТВИЕ</head>
+      <div>
+        <sp who="#PervyjRabochij_2">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="73"/>
+        </sp>
+        <sp who="#VtorojRabochij_2">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="108"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#VtorojFrant">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="42"/>
+        </sp>
+        <sp who="#PervyjFrant">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="34"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="153"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Shut">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="32"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="166"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#TretijRabochij_3">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="16"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="66"/>
+        </sp>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="151"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="806"/>
+        </sp>
+        <sp who="#DrugojRabochij_3">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="18"/>
+        </sp>
+        <sp who="#Zodchij">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="304"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="1619"/>
+        </sp>
+        <sp who="#Rabochij_3">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="44"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#DochZodchego">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="16"/>
+        </sp>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="33"/>
+        </sp>
+        <sp who="#Shut">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="98"/>
+        </sp>
+        <sp who="#GolosaVTolpe">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="112"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#DochZodchego">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="224"/>
+          <amount unit="lines" n="40"/>
+          <amount unit="characters" n="1050"/>
+        </sp>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="167"/>
+          <amount unit="lines" n="30"/>
+          <amount unit="characters" n="832"/>
+        </sp>
+        <sp who="#Shut">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="39"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="181"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="102"/>
+        </sp>
+        <sp who="#Shut">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="56"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="272"/>
+        </sp>
+        <sp who="#GolosaVTolpe">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="35"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="172"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="76"/>
+        </sp>
+        <sp who="#Chernyj">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="34"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="145"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Zolotoj">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="39"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="187"/>
+        </sp>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="21"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="66"/>
+        </sp>
+        <sp who="#Shut">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="96"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
+      <div>
+        <sp who="#VtorojIzTolpy">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="98"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="530"/>
+        </sp>
+        <sp who="#PervyjIzTolpy">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="114"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="577"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#VtorojIzTolpy">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="36"/>
+        </sp>
+        <sp who="#Nischaja">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="35"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="158"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#VtorojIzTolpy">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="87"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="459"/>
+        </sp>
+        <sp who="#Shut">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="233"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="1279"/>
+        </sp>
+        <sp who="#GolosaVTolpe">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="152"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="765"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="54"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="262"/>
+        </sp>
+        <sp who="#Zodchij">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="133"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="685"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#DochZodchego">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="144"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="667"/>
+        </sp>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="217"/>
+          <amount unit="lines" n="36"/>
+          <amount unit="characters" n="1023"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#ObydennyjGolos">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="25"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="140"/>
+        </sp>
+        <sp who="#ChelovekVChernom">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="69"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="403"/>
+        </sp>
+        <sp who="#Nischaja">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="16"/>
+        </sp>
+        <sp who="#GolosaVTolpe">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="36"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="152"/>
+        </sp>
+        <sp who="#GolosNischego">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="17"/>
+        </sp>
+        <sp who="#ChelovekSFakelom">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="47"/>
+        </sp>
+        <sp who="#DochZodchego">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="123"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="651"/>
+        </sp>
+        <sp who="#Shut">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="46"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="270"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Zolotoj">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="33"/>
+        </sp>
+        <sp who="#DochZodchego">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="81"/>
+        </sp>
+        <sp who="#Poet">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="34"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="158"/>
+        </sp>
+        <sp who="#GolosaVTolpe">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="15"/>
+        </sp>
+        <sp who="#Chernyj">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="40"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="218"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#GolosaVTolpe">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="72"/>
+        </sp>
+        <sp who="#Zodchij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="106"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="576"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

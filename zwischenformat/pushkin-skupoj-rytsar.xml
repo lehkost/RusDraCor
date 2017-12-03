@@ -1,0 +1,86 @@
+<play xmlns="http://lina.digital" id="17">
+  <head>
+    <title>Скупой рыцарь</title>
+    <title>The Miserly Knight</title>
+    <title>(Сцены из Ченстоновой трагикомедии: The covetous
+          Knight)</title>
+    <title>(Scenes from Shenstone's Tragicomedy: The Covetous
+          Knight)</title>
+    <author>Александр Пушкин</author>
+  </head>
+  <personae>
+    <character>
+      <name>Альбер</name>
+      <alias xml:id="Alber"/>
+    </character>
+    <character>
+      <name>Барон</name>
+      <alias xml:id="Baron"/>
+    </character>
+    <character>
+      <name>Герцог</name>
+      <alias xml:id="Gertsog"/>
+    </character>
+    <character>
+      <name>Жид</name>
+      <alias xml:id="Zhid"/>
+    </character>
+    <character>
+      <name>Иван</name>
+      <alias xml:id="Ivan"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Сцена I</head>
+      <sp who="#Ivan">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="91"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="392"/>
+      </sp>
+      <sp who="#Zhid">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="348"/>
+        <amount unit="lines" n="55"/>
+        <amount unit="characters" n="1504"/>
+      </sp>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="29"/>
+        <amount unit="words" n="785"/>
+        <amount unit="lines" n="118"/>
+        <amount unit="characters" n="3336"/>
+      </sp>
+    </div>
+    <div>
+      <head>Сцена II</head>
+      <sp who="#Baron">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="836"/>
+        <amount unit="lines" n="120"/>
+        <amount unit="characters" n="3896"/>
+      </sp>
+    </div>
+    <div>
+      <head>Сцена III</head>
+      <sp who="#Gertsog">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="404"/>
+        <amount unit="lines" n="67"/>
+        <amount unit="characters" n="1678"/>
+      </sp>
+      <sp who="#Baron">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="374"/>
+        <amount unit="lines" n="56"/>
+        <amount unit="characters" n="1526"/>
+      </sp>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="46"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="185"/>
+      </sp>
+    </div>
+  </text>
+</play>

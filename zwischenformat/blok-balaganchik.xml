@@ -1,0 +1,208 @@
+<play xmlns="http://lina.digital" id="76">
+  <head>
+    <title>Балаганчик</title>
+    <title>A Puppet Show</title>
+    <title/>
+    <author>Александр Александрович Блок</author>
+  </head>
+  <personae>
+    <character>
+      <name>Первый мистик</name>
+      <alias xml:id="PervyjMistik"/>
+    </character>
+    <character>
+      <name>Второй мистик</name>
+      <alias xml:id="VtorojMistik"/>
+    </character>
+    <character>
+      <name>Третий мистик</name>
+      <alias xml:id="TretijMistik"/>
+    </character>
+    <character>
+      <name>Пьеро</name>
+      <alias xml:id="Pero"/>
+    </character>
+    <character>
+      <name>Автор</name>
+      <alias xml:id="Avtor"/>
+    </character>
+    <character>
+      <name>Председатель</name>
+      <alias xml:id="Predsedatel"/>
+    </character>
+    <character>
+      <name>Коломбина</name>
+      <alias xml:id="Kolombina"/>
+    </character>
+    <character>
+      <name>Арлекин</name>
+      <alias xml:id="Arlekin"/>
+    </character>
+    <character>
+      <name>Она</name>
+      <alias xml:id="Ona_1"/>
+    </character>
+    <character>
+      <name>Он</name>
+      <alias xml:id="On_1"/>
+    </character>
+    <character>
+      <name>Он</name>
+      <alias xml:id="On_2"/>
+    </character>
+    <character>
+      <name>Она</name>
+      <alias xml:id="Ona_2"/>
+    </character>
+    <character>
+      <name>Он</name>
+      <alias xml:id="On_3"/>
+    </character>
+    <character>
+      <name>Она</name>
+      <alias xml:id="Ona_3"/>
+    </character>
+    <character>
+      <name>Паяц</name>
+      <alias xml:id="Pajats"/>
+    </character>
+    <character>
+      <name>Хор</name>
+      <alias xml:id="Hor"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#PervyjMistik">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="50"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="180"/>
+      </sp>
+      <sp who="#TretijMistik">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="47"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="197"/>
+      </sp>
+      <sp who="#Pero">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="181"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="818"/>
+      </sp>
+      <sp who="#VtorojMistik">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="39"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="128"/>
+      </sp>
+      <sp who="#Avtor">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="160"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="1030"/>
+      </sp>
+      <sp who="#Arlekin">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="110"/>
+      </sp>
+      <sp who="#Predsedatel">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="157"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="820"/>
+      </sp>
+      <sp who="#PervyjMistik #VtorojMistik #TretijMistik">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="32"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="113"/>
+      </sp>
+      <sp who="#Kolombina">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="19"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Pero">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="218"/>
+        <amount unit="lines" n="36"/>
+        <amount unit="characters" n="963"/>
+      </sp>
+      <sp who="#Hor">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="45"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="210"/>
+      </sp>
+      <sp who="#On_2">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="118"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="506"/>
+      </sp>
+      <sp who="#On_1">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="36"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="169"/>
+      </sp>
+      <sp who="#Ona_3">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="54"/>
+      </sp>
+      <sp who="#Arlekin">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="92"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="430"/>
+      </sp>
+      <sp who="#On_3">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="91"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="448"/>
+      </sp>
+      <sp who="#Ona_2">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="84"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="349"/>
+      </sp>
+      <sp who="#Pajats">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="36"/>
+      </sp>
+      <sp who="#Ona_1">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="60"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="285"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Pero">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="112"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="462"/>
+      </sp>
+      <sp who="#Avtor">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="54"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="360"/>
+      </sp>
+    </div>
+  </text>
+</play>

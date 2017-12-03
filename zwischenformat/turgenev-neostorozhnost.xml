@@ -1,0 +1,138 @@
+<play xmlns="http://lina.digital" id="5">
+  <head>
+    <title>Неосторожность</title>
+    <title>A Rash Thing to Do</title>
+    <title/>
+    <author>Иван Сергеевич Тургенев</author>
+  </head>
+  <personae>
+    <character>
+      <name>Донья Долорес</name>
+      <alias xml:id="DonjaDolores"/>
+    </character>
+    <character>
+      <name>Дон Рафаэль</name>
+      <alias xml:id="DonRafael"/>
+    </character>
+    <character>
+      <name>Дон Бальтазар</name>
+      <alias xml:id="DonBaltazar"/>
+    </character>
+    <character>
+      <name>Дон Пабло</name>
+      <alias xml:id="DonPablo"/>
+    </character>
+    <character>
+      <name>Маргарита</name>
+      <alias xml:id="Margarita"/>
+    </character>
+    <character>
+      <name>Секретарь</name>
+      <alias xml:id="Sekretar"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>СЦЕНА I</head>
+      <sp who="#DonjaDolores">
+        <amount unit="speechacts" n="24"/>
+        <amount unit="words" n="176"/>
+        <amount unit="lines" n="24"/>
+        <amount unit="characters" n="1006"/>
+      </sp>
+      <sp who="#DonRafael">
+        <amount unit="speechacts" n="25"/>
+        <amount unit="words" n="223"/>
+        <amount unit="lines" n="25"/>
+        <amount unit="characters" n="1347"/>
+      </sp>
+      <sp who="#DonPablo">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="474"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="2543"/>
+      </sp>
+      <sp who="#DonBaltazar">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="423"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="2150"/>
+      </sp>
+      <sp who="#Margarita">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="48"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="233"/>
+      </sp>
+    </div>
+    <div>
+      <head>СЦЕНА II</head>
+      <sp who="#DonjaDolores">
+        <amount unit="speechacts" n="43"/>
+        <amount unit="words" n="320"/>
+        <amount unit="lines" n="43"/>
+        <amount unit="characters" n="1524"/>
+      </sp>
+      <sp who="#DonRafael">
+        <amount unit="speechacts" n="39"/>
+        <amount unit="words" n="432"/>
+        <amount unit="lines" n="39"/>
+        <amount unit="characters" n="2338"/>
+      </sp>
+      <sp who="#Margarita">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="63"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="293"/>
+      </sp>
+    </div>
+    <div>
+      <head>СЦЕНА III</head>
+      <sp who="#DonjaDolores">
+        <amount unit="speechacts" n="80"/>
+        <amount unit="words" n="706"/>
+        <amount unit="lines" n="80"/>
+        <amount unit="characters" n="4075"/>
+      </sp>
+      <sp who="#DonRafael">
+        <amount unit="speechacts" n="32"/>
+        <amount unit="words" n="246"/>
+        <amount unit="lines" n="32"/>
+        <amount unit="characters" n="1395"/>
+      </sp>
+      <sp who="#DonPablo">
+        <amount unit="speechacts" n="73"/>
+        <amount unit="words" n="1166"/>
+        <amount unit="lines" n="73"/>
+        <amount unit="characters" n="6496"/>
+      </sp>
+      <sp who="#DonBaltazar">
+        <amount unit="speechacts" n="29"/>
+        <amount unit="words" n="525"/>
+        <amount unit="lines" n="29"/>
+        <amount unit="characters" n="2703"/>
+      </sp>
+      <sp who="#Margarita">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="181"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="1000"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЭПИЛОГ</head>
+      <sp who="#Sekretar">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#DonPablo">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+    </div>
+  </text>
+</play>

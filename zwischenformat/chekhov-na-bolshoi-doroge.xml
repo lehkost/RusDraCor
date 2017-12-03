@@ -1,0 +1,264 @@
+<play xmlns="http://lina.digital" id="66">
+  <head>
+    <title>На большой дороге</title>
+    <title>On the High Road</title>
+    <title>Драматический этюд в одном действии</title>
+    <title>A Dramatic Study in One Act</title>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Ефимовна</name>
+      <alias xml:id="Efimovna"/>
+    </character>
+    <character>
+      <name>Назаровна</name>
+      <alias xml:id="Nazarovna"/>
+    </character>
+    <character>
+      <name>Савва</name>
+      <alias xml:id="Savva"/>
+    </character>
+    <character>
+      <name>Федя</name>
+      <alias xml:id="Fedja"/>
+    </character>
+    <character>
+      <name>Голос из угла</name>
+      <alias xml:id="GolosIzUgla"/>
+    </character>
+    <character>
+      <name>Тихон</name>
+      <alias xml:id="Tihon"/>
+    </character>
+    <character>
+      <name>Борцов</name>
+      <alias xml:id="Bortsov"/>
+    </character>
+    <character>
+      <name>Мерик</name>
+      <alias xml:id="Merik"/>
+    </character>
+    <character>
+      <name>Кузьма</name>
+      <alias xml:id="Kuzma"/>
+    </character>
+    <character>
+      <name>Кучер</name>
+      <alias xml:id="Kucher"/>
+    </character>
+    <character>
+      <name>Марья Егоровна</name>
+      <alias xml:id="MarjaEgorovna"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Явление I</head>
+      <sp who="#GolosIzUgla">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="23"/>
+      </sp>
+      <sp who="#Savva">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="253"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="1286"/>
+      </sp>
+      <sp who="#Nazarovna">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="135"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="644"/>
+      </sp>
+      <sp who="#Efimovna">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="53"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="212"/>
+      </sp>
+      <sp who="#Fedja">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="318"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="1521"/>
+      </sp>
+      <sp who="#Bortsov">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="384"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="1742"/>
+      </sp>
+      <sp who="#Tihon">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="90"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="377"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление II</head>
+      <sp who="#GolosIzUgla">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="35"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="179"/>
+      </sp>
+      <sp who="#Savva">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="42"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="192"/>
+      </sp>
+      <sp who="#Tihon">
+        <amount unit="speechacts" n="21"/>
+        <amount unit="words" n="255"/>
+        <amount unit="lines" n="29"/>
+        <amount unit="characters" n="1164"/>
+      </sp>
+      <sp who="#Nazarovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="36"/>
+      </sp>
+      <sp who="#Efimovna">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="98"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="427"/>
+      </sp>
+      <sp who="#Fedja">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="223"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="1089"/>
+      </sp>
+      <sp who="#Bortsov">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="352"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="1624"/>
+      </sp>
+      <sp who="#Merik">
+        <amount unit="speechacts" n="34"/>
+        <amount unit="words" n="912"/>
+        <amount unit="lines" n="54"/>
+        <amount unit="characters" n="4413"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление III</head>
+      <sp who="#GolosIzUgla">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="98"/>
+      </sp>
+      <sp who="#Savva">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="17"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="99"/>
+      </sp>
+      <sp who="#Fedja">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="72"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="280"/>
+      </sp>
+      <sp who="#Efimovna">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="67"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="358"/>
+      </sp>
+      <sp who="#Bortsov">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="176"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="730"/>
+      </sp>
+      <sp who="#Kucher">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="76"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="387"/>
+      </sp>
+      <sp who="#Merik">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="331"/>
+        <amount unit="lines" n="25"/>
+        <amount unit="characters" n="1616"/>
+      </sp>
+      <sp who="#Tihon">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="184"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="798"/>
+      </sp>
+      <sp who="#Kuzma">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="1026"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="5217"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление IV</head>
+      <sp who="#Tihon">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="38"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="199"/>
+      </sp>
+      <sp who="#Kucher">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="60"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="315"/>
+      </sp>
+      <sp who="#Fedja">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="15"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="59"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление V</head>
+      <sp who="#Bortsov">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="75"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="282"/>
+      </sp>
+      <sp who="#Merik">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="145"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="654"/>
+      </sp>
+      <sp who="#Tihon">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="106"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="544"/>
+      </sp>
+      <sp who="#MarjaEgorovna">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="106"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="443"/>
+      </sp>
+      <sp who="#Nazarovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="19"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="80"/>
+      </sp>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,268 @@
+<play xmlns="http://lina.digital" id="46">
+  <head>
+    <title>Актеон</title>
+    <title>Akteon</title>
+    <title/>
+    <author>Николай Степанович Гумилёв</author>
+  </head>
+  <personae>
+    <character>
+      <name>Первый юноша</name>
+      <alias xml:id="PervyjJunosha"/>
+    </character>
+    <character>
+      <name>Второй юноша</name>
+      <alias xml:id="VtorojJunosha"/>
+    </character>
+    <character>
+      <name>Третий юноша</name>
+      <alias xml:id="TretijJunosha"/>
+    </character>
+    <character>
+      <name>Первый</name>
+      <alias xml:id="PervyjPes"/>
+    </character>
+    <character>
+      <name>Второй</name>
+      <alias xml:id="VtorojPes"/>
+    </character>
+    <character>
+      <name>Третий</name>
+      <alias xml:id="TretijPes"/>
+    </character>
+    <character>
+      <name>Агава</name>
+      <alias xml:id="Agava"/>
+    </character>
+    <character>
+      <name>Хиале</name>
+      <alias xml:id="Hiale"/>
+    </character>
+    <character>
+      <name>Эхион</name>
+      <alias xml:id="Ehion"/>
+    </character>
+    <character>
+      <name>Диана</name>
+      <alias xml:id="Diana"/>
+    </character>
+    <character>
+      <name>Кадм</name>
+      <alias xml:id="Kadm"/>
+    </character>
+    <character>
+      <name>Крокале</name>
+      <alias xml:id="Krokale"/>
+    </character>
+    <character>
+      <name>Голоса охотниц</name>
+      <alias xml:id="Ohotnitsy"/>
+    </character>
+    <character>
+      <name>Актеон</name>
+      <alias xml:id="Akteon"/>
+    </character>
+    <character>
+      <name>Ранис</name>
+      <alias xml:id="Ranis"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Kadm">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="167"/>
+        <amount unit="lines" n="27"/>
+        <amount unit="characters" n="660"/>
+      </sp>
+      <sp who="#Ehion">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="75"/>
+        <amount unit="lines" n="15"/>
+        <amount unit="characters" n="319"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Kadm">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="15"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="55"/>
+      </sp>
+      <sp who="#Ehion">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="17"/>
+      </sp>
+      <sp who="#Agava">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="83"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="359"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Akteon">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="275"/>
+        <amount unit="lines" n="50"/>
+        <amount unit="characters" n="1190"/>
+      </sp>
+      <sp who="#VtorojJunosha">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="7"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="22"/>
+      </sp>
+      <sp who="#Ehion">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="31"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="142"/>
+      </sp>
+      <sp who="#TretijJunosha">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="41"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="167"/>
+      </sp>
+      <sp who="#Kadm">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="115"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="482"/>
+      </sp>
+      <sp who="#PervyjJunosha">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="27"/>
+      </sp>
+      <sp who="#Agava">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="36"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="158"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Akteon">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="126"/>
+        <amount unit="lines" n="21"/>
+        <amount unit="characters" n="605"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Ohotnitsy">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="38"/>
+        <amount unit="lines" n="15"/>
+        <amount unit="characters" n="142"/>
+      </sp>
+      <sp who="#Hiale">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="40"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="144"/>
+      </sp>
+      <sp who="#Krokale">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="30"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="125"/>
+      </sp>
+      <sp who="#Ranis #Krokale">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="2"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="7"/>
+      </sp>
+      <sp who="#Ranis">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="30"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="105"/>
+      </sp>
+      <sp who="#Diana">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="42"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="199"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Akteon">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="89"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="350"/>
+      </sp>
+      <sp who="#Ranis">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="23"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="106"/>
+      </sp>
+      <sp who="#Krokale">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="25"/>
+      </sp>
+      <sp who="#Hiale">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="34"/>
+      </sp>
+      <sp who="#Diana">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="44"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="196"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Akteon">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="67"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="239"/>
+      </sp>
+      <sp who="#TretijPes">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="74"/>
+      </sp>
+      <sp who="#VtorojPes">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="81"/>
+      </sp>
+      <sp who="#PervyjPes #VtorojPes #TretijPes">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="22"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="102"/>
+      </sp>
+      <sp who="#PervyjPes">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="80"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Agava">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="29"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="119"/>
+      </sp>
+    </div>
+  </text>
+</play>

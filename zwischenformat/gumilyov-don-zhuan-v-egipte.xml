@@ -1,0 +1,77 @@
+<play xmlns="http://lina.digital" id="44">
+  <head>
+    <title>Дон-Жуан в Египте</title>
+    <title>Don Juan in Egypt</title>
+    <title>Одноактная пьеса в стихах</title>
+    <title>One-Act Play in Verse</title>
+    <author>Николай Степанович Гумилёв</author>
+  </head>
+  <personae>
+    <character>
+      <name>Лепорелло</name>
+      <alias xml:id="Leporello"/>
+    </character>
+    <character>
+      <name>Дон Жуан</name>
+      <alias xml:id="DonZhuan"/>
+    </character>
+    <character>
+      <name>Американец</name>
+      <alias xml:id="Amerikanets"/>
+    </character>
+    <character>
+      <name>Американка</name>
+      <alias xml:id="Amerikanka"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#DonZhuan">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="218"/>
+        <amount unit="lines" n="37"/>
+        <amount unit="characters" n="968"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Leporello">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="459"/>
+        <amount unit="lines" n="85"/>
+        <amount unit="characters" n="1955"/>
+      </sp>
+      <sp who="#Amerikanets">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="137"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="518"/>
+      </sp>
+      <sp who="#Amerikanka">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="165"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="641"/>
+      </sp>
+      <sp who="#DonZhuan">
+        <amount unit="speechacts" n="23"/>
+        <amount unit="words" n="490"/>
+        <amount unit="lines" n="87"/>
+        <amount unit="characters" n="2084"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Leporello">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="111"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="441"/>
+      </sp>
+      <sp who="#Amerikanets">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="45"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="177"/>
+      </sp>
+    </div>
+  </text>
+</play>

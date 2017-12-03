@@ -1,0 +1,500 @@
+<play xmlns="http://lina.digital" id="4">
+  <head>
+    <title>Провинциалка</title>
+    <title>A Provincial Lady</title>
+    <title>Комедия в одном действии</title>
+    <title>A Comedy in One Act</title>
+    <author>Иван Сергеевич Тургенев</author>
+  </head>
+  <personae>
+    <character>
+      <name>Ступендьев</name>
+      <alias xml:id="Stupendev"/>
+    </character>
+    <character>
+      <name>Лакей</name>
+      <alias xml:id="Lakej"/>
+    </character>
+    <character>
+      <name>Аполлон</name>
+      <alias xml:id="Apollon"/>
+    </character>
+    <character>
+      <name>Миша</name>
+      <alias xml:id="Misha"/>
+    </character>
+    <character>
+      <name>Васильевна</name>
+      <alias xml:id="Vasilevna"/>
+    </character>
+    <character>
+      <name>Граф Любин</name>
+      <alias xml:id="GrafLjubin"/>
+    </character>
+    <character>
+      <name>Дарья Ивановна</name>
+      <alias xml:id="DarjaIvanovna"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>== ЯВЛЕНИЕ ПЕРВОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="55"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="234"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="78"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="397"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ВТОРОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="22"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="156"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="30"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="141"/>
+      </sp>
+      <sp who="#Vasilevna">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="37"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="171"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ТРЕТЬЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="215"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="1026"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="96"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="415"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="80"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ЧЕТВЕРТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="26"/>
+      </sp>
+      <sp who="#Apollon">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="10"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="47"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ПЯТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="29"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="117"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="95"/>
+      </sp>
+      <sp who="#Lakej">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="35"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="187"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ШЕСТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="24"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="10"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="43"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ СЕДЬМОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="26"/>
+      </sp>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="107"/>
+      </sp>
+      <sp who="#Vasilevna">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="32"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="124"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ВОСЬМОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="28"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="127"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="108"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="14"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДЕВЯТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#Apollon">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="54"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДЕСЯТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="7"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="25"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="23"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ОДИННАДЦАТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="100"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="525"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="47"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="243"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="12"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="227"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="1223"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДВЕНАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="150"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="700"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="124"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="659"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ТРИНАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ЧЕТЫРНАДЦАТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="81"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="364"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="97"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="461"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="82"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="452"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ПЯТНАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="57"/>
+        <amount unit="words" n="1009"/>
+        <amount unit="lines" n="57"/>
+        <amount unit="characters" n="4986"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="56"/>
+        <amount unit="words" n="659"/>
+        <amount unit="lines" n="56"/>
+        <amount unit="characters" n="3011"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ШЕСТНАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ СЕМНАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="33"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="125"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="72"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="341"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ВОСЕМНАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="23"/>
+        <amount unit="words" n="268"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="1226"/>
+      </sp>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="289"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="1128"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДЕВЯТНАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="149"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="721"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="390"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="1884"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДВАДЦАТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="84"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="493"/>
+      </sp>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="40"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="235"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="189"/>
+        <amount unit="lines" n="15"/>
+        <amount unit="characters" n="924"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ПЕРВОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ВТОРОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="236"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="1105"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="276"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="1517"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ТРЕТЬЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="161"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="755"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="20"/>
+        <amount unit="words" n="256"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="1344"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ЧЕТВЕРТОЕ ==</head>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="12"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="101"/>
+      </sp>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="128"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="618"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="184"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="913"/>
+      </sp>
+    </div>
+    <div>
+      <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ПЯТОЕ ==</head>
+      <sp who="#DarjaIvanovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="67"/>
+      </sp>
+      <sp who="#Apollon">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#Vasilevna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#Stupendev">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="12"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="60"/>
+      </sp>
+      <sp who="#Misha">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="27"/>
+      </sp>
+      <sp who="#GrafLjubin">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="70"/>
+      </sp>
+    </div>
+  </text>
+</play>

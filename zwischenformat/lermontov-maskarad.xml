@@ -1,0 +1,1171 @@
+<play xmlns="http://lina.digital" id="37">
+  <head>
+    <title>Маскарад</title>
+    <title>Masquerade</title>
+    <title>Драма в 4-х действиях, в стихах</title>
+    <title>A Poetic Drama in Four Acts</title>
+    <author>Михаил Юрьевич Лермонтов</author>
+  </head>
+  <personae>
+    <character>
+      <name>1-й понтер (Выход первый)</name>
+      <alias xml:id="PervyjjPonter_VyhodPervyj"/>
+    </character>
+    <character>
+      <name>Банкомет</name>
+      <alias xml:id="Bankomet"/>
+    </character>
+    <character>
+      <name>2-й понтер (Выход первый)</name>
+      <alias xml:id="VtorojjPonter_VyhodPervyj"/>
+    </character>
+    <character>
+      <name>3-й понтер (Выход первый)</name>
+      <alias xml:id="TretijjPonter_VyhodPervyj"/>
+    </character>
+    <character>
+      <name>4-й понтер (Выход первый)</name>
+      <alias xml:id="ChetvertyjjPonter_VyhodPervyj"/>
+    </character>
+    <character>
+      <name>Князь Звездич</name>
+      <alias xml:id="KnjazZvezdich"/>
+    </character>
+    <character>
+      <name>Шприх</name>
+      <alias xml:id="Shprih"/>
+    </character>
+    <character>
+      <name>Арбенин</name>
+      <alias xml:id="Arbenin"/>
+    </character>
+    <character>
+      <name>Казарин</name>
+      <alias xml:id="Kazarin"/>
+    </character>
+    <character>
+      <name>Игроки</name>
+      <alias xml:id="Igroki_VyhodVtoroj"/>
+    </character>
+    <character>
+      <name>1-й понтер (Выход второй)</name>
+      <alias xml:id="PervyjjPonter_VyhodVtoroj"/>
+    </character>
+    <character>
+      <name>1-й игрок (Выход второй)</name>
+      <alias xml:id="PervyjjIgrok_VyhodVtoroj"/>
+    </character>
+    <character>
+      <name>2-й игрок (Выход второй)</name>
+      <alias xml:id="VtorojjIgrok_VyhodVtoroj"/>
+    </character>
+    <character>
+      <name>1-й понтер (Выход второй)</name>
+      <alias xml:id="TretijjPonter_VyhodVtoroj"/>
+    </character>
+    <character>
+      <name>1-й понтер (Выход второй)</name>
+      <alias xml:id="ChetvertyjjPonter_VyhodVtoroj"/>
+    </character>
+    <character>
+      <name>5-й понтер (Выход второй)</name>
+      <alias xml:id="PjatyjjPonter_VyhodVtoroj"/>
+    </character>
+    <character>
+      <name>1-й игрок (Выход третий)</name>
+      <alias xml:id="PervyjjIgrok_VyhodTretij"/>
+    </character>
+    <character>
+      <name>2-й игрок (Выход третий)</name>
+      <alias xml:id="VtorojjIgrok_VyhodTretij"/>
+    </character>
+    <character>
+      <name>Слуга (Выход третий)</name>
+      <alias xml:id="Sluga_VyhodTretij"/>
+    </character>
+    <character>
+      <name>Хозяин</name>
+      <alias xml:id="Hozjain"/>
+    </character>
+    <character>
+      <name>Женская маска</name>
+      <alias xml:id="ZhenskajaMaska"/>
+    </character>
+    <character>
+      <name>Маска (Неизвестный)</name>
+      <alias xml:id="Maska_Neizvestnyj"/>
+    </character>
+    <character>
+      <name>Слуга Арбенина</name>
+      <alias xml:id="Sluga_Arbenina"/>
+    </character>
+    <character>
+      <name>Нина</name>
+      <alias xml:id="Nina"/>
+    </character>
+    <character>
+      <name>Баронесса</name>
+      <alias xml:id="Baronessa"/>
+    </character>
+    <character>
+      <name>Чиновник</name>
+      <alias xml:id="Chinovnik"/>
+    </character>
+    <character>
+      <name>Иван</name>
+      <alias xml:id="Ivan"/>
+    </character>
+    <character>
+      <name>Хозяин (N.)</name>
+      <alias xml:id="Hozjain_N"/>
+    </character>
+    <character>
+      <name>Хозяйка</name>
+      <alias xml:id="Hozjajka"/>
+    </character>
+    <character>
+      <name>1-й гость (Бал)</name>
+      <alias xml:id="PervyjjGost_Bal"/>
+    </character>
+    <character>
+      <name>2-й гость (Бал)</name>
+      <alias xml:id="VtorojjGost_Bal"/>
+    </character>
+    <character>
+      <name>Многие</name>
+      <alias xml:id="Mnogie"/>
+    </character>
+    <character>
+      <name>Дама (Бал)</name>
+      <alias xml:id="Dama_Bal"/>
+    </character>
+    <character>
+      <name>3-й гость (Бал)</name>
+      <alias xml:id="TretijjGost_Bal"/>
+    </character>
+    <character>
+      <name>4-й гость (Бал)</name>
+      <alias xml:id="ChetvertyjjGost_Bal"/>
+    </character>
+    <character>
+      <name>5-й гость (Бал)</name>
+      <alias xml:id="PjatyjjGost_Bal"/>
+    </character>
+    <character>
+      <name>6-й гость (Бал)</name>
+      <alias xml:id="ShestojjGost_Bal"/>
+    </character>
+    <character>
+      <name>Дама (другой)</name>
+      <alias xml:id="Dama_drugoj"/>
+    </character>
+    <character>
+      <name>Петков</name>
+      <alias xml:id="Petkov"/>
+    </character>
+    <character>
+      <name>Дама</name>
+      <alias xml:id="Dama"/>
+    </character>
+    <character>
+      <name>Гость</name>
+      <alias xml:id="Gost"/>
+    </character>
+    <character>
+      <name>2-й Гость</name>
+      <alias xml:id="VtorojjGost"/>
+    </character>
+    <character>
+      <name>3-й Гость</name>
+      <alias xml:id="TretijjGost"/>
+    </character>
+    <character>
+      <name>Служанка</name>
+      <alias xml:id="Sluzhanka"/>
+    </character>
+    <character>
+      <name>Дама</name>
+      <alias xml:id="Dama_ma_tante"/>
+    </character>
+    <character>
+      <name>Племянница</name>
+      <alias xml:id="Plemjannitsa"/>
+    </character>
+    <character>
+      <name>Старик</name>
+      <alias xml:id="Starik"/>
+    </character>
+    <character>
+      <name>Доктор</name>
+      <alias xml:id="Doktor"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Действие первое</head>
+      <div>
+        <head>Сцена первая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#ChetvertyjjPonter_VyhodPervyj">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="20"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="81"/>
+          </sp>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="25"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="96"/>
+          </sp>
+          <sp who="#PervyjjPonter_VyhodPervyj">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="10"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="47"/>
+          </sp>
+          <sp who="#VtorojjPonter_VyhodPervyj">
+            <amount unit="speechacts" n="5"/>
+            <amount unit="words" n="55"/>
+            <amount unit="lines" n="8"/>
+            <amount unit="characters" n="211"/>
+          </sp>
+          <sp who="#TretijjPonter_VyhodPervyj">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="16"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="73"/>
+          </sp>
+          <sp who="#Bankomet">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="9"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="39"/>
+          </sp>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="20"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="86"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#TretijjPonter_VyhodVtoroj">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="11"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="41"/>
+          </sp>
+          <sp who="#Kazarin">
+            <amount unit="speechacts" n="16"/>
+            <amount unit="words" n="386"/>
+            <amount unit="lines" n="57"/>
+            <amount unit="characters" n="1568"/>
+          </sp>
+          <sp who="#ChetvertyjjPonter_VyhodVtoroj">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="2"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="12"/>
+          </sp>
+          <sp who="#Igroki_VyhodVtoroj">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="22"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="84"/>
+          </sp>
+          <sp who="#VtorojjIgrok_VyhodVtoroj">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="28"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="105"/>
+          </sp>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="15"/>
+            <amount unit="words" n="101"/>
+            <amount unit="lines" n="17"/>
+            <amount unit="characters" n="392"/>
+          </sp>
+          <sp who="#PervyjjIgrok_VyhodVtoroj">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="8"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="34"/>
+          </sp>
+          <sp who="#PervyjjPonter_VyhodVtoroj">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="23"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="96"/>
+          </sp>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="5"/>
+            <amount unit="words" n="40"/>
+            <amount unit="lines" n="8"/>
+            <amount unit="characters" n="173"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="27"/>
+            <amount unit="words" n="723"/>
+            <amount unit="lines" n="103"/>
+            <amount unit="characters" n="3140"/>
+          </sp>
+          <sp who="#PjatyjjPonter_VyhodVtoroj">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="2"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="10"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#Hozjain">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="10"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="49"/>
+          </sp>
+          <sp who="#PervyjjIgrok_VyhodTretij">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="8"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="37"/>
+          </sp>
+          <sp who="#VtorojjIgrok_VyhodTretij">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="10"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="42"/>
+          </sp>
+          <sp who="#Sluga_VyhodTretij">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="3"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="17"/>
+          </sp>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="24"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="116"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Сцена вторая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="12"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="46"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="179"/>
+            <amount unit="lines" n="23"/>
+            <amount unit="characters" n="792"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#ZhenskajaMaska">
+            <amount unit="speechacts" n="15"/>
+            <amount unit="words" n="317"/>
+            <amount unit="lines" n="42"/>
+            <amount unit="characters" n="1344"/>
+          </sp>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="15"/>
+            <amount unit="words" n="153"/>
+            <amount unit="lines" n="24"/>
+            <amount unit="characters" n="610"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#Maska_Neizvestnyj">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="44"/>
+            <amount unit="lines" n="5"/>
+            <amount unit="characters" n="163"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="91"/>
+            <amount unit="lines" n="12"/>
+            <amount unit="characters" n="385"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход четвертый</head>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="8"/>
+            <amount unit="words" n="72"/>
+            <amount unit="lines" n="12"/>
+            <amount unit="characters" n="293"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="7"/>
+            <amount unit="words" n="57"/>
+            <amount unit="lines" n="11"/>
+            <amount unit="characters" n="201"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход пятый</head>
+          <sp who="#ZhenskajaMaska">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="130"/>
+            <amount unit="lines" n="16"/>
+            <amount unit="characters" n="566"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход шестой</head>
+          <sp who="#ZhenskajaMaska">
+            <amount unit="speechacts" n="7"/>
+            <amount unit="words" n="162"/>
+            <amount unit="lines" n="24"/>
+            <amount unit="characters" n="687"/>
+          </sp>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="7"/>
+            <amount unit="words" n="102"/>
+            <amount unit="lines" n="18"/>
+            <amount unit="characters" n="435"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход седьмой</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="8"/>
+            <amount unit="words" n="110"/>
+            <amount unit="lines" n="20"/>
+            <amount unit="characters" n="464"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="8"/>
+            <amount unit="words" n="112"/>
+            <amount unit="lines" n="16"/>
+            <amount unit="characters" n="453"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Сцена третья</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#Sluga_Arbenina">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="10"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="44"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="113"/>
+            <amount unit="lines" n="16"/>
+            <amount unit="characters" n="465"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="195"/>
+            <amount unit="lines" n="28"/>
+            <amount unit="characters" n="876"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="16"/>
+            <amount unit="words" n="302"/>
+            <amount unit="lines" n="48"/>
+            <amount unit="characters" n="1233"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="16"/>
+            <amount unit="words" n="477"/>
+            <amount unit="lines" n="75"/>
+            <amount unit="characters" n="2126"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход четвертый</head>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="37"/>
+            <amount unit="lines" n="5"/>
+            <amount unit="characters" n="140"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="6"/>
+            <amount unit="words" n="76"/>
+            <amount unit="lines" n="11"/>
+            <amount unit="characters" n="289"/>
+          </sp>
+          <sp who="#Sluga_Arbenina">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="14"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="64"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход пятый</head>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="13"/>
+            <amount unit="words" n="253"/>
+            <amount unit="lines" n="37"/>
+            <amount unit="characters" n="1026"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="14"/>
+            <amount unit="words" n="635"/>
+            <amount unit="lines" n="88"/>
+            <amount unit="characters" n="2620"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Действие второе</head>
+      <div>
+        <head>Сцена первая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="196"/>
+            <amount unit="lines" n="26"/>
+            <amount unit="characters" n="888"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="24"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="99"/>
+          </sp>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="39"/>
+            <amount unit="lines" n="5"/>
+            <amount unit="characters" n="184"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="6"/>
+            <amount unit="words" n="72"/>
+            <amount unit="lines" n="11"/>
+            <amount unit="characters" n="295"/>
+          </sp>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="5"/>
+            <amount unit="words" n="67"/>
+            <amount unit="lines" n="11"/>
+            <amount unit="characters" n="304"/>
+          </sp>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="10"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="43"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход четвертый</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="14"/>
+            <amount unit="words" n="211"/>
+            <amount unit="lines" n="37"/>
+            <amount unit="characters" n="918"/>
+          </sp>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="5"/>
+            <amount unit="words" n="29"/>
+            <amount unit="lines" n="6"/>
+            <amount unit="characters" n="122"/>
+          </sp>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="15"/>
+            <amount unit="words" n="118"/>
+            <amount unit="lines" n="22"/>
+            <amount unit="characters" n="474"/>
+          </sp>
+          <sp who="#Chinovnik">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="24"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="98"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход пятый</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="10"/>
+            <amount unit="words" n="94"/>
+            <amount unit="lines" n="15"/>
+            <amount unit="characters" n="393"/>
+          </sp>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="10"/>
+            <amount unit="words" n="230"/>
+            <amount unit="lines" n="33"/>
+            <amount unit="characters" n="991"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход седьмой</head>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="8"/>
+            <amount unit="words" n="138"/>
+            <amount unit="lines" n="23"/>
+            <amount unit="characters" n="601"/>
+          </sp>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="7"/>
+            <amount unit="words" n="97"/>
+            <amount unit="lines" n="15"/>
+            <amount unit="characters" n="412"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход осьмой</head>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="57"/>
+            <amount unit="lines" n="9"/>
+            <amount unit="characters" n="270"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Сцена вторая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#Sluga_Arbenina">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="14"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="69"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="61"/>
+            <amount unit="lines" n="9"/>
+            <amount unit="characters" n="263"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#Kazarin">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="157"/>
+            <amount unit="lines" n="27"/>
+            <amount unit="characters" n="718"/>
+          </sp>
+          <sp who="#Sluga_Arbenina">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="12"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="64"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#Kazarin">
+            <amount unit="speechacts" n="18"/>
+            <amount unit="words" n="185"/>
+            <amount unit="lines" n="31"/>
+            <amount unit="characters" n="745"/>
+          </sp>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="18"/>
+            <amount unit="words" n="292"/>
+            <amount unit="lines" n="48"/>
+            <amount unit="characters" n="1260"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход четвертый</head>
+          <sp who="#Kazarin">
+            <amount unit="speechacts" n="13"/>
+            <amount unit="words" n="731"/>
+            <amount unit="lines" n="107"/>
+            <amount unit="characters" n="3246"/>
+          </sp>
+          <sp who="#Shprih">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="25"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="107"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="13"/>
+            <amount unit="words" n="437"/>
+            <amount unit="lines" n="59"/>
+            <amount unit="characters" n="1832"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Сцена третья</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#Ivan">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="79"/>
+            <amount unit="lines" n="12"/>
+            <amount unit="characters" n="323"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="53"/>
+            <amount unit="lines" n="9"/>
+            <amount unit="characters" n="211"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="293"/>
+            <amount unit="lines" n="35"/>
+            <amount unit="characters" n="1191"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="14"/>
+            <amount unit="words" n="123"/>
+            <amount unit="lines" n="20"/>
+            <amount unit="characters" n="444"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="14"/>
+            <amount unit="words" n="492"/>
+            <amount unit="lines" n="70"/>
+            <amount unit="characters" n="2075"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход четвертый</head>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="73"/>
+            <amount unit="lines" n="8"/>
+            <amount unit="characters" n="294"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход пятый</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="10"/>
+            <amount unit="words" n="255"/>
+            <amount unit="lines" n="35"/>
+            <amount unit="characters" n="1048"/>
+          </sp>
+          <sp who="#Baronessa">
+            <amount unit="speechacts" n="10"/>
+            <amount unit="words" n="397"/>
+            <amount unit="lines" n="58"/>
+            <amount unit="characters" n="1697"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход шестой</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="71"/>
+            <amount unit="lines" n="10"/>
+            <amount unit="characters" n="299"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Сцена четвертая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#Kazarin">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="99"/>
+            <amount unit="lines" n="16"/>
+            <amount unit="characters" n="425"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="17"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="52"/>
+          </sp>
+          <sp who="#Hozjain_N">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="12"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="54"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="20"/>
+            <amount unit="words" n="223"/>
+            <amount unit="lines" n="33"/>
+            <amount unit="characters" n="814"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="22"/>
+            <amount unit="words" n="537"/>
+            <amount unit="lines" n="85"/>
+            <amount unit="characters" n="2379"/>
+          </sp>
+          <sp who="#Hozjain_N">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="22"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="87"/>
+          </sp>
+          <sp who="#Kazarin">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="30"/>
+            <amount unit="lines" n="6"/>
+            <amount unit="characters" n="138"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Действие третье</head>
+      <div>
+        <head>Сцена первая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#ShestojjGost_Bal">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="8"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="31"/>
+          </sp>
+          <sp who="#Dama_Bal">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="13"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="50"/>
+          </sp>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="38"/>
+            <amount unit="lines" n="6"/>
+            <amount unit="characters" n="148"/>
+          </sp>
+          <sp who="#PervyjjGost_Bal">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="5"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="17"/>
+          </sp>
+          <sp who="#ChetvertyjjGost_Bal">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="27"/>
+            <amount unit="lines" n="5"/>
+            <amount unit="characters" n="95"/>
+          </sp>
+          <sp who="#Mnogie">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="7"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="23"/>
+          </sp>
+          <sp who="#TretijjGost_Bal">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="22"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="94"/>
+          </sp>
+          <sp who="#Hozjajka">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="42"/>
+            <amount unit="lines" n="6"/>
+            <amount unit="characters" n="164"/>
+          </sp>
+          <sp who="#PjatyjjGost_Bal">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="9"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="40"/>
+          </sp>
+          <sp who="#VtorojjGost_Bal">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="25"/>
+            <amount unit="lines" n="5"/>
+            <amount unit="characters" n="100"/>
+          </sp>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="5"/>
+            <amount unit="words" n="146"/>
+            <amount unit="lines" n="19"/>
+            <amount unit="characters" n="623"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="328"/>
+            <amount unit="lines" n="43"/>
+            <amount unit="characters" n="1362"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#Petkov">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="6"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="39"/>
+          </sp>
+          <sp who="#Hozjajka">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="22"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="98"/>
+          </sp>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="100"/>
+            <amount unit="lines" n="17"/>
+            <amount unit="characters" n="458"/>
+          </sp>
+          <sp who="#Dama_drugoj">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="8"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="30"/>
+          </sp>
+          <sp who="#Dama">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="13"/>
+            <amount unit="lines" n="1"/>
+            <amount unit="characters" n="38"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход четвертый</head>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="14"/>
+            <amount unit="words" n="107"/>
+            <amount unit="lines" n="19"/>
+            <amount unit="characters" n="429"/>
+          </sp>
+          <sp who="#Gost">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="15"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="82"/>
+          </sp>
+          <sp who="#VtorojjGost">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="17"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="81"/>
+          </sp>
+          <sp who="#Maska_Neizvestnyj">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="31"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="156"/>
+          </sp>
+          <sp who="#TretijjGost">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="23"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="104"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="14"/>
+            <amount unit="words" n="153"/>
+            <amount unit="lines" n="26"/>
+            <amount unit="characters" n="611"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Сцена вторая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="155"/>
+            <amount unit="lines" n="20"/>
+            <amount unit="characters" n="656"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="5"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="14"/>
+          </sp>
+          <sp who="#Sluzhanka">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="16"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="75"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#Nina">
+            <amount unit="speechacts" n="27"/>
+            <amount unit="words" n="480"/>
+            <amount unit="lines" n="67"/>
+            <amount unit="characters" n="1921"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="28"/>
+            <amount unit="words" n="790"/>
+            <amount unit="lines" n="110"/>
+            <amount unit="characters" n="3257"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Действие четвертое</head>
+      <div>
+        <head>Сцена первая</head>
+        <div>
+          <head>Выход первый</head>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="111"/>
+            <amount unit="lines" n="17"/>
+            <amount unit="characters" n="538"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход второй</head>
+          <sp who="#Kazarin">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="119"/>
+            <amount unit="lines" n="16"/>
+            <amount unit="characters" n="508"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход третий</head>
+          <sp who="#Plemjannitsa">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="12"/>
+            <amount unit="lines" n="2"/>
+            <amount unit="characters" n="50"/>
+          </sp>
+          <sp who="#Dama_ma_tante">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="56"/>
+            <amount unit="lines" n="8"/>
+            <amount unit="characters" n="254"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход четвертый</head>
+          <sp who="#Doktor">
+            <amount unit="speechacts" n="1"/>
+            <amount unit="words" n="16"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="67"/>
+          </sp>
+          <sp who="#Starik">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="23"/>
+            <amount unit="lines" n="4"/>
+            <amount unit="characters" n="120"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход пятый</head>
+          <sp who="#Doktor">
+            <amount unit="speechacts" n="4"/>
+            <amount unit="words" n="56"/>
+            <amount unit="lines" n="10"/>
+            <amount unit="characters" n="236"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="3"/>
+            <amount unit="words" n="102"/>
+            <amount unit="lines" n="16"/>
+            <amount unit="characters" n="420"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход шестой</head>
+          <sp who="#Doktor">
+            <amount unit="speechacts" n="6"/>
+            <amount unit="words" n="48"/>
+            <amount unit="lines" n="8"/>
+            <amount unit="characters" n="175"/>
+          </sp>
+          <sp who="#Maska_Neizvestnyj">
+            <amount unit="speechacts" n="5"/>
+            <amount unit="words" n="43"/>
+            <amount unit="lines" n="8"/>
+            <amount unit="characters" n="189"/>
+          </sp>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="2"/>
+            <amount unit="words" n="7"/>
+            <amount unit="lines" n="3"/>
+            <amount unit="characters" n="27"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход седьмой</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="6"/>
+            <amount unit="words" n="46"/>
+            <amount unit="lines" n="8"/>
+            <amount unit="characters" n="177"/>
+          </sp>
+          <sp who="#Maska_Neizvestnyj">
+            <amount unit="speechacts" n="6"/>
+            <amount unit="words" n="216"/>
+            <amount unit="lines" n="29"/>
+            <amount unit="characters" n="873"/>
+          </sp>
+        </div>
+        <div>
+          <head>Выход осьмой</head>
+          <sp who="#KnjazZvezdich">
+            <amount unit="speechacts" n="8"/>
+            <amount unit="words" n="172"/>
+            <amount unit="lines" n="27"/>
+            <amount unit="characters" n="775"/>
+          </sp>
+          <sp who="#Maska_Neizvestnyj">
+            <amount unit="speechacts" n="16"/>
+            <amount unit="words" n="740"/>
+            <amount unit="lines" n="106"/>
+            <amount unit="characters" n="3144"/>
+          </sp>
+          <sp who="#Arbenin">
+            <amount unit="speechacts" n="16"/>
+            <amount unit="words" n="614"/>
+            <amount unit="lines" n="86"/>
+            <amount unit="characters" n="2493"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

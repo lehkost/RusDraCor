@@ -1,0 +1,1047 @@
+<play xmlns="http://lina.digital" id="31">
+  <head>
+    <title>Бесприданница</title>
+    <title>Without a Dowry</title>
+    <title>Драма в четырех действиях</title>
+    <title>Drama in Four Acts</title>
+    <author>Александр Островский</author>
+  </head>
+  <personae>
+    <character>
+      <name>Иван</name>
+      <alias xml:id="Ivan"/>
+    </character>
+    <character>
+      <name>Гаврило</name>
+      <alias xml:id="Gavrilo"/>
+    </character>
+    <character>
+      <name>Вожеватов</name>
+      <alias xml:id="Vozhevatov"/>
+    </character>
+    <character>
+      <name>Кнуров</name>
+      <alias xml:id="Knurov"/>
+    </character>
+    <character>
+      <name>Огудалова</name>
+      <alias xml:id="Ogudalova"/>
+    </character>
+    <character>
+      <name>Карандышев</name>
+      <alias xml:id="Karandyshev"/>
+    </character>
+    <character>
+      <name>Лариса</name>
+      <alias xml:id="Larisa"/>
+    </character>
+    <character>
+      <name>Паратов</name>
+      <alias xml:id="Paratov"/>
+    </character>
+    <character>
+      <name>Робинзон</name>
+      <alias xml:id="Robinzon"/>
+    </character>
+    <character>
+      <name>Илья</name>
+      <alias xml:id="Ilja"/>
+    </character>
+    <character>
+      <name>Евфросинья Потаповна</name>
+      <alias xml:id="EvfrosinjaPotapovna"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Действие первое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="73"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="359"/>
+        </sp>
+        <sp who="#Gavrilo">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="220"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="1187"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="64"/>
+          <amount unit="words" n="1469"/>
+          <amount unit="lines" n="67"/>
+          <amount unit="characters" n="7742"/>
+        </sp>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="100"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="484"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="53"/>
+          <amount unit="words" n="662"/>
+          <amount unit="lines" n="55"/>
+          <amount unit="characters" n="3269"/>
+        </sp>
+        <sp who="#Gavrilo">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="156"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="765"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="238"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="1180"/>
+        </sp>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="105"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="39"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="134"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="18"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="128"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="631"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="104"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="493"/>
+        </sp>
+        <sp who="#Gavrilo">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="45"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="207"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="31"/>
+          <amount unit="words" n="357"/>
+          <amount unit="lines" n="32"/>
+          <amount unit="characters" n="1683"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="31"/>
+          <amount unit="words" n="859"/>
+          <amount unit="lines" n="35"/>
+          <amount unit="characters" n="4316"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="119"/>
+        </sp>
+        <sp who="#Gavrilo">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="113"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="27"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="145"/>
+        </sp>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="114"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="542"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="14"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="45"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="115"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="18"/>
+          <amount unit="words" n="643"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="3351"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="191"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="920"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="119"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="510"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="79"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="260"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="1308"/>
+        </sp>
+        <sp who="#Gavrilo">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="54"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="284"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие второе</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="118"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="620"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="30"/>
+          <amount unit="words" n="573"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="2943"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="30"/>
+          <amount unit="words" n="306"/>
+          <amount unit="lines" n="30"/>
+          <amount unit="characters" n="1373"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="286"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="1338"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="284"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="1350"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Ilja">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="294"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="1358"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="37"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="122"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="70"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="112"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="579"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="33"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="132"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="21"/>
+          <amount unit="words" n="580"/>
+          <amount unit="lines" n="22"/>
+          <amount unit="characters" n="3032"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="164"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="740"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="210"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="961"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="19"/>
+          <amount unit="words" n="179"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="802"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="19"/>
+          <amount unit="words" n="235"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="1246"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="25"/>
+          <amount unit="words" n="410"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="2245"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="24"/>
+          <amount unit="words" n="273"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="1325"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление девятое</head>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="120"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="549"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="185"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="945"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="22"/>
+          <amount unit="words" n="293"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="1444"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="201"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление десятое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="154"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="801"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="49"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="222"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="34"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="162"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="28"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="69"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="56"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="212"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление одиннадцатое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="14"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="58"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="76"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="381"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие третье</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="21"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="108"/>
+        </sp>
+        <sp who="#EvfrosinjaPotapovna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="55"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="305"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="135"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="638"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="130"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="546"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="60"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="256"/>
+        </sp>
+        <sp who="#EvfrosinjaPotapovna">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="440"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="2279"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="37"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="16"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="70"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="74"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="329"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="154"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="882"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="45"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="237"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="184"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="903"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="50"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="178"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="64"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="290"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="68"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="317"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="67"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="129"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="537"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="108"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="520"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="12"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="65"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="271"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="66"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="328"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="94"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="448"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="30"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="157"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="83"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="381"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление девятое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="228"/>
+        </sp>
+        <sp who="#Ilja">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="41"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="196"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="65"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="354"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="59"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="269"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление десятое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="130"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="595"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="97"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="400"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="59"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="282"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление одиннадцатое</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="11"/>
+        </sp>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="64"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="309"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="135"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="153"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="706"/>
+        </sp>
+        <sp who="#EvfrosinjaPotapovna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="33"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="129"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="40"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="172"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="104"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="479"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="31"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="156"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="45"/>
+        </sp>
+        <sp who="#Ilja">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="68"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="319"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление двенадцатое</head>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="275"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="1415"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="83"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="299"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление тринадцатое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="41"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="189"/>
+        </sp>
+        <sp who="#Vozhevatov #Robinzon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="13"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="223"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="2"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="5"/>
+        </sp>
+        <sp who="#Paratov #Vozhevatov #Robinzon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="2"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="4"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="97"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="94"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="244"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="1327"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="62"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="257"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четырнадцатое</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="65"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="315"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="353"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="1771"/>
+        </sp>
+        <sp who="#Ogudalova">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="41"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="169"/>
+        </sp>
+        <sp who="#EvfrosinjaPotapovna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="91"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие четвертое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="205"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="1049"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="312"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="1415"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="40"/>
+        </sp>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="104"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="430"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="236"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="1147"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Ivan">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="57"/>
+        </sp>
+        <sp who="#Gavrilo">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="45"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Ilja">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="38"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="176"/>
+        </sp>
+        <sp who="#Gavrilo">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="109"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="77"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="364"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="134"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="678"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="20"/>
+          <amount unit="words" n="315"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="1429"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="162"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="769"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="164"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="812"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="44"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="170"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="20"/>
+          <amount unit="words" n="421"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="2277"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="423"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="2043"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Vozhevatov">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="226"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="47"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="176"/>
+        </sp>
+        <sp who="#Knurov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="165"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="956"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="82"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="396"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="54"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="223"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление девятое</head>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="298"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="1441"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление десятое</head>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="133"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="667"/>
+        </sp>
+        <sp who="#Robinzon">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="36"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="172"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление одиннадцатое</head>
+        <sp who="#Karandyshev">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="258"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="1171"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="372"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="1779"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление двенадцатое</head>
+        <sp who="#Paratov #Knurov #Vozhevatov #Robinzon #Gavrilo #Ivan">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="21"/>
+        </sp>
+        <sp who="#Paratov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="35"/>
+        </sp>
+        <sp who="#Larisa">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="72"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="315"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

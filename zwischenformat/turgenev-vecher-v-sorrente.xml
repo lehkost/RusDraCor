@@ -1,0 +1,257 @@
+<play xmlns="http://lina.digital" id="2">
+  <head>
+    <title>Вечер в Сорренте</title>
+    <title>An Evening in Sorrento</title>
+    <title>Сцена</title>
+    <title>Scene</title>
+    <author>Иван Сергеевич Тургенев</author>
+  </head>
+  <personae>
+    <character>
+      <name>Аваков</name>
+      <alias xml:id="Avakov"/>
+    </character>
+    <character>
+      <name>Слуга</name>
+      <alias xml:id="Sluga"/>
+    </character>
+    <character>
+      <name>Надежда Павловна</name>
+      <alias xml:id="NadezhdaPavlovna"/>
+    </character>
+    <character>
+      <name>Бельский</name>
+      <alias xml:id="Belskij"/>
+    </character>
+    <character>
+      <name>Мария Петровна</name>
+      <alias xml:id="MarijaPetrovna"/>
+    </character>
+    <character>
+      <name>M-r Рореlin</name>
+      <alias xml:id="MrPopelin"/>
+    </character>
+    <character>
+      <name>Голос певца</name>
+      <alias xml:id="GolosPevtsa"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Sluga">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="25"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="184"/>
+      </sp>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="56"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="43"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#MrPopelin">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="25"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="162"/>
+      </sp>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="78"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="15"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#NadezhdaPavlovna">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="19"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="130"/>
+      </sp>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="53"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="222"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Belskij">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="95"/>
+      </sp>
+      <sp who="#NadezhdaPavlovna">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="58"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="314"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#MarijaPetrovna">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="33"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="137"/>
+      </sp>
+      <sp who="#NadezhdaPavlovna">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="41"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="231"/>
+      </sp>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#NadezhdaPavlovna">
+        <amount unit="speechacts" n="29"/>
+        <amount unit="words" n="268"/>
+        <amount unit="lines" n="29"/>
+        <amount unit="characters" n="1362"/>
+      </sp>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="32"/>
+        <amount unit="words" n="601"/>
+        <amount unit="lines" n="32"/>
+        <amount unit="characters" n="3126"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Belskij">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="40"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="161"/>
+      </sp>
+      <sp who="#NadezhdaPavlovna">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="37"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="180"/>
+      </sp>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="45"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Belskij">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="12"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="57"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#MarijaPetrovna">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="122"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="670"/>
+      </sp>
+      <sp who="#Belskij">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="223"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="1255"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#MarijaPetrovna">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="47"/>
+      </sp>
+      <sp who="#Belskij">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="172"/>
+      </sp>
+      <sp who="#GolosPevtsa">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="95"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#MarijaPetrovna">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="129"/>
+      </sp>
+      <sp who="#Belskij">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="123"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="661"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#MarijaPetrovna">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="18"/>
+      </sp>
+      <sp who="#Belskij">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="54"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="262"/>
+      </sp>
+      <sp who="#NadezhdaPavlovna">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="122"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="580"/>
+      </sp>
+      <sp who="#Avakov">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="145"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="714"/>
+      </sp>
+    </div>
+  </text>
+</play>

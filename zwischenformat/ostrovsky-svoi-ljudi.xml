@@ -1,0 +1,780 @@
+<play xmlns="http://lina.digital" id="28">
+  <head>
+    <title>Свои люди – сочтемся</title>
+    <title>It's a Family Affair – We'll Settle It Ourselves</title>
+    <title>Комедия в четырех действиях</title>
+    <title>A Comedy in Four Acts</title>
+    <author>Александр Островский</author>
+  </head>
+  <personae>
+    <character>
+      <name>Липочка (Олимпиада Самсоновна)</name>
+      <alias xml:id="Lipochka"/>
+    </character>
+    <character>
+      <name>Аграфена Кондратьевна</name>
+      <alias xml:id="AgrafenaKondratevna"/>
+    </character>
+    <character>
+      <name>Фоминишна</name>
+      <alias xml:id="Fominishna"/>
+    </character>
+    <character>
+      <name>Устинья Наумовна</name>
+      <alias xml:id="UstinjaNaumovna"/>
+    </character>
+    <character>
+      <name>Рисположенский</name>
+      <alias xml:id="Rispolozhenskij"/>
+    </character>
+    <character>
+      <name>Большов</name>
+      <alias xml:id="Bolshov"/>
+    </character>
+    <character>
+      <name>Подхалюзин</name>
+      <alias xml:id="Podhaljuzin"/>
+    </character>
+    <character>
+      <name>Тишка</name>
+      <alias xml:id="Tishka"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Действие первое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="409"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="2300"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="18"/>
+          <amount unit="words" n="617"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="3109"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="18"/>
+          <amount unit="words" n="716"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="3590"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="61"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="261"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="63"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="282"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="161"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="818"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="71"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="352"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="76"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="383"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="68"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="313"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="137"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="687"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="74"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="105"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="86"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="503"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="226"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="1117"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="36"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="183"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="89"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="464"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="90"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="444"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="119"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="588"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="151"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="768"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="320"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="1661"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="59"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="256"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="31"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="124"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление девятое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="110"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="455"/>
+        </sp>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="321"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="1616"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="98"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="415"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="41"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="181"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление десятое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="578"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="2897"/>
+        </sp>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="512"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="2473"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление одиннадцатое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="520"/>
+          <amount unit="lines" n="22"/>
+          <amount unit="characters" n="2729"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="207"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="1107"/>
+        </sp>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="82"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="381"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление двенадцатое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="645"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="3247"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="176"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="908"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие второе</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Tishka">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="230"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="1187"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="213"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="926"/>
+        </sp>
+        <sp who="#Tishka">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="84"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="330"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="529"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="2942"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="95"/>
+        </sp>
+        <sp who="#Tishka">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="50"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="22"/>
+          <amount unit="words" n="338"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="1654"/>
+        </sp>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="21"/>
+          <amount unit="words" n="515"/>
+          <amount unit="lines" n="22"/>
+          <amount unit="characters" n="2533"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="100"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="213"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="1145"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="250"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="1250"/>
+        </sp>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="63"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="283"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="32"/>
+          <amount unit="words" n="613"/>
+          <amount unit="lines" n="33"/>
+          <amount unit="characters" n="3120"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="31"/>
+          <amount unit="words" n="747"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="3681"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="46"/>
+        </sp>
+        <sp who="#Tishka">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="78"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="381"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="10"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="41"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="97"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="425"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление девятое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="67"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="204"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление десятое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="28"/>
+          <amount unit="words" n="504"/>
+          <amount unit="lines" n="29"/>
+          <amount unit="characters" n="2185"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="28"/>
+          <amount unit="words" n="984"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="5211"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие третье</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="78"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="370"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="152"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="647"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="74"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="345"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="519"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="2660"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="136"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="522"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="184"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="793"/>
+        </sp>
+        <sp who="#Tishka">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="106"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="220"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="957"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="316"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="1592"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="335"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="1771"/>
+        </sp>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="70"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="398"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="73"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="333"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="92"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="467"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="79"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="316"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="82"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="338"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="21"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="123"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="26"/>
+          <amount unit="words" n="657"/>
+          <amount unit="lines" n="33"/>
+          <amount unit="characters" n="3622"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="26"/>
+          <amount unit="words" n="375"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="1734"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="45"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="185"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="71"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="148"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="93"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="392"/>
+        </sp>
+        <sp who="#Fominishna">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="14"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="50"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="32"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="113"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="63"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="169"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="789"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="51"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="242"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="66"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="87"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="395"/>
+        </sp>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="126"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="621"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие четвертое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="206"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="1080"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="69"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="294"/>
+        </sp>
+        <sp who="#Tishka">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="77"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="127"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="603"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="223"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="1203"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="20"/>
+          <amount unit="words" n="363"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="1780"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третье</head>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="119"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="599"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="113"/>
+        </sp>
+        <sp who="#UstinjaNaumovna">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="167"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="821"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Bolshov">
+          <amount unit="speechacts" n="27"/>
+          <amount unit="words" n="861"/>
+          <amount unit="lines" n="29"/>
+          <amount unit="characters" n="4192"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="25"/>
+          <amount unit="words" n="515"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="2629"/>
+        </sp>
+        <sp who="#Lipochka">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="200"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="925"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="242"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="1023"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Rispolozhenskij">
+          <amount unit="speechacts" n="23"/>
+          <amount unit="words" n="398"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="1723"/>
+        </sp>
+        <sp who="#Tishka">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="80"/>
+        </sp>
+        <sp who="#AgrafenaKondratevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="70"/>
+        </sp>
+        <sp who="#Podhaljuzin">
+          <amount unit="speechacts" n="21"/>
+          <amount unit="words" n="325"/>
+          <amount unit="lines" n="22"/>
+          <amount unit="characters" n="1427"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

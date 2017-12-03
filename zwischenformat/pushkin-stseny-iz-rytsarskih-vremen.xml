@@ -1,0 +1,429 @@
+<play xmlns="http://lina.digital" id="16">
+  <head>
+    <title>Сцены из рыцарских времен</title>
+    <title>Scenes from Knightly Times</title>
+    <title/>
+    <author>Александр Пушкин</author>
+  </head>
+  <personae>
+    <character>
+      <name>Ротенфельд</name>
+      <alias xml:id="Rotenfeld"/>
+    </character>
+    <character>
+      <name>Бертольд</name>
+      <alias xml:id="Bertold"/>
+    </character>
+    <character>
+      <name>Франц</name>
+      <alias xml:id="Frants"/>
+    </character>
+    <character>
+      <name>Рыцари</name>
+      <alias xml:id="Rytsari"/>
+    </character>
+    <character>
+      <name>Рыцари</name>
+      <alias xml:id="Rytsari_2"/>
+    </character>
+    <character>
+      <name>Мартын</name>
+      <alias xml:id="Martyn"/>
+    </character>
+    <character>
+      <name>Один из них</name>
+      <alias xml:id="OdinIzNih"/>
+    </character>
+    <character>
+      <name>Берта</name>
+      <alias xml:id="Berta"/>
+    </character>
+    <character>
+      <name>Вассалы</name>
+      <alias xml:id="Vassaly"/>
+    </character>
+    <character>
+      <name>Один из рыцарей</name>
+      <alias xml:id="OdinIzRytsarej"/>
+    </character>
+    <character>
+      <name>Один из рыцарей</name>
+      <alias xml:id="OdinIzRytsarej_2"/>
+    </character>
+    <character>
+      <name>Альбер</name>
+      <alias xml:id="Alber"/>
+    </character>
+    <character>
+      <name>Клотильда</name>
+      <alias xml:id="Klotilda"/>
+    </character>
+    <character>
+      <name>Карл</name>
+      <alias xml:id="Karl"/>
+    </character>
+    <character>
+      <name>Один рыцарь</name>
+      <alias xml:id="OdinRytsar"/>
+    </character>
+    <character>
+      <name>Один рыцарь</name>
+      <alias xml:id="OdinRytsar_2"/>
+    </character>
+    <character>
+      <name>Рыцарь</name>
+      <alias xml:id="Rytsar"/>
+    </character>
+    <character>
+      <name>Рыцарь</name>
+      <alias xml:id="Rytsar_2"/>
+    </character>
+    <character>
+      <name>Другой</name>
+      <alias xml:id="DrugojRytsar"/>
+    </character>
+    <character>
+      <name>Другой</name>
+      <alias xml:id="DrugojRytsar_2"/>
+    </character>
+    <character>
+      <name>Другой</name>
+      <alias xml:id="DrugojRytsar_3"/>
+    </character>
+    <character>
+      <name>Другой</name>
+      <alias xml:id="DrugojRytsar_4"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="30"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="116"/>
+      </sp>
+      <sp who="#Martyn">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="258"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="1296"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Bertold">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="236"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="1075"/>
+      </sp>
+      <sp who="#Martyn">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="274"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="1177"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Bertold">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="109"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="536"/>
+      </sp>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="64"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="329"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Bertold">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="79"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="445"/>
+      </sp>
+      <sp who="#Martyn">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="90"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="453"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="294"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="1249"/>
+      </sp>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="474"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="2346"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Klotilda">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="133"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="578"/>
+      </sp>
+      <sp who="#Berta">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="132"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="555"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="17"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="78"/>
+      </sp>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="75"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="335"/>
+      </sp>
+      <sp who="#Klotilda">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="114"/>
+      </sp>
+      <sp who="#Rotenfeld">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="49"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="259"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="72"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="269"/>
+      </sp>
+      <sp who="#Klotilda">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="79"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="336"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="119"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="621"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="139"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="569"/>
+      </sp>
+      <sp who="#Karl">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="279"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="1203"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Kosari">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="22"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="102"/>
+      </sp>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="52"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="260"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Rytsari">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="57"/>
+      </sp>
+      <sp who="#OdinRytsar">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="40"/>
+      </sp>
+      <sp who="#Vassaly">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="32"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="117"/>
+      </sp>
+      <sp who="#Rotenfeld">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="53"/>
+      </sp>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="67"/>
+      </sp>
+      <sp who="#DrugojRytsar">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="35"/>
+      </sp>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="95"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#DrugojRytsar_3">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="131"/>
+      </sp>
+      <sp who="#Vassaly">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="28"/>
+      </sp>
+      <sp who="#OdinIzNih">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="12"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="55"/>
+      </sp>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="29"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="153"/>
+      </sp>
+      <sp who="#DrugojRytsar_2">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="41"/>
+      </sp>
+      <sp who="#Rytsari_2">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="67"/>
+      </sp>
+      <sp who="#Rotenfeld">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="31"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="161"/>
+      </sp>
+      <sp who="#Rytsar">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="41"/>
+      </sp>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="49"/>
+      </sp>
+      <sp who="#OdinIzRytsarej">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="87"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="475"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЗАМОК РОТЕНФЕЛЬДА</head>
+      <sp who="#Rytsari">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="32"/>
+      </sp>
+      <sp who="#Rytsari #Rytsari_2">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="59"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="275"/>
+      </sp>
+      <sp who="#Frants">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="435"/>
+        <amount unit="lines" n="79"/>
+        <amount unit="characters" n="1932"/>
+      </sp>
+      <sp who="#Klotilda">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="73"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="357"/>
+      </sp>
+      <sp who="#Rytsar_2">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="25"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="130"/>
+      </sp>
+      <sp who="#OdinIzRytsarej_2">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="34"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="162"/>
+      </sp>
+      <sp who="#DrugojRytsar_4">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="7"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="33"/>
+      </sp>
+      <sp who="#OdinRytsar_2">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="15"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="67"/>
+      </sp>
+      <sp who="#Alber">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="29"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="104"/>
+      </sp>
+      <sp who="#Rotenfeld">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="245"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="1185"/>
+      </sp>
+    </div>
+  </text>
+</play>

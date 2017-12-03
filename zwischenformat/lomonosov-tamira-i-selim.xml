@@ -1,0 +1,583 @@
+<play xmlns="http://lina.digital" id="35">
+  <head>
+    <title>Тамира и Селим</title>
+    <title>Tamira and Selim</title>
+    <title/>
+    <author>Михаил Васильевич Ломоносов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Тамира</name>
+      <alias xml:id="Tamira"/>
+    </character>
+    <character>
+      <name>Клеона</name>
+      <alias xml:id="Kleona"/>
+    </character>
+    <character>
+      <name>Мумет</name>
+      <alias xml:id="Mumet"/>
+    </character>
+    <character>
+      <name>Надир</name>
+      <alias xml:id="Nadir"/>
+    </character>
+    <character>
+      <name>Селим</name>
+      <alias xml:id="Selim"/>
+    </character>
+    <character>
+      <name>Заисан</name>
+      <alias xml:id="Zaisan"/>
+    </character>
+    <character>
+      <name>Вестник 1</name>
+      <alias xml:id="Vestnik_1"/>
+    </character>
+    <character>
+      <name>Вестник 2</name>
+      <alias xml:id="Vestnik_2"/>
+    </character>
+    <character>
+      <name>Мамай</name>
+      <alias xml:id="Mamaj"/>
+    </character>
+    <character>
+      <name>Нарсим</name>
+      <alias xml:id="Narsim"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Действие первое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="39"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="206"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="200"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="987"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="393"/>
+          <amount unit="lines" n="48"/>
+          <amount unit="characters" n="1791"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="383"/>
+          <amount unit="lines" n="50"/>
+          <amount unit="characters" n="1828"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="486"/>
+          <amount unit="lines" n="60"/>
+          <amount unit="characters" n="2220"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="150"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="695"/>
+        </sp>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="493"/>
+          <amount unit="lines" n="66"/>
+          <amount unit="characters" n="2524"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="61"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="293"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="452"/>
+          <amount unit="lines" n="56"/>
+          <amount unit="characters" n="2145"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие второе</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="150"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="685"/>
+        </sp>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="464"/>
+          <amount unit="lines" n="59"/>
+          <amount unit="characters" n="2246"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="22"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="280"/>
+          <amount unit="lines" n="36"/>
+          <amount unit="characters" n="1323"/>
+        </sp>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="472"/>
+          <amount unit="lines" n="65"/>
+          <amount unit="characters" n="2430"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="285"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="161"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="762"/>
+        </sp>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="215"/>
+          <amount unit="lines" n="30"/>
+          <amount unit="characters" n="1099"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Zaisan">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="101"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="516"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="203"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="1073"/>
+        </sp>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="60"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="291"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="61"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="295"/>
+        </sp>
+        <sp who="#Vestnik_1">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="116"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="595"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие третие</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Mamaj">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="195"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="935"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Mamaj">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="307"/>
+          <amount unit="lines" n="43"/>
+          <amount unit="characters" n="1575"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="41"/>
+        </sp>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="79"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="449"/>
+        </sp>
+        <sp who="#Zaisan">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="30"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="152"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="140"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="690"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="252"/>
+        </sp>
+        <sp who="#Mamaj">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="28"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="136"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Mamaj">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="195"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="1016"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="99"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="467"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Mamaj">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="150"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="714"/>
+        </sp>
+        <sp who="#Zaisan">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="6"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="36"/>
+        </sp>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="89"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="451"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Mamaj">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="244"/>
+          <amount unit="lines" n="32"/>
+          <amount unit="characters" n="1119"/>
+        </sp>
+        <sp who="#Zaisan">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="149"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="707"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="62"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="307"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="33"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="159"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="458"/>
+          <amount unit="lines" n="56"/>
+          <amount unit="characters" n="2106"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие четвертое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Zaisan">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="292"/>
+          <amount unit="lines" n="36"/>
+          <amount unit="characters" n="1379"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="59"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="296"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="264"/>
+          <amount unit="lines" n="36"/>
+          <amount unit="characters" n="1331"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="223"/>
+          <amount unit="lines" n="29"/>
+          <amount unit="characters" n="1090"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="382"/>
+          <amount unit="lines" n="51"/>
+          <amount unit="characters" n="1923"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="112"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="218"/>
+          <amount unit="lines" n="30"/>
+          <amount unit="characters" n="1061"/>
+        </sp>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="687"/>
+          <amount unit="lines" n="89"/>
+          <amount unit="characters" n="3310"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Mamaj">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="67"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="333"/>
+        </sp>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="60"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="54"/>
+        </sp>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="62"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="298"/>
+        </sp>
+        <sp who="#Zaisan">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="42"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие пятое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Kleona">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="18"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="55"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="289"/>
+        </sp>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="235"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="1180"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="38"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="125"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="609"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="80"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="382"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="63"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="261"/>
+        </sp>
+        <sp who="#Vestnik_2">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="271"/>
+          <amount unit="lines" n="36"/>
+          <amount unit="characters" n="1304"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="500"/>
+          <amount unit="lines" n="60"/>
+          <amount unit="characters" n="2330"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="64"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="244"/>
+        </sp>
+        <sp who="#Narsim">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="27"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="151"/>
+        </sp>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="47"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="217"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление последнее</head>
+        <sp who="#Zaisan">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="9"/>
+        </sp>
+        <sp who="#Tamira">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="64"/>
+        </sp>
+        <sp who="#Narsim">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="550"/>
+          <amount unit="lines" n="72"/>
+          <amount unit="characters" n="2693"/>
+        </sp>
+        <sp who="#Nadir">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="99"/>
+        </sp>
+        <sp who="#Mumet">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="230"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="1141"/>
+        </sp>
+        <sp who="#Selim">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="229"/>
+          <amount unit="lines" n="30"/>
+          <amount unit="characters" n="1109"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

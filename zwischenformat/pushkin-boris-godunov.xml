@@ -1,0 +1,1084 @@
+<play xmlns="http://lina.digital" id="42">
+  <head>
+    <title>Борис Годунов</title>
+    <title>Boris Godunov</title>
+    <title/>
+    <author>Александр Сергеевич Пушкин</author>
+  </head>
+  <personae>
+    <character>
+      <name>Воротынский</name>
+      <alias xml:id="Vorotynskij"/>
+    </character>
+    <character>
+      <name>Шуйский</name>
+      <alias xml:id="Shujskij"/>
+    </character>
+    <character>
+      <name>Один (Красная площадь)</name>
+      <alias xml:id="OdinIzNaroda_1"/>
+    </character>
+    <character>
+      <name>Другой (Красная площадь)</name>
+      <alias xml:id="DrugojIzNaroda_1"/>
+    </character>
+    <character>
+      <name>Третий (Красная площадь)</name>
+      <alias xml:id="TretijIzNaroda_1"/>
+    </character>
+    <character>
+      <name>Народ</name>
+      <alias xml:id="Narod"/>
+    </character>
+    <character>
+      <name>Щелкалов</name>
+      <alias xml:id="Schelkalov"/>
+    </character>
+    <character>
+      <name>Борис</name>
+      <alias xml:id="Tsar_Boris"/>
+    </character>
+    <character>
+      <name>Бояре</name>
+      <alias xml:id="Bojare"/>
+    </character>
+    <character>
+      <name>Пимен</name>
+      <alias xml:id="Pimen"/>
+    </character>
+    <character>
+      <name>Григорий</name>
+      <alias xml:id="Grigorij_Dimitrij_Lzhedimitrij_Samozvanets"/>
+    </character>
+    <character>
+      <name>Патриарх</name>
+      <alias xml:id="Patriarh"/>
+    </character>
+    <character>
+      <name>Игумен</name>
+      <alias xml:id="Igumen"/>
+    </character>
+    <character>
+      <name>Первый стольник</name>
+      <alias xml:id="PervyjStolnik"/>
+    </character>
+    <character>
+      <name>Второй стольник</name>
+      <alias xml:id="VtorojStolnik"/>
+    </character>
+    <character>
+      <name>Хозяйка</name>
+      <alias xml:id="Hozjajka"/>
+    </character>
+    <character>
+      <name>Варлаам</name>
+      <alias xml:id="Varlaam"/>
+    </character>
+    <character>
+      <name>Мисаил</name>
+      <alias xml:id="Misail"/>
+    </character>
+    <character>
+      <name>Первый пристав</name>
+      <alias xml:id="PervyjPristav"/>
+    </character>
+    <character>
+      <name>Второй пристав</name>
+      <alias xml:id="VtorojPristav"/>
+    </character>
+    <character>
+      <name>Мальчик</name>
+      <alias xml:id="Malchik"/>
+    </character>
+    <character>
+      <name>Афанасий Михайлович Пушкин</name>
+      <alias xml:id="Pushkin"/>
+    </character>
+    <character>
+      <name>Ксения</name>
+      <alias xml:id="Ksenija"/>
+    </character>
+    <character>
+      <name>Мамка</name>
+      <alias xml:id="Mamka"/>
+    </character>
+    <character>
+      <name>Феодор</name>
+      <alias xml:id="Feodor"/>
+    </character>
+    <character>
+      <name>Семен Годунов</name>
+      <alias xml:id="SemenGodunov"/>
+    </character>
+    <character>
+      <name>Pater Черниковский</name>
+      <alias xml:id="Pater"/>
+    </character>
+    <character>
+      <name>Гаврила Пушкин</name>
+      <alias xml:id="GavrilaPushkin"/>
+    </character>
+    <character>
+      <name>Курбский</name>
+      <alias xml:id="Kurbskij"/>
+    </character>
+    <character>
+      <name>Поляк</name>
+      <alias xml:id="Poljak"/>
+    </character>
+    <character>
+      <name>Хрущов</name>
+      <alias xml:id="Hruschov"/>
+    </character>
+    <character>
+      <name>Карела</name>
+      <alias xml:id="Karela"/>
+    </character>
+    <character>
+      <name>Поэт</name>
+      <alias xml:id="Poet"/>
+    </character>
+    <character>
+      <name>Мнишек</name>
+      <alias xml:id="Mnishek"/>
+    </character>
+    <character>
+      <name>Вишневецкий</name>
+      <alias xml:id="Vishnevetskij"/>
+    </character>
+    <character>
+      <name>Марина</name>
+      <alias xml:id="Marina"/>
+    </character>
+    <character>
+      <name>Кавалер</name>
+      <alias xml:id="PervyjKavaler"/>
+    </character>
+    <character>
+      <name>Дама</name>
+      <alias xml:id="PervajaDama"/>
+    </character>
+    <character>
+      <name>Дама</name>
+      <alias xml:id="VtorajaDama"/>
+    </character>
+    <character>
+      <name>Дама</name>
+      <alias xml:id="TretjaDama"/>
+    </character>
+    <character>
+      <name>Кавалер</name>
+      <alias xml:id="TretijKavaler"/>
+    </character>
+    <character>
+      <name>Басманов</name>
+      <alias xml:id="Basmanov"/>
+    </character>
+    <character>
+      <name>Первый боярин</name>
+      <alias xml:id="PervyjBojarin"/>
+    </character>
+    <character>
+      <name>Другой боярин</name>
+      <alias xml:id="DrugojBojarin"/>
+    </character>
+    <character>
+      <name>Воины</name>
+      <alias xml:id="Voiny"/>
+    </character>
+    <character>
+      <name>Маржерет</name>
+      <alias xml:id="Marzheret"/>
+    </character>
+    <character>
+      <name>Один из беглецов</name>
+      <alias xml:id="OdinIzBegletsov"/>
+    </character>
+    <character>
+      <name>Другой</name>
+      <alias xml:id="DrugojIzBegletsov"/>
+    </character>
+    <character>
+      <name>В. Розен</name>
+      <alias xml:id="VRozen"/>
+    </character>
+    <character>
+      <name>Немцы</name>
+      <alias xml:id="Nemtsy"/>
+    </character>
+    <character>
+      <name>Ляхи</name>
+      <alias xml:id="Ljahi"/>
+    </character>
+    <character>
+      <name>Один из народа (Площадь перед собором в Москве)</name>
+      <alias xml:id="OdinIzNaroda_2"/>
+    </character>
+    <character>
+      <name>Другой (Площадь перед собором в Москве)</name>
+      <alias xml:id="DrugojIzNaroda_2"/>
+    </character>
+    <character>
+      <name>Третий (Площадь перед собором в Москве)</name>
+      <alias xml:id="TretijIzNaroda_2"/>
+    </character>
+    <character>
+      <name>Четвертый (Площадь перед собором в Москве)</name>
+      <alias xml:id="ChetvertyjIzNaroda_2"/>
+    </character>
+    <character>
+      <name>Мальчишки</name>
+      <alias xml:id="Malchishki"/>
+    </character>
+    <character>
+      <name>Старуха</name>
+      <alias xml:id="Staruha"/>
+    </character>
+    <character>
+      <name>Юродивый</name>
+      <alias xml:id="Jurodivyj"/>
+    </character>
+    <character>
+      <name>Один из них (Площадь перед собором в Москве)</name>
+      <alias xml:id="OdinIzMalchishek"/>
+    </character>
+    <character>
+      <name>Лях (Севск)</name>
+      <alias xml:id="Ljah"/>
+    </character>
+    <character>
+      <name>Пленник</name>
+      <alias xml:id="Plennik"/>
+    </character>
+    <character>
+      <name>Другой (Севск)</name>
+      <alias xml:id="DrugojLjah"/>
+    </character>
+    <character>
+      <name>Лях (Лес)</name>
+      <alias xml:id="Ljah_Les"/>
+    </character>
+    <character>
+      <name>Боярин</name>
+      <alias xml:id="Bojarin"/>
+    </character>
+    <character>
+      <name>Один</name>
+      <alias xml:id="OdinPridvornyj"/>
+    </character>
+    <character>
+      <name>Другой</name>
+      <alias xml:id="DrugojPridvornyj"/>
+    </character>
+    <character>
+      <name>Третий</name>
+      <alias xml:id="TretijPridvornyj"/>
+    </character>
+    <character>
+      <name>Четвертый</name>
+      <alias xml:id="ChetvertyjPridvornyj"/>
+    </character>
+    <character>
+      <name>Пятый</name>
+      <alias xml:id="PjatyjPridvornyj"/>
+    </character>
+    <character>
+      <name>Шестой</name>
+      <alias xml:id="ShestojPridvornyj"/>
+    </character>
+    <character>
+      <name>Мужик на амвоне</name>
+      <alias xml:id="MuzhikNaAmvone"/>
+    </character>
+    <character>
+      <name>Нищий</name>
+      <alias xml:id="Nischij"/>
+    </character>
+    <character>
+      <name>Стража</name>
+      <alias xml:id="Strazha"/>
+    </character>
+    <character>
+      <name>Один из народа (Кремль)</name>
+      <alias xml:id="OdinIzNaroda_3"/>
+    </character>
+    <character>
+      <name>Другой (Кремль)</name>
+      <alias xml:id="DrugojIzNaroda_3"/>
+    </character>
+    <character>
+      <name>Один из народа (Кремль)</name>
+      <alias xml:id="OdinIzNaroda_4"/>
+    </character>
+    <character>
+      <name>Другой (Кремль)</name>
+      <alias xml:id="DrugojIzNaroda_4"/>
+    </character>
+    <character>
+      <name>Третий (Кремль)</name>
+      <alias xml:id="TretijIzNaroda_4"/>
+    </character>
+    <character>
+      <name>Мосальский</name>
+      <alias xml:id="Mosalskij"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>КРЕМЛЕВСКИЕ ПАЛАТЫ</head>
+      <sp who="#Vorotynskij">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="273"/>
+        <amount unit="lines" n="44"/>
+        <amount unit="characters" n="1326"/>
+      </sp>
+      <sp who="#Shujskij">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="365"/>
+        <amount unit="lines" n="58"/>
+        <amount unit="characters" n="1704"/>
+      </sp>
+    </div>
+    <div>
+      <head>КРАСНАЯ ПЛОЩАДЬ</head>
+      <sp who="#TretijIzNaroda_1">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="10"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="54"/>
+      </sp>
+      <sp who="#DrugojIzNaroda_1">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="46"/>
+      </sp>
+      <sp who="#OdinIzNaroda_1">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="116"/>
+      </sp>
+      <sp who="#Narod">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="12"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="53"/>
+      </sp>
+      <sp who="#Schelkalov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="92"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="499"/>
+      </sp>
+    </div>
+    <div>
+      <head>КРЕМЛЕВСКИЕ ПАЛАТЫ</head>
+      <sp who="#Vorotynskij">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="103"/>
+      </sp>
+      <sp who="#Tsar_Boris">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="158"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="730"/>
+      </sp>
+      <sp who="#Bojare">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="7"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="32"/>
+      </sp>
+      <sp who="#Shujskij">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="54"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="256"/>
+      </sp>
+    </div>
+    <div>
+      <head>НОЧЬ. КЕЛЬЯ В ЧУДОВОМ МОНАСТЫРЕ</head>
+      <sp who="#Pimen">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="972"/>
+        <amount unit="lines" n="151"/>
+        <amount unit="characters" n="4707"/>
+      </sp>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="391"/>
+        <amount unit="lines" n="57"/>
+        <amount unit="characters" n="1771"/>
+      </sp>
+    </div>
+    <div>
+      <head>ПАЛАТЫ ПАТРИАРХА</head>
+      <sp who="#Patriarh">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="25"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="100"/>
+      </sp>
+      <sp who="#Igumen">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="104"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="551"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЦАРСКИЕ ПАЛАТЫ</head>
+      <sp who="#PervyjStolnik">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="36"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="149"/>
+      </sp>
+      <sp who="#Tsar_Boris">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="344"/>
+        <amount unit="lines" n="52"/>
+        <amount unit="characters" n="1636"/>
+      </sp>
+      <sp who="#VtorojStolnik">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="83"/>
+      </sp>
+    </div>
+    <div>
+      <head>КОРЧМА НА ЛИТОВСКОЙ ГРАНИЦЕ</head>
+      <sp who="#PervyjPristav #VtorojPristav">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#Varlaam">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="385"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="1832"/>
+      </sp>
+      <sp who="#Misail">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="76"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="352"/>
+      </sp>
+      <sp who="#Hozjajka">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="247"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="1209"/>
+      </sp>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="157"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="759"/>
+      </sp>
+      <sp who="#VtorojPristav">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="28"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="107"/>
+      </sp>
+      <sp who="#PervyjPristav">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="205"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="871"/>
+      </sp>
+    </div>
+    <div>
+      <head>МОСКВА. ДОМ ШУЙСКОГО</head>
+      <sp who="#Malchik">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="120"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="547"/>
+      </sp>
+      <sp who="#Pushkin">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="484"/>
+        <amount unit="lines" n="73"/>
+        <amount unit="characters" n="2239"/>
+      </sp>
+      <sp who="#Shujskij">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="179"/>
+        <amount unit="lines" n="26"/>
+        <amount unit="characters" n="773"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЦАРСКИЕ ПАЛАТЫ</head>
+      <sp who="#Tsar_Boris">
+        <amount unit="speechacts" n="23"/>
+        <amount unit="words" n="654"/>
+        <amount unit="lines" n="98"/>
+        <amount unit="characters" n="2882"/>
+      </sp>
+      <sp who="#Mamka">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="39"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="216"/>
+      </sp>
+      <sp who="#Ksenija">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="44"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="214"/>
+      </sp>
+      <sp who="#Shujskij">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="255"/>
+        <amount unit="lines" n="45"/>
+        <amount unit="characters" n="1209"/>
+      </sp>
+      <sp who="#Feodor">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="42"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="186"/>
+      </sp>
+      <sp who="#SemenGodunov">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="91"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="446"/>
+      </sp>
+    </div>
+    <div>
+      <head>КРАКОВ. ДОМ ВИШНЕВЕЦКОГО</head>
+      <sp who="#GavrilaPushkin">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="63"/>
+      </sp>
+      <sp who="#Poet">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="88"/>
+      </sp>
+      <sp who="#Pater">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="45"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="244"/>
+      </sp>
+      <sp who="#Kurbskij">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="54"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="229"/>
+      </sp>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="510"/>
+        <amount unit="lines" n="80"/>
+        <amount unit="characters" n="2383"/>
+      </sp>
+      <sp who="#Poljak">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="28"/>
+      </sp>
+      <sp who="#GavrilaPushkin #Poljak #Poet #Karela #Hruschov #Kurbskij">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="82"/>
+      </sp>
+      <sp who="#Karela">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="32"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="152"/>
+      </sp>
+      <sp who="#Hruschov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="45"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="188"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЗАМОК ВОЕВОДЫ МНИШКА В САМБОРЕ</head>
+      <sp who="#Mnishek">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="179"/>
+        <amount unit="lines" n="24"/>
+        <amount unit="characters" n="740"/>
+      </sp>
+      <sp who="#TretijKavaler">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="104"/>
+      </sp>
+      <sp who="#PervyjKavaler">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="19"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="79"/>
+      </sp>
+      <sp who="#VtorajaDama">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="62"/>
+      </sp>
+      <sp who="#Vishnevetskij">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="25"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="96"/>
+      </sp>
+      <sp who="#TretjaDama">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="7"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="28"/>
+      </sp>
+      <sp who="#Marina">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="17"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="65"/>
+      </sp>
+      <sp who="#PervajaDama">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="18"/>
+      </sp>
+    </div>
+    <div>
+      <head>НОЧЬ. САД. ФОНТАН</head>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="953"/>
+        <amount unit="lines" n="141"/>
+        <amount unit="characters" n="4357"/>
+      </sp>
+      <sp who="#Marina">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="577"/>
+        <amount unit="lines" n="89"/>
+        <amount unit="characters" n="2730"/>
+      </sp>
+    </div>
+    <div>
+      <head>ГРАНИЦА ЛИТОВСКАЯ</head>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="117"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="542"/>
+      </sp>
+      <sp who="#Kurbskij">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="123"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="559"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЦАРСКАЯ ДУМА</head>
+      <sp who="#Tsar_Boris">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="227"/>
+        <amount unit="lines" n="38"/>
+        <amount unit="characters" n="1141"/>
+      </sp>
+      <sp who="#DrugojBojarin">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="17"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="79"/>
+      </sp>
+      <sp who="#PervyjBojarin">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="98"/>
+      </sp>
+      <sp who="#Patriarh">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="484"/>
+        <amount unit="lines" n="71"/>
+        <amount unit="characters" n="2293"/>
+      </sp>
+      <sp who="#Basmanov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="33"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="155"/>
+      </sp>
+      <sp who="#Shujskij">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="131"/>
+        <amount unit="lines" n="21"/>
+        <amount unit="characters" n="668"/>
+      </sp>
+    </div>
+    <div>
+      <head>РАВНИНА БЛИЗ НОВГОРОДА-СЕВЕРСКОГО</head>
+      <sp who="#Voiny">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="44"/>
+      </sp>
+      <sp who="#DrugojIzBegletsov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="105"/>
+      </sp>
+      <sp who="#Nemtsy">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="10"/>
+      </sp>
+      <sp who="#VRozen">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="71"/>
+      </sp>
+      <sp who="#Ljahi">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="36"/>
+      </sp>
+      <sp who="#Marzheret">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="117"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="567"/>
+      </sp>
+      <sp who="#OdinIzBegletsov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="1"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="4"/>
+      </sp>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="66"/>
+      </sp>
+    </div>
+    <div>
+      <head>ПЛОЩАДЬ ПЕРЕД СОБОРОМ В МОСКВЕ</head>
+      <sp who="#Staruha">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="23"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="102"/>
+      </sp>
+      <sp who="#Tsar_Boris">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="77"/>
+      </sp>
+      <sp who="#Malchishki">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="45"/>
+      </sp>
+      <sp who="#ChetvertyjIzNaroda_2">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="18"/>
+      </sp>
+      <sp who="#TretijIzNaroda_2">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="20"/>
+      </sp>
+      <sp who="#DrugojIzNaroda_2">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="31"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="155"/>
+      </sp>
+      <sp who="#OdinIzMalchishek">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="17"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="72"/>
+      </sp>
+      <sp who="#Bojare">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="35"/>
+      </sp>
+      <sp who="#Jurodivyj">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="68"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="323"/>
+      </sp>
+      <sp who="#Narod">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="16"/>
+      </sp>
+      <sp who="#OdinIzNaroda_2">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="34"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="162"/>
+      </sp>
+    </div>
+    <div>
+      <head>СЕВСК</head>
+      <sp who="#Ljahi">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="24"/>
+      </sp>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="114"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="449"/>
+      </sp>
+      <sp who="#Ljah">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="40"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="160"/>
+      </sp>
+      <sp who="#Plennik">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="209"/>
+        <amount unit="lines" n="35"/>
+        <amount unit="characters" n="907"/>
+      </sp>
+      <sp who="#DrugojLjah">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="55"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЛЕС</head>
+      <sp who="#GavrilaPushkin">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="75"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="323"/>
+      </sp>
+      <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="219"/>
+        <amount unit="lines" n="34"/>
+        <amount unit="characters" n="944"/>
+      </sp>
+      <sp who="#Ljah_Les">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="22"/>
+      </sp>
+    </div>
+    <div>
+      <head>МОСКВА. ЦАРСКИЕ ПАЛАТЫ</head>
+      <sp who="#Feodor">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="66"/>
+      </sp>
+      <sp who="#Tsar_Boris">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="720"/>
+        <amount unit="lines" n="113"/>
+        <amount unit="characters" n="3482"/>
+      </sp>
+      <sp who="#TretijPridvornyj">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="25"/>
+      </sp>
+      <sp who="#Bojare">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="2"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="9"/>
+      </sp>
+      <sp who="#Bojarin">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="28"/>
+      </sp>
+      <sp who="#PjatyjPridvornyj">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="19"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="75"/>
+      </sp>
+      <sp who="#Basmanov">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="137"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="671"/>
+      </sp>
+      <sp who="#ChetvertyjPridvornyj">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="2"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="10"/>
+      </sp>
+      <sp who="#DrugojPridvornyj">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="19"/>
+      </sp>
+      <sp who="#ShestojPridvornyj">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#OdinPridvornyj">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="11"/>
+      </sp>
+    </div>
+    <div>
+      <head>СТАВКА</head>
+      <sp who="#GavrilaPushkin">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="243"/>
+        <amount unit="lines" n="38"/>
+        <amount unit="characters" n="1124"/>
+      </sp>
+      <sp who="#Basmanov">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="205"/>
+        <amount unit="lines" n="33"/>
+        <amount unit="characters" n="948"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЛОБНОЕ МЕСТО</head>
+      <sp who="#GavrilaPushkin">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="191"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="960"/>
+      </sp>
+      <sp who="#MuzhikNaAmvone">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="17"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="71"/>
+      </sp>
+      <sp who="#Narod">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="48"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="224"/>
+      </sp>
+    </div>
+    <div>
+      <head>КРЕМЛЬ. ДОМ БОРИСОВ.</head>
+      <sp who="#OdinIzNaroda_4">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="17"/>
+      </sp>
+      <sp who="#Ksenija">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="70"/>
+      </sp>
+      <sp who="#Strazha">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="46"/>
+      </sp>
+      <sp who="#Mosalskij">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="31"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="162"/>
+      </sp>
+      <sp who="#TretijIzNaroda_4">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="15"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="58"/>
+      </sp>
+      <sp who="#DrugojIzNaroda_4">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="46"/>
+      </sp>
+      <sp who="#Nischij">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="5"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="28"/>
+      </sp>
+      <sp who="#DrugojIzNaroda_3">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="68"/>
+      </sp>
+      <sp who="#Narod">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="146"/>
+      </sp>
+      <sp who="#Feodor">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="86"/>
+      </sp>
+      <sp who="#OdinIzNaroda_3">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="82"/>
+      </sp>
+    </div>
+  </text>
+</play>

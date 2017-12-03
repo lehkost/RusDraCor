@@ -1,0 +1,515 @@
+<play xmlns="http://lina.digital" id="36">
+  <head>
+    <title>Демофонт</title>
+    <title>Demophon</title>
+    <title/>
+    <author>Михаил Васильевич Ломоносов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Филлида</name>
+      <alias xml:id="Fillida"/>
+    </character>
+    <character>
+      <name>Демофонт</name>
+      <alias xml:id="Demofont"/>
+    </character>
+    <character>
+      <name>Креуза</name>
+      <alias xml:id="Kreuza"/>
+    </character>
+    <character>
+      <name>Полимнестор</name>
+      <alias xml:id="Polimnestor"/>
+    </character>
+    <character>
+      <name>Мемнон</name>
+      <alias xml:id="Memnon"/>
+    </character>
+    <character>
+      <name>Илиона</name>
+      <alias xml:id="Iliona"/>
+    </character>
+    <character>
+      <name>Драмет</name>
+      <alias xml:id="Dramet"/>
+    </character>
+    <character>
+      <name>Вестник</name>
+      <alias xml:id="Vestnik"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Действие первое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="470"/>
+          <amount unit="lines" n="59"/>
+          <amount unit="characters" n="2254"/>
+        </sp>
+        <sp who="#Kreuza">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="47"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="219"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="837"/>
+          <amount unit="lines" n="102"/>
+          <amount unit="characters" n="3927"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Явление второе</head>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="102"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="449"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="233"/>
+          <amount unit="lines" n="33"/>
+          <amount unit="characters" n="1191"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="124"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="574"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="127"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="559"/>
+        </sp>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="487"/>
+          <amount unit="lines" n="62"/>
+          <amount unit="characters" n="2380"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие второе</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="188"/>
+          <amount unit="lines" n="25"/>
+          <amount unit="characters" n="896"/>
+        </sp>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="174"/>
+          <amount unit="lines" n="22"/>
+          <amount unit="characters" n="811"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="146"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="677"/>
+        </sp>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="25"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="105"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="120"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="510"/>
+        </sp>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="357"/>
+          <amount unit="lines" n="45"/>
+          <amount unit="characters" n="1645"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="290"/>
+          <amount unit="lines" n="36"/>
+          <amount unit="characters" n="1322"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="210"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="1003"/>
+        </sp>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="640"/>
+          <amount unit="lines" n="80"/>
+          <amount unit="characters" n="2954"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="53"/>
+        </sp>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="105"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="67"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="298"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="132"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="611"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Dramet">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="423"/>
+          <amount unit="lines" n="53"/>
+          <amount unit="characters" n="2104"/>
+        </sp>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="356"/>
+          <amount unit="lines" n="45"/>
+          <amount unit="characters" n="1680"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие третие</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="584"/>
+          <amount unit="lines" n="72"/>
+          <amount unit="characters" n="2715"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="177"/>
+          <amount unit="lines" n="22"/>
+          <amount unit="characters" n="843"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="154"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="738"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="246"/>
+          <amount unit="lines" n="29"/>
+          <amount unit="characters" n="1121"/>
+        </sp>
+        <sp who="#Kreuza">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="148"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="777"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="12"/>
+          <amount unit="words" n="432"/>
+          <amount unit="lines" n="50"/>
+          <amount unit="characters" n="1907"/>
+        </sp>
+        <sp who="#Dramet">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="45"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="228"/>
+        </sp>
+        <sp who="#Kreuza">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="10"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="57"/>
+        </sp>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="444"/>
+          <amount unit="lines" n="55"/>
+          <amount unit="characters" n="2062"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие четвертое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="401"/>
+          <amount unit="lines" n="48"/>
+          <amount unit="characters" n="1795"/>
+        </sp>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="559"/>
+          <amount unit="lines" n="71"/>
+          <amount unit="characters" n="2678"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="348"/>
+          <amount unit="lines" n="44"/>
+          <amount unit="characters" n="1684"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="145"/>
+        </sp>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="79"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="152"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="761"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="121"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="612"/>
+        </sp>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="47"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="226"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление шестое</head>
+        <sp who="#Demofont">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="128"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="648"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="65"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="293"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление седьмое</head>
+        <sp who="#Kreuza">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="153"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="732"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="157"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="725"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление восьмое</head>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="90"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="420"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Действие пятое</head>
+      <div>
+        <head>Явление первое</head>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="94"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="447"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="45"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="218"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление второе</head>
+        <sp who="#Kreuza">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="75"/>
+        </sp>
+        <sp who="#Dramet">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="228"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="1140"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="85"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="383"/>
+        </sp>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="31"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="146"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление третие</head>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="37"/>
+        </sp>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="136"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="654"/>
+        </sp>
+        <sp who="#Fillida">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="60"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="294"/>
+        </sp>
+        <sp who="#Dramet">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="20"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление четвертое</head>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="194"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="946"/>
+        </sp>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="81"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="390"/>
+        </sp>
+      </div>
+      <div>
+        <head>Явление пятое</head>
+        <sp who="#Polimnestor">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="441"/>
+          <amount unit="lines" n="60"/>
+          <amount unit="characters" n="2125"/>
+        </sp>
+        <sp who="#Memnon">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="57"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="270"/>
+        </sp>
+        <sp who="#Iliona">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="174"/>
+          <amount unit="lines" n="25"/>
+          <amount unit="characters" n="854"/>
+        </sp>
+        <sp who="#Vestnik">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="423"/>
+          <amount unit="lines" n="55"/>
+          <amount unit="characters" n="2065"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

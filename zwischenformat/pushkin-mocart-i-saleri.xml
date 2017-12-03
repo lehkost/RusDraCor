@@ -1,0 +1,50 @@
+<play xmlns="http://lina.digital" id="20">
+  <head>
+    <title>Моцарт и Сальери</title>
+    <title>Mozart and Salieri</title>
+    <title/>
+    <author>Александр Пушкин</author>
+  </head>
+  <personae>
+    <character>
+      <name>Моцарт</name>
+      <alias xml:id="Mocart"/>
+    </character>
+    <character>
+      <name>Сальери</name>
+      <alias xml:id="Saleri"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>СЦЕНА I</head>
+      <sp who="#Mocart">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="246"/>
+        <amount unit="lines" n="40"/>
+        <amount unit="characters" n="1061"/>
+      </sp>
+      <sp who="#Saleri">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="865"/>
+        <amount unit="lines" n="129"/>
+        <amount unit="characters" n="3967"/>
+      </sp>
+    </div>
+    <div>
+      <head>СЦЕНА II</head>
+      <sp who="#Mocart">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="357"/>
+        <amount unit="lines" n="56"/>
+        <amount unit="characters" n="1567"/>
+      </sp>
+      <sp who="#Saleri">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="199"/>
+        <amount unit="lines" n="36"/>
+        <amount unit="characters" n="885"/>
+      </sp>
+    </div>
+  </text>
+</play>

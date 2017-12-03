@@ -1,0 +1,202 @@
+<play xmlns="http://lina.digital" id="7">
+  <head>
+    <title>Холостяк</title>
+    <title>The Bachelor</title>
+    <title>Комедия в трех действиях</title>
+    <title>A Comedy in Three Acts</title>
+    <author>Иван Сергеевич Тургенев</author>
+  </head>
+  <personae>
+    <character>
+      <name>Почтальон</name>
+      <alias xml:id="Pochtalon"/>
+    </character>
+    <character>
+      <name>Егорыч</name>
+      <alias xml:id="Egorych"/>
+    </character>
+    <character>
+      <name>Маша</name>
+      <alias xml:id="Masha"/>
+    </character>
+    <character>
+      <name>Пряжкина</name>
+      <alias xml:id="Prjazhkina"/>
+    </character>
+    <character>
+      <name>Митька</name>
+      <alias xml:id="Mitka"/>
+    </character>
+    <character>
+      <name>Шпуньдик</name>
+      <alias xml:id="Shpundik"/>
+    </character>
+    <character>
+      <name>Мошкин</name>
+      <alias xml:id="Moshkin"/>
+    </character>
+    <character>
+      <name>Маланья</name>
+      <alias xml:id="Malanja"/>
+    </character>
+    <character>
+      <name>Вилицкий</name>
+      <alias xml:id="Vilitskij"/>
+    </character>
+    <character>
+      <name>Созомэнос</name>
+      <alias xml:id="Sozomenos"/>
+    </character>
+    <character>
+      <name>Стратилат</name>
+      <alias xml:id="Stratilat"/>
+    </character>
+    <character>
+      <name>Фонк</name>
+      <alias xml:id="Fonk"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
+      <sp who="#Prjazhkina">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="42"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="233"/>
+      </sp>
+      <sp who="#Malanja">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="48"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="194"/>
+      </sp>
+      <sp who="#Fonk">
+        <amount unit="speechacts" n="71"/>
+        <amount unit="words" n="700"/>
+        <amount unit="lines" n="71"/>
+        <amount unit="characters" n="3837"/>
+      </sp>
+      <sp who="#Moshkin">
+        <amount unit="speechacts" n="114"/>
+        <amount unit="words" n="1266"/>
+        <amount unit="lines" n="114"/>
+        <amount unit="characters" n="6562"/>
+      </sp>
+      <sp who="#Stratilat">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="99"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="464"/>
+      </sp>
+      <sp who="#Vilitskij">
+        <amount unit="speechacts" n="27"/>
+        <amount unit="words" n="262"/>
+        <amount unit="lines" n="27"/>
+        <amount unit="characters" n="1410"/>
+      </sp>
+      <sp who="#Masha">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="41"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="217"/>
+      </sp>
+      <sp who="#Shpundik">
+        <amount unit="speechacts" n="58"/>
+        <amount unit="words" n="641"/>
+        <amount unit="lines" n="58"/>
+        <amount unit="characters" n="3259"/>
+      </sp>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ ВТОРОЕ</head>
+      <sp who="#Masha">
+        <amount unit="speechacts" n="21"/>
+        <amount unit="words" n="269"/>
+        <amount unit="lines" n="21"/>
+        <amount unit="characters" n="1456"/>
+      </sp>
+      <sp who="#Mitka">
+        <amount unit="speechacts" n="24"/>
+        <amount unit="words" n="300"/>
+        <amount unit="lines" n="24"/>
+        <amount unit="characters" n="1681"/>
+      </sp>
+      <sp who="#Sozomenos">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="59"/>
+        <amount unit="lines" n="15"/>
+        <amount unit="characters" n="340"/>
+      </sp>
+      <sp who="#Moshkin">
+        <amount unit="speechacts" n="36"/>
+        <amount unit="words" n="853"/>
+        <amount unit="lines" n="36"/>
+        <amount unit="characters" n="4166"/>
+      </sp>
+      <sp who="#Vilitskij">
+        <amount unit="speechacts" n="121"/>
+        <amount unit="words" n="1356"/>
+        <amount unit="lines" n="121"/>
+        <amount unit="characters" n="7193"/>
+      </sp>
+      <sp who="#Fonk">
+        <amount unit="speechacts" n="59"/>
+        <amount unit="words" n="820"/>
+        <amount unit="lines" n="59"/>
+        <amount unit="characters" n="4592"/>
+      </sp>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
+      <sp who="#Prjazhkina">
+        <amount unit="speechacts" n="42"/>
+        <amount unit="words" n="1121"/>
+        <amount unit="lines" n="42"/>
+        <amount unit="characters" n="5530"/>
+      </sp>
+      <sp who="#Prjazhkina #Shpundik">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="13"/>
+      </sp>
+      <sp who="#Egorych">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="34"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="159"/>
+      </sp>
+      <sp who="#Moshkin">
+        <amount unit="speechacts" n="111"/>
+        <amount unit="words" n="2898"/>
+        <amount unit="lines" n="111"/>
+        <amount unit="characters" n="14168"/>
+      </sp>
+      <sp who="#Stratilat">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="110"/>
+      </sp>
+      <sp who="#Pochtalon">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="19"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="99"/>
+      </sp>
+      <sp who="#Masha">
+        <amount unit="speechacts" n="47"/>
+        <amount unit="words" n="514"/>
+        <amount unit="lines" n="47"/>
+        <amount unit="characters" n="2598"/>
+      </sp>
+      <sp who="#Shpundik">
+        <amount unit="speechacts" n="85"/>
+        <amount unit="words" n="1174"/>
+        <amount unit="lines" n="85"/>
+        <amount unit="characters" n="5589"/>
+      </sp>
+    </div>
+  </text>
+</play>

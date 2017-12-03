@@ -1,0 +1,106 @@
+<play xmlns="http://lina.digital" id="25">
+  <head>
+    <title>Блонды</title>
+    <title>Silk Lace</title>
+    <title>Драматическая пословица, в одном действии</title>
+    <title>Dramatic Proverb, in One Act</title>
+    <author>Козьма Прутков</author>
+  </head>
+  <personae>
+    <character>
+      <name>Княгиня</name>
+      <alias xml:id="Knjaginja"/>
+    </character>
+    <character>
+      <name>Князь</name>
+      <alias xml:id="Knjaz"/>
+    </character>
+    <character>
+      <name>Барон</name>
+      <alias xml:id="Baron"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>ЯВЛЕНИЕ I</head>
+      <sp who="#Knjaginja">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="21"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЯВЛЕНИЕ II</head>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="76"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="376"/>
+      </sp>
+      <sp who="#Knjaginja">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="131"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="592"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЯВЛЕНИЕ III</head>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="297"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="1444"/>
+      </sp>
+      <sp who="#Knjaginja">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="236"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="1105"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЯВЛЕНИЕ IV</head>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="118"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="506"/>
+      </sp>
+      <sp who="#Knjaginja">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="129"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="596"/>
+      </sp>
+    </div>
+    <div>
+      <head>ЯВЛЕНИЕ V</head>
+      <sp who="#Knjaz">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="33"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="137"/>
+      </sp>
+      <sp who="#Knjaz #Knjaginja">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="19"/>
+      </sp>
+      <sp who="#Baron">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="190"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="876"/>
+      </sp>
+      <sp who="#Knjaginja">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="78"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="299"/>
+      </sp>
+    </div>
+  </text>
+</play>

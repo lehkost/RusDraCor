@@ -1,0 +1,647 @@
+<play xmlns="http://lina.digital" id="39">
+  <head>
+    <title>Сонный порошок или похищенная крестьянка</title>
+    <title>The Sleeping Powder or the Abducted Peasant Woman</title>
+    <title>Опера в трех действиях</title>
+    <title>Opera in Three Acts</title>
+    <author>Иван Андреевич Крылов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Блез</name>
+      <alias xml:id="Blez"/>
+    </character>
+    <character>
+      <name>Граф</name>
+      <alias xml:id="Graf"/>
+    </character>
+    <character>
+      <name>Мужики</name>
+      <alias xml:id="Muzhiki"/>
+    </character>
+    <character>
+      <name>Паулин</name>
+      <alias xml:id="Paulin"/>
+    </character>
+    <character>
+      <name>Нинета</name>
+      <alias xml:id="Nineta"/>
+    </character>
+    <character>
+      <name>Жульета</name>
+      <alias xml:id="Zhuleta"/>
+    </character>
+    <character>
+      <name>Хор</name>
+      <alias xml:id="Hor"/>
+    </character>
+    <character>
+      <name>Жанета</name>
+      <alias xml:id="Zhaneta"/>
+    </character>
+    <character>
+      <name>Работники и дочери Блеза</name>
+      <alias xml:id="Rabotniki"/>
+    </character>
+    <character>
+      <name>Филипп</name>
+      <alias xml:id="Filipp"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>ДЕЙСТВИЕ ПЕРВОЕ</head>
+      <div>
+        <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
+        <sp who="#Blez #Muzhiki #Nineta #Zhaneta #Hor #Zhuleta #Rabotniki">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="67"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="315"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="155"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="736"/>
+        </sp>
+        <sp who="#Zhaneta">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="40"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="229"/>
+        </sp>
+        <sp who="#Muzhiki">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="24"/>
+        </sp>
+        <sp who="#Nineta">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="33"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="132"/>
+        </sp>
+        <sp who="#Rabotniki #Zhaneta #Zhuleta #Nineta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="49"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="225"/>
+        </sp>
+        <sp who="#Hor">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="9"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="47"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ВТОРОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="160"/>
+          <amount unit="lines" n="25"/>
+          <amount unit="characters" n="762"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="58"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="340"/>
+        </sp>
+        <sp who="#Zhaneta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="110"/>
+        </sp>
+        <sp who="#Nineta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="29"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="150"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="279"/>
+          <amount unit="lines" n="29"/>
+          <amount unit="characters" n="1382"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="313"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="1574"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="76"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="381"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ПЯТОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="47"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="213"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="128"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="114"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="529"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="67"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="78"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="374"/>
+        </sp>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="197"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="906"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="30"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="120"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="25"/>
+          <amount unit="words" n="265"/>
+          <amount unit="lines" n="37"/>
+          <amount unit="characters" n="1141"/>
+        </sp>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="64"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="304"/>
+        </sp>
+        <sp who="#Graf #Zhuleta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="27"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="24"/>
+          <amount unit="words" n="282"/>
+          <amount unit="lines" n="37"/>
+          <amount unit="characters" n="1169"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ ВТОРОЕ</head>
+      <div>
+        <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="58"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="299"/>
+        </sp>
+        <sp who="#Zhaneta">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="69"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="323"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ВТОРОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="132"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="643"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="127"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="696"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="76"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="368"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="211"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="1025"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="189"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="860"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="97"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="175"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="752"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ПЯТОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="247"/>
+        </sp>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="310"/>
+          <amount unit="lines" n="51"/>
+          <amount unit="characters" n="1334"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="50"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="222"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
+        <sp who="#Zhuleta #Zhaneta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="35"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="169"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="739"/>
+        </sp>
+        <sp who="#Blez #Filipp">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="160"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="673"/>
+        </sp>
+        <sp who="#Nineta">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="74"/>
+        </sp>
+        <sp who="#Paulin #Graf #Blez #Filipp #Zhuleta #Zhaneta #Nineta">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="40"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="171"/>
+        </sp>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="62"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="282"/>
+        </sp>
+        <sp who="#Zhuleta #Nineta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="82"/>
+        </sp>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="19"/>
+          <amount unit="words" n="296"/>
+          <amount unit="lines" n="42"/>
+          <amount unit="characters" n="1267"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="18"/>
+          <amount unit="words" n="207"/>
+          <amount unit="lines" n="38"/>
+          <amount unit="characters" n="830"/>
+        </sp>
+        <sp who="#Filipp #Blez">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="50"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="185"/>
+        </sp>
+        <sp who="#Nineta #Graf">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="69"/>
+        </sp>
+        <sp who="#Zhaneta #Paulin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="44"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="129"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="532"/>
+        </sp>
+        <sp who="#Zhaneta">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="84"/>
+        </sp>
+        <sp who="#Zhuleta #Filipp">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="59"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="230"/>
+        </sp>
+        <sp who="#Zhuleta #Zhaneta #Nineta">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="172"/>
+        </sp>
+        <sp who="#Zhaneta #Nineta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="50"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ ТРЕТЬЕ</head>
+      <div>
+        <head>ЯВЛЕНИЕ ПЕРВОЕ</head>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="122"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="236"/>
+          <amount unit="lines" n="39"/>
+          <amount unit="characters" n="899"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ВТОРОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="111"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="506"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="266"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="1101"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ТРЕТЬЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="30"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="142"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="121"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="32"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ЧЕТВЕРТОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="75"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="363"/>
+        </sp>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="204"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="999"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="14"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="69"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ПЯТОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="245"/>
+          <amount unit="lines" n="37"/>
+          <amount unit="characters" n="934"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="72"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="394"/>
+        </sp>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="105"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ШЕСТОЕ</head>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="106"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="538"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="34"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="134"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ СЕДЬМОЕ</head>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="111"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="524"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="98"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="427"/>
+        </sp>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="142"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="586"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="159"/>
+        </sp>
+        <sp who="#Graf #Filipp #Paulin #Zhuleta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="42"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="187"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ВОСЬМОЕ</head>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="367"/>
+          <amount unit="lines" n="44"/>
+          <amount unit="characters" n="1719"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ДЕВЯТОЕ</head>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="18"/>
+          <amount unit="words" n="217"/>
+          <amount unit="lines" n="25"/>
+          <amount unit="characters" n="906"/>
+        </sp>
+        <sp who="#Filipp #Zhuleta">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="151"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="18"/>
+          <amount unit="words" n="295"/>
+          <amount unit="lines" n="42"/>
+          <amount unit="characters" n="1307"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ДЕСЯТОЕ</head>
+        <sp who="#Filipp">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="77"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="334"/>
+        </sp>
+        <sp who="#Blez">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="184"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="913"/>
+        </sp>
+        <sp who="#Blez #Zhuleta #Paulin #Filipp ">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="54"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="189"/>
+        </sp>
+        <sp who="#Graf">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="86"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="420"/>
+        </sp>
+        <sp who="#Blez #Zhuleta #Paulin #Filipp #Graf">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="42"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="174"/>
+        </sp>
+        <sp who="#Paulin">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="114"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="518"/>
+        </sp>
+        <sp who="#Zhuleta">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="107"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="411"/>
+        </sp>
+        <sp who="#Zhuleta #Filipp">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="31"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

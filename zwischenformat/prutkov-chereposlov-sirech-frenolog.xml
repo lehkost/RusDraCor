@@ -1,0 +1,190 @@
+<play xmlns="http://lina.digital" id="24">
+  <head>
+    <title>Черепослов, сиречь Френолог</title>
+    <title>The Lore of the Skull, or Phrenology</title>
+    <title>Оперетта в трех картинах</title>
+    <title>Operetta in Three Scenes</title>
+    <author>Козьма Прутков</author>
+  </head>
+  <personae>
+    <character>
+      <name>Иванов</name>
+      <alias xml:id="Ivanov"/>
+    </character>
+    <character>
+      <name>Касимов</name>
+      <alias xml:id="Kasimov"/>
+    </character>
+    <character>
+      <name>Лиза</name>
+      <alias xml:id="Liza"/>
+    </character>
+    <character>
+      <name>Шишкенгольм</name>
+      <alias xml:id="Shishkengolm"/>
+    </character>
+    <character>
+      <name>Курцгалоп</name>
+      <alias xml:id="Kurtsgalop"/>
+    </character>
+    <character>
+      <name>Фриц</name>
+      <alias xml:id="Fritz"/>
+    </character>
+    <character>
+      <name>Густав</name>
+      <alias xml:id="Gustav"/>
+    </character>
+    <character>
+      <name>Вихорин</name>
+      <alias xml:id="Vihorin"/>
+    </character>
+    <character>
+      <name>Мина Христиановна</name>
+      <alias xml:id="MinaHristianovna"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Картина I.— ЧЕРЕП ЖЕНИХА</head>
+      <sp who="#Kasimov #Vihorin">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="41"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="211"/>
+      </sp>
+      <sp who="#Kasimov">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="152"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="624"/>
+      </sp>
+      <sp who="#Shishkengolm #MinaHristianovna #Liza">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="55"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="240"/>
+      </sp>
+      <sp who="#Liza">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="150"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="599"/>
+      </sp>
+      <sp who="#Shishkengolm #MinaHristianovna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="6"/>
+      </sp>
+      <sp who="#Ivanov">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="24"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="90"/>
+      </sp>
+      <sp who="#Vihorin">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="12"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="58"/>
+      </sp>
+      <sp who="#Vihorin #Kasimov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="24"/>
+      </sp>
+      <sp who="#MinaHristianovna">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="43"/>
+      </sp>
+      <sp who="#Liza #Shishkengolm #MinaHristianovna #Fritz #Gustav">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="74"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="297"/>
+      </sp>
+      <sp who="#Shishkengolm">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="125"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="587"/>
+      </sp>
+    </div>
+    <div>
+      <head>Картина II.— ПЫТКА</head>
+      <sp who="#Kasimov">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="464"/>
+        <amount unit="lines" n="56"/>
+        <amount unit="characters" n="1950"/>
+      </sp>
+      <sp who="#Ivanov">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="74"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="362"/>
+      </sp>
+    </div>
+    <div>
+      <head>Картина III.— СУЖЕНЫЙ</head>
+      <sp who="#Kasimov #Vihorin">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="38"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="161"/>
+      </sp>
+      <sp who="#Liza">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="87"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="364"/>
+      </sp>
+      <sp who="#Shishkengolm #Liza #MinaHristianovna #Fritz #Gustav">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="61"/>
+      </sp>
+      <sp who="#Shishkengolm #MinaHristianovna">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="30"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="138"/>
+      </sp>
+      <sp who="#Ivanov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="10"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="38"/>
+      </sp>
+      <sp who="#Liza #Shishkengolm #MinaHristianovna #Fritz #Gustav #Ivanov #Kurtsgalop">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="52"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="237"/>
+      </sp>
+      <sp who="#Shishkengolm #Gustav #Fritz #MinaHristianovna #Kasimov #Vihorin #Liza">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="17"/>
+      </sp>
+      <sp who="#Kurtsgalop">
+        <amount unit="speechacts" n="18"/>
+        <amount unit="words" n="171"/>
+        <amount unit="lines" n="29"/>
+        <amount unit="characters" n="771"/>
+      </sp>
+      <sp who="#Shishkengolm">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="244"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="1044"/>
+      </sp>
+    </div>
+  </text>
+</play>

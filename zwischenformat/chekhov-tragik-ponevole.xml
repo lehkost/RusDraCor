@@ -1,0 +1,35 @@
+<play xmlns="http://lina.digital" id="61">
+  <head>
+    <title>Трагик поневоле (Из дачной жизни)</title>
+    <title>A Tragedian in Spite of Himself (A Holiday Episode)</title>
+    <title>Шутка в одном действии</title>
+    <title>A Joke in One Act</title>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Мурашкин</name>
+      <alias xml:id="Murashkin"/>
+    </character>
+    <character>
+      <name>Толкачов</name>
+      <alias xml:id="Tolkachov"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Tolkachov">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="1733"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="9392"/>
+      </sp>
+      <sp who="#Murashkin">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="281"/>
+        <amount unit="lines" n="16"/>
+        <amount unit="characters" n="1319"/>
+      </sp>
+    </div>
+  </text>
+</play>

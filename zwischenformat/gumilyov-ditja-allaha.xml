@@ -1,0 +1,263 @@
+<play xmlns="http://lina.digital" id="45">
+  <head>
+    <title>Дитя Аллаха</title>
+    <title>The Child of Allah</title>
+    <title/>
+    <author>Николай Степанович Гумилёв</author>
+  </head>
+  <personae>
+    <character>
+      <name>Дервиш</name>
+      <alias xml:id="Dervish"/>
+    </character>
+    <character>
+      <name>Пери</name>
+      <alias xml:id="Peri"/>
+    </character>
+    <character>
+      <name>Юноша</name>
+      <alias xml:id="Junosha"/>
+    </character>
+    <character>
+      <name>Раб</name>
+      <alias xml:id="Rab"/>
+    </character>
+    <character>
+      <name>Бедуин</name>
+      <alias xml:id="Beduin"/>
+    </character>
+    <character>
+      <name>Искандер</name>
+      <alias xml:id="Iskander"/>
+    </character>
+    <character>
+      <name>Синдбад</name>
+      <alias xml:id="Sindbad"/>
+    </character>
+    <character>
+      <name>Старуха</name>
+      <alias xml:id="Staruha"/>
+    </character>
+    <character>
+      <name>Глашатай</name>
+      <alias xml:id="Glashataj"/>
+    </character>
+    <character>
+      <name>Кади</name>
+      <alias xml:id="Kadi"/>
+    </character>
+    <character>
+      <name>Калиф</name>
+      <alias xml:id="Kalif"/>
+    </character>
+    <character>
+      <name>Ангел</name>
+      <alias xml:id="Angel"/>
+    </character>
+    <character>
+      <name>1-й евнух</name>
+      <alias xml:id="PervyjJevnuh"/>
+    </character>
+    <character>
+      <name>Птицы</name>
+      <alias xml:id="Ptitsy"/>
+    </character>
+    <character>
+      <name>Астролог</name>
+      <alias xml:id="Astrolog"/>
+    </character>
+    <character>
+      <name>2-й евнух</name>
+      <alias xml:id="VtorojJevnuh"/>
+    </character>
+    <character>
+      <name>Пират</name>
+      <alias xml:id="Pirat"/>
+    </character>
+    <character>
+      <name>Шейх</name>
+      <alias xml:id="Shejh"/>
+    </character>
+    <character>
+      <name>Сын Калифа</name>
+      <alias xml:id="SynKalifa"/>
+    </character>
+    <character>
+      <name>Гафиз</name>
+      <alias xml:id="Gafiz"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Картина первая</head>
+      <sp who="#Rab">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="45"/>
+      </sp>
+      <sp who="#Astrolog">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="58"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="272"/>
+      </sp>
+      <sp who="#Kalif">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="199"/>
+        <amount unit="lines" n="36"/>
+        <amount unit="characters" n="888"/>
+      </sp>
+      <sp who="#Iskander">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="81"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="398"/>
+      </sp>
+      <sp who="#Peri">
+        <amount unit="speechacts" n="28"/>
+        <amount unit="words" n="448"/>
+        <amount unit="lines" n="78"/>
+        <amount unit="characters" n="1913"/>
+      </sp>
+      <sp who="#Beduin">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="172"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="739"/>
+      </sp>
+      <sp who="#Junosha">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="218"/>
+        <amount unit="lines" n="41"/>
+        <amount unit="characters" n="964"/>
+      </sp>
+      <sp who="#Dervish">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="233"/>
+        <amount unit="lines" n="44"/>
+        <amount unit="characters" n="1083"/>
+      </sp>
+    </div>
+    <div>
+      <head>Картина вторая</head>
+      <sp who="#Pirat">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="89"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="370"/>
+      </sp>
+      <sp who="#VtorojJevnuh">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="12"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="43"/>
+      </sp>
+      <sp who="#Sindbad">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="108"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="495"/>
+      </sp>
+      <sp who="#Shejh">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="244"/>
+        <amount unit="lines" n="43"/>
+        <amount unit="characters" n="973"/>
+      </sp>
+      <sp who="#Dervish">
+        <amount unit="speechacts" n="26"/>
+        <amount unit="words" n="330"/>
+        <amount unit="lines" n="63"/>
+        <amount unit="characters" n="1481"/>
+      </sp>
+      <sp who="#Kadi">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="93"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="403"/>
+      </sp>
+      <sp who="#Peri">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="37"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="186"/>
+      </sp>
+      <sp who="#Staruha">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="234"/>
+        <amount unit="lines" n="40"/>
+        <amount unit="characters" n="960"/>
+      </sp>
+      <sp who="#PervyjJevnuh">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="79"/>
+      </sp>
+      <sp who="#Astrolog">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="28"/>
+      </sp>
+      <sp who="#SynKalifa">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="236"/>
+        <amount unit="lines" n="43"/>
+        <amount unit="characters" n="1017"/>
+      </sp>
+      <sp who="#Glashataj">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="108"/>
+      </sp>
+    </div>
+    <div>
+      <head>Картина третья</head>
+      <sp who="#Gafiz">
+        <amount unit="speechacts" n="25"/>
+        <amount unit="words" n="626"/>
+        <amount unit="lines" n="110"/>
+        <amount unit="characters" n="2856"/>
+      </sp>
+      <sp who="#Peri">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="302"/>
+        <amount unit="lines" n="51"/>
+        <amount unit="characters" n="1354"/>
+      </sp>
+      <sp who="#Angel">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="114"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="558"/>
+      </sp>
+      <sp who="#Beduin">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="142"/>
+        <amount unit="lines" n="27"/>
+        <amount unit="characters" n="662"/>
+      </sp>
+      <sp who="#Junosha">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="127"/>
+        <amount unit="lines" n="25"/>
+        <amount unit="characters" n="617"/>
+      </sp>
+      <sp who="#Ptitsy">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="115"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="580"/>
+      </sp>
+      <sp who="#Dervish">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="132"/>
+        <amount unit="lines" n="24"/>
+        <amount unit="characters" n="588"/>
+      </sp>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,343 @@
+<play xmlns="http://lina.digital" id="63">
+  <head>
+    <title>Свадьба</title>
+    <title>The Wedding</title>
+    <title>Сцена в одном действии</title>
+    <title>A Scene in One Act</title>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Змеюкина</name>
+      <alias xml:id="Zmejukina"/>
+    </character>
+    <character>
+      <name>Ять</name>
+      <alias xml:id="Jat"/>
+    </character>
+    <character>
+      <name>Шафер</name>
+      <alias xml:id="Shafer"/>
+    </character>
+    <character>
+      <name>Настасья Тимофеевна</name>
+      <alias xml:id="NastasjaTimofeevna"/>
+    </character>
+    <character>
+      <name>Апломбов</name>
+      <alias xml:id="Aplombov"/>
+    </character>
+    <character>
+      <name>Лакей</name>
+      <alias xml:id="Lakej"/>
+    </character>
+    <character>
+      <name>Жигалов</name>
+      <alias xml:id="Zhigalov"/>
+    </character>
+    <character>
+      <name>Дымба</name>
+      <alias xml:id="Dymba"/>
+    </character>
+    <character>
+      <name>Кавалеры</name>
+      <alias xml:id="Kavalery"/>
+    </character>
+    <character>
+      <name>Нюнин</name>
+      <alias xml:id="Njunin"/>
+    </character>
+    <character>
+      <name>Мозговой</name>
+      <alias xml:id="Mozgovoj"/>
+    </character>
+    <character>
+      <name>Дашенька</name>
+      <alias xml:id="Dashenka"/>
+    </character>
+    <character>
+      <name>Ревунов</name>
+      <alias xml:id="Revunov"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <div>
+        <sp who="#Zmejukina">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="28"/>
+        </sp>
+        <sp who="#Jat">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="21"/>
+        </sp>
+        <sp who="#Shafer">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="16"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="67"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#NastasjaTimofeevna">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="126"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="604"/>
+        </sp>
+        <sp who="#Aplombov">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="258"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="1396"/>
+        </sp>
+        <sp who="#Lakej">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="100"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Shafer">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="34"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Zmejukina">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="183"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="838"/>
+        </sp>
+        <sp who="#Aplombov">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="11"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="68"/>
+        </sp>
+        <sp who="#Dymba">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="44"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="164"/>
+        </sp>
+        <sp who="#Zhigalov">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="136"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="663"/>
+        </sp>
+        <sp who="#NastasjaTimofeevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="51"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="253"/>
+        </sp>
+        <sp who="#Jat">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="131"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="710"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Zmejukina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="58"/>
+        </sp>
+        <sp who="#Aplombov">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="122"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="658"/>
+        </sp>
+        <sp who="#Dymba">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="90"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="477"/>
+        </sp>
+        <sp who="#Zhigalov">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="185"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="1024"/>
+        </sp>
+        <sp who="#Kavalery">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="102"/>
+        </sp>
+        <sp who="#Mozgovoj">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="55"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="308"/>
+        </sp>
+        <sp who="#Shafer">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="10"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="70"/>
+        </sp>
+        <sp who="#NastasjaTimofeevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="140"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="768"/>
+        </sp>
+        <sp who="#Mozgovoj #Jat #Zhigalov #Aplombov #Dashenka #NastasjaTimofeevna #Kavalery #Shafer #Zmejukina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="25"/>
+        </sp>
+        <sp who="#Jat">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="283"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="1621"/>
+        </sp>
+        <sp who="#Dashenka">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="112"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Njunin">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="301"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="1658"/>
+        </sp>
+        <sp who="#NastasjaTimofeevna">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="21"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="102"/>
+        </sp>
+        <sp who="#Aplombov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="58"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Lakej">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="26"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Njunin">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="139"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="916"/>
+        </sp>
+        <sp who="#Zmejukina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="15"/>
+        </sp>
+        <sp who="#Aplombov">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="27"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="149"/>
+        </sp>
+        <sp who="#Revunov">
+          <amount unit="speechacts" n="23"/>
+          <amount unit="words" n="935"/>
+          <amount unit="lines" n="37"/>
+          <amount unit="characters" n="5068"/>
+        </sp>
+        <sp who="#Zhigalov">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="70"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="402"/>
+        </sp>
+        <sp who="#Mozgovoj #Jat #Zhigalov #Aplombov #Dashenka #NastasjaTimofeevna #Kavalery #Shafer #Dymba #Zmejukina #Njunin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="15"/>
+        </sp>
+        <sp who="#Mozgovoj">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="3"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="10"/>
+        </sp>
+        <sp who="#Shafer">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="40"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="212"/>
+        </sp>
+        <sp who="#NastasjaTimofeevna">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="135"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="749"/>
+        </sp>
+        <sp who="#Jat">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="97"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="579"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#NastasjaTimofeevna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="41"/>
+        </sp>
+        <sp who="#Njunin">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="36"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="174"/>
+        </sp>
+        <sp who="#Jat">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="15"/>
+        </sp>
+        <sp who="#Shafer">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="14"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="80"/>
+        </sp>
+        <sp who="#Zmejukina">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="54"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

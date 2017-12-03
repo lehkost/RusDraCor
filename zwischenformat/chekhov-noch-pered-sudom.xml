@@ -1,0 +1,162 @@
+<play xmlns="http://lina.digital" id="65">
+  <head>
+    <title>Ночь перед судом</title>
+    <title>The Night Before the Trial</title>
+    <title/>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Зайцев</name>
+      <alias xml:id="Zajtsev"/>
+    </character>
+    <character>
+      <name>Смотритель</name>
+      <alias xml:id="Smotritel"/>
+    </character>
+    <character>
+      <name>Зиночка</name>
+      <alias xml:id="Zinochka"/>
+    </character>
+    <character>
+      <name>Гусев</name>
+      <alias xml:id="Gusev"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Smotritel">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="46"/>
+      </sp>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="49"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="253"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="207"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="1190"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Zinochka">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="134"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="624"/>
+      </sp>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="121"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="613"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="78"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="423"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Gusev">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="146"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="836"/>
+      </sp>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="17"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="55"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="115"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="613"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Gusev">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="61"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="261"/>
+      </sp>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="66"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Gusev">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="118"/>
+      </sp>
+      <sp who="#Zinochka">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="26"/>
+      </sp>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="31"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Zinochka">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="149"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="774"/>
+      </sp>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="130"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="617"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Gusev">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="58"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="290"/>
+      </sp>
+      <sp who="#Zinochka">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="14"/>
+      </sp>
+      <sp who="#Zajtsev">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="63"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="319"/>
+      </sp>
+    </div>
+  </text>
+</play>

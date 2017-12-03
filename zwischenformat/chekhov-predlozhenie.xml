@@ -1,0 +1,136 @@
+<play xmlns="http://lina.digital" id="64">
+  <head>
+    <title>Предложение</title>
+    <title>A Marriage Proposal</title>
+    <title>Шутка в одном действии</title>
+    <title>A Joke in One Act</title>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Чубуков</name>
+      <alias xml:id="Chubukov"/>
+    </character>
+    <character>
+      <name>Ломов</name>
+      <alias xml:id="Lomov"/>
+    </character>
+    <character>
+      <name>Наталья Степановна</name>
+      <alias xml:id="NataljaStepanovna"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>I</head>
+      <sp who="#Chubukov">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="230"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="1080"/>
+      </sp>
+      <sp who="#Lomov">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="166"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="849"/>
+      </sp>
+    </div>
+    <div>
+      <head>II</head>
+      <sp who="#Lomov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="193"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="1066"/>
+      </sp>
+    </div>
+    <div>
+      <head>III</head>
+      <sp who="#NataljaStepanovna">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="535"/>
+        <amount unit="lines" n="24"/>
+        <amount unit="characters" n="2575"/>
+      </sp>
+      <sp who="#Lomov">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="455"/>
+        <amount unit="lines" n="25"/>
+        <amount unit="characters" n="2479"/>
+      </sp>
+    </div>
+    <div>
+      <head>IV</head>
+      <sp who="#Chubukov">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="300"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="1479"/>
+      </sp>
+      <sp who="#NataljaStepanovna">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="69"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="294"/>
+      </sp>
+      <sp who="#Lomov">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="241"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="1232"/>
+      </sp>
+    </div>
+    <div>
+      <head>V</head>
+      <sp who="#Chubukov">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="157"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="733"/>
+      </sp>
+      <sp who="#NataljaStepanovna">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="81"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="345"/>
+      </sp>
+    </div>
+    <div>
+      <head>VI</head>
+      <sp who="#NataljaStepanovna">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="289"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="1495"/>
+      </sp>
+      <sp who="#Lomov">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="316"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="1634"/>
+      </sp>
+    </div>
+    <div>
+      <head>VII</head>
+      <sp who="#Chubukov">
+        <amount unit="speechacts" n="21"/>
+        <amount unit="words" n="434"/>
+        <amount unit="lines" n="27"/>
+        <amount unit="characters" n="2077"/>
+      </sp>
+      <sp who="#NataljaStepanovna">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="134"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="580"/>
+      </sp>
+      <sp who="#Lomov">
+        <amount unit="speechacts" n="16"/>
+        <amount unit="words" n="218"/>
+        <amount unit="lines" n="20"/>
+        <amount unit="characters" n="1025"/>
+      </sp>
+    </div>
+  </text>
+</play>

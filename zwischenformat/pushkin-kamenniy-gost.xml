@@ -1,0 +1,274 @@
+<play xmlns="http://lina.digital" id="21">
+  <head>
+    <title>Каменный гость</title>
+    <title>The Stone Guest</title>
+    <title/>
+    <author>Александр Пушкин</author>
+  </head>
+  <personae>
+    <character>
+      <name>Дон Гуан</name>
+      <alias xml:id="DonGuan"/>
+    </character>
+    <character>
+      <name>Лепорелло</name>
+      <alias xml:id="Leporello"/>
+    </character>
+    <character>
+      <name>Монах</name>
+      <alias xml:id="Monah"/>
+    </character>
+    <character>
+      <name>Дона Анна</name>
+      <alias xml:id="DonaAnna"/>
+    </character>
+    <character>
+      <name>Первый гость</name>
+      <alias xml:id="PervyjGost"/>
+    </character>
+    <character>
+      <name>Второй</name>
+      <alias xml:id="VtorojGost"/>
+    </character>
+    <character>
+      <name>Третий</name>
+      <alias xml:id="TretijGost"/>
+    </character>
+    <character>
+      <name>Лаура</name>
+      <alias xml:id="Laura"/>
+    </character>
+    <character>
+      <name>Дон Карлос</name>
+      <alias xml:id="DonKarlos"/>
+    </character>
+    <character>
+      <name>Гость</name>
+      <alias xml:id="Gost"/>
+    </character>
+    <character>
+      <name>Статуя</name>
+      <alias xml:id="Statuja"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Сцена I</head>
+      <div>
+        <sp who="#Leporello">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="180"/>
+          <amount unit="lines" n="29"/>
+          <amount unit="characters" n="776"/>
+        </sp>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="11"/>
+          <amount unit="words" n="343"/>
+          <amount unit="lines" n="50"/>
+          <amount unit="characters" n="1444"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Monah">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="113"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="514"/>
+        </sp>
+        <sp who="#Leporello">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="70"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="272"/>
+        </sp>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="73"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="298"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Monah">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="8"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="30"/>
+        </sp>
+        <sp who="#DonaAnna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="5"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="19"/>
+        </sp>
+        <sp who="#Leporello">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="88"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="370"/>
+        </sp>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="225"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Сцена II</head>
+      <div>
+        <sp who="#DonKarlos">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="46"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="173"/>
+        </sp>
+        <sp who="#PervyjGost #VtorojGost #TretijGost #DonKarlos">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="13"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="56"/>
+        </sp>
+        <sp who="#PervyjGost #VtorojGost #TretijGost">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="14"/>
+        </sp>
+        <sp who="#Gost">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="17"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="56"/>
+        </sp>
+        <sp who="#TretijGost">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="19"/>
+        </sp>
+        <sp who="#PervyjGost">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="98"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="459"/>
+        </sp>
+        <sp who="#VtorojGost">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="81"/>
+        </sp>
+        <sp who="#Laura">
+          <amount unit="speechacts" n="10"/>
+          <amount unit="words" n="137"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="581"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#DonKarlos">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="103"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="460"/>
+        </sp>
+        <sp who="#Laura">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="149"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="628"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#DonKarlos">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="29"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="83"/>
+        </sp>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="15"/>
+          <amount unit="words" n="144"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="590"/>
+        </sp>
+        <sp who="#Laura">
+          <amount unit="speechacts" n="13"/>
+          <amount unit="words" n="217"/>
+          <amount unit="lines" n="33"/>
+          <amount unit="characters" n="818"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Сцена III</head>
+      <div>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="20"/>
+          <amount unit="words" n="631"/>
+          <amount unit="lines" n="96"/>
+          <amount unit="characters" n="2826"/>
+        </sp>
+        <sp who="#DonaAnna">
+          <amount unit="speechacts" n="20"/>
+          <amount unit="words" n="239"/>
+          <amount unit="lines" n="38"/>
+          <amount unit="characters" n="957"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Leporello">
+          <amount unit="speechacts" n="16"/>
+          <amount unit="words" n="149"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="588"/>
+        </sp>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="17"/>
+          <amount unit="words" n="200"/>
+          <amount unit="lines" n="34"/>
+          <amount unit="characters" n="795"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Сцена IV</head>
+      <div>
+        <sp who="#DonaAnna">
+          <amount unit="speechacts" n="31"/>
+          <amount unit="words" n="541"/>
+          <amount unit="lines" n="83"/>
+          <amount unit="characters" n="2110"/>
+        </sp>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="31"/>
+          <amount unit="words" n="512"/>
+          <amount unit="lines" n="85"/>
+          <amount unit="characters" n="2183"/>
+        </sp>
+      </div>
+      <div>
+        <sp who="#Statuja">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="68"/>
+        </sp>
+        <sp who="#DonaAnna">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="7"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="17"/>
+        </sp>
+        <sp who="#DonGuan">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="173"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

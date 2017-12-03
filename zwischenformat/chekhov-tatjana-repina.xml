@@ -1,0 +1,295 @@
+<play xmlns="http://lina.digital" id="62">
+  <head>
+    <title>Татьяна Репина</title>
+    <title>Tatyana Repina</title>
+    <title>Драма в 1 действии</title>
+    <title>Drama in 1 Act</title>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>О. Иван</name>
+      <alias xml:id="OIvan"/>
+    </character>
+    <character>
+      <name>Архиерейский хор</name>
+      <alias xml:id="ArhierejskijHor"/>
+    </character>
+    <character>
+      <name>Патронников</name>
+      <alias xml:id="Patronnikov"/>
+    </character>
+    <character>
+      <name>Зоненштейн</name>
+      <alias xml:id="Zonenshtejn"/>
+    </character>
+    <character>
+      <name>Дьякон</name>
+      <alias xml:id="Djakon"/>
+    </character>
+    <character>
+      <name>Соборный хор</name>
+      <alias xml:id="SobornyjHor"/>
+    </character>
+    <character>
+      <name>О. Николай</name>
+      <alias xml:id="ONikolaj"/>
+    </character>
+    <character>
+      <name>Барышня</name>
+      <alias xml:id="Baryshnja"/>
+    </character>
+    <character>
+      <name>В толпе</name>
+      <alias xml:id="VTolpe"/>
+    </character>
+    <character>
+      <name>Котельников</name>
+      <alias xml:id="Kotelnikov"/>
+    </character>
+    <character>
+      <name>Волгин</name>
+      <alias xml:id="Volgin"/>
+    </character>
+    <character>
+      <name>Товарищ прокурора</name>
+      <alias xml:id="TovarischProkurora"/>
+    </character>
+    <character>
+      <name>Кокошкина</name>
+      <alias xml:id="Kokoshkina"/>
+    </character>
+    <character>
+      <name>Кокошкин</name>
+      <alias xml:id="Kokoshkin"/>
+    </character>
+    <character>
+      <name>Дьячок</name>
+      <alias xml:id="Djachok"/>
+    </character>
+    <character>
+      <name>Сабинин</name>
+      <alias xml:id="Sabinin"/>
+    </character>
+    <character>
+      <name>Хор</name>
+      <alias xml:id="Hor"/>
+    </character>
+    <character>
+      <name>Кто-то</name>
+      <alias xml:id="KtoTo"/>
+    </character>
+    <character>
+      <name>Дама в черном</name>
+      <alias xml:id="DamaVChernom"/>
+    </character>
+    <character>
+      <name>Дамы</name>
+      <alias xml:id="Damy"/>
+    </character>
+    <character>
+      <name>О. Алексей</name>
+      <alias xml:id="OAleksej"/>
+    </character>
+    <character>
+      <name>Матвеев</name>
+      <alias xml:id="Matveev"/>
+    </character>
+    <character>
+      <name>Студент</name>
+      <alias xml:id="Student"/>
+    </character>
+    <character>
+      <name>Молодой актер</name>
+      <alias xml:id="MolodojAkter"/>
+    </character>
+    <character>
+      <name>Оленина</name>
+      <alias xml:id="Olenina"/>
+    </character>
+    <character>
+      <name>Комик</name>
+      <alias xml:id="Komik"/>
+    </character>
+    <character>
+      <name>Кузьма</name>
+      <alias xml:id="Kuzma"/>
+    </character>
+    <character>
+      <name>Офицер из толпы</name>
+      <alias xml:id="OfitserIzTolpy"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Djachok">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="279"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="1397"/>
+      </sp>
+      <sp who="#Damy">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="40"/>
+      </sp>
+      <sp who="#Djakon">
+        <amount unit="speechacts" n="33"/>
+        <amount unit="words" n="422"/>
+        <amount unit="lines" n="33"/>
+        <amount unit="characters" n="2500"/>
+      </sp>
+      <sp who="#Student">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="17"/>
+      </sp>
+      <sp who="#Kokoshkina">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="88"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="395"/>
+      </sp>
+      <sp who="#Volgin">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="63"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="259"/>
+      </sp>
+      <sp who="#VTolpe">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="401"/>
+        <amount unit="lines" n="45"/>
+        <amount unit="characters" n="1826"/>
+      </sp>
+      <sp who="#Zonenshtejn">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="49"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="195"/>
+      </sp>
+      <sp who="#KtoTo">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="2"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="5"/>
+      </sp>
+      <sp who="#OIvan">
+        <amount unit="speechacts" n="31"/>
+        <amount unit="words" n="817"/>
+        <amount unit="lines" n="31"/>
+        <amount unit="characters" n="4492"/>
+      </sp>
+      <sp who="#Kokoshkin">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="42"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="193"/>
+      </sp>
+      <sp who="#Hor">
+        <amount unit="speechacts" n="29"/>
+        <amount unit="words" n="138"/>
+        <amount unit="lines" n="29"/>
+        <amount unit="characters" n="630"/>
+      </sp>
+      <sp who="#Komik">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="7"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="26"/>
+      </sp>
+      <sp who="#Baryshnja">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="48"/>
+      </sp>
+      <sp who="#ONikolaj">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="116"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="622"/>
+      </sp>
+      <sp who="#TovarischProkurora">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="70"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="308"/>
+      </sp>
+      <sp who="#Patronnikov">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="39"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="184"/>
+      </sp>
+      <sp who="#SobornyjHor">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="39"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="219"/>
+      </sp>
+      <sp who="#Matveev">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="52"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="248"/>
+      </sp>
+      <sp who="#Kotelnikov">
+        <amount unit="speechacts" n="23"/>
+        <amount unit="words" n="208"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="956"/>
+      </sp>
+      <sp who="#OAleksej">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="98"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="527"/>
+      </sp>
+      <sp who="#OfitserIzTolpy">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="83"/>
+      </sp>
+      <sp who="#ArhierejskijHor">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="158"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="723"/>
+      </sp>
+      <sp who="#Olenina">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="43"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="175"/>
+      </sp>
+      <sp who="#MolodojAkter">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="43"/>
+      </sp>
+      <sp who="#DamaVChernom">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="45"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="219"/>
+      </sp>
+      <sp who="#Sabinin">
+        <amount unit="speechacts" n="21"/>
+        <amount unit="words" n="195"/>
+        <amount unit="lines" n="21"/>
+        <amount unit="characters" n="892"/>
+      </sp>
+      <sp who="#Kuzma">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="117"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="505"/>
+      </sp>
+    </div>
+  </text>
+</play>

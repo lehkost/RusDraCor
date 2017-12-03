@@ -1,0 +1,198 @@
+<play xmlns="http://lina.digital" id="56">
+  <head>
+    <title>Лакейская</title>
+    <title>The Servants' Hall</title>
+    <title/>
+    <author>Николай Гоголь</author>
+  </head>
+  <personae>
+    <character>
+      <name>Григорий</name>
+      <alias xml:id="Grigorij"/>
+    </character>
+    <character>
+      <name>Петр</name>
+      <alias xml:id="Petr"/>
+    </character>
+    <character>
+      <name>Иван</name>
+      <alias xml:id="Ivan"/>
+    </character>
+    <character>
+      <name>Чужой слуга</name>
+      <alias xml:id="ChuzhojSluga"/>
+    </character>
+    <character>
+      <name>Барин</name>
+      <alias xml:id="Barin"/>
+    </character>
+    <character>
+      <name>Господин в шубе</name>
+      <alias xml:id="GospodinVShube"/>
+    </character>
+    <character>
+      <name>Девушка</name>
+      <alias xml:id="Devushka"/>
+    </character>
+    <character>
+      <name>Пузатый дворецкий</name>
+      <alias xml:id="PuzatyjDvoretskij"/>
+    </character>
+    <character>
+      <name>Аннушка</name>
+      <alias xml:id="Annushka"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>I</head>
+      <sp who="#Ivan">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="15"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="48"/>
+      </sp>
+      <sp who="#Grigorij">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="279"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="1355"/>
+      </sp>
+      <sp who="#Petr">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="61"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="257"/>
+      </sp>
+      <sp who="#ChuzhojSluga">
+        <amount unit="speechacts" n="9"/>
+        <amount unit="words" n="177"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="730"/>
+      </sp>
+    </div>
+    <div>
+      <head>II</head>
+      <sp who="#Barin">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="89"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="385"/>
+      </sp>
+      <sp who="#ChuzhojSluga">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="65"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="327"/>
+      </sp>
+      <sp who="#Grigorij">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="75"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="360"/>
+      </sp>
+    </div>
+    <div>
+      <head>III</head>
+      <sp who="#Grigorij">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="27"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="114"/>
+      </sp>
+      <sp who="#ChuzhojSluga">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="32"/>
+      </sp>
+    </div>
+    <div>
+      <head>IV</head>
+      <sp who="#Grigorij">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="32"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="131"/>
+      </sp>
+      <sp who="#GospodinVShube">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="46"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="224"/>
+      </sp>
+    </div>
+    <div>
+      <head>V</head>
+      <sp who="#Ivan">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="2"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="7"/>
+      </sp>
+      <sp who="#Grigorij">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="33"/>
+      </sp>
+      <sp who="#ChuzhojSluga">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="75"/>
+      </sp>
+    </div>
+    <div>
+      <head>VI</head>
+      <sp who="#Ivan">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="11"/>
+      </sp>
+      <sp who="#Grigorij">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="51"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="226"/>
+      </sp>
+      <sp who="#Devushka">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="14"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="69"/>
+      </sp>
+    </div>
+    <div>
+      <head>VII</head>
+      <sp who="#Grigorij">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="27"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="95"/>
+      </sp>
+      <sp who="#PuzatyjDvoretskij">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="258"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="1263"/>
+      </sp>
+    </div>
+    <div>
+      <head>VIII</head>
+      <sp who="#Annushka">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="110"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="589"/>
+      </sp>
+      <sp who="#PuzatyjDvoretskij">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="380"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="2128"/>
+      </sp>
+    </div>
+  </text>
+</play>

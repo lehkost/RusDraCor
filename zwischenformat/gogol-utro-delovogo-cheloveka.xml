@@ -1,0 +1,113 @@
+<play xmlns="http://lina.digital" id="51">
+  <head>
+    <title>Утро делового человека</title>
+    <title>The Morning of a Busy Man</title>
+    <title/>
+    <author>Николай Гоголь</author>
+  </head>
+  <personae>
+    <character>
+      <name>Иван Петрович</name>
+      <alias xml:id="IvanPetrovich"/>
+    </character>
+    <character>
+      <name>Лакей</name>
+      <alias xml:id="Lakej"/>
+    </character>
+    <character>
+      <name>Александр Иванович</name>
+      <alias xml:id="AleksandrIvanovich"/>
+    </character>
+    <character>
+      <name>Шрейдер</name>
+      <alias xml:id="Shrejder"/>
+    </character>
+    <character>
+      <name>Катерина Александровна, жена Ивана Петровича</name>
+      <alias xml:id="KaterinaAleksandrovna"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>I</head>
+      <sp who="#Lakej">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="27"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="116"/>
+      </sp>
+      <sp who="#IvanPetrovich">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="43"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="169"/>
+      </sp>
+    </div>
+    <div>
+      <head>II</head>
+      <sp who="#AleksandrIvanovich">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="500"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="2555"/>
+      </sp>
+      <sp who="#IvanPetrovich">
+        <amount unit="speechacts" n="22"/>
+        <amount unit="words" n="332"/>
+        <amount unit="lines" n="23"/>
+        <amount unit="characters" n="1507"/>
+      </sp>
+    </div>
+    <div>
+      <head>III</head>
+      <sp who="#Shrejder">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="69"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="367"/>
+      </sp>
+      <sp who="#IvanPetrovich">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="180"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="866"/>
+      </sp>
+    </div>
+    <div>
+      <head>IV</head>
+      <sp who="#AleksandrIvanovich">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="106"/>
+      </sp>
+      <sp who="#IvanPetrovich">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="284"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="1660"/>
+      </sp>
+    </div>
+    <div>
+      <head>V</head>
+      <sp who="#KaterinaAleksandrovna">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="34"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="182"/>
+      </sp>
+      <sp who="#IvanPetrovich">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="128"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="599"/>
+      </sp>
+      <sp who="#AleksandrIvanovich">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="191"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="978"/>
+      </sp>
+    </div>
+  </text>
+</play>

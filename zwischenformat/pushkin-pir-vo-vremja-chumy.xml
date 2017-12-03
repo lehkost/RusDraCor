@@ -1,0 +1,99 @@
+<play xmlns="http://lina.digital" id="19">
+  <head>
+    <title>Пир во время чумы</title>
+    <title>A Feast in Time of Plague</title>
+    <title>(Из вильсоновой трагедии: The city of the plague)</title>
+    <title>(From Wilson's Tragedy: The City of the Plague)</title>
+    <author>Александр Пушкин</author>
+  </head>
+  <personae>
+    <character>
+      <name>Молодой человек</name>
+      <alias xml:id="MolodojChelovek"/>
+    </character>
+    <character>
+      <name>Председатель</name>
+      <alias xml:id="Predsedatel"/>
+    </character>
+    <character>
+      <name>Мери</name>
+      <alias xml:id="Meri"/>
+    </character>
+    <character>
+      <name>Луиза</name>
+      <alias xml:id="Luiza"/>
+    </character>
+    <character>
+      <name>Многие</name>
+      <alias xml:id="Mnogie"/>
+    </character>
+    <character>
+      <name>Священник</name>
+      <alias xml:id="Svjaschennik"/>
+    </character>
+    <character>
+      <name>Женский голос</name>
+      <alias xml:id="ZhenskijGolos"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Predsedatel">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="448"/>
+        <amount unit="lines" n="72"/>
+        <amount unit="characters" n="2058"/>
+      </sp>
+      <sp who="#MolodojChelovek">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="218"/>
+        <amount unit="lines" n="37"/>
+        <amount unit="characters" n="1090"/>
+      </sp>
+      <sp who="#Meri">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="236"/>
+        <amount unit="lines" n="49"/>
+        <amount unit="characters" n="1092"/>
+      </sp>
+      <sp who="#Mnogie">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="19"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="76"/>
+      </sp>
+      <sp who="#Luiza">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="113"/>
+        <amount unit="lines" n="18"/>
+        <amount unit="characters" n="515"/>
+      </sp>
+    </div>
+    <div>
+      <sp who="#Svjaschennik">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="207"/>
+        <amount unit="lines" n="35"/>
+        <amount unit="characters" n="1033"/>
+      </sp>
+      <sp who="#Mnogie">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="29"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="135"/>
+      </sp>
+      <sp who="#ZhenskijGolos">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="10"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="47"/>
+      </sp>
+      <sp who="#Predsedatel">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="192"/>
+        <amount unit="lines" n="30"/>
+        <amount unit="characters" n="880"/>
+      </sp>
+    </div>
+  </text>
+</play>

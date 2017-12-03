@@ -1,0 +1,94 @@
+<play xmlns="http://lina.digital" id="3">
+  <head>
+    <title>Разговор на большой дороге</title>
+    <title>A Conversation on the Highway</title>
+    <title>Сцена</title>
+    <title>Scene</title>
+    <author>Иван Сергеевич Тургенев</author>
+  </head>
+  <personae>
+    <character>
+      <name>Ефрем</name>
+      <alias xml:id="Efrem"/>
+    </character>
+    <character>
+      <name>Вохляк</name>
+      <alias xml:id="Vohljak"/>
+    </character>
+    <character>
+      <name>Лытки</name>
+      <alias xml:id="Lytki"/>
+    </character>
+    <character>
+      <name>Михрюткин</name>
+      <alias xml:id="Mihrjutkin"/>
+    </character>
+    <character>
+      <name>Божевольный</name>
+      <alias xml:id="Bozhevolnyj"/>
+    </character>
+    <character>
+      <name>Взлыз</name>
+      <alias xml:id="Vzlyz"/>
+    </character>
+    <character>
+      <name>Спапашиться</name>
+      <alias xml:id="Spapashitsja"/>
+    </character>
+    <character>
+      <name>Очунеть</name>
+      <alias xml:id="Ochunet"/>
+    </character>
+    <character>
+      <name>Верх</name>
+      <alias xml:id="Verh"/>
+    </character>
+    <character>
+      <name>Иржы</name>
+      <alias xml:id="Irzhy"/>
+    </character>
+    <character>
+      <name>Селивёрст</name>
+      <alias xml:id="Seliverst"/>
+    </character>
+    <character>
+      <name>Лядащий</name>
+      <alias xml:id="Ljadaschij"/>
+    </character>
+    <character>
+      <name>Взлобок, взлобочек</name>
+      <alias xml:id="VzlobokVzlobochek"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <sp who="#Efrem">
+        <amount unit="speechacts" n="74"/>
+        <amount unit="words" n="1479"/>
+        <amount unit="lines" n="74"/>
+        <amount unit="characters" n="7199"/>
+      </sp>
+      <sp who="#Seliverst">
+        <amount unit="speechacts" n="37"/>
+        <amount unit="words" n="523"/>
+        <amount unit="lines" n="39"/>
+        <amount unit="characters" n="2525"/>
+      </sp>
+      <sp who="#Mihrjutkin">
+        <amount unit="speechacts" n="90"/>
+        <amount unit="words" n="1125"/>
+        <amount unit="lines" n="90"/>
+        <amount unit="characters" n="5236"/>
+      </sp>
+      <sp who="#Efrem #Seliverst">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="15"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="56"/>
+      </sp>
+    </div>
+    <div>
+      <head>Орловские слова, которые попадаются в «Разговоре»:</head>
+    </div>
+  </text>
+</play>

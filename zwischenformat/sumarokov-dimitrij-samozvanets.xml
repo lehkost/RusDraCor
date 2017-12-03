@@ -1,0 +1,628 @@
+<play xmlns="http://lina.digital" id="12">
+  <head>
+    <title>Димитрий Самозванец</title>
+    <title>Dmitry the Pretender</title>
+    <title>Трагедия</title>
+    <title>Tragedy</title>
+    <author>Александр Петрович Сумароков</author>
+  </head>
+  <personae>
+    <character>
+      <name>Пармен</name>
+      <alias xml:id="Parmen"/>
+    </character>
+    <character>
+      <name>Димитрий</name>
+      <alias xml:id="Dimitrij"/>
+    </character>
+    <character>
+      <name>Ксения</name>
+      <alias xml:id="Ksenija"/>
+    </character>
+    <character>
+      <name>Шуйский</name>
+      <alias xml:id="Shujskij"/>
+    </character>
+    <character>
+      <name>Георгий</name>
+      <alias xml:id="Georgij"/>
+    </character>
+    <character>
+      <name>Начальник</name>
+      <alias xml:id="Nachalnik"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>ДЕЙСТВИЕ I</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="438"/>
+          <amount unit="lines" n="55"/>
+          <amount unit="characters" n="2093"/>
+        </sp>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="14"/>
+          <amount unit="words" n="481"/>
+          <amount unit="lines" n="64"/>
+          <amount unit="characters" n="2379"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="53"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="263"/>
+        </sp>
+        <sp who="#Nachalnik">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="125"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="606"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="75"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="375"/>
+        </sp>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="48"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="227"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="75"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="373"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="108"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="492"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 5</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="107"/>
+          <amount unit="lines" n="16"/>
+          <amount unit="characters" n="518"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="7"/>
+          <amount unit="words" n="146"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="655"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="63"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="293"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 5</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="42"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="196"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="180"/>
+          <amount unit="lines" n="25"/>
+          <amount unit="characters" n="905"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ II</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="194"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="991"/>
+        </sp>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="209"/>
+          <amount unit="lines" n="30"/>
+          <amount unit="characters" n="1081"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="101"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="486"/>
+        </sp>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="59"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="284"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="122"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="605"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="52"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="247"/>
+        </sp>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="188"/>
+          <amount unit="lines" n="23"/>
+          <amount unit="characters" n="865"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="4"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="17"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="77"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="28"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="134"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 5</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="133"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="634"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="44"/>
+          <amount unit="lines" n="7"/>
+          <amount unit="characters" n="246"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 6</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="40"/>
+          <amount unit="lines" n="5"/>
+          <amount unit="characters" n="171"/>
+        </sp>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="86"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="443"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="113"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 7</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="314"/>
+          <amount unit="lines" n="36"/>
+          <amount unit="characters" n="1351"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ III</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="239"/>
+          <amount unit="lines" n="32"/>
+          <amount unit="characters" n="1180"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="15"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="71"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="74"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="374"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="214"/>
+          <amount unit="lines" n="29"/>
+          <amount unit="characters" n="1041"/>
+        </sp>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="146"/>
+          <amount unit="lines" n="17"/>
+          <amount unit="characters" n="646"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="96"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="450"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="188"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="908"/>
+        </sp>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="199"/>
+          <amount unit="lines" n="24"/>
+          <amount unit="characters" n="889"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 5</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="132"/>
+        </sp>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="8"/>
+          <amount unit="words" n="230"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="1145"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="9"/>
+          <amount unit="words" n="258"/>
+          <amount unit="lines" n="35"/>
+          <amount unit="characters" n="1237"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 6</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="212"/>
+          <amount unit="lines" n="28"/>
+          <amount unit="characters" n="1037"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="68"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="334"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 7</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="200"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="976"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ IV</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="99"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="547"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="364"/>
+          <amount unit="lines" n="49"/>
+          <amount unit="characters" n="1816"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="122"/>
+        </sp>
+        <sp who="#Nachalnik">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="97"/>
+          <amount unit="lines" n="13"/>
+          <amount unit="characters" n="480"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="29"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="121"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="19"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="78"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="247"/>
+          <amount unit="lines" n="31"/>
+          <amount unit="characters" n="1151"/>
+        </sp>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="43"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="218"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 5</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="91"/>
+          <amount unit="lines" n="12"/>
+          <amount unit="characters" n="431"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 6</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="16"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="78"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="30"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="131"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="20"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="100"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 7</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="16"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="76"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="12"/>
+          <amount unit="lines" n="2"/>
+          <amount unit="characters" n="66"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 8</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="6"/>
+          <amount unit="words" n="36"/>
+          <amount unit="lines" n="6"/>
+          <amount unit="characters" n="165"/>
+        </sp>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="162"/>
+          <amount unit="lines" n="19"/>
+          <amount unit="characters" n="711"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="56"/>
+          <amount unit="lines" n="10"/>
+          <amount unit="characters" n="299"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 9</head>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="24"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="106"/>
+        </sp>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="18"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="88"/>
+        </sp>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="22"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="101"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="107"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 10</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="151"/>
+          <amount unit="lines" n="18"/>
+          <amount unit="characters" n="691"/>
+        </sp>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="31"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="136"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 11</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="170"/>
+          <amount unit="lines" n="20"/>
+          <amount unit="characters" n="743"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>ДЕЙСТВИЕ V</head>
+      <div>
+        <head>ЯВЛЕНИЕ 1</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="229"/>
+          <amount unit="lines" n="26"/>
+          <amount unit="characters" n="1006"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 2</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="67"/>
+          <amount unit="lines" n="8"/>
+          <amount unit="characters" n="305"/>
+        </sp>
+        <sp who="#Nachalnik">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="26"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="126"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 3</head>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="109"/>
+          <amount unit="lines" n="14"/>
+          <amount unit="characters" n="500"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ 4</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="2"/>
+          <amount unit="words" n="112"/>
+          <amount unit="lines" n="15"/>
+          <amount unit="characters" n="539"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="178"/>
+          <amount unit="lines" n="21"/>
+          <amount unit="characters" n="801"/>
+        </sp>
+      </div>
+      <div>
+        <head>ЯВЛЕНИЕ ПОСЛЕДНЕЕ</head>
+        <sp who="#Ksenija">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="2"/>
+          <amount unit="lines" n="1"/>
+          <amount unit="characters" n="8"/>
+        </sp>
+        <sp who="#Georgij">
+          <amount unit="speechacts" n="4"/>
+          <amount unit="words" n="81"/>
+          <amount unit="lines" n="11"/>
+          <amount unit="characters" n="370"/>
+        </sp>
+        <sp who="#Dimitrij">
+          <amount unit="speechacts" n="5"/>
+          <amount unit="words" n="70"/>
+          <amount unit="lines" n="9"/>
+          <amount unit="characters" n="311"/>
+        </sp>
+        <sp who="#Parmen">
+          <amount unit="speechacts" n="1"/>
+          <amount unit="words" n="23"/>
+          <amount unit="lines" n="3"/>
+          <amount unit="characters" n="111"/>
+        </sp>
+        <sp who="#Shujskij">
+          <amount unit="speechacts" n="3"/>
+          <amount unit="words" n="28"/>
+          <amount unit="lines" n="4"/>
+          <amount unit="characters" n="121"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,190 @@
+<play xmlns="http://lina.digital" id="67">
+  <head>
+    <title>Медведь</title>
+    <title>The Bear</title>
+    <title>Шутка в одном действии</title>
+    <title>A Joke in One Act</title>
+    <author>Антон Чехов</author>
+  </head>
+  <personae>
+    <character>
+      <name>Лука</name>
+      <alias xml:id="Luka"/>
+    </character>
+    <character>
+      <name>Попова</name>
+      <alias xml:id="Popova"/>
+    </character>
+    <character>
+      <name>Смирнов</name>
+      <alias xml:id="Smirnov"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>I</head>
+      <sp who="#Luka">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="321"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="1636"/>
+      </sp>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="218"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="1050"/>
+      </sp>
+    </div>
+    <div>
+      <head>II</head>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="71"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="360"/>
+      </sp>
+    </div>
+    <div>
+      <head>III</head>
+      <sp who="#Luka">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="47"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="225"/>
+      </sp>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="60"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="252"/>
+      </sp>
+    </div>
+    <div>
+      <head>IV</head>
+      <sp who="#Smirnov">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="285"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="1565"/>
+      </sp>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="190"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="991"/>
+      </sp>
+    </div>
+    <div>
+      <head>V</head>
+      <sp who="#Smirnov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="201"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="1050"/>
+      </sp>
+    </div>
+    <div>
+      <head>VI</head>
+      <sp who="#Luka">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="3"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="9"/>
+      </sp>
+      <sp who="#Smirnov">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="112"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="627"/>
+      </sp>
+    </div>
+    <div>
+      <head>VII</head>
+      <sp who="#Luka">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="35"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="160"/>
+      </sp>
+      <sp who="#Smirnov">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="248"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="1201"/>
+      </sp>
+    </div>
+    <div>
+      <head>VIII</head>
+      <sp who="#Smirnov">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="758"/>
+        <amount unit="lines" n="27"/>
+        <amount unit="characters" n="4023"/>
+      </sp>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="19"/>
+        <amount unit="words" n="406"/>
+        <amount unit="lines" n="21"/>
+        <amount unit="characters" n="2016"/>
+      </sp>
+    </div>
+    <div>
+      <head>IX</head>
+      <sp who="#Luka">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="90"/>
+        <amount unit="lines" n="9"/>
+        <amount unit="characters" n="397"/>
+      </sp>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="121"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="517"/>
+      </sp>
+      <sp who="#Smirnov">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="246"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="1297"/>
+      </sp>
+    </div>
+    <div>
+      <head>X</head>
+      <sp who="#Luka">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="21"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="119"/>
+      </sp>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="15"/>
+        <amount unit="words" n="236"/>
+        <amount unit="lines" n="19"/>
+        <amount unit="characters" n="1047"/>
+      </sp>
+      <sp who="#Smirnov">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="491"/>
+        <amount unit="lines" n="22"/>
+        <amount unit="characters" n="2605"/>
+      </sp>
+    </div>
+    <div>
+      <head>XI</head>
+      <sp who="#Luka">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="2"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="8"/>
+      </sp>
+      <sp who="#Popova">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="71"/>
+      </sp>
+    </div>
+  </text>
+</play>

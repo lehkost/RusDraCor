@@ -1,0 +1,373 @@
+<play xmlns="http://lina.digital" id="26">
+  <head>
+    <title>Сговор Кутейкина</title>
+    <title>Kuteykin's Agreement</title>
+    <title>Комедия в одном действии</title>
+    <title>A Comedy in One Act</title>
+    <author>Пётр Алексеевич Плавильщиков</author>
+  </head>
+  <personae>
+    <character>
+      <name>Жена его</name>
+      <alias xml:id="ZhenaPreslepa"/>
+    </character>
+    <character>
+      <name>Преслеп</name>
+      <alias xml:id="Preslep"/>
+    </character>
+    <character>
+      <name>Парасковья</name>
+      <alias xml:id="Paraskovja"/>
+    </character>
+    <character>
+      <name>Еремеевна</name>
+      <alias xml:id="Eremeevna"/>
+    </character>
+    <character>
+      <name>Пимен</name>
+      <alias xml:id="Pimen"/>
+    </character>
+    <character>
+      <name>Неох</name>
+      <alias xml:id="Neoh"/>
+    </character>
+    <character>
+      <name>Скотинин</name>
+      <alias xml:id="Skotinin"/>
+    </character>
+    <character>
+      <name>Цыфиркин</name>
+      <alias xml:id="Tsyfirkin"/>
+    </character>
+    <character>
+      <name>Кутейкин</name>
+      <alias xml:id="Kutejkin"/>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Явление первое</head>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="10"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="41"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="244"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="1263"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="13"/>
+        <amount unit="words" n="410"/>
+        <amount unit="lines" n="13"/>
+        <amount unit="characters" n="2042"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление второе</head>
+      <sp who="#Eremeevna">
+        <amount unit="speechacts" n="8"/>
+        <amount unit="words" n="298"/>
+        <amount unit="lines" n="8"/>
+        <amount unit="characters" n="1477"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="62"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="312"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="192"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="1039"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление третье</head>
+      <sp who="#Pimen">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="44"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="16"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="83"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление четвёртое</head>
+      <sp who="#Neoh">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="37"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="142"/>
+      </sp>
+      <sp who="#Pimen">
+        <amount unit="speechacts" n="10"/>
+        <amount unit="words" n="170"/>
+        <amount unit="lines" n="10"/>
+        <amount unit="characters" n="958"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="14"/>
+        <amount unit="words" n="222"/>
+        <amount unit="lines" n="14"/>
+        <amount unit="characters" n="998"/>
+      </sp>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="48"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="226"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление пятое</head>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="7"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="31"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="13"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="49"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление шестое</head>
+      <sp who="#Eremeevna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="11"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="58"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="97"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление седьмое</head>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="143"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="23"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="113"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление восьмое</head>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="48"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="236"/>
+      </sp>
+      <sp who="#Eremeevna">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="0"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="26"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="35"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="17"/>
+        <amount unit="words" n="254"/>
+        <amount unit="lines" n="17"/>
+        <amount unit="characters" n="1414"/>
+      </sp>
+      <sp who="#Tsyfirkin">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="50"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="238"/>
+      </sp>
+      <sp who="#Kutejkin">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="203"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="1084"/>
+      </sp>
+      <sp who="#Skotinin">
+        <amount unit="speechacts" n="21"/>
+        <amount unit="words" n="471"/>
+        <amount unit="lines" n="26"/>
+        <amount unit="characters" n="2192"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление девятое</head>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="75"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="349"/>
+      </sp>
+      <sp who="#Pimen">
+        <amount unit="speechacts" n="7"/>
+        <amount unit="words" n="123"/>
+        <amount unit="lines" n="7"/>
+        <amount unit="characters" n="648"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="4"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="27"/>
+      </sp>
+      <sp who="#Eremeevna">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="30"/>
+      </sp>
+      <sp who="#Neoh">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="18"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="83"/>
+      </sp>
+      <sp who="#Tsyfirkin">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="86"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="425"/>
+      </sp>
+      <sp who="#Skotinin">
+        <amount unit="speechacts" n="5"/>
+        <amount unit="words" n="43"/>
+        <amount unit="lines" n="5"/>
+        <amount unit="characters" n="174"/>
+      </sp>
+      <sp who="#Kutejkin">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="27"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="114"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="12"/>
+        <amount unit="words" n="186"/>
+        <amount unit="lines" n="12"/>
+        <amount unit="characters" n="939"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление десятое</head>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="30"/>
+      </sp>
+      <sp who="#Skotinin">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="56"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="247"/>
+      </sp>
+      <sp who="#Kutejkin">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="8"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="29"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="44"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="199"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление одиннадцатое</head>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="4"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="4"/>
+        <amount unit="characters" n="104"/>
+      </sp>
+      <sp who="#Pimen">
+        <amount unit="speechacts" n="6"/>
+        <amount unit="words" n="148"/>
+        <amount unit="lines" n="6"/>
+        <amount unit="characters" n="761"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="2"/>
+        <amount unit="words" n="20"/>
+        <amount unit="lines" n="2"/>
+        <amount unit="characters" n="84"/>
+      </sp>
+      <sp who="#Eremeevna">
+        <amount unit="speechacts" n="3"/>
+        <amount unit="words" n="30"/>
+        <amount unit="lines" n="3"/>
+        <amount unit="characters" n="123"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="11"/>
+        <amount unit="words" n="155"/>
+        <amount unit="lines" n="11"/>
+        <amount unit="characters" n="782"/>
+      </sp>
+    </div>
+    <div>
+      <head>Явление последнее</head>
+      <sp who="#Paraskovja">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="6"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="29"/>
+      </sp>
+      <sp who="#Pimen">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="28"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="170"/>
+      </sp>
+      <sp who="#ZhenaPreslepa">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="26"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="129"/>
+      </sp>
+      <sp who="#Neoh">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="34"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="159"/>
+      </sp>
+      <sp who="#Preslep">
+        <amount unit="speechacts" n="1"/>
+        <amount unit="words" n="9"/>
+        <amount unit="lines" n="1"/>
+        <amount unit="characters" n="40"/>
+      </sp>
+    </div>
+  </text>
+</play>
