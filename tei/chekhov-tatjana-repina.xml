@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Татьяна Репина</title>
+        <title type="main" xml:lang="en">Tatyana Repina</title>
+        <title type="sub" xml:lang="ru">Драма в 1 действии</title>
+        <title type="sub" xml:lang="en">Drama in 1 Act</title>
+        <author key="Wikidata:Q5685">Чехов, Антон Павлович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/chekhov-tatjana-repina</idno>
+        <idno type="RusDraCor">62</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Интернет-библиотека Алексея Комарова</name>
+          <idno type="URL">http://ilibrary.ru/text/965/index.html</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 12.
+              М., "Наука", 1986.</title>
+            <date type="print" when="1889">"Впервые — в отдельном типографском оттиске: Татьяна
+              Репина. Драма в 1 действии Антона Чехова (Посвящается А. С. Суворину). — СПб., 1889."
+              (Wikisource)</date>
+            <date type="premiere"/>
+            <date type="written" when="1889">"Написана в 1889 году." (Wikipedia)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="OIvan" sex="MALE">
+            <persName>О. Иван</persName>
+            <persName xml:lang="en">Father Ivan</persName>
+            <persName xml:lang="de">Vater Ivan</persName>
+          </person>
+          <person xml:id="ArhierejskijHor" sex="UNKNOWN">
+            <persName>Архиерейский хор</persName>
+            <persName xml:lang="en">Arch Bishop's Choir</persName>
+            <persName xml:lang="de">Eparchialchor</persName>
+          </person>
+          <person xml:id="Patronnikov" sex="MALE">
+            <persName>Патронников</persName>
+            <persName xml:lang="en">Patronnikov</persName>
+            <persName xml:lang="de">Patronnikov</persName>
+          </person>
+          <person xml:id="Zonenshtejn" sex="MALE">
+            <persName>Зоненштейн</persName>
+            <persName xml:lang="en">Zonenštejn</persName>
+            <persName xml:lang="de">Zonenštejn</persName>
+          </person>
+          <person xml:id="Djakon" sex="MALE">
+            <persName>Дьякон</persName>
+            <persName xml:lang="en">Deacon</persName>
+            <persName xml:lang="de">Diakon</persName>
+          </person>
+          <person xml:id="SobornyjHor" sex="UNKNOWN">
+            <persName>Соборный хор</persName>
+            <persName xml:lang="en">Cathedral Choir</persName>
+            <persName xml:lang="de">Domchor</persName>
+          </person>
+          <person xml:id="ONikolaj" sex="MALE">
+            <persName>О. Николай</persName>
+            <persName xml:lang="en">Father Nikolaj</persName>
+            <persName xml:lang="de">Vater Nikolaj</persName>
+          </person>
+          <person xml:id="Baryshnja" sex="FEMALE">
+            <persName>Барышня</persName>
+            <persName xml:lang="en">A young lady</persName>
+            <persName xml:lang="de">Ein Fräulein</persName>
+          </person>
+          <person xml:id="VTolpe" sex="UNKNOWN">
+            <persName>В толпе</persName>
+            <persName xml:lang="en">From the congregation</persName>
+            <persName xml:lang="de">In der Menge</persName>
+          </person>
+          <person xml:id="Kotelnikov" sex="MALE">
+            <persName>Котельников</persName>
+            <persName xml:lang="en">Kotelʹnikov</persName>
+            <persName xml:lang="de">Kotelʹnikov</persName>
+          </person>
+          <person xml:id="Volgin" sex="MALE">
+            <persName>Волгин</persName>
+            <persName xml:lang="en">Volgin</persName>
+            <persName xml:lang="de">Volgin</persName>
+          </person>
+          <person xml:id="TovarischProkurora" sex="MALE">
+            <persName>Товарищ прокурора</persName>
+            <persName xml:lang="en">The Assistant Prosecutor</persName>
+            <persName xml:lang="de">Der Stellvertretende Staatsanwalt</persName>
+          </person>
+          <person xml:id="Kokoshkina" sex="FEMALE">
+            <persName>Кокошкина</persName>
+            <persName xml:lang="en">Kokoškina</persName>
+            <persName xml:lang="de">Kokoškina</persName>
+          </person>
+          <person xml:id="Kokoshkin" sex="MALE">
+            <persName>Кокошкин</persName>
+            <persName xml:lang="en">Kokoškin</persName>
+            <persName xml:lang="de">Kokoškin</persName>
+          </person>
+          <person xml:id="Djachok" sex="MALE">
+            <persName>Дьячок</persName>
+            <persName xml:lang="en">Sexton</persName>
+            <persName xml:lang="de">Küster</persName>
+          </person>
+          <person xml:id="Sabinin" sex="MALE">
+            <persName>Сабинин</persName>
+            <persName xml:lang="en">Sabinin</persName>
+            <persName xml:lang="de">Sabinin</persName>
+          </person>
+          <person xml:id="Hor" sex="UNKNOWN">
+            <persName>Хор</persName>
+            <persName xml:lang="en">Choir</persName>
+            <persName xml:lang="de">Chor</persName>
+          </person>
+          <person xml:id="KtoTo" sex="UNKNOWN">
+            <persName>Кто-то</persName>
+            <persName xml:lang="en">Somebody</persName>
+            <persName xml:lang="de">Jemand</persName>
+          </person>
+          <person xml:id="DamaVChernom" sex="FEMALE">
+            <persName>Дама в черном</persName>
+            <persName xml:lang="en">The Lady in Black</persName>
+            <persName xml:lang="de">Die Dame in Schwarz</persName>
+          </person>
+          <person xml:id="Damy" sex="FEMALE">
+            <persName>Дамы</persName>
+            <persName xml:lang="en">Ladies</persName>
+            <persName xml:lang="de">Damen</persName>
+          </person>
+          <person xml:id="OAleksej" sex="MALE">
+            <persName>О. Алексей</persName>
+            <persName xml:lang="en">Father Aleksej</persName>
+            <persName xml:lang="de">Vater Aleksej</persName>
+          </person>
+          <person xml:id="Matveev" sex="MALE">
+            <persName>Матвеев</persName>
+            <persName xml:lang="en">Matveev</persName>
+            <persName xml:lang="de">Matveev</persName>
+          </person>
+          <person xml:id="Student" sex="MALE">
+            <persName>Студент</persName>
+            <persName xml:lang="en">A student</persName>
+            <persName xml:lang="de">Ein Student</persName>
+          </person>
+          <person xml:id="MolodojAkter" sex="MALE">
+            <persName>Молодой актер</persName>
+            <persName xml:lang="en">A young actor</persName>
+            <persName xml:lang="de">Ein junger Schauspieler</persName>
+          </person>
+          <person xml:id="Olenina" sex="FEMALE">
+            <persName>Оленина</persName>
+            <persName xml:lang="en">Olenina</persName>
+            <persName xml:lang="de">Olenina</persName>
+          </person>
+          <person xml:id="Komik" sex="MALE">
+            <persName>Комик</persName>
+            <persName xml:lang="en">A comic actor</persName>
+            <persName xml:lang="de">Komiker</persName>
+          </person>
+          <person xml:id="Kuzma" sex="MALE">
+            <persName>Кузьма</persName>
+            <persName xml:lang="en">Kuzʹma</persName>
+            <persName xml:lang="de">Kuzʹma</persName>
+          </person>
+          <person xml:id="OfitserIzTolpy" sex="MALE">
+            <persName>Офицер из толпы</persName>
+            <persName xml:lang="en">A police officer from the congregation</persName>
+            <persName xml:lang="de">Offizier aus der Menge</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle" subtype="drama">Драма в 1 действии</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#ds" when="2017-03-31">converted from source</change>
+        <change who="#ff #to" when="2017-05-17">camel case, checked IDs</change>
+        <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff" when="2017-07-21">formalities; still lacks segmentation</change>
+        <change who="#ff" when="2017-07-29">no meaningful segmentation possible for this play, a
+          sequel to Suvorin's play of the same name (the whole scene is in a church and everybody is
+          talking/singing to everbody during the ceremony, and the speech acts in "v tolpe" are
+          collecting differenct voices, etc.)</change>
+        <change who="#ff" when="2017-11-27">(DE|EN) transl. of character names in ISO 9</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Татьяна Репина</titlePart>
+        <titlePart type="sub">Драма в 1 действии</titlePart>
+      </docTitle>
+      <castList>
+        <head>Действующие лица</head>
+        <castItem>Оленина.</castItem>
+        <castItem>Кокошкина.</castItem>
+        <castItem>Матвеев.</castItem>
+        <castItem>Зоненштейн.</castItem>
+        <castItem>Сабинин.</castItem>
+        <castItem>Котельников.</castItem>
+        <castItem>Кокошкин.</castItem>
+        <castItem>Патронников.</castItem>
+        <castItem>Волгин, молодой офицер.</castItem>
+        <castItem>Студент.</castItem>
+        <castItem>Барышня.</castItem>
+        <castItem>О. Иван, кафедральный протоиерей, старик 70 л.</castItem>
+        <castGroup rend="braced">
+          <castItem>О. Николай</castItem>
+          <castItem>О. Алексей</castItem>
+          <roleDesc>молодые священники.</roleDesc>
+        </castGroup>
+        <castItem>Дьякон.</castItem>
+        <castItem>Дьячок.</castItem>
+        <castItem>Кузьма, церковный сторож.</castItem>
+        <castItem>Дама в черном.</castItem>
+        <castItem>Товарищ прокурора.</castItem>
+        <castItem>Актеры и актрисы.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <stage>Седьмой час вечера. Соборная церковь. Горят все паникадила и ставники. Царские врата
+          открыты. Поют два хора: архиерейский и соборный. Церковь полна народа. Тесно и душно. Идет
+          венчание. Венчаются Сабинин и Оленина. У первого шаферами Котельников и офицер Волгин, у
+          второй – ее брат студент и товарищ прокурора. Вся местная интеллигенция. Роскошные наряды.
+          Венчают: о. Иван в полинявшей камилавке, о. Николай в скуфейке и лохматый, очень молодой
+          еще о. Алексей в темных очках; позади и несколько вправо от о. Ивана – высокий, тощий
+          дьякон с книгой. В толпе местная труппа с Матвеевым во главе.</stage>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(читает).</stage>
+          <p>Помяни, боже, и воспитавшыя их родители: зане молитвы родителей утверждают основания
+            домов. Помяни, господи боже наш, рабы твоя уневестившияся, сшедшияся в радость сию.
+            Помяни, господи боже наш, раба твоего Петра и рабу твою Веру и благослови я. Даждь им
+            плод чрева, доброчадие, единомыслие душ и телес; возвыси я, яко кедры ливанские, яко
+            лозу благорозгную. Даруй им семя класяно, да всякое самодовольство имуще, изобилуют на
+            всякое дело благое и тебе благоугодное; и да узрят сыны сынов своих, яко новосаждения
+            масличная окрест трапезы их; и благоугодивше пред тобою, воссияют, яко светила на
+            небеси, в тебе, господе нашем. С тобою же слава, держава, честь и поклонение,
+            безначальному твоему отцу и животворящему твоему духу, ныне и присно и во веки
+            веков.</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Аминь.</p>
+        </sp>
+        <sp who="#Patronnikov">
+          <speaker>Патронников.</speaker>
+          <p>Душно! Это какой у вас орден на шее, Давид Соломонович?</p>
+        </sp>
+        <sp who="#Zonenshtejn">
+          <speaker>Зоненштейн.</speaker>
+          <p>Бельгийский. И зачем так много народу? Кто пускал? Уф! Русский баня!</p>
+        </sp>
+        <sp who="#Patronnikov">
+          <speaker>Патронников.</speaker>
+          <p>Полиция дрянная.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Господу помолимся!</p>
+        </sp>
+        <sp who="#SobornyjHor">
+          <speaker>Соборный хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи помилуй.</p>
+        </sp>
+        <sp who="#ONikolaj">
+          <speaker>О. Николай</speaker>
+          <stage type="delivery">(читает).</stage>
+          <p>Боже святый, создавый от персти человека и от ребра его воссоздавый жену и спрягий ему
+            помощника по нему, за еже тако угодно бысть твоему величеству, не единому быть человеку
+            на земле; сам и ныне, владыко, ниспосли руку твою от святого жилища твоего и сочетай
+            раба твоего сего Петра и рабу твою сию Веру, зане от тебе сочетавается мужу жена.
+            Сопрязи я в единомудрии, венчай я в плоть едину, даруй има плод чрева, благочадия
+            восприятие. Яко твоя держава, и твое есть царство, и сила, и слава, отца и сына и
+            святаго духа, ныне и присно и во веки веков.</p>
+        </sp>
+        <sp who="#SobornyjHor">
+          <speaker>Соборный хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Аминь.</p>
+        </sp>
+        <sp who="#Baryshnja">
+          <speaker>Барышня</speaker>
+          <stage type="delivery">(Зоненштейну).</stage>
+          <p>Сейчас венцы будут надевать. Смотрите, смотрите!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(берет с налоя венец и обращается лицом к Сабинину).</stage>
+          <p>Венчается раб божий Петр рабе божией Вере во имя отца и сына и святаго духа, аминь.
+              <stage type="delivery">(Передает венец Котелъникову.)</stage>
+                    </p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Шафер как раз под рост жениху. Неинтересный. Кто это?</p>
+          <p>– Это Котельников. И офицер неинтересный. Господа, пропустите даму! Вы, madame, не
+            пройдете здесь.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(обращаясь к Олениной).</stage>
+          <p>Венчается раба божия Вера рабу божию Петру во имя отца и сына и святаго Духа. <stage type="delivery">(Передает венец студенту.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Венцы тяжелые. У меня уж рука отекла.</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Ничего, я вас скоро сменю. От кого это пачулями разит, желал бы я знать!</p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора.</speaker>
+          <p>Это от Котельникова.</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Врете.</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Тссс!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Господи боже наш, славою и честью венчай я! Господи боже наш, славою и честью венчай я!
+            Господи боже наш, славою и честью венчай я!</p>
+        </sp>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина</speaker>
+          <stage type="delivery">(мужу).</stage>
+          <p>Какая сегодня Вера миленькая! Я на нее любуюсь. И не робеет.</p>
+        </sp>
+        <sp who="#Kokoshkin">
+          <speaker>Кокошкин.</speaker>
+          <p>Привычная. Ведь второй раз венчается.</p>
+        </sp>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина.</speaker>
+          <p>Да, правда. <stage type="delivery">(Вздыхает.)</stage> Я ей от души желаю!.. У нее
+            доброе сердце.</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок</speaker>
+          <stage type="delivery">(выходя на середину церкви).</stage>
+          <p>Прокимен глас восьмый. Положил еси на главах их венцы от каменей честных, живота
+            просиша у тебе, и дал еси им.</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Положил еси на главах...</p>
+        </sp>
+        <sp who="#Patronnikov">
+          <speaker>Патронников.</speaker>
+          <p>Курить хочется.</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>Апостола Павла чтение.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Вонмем!</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок</speaker>
+          <stage type="delivery">(протяжно октавой).</stage>
+          <p>Братие, благодаряще всегда о всех, о имени господа нашего Иисуса Христа, богу и отцу;
+            повинующеся друг другу в страсе божий. Жены, своим мужем повинуйтеся, якоже господу,
+            зане муж глава есть жены, якоже и Христос глава церкви, и той есть спаситель тела. Но
+            якоже церковь повинуется Христу, такожде и жены своим мужем во всем...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин</speaker>
+          <stage type="delivery">(Котельникову).</stage>
+          <p>Ты венцом давишь мне голову.</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Сочиняешь. Я держу венец на три вершка от головы.</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Говорю тебе, давишь!</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>Мужие, любите своя жены, якоже и Христос возлюби церковь и себе предаде за ню: да
+            освятит ю, очистив банею водною в глаголе. Да представит ю себе славну церковь, не имущу
+            скверны, или порока, или нечто от таковых, но да есть свята и непорочна.</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Хороший бас... <stage type="delivery">(Котельникову.)</stage> Хотите, я вас сменю?</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Я еще не утомился.</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>Тако должни суть мужие любити своя жены, яко своя телеса, любяй бо свою жену, себе
+            самого любит. Никто же бо когда свою плоть возненавиде, но питает и греет ю, якоже и
+            господь церковь, зане уди есмы тела его, от плоти его и от костей его. Сего ради оставит
+            человек отца своего и матерь...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Держи повыше венец. Давишь.</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Какой вздор!</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>...и прилепится к жене своей, и будета два в плоть едину...</p>
+        </sp>
+        <sp who="#Kokoshkin">
+          <speaker>Кокошкин.</speaker>
+          <p>Губернатор здесь.</p>
+        </sp>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина.</speaker>
+          <p>Где ты его видишь?</p>
+        </sp>
+        <sp who="#Kokoshkin">
+          <speaker>Кокошкин.</speaker>
+          <p>Вон стоит около правого клироса рядом с Алтуховым. Инкогнито.</p>
+        </sp>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина.</speaker>
+          <p>Вижу, вижу. С Машенькой Ганзен разговаривает. Это его пассия.</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>Тайна сия велика есть. Аз же глаголю во Христа и во церковь. Обаче и вы по единому,
+            кийждо свою жену сице да любит, якоже и себя, а жена да убоится мужа своего!!</p>
+        </sp>
+        <sp who="#SobornyjHor">
+          <speaker>Соборный хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Аллилуйя, аллилуйя, аллилуйя...</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Слышите, Наталья Сергеевна? Жена да убоится мужа своего.</p>
+          <p>– Отвяжитесь.</p>
+          <stage>Смех.</stage>
+          <p>– Тссс! Господа, неловко!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Премудрость прости, услышим святаго евангелия!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Мир всем!</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>И духови твоему.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Апостол, евангелие... как все это длинно! Пора бы уж им отпустить душу на покаяние.</p>
+          <p>– Дышать невозможно. Я уйду.</p>
+          <p>– Не пройдете. Ждите, скоро кончится.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>От Иоанна святаго евангелия чтение!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Вонмем!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(снимает камилавку).</stage>
+          <p>Во время оно, брак бысть в Кане Галилейстей, и бе мати Иисусова ту. Зван же бысть Иисус
+            и ученицы его на брак. И не доставшу вину, глагола мати Иисусова к нему: вина не имут!
+            Глагола ей Иисус: что есть мне и тебе, жено? не ибо прииде час мой...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин</speaker>
+          <stage type="delivery">(Котелъникову).</stage>
+          <p>Скоро конец?</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Не знаю, неграмотен по этой части. Должно, скоро.</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Еще водить будут.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Глагола мати его слугам: еже аще глаголет вам, сотворите. Беху же ту водоносы каменни
+            шесть, лежаще по очищению иудейску, вместящыя по двема или трием мерам. Глагола им
+            Иисус: наполните водоносы воды, и наполниша их до верха. И глагола им: почерпите ныне и
+            принесите архитриклинови...</p>
+        </sp>
+        <stage>Слышится стон.</stage>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Кескесе? задавили, что ли?</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Тссс! Тише!</p>
+        </sp>
+        <stage>Стон.</stage>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>...и принесоша. Якоже вкуси архитриклин вина бывшаго от воды – и не ведяше, откуду
+            есть; слуги же ведяху, почерпшии воду – пригласи жениха архитриклин. И глагола
+            ему...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин</speaker>
+          <stage type="delivery">(Котелъникову).</stage>
+          <p>Кто это сейчас стонал?</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников</speaker>
+          <stage type="delivery">(всматриваясь в толпу).</stage>
+          <p>Что-то такое движется... Какая-то дама в черном... Должно быть, дурно... Повели...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин</speaker>
+          <stage type="delivery">(всматриваясь).</stage>
+          <p>Держи повыше венец...</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>...всяк человек прежде доброе вино полагает, и егда упиются, тогда хуждшее, ты же
+            соблюл еси доброе вино доселе. Се сотвори начаток знамением Иисус в Кане Галилейстей, и
+            яви славу свою, и вероваша в него ученицы его.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Не понимаю, зачем это сюда истеричных пускают!</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор.</speaker>
+          <p>Слава тебе, господи, слава тебе!</p>
+        </sp>
+        <sp who="#Patronnikov">
+          <speaker>Патронников.</speaker>
+          <p>Не жужжайте, Давид Соломонович, как шмел. И не стойте спиной к алтарю. Это не
+            принято.</p>
+        </sp>
+        <sp who="#Zonenshtejn">
+          <speaker>Зоненштейн.</speaker>
+          <p>Это барышня жужжаит, как шмел, а не я... хе, хе, хе.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Рцем вси от всея души, и от всего помышления нашего рцем...</p>
+        </sp>
+        <sp who="#SobornyjHor">
+          <speaker>Соборный хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Господи вседержителю, боже отец наших, молимтися, услыши и помилуй.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Тссс! Тише!</p>
+          <p>– Да меня самого толкают!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй!</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Тише! Тссс!</p>
+          <p>– С кем это дурно?</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Помилуй нас, боже, по велицей милости твоей, молимтися, услыши и помилуй.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи помилуй. <stage type="delivery">(Трижды.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о благочестивейшем самодержавнейшем великом государе нашем императоре
+            Александре Александровиче всея России, о державе, победе, пребывании, мире, здравии,
+            спасении его, и господу богу нашему наипаче поспешити и пособити ему во всех и покорити
+            под нозе его всякого врага и супостата.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет трижды).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <stage>Стон. Движение в толпе.</stage>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина.</speaker>
+          <p>Что такое? <stage type="delivery">(Соседке даме.)</stage> Это, душечка, невозможно.
+            Хоть бы они двери отворили, что ли... Умрешь от жары.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Ее ведут, а она не хочет... Кто она? Тссс!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о супруге его, благочестивейшей государыне, императрице Марии
+            Федоровне...</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о наследнике его, благоверном государе, цесаревиче и великом князе Николае
+            Александровиче и о всем царствующем доме.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй!</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>О боже мой...</p>
+        </sp>
+        <sp who="#Olenina">
+          <speaker>Оленина.</speaker>
+          <p>Что?</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о святейшем правительствующем Синоде и о господине нашем, преосвященнейшем
+            Феофиле, епископе N-ском и Z-ском, и всей во Христе братии нашей.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>А вчера в Европейской гостинице опять отравилась какая-то женщина.</p>
+          <p>– Да. Говорят, жена доктора какого-то.</p>
+          <p>– Отчего, не знаете?</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о всем их христолюбивом воинстве...</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Точно как будто кто плачет... Неприлично ведет себя публика.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о братиях наших, священницех, священномонасех и всем во Христе братстве
+            нашем.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#Matveev">
+          <speaker>Матвеев.</speaker>
+          <p>Важно нынче певчие поют.</p>
+        </sp>
+        <sp who="#Komik">
+          <speaker>Комик.</speaker>
+          <p>Нам бы таких, Захар Ильич!</p>
+        </sp>
+        <sp who="#Matveev">
+          <speaker>Матвеев.</speaker>
+          <p>Ишь, чего захотел, харя!</p>
+          <stage>Смех.</stage>
+          <p>Тссс!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о милости, жизни, мире, здравии, спасении, посещении рабов божиих Петра и
+            Веры.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о блаженных...</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Да, докторша какая-то... в гостинице...</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>...и приснопамятных, святейших патриарсех православных...</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>С легкой руки Репиной это уж четвертая отравляется. Вот объясните-ка мне, батенька, эти
+            отравления!</p>
+          <p>– Психоз. Не иначе.</p>
+          <p>– Подражательность, думаете?</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>...и благочестивых царех и благоверных царицах, и создателях святаго храма сего, и о
+            всех прежде почивших отцех и братиях...</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Самоубийства заразительны...</p>
+          <p>– Сколько психопаток этих развелось, ужас!</p>
+          <p>– Тише! Да перестаньте вы ходить!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>...зде лежащих и повсюду, православных.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Не орите, пожалуйста.</p>
+        </sp>
+        <stage>Стон.</stage>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй!</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Репина своею смертью отравила воздух. Все барыни заразились и помешались на том, что
+            они оскорблены.</p>
+          <p>– Даже в церкви отравлен воздух. Чувствуете, какое напряжение?</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Еще молимся о плодоносящих и добродеющих во святем и всечестнем храме сем,
+            труждающихся, поющих и предстоящих людях, ожидающих от тебя великия и богатыя
+            милости...</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Яко милостив и человеколюбец бог еси и тебе славу воссылаем отцу и сыну и святому духу,
+            ныне и присно и во веки веков.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Аминь.</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Котельников!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Ну?</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Ничего... О боже мой... Татьяна Петровна здесь... Она здесь...</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Ты с ума сошел!</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Дама в черном... это она. Я узнал... видел...</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Никакого сходства... Только что брюнетка и больше ничего.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Господу помолимся!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Не шепчись со мной, это неприлично. Публика следит за тобой...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Ради бога... Я едва на ногах стою. Это она.</p>
+        </sp>
+        <stage>Стон.</stage>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Господи, помилуй!</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Тише! Тссс! Господа, кто там сзади напирает? Тшш!</p>
+          <p>– За колонну увели...</p>
+          <p>– Нигде от дам проходу нет... Сидели бы дома!</p>
+        </sp>
+        <sp who="#KtoTo">
+          <speaker>Кто-то</speaker>
+          <stage type="delivery">(кричит).</stage>
+          <p>Тише!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(читает).</stage>
+          <p>Господи боже наш, во спасительном твоем смотрении, сподобивый в Кане Галилейстей...
+              <stage type="delivery">(Оглядывает публику.)</stage> Народ какой, право... <stage type="delivery">(Читает.)</stage> ...честный показати брак твоим пришествием... <stage type="delivery">(Возвысив голос.)</stage> Прошу вас потише! Вы мешаете нам совершать
+            таинство! Не ходите по церкви, не разговаривайте и не шумите, а стойте тихо и молитесь
+            богу. Так-то. Надо страх божий иметь. <stage type="delivery">(Читает.)</stage> Господи
+            боже наш, во спасительном твоем смотрении, сподобивый в Кане Галилейстей честный
+            показати брак твоим пришествием, сам ныне рабы твоя Петра и Веру, яже благоволил еси
+            сочетаватися друг другу, в мире и единомыслии сохрани, честный их брак покажи,
+            нескверное их ложе соблюди, непорочное их сожительство пребывати благоволи, и сподоби я
+            в старости маститей достигнути, чистым сердцем, делающи заповеди твоя. Ты бо еси бог
+            наш, бог еже миловати и спасати, и тебе славу воссылаем, со безначальным твоим отцем, и
+            всесвятым и благим и животворящим твоим духом, ныне и присно и во веки веков.</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Аминь.</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин</speaker>
+          <stage type="delivery">(Котелъникову).</stage>
+          <p>Пошли сказать жандармам, чтоб не впускали никого...</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Кого же еще не впускать? Церковь и так битком набита. Молчи... не шепчи.</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Она... Татьяна здесь.</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Ты бредишь. Она на кладбище.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Заступи, спаси, помилуй и сохрани нас, боже, твоею благодатию!</p>
+        </sp>
+        <sp who="#SobornyjHor">
+          <speaker>Соборный хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Дне всего совершенна, свята, мирна и безгрешна у господа просим.</p>
+        </sp>
+        <sp who="#SobornyjHor">
+          <speaker>Соборный хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Подай, господи.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Ангела мирна, верна наставника, хранителя душ и телес наших у господа просим.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Подай, господи!</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Этот дьякон никогда не кончит... То господи помилуй, то подай господи.</p>
+          <p>– Надоело уж стоять.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Прощения и оставления грехов и прегрешений наших у господа просим.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Подай, господи!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Добрых и полезных душам нашим и мира мирови у господа просим.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Опять зашумели! Ну, народ!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Подай, господи!</p>
+        </sp>
+        <sp who="#Olenina">
+          <speaker>Оленина.</speaker>
+          <p>Петр, ты весь дрожишь и тяжело дышишь... Тебе дурно?</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Дама в черном... она... Мы виноваты...</p>
+        </sp>
+        <sp who="#Olenina">
+          <speaker>Оленина.</speaker>
+          <p>Какая дама?</p>
+        </sp>
+        <stage>Стон.</stage>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Репина стонет... Я креплюсь, креплюсь... Котельников давит мне голову венцом... Ничего,
+            ничего...</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Прочее время живота нашего в мире и покаянии скончати у господа просим.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Подай, господи.</p>
+        </sp>
+        <sp who="#Kokoshkin">
+          <speaker>Кокошкин.</speaker>
+          <p>Вера бледна, как смерть. Гляди, кажется, слезы на глазах. А он, он... погляди!</p>
+        </sp>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина.</speaker>
+          <p>Я же ей говорила, что публика будет дурно вести себя! Не понимаю, как она решилась тут
+            венчаться. Ехала бы в деревню.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Христианския кончины живота нашего, безболезненны, непостыдны, мирны и добраго ответа
+            на страшнем судилищи Христове просим.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Подай, господи!</p>
+        </sp>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина.</speaker>
+          <p>Надо бы попросить отца Ивана поторопиться. На ней лица нет.</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Позвольте, я вас сменю! <stage type="delivery">(Сменяет Котельникова.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Соединения веры и причастия святаго духа испросивше, сами себе, и друг друга, и весь
+            живот наш Христу богу предадим!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Тебе, господи!</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Крепись, Вера, как я... Да... Впрочем, скоро обедня кончится. Сейчас поедем... Она
+            это...</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Тссс!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>И сподоби нас, владыко, со дерзновением неосужденно смети призывати тебя, небесного
+            бога отца, и глаголати!</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Отче наш, иже еси на небесех, да святится имя твое, да приидет царствие твое...</p>
+        </sp>
+        <sp who="#Matveev">
+          <speaker>Матвеев</speaker>
+          <stage type="delivery">(актерам).</stage>
+          <p>Раздвиньтесь немножко, ребятки, я хочу на коленки стать... <stage type="delivery">(Становится на колени и кланяется в землю.)</stage> Да будет воля твоя, яко на небеси
+            и на земли. Хлеб наш насущный даждь нам днесь и остави нам долги наша...</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор.</speaker>
+          <p>...да будет воля твоя, яко на небеси... на небеси... хлеб наш насущный... насущный!</p>
+        </sp>
+        <sp who="#Matveev">
+          <speaker>Матвеев.</speaker>
+          <p>Помяни, господи, усопшую рабу твою Татьяну и прости ей грехи вольные и невольные, а нас
+            прости и помилуй... <stage type="delivery">(Поднимается.)</stage> Жарко!</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор.</speaker>
+          <p>...даждь нам днесь и остави... и остави нам долги наша... якоже и мы оставляем
+            должником нашим... нашим...</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Ну, затянули нотное!</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор.</speaker>
+          <p>...и не введи нас... нас... нас! во искушение, но избави нас от лука-а-аваго!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников</speaker>
+          <stage type="delivery">(товарищу прокурора).</stage>
+          <p>Нашего жениха муха укусила. Посмотрите, как дрожит!</p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора.</speaker>
+          <p>Что с ним?</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Даму в черном, что сейчас истерика была, за Татьяну принял. Галлюцинирует.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Яко твое есть царство, и сила, и слава, отца и сына и святого духа, ныне и присно и во
+            веки веков.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Аминь.</p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора.</speaker>
+          <p>Смотрите, как бы он какой-нибудь штуки не выкинул!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Вы-ыдержит! Не таковский!</p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора.</speaker>
+          <p>Да, круто ему приходится.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Мир всем.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>И духови твоему.</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Главы ваша господеви приклоните!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Тебе, господи!</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Сейчас, кажется, водить будут. Тссс!</p>
+          <p>– Докторшу вскрывали?</p>
+          <p>– Нет еще. Говорят, муж бросил. А ведь Сабинин тоже Репину бросил! Правда это?</p>
+          <p>– Да-а...</p>
+          <p>– Я помню, как Репину вскрывали...</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Господу помолимся!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Господи, помилуй!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(читает).</stage>
+          <p>Боже, вся сотворивый крепостию твоею и утвердивый вселенную, и украсивый венец всех
+            сотворенных от тебе, и чашу общую сию подаваяй сочетавающимся ко общению брака,
+            благослови благословением духовным. Яко благословися твое имя и прославися твое царство
+            всегда, ныне и присно и во веки веков. <stage type="delivery">(Дает Сабинину и Олениной
+              пить вино.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Аминь.</p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора.</speaker>
+          <p>Смотрите, как бы ему дурно не сделалось.</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Сильная скотина. Выдержит.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Так вы же, господа, не расходитесь, все вместе выйдем. Зипунов здесь?</p>
+          <p>– Здесь. Надо будет окружить карету а свистать минут пять.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Позвольте ваши руки. <stage type="delivery">(Связывает Сабинину и Олениной платком
+              руки.)</stage> Не туго?</p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора</speaker>
+          <stage type="delivery">(студенту).</stage>
+          <p>Давайте мне, юноша, венец, а вы шлейф тащите.</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Исайе ликуй, дева име во чреве...</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <p> идет вокруг налоя; за ним молодые и шафера.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе.</speaker>
+          <p>Студент запутался в шлейфе.</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор.</speaker>
+          <p>...и роди сына Еммануила, бога же и человека, восток имя ему...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин</speaker>
+          <stage type="delivery">(Волгину).</stage>
+          <p>Это конец?</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин.</speaker>
+          <p>Нет еще.</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор.</speaker>
+          <p>...его же величающе, деву ублажаем.</p>
+        </sp>
+        <stage>О. Иван идет вокруг налоя в другой раз.</stage>
+        <sp who="#SobornyjHor">
+          <speaker>Соборный хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Святии мученицы, добре страдальчествовавшии, и венчавшийся, молитеся ко господу
+            помиловатися душам нашим.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(идет в третий раз и подпевает).</stage>
+          <p>...ду-ша-ам нашим.</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Боже мой, это бесконечно.</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Слава тебе, Христе боже, апостолом похвало, мучеников радование, их же проповедь,
+            троица единосущная.</p>
+        </sp>
+        <sp who="#OfitserIzTolpy">
+          <speaker>Офицер из толпы</speaker>
+          <stage type="delivery">(Котелъникову).</stage>
+          <p>Предупредите Сабинина, что студенты и гимназисты собираются освистать его на улице.</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Благодарю. <stage type="delivery">(Товарищу прокурора.)</stage> Однако, как длинно
+            тянется эта история! Они никогда не кончат служить. <stage type="delivery">(Утирает
+              платком лицо.)</stage>
+                    </p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора.</speaker>
+          <p>Да и у вас руки дрожат... Экие вы все неженки!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>У меня Репина из головы не выходит. Мне все чудится, что Сабинин поет, а она
+            плачет.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(принимая от Волгина венец, Сабинину).</stage>
+          <p>Возвеличися, женише, якоже Авраам, и благословися, якоже Исаак, и умножися, якоже
+            Иаков, ходяй в мире и делаяй в правде заповеди божия!</p>
+        </sp>
+        <sp who="#MolodojAkter">
+          <speaker>Молодой актер.</speaker>
+          <p>Какие прекрасные слова говорятся мерзавцам!</p>
+        </sp>
+        <sp who="#Matveev">
+          <speaker>Матвеев.</speaker>
+          <p>Бог у всех один.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(принимая венец от товарища прокурора, Олениной).</stage>
+          <p>И ты, невесто, возвеличися, якоже Сарра, и позвеселися, якоже Ревекка, и умножися,
+            якоже Рахиль, веселящися о своем муже, хранящи пределы закона, зане тако благослови
+            господь.</p>
+        </sp>
+        <sp who="#VTolpe">
+          <speaker>В толпе</speaker>
+          <stage type="delivery">(сильное движение к выходу)</stage>
+          <p>– Тише, господа! Еще не кончилось!</p>
+          <p>– Тссс! Не напирайте!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Господу помолимся!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Господи, помилуй.</p>
+        </sp>
+        <sp who="#OAleksej">
+          <speaker>О. Алексей</speaker>
+          <stage type="delivery">(читает, сняв темные очки).</stage>
+          <p>Боже, боже наш, пришедый в Кану Галилейскую и тамошний брак благословивый, благослови и
+            рабы твоя сия, твоим промыслом ко общению брака сочетавшыяся; благослови их входы и
+            исходы, умножи во благих живот их, восприими венцы их в царствии твоем, нескверны и
+            непорочны, и ненаветны соблюдаяй, во веки веков.</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Аминь.</p>
+        </sp>
+        <sp who="#Olenina">
+          <speaker>Оленина</speaker>
+          <stage type="delivery">(брату).</stage>
+          <p>Скажи, чтобы мне дали стул. Мне дурно.</p>
+        </sp>
+        <sp who="#Student">
+          <speaker>Студент.</speaker>
+          <p>Сейчас кончится. <stage type="delivery">(Товарищу прокурора.)</stage> Вере дурно!</p>
+        </sp>
+        <sp who="#TovarischProkurora">
+          <speaker>Товарищ прокурора.</speaker>
+          <p>Вера Александровна, сейчас кончится! Сию минуту... Потерпите, голубушка!</p>
+        </sp>
+        <sp who="#Olenina">
+          <speaker>Оленина</speaker>
+          <stage type="delivery">(брату).</stage>
+          <p>Петр меня не слышит... Точно у него столбняк... Боже мой, боже мой... <stage type="delivery">(Сабинину.)</stage> Петр!</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Мир всем!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>И духови твоему!</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Главы ваша господеви приклоните.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван</speaker>
+          <stage type="delivery">(Сабинину и Олениной).</stage>
+          <p>Отец, сын и святый дух, всесвятая и единосущная, и живоначальная троица, едино божество
+            и царство да благословит вас, и да подаст вам долгожитие, благочадие, преспеяние живота
+            и веры, и да исполнит вас всех сущих на земли благих! Да сподобит вас и обещанных благ
+            восприятия, молитвами святыя богородицы и всех святых, аминь! <stage type="delivery">(Олениной, с улыбкой.)</stage> Поцелуйте вашего мужа.</p>
+        </sp>
+        <sp who="#Volgin">
+          <speaker>Волгин</speaker>
+          <stage type="delivery">(Сабинину).</stage>
+          <p>Что ж вы стоите? Целуйтесь!</p>
+        </sp>
+        <stage>Молодые целуются.</stage>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Поздравляю вас! Дай бог...</p>
+        </sp>
+        <sp who="#Kokoshkina">
+          <speaker>Кокошкина</speaker>
+          <stage type="delivery">(идет к Олениной).</stage>
+          <p>Милая моя, дорогая... Я так рада! Поздравляю!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников</speaker>
+          <stage type="delivery">(Сабинину).</stage>
+          <p>Поздравляю, окрутившись... Ну, будет бледнеть, кончилась канитель...</p>
+        </sp>
+        <sp who="#Djakon">
+          <speaker>Дьякон.</speaker>
+          <p>Премудрость!</p>
+        </sp>
+        <stage>Поздравления.</stage>
+        <sp who="#Hor">
+          <speaker>Хор</speaker>
+          <stage type="delivery">(поет).</stage>
+          <p>Честнейшую херувим и славнейшую без сравнения серафим, без истления бога слова рождшую,
+            сущую богородицу тя величаем. Именем господним благослови, о-отче!</p>
+        </sp>
+        <stage>Народ валит из церкви; Кузьма тушит ставники.</stage>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Иже в Кане Галилейстей пришествием своим честен брак показавый, Христос истинный бог
+            наш, молитвами пречистыя своея матере, святых славных и всехвальных апостол, святых
+            благовенчанных царей и равноапостольных Константина и Елены, святаго великомученика
+            Прокопия и всех святых, помилует и спасет нас, яко благ и человеколюбец!</p>
+        </sp>
+        <sp who="#Hor">
+          <speaker>Хор.</speaker>
+          <p>Аминь. Господи, помилуй, господи, помилуй, гос-по-ди, по-ми-и-илуй!</p>
+        </sp>
+        <sp who="#Damy">
+          <speaker>Дамы</speaker>
+          <stage type="delivery">(Олениной).</stage>
+          <p>Поздравляю, дорогая... Сто лет жить.... <stage type="delivery">(Поцелуи.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Zonenshtejn">
+          <speaker>Зоненштейн.</speaker>
+          <p>M-me Сабинин, вы, так сказать, как это говорится на чистом русском языке...</p>
+        </sp>
+        <sp who="#ArhierejskijHor">
+          <speaker>Архиерейский хор.</speaker>
+          <p>Многая, мно-огая лета!! Многая лета...</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Pardon, Вера! <stage type="delivery">(Берет под руку Котельникова и быстро отводит его
+              в сторону; дрожа и задыхаясь.)</stage> Едем сейчас на кладбище!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Ты с ума сошел! Теперь ночь! Что ты там будешь делать?</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Ради бога, едем! Я прошу...</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Тебе нужно с невестой домой ехать! Сумасшедший!</p>
+        </sp>
+        <sp who="#Sabinin">
+          <speaker>Сабинин.</speaker>
+          <p>Плевать я на все хотел, и будь оно все проклято тысячу раз! Я... я еду! Панихиду
+            отслужить... Впрочем, я с ума сошел... Едва я не умер... Ах, Котельников,
+            Котельников!</p>
+        </sp>
+        <sp who="#Kotelnikov">
+          <speaker>Котельников.</speaker>
+          <p>Идем, идем... <stage type="delivery">(Ведет его к невесте.)</stage>
+                    </p>
+        </sp>
+        <stage>Через минуту слышится с улицы пронзительный свист. Народ мало-помалу выходит из
+          церкви. Остаются только дьячок и Кузьма.</stage>
+        <sp who="#Kuzma">
+          <speaker>Кузьма</speaker>
+          <stage type="delivery">(тушит паникадила).</stage>
+          <p>Народу-то навалило...</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>М-да... Богатая свадьба. <stage type="delivery">(Надевает шубу.)</stage> Живут
+            люди.</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Все это ни к чему... Зря.</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>Что?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Да вот венчание... Каждый день венчаем, крестим и хороним, а все никакого толку...</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>А чего бы ты хотел собственно?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Ничего... Так... Все это зря. И поют, и кадят, и читают, а бог все не слышит. Сорок лет
+            тут служу, а ни разу не случилось, чтоб бог слышал... Уж где тот и бог, не знаю... Все
+            зря...</p>
+        </sp>
+        <sp who="#Djachok">
+          <speaker>Дьячок.</speaker>
+          <p>М-да... <stage type="delivery">(Надевает калоши.)</stage> Зафилософствуй – и ум
+            вскружится. <stage type="delivery">(Идет, гремя калошами.)</stage> До свидания! <stage type="delivery">(Уходит.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма</speaker>
+          <stage type="delivery">(один).</stage>
+          <p>Сегодня в обед хоронили барина, сейчас венчали, завтра утром крестить будем. И конца не
+            видать. А кому это нужно? Никому... Так, зря.</p>
+        </sp>
+        <stage>Слышится стон.</stage>
+        <stage>Из алтаря выходит о. Иван и лохматый о. Алексей в темных очках.</stage>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>И приданое взял хорошее, полагаю...</p>
+        </sp>
+        <sp who="#OAleksej">
+          <speaker>О. Алексей.</speaker>
+          <p>Не без того.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Жизнь наша, посмотришь! Когда-то ведь и я сватался, венчался и приданое брал, но уже
+            все это забыто в круговороте времени. <stage type="delivery">(Кричит.)</stage> Кузьма,
+            что ж это ты все потушил? Этак я упаду в потемках.</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>А я думал, что вы уже ушли.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Что ж, отец Алексей? Пойдем ко мне чай пить?</p>
+        </sp>
+        <sp who="#OAleksej">
+          <speaker>О. Алексей.</speaker>
+          <p>Нет, благодарствуйте, отец протоиерей. Не время. Мне надо еще отчет писать.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Ну, как знаете.</p>
+        </sp>
+        <sp who="#DamaVChernom">
+          <speaker>Дама в черном</speaker>
+          <stage type="delivery">(выходит из-за колонны, пошатываясь).</stage>
+          <p>Кто здесь? Уведите меня... уведите...</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Что такое? Кто там? <stage type="delivery">(Испуганно.)</stage> Что вам, матушка?</p>
+        </sp>
+        <sp who="#OAleksej">
+          <speaker>О. Алексей.</speaker>
+          <p>Господи, прости нас, третных...</p>
+        </sp>
+        <sp who="#DamaVChernom">
+          <speaker>Дама в черном.</speaker>
+          <p>Уведите меня... уведите... <stage type="delivery">(Стонет.)</stage> Я сестра офицера
+            Иванова... сестра.</p>
+        </sp>
+        <sp who="#OIvan">
+          <speaker>О. Иван.</speaker>
+          <p>Зачем вы здесь?</p>
+        </sp>
+        <sp who="#DamaVChernom">
+          <speaker>Дама в черном.</speaker>
+          <p>Я отравилась... из ненависти... Он оскорбил... Зачем же он счастлив? Боже мой... <stage type="delivery">(Кричит.)</stage> Спасите меня, спасите! <stage type="delivery">(Опускается на пол.)</stage> Все должны отравиться... все! Нет справедливости...</p>
+        </sp>
+        <sp who="#OAleksej">
+          <speaker>О. Алексей</speaker>
+          <stage type="delivery">(в ужасе).</stage>
+          <p>Какое кощунство! Боже, какое кощунство!</p>
+        </sp>
+        <sp who="#DamaVChernom">
+          <speaker>Дама в черном.</speaker>
+          <p>Из ненависти... Все должны отравиться... <stage type="delivery">(Стонет и валяется по
+              полу.)</stage> Она в могиле, а он... он... В женщине оскорблен бог... Погибла
+            женщина...</p>
+        </sp>
+        <sp who="#OAleksej">
+          <speaker>О. Алексей.</speaker>
+          <p>Какое кощунство над религией! <stage type="delivery">(Всплескивает руками.)</stage>
+            Какое кощунство над жизнью!</p>
+        </sp>
+        <sp who="#DamaVChernom">
+          <speaker>Дама в черном</speaker>
+          <stage type="delivery">(рвет на себе все и кричит).</stage>
+          <p>Спасите меня! Спасите! Спасите!..</p>
+        </sp>
+        <stage>Занавес</stage>
+        <stage>а все остальное предоставляю фантазии А. С. Суворина.</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

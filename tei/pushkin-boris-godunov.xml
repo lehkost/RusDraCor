@@ -1,0 +1,3820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Борис Годунов</title>
+        <title type="main" xml:lang="en">Boris Godunov</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q7200">Пушкин, Александр Сергеевич</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/pushkin-boris-godunov</idno>
+        <idno type="RusDraCor">42</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Борис_Годунов_(Пушкин)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1831"/>
+            <date type="premiere" when="1866"/>
+            <date type="written" when="1825"/>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Vorotynskij" sex="MALE">
+            <persName>Воротынский</persName>
+            <persName xml:lang="de">Vorotynskij</persName>
+          </person>
+          <person xml:id="Shujskij" sex="MALE">
+            <persName>Шуйский</persName>
+            <persName xml:lang="de">Šujskij</persName>
+          </person>
+          <person xml:id="OdinIzNaroda_1" sex="MALE">
+            <persName>Один (Красная площадь)</persName>
+            <persName xml:lang="de">Einer (Roter Platz)</persName>
+          </person>
+          <person xml:id="DrugojIzNaroda_1" sex="MALE">
+            <persName>Другой (Красная площадь)</persName>
+            <persName xml:lang="de">Ein Anderer (Roter Platz)</persName>
+          </person>
+          <person xml:id="TretijIzNaroda_1" sex="MALE">
+            <persName>Третий (Красная площадь)</persName>
+            <persName xml:lang="de">Ein Dritter (Roter Platz)</persName>
+          </person>
+          <person xml:id="Narod" sex="UNKNOWN">
+            <persName>Народ</persName>
+            <persName xml:lang="de">Volk</persName>
+          </person>
+          <person xml:id="Schelkalov" sex="MALE">
+            <persName>Щелкалов</persName>
+            <persName xml:lang="de">Ŝelkalov</persName>
+          </person>
+          <person xml:id="Tsar_Boris" sex="MALE">
+            <persName>Борис</persName>
+            <persName xml:lang="de">Boris</persName>
+          </person>
+          <person xml:id="Bojare" sex="MALE">
+            <persName>Бояре</persName>
+            <persName xml:lang="de">Bojaren</persName>
+          </person>
+          <person xml:id="Pimen" sex="MALE">
+            <persName>Пимен</persName>
+            <persName xml:lang="de">Vater Pimen</persName>
+          </person>
+          <person xml:id="Grigorij_Dimitrij_Lzhedimitrij_Samozvanets" sex="MALE">
+            <persName>Григорий</persName>
+            <persName xml:lang="de">Grigorij</persName>
+          </person>
+          <person xml:id="Patriarh" sex="MALE">
+            <persName>Патриарх</persName>
+            <persName xml:lang="de">Patriarch</persName>
+          </person>
+          <person xml:id="Igumen" sex="MALE">
+            <persName>Игумен</persName>
+            <persName xml:lang="de">Hegumen</persName>
+          </person>
+          <person xml:id="PervyjStolnik" sex="MALE">
+            <persName>Первый стольник</persName>
+            <persName xml:lang="de">Erster der Hofleute</persName>
+          </person>
+          <person xml:id="VtorojStolnik" sex="MALE">
+            <persName>Второй стольник</persName>
+            <persName xml:lang="de">Zweiter der Hofleute</persName>
+          </person>
+          <person xml:id="Hozjajka" sex="FEMALE">
+            <persName>Хозяйка</persName>
+            <persName xml:lang="de">Wirtin</persName>
+          </person>
+          <person xml:id="Varlaam" sex="MALE">
+            <persName>Варлаам</persName>
+            <persName xml:lang="de">Varlaam</persName>
+          </person>
+          <person xml:id="Misail" sex="MALE">
+            <persName>Мисаил</persName>
+            <persName xml:lang="de">Misail</persName>
+          </person>
+          <person xml:id="PervyjPristav" sex="MALE">
+            <persName>Первый пристав</persName>
+            <persName xml:lang="de">Ein Grenzsoldat</persName>
+          </person>
+          <person xml:id="VtorojPristav" sex="MALE">
+            <persName>Второй пристав</persName>
+            <persName xml:lang="de">Der andere Grenzsoldat</persName>
+          </person>
+          <person xml:id="Malchik" sex="MALE">
+            <persName>Мальчик</persName>
+            <persName xml:lang="de">Ein Knappe</persName>
+          </person>
+          <person xml:id="Pushkin" sex="MALE">
+            <persName>Афанасий Михайлович Пушкин</persName>
+            <persName xml:lang="de">Afanasij Mihajlovič Puškin</persName>
+          </person>
+          <person xml:id="Ksenija" sex="FEMALE">
+            <persName>Ксения</persName>
+            <persName xml:lang="de">Kseniâ</persName>
+          </person>
+          <person xml:id="Mamka" sex="FEMALE">
+            <persName>Мамка</persName>
+            <persName xml:lang="de">Mamka</persName>
+          </person>
+          <person xml:id="Feodor" sex="MALE">
+            <persName>Феодор</persName>
+            <persName xml:lang="de">Feodor</persName>
+          </person>
+          <person xml:id="SemenGodunov" sex="MALE">
+            <persName>Семен Годунов</persName>
+            <persName xml:lang="de">Semen Godunov</persName>
+          </person>
+          <person xml:id="Pater" sex="MALE">
+            <persName>Pater Черниковский</persName>
+            <persName xml:lang="de">Pater Černikovskij</persName>
+          </person>
+          <person xml:id="GavrilaPushkin" sex="MALE">
+            <persName>Гаврила Пушкин</persName>
+            <persName xml:lang="de">Gavrila Puškin</persName>
+          </person>
+          <person xml:id="Kurbskij" sex="MALE">
+            <persName>Курбский</persName>
+            <persName xml:lang="de">Kurbskij</persName>
+          </person>
+          <person xml:id="Poljak" sex="MALE">
+            <persName>Поляк</persName>
+            <persName xml:lang="de">Ein Pole</persName>
+          </person>
+          <person xml:id="Hruschov" sex="MALE">
+            <persName>Хрущов</persName>
+            <persName xml:lang="de">Hruŝov</persName>
+          </person>
+          <person xml:id="Karela" sex="MALE">
+            <persName>Карела</persName>
+            <persName xml:lang="de">Karela</persName>
+          </person>
+          <person xml:id="Poet" sex="MALE">
+            <persName>Поэт</persName>
+            <persName xml:lang="de">Dichter</persName>
+          </person>
+          <person xml:id="Mnishek" sex="MALE">
+            <persName>Мнишек</persName>
+            <persName xml:lang="de">Mnišek</persName>
+          </person>
+          <person xml:id="Vishnevetskij" sex="MALE">
+            <persName>Вишневецкий</persName>
+            <persName xml:lang="de">Višneveckij</persName>
+          </person>
+          <person xml:id="Marina" sex="FEMALE">
+            <persName>Марина</persName>
+            <persName xml:lang="de">Marina</persName>
+          </person>
+          <person xml:id="PervyjKavaler" sex="MALE">
+            <persName>Кавалер</persName>
+            <persName xml:lang="de">Kavalier</persName>
+          </person>
+          <person xml:id="PervajaDama" sex="FEMALE">
+            <persName>Дама</persName>
+            <persName xml:lang="de">Dame</persName>
+          </person>
+          <person xml:id="VtorajaDama" sex="FEMALE">
+            <persName>Дама</persName>
+            <persName xml:lang="de">Dame</persName>
+          </person>
+          <person xml:id="TretjaDama" sex="FEMALE">
+            <persName>Дама</persName>
+            <persName xml:lang="de">Dame</persName>
+          </person>
+          <person xml:id="TretijKavaler" sex="MALE">
+            <persName>Кавалер</persName>
+            <persName xml:lang="de">Kavalier</persName>
+          </person>
+          <person xml:id="Basmanov" sex="MALE">
+            <persName>Басманов</persName>
+            <persName xml:lang="de">Basmanov</persName>
+          </person>
+          <person xml:id="PervyjBojarin" sex="MALE">
+            <persName>Первый боярин</persName>
+            <persName xml:lang="de">Ein Bojar</persName>
+          </person>
+          <person xml:id="DrugojBojarin" sex="MALE">
+            <persName>Другой боярин</persName>
+            <persName xml:lang="de">Der andere Bojar</persName>
+          </person>
+          <person xml:id="Voiny" sex="MALE">
+            <persName>Воины</persName>
+            <persName xml:lang="de">Soldaten</persName>
+          </person>
+          <person xml:id="Marzheret" sex="FEMALE">
+            <persName>Маржерет</persName>
+            <persName xml:lang="de">Maržeret</persName>
+          </person>
+          <person xml:id="OdinIzBegletsov" sex="MALE">
+            <persName>Один из беглецов</persName>
+            <persName xml:lang="de">Ein Flüchtling</persName>
+          </person>
+          <person xml:id="DrugojIzBegletsov" sex="MALE">
+            <persName>Другой</persName>
+            <persName xml:lang="de">Ein anderer Flüchtling</persName>
+          </person>
+          <person xml:id="VRozen" sex="MALE">
+            <persName>В. Розен</persName>
+            <persName xml:lang="de">V. Rozen</persName>
+          </person>
+          <person xml:id="Nemtsy" sex="MALE">
+            <persName>Немцы</persName>
+            <persName xml:lang="de">Die Deutschen</persName>
+          </person>
+          <person xml:id="Ljahi" sex="MALE">
+            <persName>Ляхи</persName>
+            <persName xml:lang="de">Die Ljachen</persName>
+          </person>
+          <person xml:id="OdinIzNaroda_2" sex="MALE">
+            <persName>Один из народа (Площадь перед собором в Москве)</persName>
+            <persName xml:lang="de">Einer aus dem Volk (Platz vor der Kathedrale in
+              Moskau)</persName>
+          </person>
+          <person xml:id="DrugojIzNaroda_2" sex="MALE">
+            <persName>Другой (Площадь перед собором в Москве)</persName>
+            <persName xml:lang="de">Ein Anderer aus dem Volk (Platz vor der Kathedrale in
+              Moskau)</persName>
+          </person>
+          <person xml:id="TretijIzNaroda_2" sex="MALE">
+            <persName>Третий (Площадь перед собором в Москве)</persName>
+            <persName xml:lang="de">Ein Dritter aus dem Volk (Platz vor der Kathedrale in
+              Moskau)</persName>
+          </person>
+          <person xml:id="ChetvertyjIzNaroda_2" sex="MALE">
+            <persName>Четвертый (Площадь перед собором в Москве)</persName>
+            <persName xml:lang="de">Ein Vierter aus dem Volk (Platz vor der Kathedrale in
+              Moskau)</persName>
+          </person>
+          <person xml:id="Malchishki" sex="MALE">
+            <persName>Мальчишки</persName>
+            <persName xml:lang="de">Die Kinder</persName>
+          </person>
+          <person xml:id="Staruha" sex="FEMALE">
+            <persName>Старуха</persName>
+            <persName xml:lang="de">Altes Weib</persName>
+          </person>
+          <person xml:id="Jurodivyj" sex="MALE">
+            <persName>Юродивый</persName>
+            <persName xml:lang="de">Gottesnarr</persName>
+          </person>
+          <person xml:id="OdinIzMalchishek" sex="MALE">
+            <persName>Один из них (Площадь перед собором в Москве)</persName>
+            <persName xml:lang="de">Ein Knabe</persName>
+          </person>
+          <person xml:id="Ljah" sex="MALE">
+            <persName>Лях (Севск)</persName>
+            <persName xml:lang="de">Ein Ljache (Sewsk)</persName>
+          </person>
+          <person xml:id="Plennik" sex="MALE">
+            <persName>Пленник</persName>
+            <persName xml:lang="de">Gefangener</persName>
+          </person>
+          <person xml:id="DrugojLjah" sex="MALE">
+            <persName>Другой (Севск)</persName>
+            <persName xml:lang="de">Ein anderer Ljache (Sewsk)</persName>
+          </person>
+          <person xml:id="Ljah_Les" sex="MALE">
+            <persName>Лях (Лес)</persName>
+            <persName xml:lang="de">Ein Ljache (Wald)</persName>
+          </person>
+          <person xml:id="Bojarin" sex="MALE">
+            <persName>Боярин</persName>
+            <persName xml:lang="de">Ein Bojar</persName>
+          </person>
+          <person xml:id="OdinPridvornyj" sex="MALE">
+            <persName>Один</persName>
+            <persName xml:lang="de">Einer</persName>
+          </person>
+          <person xml:id="DrugojPridvornyj" sex="MALE">
+            <persName>Другой</persName>
+            <persName xml:lang="de">Ein Anderer</persName>
+          </person>
+          <person xml:id="TretijPridvornyj" sex="MALE">
+            <persName>Третий</persName>
+            <persName xml:lang="de">Ein Dritter</persName>
+          </person>
+          <person xml:id="ChetvertyjPridvornyj" sex="MALE">
+            <persName>Четвертый</persName>
+            <persName xml:lang="de">Ein Vierter</persName>
+          </person>
+          <person xml:id="PjatyjPridvornyj" sex="MALE">
+            <persName>Пятый</persName>
+            <persName xml:lang="de">Ein Fünfter</persName>
+          </person>
+          <person xml:id="ShestojPridvornyj" sex="MALE">
+            <persName>Шестой</persName>
+            <persName xml:lang="de">Ein Sechster</persName>
+          </person>
+          <person xml:id="MuzhikNaAmvone" sex="MALE">
+            <persName>Мужик на амвоне</persName>
+            <persName xml:lang="de">Ein Bauer (auf dem Ambon)</persName>
+          </person>
+          <person xml:id="Nischij" sex="MALE">
+            <persName>Нищий</persName>
+            <persName xml:lang="de">Ein Bettler</persName>
+          </person>
+          <person xml:id="Strazha" sex="MALE">
+            <persName>Стража</persName>
+            <persName xml:lang="de">Wache</persName>
+          </person>
+          <person xml:id="OdinIzNaroda_3" sex="MALE">
+            <persName>Один из народа (Кремль)</persName>
+            <persName xml:lang="de">Einer aus dem Volk (Kreml)</persName>
+          </person>
+          <person xml:id="DrugojIzNaroda_3" sex="MALE">
+            <persName>Другой (Кремль)</persName>
+            <persName xml:lang="de">Ein Anderer (Kreml)</persName>
+          </person>
+          <person xml:id="OdinIzNaroda_4" sex="MALE">
+            <persName>Один из народа (Кремль)</persName>
+            <persName xml:lang="de">Einer aus dem Volk (Kreml)</persName>
+          </person>
+          <person xml:id="DrugojIzNaroda_4" sex="MALE">
+            <persName>Другой (Кремль)</persName>
+            <persName xml:lang="de">Ein Anderer (Kreml)</persName>
+          </person>
+          <person xml:id="TretijIzNaroda_4" sex="MALE">
+            <persName>Третий (Кремль)</persName>
+            <persName xml:lang="de">Ein Dritter (Kreml)</persName>
+          </person>
+          <person xml:id="Mosalskij" sex="MALE">
+            <persName>Мосальский</persName>
+            <persName xml:lang="de">Mosalʹskij</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#IrinaPavlova" when="2017-04-13">convert from Source</change>
+        <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#to" when="2017-05-31"> add dates</change>
+        <change who="#zhenya" when="2017-05-31">change ID's, add dates</change>
+        <change who="#ff" when="2017-06-01">connect enjambements via part attribute; replace some
+          false stage directions with emph element</change>
+        <change who="#to" when="2017-06-03">add gender info</change>
+        <change who="#ff" when="2017-06-09">dissolve some more characters</change>
+        <change who="#ff" when="2017-11-09">correct one ID; sort characters in particDesc in order
+          of appearance</change>
+        <change who="#ff" when="2017-11-10">add (DE) translations of character names in ISO
+          9</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Борис Годунов</titlePart>
+      </docTitle>
+      <div type="dedication">
+        <p>Драгоценной для россиян памяти Николая Михайловича Карамзина сей труд, гением его
+          вдохновенный, с благоговением и благодарностию посвящает</p>
+        <p>Александр Пушкин</p>
+      </div>
+    </front>
+    <body>
+      <div type="scene">
+        <head>КРЕМЛЕВСКИЕ ПАЛАТЫ</head>
+        <stage>(1598 года, 20 февраля)</stage>
+        <stage>Князья Шуйский и Воротынский. </stage>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>Наряжены мы вместе город ведать,</l>
+          <l>Но, кажется, нам не за кем смотреть:</l>
+          <l>Москва пуста; вослед за патриархом</l>
+          <l>К монастырю пошел и весь народ.</l>
+          <l>Как думаешь, чем кончится тревога?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Чем кончится? Узнать немудрено:</l>
+          <l>Народ еще повоет да поплачет,</l>
+          <l>Борис еще поморщится немного,</l>
+          <l>Что пьяница пред чаркою вина,</l>
+          <l>И наконец по милости своей</l>
+          <l>Принять венец смиренно согласится,</l>
+          <l>А там — а там он будет нами править</l>
+          <l part="I">По-прежнему.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l part="F">Но месяц уж протек,</l>
+          <l>Как, затворясь в монастыре с сестрою,</l>
+          <l>Он, кажется, покинул всё мирское.</l>
+          <l>Ни патриарх, ни думные бояре</l>
+          <l>Склонить его доселе не могли;</l>
+          <l>Не внемлет он ни слезным увещаньям,</l>
+          <l>Ни их мольбам, ни воплю всей Москвы,</l>
+          <l>Ни голосу Великого собора.</l>
+          <l>Его сестру напрасно умоляли</l>
+          <l>Благословить Бориса на державу;</l>
+          <l>Печальная монахиня-царица,</l>
+          <l>Как он, тверда, как он, неумолима:</l>
+          <l>Знать, сам Борис сей дух в нее вселил.</l>
+          <l>Что, ежели правитель в самом деле</l>
+          <l>Державными заботами наскучил</l>
+          <l>И на престол безвластный не взойдет?</l>
+          <l part="I">Что скажешь ты?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Скажу, что понапрасну</l>
+          <l>Лилася кровь царевича-младенца;</l>
+          <l>Что если так, Димитрий мог бы жить.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>Ужасное злодейство! Полно, точно ль</l>
+          <l part="I">Царевича сгубил Борис?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">А кто же?</l>
+          <l>Кто подкупал напрасно Чепчугова?</l>
+          <l>Кто подослал обоих Битяговских</l>
+          <l>С Качаловым? Я в Углич послан был</l>
+          <l>Исследовать на месте это дело:</l>
+          <l>Наехал я на свежие следы;</l>
+          <l>Весь город был свидетель злодеянья;</l>
+          <l>Все граждане согласно показали;</l>
+          <l>И, возвратясь, я мог единым словом</l>
+          <l>Изобличить сокрытого злодея.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>Зачем же ты его не уничтожил?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Он, признаюсь, тогда меня смутил</l>
+          <l>Спокойствием, бесстыдностью нежданной;</l>
+          <l>Он мне в глаза смотрел, как будто правый:</l>
+          <l>Расспрашивал, в подробности входил —</l>
+          <l>И перед ним я повторил нелепость,</l>
+          <l>Которую мне сам он нашептал.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l part="I">Нечисто, князь.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">А что мне было делать?</l>
+          <l>Всё объявить Феодору? Но царь</l>
+          <l>На всё глядел очами Годунова,</l>
+          <l>Всему внимал ушами Годунова;</l>
+          <l>Пускай его б уверил я во всем,</l>
+          <l>Борис тотчас его бы разуверил,</l>
+          <l>А там меня ж сослали б в заточенье</l>
+          <l>Да в добрый час, как дядю моего,</l>
+          <l>В глухой тюрьме тихонько б задавили.</l>
+          <l>Не хвастаюсь, а в случае, конечно,</l>
+          <l>Никая казнь меня не устрашит;</l>
+          <l>Я сам не трус, но также не глупец</l>
+          <l>И в петлю лезть не соглашуся даром.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>Ужасное злодейство! Слушай, верно,</l>
+          <l>Губителя раскаянье тревожит:</l>
+          <l>Конечно, кровь невинного младенца</l>
+          <l>Ему ступить мешает на престол.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Перешагнет; Борис не так-то робок!</l>
+          <l>Какая честь для нас, для всей Руси!</l>
+          <l>Вчерашний раб, татарин, зять Малюты,</l>
+          <l>Зять палача и сам в душе палач,</l>
+          <l>Возьмет венец и бармы Мономаха…</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>Так, родом он незнатен; мы знатнее.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Да, кажется.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l part="F">Ведь Шуйский, Воротынский…</l>
+          <l>Легко сказать, природные князья.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Природные, и Рюриковой крови.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>А слушай, князь, ведь мы б имели право</l>
+          <l part="I">Наследовать Феодору.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Да, боле,</l>
+          <l part="I">Чем Годунов.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l part="M">Ведь в самом деле!</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Что ж?</l>
+          <l>Когда Борис хитрить не перестанет,</l>
+          <l>Давай народ искусно волновать;</l>
+          <l>Пускай они оставят Годунова,</l>
+          <l>Своих князей у них довольно; пусть</l>
+          <l>Себе в цари любого изберут.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>Немало нас, наследников Варяга,</l>
+          <l>Да трудно нам тягаться с Годуновым:</l>
+          <l>Народ отвык в нас видеть древню отрасль</l>
+          <l>Воинственных властителей своих.</l>
+          <l>Уже давно лишились мы уделов,</l>
+          <l>Давно Царям подручниками служим,</l>
+          <l>А он умел и страхом, и любовью,</l>
+          <l>И славою народ очаровать.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <stage type="delivery">(глядит в окно)</stage>
+          <l>Он смел, вот всё — а мы… Но полно. Видишь,</l>
+          <l>Народ идет, рассыпавшись, назад —</l>
+          <l>Пойдем скорей, узнаем, решено ли.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>КРАСНАЯ ПЛОЩАДЬ</head>
+        <stage>Народ.</stage>
+        <sp who="#OdinIzNaroda_1">
+          <speaker>Один</speaker>
+          <l>Неумолим! Он от себя прогнал</l>
+          <l>Святителей, бояр и патриарха.</l>
+          <l>Они пред ним напрасно пали ниц;</l>
+          <l>Его страшит сияние престола.</l>
+        </sp>
+        <sp who="#DrugojIzNaroda_1">
+          <speaker>Другой</speaker>
+          <l>О Боже мой, кто будет нами править?</l>
+          <l part="I">О горе нам!</l>
+        </sp>
+        <sp who="#TretijIzNaroda_1">
+          <speaker>Третий</speaker>
+          <l part="F">Да вот верховный дьяк</l>
+          <l>Выходит нам сказать решенье Думы.</l>
+        </sp>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <l>Молчать! молчать! Дьяк думный говорит;</l>
+          <l part="I">Ш-ш — слушайте!</l>
+        </sp>
+        <sp who="#Schelkalov">
+          <speaker>Щелкалов</speaker>
+          <stage type="delivery">(с Красного крыльца)</stage>
+          <l part="F">Собором положили</l>
+          <l>В последний раз отведать силу просьбы</l>
+          <l>Над скорбною правителя душой.</l>
+          <l>Заутра вновь святейший патриарх,</l>
+          <l>В Кремле отпев торжественно молебен,</l>
+          <l>Предшествуем хоругвями святыми,</l>
+          <l>С иконами Владимирской, Донской,</l>
+          <l>Воздвижется, а с ним синклит, бояре,</l>
+          <l>Да сонм дворян, да выборные люди</l>
+          <l>И весь народ московский православный,</l>
+          <l>Мы все пойдем молить царицу вновь,</l>
+          <l>Да сжалится над сирою Москвой</l>
+          <l>И на венец благословит Бориса.</l>
+          <l>Идите же вы с Богом по домам,</l>
+          <l>Молитеся, да взыдет к небесам</l>
+          <l>Усердная молитва православных.</l>
+        </sp>
+        <stage>Народ расходится.</stage>
+      </div>
+      <div type="scene">
+        <head>КРЕМЛЕВСКИЕ ПАЛАТЫ</head>
+        <stage>Борис, патриарх, бояре.</stage>
+        <sp who="#Tsar_Boris">
+          <speaker>Борис</speaker>
+          <l>Ты, отче патриарх, вы все, бояре,</l>
+          <l>Обнажена моя душа пред вами:</l>
+          <l>Вы видели, что я приемлю власть</l>
+          <l>Великую со страхом и смиреньем.</l>
+          <l>Сколь тяжела обязанность моя!</l>
+          <l>Наследую могущим Иоаннам —</l>
+          <l>Наследую и ангелу-царю!..</l>
+          <l>О праведник, о мой отец державный!</l>
+          <l>Воззри с небес на слезы верных слуг</l>
+          <l>И ниспошли тому, кого любил ты,</l>
+          <l>Кого ты здесь столь дивно возвеличил,</l>
+          <l>Священное на власть благословенье:</l>
+          <l>Да правлю я во славе свой народ,</l>
+          <l>Да буду благ и праведен, как ты.</l>
+          <l rend="indent">От вас я жду содействия, бояре.</l>
+          <l>Служите мне, как вы ему служили,</l>
+          <l>Когда труды я ваши разделял,</l>
+          <l>Не избранный еще народной волей.</l>
+        </sp>
+        <sp who="#Bojare">
+          <speaker>Бояре</speaker>
+          <l>Не изменим присяге, нами данной.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Борис</speaker>
+          <l>Теперь пойдем, поклонимся гробам</l>
+          <l>Почиющих властителей России,</l>
+          <l>А там — сзывать весь наш народ на пир,</l>
+          <l>Всех, от вельмож до нищего слепца;</l>
+          <l>Всем вольный вход, все гости дорогие.</l>
+          <stage>(Уходит, за ним и бояре.)</stage>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Князь Воротынский</speaker>
+          <stage type="delivery">(останавливая Шуйского)</stage>
+          <l part="I">Ты угадал.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="M">А что?</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l part="F">Да здесь, намедни,</l>
+          <l part="I">Ты помнишь?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Нет, не помню ничего.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l>Когда народ ходил в Девичье поле,</l>
+          <l part="I">Ты говорил —</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Теперь не время помнить,</l>
+          <l>Советую порой и забывать,</l>
+          <l>А впрочем, я злословием притворным</l>
+          <l>Тогда желал тебя лишь испытать,</l>
+          <l>Верней узнать твой тайный образ мыслей;</l>
+          <l>Но вот — народ приветствует царя —</l>
+          <l>Отсутствие мое заметить могут —</l>
+          <l part="I">Иду за ним.</l>
+        </sp>
+        <sp who="#Vorotynskij">
+          <speaker>Воротынский</speaker>
+          <l part="F">Лукавый царедворец!</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>НОЧЬ. КЕЛЬЯ В ЧУДОВОМ МОНАСТЫРЕ</head>
+        <stage>(1603 года)</stage>
+        <stage>Отец Пимен, Григорий спящий.</stage>
+        <sp who="#Pimen">
+          <speaker>Пимен</speaker>
+          <stage type="delivery">(пишет перед лампадой)</stage>
+          <l>Еще одно, последнее сказанье —</l>
+          <l>И летопись окончена моя,</l>
+          <l>Исполнен долг, завещанный от Бога</l>
+          <l>Мне, грешному. Недаром многих лет</l>
+          <l>Свидетелем Господь меня поставил</l>
+          <l>И книжному искусству вразумил:</l>
+          <l>Когда-нибудь монах трудолюбивый</l>
+          <l>Найдет мой труд усердный, безымянный;</l>
+          <l>Засветит он, как я, свою лампаду</l>
+          <l>И, пыль веков от хартий отряхнув,</l>
+          <l>Правдивые сказанья перепишет,</l>
+          <l>Да ведают потомки православных</l>
+          <l>Земли родной минувшую судьбу,</l>
+          <l>Своих царей великих поминают</l>
+          <l>За их труды, за славу, за добро —</l>
+          <l>А за грехи, за темные деянья</l>
+          <l>Спасителя смиренно умоляют.</l>
+          <l rend="indent">На старости я сызнова живу;</l>
+          <l>Минувшее проходит предо мною —</l>
+          <l>Давно ль оно неслось, событий полно,</l>
+          <l>Волнуяся, как море-окиан?</l>
+          <l>Теперь оно безмолвно и спокойно:</l>
+          <l>Не много лиц мне память сохранила,</l>
+          <l>Не много слов доходит до меня,</l>
+          <l>А прочее погибло невозвратно!..</l>
+          <l>Но близок день, лампада догорает —</l>
+          <l>Еще одно, последнее сказанье.</l>
+          <stage>(Пишет.)</stage>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(пробуждается)</stage>
+          <l>Всё тот же сон! Возможно ль? В третий раз!</l>
+          <l>Проклятый сон!.. А всё перед лампадой</l>
+          <l>Старик сидит да пишет — и дремотой,</l>
+          <l>Знать, во всю ночь он не смыкал очей.</l>
+          <l>Как я люблю его спокойный вид,</l>
+          <l>Когда, душой в минувшем погруженный,</l>
+          <l>Он летопись свою ведет; и часто</l>
+          <l>Я угадать хотел, о чем он пишет:</l>
+          <l>О темном ли владычестве татар?</l>
+          <l>О казнях ли свирепых Иоанна?</l>
+          <l>О бурном ли новогородском вече?</l>
+          <l>О славе ли отечества? Напрасно:</l>
+          <l>Ни на челе высоком, ни во взорах</l>
+          <l>Нельзя прочесть его сокрытых дум;</l>
+          <l>Всё тот же вид смиренный, величавый.</l>
+          <l>Так точно дьяк, в приказах поседелый,</l>
+          <l>Спокойно зрит на правых и виновных,</l>
+          <l>Добру и злу внимая равнодушно,</l>
+          <l>Не ведая ни жалости, ни гнева.</l>
+        </sp>
+        <sp who="#Pimen">
+          <speaker>Пимен</speaker>
+          <l part="I">Проснулся, брат.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <l part="F">Благослови меня,</l>
+          <l part="I">Честный отец.</l>
+        </sp>
+        <sp who="#Pimen">
+          <speaker>Пимен</speaker>
+          <l part="F">Благослови Господь</l>
+          <l>Тебя и днесь и присно и вовеки.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <l>Ты всё писал и сном не позабылся,</l>
+          <l>А мой покой бесовское мечтанье</l>
+          <l>Тревожило, и враг меня мутил:</l>
+          <l>Мне снилося, что лестница крутая</l>
+          <l>Меня вела на башню; с высоты</l>
+          <l>Мне виделась Москва, что муравейник;</l>
+          <l>Внизу народ на площади кипел</l>
+          <l>И на меня указывал со смехом;</l>
+          <l>И стыдно мне, и страшно становилось —</l>
+          <l>И, падая стремглав, я пробуждался…</l>
+          <l>И три раза мне снился тот же сон.</l>
+          <l part="I">Не чудно ли?</l>
+        </sp>
+        <sp who="#Pimen">
+          <speaker>Пимен</speaker>
+          <l part="F">Младая кровь играет;</l>
+          <l>Смиряй себя молитвой и постом,</l>
+          <l>И сны твои видений легких будут</l>
+          <l>Исполнены. Доныне — если я,</l>
+          <l>Невольною дремотой обессилен,</l>
+          <l>Не сотворю молитвы долгой к ночи —</l>
+          <l>Мой старый сон не тих и не безгрешен;</l>
+          <l>Мне чудятся то шумные пиры,</l>
+          <l>То ратный стан, то схватки боевые,</l>
+          <l>Безумные потехи юных лет!</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <l>Как весело провел свою ты младость!</l>
+          <l>Ты воевал под башнями Казани,</l>
+          <l>Ты рать Литвы при Шуйском отражал,</l>
+          <l>Ты видел двор и роскошь Иоанна!</l>
+          <l>Счастлив! А я от отроческих лет</l>
+          <l>По келиям скитаюсь, бедный инок!</l>
+          <l>Зачем и мне не тешиться в боях,</l>
+          <l>Не пировать за царскою трапезой?</l>
+          <l>Успел бы я, как ты, на старость лет</l>
+          <l>От суеты, от мира отложиться,</l>
+          <l>Произнести монашества обет</l>
+          <l>И в тихую обитель затвориться.</l>
+        </sp>
+        <sp who="#Pimen">
+          <speaker>Пимен</speaker>
+          <l>Не сетуй, брат, что рано грешный свет</l>
+          <l>Покинул ты, что мало искушений</l>
+          <l>Послал тебе Всевышний. Верь ты мне:</l>
+          <l>Нас издали пленяют слава, роскошь</l>
+          <l>И женская лукавая любовь.</l>
+          <l>Я долго жил и многим насладился;</l>
+          <l>Но с той поры лишь ведаю блаженство,</l>
+          <l>Как в монастырь Господь меня привел.</l>
+          <l>Подумай, сын, ты о царях великих:</l>
+          <l>Кто выше их? Единый Бог. Кто смеет</l>
+          <l>Противу их? Никто. А что же? Часто</l>
+          <l>Златой венец тяжел им становился,</l>
+          <l>Они его меняли на клобук.</l>
+          <l>Царь Иоанн искал успокоенья</l>
+          <l>В подобии монашеских трудов.</l>
+          <l>Его дворец, любимцев гордых полный,</l>
+          <l>Монастыря вид новый принимал:</l>
+          <l>Кромешники в тафьях и власяницах</l>
+          <l>Послушными являлись чернецами,</l>
+          <l>А грозный царь игумном богомольным.</l>
+          <l>Я видел здесь, вот в этой самой келье</l>
+          <l>(В ней жил тогда Кирилл многострадальный,</l>
+          <l>Муж праведный; тогда уж и меня</l>
+          <l>Сподобил Бог уразуметь ничтожность</l>
+          <l>Мирских сует), здесь видел я царя,</l>
+          <l>Усталого от гневных дум и казней:</l>
+          <l>Задумчив, тих сидел меж нами Грозный;</l>
+          <l>Мы перед ним недвижимо стояли,</l>
+          <l>И тихо он беседу с нами вел.</l>
+          <l>Он говорил игумну и всей братье:</l>
+          <l>«Отцы мои, желанный день придет,</l>
+          <l>Предстану здесь алкающий спасенья;</l>
+          <l>Ты, Никодим, ты, Сергий, ты, Кирилл,</l>
+          <l>Вы все — обет примите мой духовный,</l>
+          <l>Прииду к вам, преступник окаянный,</l>
+          <l>И схиму здесь честную восприму,</l>
+          <l>К стопам твоим, святый отец, припадши».</l>
+          <l>Так говорил державный государь,</l>
+          <l>И сладко речь из уст его лилася,</l>
+          <l>И плакал он. А мы в слезах молились,</l>
+          <l>Да ниспошлет Господь любовь и мир</l>
+          <l>Его душе, страдающей и бурной.</l>
+          <l>А сын его Феодор? На престоле</l>
+          <l>Он воздыхал о мирном житии</l>
+          <l>Молчальника. Он царские чертоги</l>
+          <l>Преобратил в молитвенную келью;</l>
+          <l>Там тяжкие, державные печали</l>
+          <l>Святой души его не возмущали.</l>
+          <l>Бог возлюбил смирение царя,</l>
+          <l>И Русь при нем во славе безмятежной</l>
+          <l>Утешилась — а в час его кончины</l>
+          <l>Свершилося неслыханное чудо:</l>
+          <l>К его одру, царю едино зримый,</l>
+          <l>Явился муж необычайно светел,</l>
+          <l>И начал с ним беседовать Феодор</l>
+          <l>И называть великим патриархом,</l>
+          <l>И все кругом объяты были страхом,</l>
+          <l>Уразумев небесное виденье,</l>
+          <l>Зане святый владыка пред царем</l>
+          <l>Во храмине тогда не находился.</l>
+          <l>Когда же он преставился, палаты</l>
+          <l>Исполнились святым благоуханьем</l>
+          <l>И лик его как солнце просиял —</l>
+          <l>Уж не видать такого нам царя.</l>
+          <l>О страшное, невиданное горе!</l>
+          <l>Прогневали мы Бога, согрешили:</l>
+          <l>Владыкою себе цареубийцу</l>
+          <l part="I">Мы нарекли.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <l part="F">Давно, честный отец,</l>
+          <l>Хотелось мне тебя спросить о смерти</l>
+          <l>Димитрия царевича; в то время</l>
+          <l part="I">Ты, говорят, был в Угличе.</l>
+        </sp>
+        <sp who="#Pimen">
+          <speaker>Пимен</speaker>
+          <l part="F">Ох, помню!</l>
+          <l>Привел меня Бог видеть злое дело,</l>
+          <l>Кровавый грех. Тогда я в дальний Углич</l>
+          <l>На некое был послан послушанье;</l>
+          <l>Пришел я в ночь. Наутро в час обедни</l>
+          <l>Вдруг слышу звон; ударили в набат;</l>
+          <l>Крик, шум. Бегут на двор царицы. Я</l>
+          <l>Спешу туда ж — а там уже весь город.</l>
+          <l>Гляжу: лежит зарезанный царевич;</l>
+          <l>Царица мать в беспамятстве над ним,</l>
+          <l>Кормилица в отчаяньи рыдает,</l>
+          <l>А тут народ, остервенясь, волочит</l>
+          <l>Безбожную предательницу-мамку…</l>
+          <l>Вдруг между них, свиреп, от злости бледен,</l>
+          <l>Является Иуда Битяговский.</l>
+          <l>«Вот, вот злодей!» — раздался общий вопль,</l>
+          <l>И вмиг его не стало. Тут народ</l>
+          <l>Вслед бросился бежавшим трем убийцам;</l>
+          <l>Укрывшихся злодеев захватили</l>
+          <l>И привели пред теплый труп младенца,</l>
+          <l>И чудо — вдруг мертвец затрепетал.</l>
+          <l>«Покайтеся!» — народ им загремел,</l>
+          <l>И в ужасе под топором злодеи</l>
+          <l>Покаялись — и назвали Бориса.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <l>Каких был лет царевич убиенный?</l>
+        </sp>
+        <sp who="#Pimen">
+          <speaker>Пимен</speaker>
+          <l>Да лет семи; ему бы ныне было</l>
+          <l>(Тому прошло уж десять лет… нет, больше:</l>
+          <l>Двенадцать лет) — он был бы твой ровесник</l>
+          <l>И царствовал; но Бог судил иное.</l>
+          <l rend="indent">Сей повестью плачевной заключу</l>
+          <l>Я летопись свою; с тех пор я мало</l>
+          <l>Вникал в дела мирские. Брат Григорий,</l>
+          <l>Ты грамотой свой разум просветил,</l>
+          <l>Тебе свой труд передаю. В часы,</l>
+          <l>Свободные от подвигов духовных,</l>
+          <l>Описывай, не мудрствуя лукаво,</l>
+          <l>Всё то, чему свидетель в жизни будешь:</l>
+          <l>Войну и мир, управу государей,</l>
+          <l>Угодников святые чудеса,</l>
+          <l>Пророчества и знаменья небесны —</l>
+          <l>А мне пора, пора уж отдохнуть</l>
+          <l>И погасить лампаду… Но звонят</l>
+          <l>К заутрене… благослови, Господь,</l>
+          <l>Своих рабов!.. подай костыль, Григорий.</l>
+          <stage>(Уходит.)</stage>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <l>Борис, Борис! всё пред тобой трепещет,</l>
+          <l>Никто тебе не смеет и напомнить</l>
+          <l>О жребии несчастного младенца —</l>
+          <l>А между тем отшельник в темной келье</l>
+          <l>Здесь на тебя донос ужасный пишет;</l>
+          <l>И не уйдешь ты от суда мирского,</l>
+          <l>Как не уйдешь от Божьего суда.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>ПАЛАТЫ ПАТРИАРХА</head>
+        <stage>Патриарх, игумен Чудова монастыря. </stage>
+        <sp who="#Patriarh">
+          <speaker>Патриарх</speaker>
+          <p>И он убежал, отец игумен?</p>
+        </sp>
+        <sp who="#Igumen">
+          <speaker>Игумен</speaker>
+          <p>Убежал, святый владыка, вот уж тому третий день.</p>
+        </sp>
+        <sp who="#Patriarh">
+          <speaker>Патриарх</speaker>
+          <p>Пострел, окаянный! Да какого он роду?</p>
+        </sp>
+        <sp who="#Igumen">
+          <speaker>Игумен</speaker>
+          <p>Из роду Отрепьевых, галицких боярских детей; смолоду постригся неведомо где, жил в
+            Суздале, в Ефимьевском монастыре, ушел оттуда, шатался по разным обителям, наконец
+            пришел к моей чудовской братии; а я, видя, что он еще млад и неразумен, отдал его под
+            начал отцу Пимену, старцу кроткому и смиренному; и был он весьма грамотен, читал наши
+            летописи, сочинял каноны святым; но, знать, грамота далася ему не от Господа Бога…</p>
+        </sp>
+        <sp who="#Patriarh">
+          <speaker>Патриарх</speaker>
+          <p>Уж эти мне грамотеи! Что еще выдумал! <emph>буду царем на Москве</emph>! Ах он сосуд
+            диавольский! Однако нечего царю и докладывать об этом; что тревожить отца-государя?
+            Довольно будет объявить о побеге дьяку Смирнову али дьяку Ефимьеву. Этака ересь!
+              <emph>буду царем на Москве</emph>!.. Поймать, поймать врагоугодника, да и сослать в
+            Соловецкий на вечное покаяние. Ведь это ересь, отец игумен?</p>
+        </sp>
+        <sp who="#Igumen">
+          <speaker>Игумен</speaker>
+          <p>Ересь, святый владыка, сущая ересь.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>ЦАРСКИЕ ПАЛАТЫ</head>
+        <stage>Два стольника. </stage>
+        <sp who="#PervyjStolnik">
+          <speaker>Первый</speaker>
+          <l part="I">Где государь?</l>
+        </sp>
+        <sp who="#VtorojStolnik">
+          <speaker>Второй</speaker>
+          <l part="F">В своей опочивальне.</l>
+          <l>Он заперся с каким-то колдуном.</l>
+        </sp>
+        <sp who="#PervyjStolnik">
+          <speaker>Первый</speaker>
+          <l>Так, вот его любимая беседа:</l>
+          <l>Кудесники, гадатели, колдуньи.</l>
+          <l>Всё ворожит, что красная невеста.</l>
+          <l>Желал бы знать, о чем гадает он?</l>
+        </sp>
+        <sp who="#VtorojStolnik">
+          <speaker>Второй</speaker>
+          <l>Вот он идет. Угодно ли спросить?</l>
+        </sp>
+        <sp who="#PervyjStolnik">
+          <speaker>Первый</speaker>
+          <l part="I">Как он угрюм!</l>
+          <stage>Уходят.</stage>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <stage type="delivery">(входит)</stage>
+          <l part="F">Достиг я высшей власти;</l>
+          <l>Шестой уж год я царствую спокойно,</l>
+          <l>Но счастья нет моей душе. Не так ли</l>
+          <l>Мы смолоду влюбляемся и алчем</l>
+          <l>Утех любви, но только утолим</l>
+          <l>Сердечный глад мгновенным обладаньем,</l>
+          <l>Уж, охладев, скучаем и томимся?..</l>
+          <l>Напрасно мне кудесники сулят</l>
+          <l>Дни долгие, дни власти безмятежной —</l>
+          <l>Ни власть, ни жизнь меня не веселят;</l>
+          <l>Предчувствую небесный гром и горе.</l>
+          <l>Мне счастья нет. Я думал свой народ</l>
+          <l>В довольствии, во славе успокоить,</l>
+          <l>Щедротами любовь его снискать —</l>
+          <l>Но отложил пустое попеченье:</l>
+          <l>Живая власть для черни ненавистна.</l>
+          <l>Они любить умеют только мертвых.</l>
+          <l>Безумны мы, когда народный плеск</l>
+          <l>Иль ярый вопль тревожит сердце наше.</l>
+          <l>Бог насылал на землю нашу глад;</l>
+          <l>Народ завыл, в мученьях погибая;</l>
+          <l>Я отворил им житницы; я злато</l>
+          <l>Рассыпал им; я им сыскал работы —</l>
+          <l>Они ж меня, беснуясь, проклинали!</l>
+          <l>Пожарный огнь их домы истребил;</l>
+          <l>Я выстроил им новые жилища —</l>
+          <l>Они ж меня пожаром упрекали!</l>
+          <l>Вот черни суд: ищи ж ее любви!</l>
+          <l>В семье моей я мнил найти отраду,</l>
+          <l>Я дочь мою мнил осчастливить браком —</l>
+          <l>Как буря, смерть уносит жениха…</l>
+          <l>И тут молва лукаво нарекает</l>
+          <l>Виновником дочернего вдовства</l>
+          <l>Меня, меня, несчастного отца!..</l>
+          <l>Кто ни умрет, я всех убийца тайный:</l>
+          <l>Я ускорил Феодора кончину,</l>
+          <l>Я отравил свою сестру царицу,</l>
+          <l>Монахиню смиренную… всё я!</l>
+          <l>Ах, чувствую: ничто не может нас</l>
+          <l>Среди мирских печалей успокоить;</l>
+          <l>Ничто, ничто… едина разве совесть —</l>
+          <l>Так, здравая, она восторжествует</l>
+          <l>Над злобою, над темной клеветою.</l>
+          <l>Но если в ней единое пятно,</l>
+          <l>Единое, случайно завелося,</l>
+          <l>Тогда беда: как язвой моровой</l>
+          <l>Душа сгорит, нальется сердце ядом,</l>
+          <l>Как молотком стучит в ушах упрек,</l>
+          <l>И всё тошнит, и голова кружится,</l>
+          <l>И мальчики кровавые в глазах…</l>
+          <l>И рад бежать, да некуда… ужасно!</l>
+          <l>Да, жалок тот, в ком совесть нечиста.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>КОРЧМА НА ЛИТОВСКОЙ ГРАНИЦЕ</head>
+        <stage>Мисаил и Варлаам, бродяги-чернецы; Григорий Отрепьев, мирянином; хозяйка. </stage>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Чем-то мне вас потчевать, старцы честные?</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>Чем Бог пошлет, хозяюшка. Нет ли вина?</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Как не быть, отцы мои! Сейчас вынесу.</p>
+          <stage>(Уходит.)</stage>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Что ж ты закручинился, товарищ? Вот и граница литовская, до которой так хотелось тебе
+            добраться.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>Пока не буду в Литве, до тех пор не буду спокоен.</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>Что тебе Литва так слюбилась? Вот мы, отец Мисаил да я, грешный, как утекли из
+            монастыря, так ни о чем уж и не думаем: Литва ли, Русь ли, что гудок, что гусли, всё нам
+            равно, было бы вино… да вот и оно!..</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Складно сказано, отец Варлаам.</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <stage type="delivery">(входит)</stage>
+          <p>Вот вам, отцы мои. Пейте на здоровье.</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Спасибо, родная, Бог тебя благослови.</p>
+          <stage>(Монахи пьют; Варлаам затягивает песню: «Как во городе было во Казани…»)</stage>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <stage type="delivery">(Григорию)</stage>
+          <p>Что же ты не подтягиваешь, да и не потягиваешь?</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>Не хочу.</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Вольному воля…</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>А пьяному рай, отец Мисаил! Выпьем же чарочку за шинкарочку…</p>
+          <p>Однако, отец Мисаил, когда я пью, так трезвых не люблю: ино дело пьянство, а иное
+            чванство; хочешь жить, как мы, милости просим — нет, так убирайся, проваливай: скоморох
+            попу не товарищ.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>Пей да про себя разумей, отец Варлаам!.. Видишь, и я порой складно говорить умею.</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>А что мне про себя разуметь?</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Оставь его, отец Варлаам.</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>Да что он за постник? Сам же к нам навязался в товарищи, неведомо кто, неведомо
+            откуда — да еще и спесивится.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(хозяйке)</stage>
+          <p>Куда ведет эта дорога?</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>В Литву, мой кормилец, к Луёвым горам.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>А далече ли до Луёвых гор?</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Недалече, к вечеру можно бы туда поспеть, кабы не заставы царские да сторожевые
+            приставы.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>Как, заставы! что это значит?</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Кто-то бежал из Москвы, а велено всех задерживать да осматривать.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(про себя)</stage>
+          <p>Вот тебе, бабушка, Юрьев день. <stage>(Вслух.)</stage> Да кого ж им надобно? Кто бежал
+            из Москвы?</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>А Господь его ведает, вор ли, разбойник, только здесь и добрым людям ныне прохода нет.
+            А что из того будет? Ничего, ни лысого беса не поймают: будто в Литву нет и другого
+            пути, как столбовая дорога! Вот хоть отсюда свороти влево да бором иди по тропинке до
+            часовни, что на Чеканском ручью, а там прямо через болото на Хлопино, а оттуда на
+            Захарьево, а тут уж всякий мальчишка доведет до Луёвых гор. От этих приставов только и
+            толку, что притесняют прохожих да обирают нас, бедных.</p>
+          <stage>Слышен шум.</stage>
+          <p>Что там еще? Ах, вот они, проклятые! дозором идут.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>Хозяйка! нет ли в избе другого угла?</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Нету, родимый, рада бы сама спрятаться. Только слава, что дозором ходят, а подавай им и
+            вина, и хлеба, и неведомо чего, — чтоб им издохнуть, окаянным! чтоб им…</p>
+          <stage>Входят приставы.</stage>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Здорово, хозяйка!</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Добро пожаловать, гости дорогие, милости просим.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Один пристав</speaker>
+          <stage type="delivery">(другому)</stage>
+          <p>Ба! да здесь попойка идет; будет чем поживиться. <stage>(Монахам.)</stage> Вы что за
+            люди?</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>Мы Божии старцы, иноки смиренные, ходим по селениям да собираем милостыню христианскую
+            на монастырь.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <stage type="delivery">(Григорию)</stage>
+          <p>А ты?</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Наш товарищ…</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>Мирянин из пригорода; проводил старцев до рубежа; отселе иду восвояси.</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Так ты раздумал…</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(тихо)</stage>
+          <p>Молчи.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Хозяйка, выставь-ка еще вина — а мы здесь со старцами попьем да побеседуем.</p>
+        </sp>
+        <sp who="#VtorojPristav">
+          <speaker>Другой пристав</speaker>
+          <stage type="delivery">(тихо)</stage>
+          <p>Парень-то, кажется, гол; с него взять нечего; зато старцы…</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Первый</speaker>
+          <p>Молчи, сейчас до них доберемся. — Что, отцы мои, каково промышляете?</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>Плохо, сыне, плохо! Ныне христиане стали скупы; деньгу любят, деньгу прячут. Мало Богу
+            дают. Прииде грех велий на языцы земнии. Все пустилися в торги, в мытарства; думают о
+            мирском богатстве, не о спасении души. Ходишь, ходишь; молишь, молишь; иногда в три дни
+            трех полушек не вымолишь. Такой грех! Пройдет неделя, другая, заглянешь в мошонку, ан в
+            ней так мало, что совестно в монастырь показаться; что делать? с горя и остальное
+            пропьешь; беда да и только. — Ох, плохо, знать пришли наши последние времена…</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <stage type="delivery">(плачет)</stage>
+          <p>Господь помилуй и спаси!</p>
+          <stage>В продолжение Варлаамовой речи первый пристав значительно всматривается в
+            Мисаила.</stage>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Первый пристав</speaker>
+          <p>Алеха! при тебе ли царский указ?</p>
+        </sp>
+        <sp who="#VtorojPristav">
+          <speaker>Второй</speaker>
+          <p>При мне.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Первый</speaker>
+          <p>Подай-ка сюда.</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Что ты на меня так пристально смотришь?</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Первый пристав</speaker>
+          <p>А вот что: из Москвы бежал некоторый злой еретик, Гришка Отрепьев, слыхал ли ты
+            это?</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Не слыхал.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Не слыхал? Ладно. А того беглого еретика царь приказал изловить и повесить. Знаешь ли
+            ты это?</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Не знаю.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <stage type="delivery">(Варлааму)</stage>
+          <p>Умеешь ли ты читать?</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <p>Смолоду знал, да разучился.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <stage type="delivery">(Мисаилу)</stage>
+          <p>А ты?</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Не умудрил Господь.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Так вот тебе царский указ.</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>На что мне его?</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Мне сдается, что этот беглый еретик, вор, мошенник — ты.</p>
+        </sp>
+        <sp who="#Misail">
+          <speaker>Мисаил</speaker>
+          <p>Я? Помилуй! что ты?</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Постой! держи двери. Вот мы сейчас и справимся.</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Ах они окаянные мучители! и старца-то в покое не оставят!</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Кто здесь грамотный?</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(выступает вперед)</stage>
+          <p>Я грамотный.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Вот на… А у кого же ты научился?</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>У нашего пономаря.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <stage type="delivery">(дает ему указ)</stage>
+          <p>Читай же вслух.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(читает)</stage>
+          <p>«Чудова монастыря недостойный чернец Григорий, из роду Отрепьевых, впал в ересь и
+            дерзнул, наученный диаволом, возмущать святую братию всякими соблазнами и беззакониями.
+            А по справкам оказалось, отбежал он, окаянный Гришка, к границе Литовской…»</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <stage type="delivery">(Мисаилу)</stage>
+          <p>Как же не ты?</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>«И царь повелел изловить его…»</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>И повесить!</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>Тут не сказано «повесить».</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Пристав</speaker>
+          <p>Врешь! не всяко слово в строку пишется. Читай: изловить и повесить.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Григорий</speaker>
+          <p>«И повесить. А лет ему, вору Гришке, от роду… <stage>(смотря на Варлаама)</stage> за
+            50, а росту он среднего, лоб имеет плешивый, бороду седую, брюхо толстое».</p>
+          <stage>Все глядят на Варлаама.</stage>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>&lt;Первый пристав&gt;</speaker>
+          <p>Ребята! здесь Гришка! Держите, вяжите его! Вот уж не думал, не гадал!</p>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <stage type="delivery">(вырывая бумагу)</stage>
+          <p>Отстаньте, сукины дети! что я за Гришка? как! 50 лет, борода седая, брюхо толстое! Нет,
+            брат! молод еще надо мною шутки шутить. Я давно не читывал и худо разбираю, а тут уж
+            разберу, как дело до петли доходит. <stage>(Читает по складам.)</stage> «А лет е-му от
+            ро-ду… 20». — Что, брат, где тут 50? Видишь, 20?</p>
+        </sp>
+        <sp who="#VtorojPristav">
+          <speaker>Второй пристав</speaker>
+          <p>Да, помнится, 20; так и нам было сказано.</p>
+        </sp>
+        <sp who="#PervyjPristav">
+          <speaker>Первый пристав</speaker>
+          <stage type="delivery">(Григорию)</stage>
+          <p>Да ты, брат, видно, забавник.</p>
+          <stage>Во время чтения Григорий стоит потупя голову, с рукою за пазухой.</stage>
+        </sp>
+        <sp who="#Varlaam">
+          <speaker>Варлаам</speaker>
+          <stage type="delivery">(продолжает)</stage>
+          <p>«А ростом он мал, грудь широкая, одна рука короче другой, глаза голубые, волоса рыжие,
+            на щеке бородавка, на лбу другая». Да это, друг, уж не ты ли?</p>
+          <stage>Григорий вдруг вынимает кинжал; все перед ним расступаются, он бросается в
+            окно.</stage>
+        </sp>
+        <sp who="#PervyjPristav #VtorojPristav">
+          <speaker>Приставы</speaker>
+          <p>Держи! держи!</p>
+          <stage>Все бегут в беспорядке.</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>МОСКВА. ДОМ ШУЙСКОГО</head>
+        <stage>Шуйский, множество гостей. Ужин. </stage>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Вина еще.</l>
+          <stage>Встает, за ним и все.</stage>
+          <l part="F">Ну, гости дорогие,</l>
+          <l>Последний ковш! Читай молитву, мальчик.</l>
+        </sp>
+        <sp who="#Malchik">
+          <speaker>Мальчик</speaker>
+          <l>Царю небес, везде и присно сущий,</l>
+          <l>Своих рабов молению внемли:</l>
+          <l>Помолимся о нашем государе,</l>
+          <l>Об избранном Тобой благочестивом</l>
+          <l>Всех христиан царе самодержавном.</l>
+          <l>Храни его в палатах, в поле ратном,</l>
+          <l>И на путях, и на одре ночлега.</l>
+          <l>Подай ему победу на враги,</l>
+          <l>Да славится он от моря до моря.</l>
+          <l>Да здравием цветет его семья,</l>
+          <l>Да осенят ее драгие ветви</l>
+          <l>Весь мир земной — а к нам, своим рабам,</l>
+          <l>Да будет он, как прежде, благодатен,</l>
+          <l>И милостив, и долготерпелив,</l>
+          <l>Да мудрости его неистощимой</l>
+          <l>Проистекут источники на нас;</l>
+          <l>И, царскую на то воздвигнув чашу,</l>
+          <l>Мы молимся Тебе, Царю небес.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <stage type="delivery">(пьет)</stage>
+          <l>Да здравствует великий государь!</l>
+          <l>Простите же вы, гости дорогие;</l>
+          <l>Благодарю, что вы моей хлеб-солью</l>
+          <l>Не презрели. Простите, добрый сон.</l>
+          <stage>Гости уходят, он провожает их до дверей.</stage>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <p>Насилу убрались; ну, князь Василий Иванович, я уж думал, что нам не удастся и
+            переговорить.</p>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <stage type="delivery">(слугам)</stage>
+          <p>Вы что рот разинули? Всё бы вам господ подслушивать. Сбирайте со стола да ступайте
+            вон. — Что такое, Афанасий Михайлович?</p>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <p>Чудеса да и только.</p>
+          <l>Племянник мой, Гаврила Пушкин, мне</l>
+          <l>Из Кракова гонца прислал сегодня.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Ну.</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Странную племянник пишет новость.</l>
+          <l part="I">Сын Грозного… постой.</l>
+          <stage>(Идет к дверям и осматривает.)</stage>
+          <l part="F">Державный отрок,</l>
+          <l>По манию Бориса убиенный…</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Да это уж не ново.</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Погоди:</l>
+          <l part="I">Димитрий жив.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Вот на! какая весть!</l>
+          <l>Царевич жив! Ну подлинно чудесно.</l>
+          <l part="I">И только-то?</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Послушай до конца:</l>
+          <l>Кто б ни был он, спасенный ли царевич,</l>
+          <l>Иль некий дух во образе его,</l>
+          <l>Иль смелый плут, бесстыдный самозванец,</l>
+          <l>Но только там Димитрий появился.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Не может быть.</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Его сам Пушкин видел,</l>
+          <l>Как приезжал впервой он во дворец</l>
+          <l>И сквозь ряды литовских панов прямо</l>
+          <l>Шел в тайную палату короля.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Кто ж он такой? откуда он?</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Не знают,</l>
+          <l>Известно то, что он слугою был</l>
+          <l>У Вишневецкого, что на одре болезни</l>
+          <l>Открылся он духовному отцу,</l>
+          <l>Что гордый пан, сию проведав тайну,</l>
+          <l>Ходил за ним, поднял его с одра</l>
+          <l>И с ним потом уехал к Сигизмунду.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Что ж говорят об этом удальце?</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l>Да слышно, он умен, приветлив, ловок,</l>
+          <l>По нраву всем. Московских беглецов</l>
+          <l>Обворожил. Латинские попы</l>
+          <l>С ним заодно. Король его ласкает —</l>
+          <l>И, говорят, помогу обещал.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Всё это, брат, такая кутерьма,</l>
+          <l>Что голова кругом пойдет невольно.</l>
+          <l>Сомненья нет, что это самозванец,</l>
+          <l>Но, признаюсь, опасность не мала.</l>
+          <l>Весть важная! и если до народа</l>
+          <l>Она дойдет, то быть грозе великой!</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l>Такой грозе, что вряд царю Борису</l>
+          <l>Сдержать венец на умной голове.</l>
+          <l>И поделом ему: он правит нами,</l>
+          <l>Как царь Иван (не к ночи будь помянут).</l>
+          <l>Что пользы в том, что явных казней нет,</l>
+          <l>Что на колу кровавом всенародно</l>
+          <l>Мы не поем канонов Иисусу,</l>
+          <l>Что нас не жгут на площади, а царь</l>
+          <l>Своим жезлом не подгребает углей?</l>
+          <l>Уверены ль мы в бедной жизни нашей?</l>
+          <l>Нас каждый день опала ожидает,</l>
+          <l>Тюрьма, Сибирь, клобук иль кандалы,</l>
+          <l>А там в глуши голодна смерть иль петля.</l>
+          <l>Знатнейшие меж нами роды где?</l>
+          <l>Где Сицкие князья, где Шестуновы,</l>
+          <l>Романовы, отечества надежда?</l>
+          <l>Заточены, замучены в изгнаньи.</l>
+          <l>Дай срок: тебе такая ж будет участь.</l>
+          <l>Легко ль, скажи! Мы дома, как Литвой,</l>
+          <l>Осаждены неверными рабами:</l>
+          <l>Всё языки, готовые продать,</l>
+          <l>Правительством подкупленные воры.</l>
+          <l>Зависим мы от первого холопа,</l>
+          <l>Которого захочем наказать.</l>
+          <l>Вот — Юрьев день задумал уничтожить.</l>
+          <l>Не властны мы в поместиях своих.</l>
+          <l>Не смей согнать ленивца! Рад не рад,</l>
+          <l>Корми его. Не смей переманить</l>
+          <l>Работника! Не то, в Приказ холопий.</l>
+          <l>Ну, слыхано ль хоть при царе Иване</l>
+          <l>Такое зло? А легче ли народу?</l>
+          <l>Спроси его. Попробуй самозванец</l>
+          <l>Им посулить старинный Юрьев день,</l>
+          <l part="I">Так и пойдет потеха.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Прав ты, Пушкин.</l>
+          <l>Но знаешь ли? Об этом обо всем</l>
+          <l part="I">Мы помолчим до времени.</l>
+        </sp>
+        <sp who="#Pushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Вестимо,</l>
+          <l>Знай про себя. Ты человек разумный;</l>
+          <l>Всегда с тобой беседовать я рад,</l>
+          <l>И если что меня подчас тревожит,</l>
+          <l>Не вытерплю, чтоб не сказать тебе;</l>
+          <l>К тому ж твой мед да бархатное пиво</l>
+          <l>Сегодня так язык мне развязали…</l>
+          <l part="I">Прощай же, князь.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Прощай, брат, до свиданья.</l>
+        </sp>
+        <stage>(Провожает Пушкина.)</stage>
+      </div>
+      <div type="scene">
+        <head>ЦАРСКИЕ ПАЛАТЫ</head>
+        <stage>Царевич, чертит географическую карту. Царевна, мамка царевны. </stage>
+        <sp who="#Ksenija">
+          <speaker>Ксения</speaker>
+          <stage type="delivery">(целует портрет)</stage>
+          <p>Милый мой жених, прекрасный королевич, не мне ты достался, не своей невесте, а темной
+            могилке на чужой сторонке; никогда не утешусь, вечно по тебе буду плакать.</p>
+        </sp>
+        <sp who="#Mamka">
+          <speaker>Мамка</speaker>
+          <p>И, царевна! девица плачет, что роса падет: взойдет солнце, росу высушит. Будет у тебя
+            другой жених, и прекрасный, и приветливый. Полюбишь его, дитя наше ненаглядное, забудешь
+            Ивана-королевича.</p>
+        </sp>
+        <sp who="#Ksenija">
+          <speaker>Ксения</speaker>
+          <p>Нет, мамушка, я и мертвому буду ему верна.</p>
+          <stage>Входит Борис.</stage>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Что, Ксения? что, милая моя?</l>
+          <l>В невестах уж печальная вдовица!</l>
+          <l>Всё плачешь ты о мертвом женихе.</l>
+          <l>Дитя мое! судьба мне не судила</l>
+          <l>Виновником быть вашего блаженства.</l>
+          <l>Я, может быть, прогневал небеса,</l>
+          <l>Я счастие твое не мог устроить;</l>
+          <l>Безвинная! зачем же ты страдаешь?</l>
+          <l>А ты, мой сын, чем занят? Это что?</l>
+        </sp>
+        <sp who="#Feodor">
+          <speaker>Феодор</speaker>
+          <l>Чертеж земли Московской; наше царство</l>
+          <l>Из края в край. Вот видишь: тут Москва,</l>
+          <l>Тут Новгород, тут Астрахань. Вот море,</l>
+          <l>Вот пермские дремучие леса,</l>
+          <l part="I">А вот Сибирь.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">А это что такое</l>
+          <l part="I">Узором здесь виется?</l>
+        </sp>
+        <sp who="#Feodor">
+          <speaker>Феодор</speaker>
+          <l part="F">Это Волга.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Как хорошо! вот сладкий плод ученья!</l>
+          <l>Как с облаков ты можешь обозреть</l>
+          <l>Всё царство вдруг: границы, грады, реки.</l>
+          <l>Учись, мой сын: наука сокращает</l>
+          <l>Нам опыты быстротекущей жизни —</l>
+          <l>Когда-нибудь, и скоро, может быть,</l>
+          <l>Все области, которые ты ныне</l>
+          <l>Изобразил так хитро на бумаге,</l>
+          <l>Все под руку достанутся твою, —</l>
+          <l>Учись, мой сын, и легче и яснее</l>
+          <l>Державный труд ты будешь постигать.</l>
+          <stage>Входит Семен Годунов.</stage>
+          <l>Вот Годунов идет ко мне с докладом.</l>
+          <stage>(Ксении.)</stage>
+          <l>Душа моя, поди в свою светлицу;</l>
+          <l>Прости, мой друг; утешь тебя Господь.</l>
+          <stage>Ксения с мамкою уходит.</stage>
+          <l part="I">Что скажешь мне, Семен Никитич?</l>
+        </sp>
+        <sp who="#SemenGodunov">
+          <speaker>Семен Годунов</speaker>
+          <l part="F">Нынче</l>
+          <l>Ко мне, чем свет, дворецкий князь-Василья</l>
+          <l>И Пушкина слуга пришли с доносом.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="I">Ну.</l>
+        </sp>
+        <sp who="#SemenGodunov">
+          <speaker>Семен Годунов</speaker>
+          <l part="F">Пушкина слуга донес сперва,</l>
+          <l>Что поутру вчера к ним в дом приехал</l>
+          <l>Из Кракова гонец — и через час</l>
+          <l>Без грамоты отослан был обратно.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="I">Гонца схватить.</l>
+        </sp>
+        <sp who="#SemenGodunov">
+          <speaker>Семен Годунов</speaker>
+          <l part="F">Уж послано в догоню.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="I">О Шуйском что?</l>
+        </sp>
+        <sp who="#SemenGodunov">
+          <speaker>Семен Годунов</speaker>
+          <l part="F">Вечор он угощал</l>
+          <l>Своих друзей, обоих Милославских,</l>
+          <l>Бутурлиных, Михайла Салтыкова</l>
+          <l>Да Пушкина — да несколько других;</l>
+          <l>А разошлись уж поздно. Только Пушкин</l>
+          <l>Наедине с хозяином остался</l>
+          <l>И долго с ним беседовал еще.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="I">Сейчас послать за Шуйским.</l>
+        </sp>
+        <sp who="#SemenGodunov">
+          <speaker>Семен Годунов</speaker>
+          <l part="F">Государь!</l>
+          <l part="I">Он здесь уже.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Позвать его сюда.</l>
+          <stage>Годунов уходит.</stage>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Сношения с Литвою! это что?..</l>
+          <l>Противен мне род Пушкиных мятежный,</l>
+          <l>А Шуйскому не должно доверять.</l>
+          <l>Уклончивый, но смелый и лукавый…</l>
+          <stage>Входит Шуйский.</stage>
+          <l>Мне нужно, князь, с тобою говорить.</l>
+          <l>Но, кажется, ты сам пришел за делом,</l>
+          <l>И выслушать хочу тебя сперва.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Так, государь: мой долг тебе поведать</l>
+          <l part="I">Весть важную.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Я слушаю тебя.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <stage type="delivery">(тихо, указывая на Феодора)</stage>
+          <l part="I">Но, государь…</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Царевич может знать,</l>
+          <l>Что ведает князь Шуйский. Говори.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Царь, из Литвы пришла нам весть…</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Не та ли,</l>
+          <l>Что Пушкину привез вечор гонец?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Всё знает он!.. Я думал, государь,</l>
+          <l>Что ты еще не ведаешь сей тайны.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Нет нужды, князь: хочу сообразить</l>
+          <l>Известия; иначе не узнаем</l>
+          <l part="I">Мы истины.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Я знаю только то,</l>
+          <l>Что в Кракове явился самозванец</l>
+          <l>И что король и паны за него.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Что ж говорят? Кто этот самозванец?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Не ведаю.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Но… чем опасен он?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Конечно, царь: сильна твоя держава,</l>
+          <l>Ты милостью, раденьем и щедротой</l>
+          <l>Усыновил сердца своих рабов.</l>
+          <l>Но знаешь сам: бессмысленная чернь</l>
+          <l>Изменчива, мятежна, суеверна,</l>
+          <l>Легко пустой надежде предана,</l>
+          <l>Мгновенному внушению послушна,</l>
+          <l>Для истины глуха и равнодушна,</l>
+          <l>А баснями питается она.</l>
+          <l>Ей нравится бесстыдная отвага;</l>
+          <l>Так если сей неведомый бродяга</l>
+          <l>Литовскую границу перейдет,</l>
+          <l>К нему толпу безумцев привлечет</l>
+          <l>Димитрия воскреснувшее имя.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Димитрия!.. как? этого младенца?</l>
+          <l>Димитрия!.. Царевич, удались.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Он покраснел: быть буре!..</l>
+        </sp>
+        <sp who="#Feodor">
+          <speaker>Феодор</speaker>
+          <l part="F">Государь,</l>
+          <l part="I">Дозволишь ли…</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Нельзя, мой сын, поди.</l>
+          <stage>Феодор уходит.</stage>
+          <l part="I">Димитрия!..</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Он ничего не знал.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Послушай, князь: взять меры сей же час;</l>
+          <l>Чтоб от Литвы Россия оградилась</l>
+          <l>Заставами; чтоб ни одна душа</l>
+          <l>Не перешла за эту грань; чтоб заяц</l>
+          <l>Не прибежал из Польши к нам; чтоб ворон</l>
+          <l>Не прилетел из Кракова. Ступай.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Иду.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Постой. Не правда ль, эта весть</l>
+          <l>Затейлива? Слыхал ли ты когда,</l>
+          <l>Чтоб мертвые из гроба выходили</l>
+          <l>Допрашивать царей, царей законных,</l>
+          <l>Назначенных, избранных всенародно,</l>
+          <l>Увенчанных великим патриархом?</l>
+          <l>Смешно? а? что? что ж не смеешься ты?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Я, государь?..</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Послушай, князь Василий:</l>
+          <l>Как я узнал, что отрока сего…</l>
+          <l>Что отрок сей лишился как-то жизни,</l>
+          <l>Ты послан был на следствие; теперь</l>
+          <l>Тебя крестом и Богом заклинаю,</l>
+          <l>По совести мне правду объяви:</l>
+          <l>Узнал ли ты убитого младенца</l>
+          <l>И не было ль подмена? Отвечай.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="I">Клянусь тебе…</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Нет, Шуйский, не клянись,</l>
+          <l part="I">Но отвечай: то был царевич?</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l part="F">Он.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Подумай, князь. Я милость обещаю,</l>
+          <l>Прошедшей лжи опалою напрасной</l>
+          <l>Не накажу. Но если ты теперь</l>
+          <l>Со мной хитришь, то головою сына</l>
+          <l>Клянусь — тебя постигнет злая казнь,</l>
+          <l>Такая казнь, что царь Иван Васильич</l>
+          <l>От ужаса во гробе содрогнется.</l>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Шуйский</speaker>
+          <l>Не казнь страшна; страшна твоя немилость;</l>
+          <l>Перед тобой дерзну ли я лукавить?</l>
+          <l>И мог ли я так слепо обмануться,</l>
+          <l>Что не узнал Димитрия? Три дня</l>
+          <l>Я труп его в соборе посещал,</l>
+          <l>Всем Угличем туда сопровожденный.</l>
+          <l>Вокруг его тринадцать тел лежало,</l>
+          <l>Растерзанных народом, и по ним</l>
+          <l>Уж тление приметно проступало,</l>
+          <l>Но детский лик царевича был ясен</l>
+          <l>И свеж и тих, как будто усыпленный;</l>
+          <l>Глубокая не запекалась язва,</l>
+          <l>Черты ж лица совсем не изменились.</l>
+          <l>Нет, государь, сомненья нет: Димитрий</l>
+          <l part="I">Во гробе спит.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <stage type="delivery">(спокойно)</stage>
+          <l part="F">Довольно, удались.</l>
+          <stage>Шуйский уходит.</stage>
+          <l>Ух, тяжело!.. дай дух переведу —</l>
+          <l>Я чувствовал: вся кровь моя в лицо</l>
+          <l>Мне кинулась и тяжко опускалась…</l>
+          <l>Так вот зачем тринадцать лет мне сряду</l>
+          <l>Всё снилося убитое дитя!</l>
+          <l>Да, да — вот что! теперь я понимаю.</l>
+          <l>Но кто же он, мой грозный супостат?</l>
+          <l>Кто на меня? Пустое имя, тень —</l>
+          <l>Ужели тень сорвет с меня порфиру</l>
+          <l>Иль звук лишит детей моих наследства?</l>
+          <l>Безумец я! чего ж я испугался?</l>
+          <l>На призрак сей подуй — и нет его.</l>
+          <l>Так решено: не окажу я страха —</l>
+          <l>Но презирать не должно ничего…</l>
+          <l>Ох, тяжела ты, шапка Мономаха!</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>КРАКОВ. ДОМ ВИШНЕВЕЦКОГО</head>
+        <stage>Самозванец и pater Черниковский.</stage>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Нет, мой отец, не будет затрудненья;</l>
+          <l>Я знаю дух народа моего;</l>
+          <l>В нем набожность не знает исступленья;</l>
+          <l>Ему священ пример царя его.</l>
+          <l>Всегда, к тому ж, терпимость равнодушна.</l>
+          <l>Ручаюсь я, что прежде двух годов</l>
+          <l>Весь мой народ и вся Восточна Церковь</l>
+          <l>Признают власть наместника Петра.</l>
+        </sp>
+        <sp who="#Pater">
+          <speaker>Pater</speaker>
+          <l>Вспомоществуй тебе святый Игнатий,</l>
+          <l>Когда придут иные времена.</l>
+          <l>А между тем небесной благодати</l>
+          <l>Таи в душе, царевич, семена;</l>
+          <l>Притворствовать пред оглашенным светом</l>
+          <l>Нам иногда духовный долг велит;</l>
+          <l>Твои слова, деянья судят люди,</l>
+          <l>Намеренья единый видит Бог.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="I">
+                        <emph>Amen.</emph> Кто там?</l>
+          <stage>Входит слуга.</stage>
+          <l part="F">Сказать: мы принимаем.</l>
+          <stage>Отворяются двери, входит толпа русских и поляков.</stage>
+          <l>Товарищи! мы выступаем завтра</l>
+          <l>Из Кракова. Я, Мнишек, у тебя</l>
+          <l>Остановлюсь в Самборе на три дня.</l>
+          <l>Я знаю: твой гостеприимный замок</l>
+          <l>И пышностью блистает благородной,</l>
+          <l>И славится хозяйкой молодой.</l>
+          <l>Прелестную Марину я надеюсь</l>
+          <l>Увидеть там. А вы, мои друзья,</l>
+          <l>Литва и Русь, вы, братские знамена</l>
+          <l>Поднявшие на общего врага,</l>
+          <l>На моего коварного злодея,</l>
+          <l>Сыны славян, я скоро поведу</l>
+          <l>В желанный бой дружины ваши грозны.</l>
+          <l>Но между вас я вижу новы лица.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Гаврила Пушкин</speaker>
+          <l>Они пришли у милости твоей</l>
+          <l part="I">Просить меча и службы.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Рад вам, дети.</l>
+          <l>Ко мне, друзья. Но кто, скажи мне, Пушкин,</l>
+          <l part="I">Красавец сей?</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="M">Князь Курбский.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Имя громко!</l>
+          <stage>(Курбскому)</stage>
+          <l>Ты родственник казанскому герою?</l>
+        </sp>
+        <sp who="#Kurbskij">
+          <speaker>Курбский</speaker>
+          <l part="I">Я сын его.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="M">Он жив еще?</l>
+        </sp>
+        <sp who="#Kurbskij">
+          <speaker>Курбский</speaker>
+          <l part="F">Нет, умер.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Великий ум! муж битвы и совета!</l>
+          <l>Но с той поры, когда являлся он,</l>
+          <l>Своих обид ожесточенный мститель,</l>
+          <l>С литовцами под ветхий город Ольгин,</l>
+          <l part="I">Молва об нем умолкла.</l>
+        </sp>
+        <sp who="#Kurbskij">
+          <speaker>Курбский</speaker>
+          <l part="F">Мой отец</l>
+          <l>В Волынии провел остаток жизни,</l>
+          <l>В поместиях, дарованных ему</l>
+          <l>Баторием. Уединен и тих,</l>
+          <l>В науках он искал себе отрады;</l>
+          <l>Но мирный труд его не утешал:</l>
+          <l>Он юности своей отчизну помнил</l>
+          <l>И до конца по ней он тосковал.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Несчастный вождь! как ярко просиял</l>
+          <l>Восход его шумящей, бурной жизни.</l>
+          <l>Я радуюсь, великородный витязь,</l>
+          <l>Что кровь его с отечеством мирится;</l>
+          <l>Вины отцов не должно вспоминать;</l>
+          <l>Мир гробу их! Приближься, Курбский… Руку!</l>
+          <l>Не странно ли? сын Курбского ведет</l>
+          <l>На трон, кого? да — сына Иоанна!..</l>
+          <l>Всё за меня: и люди и судьба.</l>
+          <l part="I">Ты кто такой?</l>
+        </sp>
+        <sp who="#Poljak">
+          <speaker>Поляк</speaker>
+          <l part="F">Собаньский, шляхтич вольный.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Хвала и честь тебе, свободы чадо!</l>
+          <l>Вперед ему треть жалованья выдать.</l>
+          <l>Но эти кто? Я узнаю на них</l>
+          <l>Земли родной одежду. Это наши.</l>
+        </sp>
+        <sp who="#Hruschov">
+          <speaker>Хрущов</speaker>
+          <stage type="delivery">(бьет челом)</stage>
+          <l>Так, государь, отец наш. Мы твои</l>
+          <l>Усердные, гонимые холопья.</l>
+          <l>Мы из Москвы, опальные, бежали</l>
+          <l>К тебе, наш царь, — и за тебя готовы</l>
+          <l>Главами лечь, да будут наши трупы</l>
+          <l>На царский трон ступенями тебе.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Мужайтеся, безвинные страдальцы, —</l>
+          <l>Лишь дайте мне добраться до Москвы,</l>
+          <l>А там Борис расплатится во всем.</l>
+          <l part="I">Ты кто?</l>
+        </sp>
+        <sp who="#Karela">
+          <speaker>Карела</speaker>
+          <l part="F">Казак; к тебе я с Дона послан</l>
+          <l>От вольных войск, от храбрых атаманов,</l>
+          <l>От казаков верховых и низовых</l>
+          <l>Узреть твои царевы ясны очи</l>
+          <l>И кланяться тебе их головами.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Я знал донцов; не сомневался видеть</l>
+          <l>В своих рядах казачьи бунчуки.</l>
+          <l>Благодарим Донское наше войско.</l>
+          <l>Мы ведаем, что ныне казаки</l>
+          <l>Неправедно притеснены, гонимы;</l>
+          <l>Но если Бог поможет нам вступить</l>
+          <l>На трон отцов, то мы по старине</l>
+          <l>Пожалуем наш верный вольный Дон.</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <stage type="delivery">(приближается, кланяясь низко и хватая Гришку за полу)</stage>
+          <l>Великий принц, светлейший королевич!</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="I">Что хочешь ты?</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <stage type="delivery">(подает ему бумагу)</stage>
+          <l part="F">Примите благосклонно</l>
+          <l>Сей бедный плод усердного труда.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Что вижу я? Латинские стихи!</l>
+          <l>Стократ священ союз меча и лиры;</l>
+          <l>Единый лавр их дружно обвивает.</l>
+          <l>Родился я под небом полунощным,</l>
+          <l>Но мне знаком латинской музы голос</l>
+          <l>И я люблю парнасские цветы.</l>
+          <l>Я верую в пророчества пиитов.</l>
+          <l>Нет, не вотще в их пламенной груди</l>
+          <l>Кипит восторг: благословится подвиг,</l>
+          <l>Его ж они прославили заране!</l>
+          <l>Приближься, друг. В мое воспоминанье</l>
+          <l part="I">Прими сей дар.</l>
+          <stage>(Дает ему перстень.)</stage>
+          <l part="F">Когда со мной свершится</l>
+          <l>Судьбы завет, когда корону предков</l>
+          <l>Надену я, надеюсь вновь услышать</l>
+          <l>Твой сладкий глас, твой вдохновенный гимн.</l>
+          <l>Musa gloriam coronat, gloriaque musam.</l>
+          <l>Итак, друзья, до завтра, до свиданья.</l>
+        </sp>
+        <sp who="#GavrilaPushkin #Poljak #Poet #Karela #Hruschov #Kurbskij">
+          <speaker>Все</speaker>
+          <l>В поход, в поход! Да здравствует Димитрий,</l>
+          <l>Да здравствует великий князь Московский!</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>ЗАМОК ВОЕВОДЫ МНИШКА В САМБОРЕ</head>
+        <stage>Ряд освещенных комнат. Музыка. </stage>
+        <stage>Вишневецкий, Мнишек. </stage>
+        <sp who="#Mnishek">
+          <speaker>Мнишек</speaker>
+          <l>Он говорит с одной моей Мариной,</l>
+          <l>Мариною одною занят он…</l>
+          <l>А дело-то на свадьбу страх похоже.</l>
+          <l>Ну — думал ты, признайся, Вишневецкий,</l>
+          <l>Что дочь моя царицей будет? а?</l>
+        </sp>
+        <sp who="#Vishnevetskij">
+          <speaker>Вишневецкий</speaker>
+          <l>Да, чудеса… и думал ли ты, Мнишек,</l>
+          <l>Что мой слуга взойдет на трон московский?</l>
+        </sp>
+        <sp who="#Mnishek">
+          <speaker>Мнишек</speaker>
+          <l>А какова, скажи, моя Марина?</l>
+          <l>Я только ей промолвил: ну, смотри!</l>
+          <l>Не упускай Димитрия!.. и вот</l>
+          <l>Всё кончено, уж он в ее сетях.</l>
+          <stage>Музыка играет польский. Самозванец идет с Мариною в первой паре.</stage>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <stage type="delivery">(тихо Димитрию)</stage>
+          <l>Да, ввечеру, в одиннадцать часов,</l>
+          <l>В аллее лип, я завтра у фонтана.</l>
+          <stage>Расходятся. Другая пара.</stage>
+        </sp>
+        <sp who="#PervyjKavaler">
+          <speaker>Кавалер</speaker>
+          <l part="I">Что в ней нашел Димитрий?</l>
+        </sp>
+        <sp who="#PervajaDama">
+          <speaker>Дама</speaker>
+          <l part="F">Как! она</l>
+          <l part="I">Красавица.</l>
+        </sp>
+        <sp who="#PervyjKavaler">
+          <speaker>Кавалер</speaker>
+          <l part="F">Да, мраморная нимфа:</l>
+          <l>Глаза, уста без жизни, без улыбки…</l>
+          <stage>Новая пара.</stage>
+        </sp>
+        <sp who="#VtorajaDama">
+          <speaker>Дама</speaker>
+          <l>Он не красив, но вид его приятен,</l>
+          <l>И царская порода в нем видна.</l>
+          <stage>Новая пара.</stage>
+        </sp>
+        <sp who="#TretjaDama">
+          <speaker>Дама</speaker>
+          <l part="I">Когда ж поход?</l>
+        </sp>
+        <sp who="#TretijKavaler">
+          <speaker>Кавалер</speaker>
+          <l part="F">Когда велит царевич,</l>
+          <l>Готовы мы; но, видно, панна Мнишек</l>
+          <l>С Димитрием задержит нас в плену.</l>
+        </sp>
+        <sp who="#TretjaDama">
+          <speaker>Дама</speaker>
+          <l part="I">Приятный плен.</l>
+        </sp>
+        <sp who="#TretijKavaler">
+          <speaker>Кавалер</speaker>
+          <l part="F">Конечно, если вы…</l>
+          <stage>Расходятся; комнаты пустеют.</stage>
+        </sp>
+        <sp who="#Mnishek">
+          <speaker>Мнишек</speaker>
+          <l>Мы, старики, уж нынче не танцуем,</l>
+          <l>Музыки гром не призывает нас,</l>
+          <l>Прелестных рук не жмем и не целуем,</l>
+          <l>Ох, не забыл старинных я проказ!</l>
+          <l>Теперь не то, не то, что прежде было!</l>
+          <l>И молодежь, ей-ей, не так смела,</l>
+          <l>И красота не так уж весела,</l>
+          <l>Признайся, друг: всё как-то приуныло.</l>
+          <l>Оставим их; пойдем, товарищ мой,</l>
+          <l>Венгерского, обросшую травой,</l>
+          <l>Велим отрыть бутылку вековую</l>
+          <l>Да в уголку потянем-ка вдвоем</l>
+          <l>Душистый ток, струю, как жир, густую,</l>
+          <l>А между тем посудим кой о чем.</l>
+          <l part="I">Пойдем же, брат.</l>
+        </sp>
+        <sp who="#Vishnevetskij">
+          <speaker>Вишневецкий</speaker>
+          <l part="F">И дело, друг, пойдем.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>НОЧЬ. САД. ФОНТАН</head>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <stage type="delivery">(входит)</stage>
+          <l>Вот и фонтан; она сюда придет.</l>
+          <l>Я, кажется, рожден не боязливым;</l>
+          <l>Перед собой вблизи видал я смерть;</l>
+          <l>Пред смертию душа не содрогалась.</l>
+          <l>Мне вечная неволя угрожала,</l>
+          <l>За мной гнались — я духом не смутился</l>
+          <l>И дерзостью неволи избежал.</l>
+          <l>Но что ж теперь теснит мое дыханье?</l>
+          <l>Что значит сей неодолимый трепет?</l>
+          <l>Иль это дрожь желаний напряженных?</l>
+          <l>Нет, это страх. День целый ожидал</l>
+          <l>Я тайного свидания с Мариной,</l>
+          <l>Обдумывал всё то, что ей скажу,</l>
+          <l>Как обольщу ее надменный ум,</l>
+          <l>Как назову московскою царицей, —</l>
+          <l>Но час настал — и ничего не помню;</l>
+          <l>Не нахожу затверженных речей;</l>
+          <l>Любовь мутит мое воображенье…</l>
+          <l>Но что-то вдруг мелькнуло… шорох… тише…</l>
+          <l>Нет, это свет обманчивой луны,</l>
+          <l part="I">И прошумел здесь ветерок.</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <stage type="delivery">(входит)</stage>
+          <l part="F">Царевич!</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Она!.. Вся кровь во мне остановилась.</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l part="I">Димитрий! Вы?</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Волшебный, сладкий голос!</l>
+          <stage>(Идет к ней.)</stage>
+          <l>Ты ль наконец? Тебя ли вижу я,</l>
+          <l>Одну со мной, под сенью тихой ночи?</l>
+          <l>Как медленно катился скучный день!</l>
+          <l>Как медленно заря вечерня гасла!</l>
+          <l>Как долго ждал во мраке я ночном!</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l>Часы бегут, и дорого мне время —</l>
+          <l>Я здесь тебе назначила свиданье</l>
+          <l>Не для того, чтоб слушать нежны речи</l>
+          <l>Любовника. Слова не нужны. Верю,</l>
+          <l>Что любишь ты; но слушай: я решилась</l>
+          <l>С твоей судьбой, и бурной и неверной,</l>
+          <l>Соединить судьбу мою; то вправе</l>
+          <l>Я требовать, Димитрий, одного:</l>
+          <l>Я требую, чтоб ты души своей</l>
+          <l>Мне тайные открыл теперь надежды,</l>
+          <l>Намеренья и даже опасенья;</l>
+          <l>Чтоб об руку с тобой могла я смело</l>
+          <l>Пуститься в жизнь — не с детской слепотой,</l>
+          <l>Не как раба желаний легких мужа,</l>
+          <l>Наложница безмолвная твоя,</l>
+          <l>Но как тебя достойная супруга,</l>
+          <l>Помощница московского царя.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>О, дай забыть хоть на единый час</l>
+          <l>Моей судьбы заботы и тревоги!</l>
+          <l>Забудь сама, что видишь пред собой</l>
+          <l>Царевича. Марина! зри во мне</l>
+          <l>Любовника, избранного тобою,</l>
+          <l>Счастливого твоим единым взором.</l>
+          <l>О, выслушай моления любви!</l>
+          <l>Дай высказать всё то, чем сердце полно!</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l>Не время, князь: ты медлишь, и меж тем</l>
+          <l>Приверженность твоих клевретов стынет;</l>
+          <l>Час от часу опасность и труды</l>
+          <l>Становятся опасней и труднее;</l>
+          <l>Уж носятся сомнительные слухи,</l>
+          <l>Уж новизна сменяет новизну;</l>
+          <l>А Годунов свои приемлет меры…</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Что Годунов? во власти ли Бориса</l>
+          <l>Твоя любовь, одно мое блаженство?</l>
+          <l>Нет, нет. Теперь гляжу я равнодушно</l>
+          <l>На трон его, на царственную власть.</l>
+          <l>Твоя любовь… что без нее мне жизнь,</l>
+          <l>И славы блеск, и русская держава?</l>
+          <l>В глухой степи, в землянке бедной — ты,</l>
+          <l>Ты заменишь мне царскую корону;</l>
+          <l part="I">Твоя любовь…</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l part="F">Стыдись! не забывай</l>
+          <l>Высокого, святого назначенья:</l>
+          <l>Тебе твой сан дороже должен быть</l>
+          <l>Всех радостей, всех обольщений жизни.</l>
+          <l>Его ни с чем не можешь ты равнять.</l>
+          <l>Не юноше кипящему, безумно</l>
+          <l>Плененному моею красотой,</l>
+          <l>Знай: отдаю торжественно я руку</l>
+          <l>Наследнику московского престола,</l>
+          <l>Царевичу, спасенному судьбой.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Не мучь меня, прелестная Марина,</l>
+          <l>Не говори, что сан, а не меня</l>
+          <l>Избрала ты. Марина! ты не знаешь,</l>
+          <l>Как больно тем ты сердце мне язвишь —</l>
+          <l>Как! ежели… о страшное сомненье!</l>
+          <l>Скажи: когда б не царское рожденье</l>
+          <l>Назначила слепая мне судьба,</l>
+          <l>Когда б я был не Иоаннов сын,</l>
+          <l>Не сей давно забытый миром отрок,</l>
+          <l>Тогда б… тогда б любила ль ты меня?</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l>Димитрий ты и быть иным не можешь;</l>
+          <l part="I">Другого мне любить нельзя.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Нет! полно:</l>
+          <l>Я не хочу делиться с мертвецом</l>
+          <l>Любовницей, ему принадлежащей;</l>
+          <l>Нет, полно мне притворствовать! скажу</l>
+          <l>Всю истину; так знай же: твой Димитрий</l>
+          <l>Давно погиб, зарыт — и не воскреснет;</l>
+          <l>А хочешь ли ты знать, кто я таков?</l>
+          <l>Изволь, скажу: я бедный черноризец;</l>
+          <l>Монашеской неволею скучая,</l>
+          <l>Под клобуком свой замысел отважный</l>
+          <l>Обдумал я, готовил миру чудо —</l>
+          <l>И наконец из келии бежал</l>
+          <l>К украинцам, в их буйные курени;</l>
+          <l>Владеть конем и саблей научился;</l>
+          <l>Явился к вам, Димитрием назвался</l>
+          <l>И поляков безмозглых обманул.</l>
+          <l>Что скажешь ты, надменная Марина?</l>
+          <l>Довольна ль ты признанием моим?</l>
+          <l part="I">Что ж ты молчишь?</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l part="F">О стыд! о горе мне!</l>
+          <stage>(Молчание.)</stage>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <stage type="delivery">(тихо)</stage>
+          <l>Куда завлек меня порыв досады!</l>
+          <l>С таким трудом устроенное счастье</l>
+          <l>Я, может быть, навеки погубил.</l>
+          <l part="I">Что сделал я, безумец?</l>
+          <stage>(Вслух.)</stage>
+          <l part="F">Вижу, вижу:</l>
+          <l>Стыдишься ты не княжеской любви;</l>
+          <l>Так вымолви ж мне роковое слово;</l>
+          <l>В твоих руках теперь моя судьба,</l>
+          <l part="I">Реши: я жду.</l>
+          <stage>(Бросается на колени.)</stage>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l part="F">Встань, бедный самозванец.</l>
+          <l>Не мнишь ли ты коленопреклоненьем,</l>
+          <l>Как девочки доверчивой и слабой</l>
+          <l>Тщеславное мне сердце умилить?</l>
+          <l>Ошибся, друг: у ног своих видала</l>
+          <l>Я рыцарей и графов благородных;</l>
+          <l>Но их мольбы я хладно отвергала</l>
+          <l>Не для того, чтоб беглого монаха…</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <stage type="delivery">(встает)</stage>
+          <l>Не презирай младого самозванца;</l>
+          <l>В нем доблести таятся, может быть,</l>
+          <l>Достойные московского престола,</l>
+          <l>Достойные руки твоей бесценной…</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l>Достойные позорной петли, дерзкий!</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Виновен я; гордыней обуянный,</l>
+          <l>Обманывал я Бога и царей,</l>
+          <l>Я миру лгал; но не тебе, Марина,</l>
+          <l>Меня казнить; я прав перед тобою.</l>
+          <l>Нет, я не мог обманывать тебя.</l>
+          <l>Ты мне была единственной святыней,</l>
+          <l>Пред ней же я притворствовать не смел;</l>
+          <l>Любовь, любовь ревнивая, слепая,</l>
+          <l>Одна любовь принудила меня</l>
+          <l part="I">Всё высказать.</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l part="F">Чем хвалится, безумец!</l>
+          <l>Кто требовал признанья твоего?</l>
+          <l>Уж если ты, бродяга безымянный,</l>
+          <l>Мог ослепить чудесно два народа,</l>
+          <l>Так должен уж по крайней мере ты</l>
+          <l>Достоин быть успеха своего</l>
+          <l>И свой обман отважный обеспечить</l>
+          <l>Упорною, глубокой, вечной тайной.</l>
+          <l>Могу ль, скажи, предаться я тебе,</l>
+          <l>Могу ль, забыв свой род и стыд девичий,</l>
+          <l>Соединить судьбу мою с твоею,</l>
+          <l>Когда ты сам с такою простотой,</l>
+          <l>Так ветрено позор свой обличаешь?</l>
+          <l>Он из любви со мною проболтался!</l>
+          <l>Дивлюся: как перед моим отцом</l>
+          <l>Из дружбы ты доселе не открылся,</l>
+          <l>От радости пред нашим королем</l>
+          <l>Или еще пред паном Вишневецким</l>
+          <l>Из верного усердия слуги.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Клянусь тебе, что сердца моего</l>
+          <l>Ты вымучить одна могла признанье.</l>
+          <l>Клянусь тебе, что никогда, нигде,</l>
+          <l>Ни в пиршестве, за чашею безумства,</l>
+          <l>Ни в дружеском заветном разговоре,</l>
+          <l>Ни под ножом, ни в муках истязаний</l>
+          <l>Сих тяжких тайн не выдаст мой язык.</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l>Клянешься ты! итак, должна я верить.</l>
+          <l>О, верю я! Но чем, нельзя ль узнать,</l>
+          <l>Клянешься ты? Не именем ли Бога,</l>
+          <l>Как набожный приемыш езуитов?</l>
+          <l>Иль честию, как витязь благородный,</l>
+          <l>Иль, может быть, единым царским словом,</l>
+          <l>Как царский сын? не так ли? Говори.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Димитрий</speaker>
+          <stage type="delivery">(гордо)</stage>
+          <l>Тень Грозного меня усыновила,</l>
+          <l>Димитрием из гроба нарекла,</l>
+          <l>Вокруг меня народы возмутила</l>
+          <l>И в жертву мне Бориса обрекла.</l>
+          <l>Царевич я. Довольно, стыдно мне</l>
+          <l>Пред гордою полячкой унижаться.</l>
+          <l>Прощай навек: игра войны кровавой,</l>
+          <l>Судьбы моей обширные заботы</l>
+          <l>Тоску любви, надеюсь, заглушат.</l>
+          <l>О, как тебя я стану ненавидеть,</l>
+          <l>Когда пройдет постыдной страсти жар.</l>
+          <l>Теперь иду — погибель иль венец</l>
+          <l>Мою главу в России ожидает,</l>
+          <l>Найду ли смерть, как воин в битве честной</l>
+          <l>Иль как злодей на плахе площадной,</l>
+          <l>Не будешь ты подругою моей,</l>
+          <l>Моей судьбы не разделишь со мною;</l>
+          <l>Но, может быть, ты будешь сожалеть</l>
+          <l>Об участи, отвергнутой тобою.</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l>А если я твой дерзостный обман</l>
+          <l>Заранее пред всеми обнаружу?</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Не мнишь ли ты, что я тебя боюсь?</l>
+          <l>Что более поверят польской деве,</l>
+          <l>Чем русскому царевичу? Но знай,</l>
+          <l>Что ни король, ни папа, ни вельможи</l>
+          <l>Не думают о правде слов моих.</l>
+          <l>Димитрий я иль нет — что им за дело?</l>
+          <l>Но я предлог раздоров и войны.</l>
+          <l>Им это лишь и нужно; и тебя,</l>
+          <l>Мятежница, поверь, молчать заставят.</l>
+          <l part="I">Прощай.</l>
+        </sp>
+        <sp who="#Marina">
+          <speaker>Марина</speaker>
+          <l part="F">Постой, царевич. Наконец</l>
+          <l>Я слышу речь не мальчика, но мужа.</l>
+          <l>С тобою, князь, она меня мирит.</l>
+          <l>Безумный твой порыв я забываю</l>
+          <l>И вижу вновь Димитрия. Но слушай:</l>
+          <l>Пора, пора! проснись, не медли боле,</l>
+          <l>Веди полки скорее на Москву;</l>
+          <l>Очисти Кремль, садись на трон московский —</l>
+          <l>Тогда за мной шли брачного посла;</l>
+          <l>Но, слышит Бог, пока твоя нога</l>
+          <l>Не оперлась на тронные ступени,</l>
+          <l>Пока тобой не свержен Годунов,</l>
+          <l>Любви речей не буду слушать я.</l>
+          <stage>(Уходит.)</stage>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Нет — легче мне сражаться с Годуновым</l>
+          <l>Или хитрить с придворным езуитом,</l>
+          <l>Чем с женщиной. Черт с ними; мочи нет:</l>
+          <l>И путает, и вьется, и ползет,</l>
+          <l>Скользит из рук, шипит, грозит и жалит.</l>
+          <l>Змея! змея!.. Недаром я дрожал.</l>
+          <l>Она меня чуть-чуть не погубила.</l>
+          <l>Но решено: заутра двину рать.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>ГРАНИЦА ЛИТОВСКАЯ</head>
+        <stage>(1604 года, 16 октября)</stage>
+        <stage>Князь Курбский и Самозванец, оба верхами.</stage>
+        <stage>Полки приближаются к границе. </stage>
+        <sp who="#Kurbskij">
+          <speaker>Курбский</speaker>
+          <stage type="delivery">(прискакав первый)</stage>
+          <l>Вот, вот она, вот русская граница!</l>
+          <l>Святая Русь! Отечество! я твой!</l>
+          <l>Чужбины прах с презреньем отряхаю</l>
+          <l>С моих одежд, пью жадно воздух новый:</l>
+          <l>Он мне родной! теперь твоя душа,</l>
+          <l>О мой отец, утешится и в гробе</l>
+          <l>Опальные возрадуются кости!</l>
+          <l>Блеснул опять наследственный наш меч,</l>
+          <l>Сей славный меч — гроза Казани темной,</l>
+          <l>Сей добрый меч — слуга царей московских!</l>
+          <l>В своем пиру теперь он загуляет,</l>
+          <l>За своего надёжу-государя!..</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <stage type="delivery">(едет тихо с поникшей головой)</stage>
+          <l>Как счастлив он! как чистая душа</l>
+          <l>В нем радостью и славой разыгралась!</l>
+          <l>О витязь мой, завидую тебе!</l>
+          <l>Сын Курбского, воспитанный в изгнаньи,</l>
+          <l>Забыв отцом снесенные обиды,</l>
+          <l>Его вину за гробом искупив,</l>
+          <l>Ты кровь излить за сына Иоанна</l>
+          <l>Готовишься, законного царя</l>
+          <l>Ты возвратить отечеству… ты прав,</l>
+          <l>Душа твоя должна пылать весельем.</l>
+        </sp>
+        <sp who="#Kurbskij">
+          <speaker>Курбский</speaker>
+          <l>Ужель и ты не веселишься духом?</l>
+          <l>Вот наша Русь: она твоя, царевич.</l>
+          <l>Там ждут тебя сердца твоих людей,</l>
+          <l>Твоя Москва, твой Кремль, твоя держава.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Кровь русская, о Курбский, потечет!</l>
+          <l>Вы за царя подъяли меч, вы чисты.</l>
+          <l>Я ж вас веду на братьев; я Литву</l>
+          <l>Позвал на Русь; я в красную Москву</l>
+          <l>Кажу врагам заветную дорогу!</l>
+          <l>Но пусть мой грех падет не на меня,</l>
+          <l>А на тебя, Борис-цареубийца!</l>
+          <l part="I">Вперед!</l>
+        </sp>
+        <sp who="#Kurbskij">
+          <speaker>Курбский</speaker>
+          <l part="F">Вперед! и горе Годунову!</l>
+        </sp>
+        <stage>Скачут. Полки переходят через границу.</stage>
+      </div>
+      <div type="scene">
+        <head>ЦАРСКАЯ ДУМА</head>
+        <stage>Царь, патриарх и бояре. </stage>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Возможно ли? расстрига, беглый инок</l>
+          <l>На нас ведет злодейские дружины,</l>
+          <l>Дерзает нам писать угрозы! Полно,</l>
+          <l>Пора смирить безумца! Поезжайте,</l>
+          <l>Ты, Трубецкой, и ты, Басманов; помощь</l>
+          <l>Нужна моим усердным воеводам.</l>
+          <l>Бунтовщиком Чернигов осажден.</l>
+          <l part="I">Спасайте град и граждан.</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="F">Государь,</l>
+          <l>Трех месяцев отныне не пройдет,</l>
+          <l>И замолчит и слух о самозванце;</l>
+          <l>Его в Москву мы привезем, как зверя</l>
+          <l>Заморского, в железной клетке. Богом</l>
+          <l part="I">Тебе клянусь.</l>
+          <stage>(Уходит с Трубецким.)</stage>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Мне свейский государь</l>
+          <l>Через послов союз свой предложил;</l>
+          <l>Но не нужна нам чуждая помога;</l>
+          <l>Своих людей у нас довольно ратных,</l>
+          <l>Чтоб отразить изменников и ляха.</l>
+          <l part="I">Я отказал.</l>
+          <l part="F">Щелкалов! разослать</l>
+          <l>Во все концы указы к воеводам,</l>
+          <l>Чтоб на коня садились и людей</l>
+          <l>По старине на службу высылали;</l>
+          <l>В монастырях подобно отобрать</l>
+          <l>Служителей причетных. В прежни годы,</l>
+          <l>Когда бедой отечеству грозило,</l>
+          <l>Отшельники на битву сами шли;</l>
+          <l>Но не хотим тревожить ныне их;</l>
+          <l>Пусть молятся за нас они: таков</l>
+          <l>Указ царя и приговор боярский.</l>
+          <l>Теперь вопрос мы важный разрешим:</l>
+          <l>Вы знаете, что наглый самозванец</l>
+          <l>Коварные промчал повсюду слухи;</l>
+          <l>Повсюду им разосланные письма</l>
+          <l>Посеяли тревогу и сомненье;</l>
+          <l>На площадях мятежный бродит шепот,</l>
+          <l>Умы кипят… их нужно остудить;</l>
+          <l>Предупредить желал бы казни я,</l>
+          <l>Но чем и как? Решим теперь. Ты первый,</l>
+          <l>Святый отец, свою поведай мысль.</l>
+        </sp>
+        <sp who="#Patriarh">
+          <speaker>Патриарх</speaker>
+          <l>Благословен Всевышний, поселивший</l>
+          <l>Дух милости и кроткого терпенья</l>
+          <l>В душе твоей, великий государь;</l>
+          <l>Ты грешному погибели не хочешь,</l>
+          <l>Ты тихо ждешь, да про́йдет заблужденье;</l>
+          <l>Оно пройдет, и солнце правды вечной</l>
+          <l part="I">Всех озарит.</l>
+          <l part="F">Твой верный богомолец,</l>
+          <l>В делах мирских не мудрый судия,</l>
+          <l>Дерзает днесь подать тебе свой голос:</l>
+          <l>Бесовский сын, расстрига окаянный,</l>
+          <l>Прослыть умел Димитрием в народе;</l>
+          <l>Он именем царевича, как ризой</l>
+          <l>Украденной, бесстыдно облачился;</l>
+          <l>Но стоит лишь ее раздрать — и сам</l>
+          <l>Он наготой своею посрамится.</l>
+          <l>Сам Бог на то нам средство посылает;</l>
+          <l>Знай, государь, тому прошло шесть лет,</l>
+          <l>В тот самый год, когда тебя Господь</l>
+          <l>Благословил на царскую державу, —</l>
+          <l>В вечерний час ко мне пришел однажды</l>
+          <l>Простой пастух, уже маститый старец,</l>
+          <l>И чудную поведал он мне тайну.</l>
+          <l>«В младых летах, — сказал он, — я ослеп</l>
+          <l>И с той поры не знал ни дня, ни ночи</l>
+          <l>До старости; напрасно я лечился</l>
+          <l>И зелием, и тайным нашептаньем;</l>
+          <l>Напрасно я ходил на поклоненье</l>
+          <l>В обители к великим чудотворцам;</l>
+          <l>Напрасно я из кладязей святых</l>
+          <l>Кропил водой целебной темны очи —</l>
+          <l>Не посылал Господь мне исцеленья.</l>
+          <l>Вот наконец утратил я надежду</l>
+          <l>И к тьме своей привык, и даже сны</l>
+          <l>Мне виданных вещей уж не являли,</l>
+          <l>А снилися мне только звуки. Раз,</l>
+          <l>В глубоком сне, я слышу, детский голос</l>
+          <l>Мне говорит: „Встань, дедушка, поди</l>
+          <l>Ты в Углич-град, в собор Преображенья;</l>
+          <l>Там помолись ты над моей могилкой,</l>
+          <l>Бог милостив — и я тебя прощу“.</l>
+          <l>— „Но кто же ты?“ — спросил я детский голос.</l>
+          <l>„Царевич я Димитрий. Царь небесный</l>
+          <l>Приял меня в лик ангелов своих,</l>
+          <l>И я теперь великий чудотворец.</l>
+          <l>Иди, старик“. — Проснулся я и думал:</l>
+          <l>Что ж? может быть, и в самом деле Бог</l>
+          <l>Мне позднее дарует исцеленье.</l>
+          <l>Пойду — и в путь отправился далекий.</l>
+          <l>Вот Углича достиг я, прихожу</l>
+          <l>В святый собор и слушаю обедню</l>
+          <l>И, разгорясь душой усердной, плачу</l>
+          <l>Так сладостно, как будто слепота</l>
+          <l>Из глаз моих слезами вытекала.</l>
+          <l>Когда народ стал выходить, я внуку</l>
+          <l>Сказал: „Иван, веди меня на гроб</l>
+          <l>Царевича Димитрия“. И мальчик</l>
+          <l>Повел меня — и только перед гробом</l>
+          <l>Я тихую молитву сотворил,</l>
+          <l>Глаза мои прозрели: я увидел</l>
+          <l>И Божий свет, и внука, и могилку».</l>
+          <l>Вот, государь, что мне поведал старец.</l>
+          <stage>Общее смущение. В продолжение сей речи Борис несколько раз отирает лицо
+            платком.</stage>
+          <l>Я посылал тогда нарочно в Углич,</l>
+          <l>И сведано, что многие страдальцы</l>
+          <l>Спасение подобно обретали</l>
+          <l>У гробовой царевича доски.</l>
+          <l>Вот мой совет: во Кремль святые мощи</l>
+          <l>Перенести, поставить их в соборе</l>
+          <l>Архангельском; народ увидит ясно</l>
+          <l>Тогда обман безбожного злодея,</l>
+          <l>И мощь бесов исчезнет яко прах.</l>
+          <stage>Молчание.</stage>
+        </sp>
+        <sp who="#Shujskij">
+          <speaker>Князь Шуйский</speaker>
+          <l>Святый отец, кто ведает пути</l>
+          <l>Всевышнего? Не мне его судить.</l>
+          <l>Нетленный сон и силу чудотворства</l>
+          <l>Он может дать младенческим останкам,</l>
+          <l>Но надлежит народную молву</l>
+          <l>Исследовать прилежно и бесстрастно;</l>
+          <l>А в бурные ль смятений времена</l>
+          <l>Нам помышлять о столь великом деле?</l>
+          <l>Не скажут ли, что мы святыню дерзко</l>
+          <l>В делах мирских орудием творим?</l>
+          <l>Народ и так колеблется безумно,</l>
+          <l>И так уж есть довольно шумных толков:</l>
+          <l>Умы людей не время волновать</l>
+          <l>Нежданною, столь важной новизною.</l>
+          <l>Сам вижу я: необходимо слух,</l>
+          <l>Рассеянный расстригой, уничтожить;</l>
+          <l>Но есть на то иные средства — проще.</l>
+          <l>Так, государь, когда изволишь ты,</l>
+          <l>Я сам явлюсь на площади народной,</l>
+          <l>Уговорю, усовещу безумство</l>
+          <l>И злой обман бродяги обнаружу.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Да будет так! Владыко патриарх,</l>
+          <l>Прошу тебя пожаловать в палату:</l>
+          <l>Сегодня мне нужна твоя беседа.</l>
+          <stage>Уходит; за ним и все бояре.</stage>
+        </sp>
+        <sp who="#PervyjBojarin">
+          <speaker>Один боярин</speaker>
+          <stage type="delivery">(тихо другому)</stage>
+          <l>Заметил ты, как государь бледнел</l>
+          <l>И крупный пот с лица его закапал?</l>
+        </sp>
+        <sp who="#DrugojBojarin">
+          <speaker>Другой</speaker>
+          <l>Я — признаюсь — не смел поднять очей,</l>
+          <l>Не смел вздохнуть, не только шевельнуться.</l>
+        </sp>
+        <sp who="#PervyjBojarin">
+          <speaker>Первый боярин</speaker>
+          <l>А выручил князь Шуйский. Молодец!</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>РАВНИНА БЛИЗ НОВГОРОДА-СЕВЕРСКОГО</head>
+        <stage>(1604 года, 21 декабря)</stage>
+        <stage>Битва.</stage>
+        <sp who="#Voiny">
+          <speaker>Воины</speaker>
+          <stage type="delivery">(бегут в беспорядке)</stage>
+          <p>Беда, беда! Царевич! Ляхи! Вот они! вот они!</p>
+          <stage>Входят капитаны Маржерет и Вальтер Розен.</stage>
+        </sp>
+        <sp who="#Marzheret">
+          <speaker>Маржерет</speaker>
+          <p>Куда, куда? Allons… пошоль назад!</p>
+        </sp>
+        <sp who="#OdinIzBegletsov">
+          <speaker>Один из беглецов</speaker>
+          <p>Сам <emph>пошоль</emph>, коли есть охота, проклятый басурман.</p>
+        </sp>
+        <sp who="#Marzheret">
+          <speaker>Маржерет</speaker>
+          <p>Quoi? quoi?</p>
+        </sp>
+        <sp who="#DrugojIzBegletsov">
+          <speaker>Другой</speaker>
+          <p>Ква! ква! тебе любо, лягушка заморская, квакать на русского царевича; а мы ведь
+            православные.</p>
+        </sp>
+        <sp who="#Marzheret">
+          <speaker>Маржерет</speaker>
+          <p>Qu’est-ce à dire <emph>pravoslavni</emph>?.. Sacrés gueux, maudites canailles! Mordieu,
+            mein Herr, j’enrage: on dirait que ça n’a pas des bras pour frapper, ça n’a que des
+            jambes pour fuir.</p>
+        </sp>
+        <sp who="#VRozen">
+          <speaker>В. Розен</speaker>
+          <p>Es ist Schande.</p>
+        </sp>
+        <sp who="#Marzheret">
+          <speaker>Маржерет</speaker>
+          <p>Ventre-saint-gris! Je ne bouge plus d’un pas; puisque le vin est tiré, il faut le
+            boire. Qu’en dites-vous, mein herr?</p>
+        </sp>
+        <sp who="#VRozen">
+          <speaker>В. Розен</speaker>
+          <p>Sie haben Recht.</p>
+        </sp>
+        <sp who="#Marzheret">
+          <speaker>Маржерет</speaker>
+          <p>Diable, il y fait chaud! Ce diable de Samozvanetz, comme il s’appelle, est un brave à
+            trois poils.</p>
+        </sp>
+        <sp who="#VRozen">
+          <speaker>В. Розен</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#Marzheret">
+          <speaker>Маржерет</speaker>
+          <p>Hé! voyez donc, voyez donc! L’action s’engage sur les derrières de l’ennemi. Ce doit
+            être le brave Basmanoff, qui aurait fait une sortie.</p>
+        </sp>
+        <sp who="#VRozen">
+          <speaker>В. Розен</speaker>
+          <p>Ich glaube das.</p>
+          <stage>Входят немцы.</stage>
+        </sp>
+        <sp who="#Marzheret">
+          <speaker>Маржерет</speaker>
+          <p>На, ha! voici nos Allemands. Messieurs! Mein Herr, dites-leur donc de se rallier et,
+            sacrebleu, chargeons!</p>
+        </sp>
+        <sp who="#VRozen">
+          <speaker>В. Розен</speaker>
+          <p>Sehr gut. Halt!</p>
+          <stage>Немцы строятся.</stage>
+          <p>Marsch!</p>
+        </sp>
+        <sp who="#Nemtsy">
+          <speaker>Немцы</speaker>
+          <stage type="delivery">(идут)</stage>
+          <p>Hilf Gott!</p>
+          <stage>Сражение. Русские снова бегут.</stage>
+        </sp>
+        <sp who="#Ljahi">
+          <speaker>Ляхи</speaker>
+          <p>Победа! победа! Слава царю Димитрию.</p>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Димитрий</speaker>
+          <stage type="delivery">(верхом)</stage>
+          <p>Ударить отбой! Мы победили. Довольно; щадите русскую кровь. Отбой!</p>
+        </sp>
+        <stage>Трубят; бьют барабаны.</stage>
+      </div>
+      <div type="scene">
+        <head>ПЛОЩАДЬ ПЕРЕД СОБОРОМ В МОСКВЕ</head>
+        <stage>Народ.</stage>
+        <sp who="#OdinIzNaroda_2">
+          <speaker>Один</speaker>
+          <p>Скоро ли царь выйдет из собора?</p>
+        </sp>
+        <sp who="#DrugojIzNaroda_2">
+          <speaker>Другой</speaker>
+          <p>Обедня кончилась; теперь идет молебствие.</p>
+        </sp>
+        <sp who="#OdinIzNaroda_2">
+          <speaker>Первый</speaker>
+          <p>Что? уж проклинали того?</p>
+        </sp>
+        <sp who="#DrugojIzNaroda_2">
+          <speaker>Другой</speaker>
+          <p>Я стоял на паперти и слышал, как дьякон завопил: «Гришка Отрепьев — анафема!»</p>
+        </sp>
+        <sp who="#OdinIzNaroda_2">
+          <speaker>Первый</speaker>
+          <p>Пускай себе проклинают; царевичу дела нет до Отрепьева.</p>
+        </sp>
+        <sp who="#DrugojIzNaroda_2">
+          <speaker>Другой</speaker>
+          <p>А царевичу поют теперь вечную память.</p>
+        </sp>
+        <sp who="#OdinIzNaroda_2">
+          <speaker>Первый</speaker>
+          <p>Вечную память живому! Вот ужо им будет, безбожникам.</p>
+        </sp>
+        <sp who="#TretijIzNaroda_2">
+          <speaker>Третий</speaker>
+          <p>Чу! шум. Не царь ли?</p>
+        </sp>
+        <sp who="#ChetvertyjIzNaroda_2">
+          <speaker>Четвертый</speaker>
+          <p>Нет, это юродивый.</p>
+          <stage>Входит Юродивый в железной шапке, обвешенный веригами, окруженный
+            мальчишками.</stage>
+        </sp>
+        <sp who="#Malchishki">
+          <speaker>Мальчишки</speaker>
+          <p>Железный колпак! железный колпак!.. тр р р р…</p>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <p>Отвяжитесь от него, бесенята. Помолись, блаженный, за меня, грешную.</p>
+        </sp>
+        <sp who="#Jurodivyj">
+          <speaker>Юродивый</speaker>
+          <p>Дай, дай, дай копеечку.</p>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <p>Вот тебе копеечка; помяни же меня.</p>
+        </sp>
+        <sp who="#Jurodivyj">
+          <speaker>Юродивый</speaker>
+          <stage type="delivery">(садится на землю и поет)</stage>
+          <l>Месяц едет,</l>
+          <l>Котенок плачет,</l>
+          <l>Юродивый, вставай,</l>
+          <l>Богу помолися!</l>
+          <stage>Мальчишки окружают его снова.</stage>
+        </sp>
+        <sp who="#OdinIzMalchishek">
+          <speaker>Один из них</speaker>
+          <p>Здравствуй, юродивый; что же ты шапки не снимаешь? <stage>(Щелкает его по железной
+              шапке.)</stage> Эк она звонит!</p>
+        </sp>
+        <sp who="#Jurodivyj">
+          <speaker>Юродивый</speaker>
+          <p>А у меня копеечка есть.</p>
+        </sp>
+        <sp who="#OdinIzMalchishek">
+          <speaker>Мальчишка</speaker>
+          <p>Неправда, ну, покажи.</p>
+          <stage>(Вырывает копеечку и убегает.)</stage>
+        </sp>
+        <sp who="#Jurodivyj">
+          <speaker>Юродивый</speaker>
+          <stage type="delivery">(плачет)</stage>
+          <p>Взяли мою копеечку; обижают юродивого.</p>
+        </sp>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <p>Царь, царь идет.</p>
+          <stage>Царь выходит из собора; боярин впереди раздает нищим милостыню. Бояре.</stage>
+        </sp>
+        <sp who="#Jurodivyj">
+          <speaker>Юродивый</speaker>
+          <p>Борис, Борис! мальчишки обижают юродивого.</p>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <p>Подать ему милостыню. О чем он плачет?</p>
+        </sp>
+        <sp who="#Jurodivyj">
+          <speaker>Юродивый</speaker>
+          <p>Мальчишки меня обижают… Вели их зарезать, как зарезал ты маленького царевича.</p>
+        </sp>
+        <sp who="#Bojare">
+          <speaker>Бояре</speaker>
+          <p>Поди прочь, дурак! схватите дурака!</p>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <p>Оставьте его. Молись за меня, юродивый.</p>
+          <stage>(Уходит.)</stage>
+        </sp>
+        <sp who="#Jurodivyj">
+          <speaker>Юродивый</speaker>
+          <stage type="delivery">(ему вслед)</stage>
+          <p>Нет, нет! нельзя молиться за царя Ирода — Богородица не велит.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>СЕВСК</head>
+        <stage>Самозванец, окруженный своими. </stage>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="I">Где пленный?</l>
+        </sp>
+        <sp who="#Ljah">
+          <speaker>Лях</speaker>
+          <l part="M">Здесь.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Позвать его ко мне.</l>
+          <stage>Входит русский пленник.</stage>
+          <l part="I">Кто ты?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">Рожнов, московский дворянин.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="I">Давно ли ты на службе?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">С месяц будет.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Не совестно, Рожнов, что на меня</l>
+          <l part="I">Ты поднял меч?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">Как быть, не наша воля.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="I">Сражался ты под Северским?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">Я прибыл</l>
+          <l>Недели две по битве из Москвы.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="I">Что Годунов?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">Он очень был встревожен</l>
+          <l>Потерею сражения и раной</l>
+          <l>Мстиславского, и Шуйского послал</l>
+          <l part="I">Начальствовать над войском.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">А зачем</l>
+          <l>Он отозвал Басманова в Москву?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l>Царь наградил его заслуги честью</l>
+          <l>И золотом. Басманов в Царской думе</l>
+          <l part="I">Теперь сидит.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Он в войске был нужнее.</l>
+          <l part="I">Ну что в Москве?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">Всё, слава Богу, тихо.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="I">Что? ждут меня?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">Бог знает; о тебе</l>
+          <l>Там говорить не слишком нынче смеют.</l>
+          <l>Кому язык отрежут, а кому</l>
+          <l>И голову. Такая, право, притча,</l>
+          <l>Что день, то казнь. Тюрьмы битком набиты.</l>
+          <l>На площади, где человека три</l>
+          <l>Сойдутся, — глядь — лазутчик уж и вьется,</l>
+          <l>А государь досужною порою</l>
+          <l>Доносчиков допрашивает сам.</l>
+          <l>Как раз беда; так лучше уж молчать.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Завидна жизнь Борисовых людей!</l>
+          <l part="I">Ну, войско что?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="F">Что с ним? одето, сыто,</l>
+          <l part="I">Довольно всем.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Да много ли его?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l part="I">Бог ведает.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">А будет тысяч тридцать?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l>Да наберешь и тысяч пятьдесят.</l>
+          <stage>Самозванец задумывается; окружающие смотрят друг на друга.</stage>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Ну! обо мне как судят в вашем стане?</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l>А говорят о милости твоей,</l>
+          <l>Что ты, дескать (будь не во гнев), и вор,</l>
+          <l part="I">А молодец.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <stage type="delivery">(смеясь)</stage>
+          <l part="F">Так это я на деле</l>
+          <l>Им докажу; друзья, не станем ждать</l>
+          <l>Мы Шуйского; я поздравляю вас:</l>
+          <l part="I">Назавтра бой.</l>
+          <stage>(Уходит.)</stage>
+        </sp>
+        <sp who="#Ljahi">
+          <speaker>Все</speaker>
+          <l part="F">Да здравствует Димитрий!</l>
+        </sp>
+        <sp who="#Ljah">
+          <speaker>Лях</speaker>
+          <l>Назавтра бой! их тысяч пятьдесят,</l>
+          <l>А нас всего едва ль пятнадцать тысяч, —</l>
+          <l part="I">С ума сошел.</l>
+        </sp>
+        <sp who="#DrugojLjah">
+          <speaker>Другой</speaker>
+          <l part="F">Пустое, друг: поляк</l>
+          <l>Один пятьсот москалей вызвать может.</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l>Да, вызовешь! а как дойдет до драки,</l>
+          <l>Так убежишь от одного, хвастун.</l>
+        </sp>
+        <sp who="#Ljah">
+          <speaker>Лях</speaker>
+          <l>Когда б ты был при сабле, дерзкий пленник,</l>
+          <l part="I">То я тебя</l>
+          <stage>(указывая на свою саблю)</stage>
+          <l part="F">вот этим бы смирил.</l>
+        </sp>
+        <sp who="#Plennik">
+          <speaker>Пленник</speaker>
+          <l>Наш брат русак без сабли обойдется:</l>
+          <l part="I">Не хочешь ли вот этого,</l>
+          <stage>(показывая кулак)</stage>
+          <l part="F">безмозглый!</l>
+        </sp>
+        <stage>Лях гордо смотрит на него и молча отходит.</stage>
+        <stage>Все смеются.</stage>
+      </div>
+      <div type="scene">
+        <head>ЛЕС</head>
+        <stage>Лжедимитрий, Пушкин.</stage>
+        <stage>В отдалении лежит конь издыхающий.</stage>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Лжедимитрий</speaker>
+          <l>Мой бедный конь! как бодро поскакал</l>
+          <l>Сегодня он в последнее сраженье</l>
+          <l>И, раненый, как быстро нес меня.</l>
+          <l part="I">Мой бедный конь.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <stage type="delivery">(про себя)</stage>
+          <l part="F">Ну, вот о чем жалеет,</l>
+          <l>Об лошади! когда всё наше войско</l>
+          <l part="I">Побито в прах!</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">Послушай, может быть,</l>
+          <l>От раны он лишь только заморился</l>
+          <l part="I">И отдохнет.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Куда! он издыхает.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <stage type="delivery">(идет к своему коню)</stage>
+          <l>Мой бедный конь!.. Что делать? снять узду</l>
+          <l>Да отстегнуть подпругу. Пусть на воле</l>
+          <l part="I">Издохнет он.</l>
+          <stage>(Разуздывает и расседлывает коня.)</stage>
+          <stage>Входят несколько ляхов.</stage>
+          <l part="F">Здорово, господа!</l>
+          <l>Что ж Курбского не вижу между вами?</l>
+          <l>Я видел, как сегодня в гущу боя</l>
+          <l>Он врезался; тьмы сабель молодца,</l>
+          <l>Что зыбкие колосья, облепили;</l>
+          <l>Но меч его всех выше подымался,</l>
+          <l>А грозный клик все клики заглушал.</l>
+          <l part="I">Где ж витязь мой?</l>
+        </sp>
+        <sp who="#Ljah_Les">
+          <speaker>Лях</speaker>
+          <l part="F">Он лег на поле смерти.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Честь храброму, и мир его душе!</l>
+          <l>Как мало нас от битвы уцелело!</l>
+          <l>Изменники, злодеи запорожцы,</l>
+          <l>Проклятые! вы, вы сгубили нас.</l>
+          <l>Не выдержать и трех минут отпора!</l>
+          <l>Я их ужо! десятого повешу,</l>
+          <l part="I">Разбойники!</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Кто там ни виноват,</l>
+          <l>Но все-таки мы начисто разбиты,</l>
+          <l part="I">Истреблены.</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l part="F">А дело было наше,</l>
+          <l>Я было смял передовую рать —</l>
+          <l>Да немцы нас порядком отразили;</l>
+          <l>А молодцы! ей-Богу, молодцы!</l>
+          <l>Люблю за то; из них уж непременно</l>
+          <l>Составлю я почетную дружину.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l>А где-то нам сегодня ночевать?</l>
+        </sp>
+        <sp who="#Grigorij_Dimitrij_Lzhedimitrij_Samozvanets">
+          <speaker>Самозванец</speaker>
+          <l>Да здесь, в лесу. Чем это не ночлег?</l>
+          <l>Чем свет, мы в путь; к обеду будем в Рыльске.</l>
+          <l part="I">Спокойна ночь.</l>
+          <stage>(Ложится, кладет седло под голову и засыпает.)</stage>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Приятный сон, царевич!</l>
+          <l>Разбитый в прах, спасаяся побегом,</l>
+          <l>Беспечен он, как глупое дитя;</l>
+          <l>Хранит его конечно Провиденье;</l>
+          <l>И мы, друзья, не станем унывать.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>МОСКВА. ЦАРСКИЕ ПАЛАТЫ</head>
+        <stage>Борис, Басманов. </stage>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Он побежден, какая польза в том?</l>
+          <l>Мы тщетною победой увенчались.</l>
+          <l>Он вновь собрал рассеянное войско</l>
+          <l>И нам со стен Путивля угрожает.</l>
+          <l>Что делают меж тем герои наши?</l>
+          <l>Стоят у Кром, где кучка казаков</l>
+          <l>Смеются им из-под гнилой ограды.</l>
+          <l>Вот слава! Нет, я ими недоволен;</l>
+          <l>Пошлю тебя начальствовать над ними;</l>
+          <l>Не род, а ум поставлю в воеводы;</l>
+          <l>Пускай их спесь о местничестве тужит;</l>
+          <l>Пора презреть мне ропот знатной черни</l>
+          <l>И гибельный обычай уничтожить.</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l>Ах, государь, стократ благословен</l>
+          <l>Тот будет день, когда разрядны книги</l>
+          <l>С раздорами, с гордыней родословной</l>
+          <l part="I">Пожрет огонь!</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">День этот недалек;</l>
+          <l>Лишь дай сперва смятение народа</l>
+          <l part="I">Мне усмирить.</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="F">Что на него смотреть;</l>
+          <l>Всегда народ к смятенью тайно склонен:</l>
+          <l>Так борзый конь грызет свои бразды;</l>
+          <l>На власть отца так отрок негодует;</l>
+          <l>Но что ж? конем спокойно всадник правит,</l>
+          <l>И отроком отец повелевает.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Конь иногда сбивает седока,</l>
+          <l>Сын у отца не вечно в полной воле;</l>
+          <l>Лишь строгостью мы можем неусыпной</l>
+          <l>Сдержать народ. Так думал Иоанн,</l>
+          <l>Смиритель бурь, разумный самодержец,</l>
+          <l>Так думал и его свирепый внук.</l>
+          <l>Нет, милости не чувствует народ:</l>
+          <l>Твори добро — не скажет он спасибо,</l>
+          <l>Грабь и казни — тебе не будет хуже.</l>
+          <stage>Входит боярин.</stage>
+          <l part="I">Что?</l>
+        </sp>
+        <sp who="#Bojarin">
+          <speaker>Боярин</speaker>
+          <l part="F">Привели гостей иноплеменных.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Иду принять; Басманов, погоди,</l>
+          <l>Останься здесь: с тобой еще мне нужно</l>
+          <l part="I">Поговорить.</l>
+          <stage>(Уходит.)</stage>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="F">Высокий дух державный.</l>
+          <l>Дай Бог ему с Отрепьевым проклятым</l>
+          <l>Управиться, и много, много он</l>
+          <l>Еще добра в России сотворит.</l>
+          <l>Мысль важная в уме его родилась.</l>
+          <l>Не надобно ей дать остыть. Какое</l>
+          <l>Мне поприще откроется, когда</l>
+          <l>Он сломит рог боярству родовому.</l>
+          <l>Соперников во брани я не знаю;</l>
+          <l>У царского престола стану первый…</l>
+          <l>И может быть… Но что за чудный шум?</l>
+          <stage>Тревога. Бояре, придворные служители в беспорядке бегут, встречаются и
+            шепчутся.</stage>
+        </sp>
+        <sp who="#OdinPridvornyj">
+          <speaker>Один</speaker>
+          <l part="I">За лекарем!</l>
+        </sp>
+        <sp who="#DrugojPridvornyj">
+          <speaker>Другой</speaker>
+          <l part="F">Скорее к патриарху.</l>
+        </sp>
+        <sp who="#TretijPridvornyj">
+          <speaker>Третий</speaker>
+          <l>Царевича, царевича зовет!</l>
+        </sp>
+        <sp who="#ChetvertyjPridvornyj">
+          <speaker>Четвертый</speaker>
+          <l part="I">Духовника!</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="F">Что сделалось такое?</l>
+        </sp>
+        <sp who="#PjatyjPridvornyj">
+          <speaker>Пятый</speaker>
+          <l part="I">Царь занемог.</l>
+        </sp>
+        <sp who="#ShestojPridvornyj">
+          <speaker>Шестой</speaker>
+          <l part="M">Царь умирает.</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="F">Боже!</l>
+        </sp>
+        <sp who="#PjatyjPridvornyj">
+          <speaker>Пятый</speaker>
+          <l>На троне он сидел и вдруг упал;</l>
+          <l>Кровь хлынула из уст и из ушей.</l>
+          <stage>Царя выносят на стуле; всё царское семейство, все бояре.</stage>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Подите все — оставьте одного</l>
+          <l part="I">Царевича со мною.</l>
+          <stage>Все удаляются.</stage>
+          <l part="F">Умираю;</l>
+          <l>Обнимемся; прощай, мой сын: сейчас</l>
+          <l>Ты царствовать начнешь… о Боже, Боже!</l>
+          <l>Сейчас явлюсь перед Тобой — и душу</l>
+          <l>Мне некогда очистить покаяньем.</l>
+          <l>Но чувствую — мой сын, ты мне дороже</l>
+          <l>Душевного спасенья… так и быть!</l>
+          <l>Я подданным рожден, и умереть</l>
+          <l>Мне подданным во мраке б надлежало;</l>
+          <l>Но я достиг верховной власти — чем?</l>
+          <l>Не спрашивай. Довольно: ты невинен,</l>
+          <l>Ты царствовать теперь по праву станешь,</l>
+          <l>А я за всё один отвечу Богу.</l>
+          <l>О милый сын, не обольщайся ложно,</l>
+          <l>Не ослепляй себя ты добровольно.</l>
+          <l>В дни бурные державу ты приемлешь:</l>
+          <l>Опасен он, сей чудный самозванец,</l>
+          <l>Он именем ужасным ополчен.</l>
+          <l>Я, с давних лет в правленьи искушенный,</l>
+          <l>Мог удержать смятенье и мятеж;</l>
+          <l>Передо мной они дрожали в страхе;</l>
+          <l>Возвысить глас измена не дерзала —</l>
+          <l>Но ты, младой, неопытный властитель,</l>
+          <l>Как управлять ты будешь под грозой,</l>
+          <l>Тушить мятеж, опутывать измену?</l>
+          <l>Но Бог велик! Он умудряет юность,</l>
+          <l>Он слабости дарует силу… слушай:</l>
+          <l>Советника, во-первых, избери</l>
+          <l>Надежного, холодных, зрелых лет,</l>
+          <l>Любимого народом — а в боярах</l>
+          <l>Почтенного породой или славой —</l>
+          <l>Хоть Шуйского. Для войска ныне нужен</l>
+          <l>Искусный вождь: Басманова пошли</l>
+          <l>И с твердостью снеси боярский ропот.</l>
+          <l>Ты с малых лет сидел со мною в Думе,</l>
+          <l>Ты знаешь ход державного правленья;</l>
+          <l>Не изменяй теченья дел. Привычка —</l>
+          <l>Душа держав. Я ныне должен был</l>
+          <l>Восстановить опалы, казни — можешь</l>
+          <l>Их отменить; тебя благословят,</l>
+          <l>Как твоего благословляли дядю,</l>
+          <l>Когда престол он Грозного приял.</l>
+          <l>Со временем и понемногу снова</l>
+          <l>Затягивай державные бразды.</l>
+          <l>Теперь ослабь, из рук не выпуская, —</l>
+          <l>Будь милостив, доступен к иноземцам,</l>
+          <l>Доверчиво их службу принимай.</l>
+          <l>Со строгостью храни устав церковный;</l>
+          <l>Будь молчалив; не должен царский голос</l>
+          <l>На воздухе теряться по-пустому;</l>
+          <l>Как звон святой, он должен лишь вещать</l>
+          <l>Велику скорбь или великий праздник.</l>
+          <l>О милый сын! ты входишь в те лета,</l>
+          <l>Когда нам кровь волнует женский лик.</l>
+          <l>Храни, храни святую чистоту</l>
+          <l>Невинности и гордую стыдливость:</l>
+          <l>Кто чувствами в порочных наслажденьях</l>
+          <l>В младые дни привыкнул утопать,</l>
+          <l>Тот, возмужав, угрюм и кровожаден,</l>
+          <l>И ум его безвременно темнеет.</l>
+          <l>В семье своей будь завсегда главою;</l>
+          <l>Мать почитай, но властвуй сам собою —</l>
+          <l>Ты муж и царь; люби свою сестру —</l>
+          <l>Ты ей один хранитель остаешься.</l>
+        </sp>
+        <sp who="#Feodor">
+          <speaker>Феодор</speaker>
+          <stage type="delivery">(на коленах)</stage>
+          <l>Нет, нет — живи и царствуй долговечно:</l>
+          <l>Народ и мы погибли без тебя.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l>Всё кончено — глаза мои темнеют,</l>
+          <l part="I">Я чувствую могильный хлад…</l>
+          <stage>Входит патриарх, святители, за ними все бояре. Царицу ведут под руки, царевна
+            рыдает.</stage>
+          <l part="F">Кто там?</l>
+          <l>А! схима… так! святое постриженье…</l>
+          <l>Ударил час! в монахи царь идет…</l>
+          <l>И темный гроб моею будет кельей.</l>
+          <l>Повремени, владыка патриарх,</l>
+          <l>Я царь еще: внемлите вы, бояре:</l>
+          <l>Се тот, кому приказываю царство;</l>
+          <l>Целуйте крест Феодору… Басманов,</l>
+          <l>Друзья мои… при гробе вас молю</l>
+          <l>Ему служить усердием и правдой!</l>
+          <l>Он так еще и млад и непорочен.</l>
+          <l part="I">Клянетесь ли?</l>
+        </sp>
+        <sp who="#Bojare">
+          <speaker>Бояре</speaker>
+          <l part="M">Клянемся.</l>
+        </sp>
+        <sp who="#Tsar_Boris">
+          <speaker>Царь</speaker>
+          <l part="F">Я доволен.</l>
+          <l>Простите ж мне соблазны и грехи</l>
+          <l>И вольные и тайные обиды…</l>
+          <l>Святый отец, приближься, я готов.</l>
+        </sp>
+        <stage>Начинается обряд пострижения.</stage>
+        <stage>Женщин в обмороке выносят.</stage>
+      </div>
+      <div type="scene">
+        <head>СТАВКА</head>
+        <stage>Басманов вводит Пушкина.</stage>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l>Войди сюда и говори свободно.</l>
+          <l>Итак, тебя ко мне он посылает?</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l>Тебе свою он дружбу предлагает</l>
+          <l>И первый сан по нем в Московском царстве.</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l>Но я и так Феодором высоко</l>
+          <l>Уж вознесен; начальствую над войском;</l>
+          <l>Он для меня презрел и чин разрядный,</l>
+          <l>И гнев бояр — я присягал ему.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l>Ты присягал наследнику престола</l>
+          <l>Законному; но если жив другой,</l>
+          <l part="I">Законнейший?..</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="F">Послушай, Пушкин, полно,</l>
+          <l>Пустого мне не говори; я знаю,</l>
+          <l part="I">Кто он такой.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Россия и Литва</l>
+          <l>Димитрием давно его признали,</l>
+          <l>Но, впрочем, я за это не стою.</l>
+          <l>Быть может, он Димитрий настоящий,</l>
+          <l>Быть может, он и самозванец; только</l>
+          <l>Я ведаю, что рано или поздно</l>
+          <l>Ему Москву уступит сын Борисов.</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l>Пока стою за юного царя,</l>
+          <l>Дотоле он престола не оставит;</l>
+          <l>Полков у нас довольно, слава Богу!</l>
+          <l>Победою я их одушевлю,</l>
+          <l>А вы, кого против меня пошлете:</l>
+          <l>Не казака ль Карелу али Мнишка?</l>
+          <l>Да много ль вас? всего-то восемь тысяч.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l>Ошибся ты: и тех не наберешь.</l>
+          <l>Я сам скажу, что войско наше дрянь,</l>
+          <l>Что казаки лишь только села грабят,</l>
+          <l>Что поляки лишь хвастают да пьют,</l>
+          <l>А русские… да что и говорить —</l>
+          <l>Перед тобой не стану я лукавить;</l>
+          <l>Но знаешь ли, чем сильны мы, Басманов?</l>
+          <l>Не войском, нет, не польскою помогой,</l>
+          <l>А мнением — да, мнением народным.</l>
+          <l>Димитрия ты помнишь торжество</l>
+          <l>И мирные его завоеванья,</l>
+          <l>Когда везде без выстрела ему</l>
+          <l>Послушные сдавались города,</l>
+          <l>А воевод упрямых чернь вязала?</l>
+          <l>Ты видел сам: охотно ль ваши рати</l>
+          <l>Сражались с ним? Когда же? При Борисе.</l>
+          <l>А нынче ль?.. Нет, Басманов, поздно спорить</l>
+          <l>И раздувать холодный пепел брани:</l>
+          <l>Со всем твоим умом и твердой волей</l>
+          <l>Не устоишь; не лучше ли тебе</l>
+          <l>Дать первому пример благоразумный,</l>
+          <l>Димитрия царем провозгласить</l>
+          <l>И тем ему навеки удружить?</l>
+          <l part="I">Как думаешь?</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="F">Узнаете вы завтра.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="I">Решись.</l>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l part="M">Прощай.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Подумай же, Басманов.</l>
+          <stage>(Уходит.)</stage>
+        </sp>
+        <sp who="#Basmanov">
+          <speaker>Басманов</speaker>
+          <l>Он прав, он прав, везде измена зреет —</l>
+          <l>Что делать мне? Ужели буду ждать,</l>
+          <l>Чтоб и меня бунтовщики связали</l>
+          <l>И выдали Отрепьеву? Не лучше ль</l>
+          <l>Предупредить разрыв потока бурный</l>
+          <l>И самому… Но изменить присяге!</l>
+          <l>Но заслужить бесчестье в род и род!</l>
+          <l>Доверенность младого венценосца</l>
+          <l>Предательством ужасным заплатить!</l>
+          <l>Опальному изгнаннику легко</l>
+          <l>Обдумывать мятеж и заговор,</l>
+          <l>Но мне ли, мне ль, любимцу государя…</l>
+          <l>Но смерть… но власть… но бедствия народны…</l>
+          <stage>(Задумывается.)</stage>
+          <l part="I">Сюда! кто там?</l>
+          <stage>(Свищет.)</stage>
+          <l part="F">Коня! трубите сбор.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>ЛОБНОЕ МЕСТО</head>
+        <stage>Пушкин идет, окруженный народом. </stage>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <l>Царевич нам боярина послал.</l>
+          <l>Послушаем, что скажет нам боярин.</l>
+          <l part="I">Сюда! сюда!</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <stage type="delivery">(на амвоне)</stage>
+          <l part="F">Московские граждане,</l>
+          <l>Вам кланяться царевич приказал.</l>
+          <stage>(Кланяется.)</stage>
+          <l>Вы знаете, как промысел небесный</l>
+          <l>Царевича от рук убийцы спас;</l>
+          <l>Он шел казнить злодея своего,</l>
+          <l>Но Божий суд уж поразил Бориса.</l>
+          <l>Димитрию Россия покорилась;</l>
+          <l>Басманов сам с раскаяньем усердным</l>
+          <l>Свои полки привел ему к присяге.</l>
+          <l>Димитрий к вам идет с любовью, с миром.</l>
+          <l>В угоду ли семейству Годуновых</l>
+          <l>Подымете вы руку на царя</l>
+          <l>Законного, на внука Мономаха?</l>
+        </sp>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <l part="I">Вестимо, нет.</l>
+        </sp>
+        <sp who="#GavrilaPushkin">
+          <speaker>Пушкин</speaker>
+          <l part="F">Московские граждане,</l>
+          <l>Мир ведает, сколь много вы терпели</l>
+          <l>Под властию жестокого пришельца:</l>
+          <l>Опалу, казнь, бесчестие, налоги,</l>
+          <l>И труд, и глад — всё испытали вы.</l>
+          <l>Димитрий же вас жаловать намерен,</l>
+          <l>Бояр, дворян, людей приказных, ратных,</l>
+          <l>Гостей, купцов — и весь честный народ.</l>
+          <l>Вы ль станете упрямиться безумно</l>
+          <l>И милостей кичливо убегать?</l>
+          <l>Но он идет на царственный престол</l>
+          <l>Своих отцов в сопровожденьи грозном.</l>
+          <l>Не гневайте ж царя и бойтесь Бога,</l>
+          <l>Целуйте крест законному владыке;</l>
+          <l>Смиритеся, немедленно пошлите</l>
+          <l>К Димитрию во стан митрополита,</l>
+          <l>Бояр, дьяков и выборных людей,</l>
+          <l>Да бьют челом отцу и государю.</l>
+          <stage>(Сходит.)</stage>
+          <stage>Шум народный.</stage>
+        </sp>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <l>Что толковать? Боярин правду молвил.</l>
+          <l>Да здравствует Димитрий, наш отец!</l>
+        </sp>
+        <sp who="#MuzhikNaAmvone">
+          <speaker>Мужик на амвоне</speaker>
+          <l>Народ! народ! в Кремль! в царские палаты!</l>
+          <l>Ступай! вязать Борисова щенка!</l>
+        </sp>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <stage type="delivery">(несется толпою)</stage>
+          <l>Вязать! топить! Да здравствует Димитрий!</l>
+          <l>Да гибнет род Бориса Годунова!</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>КРЕМЛЬ. ДОМ БОРИСОВ.<lb/>СТРАЖА У КРЫЛЬЦА</head>
+        <stage>Феодор под окном.</stage>
+        <sp who="#Nischij">
+          <speaker>Нищий</speaker>
+          <p>Дайте милостыню Христа ради!</p>
+        </sp>
+        <sp who="#Strazha">
+          <speaker>Стража</speaker>
+          <p>Поди прочь; не велено говорить с заключенными.</p>
+        </sp>
+        <sp who="#Feodor">
+          <speaker>Феодор</speaker>
+          <p>Поди, старик, я беднее тебя, ты на воле.</p>
+          <stage>Ксения под покрывалом подходит также к окну.</stage>
+        </sp>
+        <sp who="#OdinIzNaroda_3">
+          <speaker>Один из народа</speaker>
+          <p>Брат да сестра! бедные дети, что пташки в клетке.</p>
+        </sp>
+        <sp who="#DrugojIzNaroda_3">
+          <speaker>Другой</speaker>
+          <p>Есть о ком жалеть? Проклятое племя!</p>
+        </sp>
+        <sp who="#OdinIzNaroda_3">
+          <speaker>Первый</speaker>
+          <p>Отец был злодей, а детки невинны.</p>
+        </sp>
+        <sp who="#DrugojIzNaroda_3">
+          <speaker>Другой</speaker>
+          <p>Яблоко от яблони недалеко падает.</p>
+        </sp>
+        <sp who="#Ksenija">
+          <speaker>Ксения</speaker>
+          <p>Братец! братец! кажется, к нам бояре идут.</p>
+        </sp>
+        <sp who="#Feodor">
+          <speaker>Феодор</speaker>
+          <p>Это Голицын, Мосальский. Другие мне незнакомы.</p>
+        </sp>
+        <sp who="#Ksenija">
+          <speaker>Ксения</speaker>
+          <p>Ах, братец, сердце замирает.</p>
+          <stage>Голицын, Мосальский, Молчанов и Шерефединов; за ними трое стрельцов.</stage>
+        </sp>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <p>Расступитесь, расступитесь: бояре идут.</p>
+          <stage>Они входят в дом.</stage>
+        </sp>
+        <sp who="#OdinIzNaroda_4">
+          <speaker>Один из народа</speaker>
+          <p>Зачем они пришли?</p>
+        </sp>
+        <sp who="#DrugojIzNaroda_4">
+          <speaker>Другой</speaker>
+          <p>А верно, приводить к присяге Феодора Годунова.</p>
+        </sp>
+        <sp who="#TretijIzNaroda_4">
+          <speaker>Третий</speaker>
+          <p>В самом деле? Слышишь, какой в доме шум! Тревога! дерутся!</p>
+        </sp>
+        <sp who="#Narod">
+          <speaker>Народ</speaker>
+          <p>Слышишь? Визг! это женский голос… Взойдем! — Двери заперты — крики замолкли — шум
+            продолжается.</p>
+          <stage>Отворяются двери. Мосальский является на крыльце. </stage>
+        </sp>
+        <sp who="#Mosalskij">
+          <speaker>Мосальский</speaker>
+          <p>Народ! Мария Годунова и сын ее Феодор отравили себя ядом. Мы видели их мертвые
+            трупы.</p>
+          <stage>Народ в ужасе молчит. </stage>
+          <p>Что ж вы молчите? Кричите: да здравствует царь Димитрий Иванович!</p>
+        </sp>
+        <stage>Народ безмолвствует.</stage>
+        <stage>Конец</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

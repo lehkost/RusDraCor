@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Дитя Аллаха</title>
+        <title type="main" xml:lang="en">The Child of Allah</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q311033">Гумилёв, Николай Степанович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/gumilyov-ditja-allaha</idno>
+        <idno type="RusDraCor">45</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Дитя_Аллаха_(Гумилёв)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1917">"1917 году, пьеса была опубликована на страницах
+              «Аполлона» (№ 6-7)." (Wikipedia)</date>
+            <date type="premiere" when="1922">"Первым появлением пьесы на сцене можно считать
+              берлинскую постановку 1922 года." (Wikipedia)</date>
+            <date type="written" when="1916">"Точное время создания пьесы неизвестно, обычно она
+              датируется зимой 1916 года." (Wikipedia)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Dervish" sex="MALE">
+            <persName>Дервиш</persName>
+          </person>
+          <person xml:id="Peri" sex="FEMALE">
+            <persName>Пери</persName>
+          </person>
+          <person xml:id="Junosha" sex="MALE">
+            <persName>Юноша</persName>
+          </person>
+          <person xml:id="Rab" sex="MALE">
+            <persName>Раб</persName>
+          </person>
+          <person xml:id="Beduin" sex="MALE">
+            <persName>Бедуин</persName>
+          </person>
+          <person xml:id="Iskander" sex="MALE">
+            <persName>Искандер</persName>
+          </person>
+          <person xml:id="Kalif" sex="MALE">
+            <persName>Калиф</persName>
+          </person>
+          <person xml:id="Astrolog" sex="MALE">
+            <persName>Астролог</persName>
+          </person>
+          <person xml:id="Staruha" sex="FEMALE">
+            <persName>Старуха</persName>
+          </person>
+          <person xml:id="Kadi" sex="MALE">
+            <persName>Кади</persName>
+          </person>
+          <person xml:id="Shejh" sex="MALE">
+            <persName>Шейх</persName>
+          </person>
+          <person xml:id="Pirat" sex="MALE">
+            <persName>Пират</persName>
+          </person>
+          <person xml:id="SynKalifa" sex="MALE">
+            <persName>Сын Калифа</persName>
+          </person>
+          <person xml:id="Sindbad" sex="MALE">
+            <persName>Синдбад</persName>
+          </person>
+          <person xml:id="Glashataj" sex="MALE">
+            <persName>Глашатай</persName>
+          </person>
+          <person xml:id="PervyjJevnuh" sex="MALE">
+            <persName>1-й евнух</persName>
+          </person>
+          <person xml:id="VtorojJevnuh" sex="MALE">
+            <persName>2-й евнух</persName>
+          </person>
+          <person xml:id="Gafiz" sex="MALE">
+            <persName>Гафиз</persName>
+          </person>
+          <person xml:id="Ptitsy" sex="UNKNOWN">
+            <persName>Птицы</persName>
+          </person>
+          <person xml:id="Angel" sex="UNKNOWN">
+            <persName>Ангел</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#IrinaPavlova" when="2017-04-13">convert from source</change>
+        <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#ff" when="2017-07-07">connect lines via 'part' attribute</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Дитя Аллаха</titlePart>
+      </docTitle>
+    </front>
+    <body>
+      <div type="scene">
+        <head>Картина первая</head>
+        <stage>Пустыня. Закат солнца.</stage>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <stage type="delivery">(молится)</stage>
+          <l>Благословен Аллах, создавший</l>
+          <l>Солнцеворот с зимой и летом</l>
+          <l>И в мраке ночи указавший</l>
+          <l>Пути планетам и кометам,</l>
+          <l>Как блещет звёздная дорога,</l>
+          <l>Где для проворного стрельца</l>
+          <l>Он выпускает козерога,</l>
+          <l>Овна и тучного тельца!</l>
+          <l>Велик Аллах, создавший сушу</l>
+          <l>И океан вокруг создавший,</l>
+          <l>Мою колеблемую душу</l>
+          <l>Соблазнами не искушавший,</l>
+          <l>Я стар, я беден, я незнатен,</l>
+          <l>Но я люблю тебя, Аллах,</l>
+          <l>И мне не виден, мне не внятен</l>
+          <l>Мир, утопающий в грехах.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <stage type="delivery">(входит)</stage>
+          <l>Ты — дервиш, первый в нашей вере?</l>
+          <l>Ты сыплешь мудрость, как цветы?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="I">А кто ты, девушка?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="F">Я — Пери.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Небесная, откуда ты?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Я, пролетая лётом птицы</l>
+          <l>За самой дальней из планет,</l>
+          <l>Нашла подкову кобылицы,</l>
+          <l>Которой правил Магомет.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Стопы твои за то целую!</l>
+          <l>Да будет жизнь твоя светла!</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Я ту подкову золотую</l>
+          <l>Аллаху верно отнесла</l>
+          <l>И так сказала: «Я упрямо,</l>
+          <l>Творец, молю у ног твоих —</l>
+          <l>Пусти меня к сынам Адама,</l>
+          <l>Стать милой лучшего из них»</l>
+          <l>И сделал он меня свободной,</l>
+          <l>Но, чтобы не ошиблась я,</l>
+          <l>Дана звездою путеводной</l>
+          <l>Мне мудрость дивная твоя.</l>
+          <l>Все семь небес и все четыре</l>
+          <l>Стихии ведомы тебе:</l>
+          <l>Скажи, кто первый в этом мире,</l>
+          <l>Да вверюсь я его судьбе.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Дитя моё, молю, не требуй</l>
+          <l>Уроков мудрости моей:</l>
+          <l>Я предался душою небу,</l>
+          <l>Бегу мятущихся людей.</l>
+          <l>Но я тебе, ребёнку Бога,</l>
+          <l>— Да славится Его лицо —</l>
+          <l>Дам белого единорога</l>
+          <l>И Соломоново кольцо.</l>
+          <l>Они — плоды моих молений,</l>
+          <l>Я в новолунье их достал</l>
+          <l>Ценою многих искушений,</l>
+          <l>Смотря в магический кристалл.</l>
+          <l>Покорный только чистой деве</l>
+          <l>И сам небесной чистоты,</l>
+          <l>Единорог ужасен в гневе</l>
+          <l>Для недостойных красоты.</l>
+          <l>Кольцо с молитвою Господней</l>
+          <l>На палец милому надень,</l>
+          <l>И, если слаб он, в преисподней</l>
+          <l>Ещё одна заплачет тень.</l>
+          <l>Теперь прощай, но знай — повсюду</l>
+          <l>Я счастья твоего кузнец.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Твоих щедрот я не забуду,</l>
+          <l>Благодарю тебя, отец.</l>
+          <stage>(Дервиш передаёт единорога и кольцо, сам удаляется; проходят верблюды, на одном
+            сидит юноша, рядом идет раб)</stage>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>Как я пустыню ненавижу,</l>
+          <l>Пески, миражи и бурьян!</l>
+        </sp>
+        <sp who="#Rab">
+          <speaker>Раб</speaker>
+          <l part="I">Ты видишь девушку?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l part="F">Я вижу,</l>
+          <l>Остановите караван.</l>
+          <l>Скорей несите винограду,</l>
+          <l>Шербет и фиников в меду!</l>
+          <l>О, девушка, я шёл к Багдаду</l>
+          <l>И, видишь, больше не иду.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Ты — лучший из сынов Адама?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>О да, для неги и любви.</l>
+          <l>Взгляни на взор, смотрящий прямо,</l>
+          <l>На губы красные мои.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="I">Ты царь?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l part="M">Для девушек.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="F">Ты воин?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>Когда сражаюсь с бурдюком.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="I">Певец, быть может?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l part="F">Я достоин,</l>
+          <l>Клянусь, назваться и певцом.</l>
+          <l>Ведь лютня дочери эмира,</l>
+          <l>Свирель пастушки молодой,</l>
+          <l>Гречанки золотая лира</l>
+          <l>Звучат, взволнованные мной.</l>
+          <l>От Басры до Бени-Алема,</l>
+          <l>Поверь, ты не найдёшь гарема,</l>
+          <l>Где не вздыхали бы с тоскою</l>
+          <l>О ночи сладостной со мною.</l>
+          <l>Я знаю головокруженье,</l>
+          <l>Какое дарит наслажденье</l>
+          <l>Между собой переплетённым</l>
+          <l>И очарованным влюблённым.</l>
+          <l>И знаю я слова нежнее,</l>
+          <l>Чем ветер в розовой аллее,</l>
+          <l>Слова нежданней и чудесней</l>
+          <l>Ручья и соловьиной песни.</l>
+          <l>Твои беспомощные руки,</l>
+          <l>Пугливые, как серны, очи,</l>
+          <l>Я знаю, ищут сладкой муки,</l>
+          <l>Хотят безмолвия и ночи.</l>
+        </sp>
+        <sp who="#Rab">
+          <speaker>Раб</speaker>
+          <l>Прикажешь приготовить ложе?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Любовь, так вот она любовь!</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>Ответь мне, милая, ну, что же?</l>
+          <stage>(Рабу)</stage>
+          <l>Дурак, конечно приготовь!</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Как в сердце усмирить тревогу?</l>
+          <l>Мне кажется, что я люблю…</l>
+          <l>Я белому единорогу</l>
+          <l>Передаю судьбу мою.</l>
+          <stage>(Единорог убивает юношу)</stage>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <stage type="delivery">(умирая)</stage>
+          <l>Жестокая, я умираю!</l>
+          <l>И странный звон, и всё в огне…</l>
+          <l>Уйди, тебя я проклинаю!</l>
+          <l>Леила нежная, ко мне…</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Что стало с ним? Недвижно тело,</l>
+          <l>Глаза погасли, кровь течёт…</l>
+          <l>Ах, этого ли я хотела?</l>
+          <l>Я думала ль, что он умрёт?</l>
+          <stage>(Раб уносит труп; появляется бедуин на коне)</stage>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Я слышал запах свежей крови</l>
+          <l>И я погнал сюда коня.</l>
+          <l>О, нет судьбы моей суровей!</l>
+          <l>Сражались здесь — и без меня.</l>
+          <l part="I">Где бой был, девушка?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="F">Ты воин?</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Война — единый мой закон.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <stage type="delivery">(про себя)</stage>
+          <l>Быть может, он меня достоин:</l>
+          <l>Он горд, отважен и силён.</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Не ты ль была добычей боя?</l>
+          <l>О, если так, то ты моя!</l>
+          <l>По праву первого героя</l>
+          <l>Тобой владею ныне я.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Ты с девой грубым быть не можешь,</l>
+          <l>И честным брак да будет наш.</l>
+          <l>Какой ты выкуп мне предложишь,</l>
+          <l>Какой подарок брачный дашь?</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Дам славу. Слаще жизни слава</l>
+          <l>На многолюдных площадях,</l>
+          <l>Когда проходишь величаво</l>
+          <l>И все склоняются во прах.</l>
+          <l>Иль в бездне аравийской ночи,</l>
+          <l>Когда раздастся львиный рев,</l>
+          <l>И ты на льва подымешь очи,</l>
+          <l>И очи вдруг опустит лев.</l>
+          <l>Я словно царь! Где захочу я,</l>
+          <l>Там и раскину свой шатёр,</l>
+          <l>В садах эмировых кочуя</l>
+          <l>И на вершинах диких гор.</l>
+          <l>Ко мне приходят бедуины,</l>
+          <l>Бойцы, какими горд Багдад,</l>
+          <l>Ужасные приходят джины…</l>
+          <l>И меч мой пьёт, и меч мой рад.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>А если вдруг архангел Божий</l>
+          <l>За мной иль за тобой придёт,</l>
+          <l part="I">Как защитишься ты?</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l part="F">Он тоже</l>
+          <l>Окровавленный упадёт.</l>
+          <stage>(Появляется Искандер)</stage>
+        </sp>
+        <sp who="#Iskander">
+          <speaker>Искандер</speaker>
+          <l>Хвастливый воин попугаю</l>
+          <l>Подобен. Я сильнее был,</l>
+          <l>А больше глаз не поднимаю,</l>
+          <l>И это сделал Азраил.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="I">Мне страшно.</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l part="M">Кто ты, тень?</l>
+        </sp>
+        <sp who="#Iskander">
+          <speaker>Искандер</speaker>
+          <l part="F">Искандер</l>
+          <l>Меня зовёт твоя страна,</l>
+          <l>Но ведают об Александре</l>
+          <l>И западные племена.</l>
+          <l>Дана мне тихая могила</l>
+          <l>И горестное торжество,</l>
+          <l>Но смертный сон мой возмутило</l>
+          <l>Твоё пустое хвастовство.</l>
+          <l>Иди, смотри, как убивают</l>
+          <l>Ничтожных древние бойцы.</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Я посмотрю, как умирают</l>
+          <l>Второю смертью мертвецы.</l>
+          <stage>(Бьются. Бедуин падает)</stage>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="I">Ты — первый в мире?</l>
+        </sp>
+        <sp who="#Iskander">
+          <speaker>Искандер</speaker>
+          <l part="F">Данник мрака,</l>
+          <l>Последний я, как он теперь.</l>
+          <l>В грязи живущая собака</l>
+          <l>Нас двух достойнее, поверь.</l>
+          <stage>(Уходит, унося труп)</stage>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Он только что был солнцем страсти,</l>
+          <l>И вот его уносят тело…</l>
+          <l>Ужели вестницей несчастий</l>
+          <l>Я в этот странный мир слетела?..</l>
+          <stage>(Появляется охота; пролетают сокола, пробегают гепарды, выезжают халиф и
+            астролог)</stage>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l>Не ты ли — лебедь, за которой</l>
+          <l>Мои помчались сокола,</l>
+          <l>И не тебя ль гепардов свора,</l>
+          <l>Как серну, бешено гнала?</l>
+          <l>Нет, ты прекрасней серн проворных</l>
+          <l>И величавей лебедей</l>
+          <l>Под мягкими волнами чёрных,</l>
+          <l>Разбросанных твоих кудрей.</l>
+        </sp>
+        <sp who="#Astrolog">
+          <speaker>Астролог</speaker>
+          <l>Мне благосклонная планета,</l>
+          <l>О пери, сан открыла твой.</l>
+          <l>Но встань: потомок Магомета,</l>
+          <l>Калиф, беседует с тобой.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="I">Ты — первый в мире?</l>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l part="F">Цвет рубина,</l>
+          <l>Не первым быть бы я не мог:</l>
+          <l>Ведь тем, кто лучше господина,</l>
+          <l>Приносят шёлковый шнурок.</l>
+        </sp>
+        <sp who="#Astrolog">
+          <speaker>Астролог</speaker>
+          <l>Созвездья утверждают явно,</l>
+          <l>Что солнце мира — наш калиф.</l>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l>Мой добрый астролог исправно</l>
+          <l>Мне льстит, подарок получив.</l>
+          <l>Но правда, блеск моей печати</l>
+          <l>Дарует смерть и торжество,</l>
+          <l>Таких богатств, красавиц, рати,</l>
+          <l>Я знаю, нет ни у кого.</l>
+          <l>А ты подобна изумруду,</l>
+          <l>И я люблю тебя одну,</l>
+          <l>Дочь дяди моего забуду,</l>
+          <l>Диван, охоту и войну,</l>
+          <l>Мы будем слушать ветер горный</l>
+          <l>С высоких каменных террас,</l>
+          <l>Смотреть на город, нам покорный,</l>
+          <l>На мир, живущий ради нас.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Не надо больше испытаний!</l>
+          <l>Калифа я не погублю.</l>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l>Что говоришь ты, дочь желаний?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Я повинуюсь и люблю.</l>
+          <stage>(Появляется единорог)</stage>
+        </sp>
+        <sp who="#Astrolog">
+          <speaker>Астролог</speaker>
+          <l part="I">О звёзды, я боюсь!</l>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l part="F">Что это?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Уйди, ужасный зверь, не тронь!</l>
+          <stage>(Единорог склоняется перед конём калифа)</stage>
+        </sp>
+        <sp who="#Astrolog">
+          <speaker>Астролог</speaker>
+          <l>От кобылицы Магомета</l>
+          <l>Калифа происходит конь.</l>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l>Дай губы, милая! Как розы</l>
+          <l>Шираза, твой пылает рот.</l>
+          <l>Дай руки белые, как козы</l>
+          <l>Памирских снеговых высот.</l>
+          <l>Но что? Сапфир огромный, цельный</l>
+          <l>Сияет, вправленный в кольцо…</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Молчи! Кольцо моё смертельно!</l>
+          <l>Не смей смотреть, закрой лицо!</l>
+          <l>Мне дервиш дал его сегодня,</l>
+          <l>Промолвил: «Милому надень,</l>
+          <l>И, если слаб он, в преисподней</l>
+          <l>Ещё одна заплачет тень».</l>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l part="I">Надень кольцо мне.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="F">Умоляю,</l>
+          <l>Что будет, если ты умрёшь?</l>
+        </sp>
+        <sp who="#Astrolog">
+          <speaker>Астролог</speaker>
+          <l part="I">Планеты…</l>
+        </sp>
+        <sp who="#Kalif">
+          <speaker>Калиф</speaker>
+          <l part="F">Я повелеваю!</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Старик, быть может, молвил ложь…</l>
+          <stage>(Передаёт кольцо калифу; тот падает)</stage>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>И он, и он — во тьме безмерной…</l>
+          <l>Нет, встань, ты должен, я хочу…</l>
+        </sp>
+        <sp who="#Astrolog">
+          <speaker>Астролог</speaker>
+          <l>Я от наследника, наверно,</l>
+          <l>Подарок новый получу.</l>
+          <stage>(Уносит труп)</stage>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Я в этот мир сошла для плена</l>
+          <l>Сладчайшего любви земной,</l>
+          <l>А смерть, как злобная гиена,</l>
+          <l>Повсюду крадется за мной.</l>
+          <l>Надежда, мысль о наслажденьи,</l>
+          <l>Всё обмануло, всё ушло…</l>
+          <l>О, только б заслужить прощенье</l>
+          <l>Мне за содеянное зло,</l>
+          <l>Чтоб, возвратясь в сады Аллаха,</l>
+          <l>Не говорить, краснея, ложь…</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <stage type="delivery">(входя)</stage>
+          <l>Вставай, иди за мной без страна,</l>
+          <l>Ты всё поймёшь и всё найдёшь.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Картина вторая</head>
+        <stage>Улица Багдада. На заднем плане терраса дворца. Входят Пери и дервиш.</stage>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Устала я. Вожатый строгий,</l>
+          <l>Не это ли конец пути?</l>
+          <l>Мои израненные ноги</l>
+          <l>Не в силах далее идти.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Ты пожелала искупленья,</l>
+          <l>Перед грехом своим дрожа,</l>
+          <l>И каждое твоё веленье</l>
+          <l>Твой раб исполнит, госпожа.</l>
+          <l>О бедная, тебя я выдам</l>
+          <l>Твоим безжалостным врагам,</l>
+          <l>Их оскорбленьям, их обидам,</l>
+          <l>На муку горькую и срам.</l>
+          <stage>(Проходят старуха и кади)</stage>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>Привет тебе, мой добрый кади.</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <l part="I">Привет ответный.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l part="F">Говорят,</l>
+          <l>Что скоро будет здесь, в Багдаде,</l>
+          <l>Великолепнейший Синдбад;</l>
+          <l>С ним двести золочёных барок,</l>
+          <l>Каких ещё не видел мир.</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <l>Он, верно, кади даст подарок!</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>А я пойду к нему на пир.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <stage type="delivery">(старухе)</stage>
+          <l>О, госпожа моя, слетела</l>
+          <l>Печаль на блеск твоих седин,</l>
+          <l part="I">Как птица хищная.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l part="F">В чём дело?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Твой нежный, твой прекрасный сын…</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>Его нашли в чужом гареме,</l>
+          <l>Побили? Как довольна я!</l>
+          <l>Он издевался надо всеми…</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Он умер, госпожа моя.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>Ты шутишь, дервиш, я не верю!</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Он шёл к Багдаду и в пути</l>
+          <l>Пустынному попался зверю…</l>
+          <l>Никто не мог его спасти.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l part="I">А караван?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="F">Его умелый</l>
+          <l>Слуга до города довёл.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l part="I">И все верблюды целы?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="F">Целы.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>Ну, слава… Нет! О бездна зол!</l>
+          <l>Мой сын, он так любил фисташки</l>
+          <l>И франкских молодых рабынь!</l>
+          <l>Ты не привёз его рубашки,</l>
+          <l>Пучка травы из тех пустынь?</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <l>Не плачь так громко, Бога ради,</l>
+          <l>Подумай, караван твой цел,</l>
+          <l part="I">И ты цела.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l part="F">О, добрый Кади</l>
+          <l>Ты мудрость взял себе в удел.</l>
+          <l>Но как я буду одинокой</l>
+          <l>В расцвете сорока трёх лет?</l>
+          <l>Мой муж — больной и кривобокий,</l>
+          <l>И стар, как время, наш сосед.</l>
+          <l>У одного видны все рёбра,</l>
+          <l>Другой мешка с овсом тучней…</l>
+          <l>Когда не ты, мой кади добрый,</l>
+          <l>То я останусь без детей.</l>
+          <l>Ты крепок, как орешек твёрдый…</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <stage type="delivery">(отступая)</stage>
+          <l>О нет! Я много перенёс.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>Как роза, пышет нос твой гордый…</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <stage type="delivery">(отступая)</stage>
+          <l>Мой нос — обыкновенный нос.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l part="I">Я хороша?</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <stage type="delivery">(отступая)</stage>
+          <l part="F">Была когда-то.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l part="I">И взор мой светится.</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <stage type="delivery">(отступая)</stage>
+          <l part="F">Бог с ним!</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>О кади, кади, я богата…</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <stage type="delivery">(останавливается)</stage>
+          <l>Мы после переговорим.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>О мёртвом вспомни, дочь позора!</l>
+          <l>Святая месть зовёт теперь.</l>
+          <stage>(Указывая на пери)</stage>
+          <l>Ты видишь девушку, которой</l>
+          <l>Повиновался дикий зверь.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>Как, и она теперь в Багдаде</l>
+          <l>И не боится никого?</l>
+          <l>Хватай ее, мой добрый кади,</l>
+          <l>Убийцу сына моего!</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <l>Страшна злодейке будет кара,</l>
+          <l>Клянусь моею бородой:</l>
+          <l>Пятьсот три палочных удара,</l>
+          <stage>(В сторону)</stage>
+          <l>А перед казнью ночь со мной.</l>
+          <stage>(Появляется шейх)</stage>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Почтенный шейх, откинь суровость,</l>
+          <l>Склони ко мне твой важный взгляд!</l>
+          <l>Печальную ты знаешь новость</l>
+          <l>О том, что твой скончался брат?</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>Что говоришь ты, вестник горя?</l>
+          <l>Мой брат, могучий бедуин…</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Его зарезал, с ним заспоря,</l>
+          <l>Какой-то странный паладин.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>Пускай его проказа сгложет!</l>
+          <l>Нет, я сперва его убью…</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Почтенный шейх, никто не может</l>
+          <l>С ним, сильным, справиться в бою.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>Ответь, я вне себя от гнева,</l>
+          <l>Чьего он рода, кто такой?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Его рукой владела дева,</l>
+          <l>Стоящая перед тобой.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>О месть! О кровь! О духи ночи!</l>
+          <l>Я разъярённый лев, я слон!</l>
+          <l>Но что? Мои не видят очи,</l>
+          <l>Я чёрным гневом ослеплён…</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Вон там. Её уводит кади.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>А, нет! Отмщенье только мне!</l>
+          <l part="I">Пусти, собака!</l>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <l part="F">Мы в Багдаде,</l>
+          <l>А не в разбойничьей стране.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>Я — шейх пустыни и не смею</l>
+          <l>С тобою, жирным, говорить!</l>
+          <stage>(Бьёт его. Кади и старуха убегают)</stage>
+          <l>Но что я буду делать с нею?</l>
+          <l>Я не могу её убить.</l>
+          <l>На шею девушек прекрасных</l>
+          <l>Не опускаются мечи.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Почтенный шейх, оплот несчастных,</l>
+          <l part="I">Позволь сказать мне…</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l part="F">Замолчи!</l>
+          <l>Ты, девушка… Молчит… И ясно,</l>
+          <l>И нежно смотрит, как любовь…</l>
+          <l>Ответь!.. Нема… Она прекрасна,</l>
+          <l>Но между нами встала кровь.</l>
+          <l>Я и люблю, и ненавижу,</l>
+          <l>И замираю от стыда.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="I">О, господин мой!</l>
+          <stage>(Появляется пират)</stage>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l part="F">Что я вижу?</l>
+          <l>Пират Али! Спеши сюда!</l>
+          <l>Привет тебе, товарищ старый,</l>
+          <l>Купи невольницу мою.</l>
+        </sp>
+        <sp who="#Pirat">
+          <speaker>Пират</speaker>
+          <l>Полны невольниц все базары,</l>
+          <l>Но сто червонцев я даю.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>Четыреста. Она из рода</l>
+          <l>Высокого наверняка.</l>
+        </sp>
+        <sp who="#Pirat">
+          <speaker>Пират</speaker>
+          <l>Ах, мало ценится порода</l>
+          <l>Рабыни или бедняка.</l>
+          <l>Я не Синдбад, отец богатства,</l>
+          <l>Что возвращается сюда.</l>
+          <l part="I">Я беден.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l part="F">Ну, во имя братства,</l>
+          <l part="I">Бери за триста.</l>
+        </sp>
+        <sp who="#Pirat">
+          <speaker>Пират</speaker>
+          <l part="F">Двести, да.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l>О, блеск грудей молочно-белых,</l>
+          <l>О, тяжесть бёдер молодых!</l>
+        </sp>
+        <sp who="#Pirat">
+          <speaker>Пират</speaker>
+          <l>На итальянских каравеллах</l>
+          <l>Я находил и не таких.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l part="I">Но там ты дрался.</l>
+        </sp>
+        <sp who="#Pirat">
+          <speaker>Пират</speaker>
+          <l part="F">Что мне драка?</l>
+          <l>Так, удовольствие одно,</l>
+          <l part="I">Зато всё даром.</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l part="F">Духи мрака!</l>
+          <l>Бери за двести, всё равно.</l>
+          <stage>(Сын калифа появляется на террасе)</stage>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>О, повелитель правоверных,</l>
+          <l>Я падаю к твоим ногам.</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l>Да ты святой не из примерных,</l>
+          <l>Коль странствуешь по городам.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="I">О, горе!</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l part="F">Где? Скажи мне прямо!</l>
+          <l>Мука на рынке дорога?</l>
+          <l>Иль городскому каймакаму</l>
+          <l>Друзья наставили рога?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="I">Ты шутишь, светлый?</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l part="F">Иль жениться</l>
+          <l>На склоне лет задумал ты</l>
+          <l>И не найдёшь нигде девицы</l>
+          <l>Тебя достойной красоты?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="I">Калиф, отец твой…</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l part="F">Знаю, знаю!</l>
+          <l>Я роздал треть моей казны</l>
+          <l part="I">За эту весть.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="F">Я продолжаю,</l>
+          <l>Внимать и сильные должны.</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l>Как алчны эти астрологи,</l>
+          <l>Шуты, монахи, мудрецы!</l>
+          <l>Чревовещатели и йоги —</l>
+          <l>Такие скучные глупцы!</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="I">Убийца кто?</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l part="F">Не всё равно ли?</l>
+          <l part="I">Кольцо.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="F">Как речь твоя грешна!</l>
+          <l>Кольцо — пособник и не боле,</l>
+          <l>Кольцом владела вот она.</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l>С ней важный шейх, моряк почтенный,</l>
+          <l>Она — их, кажется, раба.</l>
+          <l>Ты палок хочешь, о смиренный,</l>
+          <l>Или позорного столба?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Её готов продать пирату</l>
+          <l>Разбойник старый, бедуин,</l>
+          <l>А власть и право на расплату,</l>
+          <l>Калиф, имеешь ты один.</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l>Ну, хорошо, я рассердился.</l>
+          <l>Хотя в Багдаде говорят,</l>
+          <l>Я гневен, что не возвратился</l>
+          <l>До этих пор мой друг, Синдбад.</l>
+          <l>Эй, кто там! Евнухи! Бегите,</l>
+          <l>Ведите девушку сюда,</l>
+          <l>Кто с ней, тех на кол, да смотрите,</l>
+          <l>Вы ей не сделайте вреда.</l>
+          <stage>(Два евнуха сбегают с террасы)</stage>
+        </sp>
+        <sp who="#Pirat">
+          <speaker>Пират</speaker>
+          <l>Как, стража? Я на днях фелуку</l>
+          <l>Разбил у этого дворца.</l>
+          <l part="I">Бежим скорей!</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l part="F">Товарищ, руку!</l>
+          <l>И я вчера убил купца.</l>
+          <stage>(Убегают. Стража уводит Пери)</stage>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Как я приду к небесной двери,</l>
+          <l>И что скажу Царю Высот,</l>
+          <l>Когда мне вверенная Пери</l>
+          <l>Позорной смертию умрёт?</l>
+          <stage>(К сыну калифа)</stage>
+          <l>Скажи, что сделаешь ты с нею,</l>
+          <l>Не слишком будешь ли суров?</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l>Дам ожерелье ей на шею</l>
+          <l>Из розоватых жемчугов.</l>
+          <l>Дам камень, вынесенный грифом</l>
+          <l>С алмазных россыпей луны.</l>
+          <l>Из-за неё я стал калифом</l>
+          <l>И господином всей страны.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="I">Как добр ты!</l>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l part="F">Но, в пример народу,</l>
+          <l>Мой суд и благ и справедлив:</l>
+          <l>Её тотчас же бросят в воду,</l>
+          <l>И будет отомщён калиф.</l>
+          <stage>(Скрывается. Появляется Синдбад)</stage>
+        </sp>
+        <sp who="#Sindbad">
+          <speaker>Синдбад</speaker>
+          <l>Уж год как, родину покинув,</l>
+          <l>Я с песней обошёл моря,</l>
+          <l>И полон мой корабль рубинов,</l>
+          <l>Даров цейлонского царя.</l>
+          <l>Я был вельможею Непала,</l>
+          <l>Убил морского старика,</l>
+          <l>И птицу Рок во тьме поймала</l>
+          <l>Искусная моя рука.</l>
+          <l>Я торговал за облаками</l>
+          <l>И в океанской глубине,</l>
+          <l>Где люди с рыбьими хвостами,</l>
+          <l>Как божеству, молились мне.</l>
+          <l>Далёко за полярным кругом,</l>
+          <l>В пещере джинов ледяной</l>
+          <l>Проклятый Эблис был мне другом,</l>
+          <l>А джинша страшная — женой.</l>
+          <l>О, камни белого Багдада!</l>
+          <l>О, сладкий запах чеснока!</l>
+          <l>Смеются губы, сердце радо,</l>
+          <l>Для всех щедра моя рука.</l>
+          <stage>(Евнухи выводят Пери; появляется глашатай)</stage>
+        </sp>
+        <sp who="#Glashataj">
+          <speaker>Глашатай</speaker>
+          <l>Привет вам, граждане Багдада,</l>
+          <l>Синдбад вернулся наконец!</l>
+          <l>Идите все на пир Синдбада,</l>
+          <l>Во вновь отстроенный дворец!</l>
+          <stage>(Уходит)</stage>
+        </sp>
+        <sp who="#PervyjJevnuh">
+          <speaker>1-й евнух</speaker>
+          <l>Брось девушку, идём, приятель!</l>
+        </sp>
+        <sp who="#VtorojJevnuh">
+          <speaker>2-й евнух</speaker>
+          <l>Боюсь калифа, не пойду!</l>
+        </sp>
+        <sp who="#PervyjJevnuh">
+          <speaker>1-й евнух</speaker>
+          <l>А птичьи головы в томате!</l>
+          <l>А бадиджаны, рис в меду!</l>
+          <stage>(Убегает; пробегают Кади и старуха)</stage>
+        </sp>
+        <sp who="#Kadi">
+          <speaker>Кади</speaker>
+          <l>Он мечет пригоршни рубинов</l>
+          <l>В толпящийся кругом народ.</l>
+        </sp>
+        <sp who="#Staruha">
+          <speaker>Старуха</speaker>
+          <l>С собой привёз он исполинов,</l>
+          <l>Один особенно урод.</l>
+          <stage>(Пробегают; появляются шейх и пират)</stage>
+        </sp>
+        <sp who="#Pirat">
+          <speaker>Пират</speaker>
+          <l>Идти к Синдбаду! Что он мелет?</l>
+          <l part="I">А стража, судьи!</l>
+        </sp>
+        <sp who="#Shejh">
+          <speaker>Шейх</speaker>
+          <l part="F">Всё равно!</l>
+          <l>Скорей! Там всех рабынь поделят</l>
+          <l>И выпьют лучшее вино.</l>
+          <stage>(Уходят; появляются сын калифа и астролог)</stage>
+        </sp>
+        <sp who="#SynKalifa">
+          <speaker>Сын Калифа</speaker>
+          <l>К Синдбаду! Ах, с его рассказом</l>
+          <l>Сравнится ль болтовня твоя?!</l>
+        </sp>
+        <sp who="#Astrolog">
+          <speaker>Астролог</speaker>
+          <l>Я просветлю вином мой разум.</l>
+          <stage>(Проходят)</stage>
+        </sp>
+        <sp who="#VtorojJevnuh">
+          <speaker>2-й евнух</speaker>
+          <l>Пожалуй, побегу и я.</l>
+          <stage>(Убегает)</stage>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Они забыли отомщенье,</l>
+          <l>Непостоянны и во зле,</l>
+          <l>Скажи, какое искупленье</l>
+          <l>Найдёшь ты, Пери, на земле?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Печаль земная быстротечна</l>
+          <l>И улетает словно дым,</l>
+          <l>Но мертвецы томятся вечно</l>
+          <l>Под тяжким сводом гробовым.</l>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Картина третья</head>
+        <stage>Сад Гафиза. Утро. Купы роз и жасминов. Большие птицы.</stage>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Великий Хизр, отец садов,</l>
+          <l>В одеждах, как листва, зелёных,</l>
+          <l>Хранитель звонких родников,</l>
+          <l>Цветов и трав на пёстрых склонах,</l>
+          <l>На мутно-белых небесах</l>
+          <l>Раскинул огненную ризу…</l>
+          <l>Вот солнце! И судил Аллах</l>
+          <l>О солнце ликовать Гафизу,</l>
+          <l>Сюда, Коралловая Сеть,</l>
+          <l>Цветок Граната, Блеск Зарницы,</l>
+          <l>Дух Мускуса, я буду петь,</l>
+          <l>А вы мне отвечайте, птицы.</l>
+          <stage>(Поёт)</stage>
+          <l>Фазанокрылый, знойный шар</l>
+          <l>Зажёг пожар в небесных долах.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Мудрец живёт в тени чинар,</l>
+          <l>Лаская отроков весёлых.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Зажёг пожар в небесных долах</l>
+          <l>Царь пурпурный и золотой.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Лаская отроков весёлых,</l>
+          <l>Мудрец подъемлет кубок свой.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Царь пурпурный и золотой</l>
+          <l>Описан в чашечках тюльпанов.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Мудрец подъемлет кубок свой,</l>
+          <l>Ответный слыша звон стаканов,</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Описан в чашечках тюльпанов</l>
+          <l>Его надир, его зенит.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Ответный слыша звон стаканов,</l>
+          <l>Мудрец поёт и говорит.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Его надир, его зенит</l>
+          <l>Собой граничит воздух тонкий.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Мудрец поёт и говорит,</l>
+          <l>Смеётся, внемлет лютне звонкой.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Собой граничит воздух тонкий,</l>
+          <l>Сгорает солнце-серафим.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Смеётся, внемлет лютне звонкой,</l>
+          <l>Нагая дева перед ним.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Сгорает солнце-серафим</l>
+          <l>Для верного, для иноверца.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Нагая дева перед ним,</l>
+          <l>Его обрадовано сердце.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Для верного, для иноверца</l>
+          <l>Шумит спасительный пожар.</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Его обрадовано сердце,</l>
+          <l>Фазанокрылый знойный шар.</l>
+          <stage>(Входят Пери и дервиш)</stage>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Не это ль рай для чистых душ,</l>
+          <l>Заветные Господни кущи?</l>
+          <l>Кто этот величавый муж,</l>
+          <l>Так изумительно поющий?</l>
+          <l>Как кудри чёрные сплелись</l>
+          <l>С гирляндой роз багряно-красных!</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Пчела Шираза, князь Гафиз,</l>
+          <l>Наставник юных и прекрасных.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>О дервиш, убежим скорей,</l>
+          <l>К чему мне радость этой встречи,</l>
+          <l>Когда я бремя трёх смертей</l>
+          <l>На слабые взвалила плечи,</l>
+          <l>И три ужасные лица</l>
+          <l>Мне усмехаются из гроба?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Аллах — защитник пришлеца.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <stage type="delivery">(оборачивается)</stage>
+          <l>Входите и садитесь оба.</l>
+          <l>Ты плачешь, девушка? О чём?</l>
+          <l>В саду Гафиза слёз не надо,</l>
+          <l>И ты озарена лучом,</l>
+          <l>Как розы и жасмины сада.</l>
+          <l>Я тоже дервиш, но давно</l>
+          <l>Я изменил своё служенье:</l>
+          <l>Мои дары Творцу — вино,</l>
+          <l>Молитвы — песнь о наслажденьи.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>О, Сердце Веры, князь Гафиз,</l>
+          <l>Ты видишь пери пред собою.</l>
+          <l>Она сошла из рая вниз,</l>
+          <l>Стать лучшего из нас женою.</l>
+          <l>И трое сильных, молодых</l>
+          <l>Из-за неё лежат в могиле.</l>
+          <l>Раскаянье и скорбь за них</l>
+          <l>Ей в сердце когти запустили.</l>
+          <l>Я твёрдо знаю, что помочь</l>
+          <l>Лишь ты, Язык Чудес, ей можешь.</l>
+          <l>Пускай меня покроет ночь,</l>
+          <l>Когда и ты ей не поможешь.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Кого же первым увела</l>
+          <l>Смерть в переходы лабиринта?</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Красавца с голосом орла,</l>
+          <l>С лицом нежнее гиацинта.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <stage type="delivery">(читает заклинание)</stage>
+          <l>Крыло лучей, в стекло ночей</l>
+          <l>Ударь, ударь, стекло, разбейся!</l>
+          <l>Алмазный свет, сапфирный свет</l>
+          <l>И свет рубиновый, развейся!</l>
+          <l>Я фениксом, я птицей Рок,</l>
+          <l>Я алконостом вещим кличу:</l>
+          <l>Отдай мне юношу-цветок,</l>
+          <l>О ночь, отдай свою добычу!</l>
+          <stage>(Появляется юноша с крылатой девушкой Эль-Анка)</stage>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>Никто не разлучит нас двух,</l>
+          <l>Эль-Анка, дева-совершенство!</l>
+          <stage>(К Гафизу)</stage>
+          <l>Напрасно ты мой вырвал дух</l>
+          <l>Из белоснежных рук блаженства.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Блаженство мыслимо ль в ночи?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>Такие там пылают светы,</l>
+          <l>Колёса пламени, лучи,</l>
+          <l>Каких не ведают поэты.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Быть может, ты теперь в раю?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>Не счесть обителей господних,</l>
+          <l>И душу радуют мою</l>
+          <l>Восторги дальних преисподних.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <stage type="delivery">(указывая на пери)</stage>
+          <l>Скажи, о ней жалеешь ты?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l>Могу ль тебе я не дивиться?</l>
+          <l>Ведь не сравнятся и цветы</l>
+          <l>С моею новою царицей.</l>
+          <l>Эль-Анка, девушка глубин,</l>
+          <l>Пускай увидят чужестранцы</l>
+          <l>В лучах сверкающий рубин,</l>
+          <l>Твои пленительные танцы.</l>
+          <stage>(Эль-Анка танцует)</stage>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="I">Меня прощаешь ты?</l>
+        </sp>
+        <sp who="#Junosha">
+          <speaker>Юноша</speaker>
+          <l part="F">За что?</l>
+          <l>За то, что мир мой дивно светел?</l>
+          <l>За то, что из земных никто</l>
+          <l>Такую девушку не встретил?</l>
+          <l>Одна есть просьба у меня:</l>
+          <l>Проси умильно и приятно,</l>
+          <l>Чтоб в область белого огня</l>
+          <l>Графиз пустил меня обратно.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="I">Пусти его.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l part="M">Иди.</l>
+          <stage>(Юноша и Эль-Анка уходят)</stage>
+          <l part="F">Один,</l>
+          <l>Сама ты видела, доволен.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Увы! Свирепый бедуин</l>
+          <l>В аду и мукой ада болен.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <stage type="delivery">(читает заклинание)</stage>
+          <l>Пади расплавленным свинцом,</l>
+          <l>Моя отточенная воля,</l>
+          <l>В страну, забытую Творцом,</l>
+          <l>На льдистое ночное поле!</l>
+          <l>Пройди его, иди туда,</l>
+          <l>Где опрокинулась долина,</l>
+          <l>Иди и приведи сюда</l>
+          <l>Неистового бедуина!</l>
+          <stage>(Появляется бедуин)</stage>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Мне душно, обессилен я</l>
+          <l>Напором воздуха земного,</l>
+          <l>Закон иного бытия</l>
+          <l>Волшебное разбило слово.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Откуда ты, о страх теней?</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Я в чёрной пропасти блуждаю,</l>
+          <l>Рогатых львов, крылатых змей,</l>
+          <l>Орлов железных поражаю.</l>
+          <l>Они спускаются с высот,</l>
+          <l>Необычайны и ужасны,</l>
+          <l>И кровь зелёная течёт,</l>
+          <l>Она пьянее крови красной.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Скажи, печальны мертвецы?</l>
+          <l>Земную радость любит всякий.</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>И яростней меня бойцы</l>
+          <l>Скитаются в том страшном мраке.</l>
+          <l>Я зрел хромца Тимура там,</l>
+          <l>Немврода в шкуре леопарда,</l>
+          <l>Масрура, равного царям,</l>
+          <l>И Сердце Львиное, Ричарда.</l>
+          <l>Как рок я выбрал бы иной?</l>
+          <l>Нет, мне мила моя обитель,</l>
+          <l>И сам Искандер там со мной,</l>
+          <l>Мой господин и победитель.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>А я? Скажи, что делать мне?</l>
+          <l>Как исцелиться от печали?</l>
+        </sp>
+        <sp who="#Beduin">
+          <speaker>Бедуин</speaker>
+          <l>Живи, чтобы во всей стране</l>
+          <l>О подвигах моих узнали.</l>
+          <l>Прекрасна жизнь моя была,</l>
+          <l>А смерть светла и величава,</l>
+          <l>Чтобы моя везде прошла,</l>
+          <l>Как знамена Омара, слава.</l>
+          <stage>(Скрывается)</stage>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Ты видишь, и второй счастлив,</l>
+          <l>Он не расстанется с могилой.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>А третий, благостный калиф,</l>
+          <l>Лишённый царства с жизнью милой?</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <stage type="delivery">(читает заклинание)</stage>
+          <l>Живое слово, устремись</l>
+          <l>Туда, где зарожденье слова,</l>
+          <l>Ни внутрь, ни вглубь, ни вширь, а ввысь,</l>
+          <l>Ты, сила старая, за новой!</l>
+          <l>Как молния летит на кедр,</l>
+          <l>Как гриф бросается на грифа,</l>
+          <l>Пускай из звёздно-синих недр</l>
+          <l>Сойдет на землю дух калифа!</l>
+          <stage>(Появляется ангел)</stage>
+          <l part="I">Как! Ангел смерти!</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l part="F">Брат святой!</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Земля, простись с твоим поэтом!</l>
+        </sp>
+        <sp who="#Angel">
+          <speaker>Ангел</speaker>
+          <l>Я прихожу не за тобой,</l>
+          <l>Я — вестник, посланный с ответом.</l>
+          <l>Ты дух калифа вызвать мнил:</l>
+          <l>Его ничто не беспокоит,</l>
+          <l>Источник райский Эльзебил</l>
+          <l>Забвеньем мира сердце поит.</l>
+          <l>Он отдыхает на луне,</l>
+          <l>Вдыхает звёзд благоуханье,</l>
+          <l>Над ним в слепящей вышине</l>
+          <l>Немолчны клики и бряцанья.</l>
+          <l>Неслыханное торжество</l>
+          <l>Вкушает в небе дух-скиталец,</l>
+          <l>Аллах поставил на него</l>
+          <l>Своей ноги четвёртый палец.</l>
+          <l>О нет, он не придёт на зов,</l>
+          <l>Его он даже не услышит.</l>
+          <l>Я рек. Собранье мудрецов</l>
+          <l>Пускай слова мои запишет.</l>
+          <l>Сестра, облёкшаяся в плоть,</l>
+          <l>Их распевать заставь поэта,</l>
+          <l>Чтоб знали люди, как Господь</l>
+          <l>Взыскал потомка Магомета.</l>
+          <stage>(Скрывается)</stage>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Как кров приветный кипарис</l>
+          <l>Дарует птице перелётной,</l>
+          <l>Так и меня, о, князь Гафиз,</l>
+          <l>Ты снова сделал беззаботной.</l>
+          <l>Ты петь меня научишь. Пусть</l>
+          <l>Я новые узнаю песни!</l>
+          <l>Пленительно взывает грусть,</l>
+          <l>Но радость говорит чудесней.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Глазами, полными огня,</l>
+          <l>Я в сердце сладостно ужален.</l>
+          <l>О пери, пожалей меня,</l>
+          <l>Я счастлив был, а стал печален.</l>
+          <stage>(Поет)</stage>
+          <l>Твои глаза как два агата, пери!</l>
+          <l>Твои уста красней граната, пери!</l>
+          <l>Прекрасней нет от древнего Китая</l>
+          <l>До западного калифата Пери,</l>
+          <l>Я первый в мире, и в садах Эдема</l>
+          <l>Меня любила ты когда-то, пери.</l>
+          <l>Но ты бледна, молчишь, не смотришь, разве</l>
+          <l>Любовью больше не богата пери?</l>
+          <l>За мудрость, за стихи его, Гафизу</l>
+          <l>Ужель дана не будет плата — пери?</l>
+          <l>Блаженство с нею всех блаженств желанней,</l>
+          <l>И горше всех утрат утрата пери.</l>
+          <l>Но я не дерзкий нищий, я влюблённый,</l>
+          <l>Что скажешь, то исполню свято, пери.</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <stage type="delivery">(поет)</stage>
+          <l>Зачем печально так поёт Гафиз?</l>
+          <l>Иль даром мудрецом слывёт Гафиз?</l>
+          <l>Какую девушку не опьянит</l>
+          <l>Твоих речей сладчайший мёд, Гафиз?</l>
+          <l>Бледна ли я? И ангелы бледны,</l>
+          <l>Когда по струнам лютни бьёт Гафиз.</l>
+          <l>Молчу? Молчат смущённые уста,</l>
+          <l>А сердце громче бурных вод, Гафиз.</l>
+          <l>Я не смотрю? Но солнце ли слепит,</l>
+          <l>Как тайн язык, чудес оплот, Гафиз?</l>
+          <l>Средь райских радостей, средь мук земли</l>
+          <l>Я знала — этот час придёт, Гафиз.</l>
+          <l>Перед тобой стоит твоя раба,</l>
+          <l>Веди её под твой намёт, Гафиз.</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l>Постой, перед моим Творцом</l>
+          <l>Я нерадивым не предстану.</l>
+          <l>Единорогом и кольцом</l>
+          <l>Тебя испытывать я стану.</l>
+          <l>Тогда лишь я увижу сам,</l>
+          <l>Что ни единый не сравнится</l>
+          <l part="I">С тобой…</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l part="F">Какой ужасный гам</l>
+          <l>Вдруг подняли смешные птицы!</l>
+          <stage>(Подлетает птица)</stage>
+          <l>Ты что, Гранатовый Цветок?</l>
+        </sp>
+        <sp who="#Ptitsy">
+          <speaker>Птицы</speaker>
+          <l>Гафиз, в Аллахе просиявший,</l>
+          <l>Вернулся твой единорог,</l>
+          <l>Три дня тому назад пропавший.</l>
+          <l>И он вступает на крыльцо,</l>
+          <l>Неся на золочёном роге</l>
+          <l>То Соломоново кольцо,</l>
+          <l>Что ты хранил в своём чертоге.</l>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <l>Я рад, я всё о нём скучал.</l>
+          <l>Пусть не боится он расплаты.</l>
+          <l>К тому же он кольцо достал,</l>
+          <l>Потерянное мной когда-то.</l>
+          <l>Но тише, будет торжества!</l>
+          <stage>(К дервишу)</stage>
+          <l>Ты говорил об испытаньи,</l>
+          <l part="I">Отец?</l>
+        </sp>
+        <sp who="#Dervish">
+          <speaker>Дервиш</speaker>
+          <l part="F">Забудь мои слова,</l>
+          <l>Целую след твой на прощанье.</l>
+          <stage>(Уходит)</stage>
+        </sp>
+        <sp who="#Gafiz">
+          <speaker>Гафиз</speaker>
+          <stage type="delivery">(к Пери)</stage>
+          <l>Ты словно слиток золотой,</l>
+          <l>Расплавленный в шумящих горнах,</l>
+          <l>И грудь под лёгкой пеленой</l>
+          <l>Свежее пены речек горных.</l>
+          <l>Твои глаза блестят, губя,</l>
+          <l>Твоё дыханье слаще нарда…</l>
+        </sp>
+        <sp who="#Peri">
+          <speaker>Пери</speaker>
+          <l>Ты телу, ждущему тебя,</l>
+          <l>Страшнее льва и леопарда.</l>
+          <l>Для бледных губ ужасен ты,</l>
+          <l>Ты весь, как меч, разящий с силой,</l>
+          <l>Ты пламя, жгущее цветы,</l>
+          <l>И ты возьмёшь меня, о милый!</l>
+        </sp>
+        <stage>Занавес</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

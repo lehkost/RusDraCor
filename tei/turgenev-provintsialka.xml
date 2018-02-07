@@ -1,0 +1,3073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Провинциалка</title>
+        <title type="main" xml:lang="en">A Provincial Lady</title>
+        <title type="sub" xml:lang="ru">Комедия в одном действии</title>
+        <title type="sub" xml:lang="en">A Comedy in One Act</title>
+        <author key="Wikidata:Q42831">Тургенев, Иван Сергеевич</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/turgenev-provintsialka</idno>
+        <idno type="RusDraCor">4</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Провинциалка_(Тургенев)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1851">1851</date>
+            <date type="premiere" when="1851">январь 1851 в Малом Театре</date>
+            <date type="written" when="1850">1850, опубликовано в «Отечественных записках»</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Stupendev" sex="MALE">
+            <persName>Ступендьев</persName>
+          </person>
+          <person xml:id="Lakej" sex="MALE">
+            <persName>Лакей</persName>
+          </person>
+          <person xml:id="Apollon" sex="MALE">
+            <persName>Аполлон</persName>
+          </person>
+          <person xml:id="Misha" sex="MALE">
+            <persName>Миша</persName>
+          </person>
+          <person xml:id="Vasilevna" sex="FEMALE">
+            <persName>Васильевна</persName>
+          </person>
+          <person xml:id="GrafLjubin" sex="MALE">
+            <persName>Граф Любин</persName>
+          </person>
+          <person xml:id="DarjaIvanovna" sex="FEMALE">
+            <persName>Дарья Ивановна</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle" subtype="comedy">Комедия в одном действии</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#MatveyKolbasov" when="2017-05-20">Converted from Source</change>
+        <change who="#to" when="2017-06-03">gender info, corrected IDs</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="front">
+        <head>Провинциалка</head>
+      </div>
+    </front>
+    <body>
+      <p>ДЕЙСТВУЮЩИЕ ЛИЦА</p>
+      <castList>
+        <castItem>Алексей Иванович Ступендьев, уездный чиновник, 48 лет.</castItem>
+        <castItem>Дарья Ивановна, жена его, 28 лет.</castItem>
+        <castItem>Миша, дальний родственник Дарьи Ивановны, 19 лет.</castItem>
+        <castItem>Граф Валерьян Николаевич Любин, 49 лет.</castItem>
+        <castItem>Лакей графа, 30 лет.</castItem>
+        <castItem>Васильевна, кухарка Ступендьева, 50 лет.</castItem>
+        <castItem>Аполлон, мальчик Ступендьева, 17 лет.</castItem>
+      </castList>
+      <stage type="delivery">(Действие происходит в уездном городе, в доме Ступендьева.)</stage>
+      <stage type="delivery">(Театр представляет гостиную в доме небогатого чиновника. Прямо дверь в
+        переднюю, направо— в кабинет; налево два окна и дверь в садик. Налево в углу низенькие
+        ширмы; спереди диван, два стула, столик и пяльцы; направо, на втором плане, небольшое
+        фортепьяно; спереди стол и стул.)</stage>
+      <div>
+        <head>== ЯВЛЕНИЕ ПЕРВОЕ ==</head>
+        <stage type="delivery">(За пяльцами сидит Дарья Ивановна. Она одета очень просто, но со
+          вкусом. На диване сидит Миша. Он скромно читает книжечку.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(не поднимая глаз и продолжая шить)</stage>. Миша!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(опуская книжечку)</stage>. Чего изволите?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы… ходили к Попову?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Ходил-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Что он вам сказал?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Он сказал-с, что все будет прислано, как следует. Я особенно просил его о красном
+            вине-с. Вы, говорит, будьте покойны-с. <stage type="delivery">(Помолчав.)</stage>
+            Позвольте узнать, Дарья Ивановна, вы кого-нибудь ожидаете?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Жду.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(опять помолчав)</stage>. Можно узнать, кого-с?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы любопытны. Впрочем, вы не болтливы, и я могу вам сказать, кого я жду. Графа
+            Любина.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Как-с, этого богатого господина, который недавно приехал к себе в именье-с?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Его.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Их, точно, сегодня ожидают в трактире у Кулешкина-с. Но позвольте узнать, разве вы с
+            ним знакомы?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Теперь нет.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. А! стало быть, прежде?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы меня расспрашиваете?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Извините-с. <stage type="delivery">(Помолчав.)</stage> Впрочем, и я глуп. Ведь он,
+            должно быть, сын Катерины Дмитриевны, вашей благодетельницы.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(посмотрев на него)</stage>. Да, моей благодетельницы. <stage type="delivery">(За кулисами слышен голос Ступендьева: «Не приказала? Почему не
+              приказала?»)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Что там такое?</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ВТОРОЕ ==</head>
+        <stage type="delivery">(Те же и Ступендьев с Васильевной. Они выходят из двери кабинета:
+          Ступендьев в одном жилете; у Васильевны на руках сюртук.)</stage>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(к Дарье Ивановне)</stage>. Даша, правда ли, ты приказала… <stage type="delivery">(Миша встает и кланяется.)</stage> А, здравствуй, Миша, здравствуй.
+            Правда ли, ты приказала этой женщине <stage type="delivery">(показывает на
+              Васильевну)</stage> не давать мне сегодня моего бешмета, а?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я ей не приказывала.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(с торжествующим лицом, обращаясь к Васильевне)</stage>. А?
+            что?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я только сказала ей, чтоб она тебя попросила не надевать сегодня твоего бешмета.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. А чем же мой бешмет дурен? Он такой пестренький, с разводами. Ты же мне сама его
+            подарила.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да ведь сколько времени тому назад!</p>
+        </sp>
+        <sp who="#Vasilevna">
+          <speaker>Васильевна</speaker>
+          <p>. Ну, надевайте, надевайте сюртук, Алексей Иваныч… Что, право… Хорош пестренький! На
+            локтях прорвался; а сзади так, просто, глядеть не хорошо.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(надевая сюртук)</stage>. А кто тебе велит на меня сзади глядеть?
+            Тише, тише! разве ты не слыхала? Ты меня просить должна.</p>
+        </sp>
+        <sp who="#Vasilevna">
+          <speaker>Васильевна</speaker>
+          <p>. Ну, да, уж вы… <stage type="delivery">(Уходит.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(ей вслед)</stage>. Не рассуждай, женщина!</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ТРЕТЬЕ ==</head>
+        <stage type="delivery">(Те же, кроме Васильевны.)</stage>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Чорт возьми, ужас, как подмышками режет! Бывают же такие подлые портные… так и
+            кажется, что вот, вот, кверху потянут на канате. Право, Даша, я не понимаю, почему тебе
+            вздумалось меня нарядить в сюртук; теперь же скоро двенадцатый час, на службу итти пора,
+            и без того фрак придется надеть.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. У нас, может быть, гости будут.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Гости? Какие гости?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Граф Любин. Ведь ты его знаешь?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Любина? Еще бы? Так ты его ожидаешь?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Его. <stage type="delivery">(Взглянув на него.)</stage> Что ж тут удивительного?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. В этом ничего нет удивительного, я совершенно с тобою согласен; но позволь тебе
+            заметить, душа моя, это совершенно невозможно.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Почему же?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Невозможно, совершенно невозможно. С какой стати он придет?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ему нужно будет с тобою переговорить.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Положим, положим; но это ничего не доказывает, совершенно ничего не доказывает. Он
+            меня к себе позовет. Возьмет да позовет.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Мы с ним были знакомы: он видал меня в доме своей матери.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. И это ничего не доказывает. Как ты думаешь, Миша?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Я-с? я ничего не думаю-с.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(к жене)</stage>. Ну, вот, видишь… Он не придет. Помилуй, как
+            это…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ну, может быть, может быть; только ты не снимай сюртука…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Впрочем, я совершенно с тобою согласен.
+              <stage type="delivery">(Прохаживаясь по комнате.)</stage> То-то сегодня с утра здесь
+            такую подняли пыль… Ох, уж эта мне чистота! И ты такая нарядная!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Alexis,<ref>Алексей, франц.</ref> пожалуйста, без замечаний.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ну, да, да. Конечно, без замечаний… Вишь, этот граф поразорился, так и к нам
+            пожаловал. Что, он молод?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Он моложе тебя. Ступендьев. Гм… Совершенно, я совершенно с тобой согласен… то-то ты
+            вчера все на фортепьянах этак того… <stage type="delivery">(Разводит руками.)</stage>
+            Да, да. <stage type="delivery">(Напевает сквозь зубы.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Я сегодня к Кулешкину заходил-с. Так их там ждут-с.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ждут? Ну, так пускай ждут. <stage type="delivery">(К жене.)</stage> Как же это я его
+            никогда у Катерины Дмитревны не видал?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Он тогда в Петербурге служил.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Гм… Он, говорят, теперь в чинах. И ты думаешь, что он придет? Помилуй, помилуй!</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ЧЕТВЕРТОЕ ==</head>
+        <stage type="delivery">(Те же, и из передней выходит Аполлон; на нем голубая ливрея с белыми
+          пуговицами, весьма неловко скроенная; лицо его выражает тупое изумление.)</stage>
+        <sp who="#Apollon">
+          <speaker>Аполлон</speaker>
+          <p>
+            <stage type="delivery">(таинственно Ступендьеву)</stage>. Какой-то господин вас
+            спрашивает.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(струхнув)</stage>. Какой господин?</p>
+        </sp>
+        <sp who="#Apollon">
+          <speaker>Аполлон</speaker>
+          <p>. Не знаю-с, в шляпе и с бакенами.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(с волнением)</stage>. Проси. <stage type="delivery">(Аполлон
+              таинственно взглядывает на Ступендьева и выходит.)</stage> Неужели граф?</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ПЯТОЕ ==</head>
+        <stage type="delivery">(Те же, и из передней выходит лакей графа. Он одет по-дорожному,
+          по-щегольски и не снимает шляпы. Из-за дверей с любопытством выглядывают Васильевна и
+          Аполлон.)</stage>
+        <sp who="#Lakej">
+          <speaker>Лакей</speaker>
+          <p>
+            <stage type="delivery">(с немецким выговором)</stage>. Здесь живет г. Ступендьев,
+            чиновник?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Здесь. Что вам угодно?</p>
+        </sp>
+        <sp who="#Lakej">
+          <speaker>Лакей</speaker>
+          <p>. Вы г. Ступендьев?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я. Что вам угодно?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Алексей Иваныч!</p>
+        </sp>
+        <sp who="#Lakej">
+          <speaker>Лакей</speaker>
+          <p>. Граф Любин приехал и приказал вас просить к себе.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. А вы от него?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Алексей Иваныч, подите сюда.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(подходит к ней)</stage>. Что?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Скажите ему, чтобы он шляпу снял.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ты думаешь? Г-м… Да, да… <stage type="delivery">(Подходя к лакею.)</stage> Вы не
+            находите, что здесь будто жарко… <stage type="delivery">(Показывая рукой на
+              шляпу.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Lakej">
+          <speaker>Лакей</speaker>
+          <p>. Здесь не жарко. Следовательно, вы сейчас придете?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я… <stage type="delivery">(Дарья Ивановна делает ему знак.)</stage> Да позвольте
+            узнать, кто вы собственно такой?</p>
+        </sp>
+        <sp who="#Lakej">
+          <speaker>Лакей</speaker>
+          <p>. Я вольнонаемный человек их сиятельства… камердинер.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(внезапно вспыхнув)</stage>. Сними шляпу, сними шляпу, сними
+            шляпу, говорят! <stage type="delivery">(Лакей медленно и с достоинством снимает
+              шляпу.)</stage> А их сиятельству скажи, что я сейчас…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(вставая)</stage>. Скажите графу, что мой муж теперь занят и не
+            может выйти из дому. А что, если граф желает его видеть, так пусть пожалует сам.
+            Ступайте. <stage type="delivery">(Лакей выходит.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ШЕСТОЕ ==</head>
+        <stage type="delivery">(Те же без лакея.)</stage>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(к Дарье Ивановне)</stage>. Однако, Даша, мне, право, кажется, ты
+            того… <stage type="delivery">(Дарья Ивановна молча прохаживается взад и вперед.)</stage>
+            Впрочем, я совершенно с тобою согласен. А каково я его отделал, а? просто оборвал, как
+            говорится. Нахал этакой! <stage type="delivery">(Мише.)</stage> Ведь хорошо?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Хорошо-с, Алексей Иваныч, очень хорошо-с.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. То-то же!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Аполлон!</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ СЕДЬМОЕ ==</head>
+        <stage type="delivery">(Те же и Аполлон; за ним Васильевна.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(поглядев некоторое время на Аполлона)</stage>. Нет, ты слишком
+            смешон в этой ливрее. Ты уже лучше не показывайся.</p>
+        </sp>
+        <sp who="#Vasilevna">
+          <speaker>Васильевна</speaker>
+          <p>. Да чем же он смешон, матушка? Человек как и все, да еще мой племянник…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Женщина, не рассуждай!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(Аполлону)</stage>. Повернись! <stage type="delivery">(Аполлон
+              повертывается.)</stage> Нет, тебе решительно нельзя показаться на глаза графу. Ступай
+            и спрячься где-нибудь… А ты, Васильевна, посиди в передней, пожалуйста.</p>
+        </sp>
+        <sp who="#Vasilevna">
+          <speaker>Васильевна</speaker>
+          <p>. Да, матушка, у меня в кухне работа.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. А кто тебе велит работать, баловница?</p>
+        </sp>
+        <sp who="#Vasilevna">
+          <speaker>Васильевна</speaker>
+          <p>. Да помилуйте…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Не рассуждай, женщина! Стыдись! Марш оба! <stage type="delivery">(Васильевна и
+              Аполлон уходят.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ВОСЬМОЕ ==</head>
+        <stage type="delivery">(Те же, без Васильевны и Аполлона.)</stage>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(Дарье Ивановне)</stage>. Итак, ты действительно думаешь, что
+            граф теперь придет?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Думаю.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(прохаживается)</stage>. Я в волнении. Он придет рассерженный… я
+            в волнении.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Пожалуйста, будь как можно спокойнее и хладнокровнее.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Слушаю… я в волнении. Миша, а ты в волнении?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Никак нет-с.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. А я в волнении… <stage type="delivery">(Дарье Ивановне.)</stage> Зачем ты не пустила
+            меня к нему?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Уж это мое дело. Вспомни, что ты ему нужен.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я ему нужен… Я в волнении… Что это?</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДЕВЯТОЕ ==</head>
+        <stage type="delivery">(Те же и Аполлон.)</stage>
+        <sp who="#Apollon">
+          <speaker>Аполлон</speaker>
+          <p>
+            <stage type="delivery">(с необыкновенно встревоженным лицом)</stage>. Я не успел
+            спрятаться. Барин пришел. Я не успел спрятаться.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(шопотом)</stage>. Ну, ступай скорей сюда! <stage type="delivery">(Проталкивает его в кабинет.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Apollon">
+          <speaker>Аполлон</speaker>
+          <p>. Я не успел, а Васильевна ушла в кухню. <stage type="delivery">(Исчезает.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДЕСЯТОЕ ==</head>
+        <stage type="delivery">(Те же без Аполлона.)</stage>
+        <sp who="#GrafLjubin">
+          <speaker>Голос Любина</speaker>
+          <p>
+            <stage type="delivery">(за кулисами)</stage>. Что же это значит? Никого нет, что ли?
+            Зачем этот человек убежал?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(с отчаяньем к Дарье Ивановне)</stage>. Васильевна в кухню
+            ушла!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Голос Любина</speaker>
+          <p>. Человек!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Миша, подите, отворите.</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ОДИННАДЦАТОЕ ==</head>
+        <stage type="delivery">(Те же и граф Любин, которому Миша отворяет дверь. Он одет щегольски
+          и несколько изысканно, как обыкновенно одеваются стареющие бель-oмы.)</stage>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Пожалуйте.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Г. Ступендьев здесь?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(кланяясь с смущением)</stage>. Я… Ступендьев.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Очень рад. Я граф Любин. Я присылал к вам моего человека; но вам не угодно было ко
+            мне пожаловать.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Извините, ваше сиятельство. Я…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>
+            <stage type="delivery">(оборачиваясь, холодно кланяется Дарье Ивановне, которая отошла
+              несколько в сторону)</stage>. Мое почтенье. Признаюсь, я был удивлен. Верно, у вас
+            занятья, занятья?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Точно, ваше сиятельство, занятья!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Может быть, не спорю, но мне кажется, что для иных людей можно оставить свое занятие,
+            особенно когда… вас просят… <stage type="delivery">(Из передней выходит Васильевна.
+              Ступендьев делает ей знаки, чтоб она ушла.)</stage> Когда… <stage type="delivery">(Любин с удивлением оглядывается; Васильевна смотрит на него во все глаза и убегает.
+              Любин с улыбкою обращается к Ступендьеву.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Это ничего, ваше сиятельство. Это так женщина, пришла и ушла; к сожаленью пришла и к
+            счастью ушла. А вот, позвольте, я вам лучше представлю мою супругу.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>
+            <stage type="delivery">(почти не глядя на нее, холодно кланяется)</stage>. А? очень
+            рад.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Дарья Ивановна, ваше сиятельство Дарья Ивановна.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>
+            <stage type="delivery">(так же холодно)</stage>. Очень рад, очень рад; но я пришел…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(скромным голосом)</stage>. Вы не узнали меня, граф?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>
+            <stage type="delivery">(вглядываясь)</stage>. Ах, боже мой!.. Позвольте, точно… Дарья
+            Ивановна! Вот неожиданная встреча! Сколько лет, сколько зим… Это вы? Скажите!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да-с, граф, давно мы не видались… Видно, я много переменилась с тех пор.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Помилуйте, вы только похорошели. Вот я, небось, другое дело!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(невинно)</stage>. Вы нисколько не изменились, граф.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. О, полноте! Но мне теперь весьма приятно, что вашему супругу нельзя было пожаловать
+            ко мне: это мне доставило случай возобновить знакомство с вами. Ведь мы старинные
+            друзья.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. А ведь это, ваше сиятельство, она…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(поспешно перебивая его)</stage>. Старинные друзья… Вы, граф,
+            должно быть, во все время не вспомнили о… об ваших старинных друзьях?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Я?.. Напротив, напротив. Признаюсь, я хорошенько не помнил, за кого вы вышли замуж…
+            Покойница матушка мне как-то писала незадолго перед своей кончиной… но…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да и как же вам было в Петербурге, в большом свете, не забыть о нас? Вот мы, бедные,
+            уездные жители— мы не забываем <stage type="delivery">(с легким вздохом)</stage>, мы
+            ничего не забываем.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Нет, я вас уверяю. <stage type="delivery">(Помолчав.)</stage> Поверьте, я всегда
+            принимал живейшее участие в вашей судьбе и очень рад видеть вас теперь… <stage type="delivery">(ищет слова)</stage> в положении упроченном…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(кланяясь с благодарностью)</stage>. Совершенно, совершенно
+            упроченном, ваше сиятельство. Одно— бедность, недостатки— вот, что горе!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Ну да, ну да. <stage type="delivery">(Помолчав)</stage>. Однако <stage type="delivery">(обращаясь к Ступендьеву)</stage>, позвольте узнать ваше имя и
+            отчество?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(кланяясь)</stage>. Алексей Иваныч, ваше сиятельство, Алексей
+            Иваныч.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Любезнейший Алексей Иваныч, нам нужно с вами переговорить о деле… Я думаю, этот
+            разговор вашу супругу занять не может… так не лучше ли нам, знаете… удалиться, остаться
+            наедине на некоторое время, а?… Мы с вами потолкуем…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Как вашему сиятельству будет угодно… Даша… <stage type="delivery">(Дарья Ивановна
+              хочет уйти.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. О, нет, помилуйте, не беспокойтесь, останьтесь… Мы с Алексей Иванычем можем выйти, мы
+            в вашу комнату пойдем, Алексей Иваныч, хотите?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. В мою комнату… гм… в мой кабинет, то есть…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>. Да, да, в ваш кабинет…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Как вашему сиятельству будет угодно… но…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>
+            <stage type="delivery">(к Дарье Ивановне)</stage>. А мы, Дарья Ивановна, еще с вами
+            увидимся… я надеюсь. <stage type="delivery">(Дарья Ивановна приседает.)</stage> До
+            свиданья. <stage type="delivery">(К Ступендьеву.)</stage> Куда итти— сюда? <stage type="delivery">(Указывает шляпой на дверь в кабинет.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Сюда-с… но… там, ваше сиятельство…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф Любин</speaker>
+          <p>
+            <stage type="delivery">(не слушая его)</stage>. Очень хорошо, очень хорошо… <stage type="delivery">(Идет в кабинет; за ним Ступендьев, который, уходя, делает какие-то
+              знаки жене. Дарья Ивановна остается в раздумьи и глядит за ними вслед. Через несколько
+              мгновений из кабинета стрелой вылетает Аполлон и убегает в переднюю. Дарья Ивановна
+              вздрагивает, улыбается и опять погружается в раздумье.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДВЕНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна и Миша.)</stage>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(подходя к ней)</stage>. Дарья Ивановна!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(встрепенувшись)</stage>. Что?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Позвольте узнать-с, давно вы видались с их сиятельством?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Давно, двенадцать лет.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Двенадцать лет! Скажите! И в течение всего этого времени получали вы от них
+            какие-нибудь известия-с?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я? Никаких. Он столько же думал обо мне, сколько о китайском императоре.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Скажите! Как же это они говорили-с, что принимали-с живейшее участие в вашей
+            судьбе-с?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А вас это удивляет? Как вы еще молоды— если это вас точно удивляет! <stage type="delivery">(Помолчав.)</stage> Как он постарел!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Постарел?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Румянится, белится… красит волосы, а морщин-то, морщин…</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Неужели красит волосы? Ай, ай, ай, как стыдно! <stage type="delivery">(Помолчав.)</stage> А они, кажется, скоро намерены уйти-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(быстро оборачивается к нему)</stage>. Почему вы это думаете?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(скромно потупив глаза)</stage>. Да так-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Нет… он останется обедать.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(со вздохом)</stage>. Ах, уж как бы это было хорошо!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А что?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(с скромностью)</stage>. Провизии даром пропадут-с… и вино-с…
+            если они не останутся, то есть… Дарья Ивановна <stage type="delivery">(с
+              расстановкой)</stage>. Да. Ну, послушайте, Миша, вот в чем дело. Они оба теперь скоро
+            выйдут.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(внимательно глядя на нее)</stage>. Да-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Так вот, видите ли, оставьте меня теперь одну.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Да-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я графа приглашу отобедать, а Алексея Иваныча…</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Понимаю-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(слегка наморщив брови)</stage>. Что вы понимаете? Алексея
+            Иваныча я вышлю к вам…</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Так-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А вы его задержите… так, не на долгое время… Вы ему скажите, что мне нужно
+            переговорить с графом, для его же пользы… Вы понимаете?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Слушаю-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ну, да. Я на вас надеюсь. Вы можете с ним, если хотите, прогуляться немного.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Конечно-с; отчего ж не прогуляться?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ну, да, да. Теперь ступайте, оставьте меня.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Слушаю-с. <stage type="delivery">(Уходя, останавливается.)</stage> Уж вы и меня не
+            забудьте, Дарья Ивановна. Ведь вы знаете, как я вам предан, можно сказать, и телом и
+            душой…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Что вы хотите сказать?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Ах, Дарья Ивановна, ведь и мне страх как хочется в Петербург! Что я здесь буду делать
+            без вас?.. Сделайте одолжение, Дарья Ивановна… А я вам заслужу.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Я не понимаю вас, я еще сама не знаю…
+            Впрочем, хорошо, ступайте.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Слушаю-с. <stage type="delivery">(Возводя глаза к небу.)</stage> А я вам заслужу,
+            Дарья Ивановна! <stage type="delivery">(Уходит в переднюю.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ТРИНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна, одна.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(остается некоторое время неподвижною)</stage>. Он не обращает на
+            меня ни малейшего внимания— это ясно. Он меня позабыл. И, кажется, я напрасно
+            рассчитывала на его приезд. А сколько надежд у меня было сопряжено с этим приездом!..
+              <stage type="delivery">(Оглядывается.)</stage> Неужели же я вечно должна остаться
+            здесь, здесь?.. Что делать! <stage type="delivery">(Помолчав.)</stage> Впрочем, еще
+            ничего не решено. Он почти не видел меня… <stage type="delivery">(Взглянув в
+              зеркало.)</stage> Я, по крайней мере, не крашу своих волос… Посмотрим, посмотрим.
+              <stage type="delivery">(Прохаживается по комнате, подходит к фортепьяно и берет
+              несколько аккордов.)</stage> Они не скоро еще выйдут. Ожиданья меня замучат. <stage type="delivery">(Садится на диван.)</stage> Но, может быть, я сама заржавела в этом
+            городишке… Почему я знаю? Кто мне скажет здесь, что из меня вышло, кто может в этом
+            обществе мне дать почувствовать, что сделалось со мной? К несчастию, я выше их всех… Я
+            выше их; но для него— я все-таки провинциалка, жена уездного чиновника, бывшая
+            воспитанница богатой барыни, которую потом кой-как пристроили… а он, он знатный человек,
+            в чинах, богатый… ну, не совсем богатый; дела его расстроились в Петербурге, и он, я
+            думаю, не на один месяц сюда приехал. Он хорош собой, то есть, был хорош собой… теперь
+            он белится и красит волосы. Говорят, что для людей в его положении воспоминания
+            молодости особенно дороги… а он меня знал двенадцать лет тому назад, волочился за мной…
+            Да, да, конечно, он волочился за мной от нечего делать, но все-таки… <stage type="delivery">(Вздыхает.)</stage> И я в то время, помнится, мечтала… О чем не
+            мечтаешь, в шестнадцать лет! <stage type="delivery">(Вдруг выпрямляясь.)</stage> Ах,
+            боже мой! да у меня, должно быть, хранится одно его письмо… Точно. Но где оно? Как
+            досадно, что я прежде о нем не вспомнила!.. Впрочем, я успею… <stage type="delivery">(Помолчав.)</stage> Посмотрим. Но как кстати пришли эти ноты и книги! Мне смешно… я
+            точно генерал перед сраженьем, приготовляюсь встретить неприятеля… А как я переменилась
+            в последнее время! Неужели это я так холодно, так спокойно обдумываю, что мне должно
+            делать? Нужда всему научит и от многого отучит. Нет, я не спокойна, я в волнении теперь,
+            но только от того, что я не знаю, удастся ли… Полно, так ли? Ведь уж я не ребенок, и
+            воспоминания уже стали дороги и для меня… какие бы они ни были… ведь других у меня не
+            будет, ведь уж полжизни, более полжизни прошло. <stage type="delivery">(Улыбается.)</stage> Однако, они всё нейдут! И чего я прошу? чего добиваюсь? Самой
+            безделицы. Для него дать нам возможность переехать в Петербург, сыскать нам там место—
+            безделица. А Алексей Иваныч всякому месту будет рад… Неужели ж я и этого не добьюсь?.. В
+            таком случае, мне и след оставаться в уездном городе… я не заслуживаю лучшей участи…
+              <stage type="delivery">(Прикладывая руку к щеке.)</stage> А у меня от этой
+            неизвестности, от всех этих размышлений— лихорадка; щеки так и горят. <stage type="delivery">(Помолчав.)</stage> Что ж? Тем лучше. <stage type="delivery">(Услышав
+              шум в кабинете.)</stage> Они идут… сражение начинается… О, робость, неуместная
+            робость, оставь меня теперь! <stage type="delivery">(Берется за книгу и прислоняется к
+              спинке дивана.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ЧЕТЫРНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна, Ступендьев и граф Любин.)</stage>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Итак, я могу надеяться на вас, любезнейший Алексей Иваныч?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ваше сиятельство, я, с своей стороны, готов во всем, что от меня зависит…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Очень, очень вам благодарен. А бумаги я вам сообщу в самое короткое время… Сегодня я
+            вернусь к себе, и завтра или послезавтра…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Слушаю-с, слушаю-с.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(подходя к Дарье Ивановне)</stage>. Дарья Ивановна, вы,
+            пожалуйста, извините меня: я сегодня, к сожалению, не могу у вас остаться долее, но я
+            надеюсь, что в другой раз…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Разве вы не обедаете у нас, граф? <stage type="delivery">(Встает.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я вам очень благодарен за приглашение, но…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А я так радовалась наперед…. я надеялась, что вы проведете хоть немного времени с
+            нами!.. Конечно, мы не смеем вас удерживать…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы слишком добры, но право… если б вы знали— у меня столько дела.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вспомните, как давно мы не видались… и бог знает, когда нам придется опять увидеться
+            с вами! Ведь вы у нас такой редкий гость…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Именно, ваше сиятельство, так сказать, феникс.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(перебивая его)</stage>. Притом же, вы теперь не успеете
+            вернуться к обеду домой; а у нас… я могу вас уверить, вы отобедаете лучше, чем
+            где-нибудь в городе.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Мы, ведь, знали о прибытии вашего сиятельства.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(опять перебивая его)</stage>. Так вы обещаете, не правда ли?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(несколько принужденно)</stage>. Вы так мило меня просите, что
+            мне невозможно вам отказать…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А! <stage type="delivery">(Берет у него шляпу из рук и ставит на
+            фортепиано.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(Дарье Ивановне)</stage>. Признаюсь, я сегодня поутру, выезжая из
+            дому, никак не ожидал иметь удовольствие встретить вас… <stage type="delivery">(Помолчав.)</stage> А ваш город, сколько я мог заметить, не дурен.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Для уездного города— живет, ваше сиятельство.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(садясь)</stage>. Сядьте же, граф, прошу вас… <stage type="delivery">(Граф садится.)</stage> Вы не можете себе представить, как я
+            счастлива, как я рада видеть вас у себя… <stage type="delivery">(К мужу.)</stage> Ах!
+            кстати, Alexis, тебя Миша спрашивает.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Что ему надобно?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Не знаю, но ты, кажется, ему очень нужен; поди, пожалуйста, к нему.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Да как же я… их сиятельство, вот… мне теперь невозможно.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. О, помилуйте, сделайте одолжение, не церемоньтесь. Я остаюсь в очень приятном
+            обществе. <stage type="delivery">(Равнодушно проводит рукою по волосам.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Да что ж его могло так приспичить?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ты ему нужен; ступай, mon ami.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Слушаю… Но я сейчас вернусь… Вашему
+            сиятельству… <stage type="delivery">(Кланяется; граф ему кланяется. Ступендьев уходит в
+              переднюю и говорит про себя.)</stage> И что ему такое вдруг занадобилось?</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ПЯТНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна и граф. Небольшое молчание. Граф с легкой улыбкой
+          посматривает сбоку на Дарью Ивановну и покачивает ногой.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(опуская глаза)</stage>. Надолго вы приехали в наши края, ваше
+            сиятельство?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Месяца на два; я уеду, как только дела мои несколько устроятся.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы в Спасском остановились?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да, в матушкином имении.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. В том же доме?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. В том же. Признаюсь, в нем теперь жить не весело. Он так обветшал, так развалился… я
+            на будущий год его намерен сломать.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы говорите, граф, в нем теперь не весело жить… Я не знаю, мои воспоминания об нем
+            чрезвычайно приятны. Неужели вы, точно, хотите его сломать?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А разве вам его жаль?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Еще бы! Я в нем провела лучшее время моей жизни. Притом, память о моей
+            благодетельнице, вашей покойной матушке… Вы понимаете…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(перебивая ее)</stage>. Ну да, да… я понимаю. <stage type="delivery">(Помолчав.)</stage> А ведь, точно, в прежнее время там бывало
+            весело…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А вы не забыли…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Чего?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(опять опустив глаза)</stage>. Прежнего времени?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(понемногу оборачиваясь и начиная обращать некоторое внимание на
+              Дарью Ивановну)</stage>. Я ничего не забыл, поверьте… Скажите, пожалуйста, Дарья
+            Ивановна, сколько вам тогда было лет?.. Постойте, постойте… Знаете ли, ведь вы от меня
+            не можете скрыть свои годы?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я их и не скрываю… Мне, граф, столько, сколько вам было тогда— 28 лет.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Неужели мне тогда было уже 28 лет? Мне кажется, вы ошибаетесь…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. О, нет, граф, не ошибаюсь… Я слишком хорошо помню все, что касается до вас…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(принужденно смеясь)</stage>. Какой же я старик после этого!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы старик? Полноте!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Ну, положим, положим; я с вами в этом спорить не стану. <stage type="delivery">(Помолчав.)</stage> Да, да, хорошее было тогда время! Помните наши утренние прогулки
+            в саду, по липовой аллее, перед завтраком? <stage type="delivery">(Дарья Ивановна
+              опускает глаза.)</stage> Нет, скажите, помните?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я вам уже сказала, граф, что нам, деревенским жителям, нельзя не помнить прошедшего,
+            особенно, когда оно… почти не повторялось. Вот вы— другое дело!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(все более одушевляясь)</stage>. Нет, послушайте, Дарья Ивановна,
+            вы этого не думайте. Я вам это серьезно говорю. Конечно, в больших городах так много
+            рассеянности, особенно для молодого человека; конечно, эта разнообразная, шумная жизнь…
+            Но могу вас уверить, Дарья Ивановна, первые, знаете ли, первые впечатления никогда не
+            изглаживаются, а иногда, среди этого вихря, сердце… вы понимаете, сердце, наскучив
+            пустотою… знаете ли, его так и тянет…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. О, да, граф, я с вами согласна: первые впечатления не проходят. Я это испытала.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А! <stage type="delivery">(Помолчав.)</stage> А признайтесь, Дарья Ивановна, ведь
+            вам, должно быть, здесь довольно скучно?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(с расстановкой)</stage>. Не скажу. Сначала мне, точно, было
+            несколько трудно привыкать к этому новому образу жизни; но потом… мой муж такой добрый,
+            прекрасный человек!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. О, да… я с вами согласен… Он очень, очень достойный человек, очень; но…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Потом я… я привыкла. Для счастия немного нужно. Домашний быт, семейство… <stage type="delivery">(понизив голос)</stage> и несколько хороших воспоминаний…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А у вас есть такие воспоминанья?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Есть, как у всякого; с ними легче переносить скуку.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Стало быть, вы все-таки скучаете иногда?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вас это удивляет, граф? Вы вспомните, я имела счастие быть воспитанной в доме вашей
+            матушки. Сравните же то, к чему я привыкла в молодости, с тем, что меня теперь окружает.
+            Конечно, ни мое состоянье, ни мое рожденье, словом, ничто не давало мне права надеяться,
+            что я так же буду продолжать жить, как начала; но вы сами сказали: первые впечатления не
+            изглаживаются, и что нельзя же насильно выкинуть из памяти то <stage type="delivery">(потупляя голову)</stage>, что благоразумие советовало бы забыть… Я буду откровенна с
+            вами, граф. Неужели вы думаете, что я не чувствую, как вам все здесь должно казаться
+            бедно… и смешно? Этот лакей, который спасается от вас, как заяц; эта кухарка— и… и,
+            может быть, я сама…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы, Дарья Ивановна? Вы шутите, помилуйте! Да я, я вас уверяю… я, напротив,
+            удивляюсь…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(живо)</stage>. Я вам скажу, чему вы удивляетесь, граф. Вы
+            удивляетесь тому, что я еще не совсем потеряла привычки моей молодости, что я еще не
+            успела вполне превратиться в провинциалку… Это удивление для меня, вы думаете,
+            лестно?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Как вы дурно толкуете мои слова, Дарья Ивановна!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Может быть; но оставим это, прошу вас. До иных ран, даже когда они и зажили, все
+            больно дотрогиваться. Притом же, я совершенно примирилась с своей судьбой; живу одна в
+            своем темном уголку; и если б ваш приезд не пробудил во мне многих воспоминаний, мне бы
+            все это и в голову не пришло. Я бы, по крайней мере, об этом никогда не заговорила. Мне
+            и так совестно, что я, вместо того, чтоб занять вас по мере возможности…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да за кого же вы меня принимаете, позвольте вас спросить? Неужели ж вы думаете, что я
+            не дорожу вашей доверенностью, не умею ценить ее? Но вы клевещете на себя. Не может
+            быть, я не хочу верить, чтоб вы, с вашим умом, с вашим образованьем, остались
+            незамеченною здесь…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Совершенно граф, уверяю вас. И я об этом нисколько не тужу. Послушайте: я горда. Это
+            только у меня осталось от моего прошедшего. Я не желаю нравиться людям, которые мне
+            самой не нравятся… Притом, мы бедны, зависим от других; все это мешает сближенью— такому
+            сближенью, которое бы меня не оскорбляло. Такое сближенье невозможно… Я и предпочла
+            одиночество. Притом, мне одиночество не страшно— я читаю, занимаюсь; к счастью, я нашла
+            в муже честного человека.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да, это тотчас видно.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Мой муж, конечно, не без странностей… Я вам говорю это так смело потому, что вы, с
+            вашим проницательным взглядом, не могли их не заметить— но он прекрасный человек. И я бы
+            ни на что не жаловалась, я бы всем была довольна, если б…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Если б что?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Если б… иногда… иные непредвиденные… случайности не возмущали моего спокойствия.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я не смею понимать вас, Дарья Ивановна… Какие случайности? Вы сперва говорили о
+            воспоминаньях…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(прямо и невинно глядя в глаза графу)</stage>. Послушайте, граф;
+            я с вами хитрить не стану. Я вообще хитрить не умею, а с вами это было бы, просто,
+            смешно. Неужели вы думаете, что для женщины ничего не значит увидеть человека, которого
+            она знала в молодости, знала совершенно в другом мире, в других отношениях— и увидать
+            его, как я вижу теперь вас… <stage type="delivery">(Граф украдкой поправляет
+              волосы.)</stage> Говорить с ним, вспоминать о прошлом…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(перебивая ее)</stage>. А вы разве тоже думаете, что ничего не
+            значит для мужчины, которого судьба, так сказать, бросала во все концы мира,— что ничего
+            ему не значит встретить женщину, подобную вам, сохранившую всю… всю эту прелесть
+            молодости, этот… этот ум, эту любезность— cette grace?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(с улыбкой)</stage>. А между тем, эта женщина едва-едва уговорила
+            этого мужчину остаться у ней обедать!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Ах, вы злопамятны! Но нет, скажите, как вы думаете— это для него ничего не
+            значит?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я этого не думаю. Вот, видите ли, как я с вами откровенна. Всегда приятно вспоминать
+            про свою молодость, особенно, когда в ней нет ничего такого, что могло бы служить
+            упреком.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Ну, и скажите, что ответит эта женщина этому мужчине, если он, этот мужчина, уверит
+            ее, что никогда, никогда не забывал ее, что свидание с ней, так сказать, сердечно его
+            тронуло?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Что она ответит?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да, да, что она ответит?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Она ему ответит, что сама тронута его ласковыми словами и <stage type="delivery">(протягивая ему руку)</stage> предложит ему руку на возобновление старинной искренней
+            дружбы.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(схватывая ее руку)</stage>. Vous etes charmante.<ref>Вы
+              очаровательны, франц.</ref>
+            <stage type="delivery">(Хочет поцеловать у ней руку, но Дарья Ивановна принимает
+              ее.)</stage> Вы милы, вы чрезвычайно милы!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(встает с веселым видом)</stage>. Ах, как я рада! как я рада! Я
+            так боялась, что вы не захотите вспомнить обо мне, что вам будет неловко, неприятно у
+            нас, что вы даже найдете нас невежливыми.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(сидя, следит за ней глазами)</stage>. Скажите, Дарья
+            Ивановна…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(слегка к нему оборачивается)</stage>. Что?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы отсоветовали Алексею Ивановичу притти ко мне? <stage type="delivery">(Дарья
+              Ивановна лукаво кивает головой.)</stage> Вы? <stage type="delivery">(Вставая.)</stage>
+            Уверяю вас честью, что вы в этом раскаиваться не будете.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Еще бы! Я вас увидала.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Нет, нет, я не в том смысле говорю.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(невинно)</stage>. Не в том? в каком же?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А в том, что вам грешно оставаться здесь. Я этого не потерплю. Я не потерплю, чтоб
+            такая жемчужина пропадала в глуши… Я вам— я вашему мужу доставлю место в Петербурге.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Полноте!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы увидите.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да полноте, говорят вам!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы, может быть, думаете, Дарья Ивановна, что у меня для этого нет довольно… э… э…
+              <stage type="delivery">(он ищет слова)</stage> influence…<ref>Влияния… франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Oh, j'en suis parfaitement persuadee!<ref>О, в этом я совершенно убеждена!
+              франц.</ref>
+          </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Tiens!<ref>Вот как! франц.</ref>
+            <stage type="delivery">(У него это выражение вырвалось невольно.)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(смеясь)</stage>. Вы, граф, кажется, сказали: tiens! Неужели вы
+            воображали, что я забыла по-французски?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Нет, я этого не воображал… mais quel accent!<ref>Но какое произношение! франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. О, полноте!.. Граф. А место, все-таки, я вам обещаю.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. В самом деле? не шутя?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Не шутя, не шутя, вовсе не шутя.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ну, тем лучше. Алексей Иваныч вам будет очень, очень благодарен. <stage type="delivery">(Помолчав.)</stage> Только вы, пожалуйста, не подумайте…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Чего?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Нет, ничего. Эта мысль не могла притти в вашу голову, и потому ей не следовало
+            приходить в мою. Так мы, может быть, будем в Петербурге? Ах, какое счастье! Как Алексей
+            Иваныч будет рад!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Ведь мы часто будем видеться, не правда ли? Я гляжу на вас, на ваши глаза, на ваши
+            локоны— и мне, право, кажется, что вам шестнадцать лет, и что мы, попрежнему, гуляем с
+            вами в саду, sous ces magnifiques tilleuls…<ref>Под этими великолепными липами…
+              франц.</ref> Ваша улыбка нисколько не изменилась, ваш смех так же звонок, так же
+            приятен, aussi jeune qu'alors…<ref>Так же молод, как тогда… франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А почему вы это знаете?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Как почему? Разве я не помню?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я тогда не смеялась… Мне было не до смеху. Я была грустна, задумчива, молчалива—
+            разве вы забыли?..</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Все же иногда…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вам бы менее всякого другого следовало это позабыть, monsieur le comte.<ref>Господин
+              граф, франц.</ref> Ах, как мы были молоды тогда… особенно я!.. Вы— вы уже приехали к
+            нам блестящим молодым офицером… Помните, как ваша матушка вам обрадовалась, как не могла
+            наглядеться на вас… Помните, как вы даже вашей старой тетушке, княжне Лизе, вскружили
+            голову… <stage type="delivery">(Помолчав.)</stage> Нет, я не смеялась тогда.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Vous etes adorable… plus adorable que jamais.<ref>Вы очаровательны… очаровательнее,
+              чем когда-либо, франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. En verite?<ref>Правда? франц.</ref> Что значит воспоминанье! Вы мне тогда этого не
+            говорили.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я? я, который…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ну, полноте. А не то, я могу подумать, что вы собираетесь мне делать комплименты; это
+            не годится между старыми друзьями.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я? вам комплименты?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да, вы. Не думаете ли вы, что вы много переменились с тех пор, как я видела вас?
+            Впрочем, давайте говорить о чем-нибудь другом. Скажите мне лучше, что вы делаете, как вы
+            живете в Петербурге— все это меня так интересует… Ведь вы продолжаете заниматься
+            музыкой, не правда ли?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да, между делом, знаете.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Что, у вас такой же прекрасный голос?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Прекрасного голоса у меня никогда не было, но я еще пою.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ах, я помню, у вас был чудесный голос, такой симпатичный… Ведь вы, кажется, тоже
+            композировали?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я и теперь занимаюсь иногда композицией.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. В каком роде?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. В итальянском. Я другого не признаю. Pour moi— je fais peu; mais се que je fais est
+              bien.<ref>Для себя я делаю мало, но то, что я делаю, делаю хорошо. франц.</ref>
+            Кстати, ведь и вы занимались музыкой. Вы, помнится, сами очень мило пели, очень хорошо
+            на фортепьянах играли. Я надеюсь, вы всего этого не бросили?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(указывая на фортепьяно и на лежащие на нем ноты)</stage>. Вот
+            мой ответ.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А! <stage type="delivery">(Подходит к фортепьяно.)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Но, к сожалению, фортепьяна мои очень плохи; зато, по крайней мере, верны. Они
+            дребезжат, но от них не делается тоски.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(берет два-три аккорда)</stage>. Звук не дурен. Ах, кстати— какая
+            мысль! Ведь вы разбираете а livre ouvert?<ref>С листа? франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Если не слишком трудно, разбираю.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. О! это нисколько не трудно. У меня здесь небольшая вещь, une bagatelle que j'ai
+              composee,<ref>Безделица, которую я сочинил. франц.</ref> дуэтино из моей оперы для
+            тенора и сопрано. Я— вы, может быть, слыхали, я пишу оперу— для забавы, знаете ли… sans
+            aucune pretention.<ref>Без всякой претензии, франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Неужели?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Так вот, если вы позволите, я пошлю за этим дуэтино, или, лучше, нет, я сам схожу за
+            ним. Мы его разберем с вами— хотите?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А оно у вас здесь?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Здесь, на квартире.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ах, ради бога, граф, принесите его поскорей. Боже мой, как я вам благодарна!
+            Пожалуйста, ступайте за ним.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(берет шляпу)</stage>. Сейчас, сейчас. Vous verrez, cela n'est
+            pas mal.<ref>Вы увидите, это совсем не плохо. франц.</ref> Я надеюсь, что эта безделка
+            вам понравится.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Может ли быть иначе? Только я наперед прошу вашего снисхождения.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. О, помилуйте! напротив, я… <stage type="delivery">(Уходя, в дверях.)</stage> А! так
+            вам не до смеху было тогда!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы, кажется, надо мной теперь смеетесь… А я бы могла вам показать одну вещь…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Что такое? что такое?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Которая у меня хранится… Я бы посмотрела, узнали бы вы ее.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да о чем вы говорите?..</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я уж знаю, о чем. Ступайте теперь принесите ваше дуэтино, а потом мы увидим.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Vous etes un ange.<ref>Вы ангел, франц.</ref> Я сейчас вернусь. Vous etes un ange!
+              <stage type="delivery">(Делает ей ручкой и исчезает в переднюю.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ШЕСТНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна одна.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(глядит ему вслед и, после небольшого молчания,
+              восклицает)</stage>. Победа, победа!.. Неужели? И так скоро, так неожиданно! А! je
+            suis un ange— je suis adorable!<ref>Я ангел я очаровательна! франц.</ref> Стало быть, я
+            еще не совсем заржавела здесь. Я еще могу нравиться даже таким людям, как он <stage type="delivery">(улыбаясь)</stage>, как он… О, милый мой граф! я не могу вам скрыть,
+            что вы довольно смешны и очень устарели. И он не поморщился, когда я ему сказала, что
+            ему было тогда 28 лет вместо 37… как я, однако, спокойно солгала. Ступайте за вашим
+            дуэтино, как вы говорите. Вы можете быть наперед уверены, что я найду его прелестным.
+              <stage type="delivery">(Останавливается перед зеркалом, глядится и проводит обеими
+              руками по своей талии.)</stage> Мое бедное, деревенское платьице, я скоро расстанусь с
+            тобой, прощай! Недаром я сама хлопотала над тобой, недаром я для тебя выпросила картинку
+            у нашей городничихи. Ты мне сослужило службу. Я тебя никогда не брошу; но в Петербурге
+            уж я тебя надевать не стану. <stage type="delivery">(Охорашиваясь.)</stage> Мне кажется,
+            на этих плечах не стыдно лежать и бархату…</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ СЕМНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна.)</stage>
+        <stage type="delivery">(Дверь из передней слегка растворяется, и выказывается голова Миши.
+          Он глядит некоторое время на Дарью Ивановну и, не входя в комнату, говорит вполголоса:
+          «Дарья Ивановна!».)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(быстро оглядывается)</stage>. А это вы, Миша! Что вам? Мне
+            теперь некогда…</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Я знаю, знаю… я не войду-с; я только желал вас предупредить, что Алексей Иваныч
+            сейчас придут.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Зачем же вы с ним не пошли гулять?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Я гулял-с с ним, Дарья Ивановна; но они мне сказали-с, что желают итти на службу; я
+            не мог их удержать-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ну, он отправился на службу?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Они, точно, вошли в присутствие, но через короткое время изволили выйти-с.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А вы почему знаете, что он вышел?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. А я из-за угла глядел-с. <stage type="delivery">(Прислушивается.)</stage> Вот, они,
+            кажется, сюда идут-с. <stage type="delivery">(Скрывается и через минуту показывается
+              опять.)</stage> Ведь вы меня не забудете-с?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Нет, нет.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Слушаю-с <stage type="delivery">(Исчезает.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ВОСЕМНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна; немного погодя, Алексей Иванович.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Неужели Алексей Иваныч вздумал ревновать? Вот кстати, нечего сказать! <stage type="delivery">(Она садится. Из двери передней выходит Алексей Иванович. Он в
+              смущении. Дарья Ивановна оглядывается.)</stage> А, это ты, Alexis?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я, я, душа моя, я. А разве граф ушел?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я думала, что ты на службе.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я и то заходил в присутствие, сказать, знаешь, чтоб меня не ждали. Да и как же бы я
+            мог сегодня. У нас такой почетный гость… Да куда ж это он ушел?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(встает)</stage>. Послушайте, Алексей Иваныч, хотите вы получить
+            хорошее место, с хорошим жалованием, в Петербурге? Ступендьев. Я? Еще бы!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Хотите?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Конечно… Какой вопрос!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Так оставьте меня одну.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. То есть, как одну.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Одну с графом. Он сейчас придет. Он пошел на свою квартиру за дуэтино.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. За дуэтино?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да, за дуэтино. Он сочинил дуэт. Мы хотим его вместе разобрать.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Отчего же я должен уйти?.. Я бы тоже хотел послушать…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ах, Алексей Иваныч! Вы знаете, все авторы ужасно робки, и третье лицо— для них,
+            просто, беда.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Для авторов? Г-м… Да, третье лицо… Но я, право, не знаю, прилично ли это будет… Как
+            же это я уйду из дому?.. Граф, наконец, может обидеться.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Нисколько,— уверяю тебя. Он знает, что ты человек занятой, служащий; притом же, ты к
+            обеду вернешься…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. К обеду? Да.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. В три часа.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. В три часа. Г-м! Да… Я совершенно с тобою согласен. К обеду. Да, в три часа. <stage type="delivery">(Вертится на месте.)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(подождав)</stage>. Ну, что же ты?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я не знаю… У меня что-то, словно этак, голова болит. Вот эта, левая сторона.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Неужели? Левая сторона?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ей-богу. Вот, вот, вся эта сторона; я не знаю… мне, кажется, лучше дома остаться.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Послушай, мой друг, ты ревнуешь меня к графу, это ясно.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я? С чего ты это взяла? Это было бы слишком глупо…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Конечно, это было бы очень глупо, в этом нет никакого сомнения; но ты ревнуешь.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ты ревнуешь меня к человеку, который красит себе волосы.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Граф себе красит волосы? Так что ж! Я ношу парик.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. И то правда; а потому, так как мне твое спокойствие дороже всего, пожалуй, оставайся…
+            Но уж не думай о Петербурге. Ступендьев. Да отчего же? разве это место в Петербурге…
+            разве оно зависит от моего отсутствия?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Именно.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Гм! Странно. Я, конечно, согласен с тобой; но, все-таки, это странно, согласись и
+            ты.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Может быть.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Как это странно… как это странно! <stage type="delivery">(Расхаживает по
+              комнате.)</stage> Гм!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Но, во всяком случае, решайся скорее… Граф сейчас должен вернуться.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Как это странно! <stage type="delivery">(Помолчав.)</stage> Знаешь ли что, Даша, я
+            останусь.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Как тебе угодно.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Да разве граф тебе говорил что-нибудь об этом месте?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я ничего не могу прибавить к тому, что я тебе уже сказала. Оставайся или уходи; как
+            хочешь.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. И хорошее место?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Хорошее.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я совершенно с тобою согласен. Я… я остаюсь… я решительно остаюсь, Даша. <stage type="delivery">(В передней раздается голос графа, который делает руладу.)</stage> Вот
+            он. <stage type="delivery">(После небольшого колебанья.)</stage> В три часа? Прощай!
+              <stage type="delivery">(Бежит в кабинет.)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Слава богу!</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДЕВЯТНАДЦАТОЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна и граф; у него в руках сверток.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Наконец, я вас дождалась, граф.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Ме voila, me voila, та toute belle.<ref>Вот и я, вот и я, моя прекрасная,
+              франц.</ref> Я немножко замешкался.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Покажите, покажите… Вы не можете себе представить, в каком я нетерпении. <stage type="delivery">(Берет у него сверток из рук и с жадностью его
+            рассматривает.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы, пожалуйста, не ожидайте чего-нибудь этакого, слишком необыкновенного. Ведь я вам
+            наперед сказал, что это безделка, сущая безделка.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(не сводя глаз с нот)</stage>. Напротив, напротив… Oh! mais c'est
+              charmant!<ref>О, но это же чудесно! франц.</ref> Ах, как этот переход мил! <stage type="delivery">(Указывая пальцем на одно место.)</stage> Ах, я влюблена в этот
+            переход… Граф <stage type="delivery">(с скромной усмешкой)</stage>. Да, он не совсем
+            обыкновенный.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. И эта rentree!<ref>Повторение! франц.</ref> Граф. А! она вам нравится?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Очень, очень мило! Ну, пойдемте, пойдемте; что время терять! <stage type="delivery">(Идет к фортепьяно, садится, поднимает пюпитр и кладет ноты… Граф становится за ее
+              стулом.)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Это andante?<ref>Умеренно? <stage type="delivery">(музыкальный термин,
+              итал.)</stage>
+                        </ref>
+          </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Andante, aridante amoroso quasi cantando.<ref>Умеренно, умеренно страстно, почти
+              певуче, итал.</ref>
+            <stage type="delivery">(Откашливается.)</stage> Г-м, г-м! Я сегодня не в голосе… Но вы
+            извините… Une voix de compositeur, vous savez.<ref>Голос композитора, вы знаете,
+              франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Известная отговорка. Что ж мне, бедной, сказать после этого? Я начинаю. <stage type="delivery">(Она играет ритурнель.)</stage> Вот это трудно.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Не для вас.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А слова очень милы.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да… я их нашел, кажется, dans Metastase…<ref>У Метастазио… франц.</ref> я не знаю,
+            четко ли они написаны. <stage type="delivery">(Указывая пальцем.)</stage> Это он ей
+            поет. <l>: La dolce tua immagine</l>
+            <l>: О, vergine amata</l>
+            <l>: Dell'alma inamorata…</l>
+            <ref> : Нежный твой образ, : О, возлюбленная дева, : Влюбленной души… итал.</ref> Да
+            вот, позвольте, слушайте. </p>
+        </sp>
+        <stage type="delivery">(Поет романс в итальянском вкусе; Дарья Ивановна аккомпанирует
+          ему.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Прекрасно, прекрасно… Oh, que c'est joli!<ref>О, как это красиво! франц.</ref>
+          </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы находите?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Удивительно, удивительно!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я еще не так это спел, как бы следовало. Но как вы мне аккомпанировали, боже мой! Я
+            вас уверяю, никто, никто мне так не аккомпанировал… никто!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы мне льстите.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я? это не в моем характере, Дарья Ивановна. Верьте мне, c'est moi que vous le
+              dis.<ref>Вы не созданы франц.</ref> Вы великая музыкантша.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(словно все еще погруженная в созерцание нот)</stage>. Как этот
+            пассаж мне нравится! Как это ново!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Не правда ли?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. И неужели вся опера так же хороша?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы знаете, в этом деле автор не судья; но мне кажется, что, по крайней мере,
+            остальное не хуже, если не лучше.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Боже мой! Неужели вы мне не сыграете что-нибудь из этой оперы?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я был бы слишком рад и счастлив исполнить вашу просьбу, Дарья Ивановна, но, к
+            сожалению, я не играю на фортепьянах и ничего не взял с собой. Дарья Ивановна. Как жаль!
+              <stage type="delivery">(Вставая.)</stage> До другого разу. Ведь я надеюсь, граф, что
+            вы побываете к нам перед вашим отъездом?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я? я, если вы позволите, готов к вам ездить каждый день. Что ж касается до моего
+            обещания, то уж на этот счет вы можете быть совершенно покойны.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(невинно)</stage>. Какого обещания?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я вашему мужу доставлю место в Петербурге, ручаюсь вам честным словом. Вам нельзя
+            здесь оставаться. Помилуйте, это было бы, просто, срам! Vous n'etes pas faites,<ref>Вы
+              не созданы франц.</ref> чтобы этак… pour vegeter ici.<ref>Для прозябания здесь.
+              франц.</ref> Вы должны быть одним из блестящих украшений нашего общества, и я хочу… я
+            буду гордиться тем, что я первый… Но вы, кажется, задумались… о чем, смею спросить?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(напевая, будто про себя)</stage>. La dolce tua immagine.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А! я знал, я знал, что эта фраза останется у вас в памяти… Вообще все, что я делаю,
+            est tres chantant.<ref>Это очень певуче. франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Эта фраза чрезвычайно мила. Но извините, граф… я и не слыхала, что вы мне говорили…
+            по милости вашей музыки.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я вам говорил, Дарья Ивановна, что вам непременно нужно переехать в Петербург—
+            во-первых, для вас и для вашего мужа, а во-вторых, и для меня. Я осмеливаюсь упомянуть о
+            себе, потому что… потому что наша старинная, можно сказать, связь дает мне некоторое
+            право на это. Я никогда не забывал вас, Дарья Ивановна, а теперь более чем когда-нибудь
+            могу вас уверить, что я искренно вам предан… что эта встреча с вами…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(печально)</stage>. Граф, к чему вы это говорите?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Почему ж мне не говорить того, что я чувствую?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Потому что вам не следовало бы возбуждать во мне…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Что возбуждать… что возбуждать? говорите…</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДВАДЦАТОЕ ==</head>
+        <stage type="delivery">(Те же и Ступендьев показывается в дверях кабинета.)</stage>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Напрасные ожиданья.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Почему же напрасные? И какие ожиданья?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Почему? Я постараюсь быть откровенной с вами, Валерьян Николаич.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы помните мое имя!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вот, видите ли, здесь… вы обратили на меня… некоторое внимание, а в Петербурге, я,
+            может быть, покажусь вам такою незначительною, что вы, пожалуй, будете сожалеть о том,
+            что теперь намерены сделать для нас.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. О, что вы говорите, помилуйте! Вы себе не знаете цены. Но разве вы не понимаете… mais
+            vous etes une femme charmante…<ref>Вы же очаровательная женщина… франц.</ref> Сожалеть о
+            том, что я сделаю для вас, Дарья Ивановна!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(увидав Ступендьева)</stage>. Для моего мужа, вы хотите
+            сказать.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Ну, да, да, для вашего мужа. Сожалеть… Нет, вы еще не знаете настоящих моих чувств… я
+            тоже хочу быть откровенным с вами… в свою очередь.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(в смущеньи)</stage>. Граф…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы не знаете моих настоящих чувств, говорю вам: вы их не знаете.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(быстро входит в комнату, приближается к графу, который стоит к
+              нему спиной, и кланяется)</stage>. Ваше сиятельство, ваше сиятельство…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы не знаете чувств моих, Дарья Ивановна.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(кричит)</stage>. Ваше сиятельство, ваше сиятельство…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(быстро оборачивается, глядит на него некоторое время и спокойно
+              говорит.)</stage> А, это вы, Алексей Иваныч. Откуда вы явились?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Из кабинета… из кабинета, ваше сиятельство. Я был тут, в кабинете, ваше
+            сиятельство…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я думал, что вы на службе. А мы здесь с вашей супругой занимались музыкой. Господин
+            Ступендьев, вы счастливейший человек, я вам это говорю так просто, без обиняков, потому,
+            что я вашу жену знаю с детства.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Вы слишком добры, ваше сиятельство.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да, да… Вы счастливый человек!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Друг мой, ты можешь благодарить графа.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(быстро перерывая)</stage>. Permettez… Je le lui dirai moi-meme…
+            plus tard… quand nous serons plus d'accord.<ref>Разрешите… Я ему скажу сам… позже… когда
+              мы придем к еще большему согласию. франц.</ref>
+            <stage type="delivery">(Громко к Ступендьеву.)</stage> Вы счастливый человек! Любите вы
+            музыку?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Как же, ваше сиятельство. Я…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(обращаясь к Дарье Ивановне)</stage>. Кстати… вы мне хотели
+            что-то показать, вы забыли? Дарья Ивановна. Я?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да… вы… Vous avez deja oublie?<ref>Вы уже забыли? франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(быстро, вполголоса)</stage>. Il est jaloux et il comprend le
+              franс;ais.<ref>Он ревнив и он понимает по-французски. франц.</ref> Ах, да, точно… Я
+            теперь вспомнила; я хотела вам… я хотела вам показать наш сад; до обеда еще есть
+            время.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А! <stage type="delivery">(Помолчав.)</stage> А! у вас есть сад?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Небольшой, но в нем довольно цветов.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да, да, я помню; вы всегда были до них большая охотница. Покажите, покажите мне ваш
+            сад, сделайте одолжение. <stage type="delivery">(Идет к фортепьянам за
+            шляпой.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(вполголоса, подходя к Дарье Ивановне)</stage>. Что ж это… что ж
+            это… что ж это значит— а?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(вполголоса)</stage>. В три часа, или без места! <stage type="delivery">(Отходит от него и берет со столика зонтик.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(возвращаясь)</stage>. Дайте мне вашу руку. <stage type="delivery">(Вполголоса.)</stage> Я вас понимаю.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(глядя на него с едва заметной усмешкой)</stage>. Вы думаете?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(словно просыпаясь)</stage>. Да, позвольте, позвольте… И я с вами
+            пойду.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(останавливается и оглядывается)</stage>. И ты хочешь итти, mon
+              ami?<ref>Друг мой? франц.</ref> Ступай, ступай с нами, ступай. <stage type="delivery">(Они с графом направляются к двери сада.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Да… я… я пойду. <stage type="delivery">(Схватывает шляпу и делает несколько
+              шагов.)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Ступай, ступай… <stage type="delivery">(Она уходит с графом.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ПЕРВОЕ ==</head>
+        <stage type="delivery">(Ступендьев один.)</stage>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(делает еще несколько шагов, комкает шляпу и бросает ее на
+              пол)</stage>. Да! чорт возьми, я остаюсь! остаюсь! не пойду! <stage type="delivery">(Ходит по комнате.)</stage> Я человек решительный, я не люблю полумер. Я хочу видеть,
+            докуда… я хочу все это вынести до конца. Я хочу убедиться собственными глазами. Вот, что
+            я хочу… Ведь, это, наконец, неслыханное дело!— Ну, положим, она знала его в детстве; ну,
+            положим, она образованная женщина, очень, очень образованная женщина— да какая же нужда
+            меня-то дурачить? Оттого, что я не получил воспитания? Во-первых, это не моя вина.
+            Говорит там о месте в Петербурге— ну, что за вздор? ну, можно ли этому поверить? Как бы
+            не так! Граф этот сейчас даст мне место. Да и, наконец-то, сам-то он разве такая сильная
+            птица— дела его совершенно плохи… Ну, положим, он там как-нибудь мне, точно, доставит
+            место; да зачем все этак с ним, тeт-ан-тeт, целый день?.. Ведь это неприлично! Ну,
+            обещал— и конец. В три часа… Еще говорит, в три часа <stage type="delivery">(глядит на
+              часы)</stage>, а теперь всего четверть третьего! <stage type="delivery">(Останавливается.)</stage> А пойду-ка я в сад! <stage type="delivery">(Взглядывает.)</stage> Вишь, не видать их. <stage type="delivery">(Поднимает шляпу и
+              расправляет ее.)</stage> Пойду, ей-богу, пойду. Сама же, сама мне <stage type="delivery">(передразнивая жену)</stage>: ступай, мон-ами, ступай! <stage type="delivery">(Помолчав.)</stage> Да, как бы не так, пойдешь! Нет, брат, знаю я
+            тебя… куда тебе пойти! Пойдешь, как же, сейчас! Э! <stage type="delivery">(С досадой
+              опять швыряет шляпу на пол.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ВТОРОЕ ==</head>
+        <stage type="delivery">(Ступендьев и Миша выходит из передней.)</stage>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(подходя к Ступендьеву)</stage>. Что с вами, Алексей Иваныч? вы
+            как будто не совсем в своей тарелке-с? <stage type="delivery">(Поднимает шляпу,
+              расправляет ее и ставит на стол.)</stage> Что с вами-с?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Отстань, брат, пожалуйста. Не надоедай хоть ты, по крайней мере.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Помилуйте, Алексей Иваныч, не извольте так выражаться; неужели я вас чем-нибудь
+            обеспокоил-с?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Не ты меня беспокоишь, а <stage type="delivery">(показывает рукой в направлении к саду)</stage> вот кто!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(глянув в дверь, невинным голосом)</stage>. Кто же такое, смею
+            спросить?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Кто?.. он…</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Кто оне-с?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Как будто ты не знаешь! Этот приезжий граф.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Каким же манером мог он вас беспокоить-с?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Каким манером!.. Он, вот, с утра от Дарьи Ивановны не отходит, поет с ней, гуляет…
+            Что ты думаешь… это… это приятно? приятно это— а? для мужа, то есть?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Для мужа ничего-с.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Как ничего? Разве ты не слышишь: гуляет с ней, поет?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Только-то-с?.. Помилуйте, Алексей Иваныч, как вам не грешно, этак, того-с…
+            беспокоиться? Ведь это все, так сказать, для вашего блага делается. Граф человек важный,
+            с влияньем, знал Дарью Ивановну с детства— как же этим не воспользоваться, помилуйте-с?
+            Да после этого вам бы, просто, стыдно было показаться на глаза всякому благомыслящему
+            человеку. Я чувствую, что выражения мои сильны, слишком сильны, но мое усердие к
+            вам…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Убирайся ты с твоим усердием! <stage type="delivery">(Садится и
+              отворачивается.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Алексей Иваныч… <stage type="delivery">(Помолчав.)</stage> Алексей Иваныч!</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(не переменяя положенья)</stage>. Ну, что тебе?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Что вы изволите так сидеть? Пойдемте лучше гулять.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(все так же)</stage>. Не хочу я гулять.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Пойдемте-с… Ей-богу, пойдемте-с.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(быстро оборачиваясь и скрещивая руки)</stage>. Да что тебе
+            надобно, наконец, а?.. Что ты от меня сегодня ни на шаг не отходишь с утра? Что тебя ко
+            мне приставили, как няньку, что ли?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(опуская глаза)</stage>. Точно, приставили-с.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(вставая)</stage>. Кто, смею спросить?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Для вашего же блага-с, Алексей Иваныч.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Позвольте узнать, милостивый государь, кто вас ко мне приставил?</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(с некоторым стенаньем)</stage>. Только выслушайте меня, Алексей
+            Иваныч, ради бога. Два слова, Алексей Иваныч, два слова… я не могу вам, этак, подробно
+            объяснить. Кажется, вот, дождичек итти собирается… они сейчас придут…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Дождик собирается итти, а ты меня зовешь гулять!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Да мы можем, этак, не по улице… Помилуйте, Алексей Иваныч, не тревожьтесь… Чего вы
+            можете бояться? Ведь мы тут; ведь мы наблюдаем-с… ведь, кажется, это все вещь такая
+            известная-с… Вы, вот, в три часа вернетесь…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Да из чего ты-то хлопочешь? Что она тебе такое говорила?..</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Оне мне ничего, этак, собственно не говорили-с… а так-с… Помилуйте, ведь вы оба мои
+            благодетели. Вы мой благодетель, а Дарья Ивановна моя благодетельница; притом же, оне
+            мне и родственница. Как же мне не радеть… <stage type="delivery">(Берет его под
+              руку.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я остаюсь, говорят! Мое место здесь! Я здесь хозяин… Здесь мое место! Я разрушу их
+            замысел!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Конечно, вы хозяин-с; да ведь коли я вам говорю, что мне все известно…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Так что ж? Ты думаешь, она тебя не проведет? Небойсь, ты, брат, еще молод и глуп. Ты
+            еще женщин не знаешь…</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Где мне их знать-с… Только вот-с…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Я здесь графа застал и своими собственными ушами слышал, как он приставал: вы, мол,
+            сударыня, не знаете моих чувствий; я, мол, их вам открою, мои чувствия… а ты зовешь меня
+            гулять…</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(тоскливо)</stage>. Кажется, дождик накрапывает… Алексей Иваныч!
+            Алексей Иваныч!</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ведь вишь, пристал! <stage type="delivery">(Помолчав.)</stage> А ведь, в самом деле,
+            накрапывает!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Они сюда идут, они сюда идут… <stage type="delivery">(Опять берет его под
+              руку.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(упираясь)</stage>. Да нет же, говорят! <stage type="delivery">(Помолчав.)</stage> Ну, а впрочем, чорт возьми, пойдем!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Позвольте, я шляпу, шляпу…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Где тут шляпу! брось! <stage type="delivery">(Оба убегают в переднюю.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ТРЕТЬЕ ==</head>
+        <stage type="delivery">(Дарья Ивановна и граф выходят из сада.)</stage>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Charmant, charmant!<ref>Прелестно, прелестно! франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы находите?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Ваш сад чрезвычайно мил, как и все здесь. <stage type="delivery">(Помолчав.)</stage>
+            Дарья Ивановна, я признаюсь… я всего этого не ожидал; я в очарованьи, я в
+            очарованьи…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Чего вы не ожидали, граф?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы меня понимаете. Но когда вы мне покажете это письмо?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Зачем оно вам?..</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Как зачем?.. Я бы желал знать, так же ли я чувствовал в то время, в то прекрасное
+            время, когда мы были так молоды оба.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Граф, нам, я думаю, лучше, не касаться того времени.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да почему же? Разве вы, Дарья Ивановна, разве вы не видите, какое вы произвели на
+            меня впечатление?..</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(с смущеньем)</stage>. Граф…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Нет, выслушайте меня… Я вам правду скажу… Когда я пришел сюда, когда я вас увидел, я,
+            признаюсь, подумал— извините меня, пожалуйста— я подумал, что вы желали только
+            возобновить знакомство со мной…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(поднимая глаза)</stage>. И вы не ошиблись…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. И потому я… я…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(с улыбкой)</stage>. Далее, граф, далее.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Потом я вдруг убедился, что имею дело с женщиной чрезвычайно пленительной, а теперь
+            откровенно должен вам сознаться— теперь вы мне совершенно вскружили голову.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Вы смеетесь надо мной, граф…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Я смеюсь над вами?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да, вы! Сядемте, граф. Позвольте мне вам сказать два слова. <stage type="delivery">(Садится.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(садясь)</stage>. Вы мне все не верите!..</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А вы хотите, чтоб я вам верила? Полноте… как будто бы я не знаю, какого рода
+            впечатление произвожу на вас. Сегодня я вам, бог знает, почему, нравлюсь; завтра вы меня
+            позабудете. <stage type="delivery">(Он хочет говорить, но она его
+              останавливает.)</stage> Поставьте себя в мое положение… Вы еще молоды, блестящи,
+            живете в большом свете; у нас вы случайный гость…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Но…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(останавливая его)</stage>. Мимоходом вы заметили меня. Вы
+            знаете, что наши дороги в жизни так различны… что же вам стоит уверить меня в вашей… в
+            вашей дружбе?.. Но я, граф, я, которой суждено провести весь свой век в уединении,— я
+            должна дорожить своим покоем, я должна строго наблюдать за своим сердцем, если не хочу
+            со временем…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(перебивая ее)</stage>. Сердцем, сердцем; vous dites<ref>Вы
+              говорите. франц.</ref> сердцем! Да разве у меня тоже нет сердца, наконец? И почему вы
+            знаете, что оно… это сердце, не… не заговорило, наконец? Вы говорите: уединенье! Но
+            почему же уединенье?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я дурно выразилась, граф; я не одна— я не имею права говорить об уединении.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Понимаю, понимаю— ваш муж… но разве… разве… Ведь это только между нами… одно, этак…
+            de lа sympathie.<ref>Привязанность. франц.</ref>
+            <stage type="delivery">(Небольшое молчание.)</stage> Мне только, признаюсь, одно больно:
+            мне больно, что вы не отдаете мне справедливости, что вы видите во мне какого-то, я не
+            знаю… какого-то фальшивого человека… что вы не верите мне, наконец…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(помолчав и посмотрев на него сбоку)</stage>. Так верить мне вам,
+            граф? Граф. Oh, vous etes charmante!<ref>О, вы очаровательны! франц.</ref>
+            <stage type="delivery">(Берет ее руку. Дарья Ивановна сперва как будто хочет принять ее,
+              потом оставляет. Граф с жаром ее целует.)</stage> Да, верьте мне, Дарья Ивановна,
+            верьте… я вас не обманываю. Я сдержу все свои обещанья. Вы будете жить в Петербурге… Вы…
+            вы… увидите. И не в уединении… Я за это вам ручаюсь. Вы говорите, я вас забуду? Как бы
+            вы меня не забыли!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Валерьян Николаич!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А, вы сами теперь видите, как неприятно, как оскорбительно сомнение! Ведь я бы мог
+            тоже подумать, что вы притворяетесь, que се n'est pas pour mes beaux yeux…<ref>Что это
+              не ради моих прекрасных глаз… франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Валерьян Николаич!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(более и более одушевляясь и вставая)</stage>. Впрочем, что мне
+            за дело, какого бы вы ни были мнения обо мне!.. Я… я должен вам сказать, что я вам
+            душевно предан, что я, наконец, влюблен в вас, страстно, страстно влюблен, и готов на
+            коленях поклясться вам.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. На коленях, граф? <stage type="delivery">(Встает.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Да, на коленях, если б это не было принято— так, чем-то театральным.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Отчего же?.. Нет, это, признаюсь, это должно быть очень приятно— для женщины. <stage type="delivery">(Быстро оборачиваясь к Любину.)</stage> Станьте на колени, граф, коли
+            вы точно не смеетесь надо мной.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. С удовольствием, Дарья Ивановна, если это только может вас заставить поверить,
+            наконец… <stage type="delivery">(Не без труда становится на колени.)</stage>
+                    </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(дает ему стать на колени и быстро приближается к нему)</stage>.
+            Помилуйте, граф, что вы! я шутила, встаньте.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(пробует встать и не может)</stage>. Все равно, оставьте. Je vous
+            aime, Dorothee… Et vous?<ref>Я люблю вас, Доротея… а вы? франц.</ref>
+          </p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Встаньте, прошу вас… <stage type="delivery">(Из передней показывается Ступендьев,
+              напрасно удерживаемый Мишей.)</stage> Встаньте… <stage type="delivery">(Она делает
+              знаки и сама с трудом удерживает смех.)</stage> Встаньте… <stage type="delivery">(Граф
+              с изумлением глядит на нее и замечает ее знаки.)</stage> Да встаньте же, говорят…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(не вставая)</stage>. Кому вы делаете знаки?</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Граф, ради бога, встаньте!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Дайте мне руку.</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ЧЕТВЕРТОЕ ==</head>
+        <stage type="delivery">(Те же, Ступендьев и Миша. Ступендьев во время этого разговора
+          подошел к самому графу. Миша остановился у порога. Дарья Ивановна глядит на графа, на мужа
+          и с звонким хохотом бросается в кресло. Граф в смущении оглядывается и видит Ступендьева.
+          Тот ему кланяется. Граф с досадой обращается к нему.)</stage>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Помогите мне встать, милостивый государь!.. Я как-то… здесь стал на колени. Да
+            помогите же мне! <stage type="delivery">(Дарья Ивановна перестает смеяться.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(хочет поднять его подмышки)</stage>. Слушаю-с, ваше сиятельство…
+            Извините меня, если я… того-с…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(отталкивает его и вскакивает молодцом)</stage>. Очень хорошо-с,
+            очень хорошо-с— я у вас ничего не спрашиваю. <stage type="delivery">(Подходя к Дарье
+              Ивановне.)</stage> Прекрасно, Дарья Ивановна, очень вам благодарен.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(принимая умоляющий вид)</stage>. Чем же я виновата, Валерьян
+            Николаич!</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы нисколько не виноваты, помилуйте! Нельзя не смеяться над тем, что смешно— я вас в
+            этом не упрекаю, поверьте; но, сколько мог заметить, это все было у вас наперед
+            сговорено с вашим супругом.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Почему вы это думаете, граф?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Почему? Да потому, что в этаких случаях, обыкновенно, не смеются и не делают
+            знаков.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(который вслушался)</stage>. Помилуйте, ваше сиятельство, между
+            нами ничего не было сговорено, уверяю вас, ваше сиятельство. <stage type="delivery">(Миша дергает его за фалду.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(с горьким смехом к Дарье Ивановне)</stage>. Ну, после этого вам
+            трудно будет еще запираться… <stage type="delivery">(Помолчав.)</stage> Впрочем, вам и
+            не для чего запираться. Я совершенно заслуживал это.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Граф…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Не извиняйтесь, прошу вас. <stage type="delivery">(Помолчав, про себя.)</stage> Какой
+            позор! Одно только осталось средство выйти из этого глупого положения… <stage type="delivery">(Громко к Дарье Ивановне)</stage>. Дарья Ивановна?..</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Граф?</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Вы, может быть, думаете, что я теперь не
+            сдержу своего слова, сейчас уеду, и не прощу вам вашей мистификации? Я бы, может быть,
+            имел право это сделать, потому что, все-таки, с порядочным человеком так шутить не
+            следует; но я желаю, чтоб вы, в свою очередь, узнали, с кем имели дело… Madame, je suis
+            un galant homme.<ref>Сударыня, я порядочный человек, франц.</ref> Притом, я уважаю
+            всегда прекрасный пол, даже когда мне от него достается… Я остаюсь обедать— если г-ну
+            Ступендьеву это не будет противно— и, повторяю вам, сдержу все свои обещания, теперь еще
+            более, чем когда-нибудь…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Валерьян Николаич, вы, я надеюсь, тоже не такого дурного мнения обо мне; вы не
+            подумаете, не правда ли, что я не умею ценить… что я не до глубины сердца тронута вашим
+            великодушьем… Я виновата перед вами, но вы меня узнаете, как я теперь узнала вас…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. О, помилуйте! К чему все эти слова?.. Все это не стоит благодарности… Но как вы
+            хорошо играете комедию!..</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Граф, вы знаете, комедию хорошо играешь тогда, когда чувствуешь, что говоришь…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. А! вы опять… Нет, уж извините— два раза сряду я не попадусь. <stage type="delivery">(Обращаясь к Ступендьеву.)</stage> Я должен быть очень смешон в ваших глазах теперь,
+            милостивый государь; но постараюсь доказать на деле мое желанье быть вам полезным…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ваше сиятельство, поверьте, я… <stage type="delivery">(В сторону.)</stage> Я ничего
+            не понимаю.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Да это и не нужно… Благодари только его сиятельство…</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Ваше сиятельство, поверьте…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Полноте, полноте…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. А вас, Валерьян Николаич, и поблагодарю в Петербурге.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. И покажете мне письмо?..</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Покажу, и, может быть, с ответом.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Eh bien! il n'y а pas a dire, vous etes charmante apres tout…<ref>Ну что ж! Ничего не
+              скажешь, вы прелестны, несмотря ни на что! франц.</ref> и я ни в чем не
+            раскаиваюсь…</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Я, может быть, не буду в состоянии это сказать… <stage type="delivery">(Граф
+              рисуется; она улыбается.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>
+            <stage type="delivery">(в сторону, глядя на часы)</stage>. А ведь я пришел в три
+            четверти третьего, а не в три.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>
+            <stage type="delivery">(робко подходя к Дарье Ивановне)</stage>. Дарья Ивановна, что ж
+            вы, меня-то?.. Вы меня-то, кажется, забыли… А уж я как старался!</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>
+            <stage type="delivery">(вполголоса)</stage>. Я вас не забыла… <stage type="delivery">(Громко.)</stage> Граф, позвольте вам представить одного молодого человека… <stage type="delivery">(Миша кланяется.)</stage> Я принимаю в нем участие, и если…</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Вы принимаете в нем участие?.. Этого довольно? Молодой человек, вы можете быть
+            покойны: мы об вас не забудем. Миша <stage type="delivery">(подобострастно)</stage>.
+            Ваше сиятельство…</p>
+        </sp>
+      </div>
+      <div>
+        <head>== ЯВЛЕНИЕ ДВАДЦАТЬ ПЯТОЕ ==</head>
+        <stage type="delivery">(Те же, Аполлон и Васильевна.)</stage>
+        <sp who="#Apollon">
+          <speaker>Аполлон</speaker>
+          <p>
+            <stage type="delivery">(выходя из передней)</stage>. Кушанье…</p>
+        </sp>
+        <sp who="#Vasilevna">
+          <speaker>Васильевна</speaker>
+          <p>
+            <stage type="delivery">(выходя из-за Аполлона)</stage>. Кушанье готово.</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. А! Ваше сиятельство, милости просим.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>
+            <stage type="delivery">(подавая руку Дарье Ивановне, к Ступендьеву)</stage>. Вы
+            позволите?</p>
+        </sp>
+        <sp who="#Stupendev">
+          <speaker>Ступендьев</speaker>
+          <p>. Сделайте одолжение… <stage type="delivery">(Граф с Дарьей. Ивановной приближаются к
+              дверям.)</stage> Однако, я пришел не в три, а в три четверти третьего… все равно; я
+            ничего не понимаю, но моя жена великая женщина!</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>. Пойдемте, Алексей Иваныч.</p>
+        </sp>
+        <sp who="#DarjaIvanovna">
+          <speaker>Дарья Ивановна</speaker>
+          <p>. Граф, я заранее прошу у вас извиненья за провинциальный наш обед.</p>
+        </sp>
+        <sp who="#GrafLjubin">
+          <speaker>Граф</speaker>
+          <p>. Хорошо, хорошо… До свиданья в Петербурге, провинциалка!</p>
+        </sp>
+        <p>'1851 г.'</p>
+      </div>
+    </body>
+  </text>
+</TEI>

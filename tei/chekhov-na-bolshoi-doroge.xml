@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">На большой дороге</title>
+        <title type="main" xml:lang="en">On the High Road</title>
+        <title type="sub" xml:lang="ru">Драматический этюд в одном действии</title>
+        <title type="sub" xml:lang="en">A Dramatic Study in One Act</title>
+        <author key="Wikidata:Q5685">Чехов, Антон Павлович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/chekhov-na-bolshoi-doroge</idno>
+        <idno type="RusDraCor">66</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Интернет-библиотека Алексея Комарова</name>
+          <idno type="URL">http://ilibrary.ru/text/975/index.html</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 11.
+              М., "Наука", 1986.</title>
+            <date type="print" when="1914">"Впервые — в книге: На большой дороге. Драматический этюд
+              в одном действии. А. Чехонте. // «Слово». Сборник второй. К десятилетию смерти А. П.
+              Чехова. Под редакцией М. П. Чеховой. — М.: Книгоиздательство писателей в Москве, 1914.
+              — С. 8—36" (Wikisource)</date>
+            <date type="premiere"/>
+            <date type="written" when="1884">"осень 1884" (Wikisource)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Efimovna" sex="FEMALE">
+            <persName>Ефимовна</persName>
+            <persName xml:lang="en">Efimovna</persName>
+            <persName xml:lang="de">Efimovna</persName>
+          </person>
+          <person xml:id="Nazarovna" sex="FEMALE">
+            <persName>Назаровна</persName>
+            <persName xml:lang="en">Nazarovna</persName>
+            <persName xml:lang="de">Nazarovna</persName>
+          </person>
+          <person xml:id="Savva" sex="MALE">
+            <persName>Савва</persName>
+            <persName xml:lang="en">Savva</persName>
+            <persName xml:lang="de">Savva</persName>
+          </person>
+          <person xml:id="Fedja" sex="MALE">
+            <persName>Федя</persName>
+            <persName xml:lang="en">Fedâ</persName>
+            <persName xml:lang="de">Fedâ</persName>
+          </person>
+          <person xml:id="GolosIzUgla" sex="UNKNOWN">
+            <persName>Голос из угла</persName>
+            <persName xml:lang="en">A voice from the corner</persName>
+            <persName xml:lang="de">Stimme aus der Ecke</persName>
+          </person>
+          <person xml:id="Tihon" sex="MALE">
+            <persName>Тихон</persName>
+            <persName xml:lang="en">Tihon</persName>
+            <persName xml:lang="de">Tihon</persName>
+          </person>
+          <person xml:id="Bortsov" sex="MALE">
+            <persName>Борцов</persName>
+            <persName xml:lang="en">Borcov</persName>
+            <persName xml:lang="de">Borcov</persName>
+          </person>
+          <person xml:id="Merik" sex="MALE">
+            <persName>Мерик</persName>
+            <persName xml:lang="en">Merik</persName>
+            <persName xml:lang="de">Merik</persName>
+          </person>
+          <person xml:id="Kuzma" sex="MALE">
+            <persName>Кузьма</persName>
+            <persName xml:lang="en">Kuzʹma</persName>
+            <persName xml:lang="de">Kuzʹma</persName>
+          </person>
+          <person xml:id="Kucher" sex="MALE">
+            <persName>Кучер</persName>
+            <persName xml:lang="en">Borcov's wife's coachman</persName>
+            <persName xml:lang="de">Der Kutscher der Borcova</persName>
+          </person>
+          <person xml:id="MarjaEgorovna" sex="FEMALE">
+            <persName>Марья Егоровна</persName>
+            <persName xml:lang="en">Marʹâ Egorovna</persName>
+            <persName xml:lang="de">Marʹâ Egorovna</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Драматический этюд в одном действии</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#ds" when="2017-03-31">converted from source</change>
+        <change who="#to" when="2017-03-31">replaced id "Goloszadverju" with the id
+          "Kucher"</change>
+        <change who="#ff" when="2017-05-24">added 2 missing characters to castList; shifted dots
+          into speaker tags for better readability</change>
+        <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff" when="2017-07-08">revised</change>
+        <change who="#ff" when="2017-11-21">add (DE) translations of character names in ISO
+          9</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">На большой дороге</titlePart>
+        <titlePart type="sub">Драматический этюд в одном действии</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem>Тихон Евстигнеев, содержатель кабака на большой дороге.</castItem>
+        <castItem>Семен Сергеевич Борцов, разорившийся помещик.</castItem>
+        <castItem>Марья Егоровна, его жена.</castItem>
+        <castItem>Савва, старик-странник.</castItem>
+        <castGroup rend="braced">
+          <castItem>Назаровна</castItem>
+          <castItem>Ефимовна</castItem>
+          <roleDesc>богомолки.</roleDesc>
+        </castGroup>
+        <castItem>Федя, прохожий фабричный.</castItem>
+        <castItem>Егор Мерик, бродяга.</castItem>
+        <castItem>Кузьма, проезжий.</castItem>
+        <castItem>Почтальон.</castItem>
+        <castItem>Кучер Борцовой.</castItem>
+        <castItem>Богомольцы, гуртовщики, проезжие и проч.</castItem>
+      </castList>
+      <set>
+        <p>Действие происходит в одной из южнорусских губерний.</p>
+      </set>
+    </front>
+    <body>
+      <stage>Сцена представляет собой кабак Тихона. Направо прилавок и полки с бутылками. В глубине
+        дверь, ведущая наружу. Над нею снаружи висит красный засаленный фонарик. Пол и скамьи,
+        стоящие у стен, вплотную заняты богомольцами и прохожими. Многие, за неимением места, спят
+        сидя. Глубокая ночь. При поднятии занавеса слышится гром и в дверь видна молния.</stage>
+      <div type="scene">
+        <head>Явление I</head>
+        <stage>За прилавком Тихон. На одной из скамей, развалясь, полулежит Федя и тихо наигрывает
+          на гармонийке. Около него сидит Борцов, одетый в поношенное летнее платье. На полу около
+          скамей расположились Савва, Назаровна и Ефимовна.</stage>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна</speaker>
+          <stage type="delivery">(Назаровне).</stage>
+          <p>Потолкай-ка, мать, старца! Словно, никак, богу душу отдает.</p>
+        </sp>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна</speaker>
+          <stage type="delivery">(поднимая с лица Саввы край сермяги).</stage>
+          <p>Божий человек, а божий человек! Жив ты, аль уж помер?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Зачем помер? Жив, матушка. <stage type="delivery">(Приподнимаясь на локоть).</stage>
+            Укрой-ка мне, убогонькая, ноги! Вот так. Правую больше. Вот так, матушка. Дай бог
+            здоровья.</p>
+        </sp>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна</speaker>
+          <stage type="delivery">(прикрывая Савве ноги).</stage>
+          <p>Спи, батюшка.</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Какой уж тут сон? Было б терпенье муку эту перенесть, а спанья, матушка, хоть и не
+            надо. Не достоин грешник покой иметь. Это что шумит, богомолочка?</p>
+        </sp>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна.</speaker>
+          <p>Грозу бог посылает. Ветер воет, а дождик так и хлещет, так и хлещет. По крыше и в
+            стекла словно горошком дробненьким. Чуешь? Разверзлись хляби небесные.</p>
+          <stage>Гром.</stage>
+          <p>Свят, свят, свят...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>И гремит, и гудит, и шумит, и... конца краю нет! Гууу... словно лес шумит... Гууу...
+            Ветер как собака воет... <stage type="delivery">(Ежится.)</stage> Холодно! Одежа мокрая,
+            хоть возьми и выжми, двери настежь... <stage type="delivery">(Тихо наигрывает.)</stage>
+            Размокла моя гармония, православные, никакой музыки нет, а то бы я вам такую концерту
+            отшпандорил, что держись шапка! Великолепно! Кадрель ежели, или польку, положим... или
+            какой русский куплетец... всё это мы можем. В городе, когда в коридорных при гранд-ателе
+            состоял, денег не нажил, а в рассуждении гармонии все ноты превозошел. И на гитаре
+            умею.</p>
+        </sp>
+        <sp who="#GolosIzUgla">
+          <speaker>Голос из угла.</speaker>
+          <p>Дурак, дурацкие и речи.</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>От дурака слышу.</p>
+        </sp>
+        <stage>Пауза.</stage>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна</speaker>
+          <stage type="delivery">(Савве).</stage>
+          <p>Тебе бы, старик, таперича в тепле полежать, ножку-то погреть.</p>
+          <stage>Пауза.</stage>
+          <p>Старик! Человек божий!</p>
+          <stage type="delivery">(Толкает Савву.)</stage>
+          <p>Ай помирать собираешься?</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Ты бы, дедусь, водочки выпил. Ты выпьешь, а оно в животе погорит, погорит, да от сердца
+            и оттянет малость. Выпей-ка!</p>
+        </sp>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна.</speaker>
+          <p>Не бахвальничай, парень! Старик, может, душу богу отдает да о грехах кается, а ты слова
+            такие, да с гармонией... Брось музыку-то! Глаза бесстыжие!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>А ты чего к нему пристала? Ему невмочь, а ты... бабьи глупости... Он из праведности не
+            может тебе грубое слово вымолвить, а ты обрадовалась, рада, что он тебя, дуру,
+            слушает... Спи, дедусь, не слушай! Пущай болтает, а ты наплюй. Бабий язык – чёртово
+            помело, выметет из дому хитреца и мудреца. Наплюй... <stage type="delivery">(Всплёскивает руками.)</stage> Да и худой же ты, братец ты мой! Страсть! Чисто как ни
+            на есть мертвый шкилет! Никакой живности! Ай и впрямь помираешь?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Зачем помирать? Избави, господи, зря помереть... Помаюсь маленько, а там и поднимусь с
+            божьей помощью... Не попустит матерь божия в чужой земле помереть... Помру дома...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Издалече сам?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Вологодский. Из самой Вологды... мещанин тамошний...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>А где это Вологда?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>За Москвой... Губерния...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Тю, тю, тю... Занесло же тебя, борода! И всё пешком?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Пешком, паренек. Был у Тихона Задонского, а иду в Святые горы... Из Святых гор, коли на
+            то воля господня, в Одест... Оттеда, сказывают, в Ерусалим задешево отправляют. Будто за
+            двадцать один рупь...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>А в Москве был?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Эва! разов пять...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Хороший город?</p>
+          <stage type="delivery">(Закуривает.)</stage>
+          <p>Стоющий?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Святынь много, парень... Где святынь много, там везде хорошо...</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(подходит к прилавку и Тихону).</stage>
+          <p>Еще раз прошу! Дай Христа ради!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Главное в городе, чтоб чистота была... Ежели пыль – поливать, ежели грязь – чистить.
+            Чтоб дома высокие были... театр, полиция... извозчики, которые... Сам жил в городах,
+            понимаю.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Рюмочку... вот эту маленькую. В долг ведь! Отдам!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Ладно.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Ну прошу! Сделай милость!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Ступай!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Ты меня не понимаешь... Пойми ты, невежа, если в твоей деревянной, мужицкой голове есть
+            хоть капля мозга, не я прошу, нутро, выражаясь по-твоему, по-мужицкому, просит! Болезнь
+            моя просит! Пойми!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Нечего нам понимать... Отходи!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Ведь если я не выпью сейчас, пойми ты это, если я не удовлетворю своей страсти, то я
+            могу преступление совершить. Я бог знает, что могу сделать! Видал ты, хам, на своем
+            кабацком веку много пьяного люда, и неужели же ты до сих пор не сумел уяснить себе, что
+            это за люди? Это больные! На цепь их сажай, бей, режь, а водки дай! Ну, покорнейше
+            прошу! Сделай милость! Унижаюсь! Боже мой, как я унижаюсь!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Деньги давай, тогда и водка будет.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Где же мне взять денег? Все пропито! Всё дотла! Что же я могу тебе дать? Пальто вот
+            только одно осталось, но дать тебе его я не могу... Оно на голом теле. Хочешь шапку?</p>
+          <stage type="delivery">(Снимает шапку и подает ее Тихону.)</stage>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(осматривая шапку).</stage>
+          <p>Гм... Шапка шапке рознь... Дыр, словно в решете.</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя</speaker>
+          <stage type="delivery">(смеется).</stage>
+          <p>Дворянская! По улице в ней ходить да перед мамзелями снимать. Здрасте, прощайте! Как
+            поживаете?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(отдает Борцову шапку).</stage>
+          <p>И даром не надо. Навоз.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Не нравится? В таком случае дай в долг! Буду обратно идти из города, занесу тебе твой
+            пятак! Подавись тогда этим пятаком! Подавись! Пусть он у тебя поперек горла станет!</p>
+          <stage type="delivery">(Кашляет.)</stage>
+          <p>Ненавижу!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(стуча кулаком о прилавок).</stage>
+          <p>Чего пристал? Какой-такой ты человек? Что за жулик? Зачем пришел?</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Выпить хочу! Не я хочу, болезнь моя хочет! Пойми!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Не выводи меня из моего терпения! Живо в степи будешь!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Что же мне делать?</p>
+          <stage type="delivery">(Отходит от прилавка.)</stage>
+          <p>Что же делать?</p>
+          <stage type="delivery">(Задумывается.)</stage>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Это тебя нечистый мутит. Ты плюнь, барин. Он тебе, окаянный, шепчет: выпей! выпей! А ты
+            ему: не выпью! не выпью! Отстанет!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>В башке-то, небось – тру-ту-ту-ту... Животы подвело!</p>
+          <stage type="delivery">(Хохочет.)</stage>
+          <p>Блажной ты, ваше благородие! Ложись-ка спи! Нечего пугалом посередь кабака торчать! Не
+            огород нашел!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(со злобой).</stage>
+          <p>Молчи! Тебя не спрашивают, осел!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Ты говори, говори, да не заговаривайся! Видали мы таких! Много вас таких здесь по
+            большой дороге шатается! В отношении осла, как звездану тебя по уху, так взвоешь пуще
+            ветра. Сам осел! Дрянь!</p>
+          <stage>Пауза.</stage>
+          <p>Сволочь!</p>
+        </sp>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна.</speaker>
+          <p>Старец, может, молитву творит и душу богу отдает, а они, нечестивцы, друг дружку
+            задирают да слова разные... Срамники!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>А ты, кочерыжка, коли в кабак попала, не хныкай! В кабаке и кабацкий обычай.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Как же мне быть? Что делать? Как мне дать ему понять? Какое же еще нужно
+            красноречие?</p>
+          <stage type="delivery">(Тихону.)</stage>
+          <p>Кровь запеклась в груди! Дядя Тихон!</p>
+          <stage type="delivery">(Плачет.)</stage>
+          <p>Дядя Тихон!</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва</speaker>
+          <stage type="delivery">(стонет).</stage>
+          <p>Стреляет в ногу, словно пулей огненной... Богомолочка, матушка!</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Что, батюшка?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Кто это плачет?</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Барин.</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Попроси барина, пущай и за меня слезу прольет, чтоб довелось в Вологде помереть.
+            Слезная молитва угодней.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Не молюсь я, дед! Не слезы это! Сок! Сдавило мою душу и сок течет.</p>
+          <stage type="delivery">(Садится у ног Саввы.)</stage>
+          <p>Сок! Впрочем, не понять вам! Не понять, дед, твоему темному разуму. Темные вы люди!</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Где ж светлых-то взять?</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Есть, дед, светлые... Они бы поняли!</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Есть, есть, родимый... Святые светлые были... Они всякое горе понимали... Ты им и не
+            говори, а они поймут... В глаза тебе взглянут – поймут... И такое тебе утешение после их
+            понятия, словно и горя не было – рукой снимет!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>А ты нешто видал святых?</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Случалось, паренек... На земле всякого народу много. Есть и грешники, есть и божьи
+            слуги.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Ничего не понимаю...</p>
+          <stage type="delivery">(Быстро поднимается.)</stage>
+          <p>Разговоры нужно понимать, а разве у меня теперь есть разум? У меня есть инстинкт,
+            жажда!</p>
+          <stage type="delivery">(Быстро подходит к прилавку.)</stage>
+          <p>Тихон, возьми пальто! Понимаешь?</p>
+          <stage type="delivery">(Хочет снять пальто).</stage>
+          <p>Пальто...</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>А под пальтом что?</p>
+          <stage type="delivery">(Смотрит Борцову под пальто.)</stage>
+          <p>Голое тело? Не снимай, не возьму... Не стану я брать греха на душу.</p>
+        </sp>
+        <stage>Входит Мерик.</stage>
+      </div>
+      <div type="scene">
+        <head>Явление II</head>
+        <stage>Те же и Мерик. </stage>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Хорошо, я грех беру на себя! Согласен?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(молча снимает сермягу и остается в поддевке. За поясом
+            топор).</stage>
+          <p>Кому холодно, а медведю да не помнящему родства всегда жарко. Взопрел!</p>
+          <stage type="delivery">(Кладет на пол топор и снимает поддевку.)</stage>
+          <p>Покеда из грязи ногу вытащишь, так с тебя ведро пота стечет. Одну ногу вытащил, а
+            другая вязнет.</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Это так... Родненький, дождик не меньше?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(поглядев на Ефимовну).</stage>
+          <p>С бабами не рассуждаю.</p>
+        </sp>
+        <stage>Пауза.</stage>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(Тихону).</stage>
+          <p>На себя грех беру! Да ты слышишь или нет?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>И слышать не желаю, отстань!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Темень, словно кто дегтем небо вымазал. Носа не видать. А дождь в рожу бьет, что твоя
+            пурга...</p>
+          <stage type="delivery">(Берет в охапку одежу и топор.)</stage>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Для вашего брата, жулика, это – первое дело. Зверь хищный прячется, а вам праздник,
+            шутам.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Который человек говорит эти слова?</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Погляди... чай, не повылазило.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Так и запишем...</p>
+          <stage type="delivery">(Подходит к Тихону.)</stage>
+          <p>Здорово, мордастый! Аль не спознал?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Коли ежели вас всех пьяниц спознавать, что по большой дороге ходит, так для этого
+            самого во лбу, почитай, десять дыр надо.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>А ты погляди...</p>
+        </sp>
+        <stage>Пауза.</stage>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>А и то спознал, скажи на милость! По глазищам спознал!</p>
+          <stage type="delivery">(Подает руку.)</stage>
+          <p>Андрей Поликарпов?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Был Андрей Поликарпов, а нынче, почитай, Егор Мерик.</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Зачем так?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Какой билет бог послал, так и обозначаюсь. Месяца два как Мерик...</p>
+          <stage>Гром.</stage>
+          <p>Ррр... Греми, не испужался!</p>
+          <stage type="delivery">(Осматривается.)</stage>
+          <p>Борзых тут нету?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Какие борзые! Все больше мошка да комары... Народ мякенький... Борзые теперича, чай, на
+            перинах дрыхнут...</p>
+          <stage type="delivery">(Громко.)</stage>
+          <p>Православные, стерегите карманы да одежонку, коли жалко! Лихой человек! Скрадет!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Ну, деньжонки пущай берегут, ежели есть, а касательно одежи – не трону. Брать
+            некуда.</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Куда нелегкая несет?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>В Кубань.</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Эва!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>В Кубань? Ей-богу?</p>
+          <stage type="delivery">(Приподнимается.)</stage>
+          <p>Славные места! Такой, братцы, край, что и во сне не увидишь, хоть три года спи!
+            Приволье! Сказывают, птицы этой самой, дичи, зверья всякого и – боже ты мой! Трава
+            круглый год растет, народ – душа в душу, земли – девать некуда! Начальство, сказывают...
+            мне намедни один солдатик сказывал... дает по сто десятин на рыло. Счастье, побей меня
+            бог!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Счастье... Счастье за спиной ходит... Его не видать... Коли локоть укусишь, и счастье
+            увидишь... Одна глупость...</p>
+          <stage type="delivery">(Оглядывает скамьи и народ.)</stage>
+          <p>Словно привал арестантский... Здорово, нужда!</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна</speaker>
+          <stage type="delivery">(Мерику).</stage>
+          <p>Глазища-то какие злющие!.. В тебе, парень, ворог сидит... Ты на нас не гляди.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Здорово, беднота!</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Отвернись!</p>
+          <stage type="delivery">(Толкает Савву.)</stage>
+          <p>Саввушка, на нас злой человек глядит! Испортит, родименький!</p>
+          <stage type="delivery">(Мерику.)</stage>
+          <p>Отвернись, говорю, аспид!</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Не тронет, матушка, не тронет... Не попустит бог.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Здорово, православные!</p>
+          <stage type="delivery">(Пожимает плечами.)</stage>
+          <p>Молчат! Ведь не спите же, косолапые! Чего же молчите?</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Отверни глазищи-то! Гордыню бесовскую отверни!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Молчи ты, старая карга! Не гордыней бесовской, а лаской и словом добрым хотел почесть
+            долю горькую! Словно мухи жметесь от холода – ну, жалко стало, хотел доброе слово
+            вымолвить, нужду приголубить, а вы рожи воротите! Что ж? И не надо!</p>
+          <stage type="delivery">(Подходит к Феде.)</stage>
+          <p>Из каких будете?</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Тутошние, хамоньевские заводские. С кирпичных заводов.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Встань-кась!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя</speaker>
+          <stage type="delivery">(приподнимаясь).</stage>
+          <p>Ну?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Вставай! Совсем вставай, я тут лягу...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>То-ись... Твое место, што ли?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Мое. Поди ложись наземь!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Проходи, прохожий... Не испужался...</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Прыткий... Ну, ступай, не разговаривай! Плакаться будешь, глупый человек!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(Феде).</stage>
+          <p>Не прекословь ему, парень! Наплюй!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Какую ты имеешь полную праву? Вытаращил свои щучьи глазищи и думаешь – испужался!
+            (Собирает свой скарб в охапку, идет и постилает себе на полу.) Чёрт! (Ложится и
+            укрывается с головой.)</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <p>(постилает себе на скамье). Стало быть, не видал ты чёрта, коли им меня обзываешь.
+            Черти не такие. (Ложится и кладет рядом с собой топор.) Ложись, топорик, братик... Дай я
+            тебе топорище укрою.</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Топор где взял?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Украл... Украл, а теперь вот и ношусь с ним, как с писаной торбой: и бросать жалко и
+            девать некуда. Как жена постылая... Да...</p>
+          <stage type="delivery">(Укрывается.)</stage>
+          <p>Черти, брат, не такие...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя</speaker>
+          <stage type="delivery">(высовывая голову из-под сермяги).</stage>
+          <p>А какие?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Они как пар, дух... Дунуть вот</p>
+          <stage type="delivery">(дует)</stage>
+          <p>, такие и они. Видеть их невозможно.</p>
+        </sp>
+        <sp who="#GolosIzUgla">
+          <speaker>Голос из угла.</speaker>
+          <p>Ежели под борону сесть, так увидишь.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Сидел, не видал... Бабы врут да глупые мужики... Ни черта не увидишь, ни лешего, ни
+            мертвеца... Глаз не так сотворен, чтоб все увидать можно было... Когда мал был, нарочито
+            по ночам в лес ходил лешего поглядеть... Кричу, кричу, бывало, что есть духу, зову
+            лешего и глазами не моргаю: пустяк разный мерещится, а лешего не видать. На погост по
+            ночам ходил, мертвецов желал видеть – врут бабы. Зверье всякое видывал, а что насчет
+            страшного – на-кася выкуси! Глаз не тот...</p>
+        </sp>
+        <sp who="#GolosIzUgla">
+          <speaker>Голос из угла.</speaker>
+          <p>Не говори, бывает так, что и увидишь... В нашей деревне потрошил один мужик кабана...
+            Распорол этта требуху, а оттеда как выскочит!</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва</speaker>
+          <stage type="delivery">(приподнимаясь).</stage>
+          <p>Ребятушки, не поминайте вы нечистого! Грех, милые!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Ааа... седая борода! Шкилет!</p>
+          <stage type="delivery">(Смеется.)</stage>
+          <p>Не надо и на погост итить, свои мертвецы из-под пола вылезают наставления читать...
+            Грех... Не с вашим глупым понятием людей наставлять! Народ вы темный, в
+            невежестве...</p>
+          <stage type="delivery">(Закуривает трубку.)</stage>
+          <p>Отец мой был мужик и тоже любил, бывало, наставлять. Накрал раз у попа ночью мешок
+            яблок, приносит нам да и наставляет: «Вы же, ребята, глядите, до Спаса не лопайте яблок,
+            потому грех»... Так и вы... Черта вспоминать нельзя, а чертить можно... К примеру, хоть
+            эту вот каргу взять...</p>
+          <stage type="delivery">(Указывает на Ефимовну.)</stage>
+          <p>Во мне ворога увидела, а, небось, сама на своем веку из-за женских глупостев раз пять
+            чёрту душу отдавала.</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Тьфу, тьфу, тьфу!.. С нами крестя сила!</p>
+          <stage type="delivery">(Закрывает лицо руками.)</stage>
+          <p>Саввушка!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Затем пужаешь? Обрадовался!</p>
+          <stage>Дверь хлопает от ветра. </stage>
+          <p>Господи Иисусе... Ветер-то, ветер!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(потягивается).</stage>
+          <p>Эх, силищу бы свою показать!</p>
+          <stage>Дверь хлопает от ветра.</stage>
+          <p>С ветром бы с эфтим померяться! Не сорвать ему двери, а я, ежели что, кабак с корнем
+            вырву!</p>
+          <stage type="delivery">(Встает и ложится.)</stage>
+          <p>Тоска!</p>
+        </sp>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна.</speaker>
+          <p>Молитву сотвори, идол! Что мечешься?</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Не трожь его, чтоб ему пусто! Опять на нас глядит!</p>
+          <stage type="delivery">(Мерику.)</stage>
+          <p>Не гляди, злой человек! Глаза-то, глаза, словно у беса перед заутреней!</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Пущай глядит, богомолочки! Молитву творите, глаз и да пристанет...</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Нет, не могу! Выше сил моих!</p>
+          <stage type="delivery">(Подходит к прилавку.)</stage>
+          <p>Послушай, Тихон, в последний раз прошу... Полрюмки!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(качает отрицательно головой).</stage>
+          <p>Деньги!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Боже мой, да ведь я уже сказал тебе! Всё пропито! Откуда же я возьму тебе? И неужто ты
+            разоришься, если дашь мне в долг каплю водки? Рюмка водки стоит тебе грош, меня же
+            избавит она от страданий! Страдаю! Не блажь тут, а страдание! Пойми!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Поди рассказывай кому другому, а не мне... Ступай, проси вон у православных, пущай
+            подносят тебе Христа ради, ежели желают, а я Христа ради только хлеб подаю.</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Дери ты с них, бедняков, а я уж... извини! Не мне их обирать! Не мне! Понимаешь?</p>
+          <stage type="delivery">(Стучит кулаком о прилавок.)</stage>
+          <p>Не мне!</p>
+          <stage>Пауза.</stage>
+          <p>Гм... Постойте же...</p>
+          <stage type="delivery">(Оборачивается к богомольцам.)</stage>
+          <p>А ведь это идея, православные! Пожертвуйте пятачишку! Нутро просит! Болен!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Ишь ты, пожертвуйте... Жулик... А водицы не хочешь?</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Как я унижаюсь! Как унижаюсь! Не надо! Ничего мне не надо! Я шутил!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Не выпросишь у него, барин... Известный жила... Постой, у меня где-то пятачишка
+            валялся... Оба стакашку выпьем... напополам...</p>
+          <stage type="delivery">(Роется в карманах.)</stage>
+          <p>Черт... застрял где-то... Кажись, намедни что-то звякало в кармане... Нет, нету...
+            Нету, брат! Счастье твое такое!</p>
+        </sp>
+        <stage>Пауза.</stage>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Не выпить мне нельзя, иначе я преступление совершу или на самоубийство решусь... Что же
+            делать, боже мой!</p>
+          <stage type="delivery">(Глядит в дверь.)</stage>
+          <p>Уйти разве? Пойти в эти потемки, куда глаза глядят...</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Что же вы, богомолочки, ему наставления не прочтете? А ты, Тихон, отчего его наружу не
+            выгонишь? Ведь он не заплатил тебе за ночлег. Гони его, толкай в шею! Эх, жесткий нынче
+            народ. Нет в нем мягкости и доброты... Лютый народ! Тонет человек, а ему кричат: «Тони
+            скорей, а то глядеть некогда, день рабочий!» А про то, чтоб ему веревку бросить, и
+            толковать нечего... Веревка деньги стоит...</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Не осуждай, добрый человек!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Молчи, старый волк! Лютый вы народ! Ироды! Душепродавцы!</p>
+          <stage type="delivery">(Тихону.)</stage>
+          <p>Пошел сюда, сними мне сапоги! Живо!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Эк, расходился!</p>
+          <stage type="delivery">(Смеется.)</stage>
+          <p>Ужасти!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Пошел, тебе говорят! Живо!</p>
+          <stage>Пауза.</stage>
+          <p>Слышишь ты, аль нет? Стенам говорю?</p>
+          <stage type="delivery">(Поднимается.)</stage>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Ну, ну... будет!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Я желаю, живодер, чтоб ты у меня, у нищего бродяги, сапоги снял!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Ну, ну... не серчай! Поди, стаканчик выпей... Иди выпей!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Люди, чего я желаю? Чтоб он меня водкой угощал или чтоб сапоги снял? Нешто я
+            оговорился, не так сказал?</p>
+          <stage type="delivery">(Тихону.)</stage>
+          <p>Ты, стало быть, не расслышал? Погожу минутку, авось расслышишь.</p>
+        </sp>
+        <stage>Между богомольцами и прохожими некоторое волнение. Приподнимаются и глядят на Тихона
+          и Мерика. Молчаливое ожидание.</stage>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Нелегкая тебя принесла!</p>
+          <stage type="delivery">(Выходит из-за прилавка.)</stage>
+          <p>Барин какой нашелся! Ну, давай, что ли?</p>
+          <stage type="delivery">(Снимает с Мерика сапоги.)</stage>
+          <p>Каиново отродье...</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Вот так. Поставь их рядом... Вот так... Ступай!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(снявши сапоги, идет за прилавок).</stage>
+          <p>Больно ты любишь мудрить! Помудри еще у меня, так живо из кабака вылетишь! Да!</p>
+          <stage type="delivery">(Подходящему Борцову.)</stage>
+          <p>Ты опять?</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Видишь ли, я, пожалуй, могу дать тебе одну золотую вещь... Изволь, если хочешь, я тебе
+            дам...</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Чево трясешься? Говори толком!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Хоть это подло и мерзко с моей стороны, но что же делать? Я решаюсь на эту мерзость,
+            будучи невменяем... Меня и на суде оправдали бы... Возьми, но только с условием:
+            возвратить мне потом, когда буду обратно из города идти. Даю тебе при свидетелях...
+            Господа, вы будьте свидетелями!</p>
+          <stage type="delivery">(Достает из-за пазухи золотой медальон.)</stage>
+          <p>Вот он... Портрет надо бы вынуть, да некуда мне его положить: я весь мокрый!.. Ну,
+            грабь с портретом! Только вот что... ты тово... пальцами не прикасайся к этому лицу...
+            Прошу... Я, голубчик, был груб с тобою... глуп, но ты извини и... не трогай пальцами...
+            Не гляди своими глазами на это лицо...</p>
+          <stage type="delivery">(Подает Тихону медальон.)</stage>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(рассматривает медальон).</stage>
+          <p>Краденые часики... Ну, да ладно, пей...</p>
+          <stage type="delivery">(Наливает водки.)</stage>
+          <p>Трескай...</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Только ты пальцами... не тово...</p>
+          <stage type="delivery">(Пьет медленно, с судорожной расстановкой.)</stage>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(открывает медальон).</stage>
+          <p>Гм... Мадама!.. Откуда это ты подцепил такую?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>А покажь-ка!</p>
+          <stage type="delivery">(Встает и идет к прилавку.)</stage>
+          <p>Дай-ка поглядеть!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(отстраняет его руку).</stage>
+          <p>Куда лезешь? Из рук гляди!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя</speaker>
+          <stage type="delivery">(поднимается и идет к Тихону).</stage>
+          <p>Дай-кась и я погляжу!</p>
+        </sp>
+        <stage>К прилавку подходят с разных сторон странники и прохожие. Группа.</stage>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(крепко обеими руками держит руку Тихона с медальоном и молча
+            смотрит на портрет).</stage>
+          <stage>Пауза.</stage>
+          <p>Красивая дьяволица! Из барынь...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Из барынь... Щеки этта, глаза... Оттопырь руку-то, не видать! Волосья по самый пояс...
+            Чисто как живая! Говорить собирается...</p>
+        </sp>
+        <stage>Пауза.</stage>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Для слабого человека это первая гибель. Сядет этакая верхом на шею и...</p>
+          <stage type="delivery">(машет рукой)</stage>
+          <p>и – крышка тебе!</p>
+        </sp>
+        <stage>Слышен голос Кузьмы: «Тпррр... Стой, тетеря!» </stage>
+        <stage>Входит Кузьма.</stage>
+      </div>
+      <div type="scene">
+        <head>Явление III</head>
+        <stage>Те же и Кузьма.</stage>
+        <sp who="#Kuzma">
+          <speaker>Кузьма</speaker>
+          <stage type="delivery">(входит).</stage>
+          <p>Стоит кабачок на пути – ни проехать, ни пройти. Мимо отца родного днем поедешь, не
+            приметишь, а кабак и в потемках за сто верст видать. Расступись, кто в бога верует!
+            Ну-кася!</p>
+          <stage type="delivery">(Стучит пятаком о прилавок.)</stage>
+          <p>Стакан мадеры настоящей! Живо!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Ишь ты, черт верченый!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Руками-то не размахивай! Зацепишь!</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>На то они и от бога дадены, чтобы ими размахивать. Растаяли, сахарные, тетка ваша
+            подкурятина! Дождя испужались, нежные!</p>
+          <stage type="delivery">(Пьет.)</stage>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Испужаешься, добрый человек, коли на пути такая ночь захватит. Таперича, слава богу,
+            благодать, по дорогам деревень и дворов много, есть где от погоды уйти, а допрежь и не
+            приведи создатель что было! Сто верст пройдешь и не токмо что деревни или двора, щепочки
+            не узришь. Так и ночуешь на земле...</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>А давно, баба, на свете маешься?</p>
+        </sp>
+        <sp who="#Efimovna">
+          <speaker>Ефимовна.</speaker>
+          <p>Восьмой десяток, батюшка.</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Восьмой десяток! Скоро доживешь до вороньего века.</p>
+          <stage type="delivery">(Глядит на Борцова.)</stage>
+          <p>А это что за изюмина?</p>
+          <stage type="delivery">(Глядит в упор на Борцова.)</stage>
+          <p>Барин!</p>
+          <stage>Борцов узнает Кузьму и, сконфузившись, идет в угол и садится на скамью.</stage>
+          <p>Семен Сергеич! Да это вы или не вы? А? С какой такой стати вы в этом кабаке? Нешто вам
+            тут место?</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Молчи!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(Кузьме).</stage>
+          <p>Кто это?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Мученик несчастный!</p>
+          <stage type="delivery">(Нервно ходит около прилавка.)</stage>
+          <p>А? В кабаке, скажи на милость! Оборванный! Пьяный! Я встревожился, братцы...
+            Встревожился...</p>
+          <stage type="delivery">(Говорит Мерику полушёпотом.)</stage>
+          <p>Это наш барин... наш помещик, Семен Сергеич, господин Борцов... Видал, в каком виде? На
+            какого человека он похож таперя? То-то вот... пьянство до какой степени...
+            Налей-кась!</p>
+          <stage type="delivery">(Пьет.)</stage>
+          <p>Я из его деревни, из Борцовки, может, слыхали, за двести верст отседа, в Ерговском
+            уезде. Крепостными у его отца были... Жалость!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Богатый был?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Большой...</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Профуфырил отцовское-то?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Нет, судьба, друг милый... Господин был большой, богатый, тверезый...</p>
+          <stage type="delivery">(Тихону.)</stage>
+          <p>Чай, сам, небось, видывал, как, бывалыча, тут мимо кабака в город езживал. Лошади
+            барские, шустрые, коляска лесорная – первый сорт! Пять троек держал, братец ты мой...
+            Лет пять назад, помню, едет тут через Микишкинский паром и заместо пятака рупь
+            выкидывает... Некогда, говори, мне сдачу ждать... В-во!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Ума, стало быть, решился.</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Словно как будто ум и при нем... Из малодушества всё вышло! С жиру! Первое дело,
+            ребята, из-за бабы... Полюбил он, сердешный, одну городскую, и представилось ему, что
+            краше ее на всем свете нет... Полюбилась ворона пуще ясна сокола. Из благородных
+            девушка... Не то чтобы какая беспутная или что, а так... вертуха... Хвостом – верть!
+            верть! Глазами – щурь! щурь! И все смеется, и всё смеется! Никакого ума... Барам это
+            ндравится, по-ихнему умная, а по-нашему, по-мужицкому – взял бы да со двора прогнал...
+            Ну... полюбилась и – пропадай ты, доля барская! Стал с ней хороводиться, то да се, чай
+            да сахар, прочее... на лодках всю ночь ездиют, на фортепьянах...</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Не рассказывай, Кузьма! К чему? Какое им дело до моей жизни?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Извините, ваше высокоблагородие, я только самую малость... Рассказал им и будет с
+            них... Я малость, потому встревожился... Очень уж я встревожился! Налей-кась!</p>
+          <stage type="delivery">(Пьет.)</stage>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(полушепотом).</stage>
+          <p>А она его любила?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма</speaker>
+          <stage type="delivery">(полушёпотом, который постепенно переходит в обыкновенную
+            речь).</stage>
+          <p>Как не любить? Барин не пустяковый... Полюбишь, коли ежели тыща десятин да денег куры
+            не клюют... Сам-то солидный, сановитый, тверезый... каждого начальства всё одно, как вот
+            я тебя сичас... за ручку...</p>
+          <stage type="delivery">(берет Мерика за руку)</stage>
+          <p>«здрасте и прощайте, милости просим»... Ну, прохожу однажды, это самое, вечером, через
+            сад господский... сад-то, брат, ввво! верстами меряй... иду потихоньку, смотрю это, а
+            они сидят на лавочке и друг дружку</p>
+          <stage type="delivery">(изображает звук поцелуя)</stage>
+          <p>целуют. Он ее раз, она, змея, его два... Он ее за белу ручку, а она вся – вспых! и
+            жмется, так и жмется к нему, чтоб ей... Люблю, говорит, тебя, Сеня... А Сеня, как
+            окаянный человек, ходит с места на место и счастьем похваляется с малодушества... Тому
+            рупь, тому два... Мне на лошадь дал. Всем долги простил на радостях...</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Ах... Ну к чему рассказывать? У этого народа никакого сожаления... Больно ведь!</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Я малость, барин! Просют! Отчего чуточку не рассказать? Ну, ну, я не буду, ежели
+            серчаете... Не буду... Мне плевать на них...</p>
+        </sp>
+        <stage>Слышны почтовые звонки.</stage>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Ты не ори, потихоньку...</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Я и так потихоньку... Не велит, ничего не поделаешь... Да и рассказывать больше нечего.
+            Повенчались – вот и всё... Больше ничего и не было. Налей-кась Кузьме бессребренику!</p>
+          <stage type="delivery">(Пьет.)</stage>
+          <p>Не люблю пьянства! В самый раз, когда господам, после венца, за ужин садиться, она
+            возьми да и убеги в карете...</p>
+          <stage type="delivery">(Шёпотом.)</stage>
+          <p>В город к аблакату дернула, к полюбовнику... А? Какова? В самый настоящий момент!
+            То-ись... убить мало!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(задумчиво).</stage>
+          <p>Да... Ну что же дальше?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Очумел... Вот, как видишь, стал зашибать муху и ноне, сказывают, до шмеля дошел... То
+            были мухи, а теперь – шмель... И до сей поры любит. Погляди: любит! Должно, идет таперь
+            пешком в город на нее одним глазочком взглянуть... Взглянет и – назад...</p>
+        </sp>
+        <stage>К кабаку подъезжает почта. Почтальон входит и пьет. </stage>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>А нынче запоздала пошта!</p>
+        </sp>
+        <stage>Почтальон молча расплачивается и уходит. Почта со звоном уезжает.</stage>
+        <sp who="#GolosIzUgla">
+          <speaker>Голос из угла.</speaker>
+          <p>В этакое ненастье пошту ограбить – раз плюнуть!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Жил на свете 35 лет и ни разу пошты не грабил.</p>
+          <stage>Пауза.</stage>
+          <p>Таперь уехала, поздно... Поздно...</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Каторги понюхать желательно?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Люди грабят, не нюхают. Да хоть и каторга!</p>
+          <stage type="delivery">(Резко.)</stage>
+          <p>Дальше что?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Ты про несчастного?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>А то про кого же?</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Второе дело, братцы, откуда разоренье пошло – зять, сестрин муж... Вздумал он за зятя в
+            банковом обчестве поручиться... тысяч на тридцать... Зять любит взять... известно,
+            знает, шельма, свой интерес и ухом своим свиным не ведет... Взял, а платить не надоть...
+            Наш так и заплатил все тридцать.</p>
+          <stage type="delivery">(Вздыхает.)</stage>
+          <p>Глупый человек за глупость и муки терпит. Жена с аблакатом детей прижила, а зять около
+            Полтавы именье купил, наш же, как дурак, по кабакам ходит да нашему брату мужику
+            жалится: «Потерял я, братцы, веру! Не в кого мне теперь, это самое, верить!»
+            Малодушество? У всякого человека свое горе бывает, змеей за сердце сосет, так и пить,
+            значит? Взять, к примеру, хоть нашего старшину. Жена к себе учителя среди бела дня
+            водит, мужнины деньги на хмель изводит, а старшина ходит себе да усмешки на лице
+            делает... Поосунулся только малость...</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(вздыхает).</stage>
+          <p>Кому какую бог силу дал...</p>
+        </sp>
+        <sp who="#Kuzma">
+          <speaker>Кузьма.</speaker>
+          <p>Сила разная бывает, это правильно... Ну? Сколько тебе?</p>
+          <stage type="delivery">(Расплачивается.)</stage>
+          <p>Забирай кровные! Прощай, ребята! Спокойной вам ночи, приятного сна! Бегу, пора...
+            Акушерку к барыне из больницы везу... Чай, заждалась сердешная, размокла...</p>
+          <stage type="delivery">(Убегает.)</stage>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(после паузы).</stage>
+          <p>Эй, ты! Как вас? Несчастный человек, иди выпей!</p>
+          <stage type="delivery">(Наливает.)</stage>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(подходит нерешительно к прилавку и пьет).</stage>
+          <p>Значит, теперь я тебе за два стакана должен.</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Какой уж тут долг? Пей – вот и все! Заливай горе бедой!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Выпей, барин, и мое! Эх!</p>
+          <stage type="delivery">(Бросает пятак на прилавок.)</stage>
+          <p>Пить – помирать и не пить – помирать! Без водки хорошо, а с водкой, ей-богу,
+            вольготней! При водке и горе не горе... Жарь!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Фу! Горячо!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Дай-ка сюда!</p>
+          <stage type="delivery">(Берет у Тихона медальон и рассматривает портрет.)</stage>
+          <p>Гм... После венца ушла... Какова?</p>
+        </sp>
+        <sp who="#GolosIzUgla">
+          <speaker>Голос из угла.</speaker>
+          <p>Нацеди-ка ему, Тиша, стаканчик. Пусть и мое выпьет!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(с силой бьет медальоном о пол).</stage>
+          <p>Проклятая!</p>
+          <stage type="delivery">(Быстро идет на свое место и ложится лицом к стене.)</stage>
+        </sp>
+        <stage>Волнение.</stage>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Это что же? Что же это такое?</p>
+          <stage type="delivery">(Поднимает медальон.)</stage>
+          <p>Как ты смеешь, скотина? Какое ты имеешь право?</p>
+          <stage type="delivery">(Плаксиво.)</stage>
+          <p>Ты хочешь, чтоб я тебя убил? Да? Мужик! Невежа!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Будет, барин, серчать... Не стеклянное, не разбилось... Выпей-ка еще, да спать...</p>
+          <stage type="delivery">(Наливает.)</stage>
+          <p>Заслушался вас тут, а давно уж пора кабак запирать,</p>
+          <stage type="delivery">(Идет и запирает наружную дверь.)</stage>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(пьет).</stage>
+          <p>Как он смеет? Этакий ведь дурак!</p>
+          <stage type="delivery">(Мерику.)</stage>
+          <p>Понимаешь? Ты дурак, осел!</p>
+        </sp>
+        <sp who="#Savva">
+          <speaker>Савва.</speaker>
+          <p>Ребятушки! Почтенные! Положите хранение устом! Какая польза от шума? Дайте спать
+            людям!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Ложитесь, ложитесь... Будет вам!</p>
+          <stage type="delivery">(Идет за прилавок и запирает ящик с выручкой.)</stage>
+          <p>Спать пора!</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Пора!</p>
+          <stage type="delivery">(Ложится.)</stage>
+          <p>Приятного сна, братцы!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(встает и постилает на скамье полушубок).</stage>
+          <p>Иди, барин, ложись!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Ты же где ляжешь?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Где придется... Хоть и на полу...</p>
+          <stage type="delivery">(Постилает сермягу на полу.)</stage>
+          <p>Мне всё равно.</p>
+          <stage type="delivery">(Кладет рядом с собой топор.)</stage>
+          <p>Ему на полу спать мука... Привык к шелку да к вате...</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(Борцову).</stage>
+          <p>Ложись, вате благородие! Будет тебе на патрет глядеть!</p>
+          <stage type="delivery">(Тушит свечу.)</stage>
+          <p>Брось ты ее!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(пошатываясь).</stage>
+          <p>Где же мне лечь?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>На бродягино место! Чай, слыхал, уступает тебе!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(подходит к уступленному месту).</stage>
+          <p>Я тово... опьянел... Это... что же? Тут мне ложиться? А?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Тут, тут, не бойся, ложись...</p>
+          <stage type="delivery">(Растягивается на прилавке.)</stage>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(ложится).</stage>
+          <p>Я... пьян... Все кругом...</p>
+          <stage type="delivery">(Открывает медальон.)</stage>
+          <p>Свечечки у тебя нет?</p>
+          <stage>Пауза.</stage>
+          <p>Ты, Маша, чудачка... Глядишь на меня из рамочки и смеешься...</p>
+          <stage type="delivery">(Смеется.)</stage>
+          <p>Пьяный! А разве над пьяным можно смеяться? Ты пренебреги, как говорит Счастливцев, и...
+            полюби пьяного.</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Ветер-то как воет! Жутко!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(смеется).</stage>
+          <p>Какая ты... Разве можно так кружиться? Тебя не поймаешь!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Бредит. На партрет загляделся.</p>
+          <stage type="delivery">(Смеется.)</stage>
+          <p>Комиссия! Образованные господа всякие машины и лекарства повыдумывали, а нет еще того
+            умного человека, чтоб нашел лекарство от женского пола... Ищут, как бы все болезни
+            лечить, а того и вдомек не берут, что от бабья народа пропадает больше, чем от
+            болезней... Лукавы, сребролюбы, немилостивы, никакого ума... Свекровь изводит невестку,
+            невестка норовит как бы облукавить мужа... И конца нет...</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Натрепали ему бабы вихор, вот он и топорщится.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Не я один... Спокон века, пока мир стоит, люди плачутся... Недаром и не зря в сказках
+            да песнях чёрта с бабой на одну линию ставят... Недаром! Хоть наполовину да
+            правда...</p>
+          <stage>Пауза.</stage>
+          <p>Барин вон дурака ломает, а я нешто от большого ума в бродяги пошел, отца-мать
+            бросил?</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Бабы?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Тоже как вот и барин... Ходил, как окаянный, завороженный, счастьем похвалялся... день
+            и ночь как в огне, а пришла пора, открыл глаза... Не любовь была, а одно только
+            обманство...</p>
+        </sp>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Что ж ты ей сделал?</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Не твое дело...</p>
+          <stage>Пауза.</stage>
+          <p>Убил, думаешь? Руки коротки... Не то что убьешь, но еще и пожалеешь... Живи ты и будь
+            ты... счастлива! Не видали б только тебя мои глаза, да забыть бы мне тебя, змея
+            подколодная!</p>
+        </sp>
+        <stage>Стук в дверь.</stage>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Кого-то черти принесли... Кто там?</p>
+          <stage>Стук.</stage>
+          <p>Кто стучит?</p>
+          <stage type="delivery">(Встает и подходит к двери.)</stage>
+          <p>Кто стучит? Проходи, заперто!</p>
+        </sp>
+        <sp who="#Kucher">
+          <speaker>Голос за дверью.</speaker>
+          <p>Впусти, Тихон, сделай милость! Рессора в карете лопнула! Помоги, будь отцом родным!
+            Веревочкой бы только обвязать, а потом уж как-нибудь доехали бы...</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Кто едет?</p>
+        </sp>
+        <sp who="#Kucher">
+          <speaker>Голос за дверью.</speaker>
+          <p>Барыня едет из города в Варсонофьево... Пять верст только осталось... Помоги, сделай
+            милость!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Поди, скажи барыне, коли даст десять рублей, так и веревка будет и рессору
+            починим...</p>
+        </sp>
+        <sp who="#Kucher">
+          <speaker>Голос за дверью.</speaker>
+          <p>Взбесился ты, что ли? Десять рублей! Собака ты бешеная! Рад людскому горю!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Как знаешь... Не хочешь и не нужно...</p>
+        </sp>
+        <sp who="#Kucher">
+          <speaker>Голос за дверью.</speaker>
+          <p>Ну, да ладно, погоди...</p>
+          <stage>Пауза. </stage>
+          <p>Барыня сказала: хорошо.</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Милости просим!</p>
+          <stage type="delivery">(Отворяет дверь и впускает кучера.)</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Явление IV</head>
+        <stage>Те же и кучер.</stage>
+        <sp who="#Kucher">
+          <speaker>Кучер.</speaker>
+          <p>Здорово, православные! Ну, давай веревку! Скорей! Ребята, кто пойдет поможет? На чай
+            перепадет!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Нечего там на чай... Пущай дрыхнут, вдвоем справимся.</p>
+        </sp>
+        <sp who="#Kucher">
+          <speaker>Кучер.</speaker>
+          <p>Фуй, измаялся весь! Холодно, в грязи, ни одного сухого места... Вот что еще, милый...
+            Нет ли у тебя здесь комнатки, барыне погреться? Карету покривило набок, сидеть никак
+            невозможно...</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Какой еще там комнаты захотела? Пущай здесь греется, коли озябла... Найдем место.
+              <stage type="delivery">(Подходит к Борцову и очищает около него место.)</stage>
+            Вставайте, вставайте! Поваляйтесь часик на полу, покеда барыня погреется. <stage type="delivery">(Борцову.)</stage> Привстань-ка, ваше благородие! Посиди! <stage type="delivery">(Борцов приподнимается.)</stage> Вот тебе и место.</p>
+        </sp>
+        <stage>Кучер выходит.</stage>
+        <sp who="#Fedja">
+          <speaker>Федя.</speaker>
+          <p>Вот вам и гостья, шут ее принес! Таперь до света не уснешь!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Жалко, что я пятнадцати не запросил... Дала бы... <stage type="delivery">(Останавливается перед дверью в ожидательной позе.)</stage> Вы же, народ,
+            поделикатней... Не говорите слов...</p>
+        </sp>
+        <stage>Входят Марья Егоровна и за нею кучер.</stage>
+      </div>
+      <div type="scene">
+        <head>Явление V</head>
+        <stage>Те же, Марья Егоровна и кучер.</stage>
+        <sp who="#Tihon">
+          <speaker>Тихон</speaker>
+          <stage type="delivery">(кланяется).</stage>
+          <p>Милости просим, ваше сиятельство! Жилье наше мужицкое, тараканье. Не побрезгуйте!</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна.</speaker>
+          <p>Я тут ничего не вижу... Куда же мне идти?</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Сюда, ваше сиятельство!</p>
+          <stage type="delivery">(Ведет ее к месту около Борцова.)</stage>
+          <p>Сюда, милости просим!</p>
+          <stage type="delivery">(Дует на место.)</stage>
+          <p>Комнатки у меня отдельной, извините, нету, но вы, сударыня, не сомневайтесь: народ
+            хороший, тихий...</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна</speaker>
+          <stage type="delivery">(садится рядом с Борцовым).</stage>
+          <p>Какая ужасная духота! Отворите по крайней мере хоть дверь!</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Слушаю-с!</p>
+          <stage type="delivery">(Бежит и отворяет настежь дверь.)</stage>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Народ зябнет, а они двери настежь!</p>
+          <stage type="delivery">(Встает и захлопывает дверь.)</stage>
+          <p>Что за указчица?</p>
+          <stage type="delivery">(Ложится.)</stage>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Извините, ваше сиятельство, это у нас дурачок... юродивенький... Но вы не пужайтесь, не
+            обидит... Только извините, барыня, я за десять рублей не согласен... За пятнадцать,
+            ежели угодно....</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна.</speaker>
+          <p>Хорошо, только поскорей!..</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Сею минутого... Мигом мы это самое...</p>
+          <stage type="delivery">(Вытаскивает из-под прилавка веревки.)</stage>
+          <p>Сею минутою...</p>
+        </sp>
+        <stage>Пауза.</stage>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(вглядывается в Марью Егоровну).</stage>
+          <p>Мари... Маша...</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна</speaker>
+          <stage type="delivery">(глядя на Борцова).</stage>
+          <p>Что еще?</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Мари... Это ты? Откуда ты?</p>
+          <stage>Марья Егоровна, узнав Борцова, вскрикивает и отскакивает на середину
+            кабака.</stage>
+          <stage type="delivery">(Идет за ней.)</stage>
+          <p>Мари, это я... Я!</p>
+          <stage type="delivery">(Хохочет.)</stage>
+          <p>Моя жена! Мари! Да где же я нахожусь? Люди, огня!</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна.</speaker>
+          <p>Отойдите прочь! Лжете, это не вы! Невозможно!</p>
+          <stage type="delivery">(Закрывает лицо руками.)</stage>
+          <p>Это ложь, глупость!</p>
+        </sp>
+        <sp who="#Bortsov">
+          <speaker>Борцов.</speaker>
+          <p>Голос, движения... Мари, это я! Сейчас я перестану... быть пьян... Голова кружится...
+            Боже мой! Постой, постой... я ничего не понимаю.</p>
+          <stage type="delivery">(Кричит.)</stage>
+          <p>Жена!</p>
+          <stage type="delivery">(Падает к ее ногам и рыдает.)</stage>
+        </sp>
+        <stage>Около супругов собирается группа.</stage>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна.</speaker>
+          <p>Отойдите прочь!</p>
+          <stage type="delivery">(Кучеру.)</stage>
+          <p>Денис, едем! Я не могу здесь долее оставаться!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(вскакивает и пристально вглядывается ей в лицо).</stage>
+          <p>Партрет!</p>
+          <stage type="delivery">(Хватает ее за руку.)</stage>
+          <p>Она самая! Эй, народ! Жена баринова!</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна.</speaker>
+          <p>Пошел прочь, мужик!</p>
+          <stage type="delivery">(Старается вырвать у него свою руку.)</stage>
+          <p>Денис, что же ты смотришь?</p>
+          <stage type="delivery">(Денис и Тихон подбегают к ней и хватают Мерика под руки.)</stage>
+          <p>Это разбойничий вертеп! Пусти же руку! Не боюсь я!.. Подите прочь!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Постой, сейчас отпущу... Дай мне сказать тебе одно только слово... Одно слово, чтоб ты
+            Поняла... Постой...</p>
+          <stage type="delivery">(Оборачивается к Тихону и Денису.)</stage>
+          <p>Прочь вы, хамы, не держите! Не выпущу, покеда слова не скажу! Постой... сейчас.</p>
+          <stage type="delivery">(Бьет себя кулаком по лбу.)</stage>
+          <p>Нет, не дал бог разума! Не могу я тебе этого слова придумать!</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна</speaker>
+          <stage type="delivery">(вырывает руку).</stage>
+          <p>Поди ты прочь! Пьяницы... Едем, Денис!</p>
+          <stage type="delivery">(Хочет идти к двери.)</stage>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(загораживает ей дорогу).</stage>
+          <p>Ну, погляди ты на него хоть одним глазом! Приголубь ты его хоть одним словечком
+            ласковым. Богом молю!</p>
+        </sp>
+        <sp who="#MarjaEgorovna">
+          <speaker>Марья Егоровна.</speaker>
+          <p>Возьмите от меня этого... юродивого.</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Так пропадай же ты, проклятая, пропадом!</p>
+          <stage type="delivery">(Взмахивает топором.)</stage>
+        </sp>
+        <stage>Страшное волнение. Все вскакивают с шумом и криком ужаса. Савва становится между
+          Мериком и Марьей Егоровной... Денис с силой отталкивает в сторону Мерика и выносит свою
+          барыню из кабака. После этого все стоят как вкопанные. Продолжительная пауза.</stage>
+        <sp who="#Bortsov">
+          <speaker>Борцов</speaker>
+          <stage type="delivery">(ловит в воздухе руками).</stage>
+          <p>Мари... Где же ты, Мари!</p>
+        </sp>
+        <sp who="#Nazarovna">
+          <speaker>Назаровна.</speaker>
+          <p>Боже мой, боже мой... Душеньку мою надорвали вы, убивцы! И что за ночь окаянная!</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик</speaker>
+          <stage type="delivery">(опуская руку с топором).</stage>
+          <p>Убил я ее, аль нет?..</p>
+        </sp>
+        <sp who="#Tihon">
+          <speaker>Тихон.</speaker>
+          <p>Благодари бога, цела твоя голова...</p>
+        </sp>
+        <sp who="#Merik">
+          <speaker>Мерик.</speaker>
+          <p>Не убил, стало быть...</p>
+          <stage type="delivery">(Пошатываясь, идет к своей постели.)</stage>
+          <p>Не привела судьба помереть от краденого топора...</p>
+          <stage type="delivery">(Падает на постель и рыдает.)</stage>
+          <p>Тоска! Злая моя тоска! Пожалейте меня, люди православные!</p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

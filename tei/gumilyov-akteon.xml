@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Актеон</title>
+        <title type="main" xml:lang="en">Akteon</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q311033">Гумилёв, Николай Степанович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/gumilyov-akteon</idno>
+        <idno type="RusDraCor">46</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Актеон_(Гумилёв)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1913">1913 («Гиперборей», 1913, № 7)</date>
+            <date type="premiere"/>
+            <date type="written" when="1913">1913</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Kadm" sex="MALE">
+            <persName>Кадм</persName>
+          </person>
+          <person xml:id="Ehion" sex="MALE">
+            <persName>Эхион</persName>
+          </person>
+          <person xml:id="Agava" sex="MALE">
+            <persName>Агава</persName>
+          </person>
+          <person xml:id="Akteon" sex="MALE">
+            <persName>Актеон</persName>
+          </person>
+          <person xml:id="PervyjJunosha" sex="MALE">
+            <persName>Первый юноша</persName>
+          </person>
+          <person xml:id="VtorojJunosha" sex="MALE">
+            <persName>Второй юноша</persName>
+          </person>
+          <person xml:id="TretijJunosha" sex="MALE">
+            <persName>Третий юноша</persName>
+          </person>
+          <person xml:id="Ohotnitsy" sex="FEMALE">
+            <persName>Голоса охотниц</persName>
+          </person>
+          <person xml:id="Krokale" sex="FEMALE">
+            <persName>Крокале</persName>
+          </person>
+          <person xml:id="Ranis" sex="FEMALE">
+            <persName>Ранис</persName>
+          </person>
+          <person xml:id="Hiale" sex="FEMALE">
+            <persName>Хиале</persName>
+          </person>
+          <person xml:id="Diana" sex="FEMALE">
+            <persName>Диана</persName>
+          </person>
+          <person xml:id="PervyjPes" sex="MALE">
+            <persName>Первый</persName>
+          </person>
+          <person xml:id="VtorojPes" sex="MALE">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="TretijPes" sex="MALE">
+            <persName>Третий</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#IrinaPavlova" when="2017-04-13">convert from source</change>
+        <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#to" when="2017-04-26">correct IDs</change>
+        <change who="#ff" when="2017-06-07">add missing stage directions; scene
+          segmentation</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Актеон</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА:</head>
+        <castItem>Кадм, царь, строитель Фив.</castItem>
+        <castItem>Эхион, его слуга и друг.</castItem>
+        <castItem>Актеон, сын Кадма.</castItem>
+        <castItem>Агава, жена Эхиона.</castItem>
+        <castItem>Диана.</castItem>
+        <castItem>Крокале, Ранис, Хиале, нимфы Дианы.</castItem>
+        <castItem>Трое юношей, спутники Актеона.</castItem>
+        <castItem>Три пса, преследующие Актеона.</castItem>
+      </castList>
+      <set>
+        <p>Место действия — долина Гаргафии, покрытая тёмным кипарисовым лесом. В глубине — пещера
+          аркой. Направо — светлый источник бежит по зелёной лужайке. Наступает вечер. Входят Кадм и
+          Эхион.</p>
+      </set>
+    </front>
+    <body>
+      <div type="configuration">
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l>Сюда, Эхион, налево! Здесь</l>
+          <l>Вчера я выломал камень,</l>
+          <l>Выломал, но не весь,</l>
+          <l>Он был опутан корнями.</l>
+          <l>До ночи я не управился — стар!</l>
+          <l>Холодно было и сыро,</l>
+          <l>С единорогом лягался кентавр,</l>
+          <l>Блеяли в чаще сатиры.</l>
+          <l>А ты всё силён, драконий зуб,</l>
+          <l>Силён, как прежде, счастливый.</l>
+          <l>С тобою донесу я упрямый уступ</l>
+          <l>В наши юные Фивы.</l>
+          <stage>(Начинают ворочать камень)</stage>
+          <l part="I">Где же Агава?</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l part="M">Жена?</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l part="F">Да.</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l>Чёрные руки ломает дриадам.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l part="I">Рубит деревья?</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l part="M">Рубит.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l part="F">Для храма?</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l>Для храма.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(насмешливо)</stage>
+          <l>А храм кому, мой старый дракон?</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l part="I">Тебе, господин.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(со смехом)</stage>
+          <l part="M">Нет.</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l part="F">Ну, так не знаю.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l>Нам не выломать камня.</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l>Выломать… с песней.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(поёт, выворачивая камень)</stage>
+          <l>Отдай мне глыбу, земля! земля!</l>
+          <l>Я взнесу её к небу, земля! земля!</l>
+          <l>И она будет в храме, земля! земля!</l>
+          <l>Бога чествовать с нами, земля! земля!</l>
+          <l>Я сказал, ты исполни, слышишь, земля?</l>
+          <l>Иль испробуешь молний Зевса, земля!</l>
+          <l>Туша проклятая, кит глухой,</l>
+          <l>Баба упрямая, ты не хочешь земля?</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <stage type="delivery">(поёт тотчас вслед за Кадмом)</stage>
+          <l>Белая кровь дракона, чёрное тело.</l>
+          <l>Господин приказал приняться за дело.</l>
+          <l>Зубы дракона, нас было много,</l>
+          <l>Мы дрались долго, и убито много,</l>
+          <l>Живые — люди, мёртвые — камни.</l>
+          <l>Мы больше не будем драться.</l>
+          <l>Земля, помоги мне</l>
+          <l>Приподнять брата.</l>
+        </sp>
+        <stage>Камень поддаётся; работающие стирают пот и садятся отдыхать; входит Агава.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#Agava">
+          <speaker>Агава</speaker>
+          <l>Здрасте, мужчины.</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l>Здравствуй, жена.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l part="I">Женщина, здравствуй.</l>
+        </sp>
+        <sp who="#Agava">
+          <speaker>Агава</speaker>
+          <l part="F">Где же</l>
+          <l>Мальчики? Актеон</l>
+          <l> part="I"Или Пентей?</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l part="M">Их нет.</l>
+        </sp>
+        <sp who="#Agava">
+          <speaker>Агава</speaker>
+          <stage type="delivery">(насмешливо)</stage>
+          <l part="F">Всё те же.</l>
+          <l>Значит, на рынке Пентей</l>
+          <l>Дуракам диктует законы.</l>
+          <l>Значит, гоняют зверей</l>
+          <l>В долине псы Актеона.</l>
+          <l>А вам, старикам — ничего,</l>
+          <l>Как только ломать эту гору!</l>
+          <l>Для вас дороже всего</l>
+          <l>Ещё непостроенный город.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(с важностью)</stage>
+          <l part="I">Ты, женщина, нас не поймёшь.</l>
+        </sp>
+        <sp who="#Agava">
+          <speaker>Агава</speaker>
+          <l part="F">Может быть!</l>
+          <l>Но только и я целый день как в угаре.</l>
+          <stage>(таинственно)</stage>
+          <l>Чтоб мальчикам было где время убить,</l>
+          <l>Построила я лупанарий.</l>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <stage type="delivery">(кричит за сценой)</stage>
+          <l>Сюда, товарищи, за этой чащей</l>
+          <l>Звучат людские голоса,</l>
+          <l>Они врываются всё чаще, чаще</l>
+          <l>В тёмно-дремучие мои леса.</l>
+          <l>О, я непрошенным носы отрежу,</l>
+          <l>Чтоб не распугивали дичь.</l>
+          <l part="I">Скорей, товарищи, хватай…</l>
+          <stage>(Входя, замечает присутствующих)</stage>
+          <l part="F">Я брежу.</l>
+          <l>Отец, простишь мне мой дерзкий клич?</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(недовольно)</stage>
+          <l>Как, ты, Актеон? Но сегодня тебя я</l>
+          <l>Поставил следить за прокладкой канала,</l>
+          <l>А ты всё оставил, медведя гоняя.</l>
+          <l>Рабов разбежалось, должно быть, не мало.</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <stage type="delivery">(со смущением)</stage>
+          <l part="I">Отец, я виновен.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(к нему и к вошедшим юношам)</stage>
+          <l part="F">Ну, полно, к работе!</l>
+          <l>Болтать будем после мы. Этот камень —</l>
+          <l>На площадь Судилища вы снесёте,</l>
+          <stage>(насмешливо)</stage>
+          <l>Даже вашими белыми руками.</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <stage type="delivery">(подходя к камню)</stage>
+          <l part="I">О, боги, он грязен!</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <l part="F">Лягушка грязнее!</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l part="I">И как он тяжёл!</l>
+        </sp>
+        <sp who="#Agava">
+          <speaker>Агава</speaker>
+          <l part="F">Мог бы быть тяжелее.</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <stage type="delivery">(вопросительно)</stage>
+          <l part="I">Отец?</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <l part="F">Замолчи, он для храма.</l>
+          <l>Я вижу, как встанет он гордо и прямо.</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l>Нет, я его не понесу.</l>
+          <l>Довольно, лопнуло терпенье.</l>
+          <l>Я для охоты здесь в лесу,</l>
+          <l>Не перетаскивать каменья.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(спокойно)</stage>
+          <l part="I">Не хочешь?</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l part="M">Нет.</l>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(ещё спокойнее)</stage>
+          <l part="F">Так будь счастлив,</l>
+          <l>Как травы, может быть как звери.</l>
+          <stage>(С внезапной торжественностью)</stage>
+          <l>Но дух твой не создан по образу Фив,</l>
+          <l>Семибашенных, белых, будущих Фив,</l>
+          <l>И к богам тебе заперты двери!</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <stage type="delivery">(Актеону)</stage>
+          <l>Дитя, я многого не понимаю,</l>
+          <l>Но слушай, когда говорит господин…</l>
+          <l>А я тебе рыжего львёнка поймаю</l>
+          <l>В пещере, которую знаю один.</l>
+        </sp>
+        <sp who="#Agava">
+          <speaker>Агава</speaker>
+          <stage type="delivery">(Актеону, с другой стороны)</stage>
+          <l>Скорее, ведь камень совсем не тяжёлый,</l>
+          <l>Его бы, пожалуй, одна я снесла.</l>
+          <l>Тащи его в город… а город весёлый,</l>
+          <l>Сирийских танцовщиц я там припасла.</l>
+          <stage>Актеон отрицательно качает головой.</stage>
+        </sp>
+        <sp who="#Kadm">
+          <speaker>Кадм</speaker>
+          <stage type="delivery">(резко Эхиону, указывая на камень)</stage>
+          <l part="I">Берись!</l>
+        </sp>
+        <sp who="#Ehion">
+          <speaker>Эхион</speaker>
+          <stage type="delivery">(покорно, наклоняясь)</stage>
+          <l part="M">Берусь.</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l part="F">Отец, прости,</l>
+          <l>Мне грустно, что такой ты сирый,</l>
+          <l>Но руки должен я блюсти</l>
+          <l>Для лука, девушек и лиры.</l>
+          <l>И разве надобен богам,</l>
+          <l>В их радостях разнообразных,</l>
+          <l>Тобою выстроенный храм</l>
+          <l>Из плит уродливых и грязных?!</l>
+          <l>За тёмной тучею Зевес</l>
+          <l>Блаженство вечное находит.</l>
+          <l>И громы, падая с небес,</l>
+          <l>На небо никогда не всходят.</l>
+          <l>Золотокудрый Аполлон</l>
+          <l>Блестит, великолепно-юный,</l>
+          <l>Но им не плуг изобретён,</l>
+          <l>А звонко-плачущие струны.</l>
+          <l>А Геба розовая, Пан,</l>
+          <l>А синеглазая Паллада,</l>
+          <l>Они не любят наших стран,</l>
+          <l>И ничего им здесь не надо.</l>
+          <l>А если надо, то — родник,</l>
+          <l>Лепечущий темно и странно,</l>
+          <l>Павлина — Гебе, и тростник,</l>
+          <l>Чтоб флейту вырезать — для Пана.</l>
+          <l>Поверь, их знает только тот,</l>
+          <l>Кто знает лес, лучей отливы,</l>
+          <l>И бог вовеки не сойдёт</l>
+          <l>В твои безрадостные Фивы.</l>
+          <stage>Кадм, Эхион и Агава с трудом выносят камень.</stage>
+        </sp>
+        <sp who="#PervyjJunosha">
+          <speaker>Первый юноша</speaker>
+          <l part="I">Вот здорово.</l>
+        </sp>
+        <sp who="#VtorojJunosha">
+          <speaker>Второй юноша</speaker>
+          <l part="F">Им так и надо.</l>
+        </sp>
+        <sp who="#TretijJunosha">
+          <speaker>Третий юноша</speaker>
+          <l>Какой ты умный, Актеон!</l>
+          <l>Так говорить — одна отрада.</l>
+          <l>Как жаль, что я не обучён.</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l>Идите, товарищи, в этот вечер</l>
+          <l>Мне хочется быть одному.</l>
+          <l>Мы славно охотились; до новой встречи!</l>
+          <l>Постойте, я вас обниму.</l>
+          <stage>(Обнимает их поочерёдно)</stage>
+        </sp>
+        <sp who="#PervyjJunosha">
+          <speaker>Первый юноша</speaker>
+          <l part="I">Спать завалюсь.</l>
+        </sp>
+        <sp who="#VtorojJunosha">
+          <speaker>Второй юноша</speaker>
+          <l part="M">Напьюсь.</l>
+        </sp>
+        <sp who="#TretijJunosha">
+          <speaker>Третий юноша</speaker>
+          <l part="F">Вот ловко:</l>
+          <l>И спать и пить — равно уныло.</l>
+          <stage>(Таинственно)</stage>
+          <l>Агава, старая чертовка,</l>
+          <l>Здесь про танцовщиц говорила.</l>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <stage type="delivery">(слегка хмурясь)</stage>
+          <l part="I">Идите же.</l>
+          <stage>(Юноши уходят. Актеон один).</stage>
+          <l part="F">Как хорошо вокруг!</l>
+          <l>Так синевато-бледен тёплый воздух,</l>
+          <l>Так чудно-неожидан каждый звук,</l>
+          <l>Как будто он рождается на звёздах.</l>
+          <l>Луна стоит безмолвно в вышине,</l>
+          <l>Исполнена девической тревоги,</l>
+          <l>И в голубой полощутся волне</l>
+          <l>Серебряные, маленькие ноги.</l>
+          <l>Я вижу чуть открытый красный рот,</l>
+          <l>Мученье наше и отраду нашу,</l>
+          <l>И розовые груди… А живот</l>
+          <l>Похож на опрокинутую чашу.</l>
+          <l>Ни облачка… Она совсем одна</l>
+          <l>И кажется такою беззащитной,</l>
+          <l>Что отрок пробуждается от сна,</l>
+          <l>Неопытный ещё, но любопытный.</l>
+          <l>Я лягу здесь, под этот мудрый вяз,</l>
+          <l>Ведь хоть молчит, но знает он о многом.</l>
+          <l>Я буду спать, не закрывая глаз,</l>
+          <l>И, может быть, проснусь на утро богом.</l>
+        </sp>
+        <stage>Ложится. За сценой слышно, как перекликаются серебряные голоса охотящихся
+          девушек.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#Ohotnitsy">
+          <speaker>Голоса охотниц</speaker>
+          <l>Аллали.</l>
+          <l>Аллали.</l>
+          <l>Кто вдали?</l>
+          <l>Это лань</l>
+          <l>Аллали.</l>
+          <l>Аллали.</l>
+          <l>Стрелой повали,</l>
+          <l>На горло стань.</l>
+          <l>Аллали.</l>
+          <l>Аллали.</l>
+          <l>Псы повели,</l>
+          <l>Бежит, бежит…</l>
+          <l>…Теперь лежит,</l>
+          <l>Аллали,</l>
+          <l>В пыли.</l>
+        </sp>
+        <stage>Входит Диана в костюме охотницы; за нею нимфы.</stage>
+        <sp who="#Krokale">
+          <speaker>Крокале</speaker>
+          <l>Кто всех усталей?</l>
+        </sp>
+        <sp who="#Ranis">
+          <speaker>Ранис</speaker>
+          <l>Хиале.</l>
+        </sp>
+        <sp who="#Hiale">
+          <speaker>Хиале</speaker>
+          <stage type="delivery">(обиженно)</stage>
+          <l>А косы у кого расплелись?</l>
+        </sp>
+        <sp who="#Krokale">
+          <speaker>Крокале</speaker>
+          <stage type="delivery">(со смехом)</stage>
+          <l>У Ранис.</l>
+        </sp>
+        <sp who="#Ranis">
+          <speaker>Ранис</speaker>
+          <l>Ну да, но я первой увидела лань.</l>
+        </sp>
+        <sp who="#Hiale">
+          <speaker>Хиале</speaker>
+          <l>А я повернула её у платана,</l>
+          <l part="I">О, если б не я, то она…</l>
+        </sp>
+        <sp who="#Krokale">
+          <speaker>Крокале</speaker>
+          <l part="F">Перестань!</l>
+          <l>Открыла, настигла, убила Диана.</l>
+        </sp>
+        <sp who="#Diana">
+          <speaker>Диана</speaker>
+          <stage type="delivery">(медленно, скандируя)</stage>
+          <l>Время нам ноги омыть, расстегните ремни у сандалий,</l>
+          <l>Сбросьте лёгкую ткань с ваших измученных плеч.</l>
+          <stage>Девушки помогают ей раздеваться и болтают между собой.</stage>
+          <l>Всех ты искусней, Ранис; распусти мне, пожалуйста, косы,</l>
+          <l>Простоволосой, как ты, в чистый войду я ручей.</l>
+        </sp>
+        <sp who="#Ranis">
+          <speaker>Ранис</speaker>
+          <l>Я встретила Ио. Бедняжка!</l>
+          <l>Бежит, а оса над ней.</l>
+        </sp>
+        <sp who="#Krokale">
+          <speaker>Крокале</speaker>
+          <l>Быть Зевсом любимой — тяжко.</l>
+        </sp>
+        <sp who="#Hiale">
+          <speaker>Хиале</speaker>
+          <stage type="delivery">(со вздохом)</stage>
+          <l>А Марсом — ещё тяжелей.</l>
+        </sp>
+        <sp who="#Ranis">
+          <speaker>Ранис</speaker>
+          <stage type="delivery">(недоверчиво)</stage>
+          <l part="I">Как, Марс тебя любит?</l>
+        </sp>
+        <sp who="#Hiale">
+          <speaker>Хиале</speaker>
+          <l part="F">В трущобы</l>
+          <l>За мной он зашёл далеко.</l>
+        </sp>
+        <sp who="#Ranis #Krokale">
+          <speaker>Ранис и Крокале</speaker>
+          <stage type="delivery">(с интересом)</stage>
+          <l part="I">Настиг?</l>
+        </sp>
+        <sp who="#Hiale">
+          <speaker>Хиале</speaker>
+          <stage type="delivery">(скромно)</stage>
+          <l part="M">Нет, конечно.</l>
+        </sp>
+        <sp who="#Krokale">
+          <speaker>Крокале</speaker>
+          <l part="F">Ещё бы,</l>
+          <l>Сознаться всем не легко.</l>
+        </sp>
+        <stage>В это время Актеон поднимается, протягивает руки к Диане и говорит, восторженно, как
+          в бреду.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l>Я знал, что она придёт,</l>
+          <l>Я знал, что я тоже бог,</l>
+          <l>И мне лишь губ этих мёд,</l>
+          <l>Иного я пить не мог.</l>
+          <l>И мне снега этих рук,</l>
+          <l>Алмазы светлых очей,</l>
+          <l>И мне этот сладкий звук</l>
+          <l>Её неспешных речей.</l>
+          <l>Отец мой не смертный… Мать,</l>
+          <l>Наверно любил Зевес</l>
+          <l>И сыну решил он дать</l>
+          <l>Женой усладу небес.</l>
+          <l>Большие звёзды горят,</l>
+          <l>Земная печаль — как дым,</l>
+          <l>Я знаю, я стал крылат,</l>
+          <l>Мой лук, он стал золотым.</l>
+          <stage>Поднимает свой лук, тот ломается и падает с сухим треском. Актеон смотрит на него с
+            удивлением.</stage>
+        </sp>
+        <sp who="#Krokale">
+          <speaker>Крокале</speaker>
+          <l part="I">Подруги, человек!</l>
+        </sp>
+        <sp who="#Ranis">
+          <speaker>Ранис</speaker>
+          <l part="F">Скорей,</l>
+          <l>Стеною станем вкруг богини</l>
+          <l>И бедной наготой своей</l>
+          <l>Прикроем вечные святыни.</l>
+        </sp>
+        <sp who="#Krokale">
+          <speaker>Крокале</speaker>
+          <l part="I">Дерзкий!</l>
+        </sp>
+        <sp who="#Hiale">
+          <speaker>Хиале</speaker>
+          <l part="F">Я изнемогаю,</l>
+          <l>От стыда горя…</l>
+          <l part="I">Кто это?</l>
+        </sp>
+        <sp who="#Ranis">
+          <speaker>Ранис</speaker>
+          <l part="F">Его я знаю,</l>
+          <l>Кадма сын, царя.</l>
+        </sp>
+        <sp who="#Diana">
+          <speaker>Диана</speaker>
+          <l>Нет, ты ошиблась, Ранис, то не сын благородного Кадма,</l>
+          <l>Смертный не может зреть светлой моей наготы.</l>
+          <stage>(К Актеону)</stage>
+          <l part="I">Будь, чем ты должен быть!</l>
+          <stage>(Актеон откидывается и, когда выпрямляется, видно, что у него голова
+            оленя).</stage>
+          <l part="F">Успокойтесь, смотрите, подруги,</l>
+          <l>Это — добыча стрелы, это — пугливый олень,</l>
+          <stage>(Исчезает вместе с нимфами)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <stage type="delivery">(один, озирается чутко и неловко)</stage>
+          <l>Кажется, здесь были люди.</l>
+          <l>А какая вкусная трава,</l>
+          <l>Какая холодная вода,</l>
+          <l>Мне хочется здесь пастись.</l>
+          <l>Но что я говорю?</l>
+          <l>Я человек, я Актеон…</l>
+          <l>Нет, я олень, только олень,</l>
+          <l>Иль это сонные чары?</l>
+          <stage>Появляются странные существа с собачьими головами. Актеон мечется в ужасе, они
+            набегают на него.</stage>
+        </sp>
+        <sp who="#PervyjPes">
+          <speaker>Первый</speaker>
+          <stage type="delivery">(вкрадчиво и зловеще)</stage>
+          <l>Ты помнишь пламенные губы,</l>
+          <l>Перед тобой они, гляди,</l>
+          <l>Прильни, целуй, кусай их грубо…</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l>О, пощади, о, пощади!</l>
+        </sp>
+        <sp who="#VtorojPes">
+          <speaker>Второй</speaker>
+          <stage type="delivery">(так же)</stage>
+          <l>Ты помнишь грудь, как плод созрелый,</l>
+          <l>Перед тобой она, гляди,</l>
+          <l>Сожми её рукою смелой…</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l>О, пощади, о, пощади!</l>
+        </sp>
+        <sp who="#TretijPes">
+          <speaker>Третий</speaker>
+          <stage type="delivery">(так же)</stage>
+          <l>Ты помнишь ослабевший пояс,</l>
+          <l>Перед тобою он, гляди,</l>
+          <l>Сорви его, не беспокоясь…</l>
+        </sp>
+        <sp who="#Akteon">
+          <speaker>Актеон</speaker>
+          <l>О, пощади, о, пощади!</l>
+        </sp>
+        <sp who="#PervyjPes #VtorojPes #TretijPes">
+          <speaker>Все трое</speaker>
+          <stage type="delivery">(вместе)</stage>
+          <l>Беги, сок жил твоих отравлен,</l>
+          <l>Но ты склоняешься, дрожишь,</l>
+          <l>Ты нашей воле предоставлен</l>
+          <l>И никуда не убежишь.</l>
+        </sp>
+        <stage>Актеон мечется ещё немного, потом падает, остальные разбегаются. Немного погодя
+          входят Эхион и Агава.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#Agava">
+          <speaker>Агава</speaker>
+          <stage type="delivery">(зовёт)</stage>
+          <l>Сыночек, сыночек, иди с нами,</l>
+          <l>В доме тепло, а здесь сыро.</l>
+          <stage>(Замечает лежащего, наклоняется к нему и отшатывается)</stage>
+          <l>А сыночек-то в шерсти и с рогами,</l>
+          <l>Хуже самого последнего сатира.</l>
+        </sp>
+        <stage>Занавес</stage>
+        <p>1913</p>
+      </div>
+    </body>
+  </text>
+</TEI>

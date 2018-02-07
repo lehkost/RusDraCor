@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Вечер в Сорренте</title>
+        <title type="main" xml:lang="en">An Evening in Sorrento</title>
+        <title type="sub" xml:lang="ru">Сцена</title>
+        <title type="sub" xml:lang="en">Scene</title>
+        <author key="Wikidata:Q42831">Тургенев, Иван Сергеевич</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/turgenev-vecher-v-sorrente</idno>
+        <idno type="RusDraCor">2</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Вечер_в_Сорренте_(Тургенев)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Тургенев И. С. Собрание сочинений. В 12-ти томах. – М.: "Художественная
+              литература", 1976–1979. Т. 10</title>
+            <date type="print" when="1888">"Впервые опубликовано в немецком переводе: Ein Abend in
+              Sorrent. Lustspiel in einem Aufzuge von Iwan Turgenjew. Für die deutsche Bühne übers,
+              und bearb. von Eugen Zabel. – Nord und Süd. Eine deutsche Monatsschrift. Hrsg. von
+              Paul Lindau (Breslau), 1888, Bd. 44. Jan., S. 63–75. – В русском оригинале – впервые:
+              Т, Соч, 1891, т. IX, с. 673–698, по рукописи, хранившейся, как свидетельствует письмо
+              А. В. Топорова к М. Г. Савиной от 19 февраля 1885 г., в издательстве И. И. Глазунова,
+              который в 1882 г. приобрел 'право печатания на все, написанное И. С. Тургеневым' (Tu
+              Савина, с. 67)." (rvb.ru)</date>
+            <date type="premiere" when="1884">19 декабря 1884, в квартире министра иностранных дел,
+              статс-секретаря Гирса на рауте в пользу Красного Креста. Для более широкой аудитории
+              «Вечер в Сорренте» впервые был дан на сцене Александринского театра 18 января 1885 г.
+              (rvb.ru)</date>
+            <date type="written" when="1852">"В конце текста – дата: 10 января 1852, С.-Петербург."
+              (rvb.ru)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Avakov" sex="MALE">
+            <persName>Аваков</persName>
+          </person>
+          <person xml:id="Sluga" sex="MALE">
+            <persName>Слуга</persName>
+          </person>
+          <person xml:id="NadezhdaPavlovna" sex="FEMALE">
+            <persName>Надежда Павловна</persName>
+          </person>
+          <person xml:id="Belskij" sex="MALE">
+            <persName>Бельский</persName>
+          </person>
+          <person xml:id="MarijaPetrovna" sex="FEMALE">
+            <persName>Мария Петровна</persName>
+          </person>
+          <person xml:id="MrPopelin" sex="MALE">
+            <persName>M-r Рореlin</persName>
+          </person>
+          <person xml:id="GolosPevtsa" sex="MALE">
+            <persName>Голос певца</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Сцена</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#MatveyKolbasov" when="2017-06-22">Converted from Source</change>
+        <change who="#ff" when="2017-06-22">formalities</change>
+        <change who="#ff" when="2017-07-23">segmentation into different situations</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Вечер в Сорренте</titlePart>
+        <titlePart type="sub">Сцена</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА:</head>
+        <castItem>Надежда Павловна Елецкая, вдова, 30 лет.</castItem>
+        <castItem>Мария Петровна Елецкая, ее племянница, 18 лет.</castItem>
+        <castItem>Алексей Николаевич Бельский, 28 лет.</castItem>
+        <castItem>Сергей Платонович Аваков, 45 лет.</castItem>
+        <castItem>Слуга, итальянец.</castItem>
+        <castItem>M-r Рореlin, французский художник.</castItem>
+        <castItem>Певец-импровизатор.</castItem>
+      </castList>
+      <set>
+        <p>Действие происходит в Сорренте, в гостинице, на берегу моря.</p>
+      </set>
+    </front>
+    <body>
+      <div type="configuration">
+        <stage type="delivery">(Театр представляет довольно большую комнату, убранную — как
+          обыкновенно бывают убраны комнаты в гостиницах; — прямо: одна дверь в переднюю, другая в
+          кабинет, — налево два окна — направо дверь в сад. — На диване по середине комнаты сидит
+          Аваков и спит, прислонясь к спинке, — голова его накрыта платком.)</stage>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(шевелится и издает неясные звуки, — наконец он восклицает
+              сонливым голосом)</stage>. Федька!.. Федька!.. Федюшка! <stage type="delivery">(Он
+              вздрагивает, снимает с себя платок и с изумленьем оглядывается.)</stage> — Да где ж
+            это я?.. <stage type="delivery">(Оглядывается опять и, помолчав, с досадой махает
+              рукой.)</stage> В Италии? <stage type="delivery">(Помолчав опять.)</stage> А какой я
+            было славный сон видел! — право. — Будто Я этак сижу у себя в Покровском под окном,
+            гляжу — а на дворе всё утки ходят, и у каждой на затылке хохол. Филипп кучер телегу
+            подмазывает — а Федька мне трубки не несет. — Удивительный, приятный сон! — <stage type="delivery">(Вздохнув.)</stage> Эх-эх!.. Когда-то господь бог приведет увидеть все
+            это опять. — <stage type="delivery">(Встает.)</stage> Устал я, признаться сказать, устал
+            таскаться по трактирам, старые кости мыкать… Ведь третий год… Вот уж точно можно
+            сказать, седина в голову, а бес в ребро… <stage type="delivery">(Помолчав.)</stage> А
+            они, должно быть, ушли. — <stage type="delivery">(Подходит к двери в сад.)</stage> В
+            саду их нет… <stage type="delivery">(Подходит к двери в кабинет и стучится.)</stage>
+            Надежда Павловна… Надежда Павловна… Вы здесь? — Нету. — Должно быть ушли. — Я тут
+            вздремнул после обеда, — а они взяли да ушли… Гм! Ушли… Уж этот мне Алексей Николаич —
+            это все его штуки… Я знаю… И кто его принес к нам… <stage type="delivery">(С волнением
+              дергает за снурок колокольчика.)</stage> Очень было нужно… <stage type="delivery">(Дергает опять.)</stage> Как будто без него мало их… Да что ж это никто не идет?
+              <stage type="delivery">(Дергает три раза сряду. Из передней выскакивает
+              слуга-итальянец в курточке и с салфеткой подмышкой)</stage>.</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Sluga">
+          <speaker>Слуга</speaker>
+          <p>
+            <stage type="delivery">(наклоняясь вперед всем телом)</stage>. 'Celenza comanda?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(глядя на него сбоку)</stage>. Эка зубы скалит! — странное дело!
+            все эти слуги в гостиницах друг на друга похожи — в Париже, в Германии, здесь, везде…
+            Точно одно племя… <stage type="delivery">(К слуге.)</stage> Пуркуа — не вене ву па
+            тудсюит? <stage type="delivery">(Аваков не совсем чисто говорит
+            по-французски.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Sluga">
+          <speaker>Слуга</speaker>
+          <p>
+            <stage type="delivery">(улыбаясь и вертя салфеткой)</stage>. 'Celenza, jé… moua…
+            héhé…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>У э…у сон се дам?</p>
+        </sp>
+        <sp who="#Sluga">
+          <speaker>Слуга.</speaker>
+          <p>Soun sourti… per passeggiare… pour proumene… Madama la Countessa, aveco la Signorina e
+            aveco Moussu lou Counte — l'otro Counte Rousso…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Се биень — се биень… Аллé.</p>
+        </sp>
+        <sp who="#Sluga">
+          <speaker>Слуга.</speaker>
+          <p>Si signore. <stage type="delivery">(Выскакивает вон.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Боже! как эти мне физиономии опротивели!.. <stage type="delivery">(Ходит по
+              комнате.)</stage> Пошли гулять… Гм… Морем, небось, любоваться пошли. Воображаю себе,
+            как этот господинчик теперь рассыпается… А она; я ее знаю, она рада… Это ее страсть! И
+            что она в нем нашла не понимаю… решительно пустой человек. И притом вовсе не
+            занимательный человек. <stage type="delivery">(Опять ходит по комнате.)</stage> Господи
+            боже мой! когда-то это она успокоится, когда-то ей наскучат, наконец, все эти новые
+            лица…</p>
+        </sp>
+        <stage type="delivery">(Дверь из передней наполовину отворяется, и выказывается M-r Рореlin
+          — на нем курточка с большими клетками, галстучек a l'enfant.Детский. <stage type="delivery">(франц.)</stage> — Он в бороде и длинных волосах.)</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#MrPopelin">
+          <speaker>M-r Рореlin.</speaker>
+          <p>Pardon, Monsieur...</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(оглядываясь)</stage>. Это кто еще?</p>
+        </sp>
+        <sp who="#MrPopelin">
+          <speaker>M-r Рореlin</speaker>
+          <p>
+            <stage type="delivery">(все еще не входя)</stage>. Pardon, c'est ici que demeure Madame
+            la comtesse de Geletska?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Вуй — кеске ву вулe?</p>
+        </sp>
+        <sp who="#MrPopelin">
+          <speaker>M-r Рореlin</speaker>
+          <p>
+            <stage type="delivery">(входит. У него небольшой портфель подмышкой)</stage>. Et…
+            pardon… Madame est-elle a la maison?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(все не двигаясь с места)</stage>. Нон. Кеске ву вулe?</p>
+        </sp>
+        <sp who="#MrPopelin">
+          <speaker>M-r Рореlin.</speaker>
+          <p>Ah! que c'est dommage! — Pardon, Monsieur, vous ne savez pas — reviendra-t-elle
+            bientot?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Нон-нон… Кескe ву вулe?</p>
+        </sp>
+        <sp who="#MrPopelin">
+          <speaker>M-r Рореlin</speaker>
+          <p>
+            <stage type="delivery">(поглядев на него с некоторым изумленьем)</stage>. Pardon,
+            Monsieur… C'est a Monsieur le comte que j'ai l'honneur de parler?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Нон, мосье, нон.</p>
+        </sp>
+        <sp who="#MrPopelin">
+          <speaker>M-r Рореlin.</speaker>
+          <p>Ah! <stage type="delivery">(С некоторым достоинством.)</stage> Et bien, Monsieur, vous
+            aurez la complaisance de dire a Madame que M-r Popelin, artiste peintre, est venu la
+            voir — d'aprés sa propre. invitation et qu'il regrette beaucoup… <stage type="delivery">(Видя, что Аваков делает нетерпеливые движения.)</stage> Monsieur, j'ai l'honneur de
+            vous saluer. <stage type="delivery">(Надевает шляпу и уходит.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Адьё монсьё. — <stage type="delivery">(Глядит ему вслед и восклицает.)</stage> Еще
+            один! чорт бы побрал всех этих художников, музыкантов, пьянистов и живописцев! — Откуда
+            их только набирается такая пропасть? и как это они сейчас нас пронюхают… Глядишь! уж и
+            познакомились, уж и вертятся тут, ухаживают. И чем все это кончится! известно чем.
+            Поднесут какую-нибудь дрянную акварель или статуэтку — а им по знакомству и плати
+            втридорога. — И сколько это мы с собой этого хламу возим!.. Это ужасно. — А ведь сначала
+            послушай-ка их… Всё так свысока… художники, дескать… бескорыстие. Голодный народец,
+            известно. Эх! <stage type="delivery">(Вздыхая.)</stage> Как это мне все надоело… Ах, как
+            это мне все надоело. —<stage type="delivery">(Ходит по комнате.)</stage> А они не идут.
+            — Гм! — знать, прогулка по сердцу пришлась. Вот уже и вечер на дворе. <stage type="delivery">(Помолчав.)</stage> Да пойду-ка я им навстречу… в самом деле. — <stage type="delivery">(Берет шляпу и идет к передней.)</stage> А, да вот и они наконец!
+              <stage type="delivery">(Из передней входят Надежда Павловна, Мария Петровна и
+              Бельский. Лицо Надежды Павловны выражает некоторое неудовольствие.)</stage> Насилу-то
+            изволили вернуться! — Зачем же это вы без меня гулять пошли?</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(подходит к зеркалу направо и снимает шляпу)</stage>. А вы разве
+            давно проснулись?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Давно.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Что ж — выспались?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да я и не спал вовсе… Так только…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(перебивая его)</stage>. Ну, знаем, знаем… вздремнули…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Хе… хе… А что, приятная была прогулка?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(сухо)</stage>. Да. — Никого без меня не было?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Никого… то есть виноват — приходил какой-то живописец.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(быстро)</stage>. М-г Popelin?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да, кажется, он.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Что ж вы ему сказали?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да ничего. Он вас спрашивал и велел вам сказать, что был…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Я, право, не знал…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Зачем же вы его не попросили подождать?</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(с досадой)</stage>. Ах, вы всегда такой! — <stage type="delivery">(Обращаясь к Бельскому, который с самого своего прихода отошел к окну
+              налево вместе с Марией Петровной и разговаривал с ней.)</stage> Бельский… Бельский, да
+            полноте вам любезничать с Машей.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Что вам угодно, Надежда Павловна?..</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Что мне угодно… <stage type="delivery">(Помолчав.)</stage> Вот что мне угодно: здесь
+            сейчас был M-r Popelin, живописец, вы знаете; тот, с которым я третьего дня
+            познакомилась — он еще мне показывал виды Везувия… Я его сама пригласила — он пришел, а
+            этот вот господин <stage type="delivery">(указывая на Авакова)</stage> не умел, его
+            удержать.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Так что ж вы прикажете?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Как вы недогадливы стали с некоторых пор. — Извольте сейчас итти, сыщите мне его,
+            приведите его сюда — слышите? Непременно приведите его сейчас.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Да я его адреса не знаю.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Узнайте его адрес — спросите здесь, в гостинице — где хотите. — Да ступайте же, мне он
+            нужен — говорят вам. Ступайте.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Слушаю-с. — Иду отыскивать г-на живописца с
+            видами Везувия. — Должно быть, они вам очень понравились… <stage type="delivery">(Взглянув на нее.)</stage> Иду, иду. <stage type="delivery">(Уходит.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(садится на диван и нетерпеливо стучит ногой по полу. Аваков с
+              замешательством улыбается. Наконец она восклицает)</stage>. Маша!</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Ма tante?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ма tante…ma tante… Что это ты меня все тетушкой величаешь? — Как будто уж я такая,
+            старуха.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Да как же мне, тетушка, вас называть иначе?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Ты напрасно стоишь у окна; ты можешь
+            простудиться.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Помилуйте, на дворе так тепло?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Я не знаю… мне кажется, здесь дует… Сергей Платоныч, ведь дует?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(вздрагивает и играет пальцами обеих рук на воздухе)</stage>.
+            Дует — дует. Надежда Павловна <stage type="delivery">(Марии Петровне)</stage>. Ты, мне
+            кажется, слишком легко одета… Маша… Ты бы лучше надела другое платье.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Вы думаете, тетушка?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Да, думаю, моя племянница.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Извольте — я сейчас надену другое. <stage type="delivery">(Стоит некоторое время
+              неподвижно, со смехом подбегает к Надежде Павловне и целует ее.)</stage>
+                    </p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(смеясь)</stage>. Ну, хорошо, лиса, хорошо, ступай… <stage type="delivery">(Мария Петровна выбегает в дверь кабинета. Аваков тоже смеется и
+              потирает руки. Надежда Павловна взглядывает на него и принимает серьезный вид. Аваков
+              слегка конфузится. Небольшое молчанье.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Вы… вы, кажется, сегодня не в духе, Надежда Павловна?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Кто вам это сказал? — Напротив. Ваши замечанья всегда ужасно невпопад, Сергей Платоныч.
+            Вам все такое кажется, чего совсем нету. <stage type="delivery">(С улыбкой.)</stage> Ну,
+            например, ну, скажите правду, разве дует здесь?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(глядя на нее)</stage>. А… А вам как угодно?.. чтобы не дуло?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ну вот видите.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Да если б я знал, что вам так хочется видеть
+            этого французика… Если б вы мне по крайней мере сказали наперед…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Опять вы невпопад. — Мне нисколько не хочется видеть этого француза… Мне он совершенно
+            не нужен.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(с недоуменьем)</stage>. Однако вы послали за ним Бельского…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Я послала за ним Бельского… потому что…
+            потому что он мне надоел… Мне надоело его видеть.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Кого? Бельского?</p>
+        </sp>
+        <stage type="delivery">(Надежда Павловна утвердительно качает головой.)</stage>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Не может быть!</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Как не может быть?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да ей-богу же не может быть. Помилуйте, Надежда Павловна, сегодня за столом, вспомните
+            — как вы с ним были ласковы? Да не только сегодня — все это время — и в Риме, и на
+            дороге в Неаполь — и здесь…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Во-первых, это неправда.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Как неправда?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>А во-вторых, что ж! Мне хотелось вас помучить.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Полноте, Надежда Павловна — меня, старика, вы и без того умеете мучить.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Вы жалуетесь?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>О, нисколько — нисколько! Я только хотел сказать, что… это все не то… что под этим
+            что-то другое скрывается.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Что такое — позвольте узнать?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Он вас чем-нибудь рассердил сегодня.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Позвольте узнать, чем мог он рассердить меня? — Что такое для меня М-r Бельский?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(в раздумьи)</stage>. С другой стороны… точно… он так за вами
+            ухаживает.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Вот то-то и есть, мой милый Сергей Платоныч, вы хотя и беспрестанно за нами
+            подсматриваете — а ничего не видите… Он и не думает за мной ухаживать.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Как?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Поглядели бы вы на него во время нашей прогулки!</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>А что?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ах, боже мой! — да неужель же вы давно не заметили, что он волочится за Машей?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Бельский?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ну да.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(внезапно)</stage>. Это хитрость!</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Как?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Хитрость, Надежда Павловна, хитрость — и больше ничего. Помилуйте, Надежда Павловна, да
+            ведь это ясно, как дважды два четыре… Хитрость, поверьте мне, старая |штука. Он хочет в
+            вас возбудить ревность. — Помилуйте, да это очевидно…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Что вы говорите, Сергей Платоныч?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Очевидно, Надежда Павловна, помилуйте. Верьте мне, ведь я ваш старинный друг, ведь уж,
+            кажется, нам с вами не знакомиться стать, ведь я преданный вам человек — хитрость,
+            Надежда Павловна, хитрость. Ну, возможно ли предпочесть вам кого-нибудь на свете? Ну,
+            поверю я этому — полноте.</p>
+        </sp>
+        <stage type="delivery">(Надежда Павловна молчит и потупляет глаза.)</stage>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(помолчав, не без робости)</stage>. О чем вы думаете, Надежда
+            Павловна?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. О чем… Я думаю, что точно имею в вас доброго
+            и верного друга… <stage type="delivery">(Протягивает ему руку.)</stage> Аваков <stage type="delivery">(с восхищением целуя ее руку)</stage>. Помилуйте, Надежда Павловна…
+            еще бы!</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(встает)</stage>. А г-н Бельский, поверьте, мне все равно,
+            волочится ли он за Машей или нет, и с какой целью он за ней волочится, мне это
+            совершенно все равно.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да уж я вам могу поверить…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(перебивая его)</stage>. Ну полно — бог с ним… Бог с ним совсем…
+            Мы и без него обойдемся — не правда ли?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Как вы добры! <stage type="delivery">(Помолчав.)</stage> А все-таки грешно вам, Надежда
+            Павловна.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Что такое?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Зачем вы не велели меня разбудить? Зачем пошли гулять без меня?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Да ведь я знаю, Сергей Платоныч, вы до всех этих прогулок не охотник. Помните, в Риме,
+            в катакомбах — как вы ко мне приставали — что, дескать, если с этим монахом, с
+            проводником — удар случится — ну, как мы отсюда выйдем?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Что же? и точно…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Трус!</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да ведь это я все-таки для вас боялся. А впрочем, прогулка прогулке рознь. Ну, в
+            хорошую погоду отчего не пройтись этак возле моря… Оно точно приятно. Но, например, вот
+            на-днях мы ездили смотреть какие-то подземные ванны… Ну, что тут хорошего? Темнота,
+            грязь. Сидишь на спине какого-то дурака, а он еще смеется над тобой, что ты тяжел. Мне
+            говорят — в этих ваннах консулы купались, — да какое мне дело до этих консулов,
+            позвольте спросить?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Небось, русские бани лучше?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да полноте, Надежда Павловна, полноте, захочется и вам, наконец, домой-то вернуться.
+            Погодите — еще надоест вам разъезжать с конца в конец по Европе. Прискучат вам все эти
+            ваши синьоры, да мейнгеры, да французики… с своими курточками, бородками, ужимочками.
+              <stage type="delivery">(Передразнивает их.)</stage>
+                    </p>
+        </sp>
+        <stage type="delivery">(Надежда Павловна смеется.)</stage>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Я одному удивляюсь, Надежда Павловна… Как вы, с вашим умом, даете себя в обман. Ведь вы
+            посмотрите на них — ведь у них так в глазах и написано, что вы, мол, варвары — и если б
+            не ваши деньги…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ну, уж извините, Сергей Платоныч, я не думаю, чтобы со мной знакомились из-за моих
+            денег…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>А то еще хуже… Какой-нибудь этакий фигурантик подходит к вам таким завоевателем — ему
+            бы за неслыханное счастье надо почитать, что вы его пускаете к себе, — а он куда! он
+            завоеватель! он рисуется, — говорит с вами и палец за жилет закладывает — а? — палец? —
+            Каково? Еще иной не умеет… не попадает… за жилет-то… <stage type="delivery">(Опять
+              передразнивает его.)</stage>
+                    </p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(смеясь)</stage>. Ну, полноте, Сергей Платоныч, не горячитесь;
+            поверьте, я не хуже вас знаю цену этим господам.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да… знаете… А между тем, небось, что они меж собой говорят: что, мол, мои шер, чем ты
+            теперь занимаешься, мон шер? — Да ничем, мон шер; в меня одна русская княгиня влюбилась,
+            а сам этак ножкой постукивает да цепочкой по пустому-то по желудку играет, — юн пренсесс
+            рюсс, мон шер, так я вот с ней от скуки, знаешь, мон шер…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(с некоторой досадой)</stage>. Сергей Платоныч, вы мне напрасно
+            все это говорите… поверьте… у меня теперь совсем другие мысли в голове.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(помолчав и вздохнув)</stage>. Да… я согласен, у вас точно…
+            теперь… другие мысли…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(смеясь)</stage>. Ну, полноте, не вздыхайте. Так вам жаль, что мы
+            вас с собой не взяли сегодня?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Еще бы!</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ну, пойдемте, пройдемся по саду. Хотите?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>С удовольствием, с удовольствием! <stage type="delivery">(Ищет шляпу.)</stage>
+                    </p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Постойте, я, кажется, слышу шаги Бельского…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да на что ж он вам нужен?..</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage type="delivery">(Из передней входит Бельский.)</stage>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Уф!.. Вот бежал-то… <stage type="delivery">(К Надежде Павловне.)</stage> Надежда
+            Павловна, ваш живописец уехал! </p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Какой живописец?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Как какой? M-r Popelin, тот самый, за которым вы меня посылали. Он уехал в Неаполь,
+            полчаса тому назад.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(глядя на него)</stage>. Ах как вы запыхались, Алексей
+            Николаевич… <stage type="delivery">(Смеется.)</stage> Ах, как вы смешны!</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Я?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Да, вы… ха-ха-ха… Не правда ли, как он смешон, Сергей Платоныч.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да, да. Ха-ха… Ха-ха.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(Авакову)</stage>. Ну, пойдемте, пойдемте. </p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Куда это вы идете?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Иду гулять с ним в сад.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>А я?..</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>А вы здесь останетесь… Да, что это так темно здесь? <stage type="delivery">(Звонит.
+              Входит слуга.)</stage> Apportez des lumieres. <stage type="delivery">(Слуга
+              выходит.)</stage> Вы можете, если хотите, читать? Впрочем, я вас оставляю в обществе
+            Маши. Вы, кажется, еще не наговорились с ней… Или, может быть, вы опять пойдете
+            отыскивать M-r Popelin? <stage type="delivery">(Бельский глядит на нее с
+              изумлением.)</stage> Ах, не глядите так на меня, вы так смешны… Пойдемте, Сергей
+            Платоныч… <stage type="delivery">(Взглядывает на Бельского.)</stage> Ха-ха-ха!</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Ха-ха-ха! В самом деле. <stage type="delivery">(Оба уходят в сад. Слуга вносит свечи и
+              ставит их на стол подле окна. Бельский стоит неподвижно и вдруг поднимает одну руку.
+              Слуга воображает, что он зовет его, подбегает и говорит: «'Celenza?», но, видя, что
+              Бельский не обращает на него внимания, кланяется его спине и уходит.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Что это значит? Гм. — Не понимаю. Какая-нибудь фантазия… <stage type="delivery">(Ходит
+              взад и вперед по комнате.)</stage> А должно сознаться, удивительная она женщина! Умна,
+            насмешлива, мила… Да, но теперь мне не до того. Точно, три месяца тому назад, когда я ее
+            встретил в Риме, она мне вскружила голову, и до сих пор еще я не могу сказать, чтобы я
+            был совершенно спокоен в ее присутствии… но в сердце у меня… теперь… Ах, я слишком
+            хорошо знаю, что у меня в сердце!.. Она мне сейчас сказала, что оставляет меня в
+            обществе Марьи Петровны… Да где же Марья Петровна… <stage type="delivery">(Помолчав.)</stage> Читать мне советовала… Читать! — В такую ночь — и после
+            сегодняшнего разговора… <stage type="delivery">(Подходит к окну.)</stage> Боже! какая
+            великолепная ночь!</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage type="delivery">(Из кабинета выходит Мария Петровна. — Она некоторое время глядит на
+          Бельского и идет на середину комнаты.)</stage>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(оглядываясь)</stage>. Ах, это вы, Мария Петровна, где вы
+            были?</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(указывая на кабинет)</stage>. Здесь… Мне тетенька велела надеть
+            другое платье…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(оглядывая ее)</stage>. Однако я не вижу, чтобы вы…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Да тетенька мне это только так сказала… Ей хотелось поговорить наедине с Сергеем
+            Платонычем… Где она?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Она пошла с ним в сад… </p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>А вы что ж не пошли с ними?..</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Я? — Я предпочел остаться.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>В самом деле? <stage type="delivery">(Садится.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>То есть — по правде сказать — она сама мне велела остаться…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>А! Теперь я не удивляюсь… Бедный Алексей Николаич!.. Мне жаль вас.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(подходя к ней и садясь подле нее)</stage>. Будто? Не думаете ли
+            вы, что я завидую Сергею Платонычу?</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>А разве нет?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Марья Петровна — и вы, я вижу, уже умеете притворяться…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Я вас не понимаю… Но, не правда ли, какой Сергей Платоныч прекрасный человек!</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Да.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Как он предан тетеньке!</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Да. — Оттого-то ей и грешно его мучить. — Ваша тетушка премилая женщина, но ужасная
+            кокетка.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(посмотрев на него)</stage>. А ведь, воля ваша, вам досадно, что
+            вас не взяли в сад.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Опять!</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>По крайней мере вы прежде так об тетушке никогда не отзывались.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Прежде! Еще бы! — Я очень хорошо знаю, что когда я познакомился с вами — помните — это
+            было в самый первый день карнавала — я вас увидел на балконе в Корсо — я знаю, какое она
+            тогда произвела впечатление на меня…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Да… помню, как вы с улицы поднесли ей вдруг на машинке букет и как она сперва
+            испугалась, потом засмеялась и взяла ваши цветы…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Помните, возле нее стоял этот долговязый джентльмен, сынок какого-то лорда, — он еще
+            так на меня потом дулся и ревновал и с достоинством бормотал в нос точно тетерев…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Как же… как же…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Но ведь это всё три месяца тому назад происходило…а с тех пор… с тех пор я узнал другое
+            чувство — я понял, что все очарования женского кокетства ничто перед стыдливой прелестью
+            молодости…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(с смущеньем)</stage>. Что вы хотите сказать?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(тоже с смущеньем)</stage>. Я?.. Так… Ничего. <stage type="delivery">(Помолчав.)</stage> Что вы читали сегодня, Марья Петровна?</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Я? Шиллера, Алексей Николаич.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Позвольте узнать, что именно?</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Иоанну д'Арк.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>А! хорошее сочинение… <stage type="delivery">(В сторону.)</stage> Как я глуп, боже мой!
+              <stage type="delivery">(Встает и идет к окну.)</stage>
+                    </p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(помолчав)</stage>. Что вы там смотрите, Алексей Николаич?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Я смотрю на небо, на звезды, на море… слышите вы его мерные, протяжные всплески? Мария
+            Петровна, — неужели эта тишина, этот воздух, этот лунный свет — неужели вся эта дивная
+            ночь ничего не говорит вам…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(вставая)</stage>. А вам, Алексей Николаич, что она
+            говорит?..</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(с смущеньем)</stage>. Мне?.. Она… Она мне говорит множество
+            хороших вещей…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(с улыбкой)</stage>. А! Какие же, например?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(в сторону)</stage>. Это, наконец, невыносимо… Я должен казаться
+            ей смешным… Боже мой! боже мой! сердце во мне так бьется — я хочу высказаться —
+            высказаться наконец — и не могу… Если б хоть что-нибудь — теперь, в эту минуту… <stage type="delivery">(За окном раздается аккорд гитары.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Что это?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(протягивая к ней руку, с волнением)</stage>. Не знаю, погодите,
+            должно быть импровизатор…</p>
+        </sp>
+        <stage type="delivery">(Певец поет серенаду под окном. — Во все время пенья оба, Бельский и
+          Мария Петровна, стоят неподвижно. По окончании первого куплета Бельский бросается к окну и
+          кричит: браво, браво…)</stage>
+        <sp who="#GolosPevtsa">
+          <speaker>Голос певца.</speaker>
+          <p>Qualche eosa рег il musico, signore…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(подходя к Бельскому)</stage>. Бросьте ему что-нибудь.</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Постойте он так не увидит… <stage type="delivery">(Достает из кармана монету, проворно
+              обвертывает ее бумажкой, зажигает ее у свечи и бросает за окно.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GolosPevtsa">
+          <speaker>Голос певца.</speaker>
+          <p>Grazie, mille grazie…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(которая тоже обернула монету: в бумажку)</stage>. Вот дайте ему
+            еще…</p>
+        </sp>
+        <stage type="delivery">(Бельский зажигает ее и бросает.)</stage>
+        <sp who="#GolosPevtsa">
+          <speaker>Голос певца.</speaker>
+          <p>Grazie, grazie… <stage type="delivery">(Он поет второй куплет. Бельский и Мария
+              Петровна стоят у окна и слушают. Когда он кончает, Бельский кричит: браво! бросает ему
+              еще монету. Мария Петровна хочет отойти, но он схватывает ее за руку.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Постойте, Мария Петровна, постойте… До сих пор мы наградили в нем ремесленника, но я
+            хочу теперь благодарить художника… <stage type="delivery">(Быстро берет свечу со
+              стола.)</stage> Подойдите, я освещу вас… <stage type="delivery">(Мария Петровна слегка
+              противится, но подходит к окну.)</stage>
+                    </p>
+        </sp>
+        <sp who="#GolosPevtsa">
+          <speaker>Голос певца.</speaker>
+          <p>Ah, que bella ragazza!</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(краснея отходит от окна)</stage>. Полноте…</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(ставя свечу на стол)</stage>. Нет, решительно я не могу молчать
+            долее… Эта неожиданная песнь, этот сладкий итальянский голос — и именно теперь, в эту
+            ночь, когда уж и так я готов был сказать вам, что у меня на сердце, — нет, нет, я не
+            могу, я не хочу молчать.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(с волненьем)</stage>. Алексей Николаич…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Я знаю, что все это безумно, что вы будете негодовать на меня — но так и быть, я не в
+            силах более притворяться… — Мария Петровна, я люблю вас, люблю вас страстно…</p>
+        </sp>
+        <stage type="delivery">(Мария Петровна молчит и потупляет глаза.)</stage>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Да — я люблю вас — вы давно могли это заметить. И теперь — если… если вы не согласитесь
+            быть моей женой — мне остается одно: уехать отсюда как можно скорей и как можно дальше…
+            Я знаю, что я своей поспешностью, может быть, все испортил, но виноват не я? этот певец
+            виноват… <stage type="delivery">(Взглянув на Марию Петровну.)</stage> Мария Петровна,
+            скажите, уехать мне или остаться — сердиться мне на этого певца или вечно благодарить
+            его…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Я, право, не знаю…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Скажите, скажите…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Мне кажется… на этого певца трудно сердиться…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(схватывая ее за руку)</stage>. Неужели?.. Боже мой! неужели я
+            могу…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Но я… но что скажет тетушка…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Что она скажет? Она согласится… Да вот она кстати и идет… Вы увидите… Я уверен, она
+            согласится…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Бельский! что вы делаете…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Ничего, ничего… вы увидите… <stage type="delivery">(Мария Петровна старается его
+              удержать. Из двери сада входят Надежда Павловна и Аваков.)</stage>
+                    </p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>И вы так рано возвращаетесь, Надежда Павловна…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Да нельзя же… Сергей Платоныч… Чтоб они там… вдвоем…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский</speaker>
+          <p>
+            <stage type="delivery">(бросаясь к Надежде Павловне)</stage>. Надежда Павловна…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(вздрагивает)</stage>. Что с вами — вы меня испугали… <stage type="delivery">(Аваков с изумленьем глядит на него.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Надежда Павловна — я в большом волненьи… но вы не обращайте на это вниманья… Я, видите
+            ли, я не могу более скрыть… я… я решаюсь просить у вас руки?..</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Боже! Все кончено… <stage type="delivery">(Падает на кресла.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Руки вашей племянницы, Марии Петровны…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(с изумленьем)</stage>. Моей племянницы?..</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Как? Что?.. <stage type="delivery">(Вскакивает.)</stage> Вы просите руки Марии
+            Петровны?.. Согласен, согласен и разрешаю… Дети, дайте сюда ваши руки. <stage type="delivery">(Насильно берет руку Маши и соединяет ее с рукою Бельского.)</stage>
+            Благословляю вас, друзья мои, живите долго, в ладу и согласии, и имейте как можно больше
+            детей!..</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Да, постойте, постойте, Сергей Платоныч, вы с ума сошли… Что это такое? Я ничего не
+            понимаю… Вы, Алексей Николаич, просите у меня руки Маши, вы?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Я.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>А она… что ж?</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Она не противится.</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Маша? ты молчишь?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да помилуйте, Надежда Павловна, что ж ей говорить? Неужели ж вы думаете, что все это
+            без ее согласия делалось?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна</speaker>
+          <p>
+            <stage type="delivery">(Авакову)</stage>. Во всяком случае, оно сделалось по вашей
+            милости. — <stage type="delivery">(К Бельскому.)</stage> Хотя ваше предложение,
+            признаюсь, меня очень удивляет — оно так неожиданно, — но я не желаю препятствовать
+            счастью моей племянницы, если только вы можете составить ее счастье…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Стало быть, вы согласны? <stage type="delivery">(Целует ее руку.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да, конечно, согласна… Ура! — Марья Петровна — подойдите же и вы…</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна</speaker>
+          <p>
+            <stage type="delivery">(подходя к Надежде Павловне)</stage>. Chere tante?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Хорошо, хорошо. <stage type="delivery">(Треплет ее по щеке.)</stage> Vous etes fine, та
+            niece… <stage type="delivery">(Обращаясь к Авакову.)</stage> А не правда ли, Сергей
+            Платоныч, как ваши догадки были верны… и безошибочны…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Эх, Надежда Павловна, я за свои догадки не стою — и ошибаться мне тоже случается, как и
+            всякому смертному, а вот за одно я отвечаю — за мою неизменную и вечную преданность к
+            вам… Надежда Павловна, что бы… право?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Что такое?</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>По примеру этих молодых людей…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Молодых людей! Говорите про себя, Сергей Платоныч, а я не нахожу себя старой…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да вы меня понимаете… Право. — И поехали бы мы к себе, домой… Надежда Павловна?.. И как
+            бы там зажили!</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Я вам не говорю… нет, но мы сперва в Париж заедем.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков</speaker>
+          <p>
+            <stage type="delivery">(чешет себя за ухо)</stage>. Да разве Париж… на дороге… в
+            Саратов?</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Нет, уж это как хотите. Мы непременно едем в Париж… молодые люди там женятся…</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Мы все там женимся… А там и домой…</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ну, это мы увидим… <stage type="delivery">(Помолчав.)</stage> Но не забуду я этого
+            вечера в Сорренте…</p>
+        </sp>
+        <sp who="#Belskij">
+          <speaker>Бельский.</speaker>
+          <p>Ни я.</p>
+        </sp>
+        <sp who="#MarijaPetrovna">
+          <speaker>Мария Петровна.</speaker>
+          <p>Ни я.</p>
+        </sp>
+        <sp who="#Avakov">
+          <speaker>Аваков.</speaker>
+          <p>Да никто его не забудет!</p>
+        </sp>
+        <sp who="#NadezhdaPavlovna">
+          <speaker>Надежда Павловна.</speaker>
+          <p>Ну, погодите, Сергей Платоныч, не отвечайте за других.</p>
+        </sp>
+        <stage>Занавес падает.</stage>
+        <stage>10-го января 1852 г. С.-Петербург</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

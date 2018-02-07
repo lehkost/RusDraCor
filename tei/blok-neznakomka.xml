@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Незнакомка</title>
+        <title type="main" xml:lang="en">The Unknown Woman</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q164765">Блок, Александр Александрович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/blok-neznakomka</idno>
+        <idno type="RusDraCor">74</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Незнакомка_(драма,_Блок)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1907">"Впервые — в журнале «Весы», 1907, № 5, с. 21—28 с
+              подзаголовком «Пьеса в трёх видениях»." (Wikisource)</date>
+            <date type="premiere" when="1913">"Начало февраля [1913 г.] – Постановка драмы
+              «Незнакомка» в Московском литературно-художественном кружке (студия С. В. Халютиной)."
+              (blok.velchel.ru)</date>
+            <date type="written" when="1906">"Блок закончил драму 11 ноября 1906 г."
+              (gumilev.ru)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Odin" sex="MALE">
+            <persName>Один</persName>
+            <persName xml:lang="de">Erster</persName>
+          </person>
+          <person xml:id="Drugoj" sex="MALE">
+            <persName>Другой</persName>
+            <persName xml:lang="de">Zweiter</persName>
+          </person>
+          <person xml:id="TretijUsatyj" sex="MALE">
+            <persName>Третий усатый</persName>
+            <persName xml:lang="de">Dritter (mit Schnauzbart)</persName>
+          </person>
+          <person xml:id="Hozjain" sex="MALE">
+            <persName>Хозяин дома</persName>
+            <persName xml:lang="de">Wirt</persName>
+          </person>
+          <person xml:id="Seminarist" sex="MALE">
+            <persName>Семинарист</persName>
+            <persName xml:lang="de">Seminarist</persName>
+          </person>
+          <person xml:id="PervyjSobutylnik" sex="MALE">
+            <persName>Первый Собутыльник</persName>
+            <persName xml:lang="de">Erster Zechkumpan</persName>
+          </person>
+          <person xml:id="VtorojSobutylnik" sex="MALE">
+            <persName>Второй собутыльник</persName>
+            <persName xml:lang="de">Zweiter Zechkumpan</persName>
+          </person>
+          <person xml:id="Verlen" sex="MALE">
+            <persName>Верлэн</persName>
+            <persName xml:lang="de">Verlaine</persName>
+          </person>
+          <person xml:id="Devushka" sex="FEMALE">
+            <persName>Девушка, Дама</persName>
+            <persName xml:lang="de">Mädchen, Dame</persName>
+          </person>
+          <person xml:id="Muzhchina" sex="MALE">
+            <persName>Мужчина, Рыжий господин</persName>
+            <persName xml:lang="de">Mann, Rothaariger Herr</persName>
+          </person>
+          <person xml:id="MolodojChelovek" sex="MALE">
+            <persName>Молодой человек</persName>
+            <persName xml:lang="de">Junger Mann</persName>
+          </person>
+          <person xml:id="Gauptman" sex="MALE">
+            <persName>Гауптман</persName>
+            <persName xml:lang="de">Hauptmann</persName>
+          </person>
+          <person xml:id="Poet" sex="MALE">
+            <persName>Поэт</persName>
+            <persName xml:lang="de">Dichter</persName>
+          </person>
+          <person xml:id="Polovoj" sex="MALE">
+            <persName>Половой</persName>
+            <persName xml:lang="de">Kellner</persName>
+          </person>
+          <person xml:id="ChelovekVPalto" sex="MALE">
+            <persName>Человек в пальто</persName>
+            <persName xml:lang="de">Mann im Mantel</persName>
+          </person>
+          <person xml:id="Pervyj" sex="MALE">
+            <persName>Первый</persName>
+            <persName xml:lang="de">Erster</persName>
+          </person>
+          <person xml:id="Vtoroj" sex="MALE">
+            <persName>Второй</persName>
+            <persName xml:lang="de">Zweiter</persName>
+          </person>
+          <person xml:id="Sobesednik" sex="MALE">
+            <persName>Собеседник</persName>
+            <persName xml:lang="de">Gesprächspartner</persName>
+          </person>
+          <person xml:id="Zvezdochet" sex="MALE">
+            <persName>Звездочет</persName>
+            <persName xml:lang="de">Sternedeuter</persName>
+          </person>
+          <person xml:id="RazjarennyeDvorniki" sex="MALE">
+            <persName>Разъяренные дворники</persName>
+            <persName xml:lang="de">Zwei erboste Hauswarte</persName>
+          </person>
+          <person xml:id="Goluboj" sex="MALE">
+            <persName>Голубой</persName>
+            <persName xml:lang="de">Der Himmelblaue</persName>
+          </person>
+          <person xml:id="Neznakomka" sex="FEMALE">
+            <persName>Незнакомка</persName>
+            <persName xml:lang="de">Die Unbekannte</persName>
+          </person>
+          <person xml:id="Gospodin" sex="MALE">
+            <persName>Господин</persName>
+            <persName xml:lang="de">Herr</persName>
+          </person>
+          <person xml:id="Hozjain_trete_videnie" sex="MALE">
+            <persName>Хозяин дома</persName>
+            <persName xml:lang="de">Hausherr</persName>
+          </person>
+          <person xml:id="Gost" sex="MALE">
+            <persName>Гость</persName>
+            <persName xml:lang="de">Gast</persName>
+          </person>
+          <person xml:id="Hozjajka" sex="FEMALE">
+            <persName>Хозяйка</persName>
+            <persName xml:lang="de">Dame des Hauses</persName>
+          </person>
+          <person xml:id="Zhorzh" sex="MALE">
+            <persName>Молодой человек Жорж</persName>
+            <persName xml:lang="de">Ein junger Mann namens George</persName>
+          </person>
+          <person xml:id="Misha" sex="MALE">
+            <persName>Молодой человек Миша</persName>
+            <persName xml:lang="de">Ein junger Mann namens Mischa</persName>
+          </person>
+          <person xml:id="Starik" sex="MALE">
+            <persName>Старик</persName>
+            <persName xml:lang="de">Greis</persName>
+          </person>
+          <person xml:id="Drugoj_trete_videnie" sex="MALE">
+            <persName>Другой</persName>
+            <persName xml:lang="de">Herr</persName>
+          </person>
+          <person xml:id="RaznyeGolosa" sex="UNKNOWN">
+            <persName>Разные голоса</persName>
+            <persName xml:lang="de">Verschiedene Stimmen</persName>
+          </person>
+          <person xml:id="KtoTo" sex="UNKNOWN">
+            <persName>Кто-то</persName>
+            <persName xml:lang="de">Jemand</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
+        <change who="#ff" when="2017-04-19">establish well-formedness</change>
+        <change who="#sveta" when="2017-04-24">corrected IDs, added the dates</change>
+        <change who="#ff" when="2017-07-08">some corrections</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Незнакомка</titlePart>
+      </docTitle>
+      <epigraph>
+        <cit>
+          <quote>На портрете была изображена действительно необыкновенной красоты женщина. Она была
+            сфотографирована в черном шелковом платье, чрезвычайно простого и изящного фасона;
+            волосы, по-видимому темно-русые, были убраны просто, по-домашнему; глаза темные,
+            глубокие, лоб задумчивый; выражение лица страстное и как бы высокомерное. Она была
+            несколько худа лицом, может быть, и бледна…</quote>
+        </cit>
+        <bibl>Достоевский</bibl>
+      </epigraph>
+      <epigraph>
+        <cit>
+          <quote>
+            <p>— А как вы узнали, что это я? Где вы меня видели прежде? Что это, в самом деле, я как
+              будто его где-то видела?</p>
+            <p>— Я вас тоже будто видел где-то?</p>
+            <p>— Где? — Где?</p>
+            <p>— Я ваши глаза точно где-то видел… да этого быть не может!</p>
+            <p>Это я так… Я здесь никогда и не был. Может быть, во сне…</p>
+          </quote>
+        </cit>
+        <bibl>Достоевский</bibl>
+      </epigraph>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem>Незнакомка.</castItem>
+        <castItem>Голубой.</castItem>
+        <castItem>Звездочет.</castItem>
+        <castItem>Поэт.</castItem>
+        <castItem>Посетители кабачка и гостиной.</castItem>
+        <castItem>Два дворника.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="scene">
+        <head>ПЕРВОЕ ВИДЕНИЕ</head>
+        <stage>Уличный кабачок. Подрагивает бело-матовый свет ацетиленового фонаря в смятом
+          колпачке. На обоях изображены совершенно одинаковые корабли с огромными флагами. Они
+          взрезают носами голубые воды. За дверью, которая часто раскрывается, впуская посетителей,
+          и за большими окнами, украшенными плющом, идут прохожие в шубах и девушки в платочках —
+          под голубым вечерним снегом. За прилавком, на котором водружена бочка с гномом и надписью
+          «Кружка-бокал», — двое совершенно похожих друг на друга: оба с коками и проборами, в
+          зеленых фартуках; только у хозяина усы вниз, а у брата его, полового, усы вверх. У одного
+          окна, за столиком, сидит пьяный старик — вылитый Верлэн, у другого — безусый бледный
+          человек — вылитый Гауптман. Несколько пьяных компаний.</stage>
+        <stage>Разговор в одной компании</stage>
+        <sp who="#Odin">
+          <speaker>Один</speaker>
+          <p>Купил я эту шубу за двадцать пять рублей. А тебе, Сашка, меньше тридцати ни за что не
+            уступлю.</p>
+        </sp>
+        <sp who="#Drugoj">
+          <speaker>Другой</speaker>
+          <p>Да врешь ты!.. Да вот поди ж ты… Я тебе…</p>
+        </sp>
+        <sp who="#TretijUsatyj">
+          <speaker>Третий усатый</speaker>
+          <p>Молчать! Не ругаться! Еще бутылочку, любезный.</p>
+          <stage>Половой подбегает. Слышно, как булькает пиво. Молчание. Одинокий посетитель
+            поднимается из угла и неверной походкой идет к прилавку. Начинает шарить в блестящей
+            посудине с вареными раками.</stage>
+        </sp>
+        <sp who="#Hozjain">
+          <speaker>Хозяин</speaker>
+          <p>Позвольте, господин. Так нельзя. Вы у нас всех раков руками переберете. Никто кушать не
+            станет.</p>
+          <stage>Посетитель, мыча, отходит.</stage>
+          <stage>Разговор в другой компании</stage>
+        </sp>
+        <sp who="#Seminarist">
+          <speaker>Семинарист</speaker>
+          <p>И танцовала она, милый друг ты мой, скажу я тебе, как небесное создание. Просто взял бы
+            ее за белые ручки и прямо в губки, скажу тебе, поцеловал…</p>
+        </sp>
+        <sp who="#PervyjSobutylnik">
+          <speaker>Собутыльник</speaker>
+          <p>Эка, эка, Васинька-то наш, размечтался, заалел, как маков цвет! А что она тебе за
+            любовь-то? За любовь-то что?.. А?..</p>
+          <stage>Все визгливо хохочут.</stage>
+        </sp>
+        <sp who="#Seminarist">
+          <speaker>Семинарист</speaker>
+          <p>И, милый друг ты мой, скажу тебе, нехорошо смеяться. Так бы вот взял её, и унес бы от
+            нескромных взоров, и на улице плясала бы она передо мной на белом снегу… как птица,
+            летала бы. И откуда мои крылья взялись, — сам полетел бы за ней, над белыми снегами…</p>
+          <stage>Все хохочут.</stage>
+        </sp>
+        <sp who="#VtorojSobutylnik">
+          <speaker>Второй собутыльник</speaker>
+          <p>Ты, Васька, смотри, того, по первопутку-то не очень полетишь…</p>
+        </sp>
+        <sp who="#PervyjSobutylnik">
+          <speaker>Первый собутыльник</speaker>
+          <p>Тебе бы по морозцу-то легче, а то с твоей милой как раз в грязь угодишь…</p>
+        </sp>
+        <sp who="#VtorojSobutylnik">
+          <speaker>Второй собутыльник</speaker>
+          <p>Мечтатель.</p>
+        </sp>
+        <sp who="#Seminarist">
+          <speaker>Семинарист</speaker>
+          <p>Эх, милые други, в семинарии не учась, скажу я вам, вы нежных чувств не понимаете. А
+            впрочем, еще бы пивца…</p>
+        </sp>
+        <sp who="#Verlen">
+          <speaker>Верлэн</speaker>
+          <p>Каждому свое. Каждому свое…</p>
+          <stage>Гауптман делает выразительные знаки половому. Входят рыжий мужчина и девушка в
+            платочке.</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Девушка</speaker>
+          <p>Бутылку портеру, Миша. <stage>(Продолжает быстро рассказывать мужчине.)</stage> …только
+            она, милый мой, вышла, хвать — забыла хозяйку пивом угостить. Сейчас — назад, а уж он
+            комод открыл, да и роется, все перерыл, все перерыл, думал — не скоро вернется… Она,
+            милый мой, кричать, а он, милый мой, ей рот зажимать. Ну, все-таки хозяйка прибежала, да
+            сама кричать, да дворника позвала; так его, милый мой, сейчас в участок… (Быстро
+            прерывает.) Дай двугривенный.</p>
+          <stage>Мужчина хмуро вынимает двугривенный.</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Девушка</speaker>
+          <p>Тебе нешто жалко?</p>
+        </sp>
+        <sp who="#Muzhchina">
+          <speaker>Мужчина</speaker>
+          <p>Пей, да помалкивай.</p>
+          <stage>Молчат. Пьют. Вбегает молодой человек и радостно бросается к Гауптману.</stage>
+        </sp>
+        <sp who="#MolodojChelovek">
+          <speaker>Молодой человек</speaker>
+          <p>Костя, друг, она у дверей дожидает!..</p>
+        </sp>
+        <sp who="#Gauptman">
+          <speaker>Гауптман</speaker>
+          <p>Ладно. Пошляется еще. Давай выпьем.</p>
+        </sp>
+        <sp who="#Verlen">
+          <speaker>Верлэн</speaker>
+          <p>И всем людям — свое занятие… И каждому — свое беспокойство.</p>
+          <stage>Входит Поэт. Подзывает полового.</stage>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Угостить вас?</p>
+        </sp>
+        <sp who="#Polovoj">
+          <speaker>Половой</speaker>
+          <p>Великая честь-с… От знаменитого лица-с…</p>
+          <stage>Убегает за пивом. Поэт вынимает записную книжку. Тишина. Ацетилен шипит.
+            Похрустывают бублики. Половой приносит Поэту бутылку пива и садится на край стула против
+            него.</stage>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Вы послушайте только. Бродить по улицам, ловить отрывки незнакомых слов. Потом — прийти
+            вот сюда и рассказать свою душу подставному лицу.</p>
+        </sp>
+        <sp who="#Polovoj">
+          <speaker>Половой</speaker>
+          <p>Непонятно-с, но весьма утонченно-с…</p>
+          <stage>Срывается со стула и бежит на зов посетителя. Поэт пишет в книжке.</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Девушка</speaker>
+          <l>Как люблю я ее…</l>
+          <l>А она за любовь…</l>
+          <stage>Половой возвращается к Поэту.</stage>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Видеть много женских лиц. Сотни глаз, больших и глубоких, синих, темных, светлых.
+            Узких, как глаза рыси. Открытых широко, младенчески. Любить их. Желать их. Не может быть
+            человека, который не любит. И вы их должны любить.</p>
+        </sp>
+        <sp who="#Polovoj">
+          <speaker>Половой</speaker>
+          <p>Слушаю-с.</p>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>И среди этого огня взоров, среди вихря взоров, возникнет внезапно, как бы расцветет под
+            голубым снегом — одно лицо: единственно прекрасный лик Незнакомки, под густою, темной
+            вуалью… Вот качаются перья на шляпе… Вот узкая рука, стянутая перчаткой, держит
+            шелестящее платье… Вот медленно проходит она… проходит она…</p>
+          <stage>Жадно пьет.</stage>
+        </sp>
+        <sp who="#Verlen">
+          <speaker>Верлэн</speaker>
+          <p>И все проходит. И каждому — своя забота.</p>
+        </sp>
+        <sp who="#Seminarist">
+          <speaker>Семинарист</speaker>
+          <p>Танцевала она, как небесный, скажу вам, ангел, а вы, черти и разбойники, не стоите ее
+            мизинца. А впрочем, выпьем.</p>
+        </sp>
+        <sp who="#PervyjSobutylnik">
+          <speaker>Собутыльник</speaker>
+          <p>Мечтатель. Оттого и пьешь. И все мы — мечтатели. Поцелуй меня, дружок.</p>
+          <stage>Обнимаются.</stage>
+        </sp>
+        <sp who="#Seminarist">
+          <speaker>Семинарист</speaker>
+          <p>И никто ее так не полюбит, как я. И будем мы на белом снегу свою грустную жизнь
+            доживать. Она — плясать, а я — на шарманке играть. И полетим. И под самый серебряный
+            месяц залетим. И туда, черт возьми, скажу я вам, дурацким вашим грязным носам, милые
+            други, не соваться. И все-таки я очень вас люблю и высоко ставлю. Кто из одной бутылки
+            не пивал, тот и дружбы не видал.</p>
+          <stage>Все хохочут.</stage>
+        </sp>
+        <sp who="#PervyjSobutylnik">
+          <speaker>Собутыльник</speaker>
+          <p>Ай да Васька! Уж очень складно! Поцелуемся, дружок.</p>
+        </sp>
+        <sp who="#MolodojChelovek">
+          <speaker>Молодой человек</speaker>
+          <p>Однако ж будет. Что ей столько на морозе дожидать? Замерзнет совсем. Пойдем, брат
+            Костя.</p>
+        </sp>
+        <sp who="#Gauptman">
+          <speaker>Гауптман</speaker>
+          <p>Брось. Если женскому нраву потакать, так от мужчины ничего не останется — только ему в
+            рожу плюнуть. Пусть пошляется, а мы еще посидим.</p>
+          <stage>Молодой человек послушался. Все посетители пьют и хмелеют. Человек в желтом
+            трепаном пальто, сидевший отдельно, встает и обращается к честно́й компании с
+            речью.</stage>
+        </sp>
+        <sp who="#ChelovekVPalto">
+          <speaker>Человек в пальто</speaker>
+          <p>Государи мои! Есть у меня небольшая вещица — весьма ценная миниатюра.
+              <stage>(Вытаскивает из кармана камею.)</stage> Вот-с, не угодно ли: с одной стороны —
+            изображение эмблемы, а с другой — приятная дама в тюнике на земном шаре сидит и над этим
+            шаром держит скипетр: подчиняйтесь, мол, повинуйтесь — и больше ничего!</p>
+          <stage>Все одобрительно смеются. Некоторые подходят и рассматривают камею.</stage>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Вечная сказка. Это — Она — Мироправительница. Она держит жезл и повелевает миром. Все
+            мы очарованы Ею.</p>
+        </sp>
+        <sp who="#ChelovekVPalto">
+          <speaker>Человек в пальто</speaker>
+          <p>Рад служить русской интеллигенции. Дешево продам, хотя досталось не дешево, но уж, как
+            говорится, только по дружбе. Вижу, что любитель. Ну, так по рукам.</p>
+          <stage>Поэт дает ему монету. Берет камею, рассматривает ее. Человек в пальто садится на
+            свое место. Разговор продолжается только между двумя, сидящими за отдельным
+            столиком.</stage>
+        </sp>
+        <sp who="#Pervyj">
+          <speaker>Первый</speaker>
+          <p>А теперь пришло время нам повеселиться. Ну, Ваня, слушай (торжественно развертывает
+            журнал и читает:) «Любящие супруги. Муж: — Ты, милочка, зайди сегодня к мамаше и попроси
+            ее…»</p>
+          <stage>Заранее отчаянно хохочет.</stage>
+        </sp>
+        <sp who="#Vtoroj">
+          <speaker>Второй</speaker>
+          <p>Ишь, черт возьми, здорово!</p>
+        </sp>
+        <sp who="#Pervyj">
+          <speaker>Первый</speaker>
+          <p>«…И попроси ее… подарить Катеньке куколку…»</p>
+          <stage>Страшно хохочет.</stage>
+        </sp>
+        <sp who="#Pervyj">
+          <speaker>Первый</speaker>
+          <p>«Жена: — Что ты, милочка! Катеньке уж скоро двадцать лет. (Еле может прочесть от
+            смеха.) Ей уж не куколку, а женишка пора подарить».</p>
+          <stage>Громовой хохот.</stage>
+        </sp>
+        <sp who="#Vtoroj">
+          <speaker>Второй</speaker>
+          <p>Вот так здорово!</p>
+        </sp>
+        <sp who="#Pervyj">
+          <speaker>Первый</speaker>
+          <p>Что называется отбрила!</p>
+        </sp>
+        <sp who="#Vtoroj">
+          <speaker>Второй</speaker>
+          <p>Черт их дери, ловко пишут!..</p>
+          <stage>И опять одинокий посетитель шарит в посудине. Он вытаскивает красных раков за
+            клешни. Подержит и положит. И опять хозяин отгоняет его.</stage>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Вечное возвращение. Снова Она объемлет шар земной. И снова мы подвластны Ее очарованию.
+            Вот Она кружит свой процветающий жезл. Вот Она кружит меня… И я кружусь с Нею… Под
+            голубым… под вечерним снегом…</p>
+        </sp>
+        <sp who="#Seminarist">
+          <speaker>Семинарист</speaker>
+          <p>Танцует… Танцует… Я на шарманке, а она под шарманку. <stage>(Делает пьяные жесты, как
+              будто что-то ловит.)</stage> Вот, не поймал… опять не поймал… но и вам, черти, не
+            поймать, если уж мне не поймать…</p>
+          <stage>Медленно, медленно начинают кружиться стены кабачка. Потолок наклоняется, один
+            конец его протягивается вверх бесконечно. Корабли на обоях, кажется, плывут близко, а
+            все не могут доплыть. Сквозь смутный общий говор человек в пальто, уже присоединившийся
+            к кому-то, кричит.</stage>
+        </sp>
+        <sp who="#ChelovekVPalto">
+          <speaker>Человек в пальто</speaker>
+          <p>Нет-с, я любитель! Люблю острый сыр, знаете, такой круглый! (Делает кругообразные
+            жесты.) Забыл название.</p>
+        </sp>
+        <sp who="#Sobesednik">
+          <speaker>Его собеседник</speaker>
+          <p>А вы… пробовали?</p>
+        </sp>
+        <sp who="#ChelovekVPalto">
+          <speaker>Человек в пальто</speaker>
+          <p>Что пробовал? Вы думаете, нет? Я рошефор кушал!</p>
+        </sp>
+        <sp who="#Sobesednik">
+          <speaker>Собеседник</speaker>
+          <p>А знаете… люксем-бургский… так пахнет нехорошо… и шевелится, шевелится… (Чмокает
+            губами, шевелит пальцами.)</p>
+        </sp>
+        <sp who="#ChelovekVPalto">
+          <speaker>Человек в пальто</speaker>
+          <p>Швейцарский!.. Вот что-с! <stage>(Щелкает пальцами.)</stage>
+                    </p>
+        </sp>
+        <sp who="#Sobesednik">
+          <speaker>Собеседник</speaker>
+          <p>Ну, этим не удивите…</p>
+        </sp>
+        <sp who="#ChelovekVPalto">
+          <speaker>Человек в пальто</speaker>
+          <p>Бри!</p>
+        </sp>
+        <sp who="#Sobesednik">
+          <speaker>Собеседник</speaker>
+          <p>Ну это… это… знаете…</p>
+        </sp>
+        <sp who="#ChelovekVPalto">
+          <speaker>Человек в пальто</speaker>
+          <p>Что знаете?</p>
+        </sp>
+        <sp who="#Sobesednik">
+          <speaker>Собеседник</speaker>
+          <p>Все вертится, кажется перевернется сейчас. Корабли на обоях плывут, вспенивая голубые
+            воды. Одну минуту кажется, что все стоит вверх ногами.</p>
+        </sp>
+        <sp who="#Verlen">
+          <speaker>Верлэн</speaker>
+          <p>И всему свой черед… И всем пора идти домой…</p>
+        </sp>
+        <sp who="#Gauptman">
+          <speaker>Гауптман</speaker>
+          <p>Шлюха она, ну и пусть шляется! А мы выпьем!</p>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Девушка</speaker>
+          <p>Прощай, желанный мой…</p>
+        </sp>
+        <sp who="#Seminarist">
+          <speaker>Семинарист</speaker>
+          <p>Снег танцует. И мы танцуем. И шарманка плачет. И я плачу. И мы все плачем.</p>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Синий снег. Кружится. Мягко падает. Синие очи. Густая вуаль. Медленно проходит Она.
+            Небо открылось. Явись! Явись!</p>
+        </sp>
+        <stage>Весь кабачок как будто нырнул куда-то. Стены расступаются. Окончательно наклонившийся
+          потолок открывает небо — зимнее, синее, холодное. В голубых вечерних снегах открывается
+          —</stage>
+      </div>
+      <div type="scene">
+        <head>ВТОРОЕ ВИДЕНИЕ</head>
+        <stage>Тот же вечер. Конец улицы на краю города. Последние дома, обрываясь внезапно,
+          открывают широкую перспективу: темный пустынный мост через большую реку. По обеим сторонам
+          моста дремлют тихие корабли с сигнальными огнями. За мостом тянется бесконечная, прямая,
+          как стрела, аллея, обрамленная цепочками фонарей и белыми от инея деревьями. В воздухе
+          порхает и звездится снег.</stage>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Ночь полнозвездная светла.</l>
+          <l>У взора — только два крыла.</l>
+          <l>Но счет звезда́м вести нельзя —</l>
+          <l>Туманна млечная стезя,</l>
+          <l>И бедный взор туманится…</l>
+          <l>Кто этот пьяница?</l>
+          <stage>Два дворника волокут под руки пьяного Поэта.</stage>
+        </sp>
+        <sp who="#RazjarennyeDvorniki">
+          <speaker>Разъяренные дворники</speaker>
+          <l>Он — посетитель кабачка,</l>
+          <l>И с ним расправа коротка!</l>
+          <l>Эй, Ванька, дай ему щелчка!</l>
+          <l>Эй, Васька, дай ему толчка!</l>
+          <stage>Волокут Поэта дальше.</stage>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Восходит новая звезда.</l>
+          <l>Всех ослепительней она.</l>
+          <l>Недвижна темная вода,</l>
+          <l>И в ней звезда отражена.</l>
+          <l>Ах! падает, летит звезда…</l>
+          <l>Лети сюда! сюда! сюда!</l>
+          <stage>По небу, описывая медленную дугу, скатывается яркая и тяжелая звезда. Через миг по
+            мосту идет прекрасная женщина в черном, с удивленным взором расширенных глаз. Все
+            становится сказочным — темный мост и дремлющие голубые корабли. Незнакомка застывает у
+            перил моста, еще храня свой бледный падучий блеск. Снег, вечно юный, одевает ее плечи,
+            опушает стан. Она, как статуя, ждет.</stage>
+          <stage>Такой же Голубой, как она, восходит на мост из темной аллеи. Также в снегу. Также
+            прекрасен. Он колеблется, как тихое, синее пламя.</stage>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>В блеске зимней ночи тающая,</l>
+          <l>Обрати ко мне твой лик.</l>
+          <l>Ты, снегами тихо веющая,</l>
+          <l>Подари мне легкий снег.</l>
+          <stage>Она обращает очи к нему.</stage>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Очи — звезды умирающие,</l>
+          <l>Уклонившись от пути.</l>
+          <l>О тебе, мой легковеющий,</l>
+          <l>Я грустила в высоте.</l>
+          <stage>Его голубой плащ осыпан снежными звездами.</stage>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>В синеве твоей морозной</l>
+          <l>Много звезд.</l>
+          <l>Под рукой моей железной</l>
+          <l>Светлый меч.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Опусти в руке железной</l>
+          <l>Светлый меч.</l>
+          <l>В синеве моей морозной</l>
+          <l>Звезд не счесть.</l>
+          <stage>Голубой дремлет в бледном свете. На фоне плаща его светится луч, как будто он
+            оперся на меч.</stage>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Протекали столетья, как сны.</l>
+          <l>Долго ждал я тебя на земле.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Протекали столетья, как миги.</l>
+          <l>Я звездою в пространствах текла.</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Ты мерцала с твоей высоты</l>
+          <l>На моем голубом плаще.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты гляделся в мои глаза.</l>
+          <l>Часто на́ небо смотришь ты?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Больше взора поднять не могу:</l>
+          <l>Тобою, падучей, скован мой взор.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты можешь сказать мне земные слова?</l>
+          <l>Отчего ты весь в голубом?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Я слишком долго в небо смотрел:</l>
+          <l>Оттого — голубые глаза и плащ.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l part="I">Кто ты?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l part="M">Поэт.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l part="F">О чем ты поешь?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l part="I">Все о тебе.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l part="F">Давно ли ты ждешь?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l part="I">Много столетий.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l part="F">Ты мертв или жив?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l part="I">Не знаю.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l part="M">Ты юн?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l part="F">Я красив.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Падучая дева-звезда</l>
+          <l>Хочет земных речей.</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Только о тайнах знаю слова,</l>
+          <l>Только торжественны речи мои.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Знаешь ты имя мое?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Не знаю — и лучше не знать.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Видишь ты очи мои?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Вижу. Как звезды — они.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты видишь мой стройный стан?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Да. Ослепительна ты.</l>
+          <stage>В голосе Ее просыпается земная страсть.</stage>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты хочешь меня обнять?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Я коснуться не смею тебя.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты можешь коснуться уст.</l>
+          <stage>Плащ Голубого колеблется, исчезая под снегом.</stage>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты знаешь ли страсть?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Кровь молчалива моя.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты знаешь вино?</l>
+        </sp>
+        <sp who="#Goluboj">
+          <speaker>Голубой</speaker>
+          <l>Звездный напиток — слаще вина.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты любишь меня?</l>
+          <stage>Голубой молчит.</stage>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Кровь запевает во мне.</l>
+          <stage>Тишина.</stage>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ядом исполнено сердце.</l>
+          <l>Я стройнее всех ваших дев.</l>
+          <l>Я красивее ваших дам.</l>
+          <l>Я страстнее ваших невест.</l>
+          <stage>Голубой дремлет, весь осыпанный снегом.</stage>
+          <l>Как сладко у вас на земле!</l>
+          <stage>Голубого больше нет. Закрутился голубоватый снежный столб, и кажется, на этом месте
+            и не было никого. Зато рядом с Незнакомкой проходящий господин приподнимает
+            котелок.</stage>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>Вы с кем-то беседу вели?</l>
+          <l>Но здесь не видать никого.</l>
+          <l>Прелестный ваш голос звучал</l>
+          <l part="I">В пространстве пустом…</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l part="F">Где он?</l>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>О, да, без сомнения, вы</l>
+          <l>Кого-то ждали сейчас!</l>
+          <l>Позвольте — нескромный вопрос…</l>
+          <l>Кто был ваш незримый друг?</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Он был красив. В голубом плаще.</l>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>О, романтика женской души!</l>
+          <l>И на улице видите вы</l>
+          <l>Мужчин в голубых плащах!</l>
+          <l>Но как же звали его?</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Он назвал себя: поэт.</l>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>Я тоже поэт! я тоже поэт!</l>
+          <l>По крайней мере, смотря</l>
+          <l>В прекрасные ваши глаза,</l>
+          <l>Я мог спеть вам куплет:</l>
+          <l>«Ах, как ты хороша!»</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты хочешь любить меня?</l>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>О, да! И очень не прочь.</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>Ты можешь обнять меня?</l>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>Хотел бы знать, почему</l>
+          <l>Не могу я тебя обнять?</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l>И, уст касаясь моих,</l>
+          <l>Ты будешь ласкать меня?</l>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>Пойдем, красотка моя!</l>
+          <l>«Исполню все, что велишь»,</l>
+          <l>Как сказал старичок Шекспир…</l>
+          <l>Ты видишь теперь, что и я</l>
+          <l>Поэзии очень не чужд!</l>
+          <stage>Незнакомка покорно дает ему руку.</stage>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l part="I">Как имя твое?</l>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <l part="F">Постой.</l>
+          <l>Дай вспомнить. В небе, средь звезд,</l>
+          <l>Не носила имени я…</l>
+          <l>Но здесь, на синей земле,</l>
+          <l>Мне нравится имя «Мария»…</l>
+          <l>«Мария» — зови меня.</l>
+        </sp>
+        <sp who="#Gospodin">
+          <speaker>Господин</speaker>
+          <l>Как хочешь, красотка моя.</l>
+          <l>Ведь мне лишь только бы знать,</l>
+          <l>Что ночью тебе шептать.</l>
+          <stage>Уводит Незнакомку под руку. След их заметает голубой снег. Звездочет снова на
+            мосту. Он — в тоске. Простирает руки в небо. Поднял взоры.</stage>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Нет больше прекрасной звезды!</l>
+          <l>Синяя бездна пуста!</l>
+          <l>Я ритмы утратил</l>
+          <l>Астральных песен моих!</l>
+          <l>Отныне режут мне слух</l>
+          <l>Дребезжащие песни светил!</l>
+          <l>Сегодня в башне моей</l>
+          <l>Скорбной рукой занесу</l>
+          <l>В длинные свитки мои</l>
+          <l>Весть о паденьи светлейшей звезды…</l>
+          <l>И тихо ее назову</l>
+          <l>Именем дальним,</l>
+          <l>Именем, нежащим слух:</l>
+          <l>«Мария» — да будет имя ее.</l>
+          <l>В желтых свитках</l>
+          <l>Начертано будет</l>
+          <l>Моей одинокой рукой:</l>
+          <l>«Пала Мария — звезда.</l>
+          <l>Больше не будет смотреть мне в глаза.</l>
+          <l>Звездочет остался один!»</l>
+          <stage>Тихо плачет. Поэт поднимается на мост из аллеи.</stage>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>О, заклинаю вас всем святым!</l>
+          <l>Вашей тоской!</l>
+          <l>Вашей невестой, когда</l>
+          <l>Есть невеста у вас!</l>
+          <l>Скажите, была ли здесь</l>
+          <l>Высокая женщина в черном?</l>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Грубые люди! Оставьте меня.</l>
+          <l>Я женщин не вижу с тех пор,</l>
+          <l>Как пала моя звезда.</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>Понятна мне ваша скорбь.</l>
+          <l>Я так же, как вы, одинок.</l>
+          <l>Вы, верно, как я, — поэт.</l>
+          <l>Случайно, не видели ль вы</l>
+          <l>Незнакомку в снегах голубых?</l>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Не помню. Здесь многие шли,</l>
+          <l>И очень прискорбно мне,</l>
+          <l>Что вашей не мог я узнать…</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>О, если б видели вы, —</l>
+          <l>Забыли б свою звезду!</l>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Не вам говорить о звездах;</l>
+          <l>Чересчур легкомысленны вы,</l>
+          <l>И я попросил бы вас</l>
+          <l>В мою профессию нос не совать.</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>Все ваши обиды снесу!</l>
+          <l>Поверьте, унижен я</l>
+          <l>Ничуть не меньше, чем вы…</l>
+          <l>О, если б я не был пьян,</l>
+          <l>Я шел бы следом за ней!</l>
+          <l>Но двое тащили меня,</l>
+          <l>Когда я заметил ее…</l>
+          <l>Потом я упал в сугроб,</l>
+          <l>Они, ругаясь, ушли,</l>
+          <l>Решившись бросить меня…</l>
+          <l>Не помню, долго ль я спал…</l>
+          <l>Проснувшись, вспомнил, что снег</l>
+          <l>Замел ее нежный след!</l>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Я смутно припомнить могу</l>
+          <l>Печальную вещь для вас;</l>
+          <l>Действительно, вас вели,</l>
+          <l>Вам давали толчки и пинки,</l>
+          <l>И был неуверен ваш шаг…</l>
+          <l>Потом я помню сквозь сон,</l>
+          <l>Как на мост дама взошла,</l>
+          <l>И к ней подошел голубой господин…</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>О, нет!.. Голубой господин…</l>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Не знаю, о чем говорили они.</l>
+          <l>Я больше на них не смотрел.</l>
+          <l>Потом они, верно, ушли…</l>
+          <l>Я так был занят своим…</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>И снег замел их следы!..</l>
+          <l>Мне больше не встретить Ее!</l>
+          <l>Встречи такие</l>
+          <l>Бывают в жизни лишь раз…</l>
+          <stage>Оба плачут под голубым снегом.</stage>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Стоит ли плакать об этом?</l>
+          <l>Гораздо глубже горе мое:</l>
+          <l>Я утратил астральный ритм!</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>Я ритм души потерял.</l>
+          <l>Надеюсь, это — важней!</l>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Скорбь занесет в мои свитки:</l>
+          <l>«Пала звезда — Мария!»</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>Прекрасное имя: «Мария»!</l>
+          <l>Я буду писать в стихах:</l>
+          <l>«Где ты, Мария?</l>
+          <l>Не вижу зари я».</l>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <l>Ну, ваше горе пройдет!</l>
+          <l>Вам надо только стихи</l>
+          <l>Как можно длинней сочинять!</l>
+          <l>О чем же плакать тогда?</l>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>А вам, господин звездочет,</l>
+          <l>Довольно в свитки свои</l>
+          <l>На пользу студентам вписать:</l>
+          <l>«Пала Мария — Звезда!»</l>
+        </sp>
+        <stage>Оба грустят под голубым снегом. Пропадают в нем. И снег грустит. Он запорошил уже и
+          мост, и корабли. Он построил белые стены на канве деревьев, вдоль стен домов, на
+          телеграфных проволоках. И даль земная и даль речная поднялись белыми стенами, так что все
+          бело, кроме сигнальных огней на кораблях и освещенных окон домов. Снежные стены
+          уплотняются. Они кажутся близкими одна к другой. Понемногу открывается —</stage>
+      </div>
+      <div type="scene">
+        <head>ТРЕТЬЕ ВИДЕНИЕ</head>
+        <stage>Большая гостиная комната с белыми стенами, на которых ярко горят электрические лампы.
+          Дверь в переднюю открыта. Тоненький звонок часто извещает о приходе гостей. На диванах,
+          креслах и стульях уже сидят хозяева и гости; хозяйка дома — пожилая дама, как бы
+          проглотившая аршин; перед нею — корзинка с бисквитами, ваза с фруктами и чашка дымящегося
+          чаю; против нее — глухой старик с глупым лицом жует и хлебает. Молодые люди, в
+          безукоризненных смокингах, частью разговаривают с другими дамами, частью толпятся стадами
+          в углах. Общий гул бессмысленных разговоров. Хозяин дома встречает гостей в передней и
+          каждому сначала деревянным голосом кричит: «А-а-а!», а потом говорит пошлость. В настоящий
+          момент он занят тем же.</stage>
+        <sp who="#Hozjain_trete_videnie">
+          <speaker>Хозяин дома</speaker>
+          <p>А-а-а! Ну и закутались же вы, батюшка!</p>
+        </sp>
+        <sp who="#Gost">
+          <speaker>Голос гостя</speaker>
+          <p>И холод же, доложу я вам! В шубе — и то замерз.</p>
+          <stage>Гость сморкается. Так как разговор в гостиной почему-то исчерпался, слышно, как
+            хозяин конфиденциально говорит гостю:</stage>
+        </sp>
+        <sp who="#Hozjain_trete_videnie">
+          <speaker>Хозяин</speaker>
+          <p>А где шили?</p>
+        </sp>
+        <sp who="#Gost">
+          <speaker>Гость</speaker>
+          <p>У Шевалье.</p>
+          <stage>Из двери торчат фалды хозяйского сюртука. Хозяин рассматривает шубу.</stage>
+        </sp>
+        <sp who="#Hozjain_trete_videnie">
+          <speaker>Хозяин</speaker>
+          <p>А сколько платили?</p>
+        </sp>
+        <sp who="#Gost">
+          <speaker>Гость</speaker>
+          <p>Тысячу.</p>
+          <stage>Хозяйка, стараясь замять разговор, кричит:</stage>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Cher Иван Павлович! Идите скорее! Только вас и ждали! Вот, Аркадий Романович обещался
+            нам сегодня спеть!</p>
+          <stage>Аркадий Романович, подходя к хозяйке, делает различные жесты, долженствующие
+            показать, что он невысокого о себе мнения. Хозяйка жестами же старается показать ему
+            обратное.</stage>
+        </sp>
+        <sp who="#Zhorzh">
+          <speaker>Молодой человек Жорж</speaker>
+          <p>Совершенная дура твоя Серпантини, Миша. Так танцевать, как она вчера, значит — не иметь
+            никакого стыда.</p>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Молодой человек Миша</speaker>
+          <p>Ты, Жорж, ровно ничего не понимаешь! Я совершенно влюблен. Это — для немногих. Вспомни,
+            у нее совсем классическая фигура — руки, ноги…</p>
+        </sp>
+        <sp who="#Zhorzh">
+          <speaker>Жорж</speaker>
+          <p>Я пошел туда затем, чтобы наслаждаться искусством. На ножки я могу смотреть и в другом
+            месте.</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>О чем это вы там, Георгий Николаевич? Ах, о Серпантини! Какой ужас, не правда ли?
+            Во-первых — интерпретировать музыку — это уж одно — наглость. Я так страстно люблю
+            музыку и ни за что, ни за что не допущу, чтоб над ней надругались. Потом — танцевать без
+            костюма — это… это я не знаю, что! Я увела мою дочь.</p>
+        </sp>
+        <sp who="#Zhorzh">
+          <speaker>Жорж</speaker>
+          <p>Я совершенно согласен с вами. А вот Михаил Иванович — другого мнения…</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Что вы, Михаил Иванович! По-моему, здесь двух мнений не может быть! Я понимаю, молодые
+            людям свойственно увлекаться, но на публичном концерте… когда ногами изображают Баха… Я
+            сама музыкантша… страстно люблю музыку… Как хотите…</p>
+          <stage>Старик, сидящий против хозяйки, неожиданно и просто выпаливает:</stage>
+        </sp>
+        <sp who="#Starik">
+          <speaker>Старик</speaker>
+          <p>Публичный дом.</p>
+          <stage>Продолжает хлебать чай и жевать бисквиты. Хозяйка краснеет и обращается к одной из
+            дам.</stage>
+        </sp>
+        <sp who="#Misha">
+          <speaker>Миша</speaker>
+          <p>Ах, Жорж, все вы ничего не понимаете! Разве это — интерпретация музыки? Серпантини сама
+            — воплощение музыки. Она плывет на волнах звуков, и, кажется, сам плывешь за нею.
+            Неужели тело, его линии, его гармонические движения — сами по себе не поют так же, как
+            звуки? Тот, кто истинно чувствует музыку, не оскорбляется за нее. У вас отвлеченное
+            отношение к музыке…</p>
+        </sp>
+        <sp who="#Zhorzh">
+          <speaker>Жорж</speaker>
+          <p>Мечтатель! Завел машину. Строишь какие-то теории и ничего не слушаешь и не видишь. Я о
+            музыке даже не говорю, и мне в конце концов наплевать! И я был бы очень рад видеть все
+            это в отдельном кабинете. Но согласись же, не объявить на афише, что Серпантини будет
+            завернута в одну тряпку, — это значит поставить всех в пренеловкое положение. Если б я
+            знал, я не повел бы туда мою невесту. (Миша рассеянно шарит в корзинке с бисквитами.)
+            Послушай, оставь бисквиты. Ведь противно есть, если все перетрогаешь. Смотри, как на
+            тебя смотрит кузина. А все оттого, что ты рассеян. Эх, мечтатели.</p>
+          <stage>Миша, сконфуженно мыча, удаляется в другой угол.</stage>
+        </sp>
+        <sp who="#Starik">
+          <speaker>Старик</speaker>
+          <p>Нина! Сиди смирно. У тебя на спине платье расстегнулось.</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Да полно, дядя, нельзя же при всех! Вы слишком… откровенны…</p>
+          <stage>Старается незаметно застегнуть платье. В комнату впархивает молодая дама, за ней
+            идет огромный рыжий господин.</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Дама</speaker>
+          <p>Ах, здравствуйте, здравствуйте! Вот, позвольте вас познакомить: мой жених.</p>
+        </sp>
+        <sp who="#Muzhchina">
+          <speaker>Рыжий господин</speaker>
+          <p>Очень приятно.</p>
+          <stage>Угрюмо удаляется в угол.</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Дама</speaker>
+          <p>Пожалуйста, не обращайте на него внимания. Он очень застенчив. Ах, представьте, какой
+            случай!..</p>
+          <stage>Торопливо пьет чай и шопотом рассказывает хозяйке что-то пикантное, судя по тому,
+            что обе ерзают по дивану и хихикают.</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Дама</speaker>
+          <p>У тебя мой платок?</p>
+          <stage>Жених угрюмо вытаскивает платок.</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Дама</speaker>
+          <p>Тебе жалко, что ли?</p>
+        </sp>
+        <sp who="#Muzhchina">
+          <speaker>Рыжий господин</speaker>
+          <p>Пей, да помалкивай.</p>
+          <stage>Молчат. Пьют. Вбегает молодой человек и радостно бросается к другому. В последнем
+            легко узнать того, кто увел незнакомку.</stage>
+        </sp>
+        <sp who="#MolodojChelovek">
+          <speaker>Молодой человек</speaker>
+          <p>Костя, друг, да она у дверей дожида…</p>
+          <stage>Запинается на полуслове. Все становится необычайно странным. Как будто все внезапно
+            вспомнили, что где-то произносились те же слова и в том же порядке. Михаил Иванович
+            смотрит странными глазами на Поэта, который входит в эту минуту. Поэт, бледный, делает
+            общий поклон на пороге притихшей гостиной.</stage>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Мы только вас и ждали. Надеюсь, вы прочтете нам что-нибудь. Сегодня престранный вечер!
+            Наша мирная беседа не клеится.</p>
+        </sp>
+        <sp who="#Starik">
+          <speaker>Старик</speaker>
+          <p>Точно кто-нибудь умер. Богу душу отдал.</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Ах, дядя, перестаньте! Вы всех окончательно спугнете… Господа! Обновим наш разговор…
+              <stage>(Поэту.)</stage> Вы прочтете нам что-нибудь, не правда ли?</p>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>С удовольствием… если это займет…</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Господа! Молчание! Наш прекрасный поэт прочтет нам свое прекрасное стихотворение, и,
+            надеюсь, опять о прекрасной даме…</p>
+          <stage>Все замолкают. Поэт становится у стены, прямо против двери в переднюю, и
+            читает:</stage>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <l>Уже сбегали с плит снега,</l>
+          <l>Блестели, обнажаясь крыши,</l>
+          <l>Когда в соборе, в темной нише,</l>
+          <l>Ее блеснули жемчуга.</l>
+          <l>И от иконы в нежных розах</l>
+          <l>Медлительно сошла Она…</l>
+          <stage>Тоненький звонок в передней. Хозяйка умоляюще складывает руки по направлению к
+            Поэту. Он прерывает чтение. Все с любопытством заглядывают в переднюю.</stage>
+        </sp>
+        <sp who="#Hozjain_trete_videnie">
+          <speaker>Хозяин</speaker>
+          <p>Сию минуту. Прошу извинения.</p>
+          <stage>Выходит в переднюю, но не кричит там: «А-а-а!» Молчание.</stage>
+        </sp>
+        <sp who="#Hozjain_trete_videnie">
+          <speaker>Голос хозяина</speaker>
+          <p>Чем могу служить?</p>
+          <stage>Женский голос отвечает что-то. Хозяин появляется на пороге.</stage>
+        </sp>
+        <sp who="#Hozjain_trete_videnie">
+          <speaker>Хозяин</speaker>
+          <p>Ниночка, какая-то дама. Ничего не могу разобрать. Вероятно, к тебе. Извините, господа,
+            извините…</p>
+          <stage>Сконфуженно улыбается во все стороны. Хозяйка идет в переднюю и запирает за собой
+            дверь. Гости шепчутся.</stage>
+        </sp>
+        <sp who="#MolodojChelovek">
+          <speaker>Молодой человек </speaker>
+          <p>Да не может быть…</p>
+        </sp>
+        <sp who="#Drugoj_trete_videnie">
+          <speaker>Другой</speaker>
+          <p>Да уверяю тебя… вот скандал!.. Я слышал ее голос…</p>
+          <stage>Поэт стоит неподвижно против дверей. Двери открываются. Хозяйка вводит
+            Незнакомку.</stage>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Господа, приятный сюрприз. Моя очаровательная новая знакомая. Надеюсь, мы примем ее с
+            радостью в наш дружеский кружок. Мария… извините, я не расслышала, как вас называть?</p>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <p>Мария.</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Но… ваше отчество?</p>
+        </sp>
+        <sp who="#Neznakomka">
+          <speaker>Незнакомка</speaker>
+          <p>Мария. Я зову себя: Мария.</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Хорошо, милочка. Я буду звать вас: Мэри. В вас есть некоторая эксцентричность, не
+            правда ли? Но тем веселее мы проведем сегодняшний вечер с нашей восхитительной гостьей.
+            Не правда ли, господа?</p>
+          <stage>Все сконфужены. Неловкое молчание. Хозяин замечает, что один из гостей проскользнул
+            в переднюю, и выходит за ним. Слышен извиняющийся шопот, слова: «не совсем здоров». Поэт
+            стоит неподвижно.</stage>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Итак, может быть, наш прекрасный поэт продолжит прерванное чтение? Дорогая Мэри, когда
+            вы вошли, наш известный поэт как раз читал нам… читал нам.</p>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Простите. Позвольте мне прочесть в другой раз. Я так извиняюсь.</p>
+        </sp>
+        <stage>Никто не выражает неудовольствия. Поэт подходит к хозяйке, которая некоторое время
+          делает умоляющие жесты, но скоро перестает. Поэт спокойно садится в дальний угол.
+          Задумчиво смотрит на Незнакомку. Горничная разносит, что полагается. Из общего
+          бессмысленного говора вырывается хохот, отдельные слова и целые фразы:</stage>
+        <sp who="#RaznyeGolosa">
+          <p>Нет, как она танцевала! Да ты послушай! Русская интеллигенция…</p>
+        </sp>
+        <sp who="#KtoTo">
+          <speaker>Кто-то</speaker>
+          <p>Да и вам не поймать! Да и вам не поймать!</p>
+          <stage>Все забыли о Поэте. Он медленно поднимается со своего места. Он проводит рукою по
+            лбу. Делает несколько шагов взад и вперед по комнате. По лицу его заметно, что он с
+            мучительным усилием припоминает что-то. В это время из общего говора доносятся слова:
+            «рокфор», «камамбер». Вдруг толстый человек, в страшном увлечении, делая кругообразные
+            жесты, выскакивает на середину комнаты с криком:</stage>
+          <p>Бри!</p>
+          <stage>Поэт сразу останавливается. Мгновение кажется, что он вспомнил все. Он делает
+            несколько быстрых шагов в сторону Незнакомки. Но дорогу ему заслоняет Звездочет в
+            голубом вицмундире, входящий из передней.</stage>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <p>Извините, я в вицмундире и запоздал. Прямо из заседания. Пришлось делать доклад.
+            Астрономия…</p>
+          <stage>Поднимает палец кверху.</stage>
+        </sp>
+        <sp who="#Hozjain_trete_videnie">
+          <speaker>Хозяин</speaker>
+          <p>Вот и мы только что говорили о гастрономии. Ниночка, не пора ли ужинать?</p>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Господа, прошу вас!</p>
+          <stage>Все выходят вслед за нею. В потемневшей гостиной остаются некоторое время
+            Незнакомка, Звездочет и Поэт. Поэт и Звездочет стоят в дверях, готовые выйти. Незнакомка
+            медлит в глубине у темной полуоткрытой занавеси окна.</stage>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <p>Нам опять привелось встретиться с вами. Я очень рад. Но пусть обстоятельства нашей
+            первой встречи останутся между нами.</p>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Прошу о том же и вас.</p>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <p>Я только что сделал доклад в астрономическом обществе — о том, чему вы были невольным
+            свидетелем. Поразительный факт: звезда первой величины…</p>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Да, это очень интересно.</p>
+        </sp>
+        <sp who="#Zvezdochet">
+          <speaker>Звездочет</speaker>
+          <p>Да! Я занес в мои списки новый параграф: «Пала звезда Мария!» Наука в первый раз… Ах,
+            извините, что я не спрашиваю вас о результатах ваших поисков…</p>
+        </sp>
+        <sp who="#Poet">
+          <speaker>Поэт</speaker>
+          <p>Поиски мои были безрезультатны.</p>
+          <stage>Он оборачивается в глубь комнаты. Безнадежно смотрит. На лице его — томление, в
+            глазах — пустота и мрак. Он шатается от страшного напряжения. Но он все забыл.</stage>
+        </sp>
+        <sp who="#Hozjajka">
+          <speaker>Хозяйка</speaker>
+          <p>Господа! Идите же в столовую! Я не вижу Мэри…</p>
+          <stage>Грозит им пальцем.</stage>
+          <p>Ах, молодые люди! Вы спрятали куда-нибудь мою Мэри?</p>
+          <stage>Всматривается в глубь комнаты.</stage>
+          <p>Где же Мэри? Да где же Мэри?</p>
+        </sp>
+        <stage>У темной занавеси уже нет никого. За окном горит яркая звезда. Падает голубой снег,
+          такой же голубой, как вицмундир исчезнувшего Звездочета.</stage>
+        <p>&lt;1906&gt;</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Театральный разъезд после представления новой
+          комедии</title>
+        <title type="main" xml:lang="en">Leaving the Theater after the Presentation of a New
+          Comedy</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q43718">Гоголь, Николай Васильевич</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/gogol-teatralnyi-razezd</idno>
+        <idno type="RusDraCor">53</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Интернет-библиотека Алексея Комарова</name>
+          <idno type="URL">http://ilibrary.ru/text/1557/index.html</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Н. В. Гоголь. Собрание сочинений в 9 т. Т. 4 Повести. М.: Русская книга,
+              1994.</title>
+            <date type="print" when="1842">Впервые опубликована: Сочинения Николая Гоголя. СПб.,
+              1842. (https://biography.wikireading.ru/105347)</date>
+            <date type="premiere"/>
+            <date type="written" when="1842">1836—1842 гг. (web-biblioteka)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="AvtorPesy" sex="MALE">
+            <persName>Автор пьесы</persName>
+            <persName xml:lang="de">Der Autor des Stückes</persName>
+          </person>
+          <person xml:id="OdinIzPrilichnoOdetyhLudei" sex="MALE">
+            <persName>Один из прилично одетых людей</persName>
+            <persName xml:lang="de">Einer der anständig gekleideten Leute</persName>
+          </person>
+          <person xml:id="PervyjCommeIlFaut" sex="MALE">
+            <persName>Первый comme il faut</persName>
+            <persName xml:lang="de">Der erste comme il faut</persName>
+          </person>
+          <person xml:id="VtorojCommeIlFaut" sex="MALE">
+            <persName>Второй comme il faut</persName>
+            <persName xml:lang="de">Der zweite comme il faut</persName>
+          </person>
+          <person xml:id="PervyjOfitser_1" sex="MALE">
+            <persName>Первый офицер</persName>
+            <persName xml:lang="de">Erster Offizier</persName>
+          </person>
+          <person xml:id="VtorojOfitser_1" sex="MALE">
+            <persName>Другой офицер</persName>
+            <persName xml:lang="de">Zweiter Offizier</persName>
+          </person>
+          <person xml:id="SvetskijChelovekSchegolevatoOdetyj" sex="MALE">
+            <persName>Светский человек, щеголевато одетый</persName>
+            <persName xml:lang="de">Ein Gesellschaftsmensch, elegant gekleidet</persName>
+          </person>
+          <person xml:id="TozheSvetskijChelovekPoplotnee" sex="MALE">
+            <persName>Тоже светский человек, поплотнее</persName>
+            <persName xml:lang="de">Ebenfalls ein Gesellschaftsmensch, nur korpulenter</persName>
+          </person>
+          <person xml:id="ChinovnikSrednihLet" sex="MALE">
+            <persName>Чиновник средних лет</persName>
+            <persName xml:lang="de">Ein Beamter mittleren Alters</persName>
+          </person>
+          <person xml:id="GospodinNeskolkoBezzabotnyjNaschetLiteratury" sex="MALE">
+            <persName>Господин, несколько беззаботный насчет литературы</persName>
+            <persName xml:lang="de">Ein Herr, der im Hinblick auf Literatur etwas sorglos
+              ist</persName>
+          </person>
+          <person xml:id="Drugoj" sex="MALE">
+            <persName>Другой</persName>
+            <persName xml:lang="de">Der Andere</persName>
+          </person>
+          <person xml:id="OdinIzDvuhZritelej" sex="MALE">
+            <persName>Один из двух зрителей</persName>
+            <persName xml:lang="de">Einer von zwei Zuschauern</persName>
+          </person>
+          <person xml:id="OdnaBekesha_1" sex="MALE">
+            <persName>Первая бекеша</persName>
+            <persName xml:lang="de">Erster Pelzüberrock</persName>
+          </person>
+          <person xml:id="DrugajaBekesha_1" sex="MALE">
+            <persName>Другая бекеша</persName>
+            <persName xml:lang="de">Der andere Pelzüberrock</persName>
+          </person>
+          <person xml:id="PervyjOfitser_2" sex="MALE">
+            <persName>Первый офицер</persName>
+            <persName xml:lang="de">Erster Offizier</persName>
+          </person>
+          <person xml:id="VtorojOfitser_2" sex="MALE">
+            <persName>Другой офицер</persName>
+            <persName xml:lang="de">Zweiter Offizier</persName>
+          </person>
+          <person xml:id="NeizvestnoKakojChelovek" sex="MALE">
+            <persName>Неизвестно какой человек</persName>
+            <persName xml:lang="de">Ein unbekannter Mensch</persName>
+          </person>
+          <person xml:id="Literator" sex="MALE">
+            <persName>Литератор</persName>
+            <persName xml:lang="de">Der Schriftsteller</persName>
+          </person>
+          <person xml:id="EscheLiterator" sex="MALE">
+            <persName>Еще литератор</persName>
+            <persName xml:lang="de">Noch ein Schriftsteller</persName>
+          </person>
+          <person xml:id="OdinDrugojOfitser" sex="MALE">
+            <persName>Другой Офицер</persName>
+            <persName xml:lang="de">Erster anderer Offizier</persName>
+          </person>
+          <person xml:id="DrugojDrugojOfitser" sex="MALE">
+            <persName>Другой другой Офицер</persName>
+            <persName xml:lang="de">Zweiter anderer Offizier</persName>
+          </person>
+          <person xml:id="PervyjLubitelIskusstva" sex="MALE">
+            <persName>первый любитель искусства</persName>
+            <persName xml:lang="de">Erster Kunstliebhaber</persName>
+          </person>
+          <person xml:id="VtorojLubitelIskusstva" sex="MALE">
+            <persName>второй любитель искусства</persName>
+            <persName xml:lang="de">Zweiter Kunstliebhaber</persName>
+          </person>
+          <person xml:id="TretijLubitelIskusstva" sex="MALE">
+            <persName>третий любитель искусства</persName>
+            <persName xml:lang="de">Dritter Kunstliebhaber</persName>
+          </person>
+          <person xml:id="ChetvertyjLubitelIskusstva" sex="MALE">
+            <persName>четвертый любитель искусства</persName>
+            <persName xml:lang="de">Vierter Kunstliebhaber</persName>
+          </person>
+          <person xml:id="PjatyjLubitelIskusstva" sex="MALE">
+            <persName>пятый любитель искусства</persName>
+            <persName xml:lang="de">Fünfter Kunstliebhaber</persName>
+          </person>
+          <person xml:id="NomerOdin" sex="MALE">
+            <persName>№ 1</persName>
+            <persName xml:lang="de">Nr. 1</persName>
+          </person>
+          <person xml:id="NomerDva" sex="MALE">
+            <persName>№ 2</persName>
+            <persName xml:lang="de">Nr. 2</persName>
+          </person>
+          <person xml:id="GospodinA" sex="MALE">
+            <persName>Господин А</persName>
+            <persName xml:lang="de">Herr A.</persName>
+          </person>
+          <person xml:id="GospodinB" sex="MALE">
+            <persName>Господин Б</persName>
+            <persName xml:lang="de">Herr B.</persName>
+          </person>
+          <person xml:id="OchenSkromnoOdetyjChelovek" sex="MALE">
+            <persName>Очень скромно одетый человек</persName>
+            <persName xml:lang="de">Der sehr bescheiden gekleidete Mann</persName>
+          </person>
+          <person xml:id="SinijArmjak" sex="MALE">
+            <persName>Синий армяк</persName>
+            <persName xml:lang="de">Der blaue Bauernrock</persName>
+          </person>
+          <person xml:id="GospodinV" sex="MALE">
+            <persName>Господин В</persName>
+            <persName xml:lang="de">Herr W.</persName>
+          </person>
+          <person xml:id="GospodinP" sex="MALE">
+            <persName>Господин П</persName>
+            <persName xml:lang="de">Herr P.</persName>
+          </person>
+          <person xml:id="KnjazN" sex="MALE">
+            <persName>Князь N</persName>
+            <persName xml:lang="de">Fürst N.</persName>
+          </person>
+          <person xml:id="Statskij" sex="MALE">
+            <persName>Статский</persName>
+            <persName xml:lang="de">Zivilist</persName>
+          </person>
+          <person xml:id="Voennyj" sex="MALE">
+            <persName>Военный</persName>
+            <persName xml:lang="de">Militär</persName>
+          </person>
+          <person xml:id="OdnaBekesha_2" sex="MALE">
+            <persName>Первая бекеша</persName>
+            <persName xml:lang="de">Erster Pelzüberrock</persName>
+          </person>
+          <person xml:id="DrugajaBekesha_2" sex="MALE">
+            <persName>Другая бекеша</persName>
+            <persName xml:lang="de">Der andere Pelzüberrock</persName>
+          </person>
+          <person xml:id="SvetskajaDama" sex="FEMALE">
+            <persName>Светская дама</persName>
+            <persName xml:lang="de">Eine Weltdame</persName>
+          </person>
+          <person xml:id="MuzhchinaVMundire" sex="MALE">
+            <persName>Мужчина в мундире</persName>
+            <persName xml:lang="de">Mann in Uniform</persName>
+          </person>
+          <person xml:id="MuzhchinaVoFrake" sex="MALE">
+            <persName>Мужчина во фраке</persName>
+            <persName xml:lang="de">Mann im Frack</persName>
+          </person>
+          <person xml:id="PervyjMujchina" sex="MALE">
+            <persName>Один из мужчин</persName>
+            <persName xml:lang="de">Der erste Mann</persName>
+          </person>
+          <person xml:id="VtorojMujchina" sex="MALE">
+            <persName>Второй из мужчин</persName>
+            <persName xml:lang="de">Der zweite Mann</persName>
+          </person>
+          <person xml:id="TretijMujchina" sex="MALE">
+            <persName>Третий из мужчин</persName>
+            <persName xml:lang="de">Der dritte Mann</persName>
+          </person>
+          <person xml:id="MuzhPervojDamy" sex="MALE">
+            <persName>Муж</persName>
+            <persName xml:lang="de">Der Gatte der ersten Dame</persName>
+          </person>
+          <person xml:id="GospodinN" sex="MALE">
+            <persName>Господин N</persName>
+            <persName xml:lang="de">Herr N.</persName>
+          </person>
+          <person xml:id="PervajaMolodajaDama" sex="FEMALE">
+            <persName>Первая молодая дама</persName>
+            <persName xml:lang="de">Erste junge Dame</persName>
+          </person>
+          <person xml:id="VtorajaMolodajaDama" sex="FEMALE">
+            <persName>Вторая молодая дама</persName>
+            <persName xml:lang="de">Zweite junge Dame</persName>
+          </person>
+          <person xml:id="MuzhVtorojDamy" sex="MALE">
+            <persName>Муж второй дамы</persName>
+            <persName xml:lang="de">Der Gatte der zweiten Dame</persName>
+          </person>
+          <person xml:id="PervyjZritel" sex="MALE">
+            <persName>Один из двух вышедших зрителей</persName>
+            <persName xml:lang="de">Erster Zuschauer</persName>
+          </person>
+          <person xml:id="VtorojZritel" sex="MALE">
+            <persName>Второй из двух вышедших зрителей</persName>
+            <persName xml:lang="de">Zweiter Zuschauer</persName>
+          </person>
+          <person xml:id="OdinChinovnik" sex="MALE">
+            <persName>Один чиновник</persName>
+            <persName xml:lang="de">Ein Beamter</persName>
+          </person>
+          <person xml:id="DrugojChinovnik" sex="MALE">
+            <persName>Другой чиновник</persName>
+            <persName xml:lang="de">Ein anderer Beamter</persName>
+          </person>
+          <person xml:id="OdinMolodoj" sex="MALE">
+            <persName>Один молодой человек</persName>
+            <persName xml:lang="de">Ein junger Mann</persName>
+          </person>
+          <person xml:id="DrugojMolodoj" sex="MALE">
+            <persName>Другой молодой человек</persName>
+            <persName xml:lang="de">Ein anderer junger Mann</persName>
+          </person>
+          <person xml:id="MolodenkijChinovnikUklonchivogoSvojstva" sex="MALE">
+            <persName>Молоденький чиновник уклончивого свойства</persName>
+            <persName xml:lang="de">Ein jugendlicher Beamter nachgiebiger Eigenschaft</persName>
+          </person>
+          <person xml:id="GospodinVShineli" sex="MALE">
+            <persName>Господин в шинели</persName>
+            <persName xml:lang="de">Der Herr im Mantel</persName>
+          </person>
+          <person xml:id="PervyjHoroshoOdetyj" sex="MALE">
+            <persName>Первый хорошо одетый человек</persName>
+            <persName xml:lang="de">Der erste gut Angekleidete</persName>
+          </person>
+          <person xml:id="VtorojHoroshoOdetyj" sex="MALE">
+            <persName>Второй хорошо одетый человек</persName>
+            <persName xml:lang="de">Der zweite gut Angekleidete</persName>
+          </person>
+          <person xml:id="ChinovnikRazgovorchivogoSvojstva" sex="MALE">
+            <persName>Чиновник разговорчивого свойства</persName>
+            <persName xml:lang="de">Ein Beamter gesprächiger Eigenschaft</persName>
+          </person>
+          <person xml:id="GolosIzTolpy_1" sex="UNKNOWN">
+            <persName>Голос из толпы</persName>
+            <persName xml:lang="de">Stimme aus der Menge</persName>
+          </person>
+          <person xml:id="Ofitser" sex="MALE">
+            <persName>Офицер</persName>
+            <persName xml:lang="de">Offizier</persName>
+          </person>
+          <person xml:id="Kupets" sex="MALE">
+            <persName>Купец</persName>
+            <persName xml:lang="de">Kaufmann</persName>
+          </person>
+          <person xml:id="GolosIzTolpy_2" sex="UNKNOWN">
+            <persName>Голос из толпы</persName>
+            <persName xml:lang="de">Stimme aus der Menge</persName>
+          </person>
+          <person xml:id="RaznyeGolosa" sex="UNKNOWN">
+            <persName>Разные голоса</persName>
+            <persName xml:lang="de">Verschiedene Stimmen</persName>
+          </person>
+          <person xml:id="GolosVOdnomKontseTolpy" sex="UNKNOWN">
+            <persName>Голос в одном конце толпы</persName>
+            <persName xml:lang="de">Stimme an einem Ende der Menge</persName>
+          </person>
+          <person xml:id="GolosVDrugomKontse" sex="UNKNOWN">
+            <persName>Голос в другом конце</persName>
+            <persName xml:lang="de">Stimme am anderen Ende</persName>
+          </person>
+          <person xml:id="GolosKuptsa" sex="MALE">
+            <persName>Голос купца</persName>
+            <persName xml:lang="de">Stimme eines Kaufmanns</persName>
+          </person>
+          <person xml:id="GolosGospodinaPooschritelnogoSvojstva" sex="MALE">
+            <persName>Голос господина поощрительного свойства</persName>
+            <persName xml:lang="de">Stimme eines Herrn aufmunternder Eigenschaft</persName>
+          </person>
+          <person xml:id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" sex="MALE">
+            <persName>Голос сердитого чиновника, но, как видно, опытного</persName>
+            <persName xml:lang="de">Stimme eines bösen Beamten, der, wie man sieht, erfahren
+              ist</persName>
+          </person>
+          <person xml:id="GolosDrugogoChinovnikaIzTolpy" sex="MALE">
+            <persName>Голос другого чиновника из толпы</persName>
+            <persName xml:lang="de">Stimme eines anderen Beamten aus der Menge</persName>
+          </person>
+          <person xml:id="NeizvestnyjGolos" sex="UNKNOWN">
+            <persName>Неизвестный голос</persName>
+            <persName xml:lang="de">Eine unbekannte Stimme</persName>
+          </person>
+          <person xml:id="PervyjOfitserIzTolpy" sex="MALE">
+            <persName>Первый офицер из толпы</persName>
+            <persName xml:lang="de">Erster Offizier</persName>
+          </person>
+          <person xml:id="VtorojOfitserIzTolpy" sex="MALE">
+            <persName>Второй офицер из толпы</persName>
+            <persName xml:lang="de">Zweiter Offizier</persName>
+          </person>
+          <person xml:id="ChinovnikVazhnojNaruzhnosti" sex="MALE">
+            <persName>Чиновник важной наружности</persName>
+            <persName xml:lang="de">Ein Beamter von bedeutendem Äußeren</persName>
+          </person>
+          <person xml:id="GolosVNarode" sex="UNKNOWN">
+            <persName>Голос в народе</persName>
+            <persName xml:lang="de">Stimme aus dem Volk</persName>
+          </person>
+          <person xml:id="KrasivyjIPlotnyjGospodin" sex="MALE">
+            <persName>Красивый и плотный господин</persName>
+            <persName xml:lang="de">Ein schöner und korpulenter Herr</persName>
+          </person>
+          <person xml:id="NevzrachnyjNoJadovitogoSvojstvaGospodin" sex="MALE">
+            <persName>Невзрачный, но ядовитого свойства господин</persName>
+            <persName xml:lang="de">Der kleine und unansehnliche Herr recht giftiger
+              Eigenschaft</persName>
+          </person>
+          <person xml:id="Neznakomets" sex="MALE">
+            <persName>Незнакомец</persName>
+            <persName xml:lang="de">Der Unbekannte</persName>
+          </person>
+          <person xml:id="NeznakomyjSosed" sex="MALE">
+            <persName>Незнакомый сосед</persName>
+            <persName xml:lang="de">Der unbekannte Nachbar</persName>
+          </person>
+          <person xml:id="PervyjNaStorone" sex="MALE">
+            <persName>Первый из разговора на стороне</persName>
+            <persName xml:lang="de">Der Erste der abseits stehenden Gruppe</persName>
+          </person>
+          <person xml:id="GospodinSDrugojStoronyGruppy" sex="MALE">
+            <persName>Господин с другой стороны группы</persName>
+            <persName xml:lang="de">Der Herr auf der anderen Seite der Gruppe</persName>
+          </person>
+          <person xml:id="GospodinPolozhitelnogoSvojstva" sex="MALE">
+            <persName>Господин положительного свойства</persName>
+            <persName xml:lang="de">Der Herr mit positiven Eigenschaften</persName>
+          </person>
+          <person xml:id="GospodinOtritsatelnogoSvojstva" sex="MALE">
+            <persName>Господин отрицательного свойства</persName>
+            <persName xml:lang="de">Der Herr mit negativen Eigenschaften</persName>
+          </person>
+          <person xml:id="ProstoVral" sex="MALE">
+            <persName>Просто враль</persName>
+            <persName xml:lang="de">Einfach ein Lügner</persName>
+          </person>
+          <person xml:id="GospodinDobrodushnogoSvojstva" sex="MALE">
+            <persName>Господин добродушного свойства</persName>
+            <persName xml:lang="de">Der Herr gutmütiger Eigenschaft</persName>
+          </person>
+          <person xml:id="GospodinHladnokrovnogoSvojstva" sex="MALE">
+            <persName>Господин хладнокровного свойства</persName>
+            <persName xml:lang="de">Der Herr kaltblütiger Eigenschaft</persName>
+          </person>
+          <person xml:id="DamaSrednegoSveta" sex="FEMALE">
+            <persName>Дама среднего света</persName>
+            <persName xml:lang="de">Dame mittlerer Gesellschaft</persName>
+          </person>
+          <person xml:id="GospodinSVesom" sex="MALE">
+            <persName>Господин с весом</persName>
+            <persName xml:lang="de">Ein Herr mit Gewicht</persName>
+          </person>
+          <person xml:id="VtorojGospodin" sex="MALE">
+            <persName>Второй господин</persName>
+            <persName xml:lang="de">Ein zweiter Herr</persName>
+          </person>
+          <person xml:id="TretijGospodin" sex="MALE">
+            <persName>Третий господин</persName>
+            <persName xml:lang="de">Ein dritter Herr</persName>
+          </person>
+          <person xml:id="PervyjVprochemBlagorodnyj" sex="MALE">
+            <persName>Первый человек, Бог весть какого свойства, впрочем, благородной наружности и
+              прилично одетый</persName>
+            <persName xml:lang="de">Erster aus der Gruppe von Leuten von anständigem
+              Äußeren</persName>
+          </person>
+          <person xml:id="VtorojVprochemBlagorodnyj" sex="MALE">
+            <persName>Второй человек, Бог весть какого свойства, впрочем, благородной наружности и
+              прилично одетый</persName>
+            <persName xml:lang="de">Zweiter aus der Gruppe von Leuten von anständigem
+              Äußeren</persName>
+          </person>
+          <person xml:id="TretijVprochemBlagorodnyj" sex="MALE">
+            <persName>Третий человек, Бог весть какого свойства, впрочем, благородной наружности и
+              прилично одетый</persName>
+            <persName xml:lang="de">Dritter aus der Gruppe von Leuten von anständigem
+              Äußeren</persName>
+          </person>
+          <person xml:id="DobrodushnyjChinovnik" sex="MALE">
+            <persName>Добродушный чиновник</persName>
+            <persName xml:lang="de">Ein gutmütiger Beamter</persName>
+          </person>
+          <person xml:id="OdinIzNaroda" sex="MALE">
+            <persName>Один из народа</persName>
+            <persName xml:lang="de">Einer aus dem Volk</persName>
+          </person>
+          <person xml:id="OdinIzGospod" sex="MALE">
+            <persName>Один из господ</persName>
+            <persName xml:lang="de">Einer der Herren</persName>
+          </person>
+          <person xml:id="OtstavshijChinovnik" sex="MALE">
+            <persName>Отставший чиновник</persName>
+            <persName xml:lang="de">Ein nachgebliebener Beamter</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#ds" when="2017-03-31">converted from source</change>
+        <change who="#GG #FF" when="2017-05-19">started segmentation</change>
+        <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff" when="2017-07-05">double-checked segmentation; particDesc in order of
+          appearance; added German translations to character names in particDesc</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Театральный разъезд после представления новой комедии</titlePart>
+      </docTitle>
+    </front>
+    <body>
+      <div type="configuration">
+        <stage>Сени театра. С одной стороны видны лестницы, ведущие в ложи и галереи; посредине вход
+          в кресла и амфитеатр; с другой стороны выход. Слышен отдаленный гул рукоплесканий.</stage>
+        <sp who="#AvtorPesy">
+          <speaker>Автор пьесы</speaker>
+          <stage type="delivery">
+                        <move who="#AvtorPesy" type="enter"/>(выходя).</stage>
+          <p>Я вырвался, как из омута! Вот наконец и крики и рукоплесканья! Весь театр гремит!.. Вот
+            и слава! Боже, как бы забилось назад тому лет семь, восемь мое сердце, как бы
+            встрепенулось все во мне! Но это было давно. Я был тогда молод, дерзкомыслен, как юноша.
+            Благ Промысл, не давший вкусить мне ранних восторгов и хвал! Теперь... Но разумный холод
+            лет умудрит хоть кого. Узнаешь наконец, что рукоплесканья еще не много значат и готовы
+            служить всему наградой: актер ли постигнет всю тайну души и сердца человека, танцор ли
+            добьется уменья выводить вензеля ногами, фокусник ли — всем им гремит рукоплесканье!
+            Голова ли думает, сердце ли чувствует, звучит ли глубина души, работают ли ноги, или
+            руки перевертывают стаканы — все покрывается равными плесками. Нет, не рукоплесканий я
+            бы теперь желал: я бы желал теперь вдруг переселиться в ложи, в галереи, в кресла, в
+            раек, проникнуть всюду, услышать всех мненья и впечатленья, пока они еще девственны и
+            свежи, пока еще не покорились толкам и сужденьям знатоков и журналистов, пока каждый под
+            влиянием своего собственного суда. Мне это нужно: я комик. Все другие произведения и
+            роды подлежат суду немногих, один комик подлежит суду всех; над ним всякий зритель имеет
+            уже право, всякого званья человек уже становится судьей его. О, как бы хотел я, чтобы
+            каждый указал мне мои недостатки и пороки! Пусть даже посмеется надо мной, пусть
+            недоброжелательство правит устами его, пристрастье, негодованье, ненависть — все что
+            угодно, но пусть только произнесутся эти толки. Не может без причины произнестись слово,
+            и везде может зарониться искра правды. Тот, кто решился указать смешные стороны другим,
+            тот должен разумно принять указанья слабых и смешных собственных сторон. Попробую,
+            останусь здесь в сенях во все время разъезда. Нельзя, чтобы не было толков о новой
+            пьесе. Человек под влиянием первого впечатления всегда жив и спешит им поделиться с
+            другим.</p>
+          <stage type="delivery">(Отходит в сторону.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>
+                    <move who="#OdinIzPrilichnoOdetyhLudei" type="enter"/>Показывается несколько прилично
+          одетых людей; один говорит, обращаясь к другому:</stage>
+        <sp who="#OdinIzPrilichnoOdetyhLudei">
+          <p>Выйдем лучше теперь. Играться будет незначительный водевиль.</p>
+        </sp>
+        <stage>
+                    <move who="#OdinIzPrilichnoOdetyhLudei" type="exit"/>Оба уходят.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Два comme il faut, плотного свойства, сходят с лестницы.</stage>
+        <sp who="#PervyjCommeIlFaut">
+          <speaker>Первый comme il faut.</speaker>
+          <p>Хорошо, если бы полиция не далеко отогнала мою карету. Как зовут эту молоденькую
+            актрису, ты не знаешь?</p>
+        </sp>
+        <sp who="#VtorojCommeIlFaut">
+          <speaker>Второй comme il faut.</speaker>
+          <p>Нет, а очень недурна.</p>
+        </sp>
+        <sp who="#PervyjCommeIlFaut">
+          <speaker>Первый comme il faut.</speaker>
+          <p>Да, недурна; но все чего-то еще нет. Да, рекомендую: новый ресторан; вчера нам подал
+            свежий зеленый горох</p>
+          <stage type="delivery">(целует концы пальцев)</stage>
+          <p>— прелесть!</p>
+        </sp>
+        <stage>Уходят оба.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Бежит офицер, другой удерживает его за руку.</stage>
+        <sp who="#PervyjOfitser_1">
+          <speaker>Первый офицер.</speaker>
+          <p>Да останемся!</p>
+        </sp>
+        <sp who="#VtorojOfitser_1">
+          <speaker>Другой офицер.</speaker>
+          <p>Нет, брат, на водевиль и калачом не заманишь. Знаем мы эти пьесы, которые даются на
+            закуску: лакеи вместо актеров, а женщины — урод на уроде.</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#SvetskijChelovekSchegolevatoOdetyj">
+          <speaker>Светский человек, щеголевато одетый</speaker>
+          <stage type="delivery">(сходя с лестницы).</stage>
+          <p>Плут портной претесно сделал мне панталоны, все время было страх неловко сидеть. За это
+            я намерен еще проволочить его и годика два не заплачу долгов.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#TozheSvetskijChelovekPoplotnee">
+          <speaker>Тоже светский человек, поплотнее</speaker>
+          <stage type="delivery">(говорит с живостью другому).</stage>
+          <p>Никогда, никогда, поверь мне, он с тобою не сядет играть. Меньше как по полтораста
+            рублей роберт он не играет. Я знаю это хорошо, потому что шурин мой, Пафнутьев, всякий
+            день с ним играет.</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#AvtorPesy">
+          <speaker>Автор пьесы</speaker>
+          <stage type="delivery">(про себя).</stage>
+          <p>И все еще никто ни слова о комедии!</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#ChinovnikSrednihLet">
+          <speaker>Чиновник средних лет</speaker>
+          <stage type="delivery">(выходя с растопыренными руками).</stage>
+          <p>Это просто черт знает что такое! Этакое... этакое... Это ни на что не похоже.</p>
+          <stage type="delivery">(Ушел.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#GospodinNeskolkoBezzabotnyjNaschetLiteratury">
+          <speaker>Господин, несколько беззаботный насчет литературы</speaker>
+          <stage type="delivery">(обращаясь к другому).</stage>
+          <p>Ведь это, однако ж, кажется, перевод?</p>
+        </sp>
+        <sp who="#Drugoj">
+          <speaker>Другой.</speaker>
+          <p>Помилуйте, что за перевод! Действие происходит в России, наши обычаи и чины даже.</p>
+        </sp>
+        <sp who="#GospodinNeskolkoBezzabotnyjNaschetLiteratury">
+          <speaker>Господин, беззаботный насчет литературы.</speaker>
+          <p>Я помню, однако ж, было что-то на французском, не совсем в этом роде.</p>
+        </sp>
+        <stage>Оба уходят.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#OdinIzDvuhZritelej">
+          <speaker>Один из двух зрителей</speaker>
+          <stage type="delivery">(тоже выходящих вон).</stage>
+          <p>Теперь еще ничего нельзя знать. Погоди, что скажут в журналах, тогда и узнаешь.</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#OdnaBekesha_1">
+          <speaker>Две бекеши</speaker>
+          <stage type="delivery">(одна другой).</stage>
+          <p>Ну, как вы? Я бы желал знать ваше мнение о комедии.</p>
+        </sp>
+        <sp who="#DrugajaBekesha_1">
+          <speaker>Другая бекеша</speaker>
+          <stage type="delivery">(делая значительные движения губами).</stage>
+          <p>Да, конечно, нельзя сказать, чтобы не было того... в своем роде... Ну конечно, кто ж
+            против этого и стоит, чтобы опять не было и... где ж, так сказать... а впрочем...</p>
+          <stage type="delivery">(Утвердительно сжимая губами.)</stage>
+          <p>Да, да.</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#AvtorPesy">
+          <speaker>Автор</speaker>
+          <stage type="delivery">(про себя).</stage>
+          <p>Ну, эти пока еще не много сказали. Толки, однако же, будут: я вижу, впереди горячо
+            размахивают руками.</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>Два офицера.</stage>
+        <sp who="#PervyjOfitser_2">
+          <speaker>Первый.</speaker>
+          <p>Я еще никогда так не смеялся.</p>
+        </sp>
+        <sp who="#VtorojOfitser_2">
+          <speaker>Второй.</speaker>
+          <p>Я полагаю: отличная комедия.</p>
+        </sp>
+        <sp who="#PervyjOfitser_2">
+          <speaker>Первый.</speaker>
+          <p>Ну нет, посмотрим еще, что скажут в журналах; нужно подвергнуть суду критики... Смотри,
+            смотри!</p>
+          <stage type="delivery">(Толкает его под руку.)</stage>
+        </sp>
+        <sp who="#VtorojOfitser_2">
+          <speaker>Второй.</speaker>
+          <p>Что?</p>
+        </sp>
+        <sp who="#PervyjOfitser_2">
+          <speaker>Первый</speaker>
+          <stage type="delivery">(указывает пальцем на одного из двух идущих с лестницы).</stage>
+          <p>Литератор!</p>
+        </sp>
+        <sp who="#VtorojOfitser_2">
+          <speaker>Второй</speaker>
+          <stage type="delivery">(торопливо).</stage>
+          <p>Который?</p>
+        </sp>
+        <sp who="#PervyjOfitser_2">
+          <speaker>Первый.</speaker>
+          <p>Вот этот! чш! послушаем, что будут говорить.</p>
+        </sp>
+        <sp who="#VtorojOfitser_2">
+          <speaker>Второй.</speaker>
+          <p>А другой кто с ним?</p>
+        </sp>
+        <sp who="#PervyjOfitser_2">
+          <speaker>Первый.</speaker>
+          <p>Не знаю; неизвестно какой человек.</p>
+        </sp>
+        <stage>Оба офицера посторониваются и дают им место.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#NeizvestnoKakojChelovek">
+          <speaker>Неизвестно какой человек.</speaker>
+          <p>Я не могу судить относительно литературного достоинства, но, мне кажется, есть
+            остроумные заметки. Остро, остро.</p>
+        </sp>
+        <sp who="#Literator">
+          <speaker>Литератор.</speaker>
+          <p>Помилуйте, что ж тут остроумного? Что за низкий народ выведен, что за тон? Шутки самые
+            плоские; просто даже сально!</p>
+        </sp>
+        <sp who="#NeizvestnoKakojChelovek">
+          <speaker>Неизвестно какой человек.</speaker>
+          <p>А, это другое дело. Я и говорю: в отношении литературного достоинства я не могу судить;
+            я только заметил, что пьеса смешна, доставила удовольствие.</p>
+        </sp>
+        <sp who="#Literator">
+          <speaker>Литератор.</speaker>
+          <p>Да и не смешна. Помилуйте, что ж тут смешного, и в чем удовольствие? Сюжет
+            невероятнейший. Всё несообразности; ни завязки, ни действия, ни соображения
+            никакого.</p>
+        </sp>
+        <sp who="#NeizvestnoKakojChelovek">
+          <speaker>Неизвестно какой человек.</speaker>
+          <p>Ну да, против этого я и не говорю ничего. В литературном отношении так, в литературном
+            отношении она не смешна; но в отношении, так сказать, со стороны в ней есть...</p>
+        </sp>
+        <sp who="#Literator">
+          <speaker>Литератор.</speaker>
+          <p>Да что же есть? Помилуйте, и этого даже нет! Ну что за разговорный язык? Кто говорит
+            эдак в высшем обществе? Ну скажите сами, ну говорим ли мы с вами эдак?</p>
+        </sp>
+        <sp who="#NeizvestnoKakojChelovek">
+          <speaker>Неизвестно какой человек.</speaker>
+          <p>Это правда; это вы очень тонко заметили. Именно, я вот сам про это думал: в разговоре
+            благородства нет. Все лица, кажется, как будто не могут скрыть низкой природы своей —
+            это правда.</p>
+        </sp>
+        <sp who="#Literator">
+          <speaker>Литератор.</speaker>
+          <p>Ну, а вы еще хвалите!</p>
+        </sp>
+        <sp who="#NeizvestnoKakojChelovek">
+          <speaker>Неизвестно какой человек.</speaker>
+          <p>Кто ж хвалит? я не хвалю. Я сам теперь вижу, что пьеса — вздор. Но ведь вдруг нельзя же
+            этого узнать; я не могу судить в литературном отношении.</p>
+        </sp>
+        <stage>Оба уходят.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#EscheLiterator">
+          <speaker>Еще литератор</speaker>
+          <stage type="delivery">(входит в сопровождении слушателей, которым говорит, размахивая
+            руками).</stage>
+          <p>Поверьте мне, я знаю это дело: отвратительная пьеса! грязная, грязная пьеса! Нет ни
+            одного лица истинного, всё карикатуры! В натуре нет этого; поверьте мне, нет, я лучше
+            это знаю: я сам литератор. Говорят: живость, наблюдение... да ведь это все вздор, это
+            всё приятели, приятели хвалят, всё приятели! Я уже слышал, что его чуть не в Фонвизины
+            суют, а пьеса просто недостойна даже быть названа комедиею. Фарс, фарс, да и фарс самый
+            неудачный. Последняя пустейшая комедийка Коцебу в сравнении с нею Монблан перед
+            Пулковскою горою. Я это им всем докажу, докажу математически, как дважды два. Просто
+            друзья и приятели захвалили его не в меру, так вот он уж теперь, чай, думает о себе, что
+            он чуть-чуть не Шекспир. У нас всегда приятели захвалят. Вот, например, и Пушкин. Отчего
+            вся Россия теперь говорит о нем? Всё приятели: кричали, кричали, и потом вслед за ними и
+            вся Россия стала кричать.</p>
+          <stage type="delivery">(Уходит вместе с слушателями.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>Оба офицера подаются вперед и занимают их места.</stage>
+        <sp who="#PervyjOfitser_2">
+          <speaker>Первый.</speaker>
+          <p>Это справедливо, это совершенно справедливо: именно фарс; я это и прежде говорил:
+            глупый фарс, поддержанный приятелями. Признаюсь, на многое даже отвратительно было
+            смотреть.</p>
+        </sp>
+        <sp who="#VtorojOfitser_2">
+          <speaker>Второй.</speaker>
+          <p>Да ведь ты ж говорил, что еще никогда так не смеялся?</p>
+        </sp>
+        <sp who="#PervyjOfitser_2">
+          <speaker>Первый.</speaker>
+          <p>А это опять другое дело. Ты не понимаешь, тебе нужно растолковать. Тут что в этой
+            пьесе? Во-первых, завязки никакой, действия тоже нет, соображенья решительно никакого,
+            всё невероятности, и притом всё карикатуры.</p>
+        </sp>
+        <stage>Двое других офицеров позади.</stage>
+        <sp who="#OdinDrugojOfitser">
+          <speaker>Один</speaker>
+          <stage type="delivery">(другому).</stage>
+          <p>Кто это рассуждает? Кажется, из ваших?</p>
+          <stage>Другой, заглянув сбоку в лицо рассуждавшего, махнул рукой.</stage>
+          <p>Что, глуп?</p>
+        </sp>
+        <sp who="#DrugojDrugojOfitser">
+          <speaker>Другой.</speaker>
+          <p>Нет, не то чтобы... У него есть ум, но сейчас по выходе журнала; а запоздала выходом
+            книжка — и в голове ничего. Но, однако ж, пойдем.</p>
+          <stage>Уходят.</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>Два любителя искусств.</stage>
+        <sp who="#PervyjLubitelIskusstva">
+          <speaker>Первый.</speaker>
+          <p>Я вовсе не из числа тех, которые прибегают только к словам: грязная, отвратительная,
+            дурного тона и тому подобное. Это уже доказанное почти дело, что такие слова большею
+            частью исходят из уст тех, которые сами очень сомнительного тона, толкуют о гостиных и
+            допускаются только в передние. Но не об них речь. Я говорю насчет того, что в пьесе
+            точно нет завязки.</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Да, если принимать завязку в том смысле, как ее обыкновенно принимают, то есть в смысле
+            любовной интриги, так ее точно нет. Но, кажется, уже пора перестать опираться до сих пор
+            на эту вечную завязку. Стоит вглядеться пристально вокруг. Все изменилось давно в свете.
+            Теперь сильней завязывает драму стремление достать выгодное место, блеснуть и затмить во
+            что бы ни стало другого, отмстить за пренебреженье, за насмешку. Не более ли теперь
+            имеют электричества чин, денежный капитал, выгодная женитьба, чем любовь?</p>
+        </sp>
+        <sp who="#PervyjLubitelIskusstva">
+          <speaker>Первый.</speaker>
+          <p>Все это хорошо; но и в этом отношении все-таки я не вижу в пьесе завязки.</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Я не буду теперь утверждать, есть ли в пьесе завязка или нет. Я скажу только, что
+            вообще ищут частной завязки и не хотят видеть общей. Люди простодушно привыкли уж к этим
+            беспрестанным любовникам, без женитьбы которых никак не может окончиться пьеса. Конечно,
+            это завязка, но какая завязка? — точный узелок на углике платка. Нет, комедия должна
+            вязаться сама собою, всей своей массою, в один большой, общий узел. Завязка должна
+            обнимать все лица, а не одно или два, — коснуться того, что волнует более или менее всех
+            действующих. Тут всякий герой; течение и ход пьесы производит потрясение всей машины: ни
+            одно колесо не должно оставаться как ржавое и не входящее в дело.</p>
+        </sp>
+        <sp who="#PervyjLubitelIskusstva">
+          <speaker>Первый.</speaker>
+          <p>Но все же не могут быть героями; один или два должны управлять другими?</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Совсем не управлять, а разве преобладать. И в машине одни колеса заметней и сильней
+            движутся, — их можно только назвать главными; но правит пьесою идея, мысль. Без нее нет
+            в ней единства. А завязать может все: самый ужас, страх ожидания, гроза идущего вдали
+            закона...</p>
+        </sp>
+        <sp who="#PervyjLubitelIskusstva">
+          <speaker>Первый.</speaker>
+          <p>Но это выходит уж придавать комедии какое-то значение более всеобщее.</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Да разве не есть это ее прямое и настоящее значение? Уже в самом начале комедия была
+            общественным, народным созданием. По крайней мере, такою показал ее сам отец ее,
+            Аристофан. После уже она вошла в узкое ущелье частной завязки, внесла любовный ход, одну
+            и ту же непременную завязку. Зато как слаба эта завязка у самых лучших комиков! как
+            ничтожны эти театральные любовники с их картонной любовью!</p>
+        </sp>
+        <sp who="#TretijLubitelIskusstva">
+          <speaker>Третий</speaker>
+          <stage type="delivery">(подходя и ударив слегка его по плечу).</stage>
+          <p>Ты не прав: любовь, так же как и другие чувства, может тоже войти в комедию.</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Я и не говорю, чтобы она не могла войти. Но только и любовь и все другие чувства, более
+            возвышенные, тогда только произведут высокое впечатление, когда будут развиты во всей
+            глубине. Занявшись ими, неминуемо должно пожертвовать всем прочим. Все то, что
+            составляет именно сторону комедии, тогда уже побледнеет и значение комедии общественной
+            непременно исчезнет.</p>
+        </sp>
+        <sp who="#TretijLubitelIskusstva">
+          <speaker>Третий.</speaker>
+          <p>Стало быть, предметом комедии должно быть непременно низкое? Комедия выйдет уже низкий
+            род.</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Для того, кто будет глядеть на слова, а не вникать в смысл, это так. Но разве
+            положительное и отрицательное не может послужить той же цели? Разве комедия и трагедия
+            не могут выразить ту же высокую мысль? Разве все, до малейшей излучины души подлого и
+            бесчестного человека не рисуют уже образ честного человека? Разве все это накопление
+            низостей, отступлений от законов и справедливости не дает уже ясно знать, чего требуют
+            от нас закон, долг и справедливость? В руках искусного врача и холодная и горячая вода
+            лечит с равным успехом одни и те же болезни. В руках таланта все может служить орудием к
+            прекрасному, если только нравится высокой мыслью послужить прекрасному.</p>
+        </sp>
+        <sp who="#ChetvertyjLubitelIskusstva">
+          <speaker>Четвертый</speaker>
+          <stage type="delivery">(подходя).</stage>
+          <p>Что может послужить прекрасному? и о чем у вас толки?</p>
+        </sp>
+        <sp who="#PervyjLubitelIskusstva">
+          <speaker>Первый.</speaker>
+          <p>Спор завязался у нас о комедии. Мы все говорим о комедии вообще, а никто еще не сказал
+            ничего о новой комедии. Что вы скажете?</p>
+        </sp>
+        <sp who="#ChetvertyjLubitelIskusstva">
+          <speaker>Четвертый.</speaker>
+          <p>А вот что скажу: виден талант, наблюдение жизни, много смешного, верного, взятого с
+            натуры; но вообще во всей пьесе чего-то нет. Как-то не видишь ни завязки, ни развязки.
+            Странно, что наши комики никак не могут обойтись без правительства. Без него у нас не
+            развяжется ни одна комедия.</p>
+        </sp>
+        <sp who="#TretijLubitelIskusstva">
+          <speaker>Третий.</speaker>
+          <p>Это правда. А впрочем, с другой стороны, это очень естественно. Мы все принадлежим
+            правительству, все почти служим; интересы всех нас более или менее соединены с
+            правительством. Стало быть, не мудрено, что это отражается в созданьях наших
+            писателей.</p>
+        </sp>
+        <sp who="#ChetvertyjLubitelIskusstva">
+          <speaker>Четвертый.</speaker>
+          <p>Так. Ну и пусть эта связь будет слышна. Но смешно то, что пьеса никак не может
+            кончиться без правительства. Оно непременно явится, точно неизбежный рок в трагедиях у
+            древних.</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Ну, видите: стало быть, это уже что-то невольное у наших комиков. Стало быть, это уже
+            составляет какой-то отличительный характер нашей комедии. В груди нашей заключена
+            какая-то тайная вера в правительство. Что ж? тут нет ничего дурного: дай Бог, чтобы
+            правительство всегда и везде слышало призванье свое быть представителем Провиденья на
+            земле и чтобы мы веровали в него, как древние веровали в рок, настигавший
+            преступленья.</p>
+        </sp>
+        <sp who="#PjatyjLubitelIskusstva">
+          <speaker>Пятый.</speaker>
+          <p>Здравствуйте, господа! Я только и слышу слово «правительство». Комедия возбудила крики
+            и толки...</p>
+        </sp>
+        <sp who="#VtorojLubitelIskusstva">
+          <speaker>Второй.</speaker>
+          <p>Поговоримте лучше об этих толках и криках у меня, чем здесь, в театральных сенях.</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Несколько почтенных прилично одетых людей появляются один за другим.</stage>
+        <sp who="#NomerOdin">
+          <speaker>№ 1.</speaker>
+          <p>Так, так, я вижу: это верно, что есть у нас и случается в иных местах и похуже; но для
+            какой цели, к чему выводить это? — вот вопрос. Зачем эти представления? какая польза от
+            них? вот что разрешите мне! Что мне нужды знать, что в таком-то месте есть плуты? Я
+            просто... я не понимаю надобности подобных представлений.</p>
+          <stage type="delivery">(Уходит. )</stage>
+        </sp>
+        <sp who="#NomerDva">
+          <speaker>№ 2.</speaker>
+          <p>Нет, это не осмеяние пороков; это отвратительная насмешка над Россиею — вот что. Это
+            значит выставить в дурном виде самое правительство, потому что выставлять дурных
+            чиновников и злоупотребления, которые бывают в разных сословиях, — значит выставить
+            самое правительство. Просто даже не следует дозволять таких представлений.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>Входят господин А. и господин Б., люди немаловажных чинов.</stage>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <p>Я не насчет этого говорю; напротив, злоупотребленья нам нужно показывать; нужно, чтобы
+            мы видели свои проступки; и я ничуть не разделяю мнений многих, чересчур разгорячившихся
+            патриотов; но только мне кажется, что не слишком ли много здесь чего-то
+            печального...</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Я бы очень хотел, чтобы вы услышали замечание одного очень скромно одетого человека,
+            который сидел возле меня в креслах... Ах, вот он сам!</p>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <p>Кто?</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Именно этот очень скромно одетый человек.</p>
+          <stage type="delivery">(Обращаясь к нему.)</stage>
+          <p>Мы с вами не кончили разговора, которого начало было так для меня интересно.</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>А я, признаюсь, очень рад продолжать его. Сейчас только я слышал толки, именно: что это
+            все неправда, что это насмешка над правительством, над нашими обычаями и что этого не
+            следует вовсе представлять. Это заставило меня мысленно припомнить и обнять всю пьесу,
+            и, признаюсь, выражение комедии показалось мне теперь еще даже значительней. В ней, как
+            мне кажется, сильней и глубже всего поражено смехом лицемерие — благопристойная маска,
+            под которою является низость и подлость; плут, корчащий рожу благонамеренного человека.
+            Признаюсь, я чувствовал радость, видя, как смешны благонамеренные слова в устах плута и
+            как уморительно смешна стала всем, от кресел до райка, надетая им маска. И после этого
+            есть люди, которые говорят, что не нужно выводить этого на сцену! Я слышал одно
+            замечание, сделанное, как мне показалось, впрочем, довольно порядочным человеком: «А что
+            скажет народ, когда увидит, что у нас бывают вот какие злоупотребления?»</p>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <p>Признаюсь, вы извините меня, но мне самому тоже невольно представился вопрос: а что
+            скажет народ наш, глядя на все это?</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>Что скажет народ?</p>
+          <stage type="delivery">(Посторонивается.)</stage>
+        </sp>
+        <stage>Проходят двое в армяках.</stage>
+        <sp who="#SinijArmjak">
+          <speaker>Синий армяк</speaker>
+          <stage type="delivery">(серому).</stage>
+          <p>Небось прыткие были воеводы, а все побледнели, когда пришла царская расправа!</p>
+        </sp>
+        <stage>Оба выходят вон.</stage>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек</speaker>
+          <p>ек. Вот что скажет народ, вы слышали?</p>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <p>Что?</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>Скажет: «Небось прыткие были воеводы, а все побледнели, когда пришла царская расправа!»
+            Слышите ли вы, как верен естественному чутью и чувству человек? Как верен самый простой
+            глаз, если он не отуманен теориями и мыслями, надерганными из книг, а черплет их из
+            самой природы человека! Да разве это не очевидно ясно, что после такого представления
+            народ получит более веры в правительство? Да, для него нужны такие представления. Пусть
+            он отделит правительство от дурных исполнителей правительства. Пусть видит он, что
+            злоупотребления происходят не от правительства, а от не понимающих требований
+            правительства, от не хотящих ответствовать правительству. Пусть он видит, что благородно
+            правительство, что бдит равно над всеми его недремлющее око, что рано или поздно
+            настигнет оно изменивших закону, чести и святому долгу человека, что побледнеют пред ним
+            имеющие нечистую совесть. Да, эти представления ему должно видеть; поверьте, что если и
+            случится ему испытать на себе прижимки и несправедливости, он выйдет утешенный после
+            такого представления, с твердой верой в недремлющий, высший закон. Мне нравится тоже еще
+            замечание: «народ получит дурное мнение о своих начальниках». То есть они воображают,
+            что народ только здесь, в первый раз в театре, увидит своих начальников; что если дома
+            какой-нибудь плут староста сожмет его в лапу, так этого он никак не увидит, а вот как
+            пойдет в театр, так тогда и увидит. Они, право, народ наш считают глупее бревна, —
+            глупым до такой степени, что будто уже он не в силах отличить, который пирог с мясом, а
+            который с кашей. Нет, теперь мне кажется, даже хорошо то, что не выведен на сцену
+            честный человек. Самолюбив человек: выстави ему при множестве дурных сторон одну
+            хорошую, он уже гордо выйдет из театра. Нет, хорошо, что выставлены одни только
+            исключенья и пороки, которые колют теперь до того глаза, что не хотят быть их
+            соотечественниками, стыдятся даже сознаться, что это может быть.</p>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <p>Но неужели, однако ж, существуют у нас точь-в-точь такие люди?</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>Позвольте мне сказать вам на это вот что: я не знаю, почему мне всякий раз становится
+            грустно, когда я слышу подобный вопрос. Я могу с вами говорить откровенно: в чертах лиц
+            ваших я вижу что-то такое, что располагает меня к откровенности. Человек прежде всего
+            делает запрос: «Неужели существуют такие люди?» Но когда было видено, чтобы человек
+            сделал такой вопрос: «Неужели я сам чист вовсе от таких пороков?» Никогда, никогда! Да
+            вот что, — я буду с вами говорить прямодушно. У меня доброе сердце, любви много в моей
+            груди, но если бы вы знали, каких душевных усилий и потрясений мне было нужно, чтобы не
+            впасть во многие порочные наклонности, в которые впадаешь невольно, живя с людьми! И как
+            я могу сказать теперь, что во мне нет сию же минуту тех самых наклонностей, которым
+            только что посмеялись назад тому десять минут все и над которыми я сам посмеялся.</p>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <stage type="delivery">(после некоторого молчания).</stage>
+          <p>Признаюсь, над словами вашими призадумаешься. И когда я вспомню, представлю себе, как
+            гордыми сделало нас европейское наше воспитание, вообще как скрыло нас от самих себя,
+            как свысока и с каким презрением глядим мы на тех, которые не получили подобной нам
+            наружной полировки, как всякий из нас ставит себя чуть не святым, а о дурном говорит
+            вечно в третьем лице, — то, признаюсь, невольно становится грустно душе... Но простите
+            мою нескромность, — вы, впрочем, виноваты в ней сами, — позвольте узнать: с кем я имею
+            удовольствие говорить?</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>А я не более не менее, как один из тех чиновников, в должности которых выведены были
+            лица комедии, и третьего дня только приехал из своего городка.</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Я бы этого не мог думать. И неужели вам не кажется после этого обидно жить и служить с
+            такими людьми?</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>Обидно? А вот что я вам скажу на это: признаюсь, мне приходилось часто терять терпенье.
+            В городке нашем не все чиновники из честного десятка; часто приходится лезть на стену,
+            чтобы сделать какое-нибудь доброе дело. Уже несколько раз хотел было я бросить службу;
+            но теперь, именно после этого представления, я чувствую свежесть и вместе с тем новую
+            силу продолжать свое поприще. Я утешен уже мыслью, что подлость у нас не остается
+            скрытою или потворствуемой, что там, в виду всех благородных людей, она поражена
+            осмеянием, что есть перо, которое не укоснит обнаружить низкие наши движения, хотя это и
+            не льстит национальной нашей гордости, и что есть благородное правительство, которое
+            дозволит показать это всем, кому следует, в очи, — и уж это одно дает мне рвение
+            продолжать мою полезную службу.</p>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <p>Позвольте сделать вам одно предложение. Я занимаю государственную должность довольно
+            значительную. Мне нужны истинно благородные и честные помощники. Я вам предлагаю место,
+            где вам будет обширное поле действия, где вы получите несравненно более выгод и будете
+            на виду.</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>Позвольте мне от всей души и от всего сердца поблагодарить вас за такое предложение и
+            вместе с тем позвольте отказаться от него. Если я уже чувствую, что полезен своему
+            месту, то благородно ли с моей стороны его бросить? И как я могу оставить его, не будучи
+            уверен твердо, что после меня не сядет какой-нибудь молодец, который начнет делать
+            прижимки? Если же это предложение сделано вами в виде награды, то позвольте сказать вам:
+            я аплодировал автору пьесы наравне с другими, но я не вызывал его. Какая ему награда?
+            Пьеса понравилась — хвали ее, а он — он только выполнил долг свой. У нас, право, до того
+            дошло, что не только по случаю какого-нибудь подвига, но просто, если только иной не
+            нагадит никому в жизни и на службе, то уже считает себя Бог весть каким добродетельным
+            человеком, сердится сурьезно, если не замечают и не награждают его. «Помилуйте, говорит,
+            я целый век честно жил, совсем почти не делал подлостей, — как же мне не дают ни чина,
+            ни ордена?» Нет, по мне, кто не в силах быть благородным без поощрения — не верю я его
+            благородству; не сто́ит гроша его мышиное благородство.</p>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <p>По крайней мере, вы мне не откажете в вашем знакомстве? Простите мою неотвязчивость; вы
+            сами видите, что она есть следствие моего искреннего уважения. Дайте мне ваш адрес.</p>
+        </sp>
+        <sp who="#OchenSkromnoOdetyjChelovek">
+          <speaker>Очень скромно одетый человек.</speaker>
+          <p>Вот вам мой адрес; но будьте уверены, что я не допущу вас им воспользоваться и завтра
+            же поутру явлюсь к вам. Извините меня, я не воспитан в большом свете и не умею
+            говорить... Но встретить такое великодушное внимание в государственном человеке, такое
+            стремление к добру... дай Бог, чтобы всякий государь был окружен такими людьми!</p>
+          <stage type="delivery">(Поспешно уходит.)</stage>
+        </sp>
+        <sp who="#GospodinA">
+          <speaker>Господин А.</speaker>
+          <stage type="delivery">(переворачивая в руках карточку).</stage>
+          <p>Я смотрю на эту карточку и на эту неизвестную мне фамилию, и как-то полно становится на
+            душе моей. Это вначале грустное впечатление рассеялось само собою. Да хранит тебя Бог,
+            наша малознаемая нами Россия! В глуши, в забытом углу твоем, скрывается подобный перл,
+            и, вероятно, он не один. Они, как искры золотой руды, рассыпаны среди грубых и темных ее
+            гранитов. Есть глубоко утешительное чувство в сем явлении, и душа моя осветилась после
+            встречи с этим чиновником, как осветилась его собственная после представления комедии.
+            Прощайте! Благодарю вас, что вы доставили мне эту встречу.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#GospodinV">
+          <speaker>Господин В.</speaker>
+          <stage type="delivery">(подходя к господину Б.).</stage>
+          <p>Кто это был с вами? Кажется, он министр — а?</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <stage type="delivery">(подходя с другой стороны).</stage>
+          <p>Помилуй, братец, ну что это такое, как же это в самом деле?..</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Что?</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Ну, да как же выводить это?</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Почему же нет?</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Ну да сам посуди ты: ну как же, право? Всё пороки да пороки; ну какой пример подаст это
+            зрителям?</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Да разве пороки хвалятся? Ведь они же выведены на осмеяние.</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Ну, да всё, брат, как ни говори: уваженье... ведь чрез это теряется уваженье к
+            чиновникам и должностям.</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Уваженье не теряется ни к чиновникам, ни к должностям, а к тем, которые скверно
+            исполняют свои должности.</p>
+        </sp>
+        <sp who="#GospodinV">
+          <speaker>Господин В.</speaker>
+          <p>Но позвольте, однако же, заметить: все это некоторым образом есть уже оскорбление,
+            которое более или менее распространяется на всех.</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Именно. Вот это я сам хотел ему заметить. Это именно оскорбление, которое
+            распространяется. Теперь, например, выведут какого-нибудь титулярного советника, а
+            потом... э... пожалуй, выведут... и действительного статского советника.</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Ну так что ж? Личность только должна быть неприкосновенна; а если я выдумал собственное
+            лицо и придал ему кое-какие пороки, какие случаются между нами, и дал ему чин, какой мне
+            вздумалось, хоть бы даже и действительного статского советника, и сказал бы, что этот
+            действительный статский советник не таков, как следует: что ж тут такого? Разве не
+            попадается гусь и между действительными статскими советниками?</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Ну уж, брат, это слишком. Как же может быть гусь действительный статский советник? Ну,
+            пусть еще титулярный... Нет, ты уж слишком!</p>
+        </sp>
+        <sp who="#GospodinV">
+          <speaker>Господин В.</speaker>
+          <p>Чем выставлять дурное, зачем же не выставить хорошее, достойное подражания?</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Зачем? странный вопрос: «зачем?». Много можно сделать этаких «зачем». Зачем один отец,
+            желая исторгнуть своего сына из беспорядочной жизни, не тратил слов и наставлений, а
+            привел его в лазарет, где предстали пред ним во всем ужасе страшные следы беспорядочной
+            жизни? Зачем он это сделал?</p>
+        </sp>
+        <sp who="#GospodinV">
+          <speaker>Господин В.</speaker>
+          <p>Но позвольте вам заметить: это уже некоторым образом наши общественные раны, которые
+            нужно скрывать, а не показывать.</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Это правда. Я с этим совершенно согласен. У нас дурное нужно скрывать, а не
+            показывать.</p>
+        </sp>
+        <sp who="#GospodinB">
+          <speaker>Господин Б.</speaker>
+          <p>Если бы слова эти были сказаны кем другим, а не вами, я бы сказал, что ими водило
+            лицемерие, а не истинная любовь к отечеству. По-вашему, нужно бы только закрыть,
+            залечить как-нибудь снаружи эти, как вы называете, общественные раны, лишь бы только
+            покамест они не были видны, а внутри пусть свирепствует болезнь — до того нет нужды. Нет
+            нужды, что она может взорваться и обнаружиться такими симптомами, когда уже всякое
+            лечение поздно. До того нет нужды. Вы не хотите знать того, что без глубокой сердечной
+            исповеди, без христианского сознания грехов своих, без преувеличенья их в собственных
+            глазах наших не в силах мы возвыситься над ними, не в силах возлететь душой превыше
+            презренного в жизни. Вы не хотите знать этого! Пусть глух остается человек, пусть сонно
+            проходит жизнь свою, пусть не содрогается, пусть не плачет в глубине сердца, пусть
+            низведет до такого усыпленья свою душу, чтобы уже ничто не произвело в ней потрясения!
+            Нет... простите меня! Холодный эгоизм движет устами, произносящими такие речи, а не
+            святая, чистая любовь к человечеству.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <stage type="delivery">(после некоторого молчания).</stage>
+          <p>Что ж ты молчишь? Каков? Чего не наговорил, а?</p>
+          <stage type="delivery">(Продолжая.)</stage>
+          <p>Он может себе говорить, что ему угодно, а ведь это все-таки наши, так сказать,
+            раны.</p>
+        </sp>
+        <sp who="#GospodinV">
+          <speaker>Господин В.</speaker>
+          <stage type="delivery">(в сторону).</stage>
+          <p>Ну, попались ему на язык эти раны! Будет он толковать о них и встречному и
+            поперечному!</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Эдак, пожалуй, и я могу насказать кучу всего, да ведь что ж из этого?.. А, вот князь N.
+            Послушай, князь, не уходи!</p>
+        </sp>
+        <sp who="#KnjazN">
+          <speaker>Князь N.</speaker>
+          <p>А что?</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Ну, потолкуем, остановись! Ну что, как пьеса?</p>
+        </sp>
+        <sp who="#KnjazN">
+          <speaker>Князь N.</speaker>
+          <p>Да смешна.</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Но, однако ж, скажи: как это представлять? на что это похоже?..</p>
+        </sp>
+        <sp who="#KnjazN">
+          <speaker>Князь N.</speaker>
+          <p>Почему ж не представлять?</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Ну да посуди сам, ну да как же это: вдруг на сцене плут — ведь это всё наши раны.</p>
+        </sp>
+        <sp who="#KnjazN">
+          <speaker>Князь N.</speaker>
+          <p>Какие раны?</p>
+        </sp>
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <p>Да, это наши раны, наши, так сказать, общественные раны.</p>
+        </sp>
+        <sp who="#KnjazN">
+          <speaker>Князь N.</speaker>
+          <stage type="delivery">(с досадою).</stage>
+          <p>Возьми их себе! Пусть они будут твои, а не мои раны! Что ты мне их тычешь? Мне пора
+            домой.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#GospodinP">
+          <speaker>Господин П.</speaker>
+          <stage type="delivery">(продолжая).</stage>
+          <p>И потом опять, что за чепуху он наговорил здесь? Говорит: действительный статский
+            советник может быть гусь. Ну, еще пусть титулярный, это можно допустить...</p>
+        </sp>
+        <sp who="#GospodinV">
+          <speaker>Господин В.</speaker>
+          <p>Однако ж пойдем, полно толковать; я думаю, что все проходящие узнали уже, что ты
+            действительный статский советник.</p>
+          <stage type="delivery">(В сторону.)</stage>
+          <p>Есть люди, которые имеют искусство все охаять. Твою же мысль, повторивши, они умеют
+            сделать ее так пошлою, что сам краснеешь. Скажешь глупость, она бы, может быть, так и
+            проскользнула незамеченной, — нет, отыщется поклонник и приятель, который непременно
+            пустит ее в ход и сделает еще глупее, чем она есть. Даже досадно, право: точно в грязь
+            посадил.</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Военный и статский выходят вместе.</stage>
+        <sp who="#Statskij">
+          <speaker>Статский.</speaker>
+          <p>Ведь вот вы какие, господа военные! Вы говорите «это нужно выводить на сцену»; вы
+            готовы вдоволь посмеяться над каким-нибудь статским чиновником; а затронь как-нибудь
+            военных, скажи только, что есть в таком-то полку офицеры, не говоря уже о порочных
+            наклонностях, но просто скажи: есть офицеры дурного тона, с неприличными ухватками, — да
+            вы из-за одного этого готовы с жалобой полезть в самый Государственный совет.</p>
+        </sp>
+        <sp who="#Voennyj">
+          <speaker>Военный.</speaker>
+          <p>Ну, послушайте, за кого же вы меня считаете? Конечно, есть между нами такие донкишоты;
+            но поверьте также, что есть много истинно рассудительных людей, которые будут рады
+            всегда, если будет выведен на всеобщее осмеяние порочащий свое званье. Да и в чем здесь
+            обида? Подавайте, подавайте нам его! Мы всякий день готовы смотреть.</p>
+        </sp>
+        <sp who="#Statskij">
+          <speaker>Статский</speaker>
+          <stage type="delivery">(в сторону).</stage>
+          <p>Этак всегда кричит человек: «Подавайте! подавайте!» — а подашь — так и рассердится.</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Две бекеши.</stage>
+        <sp who="#OdnaBekesha_2">
+          <speaker>Первая бекеша.</speaker>
+          <p>У французов тоже, например; но у них все это очень мило. Ну вот, помнишь, во вчерашнем
+            водевиле раздевается, ложится в постель, схватывает со стола салатник и ставит его под
+            кровать. Оно, конечно, нескромно, но мило. На все это можно смотреть, это не
+            оскорбляет... У меня жена и дети всякий день в театре. А здесь — ну что это, право? —
+            какой-нибудь мерзавец, мужик, которого бы я в переднюю не пустил, развалится с сапогами,
+            зевает или ковыряет в зубах, — ну что это, право? на что это похоже?</p>
+        </sp>
+        <sp who="#DrugajaBekesha_2">
+          <speaker>Другая бекеша.</speaker>
+          <p>У французов другое дело. Там société, mon cher! У нас это невозможно. У нас ведь
+            сочинители совершенно без всякого образованья: все это большею частью воспитывалось в
+            семинарии. Он и к вину наклонен, он и потаскун. К моему лакею тоже ходил в гости один
+            какой-то сочинитель: где ж ему иметь понятие о хорошем обществе?</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#SvetskajaDama">
+          <speaker>Светская дама</speaker>
+          <stage type="delivery">(в сопровождении двух мужчин: одного во фраке, другого в
+            мундире).</stage>
+          <p>Но что за люди, что за лица выведены! хотя бы один привлек... Ну, отчего не пишут у нас
+            так, как французы пишут, например, как Дюма и другие? Я не требую образцов добродетели;
+            выведите мне женщину, которая бы заблуждалась, которая бы даже изменила мужу, предалась,
+            положим, самой порочной и непозволенной любви; но представьте это увлекательно, так,
+            чтобы я побуждена была к ней участьем, чтобы я полюбила ее... А ведь здесь все лица —
+            один отвратительней другого.</p>
+        </sp>
+        <sp who="#MuzhchinaVMundire">
+          <speaker>Мужчина в мундире.</speaker>
+          <p>Да, тривиально, тривиально.</p>
+        </sp>
+        <sp who="#SvetskajaDama">
+          <speaker>Светская дама.</speaker>
+          <p>Скажите: отчего у нас в России все еще так тривиально?</p>
+        </sp>
+        <sp who="#MuzhchinaVoFrake">
+          <speaker>Мужчина во фраке.</speaker>
+          <p>Душа моя, после расскажешь, отчего тривиально: кричат нашу карету.</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Выходят трое мужчин вместе.</stage>
+        <sp who="#PervyjMujchina">
+          <speaker>Первый.</speaker>
+          <p>Почему же не посмеяться? смеяться можно; но что за предмет для насмешки —
+            злоупотребления и пороки? Какая здесь насмешка?</p>
+        </sp>
+        <sp who="#VtorojMujchina">
+          <speaker>Второй.</speaker>
+          <p>Так над чем же смеяться? Разве над добродетелями, над достоинствами человека?</p>
+        </sp>
+        <sp who="#PervyjMujchina">
+          <speaker>Первый.</speaker>
+          <p>Нет; да это не предмет для комедии, мой милый! Это уже некоторым образом касается
+            правительства. Как будто нет других предметов, о чем можно писать?</p>
+        </sp>
+        <sp who="#VtorojMujchina">
+          <speaker>Второй.</speaker>
+          <p>Какие же другие предметы?</p>
+        </sp>
+        <sp who="#PervyjMujchina">
+          <speaker>Первый.</speaker>
+          <p>Ну да мало ли есть всяких смешных светских случаев? Ну, положим, например, я отправился
+            на гулянье на Аптекарский остров, а кучер меня вдруг завез на Выборгскую или к Смольному
+            монастырю. Мало ли есть всяких смешных сцеплений?</p>
+        </sp>
+        <sp who="#VtorojMujchina">
+          <speaker>Второй.</speaker>
+          <p>То есть вы хотите отнять у комедии всякое сурьезное значение. Но зачем же издавать
+            непременный закон? Комедий в том именно вкусе, в каком вы желаете, есть множество.
+            Почему же не допустить существования двух, трех таких, какова была игранная теперь? Если
+            же вам нравятся те, о которых вы говорите, поезжайте только в театр: там всякий день вы
+            увидите пьесу, где один спрятался под стул, а другой вытащил его оттуда за ногу.</p>
+        </sp>
+        <sp who="#TretijMujchina">
+          <speaker>Третий.</speaker>
+          <p>Ну нет, послушайте, это не то. Всему есть свои границы. Есть вещи, над которыми, так
+            сказать, не следует смеяться, которые в некотором роде уже святыня.</p>
+        </sp>
+        <sp who="#VtorojMujchina">
+          <speaker>Второй</speaker>
+          <stage type="delivery">(про себя, с горькой усмешкой).</stage>
+          <p>Так всегда на свете: посмейся над истинно благородным, над тем, что составляет высокую
+            святыню души, — никто не станет заступником; посмейся же над порочным, подлым и низким —
+            все закричат: «Он смеется над святыней!»</p>
+        </sp>
+        <sp who="#PervyjMujchina">
+          <speaker>Первый.</speaker>
+          <p>Ну вот видите ли, вы, я вижу, теперь убеждены: не говорите ни слова. Поверьте, нельзя
+            не быть убеждену: это истина. Я сам человек беспристрастный и говорю, не то чтобы... но
+            просто это не авторское дело, это не предмет для комедии.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+        <sp who="#VtorojMujchina">
+          <speaker>Второй</speaker>
+          <stage type="delivery">(про себя).</stage>
+          <p>Признаюсь, я бы ни за что не захотел быть на месте автора. Прошу угодить! Избери
+            маловажные светские случаи, все будут говорить: «Он пишет вздор, никакой нет глубокой
+            нравственной цели»; избери предмет, сколько-нибудь имеющий сурьезную нравственную цель —
+            будут говорить: «Не его дело, пиши пустяки!»</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>Молодая дама большого света в сопровождении мужа.</stage>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж.</speaker>
+          <p>Карета наша не должна быть далеко, мы можем скоро уехать.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <stage type="delivery">(подходя к даме).</stage>
+          <p>Что вижу! Вы приехали смотреть русскую пьесу!</p>
+        </sp>
+        <sp who="#PervajaMolodajaDama">
+          <speaker>Молодая дама.</speaker>
+          <p>Что ж тут такого? разве я уже ничуть не патриотка?</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Ну, если так, то вы не очень насытили патриотизм свой. Вы, верно, браните пьесу?</p>
+        </sp>
+        <sp who="#PervajaMolodajaDama">
+          <speaker>Молодая дама.</speaker>
+          <p>Совсем нет. Я нахожу, что многое очень верно: я смеялась от души.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Отчего же вы смеялись? Оттого ли, что любите посмеяться над всем, что русское?</p>
+        </sp>
+        <sp who="#PervajaMolodajaDama">
+          <speaker>Молодая дама.</speaker>
+          <p>Оттого, что просто было смешно. Оттого, что выведена была внаружу та подлость, низость,
+            которая в какое бы платье ни нарядилась, хотя бы она была и не в уездном городке, а
+            здесь, вокруг нас, — она была бы такая же подлость или низость: вот отчего смеялась.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Мне говорила сейчас одна очень умная дама, что она тоже смеялась, но что при всем том
+            пьеса произвела на нее грустное впечатление.</p>
+        </sp>
+        <sp who="#PervajaMolodajaDama">
+          <speaker>Молодая дама.</speaker>
+          <p>Я не хочу знать, что чувствовала ваша умная дама; но у меня не так чувствительны нервы,
+            и я всегда рада смеяться над тем, что внутренне смешно. Я знаю, что есть иные из нас,
+            которые от души готовы посмеяться над кривым носом человека и не имеют духа посмеяться
+            над кривою душою человека.</p>
+        </sp>
+        <stage>Вдали показывается тоже молодая дама с мужем.</stage>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>А вот идет ваша приятельница. Я бы желал знать ее мнение о комедии.</p>
+        </sp>
+        <stage>Обе дамы подают друг другу руку.</stage>
+        <sp who="#PervajaMolodajaDama">
+          <speaker>Первая дама.</speaker>
+          <p>Я видела издали, как ты смеялась.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Да кто же не смеялся? все смеялись.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>А не чувствовали вы никакого грустного чувства?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Признаюсь, мне было точно грустно. Я знаю, все это очень верно; я сама тоже видела
+            много подобного, но при всем том мне было тяжело.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Стало быть, комедия вам не понравилась?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Ну, послушайте, кто ж это говорит? Я вам говорю уже, что я смеялась от всей души, и
+            больше даже, нежели все другие; я думаю, меня приняли даже за безумную... Но мне было
+            грустно оттого, что хотелось бы отдохнуть хоть на одном добром лице. Это излишество и
+            множество низкого...</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Говорите, говорите!</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Послушайте, посоветуйте автору, чтобы он вывел хоть одного честного человека. Скажите
+            ему, что об этом его просят, что это будет, право, хорошо.</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы.</speaker>
+          <p>А вот же этого именно и не советуйте. Дамам хочется непременно рыцаря, чтобы он тут же
+            твердил им за всяким словом о благородстве, хотя бы самым пошлым слогом.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Совсем нет! Как вы мало знаете нас! Вот вам-то принадлежит это! Вы именно любите только
+            одни слова и толки о благородстве. Я слышала суждение одного из вас: один толстяк кричал
+            так, что, я думаю, всех заставил на себя обратиться, — что это клевета, что подобных
+            низостей и подлостей у нас никогда не делается. А кто говорил? — самый низкий и подлый
+            человек, который готов продать свою душу, совесть и все что хотите. Я не хочу только
+            назвать его по имени.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Ну скажите же, кто это был?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Зачем вам знать? Да не он один; я слышала беспрестанно, как около нас кричали: «Это
+            отвратительная насмешка над Россией, насмешка над правительством! Да как это позволить?
+            Да что скажет народ?» А отчего они кричали? Оттого ли, что в самом деле думали и
+            чувствовали это? Извините! Оттого, чтобы произвести шум, чтобы запретили пьесу, потому
+            что в ней, может быть, отыскали кое-что похожее на самих себя. Вот каковы ваши
+            настоящие, не театральные рыцари!</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы.</speaker>
+          <p>О! да у вас уж начинает рождаться маленькая злость!</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Злость, именно злость. Да, я зла, очень зла. И нельзя не быть злою, видя, как подлость
+            является под всякими личинами.</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы.</speaker>
+          <p>Ну да: вам бы хотелось, чтобы сейчас выскочил рыцарь, прыгнул через какую-нибудь
+            пропасть, сломил бы себе шею...</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Извините.</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы.</speaker>
+          <p>Натурально: женщине что нужно? Ей непременно нужно, чтобы в жизни был роман.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Нет, нет, нет! Двести раз готова говорить: нет! Это пошлая, старая мысль, которую вы
+            нам навязываете беспрестанно. У женщины больше истинного великодушия, чем у мужчины.
+            Женщина не может, женщина не в силах сделать тех подлостей и гадостей, какие делаете вы.
+            Женщина не может там лицемерить, где лицемерите вы, не может смотреть сквозь пальцы на
+            те низости, на которые вы смотрите. В ней есть довольно благородства для того, чтобы
+            сказать все это, не осматриваясь по сторонам, понравится ли это кому-либо, или нет, —
+            потому что это нужно говорить. Что подло, то подло, как вы ни скрывайте его и какой ни
+            давайте вид. Это подло, подло, подло!</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы.</speaker>
+          <p>Да вы, я вижу, рассердились во всех отношениях.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Потому что я откровенна и не могу вынести, когда говорят неправду.</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы.</speaker>
+          <p>Ну, не сердитесь же, дайте мне вашу ручку! Я пошутил.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Вот вам рука моя, я не сержусь.</p>
+          <stage type="delivery">(Обращаясь к N.)</stage>
+          <p>Послушайте, посоветуйте автору, чтобы он вывел в комедии благородного и честного
+            человека.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Да как же это сделать? Ну, если он выведет честного человека, а этот честный человек
+            будет похож на театрального рыцаря?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Нет, если он сильно и глубоко чувствует, то герой его не будет театральным рыцарем.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Да ведь, я думаю, это не так легко сделать.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Просто скажите лучше, что у автора вашего нет глубоких и сильных движений
+            сердечных.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Отчего ж так?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Ну да уж кто беспрестанно и вечно смеется, тот не может иметь слишком высоких чувств;
+            ему не может быть знакомо то, что чувствует одно только нежное сердце.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Вот хорошо! Стало быть, по-вашему, автор не должен быть благородный человек?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Ну вот видите, вы сейчас перетолковываете в другую сторону. Я не говорю ни слова о том,
+            чтобы у комика не было благородства и строгого понятия о чести во всем смысле слова. Я
+            говорю только, что он не мог бы... выронить сердечную слезу, любить что-нибудь сильно,
+            всей глубиной души.</p>
+        </sp>
+        <sp who="#MuzhVtorojDamy">
+          <speaker>Муж второй дамы.</speaker>
+          <p>Но как же ты можешь сказать это утвердительно?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Могу, потому что знаю. Все люди, которые смеялись или были насмешниками, все они были
+            самолюбивы, все почти эгоисты; конечно, благородные эгоисты, но всё же эгоисты.</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Стало быть, вы решительно предпочитаете только тот род сочинений, где действуют одни
+            высокие движенья человека?</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>О, конечно! Я их всегда поставлю выше, и, признаюсь, я больше имею душевной веры к
+            такому автору.</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы</speaker>
+          <stage type="delivery">(обращаясь к господину N).</stage>
+          <p>Ну, разве ты не видишь, — выходит опять то же. Это женский вкус. Для них самая пошлая
+            трагедия выше самой лучшей комедии, уж потому только, что она трагедия...</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Молчите, я опять буду зла.</p>
+          <stage type="delivery">(Обращаясь к N.)</stage>
+          <p>Ну, скажите, не правду ли я сказала: ведь у комика душа непременно должна быть
+            холодная?</p>
+        </sp>
+        <sp who="#MuzhVtorojDamy">
+          <speaker>Муж второй дамы.</speaker>
+          <p>Или горячая, потому что раздражительность характера возбуждает тоже к насмешкам и
+            сатирам.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Ну, или раздражительная. Но что же это значит? Это значит, что причиною таких
+            произведений все же была желчь, ожесточение, негодование, может быть и справедливое во
+            всех отношениях. Но нет того, что бы показывало, что это порождено высокой любовью к
+            человечеству... словом, любовью. Не правда ли?</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Это правда.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Ну скажите: похож автор комедии на этот портрет?</p>
+        </sp>
+        <sp who="#GospodinN">
+          <speaker>Господин N.</speaker>
+          <p>Как вам сказать? Я не знаю так коротко его, чтобы мог судить о душе его. Но, соображая
+            все, что я о нем слышал, он точно должен быть или эгоист, или очень раздражительный
+            человек.</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Ну, видите ли, я это хорошо знала.</p>
+        </sp>
+        <sp who="#PervajaMolodajaDama">
+          <speaker>Первая дама.</speaker>
+          <p>Не знаю почему, но мне бы не хотелось, чтобы он был эгоистом.</p>
+        </sp>
+        <sp who="#MuzhPervojDamy">
+          <speaker>Муж первой дамы.</speaker>
+          <p>А вот идет наш лакей, стало быть, карета готова. Прощайте.</p>
+          <stage type="delivery">(Пожимая руку второй дамы.)</stage>
+          <p>Вы к нам, не правда ли? Чай пьем у нас?</p>
+        </sp>
+        <sp who="#PervajaMolodajaDama">
+          <speaker>Первая дама</speaker>
+          <stage type="delivery">(уходя).</stage>
+          <p>Пожалуйста!</p>
+        </sp>
+        <sp who="#VtorajaMolodajaDama">
+          <speaker>Вторая дама.</speaker>
+          <p>Непременно.</p>
+        </sp>
+        <sp who="#MuzhVtorojDamy">
+          <speaker>Муж второй дамы.</speaker>
+          <p>Кажется, наша карета тоже готова.</p>
+        </sp>
+        <stage>Уходят за ними.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Выходят двое зрителей.</stage>
+        <sp who="#PervyjZritel">
+          <speaker>Первый.</speaker>
+          <p>Вот что растолкуйте мне: отчего, разбирая порознь всякое действие, лицо и характер,
+            видишь: все это правда, живо, взято с натуры, а вместе кажется уже чем-то громадным,
+            преувеличенным, карикатурным, так что, выходя из театра, невольно спрашиваешь: неужели
+            существуют такие люди? А между тем ведь они не то чтобы злодеи.</p>
+        </sp>
+        <sp who="#VtorojZritel">
+          <speaker>Второй.</speaker>
+          <p>Ничуть, они вовсе не злодеи. Они именно то, что говорит пословица: «Не душой худ, а
+            просто плут».</p>
+        </sp>
+        <sp who="#PervyjZritel">
+          <speaker>Первый.</speaker>
+          <p>И потом еще одно: это громадное накопление, это излишество — не есть ли уже недостаток
+            комедии? Скажите мне, где есть такое общество, которое бы состояло все из таких людей,
+            чтобы не было если не половины, то, по крайней мере, некоторой части порядочных людей?
+            Если комедия должна быть картиной и зеркалом общественной нашей жизни, то она должна
+            отразить ее во всей верности.</p>
+        </sp>
+        <sp who="#VtorojZritel">
+          <speaker>Второй.</speaker>
+          <p>Во-первых, по моему мнению, эта комедия вовсе не картина, а скорее фронтиспис. Вы
+            видите — и сцена, и место действия идеальны. Иначе автор не сделал бы очевидных
+            погрешностей и анахронизмов, не вставил бы даже иным лицам тех речей, которые, по
+            свойству своему и по месту, занимаемому лицами, не принадлежат им. Только первая
+            раздражительность приняла за личность то, в чем нет и тени личности и что принадлежит
+            более или менее личности всех людей. Это — сборное место: отовсюду, из разных углов
+            России, стеклись сюда исключения из правды, заблуждения и злоупотребления, чтобы
+            послужить одной идее — произвести в зрителе яркое, благородное отвращение от многого
+            кое-чего низкого. Впечатление еще сильней оттого, что никто из приведенных лиц не
+            утратил своего человеческого образа: человеческое слышится везде. Оттого еще глубже
+            сердечное содроганье. И, смеясь, зритель невольно оборачивается назад, как бы чувствуя,
+            что близко от него то, над чем он посмеялся, и что ежеминутно должен он стоять на
+            страже, чтобы не ворвалось оно в его собственную душу. Я думаю, забавней всего слышать
+            автору упреки: «зачем лица и герои его не привлекательны», — тогда как он употребил все,
+            чтобы оттолкнуть от них. Да если бы хотя одно лицо честное было помещено в комедию, и
+            помещено со всей увлекательностью, то уже все до одного перешли бы на сторону этого
+            честного лица и позабыли бы вовсе о тех, которые так испугали их теперь. Эти образы,
+            может быть, не мерещились бы беспрестанно, как живые, по окончании представленья;
+            зритель не унес бы грустного чувства и не говорил бы: «Неужели существуют такие
+            люди?»</p>
+        </sp>
+        <sp who="#PervyjZritel">
+          <speaker>Первый.</speaker>
+          <p>Да. Ну, это, однако же, не вдруг поймут.</p>
+        </sp>
+        <sp who="#VtorojZritel">
+          <speaker>Второй.</speaker>
+          <p>Весьма естественно. Смысл внутренний всегда постигается после. И чем живее, чем ярче те
+            образы, в которые он облекся и на которые раздробился, тем более останавливается
+            всеобщее внимание на образах. Только сложивши их вместе, получишь итог и смысл созданья.
+            Но разбирать и складывать такие буквы быстро, читать по верхам и вдруг — не всякий
+            может; а до тех пор долго будут видеть одни буквы. И вы увидите, вот я вам говорю это
+            вперед: прежде всего рассердится всякий уездный городишко в России и будет утверждать,
+            что это злая сатира, пошлая, низкая выдумка, направленная именно на него.</p>
+        </sp>
+        <stage>Уходят.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#OdinChinovnik">
+          <speaker>Один чиновник.</speaker>
+          <p>Это пошлая, низкая выдумка, это сатира, пасквиль!</p>
+        </sp>
+        <sp who="#DrugojChinovnik">
+          <speaker>Другой чиновник.</speaker>
+          <p>Теперь, значит, уж ничего не осталось. Законов не нужно, служить не нужно. Вицмундир,
+            вот который на миг, — его, значит, нужно бросить: он уж теперь тряпка.</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>Бегут двое молодых людей.</stage>
+        <sp who="#OdinMolodoj">
+          <speaker>Один.</speaker>
+          <p>Ну, все рассердились. Я уж столько наслышался толков, что могу, взглянувши, угадать,
+            что каждый думает о пьесе.</p>
+        </sp>
+        <sp who="#DrugojMolodoj">
+          <speaker>Другой.</speaker>
+          <p>Ну, что думает вот этот?</p>
+        </sp>
+        <sp who="#OdinMolodoj">
+          <speaker>Первый.</speaker>
+          <p>Вот тот, который надевает шинель в рукава?</p>
+        </sp>
+        <sp who="#DrugojMolodoj">
+          <speaker>Другой.</speaker>
+          <p>Да.</p>
+        </sp>
+        <sp who="#OdinMolodoj">
+          <speaker>Первый.</speaker>
+          <p>Вот что он думает: «За такую комедию тебя бы в Нерчинск!..» Однако ж тронулось,
+            кажется, верхнее население; водевиль, как видно, кончился. Сейчас нахлынут разночинцы.
+            Уйдем.</p>
+        </sp>
+        <stage>Оба уходят.</stage>
+      </div>
+      <div type="configuration">
+        <stage>Шум увеличивается: по всем лестницам раздается беготня. Бегут армяки, полушубки,
+          чепцы, немецкие долгополые кафтаны купцов, треугольные шляпы и султаны, шинели всех родов:
+          фризовые, военные, подержанные и щегольские — с бобрами. Толпа сталкивает господина,
+          надевающего в рукав шинель; господин посторонивается и продолжает надевать ее в стороне.
+          Показываются в толпе господа и чиновники всех родов и сортов. Лакеи в ливреях прочищают
+          для барынь дорогу. Слышен бабий крик: «Батюшки, припихнули со всех сторон!»</stage>
+        <sp who="#MolodenkijChinovnikUklonchivogoSvojstva">
+          <speaker>Молоденький чиновник уклончивого свойства</speaker>
+          <stage type="delivery">(подбегая к господину, надевающему шинель).</stage>
+          <p>Ваше превосходительство, позвольте, я вам подержу!</p>
+        </sp>
+        <sp who="#GospodinVShineli">
+          <speaker>Господин в шинели.</speaker>
+          <p>А, здравствуй! Ты здесь? Пришел смотреть?</p>
+        </sp>
+        <sp who="#MolodenkijChinovnikUklonchivogoSvojstva">
+          <speaker>Молоденький чиновник.</speaker>
+          <p>Да-с, ваше превосходительство, забавно подмечено.</p>
+        </sp>
+        <sp who="#GospodinVShineli">
+          <speaker>Господин в шинели.</speaker>
+          <p>Вздор! ничего нет забавного!</p>
+        </sp>
+        <sp who="#MolodenkijChinovnikUklonchivogoSvojstva">
+          <speaker>Молоденький чиновник.</speaker>
+          <p>Это правда, ваше превосходительство, совсем ничего нет.</p>
+        </sp>
+        <sp who="#GospodinVShineli">
+          <speaker>Господин в шинели.</speaker>
+          <p>За эдакие вещи нужно сечь, а не хвалить.</p>
+        </sp>
+        <sp who="#MolodenkijChinovnikUklonchivogoSvojstva">
+          <speaker>Молоденький чиновник.</speaker>
+          <p>Это правда, ваше превосходительство.</p>
+        </sp>
+        <sp who="#GospodinVShineli">
+          <speaker>Господин в шинели.</speaker>
+          <p>Вот, пускают молодых людей в театр. Много полезного вынесут! Вот и ты: теперь уж, чай,
+            придешь в канцелярию, прямо грубить станешь?</p>
+        </sp>
+        <sp who="#MolodenkijChinovnikUklonchivogoSvojstva">
+          <speaker>Молоденький чиновник.</speaker>
+          <p>Как можно, ваше превосходительство!.. Позвольте, я вам прочищу дорогу вперед!</p>
+          <stage type="delivery">(Народу, толкая того и другого.)</stage>
+          <p>Эй вы, посторонитесь, генерал идет!</p>
+          <stage type="delivery">(Подходя с необыкновенным учтивством к двум щегольски
+            одетым.)</stage>
+          <p>Господа, сделайте милость, позвольте пройти генералу!</p>
+        </sp>
+        <stage>Хорошо одетые, посторониваясь и давая дорогу:</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#PervyjHoroshoOdetyj">
+          <speaker>Первый.</speaker>
+          <p>Не знаешь, какой генерал? Должен быть какой-нибудь известный?</p>
+        </sp>
+        <sp who="#VtorojHoroshoOdetyj">
+          <speaker>Второй.</speaker>
+          <p>Не знаю, я никогда не видывал его.</p>
+        </sp>
+        <sp who="#ChinovnikRazgovorchivogoSvojstva">
+          <speaker>Чиновник разговорчивого свойства</speaker>
+          <stage type="delivery">(подхватывая сзади).</stage>
+          <p>Просто статский советник, по месту только числится в четвертом классе. Каково счастье?
+            В пятнадцать лет службы Владимира, Анну, Станислава, три тысячи рублей жалованья, две
+            тысячи столовых, да от совета, да от комиссии, да еще по департаменту.</p>
+        </sp>
+        <sp who="#PervyjHoroshoOdetyj #VtorojHoroshoOdetyj">
+          <speaker>Господа хорошо одетые</speaker>
+          <stage type="delivery">(один другому).</stage>
+          <p>Уйдем!</p>
+        </sp>
+        <stage>Уходят.</stage>
+        <sp who="#ChinovnikRazgovorchivogoSvojstva">
+          <speaker>Чиновник разговорчивого свойства.</speaker>
+          <p>Должны быть матушкины сынки. Чай, в иностранной коллегии служат. Я не люблю комедий; на
+            мой вкус больше нравятся трагедии.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#GolosIzTolpy_1">
+          <speaker>Голос из толпы.</speaker>
+          <p>Эк народу навалило!</p>
+        </sp>
+        <sp who="#Ofitser">
+          <speaker>Офицер</speaker>
+          <stage type="delivery">(пробираясь с дамой под руку).</stage>
+          <p>Эй вы, бороды, что напираете? Разве не видишь — дама?</p>
+        </sp>
+        <sp who="#Kupets">
+          <speaker>Купец</speaker>
+          <stage type="delivery">(с дамой под руку).</stage>
+          <p>У самих, батюшка, дама.</p>
+        </sp>
+        <sp who="#GolosIzTolpy_2">
+          <speaker>Голос из толпы.</speaker>
+          <p>Вот она поворотилась, видишь, видишь? Еще теперь подурнела, но года три тому
+            назад...</p>
+        </sp>
+        <sp who="#RaznyeGolosa">
+          <speaker>Разные голоса.</speaker>
+          <p>Да три гривны, слышь ты, взял с него сдачи. — Подлая, скверная пьеса! — Забавная
+            пьеска! — Ты что лезешь в самое горло?</p>
+        </sp>
+        <sp who="#GolosVOdnomKontseTolpy">
+          <speaker>Голос в одном конце толпы.</speaker>
+          <p>Все это вздор! Где могло случиться такое происшествие? Этакое происшествие могло только
+            разве случиться на Чукотском острову.</p>
+        </sp>
+        <sp who="#GolosVDrugomKontse">
+          <speaker>Голос в другом конце.</speaker>
+          <p>Ну вот точь-в-точь эдакое событие было в нашем городке. Я подозреваю, что автор если не
+            был сам там, то, вероятно, слышал.</p>
+        </sp>
+        <sp who="#GolosKuptsa">
+          <speaker>Голос купца.</speaker>
+          <p>Оно, вот изволите видеть, оно здесь больше, так сказать, с маральной стороны. Конечно,
+            бывают, так сказать, всякие-с. Да ведь и то извольте посудить, что и честный человек,
+            случаем придется... А насчет маральности, так и за дворянами это водится.</p>
+        </sp>
+        <sp who="#GolosGospodinaPooschritelnogoSvojstva">
+          <speaker>Голос господина поощрительного свойства.</speaker>
+          <p>Должен быть бестия, пройдоха сочинитель: все изведал, все знает!</p>
+        </sp>
+        <sp who="#GolosSerditogoChinovnikaNoKakVidnoOpytnogo">
+          <speaker>Голос сердитого чиновника, но, как видно, опытного.</speaker>
+          <p>Что он знает? — черта он знает. И врет он, врет: все это, что ни написал он, всё —
+            враки. И взятки не так берут, уж если пошло на то...</p>
+        </sp>
+        <sp who="#GolosDrugogoChinovnikaIzTolpy">
+          <speaker>Голос другого чиновника из толпы.</speaker>
+          <p>Да что вы говорите: «смешно, смешно»! Знаете ли, отчего смешно? Ведь это всё личности.
+            Ведь это всё он вывел своих бабушек да тетушек. Вот отчего это смешно.</p>
+        </sp>
+        <sp who="#NeizvestnyjGolos">
+          <speaker>Неизвестный голос.</speaker>
+          <p>Стой, украли платок!</p>
+        </sp>
+        <stage>Два офицера, узнавшие друг друга, переговариваются через толпу.</stage>
+        <sp who="#PervyjOfitserIzTolpy">
+          <speaker>Первый.</speaker>
+          <p>Мишель, ты туда?</p>
+        </sp>
+        <sp who="#VtorojOfitserIzTolpy">
+          <speaker>Второй.</speaker>
+          <p>Туда.</p>
+        </sp>
+        <sp who="#PervyjOfitserIzTolpy">
+          <speaker>Первый.</speaker>
+          <p>Ну, и я там.</p>
+        </sp>
+        <sp who="#ChinovnikVazhnojNaruzhnosti">
+          <speaker>Чиновник важной наружности.</speaker>
+          <p>Я бы всё запретил. Ничего не нужно печатать. Просвещением пользуйся, читай, а не пиши.
+            Книг уж довольно написано, больше не нужно.</p>
+        </sp>
+        <sp who="#GolosVNarode">
+          <speaker>Голос в народе.</speaker>
+          <p>Что ж, коли подлец, то и подлец. Не будь подлецом, то и не будут над тобой
+            смеяться.</p>
+        </sp>
+        <sp who="#KrasivyjIPlotnyjGospodin">
+          <speaker>Красивый и плотный господин</speaker>
+          <stage type="delivery">(говорит с жаром невзрачному и низенькому).</stage>
+          <p>Нравственность, нравственность страждет, вот что главное!</p>
+        </sp>
+        <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
+          <speaker>Господин низенький и невзрачный, но ядовитого свойства.</speaker>
+          <p>Да ведь нравственность вещь относительная.</p>
+        </sp>
+        <sp who="#KrasivyjIPlotnyjGospodin">
+          <speaker>Красивый и плотный господин.</speaker>
+          <p>Что вы разумеете под именем «относительная»?</p>
+        </sp>
+        <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
+          <speaker>Невзрачный, но ядовитого свойства господин.</speaker>
+          <p>То, что нравственность всякий меряет относительно к себе. Один называет нравственностью
+            сниманье ему шляпы на улице; другой называет нравственностью смотренье сквозь пальцы на
+            то, как он ворует; третий называет нравственностью услуги, оказываемые его любовнице.
+            Ведь обыкновенно как говорит всякий из нашей братьи своим подчиненным? — свысока
+            говорит: «Милостивый государь, старайтесь исполнить свой долг относительно Бога,
+            государя, отечества», — а ты, мол, уж там себе разумей, относительно чего. Впрочем, это
+            так только в провинциях водится, в столицах этого не бывает, не правда ли? Тут если и
+            явится у кого-нибудь в три года два дома, так ведь это отчего? Всё от честности, не так
+            ли?</p>
+        </sp>
+        <sp who="#KrasivyjIPlotnyjGospodin">
+          <speaker>Красивый и плотный господин</speaker>
+          <stage type="delivery">(в сторону).</stage>
+          <p>Скверен, как черт, а язык, как у змеи.</p>
+        </sp>
+        <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
+          <speaker>Невзрачный, но ядовитого свойства господин</speaker>
+          <stage type="delivery">(толкая под руку вовсе не знакомого ему человека, говорит ему,
+            кивая на красивого господина).</stage>
+          <p>Четыре дома в одной улице; все рядом один возле другого в шесть лет выросли! Каково
+            действует честность на прозябательную силу, а?</p>
+        </sp>
+        <sp who="#Neznakomets">
+          <speaker>Незнакомец</speaker>
+          <stage type="delivery">(уходя поспешно).</stage>
+          <p>Извините, я недослышал.</p>
+        </sp>
+        <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
+          <speaker>Невзрачный, но ядовитого свойства человек</speaker>
+          <stage type="delivery">(толкая под руку незнакомого соседа).</stage>
+          <p>Глухота-то как нынче распространилась в городе, а? Вот что значит нездоровый и сырой
+            климат.</p>
+        </sp>
+        <sp who="#NeznakomyjSosed">
+          <speaker>Незнакомый сосед.</speaker>
+          <p>Да вот и грипп тоже. У меня все дети переболели.</p>
+        </sp>
+        <sp who="#NevzrachnyjNoJadovitogoSvojstvaGospodin">
+          <speaker>Невзрачный, но ядовитого свойства человек.</speaker>
+          <p>Да, и грипп, и глухота; свинка тоже в горле.</p>
+          <stage type="delivery">(Пропадает в толпе.)</stage>
+        </sp>
+        <stage>Разговор в группе на стороне.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#PervyjNaStorone">
+          <speaker>Первый.</speaker>
+          <p>А говорят, что подобное происшествие случилось с самим автором: он в каком-то городке
+            сидел в тюрьме за долги.</p>
+        </sp>
+        <sp who="#GospodinSDrugojStoronyGruppy">
+          <speaker>Господин с другой стороны группы</speaker>
+          <stage type="delivery">(подхватывая речь).</stage>
+          <p>Нет, это было не в тюрьме, это было на башне. Это видели те, которые проезжали.
+            Говорят, это было что-то необыкновеннее. Вообразите: поэт на высочайшей башне, вокруг
+            го́ры, местоположение восхитительное, и он оттуда читает стихи. Не правда ли, что здесь
+            является какая-то особенная черта писателя?</p>
+        </sp>
+        <sp who="#GospodinPolozhitelnogoSvojstva">
+          <speaker>Господин положительного свойства.</speaker>
+          <p>Автор должен быть умный человек.</p>
+        </sp>
+        <sp who="#GospodinOtritsatelnogoSvojstva">
+          <speaker>Господин отрицательного свойства.</speaker>
+          <p>Ничуть не умный. Я знаю, он служил, его чуть не выгнали из службы: просьбы не умел
+            написать.</p>
+        </sp>
+        <sp who="#ProstoVral">
+          <speaker>Просто враль.</speaker>
+          <p>Бойкая, бойкая голова! Ему место долго не давали, так что ж вы думаете? — он прямо
+            написал письмо к министру. Да ведь как написал! Квинтильяновским манером. Одно уж то,
+            как начал: «Милостивый государь!» А потом и пошел, и пошел, и пошел... страниц восемь
+            отвалял кругом. Министр, как прочитал: «Ну, говорит, благодарю, благодарю! Я вижу, у
+            тебя много врагов. Будь начальник отделения!» И прямо из писцов махнул он в начальники
+            отделения.</p>
+        </sp>
+        <sp who="#GospodinDobrodushnogoSvojstva">
+          <speaker>Господин добродушного свойства</speaker>
+          <stage type="delivery">(обращаясь к другому человеку, хладнокровного свойства).</stage>
+          <p>Черт его знает, кому и верить! И в тюрьме сидел, и на башню лазил! И выгнали из службы,
+            и место дали!</p>
+        </sp>
+        <sp who="#GospodinHladnokrovnogoSvojstva">
+          <speaker>Господин хладнокровного свойства.</speaker>
+          <p>Да ведь это все говорится экспромтом.</p>
+        </sp>
+        <sp who="#GospodinDobrodushnogoSvojstva">
+          <speaker>Господин добродушного свойства.</speaker>
+          <p>Как экспромтом?</p>
+        </sp>
+        <sp who="#GospodinHladnokrovnogoSvojstva">
+          <speaker>Господин хладнокровный.</speaker>
+          <p>Так. Ведь они еще за две минуты не знают сами, что услышат от себя. Язык у них без
+            ведома хозяина вдруг брякнет новость, а хозяин и рад — возвращается домой, как будто бы
+            наелся. А на другой день он уж и позабыл о том, что сам выдумал. Ему кажется, что он
+            услышал от других, — и пошел передавать ее по городу всем.</p>
+        </sp>
+        <sp who="#GospodinDobrodushnogoSvojstva">
+          <speaker>Господин добродушный.</speaker>
+          <p>Это, однако же, бессовестно: лгать и не чувствовать самому.</p>
+        </sp>
+        <sp who="#GospodinHladnokrovnogoSvojstva">
+          <speaker>Господин хладнокровный.</speaker>
+          <p>Да есть и чувствительные. Есть такие, которые чувствуют, что лгут, но считают уже
+            надобностью для разговора: красно поле рожью, а речь ложью.</p>
+        </sp>
+        <sp who="#DamaSrednegoSveta">
+          <speaker>Дама среднего света.</speaker>
+          <p>Но только какой злой насмешник должен быть этот автор! Я, признаюсь, ни за что бы не
+            хотела попасться ему на глаза: этак он вдруг заметит во мне смешное.</p>
+        </sp>
+        <sp who="#GospodinSVesom">
+          <speaker>Господин с весом.</speaker>
+          <p>Я не знаю, что это за человек. Это, это, это... Для этого человека нет ничего
+            священного; сегодня он скажет: такой-то советник не хорош, а завтра скажет, что и Бога
+            нет. Ведь тут всего только один шаг.</p>
+        </sp>
+        <sp who="#VtorojGospodin">
+          <speaker>Второй господин.</speaker>
+          <p>Осмеять! Да ведь со смехом шутить нельзя. Это значит разрушить всякое уважение — вот
+            что это значит. Да ведь меня после всего этого всякий прибьет на улице, скажет: «Да ведь
+            над вами смеются; а на тебе такой же чин, так вот тебе затрещина!» Ведь это вот что
+            значит.</p>
+        </sp>
+        <sp who="#TretijGospodin">
+          <speaker>Третий господин.</speaker>
+          <p>Еще бы! Это сурьезная вещь! Говорят: «Безделушка, пустяки, театральное представление».
+            Нет, это не простые безделушки; на это обратить нужно строгое внимание. За эдакие вещи и
+            в Сибирь посылают. Да если бы я имел власть, у меня бы автор не пикнул. Я бы его в такое
+            место засадил, что он бы и света Божьего невзвидел.</p>
+        </sp>
+      </div>
+      <div type="configuration">
+        <stage>Появляется группа людей, Бог весть какого свойства, впрочем, благородной наружности и
+          прилично одетых.</stage>
+        <sp who="#PervyjVprochemBlagorodnyj">
+          <speaker>Первый.</speaker>
+          <p>Постоимте лучше здесь, покамест выйдет толпа. Ну что это, право! Затевать шум,
+            рукоплесканье, как будто бы Бог знает что! Безделка, какая-нибудь пустая театральная
+            пьеса, и подымать такую тревогу, кричать, вызывать автора — ну что это такое!</p>
+        </sp>
+        <sp who="#VtorojVprochemBlagorodnyj">
+          <speaker>Второй.</speaker>
+          <p>Однако ж пьеса повеселила, развлекла.</p>
+        </sp>
+        <sp who="#PervyjVprochemBlagorodnyj">
+          <speaker>Первый.</speaker>
+          <p>Ну да, повеселила, как обыкновенно веселит всякая безделка. Но зачем же из-за этого
+            такие крики, толки? Рассуждают, как будто о какой-нибудь важной вещи, аплодируют... Ну,
+            что это такое! Ну, я понимаю, если бы какая-нибудь певица или танцовщица, — ну, там я
+            понимаю: там удивляешься искусству, гибкости, проворству, природному таланту. Ну, а
+            здесь что? Кричат: «Литератор! литератор! писатель!» Да что такое писатель? Что иной раз
+            попадется остроумное словцо да спишет кое-что с натуры... Да что же здесь за труд? Что ж
+            тут такого? Ведь это всё побасенки — и больше ничего.</p>
+        </sp>
+        <sp who="#VtorojVprochemBlagorodnyj">
+          <speaker>Второй.</speaker>
+          <p>Да, конечно, вещь неважная.</p>
+        </sp>
+        <sp who="#PervyjVprochemBlagorodnyj">
+          <speaker>Первый.</speaker>
+          <p>Рассудите: ну, танцор, например, — там все-таки искусство, уж этого никак не сделаешь,
+            что он делает. Ну захоти я, например: да у меня просто ноги не подымутся. Ну сделай я
+            антраша — не сделаю ни за что. А ведь писать можно не учившись. Я не знаю, кто такой
+            автор, но мне сказывали, что он невежа совершенный, ничего не знает: его откуда-то,
+            кажется, выгнали.</p>
+        </sp>
+        <sp who="#VtorojVprochemBlagorodnyj">
+          <speaker>Второй.</speaker>
+          <p>Но, однако ж, все-таки что-нибудь он должен знать: без этого нельзя писать.</p>
+        </sp>
+        <sp who="#PervyjVprochemBlagorodnyj">
+          <speaker>Первый.</speaker>
+          <p>Да помилуйте, что ж он может знать? Вы сами знаете, что такое литератор: пустейший
+            человек! Это всему свету известно — ни на какое дело не годится. Уж их пробовали
+            употреблять, да бросили. Ну посудите сами, ну что такое они пишут? Ведь это всё пустяки,
+            побасенки! Захоти, я сей же час это напишу, и вы напишете, и он напишет, и всякий
+            напишет.</p>
+        </sp>
+        <sp who="#VtorojVprochemBlagorodnyj">
+          <speaker>Второй.</speaker>
+          <p>Да, конечно, почему ж и не написать. Будь только капля ума в голове, так уж и
+            можно.</p>
+        </sp>
+        <sp who="#PervyjVprochemBlagorodnyj">
+          <speaker>Первый.</speaker>
+          <p>Да и ума не нужно. Зачем тут ум? Ведь это всё побасенки. Ну, если бы еще была, положим,
+            какая-нибудь ученая наука, какой-нибудь предмет, которого еще не знаешь, а ведь это что
+            такое? Ведь это всякий мужик знает. Это всякий день увидишь на улице. Садись только у
+            окна да записывай все, что ни делается, — вот и вся штука!</p>
+        </sp>
+        <sp who="#TretijVprochemBlagorodnyj">
+          <speaker>Третий.</speaker>
+          <p>Это правда. Как подумаешь, право, на какой вздор употребляют время!</p>
+        </sp>
+        <sp who="#PervyjVprochemBlagorodnyj">
+          <speaker>Первый.</speaker>
+          <p>Именно, трата времени — больше ничего. Побасенки, пустяки! Просто бы нужно запретить
+            давать им перо и чернила в руки. Однако ж народ выходит, пойдемте! Подымать шум,
+            кричать, поощрять! а дело — просто вздор! Побасенки! пустяки! побасенки!</p>
+        </sp>
+        <stage>Уходят. Толпа редеет, бегут кое-какие отставшие.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#DobrodushnyjChinovnik">
+          <speaker>Добродушный чиновник.</speaker>
+          <p>А все бы, право, ну что бы хоть одного честного человека выставить! Всё плуты да
+            плуты.</p>
+        </sp>
+        <sp who="#OdinIzNaroda">
+          <speaker>Один из народа.</speaker>
+          <p>Слышь ты, жди меня на перекрестке! Я забегу возьму рукавицы.</p>
+        </sp>
+        <sp who="#OdinIzGospod">
+          <speaker>Один из господ</speaker>
+          <stage type="delivery">(смотря на часы).</stage>
+          <p>Однако скоро час. Никогда я так поздно не выходил из театра.</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+        <sp who="#OtstavshijChinovnik">
+          <speaker>Отставший чиновник.</speaker>
+          <p>Только время даром пропало! Нет, никогда больше не пойду в театр!</p>
+          <stage type="delivery">(Уходит.)</stage>
+        </sp>
+        <stage>Сени пустеют.</stage>
+      </div>
+      <div type="configuration">
+        <sp who="#AvtorPesy">
+          <speaker>Автор пьесы</speaker>
+          <stage type="delivery">(выходя).</stage>
+          <p>Я услышал более, чем предполагал. Какая пестрая куча толков! Счастье комику, который
+            родился среди нации, где общество еще не слилось в одну недвижную массу, где оно не
+            облеклось одной корой старого предрассудка, заключающего мысли всех в одну и ту же форму
+            и мерку, где что человек, то и мненье, где всякий сам создатель своего характера. Какое
+            разнообразие в этих мнениях, и как везде блеснул этот твердый ясный русский ум: и в сем
+            благородном стремленье государственного мужа! и в сем высоком самоотверженье забившегося
+            в глушь чиновника! и в нежной красоте великодушной женской души! и в эстетическом
+            чувстве ценителей! и в простом верном чутье народа! Как даже в сих недоброжелательных
+            осуждениях много того, что нужно знать комику! Какой живой урок! Да, я удовлетворен. Но
+            отчего же грустно становится моему сердцу! Странно: мне жаль, что никто не заметил
+            честного лица, бывшего в моей пьесе. Да, было одно честное, благородное лицо,
+            действовавшее в нем во все продолжение ее. Это честное, благородное лицо был —
+              <emph>смех</emph>. Он был благороден потому, что решился выступить, несмотря на низкое
+            значение, которое дается ему в свете. Он был благороден потому, что решился выступить,
+            несмотря на то что доставил обидное прозванье комику — прозванье холодного эгоиста, и
+            заставил даже усомниться в присутствии нежных движений души его. Никто не вступился за
+            этот смех. Я комик, я служил ему честно, и потому должен стать его заступником. Нет,
+            смех значительней и глубже, чем думают. Не тот смех, который порождается временной
+            раздражительностью, желчным, болезненным расположением характера; не тот также легкий
+            смех, служащий для праздного развлеченья и забавы людей, — но тот смех, который весь
+            излетает из светлой природы человека, излетает из нее потому, что на дне ее заключен
+            вечно биющий родник его, который углубляет предмет, заставляет выступить ярко то, что
+            проскользнуло бы, без проницающей силы которого мелочь и пустота жизни не испугала бы
+            так человека. Презренное и ничтожное, мимо которого он равнодушно проходит всякий день,
+            не возросло бы перед ним в такой страшной, почти карикатурной силе, и он не вскрикнул
+            бы, содрогаясь: «Неужели есть такие люди?» — тогда как, по собственному сознанию его,
+            бывают хуже люди. Нет, несправедливы те, которые говорят, будто возмущает смех.
+            Возмущает только то, что мрачно, а смех светел. Многое бы возмутило человека, быв
+            представлено в наготе своей; но, озаренное силою смеха, несет оно уже примиренье в душу.
+            И тот, кто бы понес мщение противу злобного человека, уже почти мирится с ним, видя
+            осмеянными низкие движенья души его. Несправедливы те, которые говорят, что смех не
+            действует на тех, противу которых устремлен, и что плут первый посмеется над плутом,
+            выведенным на сцену: плут-потомок посмеется, но плут-современник не в силах посмеяться!
+            Он слышит, что уже у всех остался неотразимый образ, что одного низкого движенья с его
+            стороны достаточно, чтобы этот образ пошел ему в вечное прозвище; а насмешки боится даже
+            тот, который уже ничего не боится на свете. Нет, засмеяться добрым, светлым смехом может
+            только одна глубоко добрая душа. Но не слышат могучей силы такого смеха: «что смешно, то
+            низко», — говорит свет; только тому, что произносится суровым, напряженным голосом, тому
+            только дают названье высокого. Но, Боже! сколько проходит ежедневно людей, для которых
+            нет вовсе высокого в мире! Все, что ни творилось вдохновеньем, для них пустяки и
+            побасенки; созданья Шекспира для них побасенки; святые движенья души — для них
+            побасенки. Нет, не оскорбленное мелочное самолюбье писателя заставляет меня сказать это,
+            не потому, что мои незрелые, слабые созданья были сейчас названы побасенками, — нет, я
+            вижу свои пороки и вижу, что достоин упреков; но не могла выносить равнодушно душа моя,
+            когда совершеннейшие творения честились именами пустяков и побасенок, когда все светила
+            и звезды мира признавались творцами одних пустяков и побасенок! Ныла душа моя, когда я
+            видел, как много тут же, среди самой жизни, безответных, мертвых обитателей, страшных
+            недвижным холодом души своей и бесплодной пустыней сердца; ныла душа моя, когда на
+            бесчувственных их лицах не вздрагивал даже ни призрак выражения от того, что повергало в
+            небесные слезы глубоко любящую душу, и не коснел язык их произнести свое вечное слово
+            «побасенки»! Побасенки!.. А вон протекли веки, города и народы снеслись и исчезли с лица
+            земли, как дым унеслось все, что было, — а побасенки живут и повторяются поныне, и
+            внемлют им мудрые цари, глубокие правители, прекрасный старец и полный благородного
+            стремленья юноша. Побасенки!.. А вон стонут балконы и перила театров: все потряслось
+            снизу доверху, превратясь в одно чувство, в один миг, в одного человека, и все люди
+            встретились, как братья, в одном душевном движенье, и гремит дружным рукоплесканьем
+            благодарный гимн тому, которого уже пятьсот лет как нет на свете. Слышат ли это в могиле
+            истлевшие его кости? Отзывается ли душа его, терпевшая суровое горе жизни? Побасенки!..
+            А вон, среди сих же рядов потрясенной толпы, пришел удрученный горем и невыносимой
+            тяжестью жизни, готовый поднять отчаянно на себя руку, — и брызнули вдруг свежительные
+            слезы из его очей, и вышел он примиренный с жизнью и просит вновь у неба горя и
+            страданий, чтобы только жить и залиться вновь слезами от таких побасенок. Побасенки!..
+            Но мир задремал бы без таких побасенок, обмелела бы жизнь, плесенью и тиной покрылись бы
+            души. Побасенки!.. О, да пребудут же вечно святы в потомстве имена благосклонно
+            внимавших таким побасенкам: чудный перст Провиденья был неотлучно над главами творцов
+            их. В минуты даже бед и гонений все, что было благороднейшего в государствах,
+            становилось прежде всего их заступником: венчанный монарх осенял их царским щитом своим
+            с вышины недоступного престола.</p>
+          <p>Бодрей же в путь! И да не смутится душа от осуждений, но да примет благодарно указанья
+            недостатков, не омрачась даже и тогда, если бы отказали ей в высоких движеньях и в
+            святой любви к человечеству! Мир — как водоворот: движутся в нем вечно мненья и толки;
+            но всё перемалывает время. Как шелуха, слетают ложные и, как твердые зерна, остаются
+            недвижные истины. Что признавалось пустым, может явиться потом вооруженное строгим
+            значеньем. Во глубине холодного смеха могут отыскаться горячие искры вечной могучей
+            любви. И почему знать — может быть, будет признано потом всеми, что в силу тех же
+            законов, почему гордый и сильный человек является ничтожным и слабым в несчастии, а
+            слабый возрастает, как исполин, среди бед, — в силу тех же самых законов, кто льет часто
+            душевные, глубокие слезы, тот, кажется, более всех смеется на свете!..</p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

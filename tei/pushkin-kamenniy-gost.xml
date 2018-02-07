@@ -1,0 +1,2212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Каменный гость</title>
+        <title type="main" xml:lang="en">The Stone Guest</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q7200">Пушкин, Александр Сергеевич</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/pushkin-kamenniy-gost</idno>
+        <idno type="RusDraCor">21</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Интернет-библиотека Алексея Комарова</name>
+          <idno type="URL">http://ilibrary.ru/text/468/index.html</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>А.С. Пушкин. Собрание сочинений в 10 томах. Том 4. Государственное издательство
+              художественной литературы. М. 1960.</title>
+            <date type="print" when="1839">Первая публикация трагедии была осуществлена
+              книгопродавцем А. Смирдиным в сборнике «Сто русских литераторов» в 1839 г.</date>
+            <date type="premiere" when="1872">February 28, 1872</date>
+            <date type="written" when="1830">1830</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="DonGuan" sex="MALE">
+            <persName>Дон Гуан</persName>
+          </person>
+          <person xml:id="Leporello" sex="MALE">
+            <persName>Лепорелло</persName>
+          </person>
+          <person xml:id="Monah" sex="MALE">
+            <persName>Монах</persName>
+          </person>
+          <person xml:id="DonaAnna" sex="FEMALE">
+            <persName>Дона Анна</persName>
+          </person>
+          <person xml:id="PervyjGost" sex="MALE">
+            <persName>Первый гость</persName>
+          </person>
+          <person xml:id="VtorojGost" sex="MALE">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="TretijGost" sex="MALE">
+            <persName>Третий</persName>
+          </person>
+          <person xml:id="Laura" sex="FEMALE">
+            <persName>Лаура</persName>
+          </person>
+          <person xml:id="DonKarlos" sex="MALE">
+            <persName>Дон Карлос</persName>
+          </person>
+          <person xml:id="Gost" sex="MALE">
+            <persName>Гость</persName>
+          </person>
+          <person xml:id="Statuja" sex="MALE">
+            <persName>Статуя</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#zhenya" when="2017-05-16">changed IDs and date</change>
+        <change who="#ds" when="2017-05-23">removed 'unknown speaker'</change>
+        <change who="#to" when="2017-05-31">Corrected IDs, CamelCase, added some dates and
+          info</change>
+        <change who="#GG" when="2017-06-03">gender info</change>
+        <change who="#ff" when="2017-06-25">segmented character constellations in all 4 scenes;
+          shifted some stage directions to their right place; marked-up shared verses with part
+          attribute</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docAuthor>Александр Пушкин</docAuthor>
+      <docTitle>
+        <titlePart type="main">Каменный гость</titlePart>
+      </docTitle>
+    </front>
+    <body>
+      <epigraph>
+        <cit>
+          <quote>
+            <lg>
+              <l>Leporello. O statua gentilissima</l>
+              <l>Del gran' Commendatore!..</l>
+              <l>...Ah, Padrone!</l>
+            </lg>
+          </quote>
+        </cit>
+        <bibl>Don Giovanni.</bibl>
+      </epigraph>
+      <div type="scene">
+        <head>Сцена I</head>
+        <stage>Дон Гуан и Лепорелло</stage>
+        <div type="configuration">
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Дождемся ночи здесь. Ах, наконец</l>
+              <l>Достигли мы ворот Мадрита! скоро</l>
+              <l>Я полечу по улицам знакомым,</l>
+              <l>Усы плащом закрыв, а брови шляпой.</l>
+              <l>Как думаешь? узнать меня нельзя?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Да! Дон Гуана мудрено признать!</l>
+              <l part="I">Таких, как он, такая бездна!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Шутишь?</l>
+              <l part="I">Да кто ж меня узнает?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Первый сторож,</l>
+              <l>Гитана или пьяный музыкант,</l>
+              <l>Иль свой же брат нахальный кавалер,</l>
+              <l>Со шпагою под мышкой и в плаще.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Что за беда, хоть и узнают. Только б</l>
+              <l>Не встретился мне сам король. А впрочем,</l>
+              <l>Я никого в Мадрите не боюсь.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>А завтра же до короля дойдет,</l>
+              <l>Что Дон Гуан из ссылки самовольно</l>
+              <l>В Мадрит явился, – что тогда, скажите,</l>
+              <l part="I">Он с вами сделает?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Пошлет назад.</l>
+              <l>Уж верно головы мне не отрубят.</l>
+              <l>Ведь я не государственный преступник.</l>
+              <l>Меня он удалил, меня ж любя;</l>
+              <l>Чтобы меня оставила в покое</l>
+              <l part="I">Семья убитого...</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Ну то-то же!</l>
+              <l>Сидели б вы себе спокойно там.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Слуга покорный! я едва-едва</l>
+              <l>Не умер там со скуки. Что за люди,</l>
+              <l>Что за земля! А небо?.. точный дым.</l>
+              <l>А женщины? Да я не променяю,</l>
+              <l>Вот видишь ли, мой глупый Лепорелло,</l>
+              <l>Последней в Андалузии крестьянки</l>
+              <l>На первых тамошних красавиц – право.</l>
+              <l>Они сначала нравилися мне</l>
+              <l>Глазами синими, да белизною,</l>
+              <l>Да скромностью – а пуще новизною;</l>
+              <l>Да, слава богу, скоро догадался –</l>
+              <l>Увидел я, что с ними грех и знаться –</l>
+              <l>В них жизни нет, всё куклы восковые;</l>
+              <l>А наши!.. Но послушай, это место</l>
+              <l>Знакомо нам; узнал ли ты его?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Как не узнать: Антоньев монастырь</l>
+              <l>Мне памятен. Езжали вы сюда,</l>
+              <l>А лошадей держал я в этой роще.</l>
+              <l>Проклятая, признаться, должность. Вы</l>
+              <l>Приятнее здесь время проводили,</l>
+              <l part="I">Чем я, поверьте.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <stage type="delivery">(задумчиво)</stage>
+            <lg>
+              <l part="F">Бедная Инеза!</l>
+              <l>Ее уж нет! как я любил ее!</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Инеза! – черноглазая... о, помню.</l>
+              <l>Три месяца ухаживали вы,</l>
+              <l>За ней; насилу-то помог лукавый.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>В июле... ночью. Странную приятность</l>
+              <l>Я находил в ее печальном взоре</l>
+              <l>И помертвелых губах. Это странно.</l>
+              <l>Ты, кажется, ее не находил</l>
+              <l>Красавицей. И точно, мало было</l>
+              <l>В ней истинно прекрасного. Глаза,</l>
+              <l>Одни глаза. Да взгляд... такого взгляда</l>
+              <l>Уж никогда я не встречал. А голос</l>
+              <l>У ней был тих и слаб – как у больной –</l>
+              <l>Муж у нее был негодяй суровый,</l>
+              <l>Узнал я поздно... Бедная Инеза!..</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="I">Что ж, вслед за ней другие были.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Правда.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>А живы будем, будут и другие.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">И то.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Теперь которую в Мадрите</l>
+              <l part="I">Отыскивать мы будем?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">О, Лауру!</l>
+              <l part="I">Я прямо к ней бегу являться.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Дело.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>К ней прямо в дверь – а если кто-нибудь</l>
+              <l>Уж у нее – прошу в окно прыгнуть.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Конечно. Ну, развеселились мы.</l>
+              <l>Недолго нас покойницы тревожат.</l>
+              <l part="I">Кто к нам идет?</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит монах.</stage>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l part="F">Сейчас она приедет</l>
+              <l>Сюда. Кто здесь? не люди ль Доны Анны?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Нет, сами по себе мы господа,</l>
+              <l part="I">Мы здесь гуляем.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">А кого вы ждете?</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l>Сейчас должна приехать Дона Анна</l>
+              <l part="I">На мужнину гробницу.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Дона Анна</l>
+              <l>Де Сольва! как! супруга командора</l>
+              <l part="I">Убитого... не помню кем?</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l part="F">Развратным,</l>
+              <l>Бессовестным, безбожным Дон Гуаном.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Ого! вот как! Молва о Дон Гуане</l>
+              <l>И в мирный монастырь проникла даже,</l>
+              <l>Отшельники хвалы ему поют.</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l part="I">Он вам знаком, быть может?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Нам? нимало.</l>
+              <l part="I">А где-то он теперь?</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l part="F">Его здесь нет,</l>
+              <l part="I">Он в ссылке далеко.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">И слава богу.</l>
+              <l>Чем далее, тем лучше. Всех бы их,</l>
+              <l>Развратников, в один мешок да в море.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Что, что ты врешь?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Молчите: я нарочно...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Так здесь похоронили командора?</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l>Здесь; памятник жена ему воздвигла</l>
+              <l>И приезжает каждый день сюда</l>
+              <l>За упокой души его молиться</l>
+              <l part="I">И плакать.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Что за странная вдова?</l>
+              <l part="I">И не дурна?</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l part="F">Мы красотою женской,</l>
+              <l>Отшельники, прельщаться не должны,</l>
+              <l>Но лгать грешно; не может и угодник</l>
+              <l>В ее красе чудесной не сознаться.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Недаром же покойник был ревнив.</l>
+              <l>Он Дону Анну взаперти держал,</l>
+              <l>Никто из нас не видывал ее.</l>
+              <l>Я с нею бы хотел поговорить.</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l>О, Дона Анна никогда с мужчиной</l>
+              <l part="I">Не говорит.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">А с вами, мой отец?</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l>Со мной иное дело; я монах.</l>
+              <l part="I">Да вот она.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Дона Анна.</stage>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Отец мой, отоприте.</l>
+            </lg>
+          </sp>
+          <sp who="#Monah">
+            <speaker>Монах</speaker>
+            <lg>
+              <l>Сейчас, сеньора; я вас ожидал.</l>
+            </lg>
+          </sp>
+          <stage>Дона Анна идет за монахом.</stage>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="I">Что, какова?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Ее совсем не видно</l>
+              <l>Под этим вдовьим черным покрывалом,</l>
+              <l>Чуть узенькую пятку я заметил.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Довольно с вас. У вас воображенье</l>
+              <l>В минуту дорисует остальное;</l>
+              <l>Оно у нас проворней живописца,</l>
+              <l>Вам все равно, с чего бы ни начать,</l>
+              <l part="I">С бровей ли, с ног ли.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Слушай, Лепорелло,</l>
+              <l part="I">Я с нею познакомлюсь.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Вот еще!</l>
+              <l>Куда как нужно! Мужа повалил</l>
+              <l>Да хочет поглядеть на вдовьи слезы.</l>
+              <l part="I">Бессовестный!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Однако уж и смерклось.</l>
+              <l>Пока луна над нами не взошла</l>
+              <l>И в светлый сумрак тьмы не обратила,</l>
+              <l part="I">Взойдем в Мадрит.</l>
+            </lg>
+          </sp>
+          <stage type="delivery">(Уходит.)</stage>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Испанский гранд как вор</l>
+              <l>Ждет ночи и луны боится – боже!</l>
+              <l>Проклятое житье. Да долго ль будет</l>
+              <l>Мне с ним возиться? Право, сил уж нет.</l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div type="scene">
+        <head>Сцена II</head>
+        <div type="configuration">
+          <stage>Комната. Ужин у Лауры.</stage>
+          <sp who="#PervyjGost">
+            <speaker>Первый гость</speaker>
+            <lg>
+              <l>Клянусь тебе, Лаура, никогда</l>
+              <l>С таким ты совершенством не играла.</l>
+              <l>Как роль свою ты верно поняла!</l>
+            </lg>
+          </sp>
+          <sp who="#VtorojGost">
+            <speaker>Второй</speaker>
+            <lg>
+              <l>Как развила ее! с какою силой!</l>
+            </lg>
+          </sp>
+          <sp who="#TretijGost">
+            <speaker>Третий</speaker>
+            <lg>
+              <l part="I">С каким искусством!</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Да, мне удавалось</l>
+              <l>Сегодня каждое движенье, слово.</l>
+              <l>Я вольно предавалась вдохновенью.</l>
+              <l>Слова лились, как будто их рождала</l>
+              <l part="I">Не память рабская, но сердце...</l>
+            </lg>
+          </sp>
+          <sp who="#PervyjGost">
+            <speaker>Первый</speaker>
+            <lg>
+              <l part="F">Правда.</l>
+              <l>Да и теперь глаза твои блестят</l>
+              <l>И щеки разгорелись, не проходит</l>
+              <l>В тебе восторг. Лаура, не давай</l>
+              <l>Остыть ему бесплодно; спой, Лаура,</l>
+              <l part="I">Спой что-нибудь.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Подайте мне гитару.</l>
+            </lg>
+          </sp>
+          <stage type="delivery">(Поет.)</stage>
+          <sp who="#PervyjGost #VtorojGost #TretijGost #DonKarlos">
+            <speaker>Все</speaker>
+            <lg>
+              <l>О brava! brava! чудно! бесподобно!</l>
+            </lg>
+          </sp>
+          <sp who="#PervyjGost">
+            <speaker>Первый</speaker>
+            <lg>
+              <l>Благодарим, волшебница. Ты сердце</l>
+              <l>Чаруешь нам. Из наслаждений жизни</l>
+              <l>Одной любви музыка уступает;</l>
+              <l>Но и любовь мелодия... взгляни:</l>
+              <l>Сам Карлос тронут, твой угрюмый гость.</l>
+            </lg>
+          </sp>
+          <sp who="#VtorojGost">
+            <speaker>Второй</speaker>
+            <lg>
+              <l>Какие звуки! сколько в них души!</l>
+              <l part="I">А чьи слова, Лаура?</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Дон Гуана.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="I">Что? Дон Гуан!</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Их сочинил когда-то</l>
+              <l>Мой верный друг, мой ветреный любовник.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l>Твой Дон Гуан безбожник и мерзавец,</l>
+              <l part="I">А ты, ты дура.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Ты с ума сошел?</l>
+              <l>Да я сейчас велю тебя зарезать</l>
+              <l>Моим слугам, хоть ты испанский гранд.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <stage type="delivery">(встает)</stage>
+            <lg>
+              <l part="I">Зови же их.</l>
+            </lg>
+          </sp>
+          <sp who="#PervyjGost">
+            <speaker>Первый</speaker>
+            <lg>
+              <l part="F">Лаура, перестань;</l>
+              <l>Дон Карлос, не сердись. Она забыла...</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l>Что? что Гуан на поединке честно</l>
+              <l>Убил его родного брата? Правда: жаль,</l>
+              <l part="I">Что не его.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="F">Я глуп, что осердился.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l>Ага! сам сознаешься, что ты глуп.</l>
+              <l part="I">Так помиримся.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="F">Виноват, Лаура,</l>
+              <l>Прости меня. Но знаешь: не могу</l>
+              <l>Я слышать это имя равнодушно...</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l>А виновата ль я, что поминутно</l>
+              <l>Мне на язык приходит это имя?</l>
+            </lg>
+          </sp>
+          <sp who="#Gost">
+            <speaker>Гость</speaker>
+            <lg>
+              <l>Ну, в знак, что ты совсем ух не сердита,</l>
+              <l part="I">Лаура, спой еще.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Да, на прощанье,</l>
+              <l>Пора, уж ночь. Но что же я спою?</l>
+              <l part="I">А, слушайте.</l>
+            </lg>
+          </sp>
+          <stage type="delivery">(Поет.)</stage>
+          <sp who="#PervyjGost #VtorojGost #TretijGost #DonKarlos">
+            <speaker>Все</speaker>
+            <lg>
+              <l part="F">Прелестно, бесподобно!</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="I">Прощайте ж, господа.</l>
+            </lg>
+          </sp>
+          <sp who="#PervyjGost #VtorojGost #TretijGost">
+            <speaker>Гости</speaker>
+            <lg>
+              <l part="F">Прощай, Лаура.</l>
+            </lg>
+          </sp>
+          <stage>Выходят. Лаура останавливает Дон Карлоса.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l>Ты, бешеный! останься у меня,</l>
+              <l>Ты мне понравился; ты Дон Гуана</l>
+              <l>Напомнил мне, как выбранил меня</l>
+              <l part="I">И стиснул зубы с скрежетом.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="F">Счастливец!</l>
+              <l part="I">Так ты его любила.</l>
+            </lg>
+            <stage>Лаура делает утвердительно знак.</stage>
+            <lg>
+              <l part="M">Очень?</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Очень.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="I">И любишь и теперь?</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">В сию минуту?</l>
+              <l>Нет, не люблю. Мне двух любить нельзя.</l>
+              <l part="I">Теперь люблю тебя.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="F">Скажи, Лаура,</l>
+              <l part="I">Который год тебе?</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Осьмнадцать лет.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l>Ты молода... и будешь молода</l>
+              <l>Еще лет пять иль шесть. Вокруг тебя</l>
+              <l>Еще лет шесть они толпиться будут,</l>
+              <l>Тебя ласкать, лелеять, и дарить,</l>
+              <l>И серенадами ночными тешить,</l>
+              <l>И за тебя друг друга убивать</l>
+              <l>На перекрестках ночью. Но когда</l>
+              <l>Пора пройдет, когда твои глаза</l>
+              <l>Впадут и веки, сморщась, почернеют</l>
+              <l>И седина в косе твоей мелькнет,</l>
+              <l>И будут называть тебя старухой,</l>
+              <l part="I">Тогда – что скажешь ты?</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Тогда? Зачем</l>
+              <l>Об этом думать? что за разговор?</l>
+              <l>Иль у тебя всегда такие мысли?</l>
+              <l>Приди – открой балкон. Как небо тихо;</l>
+              <l>Недвижим теплый воздух, ночь лимоном</l>
+              <l>И лавром пахнет, яркая луна</l>
+              <l>Блестит на синеве густой и темной,</l>
+              <l>И сторожа кричат протяжно: «Ясно!..»</l>
+              <l>А далеко, на севере – в Париже –</l>
+              <l>Быть может, небо тучами покрыто,</l>
+              <l>Холодный дождь идет и ветер дует.</l>
+              <l>А нам какое дело? слушай, Карлос,</l>
+              <l>Я требую, чтоб улыбнулся ты...</l>
+              <l part="I">– Ну то-то ж! –</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="M">Милый демон!</l>
+            </lg>
+          </sp>
+          <stage>Стучат.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Гей! Лаура!</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="I">Кто там? чей это голос?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Отопри...</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="I">Ужели!.. Боже!..</l>
+            </lg>
+          </sp>
+          <stage type="delivery">(Отпирает двери, входит Дон Гуан.)</stage>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="M">Здравствуй...</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Дон Гуан!..</l>
+            </lg>
+          </sp>
+          <stage type="delivery">(Лаура кидается ему на шею.)</stage>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="I">Как! Дон Гуан!..</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Лаура, милый друг!..</l>
+            </lg>
+            <stage type="delivery">(Целует ее.)</stage>
+            <lg>
+              <l part="I">Кто у тебя, моя Лаура?</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="F">Я,</l>
+              <l part="I">Дон Карлос.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Вот нечаянная встреча!</l>
+              <l part="I">Я завтра весь к твоим услугам.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <lg>
+              <l part="F">Нет!</l>
+              <l part="I">Теперь – сейчас.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Дон Карлос, перестаньте!</l>
+              <l>Вы не на улице – вы у меня –</l>
+              <l part="I">Извольте выйти вон.</l>
+            </lg>
+          </sp>
+          <sp who="#DonKarlos">
+            <speaker>Дон Карлос</speaker>
+            <stage type="delivery">(ее не слушая)</stage>
+            <lg>
+              <l part="F">Я жду. Ну что ж,</l>
+              <l part="I">Ведь ты при шпаге.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Ежели тебе</l>
+              <l part="I">Не терпится, изволь.</l>
+            </lg>
+          </sp>
+          <stage>Бьются.</stage>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Ай! Ай! Гуан!..</l>
+            </lg>
+          </sp>
+          <stage>(Кидается на постелю.)</stage>
+          <stage>Дон Карлос падает.</stage>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Вставай, Лаура, кончено.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Что там?</l>
+              <l>Убит? прекрасно! в комнате моей!</l>
+              <l>Что делать мне теперь, повеса, дьявол?</l>
+              <l part="I">Куда я выброшу его?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Быть может,</l>
+              <l part="I">Он жив еще.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <stage type="delivery">(осматривает тело)</stage>
+            <lg>
+              <l part="F">Да! жив! гляди, проклятый,</l>
+              <l>Ты прямо в сердце ткнул – небось не мимо,</l>
+              <l>И кровь нейдет из треугольной ранки,</l>
+              <l part="I">А уж не дышит – каково?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Что делать?</l>
+              <l part="I">Он сам того хотел.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Эх, Дон Гуан,</l>
+              <l>Досадно, право. Вечные проказы –</l>
+              <l>А все не виноват... Откуда ты?</l>
+              <l part="I">Давно ли здесь?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Я только что приехал</l>
+              <l>И то тихонько – я ведь не прощен.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l>И вспомнил тотчас о своей Лауре?</l>
+              <l>Что хорошо, то хорошо. Да полно,</l>
+              <l>Не верю я. Ты мимо шел случайно</l>
+              <l part="I">И дом увидел.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Нет, моя Лаура,</l>
+              <l>Спроси у Лепорелло. Я стою</l>
+              <l>За городом, в проклятой венте. Я Лауры</l>
+              <l part="I">Пришел искать в Мадрите.</l>
+            </lg>
+          </sp>
+          <stage type="delivery">(Целует ее.)</stage>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Друг ты мой!..</l>
+              <l>Постой... при мертвом!.. что нам делать с ним?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Оставь его: перед рассветом, рано,</l>
+              <l>Я вынесу его под епанчою</l>
+              <l part="I">И положу на перекрестке.</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">Только</l>
+              <l>Смотри, чтоб не увидели тебя.</l>
+              <l>Как хорошо ты сделал, что явился</l>
+              <l>Одной минутой позже! у меня</l>
+              <l>Твои друзья здесь ужинали. Только</l>
+              <l>Что вышли вон. Когда б ты их застал!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Лаура, и давно его ты любишь?</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="I">Кого? ты, видно, бредишь.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">А признайся,</l>
+              <l>А сколько раз ты изменяла мне</l>
+              <l part="I">В моем отсутствии?</l>
+            </lg>
+          </sp>
+          <sp who="#Laura">
+            <speaker>Лаура</speaker>
+            <lg>
+              <l part="F">А ты, повеса?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Скажи... Нет, после переговорим.</l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div type="scene">
+        <head>Сцена III</head>
+        <stage>Памятник командора.</stage>
+        <div type="configuration">
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Все к лучшему: нечаянно убив</l>
+              <l>Дон Карлоса, отшельником смиренным</l>
+              <l>Я скрылся здесь – и вижу каждый день</l>
+              <l>Мою прелестную вдову, и ею,</l>
+              <l>Мне кажется, замечен. До сих пор</l>
+              <l>Чинились мы друг с другом; но сегодня</l>
+              <l>Впущуся в разговоры с ней; пора.</l>
+              <l>С чего начну? «Осмелюсь»... или нет:</l>
+              <l>«Сеньора»... ба! что в голову придет,</l>
+              <l>То и скажу, без предуготовленья,</l>
+              <l>Импровизатором любовной песни...</l>
+              <l>Пора б уж ей приехать. Без нее –</l>
+              <l>Я думаю – скучает командор.</l>
+              <l>Каким он здесь представлен исполином!</l>
+              <l>Какие плечи! что за Геркулес!..</l>
+              <l>А сам покойник мал был и щедушен,</l>
+              <l>Здесь, став на цыпочки, не мог бы руку</l>
+              <l>До своего он носу дотянуть.</l>
+              <l>Когда за Эскурьялом мы сошлись,</l>
+              <l>Наткнулся мне на шпагу он и замер,</l>
+              <l>Как на булавке стрекоза – а был</l>
+              <l>Он горд и смел – и дух имел суровый...</l>
+              <l part="I">A! вот она.</l>
+            </lg>
+          </sp>
+          <stage>Входит Дона Анна.</stage>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Опять он здесь. Отец мой,</l>
+              <l>Я развлекла вас в ваших помышленьях –</l>
+              <l part="I">Простите.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Я просить прощенья должен</l>
+              <l>У вас, сеньора. Может, я мешаю</l>
+              <l>Печали вашей вольно изливаться.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Нет, мой отец, печаль моя во мне,</l>
+              <l>При вас мои моленья могут к небу</l>
+              <l>Смиренно возноситься – я прошу</l>
+              <l>И вас свой голос с ними съединить.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Мне, мне молиться с вами, Дона Анна!</l>
+              <l>Я не достоин участи такой.</l>
+              <l>Я не дерзну порочными устами</l>
+              <l>Мольбу святую вашу повторять –</l>
+              <l>Я только издали с благоговеньем</l>
+              <l>Смотрю на вас, когда, склонившись тихо,</l>
+              <l>Вы черные власы на мрамор бледный</l>
+              <l>Рассыплете – и мнится мне, что тайно</l>
+              <l>Гробницу эту ангел посетил,</l>
+              <l>В смущенном сердце я не обретаю</l>
+              <l>Тогда молений. Я дивлюсь безмолвно</l>
+              <l>И думаю – счастлив, чей хладный мрамор</l>
+              <l>Согрет ее дыханием небесным</l>
+              <l>И окроплен любви ее слезами...</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Какие речи – странные!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Сеньора?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Мне... вы забыли.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Что? что недостойный</l>
+              <l>Отшельник я? что грешный голос мой</l>
+              <l>Не должен здесь так громко раздаваться?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Мне показалось... я не поняла...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Ах вижу я: вы всё, вы всё узнали!</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Что я узнала?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Так, я не монах –</l>
+              <l>У ваших ног прощенья умоляю.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>О боже! встаньте, встаньте... Кто же вы?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Несчастный, жертва страсти безнадежной.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>О боже мой! и здесь, при этом гробе!</l>
+              <l part="I">Подите прочь.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Минуту, Дона Анна,</l>
+              <l part="I">Одну минуту!</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Если кто взойдет!..</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Решетка заперта. Одну минуту!</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Ну? что? чего вы требуете?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Смерти.</l>
+              <l>О пусть умру сейчас у ваших ног,</l>
+              <l>Пусть бедный прах мой здесь же похоронят</l>
+              <l>Не подле праха, милого для вас,</l>
+              <l>Не тут – не близко – дале где-нибудь,</l>
+              <l>Там – у дверей – у самого порога,</l>
+              <l>Чтоб камня моего могли коснуться</l>
+              <l>Вы легкою ногой или одеждой,</l>
+              <l>Когда сюда, на этот гордый гроб</l>
+              <l>Пойдете кудри наклонять и плакать.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Вы не в своем уме.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Или желать</l>
+              <l>Кончины, Дона Анна, знак безумства?</l>
+              <l>Когда б я был безумец, я б хотел</l>
+              <l>В живых остаться, я б имел надежду</l>
+              <l>Любовью нежной тронуть ваше сердце;</l>
+              <l>Когда б я был безумец, я бы ночи</l>
+              <l>Стал провождать у вашего балкона,</l>
+              <l>Тревожа серенадами ваш сон,</l>
+              <l>Не стал бы я скрываться, я напротив</l>
+              <l>Старался быть везде б замечен вами;</l>
+              <l>Когда б я был безумец, я б не стал</l>
+              <l part="I">Страдать в безмолвии...</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">И так-то вы</l>
+              <l part="I">Молчите?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Случай, Дона Анна, случай</l>
+              <l>Увлек меня. – Не то вы б никогда</l>
+              <l>Моей печальной тайны не узнали.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>И любите давно уж вы меня?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Давно или недавно, сам не знаю,</l>
+              <l>Но с той поры лишь только знаю цену</l>
+              <l>Мгновенной жизни, только с той поры</l>
+              <l>И понял я, что значит слово счастье.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Подите прочь – вы человек опасный.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Опасный! чем?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Я слушать вас боюсь.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Я замолчу; лишь не гоните прочь</l>
+              <l>Того, кому ваш вид одна отрада.</l>
+              <l>Я не питаю дерзостных надежд,</l>
+              <l>Я ничего не требую, но видеть</l>
+              <l>Вас должен я, когда уже на жизнь</l>
+              <l part="I">Я осужден.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Подите – здесь не место</l>
+              <l>Таким речам, таким безумствам. Завтра</l>
+              <l>Ко мне придите. Если вы клянетесь</l>
+              <l>Хранить ко мне такое ж уваженье,</l>
+              <l>Я вас приму; но вечером, позднее, –</l>
+              <l>Я никого не вижу с той поры,</l>
+              <l part="I">Как овдовела...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Ангел Дона Анна!</l>
+              <l>Утешь вас бог, как сами вы сегодня</l>
+              <l>Утешили несчастного страдальца.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Подите ж прочь.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Еще одну минуту.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Нет, видно, мне уйти... к тому ж моленье</l>
+              <l>Мне в ум нейдет. Вы развлекли меня</l>
+              <l>Речами светскими; от них уж ухо</l>
+              <l>Мое давно, давно отвыкло. – Завтра</l>
+              <l part="I">Я вас приму.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Еще не смею верить,</l>
+              <l>Не смею счастью моему предаться...</l>
+              <l>Я завтра вас увижу! – и не здесь</l>
+              <l part="I">И не украдкою!</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Да, завтра, завтра.</l>
+              <l part="I">Как вас зовут?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Диего де Кальвадо.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Прощайте, Дон Диего.</l>
+            </lg>
+          </sp>
+          <stage type="delivery">(Уходит.)</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Лепорелло!</l>
+            </lg>
+          </sp>
+          <stage>Лепорелло входит.</stage>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="I">Что вам угодно?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Милый Лепорелло!</l>
+              <l>Я счастлив!.. «Завтра – вечером, позднее...»</l>
+              <l>Мой Лепорелло, завтра – приготовь...</l>
+              <l part="I">Я счастлив, как ребенок!</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">С Доной Анной</l>
+              <l>Вы говорили? может быть, она</l>
+              <l>Сказала вам два ласкового слова</l>
+              <l>Или ее благословили вы.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Нет, Лепорелло, нет! она свиданье,</l>
+              <l part="I">Свиданье мне назначила!</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Неужто!</l>
+              <l part="I">О вдовы, все вы таковы.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Я счастлив!</l>
+              <l>Я петь готов, я рад весь мир обнять.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>А командор? что скажет он об этом?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Ты думаешь, он станет ревновать?</l>
+              <l>Уж верно нет; он человек разумный</l>
+              <l>И, верно, присмирел с тех пор, как умер.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Нет; посмотрите на его статую.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Что ж?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Кажется, на вас она глядит</l>
+              <l part="I">И сердится.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Ступай же, Лепорелло,</l>
+              <l>Проси ее пожаловать ко мне –</l>
+              <l>Нет, не ко мне – а к Доне Анне, завтра.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="I">Статую в гости звать! зачем?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Уж верно</l>
+              <l>Не для того, чтоб с нею говорить –</l>
+              <l>Проси статую завтра к Доне Анне</l>
+              <l>Прийти попозже вечером и стать</l>
+              <l part="I">У двери на часах.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Охота вам</l>
+              <l part="I">Шутить, и с кем!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="M">Ступай же.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="M">Но...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Ступай.</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l>Преславная, прекрасная статуя!</l>
+              <l>Мой барин Дон Гуан покорно просит</l>
+              <l>Пожаловать... Ей-богу, не могу,</l>
+              <l part="I">Мне страшно.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="M">Трус! вот я тебя!..</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Позвольте.</l>
+              <l>Мой барин Дон Гуан вас просит завтра</l>
+              <l>Прийти попозже в дом супруги вашей</l>
+              <l part="I">И стать у двери...</l>
+            </lg>
+            <stage>Статуя кивает головой в знак согласия.</stage>
+            <lg>
+              <l part="M">Ай!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="M">Что там?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Ай, ай!..</l>
+              <l part="I">Ай, ай... Умру!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Что сделалось стобою?</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <stage type="delivery">(кивая головой)</stage>
+            <lg>
+              <l part="I">Статуя... ай!..</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="M">Ты кланяешься!</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="F">Нет,</l>
+              <l part="I">Не я, она!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Какой ты вздор несешь!</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="I">Подите сами.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Ну смотри ж, бездельник.</l>
+            </lg>
+            <stage type="delivery">(Статуе.)</stage>
+            <lg>
+              <l>Я, командор, прошу тебя прийти</l>
+              <l>К твоей вдове, где завтра буду я,</l>
+              <l>И стать на стороже в дверях. Что? будешь?</l>
+            </lg>
+            <stage>Статуя кивает опять.</stage>
+            <lg>
+              <l part="I">О боже!</l>
+            </lg>
+          </sp>
+          <sp who="#Leporello">
+            <speaker>Лепорелло</speaker>
+            <lg>
+              <l part="M">Что? я говорил...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Уйдем.</l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div type="scene">
+        <head>Сцена IV</head>
+        <stage>Комната Доны Анны.</stage>
+        <div type="configuration">
+          <stage>Дон Гуан и Дона Анна.</stage>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Я приняла вас, Дон Диего; только</l>
+              <l>Боюсь, моя печальная беседа</l>
+              <l>Скучна вам будет: бедная вдова,</l>
+              <l>Все помню я свою потерю. Слезы</l>
+              <l>С улыбкою мешаю, как апрель.</l>
+              <l part="I">Что ж вы молчите?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Наслаждаюсь молча,</l>
+              <l>Глубоко мыслью быть наедине</l>
+              <l>С прелестной Доной Анной. Здесь – не там,</l>
+              <l>Не при гробнице мертвого счастливца –</l>
+              <l>И вижу вас уже не на коленах</l>
+              <l part="I">Пред мраморным супругом.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Дон Диего,</l>
+              <l>Так вы ревнивы. – Муж мой и во гробе</l>
+              <l part="I">Вас мучит?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Я не должен ревновать.</l>
+              <l part="I">Он вами выбран был.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Нет, мать моя</l>
+              <l>Велела мне дать руку Дон Альвару,</l>
+              <l>Мы были бедны, Дон Альвар богат.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Счастливец! он сокровища пустые</l>
+              <l>Принес к ногам богини, вот за что</l>
+              <l>Вкусил он райское блаженство! Если б</l>
+              <l>Я прежде вас узнал, с каким восторгом</l>
+              <l>Мой сан, мои богатства, всё бы отдал,</l>
+              <l>Всё за единый благосклонный взгляд;</l>
+              <l>Я был бы раб священной вашей воли,</l>
+              <l>Все ваши прихоти я б изучал,</l>
+              <l>Чтоб их предупреждать; чтоб ваша жизнь</l>
+              <l>Была одним волшебством беспрерывным.</l>
+              <l>Увы! – Судьба судила мне иное.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Диего, перестаньте: я грешу,</l>
+              <l>Вас слушая, – мне вас любить нельзя,</l>
+              <l>Вдова должна и гробу быть верна.</l>
+              <l>Когда бы знали вы, как Дон Альвар</l>
+              <l>Меня любил! о, Дон Альвар уж верно</l>
+              <l>Не принял бы к себе влюбленной дамы,</l>
+              <l>Когда б он овдовел. – Он был бы верн</l>
+              <l part="I">Супружеской любви.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Не мучьте сердца</l>
+              <l>Мне, Дона Анна, вечным поминаньем</l>
+              <l>Супруга. Полно вам меня казнить,</l>
+              <l part="I">Хоть казнь я заслужил, быть может.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Чем же?</l>
+              <l>Вы узами не связаны святыми</l>
+              <l>Ни с кем. – Не правда ль? Полюбив меня,</l>
+              <l>Вы предо мной и перед небом правы.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Пред вами! Боже!</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Разве вы виновны</l>
+              <l part="I">Передо мной? Скажите, в чем же.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Нет!</l>
+              <l part="I">Нет, никогда.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Диего, что такое?</l>
+              <l>Вы предо мной не правы? в чем, скажите.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Нет! ни за что!</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Диего, это странно:</l>
+              <l part="I">Я вас прошу, я требую.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Нет, нет.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>А! Так-то вы моей послушны воле!</l>
+              <l>А что сейчас вы говорили мне?</l>
+              <l>Что вы б рабом моим желали быть.</l>
+              <l>Я рассержусь, Диего: отвечайте,</l>
+              <l part="I">В чем предо мной виновны вы?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Не смею.</l>
+              <l>Вы ненавидеть станете меня.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Нет, нет. Я вас заранее прощаю,</l>
+              <l part="I">Но знать желаю...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Не желайте знать</l>
+              <l>Ужасную, убийственную тайну.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Ужасную! вы мучите меня.</l>
+              <l>Я страх как любопытна – что такое?</l>
+              <l>И как меня могли вы оскорбить?</l>
+              <l>Я вас не знала – у меня врагов</l>
+              <l>И нет и не было. Убийца мужа</l>
+              <l part="I">Один и есть.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан </speaker>
+            <stage type="delivery">(про себя)</stage>
+            <lg>
+              <l part="F">Идет к развязке дело!</l>
+              <l>Скажите мне, несчастный Дон Гуан</l>
+              <l part="I">Вам незнаком?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Нет, отроду его</l>
+              <l part="I">Я не видала.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Вы в душе к нему</l>
+              <l part="I">Питаете вражду?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">По долгу чести.</l>
+              <l>Но вы отвлечь стараетесь меня</l>
+              <l>От моего вопроса. Дон Диего –</l>
+              <l part="I">Я требую...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Что, если б Дон Гуана</l>
+              <l part="I">Вы встретили?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Тогда бы я злодею</l>
+              <l part="I">Кинжал вонзила в сердце.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Дона Анна,</l>
+              <l part="I">Где твой кинжал? вот грудь моя.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Диего!</l>
+              <l part="I">Что вы?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Я не Диего, я Гуан.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>О боже! нет, не может быть, не верю.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Я Дон Гуан.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="M">Неправда.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Я убил</l>
+              <l>Супруга твоего; и не жалею</l>
+              <l>О том – и нет раскаянья во мне.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Что слышу я? Нет, нет, не может быть.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Я Дон Гуан, и я тебя люблю.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <stage type="delivery">(падая)</stage>
+            <lg>
+              <l part="I">Где я?.. где я? мне дурно, дурно.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Небо!</l>
+              <l>Что с нею? что с тобою, Дона Анна?</l>
+              <l>Встань, встань, проснись, опомнись: твой Диего,</l>
+              <l part="I">Твой раб у ног твоих.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Оставь меня!</l>
+            </lg>
+            <stage type="delivery">(Слабо.)</stage>
+            <lg>
+              <l>О, ты мне враг – ты отнял у меня</l>
+              <l part="I">Все, что я в жизни...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Милое созданье!</l>
+              <l>Я всем готов удар мой искупить,</l>
+              <l>У ног твоих жду только приказанья,</l>
+              <l>Вели – умру; вели – дышать я буду</l>
+              <l part="I">Лишь для тебя...</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Так это Дон Гуан...</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Не правда ли, он был описан вам</l>
+              <l>Злодеем, извергом. – О Дона Анна, –</l>
+              <l>Молва, быть может, не совсем неправа,</l>
+              <l>На совести усталой много зла,</l>
+              <l>Быть может, тяготеет. Так, разврата</l>
+              <l>Я долго был покорный ученик,</l>
+              <l>Но с той поры, как вас увидел я,</l>
+              <l>Мне кажется, я весь переродился.</l>
+              <l>Вас полюбя, люблю я добродетель</l>
+              <l>И в первый раз смиренно перед ней</l>
+              <l>Дрожащие колена преклоняю.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>О, Дон Гуан красноречив – я знаю,</l>
+              <l>Слыхала я; он хитрый искуситель.</l>
+              <l>Вы, говорят, безбожный развратитель,</l>
+              <l>Вы сущий демон. Сколько бедных женщин</l>
+              <l part="I">Вы погубили?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Ни одной доныне</l>
+              <l part="I">Из них я не любил.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">И я поверю,</l>
+              <l>Чтоб Дон Гуан влюбился в первый раз,</l>
+              <l>Чтоб не искал во мне он жертвы новой!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Когда б я вас обманывать хотел,</l>
+              <l>Признался ль я, сказал ли я то имя,</l>
+              <l>Которого не можете вы слышать?</l>
+              <l>Где ж видно тут обдуманность, коварство?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Кто знает вас? – Но как моглиприйти</l>
+              <l>Сюда вы; здесь узнать могли бы вас,</l>
+              <l>И ваша смерть была бы неизбежна.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Что значит смерть? за сладкий миг свиданья</l>
+              <l part="I">Безропотно отдам я жизнь.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Но как же</l>
+              <l>Отсюда выйти вам, неосторожный!</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <stage type="delivery">(целуя ей руки)</stage>
+            <lg>
+              <l>И вы о жизни бедного Гуана</l>
+              <l>Заботитесь! Так ненависти нет</l>
+              <l>В душе твоей небесной, Дона Анна?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Ах если б вас могла я ненавидеть!</l>
+              <l>Однако ж надобно расстаться нам.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">Когда ж опять увидимся?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="F">Не знаю.</l>
+              <l part="I">Когда-нибудь.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="M">А завтра?</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="M">Где же?</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Здесь.</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>О Дон Гуан, как сердцем я слаба.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>В залог прощенья мирный поцелуй...</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="I">Пора, поди.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Один, холодный, мирный...</l>
+            </lg>
+          </sp>
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l>Какой ты неотвязчивый! на, вот он.</l>
+              <l>Что там за стук?.. о скройся, Дон Гуан.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Прощай же, до свиданья, друг мой милый.</l>
+            </lg>
+            <stage type="delivery">(Уходит и вбегает опять.)</stage>
+            <lg>
+              <l part="I">А!..</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#DonaAnna">
+            <speaker>Дона Анна</speaker>
+            <lg>
+              <l part="M">Что с тобой? A!..</l>
+            </lg>
+          </sp>
+          <stage>Входит статуя командора.</stage>
+          <stage>Дона Анна падает.</stage>
+          <sp who="#Statuja">
+            <speaker>Статуя</speaker>
+            <lg>
+              <l part="F">Я на зов явился.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="I">О боже! Дона Анна!</l>
+            </lg>
+          </sp>
+          <sp who="#Statuja">
+            <speaker>Статуя</speaker>
+            <lg>
+              <l part="F">Брось ее,</l>
+              <l>Все кончено. Дрожишь ты, Дон Гуан.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l>Я? нет. Я звал тебя и рад, что вижу.</l>
+            </lg>
+          </sp>
+          <sp who="#Statuja">
+            <speaker>Статуя</speaker>
+            <lg>
+              <l part="I">Дай руку.</l>
+            </lg>
+          </sp>
+          <sp who="#DonGuan">
+            <speaker>Дон Гуан</speaker>
+            <lg>
+              <l part="F">Вот она... о, тяжело</l>
+              <l>Пожатье каменной его десницы!</l>
+              <l>Оставь меня, пусти – пусти мне руку...</l>
+              <l>Я гибну – кончено – о Дона Анна!</l>
+            </lg>
+          </sp>
+          <stage>Проваливаются.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

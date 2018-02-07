@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Дон-Жуан в Египте</title>
+        <title type="main" xml:lang="en">Don Juan in Egypt</title>
+        <title type="sub" xml:lang="ru">Одноактная пьеса в стихах</title>
+        <title type="sub" xml:lang="en">One-Act Play in Verse</title>
+        <author key="Wikidata:Q311033">Гумилёв, Николай Степанович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/gumilyov-don-zhuan-v-egipte</idno>
+        <idno type="RusDraCor">44</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Дон_Жуан_в_Египте_(Гумилёв)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1911">в апреле 1911 года пьеса была опубликована в сборнике
+              стихотворений «Чужое небо» (https://gumilev.ru/about/10/)</date>
+            <date type="premiere" when="1913">в марте 1913 года состоялась ее премьера в Троицком
+              театре (https://gumilev.ru/about/10/)</date>
+            <date type="written" when="1911">«Дон Жуан в Египте» был прочитан в ноябре 1911 года в
+              Царском Селе у Гумилёвых на заседании Кружка Случевского
+              (https://gumilev.ru/about/10/)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="DonZhuan" sex="MALE">
+            <persName>Дон Жуан</persName>
+          </person>
+          <person xml:id="Leporello" sex="MALE">
+            <persName>Лепорелло</persName>
+          </person>
+          <person xml:id="Amerikanets" sex="MALE">
+            <persName>Американец</persName>
+          </person>
+          <person xml:id="Amerikanka" sex="FEMALE">
+            <persName>Американка</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Одноактная пьеса в стихах</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
+        <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#ff" when="2017-06-07">scene segmentation</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Дон-Жуан в Египте</titlePart>
+        <titlePart type="sub">Одноактная пьеса в стихах</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА:</head>
+        <castItem>Дон Жуан.</castItem>
+        <castItem>Лепорелло.</castItem>
+        <castItem>Американец.</castItem>
+        <castItem>Американка (его дочь).</castItem>
+      </castList>
+      <set>
+        <p>Место действия — внутренность древнего храма на берегу Нила.<lb/>Время действия — наши
+          дни.</p>
+      </set>
+    </front>
+    <body>
+      <div type="configuration">
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(выходя из глубокой расселины между плит)</stage>
+          <l>Как странно! Где я? Что за бред?</l>
+          <l>Ага! Я ставлю три червонца,</l>
+          <l>Что наконец я вижу свет</l>
+          <l>Земного ласкового солнца.</l>
+          <l>Но что же делалось с тех пор,</l>
+          <l>Как я смеялся с донной Анной</l>
+          <l>И грозный мёртвый командор</l>
+          <l>Мне руку сжал с улыбкой странной?</l>
+          <l>Да! Мы слетели в глубину,</l>
+          <l>Как две подстреленные птицы,</l>
+          <l>И я увидел сатану</l>
+          <l>Сквозь обагрённые зарницы.</l>
+          <l>Мой командор лежал как пень,</l>
+          <l>Его схватили, жгли, терзали,</l>
+          <l>Но ловко я укрылся в тень</l>
+          <l>И выждал срок в подземной зале.</l>
+          <l>Когда ж загрезил сатана</l>
+          <l>С больной усмешкой, с томным взором,</l>
+          <l>Я подниматься стал со дна</l>
+          <l>По лестницам и коридорам.</l>
+          <l>Потел от серного огня,</l>
+          <l>Дрожал во льдах, и мчались годы,</l>
+          <l>И духи ада от меня</l>
+          <l>Бросались в тёмные проходы.</l>
+          <l>Ну, добрый, старый дон Жуан,</l>
+          <l>Теперь по опыту ты видишь,</l>
+          <l>Что прав был древний шарлатан,</l>
+          <l>Сказавший: Знай, иди и выйдешь!</l>
+          <stage>(Поворачивается к выходу)</stage>
+          <l>Теперь на волю! Через вал</l>
+          <l>Я вижу парус чьей-то лодки;</l>
+          <l>Я так давно не целовал</l>
+          <l>Румянца ни одной красотки.</l>
+          <l>Есть лодка, есть и человек,</l>
+          <l>А у него сестра, невеста…</l>
+          <l>Привет, земля, любовных нег</l>
+          <l>Очаровательное место!</l>
+          <stage>(Входят Лепорелло в костюме туриста, за ним Американец и Американка)</stage>
+          <l part="I">Ба, Лепорелло!</l>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">Господин!</l>
+          <l>Вы здесь! Какая цепь событий!</l>
+          <l part="I">Как счастлив я!..</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="F">Ты не один?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(тихо)</stage>
+          <l>Ах да, пожалуйста, молчите.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="I">Молчать? Зачем?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло </speaker>
+          <stage type="delivery">(тихо)</stage>
+          <l part="F">Я объясню</l>
+          <l part="I">Вам всё…</l>
+          <stage>(обнимая его, громко)</stage>
+          <l part="M">Ах, друг мой!</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="F">Прочь, невежа!</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="I">Ты гонишь?</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="F">Ясно, что гоню.</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло </speaker>
+          <stage type="delivery">(Американцу и Американке)</stage>
+          <l>Всё тот же он, манеры те же.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="I">Манеры? Хам!</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло </speaker>
+          <stage type="delivery">(продолжая его обнимать, тихо)</stage>
+          <l part="F">Молчите! О!</l>
+          <l part="I">Не бейте…</l>
+          <stage>(громко)</stage>
+          <l part="F">Ха, ха, ха, не страшно!</l>
+          <stage>(К Американцу и Американке)</stage>
+          <l>Не изменила жизнь его,</l>
+          <l>Всё тот же милый, бесшабашный!</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец </speaker>
+          <stage type="delivery">(тихо Лепорелло)</stage>
+          <l>Но кто он? Как его зовут?</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l>Скажи, они дружны с тобою?</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <stage type="delivery">(тихо ему же, указывая на дон Жуана)</stage>
+          <l>Как он красив! Зачем он тут?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(тихо, то тем, то другим)</stage>
+          <l>Сейчас, сейчас, я всё устрою.</l>
+          <stage>(Громко, становясь в позу)</stage>
+          <l>Я был его секретарём,</l>
+          <l>Мы с ним скитались по Мадриду</l>
+          <l>И по Севилье, но потом</l>
+          <l>Я потерял его из виду.</l>
+          <l>О, праздной молодости дни!</l>
+          <l>Они бегут, они неверны,</l>
+          <l>Так, гаснут вечером огни</l>
+          <l>В окне приветливой таверны.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="I">Ну не для всех.</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(примиряюще)</stage>
+          <l part="F">Да, для меня.</l>
+          <l>Я стал студентом Саламанки</l>
+          <l>И позабыл день ото дня</l>
+          <l>Вино и женские приманки.</l>
+          <l>Пил воду, ел засохший хлеб,</l>
+          <l>Спал на соломенном матраце,</l>
+          <l>Бывало, месяцами слеп</l>
+          <l>От едкой пыли диссертаций.</l>
+          <l>Мне повезло не так как тем,</l>
+          <l>Каким-нибудь там дон-Жуанам!</l>
+          <l>Сперва профессором, затем</l>
+          <l>Я вскоре избран был деканом.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <stage type="delivery">(почтительно)</stage>
+          <l part="I">Мы знаем, да.</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">К студентам строг</l>
+          <l>И враг беспочвенных утопий,</l>
+          <l>Я, господа, египтолог,</l>
+          <l>Известнейший во всей Европе.</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l>Так говорилось на балах</l>
+          <l part="I">В Чикаго.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="F">Стоило трудиться!</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l>И вот, когда я на ногах,</l>
+          <l>Я наконец могу жениться.</l>
+          <stage>(Представляя Американку)</stage>
+          <l>Мисс Покэр, грации пример,</l>
+          <l>Она моя невеста, благо</l>
+          <l>Вот мистер Покэр, милльонер,</l>
+          <l>Торговец свиньями в Чикаго.</l>
+          <stage>(Представляя дон Жуана)</stage>
+          <l>Друзья мои, вот дон Жуан,</l>
+          <l>Друг юности моей беспечной,</l>
+          <l>Он иногда бывает пьян,</l>
+          <l>И малый грубый… но сердечный.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l>Что ж, мистер дон Жуан, вы нас,</l>
+          <l>Сойдясь, полюбите наверно…</l>
+          <l>Скажите мне, который час</l>
+          <l>На ваших, у меня неверны.</l>
+          <stage>(Указывая на Американку)</stage>
+          <l>Моя единственная дочь,</l>
+          <l>Мать умерла, она на воле,</l>
+          <l>Но с нею я; она точь в точь</l>
+          <l>Моя скончавшаяся Полли.</l>
+          <l>Теперь уехал я на юг,</l>
+          <l>Но всё не позабыть утраты!</l>
+          <l>Скажите мне, мой юный друг,</l>
+          <l>Ужель ещё вы не женаты?</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(подходя к Американке)</stage>
+          <l part="I">Сеньора!</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <stage type="delivery">(поправляя его)</stage>
+          <l part="M">Мисс.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(настаивая)</stage>
+          <l part="M">Сеньора!</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <stage type="delivery">(по-прежнему)</stage>
+          <l part="F">Мисс!</l>
+          <l>Я не желаю быть сеньорой!</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l>Сойдёмте три ступеньки вниз.</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l>Вы дон Жуан? Ну, тот, который?..</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="I">Да, тот, который!</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l part="F">И с тех пор</l>
+          <l>Вы в мире в первый раз явились?</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l>Да, в первый… старый командор</l>
+          <l>Вцепился крепко… Вы мне снились.</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l part="I">Не верю вам.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(мечтательно)</stage>
+          <l part="F">Земля во мгле;</l>
+          <l>Задумчивое устье Нила,</l>
+          <l>И я плыву на корабле,</l>
+          <l>Где вы сидите у ветрила.</l>
+          <l>Иль чуть заметный свет зари,</l>
+          <l>Застывший город, звон фонтана,</l>
+          <l>И вы мне шепчете: — Смотри,</l>
+          <l>Вот здесь могила Дон Жуана.</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(подозрительно)</stage>
+          <l part="I">О чём здесь речь?</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="F">О том, что ты</l>
+          <l part="I">Давно оставил.</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l part="F">Не мешайте.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <stage type="delivery">(рассматривая памятник)</stage>
+          <l>Какие странные листы!</l>
+          <stage>(Лепорелло отходит к нему)</stage>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l>Как верить вам? Но продолжайте.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l>Я лгу? Не верите вы мне?</l>
+          <l>Но знаю я, что ваши плечи,</l>
+          <l>— Я целовал их уж во сне —</l>
+          <l>Нежны, как восковые свечи.</l>
+          <l>А эта грудь! Её хранят</l>
+          <l>Теперь завистливые ткани,</l>
+          <l>На ней есть синих жилок ряд</l>
+          <l>Капризных, милых очертаний.</l>
+          <l>Поверьте! Мне б хотелось лгать</l>
+          <l>И быть холодным, быть коварным,</l>
+          <l>Но только б, только б не страдать</l>
+          <l>Пред вашим взглядом лучезарным.</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l>И мне так родственен ваш вид:</l>
+          <l>Я всё бывала на Моца́рте</l>
+          <l>И любовалась на Мадрид</l>
+          <l>По старенькой учебной карте.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <stage type="delivery">(Лепорелло, указывая на саркофаг)</stage>
+          <l>Скажите, мой учёный друг,</l>
+          <l part="I">Кто здесь положен?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">Сети третий.</l>
+          <stage>(Про себя, глядя на Дон Жуана и Американку)</stage>
+          <l>Они, ну прямо вон из рук!</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l part="I">Как вы его назвали?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">Сети.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l part="I">Гм, гм!</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(хочет отойти)</stage>
+          <l part="M">Сейчас!</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l part="F">Скажите, как</l>
+          <l>Вы знаете его названье?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l>Ах, Боже мой, а этот знак!</l>
+          <l>Забавно было бы незнанье.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l>Да, да, ещё бы! Ну, а тот,</l>
+          <l>На пьедестале с мордой мопса?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l>А это сын Луны, бог Тот</l>
+          <l>И, кажется, времён Хеопса.</l>
+          <l>Конечно! Сделан лоб горбом,</l>
+          <l>А темя плоским и покатым,</l>
+          <l>Таких не делали потом,</l>
+          <l>Хотя б при Псамметихе пятом.</l>
+          <l>А вот четвёртый Псамметих,</l>
+          <l>На Сети первого похожий…</l>
+          <l part="I">А вот ещё…</l>
+          <stage>(отходит с Американцем)</stage>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(Американке)</stage>
+          <l part="F">Он ваш жених?</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l part="I">Кто?</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l part="M">Лепорелло.</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l part="F">Ну так что же?</l>
+          <l>С приданым я, он знаменит,</l>
+          <l>Как самый знающий учёный,</l>
+          <l>Он никого не удивит,</l>
+          <l>Причёсанный и приручённый.</l>
+          <l>Пусть для него я молода,</l>
+          <l>Но сила, юность и отвага</l>
+          <l>Не посещают никогда</l>
+          <l>Салонов нашего Чикаго.</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l>Но он лакей, всегда лакей,</l>
+          <l>В сукне ливрейного кафтана</l>
+          <l>И в гордой мантии своей,</l>
+          <l>В пурпурной мантии декана.</l>
+          <l>Страшась чего-нибудь не знать,</l>
+          <l>Грызясь за почести с другими,</l>
+          <l>Как пёс, он должен защищать</l>
+          <l>Годами созданное имя.</l>
+          <l>К природе глух и к жизни слеп,</l>
+          <l>Моль библио́тек позабытых,</l>
+          <l>Он заключит вас в тёмный склеп</l>
+          <l>Крикливых слов и чувств изжитых.</l>
+          <l>Нет, есть огонь у вас в крови,</l>
+          <l>Вы перемените причуду…</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l>Не говорите о любви!</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <l>Не говорить? Нет, буду, буду!</l>
+          <l>Таких, как вы, на свете нет,</l>
+          <l>Вы — ангел неги и печали…</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l>Не говорите так, нет, нет.</l>
+          <stage>(Пауза)</stage>
+          <l>Ну вот, уж вы и замолчали?</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(схватывая ее за руку)</stage>
+          <l part="I">Я вас люблю!</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(Американцу, косясь на Дон Жуана)</stage>
+          <l part="F">Пройдём сюда.</l>
+          <l>Я вам скажу про Дон Жуана;</l>
+          <l>Мне кажется, на путь труда</l>
+          <l>Он вступит поздно или рано.</l>
+          <l>Охотно водится с ним знать,</l>
+          <l>Как свой он принят в высшем свете,</l>
+          <l>Ну, почему б ему не стать</l>
+          <l>Адъюнктом в университете?</l>
+          <l>Но он едва ль не слишком жив,</l>
+          <l>Чтоб быть в святилище науки.</l>
+          <l>Так, мысль о высшем отложив,</l>
+          <l>Дадим ему мы дело в руки.</l>
+          <l>Быть может, пригодится он,</l>
+          <l>Как управляющий в саваннах.</l>
+          <l>Всегда верхом, вооружён,</l>
+          <l>В разъездах, в стычках беспрестанных,</l>
+          <l>Окажется полезен вам</l>
+          <l>И может сделать положенье.</l>
+          <l>Ему я это передам —</l>
+          <l>И как прямое предложенье.</l>
+          <stage>(Американец бормочет что-то несвязное)</stage>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(Американке)</stage>
+          <l>Я вас люблю! Уйдём! Уйдём!</l>
+          <l>Вы знаете ль, как пахнут розы,</l>
+          <l>Когда их нюхают вдвоем</l>
+          <l>И в небесах поют стрекозы,</l>
+          <l>Вы знаете ль, как странен луг,</l>
+          <l>Как призрачен туман молочный,</l>
+          <l>Когда в него вас вводит друг</l>
+          <l>Для наслаждений, в час урочный.</l>
+          <l>Победоносная любовь</l>
+          <l>Нас коронует без короны</l>
+          <l>И превращает в пламя кровь</l>
+          <l>И в песню лепет иступлённый.</l>
+          <l>Мой конь — удача из удач,</l>
+          <l>Он белоснежный, величавый,</l>
+          <l>Когда пускается он вскачь,</l>
+          <l>То гул копыт зовётся славой.</l>
+          <l>Я был в аду, я сатане</l>
+          <l>Смотрел в лицо, и вновь я в мире,</l>
+          <l>И стало только слаще мне,</l>
+          <l>Мои глаза открылись шире.</l>
+          <l>И вот теперь я встретил вас,</l>
+          <l>Единственную во вселенной,</l>
+          <l>Чтоб стали вы — о, сладкий час! —</l>
+          <l>Моей царицею и пленной.</l>
+          <l>Я опьянён, я вас люблю,</l>
+          <l>Так только боги были пьяны.</l>
+          <l>Как будет сладко кораблю</l>
+          <l>Нас уносить в иные страны.</l>
+          <l part="I">Идём, идём!</l>
+        </sp>
+        <sp who="#Amerikanka">
+          <speaker>Американка</speaker>
+          <l part="F">Я не хочу…</l>
+          <l>Нет, я хочу! О, милый, милый!</l>
+        </sp>
+        <sp who="#DonZhuan">
+          <speaker>Дон Жуан</speaker>
+          <stage type="delivery">(обнимая ее)</stage>
+          <l>Тебя я счастью научу</l>
+          <l>И над твоей умру могилой.</l>
+          <stage>(Уходят)</stage>
+        </sp>
+      </div>
+      <div type="configuration">
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(оглядываясь)</stage>
+          <l>Но где мисс Покэр, где Жуан?</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l>Наверное в соседней зале.</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <stage type="delivery">(хватаясь за голову)</stage>
+          <l>Ах, я разиня, ах, болван,</l>
+          <l>Всё прозевал, они бежали.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l part="I">Куда?</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">Да верно, на лужок</l>
+          <l>Иль на тенистую опушку.</l>
+          <l>Тю-тю! Теперь уж пастушок</l>
+          <l>Ласкает милую пастушку.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l part="I">Да вы с ума сошли!</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">Ничуть!</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l part="I">Идём.</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">А шпаги не хотите ль?</l>
+          <l>Ведь дон Жуан не кто-нибудь,</l>
+          <l>Он сам севильский соблазнитель.</l>
+        </sp>
+        <sp who="#Amerikanets">
+          <speaker>Американец</speaker>
+          <l>Но я их видел здесь, минут</l>
+          <l>Ну пять тому назад, не боле…</l>
+          <stage>(закрывает лицо руками)</stage>
+          <l>Когда настанет Страшный Суд,</l>
+          <l>Что я моей отвечу Полли?</l>
+          <l part="I">Идём, идём скорей.</l>
+        </sp>
+        <sp who="#Leporello">
+          <speaker>Лепорелло</speaker>
+          <l part="F">Ей-ей,</l>
+          <l>Я твёрдо помню: Лепорелло,</l>
+          <l>Желаешь спи, желаешь пей,</l>
+          <l>А не в своё не суйся дело.</l>
+          <l>И был я счастлив, сыт и пьян,</l>
+          <l>И умирать казалось рано…</l>
+          <l>О, как хотел бы я, декан,</l>
+          <l>Опять служить у Дон Жуана!</l>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

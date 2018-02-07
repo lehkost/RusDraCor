@@ -1,0 +1,4106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Вишневый сад</title>
+        <title type="main" xml:lang="en">The Cherry Orchard</title>
+        <title type="sub" xml:lang="ru">Комедия в 4-х действиях</title>
+        <title type="sub" xml:lang="en">A Comedy in Four Acts</title>
+        <author key="Wikidata:Q5685">Чехов, Антон Павлович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/chekhov-vishnevyi-sad</idno>
+        <idno type="RusDraCor">59</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Интернет-библиотека Алексея Комарова</name>
+          <idno type="URL">http://ilibrary.ru/text/472/index.html</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>А. П. Чехов. Полное собрание сочинений и писем в 30-ти томах. Сочинения. Том 13.
+              М., "Наука", 1986.</title>
+            <date type="print" when="1904">"Впервые — в Сборнике товарищества «Знание» за 1903 год.
+              Книга вторая. СПб., 1904, стр. 29—105 с подписью А. Чехов." (Wikipedia)</date>
+            <date type="premiere" when="1904">"Бпервые поставлена 17 января 1904 года в Московском
+              художественном театре." (Wikipedia)</date>
+            <date type="written" when="1903">"Пьеса была закончена 26 сентября 1903 года."
+              (Wikipedia)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Lopahin" sex="MALE">
+            <persName>Лопахин</persName>
+            <persName xml:lang="en">Lopahin</persName>
+            <persName xml:lang="de">Lopahin</persName>
+          </person>
+          <person xml:id="Dunjasha" sex="FEMALE">
+            <persName>Дуняша</persName>
+            <persName xml:lang="en">Dunâša</persName>
+            <persName xml:lang="de">Dunâša</persName>
+          </person>
+          <person xml:id="Epihodov" sex="MALE">
+            <persName>Епиходов</persName>
+            <persName xml:lang="en">Epihodov</persName>
+            <persName xml:lang="de">Epihodov</persName>
+          </person>
+          <person xml:id="Anja" sex="FEMALE">
+            <persName>Аня</persName>
+            <persName xml:lang="en">Anâ</persName>
+            <persName xml:lang="de">Anâ</persName>
+          </person>
+          <person xml:id="LjubovAndreevna" sex="FEMALE">
+            <persName>Любовь Андреевна</persName>
+            <persName xml:lang="en">Lûbovʹ Andreevna</persName>
+            <persName xml:lang="de">Lûbovʹ Andreevna</persName>
+          </person>
+          <person xml:id="Varja" sex="FEMALE">
+            <persName>Варя</persName>
+            <persName xml:lang="en">Varâ</persName>
+            <persName xml:lang="de">Varâ</persName>
+          </person>
+          <person xml:id="Gaev" sex="MALE">
+            <persName>Гаев</persName>
+            <persName xml:lang="en">Gaev</persName>
+            <persName xml:lang="de">Gaev</persName>
+          </person>
+          <person xml:id="Sharlotta" sex="FEMALE">
+            <persName>Шарлотта</persName>
+            <persName xml:lang="en">Šarlotta</persName>
+            <persName xml:lang="de">Šarlotta</persName>
+          </person>
+          <person xml:id="Pischik" sex="MALE">
+            <persName>Пищик</persName>
+            <persName xml:lang="en">Piŝik</persName>
+            <persName xml:lang="de">Piŝik</persName>
+          </person>
+          <person xml:id="Jasha" sex="MALE">
+            <persName>Яша</persName>
+            <persName xml:lang="en">Âša</persName>
+            <persName xml:lang="de">Âša</persName>
+          </person>
+          <person xml:id="Firs" sex="MALE">
+            <persName>Фирс</persName>
+            <persName xml:lang="en">Firs</persName>
+            <persName xml:lang="de">Firs</persName>
+          </person>
+          <person xml:id="Trofimov" sex="MALE">
+            <persName>Трофимов</persName>
+            <persName xml:lang="en">Trofimov</persName>
+            <persName xml:lang="de">Trofimov</persName>
+          </person>
+          <person xml:id="Prohozhij" sex="MALE">
+            <persName>Прохожий</persName>
+            <persName xml:lang="en">A tramp</persName>
+            <persName xml:lang="de">Ein angeheiterter Mann</persName>
+          </person>
+          <person xml:id="NachalnikStantsii" sex="MALE">
+            <persName>Начальник станции</persName>
+            <persName xml:lang="en">Stationmaster</persName>
+            <persName xml:lang="de">Der Stationsvorsteher</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle" subtype="comedy">Комедия в 4-х действиях</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#ds" when="2017-03-31">converted from source</change>
+        <change who="#to" when="2017-05-22">checked IDs</change>
+        <change who="#zhenya" when="2017-05-31">added dates</change>
+        <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff #to" when="2017-07-21">formalities; segmentation of first act</change>
+        <change who="#ff" when="2017-07-22">finished segmentation</change>
+        <change who="#ff" when="2017-11-27">(DE|EN) transl. of character names in ISO 9</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Вишневый сад</titlePart>
+        <titlePart type="sub">Комедия в 4-х действиях</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+        <castItem>Раневская Любовь Андреевна, помещица.</castItem>
+        <castItem>Аня, ее дочь, 17 лет.</castItem>
+        <castItem>Варя, ее приемная дочь, 24 лет.</castItem>
+        <castItem>Гаев Леонид Андреевич, брат Раневской.</castItem>
+        <castItem>Лопахин Ермолай Алексеевич, купец.</castItem>
+        <castItem>Трофимов Петр Сергеевич, студент.</castItem>
+        <castItem>Симеонов-Пищик Борис Борисович, помещик.</castItem>
+        <castItem>Шарлотта Ивановна, гувернантка.</castItem>
+        <castItem>Епиходов Семен Пантелеевич, конторщик.</castItem>
+        <castItem>Дуняша, горничная.</castItem>
+        <castItem>Фирс, лакей, старик 87 лет.</castItem>
+        <castItem>Яша, молодой лакей.</castItem>
+        <castItem>Прохожий.</castItem>
+        <castItem>Начальник станции.</castItem>
+        <castItem>Почтовый чиновник.</castItem>
+        <castItem>Гости, прислуга.</castItem>
+      </castList>
+      <set>
+        <p>Действие происходит в имении Л. А. Раневской.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>Действие первое</head>
+        <div type="configuration">
+          <stage>Комната, которая до сих пор называется детскою. Одна из дверей ведет в комнату Ани.
+            Рассвет, скоро взойдет солнце. Уже май, цветут вишневые деревья, но в саду холодно,
+            утренник. Окна в комнате закрыты.</stage>
+          <stage>Входят Дуняша со свечой и Лопахин с книгой в руке.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Пришел поезд, слава богу. Который час?</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Скоро два.</p>
+            <stage type="delivery">(Тушит свечу.)</stage>
+            <p>Уже светло.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>На сколько же это опоздал поезд? Часа на два, по крайней мере.</p>
+            <stage type="delivery">(Зевает и потягивается.)</stage>
+            <p>Я-то хорош, какого дурака свалял! Нарочно приехал сюда, чтобы на станции встретить, и
+              вдруг проспал... Сидя уснул. Досада... Хоть бы ты меня разбудила.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Я думала, что вы уехали.</p>
+            <stage type="delivery">(Прислушивается.)</stage>
+            <p>Вот, кажется, уже едут.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(прислушивается).</stage>
+            <p>Нет... Багаж получить, то да се...</p>
+            <stage>Пауза.</stage>
+            <p>Любовь Андреевна прожила за границей пять лет, не знаю, какая она теперь стала...
+              Хороший она человек. Легкий, простой человек. Помню, когда я был мальчонком лет
+              пятнадцати, отец мой покойный – он тогда здесь на деревне в лавке торговал – ударил
+              меня по лицу кулаком, кровь пошла из носу... Мы тогда вместе пришли зачем-то во двор,
+              и он выпивши был. Любовь Андреевна, как сейчас помню, еще молоденькая, такая
+              худенькая, подвела меня к рукомойнику, вот в этой самой комнате, в детской. «Не плачь,
+              говорит, мужичок, до свадьбы заживет...»</p>
+            <stage>Пауза.</stage>
+            <p>Мужичок... Отец мой, правда, мужик был, а я вот в белой жилетке, желтых башмаках. Со
+              свиным рылом в калашный ряд... Только что вот богатый, денег много, а ежели подумать и
+              разобраться, то мужик мужиком...</p>
+            <stage type="delivery">(Перелистывает книгу.)</stage>
+            <p>Читал вот книгу и ничего не понял. Читал и заснул.</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>А собаки всю ночь не спали, чуют, что хозяева едут.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Что ты, Дуняша, такая...</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Руки трясутся. Я в обморок упаду.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Очень уж ты нежная, Дуняша. И одеваешься, как барышня, и прическа тоже. Так нельзя.
+              Надо себя помнить.</p>
+          </sp>
+          <stage>Входит Епиходов с букетом; он в пиджаке и в ярко вычищенных сапогах, которые сильно
+            скрипят; войдя, он роняет букет.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Epihodov">
+            <speaker>Епиходов</speaker>
+            <stage type="delivery">(поднимает букет).</stage>
+            <p>Вот Садовник прислал, говорит, в столовой поставить.</p>
+            <stage type="delivery">(Отдает Дуняше букет.)</stage>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>И квасу мне принесешь.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Слушаю.</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Сейчас утренник, мороз в три градуса, а вишня вся в цвету. Не могу одобрить нашего
+              климата.</p>
+            <stage type="delivery">(Вздыхает.)</stage>
+            <p>Не могу. Наш климат не может способствовать в самый раз. Вот, Ермолай Алексеич,
+              позвольте вам присовокупить, купил я себе третьего дня сапоги, а они, смею вас
+              уверить, скрипят так, что нет никакой возможности. Чем бы смазать?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Отстань. Надоел.</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Каждый день случается со мной какое-нибудь несчастье. И я не ропщу, привык и даже
+              улыбаюсь.</p>
+            <stage>Дуняша входит, подает Лопахину квас.</stage>
+            <p>Я пойду.</p>
+            <stage type="delivery">(Натыкается на стул, который падает.)</stage>
+            <p>Вот...</p>
+            <stage type="delivery">(Как бы торжествуя.)</stage>
+            <p>Вот видите, извините за выражение, какое обстоятельство, между прочим... Это просто
+              даже замечательно!</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>А мне, Ермолай Алексеич, признаться, Епиходов предложение сделал.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>А!</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Не знаю уж как... Человек он смирный, а только иной раз как начнет говорить, ничего
+              не поймешь. И хорошо, и чувствительно, только непонятно. Мне он как будто и нравится.
+              Он меня любит безумно. Человек он несчастливый, каждый день что-нибудь. Его так и
+              дразнят у нас: двадцать два несчастья...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(прислушивается).</stage>
+            <p>Вот, кажется, едут...</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Едут! Что ж это со мной... похолодела вся.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Едут, в самом деле. Пойдем встречать. Узнает ли она меня? Пять лет не видались.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша</speaker>
+            <stage type="delivery">(в волнении).</stage>
+            <p>Я сейчас упаду... Ах, упаду!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Слышно, как к дому подъезжают два экипажа. Лопахин и Дуняша быстро уходят. Сцена
+            пуста. В соседних комнатах начинается шум. Через сцену, опираясь на палочку, торопливо
+            проходит Фирс, ездивший встречать Любовь Андреевну; он в старинной ливрее и в высокой
+            шляпе; что-то говорит сам с собой, но нельзя разобрать ни одного слова. Шум за сценой
+            все усиливается. Голос: «Вот пройдемте здесь...» Любовь Андреевна, Аня и Шарлотта
+            Ивановна с собачкой на цепочке, одетые по-дорожному. Варя в пальто и платке, Гаев,
+            Симеонов-Пищик, Лопахин, Дуняша с узлом и зонтиком, прислуга с вещами – все идут через
+            комнату.</stage>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Пройдемте здесь. Ты, мама, помнишь, какая это комната?</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(радостно, сквозь слезы).</stage>
+            <p>Детская!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Как холодно, у меня руки закоченели.</p>
+            <stage type="delivery">(Любови Андреевне.)</stage>
+            <p>Ваши комнаты, белая и фиолетовая, такими же и остались, мамочка.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Детская, милая моя, прекрасная комната... Я тут спала, когда была маленькой...</p>
+            <stage type="delivery">(Плачет.)</stage>
+            <p>И теперь я как маленькая...</p>
+            <stage type="delivery">(Целует брата, Варю, потом опять брата.)</stage>
+            <p>А Варя по-прежнему все такая же, на монашку похожа. И Дуняшу я узнала...</p>
+            <stage type="delivery">(Целует Дуняшу.)</stage>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Поезд опоздал на два часа. Каково? Каковы порядки?</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта</speaker>
+            <stage type="delivery">(Пищику).</stage>
+            <p>Моя собака и орехи кушает.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(удивленно).</stage>
+            <p>Вы подумайте!</p>
+          </sp>
+          <stage>Уходят все, кроме Ани и Дуняши.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Заждались мы...</p>
+            <stage type="delivery">(Снимает с Ани пальто, шляпу.)</stage>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Я не спала в дороге четыре ночи... теперь озябла очень.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Вы уехали в Великом посту, тогда был снег, был мороз, а теперь? Милая моя!</p>
+            <stage type="delivery">(Смеется, целует ее.)</stage>
+            <p>Заждалась вас, радость моя, светик... Я скажу вам сейчас, одной минутки не могу
+              утерпеть...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(вяло).</stage>
+            <p>Опять что-нибудь...</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Конторщик Епиходов после Святой мне предложение сделал.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Ты все об одном...</p>
+            <stage type="delivery">(Поправляет волосы.)</stage>
+            <p>Я растеряла все шпильки...</p>
+            <stage type="delivery">(Она очень утомлена, даже пошатывается.)</stage>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Уж я не знаю, что и думать. Он меня любит, так любит!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(глядит в свою дверь, нежно).</stage>
+            <p>Моя комната, мои окна, как будто я не уезжала. Я дома! Завтра утром встану, побегу в
+              сад... О, если бы я могла уснуть! Я не спала всю дорогу, томило меня беспокойство.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Третьего дня Петр Сергеич приехали.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(радостно).</stage>
+            <p>Петя!</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>В бане спят, там и живут. Боюсь, говорят, стеснить.</p>
+            <stage type="delivery">(Взглянув на свои карманные часы.)</stage>
+            <p>Надо бы их разбудить, да Варвара Михайловна не велела. Ты, говорит, его не буди.</p>
+          </sp>
+          <stage>Входит Варя, на поясе у нее вязка ключей.</stage>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Дуняша, кофе поскорей... Мамочка кофе просит.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Сию минуточку.</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Ну, слава богу, приехали. Опять ты дома.</p>
+            <stage type="delivery">(Ласкаясь.)</stage>
+            <p>Душечка моя приехала! Красавица приехала!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Натерпелась я.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Воображаю!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Выехала я на Страстной неделе, тогда было холодно. Шарлотта всю дорогу говорит,
+              представляет фокусы. И зачем ты навязала мне Шарлотту...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Нельзя же тебе одной ехать, душечка. В семнадцать лет!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Приезжаем в Париж, там холодно, снег. По-французски говорю я ужасно. Мама живет на
+              пятом этаже, прихожу к ней, у нее какие-то французы, дамы, старый патер с книжкой, и
+              накурено, неуютно. Мне вдруг стало жаль мамы, так жаль, я обняла ее голову, сжала
+              руками и не могу выпустить. Мама потом все ласкалась, плакала...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сквозь слезы).</stage>
+            <p>Не говори, не говори...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Дачу свою около Ментоны она уже продала, у нее ничего не осталось, ничего. У меня
+              тоже не осталось ни копейки, едва доехали. И мама не понимает! Сядем на вокзале
+              обедать, и она требует самое дорогое и на чай лакеям дает по рублю. Шарлотта тоже. Яша
+              тоже требует себе порцию, просто ужасно. Ведь у мамы лакей Яша, мы привезли его
+              сюда...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Видела подлеца.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Ну что, как? Заплатили проценты?</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Где там.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Боже мой, боже мой...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>В августе будут продавать имение...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Боже мой...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(заглядывает в дверь и мычит).</stage>
+            <p>Ме-е-е...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сквозь слезы).</stage>
+            <p>Вот так бы и дала ему...</p>
+            <stage type="delivery">(Грозит кулаком.)</stage>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(обнимает Варю, тихо).</stage>
+            <p>Варя, он сделал предложение?</p>
+            <stage type="delivery">(Варя отрицательно качает головой.)</stage>
+            <p>Ведь он же тебя любит... Отчего вы не объяснитесь, чего вы ждете?</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Я так думаю, ничего у нас не выйдет. У него дела много, ему не до меня... и внимания
+              не обращает. Бог с ним совсем, тяжело мне его видеть... Все говорят о нашей свадьбе,
+              все поздравляют, а на самом деле ничего нет, всё как сон...</p>
+            <stage type="delivery">(Другим тоном.)</stage>
+            <p>У тебя брошка вроде как пчелка.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(печально).</stage>
+            <p>Это мама купила.</p>
+            <stage type="delivery">(Идет в свою комнату, говорит весело, по-детски.)</stage>
+            <p>А в Париже я на воздушном шаре летала!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Душечка моя приехала! Красавица приехала!</p>
+            <stage>уже вернулась с кофейником и варит кофе.</stage>
+            <stage type="delivery">(Стоит около двери.)</stage>
+            <p>Хожу я, душечка, цельный день по хозяйству и все мечтаю. Выдать бы тебя за богатого
+              человека, и я бы тогда была покойней, пошла бы себе в пустынь, потом в Киев... в
+              Москву, и так бы все ходила по святым местам... Ходила бы и ходила. Благолепие!..</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Птицы поют в саду. Который теперь час?</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Должно, третий. Тебе пора спать, душечка.</p>
+            <stage type="delivery">(Входя в комнату к Ане.)</stage>
+            <p>Благолепие!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Яша с пледом, дорожной сумочкой.</stage>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(идет через сцену, деликатно).</stage>
+            <p>Тут можно пройти-с?</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>И не узнаешь вас, Яша. Какой вы стали за границей.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Гм... А вы кто?</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Когда вы уезжали отсюда, я была этакой...</p>
+            <stage type="delivery">(Показывает от пола.)</stage>
+            <p>Дуняша, Федора Козоедова дочь. Вы не помните!</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Гм... Огурчик!</p>
+            <stage type="delivery">(Оглядывается и обнимает ее; она вскрикивает и роняет блюдечко.
+              Яша быстро уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(в дверях, недовольным голосом).</stage>
+            <p>Что еще тут?</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша</speaker>
+            <stage type="delivery">(сквозь слезы).</stage>
+            <p>Блюдечко разбила...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Это к добру.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(выйдя из своей комнаты).</stage>
+            <p>Надо бы маму предупредить: Петя здесь...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Я приказала его не будить.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(задумчиво.)</stage>
+            <p>Шесть лет тому назад умер отец, через месяц утонул в реке брат Гриша, хорошенький
+              семилетний мальчик. Мама не перенесла, ушла, ушла, без оглядки...</p>
+            <stage type="delivery">(Вздрагивает.)</stage>
+            <p>Как я ее понимаю, если бы она знала!</p>
+            <stage>Пауза.</stage>
+            <p>А Петя Трофимов был учителем Гриши, он может напомнить...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Фирс; он в пиджаке и белом жилете.</stage>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(идет к кофейнику, озабоченно).</stage>
+            <p>Барыня здесь будут кушать...</p>
+            <stage type="delivery">(Надевает белые перчатки.)</stage>
+            <p>Готов кофий?</p>
+            <stage type="delivery">(Строго Дуняше.)</stage>
+            <p>Ты! А сливки?</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Ах, боже мой...</p>
+            <stage type="delivery">(Быстро уходит.)</stage>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(хлопочет около кофейника).</stage>
+            <p>Эх ты, недотёпа...</p>
+            <stage type="delivery">(Бормочет про себя.)</stage>
+            <p>Приехали из Парижа... И барин когда-то ездил в Париж... на лошадях...</p>
+            <stage type="delivery">(Смеется.)</stage>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Фирс, ты о чем?</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Чего изволите?</p>
+            <stage type="delivery">(Радостно.)</stage>
+            <p>Барыня моя приехала! Дождался! Теперь хоть и помереть...</p>
+            <stage type="delivery">(Плачет от радости.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят Любовь Андреевна, Гаев, Лопахин и Симеонов-Пищик; Симеонов-Пищик в поддевке
+            из тонкого сукна и шароварах. Гаев, входя, руками и туловищем делает движения, как будто
+            играет на биллиарде.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Как это? Дай-ка вспомнить... Желтого в угол! Дуплет в середину!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Режу в угол! Когда-то мы с тобой, сестра, спали вот в этой самой комнате, а теперь
+              мне уже пятьдесят один год, как это ни странно...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Да, время идет.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Кого?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Время, говорю, идет.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>А здесь пачулями пахнет.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Я спать пойду. Спокойной ночи, мама.</p>
+            <stage type="delivery">(Целует мать.)</stage>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Ненаглядная дитюся моя.</p>
+            <stage type="delivery">(Целует ей руки.)</stage>
+            <p>Ты рада, что ты дома? Я никак в себя не приду.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Прощай, дядя.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(целует ей лицо, руки).</stage>
+            <p>Господь с тобой. Как ты похожа на свою мать!</p>
+            <stage type="delivery">(Сестре.)</stage>
+            <p>Ты, Люба, в ее годы была точно такая.</p>
+          </sp>
+          <stage>Аня подает руку Лопахину и Пищику, уходит и затворяет за собой дверь.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Она утомилась очень.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Дорога, небось, длинная.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(Лопахину и Пищику).</stage>
+            <p>Что ж, господа? Третий час, пора и честь знать.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(смеется).</stage>
+            <p>Ты все такая же, Варя.</p>
+            <stage type="delivery">(Привлекает ее к себе и целует.)</stage>
+            <p>Вот выпью кофе, тогда все уйдем.</p>
+            <stage>Фирс кладет ей под ноги подушечку.</stage>
+            <p>Спасибо, родной. Я привыкла к кофе. Пью его и днем и ночью. Спасибо, мой
+              старичок.</p>
+            <stage type="delivery">(Целует Фирса.)</stage>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Поглядеть, все ли вещи привезли...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Неужели это я сижу?</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>Мне хочется прыгать, размахивать руками.</p>
+            <stage type="delivery">(Закрывает лицо руками.)</stage>
+            <p>А вдруг я сплю! Видит бог, я люблю родину, люблю нежно, я не могла смотреть из
+              вагона, все плакала.</p>
+            <stage type="delivery">(Сквозь слезы.)</stage>
+            <p>Однако же надо пить кофе. Спасибо тебе, Фирс, спасибо, мой старичок. Я так рада, что
+              ты еще жив.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Позавчера.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Он плохо слышит.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Мне сейчас, в пятом часу утра, в Харьков ехать. Такая досада! Хотелось поглядеть на
+              вас, поговорить... Вы все такая же великолепная.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(тяжело дышит).</stage>
+            <p>Даже похорошела... Одета по-парижскому... пропадай моя телега, все четыре
+              колеса...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ваш брат, вот Леонид Андреич, говорит про меня, что я хам, я кулак, но это мне
+              решительно все равно. Пускай говорит. Хотелось бы только, чтобы вы мне верили
+              по-прежнему, чтобы ваши удивительные, трогательные глаза глядели на меня, как прежде.
+              Боже милосердный! Мой отец был крепостным у вашего деда и отца, но вы, собственно вы,
+              сделали для меня когда-то так много, что я забыл все и люблю вас, как родную...
+              больше, чем родную.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Я не могу усидеть, не в состоянии...</p>
+            <stage type="delivery">(Вскакивает и ходит в сильном волнении.)</stage>
+            <p>Я не переживу этой радости... Смейтесь надо мной, я глупая... Шкафик мой
+              родной...</p>
+            <stage type="delivery">(Целует шкаф.)</stage>
+            <p>Столик мой.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>А без тебя тут няня умерла.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(садится и пьет кофе).</stage>
+            <p>Да, царство небесное. Мне писали.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>И Анастасий умер. Петрушка Косой от меня ушел и теперь в городе у пристава живет.</p>
+            <stage type="delivery">(Вынимает из кармана коробку с леденцами, сосет.)</stage>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Дочка моя, Дашенька... вам кланяется...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Мне хочется сказать вам что-нибудь очень приятное, веселое.</p>
+            <stage type="delivery">(Взглянув на часы.)</stage>
+            <p>Сейчас уеду, некогда разговаривать... ну, да я в двух-трех словах. Вам уже известно,
+              вишневый сад ваш продается за долги, на двадцать второе августа назначены торги, но вы
+              не беспокойтесь, моя дорогая, спите себе спокойно, выход есть... Вот мой проект. Прошу
+              внимания! Ваше имение находится только в двадцати верстах от города, возле прошла
+              железная дорога, и если вишневый сад и землю по реке разбить на дачные участки и
+              отдавать потом в аренду под дачи, то вы будете иметь самое малое двадцать пять тысяч в
+              год дохода.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Извините, какая чепуха!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Я вас не совсем понимаю, Ермолай Алексеич.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Вы будете брать с дачников самое малое по двадцати пяти рублей в год за десятину, и
+              если теперь же объявите, то я ручаюсь чем угодно, у вас до осени не останется ни
+              одного свободного клочка, всё разберут. Одним словом, поздравляю, вы спасены.
+              Местоположение чудесное, река глубокая. Только, конечно, нужно поубрать, почистить...
+              например, скажем, снести все старые постройки, вот этот дом, который уже никуда не
+              годится, вырубить старый вишневый сад...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Вырубить? Милый мой, простите, вы ничего не понимаете. Если во всей губернии есть
+              что-нибудь интересное, даже замечательное, так это только наш вишневый сад.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Замечательного в этом саду только то, что он очень большой. Вишня родится раз в два
+              года, да и ту девать некуда, никто не покупает.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>И в «Энциклопедическом словаре» упоминается про этот сад.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(взглянув на часы).</stage>
+            <p>Если ничего не придумаем и ни к чему не придем, то двадцать второго августа и
+              вишневый сад, и все имение будут продавать с аукциона. Решайтесь же! Другого выхода
+              нет, клянусь вам. Нет и нет.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>В прежнее время, лет сорок-пятьдесят назад, вишню сушили, мочили, мариновали, варенье
+              варили, и, бывало...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Помолчи, Фирс.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>И, бывало, сушеную вишню возами отправляли в Москву и в Харьков. Денег было! И
+              сушеная вишня тогда была мягкая, сочная, сладкая, душистая... Способ тогда
+              знали...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>А где же теперь этот способ?</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Забыли. Никто не помнит.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(Любови Андреевне).</stage>
+            <p>Что в Париже? Как? Ели лягушек?</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Крокодилов ела.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Вы подумайте...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>До сих пор в деревне были только господа и мужики, а теперь появились еще дачники.
+              Все города, даже самые небольшие, окружены теперь дачами. И можно сказать, дачник лет
+              через двадцать размножится до необычайности. Теперь он только чай пьет на балконе, но
+              ведь может случиться, что на своей одной десятине он займется хозяйством, и тогда ваш
+              вишневый сад станет счастливым, богатым, роскошным...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(возмущаясь).</stage>
+            <p>Какая чепуха!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят Варя и Яша.</stage>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Тут, мамочка, вам две телеграммы.</p>
+            <stage type="delivery">(Выбирает ключ и со звоном отпирает старинный шкаф.)</stage>
+            <p>Вот они.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Это из Парижа.</p>
+            <stage type="delivery">(Рвет телеграммы, не прочитав.)</stage>
+            <p>С Парижем кончено...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>А ты знаешь, Люба, сколько этому шкафу лет? Неделю назад я выдвинул нижний ящик,
+              гляжу, а там выжжены цифры. Шкаф сделан ровно сто лет тому назад. Каково? А? Можно
+              было бы юбилей отпраздновать. Предмет неодушевленный, а все-таки, как-никак книжный
+              шкаф.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(удивленно).</stage>
+            <p>Сто лет... Вы подумайте!..</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Да... Это вещь...</p>
+            <stage type="delivery">(Ощупав шкаф.)</stage>
+            <p>Дорогой, многоуважаемый шкаф! Приветствую твое существование, которое вот уже больше
+              ста лет было направлено к светлым идеалам добра и справедливости; твой молчаливый
+              призыв к плодотворной работе не ослабевал в течение ста лет, поддерживая</p>
+            <stage type="delivery">(сквозь слезы)</stage>
+            <p>в поколениях нашего рода бодрость, веру в лучшее будущее и воспитывая в нас идеалы
+              добра и общественного самосознания.</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Да...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Ты все такой же, Лепя.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(немного сконфуженный).</stage>
+            <p>От шара направо в угол! Режу в среднюю!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(поглядев на часы).</stage>
+            <p>Ну, мне пора.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(подает Любови Андреевне лекарства).</stage>
+            <p>Может, примете сейчас пилюли...</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Не надо принимать медикаменты, милейшая... от них ни вреда, ни пользы... Дайте-ка
+              сюда... многоуважаемая.</p>
+            <stage type="delivery">(Берет пилюли, высыпает их себе на ладонь, дует на них, кладет в
+              рот, и запивает квасом.)</stage>
+            <p>Вот!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(испуганно).</stage>
+            <p>Да вы с ума сошли!</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Все пилюли принял.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Экая прорва.</p>
+          </sp>
+          <stage>Все смеются.</stage>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Они были у нас на Святой, полведра огурцов скушали...</p>
+            <stage type="delivery">(Бормочет.)</stage>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>О чем это он? Варя. Уж три года так бормочет. Мы привыкли.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Преклонный возраст.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Шарлотта Ивановна в белом платье, очень худая, стянутая, с лорнеткой на поясе
+            проходит через сцепу.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Простите, Шарлотта Ивановна, я не успел еще поздороваться с вами.</p>
+            <stage type="delivery">(Хочет поцеловать у нее руку.)</stage>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта</speaker>
+            <stage type="delivery">(отнимая руку).</stage>
+            <p>Если позволить вам поцеловать руку, то вы потом пожелаете в локоть, потом в
+              плечо...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Не везет мне сегодня.</p>
+            <stage>Все смеются.</stage>
+            <p>Шарлотта Ивановна, покажите фокус!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Шарлотта, покажите фокус!</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Не надо. Я спать желаю.</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Через три недели увидимся.</p>
+            <stage type="delivery">(Целует Любови Андреевне руку.)</stage>
+            <p>Пока прощайте. Пора.</p>
+            <stage type="delivery">(Гаеву.)</stage>
+            <p>До свиданция.</p>
+            <stage type="delivery">(Целуется с Пищиком.)</stage>
+            <p>До свиданция.</p>
+            <stage type="delivery">(Подает руку Варе, потом Фирсу и Яше.)</stage>
+            <p>Не хочется уезжать.</p>
+            <stage type="delivery">(Любови Андреевне.)</stage>
+            <p>Ежели надумаете насчет дач и решите, тогда дайте знать, я взаймы тысяч пятьдесят
+              достану. Серьезно подумайте.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сердито).</stage>
+            <p>Да уходите же наконец!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ухожу, ухожу...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Хам. Впрочем, пардон... Варя выходит за него замуж, это Варин женишок.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Не говорите, дядечка, лишнего.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Что ж, Варя, я буду очень рада. Он хороший человек.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Человек, надо правду говорить... достойнейший... И моя Дашенька... тоже говорит,
+              что... разные слова говорит.</p>
+            <stage type="delivery">(Храпит, но тотчас же просыпается.)</stage>
+            <p>А все-таки, многоуважаемая, одолжите мне... взаймы двести сорок рублей... завтра по
+              закладной проценты платить...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(испуганно).</stage>
+            <p>Нету, нету!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>У меня в самом деле нет ничего.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Найдутся.</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>Не теряю никогда надежды. Вот, думаю, уж все пропало, погиб, ан глядь,– железная
+              дорога по моей земле прошла, и... мне заплатили. А там, гляди, еще что-нибудь случится
+              не сегодня-завтра... Двести тысяч выиграет Дашенька... у нее билет есть.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Кофе выпит, можно на покой.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(чистит щеткой Гаева, наставительно).</stage>
+            <p>Опять не те брючки надели. И что мне с вами делать!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(тихо).</stage>
+            <p>Аня спит.</p>
+            <stage type="delivery">(Тихо отворяет окно.)</stage>
+            <p>Уже взошло солнце, не холодно. Взгляните, мамочка: какие чудесные деревья! Боже мой,
+              воздух! Скворцы поют!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(отворяет другое окно).</stage>
+            <p>Сад весь белый. Ты не забыла, Люба? Вот эта длинная аллея идет прямо, точно
+              протянутый ремень, она блестит в лунные ночи. Ты помнишь? Не забыла?</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(глядит в окно на сад).</stage>
+            <p>О, мое детство, чистота моя! В этой детской я спала, глядела отсюда на сад, счастье
+              просыпалось вместе со мною каждое утро, и тогда он был точно таким, ничто не
+              изменилось.</p>
+            <stage type="delivery">(Смеется от радости.)</stage>
+            <p>Весь, весь белый! О, сад мой! После темной, ненастной осени и холодной зимы опять ты
+              молод, полон счастья, ангелы небесные не покинули тебя... Если бы снять с груди и с
+              плеч моих тяжелый камень, если бы я могла забыть мое прошлое!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Да, и сад продадут за долги, как это ни странно...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Посмотрите, покойная мама идет по саду... в белом платье!</p>
+            <stage type="delivery">(Смеется от радости.)</stage>
+            <p>Это она.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Где?</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Господь с вами, мамочка.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Никого нет, мне показалось. Направо, на повороте к беседке, белое деревцо склонилось,
+              похоже на женщину...</p>
+            <stage>Входит Трофимов, в поношенном студенческом мундире, в очках.</stage>
+            <p>Какой изумительный сад! Белые массы цветов, голубое небо...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Любовь Андреевна!</p>
+            <stage>Она оглянулась на него.</stage>
+            <p>Я только поклонюсь вам и тотчас же уйду.</p>
+            <stage type="delivery">(Горячо целует руку.)</stage>
+            <p>Мне приказано было ждать до утра, но у меня не хватило терпения...</p>
+          </sp>
+          <stage>Любовь Андреевна глядит с недоумением.</stage>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сквозь слезы).</stage>
+            <p>Это Петя Трофимов... Трофимов. Петя Трофимов, бывший учитель вашего Гриши... Неужели
+              я так изменился?</p>
+          </sp>
+          <stage>Любовь Андреевна обнимает его и тихо плачет.</stage>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(смущенно).</stage>
+            <p>Полно, полно, Люба.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(плачет).</stage>
+            <p>Говорила ведь, Петя, чтобы погодили до завтра.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Гриша мой... мой мальчик... Гриша... сын...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Что же делать, мамочка. Воля божья.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(мягко, сквозь слезы).</stage>
+            <p>Будет, будет...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(тихо плачет).</stage>
+            <p>Мальчик погиб, утонул... Для чего? Для чего, мой друг?</p>
+            <stage type="delivery">(Тише.)</stage>
+            <p>Там Аня спит, а я громко говорю... поднимаю шум... Что же, Петя? Отчего вы так
+              подурнели? Отчего постарели?</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Меня в вагоне одна баба назвала так: облезлый барин.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Вы были тогда совсем мальчиком, милым студентиком, а теперь волосы не густые, очки.
+              Неужели вы все еще студент?</p>
+            <stage type="delivery">(Идет к двери.)</stage>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Должно быть, я буду вечным студентом.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(целует брата, потом Варю).</stage>
+            <p>Ну, идите спать... Постарел и ты, Леонид.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(идет за ней).</stage>
+            <p>Значит, теперь спать... Ох, подагра моя. Я у вас останусь... Мне бы, Любовь
+              Андреевна, душа моя, завтра утречком... двести сорок рублей...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>А этот все свое.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Двести сорок рублей... проценты по закладной платить.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Нет у меня денег, голубчик.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Отдам, милая... Сумма пустяшная...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Ну, хорошо, Леонид даст... Ты дай, Леонид.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Дам я ему, держи карман.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Что же делать, дай... Ему нужно... Он отдаст.</p>
+          </sp>
+          <stage>Любовь Андреевна, Трофимов, Пищик и Фирс уходят. Остаются Гаев, Варя и Яша.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Сестра не отвыкла еще сорить деньгами.</p>
+            <stage type="delivery">(Яше.)</stage>
+            <p>Отойди, любезный, от тебя курицей пахнет.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(с усмешкой).</stage>
+            <p>А вы, Леонид Андреич, все такой же, как были.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Кого?</p>
+            <stage type="delivery">(Варе.)</stage>
+            <p>Что он сказал?</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(Яше).</stage>
+            <p>Твоя мать пришла из деревни, со вчерашнего дня сидит в людской, хочет
+              повидаться...</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Бог с ней совсем!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Ах, бесстыдник!</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Очень нужно. Могла бы и завтра прийти.</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Мамочка такая же, как была, нисколько не изменилась. Если б ей волю, она бы все
+              раздала.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Да...</p>
+            <stage>Пауза.</stage>
+            <p>Если против какой-нибудь болезни предлагается очень много средств, то это значит, что
+              болезнь неизлечима. Я думаю, напрягаю мозги, у меня много средств, очень много и,
+              значит, в сущности ни одного. Хорошо бы получить от кого-нибудь наследство, хорошо бы
+              выдать нашу Аню за очень богатого человека, хорошо бы поехать в Ярославль и попытать
+              счастья у тетушки-графини. Тетка ведь очень, очень богата.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(плачет).</stage>
+            <p>Если бы бог помог.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Не реви. Тетка очень богата, но нас она не любит. Сестра, во-первых, вышла замуж за
+              присяжного поверенного, не дворянина...</p>
+            <stage>Аня показывается в дверях.</stage>
+            <p>Вышла за не дворянина и вела себя нельзя сказать чтобы очень добродетельно. Она
+              хорошая, добрая, славная, я ее очень люблю, но, как там ни придумывай смягчающие
+              обстоятельства, все же, надо сознаться, она порочна. Это чувствуется в ее малейшем
+              движении.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(шепотом).</stage>
+            <p>Аня стоит в дверях.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Кого?</p>
+            <stage>Пауза.</stage>
+            <p>Удивительно, мне что-то в правый глаз попало... плохо стал видеть. И в четверг, когда
+              я был в окружном суде...</p>
+          </sp>
+          <stage>Входит Аня.</stage>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Что же ты не спишь, Аня?</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Не спится. Не могу.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Крошка моя.</p>
+            <stage type="delivery">(Целует Ане лицо, руки.)</stage>
+            <p>Дитя мое...</p>
+            <stage type="delivery">(Сквозь слезы.)</stage>
+            <p>Ты не племянница, ты мой ангел, ты для меня все. Верь мне, верь...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Я верю тебе, дядя. Тебя все любят, уважают... но, милый дядя, тебе надо молчать,
+              только молчать. Что ты говорил только что про мою маму, про свою сестру? Для чего ты
+              это говорил?</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Да, да...</p>
+            <stage type="delivery">(Ее рукой закрывает себе лицо.)</stage>
+            <p>В самом деле, это ужасно! Боже мой! Боже, спаси меня! И сегодня я речь говорил перед
+              шкафом... так глупо! И только когда кончил, понял, что глупо.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Правда, дядечка, вам надо бы молчать. Молчите себе, и все.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Если будешь молчать, то тебе же самому будет покойнее.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Молчу.</p>
+            <stage type="delivery">(Целует Ане и Варе руки.)</stage>
+            <p>Молчу. Только вот о деле. В четверг я был в окружном суде, ну, сошлась компания,
+              начался разговор о том, о сем, пятое-десятое, и, кажется, вот можно будет устроить
+              заем под векселя, чтобы заплатить проценты в банк.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Если бы господь помог!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Во вторник поеду, еще раз поговорю.</p>
+            <stage type="delivery">(Варе.)</stage>
+            <p>Не реви.</p>
+            <stage type="delivery">(А не.)</stage>
+            <p>Твоя мама поговорит с Лопахиным; он, конечно, ей не откажет... А ты, как отдохнешь,
+              поедешь в Ярославль к графине, твоей бабушке. Вот так и будем действовать с трех
+              концов – и дело наше в шляпе. Проценты мы заплатим, я убежден...</p>
+            <stage type="delivery">(Кладет в рот леденец.)</stage>
+            <p>Честью моей, чем хочешь, клянусь, имение не будет продано!</p>
+            <stage type="delivery">(Возбужденно.)</stage>
+            <p>Счастьем моим клянусь! Вот тебе моя рука, назови меня тогда дрянным, бесчестным
+              человеком, если я допущу до аукциона! Всем существом моим клянусь!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(спокойное настроение вернулось к ней, она счастлива).</stage>
+            <p>Какой ты хороший, дядя, какой умный!</p>
+            <stage type="delivery">(Обнимает дядю.)</stage>
+            <p>Я теперь покойна! Я покойна! Я счастлива!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Фирс.</stage>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(укоризненно).</stage>
+            <p>Леонид Андреич, бога вы не боитесь! Когда же спать?</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Сейчас, сейчас. Ты уходи, Фирс. Я уж, так и быть, сам разденусь. Ну, детки,
+              бай-бай... Подробности завтра, а теперь идите спать.</p>
+            <stage type="delivery">(Целует Аню и Варю.)</stage>
+            <p>Я человек восьмидесятых годов... Не хвалят это время, но все же могу сказать, за
+              убеждения мне доставалось немало в жизни. Недаром меня мужик любит. Мужика надо знать!
+              Надо знать, с какой...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Опять ты, дядя!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Вы, дядечка, молчите.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(сердито).</stage>
+            <p>Леонид Андреич!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Иду, иду... Ложитесь. От двух бортов в середину! Кладу чистого...</p>
+            <stage type="delivery">(Уходит, за ним семенит Фирс.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Я теперь покойна. В Ярославль ехать не хочется, я не люблю бабушку, но все же я
+              покойна. Спасибо дяде.</p>
+            <stage type="delivery">(Садится.)</stage>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Надо спать. Пойду. А тут без тебя было неудовольствие. В старой людской, как тебе
+              известно, живут одни старые слуги: Ефимьюшка, Поля, Евстигней, ну и Карп. Стали они
+              пускать к себе ночевать каких-то проходимцев – я промолчала. Только вот, слышу,
+              распустили слух, будто я велела кормить их одним только горохом. От скупости, видишь
+              ли... И это все Евстигней... Хорошо, думаю. Коли так, думаю, то погоди же. Зову я
+              Евстигнея...</p>
+            <stage type="delivery">(Зевает.)</stage>
+            <p>Приходит... Как же ты, говорю, Евстигней... дурак ты этакой...</p>
+            <stage type="delivery">(Поглядев на Аню.)</stage>
+            <p>Анечка!..</p>
+            <stage>Пауза.</stage>
+            <p>Заснула!..</p>
+            <stage type="delivery">(Берет Аню под руку.)</stage>
+            <p>Пойдем в постельку... Пойдем!..</p>
+            <stage type="delivery">(Ведет ее.)</stage>
+            <p>Душечка моя уснула! Пойдем...</p>
+            <stage>Идут.</stage>
+            <stage>Далеко за садом пастух играет на свирели.</stage>
+            <stage>Трофимов идет через сцену и, увидев Варю и Аню, останавливается.</stage>
+            <p>Тссс... Она спит... спит... Пойдем, родная.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(тихо, в полусне).</stage>
+            <p>Я так устала... все колокольчики... Дядя... милый... и мама и дядя...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Пойдем, родная, пойдем...</p>
+            <stage type="delivery">(Уходят в комнату Ани.)</stage>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(в умилении).</stage>
+            <p>Солнышко мое! Весна моя!</p>
+          </sp>
+          <stage>Занавес</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Действие второе</head>
+        <div type="configuration">
+          <stage>Поле. Старая, покривившаяся, давно заброшенная часовенка, возле нее колодец,
+            большие камни, когда-то бывшие, по-видимому, могильными плитами, и старая скамья. Видна
+            дорога в усадьбу Гаева. В стороне, возвышаясь, темнеют тополи: там начинается вишневый
+            сад. Вдали ряд телеграфных столбов, и далеко-далеко на горизонте неясно обозначается
+            большой город, который бывает виден только в очень хорошую, ясную погоду. Скоро сядет
+            солнце. Шарлотта, Яша и Дуняша сидят на скамье; Епиходов стоит возле и играет на гитаре;
+            все сидят задумавшись. Шарлотта в старой фуражке; она сняла с плеч ружье и поправляет
+            пряжку на ремне.</stage>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта</speaker>
+            <stage type="delivery">(в раздумье).</stage>
+            <p>У меня нет настоящего паспорта, я не знаю, сколько мне лет, и мне все кажется, что я
+              молоденькая. Когда я была маленькой девочкой, то мой отец и мамаша ездили по ярмаркам
+              и давали представления, очень хорошие. А я прыгала salto mortale и разные штучки. И
+              когда папаша и мамаша умерли, меня взяла к себе одна немецкая госпожа и стала меня
+              учить. Хорошо. Я выросла, потом пошла в гувернантки. А откуда я и кто я – не знаю...
+              Кто мои родители, может, они не венчались... не знаю.</p>
+            <stage type="delivery">(Достает из кармана огурец и ест.)</stage>
+            <p>Ничего не знаю.</p>
+            <stage>Пауза.</stage>
+            <p>Так хочется поговорить, а не с кем... Никого у меня нет.</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов</speaker>
+            <stage type="delivery">(играет на гитаре и поет).</stage>
+            <p>«Что мне до шумного света, что мне друзья и враги...» Как приятно играть на
+              мандолине!</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Это гитара, а не мандолина.</p>
+            <stage type="delivery">(Глядится в зеркальце и пудрится.)</stage>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Для безумца, который влюблен, это мандолина...</p>
+            <stage type="delivery">(Напевает.)</stage>
+            <p>«Было бы сердце согрето жаром взаимной любви...»</p>
+          </sp>
+          <stage>Яша подпевает.</stage>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Ужасно поют эти люди... фуй! Как шакалы.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша</speaker>
+            <stage type="delivery">(Яше).</stage>
+            <p>Все-таки какое счастье побывать за границей.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Да, конечно. Не могу с вами не согласиться.</p>
+            <stage type="delivery">(Зевает, потом закуривает сигару.)</stage>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Понятное дело. За границей всё давно уж в полной комплекции.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Само собой.</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Я развитой человек, читаю разные замечательные книги, но никак не могу понять
+              направления, чего мне собственно хочется, жить мне или застрелиться, собственно
+              говоря, но тем не менее я всегда ношу при себе револьвер. Вот он...</p>
+            <stage type="delivery">(Показывает револьвер.)</stage>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Кончила. Теперь пойду.</p>
+            <stage type="delivery">(Надевает ружье.)</stage>
+            <p>Ты, Епиходов, очень умный человек и очень страшный; тебя должны безумно любить
+              женщины. Бррр!</p>
+            <stage type="delivery">(Идет.)</stage>
+            <p>Эти умники все такие глупые, не с кем мне поговорить... Все одна, одна, никого у меня
+              нет и... и кто я, зачем я, неизвестно...</p>
+            <stage type="delivery">(Уходит не спеша.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Собственно говоря, не касаясь других предметов, я должен выразиться о себе, между
+              прочим, что судьба относится ко мне без сожаления, как буря к небольшому кораблю.
+              Если, допустим, я ошибаюсь, тогда зачем же сегодня утром я просыпаюсь, к примеру
+              сказать, гляжу, а у меня на груди страшной величины паук... Вот такой.</p>
+            <stage type="delivery">(Показывает обеими руками.)</stage>
+            <p>И тоже квасу возьмешь, чтобы напиться, а там, глядишь, что-нибудь в высшей степени
+              неприличное, вроде таракана.</p>
+            <stage>Пауза.</stage>
+            <p>Вы читали Бокля?</p>
+            <stage>Пауза.</stage>
+            <p>Я желаю побеспокоить вас, Авдотья Федоровна, на пару слов.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Говорите.</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Мне бы желательно с вами наедине...</p>
+            <stage type="delivery">(Вздыхает.)</stage>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша</speaker>
+            <stage type="delivery">(смущенно).</stage>
+            <p>Хорошо... только сначала принесите мне мою тальмочку... Она около шкафа... тут
+              немножко сыро...</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Хорошо-с... принесу-с... Теперь я знаю, что мне делать с моим револьвером...</p>
+            <stage type="delivery">(Берет гитару и уходит, наигрывая.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Двадцать два несчастья! Глупый человек, между нами говоря.</p>
+            <stage type="delivery">(Зевает.)</stage>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Не дай бог, застрелится.</p>
+            <stage>Пауза.</stage>
+            <p>Я стала тревожная, все беспокоюсь. Меня еще девочкой взяли к господам, я теперь
+              отвыкла от простой жизни, и вот руки белые-белые, как у барышни. Нежная стала, такая
+              деликатная, благородная, всего боюсь... Страшно так. И если вы, Яша, обманете меня, то
+              я не знаю, что будет с моими нервами.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(целует ее).</stage>
+            <p>Огурчик! Конечно, каждая девушка должна себя помнить, и я больше всего не люблю,
+              ежели девушка дурного поведения.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Я страстно полюбила вас, вы образованный, можете обо всем рассуждать.</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(зевает).</stage>
+            <p>Да-с... По-моему, так: ежели девушка кого любит, то она, значит, безнравственная.</p>
+            <stage>Пауза.</stage>
+            <p>Приятно выкурить сигару на чистом воздухе...</p>
+            <stage type="delivery">(Прислушивается.)</stage>
+            <p>Сюда идут... Это господа...</p>
+            <stage>Дуняша порывисто обнимает его.</stage>
+            <p>Идите домой, будто ходили на реку купаться, идите этой дорожкой, а то встретятся и
+              подумают про меня, будто я с вами на свидании. Терпеть этого не могу.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша</speaker>
+            <stage type="delivery">(тихо кашляет).</stage>
+            <p>У меня от сигары голова разболелась...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Яша остается, сидит возле часовни. Входят Любовь Андреевна, Гаев и Лопахин.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Надо окончательно решить – время не ждет. Вопрос ведь совсем пустой. Согласны вы
+              отдать землю под дачи или нет? Ответьте одно слово: да или нет? Только одно слово!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Кто это здесь курит отвратительные сигары...</p>
+            <stage type="delivery">(Садится.)</stage>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Вот железную дорогу построили, и стало удобно.</p>
+            <stage type="delivery">(Садится.)</stage>
+            <p>Съездили в город и позавтракали... желтого в середину! Мне бы сначала пойти в дом,
+              сыграть одну партию...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Успеешь.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Только одно слово!</p>
+            <stage type="delivery">(Умоляюще.)</stage>
+            <p>Дайте же мне ответ!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(зевая).</stage>
+            <p>Кого?</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(глядит в свое портмоне).</stage>
+            <p>Вчера было много денег, а сегодня совсем мало. Бедная моя Варя из экономии кормит
+              всех молочным супом, на кухне старикам дают один горох, а я трачу как-то
+              бессмысленно...</p>
+            <stage type="delivery">(Уронила портмоне, рассыпала золотые.)</stage>
+            <p>Ну, посыпались...</p>
+            <stage type="delivery">(Ей досадно.)</stage>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Позвольте, я сейчас подберу.</p>
+            <stage type="delivery">(Собирает монеты.)</stage>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Будьте добры, Яша. И зачем я поехала завтракать... Дрянной ваш ресторан с музыкой,
+              скатерти пахнут мылом... Зачем так много пить, Леня? Зачем так много есть? Зачем так
+              много говорить? Сегодня в ресторане ты говорил опять много и все некстати. О
+              семидесятых годах, о декадентах. И кому? Половым говорить о декадентах!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Да.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(машет рукой).</stage>
+            <p>Я неисправим, это очевидно...</p>
+            <stage type="delivery">(Раздраженно Яше.)</stage>
+            <p>Что такое, постоянно вертишься перед глазами...</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(смеется).</stage>
+            <p>Я не могу без смеха вашего голоса слышать.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(сестре).</stage>
+            <p>Или я, или он...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Уходите, Яша, ступайте...</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(отдает Любови Андреевне кошелек).</stage>
+            <p>Сейчас уйду.</p>
+            <stage type="delivery">(Едва удерживается от смеха.)</stage>
+            <p>Сию минуту...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ваше имение собирается купить богач Дериганов. На торги, говорят, приедет сам
+              лично.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>А вы откуда слышали?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>В городе говорят.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Ярославская тетушка обещала прислать, а когда и сколько пришлет, неизвестно...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Сколько она пришлет? Тысяч сто? Двести?</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Ну... Тысяч десять-пятнадцать, и на том спасибо.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Простите, таких легкомысленных людей, как вы, господа, таких неделовых, странных, я
+              еще не встречал. Вам говорят русским языком, имение ваше продается, а вы точно не
+              понимаете.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Что же нам делать? Научите, что?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Я вас каждый день учу. Каждый день я говорю все одно и то же. И вишневый сад, и землю
+              необходимо отдать в аренду под дачи, сделать это теперь же, поскорее – аукцион на
+              носу! Поймите! Раз окончательно решите, чтоб были дачи, так денег вам дадут сколько
+              угодно, и вы тогда спасены.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Дачи и дачники – это так пошло, простите.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Совершенно с тобой согласен.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Я или зарыдаю, или закричу, или в обморок упаду. Не могу! Вы меня замучили!</p>
+            <stage type="delivery">(Гаеву.)</stage>
+            <p>Баба вы!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Кого?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Баба!</p>
+            <stage type="delivery">(Хочет уйти.)</stage>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(испуганно).</stage>
+            <p>Нет, не уходите, останьтесь, голубчик. Прошу вас. Может быть, надумаем
+              что-нибудь!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>О чем тут думать!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Не уходите, прошу вас. С вами все-таки веселее...</p>
+            <stage>Пауза.</stage>
+            <p>Я все жду чего-то, как будто над нами должен обвалиться дом.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(в глубоком раздумье).</stage>
+            <p>Дуплет в угол... Круазе в середину...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Уж очень много мы грешили...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Какие у вас грехи...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(кладет в рот леденец).</stage>
+            <p>Говорят, что я все свое состояние проел на леденцах...</p>
+            <stage type="delivery">(Смеется.)</stage>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>О, мои грехи... Я всегда сорила деньгами без удержу, как сумасшедшая, и вышла замуж
+              за человека, который делал одни только долги. Муж мой умер от шампанского,– он страшно
+              пил,– и на несчастье я полюбила другого, сошлась, и как раз в это время,– это было
+              первое наказание, удар прямо в голову,– вот тут на реке... утонул мой мальчик, и я
+              уехала за границу, совсем уехала, чтобы никогда не возвращаться, не видеть этой
+              реки... Я закрыла глаза, бежала, себя не помня, а <emph>он</emph> за мной...
+              безжалостно, грубо. Купила я дачу возле Ментоны, так как <emph>он</emph> заболел там,
+              и три года я не знала отдыха ни днем, ни ночью; больной измучил меня, душа моя
+              высохла. А в прошлом году, когда дачу продали за долги, я уехала в Париж, и там он
+              обобрал меня, бросил, сошелся с другой, я пробовала отравиться... Так глупо, так
+              стыдно... И потянуло вдруг в Россию, на родину, к девочке моей...</p>
+            <stage type="delivery">(Утирает слезы.)</stage>
+            <p>Господи, господи, будь милостив, прости мне грехи мои! Не наказывай меня больше!</p>
+            <stage type="delivery">(Достает из кармана телеграмму.)</stage>
+            <p>Получила сегодня из Парижа... Просит прощения, умоляет вернуться...</p>
+            <stage type="delivery">(Рвет телеграмму.)</stage>
+            <p>Словно где-то музыка.</p>
+            <stage type="delivery">(Прислушивается.)</stage>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Это наш знаменитый еврейский оркестр. Помнишь, четыре скрипки, флейта и
+              контрабас.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Он еще существует? Его бы к нам зазвать как-нибудь, устроить вечерок.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(прислушивается).</stage>
+            <p>Не слыхать...</p>
+            <stage type="delivery">(Тихо напевает.)</stage>
+            <p>«И за деньги русака немцы офранцузят».</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>Какую я вчера пьесу смотрел в театре, очень смешно.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>И, наверное, ничего нет смешного. Вам не пьесы смотреть, а смотреть бы почаще на
+              самих себя. Как вы все серо живете, как много говорите ненужного.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Это правда. Надо прямо говорить, жизнь у нас дурацкая...</p>
+            <stage>Пауза.</stage>
+            <p>Мой папаша был мужик, идиот, ничего не понимал, меня не учил, а только бил спьяна, и
+              все палкой. В сущности, и я такой же болван и идиот. Ничему не обучался, почерк у меня
+              скверный, пишу я так, что от людей совестно, как свинья.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Жениться вам нужно, мой друг.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Да... Это правда.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>На нашей бы Варе. Она хорошая девушка.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Да.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Она у меня из простых, работает целый день, а главное, вас любит. Да и вам-то давно
+              нравится.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Что же? Я не прочь... Она хорошая девушка.</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Мне предлагают место в банке. Шесть тысяч в год... Слыхала?</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Где тебе! Сиди уж...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Фирс входит; он принес пальто.</stage>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(Гаеву).</stage>
+            <p>Извольте, сударь, надеть, а то сыро.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(надевает пальто).</stage>
+            <p>Надоел ты, брат.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Нечего там... Утром уехали, не сказавшись.</p>
+            <stage type="delivery">(Оглядывает его.)</stage>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Как ты постарел, Фирс!</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Чего изволите?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Говорят, ты постарел очень!</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Живу давно. Меня женить собирались, а вашего папаши еще на свете не было...</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>А воля вышла, я уже старшим камердинером был. Тогда я не согласился на волю, остался
+              при господах...</p>
+            <stage>Пауза.</stage>
+            <p>И помню, все рады, а чему рады, и сами не знают.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Прежде очень хорошо было. По крайней мере, драли.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(не расслышав).</stage>
+            <p>А еще бы. Мужики при господах, господа при мужиках, а теперь все враздробь, не
+              поймешь ничего.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Помолчи, Фирс. Завтра мне нужно в город. Обещали познакомить с одним генералом,
+              который может дать под вексель.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ничего у вас не выйдет. И не заплатите вы процентов, будьте покойны.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Это он бредит. Никаких генералов нет.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят Трофимов, Аня и Варя.</stage>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>А вот и наши идут.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Мама сидит.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(нежно).</stage>
+            <p>Иди, иди... Родные мои...</p>
+            <stage type="delivery">(Обнимая Аню и Варю.)</stage>
+            <p>Если бы вы обе знали, как я вас люблю. Садитесь рядом, вот так.</p>
+          </sp>
+          <stage>Все усаживаются.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Наш вечный студент все с барышнями ходит.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Не ваше дело.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ему пятьдесят лет скоро, а он все еще студент.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Оставьте ваши дурацкие шутки.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Что же ты, чудак, сердишься?</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>А ты не приставай.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(смеется).</stage>
+            <p>Позвольте вас спросить, как вы обо мне понимаете?</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Я, Ермолай Алексеич, так понимаю: вы богатый человек, будете скоро миллионером. Вот
+              как в смысле обмена веществ нужен хищный зверь, который съедает все, что попадается
+              ему на пути, так и ты нужен.</p>
+          </sp>
+          <stage>Все смеются.</stage>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Вы, Петя, расскажите лучше о планетах.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Нет, давайте продолжим вчерашний разговор.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>О чем это?</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>О гордом человеке.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Мы вчера говорили долго, но ни к чему не пришли. В гордом человеке, в вашем смысле,
+              есть что-то мистическое. Быть может, вы и правы по-своему, но если рассуждать
+              попросту, без затей, то какая там гордость, есть ли в ней смысл, если человек
+              физиологически устроен неважно, если в своем громадном большинстве он груб, неумен,
+              глубоко несчастлив. Надо перестать восхищаться собой. Надо бы только работать.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Все равно умрешь.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Кто знает? И что значит – умрешь? Быть может, у человека сто чувств и со смертью
+              погибают только пять, известных нам, а остальные девяносто пять остаются живы.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Какой вы умный, Петя!..</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(иронически).</stage>
+            <p>Страсть!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Человечество идет вперед, совершенствуя свои силы. Все, что недосягаемо для него
+              теперь, когда-нибудь станет близким, понятным, только вот надо работать, помогать
+              всеми силами тем, кто ищет истину. У нас, в России, работают пока очень немногие.
+              Громадное большинство той интеллигенции, какую я знаю, ничего не ищет, ничего не
+              делает и к труду пока не способно. Называют себя интеллигенцией, а прислуге говорят
+              «ты», с мужиками обращаются как с животными, учатся плохо, серьезно ничего не читают,
+              ровно ничего не делают, о науках только говорят, в искусстве понимают мало. Все
+              серьезны, у всех строгие лица, все говорят только о важном, философствуют, а между тем
+              у всех на глазах рабочие едят отвратительно, спят без подушек, по тридцати, по сорока
+              в одной комнате, везде клопы, смрад, сырость, нравственная нечистота... И, очевидно,
+              все хорошие разговоры у нас для того только, чтобы отвести глаза себе и другим.
+              Укажите мне, где у нас ясли, о которых говорят так много и часто, где читальни? О них
+              только в романах пишут, на деле же их нет совсем. Есть только грязь, пошлость,
+              азиатчина... Я боюсь и не люблю очень серьезных физиономий, боюсь серьезных
+              разговоров. Лучше помолчим!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Знаете, я встаю в пятом часу утра, работаю с утра до вечера, ну, у меня постоянно
+              деньги свои и чужие, и я вижу, какие кругом люди. Надо только начать делать
+              что-нибудь, чтобы понять, как мало честных, порядочных людей. Иной раз, когда не
+              спится, я думаю: господи, ты дал нам громадные леса, необъятные поля, глубочайшие
+              горизонты, и, живя тут, мы сами должны бы по-настоящему быть великанами...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Вам понадобились великаны... Они только в сказках хороши, а так они пугают.</p>
+            <stage>В глубине сцены проходит и играет на гитаре.</stage>
+            <stage type="delivery">(Задумчиво.)</stage>
+            <p>Епиходов идет...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(задумчиво).</stage>
+            <p>Епиходов идет...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Солнце село, господа.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Да.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(негромко, как бы декламируя).</stage>
+            <p>О природа, дивная, ты блещешь вечным сиянием, прекрасная и равнодушная, ты, которую
+              мы называем матерью, сочетаешь в себе бытие и смерть, ты живишь и разрушаешь...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(умоляюще).</stage>
+            <p>Дядечка!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Дядя, ты опять!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Вы лучше желтого в середину дуплетом.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Я молчу, молчу.</p>
+          </sp>
+          <stage>Все сидят, задумались. Тишина. Слышно только, как тихо бормочет Фирс. Вдруг
+            раздается отдаленный звук, точно с неба, звук лопнувшей струны, замирающий,
+            печальный.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Это что?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Не знаю. Где-нибудь далеко в шахтах сорвалась бадья. Но где-нибудь очень далеко.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>А может быть, птица какая-нибудь... вроде цапли.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Или филин...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(вздрагивает).</stage>
+            <p>Неприятно почему-то.</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Перед несчастьем тоже было: и сова кричала, и самовар гудел бесперечь.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Перед каким несчастьем?</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Перед волей.</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Знаете, друзья, пойдемте, уже вечереет.</p>
+            <stage type="delivery">(Ане.)</stage>
+            <p>У тебя на глазах слезы... Что ты, девочка?</p>
+            <stage type="delivery">(Обнимает ее.)</stage>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Это так, мама. Ничего.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Кто-то идет.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Показывается Прохожий в белой потасканной фуражке, в пальто; он слегка
+            пьян.</stage>
+          <sp who="#Prohozhij">
+            <speaker>Прохожий.</speaker>
+            <p>Позвольте вас спросить, могу ли я пройти здесь прямо на станцию?</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Можете. Идите по этой дороге.</p>
+          </sp>
+          <sp who="#Prohozhij">
+            <speaker>Прохожий.</speaker>
+            <p>Чувствительно вам благодарен.</p>
+            <stage type="delivery">(Кашлянув.)</stage>
+            <p>Погода превосходная...</p>
+            <stage type="delivery">(Декламирует.)</stage>
+            <p>Брат мой, страдающий брат... выдь на Волгу, чей стон...</p>
+            <stage type="delivery">(Варе.)</stage>
+            <p>Мадемуазель, позвольте голодному россиянину копеек тридцать...</p>
+          </sp>
+          <stage>Варя испугалась, вскрикивает.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(сердито).</stage>
+            <p>Всякому безобразию есть свое приличие!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(оторопев).</stage>
+            <p>Возьмите... вот вам...</p>
+            <stage type="delivery">(Ищет в портмоне.)</stage>
+            <p>Серебра нет... Все равно, вот вам золотой...</p>
+          </sp>
+          <sp who="#Prohozhij">
+            <speaker>Прохожий.</speaker>
+            <p>Чувствительно вам благодарен!</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Смех.</stage>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(испуганная).</stage>
+            <p>Я уйду... я уйду... Ах, мамочка, дома людям есть нечего, а вы ему отдали золотой.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Что ж со мной, глупой, делать! Я тебе дома отдам все, что у меня есть. Ермолай
+              Алексеич, дадите мне еще взаймы!..</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Слушаю.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Пойдемте, господа, пора. А тут, Варя, мы тебя совсем просватали, поздравляю.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сквозь слезы).</stage>
+            <p>Этим, мама, шутить нельзя.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Охмелия, иди в монастырь...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>А у меня дрожат руки: давно не играл на биллиарде.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Охмелия, о нимфа, помяни меня в твоих молитвах!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Идемте, господа. Скоро ужинать.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Напугал он меня. Сердце так и стучит.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Напоминаю вам, господа: двадцать второго августа будет продаваться вишневый сад.
+              Думайте об этом!.. Думайте!..</p>
+          </sp>
+          <stage>Уходят все, кроме Трофимова и Ани.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(смеясь).</stage>
+            <p>Спасибо прохожему, напугал Варю, теперь мы одни.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Варя боится, а вдруг мы полюбим Друг друга, и целые дни не отходит от нас. Она своей
+              узкой головой не может понять, что мы выше любви. Обойти то мелкое и призрачное, что
+              мешает быть свободным и счастливым,– вот цель и смысл нашей жизни. Вперед! Мы идем
+              неудержимо к яркой звезде, которая горит там вдали! Вперед! Не отставай, друзья!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(всплескивая руками).</stage>
+            <p>Как хорошо вы говорите!</p>
+            <stage>Пауза.</stage>
+            <p>Сегодня здесь дивно!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Да, погода удивительная.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Что вы со мной сделали, Петя, отчего я уже не люблю вишневого сада, как прежде. Я
+              любила его так нежно, мне казалось, на земле нет лучше места, как наш сад.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Вся Россия наш сад. Земля велика и прекрасна, есть на ней много чудесных мест.</p>
+            <stage>Пауза.</stage>
+            <p>Подумайте, Аня: ваш дед, прадед и все ваши предки были крепостники, владевшие живыми
+              душами, и неужели с каждой вишни в саду, с каждого листка, с каждого ствола не глядят
+              на вас человеческие существа, неужели вы не слышите голосов... Владеть живыми душами –
+              ведь это переродило всех вас, живших раньше и теперь живущих, так что ваша мать, вы,
+              дядя уже не замечаете, что вы живете в долг, на чужой счет, на счет тех людей, которых
+              вы не пускаете дальше передней... Мы отстали по крайней мере лет на двести, у нас нет
+              еще ровно ничего, нет определенного отношения к прошлому, мы только философствуем,
+              жалуемся на тоску или пьем водку. Ведь так ясно, чтобы начать жить в настоящем, надо
+              сначала искупить наше прошлое, покончить с ним, а искупить его можно только
+              страданием, только необычайным, непрерывным трудом. Поймите это, Аня.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Дом, в котором мы живем, давно уже не наш дом, и я уйду, даю вам слово.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Если у вас есть ключи от хозяйства, то бросьте их в колодец и уходите. Будьте
+              свободны, как ветер.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(в восторге).</stage>
+            <p>Как хорошо вы сказали!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Верьте мне, Аня, верьте! Мне еще нет тридцати, я молод, я еще студент, но я уже
+              столько вынес! Как зима, так я голоден, болен, встревожен, беден, как нищий, и – куда
+              только судьба не гоняла меня, где я только не был! И все же душа моя всегда, во всякую
+              минуту, и днем и ночью, была полна неизъяснимых предчувствий. Я предчувствую счастье,
+              Аня, я уже вижу его...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(задумчиво).</stage>
+            <p>Восходит луна.</p>
+          </sp>
+          <stage>Слышно, как Епиходов играет на гитаре все ту же грустную песню, Восходит луна.
+            Где-то около тополей Варя ищет Аню и зовет: «Аня! Где ты?»</stage>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Да, восходит луна.</p>
+            <stage>Пауза.</stage>
+            <p>Вот оно счастье, вот оно идет, подходит все ближе и ближе, я уже слышу его шаги. И
+              если мы не увидим, не узнаем его, то что за беда? Его увидят другие!</p>
+            <stage>Голос Вари: «Аня! Где ты?»</stage>
+            <p>Опять эта Варя!</p>
+            <stage type="delivery">(Сердито.)</stage>
+            <p>Возмутительно!</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Что ж? Пойдемте к реке. Там хорошо.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Пойдемте.</p>
+          </sp>
+          <stage>Идут.</stage>
+          <stage>Голос Вари: «Аня! Аня!»</stage>
+          <stage>Занавес</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Действие третье</head>
+        <div type="configuration">
+          <stage>Гостиная, отделенная аркой от залы. Горит люстра. Слышно, как в передней играет
+            тройский оркестр, тот самый, о котором упоминается во втором акте. Вечор. В зале танцуют
+            grand-rond. Голос Симеонова-Пищика: «Promenade a une paire!» Выходят в гостиную: в
+            первой паре Пищик и Шарлотта Ивановна, во второй – Трофимов и Любовь Андреевна, в
+            третьей – Аня с почтовым чиновником, в четвертой – Варя с начальником станции и т. д.
+            Варя тихо плачет и, танцуя, утирает слезы. В последней паре Дуняша. Идут по гостиной,
+            Пищик кричит: «Grand-rond, balancez!» и «Les cavaliers a genoux et remerciez vos
+            dames».</stage>
+          <stage>Фирс во фраке проносит на подносе сельтерскую воду. Входят в гостиную Пищик и
+            Трофимов.</stage>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Я полнокровный, со мной уже два раза удар был, танцевать трудно, но, как говорится,
+              попал в стаю, лай не лай, а хвостом виляй. Здоровье-то у меня лошадиное. Мой покойный
+              родитель, шутник, царство небесное, насчет нашего происхождения говорил так, будто
+              древний род наш Симеоновых-Пищиков происходит будто бы от той самой лошади, которую
+              Калигула посадил в сенате...</p>
+            <stage type="delivery">(Садится.)</stage>
+            <p>Но вот беда: денег нет! Голодная собака верует только в мясо...</p>
+            <stage type="delivery">(Храпит и тотчас же просыпается.)</stage>
+            <p>Так и я... могу только про деньги...</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>А у вас в фигуре в самом деле есть что-то лошадиное.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Что ж... лошадь хороший зверь... Лошадь продать можно...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Слышно, как в соседней комнате играют на биллиарде. В зале под аркой показывается
+            Варя.</stage>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(дразнит).</stage>
+            <p>Мадам Лопахина! Мадам Лопахина!..</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сердито).</stage>
+            <p>Облезлый барин!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Да, я облезлый барин и горжусь этим!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(в горьком раздумье).</stage>
+            <p>Вот наняли музыкантов, а чем платить?</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(Пищику).</stage>
+            <p>Если бы энергия, которую вы в течение всей вашей жизни затратили на поиски денег для
+              уплаты процентов, пошла у вас на что-нибудь другое, то, вероятно, в конце концов вы
+              могли бы перевернуть землю.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Ницше... философ... величайший, знаменитейший... громадного ума человек, говорит в
+              своих сочинениях, будто фальшивые бумажки делать можно.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>А вы читали Ницше?</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Ну... Мне Дашенька говорила. А я теперь в таком положении, что хоть фальшивые бумажки
+              делай... Послезавтра триста десять рублей платить... Сто тридцать уже достал...</p>
+            <stage type="delivery">(Ощупывает карманы, встревоженно.)</stage>
+            <p>Деньги пропали! Потерял деньги!</p>
+            <stage type="delivery">(Сквозь слезы.)</stage>
+            <p>Где деньги?</p>
+            <stage type="delivery">(Радостно.)</stage>
+            <p>Вот они, за подкладкой... Даже в пот ударило...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят Любовь Андреевна и Шарлотта Ивановна.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(напевает лезгинку).</stage>
+            <p>Отчего так долго нет Леонида? Что он делает в городе?</p>
+            <stage type="delivery">(Дуняше.)</stage>
+            <p>Дуняша, предложите музыкантам чаю...</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Торги не состоялись, по всей вероятности.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>И музыканты пришли некстати, и бал мы затеяли некстати... Ну, ничего...</p>
+            <stage type="delivery">(Садится и тихо напекает.)</stage>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта</speaker>
+            <stage type="delivery">(подает Пищику колоду карт).</stage>
+            <p>Вот вам колода карт, задумайте какую-нибудь одну карту.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Задумал.</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Тасуйте теперь колоду. Очень хорошо. Дайте сюда, о мой милый господин Пищик. Ein,
+              zwei, drei! Теперь поищите, она у вас в боковом кармане...</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(достает из бокового кармана карту).</stage>
+            <p>Восьмерка пик, совершенно верно!</p>
+            <stage type="delivery">(Удивляясь.)</stage>
+            <p>Вы подумайте!</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта</speaker>
+            <stage type="delivery">(держит на ладони колоду карт, Трофимову).</stage>
+            <p>Говорите скорее, какая карта сверху?</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Что ж? Ну, дама пик.</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Есть!</p>
+            <stage type="delivery">(Пищику.)</stage>
+            <p>Ну? Какая карта сверху?</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Туз червовый.</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Есть!..</p>
+            <stage type="delivery">(Бьет по ладони, колода карт исчезает.)</stage>
+            <p>А какая сегодня хорошая погода!</p>
+            <stage>Ей отвечает таинственный женский голос, точно из-под пола: «О да, погода
+              великолепная, сударыня».</stage>
+            <p>Вы такой хороший мой идеал...</p>
+          </sp>
+          <stage>Голос: «Вы, сударыня, мне тоже очень понравился».</stage>
+          <sp who="#NachalnikStantsii">
+            <speaker>Начальник станции</speaker>
+            <stage type="delivery">(аплодирует).</stage>
+            <p>Госпожа чревовещательница, браво!</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(удивляясь).</stage>
+            <p>Вы подумайте! Очаровательнейшая Шарлотта Ивановна... я просто влюблен...</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Влюблен?</p>
+            <stage type="delivery">(Пожав плечами.)</stage>
+            <p>Разве вы можете любить? Guter Mensch, aber schlechter Musikant.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(хлопает Пищика по плечу).</stage>
+            <p>Лошадь вы этакая...</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Прошу внимания, еще один фокус.</p>
+            <stage type="delivery">(Берет со стула плед.)</stage>
+            <p>Вот очень хороший плед, я желаю продавать...</p>
+            <stage type="delivery">(Встряхивает.)</stage>
+            <p>Не желает ли кто покупать?</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(удивляясь).</stage>
+            <p>Вы подумайте!</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Ein, zwei, drei!</p>
+            <stage type="delivery">(Быстро поднимает опущенный плед.)</stage>
+          </sp>
+          <stage>За пледом стоит Аня; она делает реверанс, бежит к матери, обнимает ее и убегает
+            назад в залу при общем восторге.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(аплодирует).</stage>
+            <p>Браво, браво!..</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Теперь еще! Ein, zwei, drei!</p>
+          </sp>
+          <stage>Поднимает плед; за пледом стоит Варя и кланяется.</stage>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(удивляясь).</stage>
+            <p>Вы подумайте!</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>Конец!</p>
+            <stage type="delivery">(Бросает плед на Пищика, делает реверанс и убегает в
+              залу.)</stage>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(спешит за ней).</stage>
+            <p>Злодейка... какова? Какова?</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>А Леонида все нет. Что он делает в городе, так долго, не понимаю! Ведь все уже
+              кончено там, имение продано или торги не состоялись, зачем же так долго держать в
+              неведении!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(стараясь ее утешить).</stage>
+            <p>Дядечка купил, я в этом уверена.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(насмешливо).</stage>
+            <p>Да.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Бабушка прислала ему доверенность, чтобы он купил на ее имя с переводом долга. Это
+              она для Ани. И я уверена, бог поможет, дядечка купит.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Ярославская бабушка прислала пятнадцать тысяч, чтобы купить имение на ее имя,– нам
+              она не верит,– а этих денег не хватило бы даже проценты заплатить.</p>
+            <stage type="delivery">(Закрывает лицо руками.)</stage>
+            <p>Сегодня судьба моя решается, судьба...</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(дразнит Варю).</stage>
+            <p>Мадам Лопахина!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сердито).</stage>
+            <p>Вечный студент! Уже два раза увольняли из университета.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Что же ты сердишься, Варя? Он дразнит тебя Лопахиным, ну что ж? Хочешь– выходи за
+              Лопахина, он хороший, интересный человек. Не хочешь – не выходи; тебя, дуся, никто не
+              неволит...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Я смотрю на это дело серьезно, мамочка, надо прямо говорить. Он хороший человек, мне
+              нравится.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>И выходи. Что же ждать, не понимаю!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Мамочка, не могу же я сама делать ему предложение. Вот уже два года все мне говорят
+              про него, все говорят, а он или молчит или шутит. Я понимаю. Он богатеет, занят делом,
+              ему не до меня. Если бы были деньги, хоть немного, хоть бы сто рублей, бросила бы я
+              все, ушла бы подальше. В монастырь бы ушла.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Благолепие!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(Трофимову).</stage>
+            <p>Студенту надо быть умным!</p>
+            <stage type="delivery">(Мягким тоном, со слезами.)</stage>
+            <p>Какой вы стали некрасивый, Петя, как постарели!</p>
+            <stage type="delivery">(Любови Андреевне, уже не плача.)</stage>
+            <p>Только вот без дела не могу, мамочка. Мне каждую минуту надо что-нибудь делать.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Яша.</stage>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(едва удерживаясь от смеха)</stage>
+            <p>, Епиходов биллиардный кий сломал!..</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Зачем же Епиходов здесь? Кто ему позволил на биллиарде играть? Не понимаю этих
+              людей...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Не дразните ее, Петя, вы видите, она и без того в горе.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Уж очень она усердная, не в свое дело суется. Все лето не давала покоя ни мне, ни
+              Ане, боялась, как бы у нас романа не вышло. Какое ей дело? И к тому же я вида не
+              подавал, я так далек от пошлости. Мы выше любви!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>А я вот, должно быть, ниже любви.</p>
+            <stage type="delivery">(В сильном беспокойстве.)</stage>
+            <p>Отчего нет Леонида? Только бы знать: продано имение или нет? Несчастье представляется
+              мне до такой степени невероятным, что даже как-то не знаю, что думать, теряюсь... Я
+              могу сейчас крикнуть... могу глупость сделать. Спасите меня, Петя. Говорите же
+              что-нибудь, говорите...</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Продано ли сегодня имение или не продано – не все ли равно? С ним давно уже
+              покончено, нет поворота назад, заросла дорожка. Успокойтесь, дорогая. Не надо
+              обманывать себя, надо хоть раз в жизни взглянуть правде прямо в глаза.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Какой правде? Вы видите, где правда и где неправда, а я точно потеряла зрение, ничего
+              не вижу. Вы смело решаете все важные вопросы, но скажите, голубчик, не потому ли это,
+              что вы молоды, что вы не успели перестрадать ни одного вашего вопроса? Вы смело
+              смотрите вперед, и не потому ли, что не видите и не ждете ничего страшного, так как
+              жизнь еще скрыта от ваших молодых глаз? Вы смелее, честнее, глубже нас, но вдумайтесь,
+              будьте великодушны хоть на кончике пальца, пощадите меня. Ведь я родилась здесь, здесь
+              жили мои отец и мать, мой дед, я люблю этот дом, без вишневого сада я не понимаю своей
+              жизни, и если уж так нужно продавать, то продавайте и меня вместе с садом...</p>
+            <stage type="delivery">(Обнимает Трофимова, целует его в лоб.)</stage>
+            <p>Ведь мой сын утонул здесь...</p>
+            <stage type="delivery">(Плачет.)</stage>
+            <p>Пожалейте меня, хороший, добрый человек.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Вы знаете, я сочувствую всей душой.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Но надо иначе, иначе это сказать...</p>
+            <stage type="delivery">(Вынимает платок, на пол падает телеграмма.)</stage>
+            <p>У меня сегодня тяжело на душе, вы не можете себе представить. Здесь мне шумно, дрожит
+              душа от каждого звука, я вся дрожу, а уйти к себе не могу, мне одной в тишине страшно.
+              Не осуждайте меня, Петя... Я вас люблю, как родного. Я охотно бы отдала за вас Аню,
+              клянусь вам, только, голубчик, надо же учиться, надо курс кончить. Вы ничего не
+              делаете, только судьба бросает вас с места на место, так это странно... Не правда ли?
+              Да? И надо же что-нибудь с бородой сделать, чтобы она росла как-нибудь...</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>Смешной вы!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(поднимает телеграмму).</stage>
+            <p>Я не желаю быть красавцем.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Это из Парижа телеграмма. Каждый день получаю. И вчера, и сегодня. Этот дикий человек
+              опять заболел, опять с ним нехорошо... Он просит прощения, умоляет приехать, и
+              по-настоящему мне следовало бы съездить в Париж, побыть возле него. У вас, Петя,
+              строгое лицо, но что же делать, голубчик мой, что мне делать, он болен, он одинок,
+              несчастлив, а кто там поглядит за ним, кто удержит его от ошибок, кто даст ему вовремя
+              лекарство? И что ж тут скрывать или молчать, я люблю его, это ясно. Люблю, люблю...
+              Это камень на моей шее, я иду с ним на дно, но я люблю этот камень и жить без него не
+              могу.</p>
+            <stage type="delivery">(Жмет Трофимову руку.)</stage>
+            <p>Не думайте дурно, Петя, не говорите мне ничего, не говорите...</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(сквозь слезы).</stage>
+            <p>Простите за откровенность бога ради: ведь он обобрал вас!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Нет, нет, нет, не надо говорить так...</p>
+            <stage type="delivery">(Закрывает уши.)</stage>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Ведь он негодяй, только вы одна не знаете этого! Он мелкий негодяй,
+              ничтожество...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(рассердившись, но сдержанно).</stage>
+            <p>Вам двадцать шесть лет или двадцать семь, а вы все еще гимназист второго класса!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Пусть!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Надо быть мужчиной, в ваши годы надо понимать тех, кто любит. И надо самому любить...
+              надо влюбляться!</p>
+            <stage type="delivery">(Сердито.)</stage>
+            <p>Да, да! И у вас нет чистоты, а вы просто чистюлька, смешной чудак, урод...</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(в ужасе).</stage>
+            <p>Что она говорит!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>«Я выше любви!» Вы не выше любви, а просто, как вот говорит наш Фирс, вы недотёпа. В
+              ваши годы не иметь любовницы!..</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(в ужасе).</stage>
+            <p>Это ужасно! Что она говорит?!</p>
+            <stage type="delivery">(Идет быстро в зал, схватив себя за голову.)</stage>
+            <p>Это ужасно... Не могу. Я уйду...</p>
+            <stage type="delivery">(Уходит, но тотчас же возвращается.)</stage>
+            <p>Между нами все кончено!</p>
+            <stage type="delivery">(Уходит в переднюю.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(кричит вслед).</stage>
+            <p>Петя, погодите! Смешной человек, я пошутила! Петя!</p>
+            <stage>Слышно, как в передней кто-то быстро идет по лестнице и вдруг с грохотом падает
+              вниз. Аня и Варя вскрикивают, но тотчас же слышится смех.</stage>
+            <p>Что там такое?</p>
+          </sp>
+          <stage>Вбегает Аня.</stage>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(смеясь).</stage>
+            <p>Петя с лестницы упал!</p>
+            <stage type="delivery">(Убегает.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Какой чудак этот Петя...</p>
+            <stage>Начальник станции останавливается среди залы и читает «Грешницу» А. Толстого. Его
+              слушают, но едва он прочел несколько строк, как из передней доносятся звуки вальса, и
+              чтение обрывается. Все танцуют. Проходят из передней Трофимов, Аня, Варя и Любовь
+              Андреевна.</stage>
+            <p>Ну, Петя... ну, чистая душа... я прощения прошу... Пойдемте танцевать...</p>
+            <stage type="delivery">(Танцует с Петей.)</stage>
+          </sp>
+          <stage>Аня и Варя танцуют.</stage>
+        </div>
+        <div type="configuration">
+          <stage>Фирс входит, ставит свою палку около боковой двери.</stage>
+          <stage>Яша тоже вошел из гостиной, смотрит на танцы.</stage>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Что, дедушка?</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Нездоровится. Прежде у нас на балах танцевали генералы, бароны, адмиралы, а теперь
+              посылаем за почтовым чиновником и начальником станции, да и те не в охотку идут.
+              Что-то ослабел я. Барин покойный, дедушка, всех сургучом пользовал, от всех болезней.
+              Я сургуч принимаю каждый день уже лет двадцать, а то и больше; может, я от него и
+              жив.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Надоел ты, дед.</p>
+            <stage type="delivery">(Зевает.)</stage>
+            <p>Хоть бы ты поскорее подох.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Эх ты... недотёпа!</p>
+            <stage type="delivery">(Бормочет.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Трофимов и Любовь Андреевна танцуют в зале, потом в гостиной.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Merci! Я посижу...</p>
+            <stage type="delivery">(Садится.)</stage>
+            <p>Устала.</p>
+          </sp>
+          <stage>Входит Аня.</stage>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(взволнованно).</stage>
+            <p>А сейчас на кухне какой-то человек говорил, что вишневый сад уже продан сегодня.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Кому продан?</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Не сказал, кому. Ушел.</p>
+            <stage type="delivery">(Танцует с Трофимовым, оба уходят в залу.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Это там какой-то старик болтал. Чужой.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>А Леонида Андреича еще нет, не приехал. Пальто на нем легкое, демисезон, того гляди
+              простудится. Эх, молодо-зелено.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Я сейчас умру. Подите, Яша, узнайте, кому продано.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Да он давно ушел, старик-то.</p>
+            <stage type="delivery">(Смеется.)</stage>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(с легкой досадой).</stage>
+            <p>Ну, чему вы смеетесь? Чему рады?</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Очень уж Епиходов смешной. Пустой человек. Двадцать два несчастья.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Фирс, если продадут имение, то куда ты пойдешь?</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Куда прикажете, туда и пойду.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Отчего у тебя лицо такое? Ты нездоров? Шел бы, знаешь, спать...</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Да...</p>
+            <stage type="delivery">(С усмешкой.)</stage>
+            <p>Я уйду спать, а без меня тут кто подаст, кто распорядится? Один на весь дом.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(Любови Андреевне).</stage>
+            <p>Любовь Андреевна! Позвольте обратиться к вам с просьбой, будьте так добры! Если опять
+              поедете в Париж, то возьмите меня с собой, сделайте милость. Здесь мне оставаться
+              положительно невозможно.</p>
+            <stage type="delivery">(Оглядываясь, вполголоса.)</stage>
+            <p>Что ж там говорить, вы сами видите, страна необразованная, народ безнравственный,
+              притом скука, на кухне кормят безобразно, а тут еще Фирс этот ходит, бормочет разные
+              неподходящие слова. Возьмите меня с собой, будьте так добры!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Пищик.</stage>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Позвольте просить вас... на вальсишку, прекраснейшая...</p>
+            <stage type="delivery">(Любовь Андреевна идет с ним.)</stage>
+            <p>Очаровательная, все-таки сто восемьдесят рубликов я возьму у вас... Возьму...</p>
+            <stage type="delivery">(Танцует.)</stage>
+            <p>Сто восемьдесят рубликов...</p>
+          </sp>
+          <stage>Перешли в зал.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(тихо напевает).</stage>
+            <p>«Поймешь ли ты души моей волненье...»</p>
+          </sp>
+          <stage>В зале фигура в сером цилиндре и в клетчатых панталонах машет руками и прыгает;
+            крики: «Браво, Шарлотта Ивановна!»</stage>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша</speaker>
+            <stage type="delivery">(остановилась, чтобы попудриться).</stage>
+            <p>Барышня велит мне танцевать,– кавалеров много, а дам мало,– а у меня от танцев
+              кружится голова, сердце бьется, Фирс Николаевич, а сейчас чиновник с почты такое мне
+              сказал, что у меня дыхание захватило.</p>
+          </sp>
+          <stage>Музыка стихает.</stage>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Что же он тебе сказал?</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Вы, говорит, как цветок.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(зевает).</stage>
+            <p>Невежество...</p>
+            <stage type="delivery">(Уходит.)</stage>
+            <p>Дуняша. Как цветок... Я такая деликатная девушка, ужасно люблю нежные слова.</p>
+          </sp>
+          <sp who="#Firs">
+            <speaker>Фирс.</speaker>
+            <p>Закрутишься ты.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Епиходов.</stage>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Вы, Авдотья Федоровна, не желаете меня видеть... как будто я какое насекомое.</p>
+            <stage type="delivery">(Вздыхает.)</stage>
+            <p>Эх, жизнь!</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Что вам угодно?</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Несомненно, может, вы и правы.</p>
+            <stage type="delivery">(Вздыхает.)</stage>
+            <p>Но, конечно, если взглянуть с точки зрения, то вы, позволю себе так выразиться,
+              извините за откровенность, совершенно привели меня в состояние духа. Я знаю свою
+              фортуну, каждый день со мной случается какое-нибудь несчастье, и к этому я давно уже
+              привык, так что с улыбкой гляжу на свою судьбу. Вы дали мне слово, и хотя я...</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Прошу вас, после поговорим, а теперь оставьте меня в покое. Теперь я мечтаю.</p>
+            <stage type="delivery">(Играет веером.)</stage>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>У меня несчастье каждый день, и я, позволю себе так выразиться, только улыбаюсь, даже
+              смеюсь.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит из залы Варя.</stage>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Ты все еще не ушел, Семен? Какой же ты, право, неуважительный человек.</p>
+            <stage type="delivery">(Дуняше.)</stage>
+            <p>Ступай отсюда, Дуняша.</p>
+            <stage type="delivery">(Епиходову.)</stage>
+            <p>То на биллиарде играешь и кий сломал, то по гостиной расхаживаешь, как гость.</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>С меня взыскивать, позвольте вам выразиться, вы не можете.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Я не взыскиваю с тебя, а говорю. Только и знаешь, что ходишь с места на место, а
+              делом не занимаешься. Конторщика держим, а неизвестно – для чего.</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов</speaker>
+            <stage type="delivery">(обиженно).</stage>
+            <p>Работаю ли я, хожу ли, кушаю ли, играю ли на биллиарде, про то могут рассуждать
+              только люди понимающие и старшие.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Ты смеешь мне говорить это!</p>
+            <stage type="delivery">(Вспылив.)</stage>
+            <p>Ты смеешь? Значит, я ничего не понимаю? Убирайся же вон отсюда! Сию минуту!</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов</speaker>
+            <stage type="delivery">(струсив).</stage>
+            <p>Прошу вас выражаться деликатным способом.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(выйдя из себя).</stage>
+            <p>Сию же минуту вон отсюда! Вон!</p>
+            <stage>Он идет к двери, она за ним.</stage>
+            <p>Двадцать два несчастья! Чтобы духу твоего здесь не было! Чтобы глаза мои тебя не
+              видели!</p>
+            <stage>вышел, за дверью его голос: «Я на вас буду жаловаться»,</stage>
+            <p>А, ты назад идешь?</p>
+            <stage type="delivery">(Хватает палку, поставленную около двери Фирсом.)</stage>
+            <p>Иди... Иди... Иди, я тебе покажу... А, ты идешь? Идешь? Так вот же тебе...</p>
+            <stage type="delivery">(Замахивается.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>В это время входит Лопахин.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Покорнейше благодарю.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(сердито и насмешливо).</stage>
+            <p>Виновата!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ничего-с. Покорно благодарю за приятное угощение.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Не стоит благодарности.</p>
+            <stage type="delivery">(Отходит, потом оглядывается и спрашивает мягко.)</stage>
+            <p>Я вас не ушибла?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Нет, ничего. Шишка, однако, вскочит огромадная.</p>
+          </sp>
+          <stage>Голоса в зале: «Лопахин приехал! Ермолай Алексеич!»</stage>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Видом видать, слыхом слыхать...</p>
+            <stage type="delivery">(Целуется с Лопахиным.)</stage>
+            <p>Коньячком от тебя попахивает, милый мой, душа моя. А мы тут тоже веселимся.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Любовь Андреевна.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Это вы, Ермолай Алексеич? Отчего так долго? Где Леонид?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Леонид Андреич со мной приехал, он идет...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(волнуясь).</stage>
+            <p>Ну, что? Были торги? Говорите же!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(сконфуженно, боясь обнаружить свою радость).</stage>
+            <p>Торги кончились к четырем часам... Мы к поезду опоздали, пришлось ждать до половины
+              десятого.</p>
+            <stage type="delivery">(Тяжело вздохнув.)</stage>
+            <p>Уф! У меня немножко голова кружится...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Гаев; в правой руке у него покупки, левой он утирает слезы.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Леня, что? Леня, ну?</p>
+            <stage type="delivery">(Нетерпеливо, со слезами.)</stage>
+            <p>Скорей же, бога ради...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(ничего ей не отвечает, только машет рукой; Фирсу,
+              плача).</stage>
+            <p>Вот возьми... Тут анчоусы, керченские сельди... Я сегодня ничего не ел... Столько я
+              выстрадал!</p>
+            <stage>Дверь в биллиардную открыта; слышен стук шаров и голос Яши: «Семь и
+              восемнадцать!» У Гаева меняется выражение, он уже не плачет.</stage>
+            <p>Устал я ужасно. Дашь мне, Фирс, переодеться.</p>
+            <stage type="delivery">(Уходит к себе через залу, за ним Фирс.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Что на торгах? Рассказывай же!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Продан вишневый сад?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Продан.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Кто купил?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Я купил.</p>
+            <stage>Пауза.</stage>
+            <stage>Любовь Андреевна угнетена; она упала бы, если бы не стояла возле кресла и стола.
+              Варя снимает с пояса ключи, бросает их на пол, посреди гостиной, и уходит.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Lopahin">
+            <p>Я купил! Погодите, господа, сделайте милость, у меня в голове помутилось, говорить не
+              могу...</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>Пришли мы на торги, там уже Дериганов. У Леонида Андреича было только пятнадцать
+              тысяч, а Дериганов сверх долга сразу надавал тридцать. Вижу, дело такое, я схватился с
+              ним, надавал сорок. Он сорок пять. Я пятьдесят пять. Он, значит, по пяти надбавляет, я
+              по десяти... Ну, кончилось. Сверх долга я надавал девяносто, осталось за мной.
+              Вишневый сад теперь мой! Мой!</p>
+            <stage type="delivery">(Хохочет.)</stage>
+            <p>Боже мой, господи, вишневый сад мой! Скажите мне, что я пьян, не в своем уме, что все
+              это мне представляется...</p>
+            <stage type="delivery">(Топочет ногами.)</stage>
+            <p>Не смейтесь надо мной! Если бы отец мой и дед встали из гробов и посмотрели на все
+              происшествие, как их Ермолай, битый, малограмотный Ермолай, который зимой босиком
+              бегал, как этот самый Ермолай купил имение, прекрасней которого ничего нет на свете. Я
+              купил имение, где дед и отец были рабами, где их не пускали даже в кухню. Я сплю, это
+              только мерещится мне, это только кажется... Это плод вашего воображения, покрытый
+              мраком неизвестности...</p>
+            <stage type="delivery">(Поднимает ключи, ласково улыбаясь.)</stage>
+            <p>Бросила ключи, хочет показать, что она уж не хозяйка здесь...</p>
+            <stage type="delivery">(Звенит ключами.)</stage>
+            <p>Ну, да все равно.</p>
+            <stage>Слышно, как настраивается оркестр.</stage>
+            <p>Эй, музыканты, играйте, я желаю вас слушать! Приходите все смотреть, как Ермолай
+              Лопахин хватит топором по вишневому саду, как упадут на землю деревья! Настроим мы
+              дач, и наши внуки и правнуки увидят тут новую жизнь... Музыка, играй!</p>
+            <stage>Играет музыка, Любовь Андреевна опустилась на стул и горько плачет.</stage>
+            <stage type="delivery">(С укором.)</stage>
+            <p>Отчего же, отчего вы меня не послушали? Бедная моя, хорошая, не вернешь теперь.</p>
+            <stage type="delivery">(Со слезами.)</stage>
+            <p>О, скорее бы все это прошло, скорее бы изменилась как-нибудь наша нескладная,
+              несчастливая жизнь.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(берет его под руку, вполголоса).</stage>
+            <p>Она плачет. Пойдем в залу, пусть она одна... Пойдем...</p>
+            <stage type="delivery">(Берет его под руку и уводит в залу.)</stage>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Что ж такое? Музыка, играй отчетливо! Пускай всё, как я желаю!</p>
+            <stage type="delivery">(С иронией.)</stage>
+            <p>Идет новый помещик, владелец вишневого сада!</p>
+            <stage type="delivery">(Толкнул нечаянно столик, едва не опрокинул канделябры.)</stage>
+            <p>За все могу заплатить!</p>
+            <stage type="delivery">(Уходит с Пищиком.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>В зале и гостиной нет никого, кроме Любови Андреевны, которая сидит, сжалась вся и
+            горько плачет. Тихо играет музыка. Быстро входят Аня и Трофимов. Аня подходит к матери и
+            становится перед ней на колени. Трофимов остается у входа в залу.</stage>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Мама!.. Мама, ты плачешь? Милая, добрая, хорошая моя мама, моя прекрасная, я люблю
+              тебя... я благословляю тебя. Вишневый сад продан, его уже нет, это правда, правда, но
+              не плачь, мама, у тебя осталась жизнь впереди, осталась твоя хорошая, чистая душа...
+              Пойдем со мной, пойдем, милая, отсюда, пойдем!.. Мы насадим новый сад, роскошнее
+              этого, ты увидишь его, поймешь, и радость, тихая, глубокая радость опустится на твою
+              душу, как солнце в вечерний час, и ты улыбнешься, мама! Пойдем, милая! Пойдем!..</p>
+          </sp>
+          <stage>Занавес</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Действие четвертое</head>
+        <div type="configuration">
+          <stage>Декорация первого акта. Нет ни занавесей на окнах, ни картин, осталось немного
+            мебели, которая сложена в один угол, точно для продажи. Чувствуется пустота. Около
+            выходной двери и в глубине сцены сложены чемоданы, дорожные узлы и т. п. Налево дверь
+            открыта, оттуда слышны голоса Вари и Ани. Лопахин стоит, ждет. Яша держит поднос со
+            стаканчиками, налитыми шампанским. В передней Епиходов увязывает ящик. За сценой в
+            глубине гул. Это пришли прощаться мужики. Голос Гаева: «Спасибо, братцы, спасибо
+            вам».</stage>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Простой народ прощаться пришел. Я такого мнения, Ермолай Алексеич, народ добрый, но
+              мало понимает.</p>
+          </sp>
+          <stage>Гул стихает. Входят через переднюю Любовь Андреевна и Гаев; она не плачет, но
+            бледна, лицо ее дрожит, она не может говорить.</stage>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Ты отдала им свой кошелек, Люба. Так нельзя! Так нельзя!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Я не смогла! Я не смогла!</p>
+          </sp>
+          <stage>Оба уходят.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(в дверь, им вслед).</stage>
+            <p>Пожалуйте, покорнейше прошу! По стаканчику на прощанье. Из города не догадался
+              привезть, а на станции нашел только одну бутылку. Пожалуйте!</p>
+            <stage>Пауза.</stage>
+            <p>Что ж, господа! Не желаете?</p>
+            <stage type="delivery">(Отходит от двери.)</stage>
+            <p>Знал бы – не покупал. Ну, и я пить не стану.</p>
+            <stage>Яша осторожно ставит поднос на стул.</stage>
+            <p>Выпей, Яша, хоть ты.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>С отъезжающими! Счастливо оставаться!</p>
+            <stage type="delivery">(Пьет.)</stage>
+            <p>Это шампанское не настоящее, могу вас уверить.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Восемь рублей бутылка.</p>
+            <stage>Пауза.</stage>
+            <p>Холодно здесь чертовски.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Не топили сегодня, все равно уезжаем.</p>
+            <stage type="delivery">(Смеется.)</stage>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Что ты?</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>От удовольствия.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>На дворе октябрь, а солнечно и тихо, как летом. Строиться хорошо.</p>
+            <stage type="delivery">(Поглядев на часы, в дверь.)</stage>
+            <p>Господа, имейте в виду, до поезда осталось всего сорок шесть минут! Значит, через
+              двадцать минут на станцию ехать. Поторапливайтесь.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Трофимов в пальто входит со двора.</stage>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Мне кажется, ехать уже пора. Лошади поданы. Черт его знает, где мои калоши.
+              Пропали.</p>
+            <stage type="delivery">(В дверь.)</stage>
+            <p>Аня, нет моих калош! Не нашел!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>А мне в Харьков надо. Поеду с вами в одном поезде. В Харькове проживу всю зиму. Я все
+              болтался с вами, замучился без дела. Не могу без работы, не знаю, что вот делать с
+              руками; болтаются как-то странно, точно чужие.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Сейчас уедем, и вы опять приметесь за свой полезный труд.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Выпей-ка стаканчик.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Не стану.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Значит, в Москву теперь?</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Да, провожу их в город, а завтра в Москву.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Да... Что ж, профессора не читают лекций, небось всё ждут, когда приедешь!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Не твое дело.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Сколько лет, как ты в университете учишься?</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Придумай что-нибудь поновее. Это старо и плоско.</p>
+            <stage type="delivery">(Ищет калоши.)</stage>
+            <p>Знаешь, мы, пожалуй, не увидимся больше, так вот позволь мне дать тебе на прощанье
+              один совет: не размахивай руками! Отвыкни от этой привычки – размахивать. И тоже вот
+              строить дачи, рассчитывать, что из дачников со временем выйдут отдельные хозяева,
+              рассчитывать так – это тоже значит размахивать... Как-никак, все-таки я тебя люблю. У
+              тебя тонкие, нежные пальцы, как у артиста, у тебя тонкая, нежная душа...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(обнимает его).</stage>
+            <p>Прощай, голубчик. Спасибо за все. Ежели нужно, возьми у меня денег на дорогу.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Для чего мне? Не нужно.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ведь у вас нет!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Есть. Благодарю вас. Я за перевод получил. Вот они тут, в кармане.</p>
+            <stage type="delivery">(Тревожно.)</stage>
+            <p>А калош моих нет!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(из другой комнаты).</stage>
+            <p>Возьмите вашу гадость!</p>
+            <stage type="delivery">(Выбрасывает на сцену пару резиновых калош.)</stage>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Что же вы сердитесь, Варя? Гм... Да это не мои калоши!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Я весной посеял маку тысячу десятин и теперь заработал сорок тысяч чистого. А когда
+              мой мак цвел, что это была за картина! Так вот я, говорю, заработал сорок тысяч и,
+              значит, предлагаю тебе взаймы, потому что могу. Зачем же нос драть? Я мужик...
+              попросту.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Твой отец был мужик, мой – аптекарь, и из этого не следует решительно ничего.</p>
+            <stage>Лопахин вынимает бумажник.</stage>
+            <p>Оставь, оставь... Дай мне хоть двести тысяч, не возьму. Я свободный человек. И всё,
+              что так высоко и дорого цените вы все, богатые и нищие, не имеет надо мной ни малейшей
+              власти, вот как пух, который носится по воздуху. Я могу обходиться без вас, я могу
+              проходить мимо вас, я силен и горд. Человечество идет к высшей правде, к высшему
+              счастью, какое только возможно на земле, и я в первых рядах!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Дойдешь?</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Дойду.</p>
+            <stage>Пауза.</stage>
+            <p>Дойду, или укажу другим путь, как дойти.</p>
+          </sp>
+          <stage>Слышно, как вдали стучат топором по дереву.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Ну, прощай, голубчик. Пора ехать. Мы друг перед другом нос дерем, а жизнь знай себе
+              проходит. Когда я работаю подолгу, без устали, тогда мысли полегче, и кажется, будто
+              мне тоже известно, для чего я существую. А сколько, брат, в России людей, которые
+              существуют неизвестно для чего. Ну, все равно, циркуляция дела не в этом. Леонид
+              Андреич, говорят, принял место, будет в банке, шесть тысяч в год... Только ведь не
+              усидит, ленив очень...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(в дверях).</stage>
+            <p>Мама вас просит: пока она не уехала, чтоб не рубили сада.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>В самом деле, неужели не хватает такта...</p>
+            <stage type="delivery">(Уходит через переднюю.)</stage>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Сейчас, сейчас... Экие, право.</p>
+            <stage type="delivery">(Уходит за ним.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Фирса отправили в больницу?</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Я утром говорил. Отправили, надо думать.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(Епиходову, который проходит через залу).</stage>
+            <p>Семен Пантелеич, справьтесь, пожалуйста, отвезли ли Фирса в больницу.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(обиженно).</stage>
+            <p>Утром я говорил Егору. Что ж спрашивать по десяти раз!</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Долголетний Фирс, по моему окончательному мнению, в починку не годится, ему надо к
+              праотцам. А я могу ему только завидовать.</p>
+            <stage type="delivery">(Положил чемодан на картонку со шляпой и раздавил.)</stage>
+            <p>Ну, вот, конечно. Так и знал.</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(насмешливо).</stage>
+            <p>Двадцать два несчастья...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(за дверью).</stage>
+            <p>Фирса отвезли в больницу?</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Отвезли.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Отчего же письмо не взяли к доктору?</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Так надо послать вдогонку...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(из соседней комнаты).</stage>
+            <p>Где Яша? Скажите, мать его пришла, хочет проститься с ним.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(машет рукой).</stage>
+            <p>Выводят только из терпения.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Дуняша все время хлопочет около вещей; теперь, когда Яша остался один, она подошла
+            к нему.</stage>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша.</speaker>
+            <p>Хоть бы взглянули разочек, Яша. Вы уезжаете... меня покидаете...</p>
+            <stage type="delivery">(Плачет и бросается ему на шею.)</stage>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Что ж плакать?</p>
+            <stage type="delivery">(Пьет шампанское.)</stage>
+            <p>Через шесть дней я опять в Париже. Завтра сядем в курьерский поезд и закатим, только
+              нас и видели. Даже как-то не верится. Вив ла Франс!.. Здесь не по мне, не могу жить...
+              ничего не поделаешь. Насмотрелся на невежество – будет с меня.</p>
+            <stage type="delivery">(Пьет шампанское.)</stage>
+            <p>Что ж плакать? Ведите себя прилично, тогда не будете плакать.</p>
+          </sp>
+          <sp who="#Dunjasha">
+            <speaker>Дуняша</speaker>
+            <stage type="delivery">(пудрится, глядясь в зеркальце).</stage>
+            <p>Пришлите из Парижа письмо. Ведь я вас любила, Яша, так любила! Я нежное существо,
+              Яша!</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша.</speaker>
+            <p>Идут сюда.</p>
+            <stage type="delivery">(Хлопочет около чемоданов, тихо напевает.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят Любовь Андреевна, Гаев, Аня и Шарлотта Ивановна.</stage>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Ехать бы нам. Уже немного осталось.</p>
+            <stage type="delivery">(Глядя на Яшу.)</stage>
+            <p>От кого это селедкой пахнет!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Минут через десять давайте уже в экипажи садиться...</p>
+            <stage type="delivery">(Окидывает взглядом комнату.)</stage>
+            <p>Прощай, милый дом, старый дедушка. Пройдет зима, настанет весна, а там тебя уже не
+              будет, тебя сломают. Сколько видели эти стены!</p>
+            <stage type="delivery">(Целует горячо дочь.)</stage>
+            <p>Сокровище мое, ты сияешь, твои глазки играют, как два алмаза. Ты довольна? Очень?</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Очень! Начинается новая жизнь, мама!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(весело).</stage>
+            <p>В самом деле, теперь все хорошо. До продажи вишневого сада мы все волновались,
+              страдали, а потом, когда вопрос был решен окончательно, бесповоротно, все успокоились,
+              повеселели даже... Я банковский служака, теперь я финансист... желтого в середину, и
+              ты, Люба, как-никак, выглядишь лучше, это несомненно.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Да. Нервы мои лучше, это правда.</p>
+            <stage>Ей подают шляпу и пальто.</stage>
+            <p>Я сплю хорошо. Выносите мои вещи, Яша. Пора.</p>
+            <stage type="delivery">(Ане).</stage>
+            <p>Девочка моя, скоро мы увидимся... Я уезжаю в Париж, буду жить там на те деньги,
+              которые прислала твоя ярославская бабушка на покупку имения – да здравствует бабушка!
+              – а денег этих хватит ненадолго.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Ты, мама, вернешься скоро, скоро... не правда ли? Я подготовлюсь, выдержу экзамен в
+              гимназии и потом буду работать, тебе помогать. Мы, мама, будем вместе читать разные
+              книги... Не правда ли?</p>
+            <stage type="delivery">(Целует матери руки.)</stage>
+            <p>Мы будем читать в осенние вечера, прочтем много книг, и перед нами откроется новый,
+              чудесный мир...</p>
+            <stage type="delivery">(Мечтает.)</stage>
+            <p>Мама, приезжай...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Приеду, мое золото.</p>
+            <stage type="delivery">(Обнимает дочь.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Лопахин. Шарлотта тихо напевает песенку.</stage>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Счастливая Шарлотта: поет! Шарлотта</p>
+            <stage type="delivery">(берет узел, похожий на свернутого ребенка).</stage>
+            <p>Мой ребеночек, бай, бай...</p>
+            <stage>Слышится плач ребенка: «Уа, уа!..»</stage>
+            <p>Замолчи, мой хороший, мой милый мальчик.</p>
+            <stage>«Уа!.. уа!..»</stage>
+            <p>Мне тебя так жалко!</p>
+            <stage type="delivery">(Бросает узел на место.)</stage>
+            <p>Так вы, пожалуйста, найдите мне место. Я не могу так.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Найдем, Шарлотта Ивановна, не беспокойтесь.</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Все нас бросают, Варя уходит... мы стали вдруг не нужны.</p>
+          </sp>
+          <sp who="#Sharlotta">
+            <speaker>Шарлотта.</speaker>
+            <p>В городе мне жить негде. Надо уходить...</p>
+            <stage type="delivery">(Напевает.)</stage>
+            <p>Все равно...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Пищик.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Чудо природы!..</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик</speaker>
+            <stage type="delivery">(запыхавшись).</stage>
+            <p>Ой, дайте отдышаться... замучился... Мои почтеннейшие... Воды дайте...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>За деньгами небось? Слуга покорный, ухожу от греха...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Давненько не был у вас... прекраснейшая...</p>
+            <stage type="delivery">(Лопахину.)</stage>
+            <p>Ты здесь... рад тебя видеть... громаднейшего ума человек... возьми... получи...</p>
+            <stage type="delivery">(Подает Лопахину деньги.)</stage>
+            <p>Четыреста рублей... За мной остается восемьсот сорок...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(в недоумении пожимает плечами).</stage>
+            <p>Точно во сне... Ты где же взял?</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Постой... Жарко... Событие необычайнейшее. Приехали ко мне англичане и нашли в земле
+              какую-то белую глину...</p>
+            <stage type="delivery">(Любови Андреевне.)</stage>
+            <p>И вам четыреста... прекрасная... удивительная...</p>
+            <stage type="delivery">(Подает деньги.)</stage>
+            <p>Остальные потом.</p>
+            <stage type="delivery">(Пьет воду.)</stage>
+            <p>Сейчас один молодой человек рассказывал в вагоне, будто какой-то... великий философ
+              советует прыгать с крыш... «Прыгай!», говорит, и в этом вся задача.</p>
+            <stage type="delivery">(Удивленно.)</stage>
+            <p>Вы подумайте! Воды!..</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Какие же это англичане?</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Сдал им участок с глиной на двадцать четыре года... А теперь, извините, некогда...
+              надо скакать дальше... Поеду к Знойкову... к Кардамонову... Всем должен...</p>
+            <stage type="delivery">(Пьет.)</stage>
+            <p>Желаю здравствовать... В четверг заеду...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Мы сейчас переезжаем в город, а завтра я за границу.</p>
+          </sp>
+          <sp who="#Pischik">
+            <speaker>Пищик.</speaker>
+            <p>Как?</p>
+            <stage type="delivery">(Встревоженно.)</stage>
+            <p>Почему в город? То-то я гляжу на мебель... чемоданы... Ну, ничего...</p>
+            <stage type="delivery">(Сквозь слезы.)</stage>
+            <p>Ничего... Величайшего ума люди... эти англичане... Ничего... Будьте счастливы... Бог
+              поможет вам– Ничего... Всему на этом свете бывает конец...</p>
+            <stage type="delivery">(Целует руку Любови Андреевне.)</stage>
+            <p>А дойдет до вас слух, что мне конец пришел, вспомните вот эту самую... лошадь и
+              скажите: «Был на свете такой, сякой... Симеонов-Пищик... царство ему небесное»...
+              Замечательнейшая погода... Да...</p>
+            <stage type="delivery">(Уходит в сильном смущении, но тотчас же возвращается и говорит в
+              дверях.)</stage>
+            <p>Кланялась вам Дашенька!</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Теперь можно и ехать. Уезжаю я с двумя заботами. Первая – это больной Фирс.</p>
+            <stage type="delivery">(Взглянув на часы.)</stage>
+            <p>Еще минут пять можно...</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Мама, Фирса уже отправили в больницу. Яша отправил утром.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Вторая моя печаль – Варя. Она привыкла рано вставать и работать, и теперь без труда
+              она как рыба без воды. Похудела, побледнела и плачет, бедняжка...</p>
+            <stage>Пауза.</stage>
+            <p>Вы это очень хорошо знаете, Ермолай Алексеич; я мечтала... выдать ее за вас, да и по
+              всему видно было, что вы женитесь.</p>
+            <stage type="delivery">(Шепчет Ане, та кивает Шарлотте, и обе уходят.)</stage>
+            <p>Она вас любит, вам она по душе, и не знаю, не знаю, почему это вы точно сторонитесь
+              друг друга. Не понимаю!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Я сам тоже не понимаю, признаться. Как-то странно все... Если есть еще время, то я
+              хоть сейчас готов... Покончим сразу – и баста, а без вас я, чувствую, не сделаю
+              предложения.</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>И превосходно. Ведь одна минута нужна, только. Я ее сейчас позову...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Кстати и шампанское есть.</p>
+            <stage type="delivery">(Поглядев на стаканчики.)</stage>
+            <p>Пустые, кто-то уже выпил.</p>
+            <stage>Яша кашляет.</stage>
+            <p>Это называется вылакать...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(оживленно).</stage>
+            <p>Прекрасно. Мы выйдем... Яша, allez! Я ее позову...</p>
+            <stage type="delivery">(В дверь.)</stage>
+            <p>Варя, оставь все, поди сюда. Иди!</p>
+            <stage type="delivery">(Уходит с Яшей.)</stage>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(поглядев на часы).</stage>
+            <p>Да...</p>
+          </sp>
+          <stage>Пауза.</stage>
+        </div>
+        <div type="configuration">
+          <stage>За дверью сдержанный смех, шепот, наконец входит Варя.</stage>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(долго осматривает вещи).</stage>
+            <p>Странно, никак не найду...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Что вы ищете? Варя. Сама уложила и не помню.</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Вы куда же теперь, Варвара Михайловна?</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Я? К Рагулиным... Договорилась к ним смотреть за хозяйством... в экономки, что
+              ли.</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Это в Яшнево? Верст семьдесят будет.</p>
+            <stage>Пауза.</stage>
+            <p>Вот и кончилась жизнь в этом доме...</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(оглядывая вещи).</stage>
+            <p>Где же это... Или, может, я в сундук уложила... Да, жизнь в этом доме кончилась...
+              больше уже не будет...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>А я в Харьков уезжаю сейчас... вот с этим поездом. Дела много. А тут во дворе
+              оставляю Епиходова... Я его нанял.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Что ж!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>В прошлом году об эту пору уже снег шел, если припомните, а теперь тихо, солнечно.
+              Только что вот холодно... Градуса три мороза.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Я не поглядела.</p>
+            <stage>Пауза.</stage>
+            <p>Да и разбит у нас градусник...</p>
+          </sp>
+          <stage>Пауза.</stage>
+          <stage>Голос в дверь со двора: «Ермолай Алексеич!..»</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин</speaker>
+            <stage type="delivery">(точно давно ждал этого зова).</stage>
+            <p>Сию минуту!</p>
+            <stage type="delivery">(Быстро уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Варя, сидя на полу, положив голову на узел с платьем, тихо рыдает. Отворяется
+            дверь, осторожно входит Любовь Андреевна.</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Что?</p>
+            <stage>Пауза.</stage>
+            <p>Надо ехать.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(уже не плачет, вытерла глаза).</stage>
+            <p>Да, пора, мамочка. Я к Рагулиным поспею сегодня, не опоздать бы только к
+              поезду...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна</speaker>
+            <stage type="delivery">(в дверь).</stage>
+            <p>Аня, одевайся!</p>
+            <stage>Входят Аня, потом Гаев, Шарлотта Ивановна. На Гаеве теплое пальто с башлыком.
+              Сходится прислуга, извозчики. Около вещей хлопочет Епиходов.</stage>
+            <p>Теперь можно и в дорогу.</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(радостно).</stage>
+            <p>В дорогу!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Друзья мои, милые, дорогие друзья мои! Покидая этот дом навсегда, могу ли я умолчать,
+              могу ли удержаться, чтобы не высказать на прощанье те чувства, которые наполняют
+              теперь все мое существо....</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня</speaker>
+            <stage type="delivery">(умоляюще).</stage>
+            <p>Дядя!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Дядечка, не нужно!</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(уныло).</stage>
+            <p>Дуплетом желтого в середину... Молчу...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Трофимов, потом Лопахин.</stage>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Что же, господа, пора ехать!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Епиходов, мое пальто!</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Я посижу еще одну минутку. Точно раньше я никогда не видела, какие в этом доме стены,
+              какие потолки, и теперь я гляжу на них с жадностью, с такой нежной любовью...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Помню, когда мне было шесть лет, в Троицын день я сидел на этом окне и смотрел, как
+              мой отец шел в церковь...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Все вещи забрали?</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Кажется, все.</p>
+            <stage type="delivery">(Епиходову, надевая пальто.)</stage>
+            <p>Ты же, Епиходов, смотри, чтобы все было в порядке.</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов</speaker>
+            <stage type="delivery">(говорит сиплым голосом).</stage>
+            <p>Будьте покойны, Ермолай Алексеич!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Что это у тебя голос такой?</p>
+          </sp>
+          <sp who="#Epihodov">
+            <speaker>Епиходов.</speaker>
+            <p>Сейчас воду пил, что-то проглотил.</p>
+          </sp>
+          <sp who="#Jasha">
+            <speaker>Яша</speaker>
+            <stage type="delivery">(с презрением).</stage>
+            <p>Невежество...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Уедем – и здесь не останется ни души...</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>До самой весны.</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя</speaker>
+            <stage type="delivery">(выдергивает из узла зонтик, похоже, как будто она
+              замахнулась).</stage>
+            <stage>Лопахин делает вид, что испугался.</stage>
+            <p>Что вы, что вы... Я и не думала.</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Господа, идемте садиться в экипажи... Уже пора! Сейчас поезд придет!</p>
+          </sp>
+          <sp who="#Varja">
+            <speaker>Варя.</speaker>
+            <p>Петя, вот они, ваши калоши, возле чемодана.</p>
+            <stage type="delivery">(Со слезами.)</stage>
+            <p>И какие они у вас грязные, старые...</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов</speaker>
+            <stage type="delivery">(надевая калоши).</stage>
+            <p>Идем, господа!..</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(сильно смущен, боится заплакать).</stage>
+            <p>Поезд... станция... Круазе в середину, белого дуплетом в угол...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Идем!</p>
+          </sp>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Все здесь? Никого там нет?</p>
+            <stage type="delivery">(Запирает боковую дверь налево.)</stage>
+            <p>Здесь вещи сложены, надо запереть. Идем!..</p>
+          </sp>
+          <sp who="#Anja">
+            <speaker>Аня.</speaker>
+            <p>Прощай, дом! Прощай, старая жизнь!</p>
+          </sp>
+          <sp who="#Trofimov">
+            <speaker>Трофимов.</speaker>
+            <p>Здравствуй, новая жизнь!..</p>
+            <stage type="delivery">(Уходит с Аней.)</stage>
+          </sp>
+          <stage>Варя окидывает взглядом комнату и не спеша уходит. Уходят Яша и Шарлотта с
+            собачкой.</stage>
+          <sp who="#Lopahin">
+            <speaker>Лопахин.</speaker>
+            <p>Значит, до весны. Выходите, господа... До свиданция!..</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Любовь Андреевна и Гаев остались вдвоем. Они точно ждали этого, бросаются на шею
+            друг другу и рыдают сдержанно, тихо, боясь, чтобы их не услышали.</stage>
+          <sp who="#Gaev">
+            <speaker>Гаев</speaker>
+            <stage type="delivery">(в отчаянии).</stage>
+            <p>Сестра моя, сестра моя...</p>
+          </sp>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>О мой милый, мой нежный, прекрасный сад!.. Моя жизнь, моя молодость, счастье мое,
+              прощай!.. Прощай!..</p>
+            <stage>Голос Ани (весело, призывающе): «Мама!..» Голос Трофимова (весело, возбужденно):
+              «Ау!..»</stage>
+            <p>В последний раз взглянуть на стены, на окна... По этой комнате любила ходить покойная
+              мать...</p>
+          </sp>
+          <sp who="#Gaev">
+            <speaker>Гаев.</speaker>
+            <p>Сестра моя, сестра моя!..</p>
+          </sp>
+          <stage>Голос Ани: «Мама!..» Голос Трофимова: «Ау!..»</stage>
+          <sp who="#LjubovAndreevna">
+            <speaker>Любовь Андреевна.</speaker>
+            <p>Мы идем!..</p>
+          </sp>
+          <stage>Уходят.</stage>
+        </div>
+        <div type="configuration">
+          <stage>Сцена пуста. Слышно, как на ключ запирают все двери, как потом отъезжают экипажи.
+            Становится тихо. Среди тишины раздается глухой стук топора по дереву, звучащий одиноко и
+            грустно.</stage>
+          <stage>Слышатся шаги. Из двери, что направо, показывается Фирс. Он одет, как всегда, в
+            пиджаке и белой жилетке, на ногах туфли. Он болен.</stage>
+          <sp who="#Firs">
+            <speaker>Фирс</speaker>
+            <stage type="delivery">(подходит к двери, трогает за ручку).</stage>
+            <p>Заперто. Уехали...</p>
+            <stage type="delivery">(Садится на диван.)</stage>
+            <p>Про меня забыли... Ничего... я тут посижу... А Леонид Андреич, небось, шубы не надел,
+              в пальто поехал...</p>
+            <stage type="delivery">(Озабоченно вздыхает.)</stage>
+            <p>Я-то не поглядел... Молодо-зелено!</p>
+            <stage type="delivery">(Бормочет что-то, чего понять нельзя.)</stage>
+            <p>Жизнь-то прошла, словно и не жил...</p>
+            <stage type="delivery">(Ложится.)</stage>
+            <p>Я полежу... Силушки-то у тебя нету, ничего не осталось, ничего... Эх ты...
+              недотёпа!..</p>
+            <stage type="delivery">(Лежит неподвижно.)</stage>
+          </sp>
+          <stage>Слышится отдаленный звук, точно с неба, звук лопнувшей струны, замирающий,
+            печальный. Наступает тишина, и только слышно, как далеко в саду топором стучат по
+            дереву.</stage>
+          <stage>Занавес</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Король на площади</title>
+        <title type="main" xml:lang="en">The King in the Square</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q164765">Блок, Александр Александрович</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/blok-korol-na-ploschadi</idno>
+        <idno type="RusDraCor">75</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ru.wikisource.org/wiki/Король_на_площади_(Блок)</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title/>
+            <date type="print" when="1907">в апреле 1907 напечатана в №4 московского журнала
+              "Золотое Руно" (teatr-lib.ru/Library/Volkov/Blok/)</date>
+            <date type="premiere"/>
+            <date type="written" when="1906">летом 1906 (teatr-lib.ru/Library/Volkov/Blok/)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Zodchij" sex="MALE">
+            <persName>Зодчий</persName>
+          </person>
+          <person xml:id="DochZodchego" sex="FEMALE">
+            <persName>Дочь Зодчего</persName>
+          </person>
+          <person xml:id="Poet" sex="MALE">
+            <persName>Поэт</persName>
+          </person>
+          <person xml:id="Shut" sex="MALE">
+            <persName>Шут</persName>
+          </person>
+          <person xml:id="GolosaVTolpe" sex="UNKNOWN">
+            <persName>Голоса в толпе</persName>
+          </person>
+          <person xml:id="ObydennyjGolos" sex="UNKNOWN">
+            <persName>Тот же обыденный голос</persName>
+          </person>
+          <person xml:id="PervyjRabochij_1" sex="MALE">
+            <persName>Первый рабочий</persName>
+          </person>
+          <person xml:id="VtorojRabochij_1" sex="MALE">
+            <persName>Второй рабочий</persName>
+          </person>
+          <person xml:id="PervyjRabochij_2" sex="MALE">
+            <persName>Первый рабочий</persName>
+          </person>
+          <person xml:id="VtorojRabochij_2" sex="MALE">
+            <persName>Второй рабочий</persName>
+          </person>
+          <person xml:id="Rabochij_3" sex="MALE">
+            <persName>Рабочий</persName>
+          </person>
+          <person xml:id="DrugojRabochij_3" sex="MALE">
+            <persName>Другой рабочий</persName>
+          </person>
+          <person xml:id="TretijRabochij_3" sex="MALE">
+            <persName>Третий рабочий</persName>
+          </person>
+          <person xml:id="Nischaja" sex="FEMALE">
+            <persName>Нищая</persName>
+          </person>
+          <person xml:id="GolosNischego" sex="MALE">
+            <persName>Голос нищего</persName>
+          </person>
+          <person xml:id="ChelovekVChernom" sex="MALE">
+            <persName>Человек в черном</persName>
+          </person>
+          <person xml:id="ChelovekSFakelom" sex="MALE">
+            <persName>Человек с факелом</persName>
+          </person>
+          <person xml:id="PervyjNeizvestnyj" sex="MALE">
+            <persName>Первый</persName>
+          </person>
+          <person xml:id="VtorojNeizvestnyj" sex="MALE">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="GolosTretego" sex="MALE">
+            <persName>Голос Третьего</persName>
+          </person>
+          <person xml:id="PervyjFrant" sex="MALE">
+            <persName>Первый</persName>
+          </person>
+          <person xml:id="VtorojFrant" sex="MALE">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="PervyjIzTolpy" sex="MALE">
+            <persName>Первый</persName>
+          </person>
+          <person xml:id="VtorojIzTolpy" sex="MALE">
+            <persName>Второй</persName>
+          </person>
+          <person xml:id="ProdavschitsaRoz" sex="FEMALE">
+            <persName>Продавщица роз</persName>
+          </person>
+          <person xml:id="Devushka" sex="FEMALE">
+            <persName>Девушка</persName>
+          </person>
+          <person xml:id="Junosha" sex="MALE">
+            <persName>Юноша</persName>
+          </person>
+          <person xml:id="Chernyj" sex="MALE">
+            <persName>Черный</persName>
+          </person>
+          <person xml:id="Zolotoj" sex="MALE">
+            <persName>Золотой</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#IrinaPavlova" when="2017-04-13">Converted from Source</change>
+        <change who="#ff" when="2017-04-14">establish well-formedness</change>
+        <change who="#sveta" when="2017-04-22">corrected IDs, added the "written" date, established
+          more comprehensible order of IDs</change>
+        <change who="#sveta" when="2017-05-26">added segmentation, dates</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="front">
+        <head>Король на площади</head>
+      </div>
+    </front>
+    <body>
+      <head>ДЕЙСТВУЮЩИЕ ЛИЦА</head>
+      <castList>
+        <castItem>Король — на террасе дворца.</castItem>
+        <castItem>Зодчий — старик в широких и темных одеждах. Чертами лица и сединами напоминает
+          Короля.</castItem>
+        <castItem>Дочь Зодчего — высокая красавица в черных шелках.</castItem>
+        <castItem>Поэт — юноша, руководимый на путях своих Зодчим, влюбленный в его Дочь.</castItem>
+        <castItem>Шут — прихлебатель сцены и представитель здравого смысла. Иногда он прикрывает
+          свое расшитое золотом брюхо священнической рясой.</castItem>
+        <castItem>Влюбленные, Заговорщики, Придворный, Продавщица роз, Рабочие, Франты, Нищие, Лица
+          и Голоса в толпе.</castItem>
+        <castItem>Слухи — маленькие, красные, шныряют в городской пыли.</castItem>
+      </castList>
+      <div type="scene">
+        <head>ПРОЛОГ</head>
+        <stage>Городская площадь. Задний план занят белым фасадом дворца с высокой и широкой
+          террасой; на массивном троне — гигантский Король. Корона покрывает зеленые, древние кудри,
+          струящиеся над спокойным лицом, изборожденным глубокими морщинами. Тонкие руки лежат на
+          ручках трона. Вся поза — величавая. В самом низу — у рампы — под высоким парапетом
+          набережной — скамья; к ней с двух сторон спускаются лестницы. Скамья на берегу моря,
+          которое узкой полосой подходит издали, слева огибая мыс с площадью и дворцом, и сливается
+          с оркестром и театром, так что сцена представляет из себя только остров — случайный приют
+          для действующих лиц.</stage>
+        <stage>Солнце не взошло еще. Почти в полном мраке Шут, в качестве Пролога, подплывает с
+          моря, привязывает свою лодку у берега, вынимает из нее удочку и узелок и садится на
+          скамью.</stage>
+        <sp who="#Shut">
+          <speaker>Шут</speaker>
+          <l>Еще и солнцу лень светиться,</l>
+          <l part="F"> А я — на берегу.</l>
+          <l>Светила могут не трудиться,</l>
+          <l part="F"> А я вот — не могу.</l>
+          <l>Но я без них нашел дорогу</l>
+          <l part="F"> И вот, приплыл сюда,</l>
+          <l>Чтоб здравостью своей немного</l>
+          <l part="F"> Смягчить вас, господа.</l>
+          <l>Вот здесь — дворец на темном фоне,</l>
+          <l part="F"> И на террасе — трон.</l>
+          <l>Король, как видите, в короне,</l>
+          <l part="F"> И стар и удручен.</l>
+          <l>Перед дворцом гуляет всякий,</l>
+          <l part="F"> Кто хочет отдохнуть.</l>
+          <l>Лишь демократу и собаке</l>
+          <l part="F"> Здесь не показан путь.</l>
+          <l>Здесь — чистой публике дорога,</l>
+          <l part="F"> Здесь для нее — скамья.</l>
+          <l>И только на правах Пролога</l>
+          <l part="F"> На ней присел и я.</l>
+          <l>Передо мной — в оркестре — море,</l>
+          <l part="F"> Волна его темна,</l>
+          <l>Но если солнце встанет вскоре,</l>
+          <l part="F"> Увижу все до дна.</l>
+          <l>Мой долг был — только вас понудить</l>
+          <l part="F"> Взглянуть на этот вид.</l>
+          <l>А рыбу в мутных водах у́дить</l>
+          <l part="F"> Мне здравый смысл велит.</l>
+        </sp>
+        <stage>Шут садится верхом на рампу и закидывает удочку в оркестр. Во время действия его
+          большею частью не видно за боковой занавесью — он появляется только в отдельных
+          сценах.</stage>
+      </div>
+      <div type="act">
+        <head>ПЕРВОЕ ДЕЙСТВИЕ</head>
+        <stage>УТРО</stage>
+        <stage>Ночь борется с утром. Над берегом чуть видны в сумерках двое неизвестных. Первый — в
+          черном — прислонился к белому камню дворца. Другой сидит на берегу. Третьего не видно: он
+          где-то близко, и слышен только его голос — прерывистый и зловещий.</stage>
+        <div type="configuration">
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Вот и день забелел.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Тяжко, когда просыпается день.</p>
+          </sp>
+          <sp who="#GolosTretego">
+            <speaker>Голос Третьего</speaker>
+            <p>Отчаянья не предавайте. Смерти не предавайте.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Мне нечего предавать, товарищ, я больше ни во что не верю. Но я боюсь за других.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj #GolosTretego">
+            <speaker>Второй и голос Третьего</speaker>
+            <stage>(вместе)</stage>
+            <p>За нас не бойся.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>За вас я не боюсь. Город страшит меня. Все жители сошли с ума. Они строят свое
+              счастье на какой-то сумасшедшей мечте. Они ждут чего-то от кораблей, которые придут
+              сегодня.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <stage>(хватаясь за голову)</stage>
+            <p>Боже мой, боже мой! Корабли с моря! Да ведь это безумие! Если они верят в это, значит
+              уж больше не во что верить! — Страшное время!</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Смешно говорить: страшное время. Если дать себе волю — всякий сойдет с ума. Найдем в
+              себе силу дожить этот день до конца, чтобы потом — умереть.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Какое счастье — умереть.</p>
+          </sp>
+          <sp who="#GolosTretego">
+            <speaker>Голос Третьего</speaker>
+            <p>Он говорит о счастьи. Пойдем одни — жечь и разрушать.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Пусть говорит. Это ничего. Его отчаянье также безмерно.</p>
+            <stage>Молчат.</stage>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Ни крова, ни семьи. Негде приклонить голову. Страшно.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Чего бояться тому, кому ничего не жаль?</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Утренних сумерек. Смертной тоски.</p>
+          </sp>
+          <sp who="#GolosTretego">
+            <speaker>Голос Третьего</speaker>
+            <p>Жечь. Жечь.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Страшно. Жалко.</p>
+          </sp>
+          <sp who="#GolosTretego">
+            <speaker>Голос Третьего</speaker>
+            <p>Умирай, если жалко.</p>
+            <stage>Молчат. Медленно светает.</stage>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Скажи мне, товарищ, ведь и ты когда-то верил в добродетель?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Вот тебе моя рука. И я искал благополучия. И я любил уюты, где пахнет духами, где
+              женщина ставит на стол хлеб и цветы.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Ты любил детей?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Оставим это. Я любил детей. Но больше не жаль и детей.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Скажи мне последнее: веришь ли ты, что разрушение освободительно?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Не верю.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Спасибо. И я не верю.</p>
+            <stage>Молчат.</stage>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <stage>(смотрит на короля)</stage>
+            <p>Вот он дремлет над нами. Красота его древних кудрей правит миром. Ибо могут ли
+              править миром такие дряхлые руки?</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>И ты боишься чего-то. Мы сильны только твоей силой. Но если и ты только призрак, — то
+              мы растаем в этом бродячем утреннем свете. Люди не пойдут за нами. Люди боятся
+              обмана.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Все пойдут за нами. Настанет час — и все пойдут за нами.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>У них — семьи, дома.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Их семьи растленны. Дома пошатнулись.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>В них нет места огню.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Все равно — все сгорит. Тяжелое и легкое, сухое и сырое. От сырого больше дыму.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>И старик сгорит?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>В нем нечему гореть. Все окаменело.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Так он останется цел!</p>
+          </sp>
+          <sp who="#GolosTretego">
+            <speaker>Голос Третьего</speaker>
+            <p>Развеем по ветру. Бросим в море.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>И никто не вспомнит о нем?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Вспомнит тот, кто любит.</p>
+            <stage>Молчат. День разгорается.</stage>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Во всем городе я знаю двух живых. Все боятся старого Зодчего.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>И ты боишься?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Нет, он не помешает нам. Толпа слишком мелка для того, чтобы слушаться воли
+              титана.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Кто же другой?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Другой? — Его Дочь.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Смешно! Ты боишься женщины! Твой голос дрогнул!</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Не смейтесь. Я не боюсь ни здравости, ни воли, ни труда, ни грубой мужской силы. Я
+              боюсь безумной фантазии, нелепости — того, что звали когда-то высокой мечтой.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Ты боишься религии, поэзии? Мир давно перешагнул через них. Мир забыл о пророках и
+              поэтах.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Так было. Но в смертный час всем вспоминается прекрасное, что было забыто. — Она
+              заразит их своей безумной красотой. Незримо и таинственно — теперь она правит городом.
+              Она хочет вдохнуть новую жизнь в короля.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Разве это возможно? — Разве это остановит разрушение?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Да. Они припадут к стопам ее. Они сделают ее королевой. Они станут поклоняться ей в
+              храмах.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Старые мечты не возрождаются.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Но к безумствам все готовы вернуться. Они способны венчать свое безумие, когда
+              утрачены все надежды и все добродетели.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Ты бредишь. Ты сошел с ума.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Пусть так. Без меня вы бессильны. Верьте мне, в ней творческий хмель ее отца и гнев
+              последних поколений!</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Что же нам делать?</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Переждать этот день. Сегодня вечером она будет говорить с народом и королем.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Еще целый день! Пустой и светлый! Лучше умереть!</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Клянусь вам: мы все умрем к ночи!</p>
+          </sp>
+          <sp who="#GolosTretego">
+            <speaker>Голос Третьего</speaker>
+            <stage>(как эхо)</stage>
+            <p>Умрем.</p>
+            <stage>Совсем рассвело. Город просыпается — все слышнее музыка утренних шумов. Издали,
+              со стороны моря, ветер доносит стук топоров.</stage>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Слышишь? Они еще не потеряли надежды. Топорики стучат.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Стучат и строят. Будут строить до последней минуты.</p>
+          </sp>
+          <sp who="#VtorojNeizvestnyj">
+            <speaker>Второй</speaker>
+            <p>Они украшают мол. Воздвигают какие-то сооружения для встречи кораблей.</p>
+          </sp>
+          <sp who="#PervyjNeizvestnyj">
+            <speaker>Первый</speaker>
+            <p>Пусть надеются. Мы погибнем одни, если придут корабли, или осуществится ее высокая
+              мечта.</p>
+          </sp>
+          <sp who="#GolosTretego">
+            <speaker>Голос Третьего</speaker>
+            <p>Корабли не придут. Их уничтожит буря. Горячий ветер разносит смерть.</p>
+            <stage>Они расходятся. Третий вынырнул из-за камня. Сухими чертами лица и костлявым
+              телом он больше всех похож на птицу.</stage>
+            <stage>На площади перед дворцом начинается гулянье. Проходят взад и вперед несколько
+              франтов. Идут двое запоздалых рабочих.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#PervyjRabochij_1">
+            <speaker>Первый рабочий</speaker>
+            <p>Работа началась. Иди скорей.</p>
+          </sp>
+          <sp who="#VtorojRabochij_1">
+            <speaker>Второй рабочий</speaker>
+            <p>Вчера один из них приходил говорить с нами. Он запрещает строить. Говорит, что буря
+              разнесет все.</p>
+            <stage>Торопливо проходят. Ветер гонит струйки пыли. Бледная женщина продает
+              розы.</stage>
+            <stage>Невдалеке от нее останавливаются Юноша и Девушка.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Взоры свои к небесам подними.</l>
+            <l>Солнечный день утолит твою грусть.</l>
+          </sp>
+          <sp who="#Junosha">
+            <speaker>Юноша</speaker>
+            <l>Вечно плывут и плывут облака,</l>
+            <l>Белые башни роняют в моря.</l>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Грустно тебе — посмотри мне в глаза.</l>
+            <l>Радость свиданья с тобою прочти.</l>
+          </sp>
+          <sp who="#Junosha">
+            <speaker>Юноша</speaker>
+            <l>Вижу, твои посинели глаза.</l>
+            <l>К ночи влечет тебя юность твоя.</l>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>К веселью! К веселью! Моря запевают!</l>
+            <l>Я слышу, далеко идут корабли!</l>
+          </sp>
+          <sp who="#Junosha">
+            <speaker>Юноша</speaker>
+            <l>Я слышу, как ропщут далекие волны,</l>
+            <l>Я вижу, как ветер погнал облака.</l>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Лучи маяков проницают туманы,</l>
+            <l>Над молом поставят на стражу огни.</l>
+          </sp>
+          <sp who="#Junosha">
+            <speaker>Юноша</speaker>
+            <l>Смотри — буревестники рыщут над пеной,</l>
+            <l>На гребне волны их качает судьба.</l>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Над бурей взлетит золотая ракета</l>
+            <l>Навстречу веселым моим кораблям!</l>
+          </sp>
+          <sp who="#Junosha">
+            <speaker>Юноша</speaker>
+            <l>Я вещей душой проникаю в напевы,</l>
+            <l>Сулящие нам неизбежную ночь.</l>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Душистые розы у девушки бледной —</l>
+            <l>Невинный залог безмятежного дня.</l>
+            <stage>Подходит к продавщице роз.</stage>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <p>Отчего ты бледна? Отчего ты шатаешься?</p>
+          </sp>
+          <sp who="#ProdavschitsaRoz">
+            <speaker>Продавщица роз</speaker>
+            <p>Я умираю от горячего солнца, от пыли, от усталости, от голода.</p>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <p>Ты умираешь?</p>
+          </sp>
+          <sp who="#ProdavschitsaRoz">
+            <speaker>Продавщица роз</speaker>
+            <p>Я задушу тебя цветами, если ты не дашь мне хлеба.</p>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <stage>(дает деньги)</stage>
+            <p>Дай мне розы. Уходи скорее —</p>
+            <stage>Продавщица роз уходит.</stage>
+            <p>Голодная! — Утро погибло.</p>
+            <stage>Наверху встречаются два франта.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#PervyjFrant">
+            <speaker>Первый</speaker>
+            <p>Скажите, отчего, в самом деле, так ждут этих кораблей?</p>
+          </sp>
+          <sp who="#VtorojFrant">
+            <speaker>Второй</speaker>
+            <p>Право, я сам не знаю. Да не все ли равно?</p>
+          </sp>
+          <sp who="#PervyjFrant">
+            <speaker>Первый</speaker>
+            <p>Я рад встретиться со здравым человеком. Все так возбуждены, только и говорят, что о
+              кораблях. И знаете, сам начинаешь верить.</p>
+          </sp>
+          <sp who="#VtorojFrant">
+            <speaker>Второй</speaker>
+            <p>Да, что ни говорите, влияния толпы отрицать нельзя. Это заразительно.</p>
+          </sp>
+          <sp who="#PervyjFrant">
+            <speaker>Первый</speaker>
+            <p>Чем нелепей, тем заразительней.</p>
+          </sp>
+          <sp who="#VtorojFrant">
+            <speaker>Второй</speaker>
+            <p>Пора бы рассеять все эти толки энергичными мерами. Правительство…</p>
+            <stage>Проходят.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Как жалки отрывки сытых речей!</l>
+            <l>Как страшны цветы у нищих в руках!</l>
+            <l>Я больше не верю моим кораблям!</l>
+          </sp>
+          <sp who="#Junosha">
+            <speaker>Юноша</speaker>
+            <l>Больше не думай о них.</l>
+            <l>Смотри на цветы.</l>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Мне душно от белых цветов!</l>
+          </sp>
+          <sp who="#Junosha">
+            <speaker>Юноша</speaker>
+            <l>Забудем цветы. Смотри мне в глаза,</l>
+            <l>Тяжелые розы сжигают тебя.</l>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Я брошу их в море. Забудем о них.</l>
+            <stage>Они спускаются к морю.</stage>
+          </sp>
+          <sp who="#Devushka">
+            <speaker>Девушка</speaker>
+            <l>Забудем о страшном,</l>
+            <l>Запомним, что любим.</l>
+            <l>Плывите, плывите, плывите, цветы.</l>
+          </sp>
+          <stage>Она бросает розы в воду. Юноша грустным взором следит за легкими движениями
+            возлюбленной.</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>ВТОРОЕ ДЕЙСТВИЕ</head>
+        <stage>СРЕДИНА ДНЯ</stage>
+        <stage>Та же декорация — только краски потускнели и линии сожжены зноем. Море неподвижно.
+          Горизонт в пар_а_х. На площади немного гуляющих. Иногда проходят сторонкой рабочие и
+          оборванцы.</stage>
+        <stage>Топоры слабо, но непрерывно стучат вдали.</stage>
+        <div type="configuration">
+          <sp who="#PervyjRabochij_2">
+            <speaker>Первый рабочий</speaker>
+            <p>С часу на час дожидаются кораблей.</p>
+          </sp>
+          <sp who="#VtorojRabochij_2">
+            <speaker>Второй рабочий</speaker>
+            <p>Спросить бы, чего ждут от них. Торопят строить, заставляют петь песни, чтобы веселее
+              работали.</p>
+          </sp>
+          <sp who="#PervyjRabochij_2">
+            <speaker>Первый рабочий</speaker>
+            <p>Строят, строят, а все еще не достроили.</p>
+            <stage>Проходят. Издали доносится заунывная песня рабочих. Идут два франта.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#PervyjFrant">
+            <speaker>Первый</speaker>
+            <p>Кто-то сказал, что корабли уже видны с мола.</p>
+          </sp>
+          <sp who="#VtorojFrant">
+            <speaker>Второй</speaker>
+            <p>Ложный слух! Это рыбачьи суда огибали мыс.</p>
+          </sp>
+          <sp who="#PervyjFrant">
+            <speaker>Первый</speaker>
+            <p>Ах, да не все ли равно! Дались им эти корабли. Кто придумал всю эту глупость, хотел
+              бы я знать?</p>
+            <stage>Проходят. Шут бредет с удочкой в руках.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Скверная погода. Даже рыба не клюет. Никто не хочет идти на удочку здравого смысла.
+              Все сошли с ума. Вот наконец идут самые сумасшедшие, — авось клюнет.</p>
+            <stage>Уходит за занавес. На скамью садятся Зодчий и Поэт.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Больше никто не спит ночей. На всех лицах тревога, все ждут чего-то. Научи меня
+              бороться с тоской.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Ты сам не знаешь, о чем твоя тревога.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Если бы знать! Голодный добывает хлеб трудом. Оскорбленный мстит. Любовник говорит
+              женщине: будь моею. Но я сыт, и никто не оскорбляет меня. В женщинах я люблю только
+              тонкие волосы, струнные голоса и мечту о невозможном. Мне нечего достигать — я обречен
+              на тоску.</p>
+            <stage>Песня рабочих едва слышна.</stage>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Знай, что тревога напрасна. Не думай о невозможном. Пока этот берег омывает море,
+              пока городом правит король — ничто не изменится, кроме твоих блуждающих мыслей.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Сознание мешает мне жить. Я знаю, что жизнь города так же призрачна, как моя. Море
+              кажется мне стеклянным, люди — куклами.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Ты болен.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Мне часто кажется, что и король…</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <stage>(прерывая)</stage>
+            <p>Ты болен. Живи проще. Ты — поэт — бессмысленное певучее существо, — и, однако, тебе
+              суждено выражать мысли других; они только не умеют высказать всего, что говоришь ты.
+              Горе тебе, если ты подскажешь людям их тайные, сумасшедшие мысли.</p>
+            <stage>Отдаленный грохот и крики, как будто что-то тяжелое упало в воду. Через площадь
+              бегут рабочие.</stage>
+          </sp>
+          <sp who="#Rabochij_3">
+            <speaker>Рабочий</speaker>
+            <p>Леса сорвались! Десять человек упали в море!</p>
+          </sp>
+          <sp who="#DrugojRabochij_3">
+            <speaker>Другой рабочий</speaker>
+            <p>А семья без хлеба!</p>
+          </sp>
+          <sp who="#TretijRabochij_3">
+            <speaker>Третий рабочий</speaker>
+            <p>Скажи его жене, чтобы бежала к морю; может быть, еще можно спасти.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Сегодня, я чувствую, готовится что-то неслыханное. Слишком горяч воздух. Слишком
+              пуста душа.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Ты думаешь, что перевернется мир? Может быть, и ты ждешь кораблей?</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(восторженно)</stage>
+            <p>Корабли придут!</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Безумный! Ты бичуешь их семьи, ты бичуешь их пошлость! Но все они лучше тебя. Ты
+              изломан, ты не можешь дышать ни морем, ни пылью. Они умеют по крайней мере дышать
+              желтой зловонной пылью — преклоняй же перед ними колени!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Ты убиваешь меня.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Несчастный! Может быть, слишком много нищих наползло сегодня из дальних кварталов, и
+              они растревожили гнусавыми голосами нервы белоручек; может быть, много детей умерло, и
+              матери плачут слишком громко; может быть, просто горячий ветер разнес по городу слухи
+              и сплетни. Вот — вся твоя тоска.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Оставь, ты убиваешь во мне последнее.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Вот твой конец мира! Где-то грызутся собаки, или женщины сплетничают и визжат! Ты
+              мечтаешь о последнем дне! Рядом с тобой будут трудиться, голодать, умирать, — а ты
+              только к вечеру очнешься от бреда.</p>
+            <stage>Стук топоров возобновляется.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Слова твои стучат, как топоры, в самое сердце.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Я не отнимаю у тебя надежды. Но подумай о том, что я сказал. Слушай, слушай, как
+              стучат топоры — пусть бьют тебя больнее. Иначе сердце твое заглохнет и опустеет. Я
+              отвернусь от тебя. Я верю только тем, кто различает добро и зло. Прощай.</p>
+            <stage>Уходит. Порыв ветра взметает его широкую одежду. Облако желтой пыли застилает
+              площадь, дворец и Короля. Видно, как из клубов пыли выскакивают маленькие красные
+              Слухи. Они прыгают и рассыпаются во все стороны. Кажется, что ветер свистит, когда они
+              заливаются смехом. Сию же минуту в толпе гуляющих раздаются тревожные голоса.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса в толпе</speaker>
+            <p>Король болен! При смерти!</p>
+            <p>Заговорщики хотят сжечь дворец!</p>
+            <p>Король взят под стражу!</p>
+            <p>Нас обманули! Разве это — Король?</p>
+            <stage>Пыль рассеялась. По-прежнему виден дворец и спокойная фигура старого Короля.
+              Толпа затихает. Гулянье продолжается. Вместе с тем в воздухе проносятся освежительные
+              струи, как будто жар спал. Плавно и медленно выступает из толпы Дочь Зодчего — высокая
+              красавица в черных тугих шелках. Она останавливается на краю, прямо над скамьей, где
+              сидит убитый тоскою Поэт, — и смотрит на него сверху.</stage>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <p>Слышишь ты меня?</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(смотрит вверх)</stage>
+            <p>Слышу музыку. Море повеяло солью.</p>
+            <stage>Ветер остановился, и стук топоров затих. Некоторое время слышна отдаленная музыка
+              моря, которую прерывает ворчание Шута.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Начинается. Только что клюнула большая рыба. Влюбленные глупцы спугнут всю мою
+              рыбу.</p>
+            <stage>Молчание. В то время как Дочь Зодчего медленно сходит вниз, сцена заволакивается
+              туманом, который оставляет видимым только островок скамьи, где находятся Дочь Зодчего
+              и Поэт.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Когда опускается пыль,</l>
+            <l>И прячутся красные Слухи</l>
+            <l>В полдневные норы свои,</l>
+            <l>Рождается музыка в море,</l>
+            <l>Под ветром свежеет душа.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Прозрачный нисходит туман</l>
+            <l>И белой влюбленностью тает,</l>
+            <l>Но древнее море не может</l>
+            <l>Напевом своим заглушить</l>
+            <l>Пронзительный голос Шута.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Ты говоришь как во сне,</l>
+            <l>Певучую душу твою узнаю</l>
+            <l>И темные речи люблю.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Я смутное только могу говорить.</l>
+            <l>Сказанья души — несказанны.</l>
+            <l>Вздыхает море, влача туман.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Парус белый тает вдали.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Моим виденьем полон ты.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Вижу вдали корабли, корабли…</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Кладу заклятье — будь верен ты.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Я вижу берег новой земли…</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Снимаю чары. Свободен ты.</l>
+            <stage>Как будто подул ветер и подвинулся туман — уже нет больше молочной
+              белизны.</stage>
+            <stage>Откуда-то проникло солнце. Но все еще видна только скамья.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Брызги пены морской ослепили меня.</l>
+            <l>Над морем движешься ты,</l>
+            <l>И тень кораблей за тобою встает.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Ты всех верней мне детской душой.</l>
+            <l>Ты будешь петь, когда я с тобой,</l>
+            <l>Когда я погибну — ты будешь петь.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Будь со мной! Мои крылья растут!</l>
+            <l>Я слаб, когда бушует толпа,</l>
+            <l>Я слаб, когда говорит твой отец,</l>
+            <l>Сердце открыто только тебе —</l>
+            <l>Темным напевам душа предана.</l>
+            <stage>Молчанье снова прерывается ворчливым голосом Шута.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Право, все это слишком известно. Что бы она ни сказала, — все ему понравится, потому
+              что он влюбленный дурак. А старую грымзу, отца ее, он, конечно, не станет слушать.</p>
+            <stage>Шут вылезает из-за занавеса. Его мерзкий профиль с удочкой на мгновение закрывает
+              влюбленных от театра. Потом он поднимается по лестнице наверх и пропадает в
+              тумане.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>В серебристые ризы тумана оделась тоска.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Сердце тумана пронзили дневные лучи.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Голос тоски прозвенел.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Это волны хрипели у берега.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Как зво́нок пронзительный голос тоски.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Солнце пронзит ее ризу и сердце —</l>
+            <l part="F"> ты будешь свободен.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Солнце закатится скоро.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>На закате ты будешь свободен.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Сказки твои о свободе пленяют меня.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Сказка — вся жизнь для тебя.</l>
+            <l>Слушай же сонной душой</l>
+            <l>Сказку о жизни вечерней,</l>
+            <l>Ты, очарованный мной.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Да, говори, королевна,</l>
+            <l>Так, чтобы яркие сны предо мною текли,</l>
+            <l>Яркие сны небывалой страны.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Знаю великую книгу о светлой стране,</l>
+            <l>Где прекрасная дева взошла</l>
+            <l>На смертное ложе царя</l>
+            <l>И юность вдохнула в дряхлое сердце!</l>
+            <l>Там — над цветущей страной</l>
+            <l>Правит высокий Король!</l>
+            <l>Юность вернулась к нему!</l>
+            <stage>Во время предыдущей сцены море поет все громче. При последних словах туман совсем
+              рассеивается и начинает носиться пыль, в которой шмыгают красные Слухи. Сквозь
+              возрастающий гул толпы, собирающейся у дворца, снова явственно доносится стук
+              топоров.</stage>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Жизнь уходила на миг,</l>
+            <l>Снова вернулась она!</l>
+            <l>Слышишь, как строят одни?</l>
+            <l>Слышишь, как ропщут другие?</l>
+            <l>Видишь, как Слухи смущают толпу!</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Чужды виденья, и чужды слова.</l>
+            <l>Сказкой твоею дышу —</l>
+            <l>Не уходи от меня.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Нет, не могу оставаться с тобой!</l>
+            <l>Сказку мою я должна воплотить.</l>
+            <l>Жди меня к вечеру здесь,</l>
+            <l>Будь верен душой Королю.</l>
+            <l>К вечеру будешь свободен.</l>
+            <stage>Она поднимается наверх и смешивается с толпой, которая все время глухо ропщет в
+              клубах пыли. Поэт, задумчивый, остается внизу.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса в толпе</speaker>
+            <l>Ты слышал, ночью пришли корабли!</l>
+            <l>Король кивал сегодня головой…</l>
+            <l>Король отдал приказ! Корабли ушли обратно!</l>
+            <l>Смотрите наверх: Короля уже нет!</l>
+            <l>Король здесь! Ничего не видно в пыли!</l>
+            <stage>Голоса прерываются странными звуками — точно кто-то всхлипывает. Сквозь пыль
+              можно разглядеть Шута, который прильнул брюхом к парапету набережной, над самой
+              скамьей, и обоими кулаками зажимает рот, чтобы сдержать хохот.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(кричит сквозь гул)</stage>
+            <p>Ваша милость! Чем могу быть полезным?</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(быстро поднимаясь, смотрит на Шута вверх)</stage>
+            <p>Я уже видел тебя во сне. Где твоя удочка?</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(покатывается со смеху)</stage>
+            <p>Здесь, здесь, вот она, со мной! Я ловец человеков!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Помоги мне! Спаси от тоски!</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Пока вы объяснялись, тут приготовился целый политический переворот!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Корабли близко?</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Какие корабли? Вы рехнулись? Примкните к партии! Нельзя валандаться без дела!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Что делать? Говори.</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Выбирайте скорей. Я привел двух на выбор.</p>
+            <stage>Из-за спины Шута высовываются с обеих сторон двое похожих на птиц: один в черном,
+              другой в золотом. Они сбегают к Поэту.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Chernyj">
+            <speaker>Черный</speaker>
+            <p>Пора! Иди за нами! Пой нам песни! Город стосковался без песен!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Кто ты?</p>
+          </sp>
+          <sp who="#Chernyj">
+            <speaker>Черный</speaker>
+            <p>Не теряй времени! Пой о свободе! Толпа возбуждена — она пойдет за тобой!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Ты против Короля?</p>
+          </sp>
+          <sp who="#Chernyj">
+            <speaker>Черный</speaker>
+            <p>Смерть ему!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Оставь меня. Она не позволит тебе коснуться святыни.</p>
+            <stage>Черный убегает с проклятиями.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(кричит)</stage>
+            <p>Говори с другим!</p>
+            <stage>Толпа гудит. Золотой кланяется Поэту.</stage>
+          </sp>
+          <sp who="#Zolotoj">
+            <speaker>Золотой</speaker>
+            <p>Я счастлив говорить с вами. Нельзя терять ни минуты. Толпа в ваших руках.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Кто ты, золотая птица?</p>
+          </sp>
+          <sp who="#Zolotoj">
+            <speaker>Золотой</speaker>
+            <p>Верный слуга Короля. Придворный. Ваш поклонник.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Что я могу?</p>
+          </sp>
+          <sp who="#Zolotoj">
+            <speaker>Золотой</speaker>
+            <p>Петь о святыне. Сохранить Короля от буйной черни. Каждый миг дорог.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Я буду петь. Веди.</p>
+            <stage>Быстро всходит наверх. Золотой бежит впереди вприпрыжку.</stage>
+            <stage>Толпа гудит.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(покатываясь со смеху)</stage>
+            <p>Поймал! Поймал! Хоть один здравомыслящий! Беспартийный! Сторонник правительства!</p>
+            <stage>Шут вмешивается в толпу. Поэт, восходя над толпой на одну из ступеней террасы,
+              говорит среди затихающей народной бури:</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Всё как во сне.</p>
+          </sp>
+          <stage>Обращается лицом к толпе. Она безмолвна и готова внимать его песням.</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>ТРЕТЬЕ ДЕЙСТВИЕ</head>
+        <stage>НОЧЬ</stage>
+        <stage>Та же декорация. Вечереет. Свинцовые тучи бегут по небу. Издали доносится усиленный
+          стук топоров. Через сцену, не переставая, идут люди к морю, огибая дворец. Жесты
+          оживленные, глаза блестят; волнение достигло крайней степени. На всех лицах тревога и
+          жадная надежда. Один из толпы останавливается и опирается на перила набережной. К нему
+          присоединяется второй.</stage>
+        <div type="configuration">
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Ты совсем ослабел.</p>
+          </sp>
+          <sp who="#PervyjIzTolpy">
+            <speaker>Первый</speaker>
+            <p>Да, сумасшедшая тревога сказалась. Сердце не выдержит, если это продлится еще хоть
+              один день. Неужели корабли не придут и сегодня?</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Сегодня они должны быть здесь. Иначе — мы погибли. Народ уверен, что корабли принесут
+              спасение. Если они не придут и сегодня — терпенье лопнет.</p>
+          </sp>
+          <sp who="#PervyjIzTolpy">
+            <speaker>Первый</speaker>
+            <p>Последние, последние часы! — Смотри, они все идут к молу и будут ждать до ночи. Что,
+              если не дождутся?</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Буря загонит их в дома.</p>
+          </sp>
+          <sp who="#PervyjIzTolpy">
+            <speaker>Первый</speaker>
+            <p>Буря только раззадорит их. Всю ночь будут жечь и грабить. Тогда — всему конец.</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Кто поселил в нас надежду? — Только приготовления торжественной встречи, обещания
+              вечного счастья.</p>
+          </sp>
+          <sp who="#PervyjIzTolpy">
+            <speaker>Первый</speaker>
+            <stage>(низко склоняется к перилам)</stage>
+            <p>У меня бывают минуты просветления. Как перед смертью. Куда нас несет? Что нас
+              заставило поверить?</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Только хватание за жизнь. Верить в это — значит хвататься за соломинку.</p>
+          </sp>
+          <sp who="#PervyjIzTolpy">
+            <speaker>Первый</speaker>
+            <p>Топоры, топоры стучат. Стучат без отдыха. Куда деваться от стука топоров?</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>С утра и до вечера стучат. Строят башню, чтобы пустить ракету, когда появится в море
+              первый корабль.</p>
+          </sp>
+          <sp who="#PervyjIzTolpy">
+            <speaker>Первый</speaker>
+            <stage>(плачет)</stage>
+            <p>Гнутся колени. Я не спал столько ночей! Отдыха! Отдыха!</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Потерпи. Может быть, ждать недолго.</p>
+            <stage>Ответа нет. Первый низко склонился на перила. В эту минуту подходит нищая с
+              ребенком на руках.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Nischaja">
+            <speaker>Нищая</speaker>
+            <p>Помогите ради бога. Мой муж утонул в море. Подайте на хлеб.</p>
+            <stage>Второй, не обращая на нее внимания, пристально вглядывается в лицо Первого. Тот
+              совсем склонился на перила и свесил голову. Люди идут мимо.</stage>
+          </sp>
+          <sp who="#Nischaja">
+            <speaker>Нищая</speaker>
+            <p>Добрые люди, помогите ради ребенка.</p>
+            <stage>Молчание.</stage>
+          </sp>
+          <sp who="#Nischaja">
+            <speaker>Нищая</speaker>
+            <p>Сегодня всем будет весело. Корабли придут. Только я — без хлеба.</p>
+            <stage>Ребенок начинает плакать. Нищая укачивает его, с удивлением отступая. Второй
+              охватывает руками Первого, склонившегося на перила. Тело падает на колени. На чугунной
+              перекладине лежит мертвая голова.</stage>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <stage>(опускаясь над трупом, тихо говорит нищей)</stage>
+            <p>Он умер. Слышите. Мертвые не подают.</p>
+            <stage>Нищая крестится, пятится и уходит. Люди идут мимо. Среди них — Шут в
+              священнической рясе и капюшоне. Он с любопытством приближается к трупу, над которым
+              беспомощно склонился Второй.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(строго)</stage>
+            <p>Пьяный?</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <stage>(серьезно)</stage>
+            <p>Мертвый.</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Причина смерти?</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Разрыв сердца. Тревожные события этих дней.</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(качая головой)</stage>
+            <p>Все обошлось бы благополучно, если б он обратился ко мне.</p>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <p>Кто же вы такой?</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Врач духовный.</p>
+            <stage>Порыв ветра распахивает рясу и срывает капюшон с головы Шута.</stage>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <stage>(сомнительно качает головой)</stage>
+            <p>Врач духовный не носит красного колпака. Врач духовный не нашивает золотых позументов
+              на красное брюхо…</p>
+            <stage>Щеки Шута вздрагивают от смеха. Он быстро запахивает рясу. Тихо вечереет.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(строго)</stage>
+            <p>И вы смеетесь? Смеетесь, когда умер ваш друг?</p>
+            <stage>Вокруг них собирается кучка людей из проходящей толпы. Все с любопытством
+              стараются взглянуть поближе.</stage>
+          </sp>
+          <sp who="#VtorojIzTolpy">
+            <speaker>Второй</speaker>
+            <stage>(с изумлением смотрит на Шута)</stage>
+            <p>Я где-то видел твою ханжескую рожу. Не помню где, — я много видел на своем веку: в
+              суде, где ты внушал присяжным смертные приговоры; или в церкви, где ты проповедовал
+              смирение; или… да! здесь, на берегу, ты доказывал людям, что им не надо свободы.</p>
+            <stage>На лицах окружающих просыпается ненависть.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Братья, скорбные дела творятся здесь. Идите своим путем. Успокойтесь. Именем
+              божиим…</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса в толпе</speaker>
+            <p>Новая ложь! Не поминай напрасно имени божьего! Истины! Истины! Под рясой скрывается
+              лукавое сердце!</p>
+            <stage>Шут мгновенно распахивает рясу. Он как бы вырастает в красной с золотом одежде.
+              Над толпою качается его дурацкий колпак.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Вам надо истины? Вот истина! Стекайтесь, люди! Смотрите на меня с кровель,
+              приветствуйте меня на улицах, кланяйтесь мне до земли!</p>
+            <stage>Страшное волнение среди прибывающей толпы. Шут потряхивает колпаком, бубенцы
+              звенят.</stage>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса в толпе</speaker>
+            <p>В такую ночь маски на улицах! — Где мы? Где мы? — Ночь близка!</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Вам надо истины? Она пред вами, люди! Смотрите на меня! Я — сама Истина — в красной и
+              золотой наготе! Убирайте трупы с ваших улиц!</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса в толпе</speaker>
+            <p>Страшно! — Это призрак над мертвецом! Ветер насылает привидения! — Слухи весь день
+              носились в пыли! — Маленькие вертелись под ногами, красные кричали в уши, пыльные
+              разносили тревогу! — Слухи овладели толпой! — Это один из них! — Смотрите, как
+              разнесло его к ночи! — Ночь близка! — Это голос народа, это молва! Ветер несет ее по
+              всей земле! Внимайте, внимайте!</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Я — голос молвы! Я многолик, но во всей вселенной ношу одно имя! Здравый Смысл — имя
+              мое!</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса</speaker>
+            <p>Слушайте! Здравый Смысл говорит с нами!</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Бедные овцы без пастыря! Пусть успокоится сердце ваше! Я — пастырь добрый! Не медлите
+              над местом, где веет скорбь! Минует эта тревожная ночь! Не медлите — возвращайтесь к
+              вашим оставленным семьям!</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса</speaker>
+            <p>Верим тебе! Сердца открыты! Говори!</p>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <p>Буду пасти вас, стада мои, жезлом железным! Если вы не послушаетесь меня, страшная
+              кара падет на вас! Море захлестнет безумцев! Свинцовые тучи погребут под собою
+              смятенный город! Так говорит Здравый Смысл! Он карает возмущенных душой! Мое красное
+              золото весело поет пред вами! Но веселое красное золото принесет вам смерть и пожары,
+              если вы будете испытывать Здравый Смысл!</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса</speaker>
+            <p>Тише! Успокойтесь! Страшно! Горе безумным! В путь! К морю! К морю! Навстречу
+              кораблям!</p>
+            <stage>Толпа шелестит и расходится. Мертвого уносят. Замирают отдельные восклицания.
+              Шут, завернувшись в рясу, снова держит путь в толпе. Скоро на сцене не остается
+              никого. Отсталые торопливо проходят к молу, где смолкает стук топоров.</stage>
+            <stage>На площади появляется Зодчий.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Они кончают свое строительство.</p>
+            <stage>Он стоит среди площади и смотрит на Короля. Справа медленно выходит Поэт,
+              направляясь за толпою к морю.</stage>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>И ты идешь за толпой?</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Ты отвека преграждаешь мне путь, хотя наш город поглощает и разделяет всех.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Да, город всех сбивает с пути. Но мне легко находить дорогу, ибо я чужд всем вам. Вы
+              жадно смотрите друг другу в глаза. Я смотрю через ваши головы и ясно вижу мой синий
+              путь.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Тебя называют колдуном. Про тебя ходят разные слухи.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Маленькие Слухи погубят вас. Они рождаются в сухой и желтой пыли и проникают вместе с
+              нею в мятежные сердца. Сойдет небесная гроза и прибьет пыль, и вы погибнете вместе с
+              пылью.</p>
+            <stage>Зодчий смотрит на клубящиеся тучи.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Я не хочу больше видеть тебя. Я хотел научиться от тебя мудрости, но ты горд и стар.
+              Ты не любишь меня.</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Ты не встретил бы меня, если бы я не любил тебя.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(ломая руки)</stage>
+            <p>Что же мне делать?</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Останься здесь. Не ходи за толпою. Не пой для нее мятежных песен. С ночью остаться
+              повелеваю тебе. Да будет спасен одинокий, произнесший в такую ночь слова о любви.</p>
+            <stage>Зодчий удаляется. Поэт спускается к морю и садится на скамью. Сумерки быстро
+              сгущаются. Рог ветра трубит, пыль клубится, гроза приближается, толпа глухо ропщет
+              вдали, на моле, откуда видны сигнальные огни. Вверху, над скамьею, вырастает Дочь
+              Зодчего. Ветер играет в ее черных волосах, среди которых светлый лик ее — как
+              день.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Слышу, слышу твое приближение.</l>
+            <l>Ты снова восходишь над пылью,</l>
+            <l>Как виденье, мгновенна.</l>
+            <l>В новой пыли ты исчезнешь,</l>
+            <l>Новый ветер тебя унесет.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>В последний раз схожу я к тебе.</l>
+            <l>Недобрые вести дошли до меня.</l>
+            <l>Как черные птицы, в желтой пыли</l>
+            <l>Замыслов новых носятся клочья.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Близится ночь.</l>
+            <l>Над морем краснеет заря.</l>
+            <l>Свинцовые тучи несутся.</l>
+            <l>Спящая юность проснулась во мне!</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Стекло морей разбито ветром!</l>
+            <l>В твоей душе расплеснулось море!</l>
+            <l>Слышишь крик зловещих птиц?</l>
+            <l>Слышишь плеск свинцовых волн?</l>
+            <stage>Ветер рвет ее черные шелка и мечется в ее волосах. Мрак сгущается.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>В час зловещий, в час последний, быть может,</l>
+            <l>Дай прильнуть устами к руке,</l>
+            <l>Под черной тучей белеет она!</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>В последний раз к руке прикоснись.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>В эту ночь впервые тебя узнаю.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>В последний раз ты видишь меня.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Зачем так ярко вспыхнула юность?</l>
+            <l>Разве скоро жизнь догорит?</l>
+            <l>Разве юность прошла, королевна?</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Я над жизнью твоей властна.</l>
+            <l>Кто со мною — будет свободен.</l>
+            <l>Королевной меня не зови,</l>
+            <l>Я — дочь безумной толпы!</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Так же свистел осенний ветер,</l>
+            <l>Так же летела тучами пыль,</l>
+            <l>Когда я увидел впервые</l>
+            <l>Твой легкий, твой странный образ!</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Я искала в тебе героя.</l>
+            <l>Я грядущему в очи смотрю.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Ты сходила ко мне из высоких покоев.</l>
+            <l>Ты смотрела, как смотришь теперь, на зарю!</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Прошедшего нет.</l>
+            <stage>Бледная молния.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Но ветер играл в очертаниях сонных,</l>
+            <l>И я пред тобою — был светлый поэт,</l>
+            <l>Овеянный ветром твоим.</l>
+            <l>И в глазах твоих склоненных</l>
+            <l>Я прочел, что тобою любим.</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Забудь о прошедшем. Прошедшего нет.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>Но ты рукою коснулась меня!</l>
+            <l>Я к этой руке устами приник!</l>
+            <l>И в темных твоих волосах</l>
+            <l>Королевский вспыхнул венец!</l>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <l>Я никогда не была королевной!</l>
+            <l>И как мне пышность узнать?</l>
+            <l>Я — нищая дочь толпы.</l>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <l>В последний раз — в одичалом мраке —</l>
+            <l>Я вижу — горит королевский венец</l>
+            <l>В темных твоих волосах!</l>
+            <l>Или молнии свет скользнул?</l>
+            <l>Как озарилось твое лицо!</l>
+            <stage>В бледном свете молнии кажется, что ее черные шелка светятся. В темных волосах
+              зажглась корона. Она внезапно обнимает его… Из дальних кварталов, с дальних площадей и
+              улиц несется возрастающий вой прибывающей толпы. Кажется, сама грозовая ночь
+              захлебнулась этим воем, этим свистом бури, всхлипываньем волн, бьющих в берег, в
+              дрожащем, матовом, пресыщенном грозою блеске.</stage>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <stage>(внезапно выпрямляясь, отталкивает его от себя)</stage>
+            <l>Видишь, море швыряется в берег?</l>
+            <l>Видишь, зажглись лампады молний?</l>
+            <l>Братья ждут меня! Прощай!</l>
+            <stage>Он остается один, в непроглядном мраке, между прибоем моря и хлынувшей над ним на
+              площадь толпы.</stage>
+            <stage>Она поднимается по ступеням и вступает на площадь. Дикий вой.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#ChelovekSFakelom">
+            <speaker>Человек с факелом</speaker>
+            <stage>(несется в толпе и кричит на бегу, как бы подхваченный ветром)</stage>
+            <p>С мола дали знак! Кто-то видел корабль с башни!</p>
+            <stage>Появляются новые факелы, распространяя дымный красноватый свет. Высокая фигура в
+              черном на одной из ступеней террасы.</stage>
+          </sp>
+          <sp who="#ChelovekVChernom">
+            <speaker>Человек в черном</speaker>
+            <p>Вы собрались здесь все. Ночь наступает. Истекли последние сроки, которые вам
+              назначены для прихода этих несчастных кораблей.</p>
+            <stage>Рев и визг в толпе.</stage>
+            <p>И вот — кораблей нет! Берегитесь, голодные! Берегитесь, страдальцы! Вас будут
+              обманывать еще! Вам сулят невозможное счастье! В твоих руках, оскорбленный народ,
+              месть тому, кто равнодушно смотрит на твою гибель, вон там, над моей головой!</p>
+            <stage>Поднимает руку, указывая на Короля. Толпа разрывает воздух воплем. В эту минуту
+              рядом с черной фигурой появляется Дочь Зодчего. Она стоит молча и неподвижно смотрит
+              на толпу.</stage>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса в толпе</speaker>
+            <p>Колдунья! Зачем она пришла?</p>
+            <stage>Вдруг прорывается женский вопль:</stage>
+            <p>Святая!</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Другие голоса</speaker>
+            <stage>(подхватывая, раскатываются по площади)</stage>
+            <p>В тебе защита! Исцели наши раны!</p>
+            <p>Освободи! Помоги! Дай нам новую жизнь!</p>
+            <stage>Черная фигура заговорщика исчезает. Дочь Зодчего медленно поднимается по ступеням
+              на террасу. Толпа затихает.</stage>
+          </sp>
+          <sp who="#ObydennyjGolos">
+            <speaker>Чей-то голос</speaker>
+            <stage>(слишком обыденный, чтобы ясно слышать его, говорит)</stage>
+            <p>В истории известны примеры, когда женщины… И я не удивлюсь…</p>
+            <stage>Где-то в толпе мелькает красный колпак Шута, и слышен сдержанный хохот его,
+              покрываемый шипеньем. Дочь Зодчего появляется на террасе и останавливается в
+              нескольких шагах от Короля. Толпа совершенно безмолвна. Над городом, как бы умершим от
+              восторга ожидания, возвышаются только двое: Она и Король.</stage>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Она</speaker>
+            <stage>(прерывает молчание низким и грудным голосом, который медленно несется сверху,
+              как вздох благовеста)</stage>
+            <p>Король! Грядущее в руках моих. Твой народ передал мне твою власть над собою.</p>
+            <stage>Молчание.</stage>
+            <p>Король! Во мне довольно силы, чтобы сейчас сразить тебя. Никто не заплачет над твоим
+              старым прахом, если исполнится моя воля.</p>
+            <stage>Молчание. Голос становится ярче и тревожнее, как в последний раз вспыхнувший
+              костер.</stage>
+            <p>Король! Я не хочу убивать тебя. Если ты угаснешь, угаснет и вон та узкая полоса зари.
+              Я могу больше, чем угашать свет. Я возвращу тебе прежнюю силу и отдам тебе прежнюю
+              власть. Вот — я отдаю тебе мое нетронутое тело, Король! Бери его, чтобы от юности моей
+              вспыхнула юность в твоем древнем разуме.</p>
+            <stage>Молчание не нарушается ни одним звуком. Бледнеет красная полоска зари. Дочь
+              Зодчего двинулась вперед. На расстоянии одного шага от Короля она опускается на колени
+              и прикасается устами к королевской мантии, складками лежащей на полу.</stage>
+            <stage>Она поднимается с бледным лицом и глухо говорит сверху.</stage>
+            <p>Не прикасайтесь. Дайте ему дремать и смотреть на звезды. Я узнала в нем печать
+              Отца.</p>
+            <stage>И покорным движением, спокойная, садится у ног его, обняв гигантские
+              колени.</stage>
+            <stage>Она кажется теперь ребенком у ног царственного Отца.</stage>
+            <stage>Толпа все еще очарована.</stage>
+            <stage>Носятся удивленные шопоты.</stage>
+            <stage>Женщины тихо плачут.</stage>
+            <stage>Шут пробирается сквозь толпу к морю — с удочкой и узелком.</stage>
+            <stage>Красный колпак его дрожит от ветра.</stage>
+          </sp>
+          <sp who="#Shut">
+            <speaker>Шут</speaker>
+            <stage>(бормочет)</stage>
+            <p>Я говорил, что море слишком мутно сегодня. Я уже никому не нужен здесь. Кто
+              послушается здравого смысла, когда все потеряли голову. Подождите, вы еще хватитесь
+              меня, да только поздно. А пока здравому смыслу остается одно средство — эмиграция…</p>
+            <stage>Спускается к морю и уходит во мрак — искать свою лодку. Плачет ребенок. Испуганно
+              баюкает его нищая мать, но плач не смолкает. Тогда нищая пронзительно вопит, поднимая
+              ребенка над толпой.</stage>
+          </sp>
+          <sp who="#Nischaja">
+            <speaker>Нищая</speaker>
+            <p>Ребенок умирает!</p>
+          </sp>
+          <sp who="#GolosNischego">
+            <speaker>Голос нищего</speaker>
+            <stage>(присоединяется)</stage>
+            <p>Помогите! Умираю…</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Многие голоса</speaker>
+            <p>Хлеба! Нас обманули! Долой Короля! Долой Дворец!</p>
+          </sp>
+          <sp who="#ObydennyjGolos">
+            <speaker>Тот же обыденный голос</speaker>
+            <p>Фантазиями людей не накормишь. Пора самим дело делать, когда власти бездействуют.</p>
+            <stage>Смятение. На сцену, со стороны моря, бегут люди, впереди стремительно бежит
+              Золотой.</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Zolotoj">
+            <speaker>Золотой</speaker>
+            <stage>(кричит)</stage>
+            <p>Корабли пришли! Счастье! Счастье!</p>
+            <stage>Вдали взвивается ракета, за ней другая, — ракеты летят все чаще.</stage>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Голоса в толпе</speaker>
+            <p>Поздно! Поздно!</p>
+            <stage>На ступени террасы выскакивает Черный — костлявый, как птица.</stage>
+          </sp>
+          <sp who="#Chernyj">
+            <speaker>Черный</speaker>
+            <p>Здравый смысл покинул вас! Смотрите, вы без пищи и без крова, вы во власти Слухов,
+              среди вас мечутся золотые и красные черти! Жгите, разрушайте все, вы не можете
+              ручаться за завтрашний день!</p>
+            <stage>Из мрака снизу появляется Поэт. Его восторженное лицо горит над площадью. На один
+              миг он останавливается среди толпы.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <p>Счастье с нами! Корабли пришли! Свободен!</p>
+            <stage>Он начинает свое последнее восхождение по ступеням террасы. С каждым шагом его
+              растет ярость толпы. С каждым шагом Дочь Зодчего сверху приветствует его
+              взорами.</stage>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(восходя)</stage>
+            <p>Роза небесная! Иду к тебе!</p>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <stage>(у ног Короля)</stage>
+            <p>Ты идешь к Отцу.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(выше)</stage>
+            <p>Смотри, осыпаются дождем ракеты — лепестки небесных роз!</p>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <p>Ты свободен.</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(еще выше)</stage>
+            <p>Твое лицо озарено!</p>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <p>Ближе! Ближе!</p>
+          </sp>
+          <sp who="#Poet">
+            <speaker>Поэт</speaker>
+            <stage>(на последней ступени)</stage>
+            <p>Здравствуй, небо!</p>
+          </sp>
+          <sp who="#DochZodchego">
+            <speaker>Дочь Зодчего</speaker>
+            <p>Выше! Выше! Минуя меня, ты идешь к Отцу!</p>
+            <stage>В тот же миг разъяренная толпа хлынула на ступени за Поэтом. Снизу расшатываются
+              колонны. Вой и крики. Терраса рушится, увлекая за собою Короля, Поэта, Дочь Зодчего,
+              часть народа. Ясно видно, как в красном свете факелов люди рыщут внизу, разыскивая
+              трупы, поднимают каменный осколок мантии, каменный обломок торса, каменную руку.
+              Слышатся крики ужаса: «Статуя! — Каменный истукан! — Где король?»</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <stage>(появляется над грудой обломков и неподвижно ждет, пока смолкнет толпа)</stage>
+            <p>Я послал вам сына моего возлюбленного, и вы убили его. Я послал вам другого утешителя
+              — дочь мою. И вы не пощадили ее. Я создал вам власть, я обтесал твердый мрамор — и
+              каждый день вы любовались красотою этих древних кудрей, вышедших из-под моего резца.
+              Вы разбили мое создание, и вот остается дом ваш пустым. Но завтра мир будет
+              по-прежнему зелен, и море будет так же спокойно.</p>
+          </sp>
+          <sp who="#GolosaVTolpe">
+            <speaker>Отдельные померкшие голоса</speaker>
+            <p>Кто же накормит нас? Кто вернет нам мужей и детей? Кто утишит нашу боль?</p>
+          </sp>
+          <sp who="#Zodchij">
+            <speaker>Зодчий</speaker>
+            <p>Вас накормит Тот, Кто движет светилами, Тот, Кто поит черную землю дождями, Тот, Кто
+              собирает тучи над морем. Вас накормит Отец.</p>
+          </sp>
+          <stage>Он медленно спускается с обломка дворца и пропадает во мраке. За картиной
+            разрушения нет больше ни одного огня. Над мысом господствует бледный мрак.</stage>
+          <stage>Ропот толпы усиливается и сливается с ропотом моря.</stage>
+          <p>1906</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

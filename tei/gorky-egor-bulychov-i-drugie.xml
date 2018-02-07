@@ -1,0 +1,4986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Егор Булычов и другие</title>
+        <title type="main" xml:lang="en">Yegor Bulichov and Others</title>
+        <title type="sub" xml:lang="ru">Сцены</title>
+        <title type="sub" xml:lang="en">Scenes</title>
+        <author key="Wikidata:Q12706">Горький, Максим</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/gorky-egor-bulychov-i-drugie</idno>
+        <idno type="RusDraCor">49</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Интернет-библиотека Алексея Комарова</name>
+          <idno type="URL">http://ilibrary.ru/text/506/index.html</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>М. Горький. Рассказы. Очерки. Воспоминания. Пьесы. "Библиотека Всемирной
+              литературы", М.: Художественная литература, 1975.</title>
+            <date type="print" when="1932">"Пьеса была впервые напечатана отдельной книгой в
+              издательстве «Книга» в 1932 году." (Wikipedia)</date>
+            <date type="premiere" when="1932">"Премьера пьесы […] состоялась 25 сентября 1932 года."
+              (Wikipedia)</date>
+            <date type="written" when="1931">"1931 г." (ilibrary)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Ksenija" sex="FEMALE">
+            <persName>Ксения</persName>
+          </person>
+          <person xml:id="Shura" sex="MALE">
+            <persName>Шура</persName>
+          </person>
+          <person xml:id="Glafira" sex="FEMALE">
+            <persName>Глафира</persName>
+          </person>
+          <person xml:id="Varvara" sex="FEMALE">
+            <persName>Варвара</persName>
+          </person>
+          <person xml:id="Zvontsov" sex="MALE">
+            <persName>Звонцов</persName>
+          </person>
+          <person xml:id="Elizaveta" sex="FEMALE">
+            <persName>Елизавета</persName>
+          </person>
+          <person xml:id="Tjatin" sex="MALE">
+            <persName>Тятин</persName>
+          </person>
+          <person xml:id="Aleksej" sex="MALE">
+            <persName>Алексей</persName>
+          </person>
+          <person xml:id="Zobunova" sex="FEMALE">
+            <persName>Зобунова</persName>
+          </person>
+          <person xml:id="Pavlin" sex="MALE">
+            <persName>Павлин</persName>
+          </person>
+          <person xml:id="Doktor" sex="MALE">
+            <persName>Доктор</persName>
+          </person>
+          <person xml:id="Melanija" sex="FEMALE">
+            <persName>Мелания</persName>
+          </person>
+          <person xml:id="Mokrousov" sex="MALE">
+            <persName>Мокроусов</persName>
+          </person>
+          <person xml:id="Bashkin" sex="MALE">
+            <persName>Башкин</persName>
+          </person>
+          <person xml:id="Bulychov" sex="MALE">
+            <persName>Булычов</persName>
+          </person>
+          <person xml:id="Donat" sex="MALE">
+            <persName>Донат</persName>
+          </person>
+          <person xml:id="Trubach" sex="MALE">
+            <persName>Трубач</persName>
+          </person>
+          <person xml:id="Taisja" sex="FEMALE">
+            <persName>Таисья</persName>
+          </person>
+          <person xml:id="Propotej" sex="MALE">
+            <persName>Пропотей</persName>
+          </person>
+          <person xml:id="Dostigaev" sex="MALE">
+            <persName>Достигаев</persName>
+          </person>
+          <person xml:id="Laptev" sex="MALE">
+            <persName>Лаптев</persName>
+          </person>
+          <person xml:id="Antonina" sex="FEMALE">
+            <persName>Антонина</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Сцены</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#ds" when="2017-03-31">converted from source</change>
+        <change who="#nf" when="2017-05-29">corrected IDs</change>
+        <change who="#to" when="2017-06-04">gender</change>
+        <change who="#ff" when="2017-07-06">formalities</change>
+        <change who="#ff" when="2017-07-07">segmentation of all 3 acts</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Егор Булычов и другие</titlePart>
+        <titlePart type="sub">Сцены</titlePart>
+      </docTitle>
+      <castList>
+        <head>ДЕЙСТВУЮЩИЕ ЛИЦА:</head>
+        <castItem>Егор Булычов.</castItem>
+        <castItem>Ксения – его жена.</castItem>
+        <castItem>Варвара – дочь от Ксении.</castItem>
+        <castItem>Александра – побочная дочь.</castItem>
+        <castItem>Мелания – игуменья, сестра жены.</castItem>
+        <castItem>Звонцов – муж Варвары.</castItem>
+        <castItem>Тятин – его двоюродный брат.</castItem>
+        <castItem>Мокей Башкин.</castItem>
+        <castItem>Василий Достигаев.</castItem>
+        <castItem>Елизавета – жена его.</castItem>
+        <castGroup>
+          <castItem>Антонина</castItem>
+          <castItem>Алексей</castItem>
+          <roleDesc> Дети от первой жены.</roleDesc>
+        </castGroup>
+        <castItem>Павлин – поп.</castItem>
+        <castItem>Доктор.</castItem>
+        <castItem>Трубач.</castItem>
+        <castItem>Зобунова – знахарка.</castItem>
+        <castItem>Пропотей – блаженный.</castItem>
+        <castItem>Глафира – горничная.</castItem>
+        <castItem>Таисья – служанка Мелании.</castItem>
+        <castItem>Мокроусов – полицейский.</castItem>
+        <castItem>Яков Лаптев – крестник Булычова.</castItem>
+        <castItem>Донат – лесник.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>Первый акт</head>
+        <stage>Столовая в богатом купеческом доме. Тяжелая громоздкая мебель. Широкий кожаный диван,
+          рядом с ним – лестница во второй этаж. В правом углу фонарь, выход в сад. Яркий зимний
+          день. Ксения, сидя у стола, моет чайную посуду. Глафира, в фонаре, возится с цветами.
+          Входит Александра, в халате, в туфлях на босую ногу, непричесанная, волосы рыжие, как и у
+          Егора Булычова.</stage>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ох, Шурка, спишь ты...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не шипите, не поможет. Глаша – кофе! А где газета?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Варваре Егоровне наверх подала.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Принеси. На весь дом одну газету выписывают, черти!</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Это кто – черти?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Папа дома?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>К раненым поехал. Черти-то – Звонцовы?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Да, они.</p>
+            <stage type="delivery">(У телефона.)</stage>
+            <p>Семнадцать – шестьдесят три.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Вот я скажу Звонцовым-то, как ты их честишь!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Позовите Тоню!</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>До чего ты дойдешь?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Это ты, Антонина? На лыжах едем? Нет? Почему? Спектакль? Откажись! Эх ты, –
+              незаконная вдова!.. Ну, хорошо.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Как же это ты девушку-то вдовой зовешь?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Жених у нее помер или нет?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Все-таки она – девушка.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А вы почему знаете?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Фу, бесстыдница!</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <stage type="delivery">(подает кофе).</stage>
+            <p>Газету Варвара Егоровна сама принесет.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Больно много ты знаешь для твоих лет. Гляди: меньше знаешь – крепче спишь. Я в твои
+              годы ничего не знала...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Вы и теперь...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Тьфу тебе!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Вот сестрица шествует важно. Бонжур, мадам! Комман са ва?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Уже одиннадцать, а ты не одета, не причесана...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Начинается.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ты все более нахально пользуешься тем, что отец балует тебя... и что он
+              нездоров...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Это ты – надолго?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>А что ей отцово здоровье?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Я должна буду рассказать ему о твоем поведении...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Заранее благодарна. Кончилось?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ты – дура!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не верю! Это не я – дура.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Рыжая дура!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Варвара Егоровна, вы совершенно бесполезно тратите энергию.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Вот и учи ее!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>И у вас портится характер.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Хорошо... хорошо, милая! Мамаша, пойдемте-ка в кухню, там повар капризничает...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Он – не в себе, у него сына убили.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ну, это не резон для капризов. Теперь столько убивают...</p>
+          </sp>
+          <stage>Ушли.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А если бы у нее красавца Андрюшу ухлопали, вот бы взвилась!</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Зря вы дразните их. Пейте скорее, мне здесь убирать надо.</p>
+            <stage type="delivery">(Ушла, унося самовар.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Шура сидит, откинувшись на спинку стула, закрыв глаза, руки – на затылке рыжей,
+            лохматой головы.</stage>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <stage type="delivery">(с лестницы, в туфлях, подкрался к ней, обнял сзади).</stage>
+            <p>О чем замечталась, рыжая коза?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(не открывая глаз, не шевелясь).</stage>
+            <p>Не трогайте меня.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Почему? Ведь тебе приятно? Скажи – да? Приятно?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Нет.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Почему?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Оставьте. Вы – притворяетесь. Я вам не нравлюсь.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>А хочешь нравиться, да?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>На лестнице – Варвара.</stage>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Если Варвара узнает...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Тише...</p>
+            <stage type="delivery">(Отошел, говорит поучительно.)</stage>
+            <p>Н-да... Следует взять себя в руки. Надобно учиться...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Она предпочитает говорить дерзости и пускать мыльные пузыри с Антониной...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ну и пускаю. Люблю пускать пузыри. Что тебе – мыла жалко?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Мне жалко – тебя. Я не знаю – как ты будешь жить? Из гимназии тебя попросили
+              удалиться...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Неправда.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Твоя подруга – полоумная.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Она хочет музыке учиться.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Кто?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Шура.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Неправда. Я не хочу учиться музыке.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Откуда же ты это взял?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Разве ты, Шура, не говорила, что хочешь?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(уходя).</stage>
+            <p>Никогда не говорила.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Гм... Странно. Не сам же я выдумал это! Ты, Варя, очень сердито с ней...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>А ты слишком ласков.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Что значит – слишком? Ты же знаешь мой план...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>План – это план, но мне кажется, что ты подозрительно ласков.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Глупости у тебя в голове...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Да? Глупости?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Сообрази сама: уместны ли в такое серьезнейшее время сцены ревности?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ты зачем сюда спустился?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Я? Тут... объявление одно в газете. И лесник приехал, говорит: мужики медведя
+              обложили.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Донат – в кухне. Объявление – о чем?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Это, наконец, возмутительно! Как ты говоришь со мной? Что я –мальчишка? Черт
+              знает...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Не кипятись! Кажется – отец приехал. А ты в таком виде.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Звонцов поспешно идет вверх, Варвара – встречать отца. Шура в зеленой теплой кофте
+            и в зеленом колпаке бежит к телефону, ее перехватил и молча прижал к себе Булычов, за
+            ним идет поп Павлин, в лиловой рясе.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(сел к столу, обняв Шуру за талию, она гладит его медные, с
+              проседью, волосы).</stage>
+            <p>Народа перепортили столько, что страшно глядеть...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Цветете, Шурочка? Простите, не поздоровался...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Это я должна была сделать, отец Павлин, но папа схватил меня, как медведь...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Стой! Шурка, смирно! Куда теперь этот народ? А бесполезных людей у нас и до войны
+              многовато было. Зря влезли в эту войну...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <stage type="delivery">(вздохнув).</stage>
+            <p>Соображения высшей власти...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>С японцами тоже плохо сообразили, и получился всемирный стыд...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Однако войны не токмо разоряют, но и обогащают как опытом, так равно и...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Одни – воюют, другие – воруют.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>К тому же ничто в мире не совершается помимо воли божией, и – что значит ропот
+              наш?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты, Павлин Савельев, брось проповеди... Шурок, ты на лыжах бежать собралась?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Да, Антонину жду.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну... ладно! Не уйдешь, так я тебя – минут через пяток – позову.</p>
+          </sp>
+          <stage>Шура убежала.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Выровнялась как отроковица...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Телом – хороша, ловкая, а лицом – не удалась. Мать у нее некрасива была. Умная, как
+              черт, а некрасива.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Лицо у Александры Егоровны... своеобразное... и... не лишено привлекательности.
+              Родительница – откуда родом?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Сибирячка. Ты говоришь – высшая власть... от бога... и все такое, ну а Дума то – как?
+              Откуда?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Дума, это... так сказать – допущение самой власти к умалению ее. Многие полагают, что
+              даже – роковая ошибка, но священно-церковно-служителю не подобает входить в
+              рассуждение о сих материях. К тому же в наши дни на духовенство возложена обязанность
+              воспламенять дух бодрости... и углублять любовь к престолу, к отечеству...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Воспламенили дух да в лужу и – бух...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Как известно вам – убедил я старосту храма моего расширить хор певчих, а также
+              беседовал с генералом Бетлингом о пожертвовании на колокол новостроящегося храма во
+              имя небесного предстателя вашего, Егория...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не дал на колокол?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Отказал и даже неприятно пошутил: «Медь говорит, даже в полковых оркестрах – не
+              люблю!» Вот вам бы на колокол-то хорошо пожертвовать по причине вашего
+              недомогания?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(вставая).</stage>
+            <p>Колокольным звоном болезни не лечат.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Как знать? Науке причины болезней неведомы. В некоторых санаториях иностранных
+              музыкой лечат, слышал я. Тоже и у нас существует пожарный, он игрой на трубе
+              пользует...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(усмехаясь).</stage>
+            <p>На какой трубе?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>На медной. Говорят, весьма большая труба!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, если – большая... Вылечивает?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Будто бы успешно! Все может быть, высокопочтеннейший Егор Васильевич! Все может быть.
+              В тайнах живем, во мраке многочисленных и неразрешимых тайн. Кажется нам, что – светло
+              и свет сей исходит от разума нашего, а ведь светло-то лишь для телесного зрения, дух
+              же, может быть, разумом только затемняется и даже – угашается.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(вздыхая).</stage>
+            <p>Эко слов-то у тебя сколько...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <stage type="delivery">(все более воодушевленно).</stage>
+            <p>Возьмите, примерно, блаженного Прокопия, в какой радости живет сей муж, дурачком
+              именуемый невегласами...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, ты опять, тово... проповедуешь! Прощай-ко. Устал я.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Сердечно желаю доброго здоровья. Молитвенник ваш...</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(щупая правый бок, подошел к дивану, ворчит).</stage>
+            <p>Боров. Нажрался тела-крови Христовой... Глафира!.. Эй...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Вы что?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ничего. Глафиру звал. Эк ты вырядилась! Куда это?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>На спектакль для выздоравливающих...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>И стеклышки на носу? Врешь, что глаза требуют, для моды носишь...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Папаша, вы бы поговорили с Александрой, она ведет себя отчаянно, становится
+              совершенно невыносимой.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Все вы – хороши! Иди!</p>
+            <stage type="delivery">(Бормочет.)</stage>
+            <p>Невыносимы. Вот я... выздоровлю, я вас... вынесу!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Звали?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Звал. Эх, Глаха, до чего ты хороша! Здоровая! Каленая! А Варвара у меня – выдра!</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <stage type="delivery">(заглядывая на лестницу).</stage>
+            <p>Ее счастье. Будь она красивой, вы бы и ее на постелю себе втащили.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Дочь-то? Опомнись, дура! Что говоришь?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Я знаю – что! Шуру-то тискаете, как чужую... как солдат!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(изумлен).</stage>
+            <p>Да ты, Глафира, рехнулась! Ты что: к дочери ревнуешь? Ты о Шурке не смей эдак думать.
+              Как солдат... Как чужую! А ты бывала у солдат в руках? Ну?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Не к месту... не ко времени разговоры эти. Зачем звали?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Доната пошли. Стой! Дай-ко руку. Любишь все-таки? И хворого?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <stage type="delivery">(припадая к нему).</stage>
+            <p>Горе ты мое... Да – не хворай ты! Не хворай...</p>
+            <stage type="delivery">(Оторвалась, убежала.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Булычов хмуро улыбается, облизывает губы. Качает головой. Лег.</stage>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Доброго здоровья, Егор Васильевич!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Спасибо. С чем прибыл?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>С хорошим: медведя обложили.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(вздохнув).</stage>
+            <p>Ну, это... для зависти, а не для радости. Мне теперь медведь – не забава. Лес-то
+              рубят?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Помаленьку. Людей нет.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Ксения. Нарядная, руки в кольцах.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты что?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ничего. Ты бы, Егорий, не соблазнялся медведем-то, куда уж тебе охотиться.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Помолчи. Нет людей?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Старики да мальчишки остались. Князю полсотни пленных дали, так они в лесу не могут
+              работать.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Они поди-ко с бабами работают.</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Это – есть.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Да... Баба теперь голодная.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Слышно – большой разврат пошел по деревням...</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Почему разврат, Аксинья Яковлевна? Мужиков – перебили, детей-то надобно родить?
+              Выходит так: кто перебил, тот и народи...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Похоже...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ну уж, какие дети от пленных! Хотя, конечно, ежели мужчина здоровый...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А баба – дура, так ему от этой бабы детей иметь неохота.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>У нас бабы – умные. А здоровых-то мужиков всех на войну угнали, дома остались одни...
+              адвокаты.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Народу перепорчено – много.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Зато остальные богаче жить будут.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Сообразила!</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Цари народом сыты не бывают.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Как ты сказал?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Не бывают, говорю, цари народом сыты. Своих кормить нечем, а все хотим еще чужих
+              завоевать.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Верно. Это – верно!</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Нельзя иначе понять – для какого смысла воюем? И вот бьют нас, за жадность.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Правильно говоришь, Донат! Вот и Яков, крестник, тоже говорит: «Жадность всему горю
+              начало». Он – как там?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Он – ничего. Умный он у вас.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Нашел умника! Дерзкий он, а не умный.</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>От ума и дерзок, Аксинья Яковлевна. Он там, Егорий Васильевич, дезертиров подобрал
+              человек десяток, поставил на работу, ничего – работают. А то они воровством
+              баловались.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Н-ну, это... Мокроусов узнает – скандалить начнет.</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Мокроусов – знает. Он даже рад. Ему – легче.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, смотри...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Звонцов сходит сверху.</stage>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Медведя, значит...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Медведь – твое счастье.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Разрешите предложить медведя Бетлингу! Вы знаете, он оказывает нам...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Знаю, знаю! Предлагай. А то – архиерею предложи!</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <stage type="delivery">(усмехаясь).</stage>
+            <p>Вот бы поглядеть, как архиерей в медведя стреляет.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, я устал. Прощай, Донат! А что-то нехорошо все, братец мой, а? Как я захворал, так
+              и началось неладное...</p>
+            <stage>Донат молча поклонился, уходит.</stage>
+            <p>Аксинья, Шурку пошли мне. Ты чего мнешься, Андрей? Говори сразу!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Я по поводу Лаптева...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Мне стало известно, что он связался с... неблагонадежными людьми и на ярмарке в
+              Копосове говорил мужикам противуправительственные речи.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Брось! Ну какие теперь ярмарки? Какие мужики? И что вы все на Якова жалуетесь?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Но ведь он как бы член нашей семьи...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Шура вбегает.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Как бы... Не очень-то вы его... своим считаете. Он вот и обедать по воскресеньям не
+              приходит... Иди, Андрей... После расскажешь...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>На Якова ябедничал?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Это – не твое дело. Сядь сюда. На тебя тоже все жалуются.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Кто – все?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Аксинья, Варвара...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Это еще не все.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я серьезно говорю, Шуренок.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Серьезно ты говоришь – не так.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов.</speaker>
+            <p>Дерзкая ты со всеми, ничего не делаешь...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Если ничего не делаю, так в чем же дерзкая?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не слушаешь никого.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Всех слушаю. Тошно слушать, рыжий!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Сама – рыжая, хуже меня. Вот и со мной говоришь... неладно! Надобно тебя ругать, а не
+              хочется.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не хочется, значит – не надо.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ишь ты! Не хочется – не надо. Эдак-то жить легко бы, да нельзя!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А кто мешает?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Всё... все мешают. Тебе этого не понять.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А ты – научи, чтобы поняла, чтобы мне не мешали...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, этому... не научишь! Ты что, Аксинья? Что ты все бродишь, чего ищешь?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Доктор приехал, и Башкин ждет. Лександра, оправь юбку, как ты сидишь?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(встает).</stage>
+            <p>Ну, зови доктора. Лежать мне вредно, тяжелею от лежанья. Эх... Улепетывай, Шуренок!
+              Ногу не вывихни, гляди!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Doktor">
+            <speaker>Доктор</speaker>
+            <p>Здравствуйте! Как мы себя чувствуем?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Неважно. Плоховато лечишь, Нифонт Григорьевич.</p>
+          </sp>
+          <sp who="#Doktor">
+            <speaker>Доктор</speaker>
+            <p>Нуте-ко, пойдемте к вам...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(идя рядом с ним).</stage>
+            <p>Ты давай мне самые злые, самые дорогие лекарства: мне, брат, обязательно выздороветь
+              надо! Вылечишь – больницу построю, старшим будешь в ней, делай что хочешь...</p>
+          </sp>
+          <stage>Ушли. Ксения, Башкин.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Что сказал, доктор-то?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Рак, говорит, рак в печенке...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ух ты, господи! Что выдумают!</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Болезнь, говорит, опасная.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ну конечно! Всякий свое дело самым трудным считает.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Не вовремя захворал! Кругом деньги падают, как из худого кармана, нищие тысячниками
+              становятся, а он...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Да, да! Так богатеют люди, так богатеют!</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Достигаев до того растучнел, что весь незастегнутый ходит, а говорить может только
+              тысячами. А у Егора Васильевича вроде затмения ума начинается. Намедни говорит: «Жил,
+              говорит, я мимо настоящего дела». Что это значит?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ох, и я замечаю – нехорошо он говорит!</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>А ведь он на твоем с сестрой капитале жить начал. Должен бы приумножать.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ошиблась я, Мокей, давно знаю – ошиблась, Вышла замуж за приказчика, да не за того.
+              Кабы за тебя вышла – как спокойно жили бы! А он... Господи! Какой озорник! Чего я от
+              него не терпела. Дочь прижил на стороне да посадил на мою шею. Зятя выбрал... из
+              плохих – похуже. Боюсь я, Мокей Петрович, обойдут, облапошат меня зять с Варварой,
+              пустят по миру...</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Все возможно. Война! На войне – ни стыда, ни жалости.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ты – старый наш слуга, тебя батюшка мой на ноги поставил, ты обо мне подумай...</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Я и думаю...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Звонцов идет.</stage>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Что, доктор – ушел?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Там еще.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Мокей Петрович, как – сукно?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Не принимает Бетлинг.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>А сколько надобно дать ему?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Тысяч... пяток, не меньше.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Экий грабитель! А ведь старик!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Через Жанну?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Да уж как установлено.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Пять тысяч! За что? А?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Теперь деньги дешевы.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>В чужом-то кармане...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Тесть согласен?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Вот, я пришел узнать, согласен ли.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Doktor">
+            <speaker>Доктор</speaker>
+            <stage type="delivery">(вышел – берет Звонцова под руку).</stage>
+            <p>Ну-с, вот что...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ох, порадуйте нас...</p>
+          </sp>
+          <sp who="#Doktor">
+            <speaker>Доктор</speaker>
+            <p>Больной должен лежать возможно больше. Всякие дела, волнения, раздражения – крайне
+              вредны для него. Покой и покой! Затем...</p>
+            <stage type="delivery">(Шепчет Звонцову.)</stage>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>А мне почему нельзя сказать? Я – жена.</p>
+          </sp>
+          <sp who="#Doktor">
+            <speaker>Доктор</speaker>
+            <p>О некоторых вещах с дамами говорить неудобно.</p>
+            <stage type="delivery">(Снова шепчет.)</stage>
+            <p>Сегодня же вечером и устроим.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Что это вы устроите?</p>
+          </sp>
+          <sp who="#Doktor">
+            <speaker>Доктор</speaker>
+            <p>Консилиум, совет докторов.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ба-атюшки...</p>
+          </sp>
+          <sp who="#Doktor">
+            <speaker>Доктор</speaker>
+            <p>Это – не страшно. Ну-с, до свидания!</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Строгий какой... Туда же! За пять минут пять целковых берет. Шестьдесят рублей в
+              час... вот как!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Он говорит – операция нужна...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Резать? Ну, уж это – нет! Нет, уж резать я не позволю...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Послушайте, это – невежественно! Хирургия, наука...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Плевать мне на твою науку! Вот тебе! Ты тоже невежливо говоришь со мной.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Я говорю не о приличиях, а о вашей темноте...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Сам не больно светел!</p>
+          </sp>
+          <stage>Звонцов, махнув рукой, отошел прочь. Глафира бежит.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Куда?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Звонок из спальни...</p>
+          </sp>
+          <stage>Ксения идет вместе с ней к мужу.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Не вовремя заболел тесть.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Да. Стесняет. Время такое, что умные люди, как фокусники, прямо из воздуха деньги
+              достают.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Н-да. К тому же революция будет.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Это я не одобряю. Была она в пятом году. Бестолковое дело.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>В пятом был – бунт, а не революция. Тогда крестьяне и рабочие дома были, а теперь –
+              на фронтах. Теперь революция будет против чиновников, губернаторов, министров.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Если бы так – давай бог! Чиновники хуже клещей, вцепятся, не оторвешь...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Царь явно не способен править.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Поговаривают об этом и в купечестве. Будто мужик какой-то царицу обошел?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Варвара на лестнице, слушает.</stage>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Да. Григорий Распутин.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Не верится в колдовство.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>А – в любовников – верите?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>На сказку похоже. У нее – генералов – сотня.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Глупости какие говорите вы.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Все так говорят, Варвара Егоровна. Я все-таки полагаю, что без царя – нельзя!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Царь должен быть не в Петрограде, а – в голове. Кончился спектакль?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Отложили. Приехал какой-то ревизор, – вечером эшелон раненых будет, около пятисот. А
+              места для них нет.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Мокей Петрович, вас зовут.</p>
+          </sp>
+          <stage>Башкин ушел, оставив на столе теплый картуз.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Что ты с ним откровенничаешь? Ты же знаешь, что он шпионит за нами для матери! Картуз
+              этот он лет десять носит, жадюга! Просален весь. Не понимаю, почему ты с этим
+              жуликом...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Ах, оставь! Хочу занять у него денег на взятку Бетлингу...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Но я же тебе сказала, что все это устроит Лиза Достигаева через Жанну! И обойдется –
+              дешевле...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Надует тебя Лизавета...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <stage type="delivery">(из комнаты мужа).</stage>
+            <p>Уговорите вы его, чтобы лежал! Он там ходит и Мокея ругает... Ах, господи!..</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Поди ты, Варя...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(в халате, в валяных туфлях).</stage>
+            <p>Ну, и что еще? Несчастная война?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <stage type="delivery">(идя за ним).</stage>
+            <p>Кто же спорит?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Для кого несчастная?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Для нас.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Для кого – для нас? Ты же говоришь: от войны миллионы наживают? Ну?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Для народа... значит...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Народ – мужик, ему – все равно: что жить, что умирать. Вот какая твоя правда!</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Да – не сердись ты! Вредно тебе...</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Ну, что вы? Какая же это правда?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Самая настоящая! Это и есть правда. Я говорю прямо; мое дело – деньги наживать, а
+              мужиково – хлеб работать, товары покупать. А какая другая правда есть?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Конечно, это – так, а все-таки...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, а что – все-таки? Ты о чем думаешь, когда воруешь у меня?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Зачем же вы обижаете?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ну, что ты, Варя, глядишь? Уговори его! Ему лежать велено.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты – о народе думаешь?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>И – при людях обижаете! Ворую! Это надо доказать!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Доказывать нечего. Всем известно: воровство дело законное. И обижать тебя – незачем.
+              От обиды ты не станешь лучше, хуже станешь. И воруешь – не ты – рубль ворует. Он, сам
+              по себе, есть главный вор...</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Это один Яков Лаптев может говорить.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вот он и говорит. Ну, ступай. А взятку Бетлингу не давать. Довольно давали, хватит
+              ему на гроб, на саван, старому черту! Вы что тут собрались? Чего ждете?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Мы ничего не ждем...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Будто – ничего? Когда – так, идите по своим делам. Дело-то у вас – есть? Аксинья,
+              скажи, чтоб у меня проветрили. Душно там, кислыми лекарствами пахнет. Да – пускай
+              Глафира квасу клюковного принесет.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Нельзя тебе квасу-то.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Иди, иди! Я сам знаю, чего нельзя, что можно.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <stage type="delivery">(уходя).</stage>
+            <p>Кабы знал...</p>
+          </sp>
+          <stage>Все ушли.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(обошел вокруг стола, придерживаясь за него рукой. Смотрит в
+              зеркало, говорит почти во весь голос).</stage>
+            <p>Плохо твое дело, Егор. И рожа, брат, у тебя... не твоя какая-то!</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <stage type="delivery">(с подносом, на нем стакан молока).</stage>
+            <p>Вот вам молоко.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Тащи кошке. А мне – квасу. Клюковного.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Квасу вам не велят давать.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Они не велят, а ты – принеси. Стой! Как по-твоему – умру я?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Не может этого быть.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Почему?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Не верю.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не веришь? Нет, брат, дело мое – плохо! Очень плохо, я знаю!</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Не верю.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Упряма. Ну, давай квасу! А я померанцевой выпью... Она – полезная.</p>
+            <stage type="delivery">(Идет к буфету.)</stage>
+            <p>Заперли, черти. Эки свиньи! Оберегают. Похоже, что я заключенный. Арестант...
+              вроде.</p>
+          </sp>
+          <stage>Занавес</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Второй акт</head>
+        <stage>Гостиная Булычовых. Звонцов и Тятин – в углу, за маленьким круглым столом, на столе
+          бутылка вина.</stage>
+        <div type="configuration">
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <stage type="delivery">(закуривая).</stage>
+            <p>Понял?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>По чести говоря, Андрей, не нравится мне это...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>А – деньги нравятся?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Деньги, к сожалению, нравятся.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Ты – кого жалеешь?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Себя, разумеется...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Есть чего жалеть!</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Все-таки, знаешь, я сам себе – единственный друг.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Ты бы не философствовал, а – думал.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Я – думаю. Девица она избалованная, трудно будет с ней.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Разведешься.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>А деньги-то у нее останутся...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Сделаем так, что у тебя будут. А Шурку я берусь укротить.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>По чести сказать...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Так, что ее поторопятся выдать замуж и приданое будет увеличено.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Это ты... остроумно! А какое приданое?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Пятьдесят.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Тысяч?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Пуговиц.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Верно?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Но ты подпишешь мне векселей на десять.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Тысяч?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Нет, рублей! Чудак!</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Мно-ого...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Тогда – прекратим беседу.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>А ты... все это серьезно?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Несерьезно о деньгах только дураки говорят...</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <stage type="delivery">(усмехаясь).</stage>
+            <p>Черт возьми... Замечательно придумано.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Достигаев.</stage>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Рад, что ты, кажется, что-то понимаешь. Тебе, интеллигенту-пролетарию, нельзя в эти
+              лютые дни...</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Да, да, конечно! Но – мне пора в суд.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Чем ты расстроен, Степаша?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Мы – о Распутине вспомнили.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Вот – участь, а? Простой, сибирский мужик – с епископами, министрами в шашки играл!
+              Сотнями тысяч ворочал! Меньше десяти тысяч взятки – не брал! Из верных рук знаю – не
+              брал! Вы что пьете? Бургонское? Это винцо тяжелое, его за обедом надо пить,
+              некультурный народ!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Как вы нашли тестя?</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>А – чего же его искать, – он не прятался. Ты, Степаша, принес бы стаканчик мне.</p>
+            <stage>Тятин не торопясь уходит.</stage>
+            <p>А Булычов, надо прямо сказать, в плохом виде! В опасном положении он...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Мне тоже кажется, что...</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Да, да! Это самое. И при этом боится он умереть, а потому – обязательно умрет. И ты
+              этот факт – учти! Дни нашей жизни такие, что ротик разевать нельзя, ручки в карманах
+              держать – не полагается. Государственный плетень со всех сторон свиньи подрывают, и
+              что будет революция, так это даже губернатор понимает...</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p> [</p>
+            <stage type="delivery">(входит)</stage>
+            <p>]. Егор Васильевич в столовую вышел.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <stage type="delivery">(берет стакан).</stage>
+            <p>Спасибо, Степаша. Вышел, говоришь? Ну, и мы туда.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Промышленники, кажется, понимают свою роль...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Идут – Варвара, Елизавета.</stage>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Московские-то? Еще бы не понимали!</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>Они пьют, как воробушки, а там Булычов рычит – слушать невозможно!</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Почему Америка процветает? Потому, что там у власти сами хозяева...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Жанна Бетлингова совершенно серьезно верит, что в Америке кухарки на рынок в
+              автомобилях ездят.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Вполне возможно. Хотя... наверное, вранье. А ты, Варюша, все с военными? Хочешь быть
+              подполковником?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ух, как старо! Вы о чем мечтаете, Тятин?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Да... так, вообще...</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <stage type="delivery">(перед зеркалом).</stage>
+            <p>Вчера Жанна рассказала мне анекдот изумительный! Как цветок!</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>А ну, а ну – какой?</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>При мужчинах – нельзя.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Хорош цветок!</p>
+          </sp>
+          <stage>Варвара что-то шепнула Елизавете.</stage>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>Муж! Ты тут будешь сидеть до дна бутылки?</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>А – кому я мешаю?</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <stage type="delivery">(Тятину).</stage>
+            <p>Вы, Степочка, знаете псалом: «Блажен муж, иже не иде на совет нечестивых и на пути
+              грешных не ста»?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Что-то такое помню...</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <stage type="delivery">(берет его под руку).</stage>
+            <p>Вот эти, все – они и есть нечестивые грешники, а вы тихий юноша для луны, любви и
+              прочего, да?</p>
+            <stage type="delivery">(Уводит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Экая болтушка!</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Василий Ефимович, мать и Башкин вызвали тетку Меланью.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Игуменью? У-у, это зверь серьезный! Она будет против фирмы Достигаев и Звонцов, она –
+              против! Она за вывеску – Ксения Булычова и Достигаев...</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Она может потребовать деньги из дела.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Маланьиных денег – сколько? Семьдесят тысяч?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Девяносто.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Все-таки это – куш! Личные или монастыря?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Как это узнаешь?</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Узнать – можно. Узнать – все можно! Вот – немцы, они знают не только число солдат у
+              нас на фронте, а даже – сколько вшей на каждом солдате.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Вы бы серьезно что-нибудь сказали...</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Милая Варюша, нельзя ни торговать, ни воевать, не умея сосчитать, сколько денег в
+              кармане. Про Маланьины деньги узнать можно так: имеется дама Секлетея Полубояринова,
+              она – участница нощных бдений владыки – Никандра, а – Никандр – всякие деньги любит
+              считать. Кроме того, есть один человек в епархиальном совете, – мы его оставим в
+              резерве. Ты, Варюша, возьми переговори с Полубояриновой, и ежели окажется, что
+              деньжата – монастырские, ну, – сами понимаете! Куда это красавица моя ускользнула?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Просят в столовую.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Спешим. Нуте-с, пошли?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <stage type="delivery">(будто бы зацепилась подолом за кресло).</stage>
+            <p>Андрей, помоги же! Ты ему веришь?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Нашла дурака.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ах, какой жулик! С теткой я придумала неплохо. А что с Тятиным?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Уломаю.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>С этим надо торопиться.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Почему?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Да ведь после похорон – нужно будет долго ждать. А у отца – и сердце слабое... Кроме
+              того, у меня есть другие причины.</p>
+          </sp>
+          <stage>Ушли. Навстречу Глафира, смотрит вслед им с ненавистью, собирает посуду со столика.
+            Лаптев входит.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>А вчера был слух, что ты арестован.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Да ну? Это, должно быть, неверно.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Все шутишь.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Есть – нечего, да – жить весело.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Свернешь башку на шуточках-то.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>За хорошие шутки не бьют, а хвалят, стало быть, попадет Яшутке за плохие шутки.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира.</speaker>
+            <p>Мели, Емеля! Там, у Шуры, Тонька Достигаева.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Брр, ее – не надо!</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Позову Шуру – сюда, что ли?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Дельно. А как Булычов?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <stage type="delivery">(гневно).</stage>
+            <p>Какой он тебе Булычов! Он – отец крестный твой!</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Не сердись, тетя Глаша.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Плохо ему.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Плохо? Постой, постой! Голодно живут приятели мои, тетя Глаша, не достанешь ли муки,
+              дуда два, а то и мешок?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Что же – воровать у хозяев буду для тебя?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Да ведь уже не первый раз! Все равно – и раньше грешила, грех – на мне! Ребятам,
+              ей-богу, кушать охота! Тебе же в доме этом за труд твой принадлежит больше, чем
+              хозяевам.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Слыхала я эти сказки твои! Завтра утром Донату будут отправлять муку, мешок возьмешь
+              у него.</p>
+            <stage type="delivery">(Уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Вот спасибо!</p>
+            <stage type="delivery">(Сел на диван, зевнул до слез, отирает слезы,
+              осматривается.)</stage>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <stage type="delivery">(идет, ворчит).</stage>
+            <p>Бегают, как черти от ладана...</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Здравствуйте...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ой! Ох, что ты тут сидишь?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>А надо – ходить?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>То – нигде нет его, то вдруг придет! Как в прятки играешь. Отец-то крестный – болеет,
+              а тебе хоть бы что...</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Заболеть надо мне, что ли?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Все вы с ума сошли, да и других сводите. Понять нельзя ничего! Вон, слышь, царя хотят
+              в клетку посадить, как Емельку Пугачева. Врут, что ли, грамотей?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Все возможно, все!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Аксинья Яковлевна, на минутку.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ну, что еще? Покоя нет... о, господи...</p>
+            <stage type="delivery">(Ушла.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(вбегает).</stage>
+            <p>Здравствуй!</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Шурочка, в Москву еду, а денег нету – выручай!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>У меня тридцать рублей...</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Пятьдесят бы, а?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Достану.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Вечером, к поезду? Можно?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Да. Слушай: революция будет?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Да она же началась! Ты – что, газет не читаешь?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Я – не понимаю газет.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Спроси Тятина.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Яков, скажи честно: что такое Тятин?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Вот те раз! Ты же почти полгода ежедневно видишь его.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Он честный?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Да... ничего, честный.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Почему ты говоришь нерешительно?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Мямля он. Мутноватый такой. Обижен, что ли.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Кем?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Из университета вышибли со второго курса. Работает у брата, письмоводителем, а
+              брат...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Звонцов – жулик?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Либерал, кадет, а они вообще жуликоваты. Деньги ты Глафире передай, она доставит.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Глафира и Тятин помогают тебе?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>В чем?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не финти, Яшка! Ты понимаешь. Я тоже хочу помогать, слышишь?</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <stage type="delivery">(удивлен).</stage>
+            <p>Что это ты, девушка, как будто только сегодня проснулась?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(гневно).</stage>
+            <p>Не смей издеваться надо мной! Ты – дурак!</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Возможно, что и дурак, но все-таки я хотел бы понять...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Варвара идет!</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <p>Ну, я ее не желаю видеть.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Идем... Скорей.</p>
+          </sp>
+          <sp who="#Laptev">
+            <speaker>Лаптев</speaker>
+            <stage type="delivery">(обняв ее за плечи).</stage>
+            <p>В самом деле – что с тобой?</p>
+          </sp>
+          <stage>Ушли, затворив за собой дверь.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <stage type="delivery">(слышит, как щелкнул замок двери, подошла к ней, повертела
+              ручку).</stage>
+            <p>Это ты, Глафира?</p>
+            <stage type="delivery">(Пауза.)</stage>
+            <p>Там есть кто-нибудь? Таинственно...</p>
+            <stage type="delivery">(Быстро уходит.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Шура тащит за руку Доната.</stage>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Ну, куда ты меня, Шурок...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Стой! Говори: отца в городе уважают?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Богатого везде уважают. Озоруешь ты все...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Уважают или боятся?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Не боялись бы, так не уважали.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А – любят за что?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Любят? Не знаю.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А – знаешь, что любят?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Его? Как сказать? Извозчики – как будто любят, он с ними не торгуется, сколько
+              спросят, столько и дает. А извозчик, он, конечно, другому скажет, ну и...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(притопнув ногой).</stage>
+            <p>Ты смеешься?</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Зачем? Я правду объясняю.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты стал злой. Ты совсем другой стал!</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Ну, где уж мне другим быть! Опоздал я.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты хвалил мне отца.</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <p>Я его и не хаю. У всякой рыбы своя чешуя.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Все вы – врете.</p>
+          </sp>
+          <sp who="#Donat">
+            <speaker>Донат</speaker>
+            <stage type="delivery">(понурясъ, вздыхая).</stage>
+            <p>Ты – не сердись, сердцем ничего не докажешь.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Уходи! Слушай, Глафира... Ну, кто-то лезет...</p>
+            <stage type="delivery">(Спряталась в драпировку.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Алексей Достигаев, щеголь, в галифе, шведской куртке, весь в ремнях и
+            карманах.</stage>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Вы все хорошеете, Глаша.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <stage type="delivery">(угрюмо).</stage>
+            <p>Приятно слышать.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>А мне – неприятно.</p>
+            <stage type="delivery">(Встал на дороге Глафиры.)</stage>
+            <p>Не нравится мне хорошее, если оно не мое.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Пропустите, пожалуйста.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Сделайте одолжение.</p>
+            <stage type="delivery">(Позевнув, смотрит на часы.)</stage>
+          </sp>
+          <stage>Входит Антонина, несколько позднее – Тятин.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты, кажется, и за горничными ухаживаешь?</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Ему – все равно, хоть за рыбами.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Горничные, если их раздеть, ни в чем не уступают барыням.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Слышишь? Он теперь всегда говорит такое, точно не на фронте жил, а в кабаке...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Да, раньше он был такой же ленивый, но не такой храбрый на словах.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Я – и на деле.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Ах, как врет! Он – трус, трус! Страшно боится, что его соблазнит мачеха.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Что ты сочиняешь? Дурочка!</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>И отвратительно жадный. Ты знаешь, я ему плачу рубль двадцать копеек за тот день,
+              когда он не скажет мне какой-нибудь гадости. Он – берет!</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Тятин! Вам нравится Антонина?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Да. Очень.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А – я?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Говоря правду...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ну да, конечно, правду!</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Вы – не очень.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Вот как? Это правда?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Да.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Не верь, он сказал, как эхо.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Вы бы, Тятин, женились на Антонине. Мне она надоела.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Какой болван! Уйди! Ты похож на беременную прачку.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <stage type="delivery">(обняв ее за талию).</stage>
+            <p>Ох, какая аристократка! Не гризе па ле семиачки, се моветон.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Оставь меня!</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>С удовольствием!</p>
+            <stage type="delivery">(Танцует с ней.)</stage>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Может быть, я совсем не нравлюсь вам, Тятин?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>А зачем вы хотите знать это?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Надо. Интересно.</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Ты что мямлишь? Она замуж за тебя напрашивается. Теперь все девицы торопятся быть
+              вдовами героев. Ибо – паек, ореол и пенсия.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Он уверен, что это остроумно!</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Пойду по своей стезе. Тонька, проводи меня до прихожей.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Не хочу!</p>
+          </sp>
+          <sp who="#Aleksej">
+            <speaker>Алексей</speaker>
+            <p>Мне нужно. Серьезно, идем!</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Наверное, какая-нибудь глупость.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Тятин, вы – правдивый человек?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Нет.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Почему?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Невыгодно.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Если вы так говорите, – значит, вы правдивый. Ну, теперь скажите сразу: вам советуют
+              свататься ко мне?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <stage type="delivery">(закуривая, не сразу).</stage>
+            <p>Советуют.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>А вы понимаете, что это плохой совет?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Понимаю.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Да, вы... Вот не ожидала! Я думала, вы...</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Скверно думали, должно быть?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Нет, вы... замечательный! А может быть, вы – хитрый, да? Вы играете на правду? Чтобы
+              околпачить меня?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Это мне – не по силам. Вы – умная, злая, озорная, совсем как ваш отец; по совести
+              говоря – я вас боюсь. И рыжая вы, как Егор Васильевич. Вроде пожарного факела.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Тятин, вы – молодец! Или – страшная хитрюга...</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>И лицо у вас – необыкновенное...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Это – о лице – для смягчения удара? Нет, вы хитрый!</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Думайте как хотите. По-моему, вы обязательно сделаете что-нибудь... преступное! А я
+              привык жить кверху лапками – знаете, как виноватые кутята...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>В чем виноватые?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Не знаю. В том, что кутята, и – зубов нет, укусить не могут.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <stage type="delivery">(входит).</stage>
+            <p>Дурак Алешка страшно больно дернул меня за ухо. И деньги отобрал, как жулик! Знаешь,
+              он сопьется, это – наверное! Мы с ним такие никчемушные, купеческие дети. Тебе –
+              смешно?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Тоня, – забудь все плохое, что я тебе говорила о нем!</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>О Тятине? А – что ты говорила? Я не помню.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ну, что он свататься хочет ко мне.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Почему это плохо?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Из-за денег.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Ах, да! Ну, это – свинство, Тятин!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Жаль, не слышала ты, как он отвечал на мои вопросные слова.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Варумные слова. Помнишь «Варум» Шуберта?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Разве Шуберта?</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Варум очень похоже на птицу марабу, такая мрачная птица... в Африке.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Что ты сочиняешь?</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Я все больше люблю страшное. Когда страшно, то уже – не скучно. Полюбила сидеть в
+              темноте и ждать, что приползет огромный змей...</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <stage type="delivery">(усмехаясь).</stage>
+            <p>Это – который был в раю?</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Нет, страшнее.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты – занятная. Всегда выдумываешь что-нибудь новое, а все говорят одно и то же: война
+              – Распутин – царица – немцы, война – революция...</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Ты будешь актрисой или монахиней.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Монахиней? Ерунда!</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Это очень трудно быть монахиней, нужно играть всегда одну роль.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Я хочу быть кокоткой, как Нана у Золя.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Вот как вы говорите! Ф-фу!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Мне – развращать хочется, мстить.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Кому? За что?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>За то, что я – рыжая, за то, что отец болен... за все! Вот когда начнется революция,
+              я развернусь! Увидишь.</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Ты веришь, что будет революция?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Да! Да!</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Революция – будет.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Шура, приехала мать Мелания, Егор Васильевич хочет принять ее здесь.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ух – тетка! Бежим ко мне, дети! Тятин, – вы очень уважаете вашего брата?</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Он мне – двоюродный.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Это не ответ.</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Кажется – родственники вообще мало уважают друг друга.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Вот это – ответ!</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <p>Бросьте говорить о скучном.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Вы очень смешной, Тятин!</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <p>Ну, что ж делать?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>И одеваетесь вы смешно.</p>
+          </sp>
+          <stage>Ушли. Глафира отпирает дверь, скрытую драпировкой. В дверях, куда ушла молодежь, –
+            Булычов. Медленно и важно входит игуменья Мелания, с посохом в руке. Глафира стоит,
+            наклоня голову, придерживая драпировку.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ты все еще здесь трешься, блудодейка? Не выгнали тебя? Ну, скоро выгонят.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты тогда в монахини возьми ее, у нее – деньги есть.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>А-а, ты – здесь? Ой, Егор, как тебя перевернуло, помилуй бог!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Глаха, закрой двери да скажи, чтоб сюда не лезли. Садись... преподобная! Об каких
+              делах поговорим?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Не помогают доктора-то? Видишь: господь терпит день, терпит год и век...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>О господе – после, давай сначала о деле. Я знаю, о деньгах твоих говорить
+              приехала.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Деньги не мои, а – обители.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну – все едино: обители, обидели, грабители. Тебя чем деньги беспокоят? Боишься –
+              умру – пропадут?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Пропасть они – не могут, а не хочу, чтоб в чужие руки попали.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Так, вынуть хочешь из дела? Мне – все равно – вынимай. Но – гляди – проиграешь!
+              Теперь рубли плодятся, как воши на солдатах. А я – не так болен, чтобы умереть...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Не ведаем ни дня, ни часа, егда приидет смерть. Завещание-то духовное-то написал?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Нет!</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Пора. Напиши! Вдруг – позовет господь...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А зачем я ему?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Дерзости свои – оставь! Ты – знаешь, слушать их я не люблю, да и сан мой...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А ты – полно, Малаша! Мы друг друга знаем и на глаз и на ощупь. Деньги можешь взять,
+              у Булычова их – много!</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Вынимать капитал из дела я не желаю, а векселя хочу переписать на Аксинью, вот и –
+              предупреждаю.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Так. Ну, это – твое дело! Однако в случае моей смерти Звонцов Аксинью облапошит.
+              Варвара ему в этом поможет...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Вот как ты заговорил? По-новому будто? Злости не слышно.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я злюсь в другую сторону. Вот, давай-ко, поговорим теперь о боге-то, о господе, о
+              душе.</p>
+            <lg>
+              <l>Смолоду много бито, граблено,</l>
+              <l>Под старость надобно душа́ спасать...</l>
+            </lg>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ну... что ж, говори!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты вот богу служишь днем и ночью, как, примерно, Глафира – мне.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Не богохуль! С ума сошел? Глафира-то как тебе по ночам служит?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Рассказать?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Не богохуль, говорю! Опомнись!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не рычи! Я же просто говорю, не казенными молитвами, а человечьими словами. Вот –
+              Глафире ты сказала: скоро ее выгонят. Стало быть, веришь: скоро умру. Это – зачем же?
+              Васька Достигаев на девять лет старше меня и намного жуликоватее, а здоров и будет
+              жить. Жена у него – первый сорт. Конечно, я – грешник, людей обижал и вообще...
+              всячески грешник. Ну – все друг друга обижают, иначе нельзя, такая жизнь.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ты не предо мной, не пред людьми кайся, а пред богом! Люди – не простят, а бог –
+              милостив. Сам знаешь: разбойники, в старину, как грешили, а воздадут богу богово и –
+              спасены!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну да, ежели украл да на церковь дал, так ты не вор, а – праведник.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Его-ор! Кощунствуешь, слушать не буду! Ты – не глуп, должен понять: господь не
+              допустит – дьявол не соблазнит.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну – спасибо!</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Это что еще?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Успокоила. Выходит, что господь вполне свободно допускает дьявола соблазнять нас, –
+              значит, он в грешных делах дьяволу и мне компаньон...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <stage type="delivery">(встала).</stage>
+            <p>Слова эти... слова твои такие, что ежели владыке Никандру сказать про них...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А – в чем я ошибся?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Еретик! Подумай – что лезет тебе в нездоровую-то башку? Ведь – понимаешь, ежели бог
+              допустил дьявола соблазнить тебя– значит, бог от тебя отрекся.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Отрекся – а? За что? За то, что я деньги любил, баб люблю, на сестре твоей, дуре,
+              из-за денег женился, любовником твоим был, за это отрекся? Эх ты... ворона полоротая!
+              Каркаешь, а – без смысла!</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <stage type="delivery">(ошалела).</stage>
+            <p>Да что ты, Егор? Обезумел ты? Господи помилуй...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Молишься день, ночь под колоколами а – кому молишься, сама того не знаешь.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Егор! В пропасть летишь! В пасть адову... В такие дни... Все разрушается, трон царев
+              качают злые силы... антихристово время... может – Страшный суд близок...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вспомнила! Страшный суд... Второе пришествие... Эх, ворона! Влетела, накаркала!
+              Ступай, поезжай в свою берлогу с девчонками, с клирошанками лизаться! А вместо денег –
+              вот что получишь от меня – на!</p>
+            <stage type="delivery">(Показывает кукиш.)</stage>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <stage type="delivery">(поражена, почти упала в кресло).</stage>
+            <p>Ох, негодяй...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Глафира – блудодейка? А – ты? Ты кто?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Врешь... Врешь...</p>
+            <stage type="delivery">(Вскочила).</stage>
+            <p>Мошенник! Издохнешь скоро! Червь!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Прочь! Уходи от греха...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Змей... Дьявол...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(один, рычит, потирает правый бок, кричит).</stage>
+            <p>Глафира! Эй...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Что ты? А Меланья-то где?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Улетела.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Неужто опять поссорились?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты надолго уселась тут?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Дай же ты мне, Егор, слово сказать! Ты совсем уж перестал говорить со мной, будто я
+              мебель какая! Ну, что ты как смотришь?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Валяй, валяй, говори!</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Что же это началось у нас? Светопреставление какое-то! Зятек у себя, наверху, трактир
+              устроил, с утра до ночи люди толкутся, заседают чего-то; вчера семь бутылок красного
+              выпили да водки сколько... Дворник Измаил жалуется – полиция одолела его, все
+              спрашивает: кто к нам ходит? А они там всё про царя да министров. И каждый день –
+              трактир. Ты что голову повесил?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Валяй, валяй, сыпь! Молодой, я – любил в трактире с музыкой сидеть.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Малаша-то зачем приезжала?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Врать, Аксинья, ты – не можешь! Глупа для этого.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Чего же это я соврала, где?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Здесь Маланья приехала по уговору с тобой о деньгах говорить.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Когда же это я уговаривалась с ней, что ты?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну – ладно! Заткни рот...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Оживленно входят Достигаев, Звонцов, Павлин.</stage>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Егор, послушай-ко, что отец Павлин из Москвы привез...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ты бы лег, Егор!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, слушаю... отец!</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Хорошего мало рассказать могу, да, по-моему, и хорошее-то – плохо, ибо лучше того,
+              как до войны жили, ничего невозможно выдумать.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Нет, протестую! Не-ет!</p>
+          </sp>
+          <stage>Звонцов шепчется с тещей.</stage>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Плачет?</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Кто плачет?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Игуменья.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Что же это она?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Идите-ко, взгляните, чего она испугалась? А ты, отец, садись, рассказывай.</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>Интересно, от какой жалости плачет Маланья.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Великое смятение началось в Москве. Даже умственно зрелые люди утверждают, что царя
+              надобно сместить, по неспособности его.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>С лишком двадцать лет способен был.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Силы человека иссякают от времени.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>В тринадцатом году, когда триста лет Романовы праздновали, Николай руку жал мне. Весь
+              народ радовался. Вся Кострома.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Это – было. Действительно – радовался народ.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Что же такое случилось? Вот и Дума есть... Нет, дело – не в царе... а в самом
+              корне...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Корень – это и есть самодержавие.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Каждый сам собой держится... своей силой... Да вот сила-то – где? На войне – не
+              оказалось.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Дума способствовала разрушению сил.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <stage type="delivery">(в дверях).</stage>
+            <p>Вы, отец Павлин, исповедуете?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Ну, что это, какой вопрос.</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>А где мой муж?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Был здесь.</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>Какой вы строгий сегодня, отец Павлин.</p>
+            <stage type="delivery">(Исчезла.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Отец...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Что скажете?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Всё – отцы. Бог – отец, царь – отец, ты – отец, я – отец. А силы у нас – нет. И все
+              живем на смерть. Я – не про себя, я про войну, про большую смерть. Как в цирке
+              зверя-тигра выпустили из клетки на людей.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Вы, Егор Васильевич, – успокойтесь...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А – на чем? Кто меня успокоит? Чем? Ну – успокой... отец! Покажи силу!</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Почитайте священное писание, библию, например, Иисуса Навина хорошо вспомнить...
+              Война – в законе...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Брось. Какой это – закон? Это – сказка. Солнце не остановишь. Врете.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Роптать – величайший грех. Надобно с тихой душой и покорно принимать возмездие за
+              греховную нашу жизнь.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты примирился, когда тебя староста, Алексей Губин, обидел? Ты – в суд подал на него,
+              Звонцова адвокатом пригласил, за тебя архиерей вступился? А вот я в какой суд подам
+              жалобу на болезнь мою? На преждевременную смерть? Ты – покорно умирать будешь? С тихой
+              душой, да? Нет, – заорешь, застонешь.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Речи такие не позволяет слушать сан мой. Ибо это речи...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Брось, Павлин! Ты – человек. Ряса – это краска на тебе, а под ней ты – человек, такой
+              же, как я. Вот доктор говорит – сердце у тебя плохое, ожирело...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>К чему ведут такие речи? Подумайте и устрашитесь! Установлено от веков...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Установлено, да, видно, не крепко.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Лев Толстой еретик был, почти анафеме предан за неверие, а от смерти бежал в леса,
+              подобно зверю.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Егор Васильевич, Мокей пришел, говорит: Якова ночью жандармы арестовали, так он
+              спрашивает...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, спасибо, отец Павлин... за поучение! Я еще тебя... потревожу. Позови Башкина,
+              Аксинья! Скажи Глафире – пусть каши принесет. И – померанцевой.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Нельзя тебе водку...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Все – можно. Ступай!</p>
+            <stage type="delivery">(Оглядывается, усмехаясь бормочет.)</stage>
+            <p>Отец... Павлин... Филин... Тебе, Егор, надо было табак курить. В дыму – легче, не все
+              видно... Ну, что, Мокей?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Как здоровье, Егор Васильевич?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Все лучше. Якова арестовали?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Да, ночью сегодня. Скандал!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Одного?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Говорят – часовщика какого-то да учительницу Калмыкову, которая Александре Егоровне
+              уроки давала, кочегара Ерихонова, известный бунтарь. Около десятка будто.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Все из тех – долой царя?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>У них это... различно: одни царя, а другие – всех богатых, и чтобы рабочие сами
+              управляли государством...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ерунда!</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Конечно.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Пропьют государство.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Не иначе.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Да... А – вдруг – не пропьют?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>А что ж им делать без хозяев-то?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Верно. Без тебя да без Васьки Достигаева – не проживешь.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>И вы – хозяин...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, а как же? И я. Как, говоришь, они поют?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <stage type="delivery">(вздохнув).</stage>
+            <p>Отречемся от старого мира...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Отрясем его прах с наших ног...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>По словам – на молитву похоже.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Какая же молитва? Ненавидим, дескать, царя... дворец...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вон что! Н-да... черти драповые!</p>
+            <stage type="delivery">(Подумал.)</stage>
+            <p>Ну, а тебе чего надо?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Глафира принесла кашу и водку.</stage>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Мне? Ничего.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А зачем пришел?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Спросить, кого на место Якова поставить.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Потапова, Сергея.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Он тоже в этих мыслях – ни бога, ни царя...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Тоже?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Позвольте предложить – Мокроусова. Он – очень просится к нам. Человек грамотный,
+              распорядительный.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Каша простынет.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Полицейский? Воряга? Чего же он?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Теперь в полиции опасно служить, многие уходят.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Так. Опасно? Ах, крысы... Ладно, пришли Потапова. Завтра утром. Ступай... Глаха –
+              трубач пришел?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>В кухне сидит.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Съем кашу – веди его сюда. Что это – как тихо в доме?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Наверху все.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(пьет водку).</stage>
+            <p>Ну – и ладно. Ты что... приуныла?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Не пей, не вреди себе, не хворай ты! Брось все, уйди от них. Сожрут они тебя, как
+              черви... заживо сожрут! Уедем... в Сибирь...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Пусти, больно...</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>В Сибирь уедем, я работать буду... Ну – что ты здесь, зачем? Никто тебя не любит, все
+              – смерти ждут...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Перестань, Глаха... Не расстраивай меня. Я все знаю, все вижу! Я знаю, кто ты мне...
+              Ты да Шурка, вот это я – нажил, а остальное – меня выжило... Может, еще выздоровлю...
+              Зови трубача, ну-ко...</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Кашу-то съешьте.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Черт с ней, с кашей! Шурку позови...</p>
+            <stage type="delivery">(Остался один и жадно пьет рюмку за рюмкой.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входит Трубач. Он смешной, тощий, жалкий, за плечами – на ремнях – большая труба в
+            мешке.</stage>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Здравия желаю вашему степенству.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(удивлен).</stage>
+            <p>Здорово. Садись. Глаха, затвори дверь. Вот какой ты...</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Так точно.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Н-ну... неказист! Рассказывай, как лечишь?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Лечение мое простое, ваше степенство, только люди привыкли питаться лекарствами из
+              аптеки и не верят мне, так что я деньги вперед прошу.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Это ты неплохо придумал! А вылечиваешь?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Сотни вылечил.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не разбогател, однако.</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>На добром деле не богатеют.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вон как ты? От каких же болезней вылечиваешь?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Все болезни одинаково происходят по причине дурного воздуха в животе, так что я ото
+              всех лечу...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(усмехаясь).</stage>
+            <p>Храбро! Ну-ко, покажи трубу-то...</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Рубль заплатить можете?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Рубль? Найдется. Глаха – есть у тебя? Получи. Дешево берешь.</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Это – для начала.</p>
+            <stage type="delivery">(Развязал мешок, вытащил басовую трубу.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Шура прибежала.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Самовар какой... Шурок, – хорош целитель? А ну-ко, подуй!</p>
+          </sp>
+          <stage>Трубач откашлялся, трубит, не очень громко, кашляет.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Это и – все?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Четыре раза в сутки по пяти минут, и – готово!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Выдыхается человек? Умирает?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Никогда! Сотни вылечил!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Так. Ну, а теперь скажи правду; ты – кем себя считаешь – дураком или жуликом?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <stage type="delivery">(вздохнув).</stage>
+            <p>Вот и вы не верите, как все.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(посмеиваясь).</stage>
+            <p>Ты – не прячь трубу-то! Говори прямо: дурак или жулик? Денег дам!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не надо обижать его, папа!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я не обижаю, Шурок! Тебя как звать, лекарь?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Гаврила Увеков...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Гаврило?</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>Ох, черт... Неужто – Гаврило?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Имя очень простое... никто не смеется!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Так – ты кто же: глупый или плут?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Шестнадцать рублей дадите?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Глаха, – принеси! В спальне... Почему шестнадцать, Гаврило?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Ошибся! Надо было больше спросить.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Значит – глупый ты?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Да нет, я не дурак...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Стало быть – жулик?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Да и не жулик... Сами знаете: без обмана – не проживешь.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вот это – верно! Это, брат, нехорошо, а – верно.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Разве не стыдно обманывать?</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>А почему стыдно, если верят?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(возбужденно).</stage>
+            <p>И это – правильно! Понимаешь, Шурка? Это – правильно! А поп Павлин эдак не скажет! Он
+              – не смеет!</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>За правду мне прибавить надо. И – вот вам крест! – некоторым труба помогает.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Верю, – двадцать пять дай ему, Глаха. Давай еще. Давай все!</p>
+          </sp>
+          <sp who="#Trubach">
+            <speaker>Трубач</speaker>
+            <p>Вот уж... покорно благодарю... Может, попробуете трубу-то? Пес ее знает... как она, а
+              ей-богу – действует!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Нет, спасибо! Ах, ты, Гаврило, Гаврило!</p>
+            <stage type="delivery">(Смеется.)</stage>
+            <p>Ты... вот что, ты покажи, как она... Ну-ко – действуй! Да – потолще!</p>
+            <stage>Трубач напряженно и оглушительно трубит. Глафира смотрит на Булычова тревожно.
+              Шура, зажав уши, смеется.</stage>
+            <p>Сади во всю силу!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Вбегают Достигаевы, Звонцовы, Башкин, Ксения.</stage>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Что это такое, папаша?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Егор, что ты еще затеял?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <stage type="delivery">(Трубачу).</stage>
+            <p>Ты пьяный?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не тронь! Не смей! Глуши их, Гаврило! Это же Гаврило-архангел конец миру
+              трубит!..</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ой, ой, помешался...</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <stage type="delivery">(Звонцову).</stage>
+            <p>Вот видите?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Папа, ты слышишь? Они говорят – с ума сошел ты! Уходите, трубач, уходите!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не надо! Глуши, Гаврило! Светопреставление! Конец миру... Труби-и!..</p>
+          </sp>
+          <stage>Занавес</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Третий акт</head>
+        <stage>Столовая. Все в ней кажется сдвинутым со своих мест. На столе неубранная посуда,
+          самовар, пакеты из магазина, бутылки. В углу чемоданы, один из них разбирает монастырская
+          служка Таисья в острой шлычке, около нее – Глафира, с подносом в руке. Над столом горит
+          лампа.</stage>
+        <div type="configuration">
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>А надолго мать Мелания к нам?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Не знаю я.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Почему она у себя на подворье не остановилась?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Не знаю.</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Тебе сколько лет?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Девятнадцать.</p>
+          </sp>
+          <stage>Звонцов на лестнице.</stage>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>А ничего не знаешь! Что ты – дикая какая?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Нам с мирскими не велят говорить.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Игуменья пила чай?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Нет.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Возьми, подогрей самовар, на всякий случай.</p>
+            <stage>Глафира уходит, взяв самовар.</stage>
+            <p>Что там вас – солдаты напугали?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Солдаты-с.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Чем же они напугали?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Корову зарезали, пригрозили поджечь монастырь. Простите.</p>
+            <stage type="delivery">(Ушла, унося груду белья.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <stage type="delivery">(из прихожей).</stage>
+            <p>Слякоть какая! Ты тут с монашенкой беседуешь?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Присутствие игуменьи в нашем доме неудобная штука, знаешь ли?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Дом еще не наш... Что, Тятин согласился?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Тятин – осёл или притворяется честным.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Подожди. Кажется, отец кричит...</p>
+            <stage type="delivery">(Слушает у двери в комнату отца.)</stage>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Хотя доктора и утверждают, что он – в своем уме, но после этой дурацкой сцены с
+              трубой...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Он и не такие сцены разыгрывал, хуже бывало. Между Александрой и Тятиным наладились,
+              кажется, приятельские отношения?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Да, но – ничего хорошего я в этом не вижу. Сестрица твоя хитрая штучка, от нее можно
+              ожидать... весьма серьезных неприятностей.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Жаль, что ты не сообразил этого, когда она кокетничала с тобой. Впрочем, это тебе
+              было приятно.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Кокетничала она со мной, чтобы позлить тебя.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ты огорчен? Ну, Павлин лезет. Повадился!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Духовенства – избыток у нас.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Входят, споря, Елизавета, Павлин, затем – Мокей.</stage>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Газеты же, по обыкновению, лгут! Добрый вечер!</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>А я вам говорю, что это неправда!</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Установлено вполне точно: государь отказался от престола не по доброй воле, а под
+              давлением насилия, будучи пойман на дороге на Петроград членами кадетской партии...
+              Да-с!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Что же отсюда следует?</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>Отец Павлин – против революции и за войну, а я – против войны! Я хочу в Париж...
+              Довольно воевать! Ты согласна, Варя? Помнишь, как сказал Анри-катр: «Париж лучше
+              войны». Я знаю, что он не так сказал, но – он ошибся.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Не настаиваю ни на чем, ибо все колеблется.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Нужен мир, мир, отец Павлин! Вы видите, как ведет себя чернь?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Ох, вижу! А что наш больной? Как с этой стороны?</p>
+            <stage type="delivery">(Прижимает палец к переносью.)</stage>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Доктора не нашли признаков расстройства.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Это – приятно! Хотя доктора безошибочно находят токмо одни гонорары.</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>Какой вы злой! Варя, Жанна приглашает нас ужинать.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Арестованных выпустили, а полиция страдает.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Да, да... Удивительно! Чего хорошего ожидаете вы от событий, Андрей Петрович, а?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Общественные силы организуются закономерно и скоро скажут свое слово. Под
+              общественными силами я разумею людей, которые обладают прочным экономическим...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Слушай-ко, Жанна приглашает нас...</p>
+            <stage type="delivery">(Отводит его в сторону, шепчет.)</stage>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Ну, знаешь, это меня ставит не очень удобно! С одной стороны – игуменья, с другой –
+              кокотка...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Да – тише ты!</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Андрей Петрович, тут – Мокроусов, – знаете, помощник пристава?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Да. Что ему надо?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Он службу бросает по причине опасности и просится к нам, в лес.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Удобно ли это?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Подожди, Андрей...</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Очень удобно. Лаптев теперь загнет хвост и бунтовать будет. Донат – сами знаете –
+              человек неподходящий и тоже сектант, все о законе правды бормочет, а уж какая тут
+              правда, когда... сами видите!</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Ну, это чепуха! Мы присутствуем именно при начале торжества правды...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Да подожди же, Андрей.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>И справедливости.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Вы чего хотите, Мокей?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Я – чтобы нанять Мокроусова. Егор Васильевичу я предлагал.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Что же он?</p>
+          </sp>
+          <stage>Звонцов, нахмурясь, отошел прочь.</stage>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Определенно не высказался.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Возьмите Мокроусова.</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Может – взглянете на него?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Зачем же?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Для знакомства. Он – здесь.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Ну, хорошо...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Башкин идет в прихожую. Варвара пишет что-то в записной книжке. Башкин возвращается
+            с Мокроусовым ; это – человечек круглолицый, брови удивленно подняты, на лице –
+            улыбочка, но кажется, что хочет крепко выругаться. В полицейской форме, на боку –
+            револьвер, шаркает ножкой.</stage>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Честь имею представиться. Глубоко благодарен за честь служить.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Очень рада. Вы даже в форме, а я слышала, что полицию разоружают.</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Совершенно верно, в естественном виде нам по улице ходить опасно, так что я – в
+              штатском пальто, хотя при оружии. Но сейчас, по случаю возбуждения неосновательных
+              надежд, чернь несколько приутихла, и потому... без шашки.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Когда вы думаете начать службу у нас?</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Мысленно – я уже давно покорный ваш слуга. В лес готов отправиться хоть завтра, я
+              одинок и...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Вы думаете, надолго это – этот бунт?</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Полагаю – на все лето. Потом наступят дожди, морозы, и шляться по улицам будет
+              неудобно.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <stage type="delivery">(усмехаясь).</stage>
+            <p>Только на лето? Едва ли революция зависит от погоды.</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Помилуйте! А как же! Зима – охлаждает.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <stage type="delivery">(усмехаясь).</stage>
+            <p>Вы – оптимист.</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Полиция – вообще оптимисты.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Вот как!</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Именно-с. Это от сознания силы-с.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Вы служили в армии?</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <p>Так точно. В бузулукском резервном батальоне, имею чин подпоручика.</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <stage type="delivery">(подавая руку).</stage>
+            <p>Ну, желаю вам всего хорошего.</p>
+          </sp>
+          <sp who="#Mokrousov">
+            <speaker>Мокроусов</speaker>
+            <stage type="delivery">(целуя руку).</stage>
+            <p>Сердечно тронут.</p>
+            <stage type="delivery">(Ушел, пятясь задом, притоптывая.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <stage type="delivery">(Башкину).</stage>
+            <p>Кажется, он – дурак?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Это – не грех. Умники-то – вон они как... Им дай волю, так они землю наизнанку
+              вывернут... Как – вроде – карман.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <stage type="delivery">(Башкину, Елизавете).</stage>
+            <p>Духовенству обязательно нужно дать право свободной проповеди, иначе – ничего не
+              получится!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Глафира, Шура выводят под руки Булычова. Все замолчали, смотря на него; он
+            хмурится.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну? Что молчите? Бормотали, бормотали...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Поражены внезапностью...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Что?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Зрелище человека ведомого...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ведомого! Ноги у человека отнимаются, вот его и ведут! Ведомого... Мокей – Яшутку
+              освободили?</p>
+          </sp>
+          <sp who="#Bashkin">
+            <speaker>Башкин</speaker>
+            <p>Да. Всех арестантов освободили.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Политических.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Якову Лаптеву свобода, а царя – под арест! Вот как, отец Павлин! Что скажешь, а?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Неискушен в делах этих... но – по малому разумению моему – сначала осведомился бы,
+              что именно намерены говорить и делать эти лица...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Царя выбирать. Без царя – перегрызетесь вы все...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Воодушевленное лицо у вас сегодня, очевидно – преодолеваете недуг?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вот, вот... преодолеваю! Вы, супруги, и ты, Мокей, оставьте-ко нас, меня с Павлином.
+              Ты, Шуренок, не уходи.</p>
+          </sp>
+          <stage>Башкин ушел в прихожую. Звонцовы и Достигаевы – наверх. Минуты через две Варвара,
+            сойдя до половины лестницы, слушает.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты – ляг.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не хочу. Ну что, отец Павлин, ты насчет колокола – что ли?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Нет, заглянул в надежде увидеть вас в лучшем положении, в чем и не ошибся. Но,
+              конечно, памятуя щедрые и великодушные в прошлом деяния ваши, направленные к
+              благолепию града сего и храма...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Плохо ты молишься за меня, мне вот все хуже. И неохота платить богу. За что
+              платить-то? Плачено немало» а толку нет.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Жертвы ваши...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Постой! Есть вопрос: как богу не стыдно? За что смерть?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не говори о смерти, не надо!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты – молчи! Ты – слушай. Это я – не о себе.</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Напрасно раздражаете себя такими мыслями. И что значит смерть, когда душа
+              бессмертна?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А зачем она втиснута в грязную-то, тесную плоть?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Вопрос этот церковь считает не токмо праздным, но и...</p>
+          </sp>
+          <stage>Варвара – на лестнице – смеется, прижав платок ко рту.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты – не и́кай! Говори прямо. Шура, – трубача помнишь, а?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>В присутствии Александры Егоровны...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Это – брось! Ей – жить, ей – знать! Я вот жил-жил, да и спрашиваю: ты зачем
+              живешь?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Служу во храме...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Знаю я, знаю – служишь! А ведь придется тебе умирать. Что это значит? Что значит –
+              смерть нам, – Павлин?</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Вопрошаете... нелогично и бесплодно! И – простите! Но уже не о земном надо бы...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не смейте так говорить!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я – земной! Я – насквозь земной!</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <stage type="delivery">(встает).</stage>
+            <p>Земля есть прах...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Прах? Так, вы, мма... Так вы это, что земля – прах, сами должны понять! Прах, а –
+              ряса шелковая на тебе. Прах, а – крест золоченый! Прах, а – жадничаете...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Злое и пагубное творите в присутствии отроковицы...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>От рукавицы, от рукавицы...</p>
+            <stage>Варвара быстро ушла наверх.</stage>
+            <p>Обучают вас, дураков, как собак на зайцев... Разбогатели от нищего Христа...</p>
+          </sp>
+          <sp who="#Pavlin">
+            <speaker>Павлин</speaker>
+            <p>Озлобляет вас болезнь, и, озлобляясь, рычите, подобно вепрю...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Уходишь? Ага...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Напрасно ты волнуешься, от этого хуже тебе. Какой ты... неугомонный...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ничего! Жалеть – нечего! Ух, не люблю этого попа! Ты – гляди, слушай, я нарочно
+              показываю...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Я сама все вижу... не маленькая, не дура!</p>
+          </sp>
+          <stage>Звонцов на лестнице.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Они, после трубача, решили, что я с ума сошел, а доктора говорят: врете! Ты ведь
+              докторам веришь, Шура? Докторам-то?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Я тебе верю... тебе...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, то-то! Нет, у меня разум в порядке! Доктора – знают. Действительно, я наткнулся
+              на острое. Ну, ведь всякому... интересно; что значит – смерть? Или, например, жизнь?
+              Понимаешь?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Не верю я, что ты сильно болен. Тебе надо уехать из дома. Глафира верно говорит! Надо
+              лечиться серьезно. Ты – никого не слушаешь.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Всех слушаю! Вот знахарку попробуем. Вдруг – поможет? Ей бы пора прийти. Грызет меня
+              боль... как тоска!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Перестань, милый! Не надо, родной мой! Ты – ляг...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Лежать – хуже. Лег – значит – сдался. Это – как в кулачном бою. И – хочется мне
+              говорить. Мне надо тебе рассказать. Понимаешь... какой случай... не на той улице я
+              живу! В чужие люди попал, лет тридцать все с чужими. Вот чего я тебе не хочу! Отец мой
+              плоты гонял. А я вот... Этого я тебе не могу выразить.</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты говори тише, спокойнее... Говори, как, бывало, сказки мне рассказывал.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я тебе – не сказки, я тебе всегда правду говорил. Видишь ли... Попы, цари,
+              губернаторы... на кой черт они мне надобны? В бога – я не верю. Где тут бог? Сама
+              видишь... И людей хороших – нет. Хорошие – редки, как... фальшивые деньги! Видишь,
+              какие все? Вот они теперь запутались, завоевались... очумели! А – мне какое дело до
+              них? Булычову-то Егору – зачем они? И тебе... ну, как тебе с ними жить?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты не беспокойся обо мне...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <stage type="delivery">(идет).</stage>
+            <p>Александра, к тебе Тоня с братом пришла и этот...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Подождут.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>А ты – иди-ко! Мне с отцом поговорить надо...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А мне – надо?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Вы – не очень много – говорите...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Учи, учи меня! Егор Васильевич – Зобунова пришла...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Шурок, ты потом веди их сюда, молодежь-то... Ну, давай Зобунову!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Сейчас. Я хочу сказать, что Лександра подружилась с прощелыгой этим, с двоюродным
+              братом Андрея. Сам понимаешь: это ей не пара. Одного нищего приютили мы, так он – вон
+              как командует.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ты, Аксинья, совсем... как дурной сон, – право!</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Бог с тобой, обижай! Ты бы запретил ей амурничать с Тятиным-то.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>А еще что?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Мелания у нас...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Зачем?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Несчастие с ней. Солдаты беглые напали на обитель, корову зарезали, два топора
+              украли, заступ, связку веревок, вон что делается! А Донат, лесник наш, нехороших людей
+              привечает, живут они в бараке, на лесорубке...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Заметно, что ежели какой человек приятен мне, так он уж никому не приятен.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ты бы помирился с ней...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>С Маланьей? Зачем?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Да – как же? Здоровье твое...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ладно. Давай... помирюсь! Я ей скажу: «И остави нам долги наша».</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ты – поласковее.</p>
+            <stage type="delivery">(Ушла.)</stage>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(бормочет).</stage>
+            <p>«И остави нам долги...» «Яко же и мы оставляем...» Кругом вранье... Ох, черти...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Папаша! Я слышала, как мать говорила о Степане Тятине...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Да... Ты – все слышишь, все знаешь...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Тятин – скромный человек, он не потребует большого приданого за Александрой и очень
+              хорошая пара для нее.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Заботливая ты...</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Я присмотрелась к нему...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>О ком ты заботишься? Эх вы... черти домашние!</p>
+            <stage>Идут Мелания, Ксения, в дверях остановилась служка Таисья.</stage>
+            <p>Ну что, Малаша? Помиримся, что ли?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>То-то. Воин! Обижаешь всех... ни за что ни про что...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>«И остави нам долги наша» – Малаша!</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Не о долгах речь. Не озоруй! Вон какие дела-то начались. Царя, помазанника божия,
+              свергли с престола. Ведь это – что значит? Обрушил господь на люди своя тьму смятения,
+              обезумели все, сами у себя под ногами яму роют. Чернь бунтуется. Копосовские бабы в
+              лицо мне кричали, мы, дескать, народ! Наши мужья, солдаты – народ! Каково? Подумай,
+              когда это солдаты за народ считались?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Это вот все Яков Лаптев доказывает...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Губернатора власти лишили, а на место его нотариус Осмоловский посажен...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Тоже толстый.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Вчера владыко Никандр говорил: «Живем накануне происшествий сокрушительных; разве,
+              говорит, штатская власть возможна? От времен библейских народами управляла рука,
+              вооруженная мечом и крестом...»</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>В библейские времена кресту не поклонялись...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>А ты помолчи, умница... евангелие-то в одном переплете с библией. А крест есть – меч!
+              Туда же! Владыко-то лучше тебя знает, когда чему поклонялись. Вы, честолюбцы,
+              радуетесь падению престола. Не обернулась бы радость в горькие вам слезы. Егорушко,
+              мне с тобой надо бы глаз на глаз поговорить...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Эдак – опять поругаемся мы с тобой? Однако – можно и поговорить, ну – после! Сейчас
+              лекариха придет. Выздороветь хочется мне, Малаша!</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Зобунова – лекариха знаменитая. Докторам – далеко до нее! А потом ты бы с блаженным
+              Прокопием поговорил...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Это – которого мальчишки Пропотеем зовут? Жулик он, говорят?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ну, что ты, что ты! Как это можно! Ты прими-ко его...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Можно и Пропотея. Мне сегодня что-то лучше... Только вот ноги... Веселее будто. Все
+              что-то смешно... смешным кажется! Зови знахарку, Аксинья.</p>
+          </sp>
+          <stage>Ксения ушла.</stage>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Эх, Егорий... много еще в тебе... осталось!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вот то-то и есть, что много...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p> [</p>
+            <stage type="delivery">(входя)</stage>
+            <p>]. Она говорит, чтобы все ушли...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ну, надо уйти...</p>
+          </sp>
+          <stage>Все ушли. Булычов, усмехаясь, гладит бок, грудь. Входит Зобунова. Незаметно, однако
+            так, чтобы было замечено, она, кривя рот, дует в правую сторону от себя, правая рука
+            прижата к сердцу, а ладонью левой, как рыбьим плавником, отмахивается. Остановилась,
+            провела правой рукой по лицу.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Это ты – чертям молишься?</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <stage type="delivery">(певуче).</stage>
+            <p>Ой вы, злые недуги, телесные печали! Отвяжитесь, откачнитесь, от раба божия
+              удалитесь! В сей день, в сей час, отгоняю вас по всю жизнь крепким моим словом во веки
+              веков! Здравствуйте, благомилостивый человек, по имени Егорий!..</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Здравствуй, тетка! Это ты чертей отгоняла?</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Что ты, роженый, разве с ними можно дело иметь?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Надо, так можно! Богу – попы молятся, а ты – не поп, ты должна – чертям.</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Ну, что это какие страхи ты говоришь! Про меня только глупые рассказывают, будто я с
+              нечистой силой знаюсь.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну, тогда у тебя, тетка, толка не будет! Попы богу за меня молились, бог – отказался,
+              не помогает мне!</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Это ты шутишь, дорогой человек, это ты потому, что не веришь мне.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я бы поверил, если бы ты от чертей пришла. Ты ведь, конечно, знаешь, слышала; я
+              распутный, с людьми – жестокий, до денег – жадный...</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Слыхала, да не верю, что ты пожалеешь дать мне добрую денежку.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я, тетка, великий грешник, и богу дела нет до меня. Отрекся бог от Егора Булычова.
+              Так что, если ты с чертями не знакома, – иди, выкидыши девкам делать! Это – твое
+              ремесло, так?</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Ой, верная слава про тебя, что ты – напористый, озорной человек!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Ну? Чего соврать хочешь? Валяй!</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Врать не обучена. Ты скажи-ко мне: что у тебя болит, как болит, где?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Живот. Сильно болит. Вот здесь.</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Видишь ли... только ты не говори никому, ни-ни!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не скажу. Не бойся.</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Есть недуги – желтые и есть – черные. Желтый недуг – его и доктор может вылечить, а –
+              черный – ни поп, ни монах не замолят! Черный – это уже от нечистой силы, и против него
+              – одно средство...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Сразу: пан или пропал? Так?</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Средство это – дорогое!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Конечно! Понимаю.</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Тут действительно с нечистой силой надобно дело иметь.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>С самим сатаной?</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Ну, не прямо с ним, а все-таки...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Можешь?</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Только ты – никому ни словечка...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Иди к чертям, тетка!</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Погоди-ко...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Иди прочь, а то ушибу...</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Ты послушай-ко...</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <stage type="delivery">(из прихожей).</stage>
+            <p>Тебе сказано – уходи!</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Что это вы какие...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Гони ее, гони!</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Туда же, ведьмой притворяешься!</p>
+          </sp>
+          <sp who="#Zobunova">
+            <speaker>Зобунова</speaker>
+            <p>Ты сама – ведьма! Ишь рожа-то... Эх вы... Ни сна вам, ни покоя!</p>
+          </sp>
+          <stage>Ушли.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(оглядывается, вздыхает).</stage>
+            <p>Ф-фу...</p>
+          </sp>
+          <stage>Входят Мелания, Ксения.</stage>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Не понравилась Зобунова, не угодила?</p>
+          </sp>
+          <stage>Булычов молчит, глядя на нее.</stage>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Она – тоже нравная. Захвалена, зазналась.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Малаша, – как думаешь: у бога живот болит?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>А ты – не дури...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>У Христа, наверное, болел. Христос рыбой питался...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Перестань, Егор. Что ты меня дразнишь?</p>
+          </sp>
+          <sp who="#Glafira">
+            <speaker>Глафира</speaker>
+            <p>Она денег просит за беспокойство.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Дай, Аксинья! Ты, Малаша, извини, я – устал, пойду к себе. С дураками – хуже всего
+              устаешь. Ну-ко, Глаха, помоги...</p>
+          </sp>
+          <stage>Глафира уводит его. Возвратилась Ксения, вопросительно смотрит на сестру.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Притворяется он сумасшедшим. Притворяется...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ой ли? Где уж ему...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Это – ничего! Пусть играет. Это против него же обернется, если духовное-то завещание
+              судом оспаривать надо будет. Таисья будет свидетельницей, Зобунова, отец Павлин,
+              трубач этот, да мало ли? Докажем, что завещатель не в своем уме был...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ох, уж не знаю, как тут быть...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Вот я тебя и учу! Эх ты... Выскочила замуж! Я тебе говорила – выходи за Башкина.</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ну... Когда это было! А он-то какой был орел... Ты сама завидовала.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Я? Ты что? Очумела?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Ну, что уж вспоминать...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Господи, помилуй! Завидовала! Я?</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Как – Прокофья-то? Может – не надо?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Почему это – не надо? Призвали, уговорились и – вдруг не надо! Ты – не мешай мне! Иди
+              приготовь его да приведи. Таисья!</p>
+            <stage>Таисья выходит из прихожей.</stage>
+            <p>Ну, что?</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Ничего не узнала я.</p>
+          </sp>
+          <stage>Ксения ушла.</stage>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Почему?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Не говорит она ничего.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Как это – не говорит? Ты должна была выспросить.</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Выспрашивала я, а она – фыркает, будто – кошка. Ругает всех.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Как ругает?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Жуликами.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>За что же она?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>С ума, говорит, хотите свести человека...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Это она тебе сказала?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Нет, Пропотею, блаженному.</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>А он – что?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Он все прибаутки говорит...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Прибаутки?.. Ах ты... лапоть! Он – блаженный, прорицает, дура! Сядь в прихожей, не
+              уходи никуда... В кухне был еще кто-нибудь?</p>
+          </sp>
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Мокей...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ну, ступай.</p>
+            <stage type="delivery">(Подходит к дверям комнаты Булычова, стучит.)</stage>
+            <p>Егорий, блаженный пришел.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Идет, сопровождаемый Ксенией и Башкиным, Пропотей, в лаптях, в длинной, до
+            щиколоток, холщовой рубахе, со множеством медных крестов и образков на груди.
+            Страховиден: густые, встрепанные волосы, длинная, узкая, редкая борода, движения резки и
+            судорожны.</stage>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <p>Ух, накурено! Душа задыхается...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Тут, батюшка, никто не курит.</p>
+          </sp>
+          <stage>Пропотей гудит, подражая зимнему ветру.</stage>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ты – погоди, дай выйти...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(его ведет под руку Глафира).</stage>
+            <p>Ишь ты, какой... явился!</p>
+          </sp>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <p>Не бойся. Не страшись.</p>
+            <stage type="delivery">(Гудит.)</stage>
+            <p>Все тлен, все пройдет! Жил Гриша, лез выше, стукнулся в потолок, – черт его и
+              уволок.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Это – про Распутина, что ли?</p>
+          </sp>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <p>Вот – низвергнут царь, и погибает царство, иде же царствует грех, смерть и смрад!
+              Гудит метелица, гудит распутица.</p>
+            <stage type="delivery">(Гудит. Указывая посохом на Глафиру.)</stage>
+            <p>Дьявол во образе женском рядом с тобой – отгони.</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Я те отгоню! Болтай, да знай меру. Маланья, это ты, что ли, обучила его?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Что выдумываешь? Разве безумного можно научить?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Похоже, что можно...</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>С лестницы бежит Шура, за нею Антонина, Тятин. Постепенно сверху спускаются
+            Звонцовы, Достигаевы. Пропотей молча чертит палкой в воздухе и на полу. Стоит задумчиво,
+            опустив голову.</stage>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(подбегая к отцу).</stage>
+            <p>Это что еще? Что за представление?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>А ты – молчи!</p>
+          </sp>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <stage type="delivery">(как бы с трудом).</stage>
+            <p>Не спит еретик, а часики – тик да тик!.. Кабы – бог... да – кабы мог... да я – не
+              плох, да, да! А – чья беда? Играй, сатана, тебе – воля дана! Стукнула полночь... спел
+              петух ку-ка-ре-ку... тут – конец еретику...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Складно тебя научили...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Не мешай, Егор, не мешай!..</p>
+          </sp>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <p>Что делать будем?.. Что скажем людям?</p>
+          </sp>
+          <sp who="#Antonina">
+            <speaker>Антонина</speaker>
+            <stage type="delivery">(с сожалением).</stage>
+            <p>Он – не страшный... Нет!</p>
+          </sp>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <p>Убили гниду – поют панихиду. А может, плясать надо? Ну-ко, спляшем и нашим и
+              вашим!</p>
+            <stage type="delivery">(Притоптывает, напевая, сначала – негромко, затем все более
+              сильно, и – пляшет.)</stage>
+            <p>Астарот, Сабатан, Аскафат, Идумей, Неумней. Не умей, карра тили – бом, бом, бейся в
+              стену лбом, лбом! Эх, юхала, юхала, ты чего нанюхала? Дыб-дыб, дым, дым! Сатана играет
+              им! Згин-гин-гин, он на свете один, его ведьма Закатама в свои ляжки закатала! От
+              греха, от блуда не денешься никуда! Вот он, Егорий, родился на горе...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(кричит).</stage>
+            <p>Прогоните его!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Вы что... черт вас... испугать меня хотите?</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Надо прекратить это безобразие...</p>
+          </sp>
+          <stage>Глафира подбегает к Пропотею, он, не переставая кружиться, замахнулся на нее
+            палкой.</stage>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <p>Их, эх, ох, ах! ух-чух, злой дух...</p>
+          </sp>
+          <stage>Тятин вырвал палку из руки Пропотея.</stage>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Да ты – что? Да ты – кто?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Отец, прогони всех... Что ты молчишь?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(машет руками).</stage>
+            <p>Погоди... погоди...</p>
+          </sp>
+          <stage>Пропотей сел на пол, гудит, взвизгивает.</stage>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Его – нельзя трогать! Он – в наитии... в восторге!</p>
+          </sp>
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <p>За такие восторги, мать Меланья, по шее бьют.</p>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Вставай и уходи... живо!</p>
+          </sp>
+          <sp who="#Propotej">
+            <speaker>Пропотей</speaker>
+            <p>А – куда?</p>
+            <stage type="delivery">(Гудит.)</stage>
+          </sp>
+          <stage>Ксения плачет.</stage>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>Как это он ловко... в два голоса!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Идите... прочь, все! Нагляделись...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <stage type="delivery">(топая на блаженного).</stage>
+            <p>Уходи, урод! Степа – выгоните его!</p>
+          </sp>
+          <sp who="#Tjatin">
+            <speaker>Тятин</speaker>
+            <stage type="delivery">(берет Пропотея за шиворот).</stage>
+            <p>Идем, святой... вставай!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#Taisja">
+            <speaker>Таисья</speaker>
+            <p>Он сегодня не больно страшно... он гораздо страшнее умеет это делать. Кабы ему вина
+              дали...</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Ты – что болтаешь?</p>
+            <stage type="delivery">(Бьет ее по щеке.)</stage>
+          </sp>
+          <sp who="#Zvontsov">
+            <speaker>Звонцов</speaker>
+            <p>Как вам не стыдно?</p>
+          </sp>
+          <sp who="#Melanija">
+            <speaker>Мелания</speaker>
+            <p>Кого? Тебя стыдно?</p>
+          </sp>
+          <sp who="#Varvara">
+            <speaker>Варвара</speaker>
+            <p>Успокойся, тетя...</p>
+          </sp>
+          <sp who="#Ksenija">
+            <speaker>Ксения</speaker>
+            <p>Господи... Ну, что же это?</p>
+          </sp>
+          <stage>Шура и Глафира укладывают Булычова на диван, Достигаев внимательно рассматривает
+            его. Звонцовы уводят Ксению с Меланией.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#Dostigaev">
+            <speaker>Достигаев</speaker>
+            <stage type="delivery">(жене).</stage>
+            <p>Едем домой, Лиза, домой! Булычов – нехорош! Весьма... И демонстрация идет... Надобно
+              примкнуть.</p>
+          </sp>
+          <sp who="#Elizaveta">
+            <speaker>Елизавета</speaker>
+            <p>Как это он гудел, а? Ничего подобного не воображала...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <stage type="delivery">(Шуре).</stage>
+            <p>Все это – игуменья придумала...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Тебе нехорошо?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Она... Вроде панихиды... по живому...</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Скажи – нехорошо тебе? Послать за доктором?</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Не надо. А насчет царства паяц этот от себя махнул... Кабы – бог да кабы мог, –
+              слышала? Не может!</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Все это надобно забыть...</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Забудем! Ты взгляни – как, что они там... Глафиру не обидели бы... Чего на улице
+              поют?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Ты не вставай!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>И погибнет царство, где смрад. Ничего не вижу...</p>
+            <stage type="delivery">(Встал, держась за стол, протирает глаза.)</stage>
+            <p>Царствие твое... Какое царствие? Звери! Царствие... Отче наш... Нет... плохо! Какой
+              ты мне отец, если на смерть осудил? За что? Все умирают? Зачем? Ну, пускай – все! А я
+              – зачем?</p>
+            <stage type="delivery">(Покачнулся.)</stage>
+            <p>Ну? Что, Егор?</p>
+            <stage type="delivery">(Хрипло кричит.)</stage>
+            <p>Шура... Глаха – доктора! Эй... кто-нибудь, черти! Егор... Булычов... Егор!..</p>
+          </sp>
+          <stage>Шура, Глафира, Тятин, Таисья, – Булычов почти падает навстречу им.</stage>
+        </div>
+        <div type="configuration">
+          <stage>За окнами – густо поют. Глафира, Тятин поддерживают Булычова. Шура – бежит к окну,
+            открывает его, врывается пение.</stage>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Чего это? Панихида... опять отпевают! Шура! Кто это?</p>
+          </sp>
+          <sp who="#Shura">
+            <speaker>Шура</speaker>
+            <p>Иди сюда, иди... смотри!</p>
+          </sp>
+          <sp who="#Bulychov">
+            <speaker>Булычов</speaker>
+            <p>Эх, Шура...</p>
+          </sp>
+          <stage>Занавес</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

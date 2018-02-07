@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ru">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ru">Лакейская</title>
+        <title type="main" xml:lang="en">The Servants' Hall</title>
+        <title type="sub"/>
+        <author key="Wikidata:Q43718">Гоголь, Николай Васильевич</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="RusDraCor">RusDraCor</publisher>
+        <idno type="URL">https://dracor.org/rus/gogol-lakeiskaja</idno>
+        <idno type="RusDraCor">56</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/legalcode">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Интернет-библиотека Алексея Комарова</name>
+          <idno type="URL">http://ilibrary.ru/text/1555/index.html</idno>
+          <availability>
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/deed.ru">Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Н. В. Гоголь. Собрание сочинений в 9 т. Т. 4 Повести. М.: Русская книга,
+              1994.</title>
+            <date type="print" when="1842">"1842 год" (Wikipedia)</date>
+            <date type="premiere"/>
+            <date type="written" when="1840">"1839–1840 гг." (ilibrary)</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Grigorij" sex="MALE">
+            <persName>Григорий</persName>
+            <persName xml:lang="de">Grigorij</persName>
+            <persName xml:lang="en">Grigorij</persName>
+          </person>
+          <person xml:id="Petr" sex="MALE">
+            <persName>Петр</persName>
+            <persName xml:lang="de">Petr</persName>
+            <persName xml:lang="en">Petr</persName>
+          </person>
+          <person xml:id="Ivan" sex="MALE">
+            <persName>Иван</persName>
+            <persName xml:lang="de">Ivan</persName>
+            <persName xml:lang="en">Ivan</persName>
+          </person>
+          <person xml:id="ChuzhojSluga" sex="MALE">
+            <persName>Чужой слуга</persName>
+            <persName type="variant">Чужой лакей</persName>
+            <persName xml:lang="de">Fremder Diener</persName>
+            <persName xml:lang="en">Servant-stranger</persName>
+          </person>
+          <person xml:id="Barin" sex="MALE">
+            <persName>Барин</persName>
+            <persName xml:lang="de">Herr</persName>
+            <persName xml:lang="en">Master</persName>
+          </person>
+          <person xml:id="GospodinVShube" sex="MALE">
+            <persName>Господин в шубе</persName>
+            <persName xml:lang="de">Herr im Pelz</persName>
+            <persName xml:lang="en">Gentleman in fur coat</persName>
+          </person>
+          <person xml:id="Devushka" sex="FEMALE">
+            <persName>Девушка</persName>
+            <persName xml:lang="de">Zofe</persName>
+            <persName xml:lang="en">Servant girl</persName>
+          </person>
+          <person xml:id="PuzatyjDvoretskij" sex="MALE">
+            <persName>Пузатый дворецкий</persName>
+            <persName xml:lang="de">Der dicke Haushofmeister</persName>
+            <persName xml:lang="en">The pot-bellied majordomo</persName>
+          </person>
+          <person xml:id="Annushka" sex="FEMALE">
+            <persName>Аннушка</persName>
+            <persName xml:lang="de">Annuška</persName>
+            <persName xml:lang="en">Annuška</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="#ds">converted from source</change>
+        <change who="#to">gender</change>
+        <change who="#ff" when="2017-11-07">unify some IDs; formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="scene">
+        <head>I</head>
+        <stage>Театр представляет переднюю. Направо дверь на лестницу, налево — в зал. На заднем
+          занавесе дверь, несколько сбоку — в кабинет. До самых дверей во всю стену длинная скамья.
+          Петр, Иван и Григорий сидят на ней и спят, уткнувши головы один другому в плечо. В дверях
+          с лестницы звенит громкий звонок. Лакеи пробуждаются.</stage>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Ступай отвори дверь! звонят!</p>
+        </sp>
+        <sp who="#Petr">
+          <speaker>Петр.</speaker>
+          <p>Да ты что сидишь? На ногах у тебя пузыри, что ли? встать не можешь?</p>
+        </sp>
+        <sp who="#Ivan">
+          <speaker>Иван</speaker>
+          <stage type="delivery">(махнув рукой).</stage>
+          <p>Ну, уж я пойду, так и быть, отворю!</p>
+          <stage type="delivery">(Отворяя дверь, вскрикивает.)</stage>
+          <p>Это Андрюшка!</p>
+        </sp>
+        <stage>Чужой слуга входит в картузе, в шинели и с узелком в руке.</stage>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>А, московская ворона! Откуда тебя принесло?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой слуга.</speaker>
+          <p>Ах ты, чухонский сын! Побегал бы ты с мое. Вот</p>
+          <stage type="delivery">(подымая узелок)</stage>
+          <p>к цветочнице велела снесть, что на Петербургской. Небось четвертака на извозчика не
+            даст. Да и к вашему тож. Что, спит?</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Кто? медведь? Нет, еще не рычал из берлоги.</p>
+        </sp>
+        <sp who="#Petr">
+          <speaker>Петр.</speaker>
+          <p>Правда ли, что барыня ваша дает вам чулки штопать?</p>
+        </sp>
+        <stage>Все смеются.</stage>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Ну, уж ты, брат, будь теперь штопальница. Уж мы так и звать тебя будем.</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Врешь, а вот же и не штопал никогда.</p>
+        </sp>
+        <sp who="#Petr">
+          <speaker>Петр.</speaker>
+          <p>Да ведь у вас известно: дворовый человек до обеда повар, а после обеда уж он кучер, или
+            лакей, или башмаки шьет.</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Ну так что ж, ремесло другому не помешает. Не сидеть же без дела. Конечно, я и лакей,
+            да и женский портной вместе. И на барыню шью, и на других тоже — копейку добываю. А вы
+            что, ведь вот ничего ж не делаете.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Нет, брат, у хорошего барина лакея не займут работой, на то есть мастеровой. Вон у
+            графа Булкина — тридцать, брат, человек слуг одних; и уж там, брат, нельзя так: «Эй,
+            Петрушка, сходи-ка туды». — «Нет, мол, скажет, это не мое дело; извольте-с приказать
+            Ивану». Вон оно как! Вот оно что значит, если барин хочет жить как барин. А вон ваша
+            пигалица из Москвы приехала — коляска-то орех раскушенный, веревками хвосты лошадям
+            позавязаны.</p>
+        </sp>
+        <stage>Смеются.</stage>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Ну ты, смехун, смехун! Что ж из того, что лежишь весь день? Ведь за то ж ни копейки за
+            душой у тебя нет.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Да на что ж мне твоя копейка? а барин-то зачем? Ведь жалованье-то уж он мне выдаст,
+            хоть я работай или не работай. А копить мне на старость зачем? Что ж за барин, коли уж
+            пенсиона слуге не выдаст за службу?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Что? говорят, ребята бал затеяли?</p>
+        </sp>
+        <sp who="#Petr">
+          <speaker>Петр.</speaker>
+          <p>Да. А ты будешь?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Да ведь что ж этот бал! только, чай, слава, что бал.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Нет, брат, бал будет на всю руку. По целковому жертвуют и больше. Княжой повар дал пять
+            рублей и сам берется стол готовить. Угощенье будет не то что орехи: уж полпуда конфект
+            купили, мороженого тоже...</p>
+        </sp>
+        <stage>Слышен тоненький звонок из барского кабинета.</stage>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Ступай, звонит барин.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Подождет... Лиминацию тоже зажгут. Музыку торговали, только не сошлись — баса нет, а то
+            уж было...</p>
+        </sp>
+        <stage>Слышен звонок из кабинета громче прежнего.</stage>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Ступай! ступай! звонит.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Подождет. Ну, ты сколько даешь?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Да ведь что ж этот бал, ведь это всё так.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Ну, развязывай мошну, ты, штопальница! Вон смотри, Петрушка, на него, какой он...</p>
+        </sp>
+        <stage>Тыкает на него пальцем; в это время отворяется дверь кабинета, и барин, в халате,
+          протянувши руку, схватывает Григория за ухо. Все подымаются с своих мест.</stage>
+      </div>
+      <div type="scene">
+        <head>II</head>
+        <sp who="#Barin">
+          <speaker>Барин.</speaker>
+          <p>Что вы, бездельники? Три человека — и хоть бы один поднялся с своего места? Я звоню что
+            есть мочи, чуть тесьмы не оборвал.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Да ничего не было слышно, сударь.</p>
+        </sp>
+        <sp who="#Barin">
+          <speaker>Барин.</speaker>
+          <p>Врешь!</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Ей-Богу! Что ж мне лгать? Вот Петрушка тоже сидел. Уж это такой колокольчик, судырь,
+            никуды не годится: никогда ничего не слыхать. Нужно будет слесаря позвать.</p>
+        </sp>
+        <sp who="#Barin">
+          <speaker>Барин.</speaker>
+          <p>Ну, так позвать слесаря.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Да я уж сказывал дворецкому. Да ведь что ж? Ему говоришь, а ведь он еще и выбранит за
+            это.</p>
+        </sp>
+        <sp who="#Barin">
+          <speaker>Барин</speaker>
+          <stage type="delivery">(увидя чужого лакея).</stage>
+          <p>Это что за человек?</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Это-с человек от Анны Петровны, зачем-то пришел к вам.</p>
+        </sp>
+        <sp who="#Barin">
+          <speaker>Барин.</speaker>
+          <p>Что скажешь, брат?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Барыня приказала кланяться и доложить, что будут сегодня к вам.</p>
+        </sp>
+        <sp who="#Barin">
+          <speaker>Барин.</speaker>
+          <p>Зачем, не знаешь?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Не могу знать. Они только сказали: «Скажи Федору Федоровичу, что я приказала кланяться
+            и буду к ним».</p>
+        </sp>
+        <sp who="#Barin">
+          <speaker>Барин.</speaker>
+          <p>Да когда, в котором часу?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Не могу знать, в котором часу. Они сказали только, что доложи-де, говорит, Федору
+            Федоровичу, что я, говорит, к ним сама-де буду у них-с...</p>
+        </sp>
+        <sp who="#Barin">
+          <speaker>Барин.</speaker>
+          <p>Хорошо. Петрушка, дай мне поскорей одеться: я иду со двора. А вы — не принимать никого!
+            Слышишь, всем говорить, что меня нет дома!</p>
+          <stage type="delivery">(Уходит; за ним Петрушка.)</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>III</head>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей</speaker>
+          <stage type="delivery">(Григорию).</stage>
+          <p>Ну видишь, ведь вот и досталось.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(махнув рукой).</stage>
+          <p>А! уж служба такая! как ни старайся — всё выбранят.</p>
+          <p>Вот опять какой-то черт лезет.</p>
+          <stage type="delivery">(Ивану.)</stage>
+          <p>Ступай отворяй, что ж ты зеваешь?</p>
+        </sp>
+        <stage>Иван отворяет дверь; входит господин в шубе.</stage>
+      </div>
+      <div type="scene">
+        <head>IV</head>
+        <sp who="#GospodinVShube">
+          <speaker>Господин в шубе.</speaker>
+          <p>Федор Федорович дома?</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Никак нет.</p>
+        </sp>
+        <sp who="#GospodinVShube">
+          <speaker>Господин.</speaker>
+          <p>Досадно. Не знаешь, куда уехал?</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Неизвестно. Должно быть, в департамент. А как об вас доложить?</p>
+        </sp>
+        <sp who="#GospodinVShube">
+          <speaker>Господин.</speaker>
+          <p>Скажи, что был Невелещагин. Очень, мол, жалел, что не застал дома. Слышишь? не
+            позабудешь? Невелещагин.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Лентягин-с.</p>
+        </sp>
+        <sp who="#GospodinVShube">
+          <speaker>Господин</speaker>
+          <stage type="delivery">(вразумительнее).</stage>
+          <p>Невелещагин.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Да вы немец?</p>
+        </sp>
+        <sp who="#GospodinVShube">
+          <speaker>Господин.</speaker>
+          <p>Какой немец! просто русский: Не-ве-ле-ща-гин.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Слышь, Иван, не позабудь; Ердащагин!</p>
+        </sp>
+        <stage>Господин уходит.</stage>
+      </div>
+      <div type="scene">
+        <head>V</head>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Прощайте, братцы, пора уж и мне.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Да что ж — на бал будешь, что ли?</p>
+        </sp>
+        <sp who="#ChuzhojSluga">
+          <speaker>Чужой лакей.</speaker>
+          <p>Ну, да уж там посмотрю после. Прощай, Иван!</p>
+        </sp>
+        <sp who="#Ivan">
+          <speaker>Иван.</speaker>
+          <p>Прощай!</p>
+          <stage type="delivery">(Идет отворять дверь.)</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>VI</head>
+        <stage>Горничная девушка, бежит бегом через лакейскую.</stage>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Куды, куды! удостойте взглядом!</p>
+          <stage type="delivery">(Хватает ее за полу платья.)</stage>
+        </sp>
+        <sp who="#Devushka">
+          <speaker>Девушка.</speaker>
+          <p>Нельзя, нельзя, Григорий Павлович! не держите меня, совсем-с некогда.</p>
+          <stage type="delivery">(Вырывается и убегает в дверь на лестницу.)</stage>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(смотря вслед ей).</stage>
+          <p>Вот она, как поплелась!</p>
+          <stage type="delivery">(Смеется.)</stage>
+          <p>Хе, хе, хе!</p>
+        </sp>
+        <sp who="#Ivan">
+          <speaker>Иван</speaker>
+          <stage type="delivery">(смеется).</stage>
+          <p>Хи, хи, хи!</p>
+        </sp>
+        <stage>Выходит Барин. Рожи у Григория и Ивана вдруг становятся насупившись и сурьезны.
+          Григорий снимает с вешалки шубу и накидывает барину на плечи. Барин уходит.</stage>
+        <sp who="#Grigorij">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(стоит среди комнаты, чистя пальцем в носу).</stage>
+          <p>Ведь вот свободное время. Барин ушел, чего бы, кажется, лучше, — нет, сейчас привалит
+            этот черт, брюхач-дворецкий.</p>
+          <stage>За сценой слышен крик дворецкого: «Ведь вот, точно, Божеское наказание: десять
+            человек в доме и хоть бы один что-нибудь прибрал».</stage>
+          <p>Вон уж, пошел кричать толстобрюхий.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>VII</head>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Пузатый дворецкий</speaker>
+          <stage type="delivery">(входит с сильными движениями и размахами рук).</stage>
+          <p>Побоялись бы хоть совести своей, коли Бога не боитесь. Ведь ковры до сих пор не
+            выколочены. Вы бы, Григорий Павлович, пример другим должны бы дать, а вы спите ровно от
+            утра до вечера; ведь глаза-то у вас совсем заплыли от сна, ей-Богу! Ведь вы совсем
+            подлец после этого, Григорий Павлович.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий.</speaker>
+          <p>Да что ж? нешто я не человек, что уж и заснуть нельзя?</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий.</speaker>
+          <p>Да кто ж против этого и слово говорит? Почему ж не заснуть? Но ведь не весь же день
+            спать. Ну, вот хоть бы и ты, Петр Иванович! ведь ты, не говоря дурного слова, на свинью
+            похож, ей-Богу! Ведь что тебе работы? всего два, три каких-нибудь подсвечника вычистить.
+            Ну, зачем ты тут баишься?</p>
+          <p>А тебе, Ванька, просто толчка в затылок следует.</p>
+        </sp>
+        <sp who="#Grigorij">
+          <speaker>Григорий</speaker>
+          <stage type="delivery">(уходя).</stage>
+          <p>Эх ты, житье, житье! вставши да за вытье!</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий</speaker>
+          <stage type="delivery">(оставшись один).</stage>
+          <p>В том-то и есть поведенье, что всякий человек должен знать долг. Коли слуга, так слуга,
+            дворянин, так дворянин, архиерей, так архиерей. А то бы, пожалуй, всякий зачал... я бы
+            сейчас сказал: «Нет, я не дворецкий, а губернатор или там какой-нибудь от инфантерии».
+            Да ведь за то мне всякий бы сказал: «Нет, врешь, ты дворецкий, а не генерал», — вот что!
+            «Твоя обязанность смотреть за домом, за поведеньем слуг», — вот что! «Тебе не то, что
+            бон жур, коман ву франсе, и веди порядок, распоряженье», — вот что! Да.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>VIII</head>
+        <stage>Входит Аннушка, горничная девушка из другого дома.</stage>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий.</speaker>
+          <p>А! Анна Гавриловна! Насчет моего почтения с большим удовольствием вас вижу.</p>
+        </sp>
+        <sp who="#Annushka">
+          <speaker>Аннушка.</speaker>
+          <p>Не беспокойтесь, Лаврентий Павлович! Я нарочно зашла к вам на минуту: я встретила
+            карету вашего барина и узнала, что его нет дома.</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий.</speaker>
+          <p>И очень хорошо сделали, я и жена будем очень рады. Пожалуйте, садитесь.</p>
+        </sp>
+        <sp who="#Annushka">
+          <speaker>Аннушка</speaker>
+          <stage type="delivery">(севши).</stage>
+          <p>Скажите, ведь вы знаете что-нибудь о бале, который на днях затевается?</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий.</speaker>
+          <p>Как же. Оно примерно, вот изволите видеть, складчина. Один человек, другой, примерно
+            также сказать, третий. Конечно, это, впрочем, составит большую сумму. Я пожертвовал
+            вместе с женою пять рублей. Ну, натурально, бал, или, что обыкновенно говорится,
+            вечеринка. Конечно, будет угощение, примерно сказать, прохладительное. Для молодых людей
+            танцы и тому прочие подобные удовольствия.</p>
+        </sp>
+        <sp who="#Annushka">
+          <speaker>Аннушка.</speaker>
+          <p>Непременно, непременно буду! Я только зашла затем, чтобы узнать, будете ли вы вместе с
+            Агафьей Ивановной.</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий.</speaker>
+          <p>Уж Агафья Ивановна только и говорит все что о вас.</p>
+        </sp>
+        <sp who="#Annushka">
+          <speaker>Аннушка.</speaker>
+          <p>Я боюсь только насчет общества.</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий.</speaker>
+          <p>Нет, Анна Гавриловна, у нас будет общество хорошее. Не могу сказать наверно, но слышал,
+            что будет камердинер графа Толстогуба, буфетчик и кучера князя Брюховецкого, горничная
+            какой-то княгини... я думаю, тоже чиновники некоторые будут.</p>
+        </sp>
+        <sp who="#Annushka">
+          <speaker>Аннушка.</speaker>
+          <p>Одно только мне очень не нравится, что будут кучера. От них всегда запах простого
+            табаку или водки; притом же все они такие необразованные, невежи.</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий.</speaker>
+          <p>Позвольте вам доложить, Анна Гавриловна, что кучера кучерам рознь. Оно, конечно, так
+            как кучера, по обыкновению больше своему, находятся неотлучно при лошадях, иногда
+            подчищают, с позволения сказать, кал; конечно, человек простой, выпьет стакан водки или,
+            по недостаточности больше, выкурит обыкновенного бакуну, какой большею частию простой
+            народ употребляет; да, так оно натурально, что от него иногда, примерно сказать, воняет
+            навозом или водкой; конечно, все это так; да, однако ж, согласитесь сами, Анна
+            Гавриловна, что есть и такие кучера, которые хотя и кучера, однако ж, по обыкновению
+            своему, больше, примерно сказать, конюхи, нежели кучера. Их должность, или, так
+            выразиться, дирекция, состоит в том, чтобы отпустить овес или укорить в чем, если
+            провинился форейтор или кучер.</p>
+        </sp>
+        <sp who="#Annushka">
+          <speaker>Аннушка.</speaker>
+          <p>Как вы хорошо говорите, Лаврентий Павлович! я всегда вас заслушиваюсь.</p>
+        </sp>
+        <sp who="#PuzatyjDvoretskij">
+          <speaker>Дворецкий</speaker>
+          <stage type="delivery">(с довольною улыбкою).</stage>
+          <p>Не стоит благодарности, сударыня. Оно, конечно, не всякий человек имеет, примерно
+            сказать, речь, то есть дар слова. Натурально, бывает иногда... что, как обыкновенно
+            говорят, косноязычие... Да. Или иные прочие подобные случаи, что, впрочем, уже
+            происходит от натуры... Да не угодно ли вам пожаловать в мою комнату?</p>
+        </sp>
+        <stage>Аннушка идет. Лаврентий за нею.</stage>
+      </div>
+    </body>
+  </text>
+</TEI>
