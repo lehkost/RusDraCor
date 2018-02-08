@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 from os import walk
 
 
-infolder = '../TEI/ilibrary/' 
+infolder = '../TEI/ilibrary/'
 outfolder =  '../CSV/ilibrary_csv/'
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
