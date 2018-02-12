@@ -49,7 +49,7 @@
         <listPerson>
           <person xml:id="Olga" sex="FEMALE">
             <persName>Ольга</persName>
-            <persName xml:lang="en">Olʹga</persName>
+            <persName xml:lang="en">Olga</persName>
             <persName xml:lang="de">Olʹga</persName>
           </person>
           <person xml:id="Irina" sex="FEMALE">
@@ -59,22 +59,22 @@
           </person>
           <person xml:id="Chebutykin" sex="MALE">
             <persName>Чебутыкин</persName>
-            <persName xml:lang="en">Čebutykin</persName>
+            <persName xml:lang="en">Chebutikin</persName>
             <persName xml:lang="de">Čebutykin</persName>
           </person>
           <person xml:id="Tuzenbah" sex="MALE">
             <persName>Тузенбах</persName>
-            <persName xml:lang="en">Tuzenbah</persName>
+            <persName xml:lang="en">Tuzenbach</persName>
             <persName xml:lang="de">Tuzenbah</persName>
           </person>
           <person xml:id="Masha" sex="FEMALE">
             <persName>Маша</persName>
-            <persName xml:lang="en">Maša</persName>
+            <persName xml:lang="en">Masha</persName>
             <persName xml:lang="de">Maša</persName>
           </person>
           <person xml:id="Solenyj" sex="MALE">
             <persName>Соленый</persName>
-            <persName xml:lang="en">Solenyj</persName>
+            <persName xml:lang="en">Soleni</persName>
             <persName xml:lang="de">Solenyj</persName>
           </person>
           <person xml:id="Anfisa" sex="FEMALE">
@@ -89,27 +89,27 @@
           </person>
           <person xml:id="Vershinin" sex="MALE">
             <persName>Вершинин</persName>
-            <persName xml:lang="en">Veršinin</persName>
+            <persName xml:lang="en">Vershinin</persName>
             <persName xml:lang="de">Veršinin</persName>
           </person>
           <person xml:id="Andrej" sex="MALE">
             <persName>Андрей</persName>
-            <persName xml:lang="en">Andrej</persName>
+            <persName xml:lang="en">Andrey</persName>
             <persName xml:lang="de">Andrej</persName>
           </person>
           <person xml:id="Natasha" sex="FEMALE">
             <persName>Наташа</persName>
-            <persName xml:lang="en">Nataša</persName>
+            <persName xml:lang="en">Natasha</persName>
             <persName xml:lang="de">Nataša</persName>
           </person>
           <person xml:id="Rode" sex="MALE">
             <persName>Родэ</persName>
-            <persName xml:lang="en">Rodè</persName>
+            <persName xml:lang="en">Rode</persName>
             <persName xml:lang="de">Rodè</persName>
           </person>
           <person xml:id="Kulygin" sex="MALE">
             <persName>Кулыгин</persName>
-            <persName xml:lang="en">Kulygin</persName>
+            <persName xml:lang="en">Kuligin</persName>
             <persName xml:lang="de">Kulygin</persName>
           </person>
           <person xml:id="Fedotik" sex="MALE">
@@ -135,6 +135,7 @@
         <change who="#ff" when="2017-07-22">segmented first and second act</change>
         <change who="#ff" when="2017-07-23">segmented third and fourth act</change>
         <change who="#ff" when="2017-11-27">(DE|EN) transl. of character names in ISO 9</change>
+        <change who="#sveta" when="2018-02-12">EN transl. of character names according to http://www.gutenberg.org/files/7986/7986-h/7986-h.htm#link2H_4_0008 </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
