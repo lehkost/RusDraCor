@@ -48,7 +48,7 @@
         <listPerson>
           <person xml:id="MarijaVasilevna" sex="FEMALE">
             <persName>Мария Васильевна</persName>
-            <persName xml:lang="en">Mariâ Vasilʹevna</persName>
+            <persName xml:lang="en">Mme. Voitskaya</persName>
             <persName xml:lang="de">Mariâ Vasilʹevna</persName>
           </person>
           <person xml:id="Telegin" sex="MALE">
@@ -68,17 +68,17 @@
           </person>
           <person xml:id="Astrov" sex="MALE">
             <persName>Астров</persName>
-            <persName xml:lang="en">Astrov</persName>
+            <persName xml:lang="en">Astroff</persName>
             <persName xml:lang="de">Astrov</persName>
           </person>
           <person xml:id="Serebrjakov" sex="MALE">
             <persName>Серебряков</persName>
-            <persName xml:lang="en">Serebrâkov</persName>
+            <persName xml:lang="en">Serebrakoff</persName>
             <persName xml:lang="de">Serebrâkov</persName>
           </person>
           <person xml:id="Vojnitskij" sex="MALE">
             <persName>Войницкий</persName>
-            <persName xml:lang="en">Vojnickij</persName>
+            <persName xml:lang="en">Voitski</persName>
             <persName xml:lang="de">Vojnickij</persName>
           </person>
           <person xml:id="Marina" sex="FEMALE">
@@ -88,12 +88,12 @@
           </person>
           <person xml:id="Sonja" sex="FEMALE">
             <persName>Соня</persName>
-            <persName xml:lang="en">Sonâ</persName>
+            <persName xml:lang="en">Sonia</persName>
             <persName xml:lang="de">Sonâ</persName>
           </person>
           <person xml:id="ElenaAndreevna" sex="FEMALE">
             <persName>Елена Андреевна</persName>
-            <persName xml:lang="en">Elena Andreevna</persName>
+            <persName xml:lang="en">Helena</persName>
             <persName xml:lang="de">Elena Andreevna</persName>
           </person>
         </listPerson>
@@ -114,6 +114,7 @@
         <change who="#to" when="2017-06-04">gender</change>
         <change who="#ff" when="2017-06-08">scene segmentation for all four acts</change>
         <change who="#ff" when="2017-11-27">(DE|EN) transl. of character names in ISO 9</change>
+        <change who="#sveta" when="2018-02-12">EN transl. of character names according to http://www.gutenberg.org/files/1756/1756-h/1756-h.htm </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
