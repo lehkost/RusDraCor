@@ -1,6 +1,6 @@
 text.slice.length=3000
 text.slice.overlap=0
-rare.occurrences.threshold=2
+rare.occurrences.threshold=5
 zeta.filter.threshold=0.1
 oppose.method="craig.zeta"
 display.on.screen=TRUE
