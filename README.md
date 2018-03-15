@@ -8,4 +8,4 @@ If you just want to download the corpus with TEI files, do this:
 svn export https://github.com/lehkost/RusDraCor/trunk/tei
 ```
 
-RusDraCor will first be presented on June 29, 2017, at the [Corpora 2017 conference](https://events.spbu.ru/events/anons/corpora-2017/?lang=Eng) in St. Petersburg ([our slides here](https://dlina.github.io/presentations/2017-spb/)) and on July 11, 2017, at the ["Digitizing the stage" conference](https://digitizingthestage.wordpress.com/) in Oxford. The social network data we extracted so far can be explored with [our Shinyapp](https://rusdracor.shinyapps.io/showcase/).
+RusDraCor will first be presented on June 29, 2017, at the [Corpora 2017 conference](https://events.spbu.ru/events/anons/corpora-2017/?lang=Eng) in St. Petersburg ([our slides here](https://dlina.github.io/presentations/2017-spb/)) and on July 11, 2017, at the ["Digitizing the stage" conference](https://digitizingthestage.wordpress.com/) in Oxford. The social network data we extracted so far can be explored with [our Shinyapp](https://shiny.dracor.org/).
